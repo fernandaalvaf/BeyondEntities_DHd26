@@ -95,7 +95,6 @@ class DatabaseClient:
             - id: Datensatz-ID
             - field1: Erste Beschreibung
             - field2: Zweite Beschreibung
-            - field3: Dritte Beschreibung
             
         Raises:
             SQLAlchemyError: Bei Fehlern während der Abfrage
@@ -114,8 +113,7 @@ class DatabaseClient:
                     record = {
                         "id": row.id,
                         "field1": row.field1,
-                        "field2": row.field2,
-                        "field3": row.field3
+                        "field2": row.field2
                     }
                     records.append(record)
                 
@@ -128,8 +126,8 @@ class DatabaseClient:
         except AttributeError as e:
             logger.error(f"Query liefert nicht die erwarteten Felder: {e}")
             raise ValueError(
-                f"Die Query muss die Felder 'id', 'field1', 'field2', "
-                f"und 'field3' zurückgeben. Fehler: {e}"
+                f"Die Query muss die Felder 'id', 'field1' und 'field2' "
+                f"zurückgeben. Fehler: {e}"
             )
     
     def __enter__(self):

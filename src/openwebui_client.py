@@ -58,21 +58,18 @@ class OpenWebUIClient:
         
         Args:
             descriptions: Dictionary mit id und Beschreibungen
-                         (Schlüssel: "id", "field1", "field2", "field3")
+                         (Schlüssel: "id", "field1", "field2")
         
         Returns:
             Payload-Dictionary für die API
         """
-        # Erstelle den User-Prompt mit den drei Beschreibungen und Sprachen
+        # Erstelle den User-Prompt mit den zwei Beschreibungen und Sprachen
         lang1 = self.languages.get('field1', 'unknown')
         lang2 = self.languages.get('field2', 'unknown')
-        lang3 = self.languages.get('field3', 'unknown')
         
         user_prompt = f"""Beschreibung ({lang1}): {descriptions.get('field1', '')}
 
-Beschreibung ({lang2}): {descriptions.get('field2', '')}
-
-Beschreibung ({lang3}): {descriptions.get('field3', '')}"""
+Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
         
         # Payload-Struktur für OpenWebUI / OpenAI-kompatible APIs
         payload = {

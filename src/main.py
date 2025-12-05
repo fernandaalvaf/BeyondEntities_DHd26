@@ -132,7 +132,7 @@ def main() -> int:
             endpoint=api_config['endpoint'],
             model=api_config['model'],
             system_prompt=system_prompt,
-            languages=api_config.get('languages', {'field1': 'unknown', 'field2': 'unknown', 'field3': 'unknown'}),
+            languages=api_config.get('languages', {'field1': 'unknown', 'field2': 'unknown'}),
             api_key=api_config.get('api_key'),
             timeout_seconds=api_config.get('timeout_seconds', 60),
             max_retries=api_config.get('max_retries', 3),

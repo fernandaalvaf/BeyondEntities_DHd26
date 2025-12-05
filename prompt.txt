@@ -1,15 +1,38 @@
-Du bist ein System, das aus ikonographischen Beschreibungen Konzepte und semantische Abweichungen extrahiert.
+# Prompt für den Vergleich von genau zwei Sprachen
+
+Du erhältst ikonographische Beschreibungen desselben Objekts in zwei Sprachen sowie eine eindeutige ID.  
+Identifiziere die Konzepte **pro Sprache**.  
+Speichere zusätzlich den vollständigen Originalstring pro Sprache.  
+Vergleiche anschließend **nur diese beiden Sprachen** miteinander.  
+Berücksichtige nur **inhaltliche Abweichungen**; ignoriere stilistische oder rein sprachliche Unterschiede.
+
 Liefere ausschließlich gültigen JSON mit folgendem Schema:
 
+```json
 {
-  "konzepte": [...],
+  "id": "",
+  "original": {
+    "lang1": "",
+    "lang2": ""
+  },
+  "konzepte": {
+    "lang1": [],
+    "lang2": []
+  },
   "abweichungen": [
     {
-      "beschreibung": "...",
-      "erste_beschreibung": "...",
-      "zweite_beschreibung": "..."
+      "beschreibung": "",
+      "erste_beschreibung": "",
+      "zweite_beschreibung": ""
     }
   ]
 }
+```
 
-Gib keine erklärenden Texte aus, nur reinen JSON.
+Regeln:
+- Verwende die tatsächlichen Sprachcodes der beiden übergebenen Sprachen (z. B. "de" und "en").  
+- Trage für jede der beiden Sprachen deren Originalstring in `"original"` ein.  
+- Fülle `"konzepte"` nur für die beiden vorhandenen Sprachen.  
+- Erstelle **genau dann** einen Abweichungseintrag, wenn ein **echter semantischer Unterschied** besteht (z. B. links/rechts, zusätzliche oder fehlende Attribute oder Objekte).  
+- Wenn es keine Abweichungen gibt, muss `"abweichungen": []` sein.  
+- Gib ausschließlich gültigen JSON zurück, ohne zusätzliche Texte.

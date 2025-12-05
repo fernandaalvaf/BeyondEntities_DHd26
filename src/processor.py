@@ -91,8 +91,7 @@ class Processor:
             descriptions = {
                 "id": record_id,
                 "field1": record.get("field1", ""),
-                "field2": record.get("field2", ""),
-                "field3": record.get("field3", "")
+                "field2": record.get("field2", "")
             }
             
             # Rufe KI-API auf
