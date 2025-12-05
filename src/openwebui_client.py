@@ -121,6 +121,31 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
         except (KeyError, IndexError) as e:
             raise ValueError(f"Fehler beim Extrahieren des Modell-Outputs: {e}")
     
+    def _clean_json_output(self, output: str) -> str:
+        """
+        Bereinigt den Modell-Output, indem Markdown-Code-Blöcke entfernt werden.
+        
+        Args:
+            output: Roher Modell-Output
+            
+        Returns:
+            Bereinigter JSON-String
+        """
+        # Entferne Markdown-Code-Blöcke (```json ... ``` oder ``` ... ```)
+        output = output.strip()
+        
+        # Prüfe auf ```json am Anfang
+        if output.startswith("```json"):
+            output = output[7:]  # Entferne ```json
+        elif output.startswith("```"):
+            output = output[3:]  # Entferne ```
+        
+        # Prüfe auf ``` am Ende
+        if output.endswith("```"):
+            output = output[:-3]  # Entferne ```
+        
+        return output.strip()
+    
     def validate_json(self, data: dict[str, Any], required_keys: list[str] | None = None) -> None:
         """
         Validiert das JSON-Output gegen erwartete Schlüssel.
@@ -194,11 +219,14 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
                 # Modell-Output extrahieren
                 model_output = self._extract_model_output(response_data)
                 
+                # Bereinige Modell-Output (entferne Markdown-Code-Blöcke)
+                cleaned_output = self._clean_json_output(model_output)
+                
                 # JSON parsen
                 try:
-                    result_json = json.loads(model_output.strip())
+                    result_json = json.loads(cleaned_output.strip())
                 except json.JSONDecodeError as e:
-                    raise ValueError(f"Modell-Output ist kein gültiges JSON: {e}\nOutput: {model_output[:200]}")
+                    raise ValueError(f"Modell-Output ist kein gültiges JSON: {e}\nOutput: {cleaned_output[:200]}")
                 
                 # JSON validieren
                 self.validate_json(result_json, required_keys)

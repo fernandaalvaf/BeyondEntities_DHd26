@@ -1,38 +1,85 @@
-# Prompt für den Vergleich von genau zwei Sprachen
+# Prompt für Konzept- und Abweichungserkennung mit Ähnlichkeitsbewertung
 
-Du erhältst ikonographische Beschreibungen desselben Objekts in zwei Sprachen sowie eine eindeutige ID.  
-Identifiziere die Konzepte **pro Sprache**.  
-Speichere zusätzlich den vollständigen Originalstring pro Sprache.  
-Vergleiche anschließend **nur diese beiden Sprachen** miteinander.  
-Berücksichtige nur **inhaltliche Abweichungen**; ignoriere stilistische oder rein sprachliche Unterschiede.
+## Zweck
+Extrahiere aus zwei ikonografischen Beschreibungen die jeweils enthaltenen **semantischen Konzepte** als vollständige Einheiten. Vergleiche anschließend **jedes Konzept aus DE mit jedem passenden Konzept aus EN**.  
+Für jedes Vergleichspaar gib aus:  
+- ob sie **semantisch übereinstimmen**,  
+- ob sie **abweichen**,  
+- und zusätzlich einen **Ähnlichkeitswert (0–100)**, der die inhaltliche Nähe abbildet.
 
-Liefere ausschließlich gültigen JSON mit folgendem Schema:
+Auch bei semantisch gleichen Konzepten muss ein Vergleichseintrag erzeugt werden.
+
+## Regeln zur Konzepterkennung
+1. **Konzepte müssen vollständige semantische Einheiten sein**, keine Einzelwörter.  
+   Beispiele:  
+   – „Aphrodite stehend“  
+   – „Aphrodite von vorn“  
+   – „Aphrodite Rechte Hand vor der Brust“
+
+2. **Bezüge müssen eindeutig sein.**  
+   Jedes Konzept benennt das Subjekt (z. B. Aphrodite, Eros, Figur, Gott).
+
+3. **Synonyme/Äquivalenzen erkennen und zusammenführen:**  
+   Beispiele:  
+   – bare chested = nackter Oberkörper  
+   – facing = von vorn  
+   – basket of fruit = calathos = Korb mit Früchten  
+   – turreted = Mauerkrone
+
+4. **Positions- und Richtungsangaben explizit als eigene Konzepte erfassen:**  
+   – links/rechts  
+   – oben/unten  
+   – nach links unten  
+   – to the left of Aphrodite
+
+5. **Objektzuweisungen klar erfassen:**  
+   – „Eros links von Aphrodite“  
+   – „Aphrodite rechte Hand vor der Brust“  
+   – „Eros auf einem Delphin“
+
+6. **Vergleichslogik:**  
+   Für jedes Konzept aus DE wird ein ähnliches oder entsprechendes Konzept aus EN zugeordnet.  
+   Falls kein passendes Konzept existiert, wird EN-Konzept = null.  
+   Das gleiche umgekehrt für EN → DE.
+
+7. **Ähnlichkeitsbewertung:**  
+   Der Wert (0–100) orientiert sich ausschließlich an semantischer Nähe:  
+   – 100 = vollständig äquivalent  
+   – 70–99 = gleiches Motiv, geringfügige Abweichungen (z. B. facing/von vorn)  
+   – 40–69 = ähnliche, aber nicht gleiche Bedeutung  
+   – 1–39 = kaum gemeinsame Bedeutung  
+   – 0 = vollständig verschieden
+
+## Ausgabeformat
+Die Ausgabe erfolgt im folgenden strukturierten Format:
 
 ```json
 {
-  "id": "",
-  "original": {
-    "lang1": "",
-    "lang2": ""
+  "originaleingabe": {
+    "de": "...",
+    "en": "..."
   },
   "konzepte": {
-    "lang1": [],
-    "lang2": []
+    "de": [ ... vollständige Konzepte ... ],
+    "en": [ ... vollständige Konzepte ... ]
   },
-  "abweichungen": [
+  "vergleich": [
     {
-      "beschreibung": "",
-      "erste_beschreibung": "",
-      "zweite_beschreibung": ""
+      "konzept_de": "...",
+      "konzept_en": "... oder null",
+      "similarity": 0-100,
+      "abweichung": true/false,
+      "beschreibung": "Falls abweichend, kurze Beschreibung"
     }
-  ]
+  ],
+  "meta": {
+    "source_id": "",
+    "languages": ["de", "en"]
+  }
 }
 ```
 
-Regeln:
-- Verwende die tatsächlichen Sprachcodes der beiden übergebenen Sprachen (z. B. "de" und "en").  
-- Trage für jede der beiden Sprachen deren Originalstring in `"original"` ein.  
-- Fülle `"konzepte"` nur für die beiden vorhandenen Sprachen.  
-- Erstelle **genau dann** einen Abweichungseintrag, wenn ein **echter semantischer Unterschied** besteht (z. B. links/rechts, zusätzliche oder fehlende Attribute oder Objekte).  
-- Wenn es keine Abweichungen gibt, muss `"abweichungen": []` sein.  
-- Gib ausschließlich gültigen JSON zurück, ohne zusätzliche Texte.
+## Hinweise
+- Bei der ID darf **nicht** der Beschreibungstext eingetragen werden; immer die Original-ID verwenden.  
+- Jede semantische Einheit muss vollständig erfasst werden (Subjekt + Handlung/Position/Beziehung).  
+- Auch bei hoher Ähnlichkeit wird ein Vergleichseintrag erzeugt; Unterschiede werden nur markiert, wenn sie inhaltlich relevant sind.
