@@ -1,0 +1,39 @@
+database:
+  driver: "mysql+pymysql"    # oder "postgresql", "sqlite", etc.
+  host: "localhost"
+  port: 3306
+  user: "your_database_user"
+  password: "your_database_password"
+  name: "your_database_name"
+  # SQL-Query, die mindestens id und drei Beschreibungsfelder liefert
+  # Die Query muss die Felder als field1, field2, field3 zurückgeben (mit AS)
+  query: |
+    SELECT
+      id,
+      description_column_1 as field1,
+      description_column_2 as field2,
+      description_column_3 as field3
+    FROM your_table_name
+    WHERE processed = FALSE
+    LIMIT 10;
+
+api:
+  base_url: "http://localhost:11434"   # URL zu OpenWebUI / Proxy
+  endpoint: "/api/chat/completions"    # API-Endpoint
+  api_key: "your-api-key-here"         # API-Schlüssel für Authentifizierung (optional)
+  model: "your-model-name"             # z.B. "llama3.3:70b-instruct-q8_0"
+  # Sprachen-ISO-Codes (zweistellig) für die drei Felder
+  languages:
+    field1: "de"   # Deutsch
+    field2: "en"   # Englisch
+    field3: "fr"   # Französisch
+  timeout_seconds: 60
+  max_retries: 3
+  retry_delay_seconds: 3
+
+processing:
+  output_dir: "output_json"
+  # Optional: erwartete Top-Level-Keys im JSON der KI
+  required_keys:
+    - "konzepte"
+    - "abweichungen"
