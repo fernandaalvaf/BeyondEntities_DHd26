@@ -88,6 +88,9 @@ class Processor:
         try:
             logger.info(f"Starte Verarbeitung für ID {record_id}")
             
+            # Zeitstempel vor Verarbeitung
+            start_time = datetime.now()
+            
             # Bereite Beschreibungen für API-Aufruf vor
             descriptions = {
                 "id": record_id,
@@ -101,16 +104,22 @@ class Processor:
                 required_keys=self.required_keys
             )
             
-            # Erstelle Metadaten
+            # Zeitstempel nach Verarbeitung
+            end_time = datetime.now()
+            execution_time = (end_time - start_time).total_seconds()
+            
+            # Erstelle Metadaten mit Zeitinformationen
             meta_info = {
                 "source_id": record_id,
-                "languages": list(self.openwebui_client.languages.values())
+                "languages": list(self.openwebui_client.languages.values()),
+                "execution_date": start_time.isoformat(),
+                "execution_time_seconds": round(execution_time, 2)
             }
             
             # Speichere Ergebnis
             self._save_result(record_id, result, meta_info)
             
-            logger.info(f"Verarbeitung erfolgreich für ID {record_id}")
+            logger.info(f"Verarbeitung erfolgreich für ID {record_id} ({execution_time:.2f}s)")
             return True
             
         except Exception as e:

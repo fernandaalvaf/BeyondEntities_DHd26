@@ -42,8 +42,8 @@ def main() -> int:
     parser.add_argument(
         '--output',
         type=str,
-        default='vergleiche.csv',
-        help='Pfad zur Output-CSV-Datei (Standard: vergleiche.csv)'
+        default='csv/vergleiche.csv',
+        help='Pfad zur Output-CSV-Datei (Standard: csv/vergleiche.csv)'
     )
     
     args = parser.parse_args()

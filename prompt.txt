@@ -1,49 +1,124 @@
-# Prompt für Konzept-, Abweichungs- und Ähnlichkeitsanalyse
+# Finaler Prompt für Konzept-, Abweichungs-, Matching- und Ähnlichkeitsanalyse
 
 ## Zweck
-Extrahiere aus zwei ikonografischen Beschreibungen die jeweils enthaltenen **semantischen Konzepte** (als vollständige Einheiten). Vergleiche anschließend **jedes Konzept aus DE mit dem entsprechenden Konzept aus EN** und gib zusätzlich eine **Ähnlichkeitsbewertung (0–100)** aus.  
-Alle Konzepte müssen verglichen werden – auch wenn sie übereinstimmen.
+Extrahiere aus zwei ikonografischen Beschreibungen **vollständige semantische Konzepte**, führe ein **sauberes 1:1-Matching** durch, berechne **Ähnlichkeitswerte (0–100)** und gib **nur echte inhaltliche Abweichungen** aus.  
+Die Struktur muss stabil sein, und jedes EN-Konzept darf **maximal einmal** zugeordnet werden.
 
-## Regeln zur Konzepterkennung
-1. **Konzepte müssen vollständige semantische Einheiten sein.**  
-   Beispiele:  
-   – „Aphrodite stehend“  
-   – „Aphrodite von vorn“  
-   – „Aphrodite rechte Hand vor der Brust“
+---
 
-2. **Bezüge müssen eindeutig sein.**  
-   Jedes Konzept benennt das Subjekt (Aphrodite, Eros, Gott, Figur usw.).
+# REGELN
 
-3. **Synonyme/Äquivalenzen zusammenführen:**  
-   Die folgende Liste wird stetig erweitert.  
-   **Aktuell definiert:**  
-   - Perlkreis = border of dots
+## 1. Konzepte müssen vollständige semantische Einheiten sein
+Ein Konzept besteht aus:  
+**Subjekt + Handlung/Attribut/Position/Beziehung**  
 
-4. **Positions- und Richtungsangaben immer als eigene Konzepte:**  
-   – links/rechts  
-   – oben/unten  
-   – nach links unten  
-   – to the left of …
+Beispiele:  
+- „Anchialos Brustbild“  
+- „Anchialos nach rechts“  
+- „Anchialos mit Taenia“  
+- „Kapaneus Speer in der rechten Hand haltend“  
+- „Eros links von Aphrodite“
 
-5. **Objekt- und Körperteilzuweisungen eindeutig formulieren:**  
-   – „Eros links von Aphrodite“  
-   – „Aphrodite rechte Hand vor der Brust“  
-   – „Eros reitet einen Delphin“
+NICHT erlaubt:  
+- „nach rechts“  
+- „mit Taenia“  
+- „Speer“
 
-6. **Vergleichslogik:**  
-   Für jedes Konzept aus DE wird ein semantisch entsprechendes Konzept aus EN gesucht.  
-   Wenn kein passendes Konzept vorhanden ist → `"konzept_en": null`.  
-   Dasselbe gilt umgekehrt für EN → DE.
+---
 
-7. **Ähnlichkeitsbewertung (0–100):**  
-   – 100 = vollständig äquivalent  
-   – 70–99 = semantisch gleich, nur differente Formulierung  
-   – 40–69 = ähnliche Bedeutung  
-   – 1–39 = geringe Ähnlichkeit  
-   – 0 = keine Gemeinsamkeit
+## 2. Subjektbezug immer explizit nennen
+Jedes Konzept muss klar benennen, wer etwas tut oder hält.  
+Beispiel:  
+statt „mit Gewand“ → „Anchialos mit Gewand“.
 
-## Ausgabeformat
-Die Ausgabe folgt immer diesem Schema:
+---
+
+## 3. Synonyme/Äquivalenzen
+Synonymliste (fortlaufend erweiterbar):
+
+- Perlkreis = border of dots
+
+Sobald Synonyme erkannt werden, gelten sie als **ähnlichkeitsoptimal (100)**.
+
+---
+
+## 4. Mehr-Objekt-Konzepte aufspalten
+Wenn eine Sprache schreibt:
+- „holding shield and ladder“
+
+und die andere Sprache zwei Konzepte hat, **muss** das Mehrfachkonzept aufgeteilt werden in:
+
+- „holding shield“  
+- „holding ladder“
+
+Damit echte 1:1-Zuordnungen entstehen.
+
+---
+
+## 5. Kritische Parameter
+Folgende Unterschiede gelten als **immer abweichungsrelevant**, selbst bei hoher similarity:
+
+- links/rechts  
+- oben/unten  
+- vorwärts/facing  
+- Objekt in welcher Hand  
+- Körperteil auf welchem Objekt  
+- Orientierung eines Objekts (z. B. nach links unten)
+
+---
+
+## 6. Ähnlichkeitsbewertung
+Semantisch basiert, nicht sprachlich:
+
+- **100** = vollständig äquivalent  
+- **95–99** = praktisch identisch (nur Formulierung anders)  
+- **70–94** = deutlich ähnlich  
+- **40–69** = teilweise ähnlich  
+- **1–39** = geringe semantische Überlappung  
+- **0** = keine inhaltliche Gemeinsamkeit
+
+---
+
+## 7. Regeln für abweichung = true/false
+
+### abweichung = true, wenn:
+- similarity < 95  
+ODER  
+- ein kritischer Parameter betroffen ist  
+
+### abweichung = false, wenn:
+- similarity ≥ 95  
+UND  
+- kein kritischer Parameter betroffen ist
+
+---
+
+## 8. Matching-Regeln (sehr wichtig!)
+
+### A. **Strenges 1:1-Matching**
+Jedes DE-Konzept wird einem **genau einem** EN-Konzept zugeordnet.  
+
+### B. **Ein EN-Konzept darf nur einmal verwendet werden**
+Wenn ein EN-Konzept bereits einem DE-Konzept zugeordnet ist, darf es **nicht** erneut auftauchen.
+
+### C. **Keine künstlichen null ↔ EN-Einträge**
+Ein EN-Konzept darf nur dann im Vergleich erscheinen, wenn:
+- es **noch nicht zugeordnet wurde**  
+- und kein DE-Konzept dafür existiert
+
+### D. **Keine Dopplungen von Synonymen**
+Wenn „Perlkreis“ ↔ „border of dots“ zugeordnet wurde, darf „border of dots“ **nirgendwo sonst** erscheinen.
+
+---
+
+## 9. Fehlinterpretationen vermeiden
+- Keine Geschlechtsinterpretationen aus Namen  
+- Keine künstlichen Zusatzkonzepte („male“, „nude“, „youthful“)  
+- „low wall“ vs. „wall“ ist **keine** Abweichung, sondern nur Präzisierung
+
+---
+
+# AUSGABEFORMAT
 
 ```json
 {
@@ -61,7 +136,7 @@ Die Ausgabe folgt immer diesem Schema:
       "konzept_en": "... oder null",
       "similarity": 0-100,
       "abweichung": true/false,
-      "beschreibung": "Bei Abweichung kurze Erklärung"
+      "beschreibung": "nur bei abweichung"
     }
   ],
   "meta": {
@@ -73,7 +148,10 @@ Die Ausgabe folgt immer diesem Schema:
 }
 ```
 
-## Hinweise
-- Die ID muss immer die originale Münz-/Objekt-ID bleiben, niemals Teile der Beschreibung.  
-- Jede semantische Einheit muss vollständig und eindeutig sein.  
-- Für jedes DE-Konzept und jedes EN-Konzept wird ein Vergleichseintrag erzeugt.  
+---
+
+# Hinweise
+- Die ID muss immer die Original-ID bleiben.  
+- Jedes Konzept muss vollständig formuliert werden.  
+- Unterschiedliche Segmentierung (1 Konzept vs. 2 Konzepte) darf keine Abweichung ergeben.  
+- Nach einem erfolgreichen Synonym-Match darf ein EN-Konzept nicht erneut verwendet werden.
