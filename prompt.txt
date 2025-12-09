@@ -1,57 +1,49 @@
-# Prompt für Konzept- und Abweichungserkennung mit Ähnlichkeitsbewertung
+# Prompt für Konzept-, Abweichungs- und Ähnlichkeitsanalyse
 
 ## Zweck
-Extrahiere aus zwei ikonografischen Beschreibungen die jeweils enthaltenen **semantischen Konzepte** als vollständige Einheiten. Vergleiche anschließend **jedes Konzept aus DE mit jedem passenden Konzept aus EN**.  
-Für jedes Vergleichspaar gib aus:  
-- ob sie **semantisch übereinstimmen**,  
-- ob sie **abweichen**,  
-- und zusätzlich einen **Ähnlichkeitswert (0–100)**, der die inhaltliche Nähe abbildet.
-
-Auch bei semantisch gleichen Konzepten muss ein Vergleichseintrag erzeugt werden.
+Extrahiere aus zwei ikonografischen Beschreibungen die jeweils enthaltenen **semantischen Konzepte** (als vollständige Einheiten). Vergleiche anschließend **jedes Konzept aus DE mit dem entsprechenden Konzept aus EN** und gib zusätzlich eine **Ähnlichkeitsbewertung (0–100)** aus.  
+Alle Konzepte müssen verglichen werden – auch wenn sie übereinstimmen.
 
 ## Regeln zur Konzepterkennung
-1. **Konzepte müssen vollständige semantische Einheiten sein**, keine Einzelwörter.  
+1. **Konzepte müssen vollständige semantische Einheiten sein.**  
    Beispiele:  
    – „Aphrodite stehend“  
    – „Aphrodite von vorn“  
-   – „Aphrodite Rechte Hand vor der Brust“
+   – „Aphrodite rechte Hand vor der Brust“
 
 2. **Bezüge müssen eindeutig sein.**  
-   Jedes Konzept benennt das Subjekt (z. B. Aphrodite, Eros, Figur, Gott).
+   Jedes Konzept benennt das Subjekt (Aphrodite, Eros, Gott, Figur usw.).
 
-3. **Synonyme/Äquivalenzen erkennen und zusammenführen:**  
-   Beispiele:  
-   – bare chested = nackter Oberkörper  
-   – facing = von vorn  
-   – basket of fruit = calathos = Korb mit Früchten  
-   – turreted = Mauerkrone
+3. **Synonyme/Äquivalenzen zusammenführen:**  
+   Die folgende Liste wird stetig erweitert.  
+   **Aktuell definiert:**  
+   - Perlkreis = border of dots
 
-4. **Positions- und Richtungsangaben explizit als eigene Konzepte erfassen:**  
+4. **Positions- und Richtungsangaben immer als eigene Konzepte:**  
    – links/rechts  
    – oben/unten  
    – nach links unten  
-   – to the left of Aphrodite
+   – to the left of …
 
-5. **Objektzuweisungen klar erfassen:**  
+5. **Objekt- und Körperteilzuweisungen eindeutig formulieren:**  
    – „Eros links von Aphrodite“  
    – „Aphrodite rechte Hand vor der Brust“  
-   – „Eros auf einem Delphin“
+   – „Eros reitet einen Delphin“
 
 6. **Vergleichslogik:**  
-   Für jedes Konzept aus DE wird ein ähnliches oder entsprechendes Konzept aus EN zugeordnet.  
-   Falls kein passendes Konzept existiert, wird EN-Konzept = null.  
-   Das gleiche umgekehrt für EN → DE.
+   Für jedes Konzept aus DE wird ein semantisch entsprechendes Konzept aus EN gesucht.  
+   Wenn kein passendes Konzept vorhanden ist → `"konzept_en": null`.  
+   Dasselbe gilt umgekehrt für EN → DE.
 
-7. **Ähnlichkeitsbewertung:**  
-   Der Wert (0–100) orientiert sich ausschließlich an semantischer Nähe:  
+7. **Ähnlichkeitsbewertung (0–100):**  
    – 100 = vollständig äquivalent  
-   – 70–99 = gleiches Motiv, geringfügige Abweichungen (z. B. facing/von vorn)  
-   – 40–69 = ähnliche, aber nicht gleiche Bedeutung  
-   – 1–39 = kaum gemeinsame Bedeutung  
-   – 0 = vollständig verschieden
+   – 70–99 = semantisch gleich, nur differente Formulierung  
+   – 40–69 = ähnliche Bedeutung  
+   – 1–39 = geringe Ähnlichkeit  
+   – 0 = keine Gemeinsamkeit
 
 ## Ausgabeformat
-Die Ausgabe erfolgt im folgenden strukturierten Format:
+Die Ausgabe folgt immer diesem Schema:
 
 ```json
 {
@@ -60,8 +52,8 @@ Die Ausgabe erfolgt im folgenden strukturierten Format:
     "en": "..."
   },
   "konzepte": {
-    "de": [ ... vollständige Konzepte ... ],
-    "en": [ ... vollständige Konzepte ... ]
+    "de": [ "...", "..." ],
+    "en": [ "...", "..." ]
   },
   "vergleich": [
     {
@@ -69,17 +61,19 @@ Die Ausgabe erfolgt im folgenden strukturierten Format:
       "konzept_en": "... oder null",
       "similarity": 0-100,
       "abweichung": true/false,
-      "beschreibung": "Falls abweichend, kurze Beschreibung"
+      "beschreibung": "Bei Abweichung kurze Erklärung"
     }
   ],
   "meta": {
     "source_id": "",
-    "languages": ["de", "en"]
+    "languages": ["de", "en"],
+    "erstelldatum": "YYYY-MM-DD",
+    "ausfuehrungszeit_ms": 0
   }
 }
 ```
 
 ## Hinweise
-- Bei der ID darf **nicht** der Beschreibungstext eingetragen werden; immer die Original-ID verwenden.  
-- Jede semantische Einheit muss vollständig erfasst werden (Subjekt + Handlung/Position/Beziehung).  
-- Auch bei hoher Ähnlichkeit wird ein Vergleichseintrag erzeugt; Unterschiede werden nur markiert, wenn sie inhaltlich relevant sind.
+- Die ID muss immer die originale Münz-/Objekt-ID bleiben, niemals Teile der Beschreibung.  
+- Jede semantische Einheit muss vollständig und eindeutig sein.  
+- Für jedes DE-Konzept und jedes EN-Konzept wird ein Vergleichseintrag erzeugt.  
