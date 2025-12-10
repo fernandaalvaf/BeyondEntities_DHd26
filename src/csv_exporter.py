@@ -87,6 +87,9 @@ class CSVExporter:
             logger.warning("Keine Vergleichsdaten zum Exportieren vorhanden")
             return
         
+        # Sortiere nach ID aufsteigend
+        comparisons.sort(key=lambda x: int(x['id']) if str(x['id']).isdigit() else x['id'])
+        
         # Erstelle Output-Verzeichnis falls nötig
         self.output_csv.parent.mkdir(parents=True, exist_ok=True)
         
