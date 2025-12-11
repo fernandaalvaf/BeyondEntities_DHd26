@@ -154,6 +154,22 @@ python src/main.py --help
 - `--config`: Pfad zur Konfigurationsdatei (Standard: `config.yaml`)
 - `--prompt`: Pfad zur Prompt-Datei (Standard: `prompt.txt`)
 - `--log-file`: Pfad zur Log-Datei (Standard: `logs/processing.log`)
+- `--skip-existing`: Überspringe IDs mit existierenden JSON-Dateien (für inkrementelle Updates)
+
+**Skip-Existing Modus:**
+
+Wenn du die Verarbeitung fortsetzen möchtest ohne bereits verarbeitete IDs erneut zu prozessieren:
+
+```bash
+python src/main.py --skip-existing
+```
+
+Dies ist nützlich wenn:
+- Die Verarbeitung unterbrochen wurde (Strg+C, Verbindungsfehler, etc.)
+- Nur neue Datensätze aus der Datenbank verarbeitet werden sollen
+- Zeit und API-Kosten gespart werden sollen bei wiederholten Durchläufen
+
+Der Skip-Modus prüft für jede ID ob bereits eine `{id}.json` Datei existiert und überspringt diese dann.
 
 ### 2. CSV-Export der Vergleichsdaten
 
@@ -302,7 +318,27 @@ Log-Level: INFO (Start/Ende, Erfolg/Fehler pro Datensatz)
 2. Prüfe JSON-Output auf Korrektheit
 3. Exportiere CSV und validiere das Format
 4. Bei Bedarf Prompt anpassen
-5. Dann vollständige Verarbeitung starten
+5. Dann vollständige Verarbeitung starten (nutze `--skip-existing` bei Unterbrechungen)
+
+### Inkrementelle Verarbeitung
+
+Bei großen Datenmengen empfiehlt sich folgendes Vorgehen:
+
+1. **Erste Verarbeitung** mit kleinem LIMIT (z.B. 100 Datensätze)
+   ```bash
+   python src/main.py
+   ```
+
+2. **LIMIT erhöhen** in `config.yaml` (z.B. auf 500)
+
+3. **Mit Skip-Modus fortsetzen** (verarbeitet nur neue IDs)
+   ```bash
+   python src/main.py --skip-existing
+   ```
+
+4. **Fehlgeschlagene IDs erneut verarbeiten**: Lösche deren JSON-Dateien und führe erneut mit `--skip-existing` aus
+
+Dies spart API-Kosten und Zeit, da bereits verarbeitete Datensätze nicht erneut an die KI gesendet werden.
 
 ### CSV-Export nutzen
 

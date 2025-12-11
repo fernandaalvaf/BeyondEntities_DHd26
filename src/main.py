@@ -90,6 +90,11 @@ def main() -> int:
         default='logs/processing.log',
         help='Pfad zur Log-Datei (Standard: logs/processing.log)'
     )
+    parser.add_argument(
+        '--skip-existing',
+        action='store_true',
+        help='Überspringe IDs, für die bereits JSON-Dateien existieren. Nützlich zum Fortsetzen unterbrochener Verarbeitungen oder für inkrementelle Updates.'
+    )
     
     args = parser.parse_args()
     
@@ -144,7 +149,8 @@ def main() -> int:
             db_client=db_client,
             openwebui_client=openwebui_client,
             output_dir=processing_config['output_dir'],
-            required_keys=processing_config.get('required_keys', [])
+            required_keys=processing_config.get('required_keys', []),
+            skip_existing=args.skip_existing
         )
         
         # 4. Verarbeitung durchführen
@@ -156,6 +162,7 @@ def main() -> int:
         logger.info("Verarbeitung abgeschlossen")
         logger.info(f"Gesamt: {stats['total']}")
         logger.info(f"Erfolgreich: {stats['success']}")
+        logger.info(f"Übersprungen: {stats['skipped']}")
         logger.info(f"Fehlgeschlagen: {stats['failed']}")
         logger.info("=" * 60)
         

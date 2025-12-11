@@ -22,7 +22,8 @@ class Processor:
         db_client: DatabaseClient,
         openwebui_client: OpenWebUIClient,
         output_dir: str,
-        required_keys: list[str] | None = None
+        required_keys: list[str] | None = None,
+        skip_existing: bool = False
     ):
         """
         Initialisiert den Processor.
@@ -32,11 +33,13 @@ class Processor:
             openwebui_client: OpenWebUI-Client
             output_dir: Verzeichnis für Output-Dateien
             required_keys: Erforderliche JSON-Keys zur Validierung
+            skip_existing: Wenn True, werden IDs mit existierenden JSON-Dateien übersprungen
         """
         self.db_client = db_client
         self.openwebui_client = openwebui_client
         self.output_dir = Path(output_dir)
         self.required_keys = required_keys or []
+        self.skip_existing = skip_existing
         
         # Erstelle Output-Verzeichnis
         self._ensure_output_dir()
@@ -131,15 +134,18 @@ class Processor:
         Führt die komplette Verarbeitung durch.
         
         Returns:
-            Dictionary mit Statistiken: {"total": x, "success": y, "failed": z}
+            Dictionary mit Statistiken: {"total": x, "success": y, "failed": z, "skipped": w}
         """
         logger.info("Starte Verarbeitungspipeline")
         
         stats = {
             "total": 0,
             "success": 0,
-            "failed": 0
+            "failed": 0,
+            "skipped": 0
         }
+        
+        failed_ids = []  # Liste für fehlgeschlagene IDs
         
         try:
             # Hole Datensätze aus Datenbank
@@ -152,22 +158,44 @@ class Processor:
             
             logger.info(f"Gefundene Datensätze: {stats['total']}")
             
+            if self.skip_existing:
+                logger.info("Skip-Modus aktiv: Existierende JSON-Dateien werden übersprungen")
+            
             # Verarbeite jeden Datensatz
             for i, record in enumerate(records, 1):
+                record_id = record.get("id")
+                output_file = self.output_dir / f"{record_id}.json"
+                
+                # Prüfe ob Datei bereits existiert
+                if self.skip_existing and output_file.exists():
+                    logger.info(f"Überspringe Datensatz {i}/{stats['total']} (ID {record_id}) - Datei existiert bereits")
+                    stats["skipped"] += 1
+                    continue
+                
                 logger.info(f"Verarbeite Datensatz {i}/{stats['total']}")
                 
                 if self._process_record(record):
                     stats["success"] += 1
                 else:
                     stats["failed"] += 1
+                    failed_ids.append(record_id)
             
             # Zusammenfassung
             logger.info(
                 f"Verarbeitung abgeschlossen. "
                 f"Gesamt: {stats['total']}, "
                 f"Erfolgreich: {stats['success']}, "
+                f"Übersprungen: {stats['skipped']}, "
                 f"Fehlgeschlagen: {stats['failed']}"
             )
+            
+            # Extra-Log für fehlgeschlagene IDs
+            if failed_ids:
+                logger.error("=" * 60)
+                logger.error("FEHLGESCHLAGENE IDs (nach 3 Versuchen):")
+                logger.error(f"Anzahl: {len(failed_ids)}")
+                logger.error(f"IDs: {', '.join(map(str, failed_ids))}")
+                logger.error("=" * 60)
             
             return stats
             
