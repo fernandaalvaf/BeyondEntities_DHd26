@@ -1,120 +1,92 @@
-# Finaler Prompt für Konzept-, Abweichungs-, Matching- und Ähnlichkeitsanalyse
+# Ultrastabiler JSON-Only-Prompt für Konzept-, Matching-, Abweichungs- und Ähnlichkeitsanalyse
 
-## Zweck
-Extrahiere aus zwei ikonografischen Beschreibungen **vollständige semantische Konzepte**, führe ein **sauberes 1:1-Matching** durch, berechne **Ähnlichkeitswerte (0–100)** und gib **nur echte inhaltliche Abweichungen** aus.  
-Die Struktur muss stabil sein, und jedes EN-Konzept darf **maximal einmal** zugeordnet werden.
+**WICHTIG:**  
+Die Antwort MUSS ausschließlich aus einem einzigen JSON-Objekt bestehen.  
+Der erste ausgegebene Charakter MUSS `{` sein, der letzte `}`.  
+Keinerlei Erklärungen, Kommentare, Hinweise oder Text außerhalb des JSON.
+
+---
+
+# AUFGABE
+
+Aus zwei ikonografischen Beschreibungen sollen:
+
+1. vollständige semantische Konzepte extrahiert werden  
+2. ein sauberes 1:1-Matching durchgeführt werden  
+3. eine similarity (0–100) berechnet werden  
+4. abweichung korrekt bestimmt werden  
+5. das Ergebnis ausschließlich als JSON ausgegeben werden  
 
 ---
 
 # REGELN
 
-## 1. Konzepte müssen vollständige semantische Einheiten sein
-Ein Konzept besteht aus:  
-**Subjekt + Handlung/Attribut/Position/Beziehung**  
+## 1. Konzepte
+Ein Konzept besteht immer aus: **Subjekt + Handlung/Attribut/Position/Beziehung**  
+Keine Einzelwörter.
 
 Beispiele:  
-- „Anchialos Brustbild“  
 - „Anchialos nach rechts“  
 - „Anchialos mit Taenia“  
-- „Kapaneus Speer in der rechten Hand haltend“  
-- „Eros links von Aphrodite“
+- „Kapaneus Speer in der rechten Hand haltend“
 
-NICHT erlaubt:  
-- „nach rechts“  
-- „mit Taenia“  
-- „Speer“
+## 2. Subjekt immer nennen
+Nie: „nach rechts“, „mit Taenia“, „mit Gewand“.  
+Immer: „Anchialos nach rechts“, „Anchialos mit Taenia“.
 
----
-
-## 2. Subjektbezug immer explizit nennen
-Jedes Konzept muss klar benennen, wer etwas tut oder hält.  
-Beispiel:  
-statt „mit Gewand“ → „Anchialos mit Gewand“.
-
----
-
-## 3. Synonyme/Äquivalenzen
-Synonymliste (fortlaufend erweiterbar):
-
+## 3. Synonyme / Äquivalenzen
 - Perlkreis = border of dots
 
-Sobald Synonyme erkannt werden, gelten sie als **ähnlichkeitsoptimal (100)**.
+Synonyme gelten als similarity = 100 und dürfen nur einmal gematcht werden.
 
----
-
-## 4. Mehr-Objekt-Konzepte aufspalten
-Wenn eine Sprache schreibt:
-- „holding shield and ladder“
-
-und die andere Sprache zwei Konzepte hat, **muss** das Mehrfachkonzept aufgeteilt werden in:
-
+## 4. Mehrfachobjekte aufspalten
+„holding shield and ladder“ →  
 - „holding shield“  
 - „holding ladder“
 
-Damit echte 1:1-Zuordnungen entstehen.
-
----
-
 ## 5. Kritische Parameter
-Folgende Unterschiede gelten als **immer abweichungsrelevant**, selbst bei hoher similarity:
-
+Immer abweichungsrelevant:
 - links/rechts  
 - oben/unten  
-- vorwärts/facing  
+- vorn/facing  
 - Objekt in welcher Hand  
 - Körperteil auf welchem Objekt  
-- Orientierung eines Objekts (z. B. nach links unten)
+- Bewegungsrichtung  
+- Orientierungen wie „nach links unten“
 
----
+## 6. similarity
+- 100 = vollständig äquivalent  
+- 95–99 = praktisch identisch  
+- 70–94 = deutlich ähnlich  
+- 40–69 = teilweise ähnlich  
+- 1–39 = geringe Ähnlichkeit  
+- 0 = keine Übereinstimmung
 
-## 6. Ähnlichkeitsbewertung
-Semantisch basiert, nicht sprachlich:
-
-- **100** = vollständig äquivalent  
-- **95–99** = praktisch identisch (nur Formulierung anders)  
-- **70–94** = deutlich ähnlich  
-- **40–69** = teilweise ähnlich  
-- **1–39** = geringe semantische Überlappung  
-- **0** = keine inhaltliche Gemeinsamkeit
-
----
-
-## 7. Regeln für abweichung = true/false
-
-### abweichung = true, wenn:
+## 7. abweichung
+abweichung = true, wenn  
 - similarity < 95  
 ODER  
-- ein kritischer Parameter betroffen ist  
+- kritischer Parameter unterschiedlich ist
 
-### abweichung = false, wenn:
+abweichung = false, wenn  
 - similarity ≥ 95  
 UND  
-- kein kritischer Parameter betroffen ist
+- kein kritischer Parameter unterschiedlich ist
 
----
+## 8. Matching-Regeln
+- Jedes **DE-Konzept** wird genau **einem EN-Konzept** zugeordnet.  
+- Ein EN-Konzept darf **nur einmal** zugeordnet werden.  
+- Nach Synonym-Match darf ein EN-Konzept **nie erneut** erscheinen.  
+- `konzept_en = null` ist nur erlaubt, wenn EN-Konzept **nicht** bereits zugeordnet wurde.
 
-## 8. Matching-Regeln (sehr wichtig!)
+## 9. Keine Nebeninterpretationen
+- Keine Ableitungen aus Namen („male“ etc.)  
+- Keine künstlichen Zusatzkonzepte  
+- „low wall“ ≠ automatische Abweichung
 
-### A. **Strenges 1:1-Matching**
-Jedes DE-Konzept wird einem **genau einem** EN-Konzept zugeordnet.  
-
-### B. **Ein EN-Konzept darf nur einmal verwendet werden**
-Wenn ein EN-Konzept bereits einem DE-Konzept zugeordnet ist, darf es **nicht** erneut auftauchen.
-
-### C. **Keine künstlichen null ↔ EN-Einträge**
-Ein EN-Konzept darf nur dann im Vergleich erscheinen, wenn:
-- es **noch nicht zugeordnet wurde**  
-- und kein DE-Konzept dafür existiert
-
-### D. **Keine Dopplungen von Synonymen**
-Wenn „Perlkreis“ ↔ „border of dots“ zugeordnet wurde, darf „border of dots“ **nirgendwo sonst** erscheinen.
-
----
-
-## 9. Fehlinterpretationen vermeiden
-- Keine Geschlechtsinterpretationen aus Namen  
-- Keine künstlichen Zusatzkonzepte („male“, „nude“, „youthful“)  
-- „low wall“ vs. „wall“ ist **keine** Abweichung, sondern nur Präzisierung
+## 10. Absolutes Ausgabeformatgebot
+Die Antwort MUSS ein vollständiges, syntaktisch korrektes JSON-Objekt sein.  
+Keine Einleitung, kein Kommentar, kein Fließtext.
 
 ---
 
@@ -134,8 +106,8 @@ Wenn „Perlkreis“ ↔ „border of dots“ zugeordnet wurde, darf „border o
     {
       "konzept_de": "...",
       "konzept_en": "... oder null",
-      "similarity": 0-100,
-      "abweichung": true/false,
+      "similarity": 0,
+      "abweichung": true,
       "beschreibung": "nur bei abweichung"
     }
   ],
@@ -148,10 +120,4 @@ Wenn „Perlkreis“ ↔ „border of dots“ zugeordnet wurde, darf „border o
 }
 ```
 
----
-
-# Hinweise
-- Die ID muss immer die Original-ID bleiben.  
-- Jedes Konzept muss vollständig formuliert werden.  
-- Unterschiedliche Segmentierung (1 Konzept vs. 2 Konzepte) darf keine Abweichung ergeben.  
-- Nach einem erfolgreichen Synonym-Match darf ein EN-Konzept nicht erneut verwendet werden.
+Es dürfen **keine weiteren Felder** enthalten sein.
