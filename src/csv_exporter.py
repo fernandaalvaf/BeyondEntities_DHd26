@@ -53,12 +53,20 @@ class CSVExporter:
                 # Extrahiere ID aus meta oder Dateinamen
                 source_id = data.get('meta', {}).get('source_id', json_file.stem)
                 
+                # Extrahiere Originaltexte aus meta
+                original_texts = data.get('meta', {}).get('original_texts', {})
+                original_field1 = original_texts.get(self.languages['field1'], '')
+                original_field2 = original_texts.get(self.languages['field2'], '')
+                
                 # Extrahiere Vergleiche
                 vergleiche = data.get('vergleich', [])
                 
                 for vergleich in vergleiche:
                     comparison = {
                         'id': source_id,
+                        'url': f'https://data.corpus-nummorum.eu/editor#/designs/{source_id}',
+                        'original_field1': original_field1,
+                        'original_field2': original_field2,
                         'konzept_field1': vergleich.get(f'konzept_{self.languages["field1"]}', ''),
                         'konzept_field2': vergleich.get(f'konzept_{self.languages["field2"]}', ''),
                         'similarity': vergleich.get('similarity', ''),
@@ -99,11 +107,14 @@ class CSVExporter:
         
         fieldnames = [
             'id',
+            f'original_{lang1}',
+            f'original_{lang2}',
             f'konzept_{lang1}',
             f'konzept_{lang2}',
             'similarity',
             'abweichung',
-            'beschreibung'
+            'beschreibung',
+            'url'
         ]
         
         try:
@@ -121,6 +132,9 @@ class CSVExporter:
                     # Mappe die Felder auf die Header
                     row = {
                         'id': comparison['id'],
+                        'url': comparison['url'],
+                        f'original_{lang1}': comparison['original_field1'],
+                        f'original_{lang2}': comparison['original_field2'],
                         f'konzept_{lang1}': comparison['konzept_field1'],
                         f'konzept_{lang2}': comparison['konzept_field2'],
                         'similarity': comparison['similarity'],

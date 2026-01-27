@@ -12,6 +12,17 @@ from requests.exceptions import RequestException, Timeout
 logger = logging.getLogger(__name__)
 
 
+class Colors:
+    """ANSI-Farbcodes für Terminal-Ausgabe."""
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BLUE = '\033[94m'
+    CYAN = '\033[96m'
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+
+
 class OpenWebUIClient:
     """Client für OpenWebUI-API-Aufrufe."""
     
@@ -51,6 +62,7 @@ class OpenWebUIClient:
         self.max_retries = max_retries
         self.retry_delay_seconds = retry_delay_seconds
         self.full_url = f"{self.base_url}{self.endpoint}"
+        self.api_call_counter = 0  # Zähler für API-Aufrufe
     
     def build_payload(self, descriptions: dict[str, Any]) -> dict[str, Any]:
         """
@@ -191,8 +203,14 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
         record_id = descriptions.get("id", "unknown")
         
         for attempt in range(1, self.max_retries + 1):
+            self.api_call_counter += 1
+            
+            # Farbige Terminal-Ausgabe für API-Aufruf
+            print(f"{Colors.YELLOW}{Colors.BOLD}[API #{self.api_call_counter}]{Colors.RESET} "
+                  f"{Colors.YELLOW}API-Aufruf für ID {record_id}, Versuch {attempt}/{self.max_retries}{Colors.RESET}")
+            
             try:
-                logger.info(f"API-Aufruf für ID {record_id}, Versuch {attempt}/{self.max_retries}")
+                logger.info(f"API-Aufruf #{self.api_call_counter} für ID {record_id}, Versuch {attempt}/{self.max_retries}")
                 
                 # Payload erstellen
                 payload = self.build_payload(descriptions)
@@ -231,10 +249,18 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
                 # JSON validieren
                 self.validate_json(result_json, required_keys)
                 
-                logger.info(f"Erfolgreicher API-Aufruf für ID {record_id}")
+                # Erfolgreiche Antwort - Grüne Ausgabe
+                print(f"{Colors.GREEN}{Colors.BOLD}[API #{self.api_call_counter}]{Colors.RESET} "
+                      f"{Colors.GREEN}Erfolgreiche Antwort für ID {record_id}{Colors.RESET}")
+                
+                logger.info(f"Erfolgreicher API-Aufruf #{self.api_call_counter} für ID {record_id}")
                 return result_json
                 
             except (RequestException, Timeout) as e:
+                # Rote Ausgabe für Netzwerkfehler
+                print(f"{Colors.RED}{Colors.BOLD}[API #{self.api_call_counter}]{Colors.RESET} "
+                      f"{Colors.RED}Netzwerkfehler bei ID {record_id}, Versuch {attempt}: {str(e)[:100]}{Colors.RESET}")
+                
                 logger.warning(f"Netzwerkfehler bei ID {record_id}, Versuch {attempt}: {e}")
                 if attempt < self.max_retries:
                     logger.info(f"Warte {self.retry_delay_seconds} Sekunden vor erneutem Versuch...")
@@ -244,6 +270,10 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
                     raise
                     
             except ValueError as e:
+                # Rote Ausgabe für Validierungsfehler
+                print(f"{Colors.RED}{Colors.BOLD}[API #{self.api_call_counter}]{Colors.RESET} "
+                      f"{Colors.RED}Validierungsfehler bei ID {record_id}, Versuch {attempt}: {str(e)[:100]}{Colors.RESET}")
+                
                 logger.warning(f"Validierungsfehler bei ID {record_id}, Versuch {attempt}: {e}")
                 if attempt < self.max_retries:
                     logger.info(f"Warte {self.retry_delay_seconds} Sekunden vor erneutem Versuch...")

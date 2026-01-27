@@ -95,6 +95,11 @@ def main() -> int:
         action='store_true',
         help='Überspringe IDs, für die bereits JSON-Dateien existieren. Nützlich zum Fortsetzen unterbrochener Verarbeitungen oder für inkrementelle Updates.'
     )
+    parser.add_argument(
+        '--update-metadata',
+        action='store_true',
+        help='Aktualisiere nur die Metadaten (original_texts) in existierenden JSON-Dateien, ohne die KI-API aufzurufen. Nützlich zum Nachtragen fehlender Originaltexte.'
+    )
     
     args = parser.parse_args()
     
@@ -150,7 +155,8 @@ def main() -> int:
             openwebui_client=openwebui_client,
             output_dir=processing_config['output_dir'],
             required_keys=processing_config.get('required_keys', []),
-            skip_existing=args.skip_existing
+            skip_existing=args.skip_existing,
+            update_metadata=args.update_metadata
         )
         
         # 4. Verarbeitung durchführen

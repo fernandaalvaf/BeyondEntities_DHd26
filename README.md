@@ -10,6 +10,7 @@ Dieses Projekt lädt Beschreibungen aus einer Datenbank, verarbeitet sie über e
 - ✅ CSV-Export aller Vergleichsdaten
 - ✅ Zeitstempel und Ausführungszeit in Metadaten
 - ✅ Konfigurierbar über YAML-Datei
+- ✅ Farbige Terminal-Ausgabe mit API-Call-Counter
 
 ## Projektstruktur
 
@@ -155,6 +156,7 @@ python src/main.py --help
 - `--prompt`: Pfad zur Prompt-Datei (Standard: `prompt.txt`)
 - `--log-file`: Pfad zur Log-Datei (Standard: `logs/processing.log`)
 - `--skip-existing`: Überspringe IDs mit existierenden JSON-Dateien (für inkrementelle Updates)
+- `--update-metadata`: Aktualisiere nur Metadaten (original_texts) in existierenden JSON-Dateien ohne API-Aufruf
 
 **Skip-Existing Modus:**
 
@@ -170,6 +172,25 @@ Dies ist nützlich wenn:
 - Zeit und API-Kosten gespart werden sollen bei wiederholten Durchläufen
 
 Der Skip-Modus prüft für jede ID ob bereits eine `{id}.json` Datei existiert und überspringt diese dann.
+
+**Update-Metadata Modus:**
+
+Wenn du die Originaltexte nachträglich in bereits verarbeitete JSON-Dateien eintragen möchtest:
+
+```bash
+python src/main.py --update-metadata
+```
+
+Dies ist nützlich wenn:
+- JSON-Dateien bereits existieren, aber noch keine `original_texts` in den Metadaten haben
+- Die Datenbank aktualisiert wurde und du die aktualisierten Texte in die JSONs übernehmen möchtest
+- Keine API-Aufrufe gemacht werden sollen (schneller und kostenfrei)
+
+Der Update-Modus:
+- Liest alle Datensätze aus der Datenbank
+- Lädt nur existierende JSON-Dateien
+- Aktualisiert/ergänzt das Feld `meta.original_texts` mit den aktuellen DB-Werten
+- Überspringt IDs ohne existierende JSON-Datei
 
 ### 2. CSV-Export der Vergleichsdaten
 
@@ -204,13 +225,15 @@ python src/export_csv.py --config andere_config.yaml
 Die CSV-Datei enthält folgende Spalten (Semikolon-getrennt):
 
 ```csv
-id;konzept_de;konzept_en;similarity;abweichung;beschreibung
-1;Aphrodite stehend;Aphrodite standing;95;false;
-1;Eros fliegend;Eros flying;100;false;
-2;Zeus thronend;null;0;true;Nur in DE vorhanden
+id;original_de;original_en;konzept_de;konzept_en;similarity;abweichung;beschreibung
+1;Aphrodite stehend vor...;Aphrodite standing before...;Aphrodite stehend;Aphrodite standing;95;false;
+1;Aphrodite stehend vor...;Aphrodite standing before...;Eros fliegend;Eros flying;100;false;
+2;Zeus thronend...;null;Zeus thronend;null;0;true;Nur in DE vorhanden
 ```
 
-Die Spaltennamen passen sich automatisch an die konfigurierten Sprachen an (z.B. `konzept_de`, `konzept_en` bei de/en).
+Die Spaltennamen passen sich automatisch an die konfigurierten Sprachen an (z.B. `original_de`, `konzept_de` bei de/en).
+
+**Hinweis:** Die `original_*` Spalten enthalten die vollständigen Originaltexte aus der Datenbank und werden seit der neuesten Version automatisch in den JSON-Metadaten gespeichert.
 
 ## Funktionsweise
 
@@ -268,6 +291,10 @@ Jede generierte Datei (`{id}.json`) hat folgende Struktur:
   "meta": {
     "source_id": 1234,
     "languages": ["de", "en"],
+    "original_texts": {
+      "de": "Vollständiger Originaltext Deutsch aus der Datenbank",
+      "en": "Full original text English from database"
+    },
     "execution_date": "2025-12-09T16:45:23.123456",
     "execution_time_seconds": 12.34
   }
@@ -277,6 +304,7 @@ Jede generierte Datei (`{id}.json`) hat folgende Struktur:
 **Metadaten:**
 - `source_id`: ID aus der Datenbank
 - `languages`: Verwendete Sprachen
+- `original_texts`: Originaltexte aus field1/field2 (seit neuster Version)
 - `execution_date`: Zeitstempel der Verarbeitung (ISO-Format)
 - `execution_time_seconds`: Ausführungszeit in Sekunden
 
@@ -290,10 +318,22 @@ Die exportierte CSV-Datei enthält alle Vergleichseinträge aus allen JSON-Datei
 
 ## Logging
 
-- **Konsole**: Live-Output während der Verarbeitung
+- **Konsole**: Live-Output während der Verarbeitung mit farbiger Kennzeichnung
 - **Datei**: Vollständiges Log in `logs/processing.log`
 
 Log-Level: INFO (Start/Ende, Erfolg/Fehler pro Datensatz)
+
+### Farbige Terminal-Ausgabe
+
+Die Terminal-Ausgabe nutzt Farben zur besseren Übersichtlichkeit:
+
+- 🟢 **Grün**: Übersprungene Datensätze (wenn `--skip-existing` aktiv)
+- 🟡 **Gelb**: API-Aufrufe und -Antworten
+- 🔴 **Rot**: Fehler und fehlgeschlagene Versuche
+- 🔵 **Blau**: Zusammenfassungen und Statistiken
+- 🔷 **Cyan**: Informationsmeldungen und Fortschritt
+
+Zusätzlich wird jeder API-Aufruf mit einer fortlaufenden Nummer markiert: `[API #1]`, `[API #2]`, etc.
 
 ## Fehlerbehandlung
 
@@ -339,6 +379,22 @@ Bei großen Datenmengen empfiehlt sich folgendes Vorgehen:
 4. **Fehlgeschlagene IDs erneut verarbeiten**: Lösche deren JSON-Dateien und führe erneut mit `--skip-existing` aus
 
 Dies spart API-Kosten und Zeit, da bereits verarbeitete Datensätze nicht erneut an die KI gesendet werden.
+
+### Originaltexte nachtragen
+
+Falls du bereits JSON-Dateien hast, die noch keine `original_texts` in den Metadaten enthalten:
+
+```bash
+python src/main.py --update-metadata
+```
+
+Dies:
+- Liest alle Datensätze aus der Datenbank
+- Aktualisiert nur die Metadaten in existierenden JSON-Dateien
+- Macht **keine** API-Aufrufe (schnell und kostenfrei)
+- Überspringt IDs ohne JSON-Datei
+
+Danach kannst du den CSV-Export neu ausführen, um die vollständigen Originaltexte in den Spalten zu haben.
 
 ### CSV-Export nutzen
 
