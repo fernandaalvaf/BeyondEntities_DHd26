@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 16.05.1801<idno type="BBAW">588</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">H (alt): Berlin, A.v.Sydow (laut Hurch verschollen)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1916, Bd. 2, S. 101–105. – Humboldt 2010, S.
+                            386–389 (B. Hurch)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 663</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gwbokelmann">
+                  <persName>Bokelmann, Georg Wilhelm</persName>
+               </person>
+               <person corresp="ahedemann">
+                  <persName>Humboldt, Adelheid von</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1801-05-16"/>
+               <placeName key="Bilbao">Bilbao</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Bilbao, 16. Mai 1801</dateline>
+            </opener>
+            <p>Endlich bin ich in <placeName ref="Bilbao">Bilbao</placeName>, liebe Li, an dem
+                    Ort, an dem meine Rückreise anfängt. <persName ref="gwbokelmann">Bokelmann</persName> hat mich gestern verlassen und wird nun schon nah an
+                        <placeName ref="Madrid">Madrid</placeName> sein, und mir selbst kommt
+                        <placeName ref="Paris">Paris</placeName> jetzt nicht mehr fern vor. Ich bin
+                    sehr zufrieden mit meiner Reise. Ich reise übermorgen früh hier ab, mache noch
+                    einen neuen Weg an der Küste und durch das Land, denke mich aber gewiß so
+                    einzurichten, daß ich noch vor dem <date when="1801-06-15">15. Iunius</date> in
+                        <placeName ref="Paris">Paris</placeName> bin.</p>
+            <p>
+               <placeName ref="Bilbao">Bilbao</placeName> ist außerordentlich hübsch. An
+                    zierlicher Reinlichkeit kann man nur <placeName ref="Cadiz">Cadix</placeName>
+                    damit vergleichen, und von der reizenden Anmut der Gegend ist es nicht möglich,
+                    durch bloße Beschreibung einen Begriff zu geben. Es liegt zwischen Bergen in
+                    einen, engen Tale, das sich nur gegen das Meer hin erweitert, eingedrängt, an
+                    einem ziemlich breiten Fluß, von Äckern, Wiesen und Gebüschen aufs lieblichste
+                    umgeben. Von dem sehr schönen Spaziergang am Fluß, am Marktplatz, fast von jedem
+                    Fleck in der Stadt sieht man auf die schönbekränzten Hügel rund herum.</p>
+            <p>Gestern besuchte ich eine sogenannte Romeria<note type="footnote" resp="editor">Sydow 1906–1916, Bd. 2, S. 101: Pilgerschaft.</note> in der Nähe der Stadt.
+                    Man gibt nämlich diesen Namen den Festen, womit die Dörfer die Namenstage
+                    einiger Heiligen, besonders ihrer Schutzpatrone, begehn. Gestern war der Tag der
+                    heiligen Isidora. Die Dörfer sind, wie ich Dir schon neulich schrieb, hier nur
+                    zerstreute Häuser in einem Umkreis manchmal von ein paar Stunden, deren
+                    Mittelpunkt die Kirche, die immer, wie klein auch die Gemeinde sei, aus Stein
+                    und mit Aufwand gebaut ist, abgibt. Daneben haben die meisten Dörfer ein großes,
+                    gleichfalls aus Stein gebautes Gemeindehaus. Zwischen diesem und der Kirche war
+                    der Tanzplatz, und aus den Fenstern der Kirche hingen Fahnen heraus, die
+                    Feierlichkeit zu verkündigen. In einer Ecke des Tanzplatzes stand ein
+                    rotsamtenes Kanapee mit zwei in die Erde gestellten Lampen davor, und auf diesem
+                    sitzt der Fiel (dasselbe, was in Städten der Alkalde ist) mit seinem Stab. Er
+                    ist bei jedem feierlichen Tanz zugegen, von ihm hängt es ab, wann aufgehört
+                    werden soll; er hält Ordnung unter den Tänzern und Zuschauern, und wenn ein
+                    Junge sich zu weit vorwagt, so langt er ihn selbst in eigener Person mit seinem
+                    Stecken ab.</p>
+            <p>Der Tanz ist der natürlichste Ausbruch der Lustigkeit, den ich je gesehen habe,
+                    er hat nur im Anfang hierin etwas Feierliches. Eine Reihe von Tänzern gehen nach
+                    dem Takt angefaßt im Kreise herum, und nur der Vortänzer macht eine Art mit
+                    vielen Kapriolen untermischte Pas. Darauf holt er mit gleicher Langsamkeit und
+                    Feierlichkeit zwei Mädchen, eine für den ersten, die andre für den letzten
+                    Tänzer. Dann geht jeder und holt sich sein Mädchen nach Gefallen (denn nur jene
+                    beiden sind Ehrenplätze) und läuft damit in ausgelassener Lustigkeit zur Reihe
+                    zurück. Nun geht es geschwinder, die ganze Reihe zerrt und reißt sich herum, und
+                    jeder Tänzer und jede Tänzerin geben sich von Zeit zu Zeit Stöße mit dem
+                    Hintern. Diese sind so gewaltsam, daß die Tänzerinnen von ihren beiden Nachbarn
+                    manchmal so gestoßen werden, daß sie einen Schritt weit aus der Reihe
+                    herausfliegen. Darauf löst sich auf einmal die Reihe, und jeder Tänzer tanzt mit
+                    seiner Tänzerin einen Fandango, der aber schlechterdings nichts von der
+                    andalusischen Üppigkeit hat, eigentlich nur ein lustiges Springen der beiden
+                    Tänzer gegeneinander, aber mit allen Possen vermischt, die nur die wildeste
+                    Lustigkeit eingeben kann. Die Hauptsache aber sind immer beim ganzen Tanz die
+                    Culadas, die Stöße mit dem Hintern. Wenn die Lustigkeit lebhafter wird, so
+                    verbreitet sich dieser Geschmack auch unter die Zuschauer, und niemand ist mehr
+                    dieser Partie seines Leibes sicher. Mich haben ganz unbekannte Damen im
+                    Vorbeigehn mit solchen Stößen beehrt, es ist eine Art allgemeine Begeisterung,
+                    und noch den Abend in der Tertulia<note type="footnote" resp="editor">Sydow
+                        1906–1916, Bd. 2, S. 103: Gesellschaft.</note>, wo ich war, machten die
+                    ausgeteilten Culadas einen Teil des Gesprächs aus.</p>
+            <p>Zu zweifeln, daß alle, Tänzer und Zuschauer, Vornehme und Geringe, zwischen denen
+                    so hier, zumal bei Tanz und Ballspiel, aller Unterschied wegfällt, von Herzen
+                    lustig sind und sich aus Grund der Seele amüsieren, ist unmöglich. Denn wo ich
+                    nur hinsehen mochte, unter das Gedränge oder auf den großen mit Bäumen
+                    bepflanzten Platz herum, sah ich überall tanzen, springen, lachen, schreien, und
+                    vor allen Dingen Culadas austeilen. Diese Lustigkeit ist um so auffallender, als
+                    die Geschlechter eigentlich dabei wenig gemischt sind. Man sieht ganze Reihen
+                    von Frauen und Mädchen allein gehen, und es ist hier Ton, daß der Mann seine
+                    Freunde, die Frau ihre Freundinnen aufsucht. Überhaupt sind die Frauen hier weit
+                    ausgelassener lustig als die Männer. Die Männer sind gar nicht galant.</p>
+            <p/>
+            <opener>
+               <dateline>Abends 12 Uhr</dateline>
+            </opener>
+            <p>Ich bin gestört worden, meine liebe Li, man hat mich zum Spaziergang abgeholt,
+                    und nun ist es so spät geworden, daß ich nur noch einige Worte zu diesem Briefe
+                    hinzufügen kann. Es ist gerade um diese Stunde ein Jahr, daß Du schon in
+                    heftigen Schmerzen mit <persName ref="ahedemann">der kleinen Adelheid</persName>
+                    warst. Gutes, teures Wesen, wenn ich Dich da verloren hätte, ach! und Du warft
+                    doch sehr, sehr krank, wie wäre es dann anjetzt mit mir und den armen Kleinen.
+                    Mich schaudert noch, wenn ich nur daran denke. Ich kann es nicht glauben, daß
+                    ich Dich je, je verlieren werde. Denn recht ernstlich und ganz ruhig, ja ich
+                    möchte sagen, kalt überlegt, ich weiß nicht, was aus mir werden sollte, wie es
+                    mir möglich sein würde, nur meines Bewußtseins mächtig zu bleiben. Der Mensch
+                    muß etwas Festes haben, woran er sich halten kann, etwas, das ihm ein Maß und
+                    ein Ziel ist, sonst hat er für sein eigenes Dasein keinen Begriff, und es hat
+                    keine Art des Wertes für ihn. Im ganzen Reich der Gedanken ist nichts, nichts,
+                    was das sein kann. Man knüpft eins an das andre und wieder etwas andres an dies,
+                    und über der Menge verknüpfter Dinge glaubt man, sie können sich gegenseitig
+                    halten und tragen, aber was ist’s, die Augenblicke kommen, wo man fühlt, daß die
+                    ganze Kette an nichts hängt, daß der erste Grund, der sie trägt, nur aus dem
+                    Herzen hervorquillt. Ich empfinde das sehr oft. Wie dem physisch Schwindelnden
+                    ist es mir oft moralisch. Nichts hilft mir alsdann, wirklich nichts, liebe Li,
+                    als das Gefühl, das mich dann auf einmal wie mit einer fremden tröstenden Kraft
+                    ergreift, daß Du mich liebst, daß ich Dich liebe, und daß doch etwas ist, und
+                    wäre auch alles andre nichts. Wenn Du nun nicht mehr wärst? wenn mich dann nun
+                    auf der weiten Erde niemand mehr lieben wird? und ich von niemandem werde
+                    geliebt sein wollen? Erinnere mich hier nicht an die Kinder. Wie das Herz an
+                    ihnen hängt, wie sie uns lieben, es ist ein anderes Gefühl und erhöht nur die
+                    Wehmut, statt einen Ersatz zu gewähren. Die dunkle Empfindung, daß man nicht
+                    gemacht ist, miteinander durchs Leben zu gehn, gibt dem Verhältnis zwischen
+                    Eltern und Kindern, ohne daß man es immer selbst merkt, eine eigene und
+                    wehmütige Stimmung. Solange sie Kinder sind, fühlt sich das nicht. Aber hernach
+                    sind es die Abschiedsstunden vor einer weiten Reise. Es ist etwas, das man sich
+                    gegenseitig verbergen will; die Wünsche des Herzens und die Bestimmung der Natur
+                    sind nicht mehr in Harmonie. Ich fühle wohl, daß man das nicht immer so
+                    empfinden kann. Aber es gibt Augenblicke, in denen man ganz Glück und Unglück
+                    empfindet, und das Dasein hat nur Wert, solange man ihrer fähig ist. Bei meinem
+                    Aufenthalt in <placeName ref="Durango">Durango</placeName>, wo ich oft in den
+                    Kirchen spazieren ging, ist es mir manchmal aufgeschossen, wenn ich die eifrig
+                    Betenden sah, daß es wohl seinen Wert hat, seine Seele an etwas zu hängen, was
+                    man nicht verlieren kann. Ich glaube, der Mensch muß und wird dahin kommen. Wenn
+                    es ihm geglückt ist, sein Dasein ganz und einzig in einem andern zu finden, so
+                    glaub ich, wird die Zeit kommen, wo er steht, daß es für ihn keine wirkliche
+                    Trennung gab, ich glaube, daß die Kraft der Liebe sich die Natur unterwerfen
+                    kann und das, was in sich Eins ist, auch ewig ungetrennt bleibt. Aber die Kraft
+                    des Glaubens schwindet vielleicht hin, wenn man seiner am meisten bedürfte, und
+                    dann bleibt nichts, nichts als eine schreckliche Öde und die Wehmut der
+                    Erinnerung im Andenken an die Vergangenheit. Ich sprach einmal unterwegs mit
+                    <persName ref="gwbokelmann">Bokelmann</persName> davon. Er konnte nicht begreifen, wie man je fürchten könnte, nicht
+                    mehr geliebt zu sein. Es machte mir einen sonderbaren Eindruck, eine solche
+                    Jugend und Unbefangenheit zu sehen, in der man noch nicht einmal fassen kann,
+                    wie man durch Eine Liebe auf einmal alle und unwiederbringlich aufgibt.</p>
+            <closer>
+               <salute>Sei Du recht heiter und froh, mein liebes, liebes Kind, und küsse
+                            <persName ref="ahedemann">die liebe Adelheid</persName> zu ihrem
+                        Geburtstag<note type="footnote" resp="editor">Adelheid von Humboldt wurde am 17. Mai 1800 geboren.</note>. Lebe innigst wohl.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

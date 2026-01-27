@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 19.05.1822<idno type="BBAW">609</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 4</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 49-61</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7219</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato;
+                        edidit, latine vertit et adnotationibus illustravit Franciscus Bopp (London
+                        u.a.: Cox and Baylis 1819)</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua: The Ramayuna of Valmeeki,
+                        in the original Sungskrit. With a prose translation, and explanatory notes,
+                        3 Bände (Serampore: Mission Press 1806–1810)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language
+                        (London: Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="279">Mahābhārata</bibl>
+               <bibl corresp="283">Manus Gesetzbuch</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek
+                        [Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="642">Schlegel, August Wilhelm von: De Studio etymologico. In:
+                        Indische Bibliothek 1, Heft 3, 1822, S. 274–294</bibl>
+               <bibl corresp="615">Schlegel, August Wilhelm von: Wilsons Wörterbuch. In:
+                        Indische Bibliothek 1, Heft 3, 1822, S. 295–364</bibl>
+               <bibl corresp="727">Schlegel, August Wilhelm von: Nachrichten. In: Indische
+                        Bibliothek 1, Heft 3, 1822, S. 365–370</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language
+                        (London: Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a
+                        series of connected Fables interspersed with Moral, Prudential &amp;
+                        Political Maxims, translated from an ancient manuscript in the Sanskreet
+                        Language with Explanatory Notes (Bath: R. Cruttwell 1787)</bibl>
+               <bibl corresp="539">Wilkins, Charles: The Radicals of the Sanskrita language
+                        (London: Cox and Baylis 1815)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                        translated, amended, and enlarged from an original compilation by learned
+                        natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Niebuhr hat mir auf die Anfrage, die ich bei ihm, auf Ew.
+                    Hochwohlgebohrnen Veranlassung, that, geantwortet, daß …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-05-19"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1073" type="next">29.05.–04.06.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="eu">Baskisch</language>
+            <language ident="br">Bretonisch</language>
+            <language ident="da">Dänisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="nai">Indianersprachen</language>
+            <!-- KS: north american indian, weiß nicht, ob das so gemeint ist -->
+            <language ident="cel">Keltisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="ta">Tamil</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">31. Oktober 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_04.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_05.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_06.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_07.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_08.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_09.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_10.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_11.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-05-19/WvH-Schlegel_1822_05_19_Seite_12.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener/>
+            <p>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Oben am Rand die Bemerkung von
+                        Schlegel: „Ohne Datum, vom 19ten Mai 1822 wie aus meinem <ref type="link" target="1073">folgenden Briefe</ref> erhellet“.</note> <persName ref="bgniebuhr">
+                  <hi rend="antiqua">Niebuhr</hi>
+               </persName> hat mir auf die Anfrage, die ich
+                    bei ihm, auf Ew. Hochwohlgebohrnen Veranlassung, that, geantwortet, daß es auf
+                    der <orgName ref="51">
+                  <hi rend="antiqua">Vaticana</hi>
+               </orgName> zwar <hi rend="antiqua">tamuli</hi>sche, allein keine <hi rend="antiqua">Sanskrit</hi> Manuscripte
+                    giebt, daß er auf der <orgName ref="56">
+                  <hi rend="antiqua">Propaganda</hi>
+               </orgName> aber noch nachsuchen will. </p>
+            <p>Eben als ich dies Ew. Hochwohlgebohrnen mittheilen wollte, erhalte ich das dritte
+                    Heft <bibl sameAs="396">Ihrer Ind. Bibliothek</bibl>, das mir so vorzüglich
+                    lehrreich gewesen ist, daß ich mir die Freude nicht versagen kann, Ihnen selbst
+                    dafür sogleich zu danken, u. Sie zugleich um Erlaubniß zu bitten, Ihnen einige
+                    Fragen dabei vorzulegen.</p>
+            <p>Die, meinem Urtheile nach, sehr schön geschriebene <bibl sameAs="642">lateinische
+                        Abhandlung</bibl> hat mich ungemein angezogen, u. ich habe sie mehr als
+                    einmal gelesen, da sie mehrere Punkte enthält, die sich auch auf dem Wege meiner
+                    Untersuchungen befinden. </p>
+            <p>Ew. Hochwohlgebohrnen verwerfen <bibl sameAs="642">
+                  <hi rend="antiqua">p.</hi> 283.</bibl> die Meynung, daß das <hi rend="antiqua">Bas Breton</hi> <hi rend="antiqua">Celti</hi>schen Ursprungs
+                    seyn sollte. Allein dürfte das nicht, ungeachtet der von Ihnen an dieser Stelle
+                    angeführten Gründe, wirklich der Fall seyn? Möge auch dieser <hi rend="antiqua">Dialect</hi> in seiner heutigen Gestalt erst im 5. <hi rend="antiqua">saec.</hi> von <hi rend="antiqua">Britannien</hi> herübergekommen seyn, so
+                    ist die Vorfrage die, ob nicht eben die einheimische Sprache <hi rend="antiqua">Britanniens</hi> Celtisch war? Dies nun ist mir, obgleich ich die Sprachen
+                    selbst zu wenig kenne, höchst wahrscheinlich. Denn ich nenne Celtisch nur die
+                    Sprache der alten <hi rend="antiqua">Gallier</hi>, u. die <hi rend="antiqua">Galli</hi>schen Ortnamen u. mehrere <hi rend="antiqua">Galli</hi>sche Worte
+                    der Alten finden in diesen alteinheimischen Sprachen <hi rend="antiqua">Englands</hi> ihre Erklärung u. Ableitung. Ich möchte daher immer dabei
+                    bleiben, <pb n="2*"/> daß dieser Punkt erst durch fernere Untersuchung dieser
+                    Sprachen so weit gebracht werden könne, daß sich ein entscheidendes Urtheil
+                    darüber fällen ließe.</p>
+            <p>Sehr anziehend ist mir <bibl sameAs="642">S. 285–287.</bibl> gewesen, was über
+                    die Wichtigkeit des Grammatischen Baues bei Beurtheilung der Sprachabstammung
+                    gesagt ist. Es ist mir, wie aus der Seele geschrieben, u. ich habe in einigen in
+                    der <orgName ref="3">Akademie</orgName> vorgelesenen Abhandlungen gerade auch
+                    geäußert, daß die grammatischen Eigenthümlichkeiten, als inniger mit der
+                    Denkweise verwandt, nicht, gleich den Wörtern, wandern können. Sehr gewünscht
+                    aber hätte ich, Ew. Hochwohlgeb. hätten diesen Punkt weiter verfolgt u. mehr
+                    ausgeführt. Denn im Einzelnen erheischt er freilich viele, u. zum Theil
+                    schwierige u. feine Bestimmungen, zu denen ich vorzüglich oft jetzt geleitet
+                    werde, da ich mich mit der Untersuchung von Sprachen beschäftige, welche bei
+                    anscheinend sehr ähnlichem grammatischem Bau große lexikalische Verschiedenheit
+                    haben. Zuvörderst muß <del>muß</del> man wohl verstehen, was man ähnliche, oder
+                    verschiedene Grammatik nennt. Auch bei völliger Gleichheit im Ganzen kann es
+                    große Verschiedenheiten im Einzelnen geben, wie man am Mangel der
+                    Geschlechtsbezeichnung im Englischen (der aber wohl nur aus der flachen,
+                    verwischenden Aussprache herkommt) u. <subst>
+                  <del>aus</del>
+                  <add>an</add>
+               </subst> dem Dänischen <hi rend="antiqua">Passivum</hi> sieht. Ferner gehen wohl auch einzelne grammatische
+                    Eigenthümlichkeiten von einem Volke auf das andre über. So dürfte die Englische
+                        <hi rend="antiqua">Gerundiv Construction</hi>, die man gewöhnlich <hi rend="antiqua">participium indeclinabile</hi> nennt, <foreign sameAs="en">
+                  <hi rend="antiqua">it having been</hi>
+               </foreign> <hi rend="antiqua">cet.</hi> nur aus dem Lateinischen, oder Französischen angenommen worden
+                    seyn. Nach vielem Nachdenken hierüber scheint es mir, daß man weit sicherer aus
+                    der grammatischen Beschaffenheit auf die Verschiedenheit, als auf die
+                    Verwandtschaft der Sprachen schließen kann. So ist die Grammatik immer das
+                    sichere Fundament, wor-<pb n="3*"/>auf ich mein Urtheil stütze, daß das
+                    Baskische eine eigenthümliche u. Muttersprache ist, u. wenn auch 3/4 ihrer
+                    Wörter mit Recht könnten der Verderbung aus bekannten Sprachen zugeschrieben
+                    werden, würde jenes Urtheil dadurch nicht bei mir wankend werden. Ebensogewiß
+                    ist es, daß, wenn auch das Lateinische <subst>
+                  <del>wirkliche</del>
+                  <add>wirklich</add>
+               </subst> Baskische Wörter u. sogar in
+                    großer Anzahl haben sollte, es darum doch immer in keine nähere Verwandtschaft
+                    mit dieser Sprache träte, als die dadurch begründet wird. Denn es giebt
+                    natürlich mehrere Grade u. Arten der Verwandtschaft. Allein für weit schwieriger
+                    halte ich den Schluß auf die Verwandtschaft aus dem grammatischen Bau, u.
+                    wenigstens muß man dabei, dünkt mich, nothwendig genau die verschiedenen Theile
+                    unterscheiden, aus welchem der grammatische Bau besteht. Man kann darin, meiner
+                    Erfahrung nach, unterscheiden: 1. dasjenige, was bloß auf Ideen u. Ansichten
+                    beruht, u. wovon man eine Schilderung machen kann, ohne nur Einen Laut der
+                    Sprache zu erwähnen; z. B. ob die Sprache eigne <hi rend="antiqua">Verba</hi>
+                    hat, oder jedes Wort als ein <hi rend="antiqua">Verbum</hi> behandeln kann, ob
+                    das <hi rend="antiqua">Pronomen</hi> bloß den Begriff der Person enthält, oder
+                    auch den des Seyns u. dadurch zum <del type="fragment">Hülfs</del> <hi rend="antiqua">Verbum substantivum</hi> wird, ob es ein <hi rend="antiqua">passivum</hi> giebt, oder man das <hi rend="antiqua">passivum</hi> nur wie
+                    ein <hi rend="antiqua">impersonales Activum</hi> behandelt u. s. f. 2. die
+                    Technischen Mittel, die grammatischen Verschiedenheiten zu bezeichnen, ob durch
+                        <hi rend="antiqua">Affixa</hi>, Umlaut, Silbenwiederholung u. s. f. 3. die
+                    wirklichen Laute, die grammatischen Bildungssilben, wie das <hi rend="antiqua">α
+                        privativum</hi>, die <hi rend="antiqua">Substantiv</hi>endungen u. s. f. Wo
+                    die Aehnlichkeit durch alle drei Punkte durchläuft, ist kein Zweifel über die
+                    Verwandtschaft vorhanden. Allein schwierig wird die Frage da, wo sie sich nur in
+                    dem einen, oder anderen findet? Der letzte hat eine sehr genaue Aehnlichkeit mit
+                    der Mittheilung wirklicher Wörter. Er gehört zum Theil zum lexikalischen Theil
+                    der Sprache, um so mehr, da in allen Sprachen viele <hi rend="antiqua">Affixa</hi> ehemalige Wörter sind. An sich nicht verwandte Sprachen können
+                    daher auch darin gegenseitig von einander aufnehmen. Das <pb n="4*"/> Englische,
+                    dessen Grammatik durchaus Deutschen Ursprungs ist, so viele Lateinische Wörter
+                    es auch hat, besitzt solcher Silben aus beiden Sprachen, wie das <hi rend="antiqua">privative</hi> <hi rend="antiqua">un</hi> und <hi rend="antiqua">dis</hi>, u. viele andre Beispiele beweisen. Es zeigt aber,
+                    daß nur <hi rend="antiqua">un</hi> ihm eigenthümlich ist, da es dies auch mit
+                    lateinischen Wörtern verbindet. Dieser Theil der Grammatik scheint mir am
+                    meisten für die Verwandtschaft, oder dagegen zu beweisen, weil er der
+                    speciellste ist, u. die Aehnlichkeit, oder Verschiedenheit daher am wenigsten
+                    allgemeine Gründe haben kann, sondern auf zufälligeren historischen beruhen muß.
+                    Denn darauf kommt doch am Ende Alles zurück, wieviel in dem Sprachbau in
+                    Ansichten gegründet ist, die einen Grad der Allgemeinheit bei dem
+                    Menschengeschlecht überhaupt, oder bei gewissen unter gleichen Verhältnissen
+                    lebenden Nationen haben. Ew. Hochwohlgeb. scheinen dies zwar gewissermaßen zu
+                    verwerfen, indem Sie sagen <hi rend="antiqua">
+                  <foreign sameAs="la">a lege quadam naturae ejusmodi inventa pendere non
+                            facile dixeris</foreign>
+               </hi>, u. ich bin in der auf diese Stelle
+                    folgenden Behauptung ganz Ihrer Meynung, daß nicht alle Sprachen denselben
+                    grammatischen Gang genommen zu haben brauchen. So überzeugt ich bin, daß es
+                    keine Sprache giebt, in welcher nicht wahre <hi rend="antiqua">Agglutination</hi> eine sehr große Rolle spiele, so wenig theile ich die
+                    Meynung einiger, die alle <hi rend="antiqua">flexion</hi> verwerfen, u. billige
+                    noch weniger alle neuerlich gemachten Versuche der <hi rend="antiqua">Analyse</hi> von <hi rend="antiqua">Agglutinationen</hi>. Es ist daher gar
+                    nicht mein System, daß alle Grammatik ursprünglich ein an einander Reihen
+                    wirklicher Wörter gewesen sey, u. daß dies gedauert habe, bis der Gebrauch die
+                    Spuren verwischt habe. Einiges ist auch ursprünglich nicht ein solches <hi rend="antiqua">Agglutiniren</hi> gewesen, u. nicht bloß in den gebildeten,
+                    sondern in ganz rohen Sprachen, wo z. B. eine <hi rend="antiqua">Amerikani</hi>sche Sprache den <hi rend="antiqua">Optativ</hi> immer durch
+                    Verdoppelung des <hi rend="antiqua">Vocals</hi> bildet, <foreign sameAs="nai">
+                  <hi rend="antiqua">waadehan</hi>
+               </foreign> statt <foreign sameAs="nai">
+                  <hi rend="antiqua">wadehan</hi>
+               </foreign>
+               <!-- hier nochmal Sprache spezifizieren, müsste dann ggf. auch im Header nachgetragen werden -->,
+                    um die Sehnsucht an-<pb n="5*"/>zuzeigen, eine andre bei Bildung des <hi rend="antiqua">particips</hi> den <hi rend="antiqua">Vocal</hi> in einen <hi rend="antiqua">Diphthongen</hi> verwandelt u. s. f. Es ist hernach nicht
+                    bloß die Zeit gewesen die verändert hat, u. nicht jede Nation ist alle Stufen
+                    durchlaufen, sondern einige haben viele übersprungen u. sind sogar auf einem
+                    ganz andren Wege, als der mechanische ist, zum Ziele gelangt. Denn, meiner Art
+                    nach, die Geschichte der Sprachen zu erklären, nehme ich immer die beiden <hi rend="antiqua">fundamente</hi> an: diejenige Sprachentwicklung, die sich aus
+                    allgemeinen Begriffen nachweisen läßt, u. die daher, wie Alles, was wir logisch
+                    verfolgen können, mechanisch ist, nur in der Art mechanisch, als eine
+                    Verrichtung der Intellectualität es seyn kann; u. hernach diejenige Abweichung
+                    von diesem Gange, u. diejenige Abkürzung desselben, welche die Individualität
+                    der Nation bewirkt, die, wenn sie zur Vortreflichkeit führt, genialisch ist, u.
+                    nicht mehr logisch vorausgesehen, oder schrittweise nachgewiesen werden kann.
+                    Indem ich daher wirklich von etwas Allgemeinem in der Grammatik aller Sprachen
+                    ausgehe, was wirklich <hi rend="antiqua">a lege naturae pendet</hi>, bin ich
+                    gegen mehrere grammatische Aehnlichkeiten, die vorzüglich <sic>zu</sic>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 54: von.</note> den oben <hi rend="antiqua">nr.</hi> 1. u. 2. benannten Punkten abhängen in Absicht des
+                    Urtheils über die Abstammung mistrauisch. Indem ich aber im höchsten Grade
+                    anerkenne, daß jene Naturgesetze in den individuellen Geistesanlagen der
+                    Nationen die mannigfaltigsten Bestimmungen finden können, so bin ich weit
+                    entfernt zu behaupten, daß aus den <del type="fragment">
+                  <hi rend="antiqua">A</hi>
+               </del> Amerikanischen Sprachen im Verlaufe der Zeit <hi rend="antiqua">Sanskrit</hi> werden müsse, oder daß dieses ehedem müsse einen solchen
+                    Ursprung gehabt haben. Sollte ich daher die Frage, ob bei Bestimmung der
+                    Verwandtschaft der Sprachen mehr auf die Grammatik, oder den Wortvorrath zu
+                    geben sey? beantworten, so würde ich sagen, daß auf der einen Seite das Urtheil
+                    aus der Grammatik sicherer sey, weil sie inniger mit der Individualität der
+                    Nation verbun-<pb n="6*"/>den ist, u. nicht leicht von einer Nation zur andren
+                    über wandert, auf der andren aber unsichrer, weil der grammatische Bau mehr von
+                    allgemeinen Bedingungen des menschlichen Denkens abhängig, u. das Feld möglicher
+                    Verschiedenheit minder groß ist. Jedes Urtheil, das nicht auf diese doppelte
+                    Beschaffenheit der Grammatik sorgfältige Rücksicht nimmt, scheint mir allemal
+                    bedenklich. Daß alle Sprachen in Absicht der Grammatik sich sehr ähnlich sehen,
+                    wenn man sie nicht oberflächlich, sondern tief in ihrem Innern untersucht, ist
+                    unläugbar. So ist im <hi rend="antiqua">Mexikani</hi>schen das <hi rend="antiqua">augm.</hi> des <hi rend="antiqua">perf.</hi> <hi rend="antiqua">o</hi> (also ähnlich dem <foreign sameAs="sa" n="transEd">a<graphic url="Schlegel/WvH-Schlegel_1822_05_19/026.svg"/>
+               </foreign> u.
+                    dem <foreign sameAs="grc">ε</foreign>) so ist in mehreren Amerikanischen
+                    Sprachen die Silbenwiederholung, so giebt es viele Fälle, wo in ihnen das <hi rend="antiqua">praesens</hi> vermöge einer Partikel zur vergangenen Zeit
+                    wird wie im <hi rend="antiqua">Sanskrit</hi> <del>zu</del> durch <foreign sameAs="sa" n="transEd">sma<graphic url="Schlegel/WvH-Schlegel_1822_05_19/027.svg"/>
+               </foreign>, oder der <hi rend="antiqua">Indic.</hi> zum <hi rend="antiqua">Conjunct</hi>, wie im
+                    Griechischen durch <foreign sameAs="grc">ἂν</foreign> und <foreign sameAs="grc">κε</foreign>, u. s. f. Die <hi rend="underline">Zeit</hi> halte ich
+                    übrigens nicht für gleichgültig, u. mehrere grammatische Verschiedenheiten halte
+                    ich wirklich mehr für Folgen der Zeit, als der Nationalität. Ich beziehe dies
+                    vorzüglich auf die Sprachentwicklung, vermöge welcher aus wirklichen Phrasen
+                    wahre Formen werden. Es scheint mir auch ganz natürlich, daß der menschliche
+                    Geist, solange bis durch irgend einen Funken ein individueller intellektueller
+                    Trieb in ihm entsteht, einen instinctmäßigen Gang verfolgt, der natürlich bei
+                    allen Nationen sich sehr ähnlich seyn muß. Richtet sich der individuell
+                    intellektuelle Trieb auf die Sprache mit Macht u. zur Zeit, wo sie noch biegsam
+                    ist, so entsteht nun eine eigenthümliche grammatische Form, u. die Sprache
+                    erleidet nicht mehr große Veränderungen. Erwacht er zu spät, wenn die
+                    instinctmäßige Form schon zu unbiegsam geworden ist, so dringt er nicht mehr
+                    durch sie durch. Dieser ganze Punkt ist in der Sprachuntersuchung so wichtig,
+                    daß Sie mir darum verzeihen müssen, wenn ich in dem <pb n="7*"/> Wunsche,<note type="footnote" resp="editor">Ergänzt aus der Kustode.</note> einmal
+                    gelegentlich Ihre Meynung darüber zu vernehmen, weitläuftiger darüber war.</p>
+            <p>Sehr gefreut hat es mich übrigens, daß Sie <bibl sameAs="642">S. 276.</bibl> die
+                    flüchtige Anhäufung von Nachrichten über viele Sprachen auf ihren wahren Unwerth
+                    zurückgeführt haben. Wenn man die Arbeit über eine Sprache wie ein <hi rend="antiqua">experimentum in anima vili</hi> ansieht, so lernt man
+                    geradezu nichts daraus. Verfolgt man aber mit philologischer Genauigkeit jede,
+                    so habe ich noch immer auch die scheinbar barbarischste lehrreich gefunden. </p>
+            <p>Die <bibl sameAs="615">Abhandlung</bibl> über <bibl sameAs="616">Wilson</bibl>,
+                    den ich seit einem Jahr täglich in Händen habe, hat mich aufs höchste
+                    interessirt. </p>
+            <p>Möchten Sie nicht (<bibl sameAs="615">S. 321.</bibl>) zu den Wörtern, die
+                        <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> irrig mit einem <foreign sameAs="sa" n="transEd">b<graphic url="Schlegel/WvH-Schlegel_1822_05_19/028.svg"/>
+               </foreign> schreibt,
+                    auch <foreign sameAs="sa" n="transEd">vahu<graphic url="Schlegel/WvH-Schlegel_1822_05_19/029.svg"/>
+               </foreign> rechnen? Die
+                    Wurzel <foreign sameAs="sa" n="transEd">vah<graphic url="Schlegel/WvH-Schlegel_1822_05_19/030.svg"/>
+               </foreign> ist doch
+                    unser wachsen, und das Lat. <foreign sameAs="la">
+                  <hi rend="antiqua">vastus</hi>
+               </foreign> spricht auch dafür. Ueberhaupt
+                    gestehe ich, daß das Lob, welches Sie <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> hierin beilegen, mir <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> mehr zu verdienen scheint. So hat
+                    es mir wenigstens bei Vergleichung seiner <bibl sameAs="539">
+                  <hi rend="antiqua">radicals</hi>
+               </bibl> u. seines <bibl sameAs="564">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> mit <bibl sameAs="616">
+                  <hi rend="antiqua">Wilsons Lex.</hi>
+               </bibl> geschienen. </p>
+            <p>Ew. Hochwohlgebohrnen sprechen <bibl sameAs="615">S. 332.</bibl> dem <hi rend="antiqua">Sanskrit</hi> die selbständigen <hi rend="antiqua">Praepositionen</hi> ab, u. sagen, daß es derselben nicht bedarf, weil die
+                        <hi rend="antiqua">Declination</hi> zureiche. Sicher ist es, daß die Sprache
+                    sich meistentheils der <hi rend="antiqua">casus</hi> bedient u. wenig der <hi rend="antiqua">Indeclinabilien</hi>, die man <hi rend="antiqua">Praepositionen</hi> nennen könnte. Ob dies aber zu ihren Vorzügen gehört,
+                    möchte ich bezweifeln. Denn die <hi rend="antiqua">Casus</hi>, namentlich <hi rend="antiqua">Locat.</hi> u. <hi rend="antiqua">Instrumentalis</hi>, werden
+                    bisweilen in wunderbarer Art gebraucht, u. die doch mir der Deutlichkeit Schaden
+                    zu thun scheint. Was aber den ersten Punkt betrift, so habe ich schon öfter
+                    darüber nachgedacht, u. wünschte wohl genauer darüber von Ihnen belehrt zu
+                    werden. Mir hat es immer geschienen, daß zwar dieser Theil der <hi rend="antiqua">Sanskrit</hi> Grammatik nicht dieselbe Ausbildung erhalten
+                    hat, als andre, aber daß doch in der Sprache Wörter vorhanden <pb n="8*"/> sind,
+                    aus denen in andren Sprachen wahre <hi rend="antiqua">Praepositionen</hi>
+                    geworden sind, und daß in einigen Fällen dieser wahre Uebergang in <hi rend="antiqua">Praepositionen</hi> auch im <hi rend="antiqua">Sanskrit</hi>
+                    sichtbar ist. Es kommt freilich hier ganz auf den Begriff u. die Ansicht an, die
+                    man von diesem Redetheil im Allgemeinen hat. Bei der hier vorliegenden Frage
+                    kommt es, dünkt mich, nur darauf an, ob die Sprache gewisse Wörter hat, die man
+                    nicht füglich anders, denn wie <hi rend="antiqua">Praepositionen</hi> erklären
+                    kann, d. h. wie Wörter, die (wenn sie auch an sich <hi rend="antiqua">declinabel</hi> wären) dennoch als <hi rend="antiqua">indeclinabilia</hi>
+                    gebraucht werden, die bloß bestimmt sind, ein Verhältniß zu bezeichnen, und
+                    dadurch ein von ihnen regiertes Wort in <subst>
+                  <del>ein bestimmtes Verhältniß der</del>
+                  <add>eine bestimmte</add>
+               </subst>
+                    Abhängigkeit von sich stellen. Nach dem Wenigen, was ich bisher im <hi rend="antiqua">Sanskrit</hi> gelesen, finde ich einen dreifachen Fall, wo
+                    man an <hi rend="antiqua">Praepositionen</hi> denken kann. 1. wo ein <hi rend="antiqua">Indeclinabile</hi> zwar als <hi rend="antiqua">Praeposition</hi> übersetzt werden kann, aber ebenso gut auch ein zum <hi rend="antiqua">Verbum</hi> gehörendes <hi rend="antiqua">Adverbium</hi> seyn
+                    kann. Dies ist der Fall mit dem häufigen <foreign sameAs="sa" n="transEd">saha<graphic url="Schlegel/WvH-Schlegel_1822_05_19/031.svg"/>
+               </foreign>, auch mit <foreign sameAs="sa" n="transEd">sārddhaṃ<graphic url="Schlegel/WvH-Schlegel_1822_05_19/032.svg"/>
+               </foreign> <bibl sameAs="563">
+                  <hi rend="antiqua">Ram. l.</hi> 1. <hi rend="antiqua">S.</hi> 1. <hi rend="antiqua">sl.</hi> 36.</bibl> wo man dies Wort als zum <hi rend="antiqua">Verbum</hi> gehörig durch zugleich übersetzen, u. den Begriff
+                    von <hi rend="underline">mit</hi> in dem <hi rend="antiqua">Instrum.</hi> suchen
+                    kann. So ist wohl auch <foreign sameAs="sa" n="transEd">prabhṛti<graphic url="Schlegel/WvH-Schlegel_1822_05_19/033.svg"/>
+               </foreign> <bibl sameAs="610">
+                  <hi rend="antiqua">Hitopad. ed. Lond. p.</hi> 34. <hi rend="antiqua">l.</hi>
+                        24.</bibl> wo der unmittelbar vorhergehende <hi rend="antiqua">Ablat.</hi>
+                    den Begriff <hi rend="underline">von dem Augenblick an</hi> ausdrücken, u. das
+                        <hi rend="antiqua">Indeclin.</hi> (was wenigstens hier im <hi rend="antiqua">absol.</hi> Zustande so steht) als <hi rend="antiqua">Adverbium</hi> <hi rend="underline">fernerhin</hi> übersetzen kann. 2. wo ein <hi rend="antiqua">declinirtes Substantivum</hi>, oder <hi rend="antiqua">absolut</hi> genommenes <hi rend="antiqua">Adject.</hi> oder <hi rend="antiqua">Part.</hi> das ausdrückt, wozu andre Sprachen <hi rend="antiqua">Praepositionen</hi> gebrauchen. Auch da aber sind die Fälle
+                    verschieden, u. nähern sich mehr, oder weniger den <hi rend="antiqua">Praepositionen</hi>. Ganz <hi rend="antiqua">substantivisch</hi> ist z. B.
+                        <bibl sameAs="563">
+                  <hi rend="antiqua">Ram. l.</hi> 1. <hi rend="antiqua">S.</hi> 1. <hi rend="antiqua">sl.</hi> 101.</bibl> <foreign sameAs="sa" n="transEd">bharatasyāntikaṃ<graphic url="Schlegel/WvH-Schlegel_1822_05_19/034.svg"/>
+               </foreign> <hi rend="underline">in die Nähe des Bh.</hi> <hi rend="underline">zu ihm</hi>. Denn das <hi rend="antiqua">Subst.</hi> das
+                    man auch als <hi rend="antiqua">Praeposition</hi> ansehen könnte, regiert den
+                        <hi rend="antiqua">Gen.</hi> u. seine Bedeutung braucht gar nicht verändert
+                    zu werden. Allein viel anders ist <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi> IV. 3.</bibl> <foreign sameAs="sa" n="transEd">tvatkṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/035.svg"/>
+               </foreign> man kann freilich auch hier Alles ohne <hi rend="antiqua">Praeposition</hi> erklären, u. sagen: <hi rend="underline">in dem von Dir
+                        Geschehenen</hi>, aber man muß, um zu einem deutlichen Sinn zu <pb n="9*"/>
+                    gelangen, das doch wieder übersetzen. Dabei fällt mir eine andre Frage ein. Wird
+                    das <foreign sameAs="sa" n="transEd">kṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/036.svg"/>
+               </foreign> immer mit dem
+                        <hi rend="antiqua">Ablat.</hi> oder auch mit dem <hi rend="antiqua">Gen.</hi> <hi rend="antiqua">construirt</hi> u. muß man <bibl sameAs="610">
+                  <hi rend="antiqua">Hitopad.</hi> <hi rend="antiqua">p.</hi> 34. <hi rend="antiqua">l.</hi> 19.</bibl> <foreign sameAs="sa" n="transEd">tasyāḥ<graphic url="Schlegel/WvH-Schlegel_1822_05_19/037.svg"/> </foreign>
+               <foreign sameAs="sa" n="transEd">kṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/038.svg"/>
+               </foreign> für einen <hi rend="antiqua">Ablat.</hi> oder <hi rend="antiqua">Gen.</hi> nehmen, da die
+                    Endung beides seyn kann? Noch <hi rend="antiqua">praepositions</hi>artiger, wenn
+                    ich so sagen darf, ist <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi> IV. 26.</bibl> <foreign sameAs="sa" n="transEd">ṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/039.svg"/>
+               </foreign> <foreign sameAs="sa" n="transEd">tāṃ<graphic url="Schlegel/WvH-Schlegel_1822_05_19/040.svg"/>
+               </foreign> Hier ist
+                    allerdings auch ein <hi rend="antiqua">locat.</hi> eines <hi rend="antiqua">Participium</hi>, es ließe sich auch allenfalls der <hi rend="antiqua">accusat.</hi> erklären, wenn man sagte, daß dies <hi rend="antiqua">Participium</hi>, so wie die sogenannten <add>
+                  <hi rend="antiqua">partic.</hi>
+               </add> <hi rend="antiqua">indeclinabilia</hi>
+                    u. der <hi rend="antiqua">Infin.</hi> denselben <hi rend="antiqua">casus</hi>
+                    als das <hi rend="antiqua">Verbum</hi> regierten. Allein Alles das ist sehr
+                    gezwungen, da hingegen die Bedeutung von <hi rend="underline">außer</hi> viel
+                    natürlicher ist. 3. endlich aber giebt es Fälle, die ich nun schlechterdings
+                    nicht anders zu erklären weiß, u. wo sonst sich in Zusammensetzung befindende
+                        <hi rend="antiqua">praepositionen</hi> allein stehen. Bei meiner armseligen
+                        <hi rend="antiqua">Lecture</hi> ist mir aber freilich davon nur <foreign sameAs="sa" n="transEd">prati<graphic url="Schlegel/WvH-Schlegel_1822_05_19/041.svg"/>
+               </foreign> vorgekommen.
+                    Zwei Stellen im <bibl sameAs="563">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> scheinen mir keine andre Erklärung
+                    zuzulassen. <bibl sameAs="563">
+                  <hi rend="antiqua">l.</hi> 1. <hi rend="antiqua">S.</hi> 1. <hi rend="antiqua">sl.</hi> 72.</bibl> Da <foreign sameAs="sa" n="transEd">badhaḥ<graphic url="Schlegel/WvH-Schlegel_1822_05_19/042.svg"/>
+               </foreign> ein <hi rend="antiqua">mascul.</hi> ist so muß das Wort hier im
+                        <hi rend="antiqua">Accusat.</hi> stehen; dieser <hi rend="antiqua">Accusativ</hi> kann das <hi rend="antiqua">Verbum</hi> (hier nur das <hi rend="antiqua">Part.</hi> mit ausgelaßnem Verbum <hi rend="underline">Seyn</hi> ) nicht regieren. Er kann also nur von <foreign sameAs="sa" n="transEd">prati<graphic url="Schlegel/WvH-Schlegel_1822_05_19/043.svg"/>
+               </foreign> regiert seyn u. man muß übersetzen: <hi rend="underline">es
+                        wurde versprochen, gelobt, sich entschlossen von R. zur Erweckung des
+                        V.</hi> Wäre indeß auch diese <hi rend="antiqua">Constructions</hi>schwierigkeit nicht, so wüßte ich hier <subst>
+                  <del>dem letzten Wort</del>
+                  <add>der</add>
+               </subst> Partikel keine schickliche
+                        <hi rend="antiqua">Adverbial</hi>bedeutung zu geben. Die zweite Stelle macht
+                    mich noch mehr irre. <bibl sameAs="563">
+                  <hi rend="antiqua">S.</hi> 3. <hi rend="antiqua">sl.</hi> 39.</bibl> Soll
+                    hier <foreign sameAs="sa" n="transEd">prati<graphic url="Schlegel/WvH-Schlegel_1822_05_19/044.svg"/>
+               </foreign> auf den <hi rend="antiqua">Accus.</hi> gehen? <del>der</del> Ich kann es nicht anders
+                    nehmen, u. der Grund liegt wohl darin, daß wenn auch das Verbum <hi rend="underline">gehen</hi> den <hi rend="antiqua">Accusat.</hi> regiert,
+                    doch das <hi rend="antiqua">Subst.</hi> dies nicht gleich natürlich thun kann.
+                    Die Englische Uebersetzung hat in diesem Satz eine <hi rend="antiqua">Negation</hi>. In dem Text scheint mir aber nur zu liegen, <hi rend="underline">der Selbstvorsatz, die Entschließung R. über das Gehen (<hi rend="antiqua">Locat.</hi>) nach K.</hi> Endlich die Stelle im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi> I. 17. </bibl> Hier würde ich allerdings die
+                        <hi rend="antiqua">Partikel</hi> lieber durch <hi rend="underline">gegenseitig</hi> (als <hi rend="antiqua">Adverb.</hi>) übersetzen. Das
+                    erste Wort des Verses ist von der Art, daß es in sich vollständig ist: <hi rend="underline">einer den andren i. e. wechselseitig</hi>. In <persName ref="bopp">
+                  <hi rend="antiqua">Bopps</hi>
+               </persName> <bibl sameAs="559">Uebersetzung</bibl> muß man <hi rend="antiqua">alterius</hi> auf <hi rend="antiqua">desiderium</hi> be-<pb n="10*"/>ziehen. Im Text ist aber,
+                    nach Ihrer gewiß sehr richtigen Bemerkung (<bibl sameAs="615">S. 353.</bibl>)
+                    der erste Theil des Worts ein <hi rend="antiqua">Nominativ</hi>. Das <foreign sameAs="sa" n="transEd">o<graphic url="Schlegel/WvH-Schlegel_1822_05_19/045.svg"/>
+               </foreign> kann nur von
+                    dem <term type="phon" ref="002">
+                  <hi rend="antiqua">Visarga</hi>
+               </term> vor dem <hi rend="antiqua">elidirten
+                        Vocal</hi> des folgenden Worts herkommen. Der letzte <hi rend="antiqua">accus.</hi> wird also vom ersten <hi rend="antiqua">nominat.</hi> regiert,
+                    u. das Ganze bildet meines Erachtens eine Art <hi rend="antiqua">Adverbium</hi>.
+                        <add>Ein sehr deutliches Beispiel des allein stehenden <foreign sameAs="sa" n="transEd">prati<graphic url="Schlegel/WvH-Schlegel_1822_05_19/046.svg"/>
+                  </foreign> ist <bibl sameAs="559">
+                     <hi rend="antiqua">Nal.</hi> X. 11. </bibl> Man könnte hier freilich
+                        sagen, die <hi rend="antiqua">Praep.</hi> sey vom <hi rend="antiqua">Verb.</hi> getrennt, wie bisweilen im Griechischen. Aber dann wird es
+                        mehr ein Wortstreit.</add> In den beiden Beispielen aus dem <bibl sameAs="563">
+                  <hi rend="antiqua">Ram.</hi>
+               </bibl> ist noch merkwürdig, daß die frei
+                    stehende Partikel dieselbe ist, als die mit dem <hi rend="antiqua">Verbum</hi>
+                    zusammengesetzte, was sich auch im Griechischen häufig findet. – Nehme ich nun
+                    Alles zusammen, das frei stehende <foreign sameAs="sa" n="transEd">prati<graphic url="Schlegel/WvH-Schlegel_1822_05_19/047.svg"/>
+               </foreign>, was in einer
+                    Stelle (wenn ich sie recht fasse) einen <hi rend="antiqua">Casus</hi> regiert,
+                    den das <hi rend="antiqua">Verbum</hi> nicht regieren kann, ferner daß bei
+                        <foreign sameAs="sa" n="transEd">kṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/048.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">ṛte<graphic url="Schlegel/WvH-Schlegel_1822_05_19/049.svg"/>
+               </foreign> der Sinn viel
+                    natürlicher u. leichter wird, wenn man sie wie <hi rend="antiqua">Praepos.</hi>
+                    auffaßt, endlich daß wohl die meisten <hi rend="antiqua">Praepositionen</hi>,
+                    wenn nicht alle, aus <hi rend="antiqua">declinirten Subst.</hi> die dann <hi rend="antiqua">indeclinable Partikeln</hi> geworden sind, entstanden sind,
+                    so möchte ich doch nicht die frei stehenden <hi rend="antiqua">Praepositionen</hi> im <hi rend="antiqua">Sanskrit</hi> ganz wegwerfen,
+                    sondern sagen, daß es deren wirklich giebt, aber nicht so ausgebildet, wie im
+                    Griechischen u. Lateinischen, daß aber die Sprache auf dem Wege war, u. die
+                    Elemente enthielt, aus denen auch diese Gattung der Redetheile vollkommen
+                    hervorwachsen konnte.</p>
+            <p>
+               <bibl sameAs="615">S. 340.</bibl> sprechen Sie ja ein ordentliches
+                        Abschreckungs<hi rend="antiqua">anathem</hi> über unberufene <hi rend="antiqua">Sanskrit</hi>schüler aus.<note type="footnote" resp="editor">Schlegel schreibt an der zitierten Stelle: "Doch weiß ich nicht, ob man auf
+                        die Anfänger sonderlich Rücksicht zu nehmen hat; denn es ist niemanden zu
+                        rathen, sich auf das Studium des Sanskrit einzulassen, der nicht ein
+                        entschiedenes Sprachtalent besitzt, und seine Kräfte schon an andern
+                        gelehrten Sprachen geübt hat."</note> Indeß ist es, glaube ich, wirklich so,
+                    daß gewisse Schwierigkeiten, auch bei aller Ausbildung der Hülfsmittel, immer
+                    dieser Sprache eigenthümlich bleiben werden. Wenigstens fühle ich an mir, daß
+                    man, auch bei eifrigem Studium, lange ein sehr armseliger Schüler bleibt.</p>
+            <p>Der Irrthum mit <foreign sameAs="sa" n="transEd">nir<graphic url="Schlegel/WvH-Schlegel_1822_05_19/050.svg"/>
+               </foreign> u. <foreign sameAs="sa" n="transEd">ni<graphic url="Schlegel/WvH-Schlegel_1822_05_19/051.svg"/>
+               </foreign> ist um so
+                    auffallender in <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl>, als <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> geradezu u. deutlich, gerade wie Ew.
+                    Hochwohlgeb. beide Partikeln, als Gegensätze angiebt.</p>
+            <p>Sie tadeln gewiß mit Recht die Schreibung <hi rend="antiqua">Sunscrit</hi> <bibl sameAs="727">S. 367.</bibl> Sollte man aber nicht immer, wie auch <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> thut, <hi rend="antiqua">Sanskrita</hi> Sprache sagen? Die Abkürzung ist nicht einmal dem Ohre
+                        ge-<pb n="11*"/>fällig. Ich gestehe, daß ich, ohne Ihre u. <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s Autoritaet</hi>, es unfehlbar thun
+                    würde. </p>
+            <p>Ein neues allgemeines Wörterbuch wird freilich nicht so bald zu Stande kommen, u.
+                    ist, nach <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName>, auch, wie es mir scheint, kein so
+                    dringendes Bedürfniß. Allein ein nicht so weitschichtiges, u. äußerst nützliches
+                    Unternehmen wäre ein Wörterbuch, oder wenn man will <hi rend="antiqua">Vocabularium</hi>, das nur die gelesensten Hauptwerke umfaßte, aber da in
+                    die verschiednen Bedeutungen, vorzüglich der <hi rend="antiqua">Verba</hi>
+                    eingienge u. die Hauptstellen <hi rend="antiqua">citirte</hi>. Umfaßte ein
+                    solches Wörterbuch den <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl>, <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl>, <bibl sameAs="279">
+                  <hi rend="antiqua">Mahabharat</hi>
+               </bibl> u. <bibl sameAs="283">
+                  <hi rend="antiqua">Manu’s</hi> Gesetze</bibl>, so wäre im Grunde das
+                    Bedürfniß erfüllt. Denn wo dies Wörterbuch für andre Schriften nicht ausreichte,
+                    gienge man auf <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl> zurück, u. hülfe sich selbst. </p>
+            <p>Mit großer Freude habe ich aus <bibl sameAs="727">S. 367.</bibl> gesehen, daß Sie
+                    eine eigne Grammatik hoffen lassen. Bleiben Sie ja bei diesem Gedanken. Wenige
+                    Dinge werden dem Studium so förderlich seyn.</p>
+            <p>Und nun bitte ich Ew. Hochwohlgeb. herzlich wegen der Länge dieses Schreibens um
+                    Verzeihung u. empfehle mich Ihrem gütigen Andenken. </p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Ergebenheit <lb/> der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <pb n="12* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

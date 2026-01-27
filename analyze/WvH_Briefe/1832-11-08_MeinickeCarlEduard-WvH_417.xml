@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 05.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 08.11.1832<idno type="BBAW">417</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 184–185</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 223</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="lethrelkeld">
+                  <persName>Threlkeld, Lancelot Edward</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="290">Marsden, William: The History of Sumatra (London: J. M’Creery
+                    1811)</bibl>
+               <bibl corresp="707">Threlkeld, Lancelot Edward: Specimens of a Dialect, of the
+                    Aborigines of New South Wales; being the First Attempt to Form their Speech into
+                    a Written Language (Sydney: Hill 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz muß ich vor allen Dingen recht
+                        sehr um Verzeihung bitten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+               <date type="author" when="1832-11-08"/>
+               <placeName key="Prenzlau">Prenzlau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="911" type="next">11.11.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="cemeinicke">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">05. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Meinicke/Meinicke-WvH_1832-11-08/Coll.ling.fol.53_369.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1832-11-08/Coll.ling.fol.53_370.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1832-11-08/Coll.ling.fol.53_371.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1832-11-08/Coll.ling.fol.53_372.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="184r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>muß ich vor allen Dingen recht sehr um Verzeihung bitten, wenn die Umstände mich
+                    zu einer Bitte bewegen, deren Erfüllung für mich vom äußersten Interesse sein
+                    würde.</p>
+            <p>Vielleicht darf ich mich mit der Hoffnung schmeicheln, Ihnen meine Existenz ins
+                    Gedächtniß zurückzurufen, wenn ich so frei bin, daran zu erinnern, daß Sie so
+                    gütig waren, <del>des</del> im Sommer des vorigen Jahres mir das kleine vom
+                        <persName ref="lethrelkeld">Missionar <hi rend="antiqua">Threlkeld</hi>
+               </persName> verfaßte <bibl sameAs="707">Vocabular aus der
+                        Sprache eines neuholländischen
+                    Stammes</bibl> zu leihen. Eine anhaltende
+                    Krankheit hinderte mich jedoch, dasselbe damals so zu benutzen, als ich wohl
+                    gewünscht hätte, und dies, so wie später anhaltende Geschäffte anderer Art,
+                    zwangen mich, meine Privatstudien ganz zu unterbrechen, so daß ich mich erst
+                    jetzt wieder allmälig in den Stand gesetzt sehe, denselben einen Theil meiner
+                    Zeit zuzuwenden. Daher bewegt mich die offene Freundlichkeit, deren Ew.
+                    Excellenz mich im vorigen Jahre würdigten, zu der Bitte, ob es Ihnen vielleicht
+                    jetzt nicht möglich und thunlich erschiene, <bibl sameAs="707">jenes Werk</bibl>
+                    mir auf einige Zeit zukommenzulassen.</p>
+            <p>Wenn ich aber voraussetzen darf, daß der Gewährung dieser Bitte vielleicht
+                    weniger in den Weg treten möchte, so ist dies schwerlich der Fall mit einem
+                    andern Ansuchen, das Ihnen hier vorzulegen, ich mich ebenfalls genöthigt sehe.
+                    Es betrifft nämlich die bekannte <hi rend="antiqua">
+                  <bibl sameAs="290">History of
+                            Sumatra</bibl>
+               </hi> von <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi>. Ich habe den Plan, weil mir für Ostern
+                    künftigen Jahres die Abfassung des Gymnasialprogrammes übertragen ist, jene
+                    Insel zum Gegenstande derselben zu machen, und habe dazu die Quellen bereits
+                    durchgearbeitet, nur jenes <bibl sameAs="290">Werk</bibl> aus der <orgName ref="1">Königlichen</orgName> bisher nicht erhalten können, weil Sie
+                    dasselbe entliehen hatten. Welchen Werth ich aber darauf legen muß, das wissen
+                    Sie sicher am besten zu beurtheilen. Sie werden sich hieraus leicht erklären
+                    können, wie ich zu der Bitte komme, mir dieses <bibl sameAs="290">Werk</bibl>,
+                    wenn es möglich wäre, im Laufe dieses halben Jahres mir auf einige Wochen
+                    zukommen zu lassen. Ich muß dabei freilich gestehen, daß ich ganz außer Stande
+                    bin, zu wissen, ob sich dies mit Ihren Arbeiten vereinigen lasse, und würde
+                    überhaupt, die scheinbare Unbescheidenheit, die in meinem Ansuchen liegt, wohl
+                    fühlend, dasselbe gern unterlassen haben, wenn mich die dringende Verlegenheit
+                    nicht andere Rücksichten bei Seite zu setzen bewogen hätte. Sollten Ew.
+                    Excellenz aber geneigt sein, mir die eine oder die andere Bitte zu gewähren, so
+                    füge ich noch den ganz ergebensten Wunsch hinzu, die Werke unter meiner Adressse
+                    an den <persName ref="fwilken">Herrn Geheimrath <hi rend="antiqua">Wilken</hi>
+               </persName> zu übersenden, der öfter Bücher an mich
+                    abschickt.</p>
+            <closer>
+               <salute>Ich ergreife übrigens diese Gelegenheit, Ew. Excellenz zu
+                        versichern, daß ich jederzeit mit der vollkommensten Hochachtung und
+                        Ergebenheit verbleiben werde <lb/>Ew. Excellenz <lb/>ergebenster
+                        Diener</salute>
+               <signed>
+                  <hi rend="antiqua">Dr.
+                            Meinicke</hi>
+               </signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Prenzlau</hi>
+                        den 8ten <hi rend="antiqua">November</hi> 1832</dateline>
+               <lb/>
+               <lb/>
+               <pb n="184v und 185r vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="185v"/>
+               <address>
+                  <addrLine>Seiner Excellenz</addrLine>
+                  <addrLine>dem Herrn Staatsminister Freiherrn W. von Humboldt </addrLine>
+                  <addrLine>
+                     <hi rend="underline">
+                        <placeName ref="Berlin">Berlin</placeName>
+                     </hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="underline2">frei</hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="Poststempel Prenzlau vom 8. November"/>
+            </closer>
+            <!-- Darstellung überprüfen!! -->
+         </div>
+      </body>
+   </text>
+</TEI>

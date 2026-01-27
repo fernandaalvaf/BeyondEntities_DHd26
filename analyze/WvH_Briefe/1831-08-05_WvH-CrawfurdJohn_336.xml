@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 12. Dezember 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Crawfurd, [05.]08.1831<idno type="BBAW">336</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 127–128</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 2017, S. 603f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 220</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="jfcgericke">
+                  <persName>Gericke, Johann Friedrich Carl</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="99">Crawfurd, John: Drei Wörterbücher des Javanischen: Englisch –
+                    Javanisch, Javanisch – Englisch, Javanisch – Javanisch [Manuskript]</bibl>
+               <bibl corresp="100">Crawfurd, John: Grammatik des Javanischen [Manuskript]</bibl>
+               <bibl corresp="110">Die Bibel</bibl>
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, mes études des langues Malaies ont obtenues un
+                        immense secours par le Volume que Vous avez eu l’extreme bonté, Monsieur de
+                        m’envoyer avec Votre lettre obligeante du 16. de Mai …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-08-05"/>
+               <placeName key="Norderney">Norderney</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jcrawfurd">Crawfurd, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="244" type="next">28.08.1831</ref>
+               <ref target="243" type="prev">16.05.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Briefentwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="bsb">Bisayisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="mg">Madegassisch</language>
+            <language ident="ms">Malayisch</language>
+            <language ident="pag">Pangasinan</language>
+            <language ident="phi">Philippinische Sprachen</language>
+            <language ident="tl">Tagalisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">12. Dezember 2014</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-08-05/Coll.ling.fol.53_259.jpg"/>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-08-05/Coll.ling.fol.53_260.jpg"/>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-08-05/Coll.ling.fol.53_261.jpg"/>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-08-05/Coll.ling.fol.53_262.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="127r"/>
+               <address>
+                  <addrLine>M<hi rend="superscript">r</hi>. Crawfurd.</addrLine>
+               </address>
+               <lb/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Mes études des langues Malaies ont obtenû un immense secours par le Volume que
+                    Vous avez eû l’extrême bonté, M<hi rend="superscript">r</hi>. de m’envoyer avec
+                    <ref type="link" target="243">Votre lettre obligeante</ref> du <date when="1831-05-16">16 de Mai</date>. Je n’avois jamais vû
+                    de Grammaire Javanoise, mais je savois par Votre ouvrage imprimé que la langue
+                    Javanoise possédoit des formes grammaticales plus compliquées que la langue
+                    Malaie proprement dite. J’avois <subst>
+                  <del>découvert</del>
+                  <add>découvert
+                            ou plutôt deviné</add>
+               </subst> par les textes en Kavi <del>éntr’</del>
+                    entr’autres <add>formes grammaticales</add> le Passif formé par la syllabe
+                    inséré in (<hi rend="underline">ginave</hi> de <hi rend="underline">gawe</hi>)
+                    mais je restois incertain sur la justesse de ma conjecture. <bibl sameAs="100">Votre Grammaire</bibl> me l’a confirmée et m’a donnée une idée exacte et
+                    complotte de la structure grammaticale du Javanois.</p>
+            <p>L’essai sur les langues et la littérature des îles Indiennes est également
+                    intéressant sous un autre point de vue. Veuillez donc, M<hi rend="superscript">r</hi>. agréer mes sincères et profondes remerciemens de toutes ces
+                    communications et de celles que Vous voulez bien encore me promettre. La
+                    libéralité avec laquelle Vous m’accordez la permission d’en faire tel usage que
+                    je jugerois convenable, est en effet admirable. Soyez bien sûr, M<hi rend="superscript">r</hi>. que je
+                                <subst>
+                  <del>saurai</del>
+                  <add>
+                     <sic>sai</sic>
+                  </add>
+               </subst>
+                    l’apprécier et qu’elle existe toute ma sensibilité. <del>J’y <gap quantity="2" unit="chars"/>
+               </del> Elle m’inspire en outre une telle confiance que
+                    j’ose même Vous prier d’avoir la bonté de me communiquer <bibl sameAs="99">encore
+                        les deux Dictionnaires Javanois</bibl> dont Vous me parlez. Celui dans
+                    lequel les mots Javanois, placés en ordre alphabétique, sont expliqués en
+                    Anglois, sera surtout d’une grande utilité pour moi. Celui qui se trouve dans le
+                    Volume que je tiens déjà de Vos bontés, donne les mots Anglois en Javanois et
+                    sert par là moins bien à mon usage. J’ai acquis àprésent l’habitude de lire avec
+                    facilité l’écriture Javanoise, et j’ai reçu après que j’avois déjà étudié <bibl sameAs="100">Votre Grammaire
+                    manuscrite</bibl>,
+                        <bibl sameAs="140">une imprimée, publiée <add>en Hollandois</add> cette année
+                        même</bibl> par un Allemand <persName ref="jfcgericke">Mr.
+                        Gericke</persName> à Batavia.</p>
+            <p>
+               <add>
+                  <del type="fragment">J’an<gap quantity="1" unit="chars"/>
+                  </del> Je
+                        m’empresserai à Vous renvoyer, M<hi rend="superscript">r</hi>. aussitôt que
+                        j’en aurai fait l’usage convenable, le Volume que Vous m’avez
+                                <subst>
+                     <del>envoyé</del>
+                     <add>fait passer</add>
+                  </subst> et les
+                            <bibl sameAs="99">deux Dictionnaires</bibl> que j’espère encore d’obtenir
+                        de Vos bontés.</add>
+            </p>
+            <p>Vous êtes infiniment bon, M<hi rend="superscript">r</hi>. de placer quelque
+                    espérance dans l’ouvrage que je prépare. Je sens toute la difficulté d’ecrire
+                    après Vous sur ces matières, et je ne l’aurois jamais entrepris, si le but &amp;
+                    le genre de mon travail ne différoient pas essentiellement du Vôtre.
+                            <subst>
+                  <del>Ce dernier</del>
+                  <add>Vous avez</add>
+               </subst> embrassé
+                    la Réligion, les lois, <pb n="127v"/> le caractère, les moeurs, l’histoire, en
+                    un mot tout ce qui peut contribuer à <add>faire</add> connoître et <del>à</del>
+                    juger une nation; je me bornerai aux langues seulement. Quant à l’étendue
+                    géographique mon plan est d’un côté plus vaste, puisqu’il embrasse <del>d’un
+                        côté</del> aussi Madagascar, les îles Philippines et celles de la Nouvelle
+                    Zelande jusqu’à l’Amérique; mais d’un autre côté il est bien plus retréci,
+                    puisque dans l’Archipel Indien même je ne m’arrêterai qu’aux langues dont on
+                    connoit la Grammaire en faisant à peine mention de celles dont on a que des
+                    Vocabulaires. La seule chose par laquelle je pourrai peut-être fournir des idées
+                    qui pourront <del>sans</del> nous éclairer d’avantage sur le systeme qu’il faut
+                    former sur l’ensemble de ces langues, c’est l’étude que j’ai faite de celles des
+                    îles Philippines. Les rapports surtout du Javanois avec les langues Tagale,
+                    Bisaya, Pampanya et autres sont tels que je crois que Vous conviendrez Vous
+                    même, M<hi rend="superscript">r</hi>. qu’on doit <del>
+                  <gap quantity="1" unit="chars"/>
+               </del> regarder ces dernières comme originaires. Le
+                    Javanois, le Malais proprement dit, l’idiôme de Madagascar, même en partie les
+                    langues des îles de la Mer du Sud ont des formes <del type="fragment">Gr</del>
+                    grammaticales dont on peut tracer l’origine dans les langues des Philippines,
+                    tandisqu’il seroit impossible de se pocurer par aucune de ces langues en
+                    particulier, &amp; même <del>par</del> par toutes ensemble, une idée à peu près
+                    complette de la langue Tagale. <del>Je ne manquerai pas de</del>
+            </p>
+            <p>Je ne manquerai pas de parcourir les mémoires de la Société de Batavia pour
+                    trouver le morceau sur le Kavi dont Vous avez la bonté de me parler. Quant à ce
+                    qui a été publié sur les îles de la Mer du Sud en fait de Grammaires, de
+                    Vocabulaire et de traductions de morceaux de la <bibl sameAs="110">Bible</bibl>
+                    je crois posséder tout ce qui a parû dans ce ce genre ces années dernières.</p>
+            <p>Je Vous écris, M<hi rend="superscript">r</hi>. des bains de mer de <placeName ref="Norderney">Norderney</placeName> dans l’Ost Frise, mais je serai sous
+                    peu de retour à <placeName ref="Berlin">Berlin</placeName>. Je Vous prie de me
+                    faire passer Votre réponse par le <persName ref="hbuelow">Baron de
+                        Bülow</persName>, mon gendre, et de continuer à m’écrire en Anglois. Je
+                    ferai de même pour le François aussi dans <add>
+                  <del>la suite <gap quantity="2" unit="chars"/>
+                  </del> la suite. Je n’oserois présenter mes phrases
+                        Angloises à un Auteur aussi distingué que Vous, M<hi rend="superscript">r</hi>. par la pureté et l’élégance du style.</add>
+            </p>
+            <closer>
+               <salute>
+                  <add>J’ai l’honneur d’être avec la considération la plus
+                            distinguée,<lb/>Monsieur,</add>
+               </salute>
+               <lb/>
+               <pb n="128r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

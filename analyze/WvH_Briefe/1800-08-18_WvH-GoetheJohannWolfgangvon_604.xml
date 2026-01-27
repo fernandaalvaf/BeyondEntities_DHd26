@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Wolfgang von Goethe, 18.08.1800<idno type="BBAW">604</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Frankfurt a. M., Universitätsbibliothek Johann Christian Senckenberg, , Autographensammlung,
+                            W. v. Humboldt II, 2</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bratranek 1876, S. 162–167; Ebrard 1909, S. 3 (Ausz.); Geiger 1909, S. 126–131; Sell 1909, S. 49–53; Ebrard 1910b, S. 54–58; Freese 1955, S. 395–398</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 641</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="elcid">
+                  <persName>Díaz de Vivar, Rodrigo, genannt El Cid</persName>
+               </person>
+               <person corresp="mrlfoucquet">
+                  <persName>Foucquet, Marie Rénée Louise de</persName>
+               </person>
+               <person corresp="pnguerin">
+                  <persName>Guérin, Pierre Narcisse</persName>
+               </person>
+               <person corresp="ahedemann">
+                  <persName>Hedemann, Adelheid von, geb. von Humboldt</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="jhmeyer">
+                  <persName>Meyer, Johann Heinrich</persName>
+               </person>
+               <person corresp="lramond">
+                  <persName>Ramond de Carbonnières, Louis</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="cftieck">
+                  <persName>Tieck, Christian Friedrich</persName>
+               </person>
+               <person corresp="cvwolzogen">
+                  <persName>Wolzogen, Caroline von, geb. von Lengefeld, gesch. von
+                    Beulwitz</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1179">Der Neue Teutsche Merkur, hrsg. von Christoph Martin Wieland,
+                    1790–1810</bibl>
+               <bibl corresp="1182">Fischer, Christian August (1799): Reise von Amsterdam über Madrid und Cadiz nach Genua in den Jahren 1797 und 1798,
+                    Berlin: Unger</bibl>
+               <bibl corresp="1180">Humboldt, Wilhelm von (1799–1800/1918): Tagebuch der Reise nach
+                    Spanien 1799–1800. In: GS XV, S. 47–355</bibl>
+               <bibl corresp="229">Humboldt, Wilhelm von (1800): Ueber die gegenwärtige französische
+                    tragische Bühne. In: Propyläen. Eine periodische Schrifft, herausgegeben von
+                    Goethe, Dritten Bandes erstes Stück, S. 66–109 (= GS II, S. 377–400)</bibl>
+               <bibl corresp="1181">Humboldt, Wilhelm von (1800/1896): Über das antike Theater in
+                    Sagunt. In: Albert Leitzmann (Hrsg.) (1896): Sechs ungedruckte Aufsätze über das
+                    klassische Altertum von Wilhelm von Humboldt, Leipzig: Göschen (= GS III, S.
+                    60–113)</bibl>
+               <bibl corresp="1178">Humboldt, Wilhelm von (1803): Der Montserrat bei Barcelona. In:
+                    Allgemeine geographische Ephemeriden 11, S. 265–313 (= GS III, S. 30–59)</bibl>
+               <bibl corresp="339">Propyläen. Eine periodische Schrifft, herausgegeben von Goethe,
+                    1798–1800</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sie wünschen, lieber Freund, daß ich fortfahre, Ihnen etwas
+                        Ausführlicheres über meine spanische Wanderung zu sagen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1800-08-18"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jwgoethe">Goethe, Johann Wolfgang von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig, lateinische Schrift</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="ca">Katalanisch (Valencianisch)</language>
+            <language ident="oc">Okzitanisch (Tolosanisch)</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">17. Dezember 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>Paris, 18. August, 1800.</dateline>
+            </opener>
+            <p>Wirklich mit Schmerzen, mein theurer Freund, warte ich auf eine Antwort von Ihnen
+                    oder <persName ref="fschiller">Schiller</persName>, ohne daß ich auch nur die
+                    mindeste Zeile von einem von Ihnen erhalte. Ich muß vielmehr zu meinem Aerger
+                    erleben, daß alle von <placeName ref="Weimar">Weimar</placeName> zurückgekommene
+                    Franzosen Briefe erhalten, u. ich allein kaum nur unbestimmt u. durch Umwege
+                    erfahre, wie es Ihnen geht. Möge das Unglück nur nicht gewollt haben, daß ein
+                    Brief von Ihnen verloren gegangen sey. Daß Sie den meinigen, der schon am <date when="1800-05-30">30. Mai</date> von hier abging, empfangen haben, weiß ich
+                    durch <persName ref="cvwolzogen">Fr. v. Wollzogen</persName>. An <persName ref="fschiller">Schiller</persName> schrieb ich etwas später am 16.
+                    Iunius.</p>
+            <p>Heute, mein Lieber, sage auch ich Ihnen nur wenige Worte. Leider spricht die
+                    Beilage nur zu viel. Ich hätte sie Ihnen längst schicken können, aber ich
+                    wartete immer auf Briefe von Ihnen u. zögerte von Posttag zu Posttag.</p>
+            <p>Seitdem ich mich hier mehr damit beschäftigt habe, die Spanischen
+                    Reisebeschreibungen durchzulesen, ist der Entschluß auch etwas einer Reise
+                    Aehnliches zu machen, ernsthafter in mir geworden. Ich habe überlegt, daß meine
+                    Vorgänger mir noch viel übrig gelassen haben, u. daß ich immer <bibl sameAs="1180">ein interessantes Bändchen</bibl> liefern könnte. Indeß habe ich sie alle
+                    mit großer Sorgfalt gelesen, es fehlen mir nur wenige, die ich mir hier nicht
+                    verschaffen konnte, u. ich werde schlechterdings nur die Punkte berühren, über
+                    die ich etwas Eignes sagen kann.</p>
+            <p>Ein solcher war der <bibl sameAs="1178">Monserrat, von dem Sie hier eine
+                        Beschreibung empfangen</bibl>. Er ist fast von allen Reisebeschreibern nur
+                    mit wenigen Worten abgefertigt worden; der neueste, <persName ref="cafischer">Fischer</persName>
+               <note type="footnote" resp="editor">Gemeint ist Fischers
+                        Beschreibung einer <bibl sameAs="1182">
+                     <hi rend="italic">Reise von Amsterdam über Madrid und
+                            Cadiz nach Genua in den Jahren 1797 und 1798</hi>
+                  </bibl>, erschienen im Jahr
+                        1799. [FZ]</note>, hat ihn gar nicht besucht. Ich fing also damit am liebsten an,
+                    um so mehr weil die zwei <pb n="2*"/> Tage, die ich dort zubrachte, wirklich
+                    fast die angenehmsten meiner Reise waren. Ueber meine Schilderung sage ich Ihnen
+                    nichts; Sie mögen selbst urtheilen. Ich habe – das wird Ihnen der erste Anblick
+                    sagen – wenigstens keine Mühe gespart, alles was ich anführte, soviel ich
+                    konnte, zu berichtigen.</p>
+            <p>Diese Gewissenhaftigkeit macht aber <del>die</del> eine solche Arbeit in der That
+                    saurer als sie anfangs aussieht. Es ist unvermeidlich, historische Umstände zu
+                    berühren; die meisten Reisebeschreiber haben bloß sich abgeschrieben, u.
+                    verdienen also keinen Glauben. Wer wirklich genau seyn will, muß auf die Quellen
+                    zurückgehn, u. dann kostet eine lumpige Jahrzahl, ein einzelner Name, Stunden
+                    des Nachsuchens. Doch ist dies nicht zu ändern, u. ich möchte mir hierin keine
+                    Nachlässigkeit erlauben.</p>
+            <p>Meine Reise, wie ich sie im Kopf habe, soll erst einzelne, abgerissene, u. nur
+                    geographisch geordnete Stücke, wie das gegenwärtige haben. Ueber die Zahl bin
+                    ich selbst noch nicht einig. Aber ich nenne <sic>ihnen</sic> nur einige Titel,
+                    wie ich sie vorläufig bestimmt habe: <placeName ref="Bordeaux">Bourdeaux</placeName> mit seinen Alterthümern, u. Languedoc – die
+                    Pyrenaeen, nur ein Nachtrag zu u. über <persName ref="lramond">Ramond</persName>
+                    u. ein Paar Gegenden, deren dieser nicht erwähnt – Biscaya, vorzüglich über die
+                    Sprache – <placeName ref="Burgos">Burgos</placeName> u. bei dieser Gelegenheit
+                    etwas über <persName ref="elcid">den Cid</persName>, dessen Haus man dort zeigt,
+                    nach der einzig wahren Geschichte von ihm, die erst kürzlich aufgefunden ist,
+                    zugleich mit Nachrichten von einem höchst alten Epischen Gedicht über ihn, das
+                    sehr merkwürdig ist, u. der Romanzensammlung, die man über ihn hat –
+                    Alt-Castilien überhaupt – bei <placeName ref="Madrid">Madrid</placeName>, der
+                    jetzige Zustand der Literatur, des Theaters cet. – das Maurische Spanien – das
+                    Theater zu Sagunt<note type="footnote" resp="editor">Siehe dazu Humboldts <bibl sameAs="1181">Text über das antike Theater von Sagunt</bibl>. [FZ]</note>
+                    u. s. w. Nach oder vor diesen Stücken möchte ich im Allgemeinen über den
+                    Charakter der Spanier gehen, u. dabei in ihre Geschichte, ihre Kunst, ihre
+                    Poesie u. s. w. eingehn. Zu diesem Behuf lese ich jetzt soviel Spanisches, als
+                    ich nur kann. Endlich würde die Spanische, Valencianische, Catalanische,
+                    Tolosanische u. Provenzalische Sprache einen ausführlichen Artikel verdienen.
+                    Für diese letzteren Mundarten <pb n="3*"/> habe ich interessante u. in
+                    Deutschland gewiß seltne Hülfsmittel mitgebracht. Mit allem diesem beschäftige
+                    ich mich jetzt unmittelbar.</p>
+            <p>
+               <bibl sameAs="1178">Die inliegende Beschreibung des Monserrats</bibl> wünschte ich
+                    gedruckt zu sehen. Ich hielte es nemlich für gut, dem Ganzen solch ein einzelnes
+                    Stück vorausgehen zu lassen.</p>
+            <p>Am liebsten wünschte ich freilich, daß es in den <bibl sameAs="229">Propylaeen</bibl> erscheine; allein bei aller Güte Ihrer Freundschaft sehe
+                    ich keine Möglichkeit dazu ab, weil es auch gar nicht die Kunst betrift. </p>
+            <p>Aus diesem Grunde, u. in dem nur zu wahrscheinlichen Fall, daß Sie es auch für
+                    die <bibl sameAs="229">Propylaeen</bibl> nicht schicklich halten, sähe ich es am
+                    liebsten im <bibl sameAs="1179">Mercur</bibl> abgedruckt. Nur müßte es bald oder
+                    vielmehr gleich, u. ohne Abänderung, wo möglich auch ohne Abbrechung in Einem
+                    Stück erscheinen.</p>
+            <p>Wenn ich sage: ungeändert<supplied cert="high">,</supplied> so heißt das nur
+                    nicht von einem andern, als Ihnen verändert. Denn Sie bitte ich viel mehr selbst
+                    zu urtheilen, 1. ob das Ding des Drucks werth ist, dann ob es nicht hie u. da
+                    geändert werden muß; in diesem letzteren Fall nehmen Sie wohl diese Aenderungen
+                    gleich u. ohne Weiteres vor. So überlasse ich es ganz Ihnen, ob Sie nicht z. B.
+                    den ganzen Eingang bis an die Worte S. 3: „Für heute wünsche ich Sie cet. u.
+                    dann die Legende Guarins S. 12. streichen wollen.</p>
+            <p>Daß ich dem Stück die Einkleidung eines Briefes an Sie gegeben habe, verzeihen
+                    Sie mir hoffentlich, theurer Freund, u. erlauben mir auch wohl dieselbe Freiheit
+                    für das Ganze. Ihr gütiger Antheil hat mich nach Spanien hin begleitet, Sie
+                    haben mir dahin geschrieben, ich habe Ihnen einen Theil meiner Reise schon
+                    früher geschildert, Sie wünschten den Rest – lassen Sie diese Ansprüche
+                    hinreichend scheinen, um Ihren Namen einer Schrift vorzusetzen, der Sie wirklich
+                    großentheils das Daseyn gaben, weil ich, ohne Ihren Wunsch, mehr durch mich von
+                    Spanien zu wissen<supplied cert="high">,</supplied> vielleicht weniger
+                    sorgfältig im Schreiben meines Tagebuchs gewesen wäre.</p>
+            <p>Was macht <persName ref="fschiller">Schiller</persName>? was machen Sie?
+                    Schreiben Sie mir ja noch hieher, unter der alten adresse (rue et boulevard de
+                    Bondy, nr. 42.). Meine <pb n="4*"/> Abreise verzögert sich leider. <persName ref="cvh1">Meine Frau</persName>, die Sie herzlich grüßt, ist nicht ganz
+                    wohl. Die Blattern gehen hier herum, u. wir fürchten für <persName ref="ahedemann">unsre Kleine</persName>
+               <note type="footnote" resp="editor">Die zweite Tochter Adelheid war am 17. Mai 1800 in Paris geboren
+                        worden.</note>. Wir möchten sie gern noch einimpfen lassen. So sehen Sie,
+                    mein Lieber, verzögert sich unsre Abreise noch immer leicht um 6–8 Wochen.</p>
+            <p>
+               <sic>Grußen</sic> Sie <persName ref="fschiller">Schiller</persName> herzlich u.
+                    wünschen Sie ihm Glück zu seiner Dramatischen Fruchtbarkeit. Aber sagen Sie
+                        ihm<supplied cert="high">,</supplied> daß er seine alten Freunde nicht
+                    vergessen soll. Auch der <persName ref="cvwolzogen">Wollzogen</persName> u.
+                    <persName ref="fschiller">Schillern</persName>, u. vor allem <persName ref="jhmeyer">Meyern</persName> viel Schönes. </p>
+            <p>Wir sehen hier sehr oft ein <persName ref="mrlfoucquet">Fräul.
+                        Fouquet</persName>
+               <supplied cert="high">,</supplied> deren Aeltern noch bei
+                    Ihnen sind. Sie gefällt mir sehr, u. wir reden schon sehr oft von <placeName ref="Weimar">Weimar</placeName>. </p>
+            <closer>Möchte ich nur bald unter Ihnen allen seyn. <salute>Von Herzen Adieu.</salute>
+            </closer>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>Ich lege eine Zeichnung des Bildes von <persName ref="pnguerin">Guerin</persName>, Marcus Sextus bei, das im vorigen Jahr ausgestellt
+                        war, u. so viel Lärm machte. Diese Zeichnung macht alle Beschreibung
+                        überflüssig, u. ich schicke sie Ihnen zu beliebigem Gebrauch. Sie ist von
+                            <persName ref="cftieck">Tiek</persName>, von dem ich Ihnen schon
+                            schrieb.<note type="footnote" resp="editor">Siehe hierzu Boris Roman
+                            Gibhardt (2011): Goethe und Paris. In: Andreas Beyer – Ernst Osterkamp
+                            (Hrsg.): <hi rend="italic">Goethe-Handbuch Supplemente, Bd. 3: Kunst</hi>, Stuttgart: Metzler,
+                            S. 173f., mit Abb. 33 auf S. 174. Die Zeichnung befindet sich heute in
+                            der Klassik Stiftung Weimar, Inv.-Nr. GHz/Sch. I. 318, 976.
+                        [FZ]</note>
+               </p>
+               <p>Eben dieser läßt Ihnen sagen, daß das Kabinet der Florentinischen
+                        Handzeichnungen, von dem Sie in den Propylaeen reden, nicht von den
+                        Franzosen genommen worden ist.</p>
+               <p>Dieser Brief wird sehr viel Postgeld kosten. Aber haben Sie die Güte<supplied cert="high">,</supplied> es anzumerken, damit ich es ersetzen kann. Ich
+                        bitte Sie sehr ernstlich darum. Auch unter Freunden kann man ja Geschäfte,
+                        wie Geschäfte abmachen, u. warum soll Ihnen meine Schriftstellerei Geld
+                        kosten. Noch einmal adieu!</p>
+               <p>
+                  <pb n="Links am Rand von oben nach unten"/> Mit Beschämung habe ich gesehen,
+                        welch einen breiten Platz Ihre Güte mir <bibl sameAs="229">im 5<hi rend="superscript">t</hi> Stück Propylaeen</bibl> verstattet
+                        hat.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

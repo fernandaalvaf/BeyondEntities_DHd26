@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- in Bearbeitung von CL, 23. März 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 20.01.1833<idno type="BBAW">287</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 64–67</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 217</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jgcadler">
+                  <persName>Adler, Jacob Georg Christian</persName>
+               </person>
+               <person corresp="aabarbier">
+                  <persName>Barbier, Antoine-Alexandre</persName>
+               </person>
+               <person corresp="ctbeauvais">
+                  <persName>Beauvais, Charles-Théodore</persName>
+               </person>
+               <person corresp="cblasi">
+                  <persName>Blasi, Camillo</persName>
+               </person>
+               <person corresp="ggbottari">
+                  <persName>Bottari, Giovanni Gaetano</persName>
+               </person>
+               <person corresp="fbhamilton">
+                  <persName>Buchanan-Hamilton, Francis</persName>
+               </person>
+               <person corresp="fccorippus">
+                  <persName>Cresconius Corippus, Flavius</persName>
+               </person>
+               <person corresp="georgiosp">
+                  <persName>Georgios Pisides</persName>
+               </person>
+               <person corresp="aagiorgi">
+                  <persName>Giorgi, Agostino Antonio</persName>
+               </person>
+               <person corresp="afabroni">
+                  <persName>Fabroni, Angelo</persName>
+               </person>
+               <person corresp="gferri">
+                  <persName>Ferri, Girolamo</persName>
+               </person>
+               <person corresp="pffoggini">
+                  <persName>Foggini, Pietro Francesco</persName>
+               </person>
+               <person corresp="achviid">
+                  <persName>Hviid, Andreas Christian</persName>
+               </person>
+               <person corresp="asmazzocchi">
+                  <persName>Mazzocchi, Alessio Simmaco</persName>
+               </person>
+               <person corresp="bpassioneius">
+                  <persName>Passioneius, Benedictus</persName>
+               </person>
+               <person corresp="asardi">
+                  <persName>Sardi, Alessandro</persName>
+               </person>
+               <person corresp="theodosius">
+                  <persName>Theodosius</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="990">Adler, Jacob Georg Christian: Epistolae duae una R.P. Augustini
+                    Antonii Georgii Erem. Augustin. Procuratoris Generalis, altera Iacobi Georgii
+                    Chr. Adleri, in quibus loca nonnulla operis Adleriani de versionibus Syriacis
+                    novi testamenti simplice Philoxeniana, et Hierosolymitana examinantur
+                    (Kopenhagen: Thiele 1790) </bibl>
+               <bibl corresp="994">Anonymus: Breviarium feriale Syriacum SS. Ephrem et Jacob Syrorum
+                    (Rom: Sacra Congregatio de Propaganda Fide 1787)</bibl>
+               <bibl corresp="995">Beauvais, Charles-Théodore / Barbier, Antoine-Alexandre: Biographie
+                    universelle classique; ou, Dictionnaire historique portatif Vol. 1–3 (Paris: C.
+                    Gosselin 1829)</bibl>
+               <bibl corresp="982">Blasi, Camillo: Lettere italiane aggiunte all’Antirretico in difesa
+                    della dissertazione commonitoria dellavvocato Cammillo Blasi sopra ladorazione
+                    e la festa del cuore di Gesù (Rom: B. Francesi 1772)</bibl>
+               <bibl corresp="992">Bottari, Giovanni Gaetano: Musei Capitolini Tom. I–IV (Rom: Rubeis
+                    [u.a.] 1750–1782)</bibl>
+               <bibl corresp="993">Bottari, Giovanni Gaetano / Foggini, Pietro Francesco: Musei
+                    Capitolini Tom. IV. Continens Marmora Anaglypha: Cum Animadversionibus (Rom:
+                    Fulgonius 1782)</bibl>
+               <bibl corresp="979">Fabroni, Angelo: Fragmentum Evangelii S. Johannis
+                    Graeco-Copto-Thebaicum Saeculi IV: Additamentum ex vetustissimis membranis
+                    lectionum evangelicarum divinae Missae Cod. Diaconi reliquiae et liturgica alia
+                    fragmenta veteris Thebaidensium Ecclesiae ante Dioscorum, ex veliterno Museo
+                    Borgiano, nunc prodeunt in Latinum versa et notis illustrata (Rom: Apud Antonium
+                    Fulgonium 1789)</bibl>
+               <bibl corresp="978">Fabroni, Angelo: Vitae Italorum doctrinae excellentium qui saeculis
+                    17. et 18. floruerunt (Pisis: Excudebat Carolus Ginesius 1778-1805)</bibl>
+               <bibl corresp="977">Georgi, Agustin Antonio: Alphabetum tibetanum missionum
+                    apostolicarum (Rom: Typis sacræ congregationis de propaganda fide 1762)</bibl>
+               <bibl corresp="981">Giorgi, Antonio Agostino: Christotimi Ameristae adversus epistolas
+                    duas ab anonymo censore in dissertationem commonitoriam Camilli Blasii De festo
+                    cordis Jesu vulgatas Antirrheticus (Rom: B. Francesi 1772)</bibl>
+               <bibl corresp="991">Giorgi, Antonio Agostino: De Inscriptionibus palmyrenis quae in
+                    museo capitolino adservantur interpretandis epistola ad Nicolaum canonicum
+                    Fogginium (Rom: A. Fulgonium 1782)</bibl>
+               <bibl corresp="980">Giorgi, Antonio Agostino / Borgia, Stefano: De miraculis Sancti
+                    Coluthi: et reliquiis actorum Sancti Panesniv martyrum Thebaica fragmenta duo
+                    alterum auctius alterum nunc primum editum praeit dissertatio eminentissimi
+                    Stephani Card. Borgiae De cultu S. Coluthi M. (Rom: Antonium Fulgonium
+                    1793)</bibl>
+               <bibl corresp="987">Georgios Pisides / Theodosius Diaconus / Flavius Cresconius
+                    Corippus / Foggini, Pietro Francesco: Corporis Historiæ Byzantinæ Nova Appendix,
+                    Opera Georgii Pisidæ, Theodosii Diaconi et Corippi Africani Grammatici
+                    complectens (Rom: Francesius 1777)</bibl>
+               <bibl corresp="160">Hamilton, Francis: An Account of the Kingdom of Nepal (Edinburgh:
+                    Archibald Constable 1819)</bibl>
+               <bibl corresp="898">Hviid, Andreas Christian: Specimen ineditae versionis
+                    Arabico-Samaritanae Pentateuchi e codice manuscripto Bibliothecae Barberinae
+                    (Rom: Praesidum Facultate 1780)</bibl>
+               <bibl corresp="983">Sardi, Alessandro / Ferri, Girolamo: Alexandri Sardii Ferrariensis
+                    Numinum et heroum origines (Rom: B. Francesi 1775)</bibl>
+               <bibl corresp="988">Simmaco Mazzocchi, Alessio: De Sanctorum Neapolitanae ecclesiae
+                    episcoporum cultu dissertatio. 2 (Neapoli: Raymund 1753)</bibl>
+               <bibl corresp="986">Passioneius, Benedictus: Adnotationes ad opus Hadriani Card. S.
+                    Chrysogoni de vera Philosophia ex quatuor Ecclesiae Doctoribus editum (Rom:
+                    Francesius 1775)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz hochgeneigtes Schreiben vom 18ten
+                        d. habe ich richtig empfangen und werde morgen die Ehre haben Ew. Exzellenz
+                        über Hamilton’s Nepal zu schreiben oder Ihnen das Buch zu schicken
+                    …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1833-01-20"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">20. März 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_133.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_134.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_135.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_136.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_137.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_138.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_139.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-01-20/Coll.ling.fol.53_140.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="64r"/>
+               <address>
+                  <addrLine>Sr. Excellenz</addrLine>
+                  <addrLine>dem Herrn Geheimen Staatsminister</addrLine>
+                  <addrLine>Freiherrn <hi rend="antiqua">von Humboldt</hi>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>hochgeneigtes Schreiben vom <date when="1833-01-18">18<hi rend="superscript">
+                     <hi rend="underline2">ten</hi>
+                  </hi> d.</date> habe ich richtig
+                    empfangen, und werde morgen die Ehre haben Ew. Excellenz über <hi rend="antiqua">
+                  <persName ref="fbhamilton">Hamilton</persName>’s <bibl sameAs="160">Nepal</bibl>
+               </hi> zu schreiben oder Ihnen das <bibl sameAs="160">Buch</bibl> zu schicken.</p>
+            <p>Ich beeile mich, Ew. Excellenz schließlich über den <hi rend="antiqua">
+                  <persName ref="aagiorgi">Georgi</persName>
+               </hi> zu berichten. Nirgends habe ich
+                    eine Spur von mehreren Kupferplatten zu seinem <hi rend="antiqua">
+                  <bibl sameAs="977">Alphabetum Tibetanum</bibl>
+               </hi>, noch von einer anderen
+                    Ausgabe des Werkes gefunden; derselben Meinung ist <persName ref="fwilken">Hr.
+                        Geheimrath <hi rend="antiqua">Wilken</hi>
+               </persName>. Den
+                    Katalog<!-- gibt es den Titel? evtl.: "Bibliotheca orientalis Clementino-Vaticana" von Josephus Simonus Assemani; Sacra Congregatio de Propaganda Fide (Rom: Typis Sacræ Congregationis de Propaganda Fide, 1719-1728)? -->
+                    der <pb n="64v"/>
+               <hi rend="antiqua">
+                  <orgName ref="56">Propaganda</orgName>
+               </hi> habe ich nicht aufgefunden; dieser wäre auch wenigstens nicht die Quelle
+                    gewesen, aus der man die übrigen Schriften <hi rend="antiqua">
+                  <persName ref="aagiorgi">Georgi</persName>’s</hi> hätte ersehen können. Dieselben
+                    habe ich vielmehr in des <hi rend="antiqua">
+                  <persName ref="afabroni">Angelo
+                            Fabroni</persName> <bibl sameAs="978">Vitae Italorum doctrinae
+                            excellentium qui saeculis 17. et 18. floruerunt</bibl>, Band 18.</hi>
+                        (<hi rend="antiqua">Pisa 1799. 8°</hi>), der ein Leben des <hi rend="antiqua">
+                  <persName ref="aagiorgi">Georgi</persName>
+               </hi> enthält,
+                    folgendermaaßen von Seite 46. bis 50. verzeichnet gefunden:</p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="977">Alphabetum Tibetanum</bibl>, Rom 1762, 4°
+                        Propaganda.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="979">Fragmentum Evangelii S. Johannis
+                            Graeco-Copto-Thebaicum saeculi 4</bibl>. Rom 1789. 4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="980">De miraculis Sancti Coluthi et reliquiis
+                            actorum Sancti Panesniv martyrum fragmenta duo</bibl>. Rom. 1793.
+                        4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="981">Christotimi Ameristae adversus epistolas duas
+                            ab anonymo Censore in dissertationem commoni</bibl>
+               </hi>-<pb n="65r"/>
+               <hi rend="antiqua">
+                  <bibl sameAs="981">toriam Camilli Blasii de Festo Cordis
+                            Jesu vulgatas Antirrheticus</bibl>. Rom. 1772. 4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Lettera di Antropisco Teriomaco a Cristotimo in difesa dell’
+                        Avvocato Blasi contro la lettera Fiorentina di un Villeggiante detto il
+                        Teologo Cacciatore</hi> – findet sich in den <hi rend="antiqua">
+                  <bibl sameAs="982">Lettere Italiane aggiunte all’ Antirretico in difesa della
+                            dissertazione commonitoria dell’ Avvocato Cammillo Blasi sopra
+                            l’adorazione e la festa del Cuor di Gesù</bibl>
+               </hi> (von welchem Werke
+                    des <hi rend="antiqua">
+                  <persName ref="cblasi">Blasi</persName>
+               </hi>, nach <hi rend="antiqua">
+                  <persName ref="afabroni">Fabroni</persName>
+               </hi>, <hi rend="antiqua">
+                  <persName ref="aagiorgi">Georgi</persName>
+               </hi> Antheil hat,
+                    daher er es mit anführt). <hi rend="antiqua">Roma 1772. 4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">De Theogonia Alexandri Sardii judicium ad
+                            Hieronymum</hi> <del>
+                  <hi rend="antiqua">ferrium</hi>
+               </del>
+               <hi rend="antiqua"> Ferrium</hi> – in <hi rend="antiqua">
+                  <bibl sameAs="983">Alexandri Sardii Ferrariensis numinum et heroum origines</bibl>. Rom.
+                        1775. 4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="986">Adnotationes ad opus Hadriani Card. S.
+                            Chrysogoni de vera philosophia ex quatuor ecclesiae
+                        docto</bibl>
+               </hi>-<pb n="65v"/>
+               <hi rend="antiqua">
+                  <bibl sameAs="986">ribus
+                            editum</bibl>. Rom. 1775. 4°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Epistola ad Jo. Bernardum de Rossi de distico Saracenico
+                        Theodosii Diaconi</hi> – in <hi rend="antiqua">
+                  <bibl sameAs="987">Corporis
+                            historiae Byzantinae nova appendix opera Georgii Pisidae Theodosii
+                            Diaconi &amp; Coripi Africani Grammatici complectens</bibl>. Rom. 1777.
+                        fol.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Collectanea quaedam ab Aug. Ant. Georgio Augustiniano in
+                        Romano Sapientiae Gymnasio Sacr. Script. Interprete suppeditata et ad B.
+                        Jacobum Viterbiensem pertinentia</hi> – in <hi rend="antiqua">
+                  <persName ref="asmazzocchi">Symmachi Mazocchii</persName>: <bibl sameAs="988">De
+                            Sanctorum Neapolit. Ecclesiae Episcoporum cultu tom. II.</bibl> p.
+                        418.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                        Epistola de morte Francisci Xaverii Vasquesii
+                            Augustinianorum Prioris Generalis.</hi> (Ohne Angabe <pb n="66r"/> des Druckortes und Jahres.)</p>
+            <p>
+               <hi rend="antiqua">
+                        In causa unionis Coenobii Plebistaurinae cum
+                            majori coenobio Augustinianorum Camerinensium informatio, Rom.
+                        1779.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">De Arabicis interpretationibus veteris Testamenti epistola –
+                        in <subst>
+                     <del>dem</del>
+                     <add>des</add>
+                  </subst>
+                  <persName ref="achviid">Andreas Christianus Hwiidius</persName> Hauniensis: <bibl sameAs="898">Specimen ineditae versionis Arabico-Samaritanae Pentateuchi e cod.
+                            bibliothecae Barberinae</bibl>, Rom. 1780. 8°.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">De versionibus Syriacis Novi Test. epistola</hi> – in <hi rend="antiqua">
+                  <persName ref="jgcadler">Jac. Georg.
+                        Adler</persName>
+               </hi> <bibl sameAs="990">Werk über denselben
+                        Gegenstand</bibl>, <hi rend="antiqua">Hafniae 1790.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="991">De inscriptionibus Palmyrenis, quae in Mus.
+                            Capit. adservantur interpretandis epistola ad Nicolaum Canonicum
+                            Fogginium</bibl>, Rom. 1782. 8°.</hi>, und auch <pb n="66v"/> enthalten
+                    im <bibl sameAs="993">vierten Bande</bibl> des <hi rend="antiqua">
+                  <bibl sameAs="992">Museum Capitolinum</bibl>
+               </hi>, Rom. 1782.</p>
+            <p>
+               <hi rend="antiqua">Monitum ad sacerdotes &amp; clerum S. Sorinae Ecclesiae</hi> –
+                    in dem <hi rend="antiqua">
+                  <bibl sameAs="994">Breviario feriali Syriaco</bibl>,
+                        Rom. 1787.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="afabroni">Fabroni</persName>
+               </hi> fügt noch
+                    hinzu: <hi rend="antiqua">Multa inedita scripta reliquit Georgius, consilia
+                        praesertim de rebus sacris et religiosis, explicationes monumentorum
+                        antiquitatis, epistolas ad amicos.</hi>
+            </p>
+            <p>Keines dieser Werke möchte wohl eine Reihe von Kupfertafeln bis zu 42. veranlaßt
+                    haben.</p>
+            <p>Den Namen betreffend, so möchte <hi rend="antiqua">
+                  <persName ref="aagiorgi">Georgi</persName>
+               </hi> wohl die richtige italiänische Form sein. Die
+                        <hi rend="antiqua">
+                  <bibl sameAs="995">Biographie universelle
+                        classique</bibl>
+               </hi> (Band 3. <hi rend="antiqua">Paris 1829, 8°.</hi>) hat
+                    die Lebens-<pb n="67r"/>beschreibung unter <hi rend="antiqua">
+                  <hi rend="underline">
+                     <persName ref="aagiorgi">Giorgi</persName>
+                  </hi>
+               </hi>,
+                    und unter <hi rend="antiqua">
+                  <hi rend="underline">
+                     <persName ref="aagiorgi">Georgi</persName>
+                  </hi>
+               </hi> nur eine Verweisung auf <hi rend="antiqua">
+                  <persName ref="aagiorgi">Giorgi</persName>
+               </hi>.</p>
+            <closer>
+               <salute>Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit
+                        und Dankbarkeit, womit ich verharre <lb/>Ew. Excellenz <lb/>unterthänigster
+                        Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 20 Jan. 1833.</dateline>
+               <lb/>
+               <pb n="67v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

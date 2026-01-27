@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jean-Louis Burnouf an Wilhelm von Humboldt, 31.03.1825<idno type="BBAW">25</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1040, Bl.
+                            15–16. – Entwurf: Paris, Bibliothèque National de France, Nouvelles
+                            Acquisitions Françaises 10600, Fol. 74–76</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bösch 2006, S. 258–261</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11835</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="pkbuttmann">
+                  <persName>Buttmann, Philipp Karl</persName>
+               </person>
+               <person corresp="ahmatthiae">
+                  <persName>Matthiae, August Heinrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="682">Burnouf, Eugène: Rezension zu Franz Bopp: Vergleichende
+                    Zergliederung des Sanskrits und der mit ihm verwandten Sprachen, c’est-à-dire,
+                    Analyse comparée du Samskrit et des langues qui s’y apportent (Berlin 1824). In:
+                    Journal Asiatique 6, 1825, S. 52–62, S. 113–117</bibl>
+               <bibl corresp="1108">Burnouf, Jean-Louis (1823): Critique littéraire: Système
+                    perfectionné de conjugaison des verbes grecs, présenté dans une suite de
+                    tableaux paradigmatiques, D. Frédéric Thiersch […]. In: Journal Asiatique 3, S.
+                    364–378</bibl>
+               <bibl corresp="681">Burnouf, Jean-Louis: Méthode pour étudier la Langue Grecque, 13.
+                    Auflage (Paris: A. Délalain 1825)</bibl>
+               <bibl corresp="636">Buttmann, Philipp: Ausführliche griechische Sprachlehre (Berlin:
+                    Mylius 1819)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 433–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu
+                    [u.a.] 1822–heute)</bibl>
+               <bibl corresp="624">Matthiae, August Heinrich: Ausführliche griechische Grammatik
+                    (Leipzig: Vogel 1807)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek [eine
+                    Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Je me reproche beaucoup de n’avoir pas
+                        répondre plus tôt à …</ab>
+            <p>Aus Paris. Französisch. Antwort auf Humboldts Brief vom <date when="1824-12-29">29.12.1824</date>. Bedankt sich für Humboldts Bemerkungen zu <bibl sameAs="1108">seinem Aufsatz</bibl>. Burnouf präzisiert seine Bemerkungen zur
+                    Worttrennung im Sanskrit: man soll trennen, aber ohne die Endungen wieder
+                    einzufügen. Im geschriebenen Griechisch hat man wahrscheinlich wegen der
+                    Verbreitung der Sprache in der Welt die Endungen wieder eingefügt. Die
+                    Aussprache ist anders als die geschriebene Form. So ist es ja auch im
+                    Französischen und Englischen. Aber für eine so gebildete Sprache wie das
+                    Sanskrit ist es besser, die Schreibweise der Manuskripte zu bewahren, die eher
+                    den Redezusammenhang wiedergeben, wogegen die Rechtschreibung des Griechischen
+                    und der modernen Sprachen eher die Wörter einzeln und deren grammatische
+                    Verbindung darstellen. Es folgen Bemerkungen über den Akzent. Leider hat die
+                    Schrift im Sanskrit keine Akzentuierung im Gegensatz zum Griechischen. Das
+                    schafft Probleme. Kommentiert Humboldts Auffassung, dass das Griechische
+                    gegenüber dem Sanskrit das Zuviel weggenommen und das Zuwenig hinzugefügt habe.
+                    Das hängt mit der Tendenz der Sprache zusammen, sich im Laufe der Geschichte zu
+                    vereinfachen, zu analysieren, z.B. Präpositionen statt Kasus zu verwenden. Das
+                    Griechische hat aber das Synthetische beim Verb bewahrt. Burnouf bezieht sich
+                    auf Humboldts <bibl sameAs="222">Aufsatz über das Entstehen der grammatischen
+                        Formen</bibl>. Das Griechische ist also beim Verb synthetisch geblieben,
+                    beim Rest aber analytisch geworden. Verweist auf Humboldts Aufsatz in <persName ref="awschlegel">Schlegels</persName> <bibl sameAs="396">Indischer
+                        Bibliothek</bibl>. Burnouf weist auf <bibl sameAs="682">Artikel</bibl>
+                    seines <persName ref="eburnouf">Sohnes (Eugène)</persName> im <bibl sameAs="773">Journal asiatique</bibl> hin. Burnouf schickt Humboldt die 13. Auflage
+                    seiner <bibl sameAs="681">Grammaire grecque</bibl>. </p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jlburnouf">Burnouf, Jean-Louis</persName>
+               <date type="author" when="1825-03-31"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1115" type="prev">29.12.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jlburnouf">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">04. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Philippus Pieter Roorda van Eysinga, 14.02.1832<idno type="BBAW">365</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ausfertigung: Berlin, SBBPK, Coll.
+                            ling. quart. 75, Bl. 21–30. – Entwurf: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 228–233</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Harnack 1913, S. 255 (Regest)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 224, 354</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8418</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcrawfurd">
+                  <persName>Crawfurd, John</persName>
+               </person>
+               <person corresp="jfcgericke">
+                  <persName>Gericke, Johann Friedrich Carl</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="58">Brata Yudha</bibl>
+               <bibl corresp="99">Crawfurd, John: Drei Wörterbücher des Javanischen: Englisch –
+                    Javanisch, Javanisch – Englisch, Javanisch – Javanisch [Manuskript]</bibl>
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java,
+                    nebst einer Einleitung über die Verschiedenheit des menschlichen Sprachbaues und
+                    ihren Einfluss auf die geistige Entwicklung des Menschengeschlechts. In:
+                    Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften zu Berlin
+                    aus dem Jahre 1832, Zweiter Theil (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1836)</bibl>
+               <bibl corresp="385">Humboldt, Wilhelm Freiherr von / Schiller, Friedrich: Briefwechsel
+                    zwischen Schiller und Wilhelm v. Humboldt (Stuttgart und Tübingen: J. G. Cotta
+                    1830)</bibl>
+               <bibl corresp="351">Raffles, Thomas Stamford: The History of Java. In two Volumes
+                    (London: Black, Parbury, and Allen 1817)</bibl>
+               <bibl corresp="365">Roorda van Eijsinga, Philippus Pieter: Algemeen Nederduitsch en
+                    Javaansch Woordenboek, in de Kromo-, Ngoko-, Modjo- en Kawische taal, met
+                    geauthographieerde tafel (Kampen: Van Hulst 1834)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, J’ai reçu avec une vive satisfaction la lettre
+                        infiniment intéressante que Vous m’avez fait l’honneur de m’écrire en date
+                        du 11. Juillet et 20. Septembre …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1832-02-14"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="pproorda">Roorda van Eysinga, Philippus Pieter</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="462" type="prev">31.07.1831/25.09.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpebuschmann">Ausfertigung in der Handschrift von J. P. E.
+                    Buschmann mit Korrekturen und Schlussabsatz von Humboldts Hand</handNote>
+         </handNotes>
+         <langUsage n="ind paz">
+            <language ident="arb">Arabisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="la">Latein</language>
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="phi">Philippinische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="tl">Tagalog (Tagalisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. Mai 2016</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="21r"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>J’ai reçu avec une vive satisfaction la lettre infiniment intéressante que Vous
+                    m’avez fait l’honneur de m’écrire en date du <date when="1831-07-11">11.
+                        Juillet</date> et <date when="1831-09-20">20. Septembre</date>
+               <note resp="editor" type="footnote">Offensichtlich hat sich Humboldt bei der
+                        Angabe der Daten geirrt; der Brief, auf den er sich bezieht (Coll. ling.
+                        fol. 53, Bl. 222–226), stammt vom <date when="1831-07-31">31. Juli</date>
+                        bzw. <date when="1831-09-25">25. September 1831</date>. Dieser Fehler
+                        besteht bereits im Briefentwurf Humboldts. [FZ]</note>, et je m’empresse,
+                    Monsieur, à Vous en offrir mes plus vifs et sincères remercimens. </p>
+            <p>Cette lettre est une vraye source d’instruction pour moi, j’y ai puisé un grand
+                    nombre de notions tout à fait neuves, et j’y ai vû confirmées des suppositions
+                    que j’avois formées. C’est ainsi que je m’étois apperçû de la méthode d’indiquer
+                    le Prétérit par un <hi rend="underline">n</hi> initial; j’avois tiré cette
+                    donnée des langues des isles Philippines et de Madagascar, et je fais mention de
+                    cette circonstance, puisqu’elle prouve l’affinité de toutes ces langues et la
+                    grand utilité d’en réunir l’étude. J’attends avec impatience les communications
+                    altérieures que Vous voulez bien me promettre, et je Vous supplie instamment de
+                    ne pas discontinuer de rectifier et de completter mes notions du Kawi et du
+                    Javanois. Je possède depuis mon retour <pb n="21v"/> ici un <bibl sameAs="99">Dict. Javanois-Anglois manuscrit</bibl> que <persName ref="jcrawfurd">Mr.
+                        Crawfurd</persName> a composé pendant son séjour à Java. Il est beaucoup
+                    plus riche en expressions que <bibl sameAs="140">le Vocabulaire</bibl> de
+                        <persName ref="jfcgericke">Mr. Gericke</persName>, et il me paroit correct,
+                    autant que je puis le comparer avec ce dernier. Mais je serois bien plus heureux
+                    de pouvoir consulter <bibl sameAs="365">le Vôtre</bibl>, Monsieur, et je ne puis
+                    assez Vous engager à en hâter la publication. </p>
+            <p>Vous observez avec beaucoup de justesse, Monsier, que la langue Javanoise est la
+                    seule langue qui en renferme deux différentes en elle. La chose s’explique
+                    cependant par la circonstance que la Grammaire de ces deux langues est la même.
+                    Vous me ferez peut-être l’objection, Monsieur, que les Pronoms, la formation des
+                    degrés de comparaison, les affixes du Passif, des verbes causatifs, des temps
+                    des verbes et cet. diffèrent entièrement dans le Kromo<note type="footnote" resp="editor">Krama.</note> et le Ngoko. Cela est parfaitement vrai; mais
+                    tout cela se réduit à la différence du son des syllabes dont on fait usage, la
+                    méthode de les employer, l’habitude de les placer avant ou après, le sens qu’on
+                    y attache, ainsi que la Syntaxe, sont les mêmes. Les formations plus
+                    artificielles qui distinguent le Javanois, l’insertion de la syllabe <hi rend="underline">in</hi> pour changer l’Actif en Passif, la permu-<pb n="22r"/>tation des lettres initiales des Verbes cet. appartiennent aux deux
+                    façons de parler. C’est par là que l’unité de la langue se conserve et qu’un
+                    Javanois du peuple apprend facilement à manier le Kromo, tandis qu’il
+                    s’habitueroit très-certainement avec grande difficulté au Latin quelque grand
+                    que fût le nombre de mots Latins qu’il pourroit avoir appris. Ce qui m’étonne le
+                    plus, et ce que je ne puis encore m’expliquer, c’est que parfois la différence
+                    du Kromo et Ngoko ne consiste que dans une seule lettre, comme <foreign sameAs="jv">
+                  <hi rend="underline">Jawi</hi>
+               </foreign> et <foreign sameAs="jv">
+                  <hi rend="underline">Jowo</hi>
+               </foreign>, <foreign sameAs="jv">
+                  <hi rend="underline">dadah</hi>
+               </foreign> et <foreign sameAs="jv">
+                  <hi rend="underline">daduh</hi>
+               </foreign>. Là où le <hi rend="underline">i</hi> désigne <subst>
+                  <del>
+                     <hi rend="underline">h</hi>
+                  </del>
+                  <add>le</add>
+               </subst> Féminin, comme en <foreign sameAs="jv">
+                  <hi rend="underline">dewi</hi>
+               </foreign>, <foreign sameAs="jv">
+                  <hi rend="underline">putri</hi>
+               </foreign>, cela se comprend aisément,
+                    puisque cette désinence féminine est Sanscrite, mais cela n’est pas le cas ici.
+                    Et que dire de la terminaison <foreign sameAs="jv">
+                  <hi rend="underline">haken</hi>
+               </foreign> et <foreign sameAs="jv">
+                  <hi rend="underline">hakē</hi>
+               </foreign>?</p>
+            <p>Vous attribuez, Monsieur, l’origine du Kromo avec raison en grand partie à
+                    l’influence de colonies Hindoues. J’avoue cependant que ces colonies
+                    n’expliquent pas entièrement le phénomêne extraordinaire. Car un certain nombre
+                    de mots est commun au Kromo et au Ngoko, et un autre qui appartient
+                    exclusivement au premier, n’est pas du tout d’origine Sanscrite, mais trahit par
+                    son affinité avec des mots d’autres langues Malaies son origine indigène. Il y a
+                    donc là encore bien des problêmes à résoudre. </p>
+            <p>
+               <bibl sameAs="227">Mon travail</bibl> <del type="fragment">p</del> <bibl sameAs="227">sur la langue Kawi</bibl> avance journellement <pb n="22v"/> j’y
+                    travaille avec la plus grande assiduité. Mes recherches m’obligent à traiter
+                    fort en détail beaucoup de questions importantes touchant la Grammaire
+                    Javanoise, et je suis bien curieux de voir, si Vous approuverez, Monsieur, le
+                    systême que je m’en suis formé. </p>
+            <p>Aujourd’hui je me bornerai à Vous entretenir du pronom <hi rend="underline">kita</hi>. Le point, si ce pronom est aussi employé pour désigner la
+                    seconde personne? est de la plus grande importance rélativement à d’autres
+                    questions sur les Pronoms des langues Malaies. Je prendrai la liberté de Vous
+                    soumettre les passages du <bibl sameAs="58">Brata Yuddha</bibl> dans lesquels <hi rend="underline">kita</hi> me paroit signifier <hi rend="underline">tu</hi>
+                    ou <hi rend="underline">toi</hi>. Je Vous prie de les examiner avec soin et de
+                    me dire, si j’ai raison? Je désire infiniment de connoître Votre opinion
+                    là-dessus, avant que de commencer l’impression de mon ouvrage. </p>
+            <p/>
+            <p>
+               <bibl sameAs="58">Stance 4.</bibl> (<bibl sameAs="351">texte et traduction
+                        angloise</bibl> de <persName ref="tsraffles">Raffles</persName>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 468.</note>): </p>
+            <p>
+               <foreign sameAs="kaw">Tang’gap tosna nograha ku ri wukang ku Jaya Baya rang’e
+                        nikang Praja</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Satiastu prabu chakra wartia kita ring sabuana Jaya
+                        satru ring mosu</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Teknan lang’gen’a satmaka na ku lawan kita tulusa Batara
+                        ring Jagat</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Yekan sabda nira tro telasi nastoakan nira resi sang’gia
+                        ring lang’it</foreign>
+            </p>
+            <p>
+               <pb n="23r"/> Traduction: <lb/>Receive from me a blessing, oh my son Jaya Baya!
+                    – Hear me! In thy country <lb/>Thou shalt become the chief of the whole circle
+                    of princes, and in war victorious over the enemy. <lb/>Be firm and fear not, for
+                    thou shalt become as a Batara. <lb/>This declaration pronounced with solemnity,
+                    war treasured in the memory of all the holy Pandita of heaven. </p>
+            <p>Notes. v. 1. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">tanggap</hi>
+               </foreign>, recevoir. Crawfurd. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">tosna</hi>
+               </foreign>, devroit être <foreign sameAs="sa">
+                  <hi rend="underline">tusna</hi>
+               </foreign>, mot Sanscrit: plein d’allégresse,
+                    de bonne humeur. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">nugraha-ku</hi>
+               </foreign>, mon don, cadeau, mot
+                    Sanscrit: <foreign sameAs="sa">
+                  <hi rend="underline">anugraha</hi>
+               </foreign>. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ri</hi>
+               </foreign>, particule explétive, précédent ici
+                    le Vocatif. A Madagascar on place souvent <foreign sameAs="mg">
+                  <hi rend="underline">ri</hi>
+               </foreign> devant les noms propres, comme en
+                    fait de <foreign sameAs="jv">
+                  <hi rend="underline">pun</hi>
+               </foreign> en Javanois. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">wukang</hi>
+               </foreign>. Je ne trouve pas ce mot dans mes
+                    Vocabulaires Javanois. J’imagine qu’il a la même signification que <foreign sameAs="ms">
+                  <hi rend="underline">bujang</hi>
+               </foreign>, (Mal.) garçon, et qu’il faut le
+                    dériver du Mal. <foreign sameAs="ms">
+                  <hi rend="underline">būka</hi>
+               </foreign> (en Tagala <foreign sameAs="tl">
+                  <hi rend="underline">bukàs</hi>
+               </foreign>) ouvrir, commencer. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ku</hi>
+               </foreign>, mon. <lb/>
+               <hi rend="underline">Jaya Baya</hi>, nom propre. <lb/>
+               <pb n="23v"/> <foreign sameAs="kaw">
+                  <hi rend="underline">range</hi>
+               </foreign>; ce mot me laisse très-incertain.
+                    Les Traducteurs Anglois le prennent comme <foreign sameAs="kaw">
+                  <hi rend="underline">mireng</hi>
+               </foreign>. Mais <foreign sameAs="kaw">
+                  <hi rend="underline">rangen</hi>
+               </foreign> dans un autre passage du poëme ne
+                    peut pas avoir cette signification. L’<hi rend="underline">e</hi> final pourroit
+                    être le pronom <foreign sameAs="kaw">
+                  <hi rend="underline">he</hi>
+               </foreign> en signe de Génitif pour <foreign sameAs="kaw">
+                  <hi rend="underline">rangnge</hi>
+               </foreign>; car <bibl sameAs="351">Raffles</bibl> néglige souvent les règles euphoniques. Je trouve dans
+                        <bibl sameAs="140">la Grammaire</bibl> de <persName ref="jfcgericke">Mr.
+                        Gericke</persName> <foreign sameAs="jv">
+                  <hi rend="underline">rarangkullan</hi>
+               </foreign>, plusieurs qui s’embrassent
+                    ensemble, et chez <bibl sameAs="99">Crawfurd</bibl> <foreign sameAs="jv">
+                  <hi rend="underline">ngrangku</hi>
+               </foreign> embrasser. <foreign sameAs="jv">
+                  <hi rend="underline">Kul</hi>
+               </foreign>, venant du Sanscrit, remplit seul
+                    cette idée, car je trouve employé en Kawi ainsi le verbe <foreign sameAs="kaw">
+                  <hi rend="underline">ngol</hi>
+               </foreign>. Qu’est ce donc que <foreign sameAs="kaw">
+                  <hi rend="underline">rang</hi>
+               </foreign> veut dire dans cette acception? <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">nikang</hi>
+               </foreign>; je ne sais que faire de ce
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">ni</hi>
+               </foreign>. D’après la Grammaire Tagala<note type="footnote" resp="editor">Es ist nicht klar, auf welche der ihm
+                        vorliegenden Tagalog-Grammatiken (s. Schwarz 1993, Nr. 321–323, 325) sich
+                        Humboldt bezieht.</note> il indiqueroit un Génitif. <foreign sameAs="jv">
+                  <hi rend="underline">Kang</hi>
+               </foreign> est le pronom rélatif placé souvent
+                    en Javanais sans Démonstratif devant le Substantif ou au commencement de la
+                    phrase. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">praja</hi>
+               </foreign>, les sujets d’un souverain, mot
+                    Sanscrit. </p>
+            <p>v. 2. <foreign sameAs="kaw">
+                  <hi rend="underline">satyastu</hi>
+               </foreign>, mot indéclinable, formé de
+                    deux mots Sanscrits disant: qu’il soit vrai! <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">prabu</hi>
+               </foreign>, mot Sanscrit, prince, souverain. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">chakrawartia</hi>
+               </foreign>, mot Sanscrit, titre
+                    particulier d’un Souverain suprême gouvernant le monde entier. La désinence <hi rend="underline">a</hi> me semble être ici la syllable <hi rend="underline">ha</hi> qui indique l’Impératif en Javanois. Mais je la trouve
+                    très-communément ajoutée dans le poëme Kawi aux verbes là où le verbe ne peut
+                    pas être pris dans <pb n="24r"/> le sens de l’Impératif, et voudrois bien savoir
+                    ce que vous en pensez, Monsieur. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign>, toi. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ring</hi>
+               </foreign> me paroit simplement remplacer
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">hing</hi>
+               </foreign>. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">sabuana</hi>
+               </foreign>, mot Sanscrit précédé de <hi rend="underline">sa</hi>, le monde entier. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">jaya satru</hi>
+               </foreign>, mots Sanscrits, mais le
+                    Génitif placé d’après la construction Javanoise, vainqueur des ennemis. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">mosu</hi>
+               </foreign>; <foreign sameAs="ms">
+                  <hi rend="underline">musuh</hi>
+               </foreign>, ennemi. </p>
+            <p>v. 3. <foreign sameAs="kaw">
+                  <hi rend="underline">tekuan</hi>
+               </foreign>, <foreign sameAs="kaw">
+                  <hi rend="underline">tekuwan</hi>
+               </foreign>, <foreign sameAs="kaw">
+                  <hi rend="underline">tekwan</hi>
+               </foreign> se trouvent toujours placés au
+                    commencement d’un vers, mais j’en ignore entièrement la signification. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">langgenga</hi>
+               </foreign>, certain, ferme. <bibl sameAs="99">Crawf.</bibl> à l’impératif. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">satmaka</hi>
+               </foreign> peut être composé de l’Adjectif
+                    du mot Sanscrit: esprit, intelligence, et de la préposition <hi rend="underline">sa</hi>. Il signifieroit alors <foreign sameAs="la">
+                  <hi rend="underline">compos mentis</hi>
+               </foreign>, ou être d’un même
+                    sentiment, d’un même caractère avec quelqu’un. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">na ku</hi>
+               </foreign>, doit former un mot ensemble;
+                        <foreign sameAs="tl">
+                  <hi rend="underline">naku</hi>
+               </foreign> est en Tagala le Génitif <hi rend="underline">de moi</hi>; mais peut-être faut-il corriger le texte et
+                    lire <foreign sameAs="kaw">
+                  <hi rend="underline">hanakku</hi>
+               </foreign>, mon fils. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">lawan</hi>
+               </foreign>, contre, aussi, et. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign>, toi. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">tulusa</hi>
+               </foreign>, constamment, toujours; <hi rend="underline">a</hi> indique l’Impératif, du reste j’en ai parlé
+                    ci-dessus. <lb/>
+               <pb n="24v"/> <foreign sameAs="kaw">
+                  <hi rend="underline">Batara</hi>
+               </foreign>, un dieu. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">jagat</hi>
+               </foreign>, mot Sanscrit, le monde. </p>
+            <p>Traduction. v. 1. Reçois plein d’allégresse mon don, o mon fils, Jaya Baya, ....
+                    (ceux) qui (sont tes) sujets; <lb/>v. 2. qu’il soit vrai, que tu sois Prince
+                    Souverain suprême du monde entier, vainqueur d’ennemis parmi tes adversaires.
+                    <lb/>v. 3. sois ferme, d’accord avec moi et que tu sois pour toujours un Dieu
+                    dans le monde. </p>
+            <p>J’ai essayé de donner à <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> l’acception du Pronom de la 1.
+                    personne, mais il faut alors, ce me semble, forcer le sens et la contruction. Il
+                    faut traduire dans ce cas: <lb/>v. 2. – – – {je / <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign>} suis le Prince cet. <lb/>v. 3. que
+                    (tu) sois {vis à vis de moi / <foreign sameAs="kaw">lawan</foreign> <foreign sameAs="kaw">kita</foreign>} un Dieu cet. </p>
+            <p/>
+            <p>
+               <bibl sameAs="58">Stance 34.</bibl>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 477f.</note>
+            </p>
+            <p>
+               <foreign sameAs="kaw">T’her awarahi geng ning duka ngande hirisira</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Saha wuwus ira mas’ret déning luh lagi
+                        pinegeng</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Kita tiki bapa tambang kun mariyang regepa
+                        lara</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Sawulata saguyu m’wang sang pandut’maja saweka</foreign>
+            </p>
+            <p>Traduction: <lb/>And immediately told him of all the sad grief and consequent
+                    shame which filled her mind <lb/>
+               <pb n="25r"/> With a choked utterance and a strenuous effort to suppress the
+                    rising tear, <lb/>“O! my friend and protector,“ said she, “thou bringest
+                    consolation and comfort to my breaking heart, <lb/>Making me feel as happy as if
+                    I were at this moment in the delightful company of all the sons of Pandu.“</p>
+            <p>Notes: <lb/>
+               <add>
+                  <handShift scribe="wvh"/> V. 3.</add> <handShift scribe="Buschmann"/> <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign>, toi. <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="kaw">
+                     <hi rend="underline">tiki</hi>
+                  </foreign> m’est inconnû,</add>
+               <lb/>
+               <handShift scribe="Buschmann"/> <foreign sameAs="kaw">
+                  <hi rend="underline">bapa</hi>
+               </foreign>, père. Crawfurd. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">tambang</hi>
+               </foreign>. Je trouve dans le Vocabulaire
+                    de Crawfurd: <foreign sameAs="jv">
+                  <hi rend="underline">tambang</hi>
+               </foreign>, lien, corde; <foreign sameAs="jv">
+                  <hi rend="underline">tambah</hi>
+               </foreign>, augmenter, ajouter. En Malais
+                        <foreign sameAs="ms">
+                  <hi rend="underline">tambang</hi>
+               </foreign> est une mine, mais se dit aussi
+                    du transport de marchandises et de personnes. Peut-être que le mot est pris
+                    métaphoriquement ici et veut dire soutien, guide. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kun</hi>
+               </foreign>; le pronom <hi rend="underline">ku</hi>, mon. L’<hi rend="underline">n</hi> final doit être euphonique. Je
+                    trouve souvent en Kawi un <hi rend="underline">n</hi> ou <hi rend="underline">ng</hi> qui ne semble pas appartenir au mot qu’il termine. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">mariyang</hi>
+               </foreign>. Je sépare ce mot. <foreign sameAs="kaw">
+                  <hi rend="underline">Mari</hi>
+               </foreign>, tu viens; <foreign sameAs="kaw">
+                  <hi rend="underline">yang</hi>
+               </foreign> paroit être un pronom rélatif en
+                    Kawi, le <foreign sameAs="ms">
+                  <hi rend="underline">tang</hi>
+               </foreign> du Malais. Tu viens comme celui
+                    qui. Je trouve souvent <foreign sameAs="kaw">
+                  <hi rend="underline">sang yang</hi>
+               </foreign> (celui qui) devant un tître ou
+                    un nom. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">regepa</hi>
+               </foreign> – réjouir quelqu’un, charmer.
+                    Crawfurd. J’ai déjà parlé de l’<hi rend="underline">a</hi> final. <lb/>
+               <pb n="25v"/> <foreign sameAs="kaw">
+                  <hi rend="underline">lara</hi>
+               </foreign> – chagrin. </p>
+            <p>Traduction: <lb/>Toi .... mon père, mon soutien, tu viens comme celui qui charme
+                    mon chagrin. </p>
+            <p>La question, si <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> pourroit être pris ici pour <hi rend="underline">moi</hi>, me semble dépendre de la signification de <hi rend="underline">tiki</hi>. Je n’ose donc rien décider. </p>
+            <p/>
+            <p>
+               <bibl sameAs="58">Stance 80.</bibl>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 482.</note>
+            </p>
+            <p>
+               <foreign sameAs="kaw">Yedian kita mejahani kurunata nang’ga</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Bahna pratitnia gati sang Prawaria Bima,</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Moang Dropadi basa matan pag’lung gatinia</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Yen tan pakadiusa rirah sata kuraweng prang</foreign>
+            </p>
+            <p>Traduction: <lb/>“If you resolve upon the destruction of Kurunata, his
+                    destruction must ensue: <lb/>“But hink once more of the agreement of Naharia
+                    Bima, <lb/>“And of the pledge of Drupadi, who has vowed not to bind her hair
+                    <lb/>“Until she shall have bathed in the blood of the hundred Kurawa.“</p>
+            <p>Notes: <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">Yedian</hi>
+               </foreign> – en Javanois <foreign sameAs="jv">
+                  <hi rend="underline">yēn</hi>
+               </foreign>, en Sanscrit <foreign sameAs="sa">
+                  <hi rend="underline">yadi</hi>
+               </foreign> – si. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> – toi. <lb/>
+               <pb n="26r"/> <foreign sameAs="kaw">
+                  <hi rend="underline">mejahani</hi>
+               </foreign> – <foreign sameAs="kaw">
+                  <hi rend="underline">mejah</hi>
+               </foreign> ou <foreign sameAs="kaw">
+                  <hi rend="underline">mejahhi</hi>
+               </foreign>, tuer. Mais que veut dire la
+                    terminaison <hi rend="underline">ani</hi>? <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">Kurunata</hi>
+               </foreign> – mot Sanscrit, Roi des Kurus. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">nangga</hi>
+               </foreign> – Je trouve dans le <bibl sameAs="58">Brata Yuddha</bibl> <foreign sameAs="kaw">
+                  <hi rend="underline">manangga</hi>
+               </foreign> et <foreign sameAs="kaw">
+                  <hi rend="underline">panangga</hi>
+               </foreign>, et ces formes, ainsi que
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">nangga</hi>
+               </foreign>, me semblent venir par le
+                    changement usité de lettres de <foreign sameAs="kaw">
+                  <hi rend="underline">tanggah</hi>
+               </foreign>, mot Kawi signifiant victoire,
+                    gain, profit (<bibl sameAs="351">Raffles. Vol. II. p. CLXXI. col. b.</bibl>).
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">tanggap</hi>
+               </foreign>, recevoir, dont je trouve
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">pananggap</hi>
+               </foreign>, semble être de la même
+                    famille. <foreign sameAs="kaw">
+                  <hi rend="underline">Nangga</hi>
+               </foreign> seroit donc gagner la victoire. </p>
+            <p>Traduction: <lb/>Si tu tues le chef des Kurus, tu gagnes la victoire. </p>
+            <p>Comme ce sont les Saints, alliés de Krishna, qui parlent, on pourroit vouloir
+                    traduire <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> par <hi rend="underline">nous</hi>,
+                    mais si on lit attentivement ce qui précède ce passage, on voit que cela est
+                    impossible. Ceux qui parlent, ont simplement en vue ce qu’ils supposent que
+                    Krishna va faire. </p>
+            <p/>
+            <p>
+               <bibl sameAs="58">Stance 125.</bibl>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 496.</note>
+            </p>
+            <p>
+               <foreign sameAs="kaw">Kunang sa’uri sang kinarya pinaka gra
+                        chudamane</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Bapangku laki ayo’a sang saya uripku ta lap
+                        huwus</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Kita naku jayéng ranang’gana teher madre wi’a
+                        pura</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Sirang Nerepati Kresna saksi’a yadi’an merosa
+                        ringwuwus</foreign>
+            </p>
+            <p>
+               <pb n="26v"/> Traduction: <lb/>Then spoke those who were thus made a brilliant
+                    object of adoration and respect: <lb/>“Our noble child, suffer no uneasiness of
+                    mind, for you have already deprived us of life. <lb/>“Child of ourselves, may
+                    you be successful in battle and soon obtain possession of the country. <lb/>“And
+                    my Narapati Kresna witness the truth of our words.“</p>
+            <p>Notes: <lb/>v. 1. <foreign sameAs="kaw">
+                  <hi rend="underline">Kunang</hi>
+               </foreign>, <foreign sameAs="kaw">
+                  <hi rend="underline">kuneng</hi>
+               </foreign> paroissent être des Adverbes ou
+                    des Conjonctions. <foreign sameAs="jv">
+                  <hi rend="underline">Kunneng</hi>
+               </foreign> veut dire cesser, arrêter,
+                    d’après Crawfurd; <foreign sameAs="kaw">
+                  <hi rend="underline">kunno</hi>
+               </foreign> auparavant. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">sauri</hi>
+               </foreign> – <foreign sameAs="kaw">
+                  <hi rend="underline">sahur</hi>
+               </foreign> avec le Suffixe verbal <hi rend="underline">hi</hi>, répondent. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">sang kinarya</hi>
+               </foreign> – Passif de <foreign sameAs="sa">
+                  <hi rend="underline">karya</hi>
+               </foreign>, mot Sanscrit, ceux qui sont
+                    faits. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">pinakagra</hi>
+               </foreign> – composé du mot Sanscrit
+                        <foreign sameAs="sa">
+                  <hi rend="underline">agra</hi>
+               </foreign>, la pointe la plus élevée, le faite
+                    d’une chose, et de <foreign sameAs="kaw">
+                  <hi rend="underline">paka</hi>
+               </foreign>. Je ne trouve pas <hi rend="underline">paka</hi> dans mes Vocabulaires, mais dans le Brata Yuddha
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">pinakagra chudamane</hi>
+               </foreign> est: être placé au
+                    faite en guise de bijoux du Diadème; <foreign sameAs="kaw">
+                  <hi rend="underline">pinakagra senapati</hi>
+               </foreign>, être élevé à la
+                    place de Chef de l’Armée; <foreign sameAs="kaw">
+                  <hi rend="underline">pinaka seraga</hi>
+               </foreign>, être mis à la place de
+                    confident; <foreign sameAs="kaw">
+                  <hi rend="underline">pakadiusa rirah</hi>
+               </foreign>, mettre le sang à la
+                    place du bain (<foreign sameAs="jv">
+                  <hi rend="underline">dhus</hi>
+               </foreign>,
+                        <foreign sameAs="jv">
+                  <hi rend="underline">hadhus</hi>
+               </foreign>, se baigner. Crawfurd.), dans un
+                    passage où une <pb n="27r"/> Princesse veut se baigner dans le sang de ses
+                    ennemis. Le mot Malai <subst>
+                  <del>
+                     <hi rend="underline">pāksi</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="ms">
+                        <hi rend="underline">pākei</hi>
+                     </foreign>
+                  </add>
+               </subst> <handShift scribe="Buschmann"/> peut servir en quelque façon à
+                    l’explication de ces phrases. Mais en langue Tagala <foreign sameAs="tl">
+                  <hi rend="underline">paka</hi>
+               </foreign>, au Passif <foreign sameAs="tl">
+                  <hi rend="underline">pinaka</hi>
+               </foreign>, est un Préfixe qu’on ajoute dans
+                    le sens ici indiqué au mot qui exprime l’objet auquel une personne doit
+                    parvenir, ce qui explique exactement ces locutions de la langue Kawi. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">chudamane</hi>
+               </foreign> – mot Sanscrit: bijoux de
+                    diadème. </p>
+            <p>v. 2. <foreign sameAs="kaw">
+                  <hi rend="underline">bapangku</hi>
+               </foreign>, expression de respect et
+                    d’amour, de mot à mot: notre père. – Le <hi rend="underline">ng</hi> doit être
+                    ici et dans <foreign sameAs="kaw">
+                  <hi rend="underline">sirang</hi>
+               </foreign> v. 4. purement euphonique? Mais
+                    d’après quelle règle ajoute-t-on et change-t-on ainsi des lettres? <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">laki</hi>
+               </foreign> – mâle. On adresse probablement le
+                    mot de <foreign sameAs="kaw">
+                  <hi rend="underline">bapa</hi>
+               </foreign> aussi aux femmes, de façon qu’il
+                    est nécessaire d’ajouter le sexe. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">ayoa sangsaya</hi>
+               </foreign> (mot Sanscrit) n’ayez pas
+                    de crainte! <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">uripku</hi>
+               </foreign> notre vie. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ta</hi>
+               </foreign> – tu. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">lap</hi>
+               </foreign> – D’après Crawfurd <foreign sameAs="jv">
+                  <hi rend="underline">lap</hi>
+               </foreign> veut dire beau, et <foreign sameAs="jv">
+                  <hi rend="underline">lopo</hi>
+               </foreign> être affamé. En langue Tagala
+                        <foreign sameAs="tl">
+                  <hi rend="underline">lapi</hi>
+               </foreign> se dit des arbres auxquels on ôte
+                    les branches. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">huwus</hi>
+               </foreign> m’est entièrement inconnû.</p>
+            <p/>
+            <p>v. 3. <foreign sameAs="kaw">
+                  <hi rend="underline">kita naku</hi>
+               </foreign> – <del>Les traductions Anglois
+                        prennent</del> <foreign sameAs="kaw">
+                  <hi rend="underline">naku</hi>
+               </foreign> <subst>
+                  <del>pour</del>
+                  <add>
+                     <handShift scribe="wvh"/> semble placé ici comme</add>
+               </subst> <pb n="27v"/> <handShift scribe="Buschmann"/> le Génitif d’<hi rend="underline">aku</hi>. Il l’est en langue Tagale: mais en Kawi? Ne
+                    faut-il pas lire <foreign sameAs="kaw">
+                  <hi rend="underline">kito hanakku</hi>
+               </foreign>? <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">jayeng</hi>
+               </foreign> – <foreign sameAs="sa">
+                  <hi rend="underline">jaya</hi>
+               </foreign>, mot Sanscrit, victoire. La
+                    terminaison est le signe du Génitif ou la préposition <foreign sameAs="kaw">
+                  <hi rend="underline">hing</hi>
+               </foreign> qui en Poésie se transforme
+                    quelquefois en <foreign sameAs="kaw">
+                  <hi rend="underline">eng</hi>
+               </foreign>. Il faut cependant convenir que dans
+                    ce poëme les mots Sanscrits terminant en <hi rend="underline">a</hi> prennent
+                    souvent la terminaison <foreign sameAs="kaw">
+                  <hi rend="underline">eng</hi>
+               </foreign> sans que <foreign sameAs="kaw">
+                  <hi rend="underline">hing</hi>
+               </foreign> y ait la moindre part: <foreign sameAs="kaw">
+                  <hi rend="underline">prapta</hi>
+               </foreign>, <foreign sameAs="kaw">
+                  <hi rend="underline">prapteng</hi>
+               </foreign>. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">rananggana</hi>
+               </foreign> – mot Sanscrit, guerre. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">teher</hi>
+               </foreign> m’est inconnû. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">madre wi’a</hi>
+               </foreign> me paroit impossible à
+                    expliquer sans voir le texte même. Je crois la transcription fautive. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">pura</hi>
+               </foreign> – mot Sanscrit, ville, païs. </p>
+            <p>v. 4. <foreign sameAs="kaw">
+                  <hi rend="underline">sirang</hi>
+               </foreign> – ce pronom précède comme un
+                    tître honorifique les noms propres. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">nerepati</hi>
+               </foreign>, mot Sanscrit, maître des
+                    hommes. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">saksia</hi>
+               </foreign> – <foreign sameAs="sa">
+                  <hi rend="underline">saksi</hi>
+               </foreign>, témoin oculaire, mot Sanscrit,
+                    avec l’<hi rend="underline">a</hi> de l’Impératif, aujourd’hui <hi rend="underline">ho</hi>. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">yadian</hi>
+               </foreign> – si. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">merosa</hi>
+               </foreign> – <foreign sameAs="kaw">
+                  <hi rend="underline">mersa</hi>
+               </foreign>, venant du Sanscrit, veut dire
+                    d’après. Raffles fausseté, mensonge; <foreign sameAs="kaw">
+                  <hi rend="underline">merosa</hi>
+               </foreign> pourroit être le même mot. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ring</hi>
+               </foreign> – dans. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">wuwus</hi>
+               </foreign> – paroles, discours.</p>
+            <p>
+               <pb n="28r"/> Traduction: <lb/>v. 1. .... répondent ceux qui ont été placés au
+                    faite, comme des bijoux d’un diadème: <lb/>v. 2. notre père, que tu n’ayes pas
+                    de doute, notre vie tu l’as ..... <lb/>v. 3. toi, notre enfant, (sois)
+                    victorieux dans le combat! ...... le païs. <lb/>v. 4. lui, le maître des hommes
+                    soit témoin, si (il y a) de la fausseté dans (nos) paroles. </p>
+            <p>Il me paroit impossible de traduire ici <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> par <hi rend="underline">nous</hi>. </p>
+            <p/>
+            <p>Stance 608.<note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 516.</note>
+            </p>
+            <p>
+               <foreign sameAs="kaw">Ngeng pintangakwa tuan papag nga’ang ngirikang watu
+                        gala-gila namba eng’gung an</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Tistisnya ’ngoang ngikana tan wani lumampaha gigu ri
+                        tayenta raksaka</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Yadiastun jeneka ’ngamer surawadu kita sumalanga ayo’a
+                        nestura</foreign>
+               <lb/>
+               <foreign sameAs="kaw">Pali tapwa welasat ring wang angomeng pati lumaku lana
+                        morang morang</foreign>
+            </p>
+            <p>Traduction: <lb/>“It is my request that thou wilt meet and carry me across the
+                    ugalagil stone. <lb/>
+               <pb n="28v"/> “Trembling and fearful should I be without thy support and
+                    assistance, <lb/>“Although thou shouldst have many Windadaris at thy command,
+                    yet still reserve a place form me before them all, <lb/>“What must not be thy
+                    regard for her, who has thus wandered about after thee, and who is now going to
+                    die for thee?“</p>
+            <p>Notes: <lb/>v. 3. <foreign sameAs="kaw">
+                  <hi rend="underline">Yadiastun</hi>
+               </foreign> – Conjonction entièrement
+                    Sanscrite de <foreign sameAs="sa">
+                  <hi rend="underline">yadi</hi>
+               </foreign>, si, et <foreign sameAs="sa">
+                  <hi rend="underline">astu</hi>
+               </foreign>, qu’il soit-quand même. L’<hi rend="underline">n</hi> est euphonique. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">jeneka</hi>
+               </foreign> – est un mot Sanscrit et veut
+                    dire ou <hi rend="underline">père</hi> ou un grand nombre de personnes. Je lui
+                    donnerois ici ce dernier sens. Il forme une espèce de pluriel de <foreign sameAs="sa">
+                  <hi rend="underline">surawadu</hi>
+               </foreign>. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ngamer</hi>
+               </foreign> – le <hi rend="underline">ng</hi>
+                    initial doit venir d’un <hi rend="underline">h</hi> <add>
+                  <handShift scribe="wvh"/> ou d’un <hi rend="underline">k</hi>
+               </add> <handShift scribe="Buschmann"/> primitif. <foreign sameAs="kaw">
+                  <hi rend="underline">Hamor</hi>
+               </foreign> veut dire réunion, se réunir, et
+                    paroit venir de <foreign sameAs="kaw">
+                  <hi rend="underline">moro</hi>
+               </foreign>, se rapprocher. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">surawadu</hi>
+               </foreign> – mot Sanscrit, femme des
+                    Dieux. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> – tu. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">sumalanga</hi>
+               </foreign> – Je suppose que le mot
+                    devroit être <foreign sameAs="kaw">
+                  <hi rend="underline">sumalangga</hi>
+               </foreign>. <foreign sameAs="sa">
+                  <hi rend="underline">Salangga</hi>
+               </foreign> est en Sanscrit souverain, roi.
+                    Avec la syllabe Javanoise <foreign sameAs="jv">
+                  <hi rend="underline">um</hi>
+               </foreign> le mot diroit donc gouverner, être
+                    souverain, avoir sous ses ordres. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ayoa</hi>
+               </foreign> – qu’il n’y ait pas. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">nestura</hi>
+               </foreign> – dédain, mépris. </p>
+            <p>
+               <pb n="29r"/> Traduction: <lb/>Quand même tu aurois un nombre réuni de femmes
+                    divines sous tes ordres, que tu ne me dédaignes pas. </p>
+            <p>– L’accusatif précède souvent le verb dans ce poëme.</p>
+            <p>Si l’on prenoit <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> pour la première personne, il
+                    faudroit traduire <foreign sameAs="kaw">
+                  <hi rend="underline">kita sumalanga</hi>
+               </foreign>, laisse m’en être la
+                    souveraine; mais la construction devient alors très-difficile. </p>
+            <p/>
+            <p>Stance 606., vers 4.<note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 515.</note>
+            </p>
+            <p>
+               <foreign sameAs="kaw">Wanten ta wekase tangis kwa mene kite suma’ora ayo’a ta
+                        minge</foreign>
+            </p>
+            <p>Traduction: <lb/>“Shall I weep, or what is it thou wouldst have me do? – Speak
+                    and tell me, instead of preserving this unmeaning smile.“</p>
+            <p>Notes: <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">wanten</hi>
+               </foreign> m’est inconnû. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ta</hi>
+               </foreign> – tu. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">wekase</hi>
+               </foreign>, le désir, avec <hi rend="underline">hē</hi> du Génitif. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">tangis</hi>
+               </foreign>, de lamentations, de larmes. <lb/>
+               <foreign sameAs="sa">
+                  <hi rend="underline">kwa</hi>
+               </foreign> – mot Sanscrit, comment. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">mene</hi>
+               </foreign> – m’est inconnû. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">kite</hi>
+               </foreign> – peutêtre <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign>, toi. <lb/>
+               <pb n="29v"/> <foreign sameAs="kaw">
+                  <hi rend="underline">sumaora</hi>
+               </foreign> – Raffles omet les <hi rend="underline">h</hi> et ècrit souvent <hi rend="underline">o</hi> pour
+                        <hi rend="underline">u</hi>, ainsi <foreign sameAs="kaw">
+                  <hi rend="underline">sumahura</hi>
+               </foreign> de <foreign sameAs="kaw">
+                  <hi rend="underline">sahur</hi>
+               </foreign> avec le <hi rend="underline">ho</hi> de l’Impératif. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ayoa</hi>
+               </foreign> – particule prohibitive. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">ta</hi>
+               </foreign> – tu. <lb/>
+               <foreign sameAs="kaw">
+                  <hi rend="underline">minge</hi>
+               </foreign> – <foreign sameAs="jv">
+                  <hi rend="underline">mingngo</hi>
+               </foreign>, se détourner, s’en aller de
+                    côté. Crawfurd. </p>
+            <p>Traduction: <lb/>..... (as) tu désir de mes larmes, comment .... toi, réponds, ne
+                    te detourne pas. </p>
+            <p>Ici <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> pourroit être la 1. personne,
+                    réponds-moi. </p>
+            <p/>
+            <p>St. 592. v. 2.<note type="footnote" resp="editor">
+                  <bibl sameAs="351">Raffles 1817</bibl>, II, S. 513.</note> <foreign sameAs="kaw">Satia Wati kitan wenanga sabda</foreign>.</p>
+            <p>Ce vers n’a rien à faire avec le Pronom. Je crois qu’il faut lire: <lb/>
+               <foreign sameAs="kaw">Satiawati kitan wenang hasabda</foreign>
+               <lb/>et traduire: S. n’est pas en étât de parler. </p>
+            <p>Je ne sais pas rendre compte de <hi rend="underline">ki</hi> devant <hi rend="underline">tan</hi>, mais j’imagine que c’est une syllabe explétive,
+                    comme il y en a plusieurs, p.e. <hi rend="underline">dha</hi>tan, <hi rend="underline">vi</hi> sampunera cet. </p>
+            <p>J’ai analysé ici tout les passages du poëme imprimé par Raffles, dans lesquels
+                        <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> se trouve. Il me semble qu’il en
+                    résulte que <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> désigne également la 2. personne,
+                    je tiendrai cependant mon jugement en suspens, jusqu’à ce que Vous en aurez
+                    décidé, Monsieur. Comme <foreign sameAs="kaw">
+                  <hi rend="underline">kita</hi>
+               </foreign> veut dire origin-<pb n="30r"/>nairement <hi rend="underline">nous</hi>, c’est à dire <hi rend="underline">moi</hi> et <hi rend="underline">toi</hi> à qui je parle, il ne seroit
+                    guères étonnant qu’on l’eût, surtout en différens temps et différens styles,
+                    adapté à la 1. et à la 2. personne. <foreign sameAs="kaw">
+                  <hi rend="underline">Siro</hi>
+               </foreign> s’employe comme 2. et 3. personne. </p>
+            <p>Votre lettre, Monsieur, fourniroit ample matière à bien d’autres discussions;
+                    mais je ne veux pas Vous importuner davantage. Permettez-moi seulement encore
+                    une question.<note type="footnote" resp="editor">Die folgenden Ausführungen
+                        beziehen sich auf den von Humboldt mit "25." bezeichneten Abschnitt des <ref type="link" target="462">Roordaschen Briefes</ref>.</note>
+            </p>
+            <p>Vous ne voulez pas m’accorder que <foreign sameAs="kaw">
+                  <hi rend="underline">s-in-abda</hi>
+               </foreign> soit le Passif de <foreign sameAs="sa">
+                  <hi rend="underline">sabda</hi>
+               </foreign>, et l’expliquez par <hi rend="underline">si-abda</hi> avec un <hi rend="underline">n</hi>
+                    euphonique. Mais <foreign sameAs="sa">
+                  <hi rend="underline">sabda</hi>
+               </foreign> n’est pas un mot Javanois. Il est
+                    Sanscrit et ne pourroit jamais être <hi rend="underline">si-abda</hi>. Il veut
+                    dire parole. Dans le <bibl sameAs="58">Brata Yuddha</bibl> il a ce sens et celui
+                    d’ordre, commandement. Il s’employe d’après Vous et <persName ref="jfcgericke">Mr. Gericke</persName> plus souvent comme verbe, ainsi que tant de mots
+                    Malais et Javanois servent sans aucun changement tantôt de verbes et tantôt de
+                    Substantifs: On en forme <hi rend="underline">ma-sabda</hi>, <hi rend="underline">hasabda</hi>, <hi rend="underline">pasabda</hi>. Pourquoi
+                    donc <hi rend="underline">sinabda</hi> n’en seroit-il pas le Passif? On en forme
+                    de tant de mots Sanscrits. Nous avons eû <foreign sameAs="kaw">
+                  <hi rend="underline">pinandita</hi>
+               </foreign> de <foreign sameAs="sa">
+                  <hi rend="underline">Pandita</hi>
+               </foreign>, <foreign sameAs="kaw">
+                  <hi rend="underline">sinerrat</hi>
+               </foreign> du mot Arabe <foreign sameAs="arb">
+                  <hi rend="underline">serrat</hi>
+               </foreign>, et tant d’autres. Trouvez-Vous
+                    peut-être, Monsieur, que <foreign sameAs="kaw">
+                  <hi rend="underline">sinabda</hi>
+               </foreign> s’employe toujours à l’Actif?
+                    Mais le Passif dans les langues Malayes est si souvent seulement une
+                    circonlocution de l’Actif qu’il faut, il me semble, plus regarder <pb n="30v"/>
+                    à la forme qu’à l’emploi. </p>
+            <p>Je connois les règles de la prononciation Javanoise de l’<hi rend="underline">a</hi> et de l’<hi rend="underline">o</hi> qui est très- judicieuse en ce
+                    qu’elle reserve le son lorsqu’il est fermé par une consonne finale. Je la suis
+                    en écrivant des mots Javanois. Mais en Kawi je suis la méthode de <persName ref="tsraffles">Raffles</persName> qui conserve mieux l’étymologie
+                    Sanscrite. Quiconque ne connoit pas le Javanois, reconnait à peine <foreign sameAs="sa">
+                  <hi rend="underline">raja</hi>
+               </foreign> dans <foreign sameAs="jv">
+                  <hi rend="underline">rojo</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="underline">wana</hi>
+               </foreign> dans <foreign sameAs="jv">
+                  <hi rend="underline">wono</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="underline">agama</hi>
+               </foreign> dans <foreign sameAs="jv">
+                  <hi rend="underline">hogomo</hi>
+               </foreign>. </p>
+            <p>Je vois avec grand plaisir par Votre lettre, Monsieur, que Vous possédez
+                    entièrement l’Allemand et que Vous m’avez fait l’honneur de lire <bibl sameAs="385">ma correspondance</bibl> avec <persName ref="fschiller">Schiller</persName>. Mes lettres et mon avantpropos ont au moins le mérite
+                    de partir d’une ami pénétrée d’admiration pour celui qui en est l’objet. </p>
+            <closer>
+               <salute>Veuillez agréer, Monsieur, mes excuses réitérées de toute la peine que
+                        je Vous donne par mes discussions Javanoises, et l’assurance de mes
+                        sentimens très-distingués.<lb/>
+                  <lb/>
+                  <handShift scribe="wvh"/> Je reçois dans ce moment même les ouvrages que Vous
+                        avez eû la bonté de m’envoyer. Je les étudierai soigneusement, et je
+                        m’empresse à Vous en offrir mes sincères et vifs remercîmens.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Tegel, ce 14. Février, 1832.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

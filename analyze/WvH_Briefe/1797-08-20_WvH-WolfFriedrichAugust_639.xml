@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Wolf, 20.08.1797<idno type="BBAW">639</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Ms. germ. qu. 655, Bl.
+                     129–131</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Brandes 1846, Bd. 5, S. 192–197; Mattson 1990, 186–190 Nr.
+                     67</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 517</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aischylos">
+                  <persName>Aischylos</persName>
+               </person>
+               <person corresp="fcalter">
+                  <persName>Alter, Franz Carl</persName>
+               </person>
+               <person corresp="aristainetos">
+                  <persName>Aristainetos</persName>
+               </person>
+               <person corresp="fjbast">
+                  <persName>Bast, Friedrich Jakob</persName>
+               </person>
+               <person corresp="gbodoni">
+                  <persName>Bodoni, Giambattista</persName>
+               </person>
+               <person corresp="jbbolla">
+                  <persName>Bolla, Johann Baptist</persName>
+               </person>
+               <person corresp="jffries">
+                  <persName>Fries, Jakob Friedrich</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="thumboldt">
+                  <persName>Humboldt, Theodor von</persName>
+               </person>
+               <person corresp="cgkoerner">
+                  <persName>Körner, Christian Gottfried</persName>
+               </person>
+               <person corresp="aelocella">
+                  <persName>Locella, Alois Emmerich Freiherr von</persName>
+               </person>
+               <person corresp="pindar">
+                  <persName>Pindar</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="cgschuetz">
+                  <persName>Schütz, Christian Gottfried</persName>
+               </person>
+               <person corresp="mcsprengel">
+                  <persName>Sprengel, Matthias Christian</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="159">Allgemeine Literatur-Zeitung, 1785–1849</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich kann nicht läugnen, liebster Freund, daß ich diesen Brief mit
+               einer schmerzlichen Empfindung anfange. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1797-08-20"/>
+               <placeName key="Wien">Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fawolf">Wolf, Friedrich August</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. Juni 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="129r"/>
+               <dateline>Wien, 20. Aug. 97.</dateline>
+            </opener>
+            <p>Ich kann nicht läugnen, liebster Freund, daß ich diesen Brief mit einer schmerzlichen
+               Empfindung anfange. Ich schrieb Ihnen nun, wenn ich mich nicht verrechne, vor länger
+               als zwei Monaten, ich bat Sie mir recht bald Nachricht von Sich nach <placeName ref="Dresden">Dresden</placeName> zu geben, ich erinnerte Sie an Ihr Versprechen,
+               mir allerlei zu meiner Reise Dienliches zu schicken – und bis auf den heutigen Tag
+               sah ich keine Zeile von Ihnen. Da meine Abreise von <placeName ref="Dresden">Dresden</placeName> sich auf 14 Tage über den Termin, den ich Ihnen, wenn ich
+               mich nicht irre, geschrieben hatte, verzögerte, so glaubte ich, Sie hätten
+               vielleicht, da Sie zweifelten, daß mich ein Brief noch dort finden könnte, einen
+               hieher an <persName ref="aelocella">Locella</persName> geschickt. Nun ist <persName ref="aelocella">Locella</persName> freilich in diesem Augenblick abwesend, aber
+               ich habe mehrere seiner Freunde gesprochen u. keinem ist etwas davon bekannt. Ich
+               weiß nicht, welcher Ursache ich Ihr beunruhigendes Stillschweigen zuschreiben soll;
+               ich hatte mich so herzlich darauf gefreut, mich für die Trennung von Ihnen durch
+               einen regelmäßigeren Briefwechsel zu entschädigen, und nun sehe ich mich zwei Monate
+               hindurch, so aller auch der kleinsten Nachricht von Ihnen beraubt. Glücklicherweise
+               habe ich von einigen Durchreisenden, die Sie in <placeName ref="Halle">Halle</placeName> gesehn haben, z.B. dem jungen <persName ref="jffries">Fries</persName> gehört, daß Sie wohl sind. Ich hoffe also es ist nur Ihre
+               gewöhnliche Briefscheu, oder vielleicht gar der Vorsatz, mir recht ausführlich zu
+               schreiben, was Sie jetzt zurückgehalten hat, und bitte Sie nun recht herzlich diese
+               oder welche Hindernisse es seyn <pb n="129v"/> mögen, recht bald zu überwinden. Ich
+               habe meinen Briefwechsel so eingeschränkt, daß ich mit Gewißheit versprechen kann,
+               ordentlich zu schreiben; ich schreibe eigentlich bloß Ihnen, <persName ref="fschiller">Schiller</persName>n u. <persName ref="cgkoerner">Körner</persName>n, u. gewiß soll keiner von Ihnen je über vier Wochen ohne
+               ausführlichere Nachricht von mir bleiben. Aber ich will jetzt dieß zu vergessen
+               suchen u. Ihnen einige Worte von mir u. von hier sagen.</p>
+            <p>Mit mir geht es recht gut; mit den Meinigen leider nicht ganz so. <persName ref="cvh1">Meine arme Frau</persName> kränkelt noch immer u. die Aerzte verheißen
+               die völlige Wiederherstellung nur vom Italiänischen Klima, u. <persName ref="thumboldt">mein jüngstes Kind</persName> ist in diesem Augenblick recht krank
+               an Durchfall u. Zahnen. Doch hoffe ich, soll es ohne Folgen seyn. <persName ref="cvh1">Meine Frau</persName> grüßt Sie herzlich, u. bittet Sie mit mir,
+               endlich Ihr langes Stillschweigen zu brechen.</p>
+            <p>Wien ist mir, seit den 14 Tagen, die ich nun beinah hier bin, schon sehr interessant
+               geworden. Es hat freilich nicht die Mannigfaltigkeit, die z.B. <placeName ref="Paris">Paris</placeName> u. <placeName ref="London">London</placeName> darbieten, aber
+               doch schon gegen die übrigen Städte Deutschlands, die ich bis jetzt sah, eine so
+               entschiedene Eigenthümlichkeit, daß sie nothwendig jeden zum genaueren Beobachten
+               reizen muß. Auch der allgemeine Volkscharakter hat hier schon bei weitem etwas
+               Piquanteres, als im nördlichen Deutschland, mehr Humor, mehr Fröhlichkeit, mehr
+               Leichtigkeit u. Gewandtheit. Er ist den Ausländern bei weitem ähnlicher u. insofern
+               weniger Deutsch, wenn man den Begriff des <hi rend="underline">Deutschen</hi> nach
+               demjenigen Bilde fixirt, das Deutsche Cultur u. Deutsche Literatur geben, u. wo man <subst>
+                  <del>mehr</del>
+                  <add>vorzüglich</add>
+               </subst> ein Gleichgewicht der Kräfte, einen Mangel an irgend etwas einzelnem
+               Hervorstechenden oder Auffallenden bemerkt. Indeß könnte <pb n="130r"/> man ihn
+               vielleicht mit gleichem Recht auch mehr Deutsch nennen, da er überhaupt mehr
+               Charakter ist. Dieß verschiedene Verhältniß des südlichen u. nördlichen Deutschlands
+               verdiente gewiß näher auseinandergesetzt zu werden; meinem Urtheil nach ist es keine
+               Frage, daß eigentlich in dem südlichen eine bessere u. energischere, wenigstens
+               elastischere Natur ist, u. wäre die Cultur der Sprache u. der Literatur von diesem
+               ausgegangen, wie es einmal unter den Minnesängern den Anschein gewann, so scheint es
+               keinem Zweifel unterworfen, daß der <hi rend="underline">Deutsche Geist</hi>, der
+               jetzt doch von den Ausländern, wie sehr sie auch anfangen mögen, seine Produkte zu
+               achten, doch immer als mechanisch u. pedantisch u. nachahmend angesehn wird, bei
+               weitem mehr Energie u. Originalität gewonnen haben würde. Freilich wäre er dann aber
+               nicht in den Platz getreten, auf dem er jetzt auch in den Augen des
+               vorurtheilfreiesten Urtheilers unläugbar steht, <add>u.</add> auf dem man ihn
+                  allen<note type="footnote" resp="editor">Mattson 1990, S. 187: allem</note>
+               Nicht-Deutschen collectiv genommen entgegensetzen kann. Statt, wie er jetzt ist,
+               gleichsam der Beschauer u. Beurtheiler aller Nationen zu seyn, hätte er mit zu den
+               Partheien gehört, u. es hätte gleichsam der Standpunkt gefehlt, aus dem sich alle
+               übersehen lassen, u. auf den alle zurückwirken. Und ohne das, wäre es nicht möglich
+               gewesen, was ich jetzt für wirklich erreichbar halte, daß Eine Nation gleichsam die
+               Brücke zwischen der antiken u. modernen Welt, die sonst durch eine unendliche Kluft
+               getrennt geblieben wären, gemacht hätte. Denn dieß, die Verbindung der
+               Eigenthümlichkeiten der Alten u. Neuen in Eine einzige Form hervorzubringen könnte
+               man gleichsam die Endabsicht des Deutschen Charakters nennen, oder vielmehr das,
+               wohin jeder an seinem Theil mitzuwirken streben muß, dem es um eine wahrhaft
+               idealische Veredlung unseres Nationalcharakters zu thun ist. <pb n="130v"/> Zwar läßt
+               sich mit Grunde sagen, daß dieß Ziel jeder Nation vorgesteckt ist. Aber nur eine, die
+               eine solche Geschmeidigkeit besitzt, sich fremden Eigenthümlichkeiten anzupassen, hat
+               eine sichere Hofnung demselben näher zu kommen.</p>
+            <p>Vorzüglich hat mich seit einigen Tagen <orgName ref="28">die Bibliothek</orgName>
+               beschäftigt. Ich hatte mehrere Dinge über die Italiänische Literaturgeschichte
+               nachzuschlagen, wozu mir bisher immer die Hülfsmittel fehlten. Leider ist es aber mit
+               der Benutzung der <orgName ref="28">Bibliothek</orgName> mit diesem Monat am Ende, da
+               Ferien eintreten u. die <orgName ref="28">Bibliothek</orgName> nunmehr geschlossen
+               wird. Die Codices habe ich bis jetzt nur flüchtig durchgesehen. Doch hat mir ein
+               gewisser <persName ref="fjbast">
+                  <hi rend="underline">Bast</hi>
+               </persName>, den ich
+               hier kennen gelernt habe, u. der sich sehr mit ihnen beschäftigt, genauere Nachricht
+               davon gegeben. Die Bekanntschaft dieses Mannes ist mir auch darum sehr lieb gewesen,
+               weil ich glaube, daß sie Ihnen nützlich werden könnte. Er ist noch ein junger Mann,
+               hat in <placeName ref="Jena">Jena</placeName> studirt, u. ist jetzt bei der
+               HessenDarmstädtischen Gesandschaft angestellt. Diese Anstellung hat er aber nur
+               angenommen, um dadurch Gelegenheit zu erhalten, hier leben u. die <orgName ref="28">Bibliothek</orgName> benutzen zu können. Er vergleicht jetzt ein Paar
+               Handschriften des <persName ref="aischylos">Aeschylus</persName> für <persName ref="cgschuetz">Schütz</persName>, u. soviel ich ihn jetzt kenne, scheint er sehr
+               gute Kenntnisse zu besitzen. Er recensirt viel an<note type="footnote" resp="editor">Mattson 1990, S. 188: in</note> der <bibl sameAs="159">Lit. Zeit.</bibl> u. eine
+               Recension aller <persName ref="gbodoni">Bodoni</persName>schen Ausgaben, die
+               nächstens erscheinen wird, ist von ihm. Sie schätzt er unendlich, u. wünscht sehr mit
+               Ihnen in einige Verbindung zu treten. Sollten Sie also einmal hier auf der Bibliothek
+               etwas nachgesehen wünschen, so könnten Sie Sich an ihn, glaube ich, sehr gut wenden.
+               Sie dürften es mir nur allgemein vorläufig schreiben, so sagte ich ihm vorläufig
+               davon u. schriebe Ihnen seine Adresse. Von den Handschriften des <persName ref="pindar">Pindar</persName>, die es hier giebt, u. die noch nicht verglichen
+               sind, sagt er mir, daß auch nicht viel Trost in ihnen <pb n="131r"/> zu finden sey.
+               Sie wären sehr jung u. wichen wenig von dem gewöhnlichen Text ab, soviel er sie
+               jetzt, zwar nur flüchtig angesehen habe. Wenn ich noch dazu Zeit finde, so sehe ich
+               sie doch etwas genauer an. Eine eigentliche Vergleichung interessirt mich bei dieser
+               Beschaffenheit der Mscpt. nicht genug, u. würde mich auch zu lange aufhalten, da ich
+               im Lesen von Handschriften noch ganz ungeübt bin, u. es erst daran lernen müßte.
+               Schade ist es, daß einige <hi rend="antiqua">Cod</hi>. durch zu starkes Beschneiden
+               gelitten haben sollen. So ist hier eine <hi rend="antiqua">Paraphrase</hi> des <hi rend="antiqua">
+                  <persName ref="aristainetos">Aristaenet</persName>
+               </hi> in <hi rend="antiqua">versus politicos</hi> von einem Mönch in <hi rend="antiqua">
+                  <placeName ref="Otranto">Hydrunt</placeName>
+               </hi>. Bei dieser haben diese
+               langen Verse meistentheils, wie ich höre, ihr Ende verloren. Der Gebrauch der
+                  <orgName ref="28">Bibliothek</orgName> ist erstaunlich leicht u. bequem gemacht.
+               Man bekommt in wenig Minuten schlechterdings alles, was man verlangt, Kupferwerke,
+               Handschriften u.s.w. u. ist in der Benutzung schlechterdings nicht genirt. –
+                  <persName ref="aelocella">Locella</persName> ist, wie ich Ihnen schon sagte, in
+               diesem Augenblick nicht hier. Er kommt aber in wenigen Tagen. Ich werde ihn gleich
+               alsdann besuchen, u. in Ermanglung eines Briefs ihm Complimente von Ihnen bringen.
+                  <persName ref="fcalter">Alter</persName> ist ein guter u. höchst gefälliger, aber
+               sonst ziemlich ungenießbarer Mann. Interessanter scheint <sic>
+                  <persName ref="jbbolla">Polla</persName>
+               </sic>, der bei der <orgName ref="28">Bibliothek</orgName> mit
+               angestellt ist, u. sich ausschließend mit griechischer Literatur beschäftigt.</p>
+            <p>Dieser Brief, liebster Freund, ist seit ich ihn anfing, zwei Tage liegen geblieben.
+               Seitdem haben wir hier ein Naturphänomen gehabt, das ich Ihnen doch erzählen muß. Es
+               war am <date when="1797-08-19">19<hi rend="superscript">t</hi>
+               </date> eine so fürchterliche Hitze u. es ging ein so
+               Siroccoähnlicher Wind, daß viele Leute glaubten, daß ein Haus irgendwo brenne, u. die
+               Glut der Flamme ihnen entgegenschlüge. In diesem Winde war der Thermometerstand 31°
+                  Réaumur<note type="footnote" resp="editor">Dies entspricht 38,8° Celsius.
+                  [FZ]</note>. Dieß war den Nachmittag zwischen 3 u. 4 Uhr. Am Abend kam ein
+               Gewitter u. nun kühlte sich die Luft bis zu 14°<note type="footnote" resp="editor">D.h. 17,5° Celsius.</note> ab, so daß in 6 Stunden ein <pb n="131v"/> Wechsel von
+               17° war. Bei diesem Wetter wahrscheinlich hat sich <persName ref="cvh1">meine
+                  Frau</persName> verkältet u. Halsweh mit Flußfieber bekommen. Doch geht es heute
+               schon viel besser.</p>
+            <p>Sie grüßt Sie u. die Ihrigen herzlich. Leben Sie innigst wohl, u. denken Sie manchmal
+               an uns, wie wir so oft u. so lebhaft an Sie denken.</p>
+            <p>Wir bleiben bis zum <date when="1797-10-01">1<hi rend="superscript">st</hi>
+                  8br.</date> hier. Nehmen Sie aber immer an, daß wir viel früher gingen, damit Sie
+               desto eher schreiben. Wie herzlich mich auch nur ein Paar Zeilen Ihrer Hand erfreuen
+               würden, davon haben Sie keine Idee. Wie ists auch mit den Fragen u. Adressen für
+               Italien?</p>
+            <p>Meine Adresse hier ist: <hi rend="antiqua">in der Kärnthnerstraße im eisernen Mann,
+                  nr.</hi> 1002.</p>
+            <closer>
+               <salute>Von ganzer Seele Ihr</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+            <postscript>
+               <p>Ich frankire nicht u. bitte Sie das Gleiche zu thun. Die Briefe gehen immer
+                  sichrer u. besser. Wir werden doch wohl von hier über <placeName ref="Venedig">Venedig</placeName> gehen; wenn Sie <persName ref="mcsprengel">Sprengel</persName>n an seine Erkundigung wegen der Karte erinnern wollen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

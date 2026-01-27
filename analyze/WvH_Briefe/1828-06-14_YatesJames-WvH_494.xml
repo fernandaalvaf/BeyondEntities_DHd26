@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 16. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>James Yates an Wilhelm von Humboldt, 14.06.1828<idno type="BBAW">494</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 152–153</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 213</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="lbertonio">
+                  <persName>Bertonio, Ludovico</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego Gonzalez</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="pmarban">
+                  <persName>Marbán, Pedro</persName>
+               </person>
+               <person corresp="jmartinez">
+                  <persName>Martinez, Juan</persName>
+               </person>
+               <person corresp="jmillar">
+                  <persName>Millar, John</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="jroxo">
+                  <persName>Roxo Mexía y Ocón, Juan</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diego de</persName>
+               </person>
+               <person corresp="dyates">
+                  <persName>Yates, Dorothea</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="864">Bertonio, Ludovico: Arte y Grammatica muy copiosa de la Lengua
+                    Aymara, etc. (Rom: L. Zannetti 1603)</bibl>
+               <bibl corresp="50">Bertonio, Ludovico: Vocabulario de la lengua Aymara (Chucuyto:
+                    Francisco del Canto 1612)</bibl>
+               <bibl corresp="866">Cass, Lewis: Structure of the Indian Languages. In: North American
+                    Review 26, April 1828, S. 373–374</bibl>
+               <bibl corresp="284">Marbán, Pedro: Arte de la lengua Moxa: con su vocabulario, y
+                    cathecismo (Lima: impr. real de Joseph de Contreras 1701)</bibl>
+               <bibl corresp="537">Martinez, Juan: Vocabulario en la Lengua General del Peru, llamada
+                    Quichua, y en la Lengua Española (Los Reyes: Por Antonio Ricardo 1604)</bibl>
+               <bibl corresp="18">North American Review, 1815-1940</bibl>
+               <bibl corresp="372">Roxo Mexia y Ocón, Juan: Arte de la lengua general de los indios
+                    del Perú (Lima: Lopez de Herrera 1648)</bibl>
+               <bibl corresp="865">The Verulam – A Scientific and Literary Journal (London: Sly,
+                    Wilson &amp; Evans 1828–?)</bibl>
+               <bibl corresp="707">Threlkeld, Lancelot Edward (1827): Specimens of a Dialect, of the Aborigines of New South
+                    Wales; being the First Attempt to Form their Speech into a Written Language, Sydney: Hill</bibl>
+               <bibl corresp="1073">Torres Rubio, Diego: Arte de la lengua Quichua (Lima: Francisco
+                    Lasso 1619)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Baron, I have the pleasure of writing to your
+                        excellency to communicate …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jyates">Yates, James</persName>
+               <date type="author" when="1828-06-14"/>
+               <placeName key="Liverpool">Liverpool</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jyates">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="ay">Aimara</language>
+            <language ident="qu">Quechua</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">16. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Yates/Yates-WvH_1828_06_14/Coll.ling.fol.52_314.jpg"/>
+      <graphic url="Yates/Yates-WvH_1828_06_14/Coll.ling.fol.52_315.jpg"/>
+      <graphic url="Yates/Yates-WvH_1828_06_14/Coll.ling.fol.52_316.jpg"/>
+      <graphic url="Yates/Yates-WvH_1828_06_14/Coll.ling.fol.52_317.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="152r"/>
+               <dateline>Liverpool. June 14.<hi rend="superscript">th</hi>
+                        1828.</dateline>
+               <salute>My dear Baron,</salute>
+            </opener>
+            <p>I have the pleasure of writing to your excellency to communicate some
+                    circumstances, which have come to my knowledge during my visit to this town, and
+                    which, I have thought, might be interesting to you in connection with your
+                    present studies. In the <orgName ref="32">library of the Athenæum</orgName> in
+                        <placeName ref="Liverpool">Liverpool</placeName> are the following works on
+                    the languages of the S. American Indians, spoken in Peru.</p>
+            <p>1. <bibl sameAs="537">Vocabulario en la Lengua General del Peru, llamada Quichua, y
+                        en la Lengua Española</bibl>, por el <persName ref="jmartinez">Padre
+                        Maestro Fray Juan Martinez</persName>, Los Reyes, 1604. 8. </p>
+            <p>
+               <add>(To this is annexed,<bibl sameAs="537"> Arte de la Lengua General del Peru,
+                            llamada
+                        Quichua</bibl>
+                  <!-- kein eigenständiger Titel! nochmal als ID 537 taggen? -->.)</add>
+            </p>
+            <p>2. <bibl sameAs="434">Arte y Vocabulario de la Lengua Quichua General de los Indios
+                        de el Peru</bibl>, que compuso el <persName ref="dtorres">Padre Diego de
+                        Torres Rubio</persName>, y añadio el P. Juan de Figueredo, Lima 1754. 8. </p>
+            <p>
+               <add>(The <bibl sameAs="1073">1.<hi rend="superscript">st</hi> Edition</bibl> of
+                        this "Arte" is dated "En Lima, por Fr. Lasso, 1619."</add>
+               <note type="footnote" resp="editor">
+                  <persName ref="dtorres">Diego de Torres Rubio</persName> (1619): <hi rend="italic">
+                     <bibl sameAs="1073">Arte de lengua quichua</bibl>
+                  </hi>, Lima: por
+                        Francisco Lasso – möglicherweise basierend auf der 1603 in Rom erschienenen
+                            <hi rend="italic">Grammatica y vocabulario en lengua Quichua, Aymara y
+                            Española</hi>.</note>
+            </p>
+            <p>3. <bibl sameAs="50">Vocabulario de la Lengua Aymara</bibl>, compuesto por el P.
+                        <persName ref="lbertonio">Ludovico Bertonio</persName>. En la casa de la <pb n="152v"/> Compañia de Jesus de Juli, 1612. 4. </p>
+            <p>
+               <add>(<bibl sameAs="864">A grammar of this language</bibl> was printed at Rome in
+                        1603.)</add>
+            </p>
+            <p>4. <bibl sameAs="284">Arte de la Lengua Moxa con su Vocabulario y
+                        Cathecismo</bibl>, compuesto por el M. R. P. <persName ref="pmarban">Pedro
+                        Marban</persName>, Lima 1701. 8. </p>
+            <p>5. <bibl sameAs="372">Arte de la Lengua General de los Indios del Peru</bibl>, por
+                    el Doctor <persName ref="jroxo">Juan Roxo Mexia y Ocon</persName>, Lima 1648. 8. </p>
+            <p>These books were procured by a <placeName ref="Liverpool">Liverpool</placeName>
+                    gentleman resident in <placeName ref="Lima">Lima</placeName>, and presented by
+                    him to the <orgName ref="32">Athenæum</orgName>. He says, in a letter to the
+                    Librarian<!-- identifizierbar? -->, now before me, that a Prussian
+                    gentleman<!-- identifizierbar? --> in <placeName ref="Lima">Lima</placeName> was
+                    very desirous of obtaining them for <persName ref="avh">your brother</persName>,
+                    who no doubt would have transferred them to you. He adds, that he furnished the
+                    gentleman with the Moxa and the modern Quichua vocabularies. He considers the
+                        <bibl sameAs="537">Quichua of 1604</bibl> and the <bibl sameAs="50">Aymara of
+                        1612</bibl>, as almost unique. Of the latter he observes, "It consists of 2
+                    parts, the first Spanish and Aymara, the second Aymara and Spanish. There was to
+                    have been a third part; but this, the <pb n="153r"/> "Arte" or grammar, it was
+                    thought better to print separately"; and as this third part was a mere manual,
+                    &amp; very short, he thinks it probable that there is not now a complete copy in
+                    existence.</p>
+            <p>I am sorry to inform your Excellency, that no books are allowed to go out of the
+                        <orgName ref="32">Athenæum Library</orgName>, and that, as I shall leave
+                        <placeName ref="Liverpool">Liverpool</placeName> on my return thro’
+                        <placeName ref="York">York</placeName> to <placeName ref="London">London</placeName> at the end of next week, I fear I cannot <hi rend="underline">personally</hi> render you any assistance in examining
+                    them.</p>
+            <p>In a number of the "<bibl sameAs="865">Verulam</bibl>" (a <placeName ref="London">London</placeName> literary newspaper), which came out about 6 or 7 weeks
+                    ago, I saw an account of a kind of grammar of the language spoken by the nations
+                    of New Holland<note type="footnote" resp="editor">Damit ist wohl
+                            <bibl sameAs="707">Threlkeld, Lancelot Edward (1827): <hi rend="italic">Specimens of
+                                a Dialect, of the Aborigines of New South Wales; being the First
+                                Attempt to Form their Speech into a Written Language</hi>, Sydney:
+                            Hill</bibl> gemeint. [FZ]</note>; and you are probably aware that the N.°
+                    for April last of the <bibl sameAs="18">North American Review</bibl> (sold by
+                        <persName ref="jmillar">John Millar</persName>, 40 Pall Mall, <placeName ref="London">London</placeName>) contains a long article on the "<bibl sameAs="866">Structure of the Indian Languages</bibl>."</p>
+            <p>I may congratulate your Excellency on the recent success of our <del>
+                  <gap quantity="3" unit="chars"/>
+               </del> young friend, <persName ref="farosen">D.<hi rend="superscript">r</hi> Rosen</persName>, to which, I am
+                    persuaded, that your recommendation of him powerfully contributed. <pb n="153v"/> I trust you will excuse my freedom in presuming that these four particulars
+                    would be worth transmitting to you.</p>
+            <closer>
+               <salute>
+                  <persName ref="dyates">My wife</persName>, as she always unites with me in
+                        regarding our acquaintance with your family as one of the most agreeable
+                        circumstances of our lives, joins also in presenting her best compliments to
+                        yourself &amp; the <persName ref="cvh1">Baroness</persName> with <lb/>Your
+                        Excellency’s <lb/>obliged and faithful friend &amp; servant</salute>
+               <signed>James Yates.</signed>
+               <lb/>
+               <lb/>
+               <pb n="Anschrift"/>
+               <address>
+                  <addrLine>His Excellency</addrLine>
+                  <addrLine>the Minister von Humboldt,</addrLine>
+                  <addrLine> to the care of the <persName ref="hbuelow">Graf von
+                                Bülow</persName>,</addrLine>
+                  <addrLine>Prussian Ambassador</addrLine>
+                  <addrLine>
+                     <placeName ref="London">London</placeName>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="Poststempel und Siegel"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

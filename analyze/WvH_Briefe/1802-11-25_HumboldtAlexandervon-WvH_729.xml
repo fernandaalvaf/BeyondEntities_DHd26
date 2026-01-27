@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 25.11.1802<idno type="BBAW">729</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig"/>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Annales du Muséum National
+                            d'Histoire Naturelle 2, 1803, S. 322–337. – Deutsche Übersetzung:
+                            Familie von Humboldt 1880, S. 40–54</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8835</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ajabonpland">
+                  <persName>Bonpland, Aimé Jacques Alexandre</persName>
+               </person>
+               <person corresp="pbouguer">
+                  <persName>Bouguer, Pierre</persName>
+               </person>
+               <person corresp="fjclavijero">
+                  <persName>Clavijero, Francisco Javier</persName>
+               </person>
+               <person corresp="gcuvier">
+                  <persName>Cuvier, Georges</persName>
+               </person>
+               <person corresp="cmlacondamine">
+                  <persName>La Condamine, Charles Marie de</persName>
+               </person>
+               <person corresp="fjmontufar">
+                  <persName>Montúfar y Larrea, Francisco Javier</persName>
+               </person>
+               <person corresp="jpmontufar">
+                  <persName>Montúfar y Larrea, Juan Pío de, Marqués de Selva Alegre</persName>
+               </person>
+               <person corresp="cmontufar">
+                  <persName>Montúfar y Larrea-Zurbano, Carlos de</persName>
+               </person>
+               <person corresp="lsepla">
+                  <persName>Sepla y Oro, Leandro</persName>
+               </person>
+               <person corresp="jstrange">
+                  <persName>Strange, Sir John</persName>
+               </person>
+               <person corresp="tupaq">
+                  <persName>Túpac (Inca) Yupanqui</persName>
+               </person>
+               <person corresp="uabomatha">
+                  <persName>Uainia Abomatha</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="88">Clavigero, Francesco Saverio: Storia antica del Messico, 4
+                        Bände (Cesena: Biasini 1780–1781)</bibl>
+               <bibl corresp="740">La Condamine, Charles Marie de: Mémoire sur quelques anciens
+                        monumens du Perou, du tems des Incas. In: Histoire de l’Académie Royale des
+                        Sciences et Belles Lettres, Année MDCCXLVI (Berlin: Haude 1748)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Aus meinen vorigen Briefen, lieber Bruder, musst Du meine Ankunft
+                    in Quito wissen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1802-11-25"/>
+               <placeName key="Lima">Lima</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="car">Carib (Galibi)</language>
+            <language ident="">Puruguay (Puruhá)</language>
+            <!-- ausgestorben!, kein Code vorhanden -->
+            <language ident="qu">Quechua</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Juli 2014 / 11. November 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>A Lima, ce 25 novembre 1802.</dateline>
+            </opener>
+            <p>Vous devez savoir mon arrivée à <placeName ref="Quito">Quito</placeName> par mes
+                    lettres précédentes, mon cher frère. Nous y arrivâmes, en traversant les neiges
+                    de Quiridin et de Tolima: car, comme la cordillère des Andes forme trois
+                    branches séparées, et que nous nous trouvions à <placeName ref="Bogota">Santa Fé
+                        de Bogota</placeName> sur celle qui est la plus orientale, il nous fallut
+                    passer la plus élevée pour nous approcher des côtes de la mer du Sud. Il n’y a
+                    que les bœufs dont on puisse se servir à ce passage pour faire porter son
+                    bagage. Les voyageurs se font porter ordinairement par des hommes que l’on nomme
+                        <hi rend="italic">largeros</hi>. Ils ont une chaise liée sur le dos, sur
+                    laquelle le voyageur est assis; ils font trois à quatre heures de chemin par
+                    jour, et ne gagnent que quatorze piastres en cinq à six semaines. Nous
+                    préférâmes d’aller à pied; et, le temps étant très-beau, nous ne passâmes que
+                    dix-sept jours dans ces solitudes, où l’on ne trouve aucune trace qu’elles aient
+                    jamais été habitées: on y dort dans des cabanes formées de feuilles d’héliconia
+                    que l’on porte tout exprès avec soi. A la descente occidentale des Andes, il y a
+                    des marais dans lesquels on enfonce jusqu’aux genoux. Le temps avoit changé; il
+                    pleuvoit à verse les derniers jours; nos bottes nous pourrirent aux jambes, et
+                    nous arrivâmes les pieds nus et couverts de meurtrissures à <placeName ref="Cartago">Carthago</placeName>, mais enrichis d’une belle collection de
+                    nouvelles plantes, dont je rapporte un grand nombre de dessins. </p>
+            <p>De <placeName ref="Cartago">Carthago</placeName>, nous allâmes à <placeName ref="Popayan">Popayan</placeName> par <placeName ref="Buga">Buga</placeName>, en traversant la belle vallée de là rivière Cauca, et ayant
+                    toujours à nos côtés la montagne du Choca et les mines de platine qui s’y
+                    trouvent. </p>
+            <p>Nous restâmes le mois de novembre de l’année 1801 à <placeName ref="Popayan">Popayan</placeName>, et nous y allâmes visiter les montagnes basaltiques de
+                    Julusuito, les bouches du volcan de Puracé, qui, avec un bruit effrayant,
+                    dégagent des vapeurs d’eau hydro-sulfureuse, et les granites porphyritiques de
+                    Pisché, qui forment des colonnes de cinq à sept pans, semblables à celles que je
+                    me souviens d’avoir vues dans les monts Enganéens de l’Italie, et qui sont
+                    décrites par <persName ref="jstrange">Strange</persName>
+               <note type="footnote" resp="editor">Von <persName ref="jstrange">John Strange</persName> erschien
+                        1778 in Mailand: <hi rend="italic">De’ monti colonnari e d’altri fenomeni
+                            vulcanici dello Stato Veneto Memoria</hi>, bereits 1780 in deutscher
+                        Übersetzung in Heidelberg bei Pfähler: <hi rend="italic">Johann Strange,
+                            Baronet und Residenten Sr. Großbrittan. Majestät, bey der erlauchten
+                            Rep. Venedig […] Abhandlung von den säulenartigen Gebürgen und andern
+                            vulkanischen Naturerscheinungen im venetianischen Gebiete: in einem
+                            Schreiben an Herrn Baronet Pringle, etc.; mit Kupfern.</hi>
+                    [FZ]</note>.</p>
+            <p>La plus grande difficulté nous resta à vainere pour venir de <placeName ref="Popayan">Popayan</placeName> à <placeName ref="Quito">Quito</placeName>. Il fallut passer les Paramos de <placeName ref="Pasto">Pasto</placeName>, et cela dans la saison des pluies, qui avoit commencé en
+                    attendant. On nomme Paramo dans les Andes tout endroit où, à la hauteur de
+                    dix-sept cents à deux mille toises<note type="footnote" resp="editor">Die Toise
+                        ist ein altes französisches Längenmaß, entsprechend dem deutschen Klafter.
+                        Die im 18. Jahrhundert übliche <hi rend="italic">Toise du Châtelet</hi>
+                        hatte eine Länge von 1,949 m; siehe dazu den <ref type="linkExt" target="https://fr.wikipedia.org/wiki/Toise_(unité)">ausführlichen
+                            Artikel in der französischen Wikipedia</ref>. Die Höhenangabe von 1700
+                        bis 2000 Toisen entspricht 3313,30 bis 3898 m. [FZ]</note>, la végétation
+                    cesse, et où l’on sent un froid qui pénètre les os. Pour éviter les chaleurs de
+                    la vallée de Patia, où l’on prend dans une seule nuit des fièvres qui durent
+                    trois ou quatre mois, et qui sont connues sous le nom de <hi rend="italic">calcuturas</hi> (<hi rend="italic">fièvres</hi>) <hi rend="italic">de
+                        Patia</hi>, nous passâmes au sommet de la Cordillère, par des précipices
+                    affreux, pour aller de <placeName ref="Popayan">Popayan</placeName> à <placeName ref="Almaguer">Almager</placeName>, et de là à <placeName ref="Pasto">Pasto</placeName>, situé au pied d’un volcan terrible. </p>
+            <p>L’entrée et la sortie de cette petite ville, où nous passâmes les fêtes de Noël,
+                    et où les habitans nous reçurent avec l’hospitalité la plus touchante, est tout
+                    ce qu’il y a de plus affreux au monde. Ce sont des forêts épaisses, situées
+                    entre des marais; les mules y enfoncent à mi-corps; et l’on passe par des ravins
+                    si profonds et si étroits, que l’on croit entrer dans les galeries d’une mine.
+                    Aussi les chemins sont-ils pavés des ossemens des mules qui y ont péri de froid
+                    et de fatigue. Toute la province de <placeName ref="Pasto">Pasto</placeName>, y
+                    compris les environs de <placeName ref="Guachucal">Guachucal</placeName> et de
+                        <placeName ref="Tuquerres">Tuquères</placeName>, est un plateau gelé,
+                    presque au-dessus du point où la végétation peut durer, et entouré de volcans et
+                    de soufrières qui dégagent continuellement des tourbillons de fumée. Les
+                    malheureux habitans de ces déserts n’ont d’autres alimens que les <hi rend="italic">patatas</hi>; et si elles leur manquent, comme l’année
+                    derrière, ils vont dans les montagnes manger le tronc d’un petit arbre nommé <hi rend="italic">achupalla</hi> (<hi rend="italic">Pourretia pitcarnia</hi>):
+                    mais ce même arbre étant l’aliment des ours des Andes, ceux-ci leur disputent
+                    souvent la seule nourriture que leur présentent ces régions élevées. Au nord du
+                    volcan de <placeName ref="Pasto">Pasto</placeName>, j’ai découvert dans le petit
+                    village indien de <placeName ref="Voisako">Voisaco</placeName>, à treize cent
+                    soixante-dix toises au-dessus de la mer<note type="footnote" resp="editor">D.h.
+                        2670,13 m.</note>, un porphyre rouge, à base argileuse, enchâssant du
+                    feldspath vitreux, et de la cornéenne qui a toutes les propriétés de la
+                    serpentine du <hi rend="italic">fichtel-gebirge</hi>. Ce porphyre a des pôles
+                    très-marqués, et ne montre aucune force attractive. Après avoir été mouillés
+                    jour et nuit pendant deux mois, et après avoir manqué de nous noyer près de la
+                    ville d’Ibarra par une crue d’eau très- subite, accompagnée de tremblemens de
+                    terre, nous arrivâmes le <date when="1802-01-06">6 janvier 1802</date> à
+                        <placeName ref="Quito">Quito</placeName>, où <persName ref="jpmontufar">le
+                        marquis de Selvaalègre</persName> avoit eu la bonté de nous préparer une
+                    belle maison, qui, après tant de fatigues, nous offroit toutes les commodités
+                    que l’on pourroit désirer à <placeName ref="Paris">Paris</placeName> ou à
+                        <placeName ref="London">Londres</placeName>. </p>
+            <p>La ville de <placeName ref="Quito">Quito</placeName> est belle, mais le ciel y
+                    est triste et nébuleux; les montagnes voisines offrent peu de verdure et le
+                    froid y est très-considérable. Le grand tremblement de terre du <date when="1797-02-04">4 février 1797</date>, qui bouleversa toute la province et
+                    tua dans un seul instant trente-cinq à quarante mille hommes, a aussi été
+                    funeste à cet égard aux habitans. Il a tellement changé la température de l’air,
+                    que le thermomètre y est ordinairement à 4–10° de Réaumur<note type="footnote" resp="editor">D.h. 5–12,5 °C.</note>, et que rarement il monte à 16 ou
+                        17°<note type="footnote" resp="editor">D.h. 20 oder 21,25 °C.</note>, tandis
+                    que <persName ref="pbouguer">Bouguer</persName> le voyoit constamment à 15 ou
+                        16°<note type="footnote" resp="editor">D.h. 18,75 oder 20 °C.</note>. Depuis
+                    cette catastrophe il y a des tremblemens de terre continuels; et quelles
+                    secousses! Il est probable que toute la partie haute de la province n’est qu’un
+                    seul volcan. Ce qu’on nomme les montagnes de <hi rend="italic">Cotopoxi</hi> et
+                    de <hi rend="italic">Pichincha</hi> ne sont que de petites cimes, dont les
+                    cratères forment des tuyaux différens, tous aboutissant au même creux. Le
+                    tremblement de terre de 1797 n’a malheureusement que trop prouvé cette
+                    hypothèse; car la terre s’est ouverte par-tout alors, et a vomi du soufre, de
+                    l’eau, etc. Malgré ces horreurs et ces dangers dont la nature les a environnés,
+                    les habitans de <placeName ref="Quito">Quito</placeName> sont gais, vifs et
+                    aimables. Leur ville ne respire que la volupté et le luxe, et nulle part
+                    peut-être il ne règne un goût plus décidé et plus général de se divertir. C’est
+                    ainsi que l’homme s’accoutume à s’endormir paisiblement sur le bord d’un
+                    précipice. </p>
+            <p>Nous avons fait un séjour de près de huit mois dans la province de <placeName ref="Quito">Quito</placeName>, depuis le commencement de janvier jusqu’au
+                    mois d’août. Nous avons employé ce temps à visiter chacun des volcans qui s’y
+                    trouvent; nous avons examiné, l’une après l’autre, les cimes du Pichincha,
+                    Cotopoxi, Antisana et Iliniça, en passant quinze jours à trois semaines auprès
+                    de chacune d’elles, et en revenant dans les intervalles toujours à la ville de
+                        <placeName ref="Quito">Quito</placeName>, dont nous sommes partis, <date when="1802-06-09">le 9 juin 1802</date>, pour nous rendre aux environs du
+                    Chimboraço qui est situé dans la partie méridionale de la province. </p>
+            <p>Je suis parvenu deux fois, <date when="1802-05-26">le 26</date> et <date when="1802-05-28">le 28 de mai 1802</date>, au bord du cratère du Pichincha,
+                    montagne qui domine la ville de <placeName ref="Quito">Quito</placeName>.
+                    Jusqu’ici personne, que l’on sache, si ce n’est <persName ref="cmlacondamine">la
+                        Condamine</persName>, ne l’avoit jamais vu, et <persName ref="cmlacondamine">la Condamine</persName> luimême n’y étoit arrivé qu’après cinq ou six jours
+                    de recherches inutiles et sans instrumens, et n’y avoit pu rester que douze à
+                    quinze minutes à cause du froid excessif qu’il y faisoit. J’ai réussi à y porter
+                    mes instrumens; j’ai pris les mesures qu’il étoit intéressant de connoître, et
+                    j’ai recueilli de l’air pour en faire l’analyse. Je fis mon premier voyage seul
+                    avec un Indien. Comme <persName ref="cmlacondamine">la Condamine</persName>
+                    s’étoit approché du cratère par la partie basse de son bord, couverte de neige,
+                    c’est là qu’en suivant ses traces, je fis ma première tentative. Mais nous
+                    manquâmes périr. L’Indien tomba jusqu’à la poitrine dans une crevasse, et nous
+                    vîmes avec horreur que nous avions marché sur un pont de neige glacée; car à
+                    quelques pas de nous il y avoit des trous par lesquels le jour donnoit. Nous
+                    nous trouvions donc, sans le savoir, sur des voûtes qui tiennent au cratère
+                    même. Effrayé, mais non pas découragé, je changeai de projet. De l’enceinte du
+                    cratère sortent, en s’élançant pour ainsi dire sur l’abîme, trois pics, trois
+                    rochers qui ne sont pas couverts de neiges, parce que les vapeurs qu’exhale la
+                    bouche du volcan les y fondent sans cesse. Je montai sur un de ces rochers, et
+                    je trouvai à son sommet une pierre qui étant soutenue par un côté seulement et
+                    minée par dessous s’avançoit en forme de balcon sur le précipice. C’est là que
+                    je m’établis pour faire mes expériences. Mais cette pierre n’a qu’environ douze
+                    pieds de longueur, sur six de largeur, et est fortement agitée par des secousses
+                    fréquentes de tremblemens de terre, dont nous comptâmes dix-huit en moins de
+                    trente minutes. Pour mieux examiner le fond du cratère, nous nous couchâmes sur
+                    le ventre, et je ne crois pas que l’imagination puisse se figurer quelque chose
+                    de plus triste, de plus lugubre, et de plus effrayant que ce que nous vîmes
+                    alors. La bouche du volcan forme un trou circulaire de près d’une lieue de
+                    circonférence, dont les bords, taillés à pic, sont couverts de neige par en
+                    haut; l’intérieur est d’un noir foncé: mais le gouffre est si immense, que l’on
+                    distingue la cime de plusieurs montagnes qui y sont placées, Leur sommet
+                    sembloit être à trois cents toises au-dessous de nous; jugez donc où doit se
+                    trouver leur base. Je ne doute point que le fond du cratère ne soit de niveau
+                    avec la ville de <placeName ref="Quito">Quito</placeName>. <persName ref="cmlacondamine">La Condamine</persName> avoit trouvé ce cratère éteint
+                    et couvert même de neige; mais c’est une triste nouvelle que nous avons dû
+                    porter aux habitans de <placeName ref="Quito">Quito</placeName>, que le volcan
+                    qui leur est voisin, est embrasé actuellement. Des signes évidens nous en
+                    convainquirent cependant à n’en pouvoir pas douter. Les vapeurs de soufre nous
+                    suffoquoient presque lorsque nous nous approchions de la bouche; nous voyions
+                    même se promener çà et là des flammes bleuâtres; et de deux à trois minutes nous
+                    sentions de fortes secousses de tremblemens de terre dont les bords du cratère
+                    sont agités, et dont on ne s’aperçoit plus à cent toises de là. Je suppose que
+                    la grande catastrophe du <date when="1797-02-07">7 février 1797</date> a aussi
+                    rallumé les feux du Pichincha. Après avoir visité cette montagne seul, j’y
+                    retournai deux jours après, accompagné de <persName ref="ajabonpland">mon ami
+                        Bonpland</persName> et de <persName ref="cmontufar">Charles de
+                        Montufar</persName>, fils du <persName ref="jpmontufar">marquis de
+                        Selvaalegre</persName>. Nous étions munis de plus d’instrumens encore que la
+                    première fois, et nous mesurâmes le diamètre du cratère et la hauteur de la
+                    montagne. Nous trouvâmes à l’un 754 toises<note type="footnote" resp="AvH">Le
+                        cratère du Vésuve n’a que 312 toises<note type="footnote" resp="editor">D.h.
+                            608 m.</note> de diamètre.</note>
+               <note type="footnote" resp="editor">D.h. 1469,55 m.</note>, et à l’autre 2477<note type="footnote" resp="editor">D.h. 4827,67 m.</note>. Dans l’intervalle de deux jours qu’il
+                    y eut entre nos deux courses au Pichincha, nous eûmes un tremblement de terre
+                    très-fort à <placeName ref="Quito">Quito</placeName>. Les Indiens l’attribuèrent
+                    à des poudres que je devois avoir jetées dans le volcan. </p>
+            <p>A notre voyage au volcan d’Antisana, le temps nous favorisa si bien, que nous
+                    montâmes jusqu’à la hauteur de 2773 toises<note type="footnote" resp="editor">D.h. 5404,58 m.</note>. Le baromètre baissa, dans cette région élevée,
+                    jusqu’à 14 pouces 7 lignes et le peu de densité de l’air nous fit jeter le sang
+                    par les lèvres, les gencives et les yeux même; nous sentions une foiblesse
+                    extrême, et un de ceux qui nous accompagnoient dans cette course, s’évanouit.
+                    Aussi avoit-on cru impossible jusqu’ici de s’élever plus haut que jusqu’à la
+                    cime nommée le <hi rend="italic">Corazon</hi>, à laquelle <persName ref="cmlacondamine">la Condamine</persName> étoit parvenu, et qui est de
+                    2470 toises<note type="footnote" resp="editor">D.h. 4814,03 m.</note>. L’analyse
+                    de l’air rapporté du point le plus élevé de notre course nous donna 0,008
+                    d’acide carbonique sur 0,218 de gaz oxigène. </p>
+            <p>Nous visitâmes également le volcan de Gotopoxi, mais il nous fut impossible de
+                    parvenir à la bouche du cratère. Il est faux que cette montagne ait baissé à
+                    l’époque du tremblement de terre de 1797. </p>
+            <p>
+               <date when="1802-06-09">Le 9 juin 1802</date>, nous partîmes de <placeName ref="Quito">Quito</placeName> pour nous rendre dans la partie méridionale de
+                    la province, où nous voulions examiner et mesurer le Chimboraço et le Tunguragua
+                    et lever le plan de tous les pays bouleversés par la grande catastrophe de 1797.
+                    Nous avons réussi à nous approcher jusqu’à environ 250 toises<note type="footnote" resp="editor">D.h. 487,25 m.</note> près de la cime de
+                    l’immense colosse du Chimboraço. Une traînée de roches volcaniques, dépourvue de
+                    neiges, nous ficilita la montée; nous montâmes jusqu’à la hauteur de 3031
+                        toises<note type="footnote" resp="editor">D.h. 5907,42 m.</note>, et nous
+                    nous sentions incommodés de la même manière que sur le sommet de l’Antisana. Il
+                    nous restoit même encore deux ou trois jours après notre retour dans la plaine
+                    un malaise que nous ne pouvions attribuer qu’à l’effet de l’air dans ces régions
+                    élevées, dont l’analyse nous donna 20 centièmes d’oxigène. Les Indiens qui nous
+                    accompagnoient nous avoient déjà quittés avant d’arriver à cette hauteur, disant
+                    que nous avions intention de les tuer. Nous restâmes donc seuls, <persName ref="ajabonpland">Bonpland</persName>, <persName ref="cmontufar">Charles
+                        Montufar</persName>, moi, et un de mes domestiques qui portoit une partie de
+                    mes instrumens; nous aurions poursuivi malgré cela notre chemin jusqu’à la cime,
+                    si une crevasse trop profonde pour la franchir ne nous en eût empêchés: aussi
+                    fìmesnous bien de descendre. Il tomba tant de neige à notre retour, que nous
+                    eûmes de la peine à nous reconnoître. Peu garantis contre le froid perçant de
+                    ces régions élevées, nous souffrions horriblement, et moi, en mon particulier,
+                    j’eus le désagrément d’avoir un pied ulcéré d’une chute que j’avois faite peu de
+                    jours auparavant; ce qui m’incommoda horriblement dans un chemin où à chaque
+                    instant on heurtoit contre une pierre aiguë, et où il falloit calculer chaque
+                    pas. <persName ref="cmlacondamine">La Condamine</persName> a trouvé la hauteur
+                    du Chimboraço de près de 3217 toises<note type="footnote" resp="editor">D.h.
+                        6269,93 m.</note>. La mesure trigonométrique que j’en ai faite, à deux
+                    différentes reprises, m’a donné 3267<note type="footnote" resp="editor">D.h.
+                        6367,38 m.</note>, et j’ai lieu de mettre quelque confiance dans mes
+                    opérations. Tout cet énorme colosse (ainsi que toutes les hautes montagnes des
+                    Andes) n’est pas de granit, mais de porphyre, depuis le pied jusqu’à la cime, et
+                    le porphyre y a 1900 toises<note type="footnote" resp="editor">D.h. 3703,10
+                        m.</note> d’épaisseur. Le peu de séjour, que nous fimes à l’énorme hauteur à
+                    laquelle nous nous étions élevés, fut des plus tristes et des plus lugubres;
+                    nous étions enveloppés d’une brume qui ne nous laissoit entrevoir de temps en
+                    temps que les abîmes affreux qui nous entouroient. Aucun être animé, pas même le
+                    condor, qui sur l’Antisana planoit continuellement sur nos tètes, ne vivifioit
+                    les airs. De petites mousses étoient les seuls êtres organisés qui nous
+                    rappeloient que nous tenions encore à la terre habitée. </p>
+            <p>Il est presque vraisemblable que le Chimboraço est comme le Pichincha et
+                    l’Antisana, de nature volcanique. La traînée sur laquelle nous y montâmes, est
+                    composée d’une roche brûlée et scorifiée, mêlée de pierre ponce; elle ressemble
+                    à tous les courans de laves de ce pays-ci, et continue au-delà du point où il
+                    fallut mettre un terme à mes recherches, vers la cime de la montagne. Il est
+                    possible que cette cime soit le cratère d’un volcan éteint, et cela est même
+                    probable; cependant l’idée de cette seule possibilité fait frémir avec raison:
+                    car, si ce volcan se rallumoit, ce colosse détruiroit toute la province. </p>
+            <p>La montagne de Tunguragua a baissé à l’époque du tremblement de terre de 1797.
+                        <persName ref="pbouguer">Bouguer</persName> lui donne 2620 toises<note type="footnote" resp="editor">D.h. 5106,38 m.</note>; je ne lui en ai trouvé
+                    que 2531<note type="footnote" resp="editor">D.h. 4932,92 m.</note>: elle a donc
+                    perdu près de 100 toises<note type="footnote" resp="editor">194,90 m.</note> de
+                    sa hauteur. Aussi les habitans des contrées voisines assurent-ils avoir vu
+                    s’écrouler son sommet devant leurs yeux. </p>
+            <p>Pendant notre séjour à <placeName ref="Riobamba">Riobamba</placeName>, où nous
+                    passâmes quelques semaines chez <persName ref="fjmontufar">le frère</persName>
+                    de <persName ref="cmontufar">Charles Montufar</persName>, qui y est corrégidor,
+                    le hasard nous fit faire une découverte très-curieuse. On ignore absolument
+                    l’état de la province de <placeName ref="Quito">Quito</placeName> avant la
+                    conquête de <persName ref="tupaq">l’Inca Tupayupangi</persName>
+               <note type="footnote" resp="AvH">La conquête du <placeName ref="Quito">Quito</placeName> par les Péruviens se fit en 1470.</note>. Mais le roi
+                    des Indiens, <persName ref="lsepla">Léandro Zapla</persName>
+               <note type="footnote" resp="editor">Gemeint ist hier <persName ref="lsepla">Leandro Sepla y Oro</persName>. [FZ]</note>, qui vit à <placeName ref="Likan">Lican</placeName>, et qui, pour un Indien, a l’esprit
+                    singulièrement cultivé, conserve des manuscrits, rédigés par un de ses ancêtres
+                    au seizième siècle, qui contiennent l’histoire de cette époque. Ces manuscrits
+                    sont écrits en langue Puruguay. Cette langue étoit autrefois la langue générale
+                    du <placeName ref="Quito">Quito</placeName>; mais dans la suite des temps elle a
+                    cédé à la langue de l’Inca ou Anichna, et elle est perdue maintenant.
+                    Heureusement qu’un autre des aïeuls de <persName ref="lsepla">Zapla</persName>
+                    s’est amusé à traduire ces mémoires en espagnol. Nous y avons puisé de précieux
+                    renseignemens, sur-tout sur la mémorable époque de l’éruption de la montagne
+                    nommée <hi rend="italic">Nevado del Attas</hi>, qui doit avoir été la plus haute
+                    mon- tagne de l’univers, plus élevée que le Chimboraço, et que les Indiens
+                    nommoient <hi rend="italic">Capa-urcu</hi>, chef des montagnes. <persName ref="uabomatha">Ouainia Abomatha</persName>, le dernier cochocando (roi),
+                    indépendant du pays, régnoit alors à <placeName ref="Likan">Lican</placeName>.
+                    Les prêtres l’avertirent que celte catastrophe étoit le présage sinistre de sa
+                    perte. «La face de l’univers, lui dirent -ils, se change: d’autres dieux
+                    chasseront les nôtres. Ne résistons pas à ce que le destin ordonne». En effet,
+                    les Péruviens introduisirent le culte du Soleil dans le pays. L’éruption du
+                    volcan dura sept ans, et le manuscrit de <persName ref="lsepla">Zapla</persName>
+                    prétend que la pluie de cendres à <placeName ref="Likan">Lican</placeName> étoit
+                    si abondante, que pendant sept ans il y fit une nuit perpétuelle. Quand on
+                    envisage la quantité de matières volcaniques qui se trouvent dans la plaine de
+                        <placeName ref="Tapia">Tapia</placeName>, autour de l’énorme montagne
+                    écroulée alors, et que l’on pense que le Cotopoxi a souvent enveloppé <placeName ref="Quito">Quito</placeName> dans des ténèbres de quinze à dix-huit heures,
+                    on peut croire au moins que l’exagération n’est pas de beaucoup trop forte. Ce
+                    manuscrit, les traditions que j’ai recueillies à la Parime, et les hiéroglyphes
+                    que j’ai vus dans le désert du Casiquiare, où aujourd’hui il ne reste guère de
+                    vestiges d’hommes; tout cela joint aux notions données par <persName ref="fjclavijero">Clavijero</persName>
+               <bibl sameAs="88">sur l’émigration des Mexicains vers le midi de
+                        l’Amérique</bibl>, m’a fait naître des idées sur l’origine de ces peuples,
+                    que je me propose de développer dès que j’en aurai le loisir. </p>
+            <p>Je me suis beaucoup occupé aussi de l’étude des langues américaines, et j’ai vu
+                    combien ce que <persName ref="cmlacondamine">La Condamine</persName> dit de leur
+                    pauvreté est faux. La langue Caribe est à la fois riche, belle, énergique et
+                    polie; elle ne manque point d’expressions pour les idées abstraites; on y parle
+                    de postérité, d’éternité, d’existence, etc., et les signes numériques suffisent
+                    pour désigner toutes les combinaisons possibles des chiffres. Je m’applique
+                    sur-tout à la langue Inca; on la parle communément ici dans la société, et elle
+                    est si riche en tournures fines et variées, que les jeunes gens, pour dire des
+                    douceurs aux femmes, commencent à parler Inca, quand ils ont épuisé les
+                    ressources du Castillan. Ces deux langues, et quelques autres également riches,
+                    suffiroient seules pour prouver que l’Amérique a possédé autrefois une plus
+                    grande culture que celle que les Espagnols y trouvèrent en 1492. Mais j’en ai
+                    recueilli bien d’autres preuves encore, non seulement au Mexique et au Pérou,
+                    mais même à la cour du roi de <placeName ref="Bogota">Bogota</placeName> (pays
+                    dont on ignore absolument l’histoire en Europe, et dont même la mythologie et
+                    les traditions fabuleuses sont très-intéressantes). Les prêtres savoient tirer
+                    une méridienne et observer le moment du solstice; ils réduisoient l’année
+                    lunaire à une année solaire par intercalations, et je possède moi-même une
+                    pierre heptagone, trouvée près de <placeName ref="Bogota">Santa-Fé</placeName>,
+                    qui leur servoit pour calculer ces jours intercalaires. Mais ce qui plus est,
+                    même à l’Erevato, dans l’intérieur de la Parime, les sauvages croient que la
+                    lune est habitée par des hommes, et savent par les traditions de leurs ancêtres
+                    que sa lumière vient du soleil. </p>
+            <p>De <placeName ref="Riobamba">Rio-Bamba</placeName>, je dirigeai ma course par le
+                    fameux Paranio de l’Assuay vers <placeName ref="Cuenca">Cuença</placeName>; mais
+                    je visitai auparavant les grandes mines de soufre de Tirrau. C’est à cette
+                    montagne de soufre que les Indiens révoltés en 1797, après le tremblement de
+                    terre, voulurent mettre le feu. C’étoit sans doute le projet le plus désespéré
+                    qui eût été jamais conçu; car ils espéroient former par ce moyen un volcan qui
+                    engloutiroit toute la province d’Alaussy. Au haut du Paramo de l’Assuay, à une
+                    élévation de 2300 toises<note type="footnote" resp="editor">D.h. 4482,70
+                        m.</note>, sont les ruines du magnifique chemin de l’Inca. Il conduisoit
+                    presque jusqu’au <placeName ref="Cusco">Cuzco</placeName>, étoit entièrement
+                    construit de pierres de taille, et très-bien alligné; il ressembloit aux plus
+                    beaux chemins romains. Dans les mêmes environs se trouvent aussi les ruines du
+                    palais de l’<persName ref="tupaq">Inca Tupayupangi</persName>, dont <persName ref="cmlacondamine">La Condamine</persName> a donné la description dans les
+                        <hi rend="italic">
+                  <bibl sameAs="740">Mémoires</bibl> de <orgName ref="3">l’Académie de Berlin</orgName>
+               </hi>. Dans la carrière qui en a fourni
+                    les pierres, on en voit encore plusieurs à demi-travaillées. Je ne sais si
+                        <persName ref="cmlacondamine">La Condamine</persName> a aussi parlé du
+                    soi-disant billard de l’Inca. Les Indiens nomment cet endroit, en langue
+                    quichua, <hi rend="italic">Inca-Chungana</hi>, le jeu de l’Inca; je doute
+                    cependant qu’il ait eu cette destination. C’est un canapé taillé dans le roc,
+                    avec des ornemens en forme d’arabesques, dans lesquels on croit que couroit la
+                    boule. Il n’y a rien de plus élégant dans nos jardins anglais, et tout y prouve
+                    le bon goût de l’Inca, car le siège est placé de manière à y jouir d’une vue
+                    délicieuse. Non loin de là, dans un bois, on trouve une tache ronde, de fer
+                    jaune, dans du grès. Les Péruviens l’ont ornée de figures, croyant que c’étoit
+                    l’image du Soleil. J’en ai pris le dessin. </p>
+            <p>Nous ne sommes restés que dix jours à <placeName ref="Cuenca">Cuença</placeName>;
+                    et de là nous nous sommes rendus à <placeName ref="Lima">Lima</placeName> par la
+                    province de Jaën, où, dans le voisinage de là rivière des Amazones, nous avons
+                    passé un mois. Nous sommes arrivés à <placeName ref="Lima">Lima</placeName>
+               <date when="1802-10-23">le 23 octobre 1802</date>. &#x2028; Je compte aller, d’ici au
+                    mois de décembre, à <placeName ref="Acapulco">Acapulco</placeName>, et de là au
+                        <placeName ref="Mexiko-Stadt">Mexique</placeName>, pour me rendre, au mois
+                    de mai 1803, à la <placeName ref="Havanna">Havane</placeName>. C’est là que sans
+                    perdre de temps je m’embarquerai pour l’Espagne. J’ai abandonné, comme vous
+                    voyez, l’idée de retourner par les Philippines. J’aurois fuit une immense
+                    traversée de mer sans voir autre chose que <placeName ref="Manila">Manille</placeName> et le Cap; ou si j’avois voulu faire une tournée aux
+                    Indes orientales, j’aurois manqué des facilités nécessaires pour ce voyage,
+                    qu’il étoit impossible de me procurer ici. </p>
+            <p>Nous avons eu quarante à cinquante jeunes crocodiles, sur la respiration desquels
+                    j’ai fait des expériences très-curieuses. Au lieu que d’autres animaux diminuent
+                    le volume de l’air dans lequel ils vivent, le crocodile l’augmente. Un crocodile
+                    mis dans mille parties d’air atmosphérique, qui en contiennent deux cent
+                    soixante-quatorze de gaz oxigène, quinze d’acide carbonique et sept cent onze
+                    d’azote, augmente en une heure quarante-trois minutes cette niasse de cent
+                    vingt-quatre parties; et ces onze cent vingt-quatre parties contiennent alors
+                    (comme je l’ai vu par une analyse exacte) 106,8 d’oxigène, 79 d’acide
+                    carbonique, et 938,2 de gaz azote, mêlé d’autres substances gazeuses inconnues.
+                    Le crocodile produit donc, en une heure trois quarts, 64 parties d’acide
+                    carbonique; il absorbe 167,2 d’oxigène: mais comme 46 parties se retrouvent dans
+                    64 parties d’acide carbonique, il ne s’approprie que 121 parties d’oxigène; ce
+                    qui est très-peu, vu la couleur de son sang. Il produit 227 parties d’azote ou
+                    autres substances gazeuses, sur lesquelles les bases acidifiables n’exercent
+                    point d’action.<note type="footnote" resp="editor">Die folgenden Ausführungen zu
+                        den Krokodilen fehlen in der deutschen Übersetzung von 1880 (s.u.).
+                        [FZ]</note>
+            </p>
+            <p>J’ai fait ces expériences dans la ville de <placeName ref="Mompox">Munpox</placeName> avec de l’eau de chaux et du gaz nitreux
+                    très-soigneusement prépare. Le crocodile est si sensible au gaz acide carbonique
+                    et à ses propres exhalaisons, qu’il meurt quand on le met dans de l’air corrompu
+                    par un de ses camarades. Cependant il peut vivre deux à trois heures sans
+                    respirer du tout. J’ai fait ces expériences avec des crocodiles de 7 à 8 pouces
+                    de long. Malgré cette petitesse, ils sont capables de couper le doigt (avec
+                    leurs dents), et ils ont le courage d’attaquer un chien. Ces expériences sont
+                    très-pénibles à faire et demandent beaucoup de circonspection. Nous portons des
+                    descriptions très-détaillées du caïman ou crocodile de l’Amérique méridionale;
+                    mais les descriptions de celui de l’Egypte que l’on avoit à mon départ d’Europe,
+                    n’étant pas également circonstanciées, je n’ose décider si c’est la même espèce.
+                    A présent, certainement l’Institut d’Egypte en aura fait qui lèveront tout doute
+                    à cet égard. Ce qu’il y a de certain, c’est qu’il y a trois différentes espèces
+                    de crocodiles sous les tropiques du nouveau continent, et que le peuple y
+                    distingue sous le nom de bava, caïman et crocodile. Aucun naturaliste n’a encore
+                    distingué suffisamment ces espèces, et cependant ces monstres sont les vrais
+                    poissons de ces climats tantôt (comme à la Nouvelle-Barcelone) d’un si bon
+                    naturel qu’on se baigne à leur vue, tantôt (comme à la Nouvelle-Guiane) si
+                    méchans et si cruels que, dans le temps que nous y fûmes, ils dévorèrent un
+                    Indien au milieu de la rue, au quai. A Oratuen, nous avons vu une fille indienne
+                    de dix-huit ans, qu’un crocodile tenoit par le bras; elle eut le courage de
+                    chercher de l’autre main son couteau dans sa poche, et d’en donner tant de coups
+                    dans les yeux du monstre, qu’il la lâcha en lui coupant le bras près de
+                    l’épaule. La présence d’esprit de cette fille fut tout aussi étonnante que
+                    l’adresse des Indiens pour guérir heureusement une plaie aussi dangereuse: on
+                    eût dit que le bras avoit été amputé et traité à <placeName ref="Paris">Paris</placeName>. </p>
+            <p>Près de <placeName ref="Bogota">Santa-Fé</placeName> se trouvent dans le Campo de
+                    Gigante, à 1370 toises<note type="footnote" resp="editor">D.h. 2670,13 m.</note>
+                    de hauteur, une immensité d’os fossiles d’élephans, tant de l’espèce d’Afrique,
+                    que des carnivores qu’on a découverts à l’Ohio. Nous y avons fait creuser, et
+                    nous en avons envoyé des exemplaires à l’<orgName ref="23">Institut
+                        national</orgName>. Je doute qu’on ait trouvé jusqu’ici ces os à une si
+                    grande hauteur: depuis, j’en ai reçu deux d’un endroit des Andes situé vers le
+                    2° de latitude du <placeName ref="Quito">Quito</placeName> et du Chili, de
+                    manière que je puis prouver l’existence et la destruction de ces éléphants
+                    gigantesques depuis l’Ohio jusques aux Patagons. Je rapporte une belle
+                    collection de ces os fossiles pour <persName ref="gcuvier">M. Cuvier</persName>.
+                    On a découvert il y a quinze ans, dans la vallée de la Madeleine, un squelette
+                    entier de crocodile pétrifié dans une roche calcaire; l’ignorance l’a fait
+                    briser, et il m’a été impossible de m’en procurer la tête, qui existoit encore
+                    il y a peu de temps.</p>
+            <lb/>
+            <lb/>
+         </div>
+         <div type="letter">
+            <opener>
+               <pb n="Text der deutschen Übersetzung (Familie von Humboldt 1880, S. 40–54)"/>
+               <lb/>
+               <dateline>Lima, d. 25. November 1802.</dateline>
+            </opener>
+            <p> Aus meinen vorigen Briefen, lieber Bruder, musst Du meine Ankunft in <placeName ref="Quito">Quito</placeName> wissen. Unser Weg dahin ging (im September
+                    1801) durch die Schneegegenden von Quiridiu und Tolima. Denn die Cordillere der
+                    Anden bildet drei abgesonderte Arme; und da wir zu <placeName ref="Bogota">Sta.
+                        Fé de Bogota</placeName> uns auf dem östlichsten derselben befanden, so
+                    mussten wir nun den höchsten dieser Gebirgsarme übersteigen, um an die Küsten
+                    des Südmeeres zu gelangen. Blos Ochsen lassen sich auf diesem Wege gebrauchen,
+                    um das Gepäcke fortzuschaffen. Die Reisenden selbst pflegen durch Männer
+                    getragen zu werden, welche <foreign sameAs="es">Cargueros</foreign> heissen. Sie
+                    haben auf ihren Rücken einen Stuhl gebunden, worauf der Reisende sitzt; machen 3
+                    bis 4 Stunden Wegs den Tag über und verdienen in 5 bis 6 Wochen nur 14 Piaster.
+                    Wir zogen die Fusswanderung vor und da das Wetter ungemein schön war, so
+                    brachten wir nur 17 Tage in diesen Einöden zu, woselbst keine Spur sich findet,
+                    dass sie je bewohnt gewesen wären, und wo man in Hütten von Heliconia-Blättern
+                    schläft, die man zu dem Ende mit sich nimmt. Am westlichen Abhange der Anden
+                    gibt es Sümpfe, worein man bis an die Knie sinkt. Das Wetter hatte sich
+                    geändert, es regnete stromweise in den letzten Tagen, unsere Stiefeln faulten
+                    uns am Leibe, und wir kamen mit nackten und blutrünstigen Füssen zu <placeName ref="Cartago">Cartago</placeName> an, aber mit einer schönen Sammlung neuer
+                    Pflanzen bereichert, wovon ich eine Menge Zeichnungen mitbringe. </p>
+            <p>Von <placeName ref="Cartago">Cartago</placeName> gingen wir nach <placeName ref="Popayan">Popayan</placeName>, über <placeName ref="Buga">Buga</placeName> durch das herrliche Thal des Caucaflusses, wobei wir das
+                    Chocagebirge mit seinen Platinagruben immer zur rechten Seite hatten.</p>
+            <p>Den November 1801 blieben wir zu <placeName ref="Popayan">Popayan</placeName> und
+                    besuchten von dort die Basaltgebirge von Julusuito; den Schlund des Vulkans von
+                    Purace, der mit entsetzlichem Getöse Dämpfe eines durch geschwefeltes
+                    Wasserstoffgas geschwängerten Wassers ausstösst; und die porphyrartigen Granite
+                    von Pisché, welche fünf- bis siebeneckige Säulen bilden, denjenigen gleich, die
+                    ich mich in den Euganeen in Italien gesehen zu haben erinnere, und die <persName ref="jstrange">Strange</persName>
+               <note type="footnote" resp="editor">Von
+                            <persName ref="jstrange">John Strange</persName> erschien 1778 in
+                        Mailand: <hi rend="italic">De’ monti colonnari e d’altri fenomeni vulcanici
+                            dello Stato Veneto Memoria</hi>, bereits 1780 in deutscher Übersetzung
+                        in Heidelberg bei Pfähler: <hi rend="italic">Johann Strange, Baronet und
+                            Residenten Sr. Großbrittan. Majestät, bey der erlauchten Rep. Venedig …
+                            Abhandlung von den säulenartigen Gebürgen und andern vulkanischen
+                            Naturerscheinungen im venetianischen Gebiete: in einem Schreiben an
+                            Herrn Baronet Pringle, etc.; mit Kupfern.</hi>
+               </note> beschrieben hat.
+                    Die grösste Schwierigkeit stand uns noch zu überwinden bevor, zwischen
+                        <placeName ref="Popayan">Popayan</placeName> und <placeName ref="Quito">Quito</placeName>. Auf diesem Wege mussten wir die Paramos von <placeName ref="Pasto">Pasto</placeName> übersteigen, und zwar in der Regenzeit, die
+                    bereits angefangen hatte. Paramo heisst in den Anden jeder Ort, wo auf einer
+                    Höhe von 1700 bis 2000 Toisen die Vegetation still steht, und eine Kälte ist,
+                    die bis in die Knochen dringt. Um die Hitze des Patiathales zu vermeiden, wo man
+                    in Einer Nacht Fieber bekommt, die drei bis vier Monate dauern und die unter den
+                    Namen <foreign sameAs="es">calenturas de Patia</foreign> bekannt sind, gingen
+                    wir über die Spitze der Cordillere, wo scheusslich schroffe Abgründe sind, kamen
+                    so von <placeName ref="Popayan">Popayan</placeName> nach <placeName ref="Almaguer">Almager</placeName> und von da nach <placeName ref="Pasto">Pasto</placeName>, das am Fusse eines furchtbaren Vulkans liegt. </p>
+            <p>Man kann sich nichts Schrecklicheres denken, als den Eintritts- und den
+                    Eingangsweg bei dieser kleinen Stadt, wo wir die Weihnachten zubrachten, und
+                    deren Einwohner uns mit rührender Gastfreundlichkeit aufnahmen. Dicke Wälder
+                    liegen zwischen Morästen; die Maulthiere sinken bis auf den halben Leib ein; und
+                    man muss durch so tiefe und enge Schlüfte, dass man in Stollen eines Bergwerks
+                    zu kommen glaubt. Auch sind die Wege mit den Knochen der Maulthiere gepflastert,
+                    die hier vor Kälte oder aus Mattigkeit umfielen. Die ganze Provinz <placeName ref="Pasto">Pasto</placeName> mit Inbegriff der Gegenden um <placeName ref="Guachucal">Guachucal</placeName> und um <placeName ref="Tuquerres">Tuqueres</placeName>, ist eine gefrorne Gebirgsfläche, fast über den Punkt
+                    herauf wo die Vegetation aushalten kann, und mit Vulkanen und Solfataren
+                    umringt, woraus beständige Rauchwirbel dampfen. Die unglücklichen Bewohner
+                    dieser Wüsteneien haben keine andere Nahrung als Pataten; und wenn diese ihnen
+                    fehlen, wie im letztverwichenen Jahr, so gehn sie ins Gebirge, um den Stamm
+                    eines kleinen Baumes zu essen, der <foreign sameAs="es">Achupalla</foreign>
+                    heisst (Pourretia Pitcarnia). Da aber der nemliche Baum auch den Bären der Andes
+                    zur Speise dient, so machen diese ihnen oft die einzige Nahrung streitig, welche
+                    dies hohe Land den Menschen darbeut. Zur Nordseite des Vulkans von <placeName ref="Pasto">Pasto</placeName> habe ich in dem kleinen indianischen Dorf
+                        <placeName ref="Voisako">Voisako</placeName>, 1370 Toisen über der
+                    Meeresfläche, einen rothen Thon und einen Hornstein-Porphyr mit eingemengtem
+                    glasigen Feldspath entdeckt, welcher alle Eigenschaften des Serpentins vom
+                    Fichtelgebirge besitzt. Dieser Porphyr zeigt sehr deutliche Pole, aber durchaus
+                    keine Anziehung. Nachdem wir zwei Monate hindurch Tag und Nacht von Regengüssen
+                    durchnässt waren und bei der Stadt <placeName ref="Ibarra">Ibarra</placeName>
+                    beinahe ertranken, da plötzlich bei einem Erdbeben das Wasser stieg; langten wir
+                    am <date when="1802-01-06">6. Jänner 1802</date> zu <placeName ref="Quito">Quito</placeName> an, wo der <persName ref="jpmontufar">Marques von
+                        Selvalegre</persName> die Güte gehabt hatte, uns ein vortreffliches Haus
+                    einzurichten, das nach so vielen Beschwerden uns alle Gemächlichkeiten darbot,
+                    die man nur in <placeName ref="Paris">Paris</placeName> oder <placeName ref="London">London</placeName> verlangen könnte.</p>
+            <p>Die Stadt <placeName ref="Quito">Quito</placeName> ist schön, aber der Himmel
+                    traurig und neblicht; die benachbarten Berge zeigen kein Grün, und die Kälte ist
+                    beträchtlich. Das grosse Erdbeben vom <date when="1797-02-04">4. Februar
+                        1797</date>, welches die ganze Provinz umwarf und in Einem Augenblick 35 bis
+                    40000 Menschen tödtete, ist auch in jener Rücksicht den Bewohnern höchst
+                    schädlich gewesen. Es hat die Temperatur der Luft so sehr geändert, dass der
+                    Thermometer gewöhnlich zwischen 4 und 10 Grad Réaumur steht, und selten auf 16
+                    oder 17 steigt, da <persName ref="pbouguer">Bouguer</persName> ihn beständig auf
+                    15 oder 16 sah. Seit jener Katastrophe hören die Erdbeben nicht auf; und welche
+                    Stösse mitunter! Wahrscheinlich ist der ganze hohe Theil der Provinz ein
+                    einziger Vulkan. Was man die Berge von Kotopaxi und Pichincha nennt, sind nur
+                    kleine Spitzen, deren Krater verschiedene Röhren bilden, die sämmtlich zu dem
+                    nämlichen Heerd hinabführen. Diese Hypothese ist leider nur zu sehr durch das
+                    Erdbeben von 1797 erwiesen. Denn die Erde hat sich allenthalben damals von
+                    einander gethan, und Schwefel, Wasser u. s. w. ausgeworfen. Ungeachtet dieser
+                    Schrecknisse und Gefahren, womit die Natur sie rings her umgibt, sind die
+                    Einwohner von <placeName ref="Quito">Quito</placeName> froh, lebendig und
+                    liebenswürdig. Ihre Stadt athmet nur Wollust und Ueppigkeit und nirgend
+                    vielleicht gibt es einen entschiedenern und allgemeinern Hang sich zu vergnügen.
+                    So kann sich der Mensch gewöhnen, ruhig am Rande eines jähen Abgrundes zu
+                    schlafen. </p>
+            <p>Wir haben uns fast acht Monate in der Provinz <placeName ref="Quito">Quito</placeName> aufgehalten, von Anfang des Jänners bis in den August.
+                    Diese Zeit ward angewandt, jeden der dortigen Vulkane zu besteigen. Wir
+                    untersuchten nacheinander die Spitzen des Pichincha, Cotopaxi, Antisana und
+                    Iliniça; brachten 14 Tage bis 3 Wochen bei jeder zu, kehrten in der Zwischenzeit
+                    immer nach der <placeName ref="Quito">Hauptstadt</placeName> zurück und brachen
+                    am <date when="1802-06-09">9. Juni 1802</date> von da auf, um nach dem
+                    Chimboraço zu reisen, der im südlichen Theile dieser Provinz liegt. </p>
+            <p>Zweimal, den <date when="1802-05-26">26.</date> und den <date when="1802-05-28">28. Mai 1802</date>, bin ich bei dem Krater des Pichincha gewesen, des
+                    Berges, welcher neben der Stadt <placeName ref="Quito">Quito</placeName>
+                    emporragt. Niemand, so viel man weiss, hatte ihn bisher je gesehen, ausser
+                        <persName ref="cmlacondamine">Condamine</persName>; und dieser selbst kam
+                    nur hin, nachdem er 5 bis 6 Tage in unnützem Suchen verloren hatte, kam ohne
+                    Instrumente hin, und konnte wegen der übermässigen Kälte nur 12 bis 15 Minuten
+                    dort oben aushalten. Es glückte mir, meine Instrumente hinzubringen, ich traf
+                    die nöthigen Vorkehrungen, um das Wichtigste dort zu untersuchen und habe Luft
+                    dort gefangen, die ich analysirte. Meine erste Reise machte ich allein mit einem
+                    Indianer. Da <persName ref="cmlacondamine">Condamine</persName> sich dem Krater
+                    von der niedern mit Schnee bedeckten Seite des Randes genähert hatte, so trat
+                    ich bei meinem ersten Versuch in seine Fussstapfen. Aber bald wären wir
+                    verunglückt. Der Indianer sank bis an die Brust in eine Spalte und wir sahen mit
+                    Grausen, dass wir über eine Brücke von eisigem Schnee gegangen waren. Denn wenig
+                    Schritte von uns gab es Löcher, wodurch das Tageslicht schien. So befanden wir
+                    uns, ohne es zu wissen, auf Gewölben, die mit dem Krater selbst zusammen hingen.
+                    Erschreckt, aber nicht muthlos, fasste ich einen andern Entschluss. Aus dem
+                    Umkreise des Kraters springen, gleichsam über den Abgrund hinstrebend drei
+                    Felsspitzen hervor, die nicht mit Schnee bedeckt sind, weil die Dämpfe aus dem
+                    Schlunde des Vulkans ihn unaufhörlich schmelzen. Auf einen dieser Piks stieg
+                    ich, und fand auf dessen Gipfel einen Stein, der nur von einer Seite auflag und
+                    unten minirt war, so dass er einen Balkon über den Abgrund bildete. Hier schlug
+                    ich meinen Sitz auf, um unsere Versuche anzustellen. Aber dieser Stein ist nur
+                    ungefähr 12 Fuss lang und 6 Fuss breit, und wird von den häufigen Erdstössen
+                    mächtig erschüttert, deren wir 18 in nicht vollen 30 Minuten zählten. Um den
+                    Boden des Kraters besser zu beobachten, legten wir uns auf den Bauch; und ich
+                    glaube nicht, dass die Fantasie sich etwas Finstereres, Trauer- und
+                    Todmässigeres vorstellen kann, als wir hier sahen. Der Schlund des Vulkans
+                    bildet ein kreisformiges Loch, ungefähr von 1 Französ. Meile im Umfang; die
+                    Ränder desselben, in Pikgestalt ausgehauen, sind oberwärts mit Schnee bedeckt;
+                    das Innere ist dunkelschwarz. Aber die Tiefe ist so ungeheuer, dass mehrere
+                    Berge darin stehen, deren Gipfel man unterscheidet. Ihre Spitzen schienen 300
+                    Toisen unter uns; wo also mag ihr Fuss stehen? Ich zweifle nicht, dass der Boden
+                    des Kraters mit der Stadt <placeName ref="Quito">Quito</placeName> horizontal
+                    liegt. <persName ref="cmlacondamine">La Condamine</persName> fand diesen Krater
+                    erloschen und sogar mit Schnee überdeckt; wir aber haben den Einwohnern von
+                        <placeName ref="Quito">Quito</placeName> die traurige Nachricht bringen
+                    müssen, dass es in ihrem nachbarlichen Vulkan jetzt brennt. Deutliche Zeichen
+                    gestatteten keinen Zweifel hieran. Schwefeldämpfe erstickten uns beinahe, wenn
+                    wir uns dem Schlunde näherten; wir sahen selbst bläuliche Flammen hin und her
+                    hüpfen und fühlten alle 2 oder 3 Minuten heftige Stösse von Erdbeben, welche die
+                    Ränder des Kraters erschüttern, aber 100 Toisen entfernt nicht mehr zu spüren
+                    sind. Vermuthlich hat die grosse Katastrophe vom Februar 1797 auch das Feuer des
+                    Pichincha wieder angezündet. – Zwei Tage nach diesem Besuch bestieg ich den Berg
+                    noch einmal, in Begleitung meines Freundes <persName ref="ajabonpland">Bonpland</persName> und <persName ref="cmontufar">Karls von
+                        Montufar</persName>, eines Sohnes des <persName ref="jpmontufar">Marques
+                        Selvalegre</persName>. Wir führten noch mehr Instrumente bei uns, als das
+                    erste Mal, und massen den Umfang des Kraters und die Höhe des Berges. Den ersten
+                    fanden wir von 754, die andere von 2477 Toisen. Während der zwei Tage zwischen
+                    unsern zwei Besuchen des Pichincha, hatten wir ein sehr starkes Erdbeben zu
+                        <placeName ref="Quito">Quito</placeName>. Die Indianer schrieben es den
+                    Pulvern zu, die ich in den Vulkan geworfen haben sollte. </p>
+            <p>Bei unsrer Reise zum Vulkan von Antisana begünstigte uns die Witterung so, dass
+                    wir bis zu 2773 Toisen hinaufstiegen. Der Barometer sank in dieser hohen Gegend
+                    auf 14 Zoll 11 Linien und die geringe Dichtigkeit der Luft trieb uns das Blut
+                    aus den Lippen, dem Zahnfleisch und selbst den Augen. Wir fühlten uns äusserst
+                    matt, und einer unsrer Begleiter fiel in Ohnmacht. Auch hatte man es für
+                    unmöglich gehalten, weiter als an die Spitze, <foreign sameAs="es">el
+                        coraçon</foreign> genannt, zu kommen, welche <persName ref="cmlacondamine">Condamine</persName> erstieg, und die 2470 Toisen hoch liegt. Die Analyse
+                    der von unserm höchsten Standpunkt zurückgebrachten Luft gab 0,008 Kohlensäure
+                    auf 0,218 Sauerstoffgas.</p>
+            <p>Den Vulkan von Cotopaxi besuchten wir gleichfalls, aber es war uns unmöglich, an
+                    den Schlund des Kraters zu gelangen. Es ist falsch, dass dieser Berg durch das
+                    Erdbeben vom J. 1797 niedriger geworden sei. </p>
+            <p>Am <date when="1802-06-09">9. Juni</date> traten wir die Reise zum Untersuchen
+                    und Messen des Chimborazo und des Tunguragua an, und zum Aufnehmen aller durch
+                    die grosse erwähnte Katastrophe zerrütteten Länder. Es gelang, bis auf 250
+                    Toisen nah uns dem Gipfel des ungeheuren Kolosses Chimborazo zu nähern. Ein Zug
+                    vulkanischer, schneeloser Berge erleichterte uns das Steigen. Wir kamen auf 3031
+                    Toisen und fühlten die nemliche Beschwerde wie auf der Spitze des Antisana.
+                    Selbst noch ein paar Tage nach unsrer Rückkehr in die Ebene blieb uns ein
+                    Uebelbefinden, das wir nur der Wirkung der Luft (in jener Höhe) zuschreiben
+                    konnten, deren Analyse uns 20 Hunderttheile Sauerstoff gab. Die uns begleitenden
+                    Indianer hatten uns schon früher verlassen, und sagten, dass wir sie tödten
+                    wollten. Wir blieben also allein, <persName ref="ajabonpland">Bonpland</persName>, <persName ref="cmontufar">Karl Montufar</persName>,
+                    ich, und einer meiner Bedienten, der einen Theil meiner Instrumente trug.
+                    Dennoch hätten wir unsern Weg bis zu dem Gipfel fortgesetzt, wenn nicht ein zu
+                    grosser Spalt im Boden uns gehindert hätte. Auch thaten wir sehr wohl,
+                    umzukehren. Auf unserm Rückwege fiel ein so starker Schnee, dass wir uns kaum
+                    sehen konnten. Wir hatten uns gegen die schneidende Kälte dieser hohen Gegend
+                    nur wenig geschützt und litten daher unsäglich, vornehmlich ich, der ich noch
+                    einen wunden Fuss von einem Fall vor wenig Tagen hatte, welches mir die grössten
+                    Schmerzen verursachte, da man auf diesem Wege alle Augenblick an einen spitzen
+                    Stein stiess und nicht vorsichtig genug gehen konnte. <persName ref="cmlacondamine">La Condamine</persName> hat den Chimborazo an 3217
+                    Toisen hoch gefunden. Meine, zweimal angestellte, trigonometrische Messung gab
+                    mir 3267; und ich darf meinen Operationen etwas trauen. Dieser ganze
+                    erstaunenswürdige Riesenberg besteht, wie alle hohen Berge der Anden, nicht aus
+                    Granit, sondern vom Fuss bis zum Gipfel aus Porphyr, und der Porphyr hat 1900
+                    Toisen Dicke. Der kurze Aufenthalt in dieser ungeheuren Höhe, wozu wir uns
+                    hinaufgeschwungen hatten, zeigte die traurigsten Schreckbilder. Ein Winternebel
+                    umhüllte uns, woraus nur von Zeit zu Zeit die grauenvollsten Abgründe in unserer
+                    Nähe hervorschimmerten. Kein beseeltes Wesen, nicht einmal der Condor, der auf
+                    dem Antisana stets über unsern Häuptern schwebte, gab der Luft ein Leben. Kleine
+                    Moose waren die einzigen organischen Gestalten, die uns erinnerten, dass wir
+                    noch der bewohnten Erde angehörten. </p>
+            <p>Fast mit Wahrscheinlichkeit lässt sich annehmen, dass der Chimborazo, wie der
+                    Pichincha und der Antisana vulkanischer Natur ist. Die Bergreihe, auf welcher
+                    wir zu ihm hinaufstiegen, besteht aus einem verbrannten und verschlackten
+                    Felsen, mit Bimstein gemischt; sie gleicht allen Lavaströmen dieses Landes, und
+                    geht noch über den Punkt, wo wir innezuhalten genöthigt wurden, hinauf zur
+                    Spitze des Berges. Es ist möglich, es ist selbst wahrscheinlich, dass diese
+                    Spitze der Krater eines erloschenen Vulkans sei. Aber der Gedanke blos dieser
+                    Möglichkeit erregt ein gerechtes Schaudern. Denn, wenn dieser Vulkan sich wieder
+                    entzündete, so müsste ein solcher Koloss die ganze Provinz vernichten.</p>
+            <p>Der Berg Tunguragua hat seit dem Erdbeben 1797 an Höhe verloren. <persName ref="pbouguer">Bouguer</persName> gibt ihm 2650 Toisen, ich fand nur 2530.
+                    Folglich hat er über 100 T. eingebüsst. Auch versichern die Einwohner, vor ihren
+                    Augen seine Spitze durch die Erschütterung niederstürzen gesehen zu haben. </p>
+            <p>* * *</p>
+            <p>Zu <placeName ref="Riobamba">Riobamba</placeName> (südwärts von <placeName ref="Quito">Quito</placeName>, auf dem Wege nach <placeName ref="Lima">Lima</placeName>) brachten wir einige Wochen zu, bei einem <persName ref="fjmontufar">Bruder</persName> <persName ref="cmontufar">Karls von
+                        Montufar</persName> unseres Reisegefährten, welcher daselbst <foreign sameAs="es">Corregidor</foreign> ist. Hier verschaffte uns das Ungefähr eine
+                    höchst merkwürdige Entdeckung. Der Zustand der Provinz <placeName ref="Quito">Quito</placeName>, ehe der Inka <persName ref="tupaq">Tupayupangi</persName> sie eroberte, ist noch durchaus unbekannt. Aber der
+                    indianische König, <persName ref="lsepla">Leandro Zapla</persName>
+               <note type="footnote" resp="editor">Gemeint ist hier <persName ref="lsepla">Leandro Sepla y Oro</persName>. </note>, welcher zu <placeName ref="Likan">Likan</placeName> wohnt und für einen Indianer ungemein gebildet
+                    ist, besitzt Handschriften von einem seiner Vorfahren aus dem 16. Jahrhundert
+                    verfasst, welche die Geschichte jener Begebenheiten enthalten. Sie sind in der
+                    Puruguay-Sprache<!-- = Puruguay/Puruhá, ausgestorben!; in Sprachindex aufnehmen? -->
+                    geschrieben. Dies war ehedem die allgemeine Sprache in <placeName ref="Quito">Quito</placeName>, die nachher der Inka- oder Quichua-Sprache gewichen und
+                    jetzt völlig untergegangen ist. Glücklicherweise fand ein anderer Ahnherr
+                        <persName ref="lsepla">Zapla</persName>’s Vergnügen daran, diese Memoiren
+                    in’s Spanische zu übersetzen. Wir haben aus ihnen schätzbare Nachrichten
+                    geschöpft: vornehmlich über die merkwürdige Epoche der Erupzion des sogenannten
+                    Nevado del Altar, welches der grösste Berg der Welt gewesen sein muss, höher als
+                    der Chimborazo und der bei den Indianern <foreign sameAs="qu">Kapaurku</foreign>
+                    (Haupt der Berge) hiess. Zu der Zeit regierte <persName ref="uabomatha">Uainia
+                        Abomatha</persName>, der letzte unabhängige Kochokando des Landes, zu
+                        <placeName ref="Likan">Likan</placeName>. Die Priester offenbarten ihm die
+                    unglückschwangere Bedeutung dieser Katastrophe. "Der Erdball, sagten sie,
+                    verändert seine Gestalt; andere Götter werden kommen und die unsrigen
+                    vertreiben. Lass uns dem Geheiss des Schicksals nicht widerstreben." Wirklich
+                    führten die Peruaner den Sonnendienst (statt der alten Religion) ein. Der
+                    Ausbruch des Vulkans dauerte 7 Jahre, und die Handschrift <persName ref="lsepla">Zapla</persName>’s lässt die Asche zu <placeName ref="Likan">Likan</placeName> so dicht und häufig regnen, dass eine siebenjährige stete
+                    Nacht dort gewesen sei. Wenn man in der Ebene von <placeName ref="Tapia">Tapia</placeName> die Menge der vulkanischen Materie, um den ungeheuren
+                    damals eingestürzten Berg (itzt steht er, wie zerrissen mit zwei noch immer
+                    mächtig hohen Spitzen da) betrachtet; wenn man bedenkt, dass der Cotopoxi
+                    mehrmal <placeName ref="Quito">Quito</placeName> in 15–18stündige Finsterniss
+                    eingehüllt hat, so muss man einräumen, dass die Uebertreibung wenigstens nicht
+                    gar zu unmässig war. </p>
+            <p>Dieses Manuscript, und die Sagen die ich in Parima sammelte, und die
+                    Hieroglyphen, die ich in der Wüste des Casiquiari sah, wo gegenwärtig keine Spur
+                    von Menschen zu finden ist: Alles dies, nebst <persName ref="fjclavijero">Clavigero</persName>’s <bibl sameAs="88">Nachrichten über die Wanderungen
+                        der Mexikaner in das südliche Amerika</bibl> hat mich auf Ideen über den
+                    Ursprung dieser Völker geleitet, die ich zu entwickeln gedenke, sobald mir Musse
+                    dazu wird. </p>
+            <p>Das Studium der amerikanischen Sprachen hat mich ebenfalls sehr beschäftigt, und
+                    ich habe gefunden, wie falsch <persName ref="cmlacondamine">La
+                        Condamine</persName>’s Urtheil über ihre Armuth ist. Die Caribische Sprache
+                    z. B. verbindet Reichthum, Anmuth, Kraft und Zartheit. Es fehlt ihr nicht an
+                    Ausdrücken für abstrakte Begriffe: sie kann von Zukunft, Ewigkeit, Existenz u.
+                    s. w. reden; und hat Zahlwörter genug, um alle mögliche Combinationen unsrer
+                    Zahlzeichen anzugeben. Vorzüglich lege ich mich auf die Inka-Sprache; sie ist
+                    die gewöhnliche hier (zu <placeName ref="Quito">Quito</placeName>, <placeName ref="Lima">Lima</placeName> u. s. w.) in der Gesellschaft, und ist so reich
+                    an feinen und manichfachen Wendungen, dass die jungen Herren, um den Damen
+                    Süssigkeiten vorzusagen, gemeiniglich Inka zu sprechen anfangen, wenn sie den
+                    ganzen Schatz des Kastilischen erschöpft haben. </p>
+            <p>Diese zwei Sprachen, und einige andere gleich reiche, könnten allein genügen,
+                    sich zu überzeugen, dass Amerika einst eine weit höhere Kultur besass, als die
+                    Spanier 1492 dort fanden. Aber ich habe dafür noch ganz andere Beweise. Nicht
+                    blos in Mexico und Peru, sondern auch am Hofe des Königs von <placeName ref="Bogota">Bogota</placeName> (ein Land, dessen Geschichte man in Europa
+                    gar nicht kennt, und dessen Mythologie und fabelhafte Sagen selbst schon höchst
+                    interessant sind), verstanden die Priester eine Mittagslinie zu ziehen, und den
+                    Augenblick des Solstitiums zu beobachten; sie verwandelten das Mondjahr in ein
+                    Sonnenjahr, durch Einschaltungen: und ich besitze einen siebeneckigen Stein, der
+                    zu <placeName ref="Bogota">Sta. Fé</placeName> gefunden ist und der ihnen zur
+                    Berechnung dieser Schalttage diente. Noch mehr! zu Erivaro im Innern der
+                    Landschaft Parima glauben die Wilden, dass der Mond bewohnt ist, und wissen
+                    durch Tradition von ihren Vätern, dass er sein Licht von der Sonne hat. </p>
+            <p>Von <placeName ref="Riobamba">Riobamba</placeName> ging mein Weg über den
+                    berühmten Paramo des Assuay nach <placeName ref="Cuenca">Cuença</placeName>.
+                    Doch besuchte ich vorher das grosse Schwefelwerk zu Tiskan. Diesen Schwefelberg
+                    wollten die rebellirenden Indianer, nach dem Erdbeben von 1797, in Brand
+                    stecken. Gewiss der schrecklichste Plan, den je die Verzweiflung eingab! denn
+                    sie hofften auf die Art einen Vulkan hervorzubringen, der die ganze Provinz
+                    Alaussi vernichtet hätte. </p>
+            <p>Auf dem Paramo von Assuay, in einer Höhe von 2300 Toisen, sind die Ruinen des
+                    prächtigen Inka-Weges. Diese Strasse läuft fast bis nach <placeName ref="Cusco">Kusko</placeName>, ist ganz aus behauenen Steinen aufgeführt und
+                    schnurgerade: sie gleicht den schönsten Wegen der alten Römer. In derselben
+                    Gegend liegen auch die Ruinen des Palastes des <persName ref="tupaq">Inka
+                        Tupayupangi</persName>, welche <persName ref="cmlacondamine">La
+                        Condamine</persName> in den <bibl sameAs="740">Memoiren</bibl> der <orgName ref="3">Berliner Akademie</orgName> beschrieben hat. Man sieht annoch in dem
+                    Felsbruch, welcher die Steine dazu geliefert hat, mehrere halbbearbeitete. Ich
+                    weiss nicht, ob <persName ref="cmlacondamine">Condamine</persName> auch von dem
+                    sogenannten Billard des Inka spricht. Die Indianer nennen den Platz in der
+                    Quichuasprache <foreign sameAs="qu">Inka-chungana</foreign> (des Inka Spiel);
+                    allein ich zweifle, dass er diese Bestimmung hatte. Es ist ein Kanapé, in den
+                    Felsen gehauen, mit Arabesken-ähnlichen Zieraten, worin, wie man glaubt, die
+                    Kugel lief. Unsere englischen Gärten haben nichts Eleganteres aufzuweisen. Der
+                    richtige Geschmack des Inka leuchtet überall hervor; der Sitz ist so gestellt,
+                    dass man eine entzückende Aussicht geniesst. Nicht weit von da, in einem Gehölz
+                    findet man einen runden Fleck gelben Eisens in Sandstein. Die Peruaner haben die
+                    Platte mit Figuren geziert: denn sie glaubten, dass sie die Sonne abbilde. Ich
+                    habe eine Zeichnung davon genommen. Wir blieben nur 10 Tage zu <placeName ref="Cuenca">Cuença</placeName> und begaben uns von da nach <placeName ref="Lima">Lima</placeName>, durch die Provinz Jaen, wo wir in der Nähe des
+                    Amazonenflusses einen Monat zubrachten. In <placeName ref="Lima">Lima</placeName> kamen wir den <date when="1802-10-23">23. October
+                        1802</date> an. </p>
+            <p>Ich gedenke von hier im Dezember nach <placeName ref="Acapulco">Acapulco</placeName>, und von da nach Mexico zu gehen, um im Mai 1803 in
+                        <placeName ref="Havanna">Havana</placeName> zu sein. Da werde ich mich ohne
+                    Verweilen nach Spanien einschiffen. – Ich habe, wie Du siehst, den Gedanken
+                    aufgegeben, über die Philippinen zurückzukehren. Ich hätte eine ungeheuere
+                    Seereise gemacht, ohne etwas anderes zu sehen, als <placeName ref="Manila">Manilla</placeName> und das Cap; oder hätte ich Ostindien besuchen wollen,
+                    so würde es mir an dem, was ich zu dieser Reise brauchte, gefehlt haben, da ich
+                    es mir hier nicht verschaffen kann.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

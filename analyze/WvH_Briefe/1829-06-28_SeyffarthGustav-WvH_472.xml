@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gustav Seyffarth an Wilhelm von Humboldt, 28.06.1829<idno type="BBAW">472</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 26, Bl. 5–6</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 171</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="jpassalacqua">
+                  <persName>Passalacqua, Giuseppe (Joseph) Caspar Ludwig</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1347">Seyffarth, Gustav (1828): Remarks upon an Egyptian History,
+                        in Egyptian Characters, in the Royal Museum at Turin, with reference to an
+                        Article in the Edinburgh Review. By Dr. G. Seyffarth, Professor of Oriental
+                        Literature in the University of Leipzig. In: The London Literary Gazette and
+                        Journal of Belles Lettres, Arts, Sciences, &amp;c., No. 600, July 19, 1828,
+                        S. 457–459</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Hoch und Wohlgeborener Herr, Höchstgebietender Herr
+                    Staatsminister, Ew. Exzellenz haben meinen verbindlichsten Dank …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="gseyffarth">Seyffarth, Gustav</persName>
+               <date type="author" when="1829-06-28"/>
+               <placeName key="Leipzig">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="gseyffarth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyh">Ägyptisch (Hieratisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_017.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_018.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_019.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_020.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_021.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_022.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_023.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_024.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_025.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_026.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_027.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_028.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_029.jpg"/>
+      <graphic url="Seyffarth/Seyffarth-WvH_1829-06-28/Coll.ling.fol.26_030.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="5r"/>
+               <salute>Hoch u Wohlgeborner Herr<lb/>Höchstgebietender Herr
+                        Staatsminister</salute>
+            </opener>
+            <p>Ew. Excellenz habe ich meinen verbindlichsten Dank für Hochdero gütigste
+                    Zuschrift zu sagen u mein Bedauern auszudrücken, daß ich die Ehre nicht haben
+                    konnte, <pb n="5v"/> Hochdenselben meine persönliche Aufwartung <del>nicht</del>
+                    machen zu können, ob ich wohl nicht bergen kann, daß es mir sehr schmerzhaft
+                    gewesen seyn würde, Ew. Excellenz höchstverehrte <persName ref="cvh1">Frau
+                        Gemahlin</persName> nicht wieder zu finden. Die traurige Nachricht von
+                    Hochdero <persName ref="cvh1">Frau Gemahlin</persName> Tode hat mich
+                    unbeschreiblich ergriffen u die Stunden, wo ich das letzte mal die Ehre hatte im
+                        <orgName ref="46">Britischen Museum</orgName> in <placeName ref="London">London</placeName> dieselbe zu sehn, werden mir unvergeßlich bleiben.
+                    Damals hätte ich nicht geglaubt, daß die Fürsehung so bald einen so traurigen
+                    Verlust Ew. Excellenz u so manchem theilnehmenden Herzen zu laßen würde.</p>
+            <p>Mein neulicher Aufenthalt in <placeName ref="Berlin">Berlin</placeName> ist mir
+                    sehr angenehm u von vielen Nutzen gewesen, ob ich wohl nicht leugnen kann, bei
+                    weitem nicht zum Ziele gekommen zu seyn, das ich mir gesteckt hatte. Gern hätte
+                    ich die neuen Papyrus u Inschriften vollständiger benutzt u die <pb n="6r"/>
+                    früher gesehenen genauer untersucht, zumal da ich seit der Zeit um vieles weiter
+                    gekommen zu seyn glaube, u es sich erwarten ließ, manches andere neue und
+                    wichtige zu finden. Die Reichhaltigkeit u Schönheit der <persName ref="jpassalacqua">Passalaqua</persName>ischen Sammlung hat mich sehr
+                    überrascht. Sie enthält nicht nur viele ausgezeichnet schöne Exemplare, sondern
+                    auch eine Menge von Gegenständen, die ich bisher noch in keinem anderen Museum
+                    gefunden habe u daher bis jetzt in Europa einzig sind. Die ganze Sammlung
+                    wissenschaftlich geordnet wird keine geringe Zierde des ausnehmend schönen neuen
+                        Museums<note type="footnote" resp="editor">1828 wurde auf Anregung von
+                            <persName ref="avh">Alexander von Humboldt</persName> die Sammlung der
+                        Aegyptiaca Passalacquas durch <persName ref="fw3">Friedrich Wilhelm
+                            III.</persName> für die Königlichen Museen erworben. Passalacqua wurde
+                        zugleich erster Direktor des Museums, welches anfangs im Galeriegebäude von
+                        Schloss Monbijou untergebracht war. [FZ]</note> werden.</p>
+            <p>Unter die kleinen Entdeckungen, welche ich während meines kurzen Aufenthaltes
+                    gemacht habe, gehört auch das demotische Ziffernsystem, welches Ew. Excellenz
+                    ich beizulegen so frei bin<note type="footnote" resp="editor">Siehe Bl. 7 unter
+                        den Facsimiles.</note>. Es befindet sich auf einem kostbaren hieratischen
+                    Papyrus’ im Besitze <persName ref="jhminutoli">S. Exc. des Generals v.
+                        Minutoli</persName>. Diese Ziffern sind zwar größten Theils nicht neu, indem
+                    ich schon im Jahr 1825 davon 17 in meinen Beiträgen u später in <placeName ref="Turin">Turin</placeName> die mehrsten der übrigen bestimmt habe, auch
+                    aus den gegebenen viele andere durch Conjectur sich leicht bestimmen ließen;
+                    allein die Formen derselben sind größtentheils neu u ihre Folge schließt jeden
+                    Zweifel über den Werth der einzelnen Zeichen aus. Da ich damals durch Hilfe
+                    künstlicher <pb n="6v"/> Combinationen die Ziffern bestimmt habe, so freue ich
+                    mich sehr, eine solche Bestätigung dieser kleinen Entdeckungen gefunden zu
+                    haben. Der genannte Papyrus gehört zu den am schönsten u sorgfältigsten
+                    geschriebenen u ältesten, daher diese Ziffern als vollkommen u gleichsam als
+                    urförmlich angesehen werden können. Zugleich spricht diese Urkunde für eine
+                    meiner frühen Vermuthungen, daß die liturgischen Papyrus’ Abschriften aus den
+                    heiligen Schriften der Aegypter sind, da nach dem historischen Theile dieses
+                    Textes die einzelnen Capitel, welche in andern Handschriften in derselben
+                    Ordnung folgen, hier u da mit Weglassung einzelner, mit diesen Ziffern
+                    überschrieben sind. Halten Ew. Excellenz nicht für gut, ein Paar Worte über
+                    diesen Papyrus’ in irgend einer Zeitschrift einrücken zu lassen, damit mir
+                    dieser kleine Fund nicht wieder streitig gemacht werden könne? So fand ich im
+                    Jahr 1826 in <placeName ref="Turin">Turin</placeName> fast das vollständige
+                    hieratische Ziffernsystem, was ich die Unvorsichtigkeit hatte, mehern Personen
+                    mitzutheilen. Jetzt ist dasselbe mit einigen andern Dingen von mir in Frankreich
+                    unter einem andern Namen herausgegeben worden. Vor der Hand kann ich noch nicht
+                    daran denken, meine Schrift über die Zahlen u Ziffern der Aegypter zu
+                    bearbeiten.</p>
+            <p>Ew. Excellenz bin ich noch so frei einen kleinen Aufsatz beizulegen<note type="footnote" resp="editor">Damit ist eventuell <bibl sameAs="1347">ein
+                            dreiseitiger Artikel</bibl> in der <ref type="linkExt" target="https://pharaoh.se/library-vol-3">
+                     <hi rend="italic">The London Literary Gazette</hi>
+                  </ref> gemeint, in dem sich Seyffarth u.a. über die Arbeiten Champollions
+                        und Youngs auslässt. – Als Bl. 8–11 folgt dem Brief in Coll. ling. fol. 26 ein
+                        (namentlich nicht gekennzeichneter) Beitrag aus dem <hi rend="italic">Wegweiser im Gebiete der Künste und
+                        Wissenschaften</hi> vom <date when="1829-01-21">21.</date> und <date when="1829-01-24">24. Januar 1829</date> mit dem Titel "Ueber
+                        Champollion’s jetzige Reise in Aegypten". Laut Mueller-Vollmer 1993, S. 171 soll der Artikel von Seyffarth stammen. [FZ]</note>, worinne ich
+                    unter andern etwas über mein Verhältniß zu <persName ref="jfchampollion">Champollion</persName> u <persName ref="tyoung">Young</persName> gesagt
+                    habe.</p>
+            <p>
+               <persName ref="tyoung">Young</persName>s Tod werden Ew. Exc. ebenfalls nicht
+                    wenig betrauern, nun schon der zweite des alten Aegyptischen Triumvirats’
+                    abgetreten ist. Es steht zu erwarten, wer an <persName ref="tyoung">Dr.
+                        Young</persName>s Stelle kommen wird.</p>
+            <closer>
+               <salute>Noch muß ich die unterthänige Bitte hinzufügen, meinem langen Schreiben
+                        u meiner Offenheit gnädigst nachzusehn. Im Gefühle der tiefsten Ehrfurcht u
+                        Ergebenheit empfehle ich mich Hochdero fernener Gnade als<lb/>Ew.
+                        Excellenz<lb/>unterthänigster Diener</salute>
+               <signed>Prof. Seyffarth</signed>
+               <lb/>
+               <dateline>Leipzig am 28<hi rend="superscript">ten</hi> Juni 1829.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

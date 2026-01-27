@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 17.03.1823 (Datierung unklar)<idno type="BBAW">96</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 16a. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 30</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7280</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ghbernstein">
+                  <persName>Bernstein, Georg Heinrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="572">Bernstein, Georg Heinrich: Hitopadaesi particula edidit et
+                    glossarium Sanscrito-Latinum (Breslau: Graß &amp; Barth 1823)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London:
+                    Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="567">Jones, Sir William: Hitópadésá, or, the Salutary Instructions of
+                    Vishnu Sarman, in the original Sanskrit. Printed London 1799, reprinted at the
+                    Hindoostanee Press (Calcutta: A. H. Hubbard 1810)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Indem ich Ew. Wohlgeboren mit großem Vergnügen
+                        die verlangten Bücher zuschicke …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-03-17"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="95" type="prev">16.3.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 29. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1823_03_17/NDIGRKP004565_0315.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_03_17/NDIGRKP004565_0316.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_03_17/NDIGRKP004565_0317.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Indem ich Ew. Wohlgebohren mit großem Vergnügen die verlangten
+                    Bücher zuschicke, danke ich Ihnen recht herzlich für die in Ihrem
+                    freundschaftlichen <ref type="link" target="95">Schreiben</ref> enthaltenen
+                    Bemerkungen. Die Vergleichung hat mich überzeugt, daß <persName ref="ghbernstein">
+                  <hi rend="antiqua">Bernstein</hi>
+               </persName> in alle
+                    gerügte Irrthümer verfallen ist, weil er <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> gefolgt ist. Die <bibl sameAs="567">
+                  <hi rend="antiqua">Calcutter</hi> Ausgabe</bibl> muß ihn wohl da auch
+                    verlassen haben, u. seine eigene grammatische Kenntniß konnte, gegen
+                    Autoritäten, wohl nicht hinreichen. Das wäre auch zu viel gefordert. Die Regeln,
+                    die ich mir aus dem von Ew. Wohlgeb. Gesagten <hi rend="antiqua">abstrahire</hi>, u. die mir auch vorher, wenigstens dunkel vorschwebten,
+                    sind:</p>
+            <p>1., wo ganz einfach ein Endvocal mit einem Anfangsvocal zusammenfließt, entsteht
+                    ein dritter Vocal nach den bekannten Regeln, ohne Elisionszeichen.</p>
+            <p>2., wo dagegen ein Wort mit einem : oder einem durch <hi rend="antiqua">
+                  <term type="phon" ref="002">Visarga</term> alterirten Vocal</hi> z. B.
+                        <foreign sameAs="sa" n="transEd">o<graphic url="Bopp/WvH-Bopp_1823_03_17/0642.svg"/>
+               </foreign> schließt, ist eine
+                    Zusammenziehung undenkbar, indem dieselbe durch Unbeachtung des <term type="phon" ref="002">
+                  <hi rend="antiqua">Visarga</hi>
+               </term> das Wort in
+                    eine andere grammatische Form überführen würde; ebenso wenig kann das <foreign sameAs="sa" n="transEd">o<graphic url="Bopp/WvH-Bopp_1823_03_17/0642.svg"/>
+               </foreign> mit dem folgenden <foreign sameAs="sa" n="transEd">a<graphic url="Bopp/WvH-Bopp_1823_03_17/0643.svg"/>
+               </foreign> in <foreign sameAs="sa" n="transEd">ava<graphic url="Bopp/WvH-Bopp_1823_03_17/0644.svg"/>
+               </foreign> übergehen, sondern
+                    es muß schlechterdings Elision eintreten. Das meynen wohl auch diejenigen,
+                    welche —<foreign sameAs="sa" n="transEd">śoyaṃ<graphic url="Bopp/WvH-Bopp_1823_03_17/0645.svg"/>
+               </foreign> drucken. Sie lassen
+                    nur das Zeichen aus, was aber doch besser zur Deutlichkeit u. Consequenz
+                    hinzugesetzt <pb n="2*"/> wird.</p>
+            <p>3., was mir nun aber fehlt, ist eine sichere Regel, in welchen Fällen sonst
+                    (außer 2.,) Elision eintritt. Ich kenne nur Einen nach <foreign sameAs="sa" n="transEd">e<graphic url="Bopp/WvH-Bopp_1823_03_17/0646.svg"/>
+               </foreign>
+                        (<bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins Gr.</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 20. <hi rend="antiqua">nr.</hi> 11) Aus dieser Stelle
+                    von <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> geht hervor, daß er
+                    das Zeichen für gleichgültig hält.</p>
+            <p>4., Wenn Elision im <hi rend="antiqua">Compositis</hi> vorkommt (<bibl sameAs="455">
+                  <hi rend="antiqua">l. c.</hi>
+               </bibl> <hi rend="antiqua">p.</hi>
+                    21 <hi rend="antiqua">nr.</hi> 15) wird wohl das Elisionszeichen nie gesetzt, um
+                    so weniger als da das End-<foreign sameAs="sa" n="transEd">a<graphic url="Bopp/WvH-Bopp_1823_03_17/0643.svg"/>
+               </foreign> wegfällt.</p>
+            <p>Gegen die Regel <hi rend="antiqua">nr.</hi> 1., verstößt <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> öfter. So auch <bibl sameAs="610"><!-- oder ID 455 gemeint? -->
+                  <hi rend="antiqua">Ed.
+                        Lond.</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 13. <hi rend="antiqua">l.</hi> 12 <foreign sameAs="sa" n="transEd">sarvvathā<graphic url="Bopp/WvH-Bopp_1823_03_17/0647.svg"/>
+               </foreign> = <foreign sameAs="sa" n="transEd">tra<graphic url="Bopp/WvH-Bopp_1823_03_17/0648.svg"/>
+               </foreign>, wo ihm <bibl sameAs="572">
+                  <hi rend="antiqua">Bernstein</hi>
+               </bibl> (<hi rend="antiqua">p.</hi> 15. <hi rend="antiqua">l.</hi> 6. von unten) wieder gefolgt ist.
+                    Doch finde ich nichts in <bibl sameAs="455">seiner Grammatik</bibl>, was diese
+                    Schreibart rechtfertigt.</p>
+            <p>Ist <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> im
+                        <bibl sameAs="53">
+                  <hi rend="antiqua">Bhagavad Gita</hi>
+               </bibl> hierin <hi rend="antiqua">correct</hi>?</p>
+            <closer>
+               <salute>Mit herzlicher Hochachtung <lb/>der
+                        Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>17.<note type="footnote" resp="editor">Lefmann 1897: 17. März 1823. So datiert
+                            auch Mattson.</note>
+               </dateline>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat, Teil des Bogens herausgerissen, offenbar durch Öffnen des Siegels"/>
+               <lb/>
+               <pb n="4*; Anschrift"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Bopp</hi>,</addrLine>
+                  <addrLine>Wohlgeb.</addrLine>
+               </address>
+               <lb/>mit 2. Büchern,<note type="footnote" resp="editor">Durch das
+                        Aufbrechen des Siegels ist nicht zu erkennen, ob darunter noch etwas stand.
+                        Bei den Büchern handelte es sich wahrscheinlich um <persName ref="ahamilton">Hamilton</persName>s <bibl sameAs="610">Hitopadesa-Ausgabe</bibl> und
+                            <bibl sameAs="562">Analyse</bibl>, um die Bopp Humboldt <ref type="link" target="95">zuvor</ref> gebeten hatte.</note>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

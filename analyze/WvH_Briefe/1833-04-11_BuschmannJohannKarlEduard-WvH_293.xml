@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- in Bearbeitung von CL, 17. April 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 11.04.1833<idno type="BBAW">293</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 81–82</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 217f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="amarcellinus">
+                  <persName>Ammianus Marcellinus</persName>
+               </person>
+               <person corresp="jcrawfurd">
+                  <persName>Crawfurd, John</persName>
+               </person>
+               <person corresp="plinius">
+                  <persName>Plinius</persName>
+               </person>
+               <person corresp="wschott">
+                  <persName>Schott, Wilhelm</persName>
+               </person>
+               <person corresp="hvalois">
+                  <persName>Valois, Henri de (Valesius, Henricus)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1028">Colebrooke, Henry Thomas: On the Religious Ceremonies of the
+                    Hindus, and of the Bramens especially. In: Asiatic Researches 7, 1803, S.
+                    232–311</bibl>
+               <bibl corresp="1032">Erfurdt, Carl Gottlob August / Lindenbrog, Friedrich / Wagner,
+                    Johann Augustin (Hrsg.): Ammiani Marcellini Rerum Gestarum qui de XXXI supersunt
+                    libri XVIII (Leipzig: Weidmann 1808)</bibl>
+               <bibl corresp="1031">Gronovius, Jakob [u.a.] (Hrsg.): Ammiani Marcellini Rerum Gestarum
+                    qui de XXXI supersunt libri XVIII (Leiden: Peter van der Aa 1693)</bibl>
+               <bibl corresp="1023">Hardouin, Jean (Hrsg.): Caii Plini Secundi Historiae naturalis
+                    libri XXXVII (Paris: Coustelier 1723)</bibl>
+               <bibl corresp="1033">Lindenbrog, Friedrich (Hrsg.): Ammiani Marcellini Rerum Gestarum
+                    qui de XXXI supersunt libri XVIII (Hamburg: Froben 1609)</bibl>
+               <bibl corresp="1029">Valois, Henri de (Hrsg.): Ammiani Marcellini Rerum Gestarum qui de
+                    XXXI supersunt libri XVIII (Paris: Camuset 1636)</bibl>
+               <bibl corresp="1030">Valois, Henri de / Valois, Adrien de / Lindenbrog, Friedrich
+                    (Hrsg.): Ammiani Marcellini Rerum Gestarum qui de XXXI supersunt libri XVIII
+                    (Paris: Dezallier 1681)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz wünschten aus dem siebenten Theil
+                        der Asiatic researches die Anmerkung von Seite 266 u. sie lautet so: „Yava
+                        signifies barley: in this text it also signifies separator, being derived
+                        from yu, to unmix“ …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1833-04-11"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvj">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcebuschmann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">17. April 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1833-04-11/Coll.ling.fol.53_167.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-04-11/Coll.ling.fol.53_168.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-04-11/Coll.ling.fol.53_169.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-04-11/Coll.ling.fol.53_170.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="81r"/>
+               <address>
+                  <addrLine>Sr. Excellenz</addrLine>
+                  <addrLine>dem Herrn Geheimen Staatsminister</addrLine>
+                  <addrLine>Freiherrn <hi rend="antiqua">von Humboldt</hi>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>wünschten aus dem <bibl sameAs="1028">siebenten Theil der <hi rend="antiqua">Asiatick researches</hi>
+               </bibl> die Anmerkung <hi rend="antiqua"/>⧧
+                    von Seite 266.; sie lautet so:</p>
+            <p>
+               <hi rend="antiqua">„<hi rend="underline">Yava</hi> signifies barley: in this text
+                        it also signifies separator, being derived from <hi rend="underline">yu</hi>, to unmix. Many of the prayers contain similar quibbles.“</hi>
+            </p>
+            <p>Ew. Excellenz wünschten ferner aus den Ausgaben des <hi rend="antiqua">
+                  <persName ref="amarcellinus">Ammianus Marcellinus</persName>
+               </hi> die Noten zu dem
+                    Worte <hi rend="antiqua">Serendivis</hi> in Buch XXII, 7. zu haben. – Es ist nur
+                    Eine Note, von <hi rend="antiqua">
+                  <persName ref="hvalois">Henr.
+                            Valesius</persName>
+               </hi>, die sich in allen Ausgaben wieder-<pb n="81v"/>
+               <sic>hohlt.</sic> Sie lautet so:</p>
+            <p>
+               <hi rend="antiqua">Abusque Indis et Serindis</hi>
+               <note type="footnote" resp="Buschmann">Dieß ist die Citation aus dem Text, wunderbar, da im Text
+                        diese Lesart nicht steht, sondern: <hi rend="antiqua">Divis et
+                            Serendivis</hi> (<hi rend="antiqua">Serindivis</hi>).</note> <hi rend="antiqua">Sic primus correxit Gelenius, cum in editione Rom. scriptum
+                        esset, abusque divisisset Serendi jus; Divis et Serendivis reperi in cod.
+                        regio et Flor. Divi iidem esse</hi>
+               <hi rend="antiqua">videntur, quos Divas
+                        vocat Expositio totius mundi p. 254. edit Iac. Gronovii 1697, 4° Seu potius
+                        Diveni, qui insulam habitant Divu nomine. Haec forte est insula, quae vulgo
+                        dicitur Diu</hi> (folgt noch etwas über <hi rend="antiqua">Diu</hi>). <hi rend="antiqua">Quod spectat ad Serendivos vel Serindivos, assentior
+                        Bocharto, qui Serindivos ait esse incolas insulae Seilan.</hi>
+            </p>
+            <p>So befindet sich diese Anmerkung ohne Veränderung in der Ausgabe von <hi rend="antiqua">
+                  <bibl sameAs="1029">Henr. Valesius, Paris. 1636,
+                        4°.</bibl>
+               </hi> (Lesart <hi rend="antiqua">Divis et Serindivis</hi>), in
+                    der nach <hi rend="antiqua">
+                  <bibl sameAs="1030">Henr. Valesius,
+                        Paris</bibl>
+               </hi>
+               <pb n="82r"/>
+               <hi rend="antiqua">
+                  <bibl sameAs="1030">1681,
+                            fol.</bibl>
+               </hi> (Lesart <hi rend="antiqua">Divis et Serendivis</hi>),
+                    in den beiden von <bibl sameAs="1031">
+                  <hi rend="antiqua">Iac. Gronov Lugd. Gat.
+                            1693, 4°.</hi> und ebendaselbst und in demselben Jahre in <hi rend="antiqua">fol.</hi>
+               </bibl> (<hi rend="antiqua">Divis et
+                        Serendivis</hi>), und der Ausgabe von <bibl sameAs="1032">
+                  <hi rend="antiqua">Erfurdt, Leipzig 1808, 3</hi> Bände <hi rend="antiqua">8°.</hi>
+               </bibl>
+                    – Eine ältere Ausgabe, als alle diese, bezeichnet: <hi rend="antiqua">
+                  <bibl sameAs="1033">Ex bibliotheca Fr. Lindenbrogii, Hamburg 1609,
+                        4°</bibl>.</hi>, mit Anmerkungen, liest <hi rend="antiqua">Indis et
+                        Serindis</hi>, ohne Note dazu.</p>
+            <p>Noch beauftragten mich Ew. Excellenz, zu untersuchen, ob <hi rend="antiqua">
+                  <persName ref="plinius">Plinius</persName>
+               </hi> den Namen <hi rend="antiqua">Serendib</hi> für <hi rend="antiqua">Ceylon</hi> hat. Die
+                    Stelle, wo er von <hi rend="antiqua">Taprobane</hi> spricht, ist im ersten Bande
+                    der <bibl sameAs="1023">
+                  <hi rend="antiqua">Harduin</hi>’schen Ausgabe</bibl>;
+                    dieser ist verliehen; der Index im dritten Bande folgt nur dem <hi rend="antiqua">Pagina</hi> der Ausgabe, nicht einer Capiteleintheilung, so
+                    daß ich die Stelle selbst nicht habe aufschlagen können; die anderen Ausgaben
+                    führen nicht darauf. Dieser <hi rend="antiqua">Index</hi> der <bibl sameAs="1023">
+                  <hi rend="antiqua">Harduin</hi>’schen Ausgabe</bibl> enthält aber den
+                    Namen <hi rend="antiqua">Serendib</hi> nicht, noch eine ähnliche Form. Wenn es
+                    Ew. Excellenz für nöthig halten, werde ich die Stelle selbst aufzufinden
+                    suchen.</p>
+            <p>
+               <pb n="82v"/> Ew. Excellenz fragten noch nach einem zuverlässigen Verzeichniß der
+                    Kaiser von <hi rend="antiqua">China</hi> mit Angabe der Dynastien nach der
+                    Zeitfolge. Es ist allerdings manches da, mehr oder weniger vollständig, und wenn
+                    Ew. Excellenz mir das in Frage stehende geneigtest mittheilen wollten, so würde
+                    ich mit Hülfe von <persName ref="wschott">Hrn. <hi rend="antiqua">Dr.
+                            Schott</hi>
+               </persName> es aufzufinden suchen.</p>
+            <p>Über das Leben <hi rend="antiqua">
+                  <persName ref="jcrawfurd">Crawfurd</persName>’s</hi> finde ich auf der <orgName ref="1">Bibliothek</orgName> nichts; alle Hülfsmittel sind älter oder übergehn ihn
+                    oder den Zeitpunct seiner Ankunft und Abreise von <hi rend="antiqua">Java</hi>.
+                    Doch finde ich es vielleicht noch.</p>
+            <closer>
+               <salute>Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und
+                        Ergebenheit, womit ich verharre <lb/>Ew. Excellenz <lb/>unterthänigster
+                        Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 11 Apr.
+                    1833.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

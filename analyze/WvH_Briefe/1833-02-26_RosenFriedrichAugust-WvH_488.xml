@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, 26.02.1833<idno type="BBAW">488</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 22, Bl. 18–19</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 166</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hbrockhaus">
+                  <persName>Brockhaus, Hermann</persName>
+               </person>
+               <person corresp="jhowse">
+                  <persName>Howse, Joseph</persName>
+               </person>
+               <person corresp="ejames">
+                  <persName>James, Edwin</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="afstenzler">
+                  <persName>Stenzler, Adolf Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="711">Howse, Joseph: A grammar of the Cree language; with which is
+                    combined an analysis of the Chippeway dialect (London: J. G. F. and J. Rivington
+                    1844)</bibl>
+               <bibl corresp="1066">The 28th Report of the British and Foreign Bible Society; with an
+                    Appendix (London: Philanthropic Society 1832)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz muss ich abermals sehr um Verzeihung bitten
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1833-02-26"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1016" type="next">11.05.1833</ref>
+               <ref target="1015" type="prev">16.02.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind am">
+            <language ident="alq">Algonkin</language>
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="ciw">Chippewa (Ojibwa)</language>
+            <language ident="cr">Cree</language>
+            <language ident="ms">Malayisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">16. Januar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rosen/Rosen-WvH_1833-02-26/Coll.ling.fol.22_041.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-02-26/Coll.ling.fol.22_042.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-02-26/Coll.ling.fol.22_043.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-02-26/Coll.ling.fol.22_044.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="18r"/>
+               <salute>Ew. Exzellenz</salute>
+            </opener>
+            <p>muß ich abermals sehr um Verzeihung bitten wegen des Verzugs dessen ich mich in
+                    dem Erfüllen meines Versprechens einer berichtigten Abschrift von dem
+                    Verzeichniß der <persName ref="tsraffles">Raffles</persName>schen Malaiischen
+                        Manuscripte<note type="footnote" resp="editor">Rosen stellte für Humboldt
+                        ein erstes und dann ein „Zweites verbessertes Verzeichnis“ der von <persName ref="tsraffles">Sir Thomas Stamford Raffles</persName> (1781–1826)
+                        gesammelten und von <persName ref="sraffles">dessen Witwe</persName> der
+                            <orgName ref="14">Royal Asiatic Society</orgName> vermachten malayischen
+                        und javanischen Manuskripte zusammen. Beide Verzeichnisse finden sich im
+                        Nachlass Humboldts als Einlagen zu dem <ref type="link" target="487">Brief
+                            Rosens vom 22. Januar 1833</ref>. Vgl. Mueller-Vollmer 1993, S.
+                        225.</note> schuldig gemacht habe. Auch heute bin ich leider noch nicht im
+                    Stande, Ihnen dasselbe zu übersenden: die Handschriften sind wegen einer kleinen
+                    Bau-Veränderung in dem Hause der <orgName ref="14">Asiatischen
+                        Gesellschaft</orgName> bereits seit mehreren Wochen bei Seite gesetzt
+                    worden. Sobald dieselben wieder zugänglich sind – und das wird sicherlich in
+                    sehr kurzer Zeit der Fall seyn – werde ich eilen, mich meines Versprechens zu
+                    entledigen.</p>
+            <p>Meinem dießmaligen Schreiben nehme ich mir die Freiheit einige Notizen über die
+                        <hi rend="antiqua">Chippeway</hi> und die <hi rend="antiqua">Kri</hi>
+                        Sprache<note type="footnote" resp="editor">Gemeint sind Ojibwa und Cree,
+                        zwei Zentral-Algonkin-Sprachen.</note> beizulegen, welche ich aus zwei
+                    Mittheilungen entlehne, die
+                        <subst>
+                  <del>die</del>
+                  <add>der</add>
+               </subst> <orgName ref="59">philologischen Gesellschaft</orgName> der hiesigen Universität kürzlich <pb n="18v"/> zugekommen sind.</p>
+            <p>Das längere Bruchstück ist aus dem Entwurf einer <bibl sameAs="711">vollständigen
+                        Grammatik der <hi rend="antiqua">Kri</hi> Sprache</bibl> ausgezogen, mit
+                    deren Bearbeitung sich <persName ref="jhowse">Herr <hi rend="antiqua">Howse</hi>
+               </persName> in <placeName ref="Cirencester">
+                  <hi rend="antiqua">Cirencester</hi>
+               </placeName> schon seit langer Zeit beschäftigt hat.
+                    Unsere kleine <orgName ref="59">philologische Gesellschaft</orgName> hat sich
+                    bemüht, ihm neue Materialien zur Vervollständigung seines Planes zu verschaffen,
+                    und hat namentlich eine Reihe von ihm selbst aufgesetzter Wörter und Redensarten
+                    denen eine Uebersetzung in die verschiedenen Dialekte der Sprache in Amerika
+                    beigeschrieben werden sollte, drucken lassen und versandt. Ganz kürzlich ist
+                    eins dieser Wortverzeichnisse<note type="footnote" resp="editor">
+                  <persName ref="jhowse">Howse</persName> veröffentlichte zwei Aufsätze über
+                        „Vocabularies of certain North American Languages“ in <bibl sameAs="1068">
+                     <hi rend="italic">Proceedings of the Philological Society</hi> 4,
+                            1848–50</bibl>, S. 102–122, 191–206 (Angabe nach Wolfart 1985, S. 414).
+                        Pilling kennt die Arbeit von <persName ref="jhowse">Howse</persName> „Words
+                        and Forms of Speech, prepared with a view to obtain their Equivalents in
+                        various Indian Dialects“ (Cirencester, o. J., 2 Foliobl.) aus dem <bibl sameAs="1067">Bibliothekskatalog</bibl> der <orgName ref="60">Royal
+                            Geographical Society</orgName>. Vgl. Pilling 1891, S. 242.</note>
+                    mit reichlichen handschriftlichen Ausfüllungen zurückgekehrt, und der <orgName ref="59">philologischen Gesellschaft</orgName> dabei zugleich eine sehr
+                    große und allem Anschein nach mit Fleiß bearbeitete Conjugations-Tabelle der <hi rend="antiqua">Chippeway</hi> Sprache<note type="footnote" resp="editor">Siehe <hi rend="italic">Outline of the paradigm of a Chippewa verb</hi>
+                        (von Assistant Surgeon <persName ref="ejames">Edwin James</persName>, of the
+                        United States Army), im Nachlass Humboldts, Coll. ling.
+                            fol. 22, Bl. 24–25. Abdruck bei Verlato 2013, S. 387–391.</note>,
+                    von <persName ref="ejames">H. <hi rend="antiqua">Edwin James</hi>
+               </persName>,
+                    mitgetheilt worden. Aus dieser Tabelle habe ich die <hi rend="underline">oberste
+                        Zeile</hi> der verschiedenen Columnen, d. h. die erste Person <hi rend="antiqua">Præsentis</hi> (in einigen Fällen die <hi rend="underline">zweite</hi> Person) in jeder der aufgeführten Conjugationen vollständig
+                    abgeschrieben; aus der <hi rend="underline">ersten Columne</hi> der Tabelle
+                    aber, die ein vollständiges Paradigma der bejahenden <pb n="19r"/> Form des
+                    intransitiven Activs enthält, nur die erste Person des Singular und die <hi rend="underline">zwei ersten</hi> Personen des Plural (die Form für das <hi rend="underline">Ich und Du</hi> und für das <hi rend="underline">Ich und
+                        Er</hi>) aus jedem Tempus oder Modus ausgezogen. Dieser Auszug bildet das
+                    kürzere diesem Schreiben beigefügte Fragment. – <persName ref="jhowse">Herrn <hi rend="antiqua">Howse</hi>
+               </persName> kenne ich nicht persönlich, und
+                    habe daher nicht Gelegenheit gehabt mich bei ihm selbst nach den von ihm
+                    befolgten orthographischen Grundsätzen näher zu erkundigen. <persName ref="ejames">Herr <hi rend="antiqua">Edwin James</hi>
+               </persName> spricht
+                    sich in einer Anmerkung über die seinigen folgendermaaßen aus: „<hi rend="antiqua">The principles of English orthography are followed, except
+                        that <hi rend="underline">a</hi> is in general restricted to the vowel sound
+                        heard in <hi rend="underline">make</hi>: thus <hi rend="underline">man</hi>
+                        sounds like the English word <hi rend="underline">main</hi>; <hi rend="underline">á</hi> represents the sound of <hi rend="underline">a</hi> in <hi rend="underline">father</hi>, and <hi rend="underline">â</hi> that of the same letter in <hi rend="underline">hall</hi>. The
+                        mark over <hi rend="underline">ō</hi> prolongs the sound where the
+                        succeeding consonant would otherwise shorten it: thus <hi rend="underline">nōn</hi> is to be sounded as if written <hi rend="underline">noan</hi>,
+                        or with the sound of <hi rend="underline">o</hi> in <hi rend="underline">bone</hi>.</hi>“</p>
+            <p>
+               <pb n="19v"/> Einer von den Sekretären der <orgName ref="17">
+                  <hi rend="antiqua">British &amp; Foreign Bible Society</hi>
+               </orgName> hat
+                    mir die beiliegenden Blätter aus dem <bibl sameAs="1066">letzten Jahresberichte
+                        jener Gesellschaft</bibl> zugeschickt, und mir zugleich den Rath ertheilt,
+                    mich bei der <orgName ref="16">
+                  <hi rend="antiqua">London Missionary Society</hi>
+               </orgName> ebenfalls nach
+                    etwanigen neuern Fortschritten in der Sprachenkunde der Südsee-Inseln zu
+                    erkundigen. Ich hatte aber dort bereits vor meinem letzten Schreiben an Ew.
+                    Excellenz nachgefragt, und leider ohne den gewünschten Erfolg.</p>
+            <p>Mein Freund <persName ref="afstenzler">Stenzler</persName> ist während der
+                    letzten Wochen auf eine unangenehme Art durch die Blattern in dem Verfolg seiner
+                    Studien unterbrochen worden. Er ist jetzt wieder hergestellt; aber ein andrer
+                    Orientalischer Studiengenosse, <persName ref="hbrockhaus">H. <hi rend="antiqua">Brockhaus</hi>
+               </persName> aus <placeName ref="Leipzig">Leipzig</placeName>, der erst seit Kurzem hier ist, und oft mit mir
+                    gemeinschaftlich <persName ref="afstenzler">Stenzlern</persName> Gesellschaft
+                    geleistet hatte, liegt jetzt an derselben Krankheit darnieder. Ich selbst
+                    scheine von der Ansteckung verschont bleiben zu sollen.</p>
+            <closer>
+               <salute>Mit der innigsten Ehrerbietung empfehle ich mich der Fortdauer Ihres
+                        gütigen theilnehmenden Wohlwollens, und bleibe <lb/>Ew. Exzellenz
+                        <lb/>gehorsamster Diener</salute>
+               <signed>F. Rosen.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">London</hi>, den 26<hi rend="superscript">sten</hi> <hi rend="antiqua">Febr.</hi> 1833.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

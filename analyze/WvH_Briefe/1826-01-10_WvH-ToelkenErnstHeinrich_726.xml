@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Ernst Heinrich Toelken, 10.01.1826<idno type="BBAW">726</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Slg. Darmstaedter,
+                            2b 1816, acc. Darmst. 1918.156. – Abschrift: Berlin,
+                            Humboldt-Universität, Archiv, Phil. Fak. P 4, vol. 2, zu fol.
+                            115–116</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7560</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="572">Bernstein, Georg Heinrich (1823): Hitopadaesi particula edidit et
+                    glossarium Sanscrito-Latinum, Breslau: Graß &amp; Barth</bibl>
+               <bibl corresp="570">Bopp, Franz (1824): Ausführliches Lehrgebäude der
+                    Sanskrita-Sprache, Berlin: Dümmler</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua (1806–1810): The Ramayuna of
+                    Valmeeki, in the original Sungskrit. With a prose translation, and explanatory
+                    notes, 3 Bände, Serampore: Mission Press</bibl>
+               <bibl corresp="610">Hamilton, Alexander (1810): Hitopadesa in the Sanskrita language,
+                    London: Cox, Son, and Baylis</bibl>
+               <bibl corresp="985">Haughton, Graves Chamney (1825): Mánava-Dherma-Sástra, or the
+                    Institutes of Menu, 2 Bände, Sanskrit – Englisch, London: Cox and Baylis</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="567">Jones, Sir William (1810): Hitópadésá, or, the Salutary
+                    Instructions of Vishnu Sarman, in the original Sanskrit. Printed London 1799,
+                    reprinted at the Hindoostanee Press, Calcutta: A. H. Hubbard</bibl>
+               <bibl corresp="666">Mānavadharmaśāstra Manu / Jones, William (1794): Institutes of
+                    Hindu Law; Or The Ordinances of Menu, According to the Gloss of Cullúca,
+                    Comprising the Indian System of Duties Religious and Civil. Verbally translated
+                    from the original Sanscrit with a preface by Sir William Jones, Calcutta:
+                    Printed by the Order of Government</bibl>
+               <bibl corresp="283">Manus Gesetzbuch</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="1326">Rosen, Friedrich August (1826): Corporis radicum sanscritarum
+                    prolusio, Berlin: Dümmler</bibl>
+               <bibl corresp="590">Rosen, Friedrich August (1827): Radices Sanscritae, Berlin:
+                    Dümmler</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman (1819): A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives, Calcutta: Philip Pereira</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe die mir von Ew. Wohlgeboren gütigst mitgetheilte
+                        Schrift des Herrn Rosen, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-01-10"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ehtoelken">Toelken, Ernst Heinrich</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. Februar 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>|<pb n="1*"/>
+               <note type="footnote" resp="editor">Oben am Blattrand: "Vorgetragen
+                        in der Sitzung vom 21<hi rend="superscript">t</hi> Jan. 1826."</note> Ich
+                    habe die mir von Ew. Wohlgeborenen gütigst <bibl sameAs="1326">mitgetheilte
+                        Schrift</bibl> des <persName ref="farosen">Herrn <hi rend="antiqua">Rosen</hi>
+               </persName>, soviel es mir meine Augen erlaubt haben, genau
+                    durchgesehen, und schicke Ihnen dieselbe anliegend zurück. Die Lesung derselben
+                    hat die günstige Erwartung, die ich von <persName ref="farosen">dem
+                        Verfasser</persName> und seinem Vorhaben hegte, vollkommen bestätigt. Ein
+                    Wörterbuch der AltIndischen <hi rend="antiqua">Verba</hi>, nach den Wurzeln
+                    gesondert, wie <persName ref="farosen">Herr Rosen</persName> hier eine Probe
+                    davon giebt, ist eines der nothwendigsten Hülfsmittel beim Studium des <hi rend="antiqua">Sanskrits</hi>
+               <note type="footnote" resp="editor">1827,
+                        bereits ein Jahr später, erschienen Rosen <bibl sameAs="590">Radices
+                            Sanscritae</bibl>. [FZ]</note>. Gerade in diesem Theil <del>war</del>
+                    war das <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName>sche
+                        <bibl sameAs="616">
+                  <hi rend="antiqua">Lexicon</hi>
+               </bibl> höchst
+                    unzureichend, und mußte es seyn. Es giebt nemlich die <hi rend="antiqua">Verba</hi> nur in ihren Wurzeln, und fügt nur höchst unvollständig die
+                    bestimmten Bedeutungen hinzu, welche der allgemeine u. oft sehr schwankende
+                    Wurzelbegriff annimmt, indem er in eine bestimmte <hi rend="antiqua">Conjugation</hi> tritt, oder sich mit dieser oder jener untrennbaren <hi rend="antiqua">Praeposition</hi> verbindet. Diesem Mangel nun hilft gerade
+                        <persName ref="farosen">Herr <hi rend="antiqua">Rosen</hi>
+               </persName>
+                    dadurch ab, daß er gerade diese speciellen Bedeutungen der <hi rend="antiqua">Verba</hi> zu seinem Hauptaugenmerke gemacht hat. Einen andren Vorzug
+                    bietet seine Arbeit dadurch dar, daß er es sich zum Gesetz gemacht hat, die
+                    Bedeutungen der <hi rend="antiqua">Verba</hi> soweit es geschehen kann, nur aus
+                    Stellen <hi rend="antiqua">Sanskriti</hi>scher Schriften unmittelbar zu
+                    entnehmen, u. sie mit diesen Stellen zu belegen. <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> hat nur Indische <hi rend="antiqua">Lexicographen excerpirt</hi>, und da er nur die von ihnen
+                    angegebenen Bedeutungen, ohne Ansicht der Stellen, die sie im Auge gehabt haben
+                    mögen, übersetzen mußte, so begreift man leicht, daß es der Uebersetzung oft an
+                        Bestimmt-<pb n="2*"/>heit des Ausdrucks fehlen muß. Allerdings erfordert nun
+                    das Unternehmen <persName ref="farosen">Herrn <hi rend="antiqua">Rosens</hi>
+               </persName>, wenn es vollständig durchgeführt werden sollte,
+                    eine Belesenheit, welche wohl auch in <hi rend="antiqua">England</hi> u. <hi rend="antiqua">Ostindien</hi> kein Europäischer Gelehrter besitzt. Da aber
+                        <persName ref="farosen">Herr <hi rend="antiqua">Rosen</hi>
+               </persName> das
+                    hier vom <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> Vorhandene in
+                        <hi rend="antiqua">Indien</hi> herausgegebene (2 starke Quartbände)<note type="footnote" resp="editor">Eventuell ist damit die zwischen 1806 und 1810
+                        in drei (!) Bänden erschienene <bibl sameAs="563">
+                     <hi rend="italic">Ramayuna
+                                of Valmiki in the original Sungskrit</hi>
+                  </bibl> von <persName ref="wcarey">William Carey</persName> gemeint, die sich in der <orgName ref="1">Königlichen Bibliothek</orgName> befand (heute Kriegsverlust).
+                        [FZ]</note> u. Alles von <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> u. <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> bearbeitet, dann den <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Es ist unklar, welche Ausgabe damit gemeint ist: Bis 1826
+                        waren drei gedruckte Ausgaben in Europa vorhanden: Die <bibl sameAs="567">Calcutta-Ausgabe von 1810</bibl>, die <bibl sameAs="610">London-Ausgabe
+                            von 1810</bibl> und die <bibl sameAs="572">Bernstein-Ausgabe von
+                            1823</bibl>. [FZ]</note> u. <hi rend="antiqua">Manus</hi>
+                        Gesetzbuch<note type="footnote" resp="editor">Eventuell ist damit die 1825
+                        erschienene zweibändige Ausgabe <bibl sameAs="985">
+                     <hi rend="italic">Mánava-Dherma-Sástra, or the Institutes of Menu</hi>
+                  </bibl> von
+                            <persName ref="gchaughton">Graves Chamney Haughton</persName> gemeint.
+                        [FZ]</note>
+               <hi rend="antiqua">excerpirt</hi> hat, so erstreckt sich eine so bedeutende
+                    Anzahl der ältesten u. wirklich klassischen Schriften schon über einen großen
+                    Theil der Sprache, u. auf alle Fälle wird seine Arbeit ein trefliches
+                    Hülfsmittel für diese überaus am meisten gelesenen Werke. Eine sehr nützliche
+                    Zugabe ist es, daß <persName ref="farosen">Herr <hi rend="antiqua">Rosen</hi>
+               </persName> bei jeder Wurzel die seltnen oder anomalischen Formen
+                    bemerkt hat. Bei dem ungemeinen Formenreichthum der Sprache wird das auch dem
+                    schon Kundigen angenehm seyn, besonders da er zugleich immer auf <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi>
+               <bibl sameAs="570">Grammatik</bibl> verwiesen hat, von der man nicht Gutes genug
+                    sagen kann. In der Ausführung dieses so angelegten Plans des <persName ref="farosen">Herrn <hi rend="antiqua">Rosen</hi>
+               </persName> habe ich in den
+                    von mir nachgesehenen Artikeln nirgends Mängel oder Versehen bemerkt. Sie lassen
+                    sich auch von einem so behutsamen u. zugleich gründlich u.
+                        <unclear>anspruchlos</unclear> arbeitenden Mann, wie <persName ref="farosen">Herr <hi rend="antiqua">Rosen</hi>
+               </persName> sich sonst zeigt, nicht
+                    erwarten. Ueber einzelne Stellen kommen sehr gute, u. von den gewöhnlichen
+                    Erklärungen abweichende Bemerkungen vor, obgleich auch andre, mit denen ich
+                    weniger übereinstimmen möchte. Ueber die sehr schätzbare Vergleichung des <hi rend="antiqua">Persi</hi>schen mit dem <hi rend="antiqua">Sanskrit</hi> kann
+                    ich mir kein Urtheil anmaßen.</p>
+            <closer>
+               <salute>Indem ich Ew. Wohlgeboren u. Ihren Herren Collegen recht sehr für
+                        das mir bei dieser Gelegenheit bewiesene schmeichelhafte Vertrauen danke,
+                        bitte ich Sie die Versicherung meiner ausgezeichnetsten Hochachtung
+                        anzunehmen.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 10. <hi rend="antiqua">Januar</hi>,
+                        1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

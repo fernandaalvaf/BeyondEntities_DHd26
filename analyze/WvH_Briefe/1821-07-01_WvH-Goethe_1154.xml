@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Wolfgang von Goethe, 01.07.1821<idno type="BBAW">1154</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Weimar, GSA 28/439, Bl.
+                            117–118</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bratranek 1872, S. 264–267 Nr. 69</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7120</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1419">Goethe, Johann Wolfgang von (1821): Wilhelm Meisters Wanderjahre oder Die
+                        Entsagenden. Ein Roman, Erster Theil, Stuttgard |sic| und Tübingen: J. G. Cotta</bibl>
+               <bibl corresp="308">Nalus</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.) (1820–1830): Indische
+                        Bibliothek. Eine Zeitschrift, Bonn: [Weber]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Das freundliche Blatt, das Sie mir, verehrtester Freund, unterm
+                    18. d. übersandt haben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-07-01"/>
+               <placeName key="Ottmachau">Ottmachau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jwgoethe">Goethe, Johann Wolfgang von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="1153">18.06.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="hbo">Hebräisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">26. Januar 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="117r"/> Das freundliche Blatt, das Sie mir, verehrtester Freund, unterm
+                        <date when="1821-06-18">18. d.</date> übersandt haben, hat mich so herzlich
+                    gefreut, und mir Ihr früheres, u. immer unverändert gebliebenes Wohlwollen so
+                    lebhaft zurückgerufen, daß ich mir nicht versagen kann, Ihnen gleich wieder
+                    einige Worte zu sagen. Auch mir bleibt jene Zeit unsres ehemaligen Zusammenseyns
+                    immer die Epoche meines Lebens, die ich mir am liebsten wieder zu
+                    vergegenwärtigen suche. Ich kann sie gleichsam als einen Mittelpunkt ansehen,
+                    auf den sich das noch früher Vorbereitete gesammelt hatte, u. von dem auf das
+                    übrige Leben hin, die Bestrebungen ausgingen, die nun nicht mehr von ihrer
+                    Richtung abweichen können. Nichts wirkt so tief auf das Gemüth, als die
+                    Verehrung des in der Nähe erkannten Besseren u. Höheren, und was ich Ihnen, was
+                        <persName ref="fschiller">dem verewigten Schiller</persName> in dieser
+                    Rücksicht schuldig bin, wird nie in mir untergehen. Ich werde dessen erst selbst
+                    wieder jetzt recht inne, wo ich wieder ganz mir, und selbstgewählten
+                    Beschäftigungen leben kann. Ich kann wohl sagen, daß das Streben nach diesen
+                    immer in mir der Grund geblieben <subst>
+                  <del>sind</del>
+                  <add>ist</add>
+               </subst>, über den Ereignisse u. Geschäfte nur, wie wechselnde
+                    Wellen, hinüberglitten, aber es ist doch viel <pb n="117v"/> besser, sich der
+                    reinen und freien Muße zu erfreuen. </p>
+            <p>Es soll mir unendlich willkommen seyn, wenn Sie, theuerster Freund, fortfahren,
+                    an <bibl sameAs="206">meinen wissenschaftlichen Bemühungen</bibl> freundlichen
+                    Antheil zu nehmen. Wenn ich mich hauptsächlich mit Sprachen beschäftige, so ist
+                    der Punkt, auf den ich eigentlich ausgehe, der innere Zusammenhang der Sprache
+                    mit dem Gedanken, die Abhängigkeit oder Unabhängigkeit dieses u. aller geistigen
+                    Bildung von der Sprache, <subst>
+                  <del>die</del>
+                  <add>welche</add>
+               </subst> ihren Organismus nur zum kleinsten Theil von denen, die sie jetzt
+                    reden, empfangen, und ihre eignen Schicksale, wie jedes andre historisch
+                    gestaltete Wesen, <subst>
+                  <del>empfangen</del>
+                  <add>erfahren</add>
+               </subst> hat. Denn es ist nicht abzuläugnen, daß sowohl die grammatischen
+                    Formen, von welchen der freie u. vielgewandte Gebrauch so mächtig abhängt, als
+                    die Geschlechter der Wörter, welche den an sich vagen Begriff, auf eine
+                    bestimmte Weise geprägt, der Empfindung übergeben, von Anbeginn alles Sprechens
+                    an, eine Reihe für sich bilden, die es sogar uns bis auf einen gewissen Punkt
+                    hin zu erkennen gegeben ist. Gerade dies Problem ist aber auch das schwierigste,
+                    u. so begegnet es denn auch mir, daß ich bis jetzt fast nur darum herumgehe, u.
+                    oft, bloß um nicht müssig zu seyn, bei Arbeiten stehen bleibe, die höchstens
+                    vorbereitend genannt werden können. </p>
+            <p>Ich habe durch <persName ref="awschlegel">Schlegel</persName>’s <bibl sameAs="396">Indische Bibliothek</bibl>, u. nachher mündlich durch <persName ref="fawolf">Wolf</persName> erfahren, daß Sie der SanskritDichtung nicht
+                    hold sind, u. ich theile bis jetzt durchaus dieselbe Empfindung mit Ihnen. Was
+                    ich übersetzt gelesen, hat mich nie <pb n="118r"/> angesprochen, und selbst
+                        <persName ref="awschlegel">Schlegel</persName>’s Verwandlung der klaren
+                    Butter in lauteres Oel, u. die Vergleichung des kinderschwangren Kürbisses mit
+                    dem Ei der Leda hat für mich der Sache nach wenig Reiz mehr gegeben. Auch da ich
+                    nun dahin gekommen bin, 10 Gesänge des <bibl sameAs="308">Nalus</bibl> mit
+                    völliger Erkenntniß der Bedeutungen u. grammatischen Formen selbst im Original
+                    zu lesen, ist meine Bewunderung nicht mehr rege geworden. Wenn, um nur dies
+                    Einzige zu sagen, dem Inhalt das schöne Maß, die anmuthige Mitte zwischen dem
+                    Kleinlichen u. dem Ungeheuren fehlt, woraus doch allein Lieblichkeit u.
+                    Erhabenheit hervorgehen, so ist in dem Ausdruck oft Dürftigkeit u. abstracte
+                    Trockenheit, u. in der Wortfügung große Schwerfälligkeit in den ellenlang durch
+                    Buchstabenanbildung an einander geketteten Worten. Sollte sich aber dies
+                    Urtheil, wie doch auch noch möglich ist, selbst bei weiterem Studium und Lesen
+                    nicht abändern, so ist doch auf der andren Seite wahr, daß gerade diese Sprache
+                    die älteste uns bekannte wahrhaft zu dichterischer u. wissenschaftlicher Rede
+                    (weit mehr als die Hebräische) gebildet ist, u. in nicht abzuläugnender
+                    Verbindung mit den Sprachen des klassischen Alterthums steht. Wenn es nicht
+                    unrichtig ist, daß die künstlerische u. wissenschaftliche Bildung, die wir in
+                    Griechenland, u. im Grunde dort im Alterthum allein, in dieser Art antreffen,
+                    bei aller ursprünglichen Fähigkeit der Nation, u. aller Begünstigung des
+                    Schicksals, doch auch noch außerdem einen bestimmten, sie möglich machenden
+                    Sprachorganismus voraussetzte, so bleibt immer das Indische die Urbedingung zu
+                    aller Kultur, die sich von Griechenland aus auch über uns ausgebreitet hat.
+                    Dieser Punkt ist es eigentlich, der mich bei dem sehr mühsamen, u. mehr, als man
+                    gern sich selbst gesteht, zeitraubenden Studium des Sans-|<hi rend="antiqua">118v</hi>|crit festhält, zu dem mich anfangs nur allgemeine Forschungen
+                    über die Verwandtschaft der Sprachen anregten<note type="footnote" resp="editor">Bratranek 1872, S. 266: „vermochten“.</note>.</p>
+            <p>Man erwartete Sie, liebster Freund, im Laufe des Mais in <placeName ref="Berlin">Berlin</placeName>. Mir ist es aber sehr lieb, daß Sie damals nicht
+                    hingekommen sind. Wir waren nicht mehr dort, u. so bleibt uns doch die Hofnung,
+                    daß Sie ein andermal den Ort besuchen, wo wir glücklicher sind. Ich rathe Ihnen
+                    wirklich, auch abgesehen vom eignen Vortheil, dazu. Sie werden es dort ganz
+                    anders u. besser finden, als ehemals. Für die Kunst ist viel, u. unter dem
+                    Vielen nicht weniges zweckmäßig geschehen. Aber ich rathe Ihnen doch, so zu
+                    kommen, daß Sie Sich vielem gesellschaftlichen Treiben entziehen können. Dazu
+                    wäre nun mein Vorschlag, nicht den Winter zu wählen, sondern den Sommer, Julius
+                    oder August. Sie könnten dann theils bei uns in <placeName ref="Tegel">Tegel</placeName> (nur eine Stunde Weges von <placeName ref="Berlin">Berlin</placeName>), theils in unsrem
+                    Hause in <placeName ref="Berlin">Berlin</placeName> wohnen, u. dieser wechselnde Aufenthalt gäbe Ihnen alle
+                    Leichtigkeit, sich Einladungen zu entziehen. Uns gewährten Sie einen unendlichen
+                    Genuß, u. auch Sie, ich wiederhole es, würden Freude haben. <persName ref="cvh1">Meine Frau</persName> war mit mir <placeName ref="Ottmachau">hier</placeName>, sie ist jetzt seit der Hälfte des
+                    Monats in <placeName ref="Karlsbad">
+                  <hi rend="antiqua">Carlsbad</hi>
+               </placeName>. Wie ungünstig ist es für sie, seitdem sie <placeName ref="Karlsbad">
+                  <hi rend="antiqua">Carlsbad</hi>
+               </placeName> u. <placeName ref="Teplitz">
+                  <hi rend="antiqua">Teplitz</hi>
+               </placeName> fast regelmäßig
+                    besucht, Sie, liebster Freund, fast von diesen Gegenden Abschied genommen haben.
+                    Indeß ist es auch ein glückliches Zeichen, daß Ihre Gesundheit dieses
+                    Aufenthaltes nicht mehr bedarf.</p>
+            <p>Von dem, <bibl sameAs="1419">womit Sie in diesem Jahre uns alle beschenkt haben</bibl>, kann
+                    ich Ihnen leider noch nichts sagen. Bei wechselndem Landaufenthalt ist das
+                    Kommenlassen von Büchern schwierig. Es bleibt mir also der Genuß bei meiner
+                    Rückkunft nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName>. Ihre Briefe kommen mir zu jeder
+                    Zeit, ich sey dort, oder nicht, nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName>
+               <hi rend="antiqua">addressirt</hi>, richtig zu. </p>
+            <closer>
+               <salute>Mit der herzlichsten Anhänglichkeit u. Freundschaft<lb/>der
+                        Ihrige</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Ottmachau bei Neiße,
+                        den 1. <hi rend="antiqua">Julius</hi>, 1821.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Christian Karl Josias Bunsen, nach 2. Juli und vor
+                    28. September 1826 (Mattson)<idno type="BBAW">8</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1949, 11f. Nr. 6 [mit
+                            Datumsangabe: 28.9.1826!]</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7666</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="kaboettiger">
+                  <persName>Böttiger, Karl August</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion, Jean-François</persName>
+               </person>
+               <person corresp="lhervas">
+                  <persName>Hervás y Panduro, Lorenzo</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="gsanbuenaventura">
+                  <persName>San Bonaventura, Gabriel di</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+               <person corresp="fawspohn">
+                  <persName>Spohn, Friedrich August Wilhelm</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="78">Champollion, Jean-François: Précis du système hieroglyphique
+                        des anciens Égyptiens, T. 1–2 (Paris: Impr. royale 1824–1827)</bibl>
+               <bibl corresp="168">Hervás y Panduro, Lorenzo: Elementi della lingua Maya ò
+                        Yucatana [Manuskript]</bibl>
+               <bibl corresp="214">Humboldt, Wilhelm von: Ueber vier Aegyptische, löwenköpfige
+                        Bildsäulen in den hiesigen Königlichen Antikensammlungen. In: Abhandlungen
+                        der Königlichen Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                        Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie
+                        der Wissenschaften 1828), S. 145–168</bibl>
+               <bibl corresp="508">San Buenaventura, Gabriel de: Arte de la lengua Maya
+                        (Mexiko-Stadt: Viuda de B. Calderón 1684)</bibl>
+               <bibl corresp="413">Spohn, Friedrich August Wilhelm / Seyffarth, Gustav: De
+                        lingua et literis veterum Aegyptiorum : cum permultis tabulis lithographicis
+                        literas Aegyptiorum tum vulgari tum sacerdotali ratione scriptas
+                        explicantibus atque interpretationem Rosettanae aliarumque inscriptionum et
+                        aliquot voluminum papyraceorum in sepuloris repertorum exhibentibus.
+                        Accedunt Grammatica atque Glossarium Aegyptiacum Pars 1 (Leipzig: Weidmann
+                        1825)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Hochwohlgebornen sehen schon aus dem, was ich …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" from="1826-07-03" to="1826-09-27"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ckjbunsen">Bunsen, Christian Karl Josias</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig?</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="egy">Ägyptisch</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="cop">Koptisch</language>
+            <language ident="yua">Maya (Yucatanisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. März 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Ew. Hochwohlgebornen sehen schon aus dem, was ich mit den erbetenen Abschriften
+                    beabsichtige, daß mir bei denselben Alles auf die pünktliche Genauigkeit
+                    derselben, in den Amerikanischen Wörtern, auch in Absicht der Accente,
+                        ankommt.<note type="footnote" resp="editor">Der Brief ist aufgrund seines
+                        Inhalts nach Mattson a.O. nach dem Brief vom 2. Juli 1826 und vor dem vom
+                        28. September 1826 zu datieren. [FZ]</note> Hierfür möglichst Sorge zu
+                    tragen, so wie eine recht deutliche Handschrift zu suchen, würde ich daher
+                    vorzüglich bitten. Auch müßte man ja nicht enge oder klein schreiben, da meine
+                    Augen dies nicht mehr ertragen. Die Kosten werde ich mit Vergnügen, auf Ew.
+                    Hochwohlgebornen Anzeige, ersetzen. Die Uebersendung müßte nur gelegentlich,
+                    oder durch Fuhrmannsgelegenheit geschehen.</p>
+            <p>Auf der Bibliothek des <orgName ref="27">
+                  <hi rend="italic">Collegii Romani</hi>
+               </orgName> war zu meiner und <persName ref="lhervas">Hervas</persName> Zeit noch die in Mexico 1684. gedruckte
+                        <bibl sameAs="508">Mayische oder Yucatanische Grammatik</bibl> des
+                    Franciscaner Mönchs <persName ref="gsanbuenaventura">Gabriel de S.
+                        Bonaventura</persName>. Da diese Eigenthum des <orgName ref="27">
+                  <hi rend="italic">Collegii</hi>
+               </orgName> war, so müßte sie noch dort seyn.
+                    Doch habe ich schon <persName ref="bgniebuhr">Herrn Niebuhr</persName> einmal
+                    vergeblich um Nachricht von derselben ersucht.<note type="footnote" resp="editor">Siehe den <ref type="link" target="572">Brief an Barthold
+                            Georg Niebuhr vom 8. Juli 1820</ref>. [FZ]</note> Wären Ew.
+                    Hochwohlgebornen in Auffindung derselben glücklicher, so würde ich Sie um
+                    Abschrift von <bibl sameAs="508">dieser Grammatik</bibl> bitten, und <persName ref="lhervas">Hervas</persName> nur aus ihr genommener <bibl sameAs="168">Aufsatz über diese Sprache</bibl> … bliebe dann unabgeschrieben.</p>
+            <p>Ueberhaupt darf ich mir wohl erlauben, Ew. Hochwohlgebornen mein Amerikanisches
+                    Studium zu empfehlen. In <placeName ref="Rom">Rom</placeName> findet sich
+                    bisweilen unerwartet etwas. Vielleicht enthielte selbst das <orgName ref="27">Jesuiten Collegium</orgName> noch mehr an handschriftlichen Aufsätzen, da
+                    vorzüglich Jesuiten diese Sprachen bearbeitet haben. <persName ref="lhervas">Hervas</persName> hat sich wirklich ein nicht geringes Verdienst um
+                    dieselben erworben. Denn in allen den Sprachen, von deren Grammatiken ich neue
+                    Abschriften wünsche, wüßte man wirklich nicht das Mindeste, wenn er nicht die
+                    damals schon sehr betagten ExMissionnaire vermocht hätte niederzuschreiben, was
+                    ihnen noch davon im Gedächtniß geblieben war.</p>
+            <p>Dies wären denn meine wirklich unbescheidnen, aber ganz auf Ew. Hochwohlgebornen
+                    freundschaftliche Güte berechneten Bitten. Ich gehe von ihnen zu dem übrigen
+                    Inhalt Ihres interessanten Schreibens über.</p>
+            <p>Die Erzählung von <persName ref="jfchampollion">Champollion</persName>s und
+                        <persName ref="gseyffarth">Seyffarth</persName>s Zusammenkunft hat mich
+                    ungemein belustigt. Ich bin vollkommen vom ersten Augenblick an überzeugt
+                    gewesen, daß alle Erklärungen <persName ref="gseyffarth">S.</persName> falsch
+                    sind. Eitelkeit und Ruhmsucht vertreten leider bei diesem Manne die Stelle der
+                    Gelehrsamkeit und des Scharfsinns. Ein gründlicher Untersucher hätte mit
+                    unpartheiischer Prüfung des <persName ref="jfchampollion">Champollion</persName>schen <bibl sameAs="78">Systems</bibl>
+               <!-- vmtl. ist hiermit ID 78 gemeint!? --> angefangen, und hätte dies angenommen
+                    oder widerlegt. Leider war indeß schon <persName ref="fawspohn">Spohn</persName>
+                    (glücklicherweise aber nicht in gedruckten Schriften, sondern nur in Briefen)
+                    seinem <persName ref="gseyffarth">nachherigen Herausgeber</persName> in
+                    Verachtung <persName ref="jfchampollion">Champollion</persName>s, ohne alle
+                    Prüfung, vorangegangen. Ich bin begierig, wie <persName ref="gseyffarth">S.</persName> es bei seiner Rückkunft nun anfangen wird. Sein Beschützer,
+                        <persName ref="kaboettiger">Böttiger</persName>, der ihm auch Unterstützung
+                    zur Reise verschaft hat, geräth schon jetzt in nicht geringes Gedränge. Er hat,
+                    ob wir gleich sonst gar nicht in Briefwechsel mit einander stehen, mir neulich
+                    geschrieben, und mich förmlich um meine Meinung befragt. Ich habe ihm ehrlich
+                    gesagt, daß mir auch nicht das Mindeste in <persName ref="gseyffarth">S’s</persName> <bibl sameAs="413">Buch</bibl> im geringsten erwiesen
+                    scheine. <persName ref="jfchampollion">Champollion</persName>s Brief habe ich
+                    erhalten und werde ihn bei dem Abdruck <bibl sameAs="214">einer kleinen
+                        Abhandlung über ein Paar Aegyptische Statuen</bibl>, die wir besitzen,
+                    benutzen. Ich habe übrigens die Beschäftigung mit diesen Entzifferungen ganz
+                    aufgegeben. Sie interessirten mich nur in Beziehung auf die allgemeinen
+                    Resultate auf Sprache und Schrift, Entdeckungen darin zu machen habe ich mir nie
+                    geschmeichelt, da es mir sehr an Entzifferungs- und Combinationstalent gebricht.
+                    Aber ich erhalte mir soviel Kenntniß der Zeichen und vorzüglich des Koptischen
+                    (auf das ich mich mehr gelegt, und das eine interessante Sprache ist), um den
+                    fremden Entdeckungen folgen zu können. Mit den Abbildungen der Obelisken werden
+                    mich Ew. Hochwohlgebornen sehr erfreuen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

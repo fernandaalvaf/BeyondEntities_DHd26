@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 15.04.1824<idno type="BBAW">1093</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 13</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 163–167</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7390</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="pawolff">
+                  <persName>Wolff, Pius Alexander (?)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430; – Separatdruck: Berlin: Druckerei der
+                    Königlichen Akademie der Wissenschaften 1823</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 432–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="736">Schlegel, August Wilhelm: Schauspiele von Don Pedro Calderon de la
+                    Barca. Übersetzt von August Wilhelm Schlegel, Zweiter Band (Berlin: Julius
+                    Eduard Hitzig 1809)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="677">Schlegel, August Wilhelm von: Neueste Mittheilungen der Asiatischen
+                    Gesellschaft zu Calcutta. In: Indische Bibliothek 1, Heft 4, 1823, S.
+                    371ff.</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Volume 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich statte Ew. Hochwohlgebornen meinen
+                        herzlichsten Dank für Ihren gütigen Brief, und die beiden Hefte der
+                        Indischen Bibliothek ab. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-04-15"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1079" type="next">20.–26.06.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">29. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1824-04-15/WvH-Schlegel_1824_04_15_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1824-04-15/WvH-Schlegel_1824_04_15_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1824-04-15/WvH-Schlegel_1824_04_15_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1824-04-15/WvH-Schlegel_1824_04_15_Seite_04.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 15. <hi rend="antiqua">April</hi>, 1824.</dateline>
+            </opener>
+            <p>Ich statte Ew. Hochwohlgebornen meinen herzlichsten Dank für Ihren gütigen
+                        Brief<note type="footnote" resp="editor">Dieser Brief Schlegels scheint
+                        nicht erhalten zu sein.</note>, und die beiden Hefte der <bibl sameAs="396">Indischen Bibliothek</bibl> ab. Ich würde diese Sendung nicht abgewartet
+                    haben, um Ihnen zu schreiben, und Ihnen meine Freude über Ihre Rückkunft nach
+                    Deutschland zu bezeugen, wenn ich nicht in diesem Winter, meiner Augen wegen,
+                    alles Schreiben hätte sehr vermindern müssen. Ich habe eine ganze Zeit hindurch
+                    bloß dictirt. Mein Augenübel war zwar wohl nur äußerlich, ein Entzündungszustand
+                    in der <hi rend="antiqua">Conjunctiva</hi> und den Augenliedern, allein dies
+                    greift doch immer zugleich das innere Auge an. Jetzt ist es größtentheils besser
+                    damit. Doch muß ich mich noch sehr in Acht nehmen, und immer vermeiden,
+                    wenigstens bei Licht zu arbeiten. Unter allen Uebeln, denen man freilich bei
+                    zunehmenden Jahren nicht entgehen kann, sind Augenübel, meiner Empfindung nach,
+                    die störendsten und unangenehmsten.</p>
+            <p>Für die Sorgfalt, welche Ew. Hochwohlgebornen dem Druck <bibl sameAs="212">meines
+                        Aufsatzes</bibl> gewidmet haben, bin ich Ihnen ausnehmend verbunden. Ich
+                    habe kaum einen Druckfehler darin bemerkt. Das Uebersehen meiner Bitte um
+                    besonders abgezogene Exemplare hat durchaus nichts auf sich, und ich bitte Sie,
+                    Sich nicht zu bemühen, mir Exemplare des ganzen <pb n="2*"/> Heftes zu schicken.
+                    Die Hefte der <bibl sameAs="396">Indischen Bibliothek</bibl> werden, wie ich
+                    höre, auch einzeln ausgegeben, und so kann ich sehr leicht hier die wenigen
+                    finden, deren ich bedürfen werde. Daß Sie mir auch ferner erlauben wollen, wenn
+                    sich die Gelegenheit dazu fände, Theil an der <bibl sameAs="396">Indischen
+                        Bibliothek</bibl> zu nehmen, ist mir überaus schätzbar. </p>
+            <p>
+               <bibl sameAs="677">Ihre Abhandlung</bibl> in diesem Heft habe ich mit sehr großem
+                    Vergnügen gelesen. Sie gewährt eine belehrende u. unterhaltende Uebersicht über
+                    Alles, was in dem von Ihnen durchgegangenen Zeitraum für das Sanskrit gethan
+                    ist, und erfreut, außer den einzelnen gehaltvollen und gelehrten Bemerkungen,
+                    die sie enthält, durch die Zierlichkeit u. Lebendigkeit der Darstellung, die
+                    Alles auszeichnet, was Sie dem Publicum mittheilen. Ich habe, auch in diesem
+                    Winter, noch oft einzelne Stücke <bibl sameAs="53">der <hi rend="antiqua">Bhagavad-Gita</hi>
+               </bibl> wieder gelesen, und es ist mir der lebhafte
+                    Wunsch entstanden, daß Sie doch sollten versuchen, eine Deutsche Bearbeitung des
+                    ganzen Werkes für Deutsche Leser zu machen. Ich meine damit nicht eigentlich
+                    eine Uebersetzung des Ganzen, sondern ein Zusammenweben der einzelnen Stellen,
+                    die, unabhängig von jeder besondren Ansicht Indischer Mythologie, den Geist, das
+                    Dichtergefühl u. die Empfindung überhaupt allgemein ansprechen müssen. Ich halte
+                    das für sehr möglich, u. man würde durch eine solche Arbeit dem Einwurf be-<pb n="3*"/>gegnen, der von Allen, die nicht selbst Sanskrit treiben, doch
+                    immer, bald öffentlich, bald stillschweigend gemacht wird, daß man zwar in
+                    Allem, was man von dieser Sprache mitgetheilt erhält, wohl einzelne schöne
+                    Stellen findet, daß aber der Genuß des Ganzen doch immer auf eine unangenehme,
+                    oder gleichgültig lassende Weise durch andre u. häufigere u. längere gestört
+                    wird. Das Gedicht, von dem ich rede, trift dieser Vorwurf namentlich, u. ich
+                    habe vielfältig erlebt, daß wenn ich mit solchen, die Ihre lateinische
+                    Uebersetzung ganz wollten gelesen haben, auch nur halb so durchdrungen von dem
+                    Gedichte sprach, als ich Ihnen schrieb, ihr Schweigen mir verrieth, daß sie mein
+                    Urtheil nur der Selbsttäuschung zuschrieben, die für einen gewissen Grad der
+                    Anstrengung sich nun auch einen hinreichenden Lohn gefunden zu haben, überreden
+                    möchte. Ich glaube auch nicht, daß eine solche Bearbeitung nothwendig ein tiefes
+                    Studium der Indischen Philosophie voraussetzte, wie ein Commentar allerdings
+                    erfodern würde. Die Hauptaufgabe wäre nur den Gehalt des Textes recht kräftig u.
+                    zugleich klar, recht einfach, u. zugleich dichterisch, wiederzugeben, u. wem
+                    würde das so sehr, als Ihnen, gelingen? Stücke solcher Bearbeitung passten auch
+                    sehr gut für die <bibl sameAs="396">Indische Bibliothek</bibl>. </p>
+            <p>Ich war vor einigen Tagen im Schauspiel, als man den standhaften Prinzen, nach
+                    Ihrer Uebersetzung, gab.<note type="footnote" resp="editor">
+                  <persName ref="pbarca">Pedro Calderón de la Barca</persName>s Drama "El principe
+                        constante" war 1809 in deutscher Übersetzung von Schlegel unter dem Titel
+                        "Der standhafte Prinz" erschienen; s. <bibl sameAs="736">
+                     <hi rend="italic">Schauspiele von Don Pedro Calderon de la Barca. Übersetzt von
+                                August Wilhelm Schlegel</hi>, Zweiter Band, Berlin: Julius Eduard
+                            Hitzig 1809</bibl>, S. 1ff. Aufgeführt wurde das Stück nachweislich am
+                            <date when="1824-04-09">09.04.1824</date> am Königlichen Schauspielhaus
+                        in <placeName ref="Berlin">Berlin</placeName> (s. Theaterzettel, SBBPK,
+                        Sig.: Yp 4824/2100-1824, Nr. 105).</note> <persName ref="pawolff">Wolf</persName> <pb n="4*"/> <sic>Wolf</sic> spielt ihn
+                    meisterhaft, alle übrigen Schauspieler stehen zum Theil unter dem Mittelmäßigen.
+                    Ich habe gleich nachher das Stück von neuem durchgelesen, und es drängt mich
+                    ordentlich, Ihnen zu sagen, wie mich Ihre musterhafte und unübertrefliche
+                    Uebertragung aufs neue ergriffen hat. <persName ref="cvh1">Meiner
+                        Frau</persName> ist es damit ebenso ergangen. So sehr ich die Indischen
+                    Studien liebe, so wäre es doch sehr zu bedauern, wenn Sie es von jetzt an völlig
+                    verschmähten, dichterischen Arbeiten solcher u. andrer Art Ihre Muße zu widmen.
+                    Ich hörte einmal in diesem Winter, daß etwas neues Poetisches von Ihnen
+                    erscheinen würde. Wie sehr würde ich mich freuen, wenn es sich bestätigen
+                    sollte. </p>
+            <p>Das Unternehmen <bibl sameAs="634">Ihres Ramayana</bibl> erfüllt mich mit den
+                    freudigsten Hoffnungen. Eine solche Ausgabe des wichtigsten Indischen Gedichts
+                    muß das Studium recht eigentlich sichernd begründen. Ich bitte Sie, meinen Namen
+                    den Subscribenten beizuzählen. Wo ich kann, werde ich die Unternehmung mit
+                    Vergnügen befördern. Leider aber habe ich auswärts kaum einige Verbindungen, am
+                    wenigsten in <placeName ref="Wien">
+                  <hi rend="antiqua">Wien</hi>
+               </placeName>.</p>
+            <p>In wenigen Tagen hoff ich Ew. Hochwohlgebornen eine schon längst in der <orgName ref="3">Akademie</orgName> gelesene, aber nun erst gedruckte <bibl sameAs="222">Abhandlung</bibl> zu schicken, die ich Sie gütig u.
+                    nachsichtsvoll aufzunehmen bitte. </p>
+            <closer>
+               <salute>Leben Sie recht wohl, u. arbeiten Sie mit der Ruhe u. Heiterkeit,
+                        die ein Gelingen der Arbeit, wie dasjenige ist, dessen Sie Sich immer
+                        erfreuen können, einflößen muß. Mit hochachtungsvollster
+                        Freundschaft<lb/>der Ihrige,</salute>
+               <signed>Humboldt</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, Juli 1826 (Datierung unklar)<idno type="BBAW">256</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 151–152</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 163</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz habe ich die Ehre mit Zurücksendung der
+                        Beilage, die folgenden Bemerkungen, zu geneigter Prüfung zu unterwerfen.
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="editor" from="1826-07-01" to="1826-07-31"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">16. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 28. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1826_07_00/Coll.ling.fol.21_223.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1826_07_00/Coll.ling.fol.21_224.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1826_07_00/Coll.ling.fol.21_225.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1826_07_00/Coll.ling.fol.21_226.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="151r"/>
+               <salute>Ew Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre mit Zurücksendung der Beilage, die folgenden Bemerkungen, zu
+                    geneigter <del type="fragment">A</del> Prüfung zu unterwerfen. Den
+                    Sprachgebrauch von <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-Wvh_1826_07/0271.svg"/>
+               </foreign> glaube ich müssen wir
+                    noch durch Aufsuchung anderer Stellen fester und sicherer zu begründen suchen.
+                    Bis jetz kann ich mich noch nicht mit der Ansicht Ew Excellenz dahin vereinigen,
+                    daß ich in <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> den Begriff oben und
+                    hiermit eigentlich die zukünftige Welt angedeutet fände<supplied cert="high">.</supplied> Man müßte auf diese Weise immer <foreign sameAs="sa" n="transEd">ataḥ<graphic url="Bopp/Bopp-WvH_1826_07/0272.svg"/>
+               </foreign>
+                    und <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> als unabhängig von
+                    einander auffassen und zugeben daß diese Wörter auch durch Zwischenworte
+                    getrennt stehen könnten, daß etwa der Vers so lauten dürfte:
+                                <subst>
+                  <del>
+                     <foreign sameAs="sa" n="transEd">nivasiṣyasyato+<graphic url="Bopp/Bopp-WvH_1826_07/0273.svg"/>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">nivasiṣyasyatomayi<graphic url="Bopp/Bopp-WvH_1826_07/0274.svg"/>
+                     </foreign>
+                  </add>
+               </subst> <del>
+                  <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0275.svg"/>
+                  </foreign>
+               </del> <foreign sameAs="sa" n="transEd">ūrdhvameva<graphic url="Bopp/Bopp-WvH_1826_07/0276.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">na<graphic url="Bopp/Bopp-WvH_1826_07/0277.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">saṃśayaḥ<graphic url="Bopp/Bopp-WvH_1826_07/0278.svg"/>
+               </foreign> Du wirst wohnen von da
+                        <del type="fragment">o</del> (oder von dem Zustand an) in mir, oben <subst>
+                  <del>(</del>
+                  <add>,</add>
+               </subst> fürwahr ohne Zweifel. Wenn diese Wortstellung und diese Uebersetzung
+                    anginge so würde ich Ihrer Ansicht, welche Ew Excellenz so gut vertheidigen als
+                    es ohne Parallelstellen nur immer möglich ist, beitreten. <pb n="151v"/> Ich
+                    bezweifle aber daß man <foreign sameAs="sa" n="transEd">ataḥ<graphic url="Bopp/Bopp-WvH_1826_07/0272.svg"/>
+               </foreign> von <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> trennen könne weil ich
+                    es bis jetzt nur im Sinne von „als dies“ nach Comparativen gefunden habe, oder
+                    von anderen wesentlichen Zusätzen unterstützt, besonders von <foreign sameAs="sa" n="transEd">paraṃ<graphic url="Bopp/Bopp-WvH_1826_07/0279.svg"/>
+               </foreign>. z.B. <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl>. IX. 23 <foreign sameAs="sa" n="transEd">ataḥ<graphic url="Bopp/Bopp-WvH_1826_07/0272.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">paraṃ<graphic url="Bopp/Bopp-WvH_1826_07/0279.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ca<graphic url="Bopp/Bopp-WvH_1826_07/0281.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">deśo<graphic url="Bopp/Bopp-WvH_1826_07/0282.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">’yaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0283.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">dakṣiṇaḥ<graphic url="Bopp/Bopp-WvH_1826_07/0284.svg"/>
+               </foreign> Auch hier könnte man
+                        <foreign sameAs="sa" n="transEd">ataḥ<graphic url="Bopp/Bopp-WvH_1826_07/0272.svg"/>
+               </foreign> durch als dies
+                    übersetzen, weil auch <subst>
+                  <del>Comparativa</del>
+                  <add>Positiva</add>
+               </subst> mit Ablativen comparativisch gebraucht werden, von da weiter oder <del>
+                  <gap quantity="1" unit="chars"/>
+               </del> weiter als dies, über diesen Ort hinaus ist das südliche Land. Der
+                    Commentar zieht auch <foreign sameAs="sa" n="transEd">ata<graphic url="Bopp/Bopp-WvH_1826_07/0285.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign>
+               <add>zusammen</add> denn sonst würde er blos <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> durch
+                        <foreign sameAs="sa" n="transEd">dehānte<graphic url="Bopp/Bopp-WvH_1826_07/0286.svg"/>
+               </foreign>, und <foreign sameAs="sa" n="transEd">ataḥ<graphic url="Bopp/Bopp-WvH_1826_07/0272.svg"/>
+               </foreign> für sich allein oder gar nicht erklärt haben. <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> oben würde ich nur,
+                    wenn gar kein anderer Ausweg übrig bliebe, aus den früher angegebenen Gründen,
+                    für die zukünftige Welt gelten lassen. Ich will jedoch nicht läugnen daß es
+                    vielleicht gelingen könnte das <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign> durch
+                    klarer sprechende Stellen als eine Bezeichnung der zukünftigen Welt
+                        <del>darstellen zu</del> darzustellen.</p>
+            <p>Ihrer gelehrten Bemerkung über <foreign sameAs="sa" n="transEd">prapadye<graphic url="Bopp/Bopp-WvH_1826_07_06/0248.svg"/>
+               </foreign>,
+                    daß man ihm eine praegnante Bedeutung geben könne, stimme ich vollkommen
+                    bei.</p>
+            <p>Für <foreign sameAs="sa" n="transEd">jīvabhūta<graphic url="Bopp/Bopp-WvH_1826_07/0288.svg"/>
+               </foreign> würde ich die
+                    Uebersetzung Lebenathmend vorziehen.</p>
+            <p>
+               <pb n="152r"/> III 22–24 Ich finde die von Ew Excellenz auseinandergesetzten
+                    Gründe sehr gewichtvoll, ich glaube aber daß noch <subst>
+                  <del>weite</del>
+                  <add>weitere</add>
+               </subst> syntaxische Beobachtungen nöthig sind. Bis jetzt möchte ich noch nicht
+                    zugeben daß man im Sanskrit zwischen Vordersatz und <subst>
+                  <del>Nachsatz,</del>
+                  <add>Nachsatz</add>
+               </subst> eine Behauptung von der Länge eines ganzen Verses als Zwischensatz
+                    einschieben könne, wenn gleich dieser Zwischensatz die Begründung des Nachsatzes
+                    ist. Für mich hat eine solche Construktion im Sanskrit etwas äußerst
+                    ungewöhnliches, und ich erinnere mich nicht eine ähnliche jemals gefunden zu
+                    haben</p>
+            <p>So <del>zeigt</del> eben zeigt mir <persName ref="farosen">Hr Dr
+                        Rosen</persName> <foreign sameAs="sa" n="transEd">ata<graphic url="Bopp/Bopp-WvH_1826_07/0285.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ūdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0289.svg"/>
+               </foreign> in einer Stelle des
+                        <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl>, welche Ew Excellenz gewiß zu Gunsten
+                    meiner Ansicht stimmen wird. Im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> steht S. 184 sl. 14–15 <foreign sameAs="sa" n="transEd">pūrvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0290.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">hyapi<graphic url="Bopp/Bopp-WvH_1826_07/0291.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">sakhā<graphic url="Bopp/Bopp-WvH_1826_07/0292.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">me<graphic url="Bopp/Bopp-WvH_1826_07/0293.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">’si<graphic url="Bopp/Bopp-WvH_1826_07/0294.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">saṃbadhī<graphic url="Bopp/Bopp-WvH_1826_07/0295.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ca<graphic url="Bopp/Bopp-WvH_1826_07/0281.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">janādhipa<graphic url="Bopp/Bopp-WvH_1826_07/0296.svg"/>
+               </foreign> | <foreign sameAs="sa" n="transEd">ata<graphic url="Bopp/Bopp-WvH_1826_07/0285.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ūrdhvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0271.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tu<graphic url="Bopp/Bopp-WvH_1826_07/0298.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">bhūyastvaṃ<graphic url="Bopp/Bopp-WvH_1826_07/0299.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">prītimāhartumarhasi<graphic url="Bopp/Bopp-WvH_1826_07/0300.svg"/>
+               </foreign> Ich habe übersetzt <hi rend="antiqua">ab hoc (tempore) in posterum quoque rursus tu gaudium afferre
+                        velis.</hi>
+            </p>
+            <closer>
+               <salute>Mit tiefster Ehrerbietung <lb/>Ew Excellenz <lb/>Ganz gehorsamster </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <pb n="152v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

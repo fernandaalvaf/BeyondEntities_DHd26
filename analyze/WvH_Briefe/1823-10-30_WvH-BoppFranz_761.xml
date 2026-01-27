@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 30.10.1823 (Mattson)<idno type="BBAW">761</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 20. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 37f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7339</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeb. schicke ich mit meinem herzlichsten
+                        Danke die einliegenden Bogen zurück …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-10-30"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 28. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1823_10_30/NDIGRKP004565_0327.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_10_30/NDIGRKP004565_0328.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_10_30/NDIGRKP004565_0329.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ew. Wohlgeb. schicke ich mit meinem herzlichsten Danke die
+                    einliegenden Bogen zurück, und muß sehr um Verzeihung bitten, es so spät zu
+                    thun. Ich wünschte aber wohl zu erfahren, ob diese
+                    Grammatik<!-- welche Grammatik ? --> fortgesetzt ist, u. wo man
+                            <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst> haben kann? Ich
+                    dächte, Sie hätten mir gesagt, daß Sie
+                        <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst> durch <persName ref="jhklaproth">
+                  <hi rend="antiqua">Klaproth</hi>
+               </persName> besäßen.</p>
+            <p>Ist im <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>schen <bibl sameAs="53">
+                  <hi rend="antiqua">Bhag.
+                            Gita</hi>
+               </bibl> nicht <hi rend="antiqua">VI.</hi> 21. <hi rend="antiqua">a.</hi> in <foreign sameAs="sa" n="transEd">sukhamātyaṃtikaṃ<graphic url="Bopp/WvH-Bopp_1824_03_30/0701.svg"/>
+               </foreign> das lange <foreign sameAs="sa">
+                  <hi rend="antiqua">a</hi>
+               </foreign> ein Druckfehler? Ich weiß sonst gar mir seine Entstehung
+                    nicht zu erklären.</p>
+            <p>
+               <hi rend="antiqua">II.</hi> 39. <hi rend="antiqua">b.</hi> übersetzt <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> die ersten drei
+                    Worte <hi rend="antiqua">cui sententiae devotus</hi>, als würde das <hi rend="antiqua">Subst.</hi> vom <hi rend="antiqua">Verbum</hi> regiert.
+                    Allein dann müßte das erstere im <hi rend="antiqua">Dat.</hi> stehen, wie <hi rend="antiqua">II.</hi> 38. <hi rend="antiqua">b.</hi> Hier wo der <hi rend="antiqua">Instrumentalis</hi> ist, muß man dünkt mich, <hi rend="antiqua">qua sententia i. e. vi cujus sententiae devotus</hi>
+                    übersetzen. So thut es <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> auch wirklich in einer ganz ähnlichen Stelle
+                        <hi rend="antiqua">X.</hi> 7. <hi rend="antiqua">b.</hi> Es ist aber wahr,
+                    daß in der Stelle, von der ich hier rede, diese Uebersetzung weniger zum Sinn
+                    paßt, als die <bibl sameAs="53">
+                  <hi rend="antiqua">Schlegelsche</hi>
+               </bibl>.</p>
+            <p>Woher kommt <foreign sameAs="sa" n="transEd">saṃjñita<graphic url="Bopp/WvH-Bopp_1824_03_30/0702.svg"/>
+               </foreign>, da doch <foreign sameAs="sa" n="transEd">jñā<graphic url="Bopp/WvH-Bopp_1824_03_30/0703.svg"/>
+               </foreign> zum <hi rend="antiqua">Part.</hi> <foreign sameAs="sa" n="transEd">jñāta<graphic url="Bopp/WvH-Bopp_1824_03_30/0704.svg"/>
+               </foreign>
+                    hat?</p>
+            <p>Lassen sich die Fälle, wo die 3. <hi rend="antiqua">pers. plur.</hi> das <foreign sameAs="sa" n="transEd">n<graphic url="Bopp/WvH-Bopp_1824_03_30/0705.svg"/>
+               </foreign> verliert, auf eine ganz allgemeine Regel bringen? Mir ist nur
+                    die der <hi rend="antiqua">reduplicirten</hi> <hi rend="antiqua">Verba</hi>
+                    bekannt.</p>
+            <p>Könnte <hi rend="antiqua">
+                  <bibl sameAs="53">Bhag. Gita</bibl> VI.</hi> 10. <hi rend="antiqua">b.</hi> <foreign sameAs="sa" n="transEd">apariṃgraha<graphic url="Bopp/WvH-Bopp_1824_03_30/0706.svg"/>
+               </foreign>
+                    nicht heißen: der nichts nimmt, nichts begehrt, oder muß man schlechterdings,
+                    wie <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> thut:
+                        <hi rend="antiqua">sine comitatu</hi> übersetzen?</p>
+            <closer>
+               <salute>Verzeihen Sie die vielen Fragen. Mit herzlichster Freundschaft
+                        <lb/>der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>30.<note type="footnote" resp="editor">Mattson 7339 datiert den Brief auf den
+                            "30. [Okt.? 1823]".</note>
+               </dateline>
+               <lb/>
+               <pb n="2*–4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

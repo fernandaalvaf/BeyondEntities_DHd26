@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 28. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Christian Karl Josias Bunsen, 02.07.1826<idno type="BBAW">7</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1949, S. 10f. Nr. 5
+                            (Ausz.); Freese 1955, S. 894f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7631</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfchampollion">
+                  <persName>Champollion, Jean-François</persName>
+               </person>
+               <person corresp="lhervas">
+                  <persName>Hervás y Panduro, Lorenzo</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="214">Humboldt, Wilhelm von: Ueber vier Aegyptische, löwenköpfige
+                    Bildsäulen in den hiesigen Königlichen Antikensammlungen. In: Abhandlungen der
+                    Königlichen Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 145–168</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Der verstorbene Abate Lorenzo Hervas besaß mehrere
+                        gedruckte …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-07-02"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ckjbunsen">Bunsen, Christian Karl Josias</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="2" type="prev">13.03.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="egy">Ägyptisch</language>
+            <language ident="al">Amerikanische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">25. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>[…] Der verstorbene <hi rend="italic">Abate</hi> <persName ref="lhervas">Lorenzo
+                        Hervas</persName> besaß mehrere gedruckte und handschriftliche Grammatiken
+                    und Wörterbücher Amerikanischer Sprachen, und eine solche Grammatik, obgleich
+                    ich nicht anzugeben weiß, welche, befand sich auch in der Bibliothek des
+                        <orgName ref="27">
+                  <hi rend="italic">Collegii Romani</hi>
+               </orgName>. Ich bat schon einmal
+                    unsren gemeinschaftlichen Freund <persName ref="bgniebuhr">Niebuhr</persName>
+                    mir über diesen doppelten Gegenstand einige Nachricht zu verschaffen. Er
+                    antwortete mir, daß er nichts habe auffinden können, schien aber selbst zu
+                    meinen, daß er seine Nachforschungen eigentlich nicht für geschlossen ansehe.
+                    Ew. Hochwohlgebornen würden mich nun sehr verpflichten, wenn Sie die Gewogenheit
+                    haben könnten, mir zu sagen, ob im <orgName ref="27">
+                  <hi rend="italic">Collegio Romano</hi>
+               </orgName> noch jene Grammatik
+                    vorhanden, und welche es ist, auch aus wieviel Seiten sie besteht, da es
+                    vielleicht thunlich wäre, sie abschreiben zu lassen, und wenn Sie
+                    herauszubringen suchten, wo der Nachlaß des freilich sehr unordentlichen
+                        <persName ref="lhervas">Hervas</persName> geblieben ist? Seine
+                    handschriftlichen Notizen über Amerikanische Sprachen besitze ich in
+                    Abschriften, die ich mir in <placeName ref="Rom">Rom</placeName> habe machen
+                    lassen, da ich ihn viel sah, und er äußerst gefällig war.<note type="footnote" resp="editor">Für die Abschriften der amerikanischen Grammatiken siehe Coll.
+                        ling. fol. 24, 51, 78–89 (Biblioteka Jagiellońska, Krakau).</note> Auch
+                    werden diese Papiere schwerlich erhalten seyn. Allein die gedruckten Bücher, die
+                    er hatte, könnten doch an Römische Besitzer gekommen oder zu Römischen
+                    Antiquaren gewandert seyn. Da ich jetzt sehr ernstlich mit meinem Werk über die
+                    Sprachen Amerikas beschäftigt bin, so hat dieser Gegenstand eine sehr große
+                    Wichtigkeit für mich.</p>
+            <p>Ferner hat mir <persName ref="jfchampollion">Champollion der jüngere</persName>,
+                    der wohl noch in <placeName ref="Livorno">Livorno</placeName> ist, sagen lassen,
+                    daß er einen 15 Seiten langen Brief an mich geschrieben habe, den er unsrem
+                        Consul<note type="footnote" resp="editor">Im <hi rend="italic">Handbuch über
+                            den Königlich Preußischen Hof und Staat: Für das Jahr 1824</hi> wird
+                            <persName ref="fgbonhote">Franz Guebhard Bonhôte</persName> als Consul
+                        in <placeName ref="Livorno">Livorno</placeName>
+                    angeführt.</note>
+               <!-- überprüfen!: = Franz Guebhard Bonhôte oder dessen Nachfolger: Carl Stichling (im Staatskalender von 1832 als Consul in Livorno angegeben)?; keine Staatskalender aus den Zwischenjahren digitalisiert -->
+                    zur Beförderung übergeben wolle. Da dieser Brief eine <bibl sameAs="214">Abhandlung</bibl> betrift, die für die <orgName ref="3">Akademischen
+                        Sammlungen</orgName> bestimmt ist, so läge mir sehr viel daran, ihn bald zu
+                    erhalten, und Ew. Hochwohlgebornen würden mich ungemein verpflichten, wenn Sie
+                    Sich erkundigen wollten, ob man schon eine Gelegenheit der Uebersendung (da die
+                    Post freilich zu kostbar ist) gefunden hat, und wenn Sie im entgegengesetzten
+                    Fall Sich der Sache auf eine oder andre Weise anzunehmen die Güte hätten.<note type="footnote" resp="editor">Bei diesem Brief muss es sich um den heute
+                        verschollenen Brief von <persName ref="jfchampollion">Champollion</persName>
+                        vom <date when="1826-06-12">12. Juni 1826</date> aus <placeName ref="Livorno">Livorno</placeName> handeln, in dem er eine Liste mit
+                        Fragen Humboldts (<ref type="link" target="570">Brief</ref> aus <placeName ref="Berlin">Berlin</placeName> vom <date when="1826-03-08">8. März
+                            1826</date>) zu seiner 1825 gehaltenen <bibl sameAs="214">Abhandlung über
+                            die löwenköpfigen Bildsäulen</bibl> beantwortete; siehe Markus Messling
+                        (2008): <hi rend="italic">Pariser Orientlektüren. Zu Wilhelm von Humboldts
+                            Theorie der Schrift</hi>, Paderborn: Schöningh, S. 315 Nr. 2B. Humboldt
+                        bezieht sich in den Anmerkungen der 1828 gedruckten Fassung der <bibl sameAs="214">Abhandlung</bibl> mehrmals auf diesen Antwortbrief <persName ref="jfchampollion">Champollion</persName>s.</note>
+            </p>
+            <p>Von <persName ref="gseyffarth">Seyffarth</persName> höre ich nichts. Vermuthlich
+                    sind die Kampflustigen noch nicht zusammen gekommen. […]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

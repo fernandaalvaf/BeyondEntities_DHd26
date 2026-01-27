@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 30.12.1831<idno type="BBAW">184</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 65. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 80</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8408</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wcarey">
+                  <persName>Carey, William</persName>
+               </person>
+               <person corresp="panini">
+                  <persName>Pāṇini</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="643">Bopp, Franz: [Rezension] 1) Commentatio de origine linguae Zendicae
+                    e Sanscrita repetenda, quam auctoritate A. Ordinis Philosophorum pro loco in
+                    eadem rite obtinendo D. XII. Martii MDCCCXXXI. publice examinandam exhibet
+                    Petrus a Bohlen. Regimonti, typis academicis Hartugianis. 2) Om Zendsprogets og
+                    Zendavestas Aelde og Aegthed ved R. Rask. Kobenhavn 1826. In: Jahrbücher für
+                    wissenschaftliche Kritik No. 101–103, December 1831, S. 801–820</bibl>
+               <bibl corresp="569">Carey, William: A Grammar of the Sungskrit language, composed from
+                    the works of the most esteemd Grammarians, to which are added examples for the
+                    exercise of the student, and a complete list of the Dhattoos or Roots
+                    (Serampore: Mission Press 1806)</bibl>
+               <bibl corresp="578">Colebrooke, Henry Thomas: The Grammatical Sootras or aphorisms of
+                    Pánini with selections from various Commentators, 2 Bände (Calcutta:
+                    1809)</bibl>
+               <bibl corresp="579">Pāṇini: Grammatik des Sanskrit</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich sage Ew. Wohlgeboren meinen lebhaftesten
+                        Dank für die mir überschickten Sachen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-12-30"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger Schlussformel und
+                    Unterschrift Humboldts</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="jv">Javanisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">05. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 18.
+                    Dezember 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1831_12_30/NDIGRKP004565_0462.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1831_12_30/NDIGRKP004565_0463.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1831_12_30/NDIGRKP004565_0464.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich sage Ew. Wohlgeboren meinen lebhaftesten Dank für die mir
+                    überschickten Sachen. Ich werde die <bibl sameAs="643">Recension</bibl> sogleich
+                    lesen und dann mit Vergnügen Ihnen sagen, woraus ich vorzugsweise Belehrung
+                    geschöpft habe. Der <bibl sameAs="579">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl>
+                    erfolgt anbei, und ich werde ihn gewiß nie wieder von der <orgName ref="1">Bibliothek</orgName> abfordern, an die ich Ew. Wohlgeboren bitte, ihn
+                    zurückzuschicken, da ich <persName ref="fwilcken">Herrn <hi rend="antiqua">Wilcken</hi>
+               </persName> benachrichtigt habe, daß Sie ihn jetzt
+                        haben.<note type="footnote" resp="editor">Diese zweibändige Pāṇini-Ausgabe
+                        ist bei Adelung folgendermaßen unter einem englischen Titel aufgeführt:
+                            <persName ref="htcolebrooke">Henry Thomas Colebrooke</persName> (1809):
+                            <bibl sameAs="578">
+                     <hi rend="italic">The Grammatical Sootras or aphorisms
+                                of Pánini with selections from various Commentators</hi>,
+                                Calcutta</bibl>; siehe <persName ref="fadelung">Friedrich Adelung</persName> (1837): <hi rend="italic">Bibliotheca sanscrita.
+                            Literatur der Sanskritsprache</hi>, St. Petersburg: Karl Kray, S. 35.
+                        Der Titel lauter jedoch auf Sanskrit: "Deśe śrīmati Vaṅga-nāmni ...
+                        prārabdhan Dharaṇī-dhareṇa viduṣā Vyākhyānakam Pāṇineḥ sūtrāṇāṃ [Aṣṭādhyāyī]
+                        samanukrameṇaca Mahābhāṣyeṇa taṭṭīkaya Kaumudyāpicakāśikā-sahitayā
+                        saṃyuktakaṃ Vārttikaio tadvat sarvvagaṇaiḥ sahaīvaca parībhāṣeṣṭibhir
+                        misʹvitam: Mūḍhānāṃ drutabodhadañ ca sumahat sarovopakārakṣamaṅ Kāśīnātha
+                        itīrito budhavaraḥ pūrṇṇīcakārātha tat ... Viprastu sārasvato Bābū
+                        Rāma-sumākhyayātividito mudrākṣarair nyastavān" (übers.: Pāṇini’s Grammatik
+                        mit dem Komm. des Dharaṇīdhara u. Kāśīnātha nebst Auszügen aus dem
+                        Mahābhāṣya, der Siddhāntakaumudī, der Kāśikā, mit Vārttika’s, Paribhāṣā’s u.
+                        Karikā’s und den Gaṇa’s besorgt von Bābū Rāma. Calcutta 1809); das Werk
+                        befand sich unter der Signatur Zw 8137 in der Preußischen Staatsbibliothek
+                        und gilt heute als Kriegsverlust. Eines der schon zu Adelungs Zeiten sehr seltenen Exemplare befindet
+                        sich heute in der <ref type="linkExt"
+                       target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044036442143;view=2up;seq=8">Harvard College Library</ref>. [FZ]</note> Ich wollte etwas über das
+                    Alphabet darin nachlesen und wäre durch die inneren Schwierigkeiten wohl
+                    durchgekommen. Ich habe aber entdeckt, daß der Druck auch für meine Brille zu
+                    klein ist. Vielleicht können Ew. Wohlgeboren mir eine Aufklärung mittheilen. Die
+                        <hi rend="antiqua">Java</hi>nischen Grammatiker brauchen das Wort <foreign sameAs="sa">
+                  <hi rend="antiqua">akschara</hi>
+               </foreign> (nach ihrer
+                    Schreibung <foreign sameAs="jv">
+                  <hi rend="antiqua">haksoro</hi>
+               </foreign>) wie
+                    im Sanskrit, nennen aber zum Unterschiede, den Consonanten mit, seinem Vokal, da
+                    das Sanskritwort oft auch den Consonanten ohne Vokal andeutet, <foreign sameAs="jv">
+                  <hi rend="antiqua">legenno</hi>
+               </foreign>. Ich wünschte nun zu
+                    wissen, ob dies letztere Wort in der Terminologie der Sanskrit-Grammatiker auch
+                    vorkommt, oder ob sie den Fall gar nicht bezeichnen? <bibl sameAs="569">
+                  <hi rend="antiqua">Carey</hi>
+               </bibl> hat nichts darüber. Mir fällt kein
+                    anderes Sanskritwort ein, woher <foreign sameAs="jv">
+                  <hi rend="antiqua">legenno</hi>
+               </foreign> kommen könnte, als <foreign sameAs="sa">
+                  <hi rend="antiqua">lagna</hi>
+               </foreign> in dem Sinne verbunden
+                    zusammengefügt zu sein.</p>
+            <closer>
+               <salute>Ich danke Ihnen herzlich, theuerster Freund, für Ihre <pb n="2*"/> gütigen Wünsche zum neuen Jahr, die ich mit der Bitte um Ihr fortdauerndes
+                        Wohlwollen, für Sie und die Ihrigen von ganzem Herzen erwiedere. Mit
+                        unveränderlicher Freundschaft <lb/>
+                  <handShift scribe="wvh"/> Ihr</salute>
+               <signed>H.</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 30.<hi rend="superscript">t</hi> December 1831.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi> Wohlgeboren in
+                                <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="3* vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Berlin</hi>
+                     </hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <hi rend="underline">hierbei ein Paket mit
+                    Büchern</hi>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

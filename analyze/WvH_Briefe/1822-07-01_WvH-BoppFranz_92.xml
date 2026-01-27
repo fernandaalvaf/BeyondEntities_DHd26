@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 01.07.1822<idno type="BBAW">92</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 12. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 24–26</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7225</bibl>
+               </witness>
+            </listWit>
+            <listBibl type="mentioned">
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London:
+                    Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen, Indische Bibliothek 1, 1823, S.
+                    433–473; 2, 1824, S. 71–134</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin seit mehreren Wochen gar nicht wohl
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-07-01"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 30. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1822_07_01/NDIGRKP004565_0303.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_07_01/NDIGRKP004565_0304.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_07_01/NDIGRKP004565_0305.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich bin seit mehreren Wochen gar nicht wohl, sondern leide an einem
+                    hartnäckigen, zum Theil mit Husten verbundenem Fieber. Dies hatte mich sehr von
+                    allen litterarischen Beschäftigungen zurückgebracht, u. auch die Vollendung
+                        <bibl sameAs="212">meines Aufsatzes</bibl>, von dem ich Ew. Wohlgeb. neulich
+                    schrieb, aufgeschoben. Jetzt, da ich anfange wieder besser zu werden, bin ich
+                    dazu zurückgekehrt, u. muß Ew. Wohlgeb. in großer Beschämung um Verzeihung
+                    bitten, daß ich Sie in meinen früheren Briefen über eine Stelle des <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> I. 1. <hi rend="antiqua">sl.</hi> 61. gewiß sehr irre geführt habe. Sie konnten meinen Irrthum nicht
+                    bemerken, da Sie, soviel ich weiß, den Text nicht besitzen, u. mein Fehler nur
+                    aus dem Zusammenhange der Stelle mit den vorhergehenden <add>u. folgenden</add>
+                    Sloken sichtbar werden konnte. Ich eile aber jetzt mein Versehen gut zu machen,
+                    u. setze nun die ganze Stelle, so weit es der Zusammenhang fordert, in Abschrift
+                    her:</p>
+            <p>
+               <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana.</hi>
+               </bibl> B. 1. Abschn. 1.</p>
+            <table cols="3" rows="13">
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">tato<graphic url="Bopp/WvH-Bopp_1822_07_01/0527.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">jñātivadhaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0528.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">śrutvā<graphic url="Bopp/WvH-Bopp_1822_07_01/0529.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rakṣastrailokyaviśrutaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0530.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">sl.</hi>
+                  </cell>
+                  <cell>57.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">nāmato<graphic url="Bopp/WvH-Bopp_1822_07_01/0531.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāvaṇo<graphic url="Bopp/WvH-Bopp_1822_07_01/0532.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nāma<graphic url="Bopp/WvH-Bopp_1822_07_01/0533.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">kāmarupo<graphic url="Bopp/WvH-Bopp_1822_07_01/0534.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">mahābalaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0535.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">rākṣasādhipatiḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0536.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">śūro<graphic url="Bopp/WvH-Bopp_1822_07_01/0537.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāvaṇaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0538.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">krodamūrcchitaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0539.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>58.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">sahāyaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0540.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">varayāmāsa<graphic url="Bopp/WvH-Bopp_1822_07_01/0541.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">mārocaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0542.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nāma<graphic url="Bopp/WvH-Bopp_1822_07_01/0543.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rākṣasaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0544.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">vāryyamāṇopi<graphic url="Bopp/WvH-Bopp_1822_07_01/0545.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">vahuśo<graphic url="Bopp/WvH-Bopp_1822_07_01/0546.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">mārocena<graphic url="Bopp/WvH-Bopp_1822_07_01/0547.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sa<graphic url="Bopp/WvH-Bopp_1822_07_01/0548.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">ravaṇaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0549.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="2*"/>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">sl.</hi> 59.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">na<graphic url="Bopp/WvH-Bopp_1822_07_01/0550.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">virodho<graphic url="Bopp/WvH-Bopp_1822_07_01/0551.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">balavatā<graphic url="Bopp/WvH-Bopp_1822_07_01/0552.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">kṣamo<graphic url="Bopp/WvH-Bopp_1822_07_01/0553.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāvaṇa<graphic url="Bopp/WvH-Bopp_1822_07_01/0554.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_07_01/0555.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">te<graphic url="Bopp/WvH-Bopp_1822_07_01/0556.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">anādṛtya<graphic url="Bopp/WvH-Bopp_1822_07_01/0557.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tu<graphic url="Bopp/WvH-Bopp_1822_07_01/0558.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tatvākyaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0559.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāvaṇaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0560.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">kālacoditaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0561.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>60.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">jagāma<graphic url="Bopp/WvH-Bopp_1822_07_01/0562.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sahamāroco<graphic url="Bopp/WvH-Bopp_1822_07_01/0563.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāmāśramapadaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0564.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tataḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0565.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_07_01/0555.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">māyāvinā<graphic url="Bopp/WvH-Bopp_1822_07_01/0567.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">dūramapavāhya<graphic url="Bopp/WvH-Bopp_1822_07_01/0568.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nṛpātmajai<graphic url="Bopp/WvH-Bopp_1822_07_01/0569.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>61.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">rāvano<graphic url="Bopp/WvH-Bopp_1822_07_01/0570.svg"/>
+                     </foreign> = <foreign sameAs="sa" n="transEd">ntaramāsādya<graphic url="Bopp/WvH-Bopp_1822_07_01/0571.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sotāṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0572.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">surasutopamāṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0573.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">jahāra<graphic url="Bopp/WvH-Bopp_1822_07_01/0574.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">bhāryyāṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0575.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāmasya<graphic url="Bopp/WvH-Bopp_1822_07_01/0576.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">hatvāṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0577.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">gṛdhraṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0578.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">jaṭāyuṣaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0579.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>62.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">rāmopi<graphic url="Bopp/WvH-Bopp_1822_07_01/0580.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">hatamāroco<graphic url="Bopp/WvH-Bopp_1822_07_01/0581.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nivṛtto<graphic url="Bopp/WvH-Bopp_1822_07_01/0582.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">vahu<graphic url="Bopp/WvH-Bopp_1822_07_01/0583.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">cintayan<graphic url="Bopp/WvH-Bopp_1822_07_01/0584.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">sūnyaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0585.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">dṛṣṭvāśramapadaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0586.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">vilalāpa<graphic url="Bopp/WvH-Bopp_1822_07_01/0587.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">malakṣmaṇaḥ<graphic url="Bopp/WvH-Bopp_1822_07_01/0588.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+            </table>
+            <p>Ich hatte Ew. Wohlgebohren neulich geschrieben, u. selbst immer fälschlich
+                    vorausgesetzt, daß die Worte in <hi rend="antiqua">sl.</hi> 61. <hi rend="antiqua">a.</hi> <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_07_01/0589.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">māyāvinā<graphic url="Bopp/WvH-Bopp_1822_07_01/0590.svg"/>
+               </foreign> auf den <hi rend="antiqua">Ravana</hi> giengen, u. alsdann gewann Sinn u. Construction
+                    eine ganz andere Gestalt. Allein wenn man die ganze Reihe der Verse im
+                    Zusammenhange liest, so erscheint klar, daß damit nicht <hi rend="antiqua">Ravana</hi>, sondern <hi rend="antiqua">Maritscha</hi> gemeint ist. Indem
+                    dieser den <hi rend="antiqua">Rama</hi> u. seinen Bruder entfernte, raubte jener
+                    die <hi rend="antiqua">Sita</hi>. Könnte darüber noch ein Zweifel sein, so wird
+                    er dadurch gelöst, daß <hi rend="antiqua">sl.</hi> 62. gesagt wird, daß <hi rend="antiqua">Rama</hi> den <hi rend="antiqua">Maritscha</hi> getödtet
+                    hatte, was offenbar beweist, daß dieser sich an ihn, u. in seine Nähe gemacht
+                    hatte. Setzt man nun dies voraus, so ist es nicht mehr nothwendig, den <hi rend="antiqua">Instrumentalis</hi> in <hi rend="antiqua">sl.</hi> 61. <hi rend="antiqua">a.</hi> ausschließlich zu der gleich auf ihn folgenden <hi rend="antiqua">Ver</hi>-<pb n="3*"/>
+               <hi rend="antiqua">balform</hi> in
+                        <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/WvH-Bopp_1822_07_01/0591.svg"/>
+               </foreign> zu ziehen, u. diese,
+                    wenn man sie <hi rend="antiqua">participialiter</hi> nimmt, <hi rend="antiqua">passiv</hi> zu übersetzen. Ich construire nämlich nun so: <foreign sameAs="sa" n="transEd">rāvaṇo<graphic url="Bopp/WvH-Bopp_1822_07_01/0592.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">jahāra<graphic url="Bopp/WvH-Bopp_1822_07_01/0593.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">sotāṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0594.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_07_01/0595.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">māyāvitā<graphic url="Bopp/WvH-Bopp_1822_07_01/0596.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">apavāhya<graphic url="Bopp/WvH-Bopp_1822_07_01/0597.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nṛpātmajai<graphic url="Bopp/WvH-Bopp_1822_07_01/0598.svg"/>
+               </foreign>
+               <hi rend="antiqua">Participialiter</hi> übersetze ich entweder: <hi rend="antiqua">Ravana</hi>
+                    raubte die <hi rend="antiqua">Sita</hi> vermittelst (mit Hülfe) des <del type="fragment">Zaub</del> die beiden Fürstenentsproßnen weit weg
+                    entführenden Zauberers (nämlich des <hi rend="antiqua">Maritscha</hi>) oder: <hi rend="antiqua">Ravana</hi> raubte die <hi rend="antiqua">Sita</hi>
+                    vermittelst des Zauberers, indem dieser weit wegführte die Fürstenentsproßnen.
+                    In beiden Fällen wird der <hi rend="antiqua">Instrumentalis</hi> vom Haupt<hi rend="antiqua">verbum</hi> <foreign sameAs="sa" n="transEd">jahāra<graphic url="Bopp/WvH-Bopp_1822_07_01/0599.svg"/>
+               </foreign>
+                    regiert, aber in dem ersten die <hi rend="antiqua">Verbalform</hi> als ein <hi rend="antiqua">Attributivum</hi> zu dem <hi rend="antiqua">Instrumentalis</hi> gezogen, in der zweiten die <hi rend="antiqua">Verbalform</hi> als ein absoluter <hi rend="antiqua">Participialsatz</hi>
+                    im <hi rend="antiqua">Nominativ</hi> behandelt. Der Gebrauch des <hi rend="antiqua">Instrumentalis</hi> rechtfertigt sich gewiß sehr auf diese
+                    Weise. Denn er kann ebensowohl das nähere, als entferntere Mittel der Handlung
+                    anzeigen, u. in der That war <hi rend="antiqua">Maritscha’s</hi> Wegführen <hi rend="antiqua">Ramas</hi> das Mittel, durch welches der Raub der <hi rend="antiqua">Sita</hi> erst möglich wurde. Ich muß noch bemerken, daß die
+                    Englische Uebersetzung ausdrücklich die Worte <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_07_01/0600.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">māyāvinā<graphic url="Bopp/WvH-Bopp_1822_07_01/0601.svg"/>
+               </foreign> durch <hi rend="antiqua">by the illusive form assuming Mareecha</hi> giebt. Nimmt man
+                    die Stelle auf diese Weise, so schließt sich eine des <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl>, die sonst auch nicht leicht zu
+                    erklären war, unmittelbar an dieselbe an. Sie steht <bibl sameAs="610">
+                  <hi rend="antiqua">Londoner</hi> Ausg.</bibl> S. 25. Z. 9. 10. <foreign sameAs="sa" n="transEd">tatastayā<graphic url="Bopp/WvH-Bopp_1822_07_01/0602.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kuṭṭinyā<graphic url="Bopp/WvH-Bopp_1822_07_01/0603.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tatkāraṇaṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0604.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">jāraṃ<graphic url="Bopp/WvH-Bopp_1822_07_01/0605.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">parijñāya<graphic url="Bopp/WvH-Bopp_1822_07_01/0606.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">sā<graphic url="Bopp/WvH-Bopp_1822_07_01/0607.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">lolāvato<graphic url="Bopp/WvH-Bopp_1822_07_01/0608.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">guptena<graphic url="Bopp/WvH-Bopp_1822_07_01/0609.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">daṃḍena<graphic url="Bopp/WvH-Bopp_1822_07_01/0610.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">daṃḍitā<graphic url="Bopp/WvH-Bopp_1822_07_01/0611.svg"/>
+               </foreign>. Hier ziehe ich auch
+                    den <hi rend="antiqua">Instrumentalis</hi> <foreign sameAs="sa" n="transEd">kuṭṭinyā<graphic url="Bopp/WvH-Bopp_1822_07_01/0612.svg"/>
+               </foreign> auf das <hi rend="antiqua">participium</hi>, das den Satz
+                    beschließt, <subst>
+                  <del type="fragment">über</del>
+                  <add>und</add>
+               </subst>
+                        über-<pb n="4*"/>setze: sie wurde mit einer heimlichen Strafe bestraft
+                    durch, vermittelst, mit Hülfe der den Buhlen erkannt habenden Kupplerin. So ist
+                    Alles leicht, da ich bisher glaubte <foreign sameAs="sa" n="transEd">parijñāya<graphic url="Bopp/WvH-Bopp_1822_07_01/0613.svg"/>
+               </foreign>
+                    passiv nehmen, oder den Mann, von dem gar ni<supplied cert="high">cht
+                        die</supplied>
+               <note type="footnote" resp="editor">Siegelwachsfleck, nicht
+                        lesbar</note> Rede ist, herbeiholen zu müssen. Die Bestrafung durch die
+                        <supplied cert="high">Kup</supplied>plerin<note type="footnote" resp="editor">Siegelwachsfleck, nicht lesbar</note> verstehe ich wieder nur
+                    so, daß die Erkennung u. Entdeckung der Kupplerin die Strafe erst möglich
+                    machte, nicht daß die Kupplerin sie verhängte, oder vollzog.</p>
+            <p>Daß beide Stellen sich übrigens ebensowohl u. besser als <hi rend="antiqua">Gerundia</hi> erklären lassen, versteht sich von selbst.</p>
+            <p>Was ich nun sagen wollte, ist, daß die Stelle im <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> keine neue Ansicht in die Theorie
+                    dieser <hi rend="antiqua">Verbalformen</hi> bringt, und daß, meinen jetzigen
+                    Untersuchungen zufolge, mir keine Stelle bekannt ist, wirklich keine einzige,
+                    welche sich nicht durch ein <hi rend="antiqua">Participium</hi> im <hi rend="antiqua">Activo</hi> erklären ließe, u. die nothwendig passiv genommen
+                    werden müßte, so daß diese Einwendung gegen die <hi rend="antiqua">Participial</hi>erklärung mir unstatthaft scheint.</p>
+            <p>Ich bin aber demungeachtet fester, als je, der Meynung, daß die Verbalformen in
+                        <foreign sameAs="sa" n="transEd">tvā<graphic url="Bopp/WvH-Bopp_1822_07_01/0614.svg"/>
+               </foreign> u. <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/WvH-Bopp_1822_07_01/0615.svg"/>
+               </foreign> wirklich <hi rend="antiqua">Gerundia</hi> sind, u. hoffe Ew.
+                    Wohlgeb. <bibl sameAs="212">meine Abhandlung</bibl> gewiß noch in diesem Monat
+                    zuschicken zu können.</p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Freundschaft <lb/>der
+                        Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Burgörner</hi> bei <placeName ref="Hettstedt">
+                     <hi rend="antiqua">Hettstädt</hi>
+                  </placeName>, den 1. <hi rend="antiqua">Jul.</hi>
+                        1822.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

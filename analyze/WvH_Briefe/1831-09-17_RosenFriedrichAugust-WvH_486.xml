@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, 17.09.1831<idno type="BBAW">486</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl. 241–243. –
+                            Entwurf: Marbach, Deutsches Literaturarchiv, 62.193</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 225</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12380</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ferosen">
+                  <persName>Ballhorn-Rosen, Friedrich Ernst</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="rtfarquhar">
+                  <persName>Farquhar, Sir Robert Townsend</persName>
+               </person>
+               <person corresp="thfarquhar">
+                  <persName>Farquhar, Sir Thomas Harvie</persName>
+               </person>
+               <person corresp="bhfroberville">
+                  <persName>Froberville, Barthélémy Huet, Chevalier de</persName>
+               </person>
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+               <person corresp="gspattison">
+                  <persName>Pattison, Granville Sharp</persName>
+               </person>
+               <person corresp="sayanacharya">
+                  <persName>Sāyaṇāchārya</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp=" 705">Bopp, Franz: [Rezension] Rigvêdae Specimen. Edidit Fridericus Rosen. Londini, impensis Ioannis Taylor. 1830.
+                    In: Jahrbücher für wissenschaftliche Kritik, December 1830, No. 120, S. 948–956</bibl>
+               <bibl corresp="545">Froberville, Barthélémy Huet, Chevalier de: Dictionnaire Français et Madecasse [Le grand dictionnaire de Madagascar] (Port
+                    Louis, Mauritius: 1816)</bibl>
+               <bibl corresp="889">Jeffreys, Keturah: The widowed missionary's journal: containing some account of
+                    Madagascar; and also, a narrative of the missionary career of the Rev. J. Jeffreys; who
+                    died on a passage from Madagascar to the Isle of France, July 4, 1825, aged 31 years
+                    (Southampton: Printed for the Author 1827)</bibl>
+               <bibl corresp="253">Müller, Max: Rig-Veda Sanskrit-Ausgabe mit Kommentar des Sayana (aus dem 14. Jh. n.
+                    Chr.), 6 Bände (London: 1849–1875)</bibl>
+               <bibl corresp="357">Rigveda</bibl>
+               <bibl corresp="588">Rosen, Friedrich August: Rigvedae specimen (London: J. Taylor 1830)</bibl>
+               <bibl corresp="368">Rosen, Friedrich August: The Algebra of Mohammed Ben Musa (London: J. Murray
+                    1831)</bibl>
+               <bibl corresp="670">Schlegel, August Wilhelm von / Lassen, Christian: Hitopadesas id est Institutio
+                    Salutaris, Pars II. Commentarium criticum tenens (Bonn: Weber 1831)</bibl>
+               <bibl corresp="582">Sozietät für wissenschaftliche Kritik (Hg.): Jahrbücher für wissenschaftliche Kritik
+                    (Berlin u.a.: 1827–1846)</bibl>
+               <bibl corresp="445">Veda</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz nehme ich mir die Freiheit, hiebei endlich
+                        die gewünschten Auszüge aus dem Madegascarischen Wörterbuche des Chevallier
+                        de Froberville zu übersenden …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1831-09-17"/>
+               <placeName key="Detmold">Detmold</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz ind">
+            <language ident="mg">Malagasy</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_483.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_484.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_485.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_486.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_487.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-09-17/Coll.ling.fol.53_488.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="241r"/> <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>nehme ich mir die Freiheit, hiebei endlich die gewünschten Auszüge aus dem <bibl sameAs="545">Madagascarischen Wörterbuche</bibl> des <persName ref="bhfroberville">
+                  <hi rend="antiqua">Chevalier de
+                        Froberville</hi>
+               </persName> zu übersenden. Ew. Excellenz wollen den langen
+                    Verzug, dessen ich mich in der Erfüllung Ihres gütigen Auftrags schuldig
+                    gemacht, zum Theil durch den Umstand entschuldigen, daß <persName ref="rtfarquhar">
+                  <hi rend="antiqua">Sir Robert Farquhar</hi>
+               </persName> die
+                    nachgelassenen Papiere <persName ref="thfarquhar">seines verstorbenen
+                        Bruders</persName>, unter denen jenes Wörterbuch sich befindet, bereits im
+                    vorigen Frühjahre hatte in Kisten verpacken und auf die Seite räumen lassen, und
+                    daß der damit beauftragt gewesene Secretär seitdem <add>aus</add> <persName ref="rtfarquhar">
+                  <hi rend="antiqua">Sir Robert</hi>
+               </persName>’s Diensten
+                    entlassen worden war. Erst vor Kurzem, grade als ich im Begriff stand, eine
+                    kurze Reise zu <persName ref="ferosen">meinem Vater</persName> anzutreten, bot
+                    sich die erwünschte Gelegenheit, das Wörterbuch nachzuschlagen. Ich excerpirte,
+                    nach den mir gütigst gegebenen Winken, was ich fand, und brachte meine Auszüge
+                    hier in die Form, in welcher ich dieselben nun <pb n="241v"/> Ew. Excellenz
+                    vorlege.</p>
+            <p>Ihrem ferneren gütigen Auftrage gemäß habe ich der <persName ref="metcalfe">
+                  <hi rend="antiqua">Mrs. Metcalfe</hi>
+               </persName> in <placeName ref="Bath">Bath</placeName> die mir bezeichnete Summe von fünf Pfund Strl. übersandt,
+                    und dafür zehn (oder zwölf) Exemplare ihres <bibl sameAs="889">Reise-Journals</bibl> von ihr erhalten;
+                    letztere habe ich bei <persName ref="hbuelow">Herrn von Bülow</persName>
+                    niedergelegt, und um ihre <hi rend="underline">gelegentliche</hi> Uebersendung
+                    nach <placeName ref="Berlin">Berlin</placeName> gebeten. Daß ich kürzlich auch
+                    noch einige Englische Reisebeschreibungen, über Madagascar und die
+                    Philippinischen Inseln, an Ew. Excellenz abgesandt habe, erwähne ich nur
+                    beiläufig. Sie waren durch Zufall und um einen äußerst billigen Preis in meine
+                    Hände gekommen, und in der Hoffnung daß doch vielleicht einige für Ihre
+                    gegenwärtigen Forschungen willkommene Notizen darin enthalten seyn dürften, nahm
+                    ich mir die Freiheit, sie ebenfalls an Ew. Excellenz abzusenden.</p>
+            <p>Nicht ohne Beschämung gestehe ich, daß ich noch nicht im Stande bin, Ihre Anfrage
+                    wegen einiger Eigenthümlichkeiten in der Pronominal-Declination des
+                    <bibl sameAs="445">Veda</bibl>-Dialektes genügend zu beantworten. Erst in dem bevorstehenden Winter sehe
+                    ich der erwünschten Muße zur planmäßigen Fortsetzung meines <bibl sameAs="445">Veda</bibl>-Studiums
+                    entgegen. Die mir zu Gebote stehenden Handschriften des Textes vom <bibl sameAs="357">Rig-Veda</bibl> <pb n="242r"/> sind fast durchgängig ziemlich jung. Ich habe in ihnen keine
+                    Abweichung der Lesart wahrgenommen, die nicht hinlänglich durch ein zufälliges
+                    Versehen des letzten Abschreibers, und in gewissen Fällen durch einen
+                    eigenthümlichen orthographischen Grundsatz zu erklären wären. So weit ich die in
+                    meinem <bibl sameAs="588">
+                  <hi rend="antiqua">Specimen</hi>
+               </bibl> gedruckten
+                    Stücke mit neuen Handschriften, die mir bei der Herausgabe noch nicht bekannt
+                    waren, verglichen habe, wird der Text dadurch unterstützt. Aber in der
+                    Uebersetzung einiger in den Anmerkungen angeführter Stellen habe ich geirrt, wie
+                    ich aus dem nunmehr vollständig vor mir liegenden <bibl sameAs="253">Commentar des
+                        Sayanacharyas</bibl> ersehe. So namentlich in der auf Seite 17. citirten
+                    Stelle, wo ich <foreign sameAs="sa" n="transEd">doṣāvastar<graphic url="Rosen/Rosen-WvH_1831_09_17/0883.svg"/>
+               </foreign> für den Vocativ
+                    eines <hi rend="antiqua">Nomen agentis</hi> nahm, und durch <hi rend="antiqua">Caliginis fugator</hi> übersetzte, während der Scholiast es als ein
+                    Adverbium durch „Bei Nacht und bei Tage“ erklärt. – In dem ersten Hymnus, dem an
+                    die Morgenröthe, wird meine Uebersetzung von <foreign sameAs="sa" n="transEd">dadṛkṣa<graphic url="Rosen/Rosen-WvH_1831_09_17/0884.svg"/>
+               </foreign>
+                        (<hi rend="antiqua">Distich.</hi> 2.) und von <foreign sameAs="sa" n="transEd">avāte<graphic url="Rosen/Rosen-WvH_1831_09_17/0885.svg"/>
+               </foreign> (<hi rend="antiqua">Distich.</hi> 4.) gegen 
+                    <persName ref="bopp">Herrn Professor Bopp</persName>s Erklärung (in <bibl sameAs="705">seiner
+                        Recension</bibl> meines <bibl sameAs="588">
+                  <hi rend="antiqua">Specimen</hi>
+               </bibl>, im Decemberheft der <bibl sameAs="582">Berliner kritischen Jahrbücher</bibl>)
+                    auch von der neu hinzugekommenen Handschrift des Commentars in Schutz genommen.
+                    Aber bei <foreign sameAs="sa" n="transEd">iṣayadhyai<graphic url="Rosen/Rosen-WvH_1831_09_17/0886.svg"/>
+               </foreign> (<hi rend="antiqua">Dist.</hi> 4.) entscheidet dieselbe Autorität gegen mich, und
+                    für <persName ref="bopp">Bopp</persName>’s Auslegung. – <pb n="242v"/> Bevor ich
+                    zu der Herausgabe irgend eines bedeutenden Theils des <bibl sameAs="357">Rig
+                        Veda</bibl> schreite, hoffe ich mit den Eigenthümlichkeiten des alten
+                    Dialekts hinreichend vertraut zu seyn, um die Auslegungen des Commentars mit
+                    selbstständiger Einsicht prüfen, und vielleicht hier und da verlassen zu können.
+                    Aber für’s Erste scheint es mir ein sichrerer Weg, meine etwanigen kritischen
+                    Bedenklichkeiten seiner Autorität unterzuordnen.</p>
+            <p>Der wohlwollende Antheil, welchen Ew. Excellenz an meinem persönlichen Schicksal
+                    nehmen, macht es mir zur Pflicht, Ihnen nicht zu verschweigen, daß ich ganz
+                    kürzlich meine Stelle bei der <orgName ref="65">Londoner Universität</orgName> niedergelegt habe. Die
+                    Veranlassung, welche mich zu diesem Schritte bewog, war die, wie es mir und
+                    mehreren meiner Collegen erschien, sehr ungerechte und alle Formen verletzende
+                    Absetzung des Professors der Anatomie, <persName ref="gspattison">Pattison</persName>. Dürfte ich es wagen, hier in einen detaillirten
+                    Bericht über diesen Vorfall einzugehn, so würde ich hoffen, Ew. Excellenz zu
+                    überzeugen, daß in der That dringende Gründe mich bestimmten, mich von einer
+                    Anstalt zu trennen, an welche mich sonst Dankbarkeit hätte fesseln sollen, und
+                    einer Stellung zu entsagen, die mir in so vielfacher Rücksicht wichtig seyn
+                    mußte. – Ich bin im Begriff, schon in der nächsten Woche wieder nach <pb n="243r"/> <placeName ref="London">London</placeName> zurückzukehren. Einige bereits im
+                    vorigen Winter angefangene Arbeiten versprechen mir die einstweilige Fortdauer
+                    meiner Existenz in <placeName ref="London">London</placeName> zu sichern, und
+                    für die Fortsetzung meiner Studien darf ich daneben mehr Freiheit hoffen, als
+                    mir in dem letztverflossenen Jahre gewährt war.</p>
+            <p>Auf meiner Reise hieher kam ich durch <placeName ref="Bonn">Bonn</placeName>, wo ich von <persName ref="awschlegel">Herrn Professor von Schlegel</persName> und <persName ref="classen">Lassen</persName> wieder sehr freundlich aufgenommen, und von letzterem mit
+                        <bibl sameAs="670">seinem so eben erschienenen Commentar zum
+                        Hitopadesa</bibl> beschenkt wurde. Es scheint eine musterhaft genaue und
+                    sorgfältige Arbeit zu seyn. Aber es thut mir leid, in einigen der <persName ref="awschlegel">Schlegel</persName>schen Zusätze, wo sie gegen <persName ref="bopp">Bopp</persName> gerichtet sind, einen Ton wahrzunehmen, der, wie
+                    ich fürchte nur persönliche Gefühle wecken, und grade dadurch die unpartheiische
+                    Würdigung der streitigen Puncte selbst erschweren wird.</p>
+            <p>Der Druck <bibl sameAs="368">meiner Ausgabe und Uebersetzung des Arabischen
+                        Algebraikers Mohammed Ben Musa</bibl> war grade beendigt, als ich
+                        <placeName ref="London">London</placeName> verließ. Sobald ich wieder
+                    dorthin zurückgekehrt bin, werde ich eilen Ew. Excellenz ein Exemplar davon zu
+                    übersenden, und empfehle dasselbe im Voraus Ihrer gütigen Nachsicht.</p>
+            <closer>
+               <salute>Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
+                        Fortdauer Ihres gütigen Wohlwollens, <lb/>Ew. Excellenz <lb/>gehorsamster
+                        Diener</salute>
+               <signed>F. Rosen.</signed>
+               <lb/>
+               <dateline>Detmold, den 17<hi rend="superscript">ten</hi> Septbr.
+                        1831.</dateline>
+               <lb/>
+               <pb n="243v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

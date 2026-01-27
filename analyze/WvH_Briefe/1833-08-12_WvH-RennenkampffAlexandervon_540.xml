@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Karl Jakob Alexander Edler von Rennenkampff,
+                        12.08.1833<idno type="BBAW">540</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Handschrift verschollen; handschriftlich von Leitzmann
+                            korrigiertes Exemplar von Distel 1883: Jena, ThULB, Nachl.A.Leitzmann
+                            V,1, Nr. 437</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Distel 1883, S. 40–44</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8517</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="august1">
+                  <persName>August I., Großherzog von Oldenburg</persName>
+               </person>
+               <person corresp="caecilievschweden">
+                  <persName>Cäcilie, Großherzogin von Oldenburg, geb. Prinzessin von
+                            Schweden</persName>
+               </person>
+               <person corresp="jhffrerichs">
+                  <persName>Frerichs, Johann Heinrich Friedrich</persName>
+               </person>
+               <person corresp="jdlgrote">
+                  <persName>Grote, Julie Dorothea Louise Freifrau, geb. Freiin von
+                            Rahden</persName>
+               </person>
+               <person corresp="wgrote">
+                  <persName>Grote, Wilhelm Heinrich Andreas Christian Freiherr</persName>
+               </person>
+               <person corresp="ahedemann">
+                  <persName>Hedemann, Adelheid von, geb. von Humboldt</persName>
+               </person>
+               <person corresp="agfhedemann">
+                  <persName>Hedemann, August Georg Friedrich von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                            Humboldt</persName>
+               </person>
+               <person corresp="edrennenkampff">
+                  <persName>Rennenkampff, Elisabeth Dorothea Edle von, geb. von
+                            Anrep</persName>
+               </person>
+               <person corresp="krennenkampff">
+                  <persName>Rennenkampff, Karoline Edle von, geb. Freiin von Dalwigk zu
+                            Lichtenfels</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Tausend Dank, verehrtester Freund, für Ihren gütigen und
+                    freundschaftlichen Brief vom 25. Julius …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1833-08-12"/>
+               <placeName key="Norderney">Norderney</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="arennenkampff">Rennenkampff, Karl Jakob Alexander Edler
+                        von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="" type="prev">25.07.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage>
+            <language ident="ofs">Altfriesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. September 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Tausend Dank, verehrtester Freund, für Ihren gütigen und freundschaftlichen Brief
+                    vom <date when="1833-07-25">25. Julius</date>, den wir alle mit größter Freude
+                    gelesen haben, und für den herzlichen Antheil, den Sie an meiner Badekur und
+                    meiner Gesundheit nehmen. Ich bin bis jetzt vollkommen wohl, habe das Baden
+                    keinen Tag ausgesetzt und die Witterung begünstigt in diesem Jahre den Gebrauch
+                    des Seebades auf eine ganz ausgezeichnete Weise. Wir haben fast immer heftige
+                    Winde und also kräftigen Wellenschlag gehabt, und auch für den Genuß der Luft
+                    ist bis auf wenige Tage das Wetter theils schön theils recht leidlich gewesen.
+                    Ihre Beschreibung von <placeName ref="Wangerooge">Wangeroge</placeName> und den
+                    dortigen Festen hat uns sehr interessirt. Die Freude, mit welcher man Ihr
+                    Fürstenpaar empfangen hat, ist sehr begreiflich. <persName ref="august1">Der
+                        Großherzog</persName> und <persName ref="caecilievschweden">die
+                        Großherzogin</persName> beweisen schon dadurch das Vertrauen, welches sie
+                    Ihnen beweisen, den ihnen eignen tieferen und zarteren Sinn. Ich zweifle auf
+                    keine Weise, daß die Anstalten in <placeName ref="Wangerooge">Wangeroge</placeName> durch die Sorgfalt der Regierung mancherlei Vorzüge
+                    vor den hiesigen haben mögen. Sie wissen aber, liebster Freund, aus eigenem
+                    Gefühl, daß man Anhänglichkeit an Orte wie an Menschen gewinnt und sie dann
+                    nicht gern mit anderen vertauscht. So geht es mir mit <placeName ref="Norderney">dieser kleinen Insel</placeName>, die mir durch den diesjährigen Aufenthalt
+                    noch werther geworden ist. Diese Empfindung ist eigentlich unabhängig von der
+                    ärztlichen Wirkung. Was aber diese betrifft, so kann ein anderer Strand wohl
+                    gleich gut, gewiß aber keiner besser sein, da der hiesige, oft selbst ohne
+                    bedeutenden Wind, wellenreich ist und auch bei dem heftigsten Sturm immer das
+                    Baden erlaubt. Meine kleine Wohnung hat den Vorzug der Stille und
+                    Abgeschlossenheit und einer freundlichen Aussicht. Ich wohne vollkommen so, als
+                    wenn ich ein eigenes in einem Garten gelegenes Haus hier besäße. Der Umgang mit
+                        <persName ref="wgrote">Herr</persName> und <persName ref="jdlgrote">Frau
+                        Grothe</persName>
+               <note type="footnote" resp="editor">Leitzmann ergänzt zu
+                        „von Grothe“. – <persName ref="wgrote">Wilhelm Freiherr Grote</persName> war
+                        von 1829 bis 1848 oldenburgischer Regierungspräsident des Fürstentums Lübeck
+                        mit Sitz in <placeName ref="Eutin">Eutin</placeName>. [FZ]</note> ist sehr
+                    angenehm für uns hier geworden und wir haben uns sehr oft gesehen. Sie werden,
+                    nach ihrem jetzigen Plane, am <date when="1833-08-24">24. <hi rend="antiqua">huj</hi>.</date> von hier abreisen. Ich habe mich in diesem Jahre von
+                    der Gesellschaft gänzlich zurückgezogen und das Conversationshaus bloß an
+                    festlichen Tagen Königl. Geburtstagsfeiern auf eine halbe Stunde besucht. Die
+                    Wochen, welche ich hier zubringe, sind zwar eine große und störende
+                    Unterbrechung des häuslichen Lebens und der gewöhnlichen Beschäftigungen, sie
+                    haben aber doch auch einen innerlichen Werth für mich. Ich pflege hier so gut,
+                    als ohne Bücher, zu leben und die Bücher ziehen den Geist in einen ihnen gemäßen
+                    Strom, den es sehr gut ist, eine längere Zeit hindurch durch den aus dem eigenen
+                    Innern kommenden zu kreuzen. Auf diese Weise theilt meine Badereise mir das Jahr
+                    in zwei Perioden ungleicher, aber einander gerade dadurch unterstützender
+                    Beschäftigung. Zugleich erlaubt und fordert dies freie Schweifen der Gedanken
+                    lange Spaziergänge, die hier an dem offenen<note type="footnote" resp="editor">Leitzmann korrigiert zu „offnen“.</note>, schönen Meeresufer und in einigen
+                    grünen und einsamen Orten zwischen den Dünenreihen sehr einladend sind. Mit dem
+                        <date when="1833-08-21">21. <hi rend="antiqua">huj</hi>.</date> ist meine
+                    Kur geendigt und ich hoffe gewiß den <date when="1833-08-24">24.</date> in
+                        <placeName ref="OldenburgO">Oldenburg</placeName> zuzubringen und mich des
+                    freundschaftlichen Gespräches mit Ihnen und den Ihrigen zu erfreuen. Graf
+                        Manteufel<note type="footnote" resp="editor">Laut Distel 1883, S. 43 Anm. 1:
+                        "[e]in entfernter Verwandter Rennenkampffs, welcher in Esthland lebte".
+                        Eventuell ist damit <persName ref="pafmanteuffel">Peter August Friedrich
+                            Graf von Manteuffel</persName> (1768–1842) gemeint, ein auf Estnisch
+                        publizierender Schriftsteller. Ein Kontakt zu Humboldt ist allerdings nicht
+                        belegt. [FZ]</note> hat zwar die Besorgniß bei mir erweckt, daß die
+                        <placeName ref="Eutin">Eutin</placeName>ische Reise mich wieder des
+                    Vergnügens berauben könnte, Sie, theuerster Freund, anwesend zu finden. Indeß
+                    schien dies doch noch ungewiß, und wir wollen hoffen, daß das Schicksal es
+                    weniger feindlich fügen wird. Ich hatte mich auf diesen Tag ruhigen Gespräches
+                    mit Ihnen so sehr gefreut. Ich reise mit meinen beiden Töchtern<note type="footnote" resp="editor">D.h. <persName ref="cvh2">Caroline</persName>
+                        und <persName ref="ahedemann">Adelheid</persName>. [FZ]</note> und <persName ref="agfhedemann">meinem Schwiegersohn</persName> bis <placeName ref="OldenburgO">Oldenburg</placeName>. Dort trennen wir uns, da er über
+                        <placeName ref="Hannover">Hannover</placeName> und ich mit <persName ref="cvh2">meiner ältesten Tochter</persName> über <placeName ref="Hamburg">Hamburg</placeName> unsern Weg nehmen. <persName ref="agfhedemann">Mein
+                        Schwiegersohn</persName> hat einen so beschränkten Urlaub, daß er leider gar
+                    nicht wird das Vergnügen haben können Ihnen seinen Besuch abzustatten. Er und
+                        <persName ref="ahedemann">seine Frau</persName> tragen mir auf Ihnen ihr
+                    lebhaftes Bedauern hierüber zu bezeugen. Leben Sie recht wohl und erhalten Sie
+                    mir Ihr freundschaftliches und liebevolles Andenken. <persName ref="krennenkampff">Ihrer Frau Gemahlin</persName> und <persName ref="edrennenkampff">Frau Mutter</persName> bitte ich meiner innigsten
+                    Verehrung zu versichern. Ich freue mich sehr, doch gewiß zu sein, sie beide am
+                    <date when="1833-08-24">24.</date> in <placeName ref="OldenburgO">Oldenburg</placeName> zu finden. – Ich sehe
+                    so eben beim Durchlaufen dieses Blattes, daß ich vergessen habe der
+                    Spracharbeiten <persName ref="jhffrerichs">des Predigers</persName> in
+                        <placeName ref="Wangerooge">Wangeroge</placeName> zu gedenken<note type="footnote" resp="editor">Distel 1883, S. 43 Anm 2: "Gemeint ist der
+                        1837 als Hofprediger zu Oldenburg verstorbene Joh. Heinr. Friedr. Frerichs.
+                        (N. Nekrolog der Deutschen 15. Jhrg. 1837 I. S. 100 flg., bes. 105)." Zu
+                        Frerichs (1805–1837) siehe Neuer Nekrolog der Deutschen 1837, S. 100–108,
+                        bes. S. 104f. mit Erwähnung seiner Studien zum Altfriesischen sowie zu
+                        seiner kirchlichen Laufbahn: Johannes Ramsauer (1909): <hi rend="italic">Die
+                            Prediger des Herzogtums Oldenburg seit der Reformation</hi>, Oldenburg:
+                        Littmann, <ref type="linkExt"
+                       target="https://digital.lb-oldenburg.de/ihd/content/pageview/197123">S.
+                            150</ref>, <ref type="linkExt"
+                       target="https://digital.lb-oldenburg.de/ihd/content/pageview/197146">173</ref>, <ref type="linkExt"
+                       target="https://digital.lb-oldenburg.de/ihd/content/pageview/197217">243</ref>. – Frerichs’ Studien zum Altfriesischen blieben zu seinen
+                        Lebzeiten unpubliziert, wurden aber 1847 postum im <hi rend="italic">Friesischen Archiv</hi>, S. 3–109 unter dem Titel "Mittheilungen aus
+                        der Sprache der Wangeroger" veröffentlicht; siehe hierzu die Rezension in
+                        der Beilage zur <hi rend="italic">Allgemeinen Zeitung</hi> München, <ref type="linkExt"
+                       target="https://books.google.de/books?id=BdVDAAAAcAAJ&amp;pg=RA2-PA1881-IA1&amp;lpg=RA2-PA1881-IA1&amp;dq=Frerichs+altfriesisch&amp;source=bl&amp;ots=APmWE1ptHE&amp;sig=ACfU3U12wlPcI0-U8Dk1vznoIBlqSC1DVQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwilq9X37NnrAhVMjqQKHVaICUEQ6AEwD3oECAQQAQ#v=onepage&amp;q=Frerichs%20altfriesisch&amp;f=false">Nr. 235 vom 23. August 1847, S. 1874</ref>. [FZ]</note>. Sie sind aber
+                    sehr wichtig, und Sie werden etwas sehr Nützliches stiften, wenn Sie ihn zu der
+                    Fortsetzung derselben und der Herausgabe der endlichen Resultate recht
+                    angelegentlich ermuntern. Mit der innigsten und hochachtungsvollsten
+                    Freundschaft der Ihrige</p>
+            <p>Humboldt.</p>
+            <p>Norderney den 12. August 1833.</p>
+            <p>. </p>
+            <closer>Briefschluss</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

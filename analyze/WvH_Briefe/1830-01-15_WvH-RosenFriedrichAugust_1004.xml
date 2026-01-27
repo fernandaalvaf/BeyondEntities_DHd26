@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Rosen, 15.01.1830<idno type="BBAW">1004</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv,
+                            62.192</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8148</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="pbohlen">
+                  <persName>Bohlen, Peter von</persName>
+               </person>
+               <person corresp="wcarey">
+                  <persName>Carey, William</persName>
+               </person>
+               <person corresp="lachapelier">
+                  <persName>Chapelier, Louis Armand</persName>
+               </person>
+               <person corresp="ghhough">
+                  <persName>Hough, George Henry</persName>
+               </person>
+               <person corresp="ajohnston">
+                  <persName>Johnston, Sir Alexander</persName>
+               </person>
+               <person corresp="ajudson">
+                  <persName>Judson, Adoniram</persName>
+               </person>
+               <person corresp="vkennedy">
+                  <persName>Kennedy, Vans</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="wrobinson">
+                  <persName>Robinson, William</persName>
+               </person>
+               <person corresp="fcgschroeter">
+                  <persName>Schroeter, Friedrich Christian Gotthelf</persName>
+               </person>
+               <person corresp="htattam">
+                  <persName>Tattam, Henry</persName>
+               </person>
+               <person corresp="lethrelkeld">
+                  <persName>Threlkeld, Lancelot Edward</persName>
+               </person>
+               <person corresp="ajvalpy">
+                  <persName>Valpy, Abraham John</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="569">Carey, William: A Grammar of the Sungskrit language, composed from
+                    the works of the most esteemd Grammarians, to which are added examples for the
+                    exercise of the student, and a complete list of the Dhattoos or Roots
+                    (Serampore: Mission Press 1806)</bibl>
+               <bibl corresp="80">Chapelier, Louis Armand: Vocabulaire malgache - français tamatave
+                    (District nord de Malgache) (Manuskript)</bibl>
+               <bibl corresp="695">Estienne, Henri (= Henricus Stephanus): Thesaurus linguae graecae
+                    (London: Valpy 1816–1826)</bibl>
+               <bibl corresp="698">Hough, George Henry: An English and Burmese vocabulary, preceded by
+                    a concise grammar, in which the Burman definitions and words are accompanied
+                    with a pronunciation in the English character; designed to extend the colloquial
+                    use of the Burman language. By G. H. Hough, of Rangoon (Serampore 1825)</bibl>
+               <bibl corresp="245">Judson, Adoniram: A Dictionary of the Burmese language with
+                    explanations in English. Compiled from the ms of A. Judson and other
+                    missionaries in Burmah by J. Wade (Calcutta: Baptist Mission Press 1826)</bibl>
+               <bibl corresp="700">Kennedy, Vans: A Dictionary of the Maratha language, in two parts
+                    (Bombay: Courier Press 1824)</bibl>
+               <bibl corresp="289">Marsden, William: A Dictionary of the Malayan language in two
+                    parts, Malayan and English and English and Malayan (London: Cox &amp; Baylis
+                    1812)</bibl>
+               <bibl corresp="699">Marsden, William: A Grammar of the Malayan language, with an
+                    introduction and praxis (London: Cox &amp; Baylis 1812)</bibl>
+               <bibl corresp="361">Robinson, William: An attempt to elucidate the principles of
+                    Malayan orthography (Fort Marlborough: The Mission press 1823)</bibl>
+               <bibl corresp="696">Schroeter, Friedrich Christian Gotthelf: A Dictionary of the
+                    Bhotona, or Boutan language. Printed from a manuscript copy made by the late
+                    Rev. Frederic Christian Gotthelf Schroeter, edited by John Marshman. To which is
+                    prefixed a Grammar of the Bhotana Language. By Frederic Christian Gotthelf
+                    Schroeter. Edited by W. Carey (Serampore 1826)</bibl>
+               <bibl corresp="701">Tattam, Henry: A compendious Grammar of the Egyptian language as
+                    contained in the Coptic and Sahidic dialects; with observations on the
+                    Bashmuric: together with alphabets and numerals in the Hieroglyphic and
+                    Enchorial characters; and a few explanatory observations: by the Rev. Henry
+                    Tattam, M.A. F.R.S.L. &amp;c. &amp;c. Rector of St. Cuthbert’s, Bedford. With an
+                    Appendix, consisting of the Rudiments of a Dictionary of the Ancient Egyptian
+                    language in the Enchorial character: by Thomas Young, M.D. F.R.S. H.M.R.S.L.
+                    Foreign associate of the Royal Institute of Paris (London: Arch 1830)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe Ihnen noch, theuerster Freund, meinen lebhaften
+                        Dank für Ihre gütige Bemühung …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-01-15"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift; Grußformel und Unterschrift von
+                    Humboldt</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="egy">Altägyptisch</language>
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="my">Burmesisch</language>
+            <language ident="cop">Koptisch</language>
+            <language ident="mg">Malagasy</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="mr">Marathi</language>
+            <language ident="">Sahidisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich habe Ihnen noch, theuerster Freund, meinen lebhaften Dank für
+                    Ihre gütige Bemühung in Absicht des <bibl sameAs="695">
+                  <hi rend="antiqua">Valpyschen Thesaurus</hi>
+               </bibl> abzustatten. Ich habe
+                    Alles richtig empfangen und viel schneller als ich es hoffen dürfte. Beim Binden
+                    aber hat sich gefunden daß in den <hi rend="antiqua">Glossarien</hi> des <hi rend="antiqua">Labbaeus</hi> der Bogen 5. <hi rend="antiqua">F.</hi> von <hi rend="antiqua">Pag:</hi> 625–632 fehlt, wogegen der Bogen 5. <hi rend="antiqua">E.</hi> doppelt ist. Es wäre sehr schön, wenn Sie mir diesen
+                    Bogen von Herrn <persName ref="ajvalpy">
+                  <hi rend="antiqua">Valpy</hi>
+               </persName> verschaffen könnten.<note type="footnote" resp="editor">Links am Rand Notiz von Rosens Hand:
+                        „besorgt“.</note> Eigentlich ist er wohl zur Nachlieferung verpflichtet und
+                    kann mir blos allenfalls entgegensetzen, daß ich mich nicht früher deshalb
+                    gemeldet habe. Vielleicht hilft es auch, wenn Sie ihn daran erinnern, daß ich
+                    ihm mein Interesse an seinem Werke durch einen eigenen Besuch in <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> bewiesen habe.</p>
+            <p>Ich beschäftige mich jetzt sehr mit den <hi rend="antiqua">Malayischen</hi>
+                    Sprachen und bin darauf durch einige Bibelübersetzungen gekommen die mir
+                        <persName ref="ajohnston">
+                  <hi rend="antiqua">Alexander Johnston</hi>
+               </persName> vor einiger Zeit
+                    geschickt hat. Es ist klar zu erweisen, daß die Sprache auf <hi rend="antiqua">Madagascar</hi> nicht blos <hi rend="antiqua">Malayische</hi> Wörter hat,
+                    sondern im Bau und Wurzeln eine ganz <hi rend="antiqua">Malayische</hi> Sprache
+                    ist. Ich habe darüber eine Abhandlung in der <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> gelesen,<note type="footnote" resp="editor">Links am Rand Notiz von Rosens Hand: „besorgt“.</note> die ich
+                    jetzt weitläuftiger bearbeiten, und sobald sie fertig ist, nach <hi rend="antiqua">England</hi> schicken werde. Ich bitte Sie dieß <persName ref="ajohnston">
+                  <hi rend="antiqua">Alexander Johnston</hi>
+               </persName> zu sagen, so viel
+                    Schmeichelhaftes Sie können, von mir hinzuzufügen, wie ich ihn denn wirklich in
+                    der Schrift nennen und rühmen werde, zugleich aber mit ihm über die folgende
+                    Angelegenheit zu sprechen. Er kennt die Wittwe eines <hi rend="antiqua">Missionars</hi> die ein <hi rend="antiqua">Madagascari</hi>sches Wörterbuch
+                    ihres verstorbenen Mannes besitzt, und es wäre vortrefflich, wenn ich dieß
+                    zugleich benutzen könnte. Sollte die Wittwe dies Wörterbuch herauszugeben in <hi rend="antiqua">England</hi> Gelegenheit haben so <subst>
+                  <del>würde</del>
+                  <add>wäre</add>
+               </subst> dieß das Beste, und nur die Beschleunigung zu wünschen. Sollte
+                        <sic>Sie</sic> aber keinen <pb n="2*"/> Verleger dazu finden, so wäre ich
+                    sehr erbötig, wenn sie mir die Handschrift anvertrauen wollte, es als Anfang zu
+                    meiner Schrift drucken zu laßen, wie ich außerdem mit einem <bibl sameAs="80">Wörterbuch</bibl> des französischen Naturforschers <persName ref="lachapelier">
+                  <hi rend="antiqua">Chapelier</hi>
+               </persName> das ich auch handschriftlich
+                    besitze, thun werde. Von der <orgName ref="7">
+                  <hi rend="antiqua">Pariser</hi> Bibliothek</orgName> habe ich zwei
+                    gedruckte, aber ganz unerkannt gebliebene Wörterbücher in Händen. Es hat noch
+                    Niemand so viel <hi rend="antiqua">Madagascari</hi>sche Hülfsmittel benutzt, als
+                    ich in Händen habe, und dadurch, so wie durch die größere Kenntniß, die man
+                    jetzt von der Sprachen der Südsee hat, und endlich durch den Umstand, daß ich
+                    die von den Engländern ganz vernachläßigten <hi rend="antiqua">Philippinischen</hi>-Sprachen genau studirt habe, werde ich etwas viel
+                    Vollständigeres liefern können, als die Engländer, so vortrefflich auch ihre
+                    Schriften sind, haben thun können.</p>
+            <p>Ich bitte Sie nun aber, liebster Freund, sich recht genau zu erkundigen, ob Sie
+                    mir weiter etwas von den <hi rend="antiqua">Asiatischen</hi>-Sprachen jenseits
+                    des <hi rend="antiqua">Ganges</hi> /: den sogenannten <hi rend="antiqua">Indo-Chinesi</hi>schen :/ verschaffen könnten. Ich besitze, die Hülfsmittel
+                    zum <hi rend="antiqua">Malayischen</hi> abgerechnet, nichts als vom <hi rend="antiqua">Burmanischen <persName ref="wcarey">Carey</persName>’s <bibl sameAs="569">Grammatik</bibl>
+               </hi>, <hi rend="antiqua">
+                  <persName ref="ajudson">Judson</persName>’s <bibl sameAs="245">Lexicon</bibl>
+               </hi> und <hi rend="antiqua">
+                  <persName ref="ghhough">Hough</persName>’s</hi> <bibl sameAs="698">Wortverzeichniß</bibl>. Sehr wichtig wäre es auch etwas über die Sprachen
+                    der <hi rend="antiqua">Austral</hi>-Negern, namentlich in <hi rend="antiqua">Neu-Holland</hi>
+               <note type="footnote" resp="editor">D.h. Australien.</note>, zu erhalten. Ich
+                    habe blos einige Bogen von <sic>
+                  <persName ref="lethrelkeld">
+                     <hi rend="antiqua">Thelkred</hi>
+                  </persName>
+               </sic>, vielleicht sind aber seitdem Uebersetzungen von Stücken aus der Bibel
+                    erschienen.</p>
+            <p>Endlich wünschte ich, liebster Freund, daß Sie die Güte hätten, Herrn <persName ref="wmarsden">
+                  <hi rend="antiqua">Marsden</hi>
+               </persName> zu besuchen, ihm viel
+                    Freundliches von mir zu sagen, namentlich, was in der That mehr ist, wie
+                    vortrefflich ich sein <bibl sameAs="289">Wörterbuch</bibl> und <subst>
+                  <del>seinen</del>
+                  <add>seine</add>
+               </subst> <bibl sameAs="699">Grammatik</bibl> des <pb n="3*"/> <hi rend="antiqua">Malayischen</hi> finde, dann aber sich von ihm recht genau und bestimmt
+                    sagen zu laßen, ob die eingeborenen <subst>
+                  <del>
+                     <hi rend="antiqua">Malayien</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Malayen</hi>
+                  </add>
+               </subst> in ihrem eigenen Namen also im <hi rend="antiqua">Malay</hi>ischen-Worte <hi rend="antiqua">
+                  <hi rend="underline">Malāyu</hi>
+               </hi> das <hi rend="antiqua">y</hi> wie
+                    einen Consonanten, oder mit dem vorhergehenden <hi rend="antiqua">a</hi>
+                    zusammen wie einen <hi rend="antiqua">diphthongen</hi> aussprechen? Ich glaube
+                    das Erstere, und möchte doch auf dem Titel meiner Schrift keinen Fehler machen.
+                    Ist das <hi rend="antiqua">y</hi> ein Consonant, so würde ich <sic>in</sic>
+                    Deutschen immer <hi rend="antiqua">
+                  <hi rend="underline">Malayisch</hi>
+               </hi> ist es aber ein Vocal, <hi rend="antiqua">
+                  <hi rend="underline">Malaiisch</hi>
+               </hi> schreiben.</p>
+            <p>Endlich wünscht Professor <persName ref="pbohlen">
+                  <hi rend="antiqua">Bohlen</hi>
+               </persName> in <placeName ref="Königsberg">
+                  <hi rend="antiqua">Königsberg</hi>
+               </placeName> so sehr ein <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName>sches <bibl sameAs="616">
+                  <hi rend="antiqua">Sanskrit</hi>-Wörterbuch</bibl>. Ich weiß, daß keins in
+                        <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> zu haben ist, habe es Ihnen aber
+                    doch sagen wollen für den Fall daß auf einer Auction es einmal vorkäme.</p>
+            <closer>
+               <salute>Verzeihen Sie die vielen Bitten und leben Sie recht herzlich wohl. Mit
+                        der aufrichtigsten und Hochachtungsvollsten Freundschaft. <lb/>
+                  <handShift scribe="wvh"/> Der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <pb n="4*"/> <handShift scribe="Schreiber"/>
+               <address>
+                  <addrLine>An <lb/>Herrn <hi rend="antiqua">Dr. Rosen</hi>
+                     <lb/>Wohlgebohren <lb/>in <lb/>
+                     <placeName ref="London">
+                        <hi rend="antiqua">
+                           <hi rend="underline">London</hi>
+                        </hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+         <div type="appendix">
+            <pb n="5*"/>
+            <table cols="4" rows="5">
+               <row>
+                  <cell/>
+                  <cell>£</cell>
+                  <cell>s.</cell>
+                  <cell>d.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="696">
+                        <hi rend="antiqua">Dictionary of the Bhotanta, or Boutan Language,
+                                    printed from a MS. which is prefixed a Grammar of the Bhotanta
+                                    Language, by Schroeter, 4to. Serampore, 1826.</hi>
+                     </bibl>
+                  </cell>
+                  <cell>2.</cell>
+                  <cell>2.</cell>
+                  <cell>0.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="700">
+                        <hi rend="antiqua">Kennedy. Col. Vans, Dictionary of the Mahratta
+                                    Language, in Two Parts, viz. Mahratta and English, and English
+                                    and Mahratta, folio, Bombay, 1824.</hi>
+                     </bibl>
+                  </cell>
+                  <cell>1. </cell>
+                  <cell>15.</cell>
+                  <cell>0.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="361">
+                        <hi rend="antiqua">Robinson, W. Malayan Orthography; being an
+                                    Attempt to Elucidate its Principles, 8vo. Bencoolen,
+                                1823.</hi>
+                     </bibl>
+                  </cell>
+                  <cell>0.</cell>
+                  <cell>12.</cell>
+                  <cell>0.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="701">
+                        <hi rend="antiqua">Tattam, Rev. Henry. a Compendious Grammar of the
+                                    Egyptian Language, as contained in the Coptic and Sahidic
+                                    Dialects; with the Rudiments of a Dictionary of the Ancient
+                                    Egyptian Language, in the Enchorial Character, by Th. Young,
+                                    8vo.</hi>
+                     </bibl>
+                  </cell>
+                  <cell>0.</cell>
+                  <cell>18.</cell>
+                  <cell>0.</cell>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+</TEI>

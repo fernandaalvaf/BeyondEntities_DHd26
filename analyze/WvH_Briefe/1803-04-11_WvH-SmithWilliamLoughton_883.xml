@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 17. April 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an William Loughton Smith, 11.04.1803<idno type="BBAW">883</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Handschrift (Abschrift):
+                            Philadelphia, American Philosophical Society</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 841</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bsbarton">
+                  <persName>Barton, Benjamin Smith</persName>
+               </person>
+               <person corresp="hppobecheim">
+                  <persName>Pobecheim, H. P.</persName>
+               </person>
+               <person corresp="cvoght">
+                  <persName>Voght, Caspar</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="46">Barton, Benjamin Smith: New Views of the origin of the tribes and
+                    Nations of America (Philadelphia: John Bioren 1798)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur Smith ayant bien voulû me promettre de
+                        se charger d’une petite commission pour moi …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1803-04-11"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wlsmith">Smith, William Loughton</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Abschrift durch Schreiber</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="eu">Baskisch</language>
+            <language ident="xhc">Hunnisch</language>
+            <language ident="ga">Irisch</language>
+            <language ident="cai">Mittelamerikanische Sprachen</language>
+            <language ident="nai">Nordamerikanische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Smith/WvH-Smith_1803-04-11/WvH-WLSmith_p1.jpg"/>
+      <graphic url="Smith/WvH-Smith_1803-04-11/WvH-WLSmith_p2.jpg"/>
+      <graphic url="Smith/WvH-Smith_1803-04-11/WvH-WLSmith_p3.jpg"/>
+      <graphic url="Smith/WvH-Smith_1803-04-11/WvH-WLSmith_p4.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <address>
+                  <addrLine>Copy of a Letter to Mr. Smith from the Baron de
+                            Humboldt</addrLine>
+                  <addrLine>Prussian Minister at Rome – to comunic<hi rend="superscript">te</hi> to D<hi rend="superscript">r</hi>. Barton</addrLine>
+               </address>
+            </opener>
+            <p>Monsieur Smith ayant bien voulû me promettre de se charger d’une petite
+                    commission pour moi, alors qu’il seroit de retour dans sa patrie, Je prends la
+                    liberté de lui en déterminer, par écrit l’object d’une manière plus précise que
+                    Je n’aurois pu le faire de bouche, Il y a plusieurs années que Je fais une étude
+                    comparative des langues dans l’intention de rassembler des matériaux pour
+                    former, un jour, l’histoire complette de leur origine et de leur affinité
+                    réciproque. Je recherche pour cet effet surtout, les langues des peuplades qui
+                    s’étant peu mêlées avec d’autres nations ont conservés leur idiôme dans la
+                    purité primitive, et J’ai réussi en Europe de me prouver une connoissance même
+                    trés-détaillè des langues Basque, Hun, Irlandoise etc. Mais frappé de la grande
+                    ressemblance qu’offrent jusque toutes les langues Européennes, Je suis
+                    extremement anxieux de connoître les Americaines pour juger si la meme analogie
+                    s’étend jusques à elles, et si on doit lui assigner une origine commune avec les
+                    prémiéres ou non. J’ai pú me prouver quelques notions, quoique imparfaites, sur
+                    les langues de l’<hi rend="underline">Amerique</hi> <subst>
+                  <del>
+                     <hi rend="underline">Septentionale</hi>
+                  </del>
+                  <add>
+                     <hi rend="underline">Méridionale</hi>
+                  </add>
+               </subst> Je ne
+                            <subst>
+                  <del>jamais vû qu un seul</del>
+                  <add>connois aucunement
+                            celles</add>
+               </subst> de l’<hi rend="underline">Amerique
+                        Septentionale</hi>. </p>
+            <p>Je n’ai jamais vû qu’un seul ouvrage qui <subst>
+                  <del>entraite</del>
+                  <add>en
+                            traite</add>
+               </subst> avec
+                            <subst>
+                  <del>quelque</del>
+                  <add>quelqu’</add>
+               </subst> étendue et cet
+                    ouvrage est imprimé à <placeName ref="Philadelphia">Philadelphie</placeName>. Je
+                    prierois donc Monsieur Smith de vouloir bien venir a l’aide de mes etudes à cet
+                    ègard; Il m’obligeroit infinement, s’il pouvoit me <pb n="2*"/> faire avoir le
+                    livre dont Je viens de parler et dont le titre complet est le suivant:</p>
+            <p>„<bibl sameAs="46">New views of the origin of the tribes and Nations of
+                        America</bibl> By <persName ref="bsbarton">Benjamin Smith Barton</persName>
+                    M:D: Prof of Materia Medica in the <orgName ref="20">University of
+                        Pennsylvania</orgName>. Philadelphia“ 1798 8“</p>
+            <p>Je ne doute point qu’il existe encore d’autres ouvrages relatifs à cet object,
+                    soit Grammaires ou Dictionaires, ou même des Catechismes dans les différens
+                    idiômes et il est à croire que de tems en tems on publie
+                            <subst>
+                  <del>aumoins</del>
+                  <add>au moins</add>
+               </subst> quelque
+                    brochure en ce genre. Ma seconde priéae<note type="footnote" resp="editor">Gemeint ist: „prière“.</note> seroit donc de faire attentions à ces
+                    productions, de <subst>
+                  <del>lesacheter</del>
+                  <add>les acheter</add>
+               </subst>
+                    pour moi.<!-- Punkt statt Komma geschrieben, evtl. sic setzen? --> et de me les
+                    envoyer. Comme il arrivé aussi quelque fois que des personnes rassemblent des
+                    matériaux sur ces objets sans parvenir à les publier il y auroit peut-etre moyen
+                    aussi de me faire avoir des matériaux manuscrits, soient original, soit dans les
+                    copies, ou de me fournir Occasion d’entrér en correspondénce directe avec
+                    quelques personnes du pais versées dans cette matiêre p. e. avec <persName ref="bsbarton">M<hi rend="superscript">r</hi> Barton</persName>, s’il vit
+                    encore, et s’il est de la connoissance de Monsieur Smith. Tout ce que Monsieur
+                    Smith auroit l’insigne bonté <subst>
+                  <del>de<gap quantity="1" unit="chars"/>
+                  </del>
+                  <add>de</add>
+               </subst>
+                    prouver pour Moi dans ce genre, Je le prierois de l’adresser ou à <placeName ref="Paris">Paris</placeName> à Mon<hi rend="superscript">r</hi>.
+                        Tobecheisa<note type="footnote" resp="editor">Der Name ist mit feinerem
+                        Strich geschrieben und scheint nachträglich eingefügt zu sein. Es muss sich
+                        um den Kaufmann <persName ref="hppobecheim">H. P. Pobecheim</persName> (auch
+                        Pobeheim) handeln, der ein Geschäft in der Rue de la Victoire (!) 2 führte;
+                        siehe <hi rend="italic">Annuaire du commerce de Paris pour l’an XII</hi>
+                        [1803], S. 158. Pobecheim war verheiratet mit Sara Meyer (1767–1857), gesch.
+                        Fraenkel, später Sophie von Pobeheim, einer Freundin von Rahel Lewin; siehe
+                        Rebekka Horlacher / Daniel Tröhler (Hrsg.) (2011): <hi rend="italic">Sämtliche Briefe an Johann Heinrich Pestalozzi</hi>, Band 3, Berlin: de
+                        Guyter, S. 404; Birgit Anna Bosold (1996): <hi rend="italic">Friederike
+                            Liman. Briefwechsel mit Rahel Levin Varnhagen und Karl Gustav von
+                            Brinckmann sowie Aufzeichnungen von Rahel Levin Varnhagen und Karl
+                            August Varnhagen. Eine historisch-kritische Edition mit Nachwort</hi>,
+                        ungedruckte Diss. Universität Hamburg, S. 150 (<ref type="linkExt"
+                       target="http://ediss.sub.uni-hamburg.de/volltexte/1996/395/pdf/Dissertation.pdf">http://ediss.sub.uni-hamburg.de/volltexte/1996/395/pdf/Dissertation.pdf</ref>).
+                        [FZ]</note> &amp; Com<hi rend="superscript">p</hi>. rue des victoires, N°
+                        2<note type="footnote" resp="editor">Es muss "Rue de la Victoire" heißen;
+                        siehe vorige Anmerkung. [FZ]</note> ou <hi rend="underline">à <placeName ref="Hamburg">Hamburg</placeName> à la Maison Seevecing</hi>
+               <note type="footnote" resp="editor">Gemeint ist das Handelshaus Sieveking. Zur
+                        Geschichte der Handelshäuser Sieveking und Voght siehe Heinrich Sieveking
+                        (1912): Das Handlungshaus Voght und Sieveking. In: <hi rend="italic">Zeitschrift des Vereins für Hamburgische Geschichte</hi> 17, S. 54–128.
+                        [FZ]</note> ou a celle ob. <persName ref="cvoght">Voght</persName>.<!-- = Caspar von Voght (1752-1839), Reichsfreiherr, Kaufmann und Philanthrop in Hamburg  -->
+                    chacune de ses <pb n="3*"/> maisons s’empresseroit de rembourser les petits
+                    frais que l’achat des différens objécts <sic>pourroet</sic> avoir
+                            <subst>
+                  <del>occasions</del>
+                  <add>occasionnes</add>
+               </subst>.</p>
+            <p>Il est bien indiscret sans doute d’abuser ainsi des bontes de Monsieur Smith,
+                    mais <sic>J’en</sic> compter sur son amour pour les sciences, sur l’intérét
+                    qu’il prend <subst>
+                  <del>asa</del>
+                  <add>a sa</add>
+               </subst> patrie
+                    qu’avoisinent les différentes peuplades dont il seroit intéressants de connoître
+                    les idiomes et sur la bonté indulgente dont il a bien voulû me donner tant de
+                    preuves, dont le souvenir me sera à jamais precieux.</p>
+            <closer>
+               <signed>Guillaume De Humboldt</signed>
+               <lb/>
+               <dateline>A Rome ce 11 Avril
+                        1803</dateline>
+               <lb/>
+               <lb/>
+               <pb n="4*"/> Copy of Guillaume de <lb/>Humboldt
+                    letter to <lb/>W. Smith <lb/>relative to the languages <lb/>of Am<hi rend="superscript">ca</hi>. 1803 </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

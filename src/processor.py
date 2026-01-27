@@ -7,6 +7,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Union
 
+import networkx as nx
+import plotly.graph_objects as go
+
 from db_client import DatabaseClient
 from file_client import FileClient
 from openwebui_client import OpenWebUIClient
@@ -131,6 +134,228 @@ class Processor:
             logger.error(f"Fehler beim Aktualisieren der Metadaten für {filename}: {e}")
             return False
     
+    def _generate_plantuml(self, result: dict[str, Any]) -> str:
+        """
+        Generiert PlantUML-Code für die Triples.
+        
+        Args:
+            result: JSON-Ergebnis mit entities, praedikate, triples
+            
+        Returns:
+            PlantUML-Code als String
+        """
+        entities = result.get('entities', {})
+        praedikate = result.get('praedikate', {})
+        triples = result.get('triples', [])
+        
+        lines = ["@startuml", ""]
+        
+        # Skinparam für bessere Darstellung
+        lines.append("skinparam defaultTextAlignment center")
+        lines.append("skinparam objectBorderColor #333333")
+        lines.append("skinparam objectBackgroundColor #FEFECE")
+        lines.append("skinparam arrowColor #333333")
+        lines.append("")
+        
+        # Entity-Typ zu PlantUML-Farbe Mapping
+        type_colors = {
+            "Person": "#ADD8E6",      # Hellblau
+            "Ort": "#90EE90",         # Hellgrün
+            "Werk": "#FFB6C1",        # Hellrosa
+            "Institution": "#DDA0DD", # Pflaume
+            "Ereignis": "#F0E68C",    # Khaki
+            "Konzept": "#E6E6FA",     # Lavendel
+            "Zeitpunkt": "#FFDAB9",   # Pfirsich
+            "Sonstiges": "#D3D3D3"    # Hellgrau
+        }
+        
+        # Definiere Objekte für alle Entitäten
+        for entity_id, entity_data in entities.items():
+            label = entity_data.get('label', entity_id)
+            typ = entity_data.get('typ', 'Sonstiges')
+            color = type_colors.get(typ, "#D3D3D3")
+            # Escape Anführungszeichen und Sonderzeichen
+            safe_label = label.replace('"', '\\"').replace('\n', ' ')
+            lines.append(f'object "{safe_label}" as {entity_id} {color}')
+        
+        lines.append("")
+        
+        # Definiere Relationen
+        for triple in triples:
+            subjekt_id = triple.get('subjekt', '')
+            praedikat_id = triple.get('praedikat', '')
+            objekt_id = triple.get('objekt', '')
+            
+            # Hole Prädikat-Label
+            praedikat_label = praedikate.get(praedikat_id, {}).get('label', praedikat_id)
+            safe_praedikat = praedikat_label.replace('"', '\\"').replace('\n', ' ')
+            
+            lines.append(f'{subjekt_id} --> {objekt_id} : "{safe_praedikat}"')
+        
+        lines.append("")
+        lines.append("@enduml")
+        
+        return "\n".join(lines)
+    
+    def _generate_interactive_graph(self, result: dict[str, Any]) -> str:
+        """
+        Generiert einen interaktiven Netzwerkgraph mit plotly.
+        
+        Args:
+            result: JSON-Ergebnis mit entities, praedikate, triples
+            
+        Returns:
+            HTML-Code des interaktiven Graphen
+        """
+        entities = result.get('entities', {})
+        praedikate = result.get('praedikate', {})
+        triples = result.get('triples', [])
+        
+        # Erstelle NetworkX-Graph
+        G = nx.DiGraph()
+        
+        # Füge Knoten hinzu mit Attributen
+        for entity_id, entity_data in entities.items():
+            G.add_node(
+                entity_id,
+                label=entity_data.get('label', entity_id),
+                typ=entity_data.get('typ', 'Sonstiges')
+            )
+        
+        # Füge Kanten hinzu
+        for triple in triples:
+            subjekt_id = triple.get('subjekt', '')
+            objekt_id = triple.get('objekt', '')
+            praedikat_id = triple.get('praedikat', '')
+            praedikat_label = praedikate.get(praedikat_id, {}).get('label', praedikat_id)
+            
+            if subjekt_id in G.nodes and objekt_id in G.nodes:
+                G.add_edge(subjekt_id, objekt_id, label=praedikat_label)
+        
+        # Layout berechnen (spring layout für bessere Verteilung)
+        pos = nx.spring_layout(G, k=1, iterations=50, seed=42)
+        
+        # Entity-Typ zu Farbe Mapping
+        type_colors = {
+            "Person": "#ADD8E6",
+            "Ort": "#90EE90",
+            "Werk": "#FFB6C1",
+            "Institution": "#DDA0DD",
+            "Ereignis": "#F0E68C",
+            "Konzept": "#E6E6FA",
+            "Zeitpunkt": "#FFDAB9",
+            "Sonstiges": "#D3D3D3"
+        }
+        
+        # Erstelle Edge Traces
+        edge_traces = []
+        for edge in G.edges(data=True):
+            x0, y0 = pos[edge[0]]
+            x1, y1 = pos[edge[1]]
+            edge_label = edge[2].get('label', '')
+            
+            # Edge line
+            edge_trace = go.Scatter(
+                x=[x0, x1, None],
+                y=[y0, y1, None],
+                mode='lines',
+                line=dict(width=2, color='#888'),
+                hoverinfo='text',
+                hovertext=edge_label,
+                showlegend=False
+            )
+            edge_traces.append(edge_trace)
+            
+            # Edge label (Mittelpunkt)
+            mid_x, mid_y = (x0 + x1) / 2, (y0 + y1) / 2
+            edge_label_trace = go.Scatter(
+                x=[mid_x],
+                y=[mid_y],
+                mode='text',
+                text=[edge_label],
+                textposition='middle center',
+                textfont=dict(size=9, color='#555'),
+                hoverinfo='skip',
+                showlegend=False
+            )
+            edge_traces.append(edge_label_trace)
+        
+        # Gruppiere Knoten nach Typ für Legend
+        node_traces_by_type = {}
+        
+        for node_id in G.nodes():
+            node_data = G.nodes[node_id]
+            typ = node_data.get('typ', 'Sonstiges')
+            label = node_data.get('label', node_id)
+            x, y = pos[node_id]
+            color = type_colors.get(typ, '#D3D3D3')
+            
+            if typ not in node_traces_by_type:
+                node_traces_by_type[typ] = {
+                    'x': [],
+                    'y': [],
+                    'text': [],
+                    'hovertext': [],
+                    'color': color
+                }
+            
+            node_traces_by_type[typ]['x'].append(x)
+            node_traces_by_type[typ]['y'].append(y)
+            node_traces_by_type[typ]['text'].append(label)
+            node_traces_by_type[typ]['hovertext'].append(f"{label}<br>Typ: {typ}<br>ID: {node_id}")
+        
+        # Erstelle Node Traces pro Typ
+        node_traces = []
+        for typ, data in node_traces_by_type.items():
+            node_trace = go.Scatter(
+                x=data['x'],
+                y=data['y'],
+                mode='markers+text',
+                marker=dict(
+                    size=20,
+                    color=data['color'],
+                    line=dict(width=2, color='#333')
+                ),
+                text=data['text'],
+                textposition='top center',
+                textfont=dict(size=10),
+                hoverinfo='text',
+                hovertext=data['hovertext'],
+                name=typ,
+                showlegend=True
+            )
+            node_traces.append(node_trace)
+        
+        # Kombiniere alle Traces
+        fig = go.Figure(data=edge_traces + node_traces)
+        
+        # Layout
+        fig.update_layout(
+            title=dict(
+                text='Triple-Netzwerk (Interaktiv)',
+                x=0.5,
+                xanchor='center',
+                font=dict(size=20)
+            ),
+            showlegend=True,
+            legend=dict(
+                title='Entitätstypen',
+                yanchor='top',
+                y=0.99,
+                xanchor='left',
+                x=0.01
+            ),
+            hovermode='closest',
+            margin=dict(b=20, l=5, r=5, t=60),
+            xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+            yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+            plot_bgcolor='white',
+            height=800
+        )
+        
+        # Exportiere als HTML-String
+        return fig.to_html(include_plotlyjs='cdn', full_html=True)
+    
     def _save_result(self, filename: str, result: dict[str, Any], meta_info: dict[str, Any]) -> None:
         """
         Speichert das Ergebnis als JSON-Datei.
@@ -142,9 +367,13 @@ class Processor:
         """
         output_file = self.output_dir / filename
         
-        # Kombiniere Ergebnis mit Metadaten
+        # Generiere PlantUML-Code
+        plantuml_code = self._generate_plantuml(result)
+        
+        # Kombiniere Ergebnis mit Metadaten und PlantUML
         output_data = {
             **result,
+            "plantuml": plantuml_code,
             "quelle": meta_info
         }
         
@@ -153,6 +382,21 @@ class Processor:
                 json.dump(output_data, f, ensure_ascii=False, indent=2)
             
             logger.info(f"Ergebnis gespeichert: {output_file}")
+            
+            # Speichere PlantUML als separate .puml-Datei
+            puml_file = output_file.with_suffix('.puml')
+            with open(puml_file, 'w', encoding='utf-8') as f:
+                f.write(plantuml_code)
+            
+            logger.info(f"PlantUML-Diagramm gespeichert: {puml_file}")
+            
+            # Generiere und speichere interaktiven Netzwerkgraph
+            html_graph = self._generate_interactive_graph(result)
+            html_file = output_file.with_suffix('.html')
+            with open(html_file, 'w', encoding='utf-8') as f:
+                f.write(html_graph)
+            
+            logger.info(f"Interaktiver Graph gespeichert: {html_file}")
             
         except IOError as e:
             logger.error(f"Fehler beim Speichern der Datei {output_file}: {e}")
@@ -211,6 +455,8 @@ class Processor:
                 "source_id": record_id if self.source_type == 'db' else None,
                 "verarbeitet": start_time.isoformat(),
                 "ausfuehrungszeit_sekunden": round(execution_time, 2),
+                "modell": self.openwebui_client.model,
+                "api_provider": self.openwebui_client.api_provider,
                 "original_text": sourcetext
             }
             

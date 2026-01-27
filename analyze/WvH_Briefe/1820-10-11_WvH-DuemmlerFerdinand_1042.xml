@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Ferdinand Dümmler, 11.10.1820<idno type="BBAW">1042</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1096
+                            (Konzept)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7058</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfboissonade">
+                  <persName>Boissonade de Fontarabie, Jean-François</persName>
+               </person>
+               <person corresp="cgelwert">
+                  <persName>Elwert, Carl Gottlieb</persName>
+               </person>
+               <person corresp="kmannert">
+                  <persName>Mannert, Konrad</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+               <person corresp="flstolberg">
+                  <persName>Stolberg-Stolberg, Friedrich Leopold Graf zu</persName>
+               </person>
+               <person corresp="fwsturz">
+                  <persName>Sturz, Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="ccttauchnitz">
+                  <persName>Tauchnitz, Carl Christoph Traugott</persName>
+               </person>
+               <person corresp="jhvoss">
+                  <persName>Voß, Johann Heinrich</persName>
+               </person>
+               <person corresp="akpzell">
+                  <persName>Zell, Adam Karl Philipp</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1477">Boissonade, Jean-François (Hrsg.) (1819): Nicetae Eugeniani
+                        narrationem amatoriam et Constantini Manassis fragmenta, 2 Bände, Leipzig:
+                        Weigel</bibl>
+               <bibl corresp="1481">Cicero / Johannes August Ernesti (Hrsg.) (1814–1820): M.
+                        Tullii Ciceronis Opera, ex recensione Ioann. Aug. Ernestii studiose
+                        recognita, ad optimorum librorum fidem accurate edita. Editio stereotypa,
+                        Band I–III, 1814; Band IV, 1816; Band V, 1817; Band VI–XII, 1820, Leipzig:
+                        Tauchnitz</bibl>
+               <bibl corresp="1482">Cornelius Nepos / Carl Hermann Weise (Hrsg.) (1820):
+                        Cornelii Nepotis vitae excellentium imperatorum cum fragmentis. Ad optimorum
+                        librorum fidem adcuravit C. H. Weise. Editio stereotypa, Leipzig:
+                        Tauchnitz</bibl>
+               <bibl corresp="1470">Elwert, Carl Gottlieb (1821–1822): Deutsch-Hebräisches
+                        Wörterbuch zum Behufe hebräischer Componirübungen, so wie auch zum Gebrauche
+                        des hebräischen Handelsstandes, 2 Bände, Leipzig: Hartmann</bibl>
+               <bibl corresp="1476">Forberg, Friedrich Karl (Hrsg.) (1824): Antonii Panormitae
+                        Hermaphroditus. Primus in Germania edidit et apophoreta adjecit Frider.
+                        Carol. Forbergius, Coburg: Meusel</bibl>
+               <bibl corresp="1479">Herodianus (1819): Herodiani historiarum Romanarum libri
+                        octo, ad optimorum librorum fidem accurate editi. Editio stereotypa,
+                        Leipzig: Tauchnitz</bibl>
+               <bibl corresp="1471">Mannert, Konrad (1799–1831): Geographie der Griechen und
+                        Römer aus ihren Schriften dargestellt, 2. Aufl., Nürnberg: Ernst Christoph
+                        Grattenauer</bibl>
+               <bibl corresp="1472">Merian, A. A. de / Klaproth, Julius (1820): Tripartitum seu
+                        de analogia linguarum, Wien: C. Beck</bibl>
+               <bibl corresp="1469">Neumann, Carl Friedrich (1820): Rerum Creticarum specimen,
+                        Göttingen: Dieterich</bibl>
+               <bibl corresp="1483">Ovidius (1820): P. Ovidii Nasonis quae supersunt, ad
+                        optimorum librorum fidem accurate edita. Editio stereotypa, Leipzig:
+                        Tauchnitz</bibl>
+               <bibl corresp="1484">Plautus / Angelo Mai (Hrsg.) (1820): M. Accii Plauti quae
+                        supersunt comoediae, cum fragmentis priorum editorum et novis A. Maii.
+                        Editio stereotypa, Leipzig: Tauchnitz</bibl>
+               <bibl corresp="1480">Plutarchus (1820): Plutarchi Chaeronensis varia scripta
+                        quae moralia vulgo vocantur, ad optimorum librorum fidem accurate edita.
+                        Editio stereotypa, Leipzig: Tauchnitz</bibl>
+               <bibl corresp="1474">Schultz, Johann Matthias (Hrsg.) (1820): Imperatoris Marci
+                        Antonini Commentariorum quos sibi ipsi scripsit, libri XII. Editio
+                        stereotypa, Leipzig: Tauchnitz</bibl>
+               <bibl corresp="1478">Sturz, Friedrich Wilhelm (Hrsg.) (1820): Orionis Thebani
+                        Etymologicum. Ex Museo Fr. Aug. Wolfii, ejusdem Wolfii nonnulas et suas
+                        indicesque locupletissimos adjecit. Accedunt P. H. Larcheri observationes
+                        criticae in Etymologicum Magnum et Amad. Peyroni commentatio in Theodosii
+                        Alexandrini tractatum de prosodia, Leipzig: Weigel</bibl>
+               <bibl corresp="1485">Vergilius (1820): P. Virgilii Maronis Opera, ad optimorum
+                        librorum fidem accurate edita. Editio stereotypa, Leipzig: Tauchnitz</bibl>
+               <bibl corresp="1473">Voß, Johann Heinrich (1820): Bestätigung der Stolbergischen
+                        Umtriebe, nebst einem Anhang über persönliche Verhältnisse, Stuttgart:
+                        Metzler</bibl>
+               <bibl corresp="1475">Zell, Karl (Hrsg.) (1820): Aristotelis ethicorum
+                        nicomacheorum libri decem. Volumen I und II, Heidelberg: Mohr und
+                        Winter</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Herrn Buchhändler Dümmler, Wohlgebohren, mit zurück erfolgenden
+                    Meßcatalogen und Tauchnitzischen Prospectes. Ich erbitte mir: …</ab>
+            <p>Aus Berlin. Bestellung von Ausgaben antiker Autoren sowie des <bibl sameAs="1470">deutsch-hebräischen Wörterbuchs</bibl> von <persName ref="cgelwert">Carl
+                        Gottlieb Elwert</persName>.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1820-10-11"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fduemmler">Dümmler, Ferdinand</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Ergänzungen von Humboldts
+                    Hand</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="hbo">Hebräisch</language>
+            <language ident="la">Lateinisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Mai 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Gottlieb Welcker an Wilhelm von Humboldt, 02.10.1823<idno type="BBAW">119</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen; zuletzt bezeugt im Verst.-Kat. 93 der Fa. K.E. Henrici
+                            (Berlin, 1924), Nr. 249</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Harnack 1896, S. 69f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11767</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aischylos">
+                  <persName>Aischylos</persName>
+               </person>
+               <person corresp="aristoteles">
+                  <persName>Aristoteles</persName>
+               </person>
+               <person corresp="beust">
+                  <persName>Beust (?), Graf</persName>
+               </person>
+               <person corresp="euripides">
+                  <persName>Euripides</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="jgherder">
+                  <persName>Herder, Johann Gottfried von</persName>
+               </person>
+               <person corresp="jgjhermann">
+                  <persName>Hermann, Johann Gottfried Jakob</persName>
+               </person>
+               <person corresp="mhumboldt">
+                  <persName>Humboldt, Mathilde von, geb. von Heinicken</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="whumboldt2">
+                  <persName>Humboldt, Wilhelm von (Enkel von Wilhelm u. Caroline von
+                    Humboldt)</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="sophokles">
+                  <persName>Sophokles</persName>
+               </person>
+               <person corresp="hfkstein">
+                  <persName>Stein, Heinrich Friedrich Karl Reichsfreiherr vom und
+                    zum</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe mich sehr gefreut, von dem Minister
+                        Stein zu hören, dass Ew. Excellenz …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+               <date type="author" when="1823-10-02"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Juni 2017</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>2. October 1823.</dateline>
+            </opener>
+            <p>Ich habe mich sehr gefreut, von dem <persName ref="hfkstein">Minister von
+                        Stein</persName> zu hören, dass Ew. Excellenz <persName ref="mhumboldt">Ihre
+                        Frau Schwiegertochter</persName> einen <persName ref="whumboldt2">Enkel</persName> geschenkt hat und dass diese Erfüllung eines langen
+                    Wunsches ein neues Glück in Ihrer Familie vorbereitet hat. Ich wünsche dem
+                    Kleinen, dass er recht frisch und stark aufwachsen und in seiner aufblühenden
+                    Jugend von dem Einfluss der Grosseltern recht viel aufnehmen möge. Auch seinen
+                    Eltern bitte ich meine herzlichen Glückwünsche zu sagen.</p>
+            <p>Den <persName ref="hfkstein">Herrn von Stein</persName> hatte ich im Anfang Sept.
+                    in <placeName ref="Cappenberg">Cappenberg</placeName> besucht. Ich trennte mich
+                    von meiner emsigen Arbeit, welche in der ungewohnten Musse der Ferien mich mit
+                    doppelter Anziehung fest hält, weil ich den Vortheil einer gelegentlichen
+                    Einladung von ihm nicht aus den Händen lassen wollte, in der Absicht und
+                    Erwartung einen so merkwürdigen Mann in der Nähe zu sehen. Die kleine Reise ist
+                    mir aber zu einer der erfreulichsten Ereignisse ausgeschlagen, weil er so gar
+                    nicht zu denen gehört, die sich nur sehen lassen, sondern Charakter und Gemüth
+                    so klar und offen zu erkennen giebt, und weil fast alle seine Reden mir
+                    einnehmend und bedeutend waren. Ein so bescheidner Sinn bey soviel Stolz und
+                    Kraftgefühl, die Vereinigung altväterlicher Einfachheit mit dem Geist und Ton
+                    neuerer Welt, und die durchgängige Richtung aufs Grosse und Bedeutende, wodurch
+                    der Gedanke an alles, was ein einzelner Charakter oder Standpunkt im Leben
+                    ausschliessen kann, entfernt wird, übt einen wahren Zauber.</p>
+            <p>Seitdem habe ich mehrere Wochen auf dem Lande bey meinen Eltern in angenehmer
+                    Ruhe und Einförmigkeit gelebt. Es ist hier mein Tegel, nur ohne Eigenthum, und
+                    ohne vieles andre; aber meine Eltern sind noch gesund und sehr empfänglich. Mein
+                    jüngster Bruder lebt verheirathet im Haus, hat ein allerliebstes Kind von Einem
+                    Jahr und zieht viel Musik in das Haus. Ich unterdessen habe einen Aufsatz über
+                    die Trilogie im Allgemeinen geschrieben, nachdem ich neulich die einzelnen
+                    Trilogieen herauskonstruirt hatte, und habe mich dabey noch fester überzeugt,
+                    dass wirklich das Aeschylische Drama eine Gattung für sich war, mit welcher die
+                    neuere Tragödie des <persName ref="sophokles">Sophokles</persName> und <persName ref="euripides">Euripides</persName> in vieler Hinsicht auf ganz andere Art
+                    verglichen werden muss, als bisher geschehen ist Merkwürdig war mir dabey zu
+                    sehen, wie dem <persName ref="aristoteles">Aristoteles</persName> die ganze
+                    idealische Kunstanschauung, worauf auch die grossen Compositionen der bildenden
+                    Kunst in der besten Zeit beruhen, so sehr abgeht, und wie <persName ref="aischylos">Aeschylus</persName> nach nicht viel mehr als hundert Jahren
+                    ihm gewissermassen veraltet gewesen ist. Demohngeachtet glaube ich auch
+                    Beziehungen auf die Trilogie in der Poetik zu finden, welche meiner Behauptung
+                    seht zu Statten kommen. Wenn ich irre, dann wird <persName ref="jgjhermann">Herrmann</persName> grosses Recht haben mich zu tadeln. Denn ein grösserer
+                    Contrast der Ansichten hinsichtlich der Haupt- und Nebensachen als in meiner
+                    kleinen Schrift mit seinem Programm über <persName ref="aischylos">Aeschylus</persName> liegt, ist kaum möglich: nur diess setzt mich in
+                    einige Verlegenheit. Aber Ew. Excellenz werden müde seyn, von einer im Werden
+                    begriffenen Schrift zu hören, welche Sie wenn es Ihnen dann gefällt, bald
+                    gedruckt lesen können. Fort muss ich sie haben, weil ich es sonst nicht lassen
+                    kann, mich auf die Geschichte des Dramas immer weiter einzulassen, was doch
+                    darum verkehrt ist weil ich erst das andere über die epische Poesie ausgeführt
+                    haben müsste, um alles unter den vielleicht entstehenden Beziehungen und in
+                    übereinstimmender Ordnung zu behandeln.</p>
+            <p>Niebuhr zu sprechen habe ich bey seiner neulichen Anwesenheit in <persName ref="Bonn">Bonn</persName> nicht das Glück gehabt, ein einziges mal, dass
+                    ich ihn besuchte und einen andern antraf, der ihn beschäftigte. Er hat sich nur
+                    mit wenigen eingelassen und soll verstimmt gewesen seyn. Es war auf Veranlassung
+                    eines eifrigen Anhängers von ihm ein Plan, von Seite der Professoren seine
+                    Anstellung in <persName ref="Bonn">Bonn</persName> nach Ablauf der fünf Jahre zu
+                    sollicitiren, und diess ist so wenig geheim geblieben, dass mir auf meiner
+                    Hinreise <persName ref="beust">Graf Beust</persName> (?),<note type="footnote" resp="editor">Das Fragezeichen steht so bereits bei Harnack. Eventuell
+                        handelt es sich um den preußischen Geologen und Berghauptmann Ernst August
+                        Graf von Beust, der seit 1817 erster Berghauptmann des Oberbergamtes Bonn
+                        war. [FZ]</note> der aus der Schweiz zurückkehrte, in <placeName ref="Koblenz">Coblenz</placeName> davon erzählte. Mir ist es auffallend gewesen, manches
+                    zu hören, woraus ich schliessen muss, dass der Aufenthalt in <placeName ref="Rom">Rom</placeName> gar nicht dazu beigetragen hat <persName ref="bgniebuhr">Niebuhr</persName>’n die Poesie und Kunst des Alterthums
+                    lieber zu machen. Palimpseste, wie sie bis jetzt sie gefunden haben, sind
+                    anziehende Sachen, besonders in <placeName ref="Rom">Rom</placeName>, wo einem
+                    selbst diejenigen, welche sich im Mauerwerk finden, angenehm beschäftigen. Aber
+                    zu bedauern wäre es doch, wenn viel solche Männer wie <persName ref="bgniebuhr">Niebuhr</persName> in unserer Zeit, welche auf das historische Wissen und
+                    die Antiquitäten aller Art versessen genug ist, das Ansehen historischer und
+                    grammatischer Subtilität zum Nachtheil einer lebendigen Erkenntniss des
+                    Alterthums bey dem grossen Haufen der Jugend zu ausschliessend beförderte;
+                        <persName ref="jgherder">Herder</persName>, <persName ref="jwgoethe">Göthe</persName>, die Schlegel haben neben dem Grossen und Guten ihrer
+                    Wirkung freylich auch ein oberflächliches Raisonniren unter den Mittelmässigen
+                    und Schwachen erzogen. Man wird noch viel unerträglicheres mitpflanzen, wenn man
+                    zu einseitig die Richtung der blossen Schule nimmt. Doch hätten wir nur
+                        <persName ref="bgniebuhr">Niebuhr</persName> zum Curator! Die Schätze seines
+                    Wissens würden der <orgName ref="12">Universität</orgName> nicht blos Glanz,
+                    sondern auch vielfache Anregung mittheilen. </p>
+            <p>Ich hoffe, dass Ew. Excellenz bald wieder eine Vorlesung geben; es ist nur fatal,
+                    dass der Abdruck so sehr hinausgeschoben zu werden pflegt. <persName ref="hfkstein">Herr von Stein</persName> sagte mir von einem Vorschlag, den
+                    er Ihnen gethan, in Bezug auf die Urgeschichte der deutschen Stämme aus der
+                    Etymologie. Ich habe ihm aber so viel von Ihren Studien im <bibl sameAs="352">Remayana</bibl> und <bibl sameAs="52">Baghvat Gita</bibl> erzählt, dass
+                    seine Hoffnung für die deutsche Geschichte noch kleiner geworden ist. Ich bitte
+                    recht viele Empfehlungen. </p>
+            <closer>Mit grösster Verehrung <lb/>Ew. Excellenz <lb/>treu ergebenster <signed>F.
+                        G. Welcker. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

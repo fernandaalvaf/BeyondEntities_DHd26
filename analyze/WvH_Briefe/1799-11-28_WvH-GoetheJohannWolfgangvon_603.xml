@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Wolfgang von Goethe, 28.11.1799<idno type="BBAW">603</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Weimar, GSA, Goethe, egg. Br. 439, Nr. XXII</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bratranek 1876, S. 137–154; Geiger 1909, S. 102–118;
+                            Rößle 1952, S. 208–220; Freese 1955, S. 372–378; Herwig 1965–1987, Bd. 1, S. 53</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 607</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cbourbon">
+                  <persName>Bourbon-Montpensier, Charles III., Duc de</persName>
+               </person>
+               <person corresp="flcatel">
+                  <persName>Catel, Franz Ludwig</persName>
+               </person>
+               <person corresp="jgfichte">
+                  <persName>Fichte, Johann Gottlieb</persName>
+               </person>
+               <person corresp="fw1">
+                  <persName>Friedrich Wilhelm I., König in Preußen</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="gcgropius">
+                  <persName>Gropius, Georg Christian</persName>
+               </person>
+               <person corresp="ahedemann">
+                  <persName>Hedemann, Adelheid von, geb. von Humboldt</persName>
+               </person>
+               <person corresp="henri4">
+                  <persName>Heinrich IV. von Frankreich</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="ikant">
+                  <persName>Kant, Immanuel</persName>
+               </person>
+               <person corresp="jmrlenz">
+                  <persName>Lenz, Jakob Michael Reinhold</persName>
+               </person>
+               <person corresp="jmelendez">
+                  <persName>Meléndez Valdés, Juan</persName>
+               </person>
+               <person corresp="jhmeyer">
+                  <persName>Meyer, Johann Heinrich</persName>
+               </person>
+               <person corresp="lmoratin">
+                  <persName>Moratín, Leandro Fernández de</persName>
+               </person>
+               <person corresp="mjquintana">
+                  <persName>Quintana y Lorenzo, Manuel José</persName>
+               </person>
+               <person corresp="raffaelsanti">
+                  <persName>Raffaello Santi</persName>
+               </person>
+               <person corresp="lramond">
+                  <persName>Ramond de Carbonnières, Louis</persName>
+               </person>
+               <person corresp="greni">
+                  <persName>Reni, Guido</persName>
+               </person>
+               <person corresp="pprubens">
+                  <persName>Rubens, Peter Paul</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="wshakespeare">
+                  <persName>Shakespeare, William</persName>
+               </person>
+               <person corresp="jstuart">
+                  <persName>Stuart, James</persName>
+               </person>
+               <person corresp="cftieck">
+                  <persName>Tieck, Christian Friedrich</persName>
+               </person>
+               <person corresp="tizian">
+                  <persName>Tizian (Tiziano Vecellio)</persName>
+               </person>
+               <person corresp="dtribolet">
+                  <persName>Tribolet-Hardy, David de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1177">Celenio, Inarco [= Leandro Fernández de Moratín] (1798): Hamlet. Tragedia de Guillermo
+                    Shakespeare. Traducida é ilustrada con la vida del autor y notas críticas, Madrid: en la oficina
+                    de Villalpando</bibl>
+               <bibl corresp="1174">Goethe, Johann Wolfgang von (1802): Mahomet. Trauerspiel in fünf
+                    Aufzügen nach Voltaire von Goethe, Tübingen: J. G. Cotta</bibl>
+               <bibl corresp="1175">Gotter, Frierich Wilhelm (1783): Alzire, ein Trauerspiel in Versen
+                    und fünf Aufzügen. Nach Voltaire, v. Gotter, Wien</bibl>
+               <bibl corresp="229">Humboldt, Wilhelm von (1800): Ueber die gegenwärtige französische
+                    tragische Bühne. In: Propyläen. Eine periodische Schrifft, herausgegeben von
+                    Goethe, Dritten Bandes erstes Stück, S. 66–109 (= GS II, S. 377–400)</bibl>
+               <bibl corresp="1176">Palomino de Castro y Velasco, Acisclo Antonio (1724): El museo
+                    pictórico y escala óptica, Band 3: El Parnaso español pintoresco laureado,
+                    Madrid: Por la Viuda de Juan Garcia Infançon</bibl>
+               <bibl corresp="339">Propyläen. Eine periodische Schrifft, herausgegeben von Goethe,
+                    1798–1800</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1799-11-28"/>
+               <placeName key="Madrid">Madrid</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jwgoethe">Goethe, Johann Wolfgang von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig, Kurrentschrift</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="oc">Okzitanisch (Tolosanisch)</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">27. November 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Madrid</hi>, 28. 9br.
+                        99.</dateline>
+            </opener>
+            <p>Verzeihen Sie, mein theuerer Freund, <del>wenn</del> daß ich Ihnen in so langer
+                    Zeit nicht schrieb, und Sie sogar über das fernere Schicksal meiner Reise
+                    ungewiß ließ; verzeihen Sie, wenn Sie auch heute nur einige flüchtige Zeilen
+                    erhalten; aber meine Reise ist schnell u. der Dinge, die meine Aufmerksamkeit
+                    fordern, sind viel; es bleiben mir also nur einige Viertelstunden zum
+                    Briefschreiben übrig.</p>
+            <p>Wir sind endlich, wie Sie sehen, in <placeName ref="Madrid">Madrid</placeName>.
+                    Mitten aus allen Hindernissen, die uns die Zeit u. die Umstände in den Weg
+                    legten, u. trotz der Besorgnisse, die man uns von allen Seiten her über eine
+                    Reise durch die mittäglichen Provinzen Frankreichs erregte, haben wir uns auf
+                    den Weg gemacht u. sind ohne Anstoß, selbst ohne große Mühseligkeiten, hier
+                    angekommen. Bis zu den Pyrenäen haben wir nur wenig interessante Gegenstände
+                    gefunden. Der Weg bis in das Limousin über <placeName ref="Orleans">Orleans</placeName> (denn dieser war es, den wir nahmen, da der schöne über
+                        <placeName ref="Blois">Blois</placeName> u. <placeName ref="Tours">Tours</placeName> durch die Chouans unsicher geworden war) ist so traurig,
+                    als man sich nur denken kann. Flache, u. sandige Felder, ohne alle ergötzende
+                    Mannigfaltigkeit ermüden unaufhörlich das Auge u. nirgends wird man auf dieser
+                    langen Strecke auch nur durch Einen interessanten Gegenstand entschädigt. Das
+                    Limousin ist zwar ein hübsches Ländchen, u. überrascht den Reisenden angenehm
+                    durch seine häufig abwechselnden Berge u. Thäler, das schöne Grün der
+                    Kastanienwälder u. das Eigenthümliche in der Bildung u. Sprache seiner Bewohner,
+                    allein dies ist auch alles. Eigentlich schöne Gegenden, oder merkwürdige Orte
+                    darf man nicht erwarten. — <placeName ref="Bordeaux">Bordeaux</placeName> ist
+                    todt u. ohne Leben, der ungeheuere Hafen leer von Schiffen, u. die Menschen
+                    durch diese Stockung in ihrem einzigen Geschäft, dem Handel, misvergnügt u.
+                    zurückgezogen. Es giebt bloß das widrige Bild einer Stadt, die ehemals fast nur
+                    auf Luxus u. Vergnügen berechnet war, u. der jetzt die Mittel fehlen, ihn zu
+                    unterhalten. Das Einzige, was uns dort anzog<supplied cert="high">,</supplied>
+               <subst>
+                  <del>war</del>
+                  <add>waren</add>
+               </subst>, außer der wirklich schönen Lage am Fluß u. dem noch immer merkwürdigen
+                    Hafen, die Ueberbleibsel des altRömischen Amphitheaters, das man jetzt gemeinhin
+                        <hi rend="antiqua">palais Galien</hi> nennt. Zwar stehen nur wenige Bögen
+                    noch ganz erhalten, u. auch in seinem unversehrten Zustande kann es nie ein
+                    außerordentlich schönes Gebäude gewesen seyn. Aber es sind immer ehrwürdige
+                    Reste des Alterthums, es flößt immer eigne Empfindungen ein, wenn man diese
+                    alten Bögen über die neueren niedrigeren Häuser emporschauen sieht, u. wenn man
+                    den innern Platz frei mit Gras u. Strauchwerk bewachsen ließe, so würde immer
+                    mancher gern von Zeit zu Zeit bei diesen Ruinen verweilen. Aber so baut man neue
+                    Häuser in dem mittleren freien Platz u. es ist nicht unwahrscheinlich, daß in
+                    wenig Jahren keine einzige bedeutende Trümmer mehr davon übrig seyn werden. —
+                    Von <placeName ref="Bordeaux">Bordeaux</placeName> aus gingen wir gerade auf die
+                    hohen Pyrenäen, dem schönsten Theil dieser Bergkette, zu. Die Ufer der Garonne
+                    sind reizender, als ich sonst leicht eine Gegend kenne. Ueppige Vegetation u.
+                    sorgsame Cultur sind hier vereint; man fährt durch einen beständigen u. doch
+                    immer <pb n="2*"/> abwechselnden Garten. Am schönsten <del>ist</del> u.
+                    reichsten ist die Vegetation von <placeName ref="La Reole">
+                  <hi rend="antiqua">la
+                            Réole</hi>
+               </placeName> bis <placeName ref="Agen">
+                  <hi rend="antiqua">Agen</hi>
+               </placeName>. Es war ein überaus freundlicher Anblick, der
+                    Weg, oft halbe Meilen lang, von Reben, die sich um Ulmen schlingen, eingefaßt,
+                    u. die blauen Trauben aus dem Grün der Ulmen herabhängen zu sehen. <subst>
+                  <del>
+                     <placeName ref="Agen">
+                        <hi rend="antiqua">Agen</hi>
+                     </placeName>
+                  </del>
+                  <add>
+                     <placeName ref="Auch">
+                        <hi rend="antiqua">Auch</hi>
+                     </placeName>
+                  </add>
+               </subst> hat eine Gothische Kathedrale, von der ich sonst nie etwas gelesen
+                    hatte, außer daß Volkmann ihrer mit zwei Worten erwähnt, die aber gesehen zu
+                    werden verdient. Am merkwürdigsten ist dann das Chor u. die Stühle der
+                    Capitularen. Es ist das feinste Schnitzwerk, das Sie sehen können, die
+                    gefälligsten u. geschmackvollsten Verzierungen u. mit unter die launigsten
+                    Einfälle. So waren z. B. auf einem Stuhl zwei Affen, die einen Pfaffen, der
+                    zwischen ihnen stand, banden, u. ähnliche Spielwerke. Ueberhaupt scheint sich in
+                    diesem Schnitzwerk in den Chorstühlen die Laune der Künstler in den katholischen
+                    Kirchen mehr Freiheit erlaubt zu haben, als man sonst in diesen Orten erwarten
+                    sollte. Auf der ganzen Reise habe ich dies bestätigt gefunden. In der großen u.
+                    prächtigen Kathedrale in <placeName ref="Burgos">
+                  <hi rend="antiqua">Burgos</hi>
+               </placeName> z. B. war außer vielen andern Vorstellungen, wie
+                    man sie wohl auf alten Gefäßen findet, besonders eine mit vielem Wohlgefallen
+                    wiederholt, zwei Genien, die mit stehendem Schamglied ihre Wasser in ein Gefäß
+                    abschlagen, u. der heilige Rücken des Priors lehnt an einem <del>
+                  <gap quantity="4" unit="chars"/>
+               </del> Jupiter, der als Stier die Europa
+                    entführt. Seltner noch, als dies Schnitzwerk, sind in der Kathedrale von
+                        <placeName ref="Auch">
+                  <hi rend="antiqua">Auch</hi>
+               </placeName> die prächtig
+                    gemahlten Fensterscheiben. Die sehr hohen Fenster der Kirche sind von oben bis
+                    unten mit biblischen Geschichten bemahlt u. der Glanz der Farben vorzüglich ist
+                    außerordentlich. Leicht mag jetzt in ganz Europa nichts Aehnliches existiren,
+                    wenigstens ist mir nichts bekannt, man sieht wohl sonst einzelne Scheiben,
+                    einzelne Vorstellungen, aber hier ist alles so erhalten, daß auch nicht ein
+                    einziges Stück fehlt. Ueberhaupt war es mir merkwürdig zu sehn, daß im
+                    südwestlichen Frankreich die Kirchen wenig oder gar nicht gelitten haben, da sie
+                    im Norden ganz u. gar ausgeplündert sind u. nun Scheunen oder Ställen ähnlich
+                    sehen. Vermuthlich wagte man im Süden weniger zu zertrümmern, weil die dort an
+                    sich lebhaftere Nation auch fester an ihrem Glauben hing. In den Pyrenäen
+                    hielten wir uns etwa 14 Tage auf. Wir ließen unsre Kinder meist in einer sehr
+                    liebenswürdigen Familie in <placeName ref="Bagneres-de-Bigorre">
+                  <hi rend="antiqua">Bagnères en Bigorre</hi>
+               </placeName>, u. <persName ref="cvh1">meine Frau</persName> u.
+                    ich durchzogen indeß, meist zu Pferde, einen Theil des Gebirges. Was aber soll
+                    ich Ihnen davon sagen, mein theurer Freund? was von dem Thale von <placeName ref="Gavarnie">
+                  <hi rend="antiqua">Gavarnie</hi>
+               </placeName>, wo man eine
+                    ganze Tagereise auf einem schmalen Wege am Abhange der Felsen macht, immer bald
+                    mehr, bald minder tief unter sich den <del type="fragment">S</del> Bergstrom
+                    rauschen hört, neben sich die wunderbarsten Felsgestalten erblickt, u. mit
+                    Erstaunen sieht, wie nicht bloß da, wo der Fluß manchmal das Thal erweitert, u.
+                    wie mit Fleiß einen bequemeren Raum zum Anwohnen gelassen hat, sondern bis in
+                    beträchtliche Höhe an den Felsen hin, sich noch Menschen angesiedelt haben? was
+                    von dem prächtigen Amphitheater des <hi rend="antiqua">Marboré</hi>, das dieses
+                    Thal am Ende beschließt, wo der steile Berg sich in drei Etagen erhebt, von
+                    seinem Rücken der Strom herabstürzt, u. sich oben in die sogenannten
+                    Rolandsthürme u. Rolandsmauer (<hi rend="antiqua">la brêche de Roland</hi>)
+                    neigt, die immer mit Schnee bedeckt sind? was von dem prächtigen Wege von
+                        <placeName ref="Bareges">
+                  <hi rend="antiqua">Barrèges</hi>
+               </placeName> bis
+                        <placeName ref="Pierrefitte-Nestalas">
+                  <hi rend="antiqua">Pierrefitte</hi>
+               </placeName>, der an den <del type="fragment">Seit</del>
+                    Wänden der steilsten Felsen, durch die sich der <hi rend="antiqua">Gave</hi> nur
+                    mit Mühe sein <pb n="3*"/> Bett öfnet, für große Wagen gebahnt ist, u. obgleich
+                    in der Mitte dieses Jahrhunderts gemacht, durch die überwundene Schwierigkeit
+                    einem Römerwerke gleicht? was von dem lieblichen Thale von <placeName ref="Cauterets">
+                  <hi rend="antiqua">Cauterets</hi>
+               </placeName>, u. dem
+                    wilderen, aber auch interessanteren hinter diesem Städtchen, das <add>immer
+                        aufsteigend</add> von einem schönen Wasserfall zum andren u. endlich an die
+                    Ufer eines Bergsees führt, an dessen entgegengesetztem Ende man <add>ein</add>
+                    mächtiges, einzeln dastehendes Schneegebirge, den <hi rend="antiqua">Vignemale</hi>, sieht? Wir konnten diese Gegenden nur flüchtig durcheilen,
+                    wie gerne wären wir länger darin verweilt, wie gern hätten wir mehr u. dieselben
+                    öfter gesehn. Ich kann Ihnen nicht beschreiben, wieviel Genuß mir diese großen
+                    Naturgegenstände, von denen ich so lauge entwöhnt war, gegeben, wie <del type="fragment">s</del> tief sie mein Innres erschüttert haben. Wenn wir aus
+                    unsrem innren Wesen herausgehen, giebt es einmal nichts, woran wir die Ideen des
+                    Erhabenen, des unerschütterlich Festen, des durch sich selbst Bestehenden
+                    festhalten können, als das endlose Gewölbe des Himmels über uns, u. die
+                    ungeheuren Felsmassen um uns, die, obgleich selbst Geburten der Zeit u. ihrer
+                    Umwandlungen, ihr doch ewig zu trotzen scheinen. Nur in diesen Massen, die sich
+                    drohend u. furchtbar zu unsrer Seite erheben, wird es dem Menschen recht
+                    lebhaft, welche Menge rohen leblosen Stoffs, den er sonst unbemerkt unter seinen
+                    Füßen läßt, ihn umgibt u. ihm täglich den Untergang droht, u. wenn man nicht
+                    einen Blick in den weiten Aether thun könnte, wenn nicht Sonne oder Sterne
+                    freundlich herunter schauten, so weiß ich nicht, wie man nicht, von so
+                    ungeheuren Gegenständen eingeschlossen u. niedergedrückt, in sich selbst
+                    vergehen müßte. Auf meine Einbildungskraft wenigstens wirkt nichts so
+                    schrecklich, als die <del type="fragment">leb</del> rohe Masse, ohne Leben, ohne
+                    Organisation, ein bloßer <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> Haufe
+                            <del>
+                  <gap quantity="4" unit="chars"/>
+               </del> formlosen ungebildeten
+                    Stoffes — Gebirge, das weite unfruchtbare Meer, ja wenn die Phantasie es recht zu
+                    fassen gestimmt ist, selbst die rollenden Weltkörper, deren ewige Gesetze nur um
+                    so furchtbarer sind, als ein <subst>
+                  <del>
+                     <gap quantity="4" unit="chars"/>
+                  </del>
+                  <add>undurchdringliches</add>
+               </subst> Geheimniß sie umschleiert. Diese Empfindungen<supplied cert="high">,</supplied> dünkt mich<supplied cert="high">,</supplied> müssen jeden
+                    reizbar gestimmten Menschen in einem großen Gebirge begleiten, bald sieht er
+                    einen ungleichen Kampf zwischen der rohen Masse der Elemente u. der lebendigen
+                    Schöpfung eröfnet, bald fühlt er mit innrem Stolze die geistige Kraft in sich,
+                    die ihn gegen jede Natureinwirkung stählt u. über jede eingeschränkte Sphäre
+                    erhebt, bald erblickt er in diesen <del type="fragment">G</del> uralten Gipfeln,
+                    mit ruhiger gestimmter Phantasie, nur die stillen Zeugen vieler Jahrtausende,
+                    die Grabstätte ganzer Geschlechter von Geschöpfen. In einer solchen Natur können
+                    einen nur die einfachsten <del>aber</del> u. höchsten Ideen erfüllen, es sind
+                    die letzten Ende aller Fäden unsers Denkens u. Empfindens, die dort
+                    zusammenkommen. Da ich keinen bestimmten Gegenstand der Forschung dort hatte,
+                    überließ ich mich um so lieber <add>bloß</add> diesen Empfindungen; man fühlt
+                    von Zeit zu Zeit ein Bedürfniß sich zu sammeln, u. noch mehr, wenn man
+                    anderthalb Jahre in dem Gewühl einer großen Stadt gelebt hat. Wie einen aber
+                    auch nur ein einziger Tag in einer solchen Natur zugebracht, davon scheidet, das
+                    habe ich erst jetzt recht lebhaft erfahren, u. ich bin über mich selbst
+                    erstaunt, wie Dinge, an denen ich in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> den lebhaftesten Antheil genommen hatte, mir da
+                    durchaus gleichgültig geworden waren. Der einzige interessantere Mensch, den ich
+                    dort sah, war <persName ref="lramond">
+                  <hi rend="antiqua">Ramond</hi>
+               </persName>,
+                        <pb n="4*"/> dessen Sie Sich wohl von alter Zeit her aus <placeName ref="Straßburg">
+                  <hi rend="antiqua">Strasburg</hi>
+               </placeName> erinnern.
+                    Wenigstens sagte er mir, daß er Sie mehrmals gesehen habe, u. <hi rend="antiqua">
+                  <persName ref="jmrlenz">Lenzen</persName>’</hi>s vertrauter Freund
+                    gewesen sey. Er war viel zu wenig mittheilend, um seinen Umgang eigentlich zu
+                    genießen, dennoch sah ich ihn immer genug, um manche Bemerkung über das, was
+                    eine französische Natur ist, an ihm zu machen. Aus den Pyrenäen reisten wir über
+                        <placeName ref="Pau">
+                  <hi rend="antiqua">Pau</hi>
+               </placeName> nach <placeName ref="Bayonne">
+                  <hi rend="antiqua">Bayonne</hi>
+               </placeName>. In <placeName ref="Pau">
+                  <hi rend="antiqua">Pau</hi>
+               </placeName> ist leider das Schloß, in
+                    dem man vor 10 Jahren noch alle <hi rend="antiqua">meublen</hi> aus <persName ref="henri4">
+                  <hi rend="antiqua">Heinrichs</hi> 4.</persName> Zeit sah, jetzt
+                    ganz ausgeleert, u. es bleibt nur die sehr schöne Aussicht auf das Gebirge
+                    übrig. <placeName ref="Bayonne">
+                  <hi rend="antiqua">Bayonne</hi>
+               </placeName> hat
+                    nichts Interessantes als das Meer. Aber an diesem brachten wir zwei Tage
+                    hintereinander einige schöne Stunden zu. Unsre Kinder spielten mit den Muscheln
+                    im Sande, u. wir konnten uns nicht satt sehen an der schönen grenzenlosen
+                    Fläche. In <placeName ref="Bayonne">
+                  <hi rend="antiqua">Bayonne</hi>
+               </placeName>
+                    ließen wir unsren Wagen stehen u. übergaben uns einem sogenannten <hi rend="antiqua">coche de colleras</hi>, den Spanischen <hi rend="antiqua">Vetturinen</hi>, in denen man Schritt vor Schritt mit 6 Mauleseln von einem
+                    schlechten Wirthshaus zum andren geschleppt wird. Diese Art zu reisen ist in der
+                    That höchst widrig u. langweilig, besonders wenn, wie es bei <hi rend="antiqua">Castilien</hi> der Fall ist, die Gegenden einförmig u. häßlich sind. Die
+                    ersten Tage geht es sehr gut. Man reist durch <hi rend="antiqua">Biscaya</hi>,
+                    wo <del type="fragment">Gege</del> Gegend, Cultur, u. die Menschenrace selbst
+                    gleich interessant sind. Nie ist mir ein Volk vorgekommen, das einen so ächt
+                    nationellen Charakter, eine sich schon auf den <del type="fragment">Er</del>
+                    ersten Anblick so originell ankündigende Physiognomie behalten hat. Selbst die
+                    Männer sind zwar gewöhnlich klein, aber fast alle ohne Ausnahme zeichnen sich
+                    durch feine u. sprechende Züge aus. Es sind nicht starke u. ausgearbeitete, es
+                    sind leicht angelegte u. feine Physiognomien, mehr keck im Ausdruck, als bloß
+                    muthig, mehr behend als stark, mehr reizbar als leidenschaftlich. In keiner
+                    andren Nationalphysiognomie habe ich je etwas Aehnliches gefunden, unter keinem
+                    andren Volke so allgemein den Ausdruck gerade der intellectuellen Kräfte, u.
+                    doch deutet nichts in ihrer Bildung auf List oder Schlauheit hin; es ist
+                    vielmehr die glücklichste Vereinigung eines feinen Verstandes mit einem geraden
+                    u. schlichten Sinn. Die Weiber sind bei weitem minder vortheilhaft gebildet;
+                    ihre Züge sind minder fein u. sprechend; aber alle haben eine großgeschnittne,
+                    ernste u. sogar strenge Physiognomie, vorzüglich in den großen, schwarzen, wenig
+                    gebognen, u. sehr häufig in der Mitte zusammenstoßenden Augenbrauen. Vorzüglich
+                    auffallend ist bei den Männern die Leichtigkeit u. Behendigkeit des Ganges. Es
+                    gehört in der That nur wenig Uebung dazu, einen Basquen gleich im Gange auch von
+                    hinten zu erkennen. Was ich indeß hier sage, gilt mehr von den Französischen,
+                    als Spanischen Basquen, u. ich glaube die Ursach zu errathen. Der ursprünglich
+                    Basquische Nationalcharakter hat mehr Aehnlichkeit mit dem Französischen, als
+                    dem Spanischen, u. mußte sich also in der Nähe des ersteren eigenthümlicher
+                    ausbilden. Wer, was freilich schwer genug seyn muß, geläufig ihre Sprache
+                    redete, müßte mit Vergnügen u. Interesse eine Zeitlang unter ihnen leben, u.
+                    schon mir that es sehr leid, sie so schnell verlassen zu müssen. Fast noch
+                    weniger sah ich die <hi rend="antiqua">Béarner</hi>. Auch sie haben etwas
+                    überaus Eigenthümliches, weniger Feinheit, aber eine schlanke u. männlich schöne
+                    Bildung. Unter den Basquen u. Bearnern findet man, <pb n="5*"/> habe ich
+                    bemerkt, mehr als sonst in Frankreich u. Deutschland die Gesichtsbildungen des
+                        15<hi rend="superscript">t</hi> u. 16.<hi rend="superscript">t</hi> Jahrh.
+                    wieder. Auch ohne zu suchen treffen Sie häufig Köpfe an, denen Sie nur einen
+                    Helm aufzusetzen brauchen, um aus ihnen einen <persName ref="henri4">Heinrich
+                        4.</persName> einen <persName ref="cbourbon">
+                  <hi rend="antiqua">Connétable
+                            de Bourbon</hi>
+               </persName> oder irgendeinen andren jener Helden zu
+                    machen. Um die <hi rend="antiqua">Tolosani</hi>sche Sprache u. ihre verschiednen
+                    Mundarten bis an die Spanische Gränze hin, habe ich mich, soviel mir die Kürze
+                    der Zeit verstattete, genau bekümmert u. es wenigstens bis zum Verständniß der
+                        <del type="fragment">Dichte</del> wenigen Dichter gebracht, die diese
+                    Sprache besitzt. Sie ist offenbar weicher, wohlklingender, u. gewandter, als die
+                    Französische. Aber dennoch möchte ich nicht, wie man manchmal thut, behaupten,
+                    daß es besser gewesen wäre, wenn <placeName ref="Toulouse">
+                  <hi rend="antiqua">Toulouse</hi>
+               </placeName> der Hauptsitz der Französischen Literatur
+                    geworden wäre. Ich möchte nicht <subst>
+                  <del>behaupten</del>
+                  <add>sagen</add>
+               </subst>, ob sie sich dann je viel über die Lyrischen
+                    Tändeleien erhoben haben würde, aus denen die Lemosinische ganz besteht, u.
+                    wovon die Ital. u. Span. selbst bei weitem zu viel haben. Ein mehr nordlicher
+                    Himmel mußte mehr Stärke u. Gehalt geben, wenn er gleich beides mit Härte u.
+                    Trockenheit erkaufte. Es ist unläugbar, daß auch im guten Sinn des Worts die
+                    Französische Sprache mehr nordisch, ist als ihre Schwestern, u. hätte der Zufall
+                    der Lemosinischen Mundart den Vorzug gegeben, so hätte sie entweder ihre Natur
+                    verändern müssen, oder die Französische Literatur hätte nie mehr Gehalt an
+                    Gedanken u. Empfindungen bekommen, als die Ital. u. Span. Jetzt ist ihr Vorzug
+                    darin, selbst in ihren Anfängen, offenbar. Ich habe mich in <placeName ref="Paris">Paris</placeName> beschäftigt, die Dichter des 15<hi rend="superscript">t</hi> u. 16 Jahrh. zu vergleichen; u. auch in diesen,
+                    die an poetischem Werth so offenbar den Span. sogar nachstehen, dennoch so tief
+                    menschliche, so rein sentimentale Stellen gefunden, als mir in Ital. u. Spaniern
+                    nie aufgestoßen sind, wenn <subst>
+                  <del>sie</del>
+                  <add>Sie</add>
+               </subst> von den ersten nur <persName ref="fpetrarca">
+                  <hi rend="antiqua">Petrarca</hi>
+               </persName> u. einige andre ausnehmen. Ich habe es mir zum
+                    besondren Zweck gemacht, wenn ich je damit zu Stande komme, die Resultate meiner
+                    Reisebemerkungen zusammenzustellen, den verschiedenen Geist dieser Literaturen
+                    in jenen Jahrhunderten zu<del>sammen</del> vergleichen, u. ich hoffe dann
+                    deutlich darzuthun, daß die Französische Sprache, trotz ihres gemeinschaftlichen
+                    Ursprungs einen ganz u. gar verschiednen Charakter von der ihr so nahen
+                    Lemosinischen angenommen, u. daß dieser Charakter hernach den Gang der ganzen
+                    Literatur bestimmt hat. Aber die Ursachen davon aufzufinden, ist unendlich
+                    schwierig u. sehr schwierig schon nur zu zeigen, in welchen einzelnen
+                    Sprachtheilen diese Verschiedenheit liegt. Besonders ist es schlimm, daß man zu
+                    diesem Behuf eine Menge schlechter u. mittelmäßiger Sachen lesen muß, aber die
+                    Französische Sprache ist auch die einzige, die das sonderbare Phänomen zeigt,
+                    daß die schlechten Dichter poetischer sind, als die guten. Ganz wunderbar, um zu
+                    meiner Reise zurückzukehren, ist das Gemisch von Mundarten in den Pyrenäen, die
+                        <hi rend="antiqua">Tolosa</hi>nische Sprache ist da völlig unrein, u. hat
+                    ganz spanische, ganz ital. u. ganz französische Wörter. Z. E. die vier
+                    Jahreszeiten heißen <foreign sameAs="oc">
+                  <hi rend="antiqua">primavera</hi>
+               </foreign>, <foreign sameAs="oc">
+                  <hi rend="antiqua">estio</hi>
+               </foreign>, <foreign sameAs="oc">
+                  <hi rend="antiqua">lavor</hi>
+               </foreign> (von der Arbeit), <foreign sameAs="oc">
+                  <hi rend="antiqua">hiver</hi>
+               </foreign>. Wenn man je ernstlich an der
+                    Volksbildung in Frankreich gearbeitet hätte, wie doch seit der Revolution nöthig
+                    gewesen wäre, so hätte eine so unlogisch gebildete Sprache ein großes Hinderniß
+                        <del>gewesen</del> seyn müssen. Sogar Englische Wörter haben die Eroberungen
+                    der Engländer in <hi rend="antiqua">Guienne</hi> dort gemein gemacht. So habe
+                    ich mich lange gequält zu erfahren was eine <hi rend="antiqua">notre dame de
+                        medouse</hi> sey, <pb n="6*"/> bis man mir sagte, daß es nichts andres, als
+                        <hi rend="antiqua">notre Dame des prés</hi> (von <hi rend="antiqua">meadow</hi>) <del>also eine</del> ist, wie so viele Jungfrauen u. Heil. auf
+                    ächt heidnische Weise nach der Lage ihrer Kirchen u. Kapellen heißen. — Die
+                    Reise durch Kastilien ist das Traurigste, das man sich denken kann. Von einer so
+                    öden Gegend hat man in der That sonst keinen Begriff. Nicht bloß daß Sie lang
+                    fahren müssen, um Dörfer zu finden, sondern seltener noch als selbst Dörfer u.
+                    Städte sind — Bäume. Das ganze Land ist Eine Fläche u. höchstens begränzen
+                    dieselbe am Horizont einige gleich kahle Sandhügel. In diesem Lande muß man
+                    mehrere Tagereisen machen, u. nur selten wird man durch einen interessanten
+                    Anblick entschädigt. Nichts ist so wunderbar als die Gebirge von <placeName ref="Pancorbo">
+                  <hi rend="antiqua">Pancorbo</hi>
+               </placeName>, die fast den
+                    Eingang in <hi rend="antiqua">Castilien</hi> ausmachen. Auf flachem Felde
+                    erheben sich nackte u. steile Felsen, durch die ein enger Paß geht, von so
+                    wunderbaren u. grotesken Gestalten, daß<supplied cert="high">,</supplied> wäre
+                        <hi rend="antiqua">Don Quixote</hi> in diese Provinz gekommen, man es ihm
+                    hätte verzeihen können, wenn er sie für bezauberte Schlösser gehalten hätte. In
+                    der That haben einige die Form wahrer Kastelle, u. es scheint, als ständen sie
+                    da, um dem Reisenden einen abentheuerlichen Begriff von dem Lande zu geben, zu
+                    dem sie ihm den Zugang verstatten. In <placeName ref="Burgos">
+                  <hi rend="antiqua">Burgos</hi>
+               </placeName>, <placeName ref="Valladolid">
+                  <hi rend="antiqua">Valladolid</hi>
+               </placeName>, u. <placeName ref="Segovia">
+                  <hi rend="antiqua">Segovia</hi>
+               </placeName> sind gothische Gebäude, welche
+                    die Aufmerksamkeit des Reisenden verdienen, doch mehr in dem Maurischen
+                    Geschmack, der weniger groß in den Formen, aber zierlicher u. reicher in den
+                    Détails ist. Nur die Kathedralkirche von <placeName ref="Segovia">
+                  <hi rend="antiqua">Segovia</hi>
+               </placeName> gleicht den großen Gothischen
+                    Gebäuden in Deutschland u. der Lombardei. Bei weitem das Merkwürdigste aber auf
+                    diesem Wege ist die Wasserleitung in <placeName ref="Segovia">
+                  <hi rend="antiqua">Segovia</hi>
+               </placeName>. Sie ist noch vollkommen erhalten, u. es ist
+                    vorzüglich von einer Seite ein majestätischer Anblick, diese Reihe schöner Bögen
+                    zwei beträchtliche Hügel verbinden, u. zu ihren Füßen die Stadt liegen zu sehen.
+                    In <placeName ref="San Ildefonso">
+                  <hi rend="antiqua">St.
+                        Ildefonso</hi>
+               </placeName> beschäftigte uns einen Tag lang die
+                    Antikensammlung, die auch, außer den schon bekannten Stücken, noch einige nicht
+                    verächtliche besitzt. Der Weg von da nach dem <placeName ref="El Escorial">
+                  <hi rend="antiqua">Escorial</hi>
+               </placeName> über den <hi rend="antiqua">pont de Guadarama</hi> ist darum merkwürdig, weil man über ziemlich hohe
+                    Berge fährt, die schon großentheils mit Schnee bedeckt waren, u. von denen man
+                    eine weite Aussicht hat. Im <placeName ref="El Escorial">
+                  <hi rend="antiqua">Escorial</hi>
+               </placeName> fanden wir den Hof. Wir blieben 10 Tage dort
+                    u. seit dem 5. November sind wir hier in <placeName ref="Madrid">
+                  <hi rend="antiqua">Madrid</hi>
+               </placeName>. </p>
+            <p>Der wichtigste Gegenstand bei einer Reise in Spanien, ist der erstaunliche große
+                    Schatz prächtiger Gemälde, die hier überall verstreut sind. Der Reichthum des
+                        <hi rend="antiqua">
+                  <placeName ref="El Escorial">Escorial</placeName>s</hi>
+                    allein übertrifft bei weitem, was man gewöhnlich davon erwartet, u. die
+                    Reisebeschreiber, die ich wenigstens kenne, geben nur höchst unvollständige
+                    Nachrichten davon. <persName ref="cvh1">Meine Frau</persName> macht sich ein
+                    eignes Geschäft daraus<supplied cert="high">,</supplied> sie sammtlich, zwar
+                    kurz aber doch ausführlich genug, um einen deutlichen Begriff von dem Bilde zu
+                    geben, zu beschreiben; sie bestimmt diese Arbeit Ihnen, u. der Gedanke, Ihnen
+                    damit Freude zu machen, stärkt ihren Fleiß u. ihre Geduld dabei. Denn in der
+                    That ist es eine sehr mühselige Arbeit, u. da ihre Gesundheit hier schon
+                    mehrmals gelitten hat, so hätte sie wirklich unter einige mit Wahrheit, wie
+                    weiland der <persName ref="fw1">König von Preußen</persName>, schreiben können:
+                        <hi rend="antiqua">in doloribus fecit</hi>. Wir lachen dann über die Mühe,
+                    die man sich zum Reisen giebt, u. freuen uns der Zeit, wo wir uns
+                    gemeinschaftlich mit Ihnen u. <persName ref="fschiller">Schiller</persName> nur
+                    der Reise Beschwerden <del>zurück</del> erinnern werden. Im Ernst aber <pb n="7*"/> hoffe ich, sollen Sie mit dieser Arbeit recht zufrieden seyn.
+                    Mehrere, namentlich die <persName ref="raffaelsanti">Raphael</persName>s,
+                    scheinen mir in der Beschreibung wirklich sehr gut gerathen. Besonders hat
+                        <persName ref="cvh1">meine Frau</persName> immer gesucht, einen deutlichen
+                    Begriff von der Composition u. der Stellung der Figuren zu geben, u. hernach
+                    einiges zur Beurtheilung des Bildes hinzugefügt. Nur müssen Sie uns erlauben,
+                    diese Beschreibungen<supplied cert="high">,</supplied> bis sie sämmtlich
+                    vollendet sind, bei uns zu behalten. Es ist unmöglich, auf der Reise selbst alle
+                    nothwendigen Notizen zusammenzubringen u. man muß selbst durch die Vergleichung
+                    andrer Bilder, besonders der Spanischen Mahler, noch manches berichtigen. Auch
+                    wird <persName ref="cvh1">meine Frau</persName> zuletzt noch Einiges Allgemeine über die Spanische Schule im
+                    Ganzen hinzusetzen, u. auch die vorzüglichsten Lebensumstände der Spanischen
+                    Mahler aus <bibl sameAs="1176">
+                  <hi rend="antiqua">Palomino</hi>
+               </bibl> u. andren
+                    ausziehen. Das Ganze wird alsdann ein ziemlich beträchtliches Werk werden, denn
+                    schon jetzt hat <persName ref="cvh1">meine Frau</persName> bloß aus dem <placeName ref="Escorial">Escurial</placeName> u. dem neuen Schloß hier über 250 Artikel.
+                        Indeß<supplied cert="high">,</supplied> dächte ich, ließe es sich doch
+                    theilweise bequem in den <bibl sameAs="339">Propyläen</bibl> einschalten, u. auf
+                    alle Fälle berathschlagen wir gemeinschaftlich den Gebrauch, der sich davon wird
+                    machen lassen. Da <persName ref="cvh1">meine Frau</persName> unmöglich allein mit allem fertig werden könnte, so
+                    hilft ihr <persName ref="gcgropius">ein junger Mensch</persName>, den ich jetzt
+                    bei meinen Kindern habe, u. der eigentlich Zeichner u. Kupferstecher ist. Soviel
+                    ich von seinen Beschreibungen gesehen habe, scheinen sie mir gleichfalls ganz
+                    befriedigend. Auch er hat schon eine gute Anzahl. Ich selbst nehme an diesen
+                    Arbeiten so gut, als gar keinen Theil. Ich habe zu sehr gelernt, wie schwer es
+                        ist<supplied cert="high">,</supplied> nur z. B. in der Poesie ein irgend
+                    sichres Urtheil zu haben, um auch über Bilder rathen zu wollen. Das Schlimmste
+                    ist nur, daß man hier viele Weitläuftigkeiten überwinden muß, ehe man zum Sehen
+                    gelangt. Außer den königl. Erlaubnissen, die überall nöthig sind, außer den sehr
+                    theuren Trinkgeldern sind dennoch die Schlösser nur sehr wenige u. zum Theil
+                    unbequeme Stunden offen. Da man aber gegen uns sehr zuvorkommend ist, so finden
+                    wir wenigstens bessren Zugang als andre. — Stellen Sie Sich indeß nur vor,
+                    liebster Freund, daß sehr schöne Bilder von <persName ref="pprubens">Rubens</persName>, von <persName ref="tizian">Titian</persName>, von
+                        <persName ref="greni">Guido Reni</persName> hier in dunkle Kammern verwiesen
+                    sind, weil man sie unanständig findet, Bilder die (so inconsequent ist man)
+                    nicht mehr Nacktheiten zeigen, als andre, die man ausstellt. Eine göttliche
+                    Venus von <persName ref="tizian">Titian</persName>, vielleicht die schönste, die
+                        existirt,<note type="footnote" resp="editor">Gemeint ist wohl die "Venus mit
+                        dem Orgelspieler", heute in Madrid, Museo del Prado, Inv. 420. Vgl. V.
+                        Herzner (1993): Tizians Venus mit dem Orgelspieler. In: K. Güthlein – F.
+                        Matsche (Hrsg.): Begegnungen. Festschrift für Peter Anselm Riedl zum 60.
+                        Geburtstag, Worms: Wernersche Verlags-Gesellschaft, S. 80ff. [FZ]</note>
+                    wenigstens gewiß über die in Dresden, hat noch <sic>(vor</sic> wenigen Jahren
+                    (doch möchte ich nicht<supplied cert="high">,</supplied> daß dies bekannt würde)
+                    den Flammen übergeben werden sollen, u. ist nur mit Mühe gerettet worden. </p>
+            <p>Ich für meinen Theil suche mir, soviel ich kann, einen anschaulichen Begriff des
+                    Landes u. der Nation zu verschaffen. Ich lerne soviel Leute kennen, als ich
+                    kann, ich gehe der neueren Literatur nach, suche die alte auf u. s. f. Einen
+                    wesentlichen Vortheil dazu gewährt mir das, daß ich der Sprache so weit mächtig
+                    bin, um auch allenfalls ein raisonnirendes Gespräch mit Leichtigkeit zu führen.
+                    Etwas, das allgemein sehr interessant wäre, Männer von eignen u. originellen
+                    Ideen, Leute, die in einer oder andren Wissenschaft Entdeckungen gemacht hätten,
+                    finde ich selten, aber interessant für mich sind diese Nachforschungen immer,
+                    weil sie die Nation kennen lehren, weil man sehr häufig auf Menschen stößt, die
+                    sich, trotz aller wirklich unglaublichen Schwierigkeiten, zu einem hohen Grade
+                    der Aufklärung emporgearbeitet haben, u. endlich weil einen die biedere
+                    Gutmüthigkeit freut, mit der man hier ausgenommen <pb n="8*"/> u. die
+                    unaffectirte Gefälligkeit, mit der man behandelt wird. Unter den neueren
+                    Dichtern sind einige sehr gute, u. für die Poesie ist es gewiß falsch, was man
+                    gewöhnlich glaubt, daß das goldene Zeitalter der <add>Span.</add> Literatur
+                    vorbei sey. <persName ref="lmoratin">
+                  <hi rend="antiqua">Moratin</hi>
+               </persName> u. <persName ref="jmelendez">
+                  <hi rend="antiqua">Melendez</hi>
+               </persName>
+                    sind auch im Auslande bekannt. Aber noch heute sah ich einen, dessen Name
+                    schwerlich noch jenseits der Pyrenäen erschollen ist, einen gewissen <persName ref="mjquintana">
+                  <hi rend="antiqua">Quintana</hi>
+               </persName>, von dem ich einige wirklich gute Productionen
+                    kenne, u. der ein sehr guter Kopf scheint. <persName ref="lmoratin">
+                  <hi rend="antiqua">Moratin</hi>
+               </persName> hat
+                    neuerlich <bibl sameAs="1177">den <hi rend="antiqua">Hamlet</hi> übersetzt</bibl>, aber leidet in Prosa; er
+                    hat mich gebeten, ihn mit dem Original zu vergleichen u. ihm meine Bemerkungen
+                    darüber zu sagen, u. ich werde mich jetzt an diese Arbeit machen. Ueberhaupt
+                    aber ist man hier gegen <persName ref="wshakespeare">
+                  <hi rend="antiqua">Shakespeare</hi>
+               </persName>, sowie gegen jedes
+                    Genie, das die engen Regeln verläßt, ungerecht, u. ahmt darin, wie in so vielen
+                        andrem<supplied cert="high">,</supplied> leider den Franzosen nach. Das
+                    Theater besuche ich nur der Sprache wegen, zu ästhetischen Beobachtungen darüber
+                    ist es noch nicht reif. Es trägt noch die deutlichsten Spuren der ersten u.
+                    rohesten Anfänge des Theaters an sich, u. die Stücke werden recht eigentlich dem
+                    Publikum vortragirt, u. nur um den Uebergang von da zur eigentlichen Mimik
+                    kennen zu lernen, könnte es wichtig sein. Originelle Vorzüge hat es indeß im
+                    niedrig komischen Spiel; erst gestern sah ich ein Zigeunerstück von einer so
+                    volksmäßigen Zierlichkeit, Coquetterie u. Feinheit, daß keine Schauspielerin
+                    keiner Nation es dieser Zigeunerin nachmachen könnte. – Sollte ich nach meinem
+                    jetzigen Aufenthalte eine allgemeine Bemerkung über Spanien machen, so wäre es
+                    die, daß man dies Land so sieht, wie Europa überhaupt im 16<hi rend="superscript">t</hi> Jahrh. z. B. gewesen seyn muß. Ich sage das nicht
+                    sowohl in Rücksicht auf moralische Finsterniß u. Barbarei. So wäre das Urtheil
+                    über Spanien ungerecht u. außerdem sehr trivial. Aber vorzüglich finde ich diese
+                    Aehnlichkeit darin, daß in Sprache, Sitten u. Gebräuchen hier weniger
+                    Unterschied zwischen dem Volk u. den höhern Ständen herrscht. Es ist mehr
+                    schlichte Einfachheit u. Natürlichkeit, als im übrigen Europa. Es gibt doch
+                    keine größere Scheidewand unter den verschiednen Ständen, als die, welche die
+                    feinere intellectuelle Bildung errichtet, u. diese Scheidewand fehlt hier. Je
+                    später sich eine Nation ausbildet, desto unübersteiglicher ist, dünkt mich diese
+                    Scheidewand. Sie existirt kaum in Spanien, weil die Bildung dort ihren Gipfel
+                    fast im 16<hi rend="superscript">t</hi> Jahrh. erreicht hatte; sie ist geringer
+                    in Frankreich<supplied cert="high">,</supplied> weil, die übrigen Ursachen auch
+                    nicht gerechnet, auch dort die feinere Bildung schon alt ist, sie ist unendlich
+                    groß in Deutschland; bei uns ist in der That eine intellektuelle Aristokratie;
+                    wer nicht zur Kaste gehört, kann auch selbst unsre leichtesten Schriftsteller
+                    kaum verstehen. Die Ursach scheint mir nahe zu liegen. Die Bildung in diesen
+                    letzten Zeiten ist schnell, sie ist vorzüglich philosophisch gewesen, u. hat
+                    ganz u. gar d<supplied cert="high">urc</supplied>h. Schriftsteller Fortschritte
+                    gemacht. In den frühren Zeiten war sie langsamer u. sinnlicher, das Volk konnte
+                    damals nachkommen, jetzt eilt man ihm ohne alle Hofnung der Möglichkeit des
+                    Einholens voraus. Auch im Mittelalter gab es sogenannte hohe Wissenschaften,
+                    Metaphysik u. scholastischen Wust. Aber er blieb immer in seiner engen Sphäre.
+                        Jetzt<supplied cert="high">,</supplied> wo alle Wissenschaften enger
+                    verbunden sind, geht auch die Philosophie mehr in alle über, u. hat einer einmal
+                    mit Beifall <pb n="9*"/> ein System aufgestellt, so tönt es dem armen Laien aus
+                    allen Ecken wieder, u. er muß, wie vor einem verschloßnen Schrank<supplied cert="high">,</supplied> davor stehen bleiben. Gerade was hätte dazu
+                    beitragen sollen, die Wissenschaften populär zu machen, hat die entgegengesetzte
+                    Wirkung gehabt. Sonst schrieb man<supplied cert="high">,</supplied> was schwerer
+                        war<supplied cert="high">,</supplied> Lateinisch, u. was man in der
+                    Muttersprache schrieb, machte man auch für das Volk verständlich. Jetzt fällt
+                    diese letztere Bemühung fast ganz hinweg. </p>
+            <p>Ihre beiden Briefe vom 16. 7br. u. 28. 8br. habe ich richtig erhalten, u. danke
+                    Ihnen herzlich dafür. – Was die <hi rend="antiqua">Basreliefs</hi> aus
+                        <placeName ref="Athen">
+                  <hi rend="antiqua">Athen</hi>
+               </placeName> betrift, so
+                    steht es damit so: Es war<supplied cert="high">en,</supplied> wenn Sie sich
+                    recht erinnern<supplied cert="high">,</supplied> zwei Dinge, die ich Ihnen
+                    versprach: 1., eine Vergleichung von Zeichnungen der <hi rend="antiqua">Basreliefs</hi> des Tempels der <hi rend="antiqua">Minerva</hi>, die sich
+                    auf der <orgName ref="7">NationalBibl.</orgName> in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> befinden<supplied cert="high">,</supplied> mit den <sic>
+                  <persName ref="jstuart">
+                     <hi rend="antiqua">Steward</hi>
+                  </persName>schen</sic> Zeichnungen. 2., eine genauere
+                    Beschreibung der nach <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> wirklich gebrachten Abdrücke. Die erstere ist
+                    gemacht, u. ich habe sie vor mir liegen. Allein ich muß sie erst durchsehen u.
+                    abschreiben lassen, weil ich nur das einzige Exemplar habe, u. dies nicht gern
+                    der Post allein anvertrauen möchte. Das zweite ist schwerer, um so mehr, als Sie
+                    mehr, als Beschreibung, sogar Abdrücke wünschten. Der junge <persName ref="flcatel">
+                  <hi rend="antiqua">Catel</hi>
+               </persName>, der die Vergleichung
+                    gemacht hat, ist nicht mehr in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName>. Auch war er nicht recht tauglich zu einer
+                    irgend guten Beschreibung solcher Kunstwerke. Allein ich habe einen andren
+                    Freund von mehr Genie u. mehr Kunstkenntniß in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName>, <persName ref="cftieck">einen jungen Bildhauer</persName> aus
+                        <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName>, der
+                    wirklich viel Talent besitzt<supplied cert="high">,</supplied> u. diesem habe
+                    ich aufgetragen, Ihnen zu schreiben, u. Ihnen wo möglich einige <hi rend="antiqua">Basreliefs</hi> abzuzeichnen. Er thut es gewiß, nur ist er
+                    kränklich und zögert also vielleicht etwas. Wegen des Abgusses habe ich ihm
+                    gleichfalls Auftrag gegeben, u. ihm die Mittel u. Wege angezeigt. Allein ich
+                    zweifle, daß er es erlangt. Es wird gewiß schwierig seyn, u. so manche dazu
+                    dienliche Bekanntschaft ich auch wohl hätte, so ist doch so etwas, wie Sie
+                    selbst sehen, schriftlich nicht zu versuchen. Im Frühjahr aber komme ich selbst
+                    nach <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> u. ist
+                    alsdann mein Freund <persName ref="cftieck">
+                  <hi rend="antiqua">Tieck</hi>
+               </persName> nicht glücklich gewesen, so versuche ich noch mein
+                    Heil. An meiner Bemühung soll es gewiß nicht liegen, nur sind gerade die <hi rend="antiqua">Basreliefs</hi> unter Aufsicht eines nicht sehr gefälligen
+                    Mannes u. den ich nicht persönlich kenne.</p>
+            <p>Daß Sie <bibl sameAs="229">meinem Aufsaze über die tragische Französische
+                        Bühne</bibl> einen Platz in den Prop. verstatten, ist mir sehr angenehm, u.
+                    ich danke Ihnen von ganzem Herzen dafür. Ich wünsche nur, daß ich der Deutschen
+                    gehörig Gerechtigkeit habe widerfahren lassen. Ich kenne sie, offenherzig
+                    gesprochen, zu wenig. Ich besonders habe immer den Fehler begangen<supplied cert="high">,</supplied> in meinem Vaterlande nur das Beste sehen zu wollen,
+                    u. auf Reisen geht man jeder Kleinigkeit nach. Es steht mir noch bevor, jetzt in
+                    Deutschland zu reisen. Auf <bibl sameAs="1174">Ihren Mohamet</bibl> bin ich sehr
+                    begierig. Ich habe es immer für unmöglich gehalten<supplied cert="high">,</supplied> eine Französische Tragödie deutsch für Deutsche zu übersetzen.
+                        <hi rend="antiqua">
+                  <persName ref="fwgotter">Gotter</persName>s</hi>
+               <bibl sameAs="1175">Alzire</bibl> ist, dünkt mich, zu sehr Französisch
+                    geblieben.</p>
+            <p>Mit dem armen Ich scheinen Sie mir (ich meyne nicht den Hergang, sondern Sie in
+                    Ihrem Briefe) nicht glimpflich genug umzugehen. Die Metaphysik ist einmal die
+                    Basis alles eigentlichen Denkens<supplied cert="high">,</supplied> u. nun
+                    wollten Sie nicht da auch der Sonderbarkeit einigen Spielraum gönnen? Auch
+                    verzweifle ich noch nicht an der Haltbarkeit des <persName ref="jgfichte">Fichtischen</persName> Systems. Stellen Sie Sich nur vor. Ein <hi rend="antiqua">Prof</hi>. in <placeName ref="Agen">
+                  <hi rend="antiqua">Agen</hi>
+               </placeName> (leider sah ich ihn nicht) studirt die <persName ref="ikant">Kant</persName>ische Philosophie u. auch in <placeName ref="Madrid">
+                  <hi rend="antiqua">Madrid</hi>
+               </placeName> ist wenigstens <subst>
+                  <del>sein</del>
+                  <add>ihr</add>
+               </subst> Name bekannt. <pb n="10*"/> Wenn ich nicht fürchtete, von Ihnen als
+                    Missionar verlacht zu werden, so möchte ich Ihnen sagen, daß ich noch heute
+                    einem Spanier die allein seligmachende Lehre gepredigt habe. Aber auch in der
+                    Philosophie haben die Franzosen hier alles angesteckt.</p>
+            <p>Sagen Sie <persName ref="fschiller">Schiller</persName>, daß es nicht recht sey,
+                    mich ganz zu vergessen. Es ist unendlich lange her, daß ich keine Zeile von ihm
+                    gesehen habe. </p>
+            <p>Wir reisen Mitte December von hier nach <placeName ref="Cadiz">
+                  <hi rend="antiqua">Cadiz</hi>
+               </placeName> ab, u. gehen über <placeName ref="Granada">
+                  <hi rend="antiqua">Granada</hi>
+               </placeName>, <placeName ref="Valencia">
+                  <hi rend="antiqua">Valencia</hi>
+               </placeName> u. <placeName ref="Barcelona">
+                  <hi rend="antiqua">Barcelona</hi>
+               </placeName> nach <hi rend="antiqua">Frankreich</hi> zurück. Wir sehen mithin noch einen schönen Theil Spaniens.
+                    Machen Sie uns ja die Freude<supplied cert="high">,</supplied> noch in Spanien
+                    Briefe von Ihnen zu erhalten. Adressiren Sie sie: <hi rend="antiqua">à Mr. le
+                        Baron de H. à <placeName ref="Madrid">Madrid</placeName>, chez <persName ref="dtribolet">Monsieur de Tribolet-Hardy</persName>, Conseiller
+                        d’Ambassade de <persName ref="fw3">S. M. le Roi de Prusse</persName>, <hi rend="underline">calle Cantarranas</hi>, nr.</hi> 6.</p>
+            <p>Der <persName ref="fschiller">Schiller</persName> hat <persName ref="cvh1">meiner
+                        Frau</persName> selbst zu ihrer Entbindung<note type="footnote" resp="editor">Das vierte Kind von Caroline und Wilhelm von Humboldt,
+                            <persName ref="ahedemann">Adelheid</persName>, sollte am 17. Mai 1800 in
+                        Paris zur Welt kommen. [FZ]</note> Glück gewünscht. Grüßen Sie ihn u. sie u.
+                    unsern theuren <persName ref="jhmeyer">Meyer</persName> aufs Herzlichste.</p>
+            <closer>Von ganzer Seele<lb/>
+               <lb/>Ihr<lb/>
+               <signed>H.</signed>
+            </closer>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>Sie zeigen diesen Brief wohl nur <persName ref="fschiller">Schillern</persName>. Vor einem andren als Ihnen beiden möchte ich
+                        nicht mit so <hi rend="antiqua">précocen</hi> Urtheilen erscheinen. —
+                        Verzeihen Sie, wenn er vielleicht theuer ist. Man kann aus Spanien
+                        schlechterdings nicht frankiren. </p>
+               <p>
+                  <persName ref="cvh1">Meine Frau</persName> grüßt Sie vom Herzen. </p>
+               <p>
+                  <persName ref="avh">Mein Bruder</persName> ist in <placeName ref="Cumana">
+                     <hi rend="antiqua">Cumana</hi>
+                  </placeName> in Südamerika glücklich
+                        angekommen; er ist sehr vergnügt u. hat, wie er mir schreibt, interessante
+                        Beobachtungen, vorzüglich auf dem <hi rend="antiqua">Pic de <placeName ref="Teneriffa">Teneriffa</placeName>
+                  </hi> gemacht. Er will einige
+                        Monate in <placeName ref="Cumana">
+                     <hi rend="antiqua">Cumana</hi>
+                  </placeName>
+                        u. <placeName ref="Caracas">
+                     <hi rend="antiqua">Carracas</hi>
+                  </placeName>
+                        bleiben u. wird, da sein letzter Brief schon vom <date when="1799-07-16">16.
+                                <hi rend="antiqua">Jul</hi>.</date> ist, wohl jetzt nach der
+                            <placeName ref="Havanna">
+                     <hi rend="antiqua">Havana</hi>
+                  </placeName>
+                        gegangen seyn. </p>
+               <p>Der Smaragdstufe trachte ich nach u. denke sie gewiß zu bekommen. </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

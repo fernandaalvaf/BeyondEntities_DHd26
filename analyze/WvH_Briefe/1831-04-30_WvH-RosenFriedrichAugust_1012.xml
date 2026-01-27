@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Rosen, 30.04.1831<idno type="BBAW">1012</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv,
+                            62.192</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8356</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcrawfurd">
+                  <persName>Crawfurd, John</persName>
+               </person>
+               <person corresp="jmurray">
+                  <persName>Murray, John</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="101">Crawfurd, John: History of the Indian Archipelago: Containing an
+                    account of the manners, arts, languages, religions, institutions, and commerce
+                    of its inhabitants: In three volumes (Edinburgh: A. Constable and Co.
+                    1820)</bibl>
+               <bibl corresp="351">Raffles, Thomas Stamford: The History of Java. In two volumes
+                    (London: Black, Parbury, and Allen 1817)</bibl>
+               <bibl corresp="704">Raffles, Thomas Stamford: The History of Java. In two volumes.
+                    Second edition (London: Murray 1830)</bibl>
+               <bibl corresp="588">Rosen, Friedrich August: Rigvedae specimen (London: J. Taylor
+                    1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich kann Ihnen, theuerster Freund, nicht lebhaft genug für
+                        die Güte dancken mit welcher Sie mir die zweite Ausgabe des Raffles’ so
+                        schnell …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-04-30"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift; Grußformel und Unterschrift von
+                    Humboldt</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich kann Ihnen, theuerster Freund, nicht lebhaft genug für die Güte
+                    dancken<!-- sic? --> mit welcher Sie mir die <bibl sameAs="704">zweite Ausgabe des
+                            <hi rend="antiqua">Raffles’</hi>
+               </bibl> so schnell geschickt haben.
+                    Leider bin ich aber mit dieser Ausgabe sehr übel angekommen und sie ist für mich
+                    durchaus werthlos. Der Verleger hat nemlich alle Wörterverzeichnisse weggelassen
+                    oder vielmehr von jedem auf wahrhaft lächerliche Weise den Anfang gegeben, und
+                    dann geradezu abgebrochen. Ein solches Wörterverzeichniß ist von 90 Quartseiten
+                    auf zwei Octavseiten zurückgebracht. Von dieser Veränderung ist aber weder auf
+                    dem Titel noch sonst irgendwo, soviel ich habe sehen können, eine Anzeige
+                    gemacht. Der mit der <bibl sameAs="351">ersten Ausgabe</bibl> unbekannte Käufer
+                    muß wirklich glauben, daß der arme <persName ref="tsraffles">
+                  <hi rend="antiqua">Raffles</hi>
+               </persName> selbst so vernunft- und zwecklose
+                    Wortverzeichnisse gemacht hat.</p>
+            <p>Mir bleibt nun nichts anderes übrig, als Sie, theuerster <pb n="2*"/> Freund noch
+                    einmal zu bemühen, und Sie zu bitten, mir die <bibl sameAs="351">erste
+                        Ausgabe</bibl> zu kaufen, welche allein wissenschaftlichen Werth hat. Ich
+                    fürchte nur leider, daß sie vergriffen sein wird. Wäre dies nicht der Fall, so
+                    bitte ich um recht schleunige Uebersendung. Das erhaltene Exemplar würde ich
+                    zwar sehr gern für die Hälfte des Preises hingeben ich zweifle aber daß
+                        <persName ref="jmurray">
+                  <hi rend="antiqua">Murray</hi>
+               </persName> es wieder
+                    zurück <sic>nimt</sic>.</p>
+            <p>Ich bitte Sie, theuerster Freund, mir über diese beiden Punckte, ob die <bibl sameAs="351">erste Ausgabe</bibl> vergriffen ist, und ob an ein Zurücknehmen
+                    des empfangenen Exemplars zu denken wäre, wenn es irgend möglich ist, umgehend
+                    zu antworten, da ich bis zum Empfange Ihrer Antwort das neue Exemplar noch
+                    unaufgeschnitten liegen lasse.</p>
+            <p>Zugleich erlauben Sie mir noch einen wissenschaftlichen Punckt zu berühren. Ich
+                    studiere jetzt von zeit zu zeit <bibl sameAs="588">Ihre Veda-Fragmente</bibl>,
+                    und habe darin gefunden, daß als <hi rend="antiqua">casus obliquus</hi> des
+                    Pronomens der zweiten Person sing: sowohl <hi rend="antiqua">
+                  <foreign sameAs="sa">tve</foreign>
+               </hi> als <hi rend="antiqua">
+                  <foreign sameAs="sa">te</foreign>
+               </hi> gebraucht wird. Sie würden mich sehr
+                    verbinden, wenn Sie die Güte haben wollten, mir zu sagen, ob Sie glauben, daß
+                        <pb n="3*"/> ursprünglich beide Formen nebeneinander gebräuchlich gewesen
+                    sind, oder ob die von <hi rend="antiqua">
+                  <foreign sameAs="sa">te</foreign>
+               </hi> nur durch die Schuld neuerer Abschreiber denen
+                        <del>welche</del> sie natürlich geläufiger war, aufgenommen worden ist? Es
+                    muß sich dies nach dem Umstande entscheiden lassen, ob in denjenigen
+                    Handschriften, welchen man sonst Ursache hat, in Absicht der Treue in diesen
+                    Einzelheiten der Schreibung den Vorzug zu geben, dies <hi rend="antiqua">
+                  <foreign sameAs="sa">te</foreign>
+               </hi> auch häufig vorkommt. Ich
+                    gestehe, daß ich Grund habe zu glauben, daß beide Formen gleichzeitig vorhanden
+                    gewesen sind, und daß, wenn eine die spätere ist, dies eher <hi rend="antiqua">
+                  <foreign sameAs="sa">tve</foreign>
+               </hi> sein möchte.</p>
+            <p>In diesem Augenblicke erhalte ich den <bibl sameAs="101">
+                  <hi rend="antiqua">Crawfurd</hi>
+               </bibl> für den ich Ihnen ausnehmend verbunden bin.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl <lb/>Mit der hochachtungsvollsten Freundschaft
+                            <lb/>
+                  <handShift scribe="wvh"/> der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Berlin</hi>
+                        den 30<hi rend="superscript">t</hi> <hi rend="antiqua">April</hi>
+                        1831</dateline>
+            </closer>
+            <postscript>
+               <p>N. S. Da ich so eben sehe daß der <bibl sameAs="704">
+                     <hi rend="antiqua">Raffles</hi>
+                  </bibl> nur Ein Pfund acht Schillinge nicht wie ich
+                        irrig voraussetzte das Doppelte kostet so werde ich ihn auf jeden Fall
+                        behalten und bitte Sie Sich weiter keine Mühe wegen der Zurücknahme
+                        desselben zu geben. Indeß <pb n="4*"/> wünsche ich um so mehr daß es Ihnen
+                        gelingen möge <bibl sameAs="351">ein Exemplar der ersten Ausgabe</bibl> zu
+                        finden</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

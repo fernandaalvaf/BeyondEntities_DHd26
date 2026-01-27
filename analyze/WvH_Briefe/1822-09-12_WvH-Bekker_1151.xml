@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Immanuel Bekker, 12.09.1822<idno type="BBAW">1151</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Chicago, University of Chicago
+                            Library, Special Collections Research Center, Immanuel Bekker Papers,
+                            Box 1, Folder 5</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7236</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="apollonius">
+                  <persName>Apollonios Dyskolos (Grammatiker)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1400">Bekker, Immanuel (1817): Apollonii Alexandrini De
+                        constructione orationis libri quatuor ex recensione Immanuelis Bekkeri,
+                        Berlin: Reimer</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von (1823–1824): Ueber die in der
+                        Sanskrit-Sprache durch die Suffixa twâ und ya gebildeten Verbalformen. In:
+                        Indische Bibliothek 1, Heft 4, S. 432–473; Band 2, Heft 1, S. 71–134. – Vgl.
+                        GS IV, S. 360–419</bibl>
+               <bibl corresp="1401">Sylburg, Friedrich (Hrsg.) (1590): Apollonii Alexandrini De
+                        syntaxi seu constructione Orationis libri IIII, Frankfurt: Apud Andreæ
+                        Wecheli heredes, Claudium Marnium &amp; Ioann. Aubrium</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe neulich bei einer zufälligen Gelegenheit gehört …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-09-12"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="aibekker">Bekker, August Immanuel</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next" target="22">14.09.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. Dezember 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1r"/> Ich habe neulich bei einer zufälligen Gelegenheit gehört, daß Ew.
+                    Wohlgeb. Sich mit einer Ausgabe des <hi rend="antiqua">
+                  <persName ref="apollonius">Apollonius</persName>
+                  <bibl sameAs="1400">de syntaxi</bibl>
+               </hi> entweder beschäftigt haben, oder
+                    noch beschäftigen. Es erscheint Ihnen daher vielleicht nicht als eine
+                    Unbescheidenheit, wenn ich mir die Freiheit nehme, mir Ihre Meinung über eine
+                    Stelle zu erbitten, an der mir für <bibl sameAs="212">eine bestimmte
+                        Arbeit</bibl> gelegen ist.</p>
+            <p>Sie steht <bibl sameAs="1401">III. 13. <hi rend="antiqua">ed. Sylb. p.</hi> 229.
+                        V. 11–20.</bibl>
+               <note type="footnote" resp="editor">Siehe dazu <ref type="linkExt"
+                       target="https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10980990_00243.html">das Exemplar in der Bayerischen Staatsbibliothek München</ref>, Sign. 4
+                        A.gr.b. 121. [FZ]</note>
+               <lb/>
+               <foreign sameAs="grc">ἔστι γοῦν ἐπινοῆσαι τὸ
+                        γενικώτατον ὄνομα, ἐν θέσει ἰδία καταγινόμενον ἢ κοινῇ, <hi rend="underline">οὐκ</hi> ἐν πτώσει τῇ παρεπομένῃ ἐν γένει τῷ δέοντι· τό γε μὴν
+                        εἰδικώτατον καταγίνεσθαι ἐν πατρωνυμικῇ ἐννοίᾳ, ἢ ἐν κτητικῇ, καὶ ἔτι ταῖς
+                        ὑπολοίπαις. και δῆλον ὅτι οὐκ ἂν θαρρήσει(έ) τις Φάναι μὴ εἶναι <hi rend="underline">εἰδικώτατον</hi> ὄνομα, ὃ <hi rend="underline">μή</hi>
+                        ἐστι πατρωνυμικὸν ἢ κτητικὸν ἤ τι τῶν ὑπὸ τὸ αὐτὸ εἶδος
+                    πιπτόντων.</foreign>
+            </p>
+            <p>In den Anmerkungen zu dieser Ausgabe<note type="footnote" resp="editor">Siehe
+                            <ref type="linkExt"
+                       target="https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10980990_00387.html">Sylburg 1590, S. 373</ref> line Spalte zu p. 229 v. 13 und v. 18. [FZ]</note> wird
+                    vorgeschlagen das <foreign sameAs="grc">οὐκ</foreign> vor <foreign sameAs="grc">ἐν πτώσει</foreign> und das <foreign sameAs="grc">εἰδικώτατον</foreign> vor
+                    ὄνομα auszustreichen. Damit aber verlöre, meiner Meinung nach, die ganze Stelle
+                    ihren wahren Sinn.</p>
+            <p>Mir scheinen dagegen andre Aenderungen nöthig, nemlich das <foreign sameAs="grc">εἰδικώτατον</foreign> vor <foreign sameAs="grc">ὄνομα</foreign> gar
+                    auszustreichen, allein an dessen Stelle <foreign sameAs="grc">γενικώτατον</foreign> zu setzen, oder diese Aenderung nicht vorzunehmen,
+                    sondern das <foreign sameAs="grc">μὴ</foreign> vor <foreign sameAs="grc">ἐστὶ</foreign> wegzustreichen, folglich zu lesen<lb/>entweder <foreign sameAs="grc">μὴ εἶναι γενικώτατον ὄνομα ὃ μή ἐστι κ.τ.λ.</foreign>
+               <lb/>oder
+                        <foreign sameAs="grc">μὴ εἶναι εἰδικώτατον ὄνομα ὃ ἐστι κ.τ.λ.</foreign>
+            </p>
+            <p>
+               <pb n="1v"/>
+               <hi rend="antiqua">
+                  <persName ref="apollonius">Apollonius</persName>
+               </hi> will
+                    nemlich beweisen, daß die <hi rend="antiqua">modi</hi> des <hi rend="antiqua">verbum finitum species</hi> (<foreign sameAs="grc">εἴδε</foreign>) des <hi rend="antiqua">Infinitivs</hi> als des <hi rend="antiqua">generellsten</hi>
+                    Begriffes des <hi rend="antiqua">Verbum</hi> sind. Er sagt also: das <hi rend="antiqua">generellste</hi> kann wohl für sich allein, oder <del type="fragment">g</del> mit einem andren zusammen stehen, allein nicht in
+                    dem <hi rend="antiqua">casus</hi> (<foreign sameAs="grc">πτώσει</foreign>) immer
+                    gerade welchen das Bedürfniß erfordert. Das <hi rend="antiqua">speciellste</hi>
+                    dagegen kann in jedem <hi rend="antiqua">casus</hi> stehen.</p>
+            <p>Nun zieht er die Folgerung.</p>
+            <p>Diese kann nun nicht seyn: Wie würde jemand wagen zu behaupten daß nicht dies das
+                        <hi rend="antiqua">speciellste</hi> sey, welches nicht <hi rend="antiqua">Casus</hi> machen kann? Denn aus dem Vorhergehenden folgt das gerade
+                    Gegentheil.</p>
+            <p>Die Aenderung des Wegstreichens des <foreign sameAs="grc">μὴ</foreign> ist die
+                    kleinere, u. es scheint auch, daß <foreign sameAs="grc">εἰδικώτατον</foreign>
+                    darum gut stehen bliebe, weil gleich darauf von dem <foreign sameAs="grc">εἴδε</foreign> die Rede ist. Ich würde daher dieses vorziehen.</p>
+            <p>Ew. Wohlgeb. würden mich sehr verbinden, wenn Sie die Gewogenheit haben wollten,
+                    mir zu sagen, ob Sie auch dafür halten, daß die Stelle einer Veränderung
+                    bedürfe, u. welcher Sie beistimmen möchten? Vielleicht hatten Sie auch
+                    Gelegenheit Handschriften darüber zu vergleichen, u. kennen andre Lesarten.</p>
+            <p>Wir bleiben vermuthlich noch einige Zeit <placeName ref="Tegel">hier</placeName>,
+                    ehe wir nach <placeName ref="Berlin">Berlin</placeName> kommen, u. es würde uns
+                    sehr angenehm seyn, wenn Ew. Wohlgeb. <pb n="2r"/> uns einmal hier besuchen, u.
+                    freundschaftlich mit uns essen wollten. Bloß nächsten Sonntag u. Montag sind wir
+                    verhindert. Sonst würde uns jeder Tag gleich lieb seyn.</p>
+            <closer>
+               <salute>Mit hochachtungsvollster Ergebenheit<lb/>der
+                        Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 12. <hi rend="antiqua">September</hi>,
+                        1822.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="2v; Anschrift"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Becker</hi>,</addrLine>
+                  <addrLine>Wohlgebohren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Berlin</hi>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -35,7 +35,8 @@ class OpenWebUIClient:
         api_key: str | None = None,
         timeout_seconds: int = 60,
         max_retries: int = 3,
-        retry_delay_seconds: int = 3
+        retry_delay_seconds: int = 3,
+        api_provider: str = "openai"
     ):
         """
         Initialisiert den OpenWebUI-Client.
@@ -49,6 +50,7 @@ class OpenWebUIClient:
             timeout_seconds: Timeout für API-Aufrufe in Sekunden
             max_retries: Maximale Anzahl von Wiederholungsversuchen
             retry_delay_seconds: Wartezeit zwischen Wiederholungen
+            api_provider: API-Provider ("openai", "gemini") - default: "openai"
         """
         self.base_url = base_url.rstrip('/')
         self.endpoint = endpoint
@@ -58,8 +60,13 @@ class OpenWebUIClient:
         self.timeout_seconds = timeout_seconds
         self.max_retries = max_retries
         self.retry_delay_seconds = retry_delay_seconds
+        self.api_provider = api_provider.lower()
         self.full_url = f"{self.base_url}{self.endpoint}"
         self.api_call_counter = 0  # Zähler für API-Aufrufe
+        
+        # Validiere Provider
+        if self.api_provider not in ["openai", "gemini"]:
+            raise ValueError(f"Ungültiger API-Provider: {api_provider}. Erlaubt: openai, gemini")
     
     def build_payload(
         self,
@@ -90,7 +97,22 @@ Abstraktionslevel: {granularity}/5"""
         if entity_types:
             user_prompt += f"\nErlaubte Entitätstypen: {', '.join(entity_types)}"
         
-        # Payload-Struktur für OpenWebUI / OpenAI-kompatible APIs
+        # Provider-spezifische Payload-Generierung
+        if self.api_provider == "gemini":
+            return self._build_gemini_payload(user_prompt)
+        else:  # openai (default)
+            return self._build_openai_payload(user_prompt)
+    
+    def _build_openai_payload(self, user_prompt: str) -> dict[str, Any]:
+        """
+        Erstellt Payload für OpenAI-kompatible APIs.
+        
+        Args:
+            user_prompt: User-Prompt-Text
+            
+        Returns:
+            OpenAI-kompatible Payload
+        """
         payload = {
             "model": self.model,
             "messages": [
@@ -104,10 +126,47 @@ Abstraktionslevel: {granularity}/5"""
                 }
             ],
             "temperature": 0.1,  # Niedrige Temperatur für konsistentere Outputs
-            "max_tokens": 4000
+            "max_tokens": 8000
         }
         
-        return payload    def _extract_model_output(self, response_data: dict[str, Any]) -> str:
+        return payload
+    
+    def _build_gemini_payload(self, user_prompt: str) -> dict[str, Any]:
+        """
+        Erstellt Payload für Google Gemini API.
+        
+        Args:
+            user_prompt: User-Prompt-Text
+            
+        Returns:
+            Gemini-kompatible Payload
+        """
+        payload = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "text": user_prompt
+                        }
+                    ]
+                }
+            ],
+            "systemInstruction": {
+                "parts": [
+                    {
+                        "text": self.system_prompt
+                    }
+                ]
+            },
+            "generationConfig": {
+                "temperature": 0.1,
+                "maxOutputTokens": 65536  # Gemini Maximum
+            }
+        }
+        
+        return payload
+    
+    def _extract_model_output(self, response_data: dict[str, Any]) -> str:
         """
         Extrahiert den eigentlichen Modell-Output aus der API-Antwort.
         
@@ -121,6 +180,15 @@ Abstraktionslevel: {granularity}/5"""
             ValueError: Wenn das erwartete Format nicht gefunden wird
         """
         try:
+            # Gemini API Format
+            if self.api_provider == "gemini":
+                if "candidates" in response_data and len(response_data["candidates"]) > 0:
+                    candidate = response_data["candidates"][0]
+                    if "content" in candidate and "parts" in candidate["content"]:
+                        parts = candidate["content"]["parts"]
+                        if len(parts) > 0 and "text" in parts[0]:
+                            return parts[0]["text"]
+            
             # Standard OpenAI-kompatibles Format
             if "choices" in response_data and len(response_data["choices"]) > 0:
                 choice = response_data["choices"][0]
@@ -224,14 +292,22 @@ Abstraktionslevel: {granularity}/5"""
                 # Payload erstellen
                 payload = self.build_payload(text_data, granularity, entity_types)
                 
-                # Headers vorbereiten
+                # Headers und URL vorbereiten (Provider-abhängig)
                 headers = {"Content-Type": "application/json"}
-                if self.api_key:
-                    headers["Authorization"] = f"Bearer {self.api_key}"
+                url = self.full_url
+                
+                if self.api_provider == "gemini":
+                    # Gemini: API-Key als Query-Parameter
+                    if self.api_key:
+                        url = f"{self.full_url}?key={self.api_key}"
+                else:
+                    # OpenAI: API-Key als Authorization Header
+                    if self.api_key:
+                        headers["Authorization"] = f"Bearer {self.api_key}"
                 
                 # API-Aufruf
                 response = requests.post(
-                    self.full_url,
+                    url,
                     json=payload,
                     timeout=self.timeout_seconds,
                     headers=headers

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 03.01.1823<idno type="BBAW">1089</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 9</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 120–128</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7262</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="cicero">
+                  <persName>Cicero</persName>
+               </person>
+               <person corresp="hpforster">
+                  <persName>Forster, Henry Pitts</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua: The Ramayuna of Valmeeki, in the
+                    original Sungskrit. With a prose translation, and explanatory notes, 3 Bände
+                    (Serampore: Mission Press 1806–1810)</bibl>
+               <bibl corresp="135">Forster, Henry Pitts: An Essay on the Principles of Sanskrit
+                    Grammar (Calcutta: Ferris 1810)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 432–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek
+                    [Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="575">Schlegel, August Wilhelm von: Rezension zu Franz Bopp: Nalus,
+                    carmen sanscritum e Mahàbhàrato (London, Paris, Straßburg: Treuttel und Würtz
+                    1819). In: Indische Bibliothek 1, Heft 1, 1820, S. 97–128</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="539">Wilkins, Charles: The Radicals of the Sanskrita language (London:
+                    Cox and Baylis 1815)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich schicke Ew. Hochwohlgebohrnen anliegend die
+                        Bemerkungen, welche eine Beilage Ihres vorletzten Schreibens ausmachten.
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-01-03"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1076" type="next">17.03.1823</ref>
+               <ref target="1075" type="prev">21.–23.12.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">15. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_04.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_05.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_06.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_07.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-01-03/WvH-Schlegel_1823_01_03_Seite_08.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 3. <hi rend="antiqua">Januar</hi>, 1823.</dateline>
+            </opener>
+            <p>Ew. Hochwohlgebohrnen bedürfen gewiß keiner Entschuldigung, wenn Sie mir recht
+                    oft schreiben. Nichts könnte mir angenehmer seyn, als diese belehrenden
+                    Mittheilungen über Gegenstände, die für uns beide ein gleich großes Interesse
+                    haben. Ich muß nur von meiner Seite wünschen, daß Sie nicht ermüden mögen, Sich
+                    mit meinen, noch mancher berichtigender Bestimmung erfordernden Behauptungen zu
+                    beschäftigen. </p>
+            <p>Ich beantworte Punkt für Punkt Ew. Hochwohlgeb. neuliche Bemerkungen, die ich
+                    zugleich diesem Briefe wieder beifüge. </p>
+            <p>1.<lb/>Ich bin es vollkommen zufrieden, wenn Ew. Hochwohlgebohrnen die <hi rend="underline">gefalteten</hi> Hände an die Stelle der <hi rend="underline">gehölten</hi> setzen wollen. Ich habe bei dieser u.
+                    ähnlichen wörtlichen Uebersetzungen immer nur die Absicht, den Leser auf die
+                    fremde Sitte aufmerksam zu machen. Aber <hi rend="underline">gehölt</hi> ist
+                    doch nicht genau. Denn in <foreign sameAs="sa" n="transEd">añjali<graphic url="Schlegel/WvH-Schlegel_1823_01_03/063.svg"/>
+               </foreign> liegt die
+                    Hölung durch Zusammenlegung, oder Faltung. </p>
+            <p>2.<lb/>
+               <foreign sameAs="sa" n="transEd">yudhyate<graphic url="Schlegel/WvH-Schlegel_1823_01_03/064.svg"/>
+               </foreign> mag an der
+                    Stelle, welche ich <hi rend="antiqua">citire</hi>, wohl durch „er kämpft“
+                    übersetzt werden müssen. Ich habe das <hi rend="antiqua">Citat</hi> aus <hi rend="antiqua">
+                  <persName ref="hpforster">Forster</persName>s <bibl sameAs="135">Gramm.</bibl> p.</hi> 463. (wo keine Uebersetzung hinzugefügt
+                    ist) genommen. In meiner dürftigen Belesenheit ist mir noch nie ein <hi rend="antiqua">repetitives indeclinables Participium</hi> vorgekommen. Es
+                    fehlen zwischen den beiden Wörtern vermuthlich andre, wie <persName ref="hpforster">
+                  <hi rend="antiqua">Forster</hi>
+               </persName> sogar durch einen
+                    Strich andeutet, u. in diesen kann das <hi rend="antiqua">Subject</hi> enthalten
+                    seyn. Der Mangel eines <hi rend="antiqua">Subjects</hi> hat mich zur <hi rend="antiqua">passiven</hi> Uebersetzung bewogen. Diese aber halte ich auch
+                    nicht für falsch. Wenn ein <hi rend="antiqua">Verbum</hi> der 4. <hi rend="antiqua">Conjugation</hi> bloß in der <subst>
+                  <del>
+                     <hi rend="antiqua">parasmaipani</hi>
+                  </del>
+                  <add>
+                     <term ref="014" type="morph">
+                        <hi rend="antiqua">parasmaipadi</hi>
+                     </term>
+                  </add>
+               </subst> Form
+                    üblich ist, so erkennt man sein <hi rend="antiqua">Passivum</hi> sogleich an der
+                    entgegengesetzten Form. Wo aber beide Formen üblich sind, oder gar, wie bei
+                        <foreign sameAs="sa" n="transEd">yudh<graphic url="Schlegel/WvH-Schlegel_1823_01_03/065.svg"/>
+               </foreign> nur die <term type="morph" ref="006">
+                  <hi rend="antiqua">atmanepadi</hi>
+               </term>, da, glaube
+                    ich, läßt sich <pb n="2*"/>
+               <sic>das <hi rend="antiqua">passivum</hi> vom <hi rend="antiqua">Activum</hi>
+               </sic> nicht an der Wortform, sondern nur an
+                    der <hi rend="antiqua">Construction</hi> unterscheiden. Dies scheint auch
+                        <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName>
+                    anzunehmen. Denn <hi rend="antiqua">p.</hi> 394. der <bibl sameAs="455">
+                  <hi rend="antiqua">Gramm.</hi>
+               </bibl> ist ihm <foreign sameAs="sa" n="transEd">budhyate<graphic url="Schlegel/WvH-Schlegel_1823_01_03/066.svg"/>
+               </foreign> 3. <hi rend="antiqua">pass.</hi> u. in den <hi rend="antiqua">
+                  <bibl sameAs="539">Radicals</bibl> p.</hi> 92. 3. <hi rend="antiqua">act.</hi> In den 6 letzten <hi rend="antiqua">tempora</hi> (ob ich gleich
+                    gestehe, daß ich in diesen das <hi rend="antiqua">Passivum</hi> nur aus den <hi rend="antiqua">Grammatiken</hi>, nicht aus Büchern kenne) unterscheidet sich
+                    ja das <hi rend="antiqua">passivum</hi> nur in höchst wenigen Fällen vom <hi rend="antiqua">Activum</hi>. Meines Erachtens ist daher das <hi rend="antiqua">passivum</hi> vom <hi rend="antiqua">activum</hi> u. <hi rend="antiqua">medium</hi> (da die <term type="morph" ref="014">
+                  <hi rend="antiqua">parasmaipadi</hi>
+               </term> Form beide umfaßt) bei weitem
+                    nicht immer im <hi rend="antiqua">Sanskrit</hi> an der Wortform erkennbar.
+                    Dasselbe ist häufig auch im Griechischen u. im Lateinischen, wenn man die <hi rend="antiqua">Deponentia</hi> beachtet, der Fall. Ich würde daher auch in
+                    einer <hi rend="antiqua">Sanskrit</hi> Grammatik diese ganze Lehre anders
+                    behandeln. <del>Es</del> Ich halte es für ganz unstatthaft, das <foreign sameAs="sa" n="transEd">ya<graphic url="Schlegel/WvH-Schlegel_1823_01_03/067.svg"/>
+               </foreign> als <hi rend="antiqua">Charakteristik</hi> des <hi rend="antiqua">Passivum</hi>
+                    anzugeben. Denn es begleitet das <hi rend="antiqua">Passivum</hi> nur in den
+                    ersten 4 <hi rend="antiqua">tempora</hi>, ist auch in diesen nicht sein einziges
+                    Merkmal, u. ist, wenn man das <foreign sameAs="sa" n="transEd">y<graphic url="Schlegel/WvH-Schlegel_1823_01_03/068.svg"/>
+               </foreign> der 4. <hi rend="antiqua">Conjug.</hi> mit dem Vorschlags-<foreign sameAs="sa" n="transEd">a<graphic url="Schlegel/WvH-Schlegel_1823_01_03/069.svg"/>
+               </foreign> der ersten, deren Endungen die 4.<hi rend="superscript">t</hi>
+                    annimmt, zusammenfaßt, auch <hi rend="antiqua">Character.</hi> der 4.<hi rend="superscript">ten</hi> <hi rend="antiqua">Conjug. act.</hi> u. <hi rend="antiqua">med.</hi> Ich würde sagen: das <hi rend="antiqua">Verbum</hi>
+                    hat zwei Formen, für die man am besten die Indischen Namen beibehält. Das <hi rend="antiqua">Activum</hi> kann beide annehmen, wo dann die Fälle anzugeben
+                    sind. Das <hi rend="antiqua">Medium</hi> u. <del>
+                  <hi rend="antiqua">Activum</hi>
+               </del> <hi rend="antiqua">Passivum</hi> können nur in der
+                    andren erscheinen, u. diese Form <del>ist</del> also, als nothwendig u. ohne
+                    Ausnahme <del>gegeben</del> geboten, ist <subst>
+                  <del>seine</del>
+                  <add>des
+                                <hi rend="antiqua">Passivum</hi>
+                  </add>
+               </subst> wahre <hi rend="antiqua">Characteristik</hi> gegen das <hi rend="antiqua">Activum</hi>. Vom <hi rend="antiqua">Medium</hi> unterscheidet es sich dadurch,
+                    daß das <hi rend="antiqua">Medium</hi> in den Wurzelveränderungen dem <hi rend="antiqua">Activum</hi> folgt, das <hi rend="antiqua">Passivum</hi>
+                    dagegen diese u. diese Eigenheiten in diesen u. diesen Fällen hat. Zu diesen
+                    letztern gehört dann das <foreign sameAs="sa" n="transEd">ya<graphic url="Schlegel/WvH-Schlegel_1823_01_03/070.svg"/>
+               </foreign>.</p>
+            <p>
+               <bibl sameAs="212">In meinem Aufsatz</bibl> habe ich gar nichts dagegen, wenn Ew.
+                    Hochwohlgebohrnen „er kämpft“ <hi rend="antiqua">substituiren</hi>. Noch lieber
+                    aber wäre es mir, wenn <sic>sie</sic> nichts änderten, aber eine Anmerkung über
+                    das <hi rend="antiqua">Passivum</hi> der 4. <hi rend="antiqua">Conjug.</hi> u.
+                    überhaupt hinzufügten, die alsdann auch meine eben ausge-<pb n="3*"/>sprochene
+                    Meynung berichtigen, oder mich in derselben bestätigen würde. Ich schreibe
+                        <bibl sameAs="212">meinem Aufsatz</bibl> wirklich kein andres Verdienst zu,
+                    als solche Fragen unter denen, die sich jetzt mit <hi rend="antiqua">Sanskrit</hi> beschäftigen, zur Sprache zu bringen.</p>
+            <p>Zugleich wünschte ich wohl, daß, wenn Ew. Hochwohlgeb. andre Beispiele vom <hi rend="antiqua">repetit. indeclin. part.</hi> vorgekommen wären, Sie sie
+                    hinzufügten. </p>
+            <p>3.<lb/>Ich danke Ew. Hochwohlgebohrnen ungemein, daß Sie mich auf die zu große
+                    Unbestimmtheit der Stelle: </p>
+            <p>
+               <hi rend="antiqua">Denn das Adverbium wird auch sonst durch den Accusativ eines
+                        Nomens
+                        dargestellt.</hi>
+               <lb/>
+               <!-- KS: ich hab hier mal einen lb eingefügt, damit man das Zitat besser erkennt, ist im MS aber nicht so -->
+               <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas.</hi>
+               </bibl> XIII. 50. XV. 19. </p>
+            <p>aufmerksam gemacht haben. Ich bitte Sie, dieselbe auszustreichen, und folgende
+                    Abänderung aufzunehmen: </p>
+            <p>
+               <hi rend="antiqua">Im Griechischen, auf dessen Analogie man sich wohl mit Recht
+                        im Sanskrit berufen kann, werden Accusative von Substantiven und Adjectiven
+                        unverkennbar als Adverbia gebraucht. Ich erinnere deshalb nur an <foreign sameAs="grc">τάχος</foreign>, <foreign sameAs="grc">τέλος</foreign>,
+                            <foreign sameAs="grc">τὴν πρώτην</foreign>, <foreign sameAs="grc">τὴν ταχίστην</foreign>. Im Sanskrit kommen sehr häufig <foreign sameAs="sa" n="transEd">nimittaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/071.svg"/>
+                  </foreign> u.
+                                <del>
+                     <foreign sameAs="sa" n="transEd">athaṃr<graphic url="Schlegel/WvH-Schlegel_1823_01_03/072.svg"/>
+                     </foreign>
+                  </del> <foreign sameAs="sa" n="transEd">arthaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/073.svg"/>
+                  </foreign> also vor. <bibl sameAs="563">Ramayana.</bibl> Buch 1.
+                        Abschn. 53. sl. 29. <del>u.</del> 40. a. und 22. a. Ob auch andre
+                        Substantiva? wage ich nur darum nicht zu entscheiden, weil ich die
+                        Behauptung in diesem Augenblick nicht mit Stellen zu belegen wüßte. Daß das
+                        Neutrum der Adjectiva adverbialisch genommen wird, ist nichts weniger, als
+                        ungewöhnlich. <bibl sameAs="559">Nalas.</bibl> XV. 19. <bibl sameAs="563">Ramayana</bibl> a. a. O. 2. a. 3. a. Dies Neutrum kann nun zwar
+                        ebensowohl Nominativus, als Accusativus seyn; die adverbialische Geltung
+                        kann aber, nach allgemeinen grammatischen Gründen, wohl nur einem Casus
+                        obliquus zugeschrieben werden. Endlich haben viele Indische Adverbia die
+                        Accusativendung <foreign sameAs="sa" n="transEd">am<graphic url="Schlegel/WvH-Schlegel_1823_01_03/074.svg"/>
+                  </foreign> u. von
+                        mehreren unter diesen findet sich zugleich die von allem Casuszeichen
+                        entblößte Form. So sind <foreign sameAs="sa" n="transEd">aniśaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/075.svg"/>
+                  </foreign>, <foreign sameAs="sa" n="transEd">abhīkṣaṇaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/076.svg"/>
+                  </foreign>, <foreign sameAs="sa" n="transEd">avaśyaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/077.svg"/>
+                  </foreign> u. a. m.
+                        Gleichfalls adverbialisch muß, <pb n="5*"/> glaube ich, der Gebrauch u. s.
+                        f. </hi>
+            </p>
+            <p>Da die Ansicht des <hi rend="antiqua">Accusat.</hi> als <hi rend="antiqua">Adverb.</hi> meiner ganzen Erklärung der <hi rend="antiqua">indeclinabeln</hi> Formen sehr wesentlich ist, so kann ich mich, da ich sie
+                    wirklich für richtig halte, nicht entschließen, sie aufzugeben, sondern habe sie
+                    nur näher bestimmt. Ich möchte wetten, daß ich andre <hi rend="antiqua">Substantiva</hi>, auf gleiche Weise gebraucht, gefunden hätte, namentlich
+                        <foreign sameAs="sa" n="transEd">sukhaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/078.svg"/>
+               </foreign>, da ich aber
+                    die Stellen leider nicht angemerkt, so ist es mir unmöglich, sie anzugeben. Ew.
+                    Hochwohlgeb. scheinen zu meynen, daß das <hi rend="antiqua">adverbialisch</hi>
+                    gesetzte <hi rend="antiqua">Neutrum</hi> des <hi rend="antiqua">Adject.</hi>
+                    bald <hi rend="antiqua">nominat.</hi> bald <hi rend="antiqua">accusat.</hi> seyn
+                    könne, je nachdem es sich auf ein Subject, oder Object beziehen solle. Allein
+                    dieser Meynung könnte ich nicht beistimmen. Sollte ich auch wirklich Unrecht
+                    haben, es immer für einen <hi rend="antiqua">Accusat.</hi> zu halten, u. sollte
+                    es vielmehr der <hi rend="antiqua">Nominat.</hi> seyn, so könnte jener Umstand,
+                    meines Erachtens, gar keinen Einfluß darauf haben. Denn der wesentliche
+                    Charakter des <hi rend="antiqua">Adverbium</hi> ist seine <hi rend="antiqua">Indeclinabilitaet</hi>. Vermöge dieser kann es sich unmittelbar immer nur
+                    an ein <hi rend="antiqua">Verbum</hi> oder <hi rend="antiqua">Adjectivum</hi>,
+                    an ein <hi rend="antiqua">Substantivum</hi> aber immer nur vermittelst eines
+                    ausgelassenen <hi rend="antiqua">Verbum</hi> oder <hi rend="antiqua">Adjectivum</hi> <del>beziehen</del> anschließen. Es nimmt daher nie
+                    die Form des <hi rend="antiqua">nomen</hi> an, zu dem es gehört, u. kann darin,
+                    daß das <hi rend="antiqua">Nomen</hi> als <hi rend="antiqua">Subject</hi> im <hi rend="antiqua">Nominat.</hi> oder als <hi rend="antiqua">Object</hi> im <hi rend="antiqua">Accus.</hi> steht, keine Veranlassung finden, die seinige zu
+                    verändern. <del type="fragment">Mir schein</del> Will man das <hi rend="antiqua">Adverbium</hi> unmittelbar u. ohne <hi rend="antiqua">Ellipse</hi>, an ein
+                        <hi rend="antiqua">Substantivum</hi> anschließen, so bleibt nichts übrig,
+                    als es in ein <hi rend="antiqua">Adjectivum</hi> zu verwandeln, so wie die
+                    Griechen es thun, <foreign sameAs="grc">εὕδον παννύχιοι</foreign>, <foreign sameAs="grc">δευτεραῖος ἀφίκετο</foreign> u. s. f. Mir scheinen die <hi rend="antiqua">adverbialiter</hi> gebrauchten <hi rend="antiqua">Neutra</hi>
+                    der <hi rend="antiqua">Adjectiva</hi> in allen Sprachen wirklich nur <hi rend="antiqua">Accusative</hi> seyn zu können. Der <hi rend="antiqua">Nominativus</hi> geht nicht füglich in eine solche Verbindung ein. Der <hi rend="antiqua">Accusat.</hi> kann, obgleich ich dies nicht für nothwendig
+                    halte, sogar durch eine ausgelassene <hi rend="antiqua">Praeposition</hi>
+                    erklärt werden. Ich habe aber jetzt nichts darüber finden können, u. weiß nicht
+                    ob Grammatiker die Frage erhoben, u. wie <pb n="5*"/> entschieden haben. Sehr
+                    für mich sprechen die Beispiele von <foreign sameAs="grc">τὴν
+                    πρώτην</foreign>, <foreign sameAs="grc">ταχίστην</foreign> u. s. f. </p>
+            <p>Die Stelle <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl> XIII. 50. <hi rend="antiqua">b.</hi> habe ich, da sie wohl zweifelhaft scheinen kann,
+                    ausgelassen. Ew. Hochwohlgebohrnen Auslegung u. Lesung ist sehr scharfsinnig.
+                    Nur bleibt doch auch eine bedeutende Härte in der Construction zurück. Uebrigens
+                    aber haben Sie <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> in
+                    zwei Punkten unstreitig misverstanden. Er hat bei <foreign sameAs="sa" n="transEd">tādṛgrūpaṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/079.svg"/>
+               </foreign> auf keine
+                    Weise an ein <hi rend="antiqua">avyayib͑ava</hi>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 125: awyayîbhâwa.</note> gedacht. Dies setzt
+                    immer eine wirkliche <hi rend="antiqua">indeclinable Partikel</hi> voraus,
+                    dergleichen ja gar nicht im Worte vorhanden ist. Er nimmt dasselbe vielmehr für
+                    das <hi rend="antiqua">neutrum</hi> <del>des</del> eines <term ref="007" type="morph">
+                  <hi rend="antiqua">vahuvrihi</hi>
+               </term>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 125: bahuwrihi.</note>. Dann <hi rend="antiqua">construirt</hi> er es auch gar nicht mit <foreign sameAs="sa" n="transEd">paśyāmi<graphic url="Schlegel/WvH-Schlegel_1823_01_03/080.svg"/>
+               </foreign> zusammen, u. hat deshalb hinter <hi rend="antiqua">tali-formaque</hi> ein Komma gesetzt. Er bezieht das <hi rend="antiqua">adverbialisch</hi> genommene Wort vielmehr auf <foreign sameAs="sa" n="transEd">vidyotayati<graphic url="Schlegel/WvH-Schlegel_1823_01_03/081.svg"/>
+               </foreign> u. folglich
+                    auf das <hi rend="antiqua">Subject</hi> dieses <hi rend="antiqua">Verbum</hi>.
+                        <foreign sameAs="sa" n="transEd">paśyāmi<graphic url="Schlegel/WvH-Schlegel_1823_01_03/082.svg"/>
+               </foreign> steht, nach
+                    ihm, allein in einem Zwischensatz. Allein auch diese <hi rend="antiqua">Construction</hi> ist sehr hart, so daß ich nicht wagen möchte, über die
+                    Sache etwas zu entscheiden. </p>
+            <p>Ungeachtet meiner Abänderung der obigen Stelle weiß ich dennoch nicht, ob Ew.
+                    Hochwohlgebohrnen damit übereinstimmen werden. Ich wünschte daher sehr, Sie
+                    widmeten, bei dem Abdruck, Ihrer Meynung eine eigne Anmerkung. Nur das muß ich
+                    wiederholen, daß weder <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, als er die Behauptung im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl> aufstellte, noch ich, als ich sie von
+                    da, wie das Citat zeigt, entlehnte, dabei an die <hi rend="antiqua">Composita</hi> dachten, von denen <bibl sameAs="539">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 556. spricht.
+                    Diese gehören zu einer ganz andern Gattung von Wörtern, da sie ihre <hi rend="antiqua">Adverbial</hi>natur von einem wirklichen, in ihnen
+                    enthaltenen <hi rend="antiqua">Indeclinabile</hi> hernehmen. Die <hi rend="antiqua">indeclinablen Composita</hi> mit <foreign sameAs="sa" n="transEd">akṣi<graphic url="Schlegel/WvH-Schlegel_1823_01_03/083.svg"/>
+               </foreign> leitet <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> allerdings von diesem letzten <hi rend="antiqua">Substantiv</hi> ab. Allein sie könnten auch, ohne in diese <hi rend="antiqua">Classe</hi> der <hi rend="antiqua">Composita</hi> zu gehören,
+                    bloß <hi rend="antiqua">neutra</hi> der <hi rend="antiqua">Adjectiva</hi> dreier
+                    Endungen seyn, welche es von allen diesen <hi rend="antiqua">Compositis</hi>
+                    giebt, u. die <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl>
+                    ausdrücklich anführt. Wunderbar ist es, daß <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> in diesen Artikeln die Ableitung
+                    von <foreign sameAs="sa" n="transEd">akṣa<graphic url="Schlegel/WvH-Schlegel_1823_01_03/084.svg"/>
+               </foreign> macht, u.
+                    diesem bei <foreign sameAs="sa" n="transEd">pratyakṣa<graphic url="Schlegel/WvH-Schlegel_1823_01_03/085.svg"/>
+               </foreign> die Bedeutung
+                        <hi rend="antiqua">an organ of sense</hi> giebt, da <pb n="7*"/> er doch bei
+                    dem Artikel <foreign sameAs="sa" n="transEd">akṣa<graphic url="Schlegel/WvH-Schlegel_1823_01_03/086.svg"/>
+               </foreign> selbst diese
+                    nicht, sondern nur <hi rend="antiqua">the soul</hi> hat. <foreign sameAs="sa" n="transEd">akṣa<graphic url="Schlegel/WvH-Schlegel_1823_01_03/087.svg"/>
+               </foreign> u. <foreign sameAs="sa" n="transEd">akṣi<graphic url="Schlegel/WvH-Schlegel_1823_01_03/088.svg"/>
+               </foreign> sind
+                    vermuthlich ursprünglich nicht unterschieden gewesen, u. ich glaube daher, man
+                    könnte die ganze Regel <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> <hi rend="antiqua">nr.</hi> 1068. füglich
+                    entbehren. </p>
+            <p>4.<lb/>In Anm. 36. habe ich nicht sagen wollen, daß <bibl sameAs="559">
+                  <hi rend="antiqua">Nal.</hi>
+               </bibl> XXV. 3. das <hi rend="antiqua">Verbum</hi> <foreign sameAs="sa" n="transEd">arhati<graphic url="Schlegel/WvH-Schlegel_1823_01_03/089.svg"/>
+               </foreign> stehe,
+                    sondern mich nur auf den Grundbegriff bezogen. Es ist aber auf jeden Fall schief
+                    ausgedrückt. Ich bitte Sie, statt der Worte: </p>
+            <p>
+               <hi rend="antiqua">Der Grundbegriff ist</hi> – <subst>
+                  <del>
+                     <hi rend="antiqua">N.
+                                1. Abschnitt. 12. sl. 52</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">an
+                                sich trägt</hi>
+                  </add>
+               </subst>
+            </p>
+            <p>die Worte zu setzen: </p>
+            <p>
+               <hi rend="antiqua">Der Grundbegriff des Wortes, wo es in andren grammatischen
+                        Formen vorkommt, ist: geschickt, passend, würdig zu etwas seyn. So steht es
+                            <bibl sameAs="559">Nalas</bibl> XXV. 3. u. in vielen andren Stellen. Daß
+                        das Verbum selbst in diesem Sinne <del type="fragment">bezwei</del>
+                        gebraucht werde, bezweifle ich. Allein die durch dasselbe ausgedrückte Idee
+                        des Müssens schließt sich an diesen Grundbegriff an, u. trägt gewöhnlich
+                        auch die Spur dieses Ursprungs an sich</hi>
+            </p>
+            <p>Dem Ende der Anmerkung bitte ich Sie (wenn Sie nemlich eine Berichtigung der
+                    Englischen Uebersetzer für der Mühe werth halten) hinzuzufügen: </p>
+            <p>
+               <hi rend="antiqua">In <bibl sameAs="563">Ramayana.</bibl> B. 1. Abschn. 12. sl.
+                        52. übersetzen zwar die Englischen Uebersetzer das Verbum durch: the king is
+                        worthy. Allein die Brahmanen wollten nicht sagen, daß <del>nur</del> sie
+                        unwürdig wären, Land zu beherrschen. Ihre Meinung ist nur, daß dem König
+                        allein die Beherrschung der Erde zukommt. Wir, fügen sie hinzu, sind nicht
+                        im Stande Länder zu schützen. </hi>
+            </p>
+            <p>Ich hatte die Stelle erst falsch angesehen. Die Uebersetzung hatte mir <hi rend="antiqua">imponirt</hi>, ich sehe aber, daß ich mir nach u. nach den
+                    Respect für sie <pb n="7*"/> abgewöhnen muß.</p>
+            <p>5.<lb/>Die Stelle:</p>
+            <p>
+               <hi rend="antiqua">Er regiert zwar in der Regel – Er nimmt keine</hi>
+            </p>
+            <p>bitte ich Ew. Hochwohlgebohrnen folgendergestalt abzuändern: </p>
+            <p>
+               <hi rend="antiqua">Er regiert den Casus des Verbum, nimmt keine u. s. f.</hi>
+            </p>
+            <p>Sie haben vollkommen Recht, daß diese einzige, höchst zweifelhafte Stelle nicht
+                    genügen kann, eine so wichtige u. auffallende Sache zu beweisen. Bei Ihrer
+                    Erklärung bleibt mir nur der Zweifel ob in dem von Ihnen angenommenen Sinn nicht
+                    statt <foreign sameAs="sa" n="transEd">te<graphic url="Schlegel/WvH-Schlegel_1823_01_03/090.svg"/>
+               </foreign>, nach dem
+                    gewöhnlichen <hi rend="antiqua">Sanskriti</hi>schen Sprachgebrauch, <foreign sameAs="sa" n="transEd">tvayā<graphic url="Schlegel/WvH-Schlegel_1823_01_03/091.svg"/>
+               </foreign> stehen müßte.
+                    In meinem Aufsatz ist die Behauptung nicht richtig, u. es hat mir daher besser
+                    geschienen, sie ganz wegzulassen. Auch glaube ich, mit Ihnen, da auch <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, den ich befragt, mir
+                    keine andren Stellen anzugeben weiß, nicht an diese <hi rend="antiqua">Construction</hi>. <foreign sameAs="grc">ξυνέηκε μάχεσθαι</foreign> ist
+                    allerdings ganz Indisch. Aber es beweist mir nur um so mehr, daß der Indische
+                    Infinitiv kein<note type="footnote" resp="editor">Leitzmann 1908, S. 127 liest:
+                        ein!</note> eigentlicher ist. Denn auch <foreign sameAs="grc">μάχεσθαι</foreign> steht hier nur, weil die Griechen sich, wie ich auch in
+                    meinem Aufsatz einmal bemerkt habe, statt des <hi rend="antiqua">Supinum</hi>,
+                    häufig des <hi rend="antiqua">Infinitivi</hi> bedienen. Die <hi rend="antiqua">Lateiner</hi> würden hier nicht einmal das <hi rend="antiqua">Supinum</hi>,
+                    sondern das <hi rend="antiqua">Gerundium</hi> gebraucht haben, wie bei <persName ref="cicero">
+                  <hi rend="antiqua">Cicero</hi>
+               </persName> irgendwo steht
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">natura incitari ad servandum genus
+                            humanum</hi>
+               </foreign>. Daß die Form in <foreign sameAs="sa" n="transEd">tuṃ<graphic url="Schlegel/WvH-Schlegel_1823_01_03/092.svg"/>
+               </foreign> keine <hi rend="antiqua">tempora</hi> u. kein <hi rend="antiqua">Passivum</hi> annimmt, trennt sie für mich, als grammatische
+                    Form, gänzlich vom eigentlichen <hi rend="antiqua">Infinitiv</hi>.
+                    Verbindungsfähiger nennen Sie dieselbe doch wohl nur darum, weil sie sich an
+                    mehr <hi rend="antiqua">Verba</hi>, als die <hi rend="antiqua">Infinitive</hi>
+                    andrer Sprachen, ohne <hi rend="antiqua">Praeposition</hi> anschließen kann.
+                    Aber dies scheint mir gerade ihre <hi rend="antiqua">Substantiv</hi>natur zu
+                    beweisen. Denn auch die <hi rend="antiqua">Substant.</hi> schließen sich, ohne
+                        <hi rend="antiqua">Praeposition</hi>, an die <hi rend="antiqua">Verba</hi>
+                    der Bewegung im <hi rend="antiqua">Accusativus</hi> an. </p>
+            <p>
+               <pb n="8*"/> Mit den wenigen Worten, die ich <del type="fragment">I</del> über
+                        <bibl sameAs="575">Ihre Recension</bibl> des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl> gesagt habe, muß ich Ew.
+                    Hochwohlgebohrnen freilich überlassen zu thun, was Ihnen gut dünkt. Ich hatte
+                    aber geglaubt, darin gerade das Maß von dem gehalten zu haben, was Sie in <bibl sameAs="396">Ihrer eignen Zeitschrift</bibl> von Sich sagen lassen könnten.
+                    Ohne diese Rücksicht, die mich zurückhalten mußte, würde ich in einer Arbeit
+                    über diesen Gegenstand Ihrer Verdienste um das <hi rend="antiqua">Sanskrit</hi>
+                    auf ganz andre Weise erwähnt haben.</p>
+            <p>Daß E. Hochwohlgeb. <bibl sameAs="212">meiner Anm. 35.</bibl> Ihren Beifall
+                    schenken, freut mich ungemein. Da aber der von mir gebrauchte Ausdruck: <hi rend="antiqua">die beiden Verba <foreign sameAs="sa" n="transEd">śak<graphic url="Schlegel/WvH-Schlegel_1823_01_03/093.svg"/>
+                  </foreign> u.<foreign sameAs="sa" n="transEd">ṣah<graphic url="Schlegel/WvH-Schlegel_1823_01_03/094.svg"/>
+                  </foreign>
+               </hi> sehr
+                    ungenau ist, so haben Sie die Güte statt dessen <hi rend="antiqua">die beiden
+                        Wurzelwörter u. s. f.</hi> drucken zu lassen, oder die <hi rend="antiqua">Verbal</hi>formen an die Stelle der Wurzeln zu setzen. </p>
+            <p>Tausend Entschuldigungen für diesen überlangen Brief. </p>
+            <closer>
+               <salute>Ich schließe mit der Bitte, daß Ew. Hochwohlgebohrnen auch in diesem
+                        Jahre mir u. meinen wissenschaftlichen Beschäftigungen Ihren
+                        freundschaftlichen Antheil schenken mögen, u. verbleibe mit den
+                        hochachtungsvollsten Gesinnungen u. den besten Wünschen<lb/>Ew.
+                        Hochwohlgeb.<lb/>ergebenster,</salute>
+               <signed>Humboldt</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <persName ref="avh">Meinen Bruder</persName> erwarte ich heute Abend. Er wird
+                        kaum 3 Wochen hier bleiben. </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

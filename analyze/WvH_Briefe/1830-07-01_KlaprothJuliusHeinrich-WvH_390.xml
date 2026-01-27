@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Heinrich Julius Klaproth an Wilhelm von Humboldt, 01.07.1830<idno type="BBAW">390</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 49, Bl.
+                            109–111</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 201</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="jmamiot">
+                  <persName>Amiot, Joseph-Marie</persName>
+               </person>
+               <person corresp="aristoteles">
+                  <persName>Aristoteles</persName>
+               </person>
+               <person corresp="bglemona">
+                  <persName>Basile de Glemona (Basilio Brollo)</persName>
+               </person>
+               <person corresp="hgaewald">
+                  <persName>Ewald, Heinrich Georg August</persName>
+               </person>
+               <person corresp="cljguignes">
+                  <persName>Guignes, Chrétien-Louis-Joseph de</persName>
+               </person>
+               <person corresp="hkurz">
+                  <persName>Kurz, Heinrich</persName>
+               </person>
+               <person corresp="lmlangles">
+                  <persName>Langlès, Louis-Mathieu</persName>
+               </person>
+               <person corresp="rmorrison">
+                  <persName>Morrison, Robert</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+               <person corresp="qianlong">
+                  <persName>Qianlong, Kaiser von China</persName>
+               </person>
+               <person corresp="grlsinner">
+                  <persName>Sinner, Gabriel Rudolf Ludwig von</persName>
+               </person>
+               <person corresp="zhuxi">
+                  <persName>Zhu Xi</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1300">Amiot, Joseph-Marie / Langlès, Louis-Mathieu (1789): Dictionnaire
+                    Tartare-Mantchou François: Composé d’après un Dictionnaire Mantchou-Chinois par
+                    M. Amyot, Missionaire A Pékin; rédigé et publié avec des additions et l’Alphabet
+                    de cette langue, par L. Langlès, Officier De NN. SS. Les Maréchaux De France, 3
+                    Bände, Paris: Didot</bibl>
+               <bibl corresp="499">Guignes, Chrétien Louis Joseph de (1813): Dictionnaire chinois,
+                    français et latin, publié d’après l’ordre de sa Majesté l’empereur et roi
+                    Napoléon le Grand, Paris: L’Imprimérie impériale</bibl>
+               <bibl corresp="228">Humboldt, Wilhelm von (1832): Über die Verwandtschaft der
+                    Ortsadverbien mit dem Pronomen in einigen Sprachen. Gelesen in der Akademie der
+                    Wissenschaften am 17. December 1829. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Preußischen Akademie der
+                    Wissenschaften zu Berlin aus dem Jahre 1829, S. 1–26. – Vgl. GS VI, S.
+                    304–330</bibl>
+               <bibl corresp="584">Kurz, Heinrich (1830): Über einige der neuesten Leistungen in der
+                    chinesischen Litteratur. Sendschreiben an Herrn Professor Ewald in Göttingen,
+                    Paris: Königliche Druckerei</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique, Paris: Ponthieu
+                    u.a. 1822–heute</bibl>
+               <bibl corresp="1301">Morrison, Robert (1822): A dictionary of the Chinese language,
+                    Vol. 2, Part 1, Macao: P. Thoms</bibl>
+               <bibl corresp="1302">Neumann, Carl Friedrich (1829): Mémoire sur la vie et les ouvrages
+                    de David, philosophe arménien du V.e siècle de notre ère, et principalement sur
+                    les traductions de quelques écrits d’Aristote. In: Nouveau Journal Asiatique 3,
+                    S. 49–86, 97–153</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Herr Abel-Rémusat hat die Güte gehabt, mir Ew. Exzellenz
+                        höchst interessante Abhandlung über die Verwandtschaft der Ortsadverbien mit
+                        dem Pronomen, mitzutheilen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+               <date type="author" when="1830-07-01"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="356" type="next">09.09.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jhklaproth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="hy">Armenisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="ja">Japanisch</language>
+            <language ident="mnc">Mandschurisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_229.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_230.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_231.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_232.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_233.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-07-01/Coll.ling.fol.49_234.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="109r"/>
+               <dateline>Paris 1. Julius 1830<lb/>5 Rue
+                    d’Amboise</dateline>
+               <lb/>
+            </opener>
+            <p>
+               <persName ref="jpabel">Herr Abel-Rémusat</persName> hat die Güte gehabt, mir
+                        <bibl sameAs="228">Ew. Excellenz höchst interessante Abhandlung über die
+                        Verwandtschaft der Ortsadverbien mit dem Pronomen</bibl>, mitzutheilen, und
+                    ich kann Ihnen nicht sagen wieviel Vergnügen mir das Lesen derselben gemacht
+                    hat. Was das Japanische anbetrifft, so ist es zu bedauern, daß die Missionaire,
+                    welche Sprachlehren dieser Sprache verfaßt haben, in denselben den Japanischen
+                    Wörtern die Chinesischen Buchstaben beizusetzen vernachlässigt haben. Wäre das
+                        <add>nicht</add> der Fall, so würden wir in manchen Fällen klarer sehen als
+                    jetzt, zumal in den Höflichkeitspartikeln und Pronomen, die in dieser Sprache
+                    eine große Rolle spielen; wir würden durch die Chinesischen Buchstaben den
+                    eigentlichen Sinn derselben kennen lernen, der uns jetzt entgeht.</p>
+            <p>So sehr ich im Ganzen Ew. Excellenz Ansichten über die Ortsadverbien und Pronomen
+                    beipflichte, so kann ich aber auf der anderen Seite durchaus nicht dem
+                    beystimmen, was Ihnen <persName ref="cfneumann">Herr Neumann</persName> über das
+                    Chinesische mitgetheilt hat. Es wird niemand in Abrede seyn daß <foreign sameAs="zh">
+                  <hi rend="underline">Ta</hi>
+               </foreign> und <foreign sameAs="zh">
+                  <hi rend="underline">tai</hi>
+               </foreign> derselben Wurzel
+                    angehören, aber <hi rend="underline">tai</hi> bedeutet nicht "sehr oder
+                    ausnehmend groß". Der Unterschied dieser beiden Wörter ist ein ganz anderer;
+                        <foreign sameAs="zh">
+                  <hi rend="underline">ta</hi>
+               </foreign> bedeutet groß
+                    im Allgemeinen, oder wie der <persName ref="bglemona">P. Basil</persName> in
+                    seinem Wörterbuche<note type="footnote" resp="editor">Basile de Glemona
+                        (1648–1704), ein Missionar des Minoritenordens in China, verfasste ein
+                        handschriftliches chinesisch-lateinisches Wörterbuch, das 1813 von <persName ref="cljguignes">Chrétien-Louis-Joseph de Guignes</persName> in <placeName ref="Paris">Paris</placeName> leicht verändert (ohne Nennung des
+                        eigentlichen Autors) <bibl sameAs="499">veröffentlicht</bibl> wurde. Zu
+                        Basile de Glemona siehe das <ref type="linkExt"
+                       target="http://www.treccani.it/enciclopedia/basilio-brollo_%28Dizionario-Biografico%29/">Dizionario Biografico degli Italiani, Band 14, 1972</ref>. [FZ]</note>
+                    sehr richtig sagt "magnum et mole et virtute" dagegen wird <foreign sameAs="zh">
+                  <hi rend="underline">tai</hi>
+               </foreign>, nur <subst>
+                  <del>von</del>
+                  <add>in</add>
+               </subst> moralischer Hinsicht gebraucht, selbst da wo es scheint
+                        <sic>materiel</sic> genommen zu werden, wie in <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001a.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">tai yang</hi>
+               </foreign>, Sonne und
+                        <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001b.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">tai yn</hi>
+               </foreign>, Mond; in
+                    welchen Ausdrücken von den beiden Principien <foreign sameAs="zh">
+                  <hi rend="underline">yang</hi>
+               </foreign> und <foreign sameAs="zh">
+                  <hi rend="underline">yn</hi>
+               </foreign> der Chinesischen Philosophen die Rede
+                    ist.</p>
+            <p>
+               <persName ref="cfneumann">Herrn Neumann</persName>s Angabe, daß "<hi rend="underline">Ta</hi> und <hi rend="underline">tai</hi> in der
+                    Characterschrift erst spät unterschieden worden sind" ist ebenfalls unrichtig
+                    und von ihm <pb n="190v"/> ersonnen. Zum Beweise setze ich hier die alten Formen
+                        <sic>beiden</sic> Charactere her:</p>
+            <p>1. <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001c.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Ta</hi>
+               </foreign>
+               <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001d.svg"/>
+               </foreign>
+            </p>
+            <p>2. <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001e.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Tai</hi>
+               </foreign>
+               <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001f.svg"/>
+               </foreign>
+            </p>
+            <p>Was <hi rend="underline">tscha</hi> und <hi rend="underline">tschai</hi>
+                    anbetrifft, die durch den Character <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001g.svg"/>
+               </foreign> ausgedrückt
+                    werden, so ist <persName ref="cfneumann">Herr Neumann</persName> ebenfalls im
+                    Irrthume; <hi rend="underline">tscha</hi> bedeutet nicht "außerhalb seyn"
+                        <persName ref="rmorrison">Morrison</persName>s Erklärung "To be out of the
+                    straight line"<note type="footnote" resp="editor">Morrison 1822, S. 64.
+                        [FZ]</note> hat ihn dazu verleitet. <hi rend="underline">Tscha</hi> wird nur
+                    moralisch gebraucht "aberrare a recta ratione". <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001h.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Kue tscha</hi>
+               </foreign> würde, nach
+                        <persName ref="cfneumann">H. Ns.</persName> Erklärung, außerhalb des Reiches
+                    bedeuten, das ist aber nicht der Fall, denn diese Phrase hat gar keine
+                    Bedeutung; wohl aber <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001i.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Kue wai</hi>
+               </foreign>, denn <hi rend="underline">wai</hi> bedeutet physisch <hi rend="underline">außerhalb</hi>; aber kein Chinesisches Wörterbuch erklärt <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001j.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">tscha</hi>
+               </foreign> durch <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001k.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">wai</hi>
+               </foreign>. Alle geben als
+                    Definition <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001l.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">tchhuen</hi>
+               </foreign>, errare
+                        <add>excedere</add> moraliter und <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001m.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">thso</hi>
+               </foreign> was dieselbe
+                    Bedeutung hat.</p>
+            <p>Ich komme nun auf <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001n.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">ná</hi>
+               </foreign> und <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/001o.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">nài</hi>
+               </foreign>, die schon durch
+                    den Accent von einander verschieden sind. <foreign sameAs="zh">
+                  <hi rend="underline">Nai</hi>
+               </foreign> ist niemals etwas anders als eine
+                    Conjunction und Disjunction, und namentlich in den drei Stellen die <persName ref="cfneumann">Herr Neumann</persName> zum Beweis seiner paradoxen Meinung,
+                    als sey es zuweilen Pronomen, angeführt hat. Für einen Kenner der Chinesischen
+                    Sprache findet in dieser Hinsicht kein Zweifel statt. Den vollkommendsten Beweis
+                    aber giebt die vom <persName ref="qianlong">Kaiser Khian</persName> lang verfaßte
+                    Mandshu-Übersetzung, in der hier <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> stets als Conjunction genommen worden ist, wie Ew.
+                    Excellenz aus der gegenüberstehenden Seite ersehen können. Die Mandshu
+                    Übersetzung ist so wörtlich als es der Genius der Sprache zuläßt, und man kann
+                    die Bedeutung der Wörter in <persName ref="jmamiot">Amiot</persName>s <bibl sameAs="1300">Dictionnaire</bibl> von <persName ref="lmlangles">Langlès</persName> herausgegeben verifizieren. Ich glaube sie braucht
+                    keines weiteren Commentars.</p>
+            <p>
+               <pb n="110r; drei Tabellen"/>
+               <hi rend="underline">Erste Stelle</hi>
+            </p>
+            <table rows="23" cols="5">
+               <row>
+                  <cell> </cell>
+                  <cell> </cell>
+                  <cell>chines.</cell>
+                  <cell>mandshurisch</cell>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="underline">Kao</hi>
+                  </cell>
+                  <cell>Kao</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001p.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">Kao</hi>
+                  </cell>
+                  <cell>Kao</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="underline">yao</hi>
+                  </cell>
+                  <cell>yao</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001q.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">yao</hi>
+                  </cell>
+                  <cell>yao</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yue</hi>
+                     </foreign>
+                  </cell>
+                  <cell>sagt</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001r.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">chendume</hi>
+                     </foreign>
+                  </cell>
+                  <cell>sagt:</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">tu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Gewiß,</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001s.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">mudshangga</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Gewiss</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">y</hi>
+                     </foreign>
+                  </cell>
+                  <cell>auch</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001t.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">hing</hi>
+                     </foreign>
+                  </cell>
+                  <cell>handeln</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001u.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">yabun-de</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Handeln-im</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yeu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>hat</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001v.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">inu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>auch</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">kieu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>neun</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001w.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">ujun</hi>
+                     </foreign>
+                  </cell>
+                  <cell>neun</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">te</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Tugenden</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001x.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">erdemu
+                            bi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Tugenden sind</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">y</hi>
+                     </foreign>
+                  </cell>
+                  <cell>und</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001y.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <del>
+                        <foreign sameAs="mnc">
+                           <hi rend="underline">tere</hi>
+                        </foreign>
+                     </del>
+                  </cell>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yan</hi>
+                     </foreign>
+                  </cell>
+                  <cell>sagend</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001z.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell> </cell>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">khi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>dieser</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001aa.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">tere</hi>
+                     </foreign>
+                  </cell>
+                  <cell>diesem</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">shin</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Mensch</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ab.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">nialma-de</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Menschen-in</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yeu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>hat</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ac.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">te</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Tugend</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ad.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">erdemu-bi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Tugend-ist,</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">nai</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Also auch</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ae.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yan</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Wort</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001af.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yue</hi>
+                     </foreign>
+                  </cell>
+                  <cell>sage:</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ag.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">tsái</hi>
+                     </foreign>
+                  </cell>
+                  <cell>Handeln</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ah.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">yabungge</hi>
+                     </foreign>
+                  </cell>
+                  <cell>zu handeln</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">thsài</hi>
+                     </foreign>
+                  </cell>
+                  <cell>das ist die Sache</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001ai.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">tere
+                            baita</hi>
+                     </foreign>
+                  </cell>
+                  <cell>das ist die Sache</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">thsai</hi>
+                     </foreign>
+                  </cell>
+                  <cell>das ist die Sache.</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001aj.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">tere
+                            beita</hi>
+                     </foreign>
+                  </cell>
+                  <cell>das ist die Sache</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">seme</hi>
+                     </foreign>
+                  </cell>
+                  <cell>auch</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">gissure</hi>
+                     </foreign>.</cell>
+                  <cell>sage.</cell>
+               </row>
+            </table>
+            <p> </p>
+            <p> </p>
+            <p>
+               <subst>
+                  <del>Zweite</del>
+                  <add>Dritte</add>
+               </subst> Stelle</p>
+            <table cols="6" rows="9">
+               <row>
+                  <cell> </cell>
+                  <cell> </cell>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">Chines</hi>.</cell>
+                  <cell>
+                     <hi rend="underline">Mandshu</hi>
+                  </cell>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">U</hi>
+                     </foreign>
+                     <lb/>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">hu</hi>
+                     </foreign>
+                  </cell>
+                  <cell> ⎫ <lb/>⎬ <lb/>⎭ </cell>
+                  <cell>
+                     <lb/>Oh!</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/001.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <lb/>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">ai</hi>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <lb/>Oh!</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">schang</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>Vielleicht</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/002.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">erebe</hi>
+                     </foreign>
+                  </cell>
+                  <cell>dies</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">khe</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>könnend</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/003.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">schi</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>stets</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/004.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">gemuni</hi>
+                     </foreign>
+                  </cell>
+                  <cell>stets</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">schin</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>aufs Kräftigste,</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/005.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">hing seme</hi>
+                     </foreign>
+                     <lb/>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">muteche-de</hi>
+                     </foreign>&gt; </cell>
+                  <cell> aufs Kräftigste <lb/>können-durch </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">nai</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>so</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/006.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">aintsi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>so vielleicht</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">y</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>auch</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/007.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">inu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>auch</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yeu</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>wird seyn</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/008.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="underline">tschung</hi>
+                     <note type="footnote" resp="Klaproth">Dieser Buchstab, den <persName ref="cfneumann">Herr
+                                    Neumann</persName>
+                        <hi rend="underline">tang</hi> ausspricht, hat nur die Aussprache
+                                    <hi rend="underline">tschūng</hi>.</note>
+                  </cell>
+                  <cell/>
+                  <cell>ein Ende.</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/009.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <subst>
+                        <del>
+                           <hi rend="underline">tuben</hi>
+                        </del>
+                        <add>
+                           <hi rend="underline">duben</hi>
+                        </add>
+                     </subst>
+                  </cell>
+                  <cell>Ende</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> </cell>
+                  <cell> </cell>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">bitsi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>zu seyn</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> </cell>
+                  <cell> </cell>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">ombidere</hi>
+                     </foreign>.</cell>
+                  <cell>es mögte seyn.</cell>
+               </row>
+            </table>
+            <p> </p>
+            <p> </p>
+            <p>
+               <hi rend="underline">Zweite Stelle</hi>
+            </p>
+            <table cols="7" rows="8">
+               <row>
+                  <cell> </cell>
+                  <cell> </cell>
+                  <cell/>
+                  <cell>Chines.</cell>
+                  <cell>Mandshu</cell>
+                  <cell/>
+                  <cell> </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">Tso</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>Bearbeitet<lb/>(das)</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/010.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">Tarifi</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>Wenn bearbeitet,<lb/>(das)</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">schy</hi>
+                     </foreign>
+                  </cell>
+                  <cell>⎫</cell>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/011.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">dshuan</hi>
+                     </foreign>
+                  </cell>
+                  <cell>⎫</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">yeu</hi>
+                     </foreign>
+                  </cell>
+                  <cell>⎬</cell>
+                  <cell>13<hi rend="superscript">e</hi>.</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/012.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>⎬</cell>
+                  <cell>dreizehnte</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">san</hi>
+                     </foreign>
+                  </cell>
+                  <cell>⎭</cell>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/013.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">ilatsi</hi>
+                     </foreign>
+                  </cell>
+                  <cell>⎭</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">tsaì</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>Jahr</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/014.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">ania,</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>Jahr<note type="footnote" resp="Klaproth">oder im 13.<hi rend="superscript">ten</hi> Jahre</note>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">nai</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>dann (auch)</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/015.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">teni</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>dann (auch)</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <hi rend="underline">thung</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>dem anderen gleich.</cell>
+                  <cell>
+                     <foreign sameAs="zh">
+                        <graphic rend="big" url="Klaproth/Klaproth-WvH_1830-07-01/016.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="mnc">
+                        <hi rend="underline">gûwa-de
+                                adali</hi>
+                     </foreign>
+                  </cell>
+                  <cell/>
+                  <cell>dem anderen gleich.</cell>
+               </row>
+            </table>
+            <p>
+               <pb n="110v"/> Erlauben mir Ew. Excellenz nun wieder auf <persName ref="cfneumann">Herrn Neumann</persName> zurück zu kommen. Er ist ein
+                    geistreicher und im Umgange angenehmer Mann, aber an gründlichen Kenntnissen in
+                    den asiatischen Sprachen fehlt es ihm gänzlich. Dabei ist er von der, seiner
+                    Nation so sehr eigenen, unbegränzten Eitelkeit beseelt, die ihn dazu treibt
+                    alles beurtheilen zu wollen was er nicht versteht. Chinesisch zu lernen ist
+                    leicht und ist schwer; es kömmt darauf an wie man es anfängt. Wer ein Jahr lang
+                    sich mit eisernem Fleiße dieser Sprache widmet, legt einen Grund auf den er
+                    späterhin weiterbauen kann, aber nicht der, der nach 14 tägigem Studio sich weit
+                    genug vorgerückt glaubt um die schwersten Chinesischen Philosophen zu lesen und
+                    dann anfängt zu lehren statt zu lernen. Ich habe hier <persName ref="cfneumann">H. Neumann</persName> oft gesehen und im Stillen seine Eigenliebe
+                    bewundert, mit der er es wagte seinem Lehrer, oder andere<add>n</add>
+                        gründliche<add>n</add> Kennern, Übersetzungsfehler zeihen zu können. Vom
+                    Tschu hi<note type="footnote" resp="editor">
+                  <persName ref="zhuxi">Zhu
+                        Xi</persName> (1130–1200), chinesischer Neokonfuzianer der Song-Dynastie; siehe <ref type="linkExt" target="https://www.iep.utm.edu/zhu-xi/">Internet
+                            Encyclopedia of Philosophy</ref>. [FZ]</note> bin ich überzeugt, hat er
+                    kein Wort verstanden, wohl aber seine <sic>vorgefaßte</sic> Meinungen in den
+                    Text gebracht, denn als er schon ziemlich weit in der Übersetzung dieses
+                    Schriftstellers gekommen war, kannte er nicht einmal den Gebrauch der Partikel
+                        <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-07-01/017.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">tschi</hi>
+               </foreign>, die doch im
+                    Chinesischen, wie jeder Anfänger weiß, fundamental ist.</p>
+            <p>Im Armenischen, das er 3 Monate lang in <placeName ref="Venedig">Venedig</placeName> studirt hat, soll er ebenfalls sehr schwach seyn. Er
+                    hat die Correcturen <bibl sameAs="1302">seiner Abhandlung über die Übersetzung des
+                        Aristoteles</bibl>, die im <bibl sameAs="773">Journal Asiatique</bibl>
+                    steht, selbst übernehmen wollen; auch ist der armenische Text, nach dem Urtheile
+                    aller Kenner, voll der lächerlichsten Fehler, indem er häufig ein Wort in zwei
+                    getheilt, oder aus zweien eins gemacht hat. Ganz <placeName ref="Paris">Paris</placeName> weiß auch, daß er fast gar nicht Griechisch versteht, und
+                    daß die griechisch übersetzten Stellen von <persName ref="grlsinner">Herrn
+                        Professor Sinner</persName>
+               <note type="footnote" resp="editor">Gabriel
+                        Rudolf Ludwig von Sinner (1801–1860), Schweizer Orientalist, klassischer
+                        Philologe und Bibliothekar, Mitherausgeber des <hi rend="italic">Thesaurus
+                            Graecae Linguae ab Henrico Stephano constructus: Post editionem anglicam
+                            novis additamentis auctum, ordineque alphabetico digestum tertio
+                            ediderunt Carolus Benedictus Hase, in schola regia speciali linguarum
+                            orientalium professor […] G. R. Lud. de Sinner et Theobaldus Fix</hi>,
+                        Paris: Didot 1830. [FZ]</note> sind. <pb n="111r"/> Wahrscheinlich wird
+                        <persName ref="hkurz">Herr Dr. Kurz</persName> die Ehre gehabt haben, Ew
+                    Excellenz <bibl sameAs="584">ein Exemplar seines Schreibens</bibl> an <persName ref="hgaewald">Prof. Ewald</persName>, über <persName ref="cfneumann">H.
+                        Neumann</persName>’s Chinesische Unternehmungen, zu übersenden. Ich glaube
+                    daß er in alle dem, was er gegen ihn aufstellt, Recht hat. Was hier besonders
+                        <add>gegen</add>
+               <persName ref="cfneumann">Herrn Neumann</persName> Allgemeine Animadversion
+                    erregt hat, sind seine Verläumdungen gegen <persName ref="jpabel">Herrn
+                        Rémusat</persName>, die er hier und in England im Stillen ausgebreitet hat.
+                    In Deutschland soll er dasselbe gethan haben.</p>
+            <p>Ich muß um Verzeihung bitten, daß ich Sie mit dieser Angelegenheit schon so lange
+                    unterhalten habe, es schien mir aber der Mühe werth zu seyn, den Werth oder
+                    Unwerth der Bemerkung des <persName ref="cfneumann">H. Neumann</persName> über
+                    Chinesische Grammatik zu bestimmen, damit sie nicht zu Irrthümern verleiten
+                    mögen.</p>
+            <closer>
+               <salute>Indem ich mich Ihrer fortwährenden Güte und Gewogenheit empfehle,
+                        habe ich die Ehre mit vorzüglicher Hochachtung und Ergebenheit zu
+                        seyn<lb/>Ew. Excellenz<lb/>ganz gehorsamster
+                        Diener</salute>
+               <signed>JHKlaproth</signed>
+               <lb/>
+               <pb n="111v"/>
+               <address>
+                  <addrLine>A Son Excellence</addrLine>
+                  <addrLine>Monsieur le Baron Guillaume de Humboldt</addrLine>
+                  <addrLine>Ministre d’Etat</addrLine>
+                  <addrLine>Berlin</addrLine>
+               </address>
+               <lb/>
+               <pb n="Zwei Stempel"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

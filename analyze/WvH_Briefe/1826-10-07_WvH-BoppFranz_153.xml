@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 07.10.1826<idno type="BBAW">153</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 37. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 55–58</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7672</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="627">Bopp, Franz: [Rezension] Deutsche Grammatik von Dr. Jacob Grimm. Zweite Aufl. Erster
+                    Theil 1822. Zweiter Theil 1826. In: Jahrbücher für wissenschaftliche Kritik, hrsg. v.
+                    der Societät für wissenschaftliche Kritik zu Berlin, Jg. 1827, Nr.
+                    31/32 bis 37/38, S. 251–303; Nr. 92/93 bis 95/96, S. 725–759</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeboren sage ich meinen lebhaftesten Dank für den
+                        belehrenden Genuß, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-10-07"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="152" type="prev">30.09.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="gem">Germanische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">13. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 21. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1826_10_07/NDIGRKP004565_0383.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_10_07/NDIGRKP004565_0384.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_10_07/NDIGRKP004565_0385.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ew. Wohlgeboren sage ich meinen lebhaftesten Dank für den
+                    belehrenden Genuß, den Sie mir abermals durch die mir mitgetheilten Bogen Ihrer Handschrift verschaft haben. Ich muß, wie beim
+                    ersten Theil Sie bitten, was ich darüber zu sagen im Stande bin, nicht als etwas
+                    anzusehen, das zu einer wahren Beurtheilung gereift wäre, sondern nur als
+                    Zweifel, die ich um so freier ausdrücke, als solange <bibl sameAs="627">Ihre Arbeit</bibl> nicht vollendet
+                    ist, Sie darin Veranlassung zu ausführlicherer Darstellung einzelner Theile
+                    Ihrer Meinung finden können.</p>
+            <p>Was Ew. Wohlgeboren gegen <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName> über das <hi rend="antiqua">Participium</hi> in <hi rend="antiqua">tus</hi>
+               <!-- AD foreign? --> im Deutschen sagen, hat meine vollkommene Zustimmung. Man kann
+                    dies <hi rend="antiqua">Participium</hi> nicht als etwas ansehen, das aus dem
+                        <hi rend="antiqua">Praeteritum</hi> der schwachen <hi rend="antiqua">Conjugation</hi> entstanden seyn sollte. Es ist augenscheinlich älter und
+                    ursprünglicher, u. ich glaube nicht, daß sich die Endung, wie auch Ew.
+                    Wohlgeboren mir anzunehmen scheinen, erklären läßt. Man kann sie nur in den
+                    Verwandten Sprachen nachweisen. Auffallend ist es indeß allerdings, daß dies <hi rend="antiqua">Part.</hi> in <hi rend="antiqua">t</hi>
+               <!-- AD: foreign? --> gerade immer die
+                    schwache, das in <hi rend="antiqua">n</hi>
+               <!-- AD: foreign? --> die starke <hi rend="antiqua">Conjugation</hi> begleitet. Allein ich glaube, daß sich dies erklären läßt,
+                    nur zwingt meines Erachtens diese Erscheinung, da das <hi rend="antiqua">Part.</hi> nicht aus dem <hi rend="antiqua">Imperf.</hi> abgeleitet werden
+                    kann, das letztere aus dem erstern abzuleiten. Nimmt man beide, als unabhängig
+                    von einander an, so wird jene Erscheinung so unerklärbar, daß sie mir, wie eine
+                    Thatsache, dieser Annahme entgegen zu stehen scheint. Ich halte, und auch Ew.
+                    Wohlgeboren deuten dies an, das Part. in <hi rend="antiqua">t</hi>
+               <!-- AD: foreign? --> ursprünglich
+                    gar nicht für ein <hi rend="antiqua">Participium</hi>, sondern für eine <hi rend="antiqua">Adjectiv</hi>-, wenn Sie wollen <hi rend="antiqua">Verbaladjectiv</hi>form. Die Begriffe des <hi rend="antiqua">Participiums</hi> u. <del>
+                  <gap quantity="1" unit="chars"/>
+               </del> <hi rend="antiqua">Adjectivums</hi>
+                    sind gewiß erst spät genau geschieden worden. Dagegen scheint mir in den
+                    Germanischen Sprachen das <hi rend="antiqua">Part.</hi> der starken <hi rend="antiqua">Conjugation</hi> <pb n="2*"/> wirklich eine Form des <hi rend="antiqua">Verbi</hi> und mithin ein
+                    wahres <hi rend="antiqua">Participium</hi>. Allein ich finde das
+                    Charakteristische desselben nicht in der Endung, sondern nur in dem <hi rend="antiqua">Vocal</hi>wechsel. Wenn man nun diesen, d. h. die starke <hi rend="antiqua">Conjugation</hi> zu verlassen anfieng, so war es natürlich
+                    daß man auch jenes <hi rend="antiqua">Participium</hi> verließ. Man hielt sich
+                    nun an die <hi rend="antiqua">Adjectiv</hi>form, die man in der Sprache vorfand,
+                    und bildete an sie das <hi rend="antiqua">Perfectum</hi> u. die schwache <hi rend="antiqua">Conjugation</hi> an. Dies war, wenigstens früher, auch Ew.
+                    Wohlgeboren Meinung. Dann aber kann man nicht füglich das <hi rend="antiqua">Praeteritum</hi>, als mit dem Hülfswort <foreign sameAs="de">
+                  <hi rend="underline">thun</hi>
+               </foreign>
+                    verbunden ansehen. Sollte das aber auch so sicher seyn?</p>
+            <p>Bog. 11. S. 4. sagen Ew. Wohlgeboren, daß die starke
+                        <hi rend="antiqua">Conjugation</hi> der 1<hi rend="superscript">sten</hi>
+                    Sanskritischen entspricht. Ueber diesen Punkt, inwiefern Sie nun die starke und
+                    schwache Conjugation im <hi rend="antiqua">Sanskrit</hi> anzutreffen glauben,
+                    werden gewiß auch andre Ihrer Leser eine ausführlichere Erklärung wünschen. Ich
+                    verstehe Sie so, daß bloß das durchgängige <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> die
+                    Aehnlichkeit der 1. <hi rend="antiqua">Sanskriti</hi>schen Klasse u. der starken
+                    Conjugation begründet. Allein die Vergleichung scheint mir doch gar nicht recht
+                    zu passen. Die 1<hi rend="superscript">ste</hi> Classe hat mehr <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> als die st. C., da sie es überall hat, und den übrigen Classen fehlt es
+                    auch nicht daran. Der große u. wichtige Unterschied der Germanischen u.
+                    Indischen Conjugation ist, daß, <del>die ersten</del> indem beide in zwei
+                    Hauptklassen zerfallen, dieser Unterschied in der erstern durch den <hi rend="antiqua">Vocal</hi>wechsel, in der letztern durch die Zulassung eines
+                        Binde<hi rend="antiqua">vocals</hi> bestimmt wird. Dieser Unterschied
+                    scheint mir auf die ganze äußere Physiognomie, u. das ganze innere Wesen beider
+                    Sprachstämme einen entschiedenen Einfluß auszuüben, und ich gestehe offenherzig,
+                    daß, wie <pb n="3*"/> Ew. Wohlgeboren Sich über das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> und die st. C. auslassen, dieser charakteristische Unterschied, meiner
+                    Ansicht nach, verdunkelt wird, ohne daß man die Ueberzeugung gewinnt, daß er
+                    kein wahrer sey. Wenn ich Ew. Wohlgeboren <ref type="link" target="152">Schreiben</ref> an mich mit <bibl sameAs="627">Ihrem Aufsatz</bibl> zusammennehme, so scheinen Sie gar anzunehmen, daß es
+                    ein <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> giebt, welches nicht durch die Gewichtlosigkeit der Endungen entsteht,
+                    sondern über dessen Ursprung Sie Sich nicht erklären. Denn Sie sagen: „bei der
+                        1<hi rend="superscript">sten</hi> Classe wird das einmal (ich möchte aber
+                    fragen, wodurch?) heran gebrachte <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> durch den Wachsthum der Endungen nicht mehr in seine Schranken
+                    zurückgeführt.“ Insofern nun die 1<hi rend="superscript">ste</hi> Classe eine
+                    Conjugation mit nicht von den Endungen herrührendem <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> ist, und die zweite Conjugation (nach Ihrer Abtheilung) eine ohne andres
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, als was in einzelnen Fällen durch die Endungen entsteht, könnte man in
+                    jener die starke, in dieser die schwache Conjugation erblicken. Aber jedermann
+                    muß fühlen, daß die 1. u. 2. Classe einen ganz anderen Charakter haben, als die
+                    st. u. schw. C., daß der ersten der Wechsel der <hi rend="antiqua">Vocale</hi>
+                    nach Maßgabe der grammatischen Formen, der 2<hi rend="superscript">ten</hi> die
+                    Abwesenheit alles <hi rend="antiqua">Vocal</hi>wechsels u. die Einförmigkeit der
+                    Bildung der <del>schw.</del> schwachen Conjugation abgeht. Nebenher wird auch
+                    die <hi rend="antiqua">Sanskriti</hi>sche Conjugation in ihrer ganzen
+                    Eigenthümlichkeit gewisser, wenn man die Eintheilung in st. u. schw. C. auf sie
+                    anwenden will. Denn die 6<hi rend="superscript">te</hi>, so offenbar mit der
+                        1<hi rend="superscript">sten</hi> fast identische Classe wird man nun
+                    gezwungen in Eine Linie mit der ihr ganz fremden 2<hi rend="superscript">ten</hi> zu setzen. Ew. Wohlgeboren erklären in der 6. Cl. den
+                    unterdrückten Einfluß der Endungen aus dem eingeschobenen <hi rend="antiqua">a</hi>
+               <!-- AD: foreign? -->. Dies sonderbare Verhältniß der 1. u. 6. Cl. gegen einander kann
+                    ich mir, auch nach Ew. Wohlgeboren Ansicht, nicht anders erklären, als daß
+                    einigen <pb n="4*"/> Wurzeln ursprünglich das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> beiwohnte, andern nicht, u. daß man hiernach die Abtheilung annahm. Da
+                    man aber doch allen diesen Wurzeln dieselbe Conjugationsform zutheilte, so
+                    beweist dies, dünkt mich, recht augenscheinlich, daß das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> mit der Conjugationsform gar nicht zu thun hat, u. von unserm <hi rend="antiqua">Vocal</hi>wechsel, dem Begriff u. Wesen nach, unterschieden
+                    ist. Der Unterschied der 1. u. 6. Cl. ist wirklich keiner, den die Sprache,
+                    sondern nur einer, den die Ordnungssorgfalt der Grammatiker macht. Damit Ihre
+                    Ideen über die hier nur kurz angeregten Momente dem Leser lichtvoller und
+                    übersichtlicher werden, hielte ich es für ausnehmend gut, wenn Ew. Wohlgeboren
+                    Sich bestimmter und deutlicher sowohl über die Vergleichung der Indischen u.
+                    Germanischen Haupt<hi rend="antiqua">conjugations</hi>arten im Allgemeinen, als
+                    über den Punkt, ob <del type="fragment">od</del> und wie nicht jedes <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> aus der Beschaffenheit der Endungen herstammt, aussprechen wollten.</p>
+            <p>Die von Ew. Wohlgeboren angeführten Französischen <hi rend="antiqua">flexionen</hi> <foreign sameAs="fr">
+                  <hi rend="antiqua">je tiens</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="antiqua">je tenois</hi>
+               </foreign> <hi rend="antiqua">cet.</hi> haben etwas sehr Auffallendes.
+                    Allein man wird doch irre, ob wirklich es die Endungen sind, die dies bewirken,
+                    weil die <hi rend="antiqua">Analogie</hi> nicht durchgehend ist u. man auch
+                        <foreign sameAs="fr">
+                  <hi rend="antiqua">tiendrois</hi>
+               </foreign> mit ganz schwer gewichtiger Endung u. ebenso <foreign sameAs="fr">
+                  <hi rend="antiqua">je crains</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="antiqua">je craignois</hi>
+               </foreign> (nicht <foreign sameAs="fr">
+                  <hi rend="antiqua">cregnois</hi>
+               </foreign>) <foreign sameAs="fr">
+                  <hi rend="antiqua">je craindrois</hi>
+               </foreign> u. s. w. sagt.</p>
+            <p>Ich habe mich sehr gefreut, zu sehen, daß Ew. Wohlgeboren auch die Declination in
+                    den Kreis Ihrer Prüfung aufnehmen wollen. Sie werden mich ungemein verbinden,
+                    wenn Sie mir auch bei der <bibl sameAs="627">Fortsetzung der Abhandlung</bibl> das Vergnügen gönnen
+                    wollen, mich vor dem Druck damit bekannt zu machen. Dies wird mich nicht
+                    hindern, sie auch nach demselben noch recht eigentlich zum Gegenstand meines
+                    Studiums zu machen.</p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Freundschaft <lb/>der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 7. <hi rend="antiqua">October</hi>,
+                        1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

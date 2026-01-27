@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 31.05.1823<idno type="BBAW">131</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 18. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 35f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7303</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Meinen herzlichsten Dank für Ihre gütigen belehrenden
+                        Zeilen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-05-31"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="132" type="next">03.06.1823</ref>
+               <ref target="130" type="prev">30.05.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind am">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 29. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1823_05_31/NDIGRKP004565_0321.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_05_31/NDIGRKP004565_0322.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_05_31/NDIGRKP004565_0323.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Meinen herzlichsten Dank für Ihre gütigen belehrenden <ref type="link" target="130">Zeilen</ref>. Ihre Auslegung ist offenbar die
+                    richtige. Ew. Wohlgeboren schreiben aber <foreign sameAs="sa" n="transEd">niyojya<graphic url="Bopp/WvH-Bopp_1823_05_31/0685.svg"/>
+               </foreign>. In
+                    der <hi rend="antiqua">Calcutter</hi> Ausgabe des <hi rend="antiqua">Ramayana</hi>
+               <!-- Es ist unklar, welche Ausgabe damit gemeint ist; FZ -->
+                    steht <foreign sameAs="sa" n="transEd">niyujya<graphic url="Bopp/WvH-Bopp_1823_05_31/0686.svg"/>
+               </foreign>. Dies ist also wohl
+                    falsch, oder kann man beide Formen brauchen? Es interessirt mich nur wegen der
+                    Regeln der Bildung dieses <hi rend="antiqua">Gerundium’s</hi>. – Daß ich
+                        <foreign sameAs="sa" n="transEd">ūṣuḥ<graphic url="Bopp/WvH-Bopp_1823_05_31/0687.svg"/>
+               </foreign> habe verkennen
+                    können, gehört zu den Verstößen, über die man beschämenden Aerger empfindet.
+                    Freilich aber lautet diese Person in beiden <hi rend="antiqua">Verben</hi>
+                    gleich. – Die <hi rend="antiqua">part. pass.</hi> in dem letzten der angeführten
+                    Verse nahm ich, wie sie oft stehen in neutraler Bedeutung. Ueber <foreign sameAs="sa" n="transEd">tadoṣitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_31/0688.svg"/>
+               </foreign> muß ich mir noch einige Belehrung erbitten. Ich hielt das Wort für
+                    zusammengesetzt aus <foreign sameAs="sa" n="transEd">tadā<graphic url="Bopp/WvH-Bopp_1823_05_31/0689.svg"/>
+               </foreign> u. dem <hi rend="antiqua">part. pass.</hi> <foreign sameAs="sa" n="transEd">uṣita<graphic url="Bopp/WvH-Bopp_1823_05_31/0690.svg"/>
+               </foreign>, woraus dann <foreign sameAs="sa" n="transEd">o<graphic url="Bopp/WvH-Bopp_1823_05_31/0691.svg"/>
+               </foreign> entsteht. Ew. Wohlgeb. erklären das <hi rend="antiqua">part.</hi> für
+                    das des <hi rend="antiqua">Causale</hi> u. nennen dies <foreign sameAs="sa" n="transEd">oṣitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_31/0692.svg"/>
+               </foreign>. Allein dann müßte ja wohl die Zusammensetzung <foreign sameAs="sa" n="transEd">tadauṣitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_31/0693.svg"/>
+               </foreign> lauten. Ueber die Bildung des <hi rend="antiqua">Part. </hi> der <hi rend="antiqua">Causalform</hi> ist auch <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins Gr.</hi>
+               </bibl> mangelhaft. Es nimmt wohl bei <foreign sameAs="sa" n="transEd">vas<graphic url="Bopp/WvH-Bopp_1823_05_31/0694.svg"/>
+               </foreign> ein Anfangs <foreign sameAs="sa" n="transEd">o<graphic url="Bopp/WvH-Bopp_1823_05_31/0691.svg"/>
+               </foreign> an, weil die <hi rend="antiqua">Causalform</hi> <foreign sameAs="sa" n="transEd">vāsi<graphic url="Bopp/WvH-Bopp_1823_05_31/0695.svg"/>
+               </foreign> einen langen Vocal hat?</p>
+            <p>
+               <pb n="2*"/> Ich werde <date when="1823-06-03">Dienstag</date> bloß meine
+                    allgemeinen Ideen über <hi rend="antiqua">Infinitiv</hi> u. <hi rend="antiqua">Gerundium</hi> aus meiner Abhandlung<note type="footnote" resp="editor">Das
+                        Sitzungsprotokoll der Historisch-Philologischen Klasse (BBAW, Archiv, II-V,
+                        142, 168) verzeichnet für den <date when="1823-06-03">3. Juni 1823</date>:
+                        "H. v. Humboldt über Infinitif, Gerund u. Supin in der allg. Grammatik". Die
+                        Abhandlung wurde nicht publiziert.</note> (ohne Bezug auf <hi rend="antiqua">Sanskrit</hi>) vortragen. Da ich aber diese §phen ganz umgearbeitet habe,
+                    so wird es mir sehr schmeichelhaft seyn, wenn Ew. Wohlgeboren bei der Sitzung
+                    zugegen zu seyn die Güte haben wollen.</p>
+            <closer>
+               <salute>Mit ausgezeichneter Hochachtung <lb/>Ew. Wohlgeb.
+                        <lb/>ergebenster,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>31.<note type="footnote" resp="editor">Lefmann 1897: 31. Mai
+                            1823.</note>
+               </dateline>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat, rechts große Fehlstelle im Bogen durch Öffnen des Siegels"/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Bopp</hi>,</addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

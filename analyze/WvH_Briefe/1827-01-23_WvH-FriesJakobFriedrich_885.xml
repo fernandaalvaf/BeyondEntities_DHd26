@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 11. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jakob Friedrich Fries, 23.01.1827<idno type="BBAW">885</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Jena, ThULB, Nachlass Fries, VIII,
+                            40a</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7719</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="panders">
+                  <persName>Anders, Johann Daniel</persName>
+               </person>
+               <person corresp="cquandt">
+                  <persName>Quandt, Christlieb</persName>
+               </person>
+               <person corresp="tsschumann">
+                  <persName>Schumann, Theophilus Salomo</persName>
+               </person>
+               <person corresp="hwied">
+                  <persName>Wied, Hans</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="343">Quandt, Christlieb: Arawakische Bibelübersetzungen
+                        [Manuskript]</bibl>
+               <bibl corresp="402">Schumann, Theophilus Salomo: Grammatik des Arawakischen
+                        [Manuskript]</bibl>
+               <bibl corresp="1062">Schumann, Theophilus Salomo / Schumann, Christian Ludwig:
+                        Arawackisch-Deutsches Wörterbuch (Hoop: 1780)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeboren hatten die Gefälligkeit, Sich so gütig für meinen
+                    Wunsch durch die Herrenhutischen Gemeinen Nachrichten über Außereuropäische
+                    Sprachen zu erhalten zu interessiren, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-01-23"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jffries">Fries, Jakob Friedrich</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="313" type="next">26./27.01.1827</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Unterschrift Humboldts</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="">Afrikanische Sprachen</language>
+            <!-- zu allgemein -->
+            <language ident="arw">Arawakisch</language>
+            <language ident="srn">„verderbte Englische Sprache“ in „Westindien und Surinam“
+                    (Sranan?)</language>
+            <!-- = Sranan?-->
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">28. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="40a r"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 23<hi rend="superscript">ten</hi>
+                  <hi rend="antiqua">Januar</hi>, 1827</dateline>
+            </opener>
+            <p>Ew. Wohlgeboren hatten die Gefälligkeit, Sich so gütig für meinen Wunsch durch
+                    die <orgName ref="34">Herrenhutischen Gemeinen</orgName> Nachrichten über
+                    Außereuropäische Sprachen zu erhalten zu interessiren, daß ich es für meine
+                    Pflicht halte, Ihnen anzuzeigen, <subst>
+                  <del>daß</del>
+                  <add>
+                     <handShift scribe="wvh"/> was</add>
+               </subst>
+               <handShift scribe="Schreiber"/> ich auf einem anderen Wege, den ich
+                    früher eingeschlagen, von <placeName ref="Herrnhut">Herrnhut</placeName>
+                    empfangen habe. Ich hatte mich neulich durch den hiesigen Herrnhutischen
+                        <persName ref="panders">Prediger <hi rend="antiqua">Anders</hi>
+               </persName>
+                    an den <persName ref="hwied">Bischoff <hi rend="antiqua">Wied</hi>
+               </persName>
+                    gewandt, und dieser hat mir wirklich, von den Erben des seeligen <persName ref="cquandt">
+                  <hi rend="antiqua">Quandt</hi>
+               </persName> <bibl sameAs="343">Uebersetzungen biblischer
+                        Stücke</bibl> von diesem Manne, zwei Wörterbücher und eine Grammatik der
+                    <hi rend="antiqua">Arawaki</hi>schen Sprache (alles ungedruckt) verschaft.<note type="footnote" resp="editor">Siehe hierzu den <ref type="link" target="219">Brief von
+                            Anders an Humboldt</ref> vom <date when="1827-01-21">21.01.1827</date>.</note> Die <bibl sameAs="402">Grammatik</bibl> und die
+                        <bibl sameAs="1062">Wörterbücher</bibl> rühren vom <persName ref="tsschumann">Missionair <hi rend="antiqua">Schuman</hi>
+               </persName> her,
+                    und die Grammatik ist dieselbe, von welcher in der <orgName ref="31">Jenaischen
+                        Universitätsbibliothek</orgName> eine jedoch unvollendet gebliebene
+                    Abschrift vorhanden ist.<note type="footnote" resp="editor">
+                  <persName ref="tsschumann">Theophilus Salomo Schumann</persName>
+                        (1719–1760), Missionar der <orgName ref="34">Brüdergemeine</orgName>, hat
+                        während seines Aufenthalts in Surinam eine <bibl sameAs="402">Grammatik der
+                            arawakischen Sprache</bibl> verfasst, die über die Sammlung <persName ref="cwbuettner">Büttner</persName> in die <orgName ref="31">Universitätsbibliothek Jena</orgName> gelangte. Von diesem Original
+                        hatte sich <persName ref="cquandt">Quandt</persName> eine Abschrift gemacht,
+                        die Humboldt dessen Erben abgekauft und mit dem Exemplar in <placeName ref="Jena">Jena</placeName> verglichen hat; s. Georg Reutter (2006):
+                            <ref type="linkExt"
+                       target="http://ediss.sub.uni-hamburg.de/volltexte/2007/3166/pdf/Reutter_Humboldts_linguistisches_System_Stabi_Hamburg_31.12.2006.pdf">
+                     <hi rend="italic">Wilhelm von Humboldts linguistisches System. Seine
+                                Position in der Geschichte der Sprachwissenschaft</hi>
+                  </ref>, Berlin, S. 201.</note>
+            </p>
+            <p>Der <persName ref="hwied">Bischoff <hi rend="antiqua">Wied</hi>
+               </persName> hat
+                    mir auch einige schriftliche <pb n="40a v"/> Bemerkungen mitgetheilt, aus
+                    welchen ich sehe, daß die Neger in Westindien und Surinam von ihren Missionarien
+                    immer in der verderbten Englischen Sprache unterrichtet werden, welche die
+                    gewöhnliche dieser Neger ist, und daß daher die Herrnhutischen Geistlichen von
+                    den Resten Afrikanischer Sprachen bei diesen Negern keine Kenntniß nahmen.</p>
+            <p>Ew. Wohlgeboren werden jetzt am besten selbst beurtheilen, ob vielleicht noch
+                    etwas anders für meinen Zweck von <placeName ref="Herrnhut">Herrnhut</placeName>
+                    aus zu erwarten wäre, und insofern empfehle ich mich Ihren ferneren gütigen
+                    Bemühungen, so wie ich Ihnen ausnehmend für diejenigen verbunden bin, welche Sie
+                    gewiß schon jetzt zu übernehmen die Gefälligkeit gehabt haben.</p>
+            <closer>
+               <salute>Indem ich mich mit großem Vergnügen der interessanten Stunden erinnern,
+                        die ich mit Ew. Wohlgeboren in <placeName ref="Jena">Jena</placeName>
+                        zugebracht, wiederhole ich Ihnen die Vertiefung meiner ausgezeichneten
+                        Hochachtung</salute>
+               <handShift scribe="wvh"/>
+               <signed>Humboldt<note type="footnote" resp="editor">Davor mit Bleistift von
+                            fremder Hand: „W. v.“</note>
+               </signed>
+               <lb/>
+               <handShift scribe="Schreiber"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Fries</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in <placeName ref="Jena">
+                        <hi rend="antiqua">Jena</hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

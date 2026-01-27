@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 01.08.1829 (Entwurf)<idno type="BBAW">169</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Lefmann 1897, S. 68–70</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12182</bibl>
+               </witness>
+            </listWit>
+            <listBibl type="mentioned">
+               <bibl corresp="595">Atharvaveda</bibl>
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache
+                    (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae 1 (Berlin:
+                    Dümmler 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exc. beehre ich mich hiermit d. 18. Bog. nebst einer
+                        Conj.-Tabelle zu überschicken nebst dem soeben gedruckten 20. Bog. und
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="editor" when="1829-08-01"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="168" type="prev">23.07.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">6. August 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 4. Dezember 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <note type="footnote" resp="editor">Dieser Entwurf gehört zum von Bopp an
+                        Humboldt versandten <ref type="link" target="246">Brief</ref> vom <date when="1829-08-01">1. August 1829</date>.</note>
+               <add>(<hi rend="underline">Ueber Historische Sprachforschung</hi>.)
+                            [Entwurf.]<note type="footnote" resp="editor">Einfügung
+                        Lefmann.</note>
+               </add>
+            </p>
+            <p>Ew. Exc. beehre ich mich hiermit d. 18. Bog. nebst der 1. Conj.-Tabelle zu
+                    überschicken nebst dem so eben gedruckten 20. Bog. und dem der Tabelle zu <bibl sameAs="580">r. 239</bibl>
+               <note type="footnote" resp="editor">Lefmann hat die
+                        Stelle mit [?] als unsicher gekennzeichnet.</note>. Die Pronominal-T. ist
+                    noch nicht gedruckt. – Ich bin Ew. Exc. sehr verbunden für Ihre Bemerk. über die
+                    besprochene Regel. Ich gebe zu, daß ich in <bibl sameAs="580">R. 300b</bibl>, um
+                    allen Anstoß zu vermeiden, noch hätte einfügen können <hi rend="italic">ex mea
+                        sententia</hi>. Allein ich muß auch gestehen, daß ich von nichts eine
+                    festere Ueberzeugung habe, als von der Richtigk. der Ans., daß die Vertheilung
+                    in verstärkte und reine Formen von dem Einfluß der Endung ... und ich hielt mich
+                    darum für berechtigt, die Sache als keinem Zweifel unterworfen darzustellen.
+                    Gerne gebe ich aber zu, daß ich mich hierin wie in vielen anderen Sätzen <bibl sameAs="580">meiner Gramm.</bibl> vielleicht irre, und ich habe um so mehr
+                    Grund Mißtr. in meine Ansicht zu setzen, als Ew. Exc. nach gründlicher und
+                    besonnener Prüfung und der vielseitigsten Verfolgung des sogenannten
+                    Gewichts-Mechanismus des Sanskr. die Ansicht hegen, daß man die Sache nicht als
+                    entschieden ansehen könne. – Da die englischen Gramm., und ich glaube
+                    hinzusetzen zu dürfen auch die Indischen, die Formen bloß hinstellen, ohne
+                    irgend Gründe anzugeben, oder Betrachtung darüber anzustellen, auf welchen
+                    natürlichen Gesetzen diese Formen beruhen, warum sie so und nicht anders lauten:
+                    so ist das was ich in <bibl sameAs="580">meiner Gr.</bibl> von Gründen oder
+                    Gesetzen der Spracherscheinungen sage, immer so zu verstehen, daß dies meine
+                    Ansicht sey, daß ich durch meine Beobachtung des Entwickelungsgangs der Sprache
+                    zu dieser Ueberzeugung gelangt bin, in der ich mich jedesmal irren kann, und die
+                    ich gerne anderer unbefangener Prüfung überlasse. Ich stelle z. B. geradezu das
+                        <foreign sameAs="sa" n="transEd">y<graphic url="Bopp/Bopp-WvH_undatiert_1829/0442.svg"/>
+               </foreign>
+               <hi rend="italic">(<foreign sameAs="sa">y</foreign>)</hi> in <foreign sameAs="sa">
+                  <hi rend="italic">yuyam</hi>
+               </foreign> und <foreign sameAs="sa">
+                  <hi rend="italic">bhavêyam</hi>
+               </foreign> als euphonische Einschiebung,
+                    obwohl dies nicht die herkömmliche Meinung ist, und in den indischen Gramm.
+                    selbst schwerlich irgend eine Meinung über diesen Gegenstand herrscht, weil sie
+                    die Formen so nehmen und geben wie sie sind und nicht ergründen wie sie
+                    entstanden sind. Vom historischen Wege glaube ich mich in <bibl sameAs="580">meiner Gramm.</bibl> nicht zu entfernen, weil ich die Formen immer so
+                    gebe, wie sie überliefert sind, od. in Schriftst. sind, und sie nicht meiner
+                    Theorie anbilde, sondern im Gegentheil meine Theorie auf die vorhandenen
+                    überlieferten Formen stütze. Unter historischer Sprachforschung ist doch wohl
+                    diejenige zu verstehen, die eine Sprache durch alle ihre Zustände soweit hinaus
+                    als möglich verfolgt, und auch die Seiten-Linien, d. h. die stammverwandten
+                    Dialekte stets im Auge <add>hat</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note>, die oft wichtige
+                    Aufschlüsse über das relative Alter einer Form geben (und) Zeugniß ablegen, ob
+                    eine Form wohlerhalten oder verst<add>ümmelt</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note>. Wo die
+                    eigentliche Erforschung der Sprache (das Streben nach Begreifung) anfängt, die
+                    doch auch wichtig für das Historische ist, haben wir <add>in</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note> den Grammatiken,
+                    die das rein Positive geben, keinen Haltpunkt mehr. Ob Gegenstände, die ich in
+                        <bibl sameAs="580">meine Gramm.</bibl> ziehe, in ein Lehrbuch gehören, ist
+                    eine andere Frage. Da das Sanskrit-Studium seine Hauptwichtigk. in der Sprache
+                    selbst hat, und von den Meisten in dieser Beziehung betrieben wird, so scheint
+                    es mir auch beim Sanskrit mehr als bei irgend einer anderen Sprache (ein
+                    Bedürfniß) nothwendig oder wünschenswerth, in ein Lehrbuch, das doch zunächst
+                    für Sprachforscher bestimmt, Gegenstände der höheren Sprachw. hineinzuziehen; es
+                    scheint mir nothwendig (soweit es ohne zu weitläufige Erörterungen geschehen
+                        <add>kann</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note>) die Behandlung
+                    einer Sprache so einzurichten, daß man daraus ersieht, daß es einem (dem Verf.)
+                    nicht (blos) darum zu thun ist, die Schriftsteller einer Nation zu verstehen (zu
+                    lesen), sondern daß man den Organismus einer Sprache (den
+                        Entwickelungs<add>gang</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note>) um seiner selbst
+                    willen darstellen will.</p>
+            <p>Es sollte mich freuen, wenn Ew. Excell. dies Ziel (Tendenz), welches bei
+                    Abfassung <bibl sameAs="570">meiner Gramm.</bibl>, besonders <bibl sameAs="580">der
+                        lat.</bibl> immer vor Augen stand, nicht misbilligen.</p>
+            <p>Da in sprachwissensch. Dingen niemand mit dem Grade der Schärfe und Besonnenheit
+                    untersucht und prüft wie Ew. Excell., so ist mir von Ihrer Seite geringer
+                    Beifall … ich werde vielleicht Gelegenheit …, meine Ansichten hierüber in der
+                    Folge ausführlicher zu entwickeln.</p>
+            <p>Ew. Excellenz interessiren sich für den Gebrauch des so seltenen Conditionalis.
+                    Eine Stelle aus dem <bibl sameAs="595">Atharvav.</bibl>, die mir kürzlich wieder
+                    in die Hände gefallen ist, wird Ihnen daher nicht
+                    unwillkommen<!-- "sein" fehlt? sic? -->. Es steht darin der Condit. einmal mit
+                    und einmal ohne Aug<add>ment</add>
+               <note type="footnote" resp="editor">Einfügung Lefmann.</note>.</p>
+            <p>
+               <foreign sameAs="sa">     <hi rend="italic">nâ ’ham imam (purusham̃) vêdayady
+                            aham̃ imam̃ vêdishyam̃ katham̃ tê nâ
+                        ’vaxyam.</hi>
+                  <!-- AD:dieser Satz ist eigentlich zentriert, um das darzustellen, habe ich
+                            vorläufig einige geschützte Leerzeichen eingefügt-->
+               </foreign>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

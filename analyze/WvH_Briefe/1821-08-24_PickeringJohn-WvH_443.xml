@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 24.08.1821<idno type="BBAW">443</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 5–16; Kopie: Boston, Public Library, MS q. 1900, No. 2,
+                            Courtesy of the Trustees of the Boston Public Library/Rare Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 318–321 (Ausz.)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 207</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11659</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gbancroft">
+                  <persName>Bancroft, George</persName>
+               </person>
+               <person corresp="bsbarton">
+                  <persName>Barton, Benjamin Smith</persName>
+               </person>
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="hdaggett">
+                  <persName>Daggett, Herman</persName>
+               </person>
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="jedwards">
+                  <persName>Edwards, Jonathan</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="aheverett">
+                  <persName>Everett, Alexander Hill</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="sfjarvis">
+                  <persName>Jarvis, Samuel Farmar</persName>
+               </person>
+               <person corresp="srasles">
+                  <persName>Rasles, Sébastien</persName>
+               </person>
+               <person corresp="gsagard">
+                  <persName>Sagard-Théodat, Gabriel</persName>
+               </person>
+               <person corresp="fhlschladen">
+                  <persName>Schladen, Friedrich Heinrich Leopold von</persName>
+               </person>
+               <person corresp="wlsmith">
+                  <persName>Smith, William Loughton</persName>
+               </person>
+               <person corresp="jsvater">
+                  <persName>Vater, Johann Severin</persName>
+               </person>
+               <person corresp="welles">
+                  <persName>Welles &amp; Williams, Paris</persName>
+               </person>
+               <person corresp="rwilliams">
+                  <persName>Williams, Roger</persName>
+               </person>
+               <person corresp="swilliams">
+                  <persName>Williams, Samuel</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="442">Adelung, Johann Christoph / Vater, Johann Severin: Mithridates,
+                    oder allgemeine Sprachenkunde mit dem Vater Unser als Sprachprobe in beynahe
+                    fünfhundert Sprachen und Mundarten, 4 Bände (Berlin: Vossische Buchhandlung
+                    1806–1817)</bibl>
+               <bibl corresp="26">Archaeologia Americana. Transactions and Collections of The American
+                    Antiquarian Society, Volume 1–7, 1820–1885</bibl>
+               <bibl corresp="46">Barton, Benjamin Smith: New Views of the origin of the tribes and
+                    Nations of America (Philadelphia: John Bioren 1798)</bibl>
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the Massachusetts
+                    (or Natick) Indian Language (Cambridge: E. W. Metcalf and Company 1829)</bibl>
+               <bibl corresp="502">Duponceau, Peter Stephen: Report of the Corresponding Secretary to
+                    the Committee, of his Progress in the Investigation committed to him of the
+                    General Character and Forms of the Languages of the American Indians. In:
+                    Transactions of the Historical and Literary Committee of the American
+                    Philosophical Society 1, 1819, S. xvii–xlvi</bibl>
+               <bibl corresp="119">Edwards, Jonathan: Observations on the language of the Muhhekaneew
+                    Indians (London: W. Justins 1789)</bibl>
+               <bibl corresp="806">Eliot, John: Mamusse Wunneetupanatamwe Up-Biblum God (Cambridge:
+                    Samuel Green 1663)</bibl>
+               <bibl corresp="124">Eliot, John: The Indian Grammar begun: or, An essay to bring the
+                    Indian language into rules, for the help of such as desire to learn the same,
+                    for the furtherance of the Gospel among them (Cambridge: Marmaduke Johnson
+                    1666)</bibl>
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen / Davis,
+                    John: A Grammar of the Massachusetts Indian Language (Boston: Phelps and Farnham
+                    1822)</bibl>
+               <bibl corresp="114">Heckewelder, John / Du Ponceau, Peter Stephen: A Correspondence
+                    Between the Reverend John Heckwelder, of Bethlehem, and Peter S. Duponceau Esq.
+                    […] Respecting the Languages of the American Indians. In: Transactions of the
+                    Historical and Literary Committee of the American Philosophical Society 1, 1819,
+                    S. 351–448</bibl>
+               <bibl corresp="237">Jarvis, Samuel Farmar: A Discourse on the Religion of the Indian
+                    Tribes of North America (New York: C. Wiley &amp; Co. 1820)</bibl>
+               <bibl corresp="542">Lieberkühn, Samuel / Zeisberger, David: Elekup Nihillalquonk woak
+                    Pemauchsohalquonk Jesus Christ. The history of our Lord and Saviour Jesus
+                    Christ: comprehending all that the four Evangelists have recorded concerning
+                    him; all their relations being brought together in one narration, so that no
+                    circumstance is omitted, but the inestimable history is continued in one series,
+                    in the very words of scripture. By the Rev. Samuel Lieberkuhn, M. A. Translated
+                    into the Delaware language by the Rev. David Zeisberger, Missionary of the
+                    United Brethren (New York: Daniel Fanshaw 1821). – Preface datiert 1806</bibl>
+               <bibl corresp="18">North American Review, 1815–1940</bibl>
+               <bibl corresp="802">Pickering, John: Languages of the American Indians. Rez. zu: 1.
+                    Report of the Corresponding Secretary (Peter S. Duponceau, Esq.) to the
+                    Historical and Literary Committee of the American Philosophical Society, of his
+                    Progress in the Investigation of the General Character and Forms of the
+                    Languages of the American Indians [in: Transactions of the Historical and
+                    Literary Committee]; und 2.: A Correspondence between the Rev. John Heckewelder,
+                    of Bethlehem, and Peter S. Duponceau, Esq. Corresponding Secretary to the
+                    Historical and Literary Committee of the American Philosophical Society,
+                    respecting the Languages of the American Indians. Philadelphia, 1819. In: North
+                    American Review 9, June 1819, S. 179–187</bibl>
+               <bibl corresp="333">Pickering, John: An essay on a uniform orthography for the Indian
+                    languages of North America, as published in the Memoirs of the American Academy
+                    of Arts and Sciences (Cambridge: University Press, Hilliard and Metcalf
+                    1820)</bibl>
+               <bibl corresp="336">Pickering, John: Rezension zu Samuel Farmer Jarvis: A Discourse on
+                    the Religion of the Indian Tribes of North America. In: North American Review
+                    11, July 1820, S. 103–113</bibl>
+               <bibl corresp="353">Rasles, Sebastian / Pickering, John: A Dictionary of the Abnaki
+                    Language, in North America; by Father Sebastian Rasles. With an Introductory
+                    Memoir and Notes by John Pickering. In: American Academy of Arts and Sciences,
+                    Memoirs, N.S. 1, 1833, S. 370–574</bibl>
+               <bibl corresp="808">Sagard, Gabriel: Dictionnaire de la langve Hvronne, Necessaire à
+                    ceux qui n’ont intelligence d’icelle, &amp; ont a traiter auec les Sauuages du
+                    pays (Paris: Denys Moreau 1632)</bibl>
+               <bibl corresp="457">Williams, Roger: A Key into the Language of America: or, An help to
+                    the Language of the Natives in that part of America, called New England.
+                    Together, with briefe Observations of the Customs, Manners and Worships, &amp;c.
+                    of the aforesaid Natives, in Peace and Warre, in Life and Death. On all which
+                    are added Spirituall Observations, Generall and Particular by the Author
+                    (London: Gregory Dexter 1643)</bibl>
+               <bibl corresp="805">Zeisberger, David: Delaware Indian and English Spelling Book for
+                    the Schools of the Mission of the United Brethren (Philadelphia: Mary Cist
+                    1806)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, I have lately had the honour of receiving
+                        your letter …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1821-08-24"/>
+               <placeName key="Salem, MA">Salem</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="506" type="next">12.03.1822</ref>
+               <ref target="505" type="prev">24.02.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="">Abenaki</language>
+            <!-- Es gibt Eastern Abenaki (USA): aaq & Western Abenaki (Canada): abe -->
+            <language ident="alq">Algonkin</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="cic">Chickasaw</language>
+            <language ident="cho">Chocktaw</language>
+            <language ident="del">Delaware</language>
+            <language ident="wam">Massachusett</language>
+            <language ident="mjy">Mahican (Muhhekanew)</language>
+            <language ident="mus">Muscogee (Creek)</language>
+            <language ident="qu">Quechua</language>
+            <language ident="wya">Wyandot (Huron)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_017.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_018.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_019.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_020.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_021.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_022.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_023.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_024.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_025.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_026.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_027.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_028.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_029.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_030.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_031.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_032.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_033.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_034.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_035.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_036.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_037.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_038.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_039.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1821-08-24/Coll.ling.fol.52_040.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="5r"/> <salute>Sir,</salute>
+               <note type="footnote" resp="editor">Oben rechts WvH in Bleistift: "Pickering." In Tinte: "Nr.
+                    1."</note>
+            </opener>
+            <p>I have lately had the honour of receiving your <ref type="link" target="505">letter</ref> of the <date when="1821-02-24">24.<hi rend="superscript">th</hi> of February last</date>, which you delivered to <persName ref="gbancroft">M.<hi rend="superscript">r</hi> Bancroft</persName> to be
+                    forwarded to me. I need not express to you the high sense I entertain, of the
+                    flattering remarks which you have been pleased to make in your letter, and of
+                    the favourable impressions which you have received from <bibl sameAs="336">the
+                        review</bibl> of <persName ref="sfjarvis">D.<hi rend="superscript">r</hi>
+                        Jarvis</persName>’s <bibl sameAs="237">Discourse</bibl>, to which you allude.
+                    In truth, Sir, <bibl sameAs="336">that review</bibl> was prepared in too much
+                    haste and amidst my professional avocations, at the request of some of the
+                    gentlemen connected with the <bibl sameAs="315">North American Review</bibl>; and
+                    I am apprehensive that you may have given more importance to it, than upon a
+                    more deliberate perusal you would find it to deserve; nor am I wholly without
+                    fears of your discovering, that, like some professed reviewers, I have ventured
+                    to write upon a subject with which I was myself <pb n="5v"/> not sufficiently
+                    well acquainted. But I shall hereafter have a powerful stimulus to incite me to
+                    the diligent pursuit of these inquiries, in the reflection, that what I have
+                    already done has procured me the honour of your correspondence, and that I may
+                    also by means of my local situation be able to make some inquiries for you,
+                    which your distance renders it impracticable for you to make in person,
+                    respecting the languages of this Continent.</p>
+            <p>The American Languages, as you well know, have hitherto excited but little
+                    interest in this country; and as <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName> justly observes (in
+                        <bibl sameAs="114">his Correspondence</bibl> with <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName>)
+                    "we have to go to the German Universities to become acquainted with our own
+                    country." You, Sir, can justly appreciate the causes of this state of things. I
+                    trust, however, that we shall not much longer be censurable in this respect:
+                    Your own distinguished example will not be among the least powerful causes to
+                    stimulate us to investigation; and I hope, after studying the works of our great
+                    masters in Europe, we shall prove ourselves to be worthy pupils of such
+                    instructors.</p>
+            <p>From a desire to excite the attention of my countrymen in this part of the United
+                    States, <pb n="6r"/> to the study of these languages, I wrote the review which
+                    you mention; and I had previously, from the same motive written <bibl sameAs="802">a brief notice</bibl> (in the 9.<hi rend="superscript">th</hi> volume of
+                    the North American Review) of the <hi rend="underline">
+                  <bibl sameAs="114">Correspondence</bibl> between <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName> &amp; <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi>
+                            Heckewelder</persName>
+               </hi>. I have, in addition to these publications
+                    communicated to our <orgName ref="39">American Academy of Arts &amp; Sciences at
+                        Boston</orgName> an <bibl sameAs="333">
+                  <hi rend="underline">Essay on a uniform
+                            Orthography for the Indian Languages of North America</hi>
+               </bibl>. This
+                    Essay is published in the fourth volume of the Academy’s <hi rend="underline">Memoirs</hi>, which is just from the press; but I have had a few copies of
+                    it printed separately for distribution among my friends; and I now do myself the
+                    honour to send you two of the copies, in addition to one which I forwarded last
+                    month to <persName ref="gbancroft">M<hi rend="superscript">r</hi>
+                        Bancroft</persName> for you. One of the copies I beg you to accept as a
+                    small testimonial of my high respect for your services in the cause of learning,
+                    and one of them I shall be happy to have you present to <persName ref="avh">your
+                        distinguished brother</persName>, to whom Science is so much indebted; as to
+                    the third copy, you will be pleaded to dispose of it in such manner as you may
+                    judge proper. May I take the liberty, on this occasion, to ask <pb n="6v"/> your
+                    attention to the subject of a <hi rend="underline">common orthography</hi> for
+                    these languages, which would so much lessen the labour of studying them, and
+                    would make the books, which are written in them, intelligible to all the nations
+                    of Europe alike.</p>
+            <p>I have already remarked, that these languages have not been much studied in this
+                    country. The most important publication here of the present day is the <hi rend="underline">Transactions</hi> of the <hi rend="underline">Historical
+                        &amp; Literary Committee</hi> by <persName ref="psduponceau">M<hi rend="superscript">r</hi> DuPonceau</persName> &amp; <persName ref="jgeheckewelder">M<hi rend="superscript">r</hi> Heckewelder</persName>,
+                    which you already possess. Those gentlemen have set an example, which I hope
+                    will be followed in other parts of the United States. Our <orgName ref="40">Massachusetts Historical Society</orgName> (which was instituted several
+                    years ago for the purpose of preserving authentic memorials relative to American
+                    History, and which has published eighteen volumes in 8.°°) will devote a part of
+                    their work to the subject of the Indians. In their nineteenth volume, which is
+                    now in the press, they will republish, under my direction, <bibl sameAs="123">an
+                        ancient Grammar of the <hi rend="underline">Massachusetts Indian
+                            Language</hi>
+               </bibl>, composed by the <persName ref="jeliot">Reverend
+                        John Eliot</persName>, and <bibl sameAs="124">originally
+                        published</bibl> <pb n="7r"/> at <placeName ref="Cambridge, MA">Cambridge</placeName> in this country, in the year 1666. <bibl sameAs="124">This Grammar</bibl> is now extremely scarce; and, as a record of the
+                    Massachusetts dialect at a very early period, it is important, both in the
+                    history of the American Languages, and also to enable us to read <persName ref="jeliot">Eliot</persName>’s <bibl sameAs="806">
+                  <hi rend="underline">Indian
+                            Bible</hi>
+               </bibl>, of which you have doubtless seen some copies in
+                    Europe. I have prepared a short preface &amp; some notes to accompany <bibl sameAs="123">this new edition of the Grammar</bibl>; and my learned friend
+                        <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        DuPonceau</persName> has engaged to write some remarks upon it. As I
+                    perceive by your List of printed books (which I have just received from
+                        <persName ref="gbancroft">M.<hi rend="superscript">r</hi>
+                        Bancroft</persName>) that you do not possess a copy of <bibl sameAs="124">this
+                        Grammar</bibl> I shall take much pleasure in presenting you with one as
+                    soon as it is printed. Permit me to observe, by the way, that the dialect, which
+                    I have just mentioned, has often been called the <hi rend="underline">Natick</hi> language; and, if I am not mistaken, <persName ref="jsvater">Professor Vater</persName>, trusting to some of our American writers, has
+                    given it that name in the <bibl sameAs="442">Mithridates</bibl> (I speak from
+                    recollection only, not having <bibl sameAs="442">that work</bibl> before me at
+                    this time). But that is not the correct appellation; the language took the name
+                    of <hi rend="underline">Natick</hi> merely from this accidental circumstance,
+                        <pb n="7v"/> that <hi rend="underline">
+                  <persName ref="jeliot">Eliot</persName>
+               </hi>, who was a distinguished missionary, established
+                    his first Indian church in a village called <hi rend="underline">Natick</hi>;
+                    (near <placeName ref="Boston">Boston</placeName>) and from this &amp; other
+                    local causes the Indians of that place became conspicuous in our early history,
+                    and their village acquired celebrity and gave a name to this dialect.</p>
+            <p>This language, as you will perceive at once, is a dialect of the <hi rend="underline">Delaware</hi> (or Lenni-Lenape) stock, if indeed the
+                    Delaware itself is the stock &amp; not merely one of the branches of a common
+                    stock.</p>
+            <p>The same <orgName ref="40">Historical Society</orgName> will at a future time
+                    publish a small, but valuable, <bibl sameAs="449">MS. of the language of the <hi rend="underline">Plymouth</hi> Indians</bibl> (which is nearly, if not
+                    quite the same with the <hi rend="underline">Massachusetts</hi> dialect) written
+                    about the year 1708 by <persName ref="jcotton">Josiah Cotton</persName>,<note type="footnote" resp="editor">
+                  <persName ref="jcotton">Josiah
+                            Cotton</persName> (1680–1756): <hi rend="italic">Vocabulary of the
+                            ancient Massachusetts Dialect</hi>, 1708.</note> who was once a preacher
+                    among the Indians of <placeName ref="Plymouth, MA">
+                  <hi rend="underline">Plymouth</hi>
+               </placeName>, a tract of country which is about forty
+                    English miles from <placeName ref="Boston">Boston</placeName>. This MS. appears
+                    to have contained 124 pages, small 4.<hi rend="superscript">to</hi>; but the two
+                    first pages are lost. It is valuable both as respects the <hi rend="underline">history</hi> of the Indian dialects and also because every Indian word
+                    &amp; phrase has an English translation by the side of it. Believing that it
+                    might be a gratification to you to have a <pb n="8r"/> specimen of it, I have
+                    copied a Dialogue, which seems to have taken place between the author &amp; one
+                    of his Indians. I have selected this Dialogue principally because it contains an
+                    historical fact relative to the difference of the respective dialects of
+                    Plymouth (which is on the <hi rend="underline">Continent</hi>) and of an <hi rend="underline">island</hi> near it, which the Indians called <hi rend="underline">Nope</hi>, but which Europeans originally called <hi rend="underline">Martin Wyngard’s Land</hi>, &amp; which has been since
+                    corrupted into <hi rend="underline">Martha’s Vineyard</hi>
+               <note type="footnote" resp="editor">Diese Herleitung des Namens findet sich nur bei Pickering.
+                        Dieser verweist noch in seiner <hi rend="italic">Lecture on Telegraphic
+                            Language; delivered before the Boston Marine Society, February 3,
+                            1833</hi>, Boston: Hilliard, Gray and Co. 1833, S. 6 auf diese
+                        Etymologie. [FZ]</note>. You will observe this small island on the maps of the
+                    United States in Latitude 41°. 40' N. and Longitude 70°. 40' W. at the distance
+                    of a very few miles from Plymouth. In addition to the Dialogue I enclose a Table
+                    of the Contents of the MS. and I hope it will be in my power to send you a
+                    printed copy of the entire work in the course of the next year; but experience
+                    has taught me not to be too sanguine in these cases.</p>
+            <p>The most important MS. of any Indian language, that I know of in this part of the
+                    United States, <pb n="8v"/> is a copious <bibl sameAs="353">Dictionary of the <hi rend="underline">Abnaki</hi> language</bibl> by <persName ref="srasles">Father <hi rend="underline">Sebastian Râle</hi>
+               </persName> (or <hi rend="underline">Rasles</hi>) a Jesuit missionary; which was begun by the
+                    author in the year 1691, and of which you will find a short bibliographical
+                    account in the Appendix to <bibl sameAs="333">my Essay on Indian
+                        Orthography</bibl> abovementioned. I feel extremely solicitous, as I have
+                    there observed, that this ancient record of an extensive Indian dialect should
+                    be published before any accident happens to it; and I would consent to perform
+                    the labours of an editor, as well as my slight acquaintance with this subject
+                    would permit; though my professional avocations would hardly allow me to devote
+                    as much time to it as might be requisite. But I fear, that the expense of
+                    printing a volume so large &amp; one which so few persons would want to buy,
+                    will prevent the publication of it for some years. If any thing could hasten its
+                    publication, it would be the expression of your own opinion &amp; that of other
+                    distinguished European scholars in favour of <pb n="9r"/> the measure. I shall
+                    certainly make an effort to get it transcribed; so that there may be two chances
+                    of preserving the work. I have attached the more importance to this &amp; other
+                        <hi rend="underline">ancient</hi> repositories of the Indian Languages,
+                    because I am extremely desirous to trace the <hi rend="underline">changes</hi>
+                    which they may have undergone (if indeed they have suffered material changes)
+                    since the first settlement of America by Europeans. In reflecting upon this
+                    subject I have sometimes imagined it to be not improbable, that the <hi rend="underline">unwritten</hi> languages might be less mutable than the <hi rend="underline">written</hi> ones; and I have thought this might happen, in
+                    part, as a natural effect of the uniformity of the savage life (compared with
+                    the perpetual fluctuations of the civilized state) and, in part, from the <hi rend="underline">re-action</hi>, if I may so express myself, of the
+                    orthography upon the pronunciation in the <hi rend="underline">written</hi>
+                    languages. We also observe in civilized society, that the illiterate vulgar are
+                    the last to change their idiom &amp; their pronunciation; while the
+                    well-educated part of the community are continually rectifying their
+                    pronunciation by the orthography of their language and <hi rend="underline">vice
+                        versa</hi>. But how far this supposition <pb n="9v"/> respecting the <hi rend="underline">unwritten</hi> languages in general may be well-founded I
+                    am not yet able to determine. I was, however, much struck with the fact stated
+                    by <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        DuPonceau</persName> in respect to one of them (the Wyandot or Huron
+                    language, called by some writers the Algonkin) – He observes, that two
+                    interpreters of that nation, upon examining the <bibl sameAs="808">Vocabulary</bibl> of <persName ref="gsagard">Father
+                        Sagard</persName>,<note type="footnote" resp="editor">
+                  <persName ref="gsagard">Gabriel Sagard</persName> (vor 1604 – 1650?), auch „frère
+                        Théodat“, Missionar der Huronen. Das "dictionnaire" ist angebunden an Gabriel Sagard (1632): <bibl sameAs="1395">
+                     <hi rend="italic">Le Grands Voyage du pays
+                            des Hurons, situé en l’Amérique vers la mer douce, és derniers confins
+                            de la Nouvelle-France, dite Canada</hi>
+                  </bibl>, Paris: Denys Moreau. [FZ]</note> which was
+                    published two hundred years ago, remarked that their language did not appear to
+                    have undergone any material change in all that period. <hi rend="underline">See
+                            <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                            DuPonceau</persName>’s <bibl sameAs="502">Report on the Indian
+                            Languages</bibl>
+               </hi>, in the <hi rend="underline">Transactions</hi> of
+                    the Histor. &amp; Lit. Committee, p. XXXV. I have myself made some inquiries of
+                    persons conversant with the Indians, as to the simple fact, whether any changes
+                    have been noticed by the Indians themselves; and I directed my correspondents to
+                    enquire, whether the <hi rend="underline">young</hi> Indians ever criticised the
+                    words or the pronunciation of the <hi rend="underline">older</hi> ones, as being
+                    antiquated; and, on the other hand, whether <hi rend="underline">aged</hi>
+                    Indians ever censured the words or pronunciation of the younger ones as being
+                    innovations upon their languages: <pb n="10r"/> But I have not yet obtained any
+                    satisfactory answers to my inquiries. The latest information which I have is
+                    from the <persName ref="hdaggett">Reverend M.<hi rend="superscript">r</hi>
+                        Daggett</persName>,<note type="footnote" resp="editor">
+                  <persName ref="hdaggett">Herman Daggett</persName> (1766–1832).</note> who is the
+                    Superintendant of the <orgName ref="41">
+                  <hi rend="underline">Foreign Missionary
+                            School</hi>
+               </orgName>, at Cornwall, a town in the State of Connecticut,
+                    about 40 English miles from <placeName ref="New Haven, CT">New-Haven</placeName>, the capital city of that State. He says in a late letter
+                    to me – "I cannot learn from my Indian pupils that their respective languages
+                    are undergoing a change. The <hi rend="underline">Cherokees</hi> say, there are
+                    two modes of speaking in their nation; the one, being more guttural than the
+                    other; but they know not which, or whether either, is the more ancient."</p>
+            <p>I beg leave to mention here (as you may not have heard of this <orgName ref="41">Foreign Missionary School</orgName>) that there are now in that Institution
+                    native pupils of the following tribes of our continent, viz: <hi rend="underline">Cherokees</hi>, <hi rend="underline">Choctaws</hi>, <hi rend="underline">Stockbridge</hi>, (i. e. <hi rend="underline">Mohegans</hi>
+                    or <hi rend="underline">Mahicanni</hi>) <hi rend="underline">Oneidas</hi>, and
+                        <hi rend="underline">Tuscaroras</hi>; and from other parts of the globe
+                    there are the following – natives of <hi rend="underline">Otaheite</hi>, <hi rend="underline">Owhyhee</hi> &amp; the <hi rend="underline">Marquesas</hi>;
+                    and also, some <hi rend="underline">Malays</hi> &amp; a <hi rend="underline">Chinese</hi> &amp; one native of <hi rend="underline">New Zealand</hi>, who
+                    has lately been received there. <pb n="10v"/> The Institution is yet in its
+                    infancy; but I hope for much valuable information respecting the languages of
+                        <hi rend="underline">America</hi>, if the establishment should prosper.</p>
+            <p>At the same time that I made the <del type="fragment">e</del> inquiry
+                    abovementioned respecting the <hi rend="underline">changes</hi> of the Indian
+                    Languages, I also requested information on another point, which seems not to be
+                    yet distinctly settled; and that is, whether the Indians use <hi rend="underline">in the abstract</hi> the terms by which they express the
+                    relation of <hi rend="underline">father</hi>, <hi rend="underline">mother</hi>
+                    &amp; some other social relations. (I hope, Sir, I shall not be troublesome to
+                    you with my prolixity; but as I am only a learner, I beg you will permit me to
+                    call your attention to this point.)</p>
+            <p>
+               <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName>,
+                        <bibl sameAs="114">p. 403 of his Correspondence</bibl> with <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName>,
+                    observes – "On the subject of this word <hi rend="underline">Father</hi>, I
+                    observe a strange contradiction between two eminent writers on Indian languages
+                    evidently derived from the stock of the Lenni-Lenape or Delaware. One of them,
+                        <persName ref="rwilliams">Roger Williams</persName>, in his <bibl sameAs="457">
+                  <hi rend="underline">Key to the Languages of the New England
+                            Indians</hi>
+               </bibl> says, <hi rend="underline">osh</hi> <pb n="11r"/> (meaning probably <hi rend="underline">och</hi> or <hi rend="underline">ooch</hi>, as the English cannot pronounce the guttural <hi rend="underline">ch</hi>) <hi rend="underline">father</hi>; <hi rend="underline">nosh</hi>, <hi rend="underline">my father</hi>, <hi rend="underline">kosh</hi>, <hi rend="underline">thy father</hi> &amp;.<hi rend="superscript">c</hi> On the other hand, the <persName ref="jedwards">Rev.<hi rend="superscript">d</hi> Jonathan Edwards</persName> in his
+                        <bibl sameAs="119">Observations on the language of the Muhhekaneew (Mahicanni
+                        or Mohegan) Indians</bibl>, speaks as follows: "A considerable part of the
+                    appellations are never used without a pronoun affixed. The Mohegans say, <hi rend="underline">my father</hi>, <foreign sameAs="mjy">
+                  <hi rend="underline">nogh</hi>
+               </foreign>, <hi rend="underline">thy
+                        father</hi>, <foreign sameAs="mjy">
+                  <hi rend="underline">kogh</hi>
+               </foreign>, &amp;.<hi rend="superscript">c</hi> but they cannot
+                    say absolutely, <hi rend="underline">father</hi>. <hi rend="underline">There is
+                        no such word</hi> in their language. If you were to say <hi rend="underline">ogh</hi>, you would make a Mohegan both stare &amp; smile." On which point
+                        <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi>
+                        Heckewelder</persName> thus replies to <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName>: "Notwithstanding
+                        <persName ref="jedwards">M.<hi rend="superscript">r</hi>
+                    Edwards</persName>’s observation (for whom I feel the highest respect) I cannot
+                    help being of opinion, that the monosyllable <foreign sameAs="mjy">
+                  <hi rend="underline">ooch</hi>
+               </foreign> is the proper word for <hi rend="underline">father</hi>, abstractedly considered; and that it is as
+                    proper to say <foreign sameAs="mjy">
+                  <hi rend="underline">ooch</hi>
+               </foreign>,
+                    father and <foreign sameAs="mjy">
+                  <hi rend="underline">nooch</hi>
+               </foreign> my
+                    father, as <foreign sameAs="mjy">
+                  <hi rend="underline">dallemons</hi>
+               </foreign>, beast, and <foreign sameAs="mjy">
+                  <hi rend="underline">n’dallemons</hi>
+               </foreign>, my beast, or <foreign sameAs="mjy">
+                  <hi rend="underline">nitschan</hi>
+               </foreign> child (or a
+                    child) and <foreign sameAs="mjy">
+                  <hi rend="underline">n’nitschan</hi>
+               </foreign>, my child."</p>
+            <p>Now <persName ref="jedwards">M.<hi rend="superscript">r</hi> Edwards</persName>
+                    informs his readers, in the <pb n="11v"/> Preface to his work, that he went to
+                    live in an Indian town (called <placeName ref="Stockbridge">Stockbridge</placeName> by the Americans) when he was but <hi rend="underline">six years old</hi>, that he constantly associated with
+                    Indians, &amp; their boys were his daily playmates &amp; school-fellows; &amp;
+                    by this means (to use his own words) "the language of the Mohegans became <hi rend="underline">more familiar</hi> to me than my mother-tongue. I knew the
+                    names of some things in Indian, which I did not know in English; even <hi rend="underline">all my thoughts</hi> ran in Indian" &amp;.c</p>
+            <p>In consequence of this conflict of opinion between persons so very conversant
+                    with the Aborigines as <persName ref="rwilliams">Williams</persName>, <persName ref="jedwards">Edwards</persName> &amp; <persName ref="jgeheckewelder">Heckewelder</persName>, I lately requested the <persName ref="hdaggett">Superintendant</persName> of the <orgName ref="41">Missionary
+                        School</orgName> abovementioned, to ascertain the fact by particular
+                    inquiries of his Indian pupils. His answer to my letter fully supports the
+                    opinion of <persName ref="jedwards">
+                  <hi rend="underline">Edwards</hi>
+               </persName>. He observes, in very emphatic terms – "I am satisfied,
+                    that there is no word in any of the Indian languages represented in the <orgName ref="41">Foreign Missionary School</orgName>, by which to express in the
+                    abstract the relation of <hi rend="underline">father</hi> &amp; most of the
+                    other social relations: <hi rend="underline">Adam was the father of all men</hi>
+                    is a sentence, which my Indian scholars say <pb n="12r"/> <hi rend="underline">they cannot translate </hi>without a change of expression.
+                    The <hi rend="underline">Choctaws</hi> brought me the following – <foreign sameAs="cho">
+                  <hi rend="underline">Adam quo-hut-tuk moo-mah Ingka
+                            yut-tuk</hi>
+               </foreign>; but they observed that <foreign sameAs="cho">
+                  <hi rend="underline">Ingka</hi>
+               </foreign> had the pronominal prefix of
+                    the third person singular, which they said was unavoidable."</p>
+            <p>Upon my communicating this to <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName>, he was equally at a loss
+                    with myself how to reconcile these different opinions. He added this
+                    observation: "In my collection [of Indian Vocabularies]<note type="footnote" resp="editor">Ergänzung in eckigen Klammern von Pickering.</note> I find the
+                    word <hi rend="italic">Father</hi> in the Creek, <foreign sameAs="mus">
+                  <hi rend="underline">ilke</hi>
+               </foreign>, Chickasaw, <foreign sameAs="cic">
+                  <hi rend="underline">inke</hi>
+               </foreign>, and Choktaw, <foreign sameAs="cho">
+                  <hi rend="underline">iske</hi>
+               </foreign>. In the Mithridates,
+                    vol. iii, part 3, p. 305, I find <hi rend="underline">Father</hi>, Chickasaw,
+                        <foreign sameAs="cic">
+                  <hi rend="underline">aunkke</hi>
+               </foreign>, Choctaw,
+                        <foreign sameAs="cho">
+                  <hi rend="underline">chinkeh</hi>
+               </foreign>; &amp; I
+                    find from a note I made in a conversation I had with an Indian interpreter, who
+                    was skilled in the two languages, that the word <hi rend="underline">Father</hi>
+                    is the same in both, &amp; that <hi rend="underline">aunkke</hi> signifies <hi rend="underline2">my</hi> <hi rend="underline">father</hi>, &amp; <hi rend="underline">chinkeh</hi>, <hi rend="underline2">thy</hi> <hi rend="underline">father</hi>." <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName> (<bibl sameAs="114">p.
+                        411</bibl>) remarks, that "<hi rend="underline">there are few
+                        occasions</hi> for using these words in their abstract sense, as there are
+                    so many ways of associating them with other ideas;" and perhaps this observation
+                    of his may lead us to the true solution of the difficulty. I will add, by the
+                    way, though it is a little aside of the <pb n="12v"/> present question, that
+                        <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        DuPonceau</persName> in the same letter incidentally drew my attention to
+                    the curious coincidence of the Choctaw word <foreign sameAs="cho">
+                  <hi rend="underline">Ingka</hi>
+               </foreign> &amp; the Peruvian word <foreign sameAs="qu">
+                  <hi rend="underline">Inca</hi>
+               </foreign>; which is indeed
+                    worthy of observation.</p>
+            <p>But, Sir, I am trespassing on your patience by these details, and I will pursue
+                    them no farther. Nor should I have gone thus far, except for the purpose of
+                    showing how difficult it is for us, even with the advantages of our local
+                    situation, to obtain minute &amp; accurate information on subjects which are
+                    studied, as the American languages are, by a very small number of persons &amp;
+                    only with a view to the common intercourse of life, for which a very gross &amp;
+                    general knowledge is sufficient. I do not intend, however, to ask you to receive
+                    this as an apology for any of those deficiencies among us which ought not to
+                    exist; but only that you may (as I persuade myself will be the case with one of
+                    your great learning &amp; candour &amp; one well acquainted with the state of
+                    our country) make all just allowances for us, if you should not obtain from us
+                    all the information which you may possibly have anticipated. All that <pb n="13r"/> we possess, will be very cheerfully communicated; and we shall
+                    feel ourselves honoured by the inquiries which yourself &amp; other
+                    distinguished Europeans may make of us concerning our country. But you are well
+                    aware, Sir, that the circumstances of our new country are such, that we have not
+                    yet among us a class of <hi rend="underline">men of letters</hi> by profession;
+                    those persons here, who have cultivated letters, are a few individuals in the
+                    three learned professions; and those individuals, being seldom men of fortune,
+                    can devote to study those fragments of time only, which they can spare from
+                    their daily business.</p>
+            <p>I perceive, that you have in your library <hi rend="underline">
+                  <persName ref="bsbarton">Barton</persName>’s <bibl sameAs="46">New
+                        Views</bibl>
+               </hi> <bibl sameAs="46">of the Indian Tribes of
+                        America</bibl>; and I have therefore thought it might be of some use to
+                    you, if I should take his List of English words &amp; annex to them the
+                    corresponding words in the languages of the <hi rend="underline">Abnaki</hi>
+                    &amp; of the <hi rend="underline">Plymouth</hi> Indians: The Abnaki words are
+                    taken from the <bibl sameAs="353">MS. of Father <hi rend="underline">Râle</hi>
+               </bibl>, and the <hi rend="underline">Plymouth</hi> words, from
+                    the <bibl sameAs="449">MS. Vocabulary of <hi rend="underline">Cotton</hi>
+               </bibl>,
+                    both of which I have above spoken of. I have added to them a specimen of the
+                    language of the <hi rend="underline">Penobscot</hi> Indians of the present day,
+                    who <pb n="13v"/> inhabit the same part of the country where <persName ref="srasles">Father Râle</persName> lived a century ago. These words I have
+                    obtained from the French Catholic Missionaries. <persName ref="bsbarton">
+                  <hi rend="underline">Barton</hi>
+               </persName> has given specimens of this
+                    dialect, many of which seem to be incorrectly printed. I have also thought it
+                    proper to subjoin a <hi rend="underline">corrected</hi> list of those Abnaki
+                    words, which I quoted in my review to <persName ref="sfjarvis">D.<hi rend="superscript">r</hi> Jarvis</persName>’s <bibl sameAs="237">Discourse</bibl>, and which were very erroneously printed; and I have
+                    annexed to these a Specimen of <hi rend="underline">one page</hi> of Râles MS.
+                    respecting the Indian <hi rend="underline">Particles</hi>: This is a curious
+                    part of his work. I do not observe on your List of American Books any copy of
+                        <persName ref="jedwards">Edwards</persName>’s valuable <bibl sameAs="119">Observations on the Mohegan Language</bibl>, which I have above cited.
+                    This work is entirely out of print; but two years ago, while I was at <placeName ref="Boston">Boston</placeName> for a short time as a Member of the
+                    Legislature of this State, I met with a printed copy in the Library of the
+                        <orgName ref="40">Massachusetts Historical Society</orgName>, which I
+                    transcribed for my own use; and, for want of a better copy, I have taken the
+                    liberty to enclose my manuscript one, which I beg you to accept. If this
+                    Treatise should be reprinted, I will not omit to send you a copy of it. To these
+                    I have added one Number of the <bibl sameAs="315">North American Review</bibl>,
+                    which contains <bibl sameAs="802">my Notice of M.<hi rend="superscript">r</hi>
+                        DuPonceau’s Correspondence with M.<hi rend="superscript">r</hi>
+                        Heckewelder</bibl>; this is a very brief notice of the Correspondence <pb n="14r"/> and was written (like every thing else of mine) amidst the
+                    avocations of professional business.</p>
+            <p>I also enclose a copy of <hi rend="underline">
+                  <persName ref="sfjarvis">D.<hi rend="superscript">r</hi> Jarvis</persName>’s <bibl sameAs="237">Discourse</bibl>
+               </hi>, which the author himself requested me to
+                    present to you in his name. Permit me to observe here, that in <bibl sameAs="336">my review of this Discourse</bibl> I expressed a doubt whether there was a
+                    proper <hi rend="underline">dual number</hi> in the language of the <hi rend="underline">Cherokees</hi>; but, after the review was printed off I
+                    ascertained from one of that tribe, that they have a dual number, and I
+                    therefore retracted my doubt in a short Postscript to the Review, p. 218; which
+                    I mention thus particularly because I know you are in quest of <hi rend="underline">facts</hi> &amp; not of <hi rend="underline">conjectures</hi>; and you may possibly have overlooked the <hi rend="underline">Postscript</hi>, which is at the very end of the volume. I
+                    may remark, by the way, that the <hi rend="underline">Dual number</hi> seems to
+                    form a distinctive <sic>characteristick</sic> of <add>some of</add> these
+                    languages; but, as I have not <hi rend="underline">facts</hi> enough for the
+                    basis of an opinion, I repress all speculative remarks on the subject. I will
+                    only add here, that if <persName ref="jeliot">Eliot</persName>’s <bibl sameAs="123">Indian Grammar</bibl> should be published before the sailing of
+                    the vessel by which I send this letter I shall forward a copy in a separate
+                    packet: But I fear that will not be the case.</p>
+            <p>It was my intention, Sir, to have sent you two or three of our <hi rend="underline">printed</hi> books, such as <pb n="14v"/> <hi rend="underline">
+                  <persName ref="dzeisberger">Zeisberger</persName>’s <bibl sameAs="542">Harmony of the Gospels, in the Delaware language</bibl>
+               </hi>,
+                    his <bibl sameAs="805">
+                  <hi rend="underline">Delaware &amp; English Spelling
+                            Book</hi>
+               </bibl>, and a work just published by our <orgName ref="48">American Antiquarian Society</orgName>, called <bibl sameAs="26">
+                  <hi rend="underline">Archæologia Americana</hi>, vol. 1.</bibl> which
+                    contains considerable information respecting the <hi rend="underline">Fortifications</hi>, <hi rend="underline">Tumuli</hi>, etc. of our Western
+                    States. But having mentioned my intention to my friend <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Du Ponceau</persName>, he
+                    has with his usual promptitude &amp; zeal anticipated <add>me</add> by
+                    forwarding those &amp; some books to you by a vessel that is about sailing from
+                        <placeName ref="New York">New York</placeName>.</p>
+            <p>I have nothing further to add on this occasion, than to assure you, Sir, how
+                    great pleasure it will give me to employ myself in collecting facts for you
+                    relative to the Indian Languages, &amp; to render you any other services that
+                    shall be in my power; at the same time begging you, for obvious reasons, not to
+                    expect any great addition to the stock of materials you already possess
+                    respecting the American Languages.</p>
+            <p>Permit me to avail myself of this occasion, to enquire of you, whether <persName ref="fhlschladen">Baron Schladen</persName> is still living, who was
+                    Minister of <persName ref="fw3">His Majesty the King of Prussia</persName> at
+                    the Court <pb n="15r"/> of <placeName ref="Lissabon">Lisbon</placeName> in the
+                    years 1798–9. I was at that period Secretary to the <persName ref="wlsmith">American Minister</persName> at <placeName ref="Lissabon">Lisbon</placeName>. If you should happen to be acquainted with <persName ref="fhlschladen">Baron Schladen</persName>, and he should have any
+                    recollection of me, may I beg you will do me the honour to present my respects
+                    to him.</p>
+            <p>I beg leave to subjoin to this letter my address, and the names of those
+                    gentlemen through whom any communications may be forwarded to me.</p>
+            <closer>
+               <salute>I have the honour to be <lb/>Sir, <lb/>with the highest
+                        consideration <lb/>your most obedient <lb/>&amp; most humble
+                        <lb/>servant</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Salem, near <placeName ref="Boston">Boston</placeName>, <lb/>in Massachusetts <lb/>Aug. 24.
+                        1821.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>Address: <lb/>To John Pickering, Esquire <lb/>Salem, near
+                                <placeName ref="Boston">Boston</placeName>, in Massachusetts,
+                            <lb/>United States of America.</addrLine>
+               </address>
+            </closer>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>
+                  <pb n="15v"/> And letters for me may be forwarded to the care of the
+                        following gentlemen: <lb/>1. <persName ref="welles">Mess.<hi rend="superscript">rs</hi> Welles &amp; Williams</persName>,
+                        Banquiers, à <placeName ref="Paris">Paris</placeName>. <lb/>2. <persName ref="aheverett">Mons. Alexandre H. Everett</persName>, Chargé des
+                        Affaires des Etats-Unis, à <placeName ref="Den Haag">la Haye</placeName>.
+                        <lb/>3. <persName ref="swilliams">Samuel Williams</persName>, Esquire, N<hi rend="superscript">o</hi>. 13. Finsbury Square, <placeName ref="London">London</placeName>. <lb/>4. <persName ref="gbancroft">M.<hi rend="superscript">r</hi> George Bancroft</persName>, <placeName ref="Göttingen">Göttingen</placeName>. <lb/>
+                  <pb n="16r/v vacat"/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

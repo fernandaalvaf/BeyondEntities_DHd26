@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 19.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Carl Eduard Meinicke, 16.02.1834<idno type="BBAW">914</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Ruge 1878, S. 79–83</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8548</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="wrobinson">
+                  <persName>Robinson, William</persName>
+               </person>
+               <person corresp="pproorda">
+                  <persName>Roorda van Eysinga, Philippus Pieter</persName>
+               </person>
+               <person corresp="ghwerndlij">
+                  <persName>Werndlij, Georg Henrik</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="699">Marsden, William: A Grammar of the Malayan language, with an
+                    introduction and praxis (London: Cox &amp; Baylis 1812)</bibl>
+               <bibl corresp="361">Robinson, William: An attempt to elucidate the principles of
+                    Malayan orthography (Fort Marlborough: The Mission Press 1823)</bibl>
+               <bibl corresp="367">Roorda van Eijsinga, Philippus Pieter: Nederduitsch en Maleisch
+                    woordenboek (Batavia: Lands drukkerij 1824)</bibl>
+               <bibl corresp="900">Werndlij, Georg Hendrik: Maleische spraakkunst, herzien en
+                    uitgegeven door C. van Angelbeck (Batavia: Lands drukkerij 1823)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin Ew. Wohlgeboren noch meine Meinung über
+                        die Malayische Partikel „de“ zu sagen schuldig …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1834-02-16"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident="jv">Javanisch</language>
+            <language ident="ms">Malayisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">19. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <note type="footnote" resp="editor">Siehe hierzu auch das <ref type="link" target="352">Briefkonzept vom 11.02.1834</ref>
+               </note>Ich bin Ew.
+                    Wohlgeboren noch meine Meinung über die Malayische Partikel „de“ zu sagen
+                    schuldig, und will versuchen, diesen Punkt, der allerdings grosse
+                    Schwierigkeiten hat, soweit aufzuhellen, als es meine Kenntniss des Malayischen
+                    vermag. <persName ref="wmarsden">Marsden</persName>s Meinung darüber ist Ihnen
+                    selbst bekannt, und Ew. Wohlgeboren besitzen, wie ich aus Ihrem Briefe
+                    schliessen muss, <bibl sameAs="699">seine Grammatik</bibl>. Wo ich blos
+                    Seitenzahl ohne Verfasser citire, meine ich diese letztere.</p>
+            <p>
+               <persName ref="ghwerndlij">Werndly</persName> und <persName ref="pproorda">Roorda</persName> erwähnen in ihrer Conjugation des <persName ref="wmarsden">Marsden</persName>ischen Aorists des Activum gar nicht,
+                    obgleich der erstere einmal eine Redensart dieser Gattung ganz wie <persName ref="wmarsden">Marsden</persName> übersetzt. Nach ihnen ist de eine das
+                    Passivum anzeigende Partikel. Sie bilden daher ein vollständiges Paradigma des
+                    Passivum, in welchem das gewöhnliche Pronomen durch alle Personen zuerst steht,
+                    dann de, und hierauf das Verbum, aber ohne angehängtes nia folgt, iga de pukul,
+                    er wird geschlagen u. s. f.</p>
+            <p>
+               <persName ref="wrobinson">Robinson</persName> (<bibl sameAs="361">Malayan
+                        Orthography</bibl>, S. XLVI) bestreitet <persName ref="wmarsden">Marsden</persName>s Meinung überhaupt nicht, fügt aber hinzu, dass de oft
+                    auch das Präsens und den Infinitiv andeutet. Beides meint er jedoch, wie es
+                    scheint, vom Activum. Das Passivum erwähnt er durchaus nicht.</p>
+            <p>_______</p>
+            <p>Ich glaube, dass man de gar nicht für eine Flexion des Verbums ansehen kann,
+                    sondern dass es ein Bestandtheil von Redensarten ist, welche an die Stelle
+                    wahrhafter Formen sehr oft in den Sprachen treten, die einer vollständigen
+                    grammatischen Ausbildung entbehren. Ueber die Natur der Partikel selbst,
+                    erlauben Sie mir ganz zuletzt zu reden. Zunächst wünsche ich mich nur über die
+                    Redensarten, welche sie bildet, auszusprechen. </p>
+            <p/>
+            <p>1.</p>
+            <p>Unter den vielen von <persName ref="wmarsden">Marsden</persName> angeführten
+                    Beispielen, bleibe ich zuerst bei dem S. 60, Z. 5 u. 6 v. u. stehen. Meiner
+                    Meinung nach ist in dieser <foreign sameAs="ms">amba</foreign>
+                    nicht, wie <persName ref="wmarsden">Marsden</persName> will, der Accusativ,
+                    sondern, wie gewöhnlich, der Nominativ, und ebenso <foreign sameAs="ms">arta
+                        amba</foreign>, meine Sachen, de muss übersetzt werden durch das Verbum <hi rend="letterspace">sein</hi>, <foreign sameAs="ms">pūkul</foreign> und
+                        <foreign sameAs="ms">rampus</foreign> sind hier keine Verba, sondern
+                    Nomina, <foreign sameAs="ms">nia</foreign> ist nicht, wie <persName ref="wmarsden">Marsden</persName> will, der Nominativ, sondern die dritte
+                    Person des Besitz-Pronomens, wie immer. Wörtlich heisst also die Redensart: ich
+                    war sein Schlagen, meine Sachen waren seine Plünderung. Allgemein gefasst setzen
+                    diese Redensarten Nominal-Ausdrücke an die Stelle von verbalen, und gewähren im
+                    Ganzen die Ansicht, als befände sich die leidende Person des Verbums begriffen
+                    in der Handlung der thätigen. Wenn statt des Besitzpronomens das Substantivum
+                    selbst steht, halte ich dasselbe ebenfalls für den Genetiv. So S. 60, Z. 7 v. u.
+                    damit er sei die Hinrichtung des Königs. Wenn die Redensart in ihrer einfachsten
+                    Gestalt weder Pronomen, noch Nomen vor sich hat, hinten aber das Besitz-Pronomen
+                    mit sich führt, so kann nur ein unbestimmtes <hi rend="letterspace">Sein</hi>
+                    ausgedrückt werden. S. 60, Z. 9 v. u. Es war sein Verweilen. Wenn vorn das
+                    Pronomen steht, aber kein Besitz-Pronomen folgt, wie <foreign sameAs="ms">amba
+                        de pukul</foreign>, so ist der Handelnde nicht ausgedrückt, sondern der Sinn
+                    ist bloss: ich war das Schlagen.</p>
+            <p>Ew. Wohlgeboren werden bemerken, dass hier in dem Beispiel S. 60, Z. 9 v. u. das
+                    Besitz-Pronomen nicht, wie in den andren auf den Handelnden, sondern auf den
+                    Leidenden geht; die Handlung wird ihm zugeschrieben. Das Besitz-Pronomen scheint
+                    auch nur da zu stehen, wo entweder der Leidende, oder der Handelnde sonst nicht
+                    angezeigt sind.</p>
+            <p>Es würde mir nicht einfallen, eine Meinung <persName ref="wmarsden">Marsden</persName>s zu bestreiten, der vollkommen dieser Sprache mächtig
+                    ist. Aber gerade dies <foreign sameAs="ms">nia</foreign> zwingt mich dazu. Er
+                    hält dasselbe, so wunderbar es auch scheint, ihn dessen zu beschuldigen,
+                    offenbar für ein abgekürztes persönliches Pronomen, ganz gleich mit <foreign sameAs="ms">diya</foreign>. Hiervon findet sich doch nun aber in der
+                    ganzen übrigen Sprache, besonders im Nominativ, kein Beispiel, und so lange man
+                    also durch eine andere Erklärung den gewöhnlichen Gebrauch dieser Silbe
+                    festhalten kann, muss man es, glaube ich, thun. Er selbst scheint schon
+                    gewissermassen ungewiss gewesen zu sein. Denn es ist auffallend, dass, da er in
+                    seine Paradigmen von den übrigen Zeilen immer mehrere Personen, von der ersten
+                    angiebt, sein Aorist durchaus nur die dritte aufführt, so wie auch, dass niemals
+                    in einem seiner Beispiele <foreign sameAs="ms">uja</foreign>, seiner Theorie
+                    nach, als Nominativ hinter dem Verbum in diesen Redensarten steht. Bloss in
+                    einem Futurum, S. 81, giebt er einmal eine erste Person mit <foreign sameAs="ms">amba</foreign> hinten.</p>
+            <p>Hiervon ausgehend, hat mich ferner zu meiner Erklärung bestimmt der Umstand
+                    geführt, dass das angebliche Verbum, wenn de davor steht, niemals eines der
+                    Zeichen an sich trägt, welche im Malayischen das Verbum auch nach seiner
+                    grammatikalischen Form ausschliesslich andeuten, ja vielmehr geflissentlich
+                    dieselben abwirft. Hiervon giebt <persName ref="wmarsden">Marsden</persName> selbst mehrere vortreffliche Beispiele S. 84. Z. 7 v.
+                    u., wo <foreign sameAs="ms">memandang</foreign> hinter de sich in die
+                    Nominalform <foreign sameAs="ms">pandang</foreign> verwandelt und S. 85, Z. 8,
+                    wo <persName ref="wmarsden">Marsden</persName> dies selbst sehr gut gefühlt hat,
+                    und die Beispiele schlagend sind. Hierzu kommt, dass <persName ref="ghwerndlij">Werndlij</persName> (Neue <bibl sameAs="900">Angelbeckische Ausgabe,
+                        1823</bibl>, S. 108, § 215) ausdrücklich sagt, dass die Anhängung von ku,
+                    mu und nia: das Verbum, welchem sie angehängt werden, dadurch in ein
+                    selbständiges Nomen verwandeln, welches mit andren Worten soviel heisst, als
+                    dass sie alsdann Besitz-Pronomina sind. Denn alsdann liegt diese Verwandlung in
+                    ihrer Natur selbst.</p>
+            <p>Aus diesem Allem schliesse ich, dass das angebliche Verbum hier als Nomen
+                    anzusehen ist. Die Malayischen Sprachen haben eine sichtbare Schwierigkeit, das
+                    Verbum grammatisch zu bezeichnen, und umgehen sehr oft dasselbe durch wirkliche
+                    Nominal-Constructionen. </p>
+            <p>Ist nun hier ein Nomen mit dem Verbum <hi rend="letterspace">Sein</hi>
+                    ausgedrückt, so darf man sich nicht wundern, dass de für alle Zeiten und auch
+                    für den Infinitiv gebraucht wird. Das Nomen verlangt an sich keine Zeit und der
+                    Sinn der Rede muss ergeben, welche gerade gemeint ist. Es scheint mir sehr
+                    merkwürdig, dass im Javanischen, wo Nomen und Verbum oft durch blosse
+                    Veränderung des Anfangs-Consonanten angedeutet werden, es einen Fall giebt, wo
+                    Präteritum und Futurum durchaus nur am Sinn zu erkennen sind, dass aber in
+                    diesen Fällen der gewöhnlich dem Verbum angehörende Buchstabe in den dem Nomen
+                    zukommenden verwandelt wird. Das Verbum wird seiner nothwendigsten Bedingung,
+                    der Zeit, beraubt, und verliert also auch seine phonetische Bezeichnung. </p>
+            <p>Hiernach kann ich nun auch nicht der Meinung der Holländer beitreten, welche de
+                    geradezu zu einem Passiv-Zeichen machen. Der Sinn der hier betrachteten
+                    Redensarten ist zwar meistentheils ein passiver, doch nicht immer ein ganz und
+                    genau so zu nehmender. <persName ref="wmarsden">Marsden</persName> versucht aber
+                    auch nicht einmal den Widerspruch zu erklären, der offenbar darin liegt, dass er
+                    dieselben auf der einen Seite zu Formen des Activum macht, und auf der andern
+                    ihre passive Natur selbst ausdrücklich behauptet. Wenn das Verbum gar kein
+                    Verbum ist, so lässt sich eher begreifen, dass in einer Verbindung des Verbum
+                    Sein mit einem Nomen zwar gewöhnlich ein passiver Sinn liegen, dass aber auch
+                    ein activer daraus hervorgehen kann. Das Beispiel S. 65. Z. 15 scheint zwar dem
+                    Worte <foreign sameAs="ms">būnoh</foreign> einen activen Sinn beizulegen, da
+                        <foreign sameAs="ms">akan diya</foreign> im Grunde nur Accusativ ist.
+                    Indess bleibt <foreign sameAs="ms">akan</foreign>, wie man deutlich aus dem
+                    Beispiel Z. 6 v. u. sieht, immer die Präposition <hi rend="letterspace">gegen</hi> und die Redensart heisst also genau: es sei nicht Tödtung gegen
+                    ihn. Indess kommen hier einige Fälle vor, die allerdings nicht so einfach zu
+                    erklären sind und wo es scheint, als würde im Regimen doch das Wort als ein
+                    Verbum betrachtet. Im Beispiel S. 84. Z. 9 v. u. ist dies weniger deutlich, da <foreign sameAs="ms">ōrang</foreign> nicht Accusativ zu sein
+                    braucht, sondern Genitiv sein kann. Aber S. 60. Z. 8 v. u. wo, meiner Ansicht
+                    nach, allah schon Genitiv ist, lässt sich dies von <foreign sameAs="ms">pūasānia</foreign> nicht gut annehmen. Ebensowenig halte ich dies Wort für
+                    den Nominativ, wie er sonst wirklich oft vor de steht. Ich glaube vielmehr, dass
+                    der Begriff des Empfanges auf das Object als Accusativ geleitet hat. Ein ganz
+                    ähnliches Beispiel ist S. 66. Z. 6 u. 7. Wenn Völker in ihren Sprachen den Weg
+                    der richtigen Formenfindung verfehlen, so leitet sie doch ein undeutliches
+                    Gefühl dahin, die von ihnen an die Stelle der wahren Formen gesetzten Surrogate
+                    den ersteren so nahe als möglich zu bringen. </p>
+            <p/>
+            <p>2.</p>
+            <p>Ich komme nun auf die Bedeutung von de und glaube, dass man hier nur zwischen
+                    zwei Meinungen schwankend bleiben kann. Es ist nicht unwahrscheinlich ganz und
+                    gar dieselbe Präposition <hi rend="letterspace">in</hi>, <hi rend="letterspace">bei</hi>, <hi rend="letterspace">an</hi>, die sich mit Substantiven ganz
+                    gewöhnlich verbindet, und alsdann muss es in allen ad I. erwähnten Redensarten
+                    durch <hi rend="letterspace">in</hi> übersetzt werden, so dass davor das Verbum
+                        <hi rend="letterspace">Sein</hi> ausgelassen bleibt, also das Beispiel S.
+                    102 Z. 10 und 11 v. u.: meine Pflanzungen (waren) in der Zerstörung der
+                    Elephanten. Die Partikel könnte aber auch das Verbum <hi rend="letterspace">Sein</hi> selbst sein. Im Javanischen ist das gewöhnlichste Passivzeichen
+                    di, und es ist mir höchst wahrscheinlich, dass diese Silbe eine Abkürzung des
+                    Javanischen <foreign sameAs="jv">dadi</foreign>, werden, ist. In diesem Falle
+                    wäre de (das vielleicht von <foreign sameAs="ms">jadi</foreign>
+               <!-- Sprache? --> käme) in den genannten Redensarten von der
+                    Präposition verschieden, oder diese käme vielleicht vom Verbum her. Für diese
+                    Erklärung spricht der Umstand, dass, wie <persName ref="wmarsden">Marsden</persName> mit Beispielen belegt, de sogleich wegfällt, als
+                        <foreign sameAs="ms">āda</foreign> in der Redensart gebraucht wird, was
+                    ich mir nicht zu erklären weiss, wenn de Präposition ist. Dennoch scheint es
+                    immer gewagt, dies Wörtchen von der Präposition gänzlich zu trennen, und eine
+                    Etymologie desselben anzunehmen, die sonst durch nichts unterstüzt zu werden
+                    scheint.</p>
+            <p>Ein Gebrauch der Partikel de ist höchst wunderbar, der nämlich, wo es unmittelbar
+                    nach andern Präpositionen gebraucht wird. (S. 85. 86.) Dieser Gebrauch scheint
+                    auch dafür zu sprechen, dass de das Verbum <hi rend="letterspace">Sein</hi>
+                    selbst ist. Denn alsdann lässt sich das Beispiel S. 86. Z. 4. 5 übersetzen: vom
+                        <hi rend="letterspace">Sein</hi> Sehen der Menschen, welche fremd zu ihr.
+                    Indess kann man auch nicht dafür einstehen, ob nicht der ursprüngliche Sinn
+                    dieser sogenannten Präpositionen und eine abgebrochene Constructionsart diese
+                    Fügungen dennoch so erklären kann, dass de Präposition bleibt. So könnte das
+                    Beispiel S. 86. Z. 6 vielleicht wörtlich zu übersetzen sein: die Ursache im
+                    Verkauf.</p>
+            <p>Dies ist das Wesentliche, was ich, nachdem ich jetzt ausdrücklich noch einmal die
+                    ganze Materie wohl erwogen habe, Ew. Wohlgeboren darüber zu sagen
+                    weiss. Es scheint mir immer mehr Zusammenhang in die verschiedenen Bedeutungen
+                    und Anwendungen der Partikel zu bringen, als die <persName ref="wmarsden">Marsden</persName>sche Behandlungsart. Denn es lässt sich kaum denken, dass
+                    irgend eine Sprache einer und ebenderselben Silbe so verschiedenartige
+                    Bedeutungen geben könne, als <persName ref="wmarsden">Marsden</persName> nach S.
+                    84 bis 86 in de finden will.</p>
+            <p>Sollte Ew. Wohlgeboren jedoch meine Ansicht nicht befriedigen, so bitte ich Sie,
+                    mir Ihre Einwendungen gütigst mitzutheilen. Ich habe, damit Sie Ihre Bemerkungen
+                    für sich gleich am Rande machen könnten, diesem Briefe die ungewöhnliche Form
+                    gebrochener Bogen gegeben. </p>
+            <closer>
+               <salute>Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten
+                        Hochachtung.</salute>
+               <lb/>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Tegel, den 16.
+                        Februar 1834.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

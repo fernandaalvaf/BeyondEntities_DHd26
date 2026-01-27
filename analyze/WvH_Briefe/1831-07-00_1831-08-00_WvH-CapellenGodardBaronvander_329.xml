@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 12.12.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Godert Baron van der Capellen, vermutlich Juli/August
+                    1831<idno type="BBAW">329</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            119</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 220</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfcgericke">
+                  <persName>Gericke, Johann Friedrich Carl</persName>
+               </person>
+               <person corresp="pproorda">
+                  <persName>Roorda van Eysinga, Philippus Pieter</persName>
+               </person>
+               <person corresp="fltwaldburg">
+                  <persName>Waldburg-Truchsess, Friedrich Ludwig Graf von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Le conseil de mon médecin m’ayant engagé
+                        à me rendre ici pour fair usage des bains de mer de cette petite isle, j’ai
+                        été assez heureux pour recevoir encore la veille de mon départ la lettre de
+                        Votre Excellence du 19. Juin …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" from="1831-07-18" to="1831-08-20"/>
+               <placeName key="Norderney">Norderney</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gagpcapellen">Capellen, Godert Baron van der</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="" type="prev">01.06.1831</ref>
+               <ref target="240" type="prev">19.06.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Briefentwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="fr">Französisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="la">Latein</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">12. Dezember 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Capellen/WvH-Capellen_1831-07-00_1831-08-00/Coll.ling.fol.53_243.jpg"/>
+      <graphic url="Capellen/WvH-Capellen_1831-07-00_1831-08-00/Coll.ling.fol.53_244.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="119r"/> M<hi rend="superscript">r</hi>. van de Capellen. <lb/>
+               <lb/>
+               <salute>Monsieur le Baron,</salute>
+            </opener>
+            <p>Le conseil de mon médecin m’ayant engagé à me rendre ici pour faire usage des
+                    bains de mer de cette petite isle<note type="footnote" resp="editor">Humboldt hielt sich nachweislich zwischen dem 18. Juli und 20. August 1831 auf Norderney auf (siehe Mattson 1980, Nr. 8380–8390). [FZ]</note>, j’ai été assez heureux pour recevoir encore
+                    la veille de mon départ <ref type="link" target="240">la lettre</ref> de Votre
+                    Excellence du <date when="1831-06-19">19. Juin</date> avec <bibl sameAs="140">l’ouvrage</bibl> interessant qu’Elle a eû la bonté de m’envoyer. J’avois
+                    reçu quelque temps auparavant celle du <date when="1831-06-01">1. Juin</date>
+                    accompagnée de la réponse de <persName ref="pproorda">M<hi rend="superscript">r</hi>. Roorda d’Eysinga</persName>, et je ne saurois <subst>
+                  <del>Vous exprimer M<hi rend="superscript">r</hi>.</del>
+                  <add>exprimer à
+                            VE.</add>
+               </subst> combien je suis sensible à l’intérêt bienveillant <subst>
+                  <del>que Vous designez</del>
+                  <add>qu’Elle designe</add>
+               </subst> vouer à mes études. <bibl sameAs="140">L’ouvrage</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. <del>Gericke</del>
+                        Gericke</persName> m’a été infiniment utile, il donne une idée claire et
+                    précise de la langue Javanoise, et j’ai déjà lû et relû ici <bibl sameAs="140">sa
+                        Grammaire</bibl>. Je n’attends néanmoins pas avec moins d’impatience les
+                    éclaircissemens que <persName ref="pproorda">M<hi rend="superscript">r</hi>.
+                        Roorda</persName> me promet. Je prends même la liberté de joindre à ces
+                    lignes une lettre<!-- rs? --> dans laquelle je lui adresse de nouvelles
+                    questions. <subst>
+                  <del>VE. voit</del>
+                  <add>Vous voyez</add>
+               </subst> par là <add>M<hi rend="superscript">r</hi>. le Baron,</add> que c’est
+                    moi qui aurai besoin de son indulgence; quoique la langue Françoise ne lui soit
+                    peut-être pas très-familière, je continue ma correspondance dans cette langue,
+                    et ne lui propose pas d’écrire en Latin, <del type="fragment">ce qui lui s</del>
+                    puisqu’il s’explique avec une clarté parfaite aussi en François sur tout ce qui
+                    est scientifique. Je dévrai ainsi à l’extrême bienveillance de VE. de pouvoir
+                    résoudre des problêmes sur lesquels mes prédécesseurs dans cette carrière ne
+                    pouvoient donner que des éclaircissemens imparfaits, puisqu’ils manquoient des
+                    matériaux nécessaires. J’ai <del>vû <gap quantity="2" unit="chars"/>
+               </del> eû la
+                    satisfaction de voir <del>que</del> mes conjectures sur la langue Javanoise
+                    confirmées par <bibl sameAs="140">la Grammaire</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName>.
+                        <persName ref="pproorda">M<hi rend="superscript">r</hi>. Roorda</persName> a
+                    bien voulû me promettre de m’envoyer quelques uns de ces ouvrages, ainsi que des
+                    notices manuscrites. J’ai pris la liberté de l’engager à addresser ces envois à
+                    VE. Si cependant Elle trouvoit la moindre difficulté à me les faire passer à
+                        <placeName ref="Berlin">Berlin</placeName>, <persName ref="fltwaldburg">M<hi rend="superscript">r</hi>. le Comte de Waldburg Truchseß</persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="fltwaldburg">Graf Friedrich Ludwig von
+                            Waldburg-Truchsess</persName> (1776–1844), preußischer Diplomat; 1815
+                        Gesandter in <placeName ref="Turin">Turin</placeName>, 1827 Gesandter in
+                            <placeName ref="Den Haag">Den Haag</placeName>, 1832–1844 wiederum
+                        Gesandter in Turin; siehe Johann Caspar Struckmann (2003):
+                        <hi rend="italic">Preußische Diplomaten im 19. Jahrhundert. Biographien und Stellenbesetzungen
+                        der Auslandsposten 1815–1870</hi>, Berlin: trafo Verlag, S. 251f. [FZ]</note> s’en
+                    chargeroit certainement avec plaisir. Ce n’est au reste que la crainte
+                    d’adresser des bontés de VE. qui fait que j’ose Lui proposer cette voye.</p>
+            <p>La situation des affaires politiques est toujours également <pb n="119v"/>
+                    affligeante, et la Cholera qui s’approche toujours davantage, menace d’<del>
+                  <gap unit="chars" quantity="1"/>
+                  <del type="fragment">aj</del>
+               </del> aggraver
+                    encore les maux qui attristent une partie de l’Europe. Je crains que la
+                    tranquillité générale ne se rétablira qu’après des secousses bien violentes dont
+                    à mon âge je ne me flatte gueres de voir la fin.</p>
+            <closer>
+               <salute>Veuillez, Monsieur le Baron, agréer l’assurance renouvellée de la
+                        considération très-distinguée avec laquelle j’ai l’honneur d’être, <lb/>
+                  <lb/>M<hi rend="superscript">r</hi>. le Baron, <lb/>de VE.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

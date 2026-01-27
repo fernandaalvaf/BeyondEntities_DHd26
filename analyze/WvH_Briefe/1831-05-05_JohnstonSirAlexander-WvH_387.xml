@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sir Alexander Johnston an Wilhelm von Humboldt, 05.05.1831<idno type="BBAW">387</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            157–159</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 222</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von</persName>
+               </person>
+               <person corresp="ccolville">
+                  <persName>Colville, Sir Charles</persName>
+               </person>
+               <person corresp="rtfarquhar">
+                  <persName>Farquhar, Sir Robert Townsend</persName>
+               </person>
+               <person corresp="thfarquhar">
+                  <persName>Farquhar, Sir Thomas Harvie</persName>
+               </person>
+               <person corresp="gfitzclarence">
+                  <persName>FitzClarence, George Augustus Frederick, 1st Earl of
+                    Munster</persName>
+               </person>
+               <person corresp="jjeffreys">
+                  <persName>Jeffreys, Rev. John</persName>
+               </person>
+               <person corresp="ljohnston">
+                  <persName>Johnston, Lady Louisa</persName>
+               </person>
+               <person corresp="tlawrence">
+                  <persName>Lawrence, Sir Thomas</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+               <person corresp="weparry">
+                  <persName>Parry, Sir William Edward</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="william4">
+                  <persName>William IV., König von Großbritannien</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Sir. I have just recently troubled you with a
+                        letter from myself …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ajohnston">Johnston, Sir Alexander</persName>
+               <date type="author" when="1831-05-05"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="345" type="next">Juli 1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ajohnston">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="">New South Wales, Sprache von</language>
+            <language ident="">Tasmanien (Van Diemensland), Sprache von</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">17. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_317.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_318.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_319.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_320.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_321.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1831-05-05/Coll.ling.fol.53_322.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="157r"/>
+               <dateline>19 Great Cumberland Place <lb/>5. May 1831</dateline>
+               <lb/>
+               <salute>My dear Sir.</salute>
+            </opener>
+            <p>
+               <note type="footnote" resp="editor">Oben links auf der Seite die Ergänzung von
+                        Johnstons Hand: "I return you the enclosed copies you sent me some time
+                        ago."</note>I have not recently troubled you with a letter from myself
+                    because I have always informed <persName ref="farosen">D<hi rend="superscript">r</hi> Rosen</persName> to whom you had written upon the same subject
+                    as you had done to me all I had the pleasure of doing in executing your wishes
+                        <add>&amp;</add> in enabling <persName ref="farosen">Rosen</persName> to
+                    procure the information you were desirous of procuring from <persName ref="metcalfe">M.<hi rend="superscript">rs</hi> Metcalf</persName> &amp;
+                        <persName ref="rtfarquhar">Sir Robert Farquhar</persName>s brother the
+                    present <persName ref="thfarquhar">Sir Thomas Farquhar</persName> who is
+                    executor to his late brother &amp; has charge of all his papers.</p>
+            <p>
+               <persName ref="metcalfe">M.<hi rend="superscript">rs</hi> Metcalf</persName>, by
+                    my desire, sent me the collections relative to the Madagascar language which had
+                    been made by <persName ref="jjeffreys">her late husband</persName> while a <pb n="157v"/> missionary on that Island &amp; I gave them immediately to
+                        <persName ref="farosen">D<hi rend="superscript">r</hi> Rosen</persName> to
+                    forward them to you which he tells me he has done. When you have done with them
+                    you will oblige me by returning them to her as she is a poor woman &amp; is
+                    anxious to try &amp; publish them. Perhaps you could be of some use to her in
+                    getting them published in Germany – her idea is that she would wish to have them
+                    published for the benefit of the children of <persName ref="jjeffreys">her late
+                        husband</persName> who are, I understand, left in bad circumstances.</p>
+            <p>By My desire <add>also</add> <persName ref="thfarquhar">Sir Thomas
+                        Farquhar</persName> laid open to <persName ref="farosen">D<hi rend="superscript">r</hi> Rosen</persName> for you the whole of
+                        <persName ref="rtfarquhar">his brother</persName>s papers relative to
+                    Madagascar &amp; its different languages &amp; anthems <pb n="158r"/> <add>him</add> to make such notes as you might desire. I looked upon this as a
+                    favor on the part of <persName ref="thfarquhar">Sir Thomas Farquhar</persName>
+                    as it appears that <persName ref="rtfarquhar">his brother</persName> died in
+                    debt &amp; that the executors are anxious to know what you think as to the
+                    probability were they to publish, the Madagascar Grammar or Dictionary, of their
+                    being able to make any profit of it for the Estate.</p>
+            <p>
+               <persName ref="ccolville">Sir Charles <add>Colville</add>
+               </persName> has written to me lately from the <placeName ref="Mauritius">Mauritius</placeName> telling me that he shall be most happy to execute any
+                    commands you may send him &amp; that he will exert all his influence in
+                    Madagascar in procuring for you any further information you may wish to <pb n="158v"/> procure from that Island on the subject of the different
+                    languages which prevail amongst its different inhabitants.</p>
+            <p>Let me know if you want any information about the languages which prevail amongst
+                    the people of New South Wales or Van Diemens land as <persName ref="eparry">Sir
+                        Edward Parry</persName> the distinguished North Pole Navigator is there in
+                    an office of considerable importance &amp; being a very intimate friend of mine,
+                    will be happy to be of any use <unclear>hence</unclear> to you.</p>
+            <p>I am glad to see <persName ref="gbuelow">Madame De Bülow</persName> &amp; her
+                    children so well. <persName ref="ljohnston">Lady Johnston</persName> &amp; my
+                    daughters desire <pb n="159r"/> to be most kindly remembered to you, &amp;</p>
+            <closer>
+               <salute>I am with great esteem &amp; regard My dear Baron <lb/>Most truly
+                        yours</salute>
+               <signed>Alex.<hi rend="superscript">r</hi> Johnston</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>I was looking the other day along with <persName ref="gfitzclarence">Col. George
+                            FitzClarence</persName>
+                  <note type="footnote" resp="editor">Fehlstelle durch Öffnen des
+                            Briefes.</note> eldest son of <persName ref="william4">the present
+                            king</persName> at your portrait <del>an-</del> which was painted by
+                            <persName ref="tlawrence">Lawrence</persName>
+                  <note type="footnote" resp="editor">Zum Porträt Humboldts s. Gustav Friedrich Waagen (1837):
+                                <hi rend="italic">Kunstwerke und Künstler in England und Paris.
+                                Erster Theil</hi>, Berlin: Nicolaische Buchhandlung, S. 167 f.
+                            Vgl. auch den <ref type="link" target="345">Antwortbrief</ref> Humboldts vom Juli 1831. [FZ]</note>. It is hung up now in the large
+                        room in Buckingham Palace &amp; very much admired as a strong likeness of
+                        you. The body however must be altered as it does <add>not</add> resemble so
+                        much as the head.</p>
+            </postscript>
+            <closer>
+               <pb n="159v"/>
+               <address>
+                  <addrLine>His Excellency <lb/>Baron William Humboldt <lb/>etc. etc.
+                            <lb/>Berlin <lb/>AJohnston</addrLine>
+               </address>
+            </closer>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

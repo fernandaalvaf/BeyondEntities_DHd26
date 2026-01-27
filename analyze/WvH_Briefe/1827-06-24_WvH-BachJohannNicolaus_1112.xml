@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Nicolaus Bach, 24.06.1827<idno type="BBAW">1112</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. "Zürich, Dr. Leonhard Caflisch" (Mattson 7796)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Holtei 1872, Bd. I/2, S. 60f.
+                            (einzige komplette Wiedergabe). – Bach 1864, S. 782f. (Auszug); Humboldt
+                            2017, S. 599f. (Ausschnitt)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7796</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tghippel">
+                  <persName>Hippel, Theodor Gottlieb von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="jkhschulze">
+                  <persName>Schulze, Johannes Karl Hartwig</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1088">Bach, Johann Nicolaus: De Critiae Tyranni politiis
+                        elegiacis. Commentatio qua Examen publicum in Gymnasio regio oppoliensi
+                        diebus XVI. XVII. XVIII. mensis sentilis A. CDCCCXXVI. Rite peragendum
+                        indicit Nicolaus Bachius. Accedunt Gymnasii Annales (Breslau: Typis
+                        Universitatis 1826)</bibl>
+               <bibl corresp="1089">Humboldt, Wilhelm von: Sur le génie grammatical de la
+                        langue Chinoise, comparé à celui des autres langues. In: Journal Asiatique
+                        9, August 1826, S. 115–129</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Das Exemplar der Fragmente des Kritias, das Ew. Wohlgebohren
+                    …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-06-24"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jnbach">Bach, Johann Nicolaus</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="map">Austronesische Sprachen (Sprachen der Südsee)</language>
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. April 2016</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <address>
+                  <addrLine>An <hi rend="italic">Dr. Nicolaus Bach</hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <dateline>
+                  <hi rend="italic">Tegel</hi>, den 24. <hi rend="italic">Junius</hi>,
+                        1827.</dateline>
+            </opener>
+            <p>Das Exemplar der <bibl sameAs="1088">Fragmente des <hi rend="italic">Kritias</hi>
+               </bibl>, das Ew. Wohlgebohren mir so gütig in Ihrem letzten
+                    Briefe ankündigen, ist noch nicht in meinen Händen, aber ich kann es unmöglich
+                    abwarten, ehe ich mein nun schon zu langes Stillschweigen breche. Ich bin eben
+                    sehr beschäftigt, und muß, da ich doch sehr viele Störungen habe, mit meiner
+                    Zeit sehr haushälterisch umgehen. Daher rechne ich auf Ew. Wohlgeboren gütige
+                    Nachsicht.</p>
+            <p>Es ist mir ungemein leid, daß Ihre Ernennung zum Oberlehrer noch immer nicht
+                    erfolgt ist. Ich habe mich hier mit dem <persName ref="tghippel">
+                  <hi rend="italic">Praesidenten v. Hippel</hi>
+               </persName> darüber besprochen,
+                    und ihn sehr günstig für Sie gesinnt gefunden. Er hat mir auch versichert, beim
+                        <orgName ref="15">Ministerium</orgName> für Euer Wohlgeboren gewirkt zu
+                    haben. Ich habe außerdem Gelegenheit genommen, Sie durch Ihre Ernennung Herrn
+                        <persName ref="jkhschulze">Geh. Rath <hi rend="italic">Schultze</hi>
+               </persName>, der vorzüglich einflußreich ist, ganz besonders
+                    zu empfehlen. Ew. Wohlgeboren können versichert seyn, daß mein Antheil an Ihnen
+                    immer gleich lebendig ist, und ich mich immer freue, wenn ich hoffen darf, Ihnen
+                    nützlich seyn zu können.</p>
+            <p>Ich nehme mir die Freiheit, Ihnen anliegend eine kleine von mir in <placeName ref="Paris">Paris</placeName> <bibl sameAs="1089">erschienene Schrift</bibl>
+                    zu überschicken. Sie tritt eigentlich aus dem Gebiete der Grammatik wie wir das
+                    Wort nehmen, heraus, weckt eben darum vielleicht doch mehr Ihr Intresse. Sie
+                    giebt mir wirklich den Punkt außerhalb, den Archimedes verlangte, um selbst die
+                    Erde zu bewegen. Ernsthaft zu sprechen scheint es mir in der That wahr, daß man
+                    jetzt als<note type="footnote" resp="editor">Bei Theodor Bach: „oft“; vielleicht
+                        soll es aber „all“ heißen?</note> zu sehr in der Grammatik befangen ist, um
+                    sie mit Freiheit der Ansicht zu beurtheilen, u. dadurch daß man sich von der
+                    Form der klassischen Sprachen mehr losmacht, hat wirklich schon das
+                    Sprachstudium unter uns einen neuen Standpunkt genommen. Ich bin jetzt mit
+                    Sprachen beschäftigt, die grammatischer sind, als die Chinesische, u.
+                    ungrammatischer als die Amerikanischen und ich verspreche mir interessante
+                    Resultate in der Untersuchung. Es sind dies die Sprachen der Südsee Inseln, die
+                    bisher grammatisch noch so gut, als gänzlich unbekannt waren. Es ist aber ein
+                    mühsames und zeitraubendes Studium. Dennoch klage ich nicht darüber, u. gestehe
+                    gern, daß es mich in hohem Grade anzieht. Da ich mich so viel mit den
+                    klassischen Sprachen beschäftigt habe, u. noch beschäftige, so fühle ich
+                    eigentlich den Unterschied dieses zwiefachen Gebiets, den ich nicht in den Grad
+                    sondern in die Art des Interesses setzen möchte. die griechische u. römische
+                    Literatur wird nie durch etwas anderes erreicht werden, auch durch das Indische
+                    kommt man ihr kaum nahe. Sie ist einzig in Schönheit der Größe, Tiefe des
+                    Geistes. Aber man hat es mit Individuen u. mit Kultur zu thun, der Mensch
+                    überhaupt u. die Naturentwickelung treten eher zurück. Wenn man dem Bau von
+                    Sprachen nachgeht, die noch gar keinen Grad von Bildung erreicht haben, öffnet
+                    sich die Geschichte des Menschengeschlechts selbst, u. in den alltäglichen
+                    Ausdrücken, u. mit materiellem Bedürfen u. Ergötzen beschäftigten Menschen
+                    erkennt man das Gewebe eines über alles Bewußtseyn des Individuums hinaus in der
+                    Masse liegenden Geistes.</p>
+            <p>Ich werde <persName ref="cvh1">meine Frau</persName> in das <placeName ref="Bad Gastein">Bad <hi rend="italic">Gastein</hi>
+               </placeName> im <hi rend="italic">Salzburgischen</hi> begleiten. Wir reisen in wenigen Tagen ab,
+                    u. werden erst in der Mitte <hi rend="italic">September</hi> zurückkehren. Ich
+                    muß also das Vergnügen von Ew. Wohlgeboren Briefe zu erhalten, erst dann
+                    erbitten.</p>
+            <closer>
+               <salute>Leben Sie indeß recht wohl, und seyn Sie meiner hochachtungsvollsten und
+                        aufrichtigsten Theilnahme versichert.</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

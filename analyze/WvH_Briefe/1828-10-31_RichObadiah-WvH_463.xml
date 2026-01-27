@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 11. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Obadiah Rich an Wilhelm von Humboldt, 31.10.1828<idno type="BBAW">463</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 149–151</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 213</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jaaldamayguevara">
+                  <persName>Aldama y Guevara, José Agustín</persName>
+               </person>
+               <person corresp="favila">
+                  <persName>Avila, Francisco de</persName>
+               </person>
+               <person corresp="lbertonio">
+                  <persName>Bertonio, Ludovico</persName>
+               </person>
+               <person corresp="afebres">
+                  <persName>Febrés, Andrés</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="cdetapia">
+                  <persName>Tapia Zenteno, Carlos de</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diego de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="13">Aldáma y Guevára, José Augustin de: Arte de la lengua Mexicana
+                    (Mexiko: En la Imprenta nueva de la Bibliotheca Mexicana 1754) </bibl>
+               <bibl corresp="39">Avila, Francisco de: Arte de la lengua mexicana (Mexiko: Ribera
+                    Calderõ 1717)</bibl>
+               <bibl corresp="491">Bárenca, Alfonso / Bertonio, Ludovico / del Canto, Francisco / de
+                    Santo Tomás, Domingo / Holguín, Diego Gonzáles / de Torres Rubio, Diego: Arte, y
+                    Vocabulario en la lengua general del Peru, llamada Quichua, y en la lengua
+                    Española. El mas coposio y elegante, que hasta agora se ha impresso (Lima:
+                    Francisco del Canto 1614)</bibl>
+               <bibl corresp="50">Bertonio, Ludovico: Vocabulario de la lengua Aymara (Chucuyto:
+                    Francisco del Canto 1612)</bibl>
+               <bibl corresp="132">Febrés, Andres: Arte de la lengua general del reyno de Chile (Lima
+                    : Calle de la Encarnación 1765)</bibl>
+               <bibl corresp="302">Molina, Alonso de: Vocabulario en lengua Castellana y Mexicana
+                    (Mexiko: Antonio de Spinosa 1571)</bibl>
+               <bibl corresp="418">Tapia Zenteno, Carlos de: Arte novissima de lengua mexicana que
+                    dictó (Mexiko: Vinda de D. Joseph Bernardo de Hogal 1753)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+               <bibl corresp="490">Yangues, Manuel de (1683): Principios y reglas de la lengua
+                    Cumanagota, general en varias naciones, que habitan en la
+                    Provincia de Cummana en las Indias Occidentales. Compuesto por
+                    el R. P. Predicador Fr. Manuel de Yangues. Sacados a luz aora
+                    nuevamente, corregidos, y reducidos a mayor claridad y brevedad,
+                    junto con un Diccionario que ha compuesto el R. P. Fr. Mathias
+                    Blanco, Burgos: Por Iuan de Viar</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mr. Rich, late a Consul of the United States in
+                        Spain, has the honor to inform Baron Humboldt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="orich">Rich, Obadiah</persName>
+               <date type="author" when="1828-10-31"/>
+               <placeName key="Highgate">Highgate</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="orich">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">11. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_308.jpg"/>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_309.jpg"/>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_310.jpg"/>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_311.jpg"/>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_312.jpg"/>
+      <graphic url="Rich/Rich-WvH_1828_10_31/Coll.ling.fol.52_313.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="149r"/> M<hi rend="superscript">r</hi>. Rich, late a Consul of the United
+                    States in Spain, has the honor to inform Baron Humboldt of his arrival in this
+                    country, with a collection of rare and curious Books and MSS principally in the
+                    Spanish language, together with his books and MSS relating to America, of which,
+                    he understands Baron Humboldt has seen an incomplete Catalogue printed by order
+                    of the Congress of the United States. – M<hi rend="superscript">r</hi> Rich
+                    wishes to dispose of this American collection en masse, but has duplicates of
+                    many curious articles which he would sell separately. – M<hi rend="superscript">r</hi> Rich is induced to make this communication from having understood
+                    that it was Baron Humboldts desire. – </p>
+            <p> M<hi rend="superscript">r</hi>. Rich having established himself in this country
+                    for the purpose of collecting rare and curious books for such Institutions and
+                    Individuals as may think proper to employ him, takes advantage of this occasion
+                    to offer his services to Baron Humboldt. –</p>
+            <closer>
+               <dateline>
+                  <placeName ref="Highgate">Highgate</placeName>, near <placeName ref="London">London</placeName>. Oct<hi rend="superscript">r</hi>. 31.
+                        1828. –</dateline>
+               <lb/>
+               <lb/>
+               <salute>His Exc<hi rend="superscript">y</hi>.
+                        Baron Humboldt.<lb/>&amp;c. &amp;c. &amp;c.</salute>
+               <lb/>
+               <lb/>
+               <pb n="149v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <lb/>
+            <pb n="150r"/>
+            <note type="footnote" resp="editor">Die folgende Bücherliste entspricht in
+                    Handschrift und Umfang einer Liste, die einem <ref target="435" type="link">Schreiben von Ludwig Niederstetter an Humboldt vom 10. Juni 1828</ref>
+                    beiliegt (Coll. ling. fol. 52, Bl. 139r).</note>
+            <table cols="5" rows="9">
+               <row>
+                  <cell>1.</cell>
+                  <cell>
+                     <persName ref="ademolina">Molina.</persName> <bibl sameAs="302">Vocabulario Castellano y Mexicano.</bibl>
+                  </cell>
+                  <cell>fol.</cell>
+                  <cell>Mexico.</cell>
+                  <cell>1571.</cell>
+               </row>
+               <row>
+                  <cell>2.</cell>
+                  <cell>
+                     <bibl sameAs="50">Vocabulario de la lengua Aymara.</bibl>
+                  </cell>
+                  <cell>4.</cell>
+                  <cell>Tuli.<note type="footnote" resp="editor">Korrekt muss es heißen:
+                                "Juli"; die Stadt liegt am Titicaca-See in Peru.</note>
+                  </cell>
+                  <cell>1612.</cell>
+               </row>
+               <row>
+                  <cell>3.</cell>
+                  <cell>
+                     <bibl sameAs="491">Arte y Vocabulario de la lengua
+                            Quichua</bibl>
+                  </cell>
+                  <cell>8.</cell>
+                  <cell>Lima</cell>
+                  <cell>1614</cell>
+               </row>
+               <row>
+                  <cell>4.</cell>
+                  <cell>
+                     <bibl sameAs="490">Arte y Vocabulario de la lengua
+                            Cumanagota</bibl>
+                  </cell>
+                  <cell>4.</cell>
+                  <cell>Burgos</cell>
+                  <cell>1683</cell>
+               </row>
+               <row>
+                  <cell>5.</cell>
+                  <cell>
+                     <bibl sameAs="39">Arte de la lengua Mexicana.</bibl>
+                  </cell>
+                  <cell>8.</cell>
+                  <cell>Mexico</cell>
+                  <cell>1717</cell>
+               </row>
+               <row>
+                  <cell>6.</cell>
+                  <cell>
+                     <bibl sameAs="418">Arte novissima de la lengua Mexicana</bibl>
+                  </cell>
+                  <cell>4.</cell>
+                  <cell>do.</cell>
+                  <cell>1753.</cell>
+               </row>
+               <row>
+                  <cell>7.</cell>
+                  <cell>
+                     <persName ref="jaaldamayguevara">Aldama.</persName> <bibl sameAs="13">Arte de la lengua Mexicana</bibl>
+                  </cell>
+                  <cell>8.</cell>
+                  <cell>do.</cell>
+                  <cell>1754.</cell>
+               </row>
+               <row>
+                  <cell>8.</cell>
+                  <cell>
+                     <bibl sameAs="434">Arte y Vocabulario de la lengua
+                            Quichua</bibl>
+                  </cell>
+                  <cell>8.</cell>
+                  <cell>Lima</cell>
+                  <cell>1754</cell>
+               </row>
+               <row>
+                  <cell>9.</cell>
+                  <cell>
+                     <bibl sameAs="132">Arte de la lengua de Chile</bibl>
+                  </cell>
+                  <cell>8.</cell>
+                  <cell>do.</cell>
+                  <cell>1765.</cell>
+               </row>
+            </table>
+            <lb/>
+            <lb/>
+            <pb n="150v und 151r vacat"/>
+            <lb/>
+            <lb/>
+            <closer>
+               <pb n="151v = auf der Vorderseite des gefalteten Briefes"/>
+               <address>
+                  <addrLine>His Exc<hi rend="superscript">y</hi>. the Baron de
+                            Humboldt.<lb/>&amp;c. &amp;c. &amp;c.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

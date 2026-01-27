@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 06.05.1819<idno type="BBAW">649</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 26</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 40–43</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 6850</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gfcreuzer">
+                  <persName>Creuzer, Georg Friedrich</persName>
+               </person>
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+               <person corresp="jgjhermann">
+                  <persName>Hermann, Johann Gottfried Jakob</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="critter">
+                  <persName>Ritter, Carl</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="flcsolms">
+                  <persName>Solms-Laubach, Graf Friedrich Ludwig Christian zu</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1421">Creuzer, Georg Friedrich (1810–1819): Symbolik und Mythologie der alten
+                  Völker, besonders der Griechen, Bd. 1–4 und Tafelband, Leipzig/Darmstadt: Heyer
+                  und Leske</bibl>
+               <bibl corresp="549">Creuzer, Georg Friedrich / Hermann, Johann Gottfried (1818):
+                  Briefe über Homer und Hesiodus vorzüglich über die Theogonie, Heidelberg: August
+                  Oswald’s Universitäts-Buchhandlung</bibl>
+               <bibl corresp="156">Grimm, Jacob (1819): Deutsche Grammatik, Göttingen:
+                  Dieterich</bibl>
+               <bibl corresp="1420">Ritter, Carl (1818): Die Erdkunde im Verhältniss zur Natur und
+                  zur Geschichte des Menschen : oder allgemeine vergleichende Geographie, als
+                  sichere Grundlage des Studiums und Unterrichts in physikalischen und historischen
+                  Wissenschaften, Zweiter Theil, Berlin: G. Reimer</bibl>
+               <bibl corresp="726">Schlegel, August Wilhelm von (1821): Specimen novae typographiae
+                  Indicae, iussu ministrorum regis Borrusiae, serenissimi principis ab Hardenberg,
+                  cancellarii status, et illustrissimi dynastae ab Altenstein, rerum
+                  ecclesiasticarum et eruditionis praesidis, publicis sumtibus concinnatae.
+                  Litterarum figuras ad elegantissimorum codicum Bibliothecae Regiae Parisiensis
+                  exemplaria delineavit, caelandas feriundas, flandas curavit, Paris:
+                  Crapelet</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich wollte, da ich neulich durch den Professor Ritter erfuhr, dass
+               Sie von Göttingen geradezu nach Bonn gegangen wären …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1819-05-06"/>
+               <placeName key="">Frankfurt am Main</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">02.05.1819</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">26. Januar 2021</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/>
+               <dateline>
+                  <hi rend="antiqua">Frankfurt</hi>, den 6. <hi rend="antiqua">Mai</hi>,
+                  1819.</dateline>
+            </opener>
+            <p>Ich wollte, da ich neulich durch den <persName ref="critter">Professor <hi rend="antiqua">Ritter</hi>
+               </persName> erfuhr, daß Sie von <placeName ref="Göttingen">
+                  <hi rend="antiqua">Göttingen</hi>
+               </placeName> geradezu nach
+                  <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName> gegangen wären, und
+               daß ich die Hofnung aufgeben müßte, die ich mir gemacht hatte, Sie auf der Durchreise
+               hier zu sehen, liebster Freund, Ihnen eben schreiben, als ich Ihren Brief vom 2.
+               empfieng, der mir ausnehmende Freude gemacht hat. Ich hatte zwar gehoft, daß Ihnen
+                  <hi rend="antiqua">Bonn</hi> mit seinen Umgebungen u. dem dort gut und lebhaft
+               beginnenden Streben gefallen sollte, allein es war mir doch doppelt lieb, es von
+               Ihnen selbst nun zu erfahren. Ich bin überzeugt, daß Sie in dieser eignen Stimmung
+               der Universität noch ungleich mehr wohlthätig seyn werden, als ich schon immer darauf
+               rechnete, und ich bin es auch, daß Ihnen selbst Ihre Versetzung mit der Zeit noch
+               immer mehr gefallen wird. Denn es ist unläugbar, daß in unsrer Regierung ein wahres
+               u. ernsthaftes Streben <del>für</del> zur Beförderung von Wissenschaft u. Kunst
+               liegt, u. mit einem höheren u. aufrichtigen Anerkennen davon <subst>
+                  <del>beständig</del>
+                  <add>verbunden</add>
+               </subst> ist, als man es wohl sonst findet, und dies ist einmal zu sehr in ihre
+               Maxime verwebt, den Menschen, die schon da sind, u. hinzukommen, eingepflanzt, um
+               nicht auch fortdauernd so zu bleiben. <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName> hat nun außerdem einen wahren Vorzug durch <persName ref="flcsolms">Gr. <hi rend="antiqua">Solms</hi>
+               </persName>
+               <note type="footnote" resp="editor">Graf Friedrich Ludwig Christian zu Solms-Laubach (1769–1822), seit
+                  1816 Oberpräsident der Provinz Jülich-Cleve-Berg und Regierungspräsident in
+                  Köln.</note>
+               <hi rend="antiqua"> Curatel</hi>, u. alle diese zusammenkommenden Umstände, verbunden
+               mit der, in vieler Rücksicht einladenden Lage werden unfehlbar machen, daß <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName> auch wird von andern Orten
+               Deutschlands her häufig besucht werden, wenn nicht die neuesten unglücklichen
+               Vorfälle wieder eine Isolirung in Absicht des Studirens hervorbringen, was ich doch,
+               wenigstens auf die Dauer, unmöglich halte. Ihren Brief an <persName ref="avh">meinen
+                  Bruder</persName> werde ich gleich jetzt unmittelbar besorgen, und ihm die Sache,
+               an der er aber auch an sich den größesten Theil nehmen wird, besonders empfehlen. Ob
+               er indeß glauben wird, eigentliche Schritte thun zu können, ob diese wirksam seyn
+               würden? weiß ich nicht zu beurtheilen. Ich selbst werde, sobald ich nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> komme (von hier kann ich
+               nichts thun) gern mitwirken. Der Hauptumstand wird immer der seyn, ob aus den schon
+               für die Universität bestimmten Fonds die Anschaffung möglich ist, nemlich den Fonds
+               über die der Minister im Ganzen ver-<pb n="2"/>fügen kann. Sonst dürften neue
+               Zuschüsse jetzt vielleicht schon zu erlangen seyn. Unter allen wissenschaftlichen
+               Hülfsanstalten sollte man aber, wie mich dünkt, am meisten auf <del type="fragment">eine B</del> die Bibliothek verwenden. <placeName ref="Göttingen">
+                  <hi rend="antiqua">Göttingen</hi>
+               </placeName> verdankt dem Alles, u. hatte erst
+               viel später bessere <hi rend="antiqua">Clinica</hi>, einen ausgedehnteren botanischen
+               Garten, u. ein gutes <hi rend="antiqua">Observatorium</hi>. Dies ist die natürliche,
+               dem Gange der Bildung gemäße Folge. Es ist aber allerdings eine bedenkliche Wahl, der
+               man bei Leitung wissenschaftlicher Institute immer bloßgestellt ist, entweder die
+               vorhandenen Mittel über Alles zugleich zu zerstreuen, oder Einzelnes <del type="fragment">zu l</del> für den Augenblick liegen zu lassen. Beides zu weit
+               getrieben ist verderblich, doch neige ich mich immer mehr zum Letzten hin. – Mein
+               Aufenthalt ist hier noch von unbestimmter Dauer, doch kann ich vielleicht schon in
+               diesem Monat mein Geschäft beendigen, u. werde es im folgenden gewiß. Was Sie mir von
+               meiner Frau schrei ben, die zunehmende Heiterkeit bei abnehmender Gesundheit, ist
+               ihrem ganzen Gemüth u. Charakter sehr eigenthümlich, u. es ist, wie Sie hinzusetzen,
+               sehr rührend. Nach ihren letzten Briefen befand sie sich doch etwas besser. Sie
+               wollte <placeName ref="Rom">
+                  <hi rend="antiqua">Rom</hi>
+               </placeName> den <date when="1819-05-01">1. <hi rend="antiqua">Mai</hi>
+               </date> verlassen, u. kommt
+               hieher, um <placeName ref="Wiesbaden">
+                  <hi rend="antiqua">Wiesbaden</hi>
+               </placeName>,
+               oder <placeName ref="Bad Ems">
+                  <hi rend="antiqua">Ems</hi>
+               </placeName> zu gebrauchen.
+               Vor der Mitte des <hi rend="antiqua">Junius</hi> kann sie nicht leicht hier seyn ,
+               sie bleibt alsdann bis zum Ausgang <hi rend="antiqua">Julius</hi>. Sollten Sie nicht
+               sie in dieser Zeit besuchen können? Es würde ihr sehr viel Freude machen, u. auch sie
+               würde Ihnen von <placeName ref="Rom">
+                  <hi rend="antiqua">Rom</hi>
+               </placeName> manches
+               Interessante sagen können. Ich danke Ihnen, daß Sie mir von der <bibl sameAs="156">Grammatik</bibl> von <persName ref="jgrimm">
+                  <hi rend="antiqua">Jacob
+                  Grimm</hi>
+               </persName> gesprochen haben. Ich kannte sie nicht, werde sie aber
+               nunmehr gleich aufsuchen. Mit Ihren Büchern ist es mir recht schlimm gegangen. Ich
+               hatte angefangen sie mit lebhaftem Interesse zu lesen, in den ersten Monaten meines
+               Hierseyns kam aber ein Augenblick, wo ich gewiß glaubte, nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> unmittelbar gehen zu können. Ich
+               schickte alle Bücher, die ich bei mir hatte, voraus, u. kam so auch für meinen
+               hiesigen Aufenthalt um die Ihrigen. Auf <hi rend="antiqua">
+                  <persName ref="awschlegel">Schlegel</persName>s <bibl sameAs="726">specimen</bibl>
+               </hi> freue ich mich
+               recht sehr, allein eine solche großentheils sammlende Arbeit ist doch nicht für ihn
+               gemacht. Er könnte noch jetzt, dünkt mich, etwas leisten, worin ein andrer ihn
+               weniger leicht vertreten könnte. Vor der Erklärung des <persName ref="homer">Homer</persName> durch das <hi rend="antiqua">Indi</hi>sche habe ich mehr eine
+               Angst. Was man auch sagen mag, außer dem kleinen hellenischen Kreis ist doch Alles
+               barbarisch. <pb n="3"/> Mag auch alles Griechische nur im Orient seine Wurzel finden,
+               allein in Griechenland immer ist die menschliche Form hervorgegangen, wie wir sie da
+               zugleich in Kraft u. in nirgends überschwankender Haltung antreffen, so wie gewiß
+               auch der Mensch selbst seine Wurzel in der ganzen Natur hat, u. ursprünglich Eins ist
+               mit Bäumen, Gestein u. Thieren, aber doch nur in dem menschlichen Antlitz allein die
+               gottähnliche Gestalt gewonnen hat. Es mögen tiefe Weisheit, große Systeme im Staube
+               des Orients begraben liegen, aber es ist immer nur Materie, die schöne Form, die
+               Grazie u. der Geschmack wurden doch nur in Griechenland gebohren, u. werden seitdem
+               nur kümmerlich u. mühselig in schwachen Nachklängen erhalten. Mir ist daher eine
+               Vermischung Homers mit Indischem schon eine Art des Greuels. Doch will ich meine
+               Ansicht nicht als eine allgemeine vertheidigen. <bibl sameAs="549">Die kleine
+                  Schrift</bibl>
+               <hi rend="antiqua">
+                  <persName ref="gfcreuzer">Creuzer</persName>s</hi> u. <hi rend="antiqua">
+                  <persName ref="jgjhermann">Hermann</persName>s</hi> hat mir sehr
+               viel Freude gemacht. Es wird darin recht offenbar, wie der geistvolle u. die
+               Philosopheme, die in Mythologie übergegangen sind, zu fassen Fähige bloß der erstere
+               ist, aber auch, daß es diesem doch noch sehr daran fehlt, um in sich selbst in die
+               Klarheit getreten zu seyn, die auch dieser Gegenstand noch verstattet. Ueber jenen
+               radicalen Unterschied des Griechischen aber von allem andern, auch altdeutschen, u.
+               wie man es nennen mag, wünschte ich, daß einmal jemand recht ordentlich, u. zur
+               wahren Sicherstellung des einen unumstößlichen Satzes, daß alles Nicht-Griechische
+               mit vollem Recht barbarisch heißt, schriebe. <hi rend="antiqua">
+                  <persName ref="critter">Ritter</persName>s</hi> Bekanntschaft hat mich sehr interessirt,
+               u. vor Allem <bibl sameAs="1420">der zweite Theil seines Buchs</bibl>
+               <note type="footnote" resp="editor">Gemeint ist damit wohl der zweite Teil von Ritters
+                     <hi rend="italic">Die Erdkunde im Verhältniß zur Natur und zur Geschichte des
+                     Menschen</hi>, der sich der Geographie Asiens widmet. [FZ]</note>. Er
+               unterstützt die <persName ref="gfcreuzer">
+                  <hi rend="antiqua">Creuzer</hi>
+               </persName>schen <bibl sameAs="1421">Untersuchungen</bibl> geographisch, u. macht vielleicht
+               dadurch, daß sie im eigentlichsten Verstande einen festen Boden gewinnen. </p>
+            <closer>
+               <salute>Leben Sie wohl! Mit herzlicher Hochachtung u. Freundschaft<lb/>der
+                  Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <lb/>
+               <address>
+                  <addrLine>An H. <hi rend="antiqua">Professor Welcker</hi>, Wohlgeb. in <placeName ref="Bonn">
+                        <hi rend="antiqua">Bonn</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

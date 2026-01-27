@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Christian von Schlözer, 27.02.1826<idno type="BBAW">1141</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Berlin, Preußische Staatsbibliothek, acc. ms.
+                            1934.52; heute Krakau, BJ, Ms. Berol. Autographen Sammlung,
+                            Humboldt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cwbuettner">
+                  <persName>Büttner, Christian Wilhelm</persName>
+               </person>
+               <person corresp="alschloezer">
+                  <persName>Schlözer, August Ludwig von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="786">Gilij, Filippo Salvadore (1780–1784): Saggio di storia
+                        americana o sia Storia naturale, civile, e sacra de regni, e delle provincie
+                        Spagnuole di Terra-ferma nell’ America meridionale, Bd. 1–4, Rom: Luigi
+                        Perego erede Salvioni</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Was werden Ew. Wohlgeboren von mir denken, daß ich Ihren so
+                    überaus gütigen Brief …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-02-27"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cschloezer">Schlözer, Christian von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">01.12.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="cax">Chiquitano</language>
+            <language ident="gn">Guarani</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">09. November 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1r"/> Was werden Ew. Wohlgeboren von mir denken, daß ich Ihren so überaus
+                    gütigen Brief vom <date when="1824-12-01">1. <hi rend="antiqua">December</hi>,
+                        1824.</date> erst heute beantworte, und Ihnen erst heute meinen herzlichsten
+                    und innigsten Dank für das kostbare Geschenk abstatte, das Sie mir mit den
+                        beiden<note type="footnote" resp="editor">Einfügung von fremder Hand in
+                        Druckbuchstaben: „(bloss zur Abschrift verlangten)“</note>
+               <hi rend="antiqua">Original</hi> Handschriften der <hi rend="antiqua">Chiquita</hi> und <hi rend="antiqua">Guarani</hi> Grammatik zu machen die
+                    Gewogenheit gehabt haben? Ich kann Ew. Hochwohlgeboren mit gutem Gewissen
+                    bitten, das nicht einem Mangel an Dankbarkeit gegen Ihr zuvorkommendes
+                    Wohlwollen, oder auch nur einer Vernachlässigung einer mir gewiß theuren Pflicht
+                    zuzuschreiben. Der Grund lag bloß darin, daß ich von einem Monat zum andren das
+                    zweite Paket erwartete, das Ew. Hochwohlgeboren, wie Sie mir anzeigten, auch
+                    nach <persName ref="jekuester">Herrn <hi rend="antiqua">LegationsRath</hi> von
+                            <hi rend="antiqua">Küster</hi>
+               </persName> für mich übersendet
+                        hatten<note type="footnote" resp="editor">Dieses Paket ist nie angekommen;
+                        siehe dazu Humboldt in: GS VI, S. 137 Anm. **: "<persName ref="alschloezer">Schlözer</persName> erhielt auf dieser Reise von dem <persName ref="jcamano">Ex-Jesuiten Camaño</persName> in <placeName ref="Faenza">Faenza</placeName> eine von demselben verfasste Grammatik der
+                        Chiquitischen Sprache, die, vorzüglich durch ihre Buchstabenveränderungen,
+                        eine der merkwürdigsten unter den Amerikanischen ist, und von der es an
+                        allen andren Nachrichten fehlt. Da ich dies aus dem angeführten Briefe
+                        ersah, wandte ich mich an den gelehrten Sohn <persName ref="alschloezer">des
+                            grossen Mannes</persName>, den damals noch in <placeName ref="Moskau">Moskau</placeName> lebenden <persName ref="cschloezer">Etatsrath
+                            Schlözer</persName>. Durch seine zuvorkommende Güte besitze ich nunmehr
+                            <persName ref="jcamano">Camaño</persName>’s eigenhändige Handschrift. Er
+                        erstreckte seine grosse Gefälligkeit noch weiter, und schickte mir in einer
+                        zweiten Sendung noch andre Papiere über Amerikanische Sprachen aus dem
+                        Nachlasse <persName ref="alschloezer">seines Vaters</persName>, die aber
+                        unglücklicherweise in dem Hause in <placeName ref="St. Petersburg">Petersburg</placeName>, von dem sie an mich besorgt werden sollten, bei
+                        der grossen Ueberschwemmung untergiengen."</note>. Dies Paket war mir um so
+                    wichtiger, als es eigne Schriften Ew. Hochwohlgeboren und die Handschrift<note type="footnote" resp="editor">Einfügung von fremder Hand in Druckbuchstaben:
+                        „(auch einer Gr. einer s. amerikan. Sprache)“</note>
+               <persName ref="alschloezer">Ihres von mir noch immer so innig verehrten Herrn
+                        Vaters</persName> enthalten muß. Leider aber habe ich es noch immer nicht
+                    empfangen, und noch heute <persName ref="jekuester">Herrn <hi rend="antiqua">Legat. R.</hi> von <hi rend="antiqua">Küster</hi>
+               </persName> deshalb
+                    sehr dringend geschrieben. Die angenehme Hoffnung, Ew. Hochwohlgeboren in
+                    Deutschland zu sehen, hat sich leider auch nicht bestätigt. Haben Sie den Plan
+                    dieser Reise ganz aufgegeben? Wie sehr würde ich mich freuen, Ihnen hier meinen
+                    Dank unendlich wiederholen zu können!</p>
+            <p>
+               <pb n="1v"/> Nicht unangenehm ist es Ew. Hochwohlgeboren vielleicht zu erfahren,
+                    daß es in <placeName ref="Jena">
+                  <hi rend="antiqua">Jena</hi>
+               </placeName> in der
+                        <persName ref="cwbuettner">
+                  <hi rend="antiqua">Büttner</hi>
+               </persName>schen
+                    Bibliothek eine Abschrift der Grammatiken giebt<note type="footnote" resp="editor">Dabei handelt es sich um den <ref type="link" target="1047">in
+                            dem Brief</ref> an <persName ref="jwgoethe">Goethe</persName> vom <date when="1823-11-20">20. November 1823</date>
+                  <ref type="linkExt"
+                       target="https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00077883">genannten Sammelband</ref> mit Grammatiken zum Arawakischen, Chiquitano
+                        und Guarani handeln (Jena, ThULB, Inv. Ms. Prov. q. 330a; freundlicher
+                        Hinweis von Joachim Ott, ThULB). Erst 1826, drei Jahre später, konnte
+                        Humboldt diesen Band in Augenschein nehmen; vgl. dazu die Briefe vom <ref type="link" target="1131">13. Februar 1826</ref>, <ref type="link" target="1132">20. Dezember 1826</ref> und <ref type="link" target="1133">23. Januar 1827</ref>. [FZ]</note>, deren Originale ich nun durch Ihre
+                    Güte besitze. Es ist dieser Abschrift aber gar keine Bemerkung über ihren
+                    Ursprung beigefügt, so daß ich mich erst habe durch die Vergleichung von der
+                    Richtigkeit meiner Vermuthung überzeugen können. Ich hatte nemlich die <persName ref="cwbuettner">
+                  <hi rend="antiqua">Büttner</hi>
+               </persName>sche Abschrift
+                    geliehen erhalten u. schon selbst eine neue Abschrift davon anfertigen lassen,
+                    ehe ich Ew. Hochwohlgeboren Geschenk erhielt. Nun ist es aber sehr wichtig durch
+                    das <hi rend="antiqua">Original</hi> von allen Abschreiberfehlern gesichert zu
+                    seyn. Wenn man bedenkt, wie wenig Hülfsmittel man über die <hi rend="antiqua">Amerikani</hi>schen Sprachen hat, wie viel Notizen u. wirkliche, nun
+                    ungedruckt gebliebene, Werke mit den vertriebnen Jesuiten untergegangen sind, so
+                    ist <subst>
+                  <del>der Verdienst</del>
+                  <add>es</add>
+               </subst> nicht genug zu schätzen eine so vollständige Grammatik, wie die der <hi rend="antiqua">Chiquita</hi> Sprache, durch den Verdienst <persName ref="alschloezer">Ihres großen Vaters</persName>, dessen Geist alles die
+                    Menschheit Interessirende umfaßte, aus dem Schiffbruch gerettet zu wissen.<note type="footnote" resp="editor">Hier befindet sich ein Einfügungssternchen;
+                        die dazugehörige dreizeilige Anmerkung am Fuß des Blattes ist leider
+                        unleserlich gemacht. – Ein ebenfalls unleserlich gemachter Zusatz befindet
+                        sich in der linken oberen Ecke der Vorderseite.</note>
+            </p>
+            <closer>
+               <salute>Ich schließe hier, sobald mir das zweite Paket noch zukommen sollte,
+                        nehme ich mir die Freiheit, Ew. Hochwohlgeboren abermals zu schreiben, und
+                        bis dahin habe ich die Ehre mit der ausgezeichnetesten Hochachtung zu
+                        verharren<lb/>Ew.
+                        Hochwohlgeboren<lb/>ergebenster,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 27. <hi rend="antiqua">Februar</hi>,
+                        1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

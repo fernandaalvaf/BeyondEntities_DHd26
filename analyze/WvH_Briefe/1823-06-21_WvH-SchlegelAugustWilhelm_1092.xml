@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 21.06.1823<idno type="BBAW">1092</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 12</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 157–163</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7309</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="mcasiri">
+                  <persName>Casiri, Michael</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="jcprichard">
+                  <persName>Prichard, James Cowles</persName>
+               </person>
+               <person corresp="fwriemer">
+                  <persName>Riemer, Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="critter">
+                  <persName>Ritter, Carl</persName>
+               </person>
+               <person corresp="lvalla">
+                  <persName>Valla, Lorenzo</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="283">Manus Gesetzbuch</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="5">Abel-Rémusat, Jean-Pierre: Eléments de la grammaire chinoise ou
+                    principes généraux du Kou-Wen, ou style antique, et du Kouan-Hoa, c’est-à-dire
+                    de la langue commune généralement usitée dans l’empire chinois (Paris:
+                    Imprimérie Royale 1822)</bibl>
+               <bibl corresp="34">Asiatic Researches; Or, Transactions of the Society, Instituted in
+                    Bengal, for inquiring into the history and antiquities, the arts, sciences, and
+                    literature of Asia (Calcutta / London: 1788–1839)</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua: The Ramayuna of Valmeeki, in the
+                    original Sungskrit. With a prose translation, and explanatory notes, 3 Bände
+                    (Serampore: Mission Press 1806–1810)</bibl>
+               <bibl corresp="675">Casiri, Michael: Bibliotheca arabico-hispana Escurialensis (Madrid:
+                    A. Perez de Soto 1760)</bibl>
+               <bibl corresp="554">Colebrooke, Henry Thomas: Cósha, or Dictionary of the Sanskrit
+                    Language (Serampore: Carey 1808)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 432–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="658">Prichard, James Cowles: An Analysis of the Egyptian Mythology
+                    (London, Cornhill: John and Arthur Arch 1819)</bibl>
+               <bibl corresp="676">Riemer, Friedrich Wilhelm: Griechisch-Deutsches Wörterbuch für
+                    Anfänger und Freunde der griechischen Sprache. Vierte rechtmäßige, vermehrte und
+                    verbesserte Auflage (Jena: Frommann und Wesselhöft 1823–1825)</bibl>
+               <bibl corresp="645">Ritter, Carl: Die Vorhalle europäischer Völkergeschichten vor
+                    Herodotus, um den Kaukasus und an den Gestaden des Pontus (Berlin: G. Reimer
+                    1820)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="735">Valla, Lorenzo: Herodoti Halicarnassei Historiarum libri IX, IX
+                    musarum nominibus inscripsi (Frankfurt/Main: Apud Claud. Marnium, &amp; hered.
+                    Jo. Aubrii 1608)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a series of
+                    connected Fables interspersed with Moral, Prudential &amp; Political Maxims,
+                    translated from an ancient manuscript in the Sanskreet Language with Explanatory
+                    Notes (Bath: R. Cruttwell 1787)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich erhielt E. Hochwohlgebornen gütige Zeilen
+                        vom 19. v. M. (die aber wohl später abgegangen seyn müssen) so kurz vor
+                        meiner Abreise hierher, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-06-21"/>
+               <placeName key="Ottmachau">Ottmachau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1078" type="prev">19.05.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">27. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1823-06-21/WvH-Schlegel_1823_06_21_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-06-21/WvH-Schlegel_1823_06_21_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-06-21/WvH-Schlegel_1823_06_21_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-06-21/WvH-Schlegel_1823_06_21_Seite_04.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Anmerkung Schlegels oben
+                        links: Beantwortet d. <date when="1823-07-07">7ten
+                            Jul.</date>
+               </note>
+               <dateline>
+                  <hi rend="antiqua">Ottmachau</hi>, den 21.
+                            <hi rend="antiqua">Junius</hi>, 1823.</dateline>
+            </opener>
+            <p>Ich erhielt E. Hochwohlgebornen gütige <ref type="link" target="1078">Zeilen</ref> vom <date when="1823-05-09">19. v. M.</date> (die aber wohl
+                    später abgegangen seyn müssen) so kurz vor meiner Abreise hierher, daß es mir
+                    unmöglich war, sie noch von <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> aus zu beantworten. Jetzt ist es mir um so
+                    lieber, die Antwort verschoben zu haben, da ich Ihnen sagen kann, daß ich die
+                    ersten 10. Gesänge des <bibl sameAs="52">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl>
+                    gelesen habe. Bemerkungen, die Sie interessiren könnten, werden Sie von mir, und
+                    am wenigsten nach der Lesung des bloßen Abdrucks schon selbst nicht erwarten.
+                    Aber danken thue ich Ihnen recht herzlich für die große Freude, die mir das
+                    Lesen schon dieses Theils des Gedichts gewährt hat. Es ist mir in solchen Dingen
+                    eine gewisse Kindlichkeit geblieben, und ich kann nicht abläugnen, daß mich
+                    während dieses Lesens ein paarmal das Gefühl einer wahren Dankbarkeit gegen das
+                    Schicksal <subst>
+                  <del>überrascht, das
+                        mir</del>
+                  <add>überrascht</add>
+               </subst> hat, das mir vergönnt hat,
+                    diese Dichtung so gut, wie es mir nun jetzt eben damit geht, in der Ursprache zu
+                    vernehmen. Es ist mir, als würde mir etwas recht Wesentliches gefehlt haben
+                        <del>würde</del>, wenn ich, ohne das, hätte die Erde verlassen müssen. Man
+                    kann nicht sagen, daß man gerade dadurch neue Wahrheiten entdeckt. Der
+                    unbeschreiblich fesselnde Reiz liegt nicht einmal in der Bestätigung längst
+                    erkannter. Aber man wird von einem so wundervollen Gefühle alterthümlicher,
+                    großartiger und tiefsinniger Menschheit ergriffen, daß man wie in
+                            <subst>
+                  <del>einem</del>
+                  <add>Einem</add>
+               </subst> Punkt die geistige
+                    Entwickelung aller Menschengeschlechter und ihre Verwandtschaft mit dem Reiche
+                    alles Unsichtbaren zu empfinden glaubt. Die Sprache erscheint ganz anders in
+                    diesen Ueberbleibseln der ältesten Zeit. Der Gedanke scheint inniger mit den
+                    Worten verschmolzen, und in dem Laute, der Bewegung dieser, ihren Anklängen an
+                    verwandte Begriffe u. Bilder fühlt man immer mehr, als den einzelnen Gedanken,
+                    ja selbst als ein Individuum, wirklich das geistige Walten eines ganzen
+                    Zeitalters. Nichts was ich bisher im Sanskrit gelesen, hat mir einen solchen
+                    Eindruck hinterlassen, ich begreife indeß, daß wer das Stück nur in der
+                    Uebersetzung, und sey es auch die beste, liest, das gar nicht empfinden kann.
+                    Die Uebersetzung <del type="fragment">s</del> eines solchen Werks gleicht
+                    wirklich der Beschreibung eines Gemäldes. Farben u. Licht fehlen. Ich werde
+                    gewiß, wenn ich mit dem Ueberrest des Gedichts fertig bin, es oft wiederlesen,
+                    wie ich mich nicht habe enthalten können, schon mit den ersten Gesängen zu thun.
+                    Die ersten <pb n="2*"/> drei Gesänge las ich ohne <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> <bibl sameAs="564">Uebersetzung</bibl>, die ich erst später erhielt, aber nun hier habe.
+                    Grammatische Schwierigkeiten bietet dies Gedicht vielleicht weniger dar, als
+                    Alles, was ich bisher versucht habe. Die Construction ist von der höchsten
+                    Einfachheit. Indeß bin ich überzeugt, daß <bibl sameAs="53">Ihre
+                        Bearbeitung</bibl> schon sehr viele Schwierigkeiten weggenommen, u. habe
+                    die Leichtigkeit, mit der man, ohne durch Fehler aufgehalten zu werden,
+                    fortliest, dankbar empfunden. Ich habe auch die geringe Anzahl der Druckfehler
+                    bewundert. Es ist mir keiner, außer den angeführten, aufgestoßen. Zwar ist mir
+                        <hi rend="antiqua">lect.</hi> 4. <hi rend="antiqua">sl.</hi> 1. <hi rend="antiqua">v.</hi> 2. <foreign sameAs="sa" n="transEd">ikṣvakave<graphic url="Schlegel/WvH-Schlegel_1823_06_21/130.svg"/>
+               </foreign> mit der kurzen zweiten Silbe aufgefallen, da ich immer sonst
+                        <foreign sameAs="sa" n="transEd">ikṣvāku<graphic url="Schlegel/WvH-Schlegel_1823_06_21/131.svg"/>
+               </foreign> finde. Allein
+                    es giebt doch wohl zwei Formen, oder hier einen mir unbekannten, den <hi rend="antiqua">Vocal</hi> verlängernden Grund. Die Lettern haben mir erst
+                    jetzt, wo ich sie zusammen sehe, ganz so gefallen, wie sie es verdienen. Ich
+                    räume ihnen nun durchaus den Vorzug vor denen von <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> ein. Nur ein Paar wünschte ich
+                    anders. So das <foreign sameAs="sa" n="transEd">dra<graphic url="Schlegel/WvH-Schlegel_1823_06_21/132.svg"/>
+               </foreign>, das man zu
+                    leicht mit <foreign sameAs="sa" n="transEd">dga<graphic url="Schlegel/WvH-Schlegel_1823_06_21/133.svg"/>
+               </foreign> (<hi rend="antiqua">dg</hi>) verwechslen kann, nicht zwar wenn sie bei einander
+                    stehen, aber wenn man jenes allein sieht. So auch scheint mir <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> κτν
+                    deutlicher. In Ihrem Zuge kann man einen Augenblick anstehen, ob das κ oder τ
+                    der erste Buchstabe seyn sollen. Dagegen sind alle andren Züge so deutlich u.
+                    bestimmt unterschieden, u. so zierlich gewandt, auch in so richtige Entfernung
+                    gebracht, daß die Leichtigkeit des Lesens dadurch ungemein gewinnt. Wenn die
+                        <orgName ref="4">
+                  <hi rend="antiqua">Asiati</hi>sche Gesellschaft</orgName>
+                    in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> einmal
+                    Lettern gießen läßt, thäte sie sehr gut, ganz die Ihrigen zu nehmen. – Für die
+                    Abdrücke <bibl sameAs="212">meiner Abhandlung</bibl> sage ich Ihnen meinen
+                    herzlichsten Dank. Ich bitte Sie aber sehr, meinetwegen ja nicht mit dem Druck
+                    des <bibl sameAs="396">folgenden Heftes</bibl> zu eilen. <bibl sameAs="212">Mein
+                        Aufsatz</bibl> ist so wichtig nicht, daß nicht recht füglich die
+                    Fortsetzung noch ausbleiben könnte, und ich bin gar nicht sehr überhaupt auf das
+                    Drucken gerichtet. Es thut mir vielmehr immer leid, daß etwas nun so fest und
+                    starr da steht, daß sich nichts mehr daran ändern läßt. – E. Hochwohlgebornen
+                    Reise nach <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName>
+                    halte ich für das <hi rend="antiqua">Sanskrit</hi>studium von großer
+                    Wichtigkeit. Sie werden dort den Eifer anzuregen, u. guten Rath zu ertheilen
+                    wissen. Aeußerst wichtig wäre ein raisonnirendes Verzeichniß der <hi rend="antiqua">Sanskrit</hi> Handschriften in der Sammlung <subst>
+                  <del type="fragment">der <hi rend="antiqua">Briti</hi>schen
+                            B</del>
+                  <add>des</add>
+               </subst> <orgName ref="11">Ostindischen
+                        Hauses</orgName>, wo möglich so ausführlich gemacht, als <hi rend="antiqua">
+                  <persName ref="mcasiri">Casiri</persName>s</hi> <bibl sameAs="675">Beschreibung der <hi rend="antiqua">Arabi</hi>schen des <hi rend="antiqua">Escurials</hi>
+               </bibl>. So Vieles auch einzeln darüber in den <bibl sameAs="34">
+                  <hi rend="antiqua">Asiati</hi>schen Untersuchungen</bibl> u. sonst
+                    vorkommt, so übersieht man doch bei weitem noch nicht genug den ganzen Umfang
+                    der Indischen Literatur, u. trostlos ist es gar, <pb n="3*"/> wenn man nichts
+                    als Namen u. Titel hört. So möchte ich so gern wissen, ob es wirklich eine
+                    höhere, wissenschaftliche oder wenn Sie wollen, richtiger beredte Prosa, der
+                    Griechischen ähnlich, in der Sprache giebt, u. wenn eine solche vorhanden ist,
+                    eine Probe davon sehen. Gesetzbücher, Grammatiken, Commentare, streng
+                    wissenschaftliche Werke rechne ich natürlich nicht dahin. Die Philosophen
+                    scheinen großentheils zugleich metrisch zu seyn. Ob es aber prosaisch
+                    philosophische Werke giebt? ob historische, die man gemeinhin abläugnet, von
+                    denen ich aber doch Einiges erwähnt gefunden habe? ob sonst prosaische Werke, in
+                    denen die Form, der Stil, wenigstens zugleich für sich eine Rolle spielt? möchte
+                    ich wissen. Es gab doch auch in Indien Republiken. Sollte die Beredsamkeit in
+                    einer solchen Sprache gar keinen Platz gefunden haben? Es ist wunderbar, daß
+                    man, soviel auch über gewisse Gegenstände geschrieben ist, doch nicht
+                    Aufschlüsse über manche höchst wichtige u. ganz einfache Fragen erhält. So habe
+                    ich aus <hi rend="antiqua">
+                  <persName ref="jpabel">Remusat</persName>s</hi>
+                    ganzer <bibl sameAs="5">Schrift über die Chinesische Literatur</bibl> nicht
+                    herausbringen können, ob es in derselben große Epische Gedichte giebt, oder
+                    nicht? Unendlich gern hätte ich aus <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> den <bibl sameAs="554">
+                  <hi rend="antiqua">Amara
+                            Cosha</hi>
+               </bibl>, den zweiten Theil des <bibl sameAs="563">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> (beide sehr schwer zu finden) u.
+                    das <bibl sameAs="283">Gesetzbuch des <hi rend="antiqua">Manus</hi>
+               </bibl>. Sie
+                    erzeigten mir eine große Gefälligkeit, wenn Sie mir sie verschaffen
+                        könnten.<note type="footnote" resp="editor">Der <bibl sameAs="554">Amarakosha</bibl> befand sich in Humboldts nachgelassener Bibliothek
+                        (s. Schwarz 1993, S. 35 Nr. 236), während der zweite Band des Ramayana der
+                            <bibl sameAs="563">Ausgabe</bibl> von <persName ref="wcarey">Carey</persName> und <persName ref="jmarshman">Marshman</persName>
+                        fehlt (s. Schwarz 1993, S. 36 Nr. 244); Manus Gesetzbuch findet sich in der
+                            <bibl sameAs="985">Ausgabe</bibl> <persName ref="gchaughton">Haughton</persName>s von 1825 (Schwarz 1993, S. 36 Nr. 245).</note> Die
+                    Auslagen erstatte ich sogleich. – <hi rend="antiqua">
+                  <persName ref="critter">Ritter</persName>s</hi> liegende Bildsäulen sind freilich schrecklich.
+                    Ich habe die <bibl sameAs="645">Vorhalle</bibl> nur zum Theil u. nur flüchtig
+                    gelesen, bin aber selbst ein wenig an dem Buche Schuld. Er fing es 1816. in
+                        <placeName ref="Frankfurt am Main">
+                  <hi rend="antiqua">Frankfurt</hi>
+               </placeName> zu schreiben an, u. theilte mir den Anfang mit.
+                    Ich war damals noch weniger bewandert, als jetzt, in diesen Dingen, einige Ideen
+                    frappirten mich, u. da man ihn hätte anhalten sollen, ermunterte ich ihn. Er war
+                    wirklich selbst augenblicklich in seinem begeisterten Tone, wie Sie es mit Recht
+                    nennen, zweifelhaft u. merkte selbst Unrath. Jetzt glaube ich, sieht er es noch
+                    mehr ein. Da er so viel wahres Verdienst hat, glaube ich, thut man am besten,
+                    die Schrift ganz ungedruckt anzusehen, u. sich nur an das zu halten, was er
+                    davon wieder einmal vorbringen könnte. Sprachkunde schien er mir immer nicht
+                    viel zu besitzen. Allein man sollte sich dann an bewährte Uebersetzungen halten,
+                    da man allerdings nicht Alles wissen kann. – <persName ref="jcprichard">
+                  <hi rend="antiqua">Prichard</hi>
+               </persName> hat seine Widder-Geißelung<note type="footnote" resp="editor">Siehe <persName ref="jcprichard">James Cowles
+                            Prichard</persName>: <bibl sameAs="658">
+                     <hi rend="italic">An Analysis of
+                                the Egyptian Mythology</hi> (London, Cornhill: John and Arthur Arch
+                            1819)</bibl> S. 367.</note> wohl nicht einmal aus dem Original
+                    gewonnen<note type="footnote" resp="editor">Leitzmann 1908, S. 162:
+                        genommen.</note>, sondern aus <hi rend="antiqua">
+                  <persName ref="lvalla">Valla</persName>s</hi> lat. Uebersetzung, wo, wie ich mich, da mich
+                    ehemals die Stelle auch in Verlegenheit setzte, erinnere, derselbe Irrthum
+                        ist.<note type="footnote" resp="editor">Siehe <persName ref="lvalla">Lorenzo
+                            Valla</persName>: <bibl sameAs="735">
+                     <hi rend="italic">Herodoti
+                                Halicarnassei Historiarum libri IX, IX musarum nominibus inscripsi
+                                …</hi> (Frankfurt/M.: Apud Claud. Marnium, &amp; hered. Jo. Aubrii
+                            1608)</bibl> S. 106: "arietem verberant".</note> <bibl sameAs="676">
+                  <hi rend="antiqua">Riemer</hi>
+               </bibl> – das einzige Griechische
+                    Wörterbuch, das ich hier habe, weil es zufällig hier liegen geblieben ist, –
+                    sieht <foreign sameAs="grc">κόπτεσθαι</foreign> <del>φ<gap quantity="1" unit="chars"/>ναγα</del> mit dem
+                        <hi rend="antiqua">Accusativ</hi> für die gewöhnliche <hi rend="antiqua">Construction</hi> an. Aber ich müßte mich sehr irren, wenn der spätere mehr
+                        <add>logisch</add> gebildete <hi rend="antiqua">Graecismus</hi> dies <pb n="4*"/> erlaubt hätte. Man sagte, wenn ich mich recht erinnere, das Wort
+                    mit dem <hi rend="antiqua">Dativ</hi>, was auch natürlich ist: sich für einen an
+                    die Brust schlagen. Der <hi rend="antiqua">Accusativ</hi> bei <persName ref="herodot">
+                  <hi rend="antiqua">Herodot</hi>
+               </persName> ist eine <hi rend="antiqua">Anomalie</hi>. Da ich leider wenig von dem lese, was seit den
+                    letzten Jahren erschienen ist, so ist mir der Unfug, von dem Sie reden, weniger
+                    bekannt. Es ist aber kaum der Mühe werth, ihn großer Aufmerksamkeit zu würdigen,
+                    u. man thut wohl am <del type="fragment">bess</del> besten, nur, <del type="fragment">gel</del> wo es die Gelegenheit giebt, solche Verstoße zu
+                    rügen. – Wegen des Arabischen haben Ew. Hochwohlgebornen eigentlich wohl recht,
+                    daß es nicht gut ist, sich zu sehr zu verbreiten. Aber mein Weg führt mich
+                    einmal dahin, mich mit der Sprache überhaupt zu beschäftigen, u. da darf man
+                    eigentlich keinen der Hauptstämme vernachlässigen. Eine natürliche Folge davon
+                    aber ist freilich, daß man in jeder einzelnen Sprache gegen andre zurücksteht.
+                    Nur mache ich doch sorgfältige Unterschiede. Es ist gar nicht meine Absicht,
+                    eigentlich in die Arabische Literatur einzugehen, ich suche nur insofern zu
+                    verstehen, als man ohne das doch keinen anschaulichen Begriff von der Grammatik
+                    haben kann. Diese ist aber im Arabischen sehr merkwürdig, wenn man auch nur die
+                    fast gänzliche Gleichgültigkeit der Vocale, wenigstens bei den Wurzeln, den
+                    bestimmten Unterschied zwischen den Wurzelbuchstaben u. einigen wenigen,
+                    ausschließend zu den Beugungen gebrauchten, u. das Einschieben von
+                    Beugungslauten zwischen die Wurzelbuchstaben nimmt. In ihrem Wesentlichen ist
+                    die Arabische Grammatik überaus leicht, viele der kleinlichen Mühseligkeiten,
+                    mit denen man zu kämpfen hat, gehören nur den Grammatikern an. Für das Persische
+                    muß es aber doch anziehend seyn, beides Arabisch u. Sanskrit zu kennen. Es ist
+                    gewissermaßen für die Orientalischen Sprachen, was das Englische in den
+                    Abendländischen. – Nun leben Sie herzlich wohl, u. vollenden Sie Ihre Reise
+                    glücklich. Erhalten Sie mir Ihr gütiges u. wohlwollendes Andenken, u. wenn Sie
+                    mich in den nächsten beiden Monaten mit einem Briefe erfreuen wollen, so lassen
+                    Sie ihn doch, ungeachtet meiner Abwesenheit nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> gehen. Ich bekomme ihn auf diese
+                    Weise sichrer. </p>
+            <closer>
+               <salute>Mit der lebhaftesten u. hochachtungsvollsten Ergebenheit der
+                        Ihrige</salute>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

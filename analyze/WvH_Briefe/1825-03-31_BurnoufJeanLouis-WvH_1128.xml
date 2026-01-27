@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jean-Louis Burnouf an Wilhelm von Humboldt, 31.03.1825 (Konzept)<idno type="BBAW">1128</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Paris, Bibliothèque National de
+                            France, Nouvelles Acquisitions Françaises 10600, Fol. 74–76</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11835</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="pkbuttmann">
+                  <persName>Buttmann, Philipp Karl</persName>
+               </person>
+               <person corresp="ahmatthiae">
+                  <persName>Matthiae, August Heinrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="682">Burnouf, Eugène: Rezension zu Franz Bopp: Vergleichende
+                    Zergliederung des Sanskrits und der mit ihm verwandten Sprachen, c’est-à-dire,
+                    Analyse comparée du Samskrit et des langues qui s’y apportent (Berlin 1824). In:
+                    Journal Asiatique 6, 1825, S. 52–62, S. 113–117</bibl>
+               <bibl corresp="1108">Burnouf, Jean-Louis (1823): Critique littéraire: Système
+                    perfectionné de conjugaison des verbes grecs, présenté dans une suite de
+                    tableaux paradigmatiques, D. Frédéric Thiersch […]. In: Journal Asiatique 3, S.
+                    364–378</bibl>
+               <bibl corresp="681">Burnouf, Jean-Louis: Méthode pour étudier la Langue Grecque, 13.
+                    Auflage (Paris: A. Délalain 1825)</bibl>
+               <bibl corresp="636">Buttmann, Philipp: Ausführliche griechische Sprachlehre (Berlin:
+                    Mylius 1819)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 433–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu
+                    [u.a.] 1822–heute)</bibl>
+               <bibl corresp="624">Matthiae, August Heinrich: Ausführliche griechische Grammatik
+                    (Leipzig: Vogel 1807)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek [eine
+                    Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Je me reproche beaucoup de n’avoir pas
+                        répondre plus tôt à …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jlburnouf">Burnouf, Jean-Louis</persName>
+               <date type="author" when="1825-03-31"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1117" type="next">15.09.1825</ref>
+               <ref target="1115" type="prev">29.12.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jlburnouf">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">22. Oktober 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="74r"/>
+               <salute>M<hi rend="superscript">r</hi> le B<hi rend="superscript">on</hi>,</salute>
+            </opener>
+            <p>Je me reproche beaucoup de n’avoir pas répondu plustôt à <ref type="link" target="1115">la lettre</ref> dont vous avez bien voulu m’honorer en date du
+                        <date when="1824-12-29">29 D<hi rend="superscript">bre</hi> d<hi rend="superscript">er</hi>
+               </date>. Ce retard vient moins de négligence
+                    que d’occupations qui me maîtrisent et que je ne puis remettre. Vous êtes
+                    infiniment trop bon, Monsieur, d’avoir fait quelque attention à l’article de
+                    Philologie grecque-sanskr.<note type="footnote" resp="editor">Gemeint sein
+                        könnte hier Burnoufs Artikel "Examen du système perfectionné de conjugaison
+                        grecque par M. Fr. Thiersch: ou indication de quelques rapports du grec avec
+                        le sanskrit suivi des analyse et extrait du Dévimahatmya; fragment du
+                        Markandéya Pourana", in: <hi rend="italic">Journal Asiatique</hi> 3, 1823,
+                        S. 364–378; 4, 1824, S. 24–32.</note> d<hi rend="superscript">t</hi>
+               <note type="footnote" resp="editor">D.h.: "dont".</note> j’ai eu l’hon<hi rend="superscript">r</hi> de vous faire hommage. Toutes les idées qui s’y
+                    trouvent beaucoup trop succinctem<hi rend="superscript">t</hi>
+               <del>d</del> indiquées, vous sont bien plus familières qu’à moi, et ce m’est un
+                    grand hon<hi rend="superscript">r</hi> que vous preniez la peine d’en rectifier
+                        q<hi rend="superscript">ques</hi> unes. Ainsi, par ex. j’ai peut-être trop
+                    fait entendre que je désirerais que, comme en grec, on rétablît les véritables
+                    désinences en séparant les mots. Ce n’est point là du tout ma prétention; je
+                    désirerais qu’on séparât autant qu’il est possible, mais en laissant subsister
+                    le changement de l<hi rend="superscript">es</hi>
+               <note type="footnote" resp="editor">D.h.: "lettres".</note>, et je trouve très bien <bibl sameAs="52">
+                  <hi rend="underline">Bhagavad Gita</hi>
+               </bibl>, et non
+                    Bhagavat-gita et autres semblables. Votre opinion, quand elle ne serait pas
+                    jointe à celle de <persName ref="awschlegel">M<hi rend="superscript">r</hi>
+                        Schlege</persName>l, suffirait <subst>
+                  <del>
+                     <gap quantity="5" unit="chars"/>
+                  </del>
+                  <add>seule</add>
+               </subst> pour déterminer la mienne. Je pense <add>aureste</add> que quand la
+                    langue grecque a été écrite par tout le monde et qu’elle s’est répandue dans les
+                    pays étrangers, on a trouvé commode, pour en faciliter l’intelligence, de
+                    rétablir en écrivant les termin<hi rend="superscript">ons</hi>
+               <note type="footnote" resp="editor">D.h.: "terminaisons".</note> réelles. Quant à
+                    la prononciation il est très probable <subst>
+                  <del>qu’elle demeure comme</del>
+                  <add>qu’après cette revol<hi rend="superscript">on</hi>
+                     <note type="footnote" resp="editor">D.h.: "revolution".</note> dans la manière d’écrire
+                            elle</add>
+               </subst> resta ce qu’elle était <add>auparavant</add>. Aujourd’hui encore les
+                    Grecs prononcent <foreign sameAs="grc">τὸμπόλεμογκαὶ</foreign>
+               <del type="fragment">
+                  <foreign sameAs="grc">τημμαχη</foreign>
+               </del> &amp;<hi rend="superscript">cet</hi> quoi qu’ils écrivent <foreign sameAs="grc">τὸν
+                        πόλεμον καὶ</foreign>. Et même ils vont plus loin, car ils disent <hi rend="underline">tombolemonguè</hi> &amp;<hi rend="superscript">cet</hi>
+                    substituant le son du <hi rend="underline">b</hi> et du <hi rend="underline">ga</hi> français au <foreign sameAs="grc">π</foreign> et au <foreign sameAs="grc">κ</foreign>. Voilà certes des altérations tout à fait
+                    semblables à celles que les mots sanskrits se font subir l’un à l’autre. De même
+                    dans l’intér<hi rend="superscript">r</hi>
+               <note type="footnote" resp="editor">D.h.: "intérieur".</note> d’un mot, les grecs écrivent <foreign sameAs="grc">ἀγκαλιάζω</foreign>, <add>
+                  <foreign sameAs="grc">γέροντες</foreign>
+               </add> et prononcent <hi rend="underline">angaliazo</hi>, <del type="fragment">
+                  <foreign sameAs="grc">γέροντες</foreign> et pronon</del>
+               <hi rend="underline">g</hi>
+               <add>u</add>
+               <hi rend="underline">érondes</hi>. J’en
+                    tire la conclusion que la prononciation <del>est</del> est, <del type="fragment">à <gap quantity="2" unit="chars"/>g</del> dans beaucoup de cas,
+                    indépendante de l’orthographe. N’en avons nous pas mille exemples dans notre
+                    langue française, et beaucoup plus encore en anglais? Mais je n’en suis pas
+                    moins d’accord que p<supplied cert="high">our</supplied> une langue aussi peu
+                    vulgaire que le sanskrit, il <subst>
+                  <del>est</del>
+                  <add>sera</add>
+               </subst> bon encore long-<pb n="74v"/>temps <add>(sinon toujours)</add> de
+                    conserver l’orthographe des MSS, que je regarde co<hi rend="superscript">e</hi>
+               <note type="footnote" resp="editor">D.h.: "comme".</note> la
+                    représentation graphique de la <subst>
+                  <del>prononciation. Tandis</del>
+                  <add>parole prise dans son ensemble, tandis</add>
+               </subst> que l’orthographe du grec, celle du français, celle de l’anglais, sont
+                        <add>plutôt</add> la représentation des <subst>
+                  <del>rapports</del>
+                  <add>mots</add>
+               </subst> considérés isolément et selon leurs rapports grammaticaux.</p>
+            <p>La considér<hi rend="superscript">on</hi>
+               <note type="footnote" resp="editor">D.h.: "considération".</note> que vous tirez de l’accent est <del type="fragment">parfait</del> ingénieuse et frappante de justesse; il est
+                    évident que tout assemblage de syllabes <subst>
+                  <del>ne forment</del>
+                  <add>qui ne <del>portent</del> porte</add>
+               </subst> qu’un accent, <subst>
+                  <del>n’est</del>
+                  <add>ne forme</add>
+               </subst> qu’un mot. Malheureusement nous n’avons aucune idée de l’accentuation
+                    du sanskrit, et ce défaut nous fait sentir davantage combien nous so<hi rend="superscript">es</hi>
+               <note type="footnote" resp="editor">D.h.:
+                        "sommes".</note> redevables aux grammairiens <subst>
+                  <del>alexandriens et autres</del>
+                  <add>anciens</add>
+               </subst> qui ont noté l’accent du grec. Réduits aux conjectures, ne pourrions
+                    nous pas penser que tout mot <hi rend="underline">vraiment composé</hi>, c. à
+                        d.<note type="footnote" resp="editor">D.h.: "c’est à dire".</note> tout mot
+                    dont le dernier élément seul conserve <del>une dé<gap quantity="5" unit="chars"/>
+               </del> son inflexion grammaticale, n’a par cela même qu’un seul accent:
+                    ainsi par ex. <foreign sameAs="sa">
+                  <hi rend="underline">unmârgajalavâhîni</hi>
+               </foreign> (<foreign sameAs="la">
+                  <hi rend="underline">extra ripas aquam vehentia</hi>
+               </foreign>) ferait un seul mot et ne serait pas plus
+                    divisible que <foreign sameAs="grc">ἀντιπαρεζάγω</foreign>
+               <add>, et <foreign sameAs="grc">καλοδιδάσκαλος</foreign>
+               </add>. La seule objection
+                    naît de ces assemblages de radicaux bien plus nombreux que celui-ci, et qu’il
+                    est difficile de concevoir qu’on puisse jamais prononcer <hi rend="underline">uno tenore</hi> et avec un seul coup de voix. Mais, sauf cette objection
+                    insoluble pour moi, la distinction me paraît <subst>
+                  <del>marquer</del>
+                  <add>manifeste</add>
+               </subst> entre les mots essentiellem<hi rend="superscript">t</hi> composés, et
+                    ceux qui ne sont réunis que par des crases ou des permutations. Ainsi
+                        <foreign sameAs="sa">Kṛipaṇâvand<add>h</add>âvanâthao</foreign> (<foreign sameAs="la">ambo miserabiles,
+                        cæci, præsidio orbi</foreign>) qui représente <foreign sameAs="sa">
+                  <hi rend="underline">Kṛipanao</hi>
+                  <hi rend="underline">andhao</hi>
+                  <hi rend="underline">anâthao</hi>
+               </foreign> forment bien trois mots distincts qui ont reçu leurs
+                    inflexions, lesquelles inflexions ont subi les changem<hi rend="superscript">ts</hi> euphoniques voulus par les règles. Ces changements <del>il faut
+                        bien les conserver</del> ne <subst>
+                  <del>détruisaient</del>
+                  <add>détruisent</add>
+               </subst> peut-être pas l’accent individuel de chaque mot. C’est une chose qu’on
+                    ne peut <pb n="75r"/> affirmer; mais au moins est-il permis de le présumer. Il
+                    est bien vrai qu’on dit en grec <foreign sameAs="grc">καλοκάγαθος</foreign>
+                    avec un seul accent et par une jonction de mots <add>apeuprès</add> du même
+                    genre; mais ce mot n’est pas très long &amp; le sanskrit en présente d’immenses. <subst>
+                  <del>Il ne suffit</del>
+                  <add>D’ailleurs <foreign sameAs="grc">καλός</foreign> ayant perdu l’s du
+                            nominatif, ce mot rentre d<hi rend="superscript">s</hi>
+                     <note type="footnote" resp="editor">D.h.: "dans".</note> la classe des
+                            vrais composés. Il ne suffit</add>
+               </subst> M<hi rend="superscript">r</hi>, de vous avoir exposé mes doutes;
+                    personne mieux que cous n’est en état de les lever. Restent des unions de mots
+                    dont le vice m’est démontré; c’est par ex. <foreign sameAs="sa">
+                  <hi rend="underline">p̔alamâpnoti</hi>
+               </foreign>
+               <foreign sameAs="sa">
+                  <graphic url="Burnouf/Burnouf-WvH_1825_03_31_Konzept/001.svg"/>
+               </foreign> aulieu de <foreign sameAs="sa">
+                  <graphic url="Burnouf/Burnouf-WvH_1825_03_31_Konzept/002.svg"/>
+               </foreign>
+               <note type="footnote" resp="editor">Schrift unklar, obwohl Burnouf sich auf Sanskrithandschriften
+                        bezieht – sicherlich mit Devanagari verwandt.</note>. C’est une difficulté
+                    purement gratuite, un inconvénient sans <subst>
+                  <del>avantage</del>
+                  <add>compensation</add>
+               </subst>. Je sais qu’il tient à <subst>
+                  <del>l’absense d’un caractère pour</del>
+                  <add>l’usage de ne pas écrire</add>
+               </subst> l’<hi rend="underline">a</hi> bref. Mais <subst>
+                  <del>cette absense</del>
+                  <add>cet usage</add>
+               </subst> même je <subst>
+                  <del>la</del>
+                  <add>le</add>
+               </subst> regarde comme une grave imperfection de <subst>
+                  <del>l’alphabet</del>
+                  <add>l’orthographe</add>
+               </subst> sanskrite. C’est à <subst>
+                  <del>elle</del>
+                  <add>lui</add>
+               </subst> que nous devons ces groupes innombrables qui rendent la lecture
+                    difficile &amp; l’impression plus difficile encore. L’arabe n’écrit aucune
+                    voyelle; c’est une langue <hi rend="underline">syllabique</hi>, d’un dégré
+                    audessous des langues <hi rend="underline">alphabétiques</hi>. Le sanskrit les
+                    écrit toutes, excepté la plus commune <del>qu’elle</del> qu’il est aisé de
+                    sousentendre; c’est une langue alphabétique, mais sous ce rapport, d’un dégré
+                    audessous du grec. Ceci me ramène à votre observ<hi rend="superscript">on</hi>
+               <note type="footnote" resp="editor">D.h.: "observation".</note> si
+                    juste que le grec a sagement ôté ou ajouté au sanskrit ce que celui-ci avait de
+                    trop ou de trop peu, soit p|our| les formes soit pour la phrase. Je crois que ce
+                    phénomène tient au principe qu’en s’éloignant de sa source une langue tend à se
+                    simplifier, ou en d’autres termes, <add>qu’elle</add> analyse d’avantage la
+                    pensée. Ainsi le grec <subst>
+                  <del>à</del>
+                  <add>a</add>
+               </subst> moins de cas et se sert d’avantage des prépos<hi rend="superscript">ons</hi>
+               <note type="footnote" resp="editor">D.h.: "prépositions".</note>
+               <del>pour en tener lieu</del>. En poussant un peu plus loin, on perd quelques
+                    cas de plus, et l’on a le grec moderne; on les perd tous et l’on a le français
+                    et l’italien. Le grec n’a pas élagué sa conjug<hi rend="superscript">on</hi>
+               <note type="footnote" resp="editor">D.h.: "conjugaison".</note>
+               <pb n="75v"/> co<hi rend="superscript">e</hi> sa déclinaison. C’est que cette
+                    langue, plus analytique que le sanskrit, s’est cependant assez anciennement
+                    développée pour conserver beaucoup du caractère synthetique qu’elle tient de
+                    celuici: La conjug<hi rend="superscript">on</hi> grecque a même de plus que le
+                    Sanskrit une grande richesse d’infinitifs, <subst>
+                  <del type="fragment">et de pl</del>
+                  <add>et</add>
+               </subst> plusieurs temps à l’impératif, avec un subjonctif qui me semble manquer
+                    tout à fait au Sanskrit. Celuici en revanche a le conditionel, <add>au</add>quel
+                    le grec supplée par l’adverbe <foreign sameAs="grc">ἂν</foreign>, nouvel
+                    indice d’analyse. <del>Ou surplus</del> Enfin des desinences paraissent mieux
+                    fondues et mieux amalgamées avec le radical dans les verbes grecs,
+                        particulièr<hi rend="superscript">t</hi>
+               <note type="footnote" resp="editor">D.h.: "particulièrement".</note> dans les verbes en ω. Elles sont
+                    aucontraire plus reconnaiss<hi rend="superscript">ables</hi>, et plus voisines
+                    de l’état de simples affixes dans les verbes Sanskrits. Le grec est donc au plus
+                    haut dégré de l’échelle, suivant les conclusions de <bibl sameAs="222">votre
+                        admirable mémoire sur l’influence des formes grammaticales</bibl>. Je
+                    disais tout à l’heure qu’en perdant des cas, il se rapprochait en cela des
+                    langues modernes, ce qui le rabaisserait beaucoup. Mais remarquons qu’il en a
+                    conservé suffisamment pour les besoins de la pensée, et qu’il fait des
+                    prépositions un usage qui répand sur tout le discours une grande clarté. Le grec
+                    paraît avoir subi une double influence: synthetiser les formes des verbes, <del type="fragment">ana</del> et n’y rien laisser qui trouble la pensée;
+                    analyser tout le reste de manière à mettre dans le <subst>
+                  <del>plus grand jour</del>
+                  <add>jour le plus clair</add>
+               </subst> les rapports soit des mots soit des propositions. S’il y a quelque
+                    chose de fondé dans ces reflexions, je le devrai, M<hi rend="superscript">r</hi>, à la lecture de votre savant <subst>
+                  <del>parade, et l’idée</del>
+                  <add>
+                     <bibl sameAs="222">mémoire</bibl>. Je dois beaucoup aussi à <bibl sameAs="212">celui</bibl>
+                  </add>
+               </subst> que vous avez inséré dans <bibl sameAs="396">la biblioth. ind.</bibl> de
+                        <persName ref="awschlegel">M<hi rend="superscript">r</hi>
+                        Schlegel</persName>. Pardonnez-moi si je suis entré dans de si longs
+                    détails, et <del>prenez</del> veuillez vous en prendre à l’ardeur <pb n="76r"/>
+                    que j’ai de m’instuire dans ces sortes de connaissances, auxquelles
+                    malheureusement mes occup<hi rend="superscript">ons</hi>
+               <note type="footnote" resp="editor">D.h.: "occupations".</note> ne me permettent pas de me livrer
+                    assez pour y <del>profiter</del> faire <subst>
+                  <del/>
+                  <add>des</add>
+               </subst> progrès réels. <persName ref="ebournouf">Mon fils</persName> s’en
+                    occupe un peu plus et vous remercie de l’attention que vous avez bien voulu
+                    donner à <bibl sameAs="682">son article</bibl>. <sic>il</sic> en a inséré depuis
+                    plusieurs dans <bibl sameAs="773">le journal asiatique</bibl> qui peut-être vous
+                    seront tombés sous la main. <del>celui de</del> Quelques phrases ont été
+                    défigurées par l’imprimeur dans celui du 31<hi rend="superscript">e</hi> cahier
+                    p. 92. Les fautes sont indiquées dans le suivant.<note type="footnote" resp="editor">Siehe die "Errata" auf <bibl sameAs="682">S. 113 f.</bibl>
+                        (Fußnote).</note> Il a besoin de toute l’indulg<hi rend="superscript">ce</hi> des personnes qui, ce vous, M<hi rend="superscript">r</hi>, aquant
+                    approfondi la science, savent combien il doit nécessairt manquer aux essais d’un
+                        j<hi rend="superscript">e</hi> h<hi rend="superscript">e</hi>
+               <note type="footnote" resp="editor">D.h.: "jeune homme".</note>.</p>
+            <p>
+               <subst>
+                  <del>Je vous prie</del>
+                  <add>Je prends la liberté</add>
+               </subst>, M<hi rend="superscript">r</hi> le B. de <subst>
+                  <del>vouloir bien accepter</del>
+                  <add>vous <del>envoyer</del> adresser</add>
+               </subst>
+               <bibl sameAs="681">un exempl<hi rend="superscript">re</hi> de la 13<hi rend="superscript">e</hi> éd<hi rend="superscript">on</hi> de ma gr<hi rend="superscript">re</hi> g<hi rend="superscript">que</hi>
+               </bibl>
+               <note type="footnote" resp="editor">D.h.: "grammaire grecque".</note>.
+                        <del>d’</del> C’est un hommage trop indigne de vous être offert; aussi
+                    est-ce un hon<hi rend="superscript">r</hi>
+               <note type="footnote" resp="editor">D.h.: "honneur".</note> que je sollicite pour <subst>
+                  <del>l’</del>
+                  <add>cet</add>
+               </subst> ouvrage <del>et l’auteur</del> en vous priant de vouloir bien
+                    l’accepter. Vous n’y trouverez point ces riches développ<hi rend="superscript">ts</hi> de vos <persName ref="pkbuttmann">Buttman</persName>
+               <note type="footnote" resp="editor">D.h. Buttmanns <bibl sameAs="636">
+                     <hi rend="italic">Ausführliche griechische Sprachlehre</hi>
+                  </bibl> von
+                        1819. [FZ]</note> &amp; de vos <persName ref="ahmatthiae">Matthiae</persName>
+               <note type="footnote" resp="editor">D.h. Matthaes <bibl sameAs="624">
+                     <hi rend="italic">Ausführliche griechische
+                            Grammatik</hi>
+                  </bibl> von 1807. [FZ]</note>; j’ai été obligé de
+                    l’approprier aux bésoins de l’enseig<hi rend="superscript">t</hi> d<hi rend="superscript">s</hi>
+               <note type="footnote" resp="editor">D.h.:
+                        "enseignement dans".</note> notre pays; or nos élèves sont gens à qui les
+                    longs ouvrages font peur. Malgré l’exiguité de celui-ci, le public paraît y
+                        av<hi rend="superscript">r</hi>
+               <note type="footnote" resp="editor">D.h.:
+                        "avoir".</note> trouvé q<hi rend="superscript">ques</hi> détails neufs au
+                    moins en france. Mais <subst>
+                  <del>c’est</del>
+                  <add>ce sera toujours</add>
+               </subst> peu de chose pour votre allemagne qui est la terre classique des études
+                    anciennes.</p>
+            <closer>
+               <salute>Agréez &amp;ce.</salute>
+               <lb/>
+               <lb/>
+               <pb n="76v; am Fuß der Seite, auf dem Kopf stehend:"/>
+               <lb/>M. Wilh. Humboldt<lb/>repondu le 31 Mars 1825.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

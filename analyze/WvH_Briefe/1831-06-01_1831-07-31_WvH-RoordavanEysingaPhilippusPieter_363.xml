@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Philippus Pieter Roorda van Eysinga, Juni/Juli
+                        1831<idno type="BBAW">363</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 217–219</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 2017, S. 637–641</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 224</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcrawfurd">
+                  <persName>Crawfurd, John</persName>
+               </person>
+               <person corresp="gagpcapellen">
+                  <persName>Capellen, Godert Alexander Gerard Philip Baron van
+                    der</persName>
+               </person>
+               <person corresp="jfcgericke">
+                  <persName>Gericke, Johann Friedrich Carl</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java,
+                    nebst einer Einleitung über die Verschiedenheit des menschlichen Sprachbaues und
+                    ihren Einfluss auf die geistige Entwicklung des Menschengeschlechts. In:
+                    Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften zu Berlin
+                    aus dem Jahre 1832, Zweiter Theil (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1836)</bibl>
+               <bibl corresp="100">Crawfurd, John: Grammatik des Javanischen (Manuskript)</bibl>
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je m’empresse à Vous témoigner, M. toute ma
+                        reconnaissance de la lettre obligeante que Vous avez eu la bonté de m’écrire
+                        en date du 27. Mai …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" from="1831-06-01" to="1831-07-31"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="pproorda">Roorda van Eysinga, Philippus Pieter</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="461" type="prev">27.05.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Entwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="map">Austronesische Sprachen (Sprachen der
+                    Südsee-Inseln)</language>
+            <language ident="de">Deutsch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="nl">Niederländisch</language>
+            <language ident="pi">Pali</language>
+            <language ident="phi">Philippinische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="su">Sundanesisch (Sprache der Sunda-Inseln)</language>
+            <language ident="tl">Tagalog (Tagalisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. Mai 2016</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_435.jpg"/>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_436.jpg"/>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_437.jpg"/>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_438.jpg"/>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_439.jpg"/>
+      <graphic url="Roorda/WvH-Roorda_1831-06-01_1831-07-31/Coll.ling.fol.53_440.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="217r"/>
+               <address>
+                  <addrLine>M<hi rend="superscript">r</hi>. Roorda.</addrLine>
+                  <addrLine/>
+               </address>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je m’empresse à Vous témoigner, M<hi rend="superscript">r</hi>. toute ma
+                    reconnoissance de la lettre obligeante que Vous avez eû la bonté de m’écrire en
+                    date du <date when="1831-05-27">27. Mai</date>. Elle m’est encore parvenue à ma
+                    campagne près de <placeName ref="Berlin">Berlin</placeName>, et comme je ne
+                    ferai qu’un séjour de quelques semaines dans la petite isle de <placeName ref="Norderney">Norderney</placeName> d’où j’ai l’honneur de Vous addresser
+                    ces lignes, je me flatte de trouver à mon retour à <placeName ref="Berlin">Berlin</placeName> la lettre détaillée que Vous voulez bien me
+                    promettre.</p>
+            <p>Le plan que je me suis tracé en m’occupant de la connoissance générale des
+                    langues du Globe est en effet aussi vaste que Vous le décrivez dans Votre
+                    lettre, M<hi rend="superscript">r</hi>. mais c’est un plan d’<hi rend="underline">études</hi>, et non pas d’<hi rend="underline">ouvrage</hi>. Je n’ai écrit jusqu’ici et n’écrirai probablement dans la suite
+                    que sur telle ou telle langue, tel ou tel point de Grammaire en particulier.
+                    Mais je tâche, en partant de ces points isolés, d’étendre mes vues sur
+                    l’ensemble des différens idiomes et sur la faculté de l’homme de les former.
+                    C’est en suivant cette route que je me bornerai pour le moment à <bibl sameAs="227">un mémoire sur la langue Kavi</bibl> qu’on a faussement rangé
+                    jusqu’ici dans la même classe avec le Sanscrit et le Pali, tandis que, malgré le
+                    grand nombre de mots Sanscrits <del type="fragment">qu’elle ren</del> qui s’y
+                    trouvent, elle appartient seulement à celle des langues Malaies. Je compte
+                    après-cela publier un ouvrage plus étendû sur ces langues elles-mêmes.</p>
+            <p>Je n’ai pas besoin de Vous répéter, M<hi rend="superscript">r</hi>. combien
+                    j’aurai besoin de Votre assistance pour ces deux ouvrages. Je serai charmé de
+                    Vous regarder comme mon maître dans ces langues qui Vous sont devenues
+                    familières, et je Vous prie <del>bien</del> instamment de rectifier bien
+                    minutieusement les erreurs que Vous trouverez dans mes conjectures et mes
+                    assertions. <pb n="217v"/> J’ai fait, depuis que je n’ai pas eû l’honneur de Vous
+                    écrire, quelques progrès dans la connoissance des Javanois. Je les dois à une
+                    esquisse de <bibl sameAs="100">Grammaire Javanoise <add>manuscrits</add>
+               </bibl> que <persName ref="jcrawfurd">M<hi rend="superscript">r</hi>.
+                        Crawfurd</persName> m’a communiquée, mais surtout
+                            <subst>
+                  <del>par</del>
+                  <add>à</add>
+               </subst> <bibl sameAs="140">l’ouvrage</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> que je tiens des bontés de <add>S.
+                        E.</add> <persName ref="gagpcapellen">M<hi rend="superscript">r</hi>. le
+                        Baron van de Capellen</persName>. J’ai étudié avec grand soin la Grammaire
+                    de cet auteur, et j’ai <del>acquis</del> appris par là à lire avec facilité
+                    l’écriture Javanoise, c’est à dire l’imprimée, car je vois qu’en écrivant on se
+                    sert encore de quelques autres signes dont <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> n’a pas <del>eu</del> crû
+                    nécessaire de rendre compte. Je regrette en général que <bibl sameAs="140">l’ouvrage</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> ne soit pas plus <del>détaillé. C’est ainsi
+                        p. e. qu’il dit (<bibl sameAs="140">p. 56.</bibl>) que le Prétérit et le
+                        Futur sont quelquefois marqués par un changement de la lettre initiale du
+                        verbe, sans ajouter quel est ce changement. Je Vous prie, Mr . de suppléer à
+                        ce défaut. Dans la langue Tagale, celle de Madagascar et celles des isles de
+                        la mer du Sud le <hi rend="underline">n</hi> marque le Prétérit; celle de
+                        Madagscar donne au Futur un <hi rend="underline">h</hi> initial.</del>
+            </p>
+            <p>
+               <del>Il y a des cas où je me permettrois de douter des assertions de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName>,
+                            <add>et sur lesquels je desire connoître Votre opinion, M<hi rend="superscript">r</hi>.</add>
+               </del>
+               <add>détaillé, et je Vous
+                        prie de m’éclairer sur quelques doutes que <del>m’a laissées</del> la
+                        lecture de <bibl sameAs="140">sa Grammaire</bibl> m’a laissées.</add> 1., Il
+                    dérive <del>p<gap quantity="1" unit="chars"/>
+               </del> (<bibl sameAs="140">p.
+                        36.</bibl>) le substantif <foreign sameAs="jv">
+                  <hi rend="underline">toelis</hi>
+               </foreign> du verbe <foreign sameAs="jv">
+                  <hi rend="underline">noelis</hi>
+               </foreign>, tandis qu’il me semble que c’est
+                    le verbe qui est le mot dérivé. Cela me <subst>
+                  <del>semble</del>
+                  <add>paroit</add>
+               </subst> prouvé par la langue Malaie de Malacca dans laquelle <subst>
+                  <del>le préfixe</del>
+                  <add>la</add>
+               </subst> syllabe verbale <foreign sameAs="ms">man</foreign> <subst>
+                  <del>change <add>en <hi rend="underline">n</hi>
+                     </add> le <hi rend="underline">t</hi> initial</del>
+                  <add>fait supprimer le <hi rend="underline">t</hi> initial</add>
+               </subst> du mot converti en verbe, <del>et si</del> et donc <subst>
+                  <del>
+                     <foreign sameAs="ms">
+                        <hi rend="underline">man-ulis</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="ms">
+                        <hi rend="underline">ma-nulis</hi>
+                     </foreign>
+                  </add>
+               </subst>. Le Javanois manque
+                        <add>ici</add> de ce <subst>
+                  <del>
+                     <hi rend="underline">man</hi> mais c’est une particularité dont je
+                            partirai d’abord. Je regarde en général comme une propriété [<del type="fragment">d</del>] essentiellement distinctive de la langue
+                            Malaie la circonstance qu’à l’exception de certains mots qui souvent,
+                            sans [<gap unit="chars" quantity="3"/>] changement aucun, en même temps
+                            de substantifs et de verbes, le verbe est [<add>p+</add>] toujours
+                            dérivé soit par une syllabe auxilliaire, soit par un changement de la
+                            lettre initiale.</del>
+                  <add>
+                     <hi rend="underline">man</hi>.</add>
+               </subst> Il y a <del>après cela</del> très-certainement aussi <subst>
+                  <del>des</del>
+                  <add>beaucoup de</add>
+               </subst> substantifs verbaux dérivés de Verbes, et je regarde ainsi p. e.
+                        <foreign sameAs="jv">
+                  <hi rend="underline">pa-ngan</hi>
+               </foreign> qui vient de
+                                <subst>
+                  <del>
+                     <foreign sameAs="jv">
+                        <hi rend="underline">ma-gngan</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="jv">
+                        <hi rend="underline">ma-ngan</hi>
+                     </foreign>
+                  </add>
+               </subst>. Le
+                    véritable primitif de ce verbe est <foreign sameAs="jv">
+                  <hi rend="underline">ngan</hi>
+               </foreign>, en d’autres langues Malaies <hi rend="underline">kan</hi> ou <hi rend="underline">kain</hi>, dont une trace
+                        <del>méconnoissable</del> se trouve dans le mot Ja-<pb n="218r"/>vanois
+                        <foreign sameAs="jv">
+                  <hi rend="underline">ngēn</hi>
+               </foreign>, paitre. C’est pourquoi je n’aurois
+                    pas confondû dans une même regle le changement de <hi rend="underline">t</hi> en
+                        <hi rend="underline">n</hi> <subst>
+                  <del>et celà</del>
+                  <add>et celui</add>
+               </subst> de <del>
+                  <hi rend="underline">p</hi> et</del> <hi rend="underline">n</hi> en <hi rend="underline">p</hi>.</p>
+            <p>
+               <del>Ce qui semble contraire à la supposition que je hazarde ici, c’est que
+                            <add>d’après <bibl sameAs="140">le §. 32. de la Grammaire</bibl> de
+                                <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                                Gericke</persName>
+                  </add> ces mêmes changemens se rencontrent dans le verbe lui-même. [En
+                        passant en revue les cas dans lesquels ils ont lieu, je ne serois pas étonné
+                        de voir réunis la forme nominale p. e. <foreign sameAs="jv">
+                     <hi rend="underline">Tingngalli</hi>
+                  </foreign> (au lieu de <foreign sameAs="jv">
+                     <hi rend="underline">ningngalli</hi>
+                  </foreign>) dans le passif, cela est
+                        au contraire analogue à l’idée de [cette] ce genre de verbe.]</del>
+            </p>
+            <p>
+               <del>Le résultat de ce <bibl sameAs="140">§. 32.</bibl> est que dans les verbes
+                        dont les lettres initiales sont susceptibles de changement, [ce ch+] le
+                            [p]<add>P</add>assif, l’Impératif <add>le verbe réciproque</add> et
+                        (mais dans quelques cas seulement) le Prétérit et le Futur adoptent la meme
+                        lettre pour inmitiale que le Substantif dérivé. Il nait de là deux séries de
+                        lettres initiales; la première <hi rend="underline">n</hi>, <hi rend="underline">nj</hi>, <hi rend="underline">m</hi>, <hi rend="underline">ng</hi>, <hi rend="underline">ngz</hi>, <hi rend="underline">ngl</hi> est essentiellement verbale, la seconde <hi rend="underline">t</hi>, <hi rend="underline">tj</hi> et <hi rend="underline">s</hi>, <hi rend="underline">p</hi>, <hi rend="underline">h</hi>, <hi rend="underline">r</hi>, <hi rend="underline">l</hi>, qui appartient aussi aux substantifs dérivés.
+                        D’après ma manière de voir et d’après l’analogie d’autres langues Malaies
+                        j’aurois crû que les mots commençant par la seconde série sont réellement
+                        des Substantifs primitifs dont le passage des lettres initiales à la
+                        première série indique qu’ils sont devenûs verbe. Les raisons suivantes me
+                        confirment dans cette opinion de regarder seulement la première série comme
+                        vraîment verbale:</del>
+            </p>
+            <p>
+               <del>1. c’est cette série seulement qui forme le présent des verbes</del>
+            </p>
+            <p>
+               <del>2. lorsque les particules qui désignent le Prétérit et le Futur et qui
+                        appartiennent essentiellement au verbe, viennent à manquer, la première
+                        série n’a plus lieu. [L’+] Il faut juger par le contexte de la phrase, s’il
+                        est question du temps passé ou futur, et <foreign sameAs="jv">
+                     <hi rend="underline">koelo tingngalli</hi>
+                  </foreign> ne me paroit autre
+                        chose qu’une combinaison du Pronom et du Substantif (action de voir) qui
+                        abandonne au lecteur d’y ajouter le verbe auxiliaire dans le temps
+                        convenable: <hi rend="underline">je fus en vrai dans l’action de
+                        voir</hi>.</del>
+            </p>
+            <p>
+               <pb n="218v"/>
+               <subst>
+                  <del>3.</del>
+                  <add>2.</add>
+               </subst> Lorsque les particules du Prétérit et du Futur se trouvent placés
+                    devant le Pronom, <subst>
+                  <del>on doit se servir de la seconde série des lettres
+                                initiales.</del>
+                  <add>(<bibl sameAs="140">p. 62.</bibl>) le verbe
+                            doit subir le changement de la consonne initiale de <hi rend="underline">n</hi> en <hi rend="underline">t</hi> cet. cet.</add>
+               </subst> Cela semble indiquer que <subst>
+                  <del>la pami<gap quantity="3" unit="chars"/> reste sans [<del>et</del>] subir de</del>
+                  <add>ce</add>
+               </subst> changement <add>n’a pas eu lieu</add>, lorsque ces Particules suivent
+                    le Pronom. Mais <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                        Gericke</persName> ne le dit pas positivement, et je Vous prie, M<hi rend="superscript">r</hi>. de me faire connoître, si l’on peut conjuguer
+                        <foreign sameAs="jv">
+                  <hi rend="underline">koelo ningngalli</hi>
+               </foreign> au Présent, <foreign sameAs="jv">
+                  <hi rend="underline">koelo sampoen ningngalli</hi>
+               </foreign> au Prétérit et
+                        <foreign sameAs="jv">
+                  <hi rend="underline">koelo badē</hi>
+               </foreign> <subst>
+                  <del>
+                     <foreign sameAs="jv">
+                        <hi rend="underline">ninggnalli</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="jv">
+                        <hi rend="underline">ningngalli</hi>
+                     </foreign>
+                  </add>
+               </subst> au
+                    Futur, ou si l’usage <del>a</del> <sic>établi</sic> que dans les verbes à
+                    lettres initiales <del>
+                  <gap quantity="3" unit="chars"/>
+               </del> changeantes les Particules <foreign sameAs="jv">
+                  <hi rend="underline">sampoen</hi>
+               </foreign> et <foreign sameAs="jv">
+                  <hi rend="underline">badē</hi>
+               </foreign> précèdent constamment le
+                    Pronom?</p>
+            <p>
+               <del>4. Le Passif adopte toujours, ainsi que cela paroit fort naturel,
+                        [toujours] la seconde série des lettres initiales. Or je n’ai dans les mots
+                        Sanscriots adoptés dans la langue Kavi jamais trouvé la syllabe in inséré
+                        dans un verbe, mais toujours dans un Substantif Sanskrit, ce qui me fait
+                        croire qu’aussi dans la forme Javanoise <foreign sameAs="jv">
+                     <hi rend="underline">sinnerrat</hi>
+                  </foreign>, le mot <foreign sameAs="jv">
+                     <hi rend="underline">serrat</hi>
+                  </foreign> est regardé comme Substantif.
+                            <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                            Gericke</persName> lui-même [<del>prouve que</del>] a senti
+                            [<del>que</del>] la grande affinité que ces formes passives du Javanois
+                        ont avec le Substantif puisqu’il trouve nécessaire de faire mention (<bibl sameAs="140">p. 90.</bibl>) des Substantifs formés par la [<del type="fragment">let</del>] syllabe initiale <hi rend="underline">ha</hi>
+                        et la terminaison <hi rend="underline">han</hi> sous l’article du
+                        Passif.</del>
+            </p>
+            <p>
+               <subst>
+                  <del>5.</del>
+                  <add>3.</add>
+               </subst> La langue de Madagascar attache pour former l’Impératif la syllabe <hi rend="underline">ha</hi> aux mots indistinctement qu’ils soyent verbes,
+                    Substantifs ou Adjectifs; <foreign sameAs="mg">
+                  <hi rend="underline">Tsara</hi>
+               </foreign>, bon, <foreign sameAs="mg">
+                  <hi rend="underline">Tsara-ha</hi>
+               </foreign>, sois bon! La langue Javanoise
+                    employe évidemment la même syllabe <del>in</del> en se servant de la terminaison <subst>
+                  <del>
+                     <hi rend="underline">ho</hi>, ce qui m’engage à [regarder aussi] croire
+                            [que] qu’aussi la langue Javanoise ne regarde pas absolument comme Verbe
+                            les mots là où l’Impératif exige une initiale de la seconde série. Je
+                            crois au reste que</del>
+                  <add>
+                     <hi rend="underline">ho</hi>.</add>
+               </subst> <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                        Gericke</persName> <subst>
+                  <del>auroit pû se passer de donner des</del>
+                  <add>donne</add>
+               </subst> (<bibl sameAs="140">p. 52.</bibl>) deux regles pour la formation de
+                    l’Impératif, celle <pb n="219r"/> du redoublement de la consonne finale et celle
+                    de la syllabe <hi rend="underline">ho </hi> attachée aux mots terminant en
+                    voyelle. <subst>
+                  <del>C’est</del>
+                  <add>Mais n’est ce pas</add>
+               </subst> toujours l’<hi rend="underline">h</hi> qui dans le redoublement se
+                    transforme dans la consonne finale du <subst>
+                  <del>mot.</del>
+                  <add>mot?</add>
+               </subst>
+            </p>
+            <p>
+               <del>Tout ce raisonnement Vous paraitra peut-être très-minutieux, M<hi rend="superscript">r</hi>. et il l’est peut-être. Mais il y a évidemment
+                        deux manières d’étudier une langue, l’une a pour but de la comprendre et de
+                        la parler, l’autre prend à tâche [de] d’en approfondir l’esprit et le
+                        systême et de la composer à la Grammaire générale. Si l’on se borne à la
+                        première, il est très-indifférent qu’on prenne</del>
+            </p>
+            <p>4. <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName>
+                    dérive <foreign sameAs="jv">
+                  <hi rend="underline">haran</hi>
+               </foreign>, Subst. de <foreign sameAs="jv">
+                  <hi rend="underline">ngaranni</hi>
+               </foreign>, Verbe, mais il ne rend pas
+                    compte de la terminaison <hi rend="underline">ni</hi>. Indique-t-elle
+                    précisément la nature verbale du mot, ou quelle est son origine?</p>
+            <p>5. La langue Malaie forme beaucoup de verbes par des syllabes placées devant les
+                    mots. <bibl sameAs="140">La Grammaire</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> ne cite pas un seul
+                    exemple de cette formation. Je croirois cependant que dans un grand nombre de
+                    verbes commençant par un <hi rend="underline">m</hi> ou par la syllabe <hi rend="underline">mang</hi>, ces sons eussent la même signification. Les
+                    Substantifs <del>à</del> qui ont <subst>
+                  <del>un</del>
+                  <add>l’</add>
+               </subst>
+               <hi rend="underline">h</hi> pour lettre initiale, ne seroient ils pas les
+                    primitifs de ces verbes? Ou faut-il les regarder absolument <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> comme dérivés avec <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName>?</p>
+            <p>6. Les langues des isles Philippines transforment des Substantifs en Verbes par
+                    le seul changement de la lettre initiale. <add>Je ne crois pas me tromper en
+                        supposant adopter également cette méthode.</add>
+            </p>
+            <p>7. J’ai été charmé de voir que mes observations sur les syllabes insérées <hi rend="underline">in</hi> et um n’ont pas été fausses. <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> exprime
+                        <del>seulement</del> ces regles d’une autre maniere. Mais <del>les</del> je
+                    voudrois savoir, si la raison <add>en</add> est seulement celle que, sans se
+                    servir <del>seulement</del> des <del>
+                  <hi rend="underline">haksoru</hi>
+               </del> <foreign sameAs="jv">
+                  <hi rend="underline">haksoro pandjen</hi>
+               </foreign>, on ne peut pas écrire
+                    en caractères Javanois une syllabe, ou un mot <add>quelconque</add> commençant,
+                    comme <hi rend="underline">in</hi> et <hi rend="underline">um</hi>, par une
+                    voyelle, ou s’il a eû une autre raison quelconque? <del>Mais la regle
+                        que</del> <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                        Gericke</persName> donne (<bibl sameAs="140">p. 50</bibl>) sur <hi rend="underline">um</hi>
+               <del>, ne peut s’appliquer qu’à des verbes actifs dont la première voyelle est
+                            <hi rend="underline">o</hi>
+               </del> pour regle qu’il faut toujours insérer
+                        <hi rend="underline">mo</hi> et dans les deux exemples qu’il cite, <hi rend="underline">o</hi> est aussi la première voyelle du verbe primitif.
+                        <del type="fragment">Mais s’il arrivoit de f</del> Mais s’il l’on vouloit
+                    transformer <subst>
+                  <del>en verbe neutre</del>
+                  <add>en verbe neutre</add>
+               </subst> un verbe actif dont la première voyelle seroit <hi rend="underline">e</hi>, <hi rend="underline">i</hi>, ou <hi rend="underline">oe</hi>,
+                        <add>ne</add> faudroit-il pas <pb n="219v"/> dans ces cas dire <hi rend="underline">me</hi>, <hi rend="underline">mi moe</hi>?</p>
+            <p>8. L’insertion de la lettre <hi rend="underline">m</hi>, suivie de la première
+                    voyelle du mot pour indiquer la ressemblance d’une chose à une autre m’a été
+                    entièrement neuve. Je ne connois rien d’analogue dans d’autres langues. Ne
+                    pourriez-Vous pas me donner quelques autres renseignemens sur <del type="fragment">ce q</del> ce point?</p>
+            <p>&lt;9. <persName ref="jfcgericke">M<hi rend="superscript">r</hi>.
+                        Gericke</persName> place <hi rend="underline">kami</hi> au nombre des
+                    Pronoms de la 1. personne, et ne parle pas du tout de <hi rend="underline">kita</hi>. Est-ce que ce dernier Pronom est en effèt entièrement étranger
+                        <del>à</del> aussi à la Poésie Javanoise et se sert-on de <hi rend="underline">kami</hi> aussi au Singulier?</p>
+            <p>10. <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName>
+                    ne fait pas du tout mention de l’Article. D’autres langues Malaies en ont un. Le
+                    Javanois en manqueroit-il entièrement?</p>
+            <p>Il est presque superflû d’observer que j’ai suivi dans cette lettre <del type="fragment">lo</del> l’orthographe Hollandoise pour les mots Javanois en
+                    écrivant <hi rend="underline">oe</hi> au lieu de <hi rend="underline">ou</hi>
+                        (<del type="fragment">en A</del> en Allemand, Suku Javanois).&gt;</p>
+            <p>La lecture de <bibl sameAs="140">la Grammaire</bibl> de <persName ref="jfcgericke">M<hi rend="superscript">r</hi>. Gericke</persName> <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> redouble mon désir de posséder
+                    bientôt la Vôtre qui <del>s<gap quantity="4" unit="chars"/>
+               </del> sera certainement plus étendu et plus satisfaisante.</p>
+            <p>Je suis en attendant, on ne peut pas plus, sensible à l’offre obligeante que Vous
+                    voulez bien me faire de m’envoyer Vos ouvrages Malais et quelques notices sur
+                    les langues de Sunda, de Macasar et des Alfouras. Je Vous prie de les faire
+                    parvenir à <persName ref="gagpcapellen">M<hi rend="superscript">r</hi>. le Baron
+                        van den Capellen</persName> qui voudra bien me les envoyer à <placeName ref="Berlin">Berlin</placeName>.</p>
+            <closer>
+               <salute>Je termine ici ma lettre qui déjà n’est que trop étendue, et Vous prie
+                        d’agréer l’assurance de ma considération très-distingués.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

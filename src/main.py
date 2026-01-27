@@ -101,7 +101,7 @@ def main() -> int:
     parser.add_argument(
         '--filename',
         type=str,
-        help='Name einer spezifischen Datei im analyze-Verzeichnis (nur bei --source file). Falls nicht angegeben, werden alle .txt-Dateien verarbeitet.'
+        help='Name einer spezifischen Datei im analyze-Verzeichnis (nur bei --source file). Unterstützt .txt und .xml Dateien. Falls nicht angegeben, werden alle .txt und .xml-Dateien verarbeitet.'
     )
     parser.add_argument(
         '--granularity',
@@ -152,7 +152,8 @@ def main() -> int:
         if args.source == 'file':
             logger.info("Initialisiere File-Client")
             input_dir = files_config.get('input_dir', 'analyze')
-            data_client = FileClient(input_dir=input_dir)
+            xml_text_xpath = files_config.get('xml_text_xpath', './/text')
+            data_client = FileClient(input_dir=input_dir, xml_text_xpath=xml_text_xpath)
         else:  # args.source == 'db'
             logger.info("Initialisiere Datenbank-Client")
             db_config = get_database_config(config)
@@ -177,7 +178,8 @@ def main() -> int:
             api_key=api_config.get('api_key'),
             timeout_seconds=api_config.get('timeout_seconds', 60),
             max_retries=api_config.get('max_retries', 3),
-            retry_delay_seconds=api_config.get('retry_delay_seconds', 3)
+            retry_delay_seconds=api_config.get('retry_delay_seconds', 3),
+            api_provider=api_config.get('api_provider', 'openai')
         )
         
         logger.info("Initialisiere Processor")

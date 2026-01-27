@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jean-François Champollion le jeune, 08.03.1826<idno type="BBAW">570</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Paris, BNF, Nouvelles Acquisitions
+                            Françaises 20357, fol. 231–232; fol. 220–223</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Hartleben 1906, Bd. 2, S. 160, Anm.; Messling 2008, S.
+                            381–390</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7582</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wjbankes">
+                  <persName>Bankes, William John</persName>
+               </person>
+               <person corresp="plblacasdaulps">
+                  <persName>Blacas d’Aulps, Pierre Louis Jean Casimir Duc
+                    de</persName>
+               </person>
+               <person corresp="fcailliaud">
+                  <persName>Cailliaud, Frédéric</persName>
+               </person>
+               <person corresp="cgazzera">
+                  <persName>Gazzera, Costanzo</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="sasack">
+                  <persName>Sack, Sebastian Albert Graf von</persName>
+               </person>
+               <person corresp="hsalt">
+                  <persName>Salt, Henry</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="76">Champollion, Jean-François (1822): Lettre à M. Dacier relative à
+                    l’alphabet des hiéroglyphes phonétiques, Paris: Firmin Didot Père et
+                    Fils</bibl>
+               <bibl corresp="77">Champollion, Jean-François (1823): Panthéon égyptien, collection des
+                    personnages mythologiques de l’ancienne Égypte, d’après les monuments, Paris:
+                    Firmin Didot Père et Fils</bibl>
+               <bibl corresp="1272">Champollion, Jean-François (1824): Lettres à M. le duc de Blacas
+                    d’Aulps, relatives au Musée Royal Égyptien de Turin. Lettre 1: Monuments
+                    historiques, Paris: Didot</bibl>
+               <bibl corresp="78">Champollion, Jean-François (1824): Précis du système hieroglyphique
+                    des anciens Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="139">Gazzera, Costanzo (1824): Descrizione dei monumenti egizi del Regio
+                    museo contenenti leggende reali, o. O.</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte
+                    ou recueil des observations et des recherches qui ont été faites en Égypte
+                    pendant l’expédition de l’Armée Française publié par les ordres de Sa Majesté
+                    l’empéreur Napoléon le Grand, 20 Bände, Paris: L’Imprimérie Impériale</bibl>
+               <bibl corresp="382">Salt, Henry (1825): Essay on Dr. Young’s and M. Champollion’s
+                    phonetic system of Hieroglyphics, London: Longman</bibl>
+               <bibl corresp="405">Seyffarth, Gustav (1826): Rudimenta hieroglyphices: accedunt
+                    explicationes speciminum hieroglyphicorum glossarium atque alphabeta cum 36
+                    tabulis lithographis, Leipzig: J. A. Barth</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je ne saurois Vous exprimer, Monsieur, combien
+                        j’ai été sensible …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-03-08"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jfchampollion">Champollion le jeune, Jean-François</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="571" type="next">12.06.1826</ref>
+               <ref target="334" type="prev">12.02.1825</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig; Anhang in Schreiberschrift</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="cop">Koptisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. April 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="231r"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je ne saurois Vous exprimer, Monsieur, combien j’ai été sensible à la bonté avec
+                    laquelle Vous avez répondû d’une manière aussi détaillée à mes questions sur
+                    quelques passages de nos Manuscrits Egyptiens. <ref type="link" target="334">Votre lettre</ref> du <date when="1825-02-12">12. Février de l’année
+                        dernière</date> m’est arrivée, il y a quelques mois, &amp; a été une
+                    véritable source d’instruction pour moi. Je l’ai étudiée soigneusement &amp; je
+                    la consulte encore souvent. On ne sauroit assez apprécier cette complaisance
+                    avec laquelle Vous communiquez, Monsieur, sans réserve Vos découvertes
+                    importantes à ceux qui s’y intéressent. Elle caractérise le vrai savant &amp;
+                    l’homme sincèrement zêlé pour l’avancement des connoissances utiles, &amp;
+                    j’espère que Vous voudrez bien me permettre de saisir la première occasion qui
+                    se présentera, pour témoigner publiquement la haute éstime que Vous m’avez
+                    inspirée aussi par cette qualité qui Vous distingue si éminemment.</p>
+            <p>Je regrette vivement de ne pas pouvoir Vous envoyer aujourd’hui, Monsieur, copies
+                    des passages de nos manuscrits funéraires que Vous desiriez avoir<note type="footnote" resp="editor">Siehe den Anhang unten.</note>. J’ai eû la
+                    maladdresse de ne pas pouvoir les trouver jusqu’à présent, quoiqu’il me paroit
+                    pourtant qu’aussi nos manuscrits doivent renfermer ces invocations de divinités
+                    dont les noms Vous ont frappés par leur singularité. Je continuerai mes
+                    recherches, &amp; j’y serois peut-être plus heureux si Vous vouliez bien
+                    m’indiquer les <hi rend="underline">colonnes</hi> dans lesquelles ces noms sont
+                        <pb n="231v"/> mentionnés dans le Papyrus de la <bibl sameAs="106">déscription
+                        de l’Egypte</bibl>. Quant à l’analogie de ces noms avec des mots Sanscrits,
+                    j’avoue qu’elle ne m’a pas frappé. </p>
+            <p>Je prends la liberté de Vous addresser encore aujourd’hui, Monsieur, quelques
+                    questions sur des monumens Egyptiens que nous possédons ici. Vous m’obligeriez
+                    très-particulièrement, si Vous vouliez y répondre aussitôt que Vos occupations
+                    Vous le permettent. Ce n’est qu’après avoir reçu Vos éclaircissemens que je
+                    ferois imprimer mon petit mémoire. Je me ferois un devoir &amp; un plaisir d’y
+                    déclarer que les explications sur lesquelles je suis resté douteux, me viennent
+                    de Votre part, Monsieur. </p>
+            <p>Cela ne seroit peut-être pas inutile dans le moment présent. <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName> publie
+                    à présent son nouveau système &amp; l’on verroit que ceux qui, comme moi,
+                    s’occupent de cette étude sans avoir la prétention d’y briller par des
+                    découvertes &amp; et de nouvelles vues, ainsi sans ambition &amp; partialité,
+                    continuent à savoir <bibl sameAs="78">Votre système</bibl> &amp; le regardent
+                    comme le seul véritablement fondé sur des preuves de fait. <bibl sameAs="405">L’ouvrage</bibl> de <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName> n’est pas encore mis en vente &amp; je suis
+                    fâché de ne pas pouvoir Vous en envoyer un exemplaire dans ce moment. Mais j’ai
+                    eû occasion de le voir &amp; de le lire attentivement. Je ne voudrois pas
+                    anticiper sur le jugement que Vous en porterez, Monsieur. Je me borne à Vous
+                    dire que je reste absolument fidèle à Vos principes &amp; que, jusqu’ici au
+                    moins, je n’ai pas pû me convaincre de la vérité du nouveau système établi par
+                        <persName ref="gseyffarth">M.<hi rend="superscript">r</hi>
+                        Seyffarth</persName>. Voilà ce que je lui ai écrit moi-même. <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName> donne
+                    entr’ autres la traduction d’un passage du <pb n="232r"/> manuscrit funéraire de
+                    la <bibl sameAs="106">déscription de l’Egypte</bibl>. Ce passage renferme le nom
+                    du défunt, mais la traduction dit toute autre chose que cela &amp; il n’y a pas
+                    le moindre petit soupçon du nom d’un mortel dans <subst>
+                  <del>la</del>
+                  <add>l’</add>
+               </subst>explication de <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName>. Le tems décidera entre
+                    son système &amp; le Vôtre, Monsieur. Mais il me semble que <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName>
+                    auroit, en établissant un nouveau systeme, dû attaquer et combattre celui qui
+                    existoit avant lui. Mais c’est ce qu’il ne fait pas, il parle au contraire avec
+                    beaucoup d’éloges des Vos explications de plusieurs noms propres. <persName ref="gseyffarth">M.<hi rend="superscript">r</hi> Seyffarth</persName> est un
+                    homme d’un caractère fort éstimable &amp; d’un mérite littéraire établi par
+                    d’autres ouvrages. Je suis bien loin aussi de m’arroger un jugement décisif sur
+                    celui qu’il a publié àprésent. Je vous parle simplement, Monsieur, d’après mes <subst>
+                  <del>convictions,</del>
+                  <add>convictions</add>
+               </subst> d’après l’impression <del>que la lecture</del> qu’une première lecture
+                    m’en a laissée. <persName ref="gseyffarth">M.<hi rend="superscript">r</hi>
+                        Seyffarth</persName> entreprend un grand voyage dans ce moment. Il va
+                    visiter <placeName ref="Turin">Turin</placeName>, <placeName ref="Rom">Rome</placeName> &amp; je crois aussi <placeName ref="Paris">Paris</placeName>. Je suis sûr que Vous aurez plaisir à Vous entretenir
+                    avec lui, s’il avoit celui de Vous rencontrer quelque part. La diversité de
+                    systêmes ne sauroit désunir deux personnes animées du même zèle pour les
+                    sciences &amp; occupés de la même étude.</p>
+            <closer>
+               <salute>J’ai l’honneur d’être avec la considération la plus
+                        distinguée,<lb/>Monsieur,<lb/>Vôtre<lb/>très-humble &amp;
+                        très-obéissant<lb/>Serviteur</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>á
+                        Berlin, ce 8. Mars, 1826.</dateline>
+               <lb/>
+               <pb n="232v, von der Hand Champollions"/> Repondu de <hi rend="underline">Livourne</hi> le <hi rend="underline">12 juin</hi>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="220r"/>
+               <orgName ref="50">Le Musée Royal</orgName> possède trois statues de déesses
+                    léontocéphales assises dont deux ont été apportées de l’Egypte par <persName ref="sasack">Mr. le Comte de Sack</persName> et une par <persName ref="jhminutoli">Mr. le Général de Minutoli</persName>. Je désigne dans le
+                    dessin ci joint les inscriptions des deux premières par A. et B. celle de la
+                    troisième par C. J’ai fait copier les trois colonnes d’hieroglyphes qui
+                    accompagnent le prénom, et la phrase qui précede le nom de deux des statues,
+                    ainsi que le nom lui-même de la statue de <persName ref="jhminutoli">Mr. de
+                        Minutoli</persName>. Dans les deux autres il est presqu’ effacé, quoiqu’
+                    encore reconnoissable. Les signes qui suivent les cartouches du prénom et du nom
+                    sont dans les trois statues absolument les mêmes dans les deux colonnes.</p>
+            <p>C’est sur ces statues et leurs inscriptions hieroglyphiques que je prends la
+                    liberté de Vous addresser, Monsieur, les questions suivantes.</p>
+            <p>1.<lb/>Si j’ai bien saisi, Monsieur, Vos idées sur la déesse Neith, on la trouve
+                    sous trois qualifications différentes.</p>
+            <p>1., comme déesse du premier ordre, compagne d’Amon, caractérisée par le vautour
+                    sur la tête et même par la tête de belier.</p>
+            <p>J’ignore, si elle porte jamais dans cette qualité une tête de lion et j’en doute.
+                    Je la trouve à la vérité avec une tête de lion dans <bibl sameAs="77">Votre
+                        Pantheon (Cahier 2. pl. 1. 6.bis)</bibl> mais c’est dans une figure
+                    composée de membres de divers animaux.</p>
+            <p>2., également comme déesse du prémier ordre, considérée comme veillant à la
+                    conservation des êtres, semblable à la Minerve de la Mythologie grecque,
+                    caractérisée par une tête de lion.</p>
+            <p>
+               <pb n="220v"/> 3., comme déesse du second ordre, ayant également la tête de lion,
+                    compagne de l’Hercule Egyptien, aussi appellée Tafne.</p>
+            <p>Je suis douteux, si je dois donner aux statues dont Vous parlez <bibl sameAs="1272">p. 44 de Votre lettre</bibl> à <persName ref="plblacasdaulps">Mr. le Duc
+                        de Blacas</persName>, Monsieur, le nom de Neith, ainsi que Vous semblez le
+                    faire dans ce passage, ou bien celui de Tafne, ainsi que Vous le faites <bibl sameAs="78">p. 211 de Votre Précis</bibl>, et que le fait <persName ref="cgazzera">Mr. Gazzera</persName>, sans doute d’après les données que
+                    Vous lui avez fournies.</p>
+            <p>La différence est au reste peu sensible, et il se peut facilement que la
+                    Mythologie Egyptienne elle-même confondoit ces deux qualifications.</p>
+            <p>Mais ce qui est plus important, c’est que je ne trouve absolument pas de traces
+                    dans aucun ouvrage que j’ai consulté, du nom de la déesse Tafné. Vous ne citez
+                    pas, Monsieur, le monument duquel Vous l’avez pris, et Vous m’obligeriez
+                    infiniment, si Vous voulez bien m’indiquer, d’où Vous l’avez puisé? Dans les
+                    numeros de <bibl sameAs="77">Votre Pantheon</bibl> qui existent ici, Vous ne
+                    parlez pas encore de cette déesse.</p>
+            <p>Croyez Vous que la petite figure accroupie que Vous trouverez dans les dessins
+                    ci-joints (A. B.) au dessous des cartouches du prénom, soit le signe symbolique
+                    de la déesse Tafne? La tête en paroit en effèt allongée comme une tête d’animal,
+                    mais la pierre n’est pas assez bien conservée pour que j’aye pû distinguer
+                    clairement si le sculpteur a voulû représenter une tête humaine ou une tête de
+                    lion?</p>
+            <p>2.<lb/>Auriez-Vous jamais trouvé, Monsieur<supplied cert="high">,</supplied> le
+                    nom de la Déesse Neith écrit phonétiquement? Je n’en connois pas d’exemples dans
+                    Vos ouvrages.</p>
+            <p>
+               <pb n="221r"/> Le nom que <persName ref="hsalt">Mr. Salt</persName> (<bibl sameAs="382">Essay on Dr. Youngs cet. p. 36. Pl. 3. B.</bibl>) lit ainsi, me
+                    semble être indubitablement celui de la Déesse Netpe, quoi-qu’il seroit
+                    intéressant de savoir, si <persName ref="hsalt">Mr. Salt</persName> a jamais
+                    rencontré ce nom sur des monumens sans l’hieroglyphe du ciel, puisqu’il dit
+                    seulement “these hieroglyphics being <hi rend="underline">generally</hi>
+                    followed cet.”</p>
+            <p>J’ignore ce que je dois penser du nom ανεφθε donné par <persName ref="hsalt">Mr.
+                        Salt</persName>
+               <bibl sameAs="382">p. 47</bibl>? Auroit-il pris un k <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/001.svg"/>
+               </foreign> pour un p <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/002.svg"/>
+               </foreign> et
+                    seroit-ce le nom de la déesse Anok suivi de l’article féminin et du signe
+                    figuratif <hi rend="underline">déesse</hi>?</p>
+            <p>Mais ce qui m’a beaucoup frappé, c’est que <persName ref="wjbankes">Mr.
+                        Bankes</persName> veut avoir trouvé dans une inscription grecque le nom
+                    d’Αθηνα comme synonyme de Netphe.</p>
+            <p>3.<lb/>
+               <persName ref="cgazzera">Mr. Gazzera</persName> (<bibl sameAs="139">Descrizione dei Monumenti Egizj. p. 21.</bibl>) soutient qu’Amenof et
+                    Amenoftep sont toujours des noms différens. Cette assertion ne seroit-elle pas
+                    trop positive?</p>
+            <p>Vous dites le contraire, Monsieur, dans <bibl sameAs="78">Votre <hi rend="underline">Précis</hi> (p. 238.)</bibl> quoi-que Vous distinguiez
+                    aussi dans <bibl sameAs="1272">Votre Lettre à Mr. le Duc de Blacas (p. 23.
+                        38–41.)</bibl> le nom du chef de la dynastie, Amenoftep, du nom de ces deux
+                    successeurs, Amenof, que Vous qualifiez de 1<hi rend="superscript">mier</hi> et
+                        2<hi rend="superscript">me</hi> et non pas de 2<hi rend="superscript">me</hi> et de 3<hi rend="superscript">me</hi>.</p>
+            <p>Mais ce qui me semble prouver entièrement l’identité des deux noms, c’est que
+                        <persName ref="hsalt">Mr. Salt</persName> donne (<bibl sameAs="382">Pl. 4. nr.
+                        11.</bibl>) dans deux cartouches accouplés le prénom royal d’Amenophis 2.
+                    accompagné clairement du nom d’Amenoftep. Ici donc Amenophis 2. porte également
+                    le nom du chef de sa famille. </p>
+            <p>
+               <pb n="221v"/> Que faut il penser de deux cartouches d’un temple d’Elephantine
+                        (<bibl sameAs="106">Descr. de l’Egypte. Vol. 1. pl. 36. nr. 3.</bibl>) où à
+                    côté du prénom d’Amenophis 2. on voit un nom que je lirois <foreign sameAs="cop">ⲈⲚⲦⲞⲚⲦⲤ</foreign>? Est-ce simplement une inscription mal
+                    copiée malgré l’assurance du contraire donnée dans le texte?</p>
+            <p> J’ai aussi été étonné de voir (<bibl sameAs="1272">Lettre à Mr. le Duc de Blacas.
+                        p. 86</bibl>) que le même prénom puisse être commun à deux rois.</p>
+            <p>La gravure que <persName ref="hsalt">Mr. Salt</persName> donne de la table
+                    d’Abydos ne me semble pas entièrement convenir avec le dessin de <persName ref="fcailliaud">Mr. Cailliaud</persName> tel que Vous le décrivez,
+                    Monsieur, dans <bibl sameAs="78">Votre <hi rend="underline">Précis</hi> (p.
+                        245.)</bibl>. Car je ne trouve que 17 prénoms royaux (au lieu de 21) dans
+                    la seconde série chez <persName ref="hsalt">Mr. Salt</persName>. Je seroit bien
+                    à désirer que le dessin de <persName ref="fcailliaud">Mr. Cailliaud</persName>
+                    fût aussi publié.</p>
+            <p>4.<lb/>
+               <persName ref="cgazzera">Mr. Gazzera</persName> traduit le titre qui suit
+                    le nom d’Amenof, et dont Vous dites dans <bibl sameAs="78">Votre <hi rend="underline">Précis</hi> (p. 235.)</bibl> que le sens en est encore
+                    ignoré, Presidente della regione superiore.</p>
+            <p>Je trouve dans <bibl sameAs="77">Votre Pantheon</bibl>, Monsieur, (<bibl sameAs="77">Cahier 6. pl. 15.</bibl>) que le lituus est en effèt le symbole de la
+                    surveillance, et de l’administration. Mais je cherche envain l’explication du
+                    dernier signe. J’ignore même ce qu’il doit représenter figurativement. Car
+                    quoiqu’il ressemble aux bâtons ornées du coucoupha, il en paroît néanmoins
+                    différent.</p>
+            <p>La lettre k <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/003.svg"/>
+               </foreign> se trouvant entre ces deux signes, je ne crois pas devoir la
+                    prendre ici pour la marque de la 2. personne du singulier, mais plutôt pour
+                    l’abbréviation du mot <foreign sameAs="cop">ⲕⲁϩⲓ</foreign>. Il n’est pour lors
+                    pas étonnant que cette lettre manque quelquefois après le nom d’Amenof 2.
+                        com-<pb n="222r"/>me p. e. dans une des inscription du grand temple
+                    d’Onabos. (<bibl sameAs="106">Déscription de l’Egypte. T. 1. pl. 43. nr. 12.
+                        13.</bibl>)</p>
+            <p>5.<lb/>Comment expliquez Vous, Monsieur, phonétiquement et en paroles Coptes les
+                    trois signes qui dans toutes les inscriptions des statues léontocephales que je
+                    connoisse, suivent immédiatement le prénom royal? Vous les traduisez <hi rend="underline">de la déesse gardienne</hi>, mais le mot de déesse est
+                    indiqué, je crois, par le signe figuratif. <persName ref="cgazzera">Mr.
+                        Gazzera</persName> (<bibl sameAs="139">p. 18 Pl. 3. nr. 2.</bibl>) traduit
+                    tout court da Tafnet. Vous observerez, Monsieur, que le premier signe de ce
+                    grouppe dans les statues de <placeName ref="Berlin">Berlin</placeName> diffère
+                    du même dans les statues de <placeName ref="Turin">Turin</placeName>. Dans ces
+                    dernières il ressemble presqu’à l’ornement que la déesse Netphe porte sur la
+                    tête (<bibl sameAs="78">Précis du syst. hier. Pl. 4 nr. 83.</bibl>) dans les
+                    nôtres on pourroit le prendre pour une rame.</p>
+            <p>Dans <bibl sameAs="139">le nr. 3. de la Pl. 3.</bibl> de <persName ref="cgazzera">Mr. Gazzera</persName> se trouve un grouppe de quatre signes qu’il traduit
+                    posseditrice della regione superiore. Je reconnois la région supérieure dans la
+                    partie intérieure du Pschent, l’<hi rend="underline">s</hi> qui suit, peut être
+                    le Pronom féminin ou un déterminatif <hi rend="underline">sa</hi>, portion,
+                    contrée, mais que signifient phonétiquement les deux signes qui précèdent
+                        <foreign sameAs="cop">ⲥⲁ</foreign> ou <foreign sameAs="cop">ⲁⲥ</foreign>?</p>
+            <p>Vous verrez, Monsieur, que dans le dessin ci-joint (B.) le participe ⲙⲉⲓ est
+                    suivi de l’article féminin, du signe de <hi rend="underline">seigneur</hi> et
+                    d’un hieroglyphe qui me laisse dans le doute, s’il doit être le bâton désignant
+                    ⲧⲟ, monde, ou deux sceptres affrontés, <foreign sameAs="cop">ⲥ</foreign>. Dans
+                    ce dernier cas il me rappelleroit le groupe de <bibl sameAs="77">Votre Pantheon
+                        (Cahier 7. pl. 15. 6.)</bibl> quoique le déterminatif: <hi rend="underline">contrée</hi> manque ici. Peut-être l’<hi rend="underline">s</hi> est-il le
+                    pronom auquel se réfère <foreign sameAs="cop">ⲙⲉⲓ</foreign>. Mais ce pronom en
+                    écriture hieroglyphique se <pb n="222v"/> trouve ordinairement après le
+                    participe.</p>
+            <p>D’après ce que Vous avez eû la bonté de me dire dans Votre lettre, Monsieur, je
+                    lis les signes (Dessin ci-joint. c.) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/004.svg"/>
+               </foreign> avec l’article féminin <foreign sameAs="cop">ⲛⲟϥⲣⲓⲑ</foreign>, la bienfaisante. Il est cependant à
+                    remarquer que le signe du <foreign sameAs="cop">ϥ</foreign>, le céraste,
+                    manque ici.</p>
+            <p>Mais comment expliquez Vous, Monsieur, les deux fléaux posés sur un globe ou sur
+                    le disque du soleil? Le même signe se trouve sur un fragment d’Edfou (<bibl sameAs="106">Déscription de l’Egypte T. 1. pl. 57. nr. 8.</bibl>) au dessous
+                    d’un cheval et à côté de la lettre <hi rend="underline">s</hi>, et dans les
+                    Manuscrits funéraires. Ne seroit-il pas le même que celui que Vous donnez comme
+                        <hi rend="underline">s</hi> au <bibl sameAs="78">nr. 102 de Votre
+                        Alphabet</bibl>? (<bibl sameAs="106">l. c. Vol. 2. pl. 75. col. 23.</bibl>)
+                    Dans notre monument il est suivi des signes du pluriel.</p>
+            <p>
+               <persName ref="cgazzera">Mr. Gazzera</persName> traduit les deux derniers signes
+                    du nr. C. du dessin ci-joint vivificatore. Je suppose que le premier que Vous
+                    expliquez (<bibl sameAs="78">Précis du syst. hier. Pl. 3. nr. 3</bibl>) par t.
+                    est ici la lettre Copte <foreign sameAs="cop">ϯ</foreign>, donner, celui qui
+                    donne. L’autre est le symbole de la vie divine. Ces deux signes s’écriroient
+                    donc en Copte <foreign sameAs="cop">ϯⲱⲛⲑ</foreign> et pour en faire un
+                    Substantif, le Copte moderne y ajouteroit le Préfixe <foreign sameAs="cop">ⲣⲉϥ</foreign>. Mais quel est, Monsieur, le mot Copte que Vous avez en vue
+                    lorsque Vous traduisez <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/005.svg"/>
+               </foreign> par <hi rend="underline">supplions</hi>?</p>
+            <p>J’oserois Vous addresser la même question, Monsieur, sur la groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/006.svg"/>
+               </foreign> que Vous
+                    rendez par les mots: <hi rend="underline">pour toujours</hi>. Phonétiquement j’y
+                    vois les lettres <foreign sameAs="cop">ⲧⲧⲛ</foreign>.</p>
+            <p>Le groupe qui manque à nos inscriptions, mais qui est dans celui de <placeName ref="Turin">Turin</placeName> (<bibl sameAs="139">Gazzera. Pl. 3. nr.
+                            2.</bibl>) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/WvH-Champollion_1826_03_08/007.svg"/>
+               </foreign> signifie: <hi rend="underline">comme Re</hi>. Mais quel
+                    signe proprement est celui que Vous traduisez par <foreign sameAs="cop">ⲛⲧⲉ</foreign> dans <bibl sameAs="78">Votre <hi rend="underline">Précis</hi>
+                        (p. 159. 160)</bibl>?</p>
+            <p>
+               <pb n="223r"/> 6.<lb/>La colonne d’hieroglyphes qui accompagne le nom d’Amenophis
+                    présente dans une des Statues de <placeName ref="Berlin">Berlin</placeName>
+                    après les mots fils du soleil quatre signes dont je prends le deuxième pour
+                    celui que Vous donnez, Monsieur, <bibl sameAs="78">
+                  <bibl sameAs="78">nr. 445 de Votre
+                            Précis</bibl>
+               </bibl>. Je lis en conséquence <foreign sameAs="cop">ⲛⲁⲁϥ ⲧⲏⲓϥ</foreign>, fils du soleil, du grand qui le donne.</p>
+            <p>7.<lb/>Je vois par <bibl sameAs="139">la dissertation</bibl> de <persName ref="cgazzera">Mr. Gazzera</persName> que Vous expliquez, Monsieur,
+                    l’ornement qui se trouve aux côtés des thrônes des figures leontocephales
+                        (<bibl sameAs="139">Gazzera p. 19. Pl. 4. nr. 4.</bibl>) par les mots:
+                    soutien de la haute et de la basse Egypte, et j’ai lû avec le plus grand intérêt
+                    ce que Vous dites du symbole de ces deux contrées dans <bibl sameAs="77">Votre
+                        Pantheon. (Cahier 7. pl. 7. A. B.)</bibl> Mais je prends la liberté de Vous
+                    addresser, Monsieur, deux questions à cet égard.</p>
+            <p>1. L’instrument autour duquel les noeuds de Lotos sont formés, n’est-il pas la
+                    même théorbe, emblême de la bienfaisance? Sa forme diffère un peu à la vérité,
+                    mais cette même variante se retrouve dans d’autres monumens où ce signe est
+                    indubitablement celui que je viens d’indiquer. (<bibl sameAs="106">Déscript. de
+                        l’Egypte. T. 1. pl. 36. nr. 3. T. 2. pl. 21. nr. 2.</bibl>)</p>
+            <p>2. De quelle manière distinguez-Vous, Monsieur, dans notre ornement la Haute
+                    Egypte de la basse? Dans les quatre figures de plantes de l’inscription de
+                    Rosette les deux qui désignent la Basse-Egypte, ont les tiges brisées et
+                    pendantes. Ici cette distinction ne se trouve pas, et toutes les fois que cet
+                    ornement est accompagné de deux figures humaines ces dernières portent sur leurs
+                    têtes chacune les mêmes plantes de Lotos ayant constamment les deux tiges
+                    extérieures brisées. (<bibl sameAs="106">Déscript. <pb n="223v"/> de l’Egypte. T.
+                        1. pl. 10. nr. 5. T. 2. pl. 21. nr. 2. pl. 28.</bibl>) La Basse-Egypte
+                    paroitroit donc seule indiquée dans cet emblême.</p>
+            <p>
+               <pb n="Bl. 224 und 225 umfassen die Darstellungen der Hieroglyphen auf den                     Sachmet-Statuen"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

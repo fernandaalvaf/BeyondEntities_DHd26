@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- in  Bearbeitung von FS am  04. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ludwig Niederstetter an Wilhelm von Humboldt, 26.11.1829<idno type="BBAW">436</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 57, Bl. 19–22</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 239</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="catwater">
+                  <persName>Atwater, Caleb</persName>
+               </person>
+               <person corresp="cornplanter">
+                  <persName>Cornplanter (auch: John O’Bail oder Abeel)</persName>
+               </person>
+               <person corresp="jfevarts">
+                  <persName>Evarts, Jeremiah F.</persName>
+               </person>
+               <person corresp="dfolsom">
+                  <persName>Folsom, David</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="ajackson">
+                  <persName>Jackson, Andrew</persName>
+               </person>
+               <person corresp="tjefferson">
+                  <persName>Jefferson, Thomas</persName>
+               </person>
+               <person corresp="glbuffon">
+                  <persName>LeClerc de Buffon, Georges-Louis</persName>
+               </person>
+               <person corresp="jlogan">
+                  <persName>Logan, John</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="wward">
+                  <persName>Ward, Col. William</persName>
+               </person>
+               <person corresp="gwashington">
+                  <persName>Washington, George</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="783">Jefferson, Thomas: Notes on the State of Virginia (London: John
+                    Stockdale 1787)</bibl>
+               <bibl corresp="857">Jefferson, Thomas: Notes on the State of Virginia. With an Appendix
+                    (Boston: David Carlisle 1801)</bibl>
+               <bibl corresp="782">Penn, William [= Jeremiah Evarts]: Present Crisis in the Condition
+                    of the American Indians. In: The Friend – A Religious and Literary Journal, Vol.
+                    II No. 48, September 1829, S. 378–380</bibl>
+               <bibl corresp="295">The Syllabic Cherokee Alphabet. In: Missionary Herald 23, No. 7,
+                    July 1827, S. 212f.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz bin ich so frei in der Anlage einige
+                        indianische Notizen ganz gehorsamst zu übermachen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="lniederstetter">Niederstetter, Ludwig</persName>
+               <date type="author" when="1829-11-26"/>
+               <placeName key="Philadelphia">Philadelphia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="lniederstetter">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="chr">Cherokee</language>
+            <language ident="cai">Indianische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">04. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_047.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_048.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_049.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_050.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_051.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_052.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1829-11-26/Coll.ling.fol.57_053.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="19r"/> <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>bin ich so frei in der Anlage einige indianische Notizen ganz gehorsamst zu
+                    übermachen, die ich von Zeit zu Zeit für dieselben bei Seite gelegt habe. Der
+                    Zustand der Indianer erregt hier gegenwärtig ein lebhaftes Intereße, seitdem der
+                    jetzige <persName ref="ajackson">Präsident</persName> eine entschiedenere
+                    Sprache als seine Vorgänger gegen sie angenommen, und ernstlich auf ihre
+                    Auswanderung jenseits des Mißißippi dringt. Die nordöstlichen und Mittel-Staaten
+                    der Union, sind dieser Politik entgegen, und legen viel Mitgefühl für ihre
+                    rothen Brüder, die der nie befriedigten Habsucht der Weißen Preisgegebenen, an
+                    den Tag, eine Empfindung die um so reiner ist, als sie selbst einer solchen
+                    Versuchung nicht mehr ausgesetzt sind.</p>
+            <p>
+               <bibl sameAs="782">Der Artikel No 1. aus einer hiesigen Quäker Zeitung</bibl> ist
+                    in diesem Geiste geschrieben, und enthält zugleich <pb n="19v"/> eine
+                    merkwürdige Addreße eines alten Häuptlings des <hi rend="antiqua">Seneca</hi>
+                    Stammes – <persName ref="cornplanter">
+                  <hi rend="antiqua">Corn Plant</hi>
+               </persName> – an <persName ref="gwashington">Präsident <hi rend="antiqua">Washington</hi>
+               </persName>, die Ew. Excellenz mit Intereße lesen werden.<note type="footnote" resp="editor">Die dem Brief beigefügten Artikel 1 und 2 sind noch im
+                        Nachlass in Krakau vorhanden (Coll. ling. fol. 57, Bl. 23–26 bzw. Bl.
+                        27).</note>
+            </p>
+            <p>Ein neueres Produkt der Art liefert die Rede <hi rend="antiqua">
+                  <persName ref="dfolsom">Folsom</persName>’s</hi> des Häuptlings der <hi rend="antiqua">Chocktaws</hi>, an den <persName ref="wward">Obrist <hi rend="antiqua">Ward</hi>
+               </persName>, dem Commißair des Gouvernements, welche er nur vor wenigen Wochen
+                    im <hi rend="antiqua">council</hi> Hause seines Stammes gehalten.</p>
+            <p>E. Excellenz wünschten in einem Ihrer früheren gütigen Schreiben, darüber näher
+                    unterrichtet zu werden, welche Glaubwürdigkeit diese, in indianischem Dialekt
+                    gehaltenen und in englischer Sprache wiedergegebenen Reden verdienen. Die
+                    Originale existiren allerdings nicht mehr, und sind mit dem Wortlaute selbst
+                    verhallt, wofür es keine Schriftzeichen giebt. Ihre Authenticität beruht daher
+                    nur auf der Zuverläßigkeit der geschworenen Dollmetscher des Gouvernements.</p>
+            <p>
+               <pb n="20r"/> Ew. Excellenz erinnern sich vielleicht aus früherer Zeit, daß man
+                    die Aechtheit der merkwürdigen Rede des Indianer Chefs <persName ref="jlogan">
+                  <hi rend="antiqua">Logan</hi>
+               </persName>, bezweifelt hat, wie sie in <hi rend="antiqua">
+                  <persName ref="tjefferson">Jefferson</persName>s <bibl sameAs="783">Notes on
+                            Virginia</bibl>
+               </hi> gegeben worden ist, um als eine Widerlegung der Behauptung <hi rend="antiqua">
+                  <persName ref="glbuffon">Buffon</persName>’s </hi> zu dienen; – „daß die
+                    natürlichen sowohl als geistigen Fähigkeiten der neuen Welt, in jeder Beziehung
+                    denen der alten untergeordnet <sic>sei</sic>,“ – sowie auch der Beweise welche
+                        <persName ref="tjefferson">H. <hi rend="antiqua">Jefferson</hi>
+               </persName> hierauf in <bibl sameAs="857">einer späteren Ausgabe</bibl> seiner
+                        <bibl sameAs="783">
+                  <hi rend="antiqua">Notes</hi>
+               </bibl>, für ihre Aechtheit geliefert hat.</p>
+            <p>Im Allgemeinen zweifelt man hier nicht an der Aechtheit dieser Reden, wie sie von
+                    den Dollmetschern wiedergegeben werden, und in der That tragen die meisten ein
+                    Gepräge der Originalität an sich, welches schwer nachzuahmen seyn möchte. Die
+                        <hi rend="antiqua">councils</hi> dieser Stämme, in welchen alle ihre
+                    Angelegenheiten – <hi rend="underline">berathend</hi> – abgemacht werden, dienen
+                    ihnen zugleich als praktische Schulen für die öffentliche Redekunst.</p>
+            <p>Der Art. No 3. endlich enthält einige Notizen über die neuere Erfindung der <hi rend="antiqua">Cherokee</hi> Schrift, die Ew. Excellenz <pb n="20v"/> kennen, wovon aber das Detail Denselben vielleicht nicht unwillkommen seyn
+                        wird.<note type="footnote" resp="editor">Eventuell ist hiermit der Artikel
+                            <bibl sameAs="295">
+                     <hi rend="italic">The Syllabic Cherokee Alphabet</hi>
+                  </bibl> gemeint, den Humboldt bereits von <persName ref="jpickering">Pickering</persName> zugeschickt bekommen
+                        hatte (<ref type="link" target="447">Brief vom 27.11.1827</ref>).</note>
+            </p>
+            <p>Von <persName ref="jpickering">H. <hi rend="antiqua">Pickering</hi>
+               </persName> ist mir neuerlich nichts für Ew. Excellenz zugekommen, auch hat er
+                    mir seine etwanigen Auslagen für Dieselben noch nicht angezeigt, ich werde ihn
+                    gelegentlich daran erinnern, und dieselben mit großem Vergnügen für Ew.
+                    Excellenz berichtigen.</p>
+            <p>
+               <persName ref="avh">Ihr H. Bruder</persName> Ex. ist, hoffe ich, von seiner
+                    asiatischen Reise glüklich zurükgekehrt. Seit längerer Zeit schon bin ich
+                    bemüht, ihn mit einer kleinen Sammlung von Schädeln der hiesigen Urbewohner, wie
+                    man sie in den <hi rend="antiqua">mounds</hi> der westlichen Staaten findet, zu
+                    überraschen, bis jezt indeß ist es mir nicht gelungen, dergleichen wohl erhalten
+                    aufzutreiben. Ich habe <persName ref="catwater">H. <hi rend="antiqua">Atwater</hi>
+               </persName> von <hi rend="antiqua">Ohio</hi>, der sich gegenwärtig zu einem
+                    Besuche hier befindet, und sich durch die Erwähnung seiner, in den Werken Sr
+                    Excellenz sehr geschmeichelt findet, von Neuem um seine Mitwirkung hiebei
+                    ersucht. Er hofft diese Schädel, die nach ihrer Ausgrabung, der atmosphärischen
+                    Luft ausgesetzt, in wenigen Minuten zerfallen, durch einen chemischen Prozeß
+                    erhalten zu können, und berätht sich deshalb mit einem hiesigen Chemiker.</p>
+            <p>
+               <pb n="21r"/> Was übrigens den gegenwärtigen politischen Zustand dieses Landes
+                    betrift; so bemerkt man darin, das Prinzip der Demokratie mächtig
+                    fortschreitend, Authorität und Talent beugen sich vor ihr, und eine Crisis
+                    dürfte selbst der bestehenden Ordnung der Dinge bevorstehen, wenn den westlichen
+                    Staaten, vermöge ihrer überwiegenden Volksmaße, die Gesetzgebung und Verwaltung
+                    in die Hände fällt, was sehr bald der Fall seyn dürfte. Hört man indeß schon
+                    jezt, die <hi rend="antiqua">backwoodsmen</hi> des Westens, von der baldigen
+                    Verlegung des Gouvernementssitzes von <placeName ref="Washington">
+                  <hi rend="antiqua">Washington</hi>
+               </placeName> nach dem Mittelpunkte der Union, d. i. nach <placeName ref="St. Louis">
+                  <hi rend="antiqua">St. Louis</hi>
+               </placeName> am <hi rend="antiqua">Mississippi</hi> sprechen; so wird man
+                    allerdings versucht zu argwöhnen, daß sie den Maßstab ihrer Ideen von ihren
+                    Flüßen hergenommen. Die alte Welt dagegen rükt mir weiter und weiter aus dem
+                    Gesicht, eine Wahrnehmung die ich schmerzlich empfinde.</p>
+            <closer>
+               <salute>Schließlich bitte ich, Ew. Excellenz meine aufrichtige Verehrung und
+                        unbegrenzte Ergebenheit stets widmen zu dürfen mit welcher ich die Ehre habe
+                        zu seyn <lb/>Ew. Excellenz <lb/>ganz gehorsamster Diener</salute>
+               <signed>Niederstetter</signed>
+               <lb/>
+               <dateline>Philadelphia <lb/>den 26. <hi rend="antiqua">Novbr.</hi>
+                        1829.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="21v und 22r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

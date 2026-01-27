@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 11. Februar 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Heinrich Julius Klaproth an Wilhelm von Humboldt, 03.12.1834<idno type="BBAW">395</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 170–171</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 222</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hiüant">
+                  <persName>Hiüan thsang (Hiuen-Tsiang / Xuanzang)</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="916">Foe Kue Ki ou Relations des Royaumes buddhiques. Voyage dans la
+                    Tartarie, dans l'Afghanistan et dans l'Inde, exécuté à la fin du IVme siècle par
+                    Chy Fa Hian. Traduit du Chinois par Abel Rémusat. Ouvrage posthume révu,
+                    complété et augmenté par M. M. Klaproth et Landresse (Paris: Imprimerie Royale
+                    1836)</bibl>
+               <bibl corresp="289">Marsden, William: A Dictionary of the Malayan language in two
+                    parts, Malayan and English and English and Malayan (London: Cox &amp; Baylis
+                    1812)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Unter den fünf Intu oder Indien, versteht man
+                        das nördliche, das östliche, das mittlere, das westliche und das südliche,
+                        also die ganze Halbinsel diesseits des Ganges …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+               <date type="author" when="1834-12-03"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jhklaproth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">11. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Klaproth/Klaproth-WvH_1834-12-03/Coll.ling.fol.53_341.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-12-03/Coll.ling.fol.53_342.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-12-03/Coll.ling.fol.53_343.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-12-03/Coll.ling.fol.53_344.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="170r"/>
+               <dateline>Berlin 3 Dec. 1834</dateline>
+            </opener>
+            <p>Unter den <hi rend="underline">fünf Intu</hi> oder Indien, versteht man das
+                    nördliche, das östliche, das mittlere, <del>und</del> das westliche und das
+                    südliche, also die ganze Halbinsel diesseits des Ganges, mit Ausschluß der Insel
+                    Ceylon, von der die Chinesischen Schriftsteller und namentlich der Reisende
+                    Hiüan Hesang<note type="footnote" resp="editor">Vermutlich ist der reisende
+                        chinesische Buddhapriester <persName ref="hiüant">Hiüan thsang</persName>
+                        gemeint.</note> ausdrücklich sagen, daß sie nicht mit unter Indien begriffen
+                    werde. Die fünf Intu scheinen mir in der bewußten Stelle ein allgemeiner
+                    Ausdruck für Indien zu seyn, so wie man auch <foreign sameAs="zh">
+                  <hi rend="underline">U Thian Hesu</hi>
+               </foreign>, die fünf Thian Hesu
+                    gebraucht findet.</p>
+            <p>
+               <graphic url="Klaproth/Klaproth-WvH_1834_12_03/g001.png"/> <foreign sameAs="zh">
+                  <hi rend="underline">Ko la pa</hi>
+               </foreign> oder <foreign sameAs="zh">
+                  <hi rend="underline">Ka la pa</hi>
+               </foreign>, ist die
+                    Chinesische Umschreibung des Namens <hi rend="underline">Galapa</hi>, der
+                    nächsten Umgebung von Batavia, welchen Ew. Excellenz auch in <persName ref="wmarsden">Marsdens</persName> <bibl sameAs="289">Wörterbuch</bibl>
+                    entweder unter dem Buchstaben <graphic url="Klaproth/Klaproth-WvH_1834_12_03/g002.png"/>oder unter dem Artikel
+                    Batavia finden werden. Noch <sic>jetz</sic> ist <foreign sameAs="zh">
+                  <hi rend="underline">Ka la pa</hi>
+               </foreign> der gewöhnliche Name unter
+                    welchem diese Stadt den Chinesen bekannt ist, und unter dem sie auf ihren
+                    Charten zu finden ist.</p>
+            <p>Was das kleine chinesische, in Batavia gedruckte
+                    Werk<!-- nicht identifizierbar? --> anbetrifft, das unter dem Titel einer
+                    Beschreibung von Ka la pa, vielmehr die von ganz Java enthält so habe ich nur
+                    den ersten Band davon, glaube auch nicht daß der zweite <sic>erschien</sic> ist.
+                    Er trägt keine Jahreszahl, geht aber in der Geschichte bis auf <pb n="170v"/> die englische Occupation der Insel, also bis auf <persName ref="tsraffles">
+                  <sic>Raffels</sic>
+               </persName> Zeit. Von <placeName ref="Paris">Paris</placeName> aus werde ich Ew. Excellenz mit Bestimmtheit das Jahr
+                    melden können. Merkwürdig ist es daß es neben der holländischen Zeitrechnung, d.
+                    i. neben den Jahren Christi, auch die chinesischen 60jährigen Cyclen giebt.</p>
+            <p>Unendlich viel Freude macht es mir, daß Sie meine <bibl sameAs="916">Noten zum Foe
+                        kue ki</bibl>, denen meines Vorgängers nicht unwürdig finden. Ich gebe mir
+                    auch alle Mühe sie so gut und ausführlich als möglich zu machen.</p>
+            <p>Da Ew. Excellenz am 6<hi rend="superscript">ten</hi> in Berlin eintreffen werden,
+                    so kann ich noch hoffen die Ehre zu haben Sie hier zu sehen.</p>
+            <closer>
+               <salute>Für heute bitte ich die wiederholte Versicherung meiner
+                        ausgezeichneten Hochachtung u. Ergebenheit
+                        anzunehmen</salute>
+               <signed>Klaproth</signed>
+               <lb/>
+               <pb n="171r vacat"/>
+               <lb/>
+               <pb n="171v"/>
+               <address>
+                  <addrLine>A Son Excellence</addrLine>
+                  <addrLine>Monsieur le Baron G. de Humboldt</addrLine>
+                  <addrLine>Ministre d’état cet. cet. cet.</addrLine>
+                  <addrLine>à</addrLine>
+                  <addrLine>
+                     <placeName ref="Tegel">Tegel</placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

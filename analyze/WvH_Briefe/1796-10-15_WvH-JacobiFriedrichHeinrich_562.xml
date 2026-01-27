@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Heinrich Jacobi, 15.10.1796<idno type="BBAW">562</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1892, S. 45–51. – Mattson
+                            2017, S. 294–299 Nr. 462</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 452</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cafhellfeld">
+                  <persName>Hellfeld, Christian August Friedrich von</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                            Humboldt</persName>
+               </person>
+               <person corresp="cwmjacobi">
+                  <persName>Jacobi, Carl Wigand Maximilian</persName>
+               </person>
+               <person corresp="ikant">
+                  <persName>Kant, Immanuel</persName>
+               </person>
+               <person corresp="fepoel">
+                  <persName>Poel, Friederike Elisabeth, geb. Büsch</persName>
+               </person>
+               <person corresp="creinhard">
+                  <persName>Reinhard, Christine, geb. Reimarus</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm</persName>
+               </person>
+               <person corresp="jhvoss">
+                  <persName>Voß, Johann Heinrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="145">Goethe, Johann Wolfgang von (1773): Götz von Berlichingen,
+                        o. O.</bibl>
+               <bibl corresp="147">Goethe, Johann Wolfgang von (1787): Iphigenia auf Tauris,
+                        Leipzig: Georg Joachim Göschen</bibl>
+               <bibl corresp="1160">Lessing, Gotthold Ephraim (1779): Nathan der Weise,
+                        Berlin</bibl>
+               <bibl corresp="1163">Schiller, Friedrich (1781): Die Räuber. Ein Schauspiel,
+                        Frankfurt und Leipzig</bibl>
+               <bibl corresp="1164">Schiller, Friedrich (1783): Die Verschwörung des Fiesko zu
+                        Genua. Ein Republikanisches Trauerspiel, Mannheim: Schwan</bibl>
+               <bibl corresp="1165">Schiller, Friedrich (1786): An die Freude. In: Thalia,
+                        Erster Band, Zweytes Heft, S. 1–5</bibl>
+               <bibl corresp="388">Schiller, Friedrich (1787): Dom Karlos. Infant von Spanien,
+                        Leipzig: Georg Joachim Göschen</bibl>
+               <bibl corresp="1228">Schiller, Friedrich (1788): Briefe über Don Karlos. In: Der
+                        Teutsche Merkur, Julius, S. 35–61; December, S. 224–267</bibl>
+               <bibl corresp="1162">Schlegel, August Wilhelm (1796): [Rez.] Altona, b.
+                        Hammerich: Homers Werke, von Johann Heinrich Voß. 1793. Homers Ilias. Erster
+                        Band. 318 S. Zweyter Band. 339 S. Homers Odyssee. Erster Band. 272 S.
+                        Zweyter Band. 263 S. gr. 8. Mit einem Titelkupfer und drey Karten. (6
+                        Rthlr.). In: Allgemeine Literatur-Zeitung, Bd. 3, Nr. 262–267
+                        (22./26.08.1796), Sp. 473–519</bibl>
+               <bibl corresp="1161">Voß, Johann Heinrich (1793): Homers Werke übersetzt; die
+                        Ilias neu, die Odyssee umgearbeitet, Band 1–4, Altona: J. F.
+                        Hammerich</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihr Brief, lieber theurer Freund, hat mir eine unaussprechliche
+                    Freude gemacht. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1796-10-15"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fhjacobi">Jacobi, Friedrich Heinrich</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="549" type="prev">02.10.1796</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="">Englisch</language>
+            <language ident="">Griechisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">09. November 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Berlin, 15. 8br. 1796.</dateline>
+            </opener>
+            <p>Ihr Brief, lieber theurer Freund, hat mir eine unaussprechliche Freude gemacht.
+                        <persName ref="creinhard">Stinchen</persName> hatte <persName ref="cvh1">meiner Frau</persName> wenige Tage vorher die Niederkunft der <persName ref="fepoel">Poel</persName> gemeldet,<note type="footnote" resp="editor">Gemeint ist die Ehefrau von <persName ref="ppoel">Piter Poel</persName>,
+                        dem Herausgeber des <hi rend="italic">Altonarischen Mercurius</hi>. Der Sohn
+                        Ernst, später Jurist und Nachfolger seines Vaters als Herausgeber des <hi rend="italic">Altonaischen Mercurius</hi>, wurde am 22. September 1797
+                        in Altona geboren. [FZ]</note> und in diesem Briefe schrieb sie uns
+                    zugleich, dass Ihnen die kalte Witterung so übel bekäme. Ganz so schlimm, sehe
+                    ich aus dem Ihrigen, ist es nun glücklicherweise nicht, aber immer fürchte ich
+                    doch, dass das <placeName ref="Hamburg">Hamburg</placeName>er Klima, der dicken
+                    Mauern Françoisens ungeachtet, Ihrer schwächlichen Gesundheit nachtheilig seyn
+                    möchte. Warum muss der fatale Krieg Sie so lange aus Ihrem friedlichen
+                        <placeName ref="Pempelfort">Pempelfort</placeName> u. von dem Genuss eines
+                    milderen Himmels vertreiben?</p>
+            <p>Ihr Dank für unsern Besuch hat uns innigst gerührt. Welche schönere Freude hätten
+                    wir uns bereiten können, als uns die Tage gegeben haben, die wir so froh mit
+                    einander durchlebten. Sie glauben nicht, theurer Jacobi, wie unendlich oft wir
+                    beide von diesen Abenden, diesen Unterredungen sprechen. Der ganze volle
+                    Eindruck, den Ihre Bekanntschaft, Ihre liebevolle Freundschaft früher auf mich
+                    gemacht hatte, ist, wie tief u. lebendig er auch war, gleichsam neu in mir
+                    geworden; u. <persName ref="cvh1">meiner Frau</persName> ist Ihr Wesen eine der
+                    grossen u. süssen Erscheinungen gewesen, welche die Seele u. das Herz für das
+                    ganze Leben bereichern. Lassen Sie uns nur im Frühjahr gewiss die Freude des
+                    Wiedersehens geniessen.</p>
+            <p>Für unsre schriftliche Unterhaltung bis dahin ist mir die Länge u.
+                    Ausführlichkeit Ihres Briefs ein günstiges Omen gewesen. Ueber die <bibl sameAs="1162">Recension</bibl> des <persName ref="jhvoss">Voss</persName>ischen <bibl sameAs="1161">Homer</bibl>s bin ich schlechterdings
+                    darin mit Ihnen einig, dass Sie sehr viel Wahres, u. nicht wenig treffende u.
+                    feine Bemerkungen enthält. Ueber einzelne Stellen bin ich ein schlechter
+                    Richter. Ich habe die Sprache nie ex professo studirt, das Wenige, was ich davon
+                    weiss, habe ich nur durch den Gebrauch erlernt, u. wenn ich entscheiden soll, ob
+                    diese oder jene Wortfügung richtig u. deutsch ist oder nicht? so sehe ich mich
+                    oft vergebens nach Principien um. Construktionen, die gegen eine gesunde Logik
+                    verstossen, wird jeder leicht unterscheiden; ebenso solche, die offenbar einer
+                    fremden Sprache, vorzüglich einer neueren, zugehören. Wie ist es nun aber mit
+                    den feineren Fällen? Hier sind zwei Klippen zu vermeiden: 1. zu streng am
+                    blossen Hergebrachten zu kleben. 2. gegen den Genius der Sprache Neuerungen zu
+                    wagen. Die Regel darin ist im Allgemeinen leicht zu bestimmen: man muss die
+                    Sprache erweitern, aber ihrem Geist u. ihrem Charakter gemäss. Hier ist nun eben
+                    die Hauptschwierigkeit die, den Charakter einer Sprache so genau u. individuell
+                    zu bestimmen, dass diese Bestimmung in einzelnen Fällen fruchtbar werden kann.
+                    Diess hat mir nie gelingen wollen, u. hierin verlässt auch <persName ref="awschlegel">der Rec.</persName> seine Leser gänzlich. Wenn man bedenkt,
+                    wie leicht schon ein Mensch seine moralische Eigenthümlichkeit entweder
+                    unterdrückt oder übertreibt, wieviel leichter muss diess bei Behandlung einer
+                    Sprache geschehen? Nehmen Sie nur den einzigen Fall der Stellung der Beiwörter.
+                        <persName ref="homer">Homer</persName> setzt fast immer mehrere dem
+                    Hauptbegriff nach.</p>
+            <p>Singe mir, Muse, den <hi rend="underline">Zorn</hi> u. s. w. <lb/>Den <hi rend="underline">verderblichen</hi> u. s. f.</p>
+            <p>Diese Stellung ist seinem Zeitalter angemessen. Das Objekt wird erst bloss vor
+                    das Auge gestellt, nun wird es noch aufmerksamer betrachtet u. die Eigenschaften
+                    fallen dem Sänger nach u. nach ein. Diese ganze Stellung ist offenbar dem
+                    sinnlichen kindischen Verstand, der natürlichen Phantasie die gemässeste. Unsre
+                    Sprache hingegen ist für den raisonnirenden Verstand. Sie giebt uns ganze u.
+                    verwickelte Phrasen, setzt oft die Hauptsache zuletzt, will (worin dünkt mich
+                    der Charakter aller modernen Sprachen gegen die älteren liegt) nicht, dass die
+                    einzelnen Theile der Rede für sich, sondern immer die ganze Rede zusammen
+                    genommen werden soll. Ist es nun ihrem Charakter zuwider, sie zu homerisiren?
+                    oder wenn man diess nicht soll, wie ist Homer übersetzbar? Ohne diese Frage
+                    entscheiden zu wollen, ist es, dünkt mich, offenbar, dass Voss die grossen
+                    Vorzüge unsrer modernen Sprachen verkennt, u. ihrer Eigenthümlichkeit Gewalt
+                    anthut. Aber ihm zu zeigen: hier oder dort bist du zu weit gegangen, wird immer
+                    sehr schwer seyn. Auch Ihr Beispiel beweist mir diess abermals. Was der Rec.
+                    tadelt scheint Ihnen erträglich, mir manches von diesem gänzlich unrichtig,
+                    dagegen andres, das Sie verwerfen, gar leicht zu erdulden. Gewiss liegt also die
+                    Sache nur am Totaleindruck. Nur weil so viele, unglaublich viele Wortfügungen
+                    gebraucht sind, die nur so eben noch hingehn, oder über deren Gültigkeit wir
+                    zweiflen, wird das Ganze schwer u. unverständlich. Ueber den Periodenbau, den
+                    älteren u. modernen u. den idealischen, liesse sich sehr viel neues u. feines
+                    sagen. Der Homerische ist noch eigentlich keiner, es sind einzelne unverbundne
+                    Bilder u. Gedanken. Der ihm entgegengesetzte barbarische ist ein unbehülfliches
+                    Hinstolpern zum Schlusswort, eine Masse, die sich nirgends selbst hält, u.
+                    hinfiele, wenn man den Schluss dem Leser nur einen Augenblick vorenthielte. Der
+                    schöne ist ein gegliederter, gelenkiger organischer Körper, in dem jeder
+                    einzelne Theil schon ein kleines Ganzes ist, der aber seine vollendete Schönheit
+                    nur dadurch erhält, dass man ihn als eine Einheit betrachtet. Daher ich in
+                    diesem die Vossische Sorgfalt die Worte gerade nach der Folge der
+                    Begriffsverhältnisse hinzugeben nicht billigen kann. Dafür haben wir ja den
+                    Verstand, dass wir ihn zum Verstehen anwenden; und dafür ist mir Sprache ja ein
+                    Symbol, dass wir ihr nicht alle conventionelle Form rauben sollen.</p>
+            <p>Mit zwei Punkten der Recension bin ich höchst unzufrieden, einmal mit dem Ton,
+                    der in einigen Stellen sehr muthwillig ist. Ein solcher Sansculottismus ist mir
+                    in den Tod zuwider, u. dann mit der allgemeinen Ansicht des <persName ref="homer">Homer</persName>s, der nun kaum noch als ein Künstler gelten, in
+                    dem alle metrische Schönheiten z. B. zufällig seyn sollen.</p>
+            <p>Ich bin über <bibl sameAs="1162">diese Rec.</bibl> so weitläuftig geworden, dass
+                    ich nicht Zeit haben werde, Ihnen noch viel über <persName ref="fschiller">Schiller</persName> u. den <bibl sameAs="388">Don Carlos</bibl> zu sagen,
+                    obgleich mich doch dieser Gegenstand noch bei weitem mehr interessirt. Also
+                    heute nur Einiges Wenige u. nur vorläufig, wenn Sie bei Ihrem Vorsatz, <persName ref="fschiller">Schiller</persName>n zu lesen beharren, u. mit mir manchmal
+                    darüber reden wollen.</p>
+            <p>Ich habe <persName ref="fschiller">Schiller</persName>n, nicht gerade seine
+                    Werke, obgleich ich auch in diesen doch ziemlich bewandert bin, äusserst genau
+                    studirt, und ich mache es mir zum eigentlichen Geschäft, diess Studium zu einer
+                    gewissen Vollendung zu bringen. Ich fahre darin um so unermüdeter fort, weil ich
+                    überzeugt bin, dass das Studium eines so seltnen, u. in seiner Art so einzigen
+                    Genies einen erweiterten Begriff des menschlichen Geists überhaupt giebt. Ich
+                    habe nie einen gesehen, dessen Geist mir so merkwürdig gewesen wäre, u. so
+                    aufrichtig ich z. B. <persName ref="jwgoethe">Göthe</persName>n u. <persName ref="ikant">Kant</persName> verehre, so ist mir keiner von beiden für die
+                    Kenntniss der menschlichen Intellektualität so wunderbar u. wichtig. Sie fühlen
+                    schon, dass ich hiermit nicht eine Vergleichung absoluter Grösse machen, dass
+                    ich vielmehr einzig Schillern eine eigne Klasse anweisen will, die er auch,
+                    meines Erachtens, schlechterdings bildet. Kant ist ein entschiednes
+                    philosophisches, <persName ref="jwgoethe">Göthe</persName> ein entschiednes
+                    Dichtergenie, beide vielleicht u. wie ich ernsthaft glaube, in höherem Grade,
+                    als bisher je eins aufstand, aber ihre <hi rend="underline">Gattung</hi> ist
+                    bekannt u. zu allen Zeiten da gewesen. Mit <persName ref="fschiller">Schiller</persName> ist es ein durchaus anderer Fall. Er trägt durchaus u.
+                    in allem, was er treibt, das Gepräge des ächten Genies, von dem es nicht möglich
+                    ist sich zu irren, aber sowohl gegen seinen dichterischen, als gegen seinen
+                    philosophischen Beruf kann ich starke Ausnahmen machen. Diess allein nun würde
+                    gar nicht viel beweisen. Es giebt genug halbe u. auch hie u. da wirkliche
+                    Genies, die aus Mangel an bestimmter Ausbildung, oder an entschiedenem Triebe
+                    zwischen zwei Fächern herumschwanken, u. darum in beiden unglücklich u. für sich
+                    nur um so unvollkommner sind. Diess aber ist gewiss am wenigsten nach Ihrem
+                    Urtheil mit <persName ref="fschiller">Schiller</persName> der Fall. In ihm
+                    strebt der Geist eigentlich das philosophische u. poetische Genie in einander zu
+                    verschmelzen, u. dadurch ist er Schöpfer einer Poesie, von der noch bis jetzt
+                    kein Beispiel vorhanden war, u. die man sehr unrichtig mit der bisherigen
+                    sogenannten philosophischen verwechslen würde, so wie er eben dadurch auch in
+                    der Philosophie eine Originalität erlangt hat, die sich auf weit mehr, als auf
+                    den blossen Vortrag erstreckt. Beide sind freilich bis jetzt noch nicht
+                    eigentlich einer Beurtheilung fähig, weil <persName ref="fschiller">Schiller</persName> noch in keiner durchaus gelungen ist, u. sich selbst
+                    Gnüge gethan hat; allein selbst, wenn diese Gattungen vielleicht gar nicht
+                    überhaupt einer Vollendung fähig wären, was ich doch nicht glaube, so würde der
+                    Kopf immer höchst merkwürdig bleiben, der so durch eine Einzige
+                    Verstandeshandlung alles Höchste im Menschen, Phantasie u. Vernunft, die
+                    Freiheit von jener u. die Nothwendigkeit dieser zu vereinigen strebt.</p>
+            <p>Da Sie, wie ich aus Ihrem Briefe sehe, mit mir über <persName ref="fschiller">Schiller</persName> noch gar nicht einerlei Meynung sind, so werden Sie
+                    unmöglich meinen Sinn im Vorigen ganz gefasst haben, oder wenn ich deutlich
+                    genug gewesen wäre, mir doch nicht beistimmen. Indess war es nothwendig, diess
+                    vorauszuschicken, wenn wir uns mit einander über <persName ref="fschiller">Schiller</persName> u. vorzüglich über das Problem: wie Empfindung u.
+                    Phantasie sich in ihm zu einander verhalten? verständigen wollen.</p>
+            <p>Wenn Sie eigentlich über <persName ref="fschiller">Schiller</persName> ins Reine
+                    zu kommen wünschen, so gestehe ich zuerst, dass der <bibl sameAs="388">Don
+                        Karlos</bibl> der unglücklichste Eingang dazu ist. Im Ganzen halte ich
+                    diesen bei weitem nicht für sein gelungenstes Werk. Er hat mehr als alle übrigen
+                    eine gewisse Kälte, ist durchaus raisonnirend, u. eine Zwittergattung, die
+                        <persName ref="fschiller">Schiller</persName> jetzt schwerlich noch einmal
+                    wählen würde. Um nun zuerst zu fühlen u. sicher zu seyn, welche Kraft <persName ref="fschiller">Schiller</persName> besitzt muss man an die <bibl sameAs="1163">Räuber</bibl> u. <bibl sameAs="1164">Fiesko</bibl> gehen; dann
+                    allenfalls zum <bibl sameAs="388">Karlos</bibl>, aber besser zu den späteren
+                    lyrischen Gedichten u. endlich zu den philosophischen Schriften.</p>
+            <p>Ich wünschte, Sie hätten Sich ein wenig mehr über den <bibl sameAs="388">Carlos</bibl> u. vorzüglich über <bibl sameAs="1228">die Briefe über
+                        ihn</bibl> verbreitet, damit ich mich genauer an Ihre Meynung anschliessen
+                    könnte. Dass der <bibl sameAs="388">Karlos</bibl> u. <persName ref="fschiller">Schiller</persName> überhaupt ganz u. gar unnaiv sind, u. dass <persName ref="fschiller">Schiller</persName>, was er aufstellt, aus seiner Seele
+                    schaft, sind gewiss sehr richtig aufgefasste Züge. Aber einen „Hang die
+                    Empfindung aufzublasen oder zu übertreiben“ gestehe ich, finde ich nicht, und
+                    Ihr Bild von den Oefen kann ich daher gar nicht adoptiren. – Ueber Nichts dünkt
+                    mich, ist es so schwer abzusprechen, als über das Maass der wahren u.
+                    überspannten Empfindung, der Natur u. der Unnatur, der Nüchternheit u. der
+                    Trunkenheit. Diess Maass wechselt meinen Erfahrungen nach ganz erstaunlich nach
+                    individuellen Verschiedenheiten. Wie unwahr erscheint uns die französische
+                    tragische Bühne, u. wie wahre Thränen hat sie sicherlich dieser Nation entlockt?
+                    Mit der Englischen ist es derselbe Fall, u. die Griechische selbst ist, was
+                    indess nur wenige so genau wissen, in einem ganz andren Sinne natürlich, als z.
+                    B. unser <bibl sameAs="145">Götz</bibl>, als <bibl sameAs="1160">Nathan</bibl>,
+                    als selbst <persName ref="jwgoethe">Göthe</persName>’s <bibl sameAs="147">Iphigenia</bibl>. Nicht von Ihnen, glaube ich, aber auf meiner letzten
+                    Reise erinnere ich mich sehr wohl <bibl sameAs="1165">das Lied an die
+                        Freude</bibl> unnatürlich oder wenigstens einen Ausdruck trunkner Lust nicht
+                    menschlicher Freude nennen gehört zu haben, u. ich mache kein Hehl daraus, dass
+                    in der nüchternsten Periode meines Lebens, die sich mit meinem 21sten Jahre
+                    endigte, ich es selbst beinah für Unsinn hielt. Nachher habe ich ein andres
+                    Urtheil gefällt. Es ist mir nun durchaus natürlich u. wahr, trunken freilich,
+                    aber wie der lyrische Dichter es seyn muss. Wir Deutschen nennen gern natürlich,
+                    was ganz aus der blossen Wirklichkeit genommen ist. Ohne diess Extrem wären wir,
+                    meiner Theorie nach, den Griechen sehr nah. Hiermit will ich aber
+                    schlechterdings nicht alle Grenzen entfernen, nicht alles, was je in eines
+                    Menschen Hirn gekommen ist, natürlich u. ästhetisch (wodurch doch immer auf
+                    Allgemeinheit Anspruch gemacht wird) natürlich finden, auch schlechterdings
+                    nicht läugnen, dass <persName ref="fschiller">Schiller</persName> in Einzelnen
+                    Stellen würklich übertrieben, obgleich nie aufgeblasen, ist. Nur wollte ich
+                    Ihnen zu zeigen versuchen, dass ich glaube, dass man vorher die Art des Gefühls,
+                    die <persName ref="fschiller">Schiller</persName>n, als Dichter, eigenthümlich
+                    ist, bei weitem genauer prüfen u. bestimmen muss, ehe man über Natur u. Wahrheit
+                    in ihr entscheiden kann.</p>
+            <p>Ich bin sehr wortreich geworden, liebster Jacobi. Aber dieser Gegenstand gehört
+                    zu meinen Lieblingsmaterien, u. die Vergleichung der Individualitäten der
+                    grossen Männer, denen das Schicksal mich glücklicherweise zum Zeitgenossen
+                    zugesellt hat, u. die ich persönlich kenne, ist mir die liebste u.
+                    intressanteste Beschäftigung in den Stunden eines ruhigen Nachdenkens. Es wäre
+                    mir lieb, wenn Sie mir bald sagten, was Sie über das, was ich Ihnen hier von
+                    meinen Geständnissen mitgetheilt habe, denken. Dass, was wir uns sagen von
+                    beiden Seiten nur unter uns bleibt, darauf können Sie sicher rechnen. –
+                    Verzeihen Sie die Unordnung dieses Briefs. <persName ref="cvh2">Mein kleines
+                        Mädchen</persName> hat die ganze Zeit neben mir gespielt u. mich oft
+                    gestört. <persName ref="cvh1">Meine Frau</persName> grüsst Sie u. die Ihrigen,
+                    so wie auch ich, von ganzem Herzen. </p>
+            <closer>Leben Sie innigst wohl.<lb/>
+               <signed>Ihr Humboldt.</signed>
+            </closer>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>Ihren nächsten Brief bitte ich Sie nach <placeName ref="Jena">Jena</placeName>, im <persName ref="cafhellfeld">Hellfeld</persName>schen Hause am untern Markt zu addressiren. – Ist
+                            <persName ref="cwmjacobi">Ihr Max</persName> schon da? Wir treffen <date when="1796-10-30">den 30sten</date> dort ein, u. gehn <date when="1796-10-23">den 23sten</date> von hier ab.</p>
+               <p>Wollten Sie wohl die Güte haben, die Kleinigkeit zu bezahlen, die wir nach
+                        der Inlage schuldig sind. Auch <persName ref="creinhard">Stinchen</persName>
+                        haben wir an Sie assignirt. Wir wollen uns mit <persName ref="cwmjacobi">Ihrem Max</persName> berechnen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

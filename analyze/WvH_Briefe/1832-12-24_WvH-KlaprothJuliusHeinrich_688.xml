@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 13.02.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Julius Klaproth, 24.12.1832<idno type="BBAW">688</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: St. Petersburg, Russische Akademie
+                            der Wissenschaften, Archiv, F. 783, Op. 2, Nr. 34, fol. 15–16</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8470</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="cmaltebrun">
+                  <persName>Malte-Brun, Conrad</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="916">Foe Koue Ki ou Relations des Royaumes buddhiques. Voyage dans la
+                    Tartarie, dans l’Afghanistan et dans l’Inde, exécuté à la fin du IVme siècle par
+                    Chy Fa Hian. Traduit du Chinois par Abel Rémusat. Ouvrage posthume révu,
+                    complété et augmenté par M. M. Klaproth et Landresse (Paris: Imprimerie Royale
+                    1836)</bibl>
+               <bibl corresp="921">Malte-Brun, Conrad: Précis de la Géographie Universelle, 8 Bände
+                    (Paris: Buisson 1810–1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich sehe aus einem Auszuge des To-koue-ki,
+                        welcher sich in der zweiten Ausgabe von Malte-Bruns Geographie befindet, daß
+                        die Chinesen, deren Reise in diesem Werke beschrieben wird, bei ihrer
+                        Rückfahrt einen Aufenthalt von einigen Monaten auf Java gemacht haben.
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1832-12-24"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger
+                    Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="zh">Chinesisch</language>
+            <language ident="jv">Javanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">13. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="15r"/> Ich sehe aus einem Auszuge des <hi rend="antiqua">Fo-koue-ki</hi>
+               <note type="footnote" resp="editor">
+                  <hi rend="italic">Foguo
+                            ji</hi> (佛囯记/佛國記) – „Bericht von den buddhistischen Königreichen“ des
+                        chinesischen Mönches Fa-Hien (ca. 337–422) von seinen Reisen nach Indien und
+                        Ceylon. Das Werk wurde zuerst von <persName ref="jpabel">Jean-Pierre
+                            Abel-Rémusat</persName> übersetzt und als <hi rend="italic">
+                     <bibl sameAs="916">Foĕ kouĕ ki ou Relation des royaumes
+                            bouddhiques</bibl>
+                  </hi>, Paris 1836, herausgegeben (Quelle: <ref type="linkExt" target="http://de.wikipedia.org/wiki/Faxian">Wikipedia</ref>).</note>, welcher sich in der zweiten Ausgabe von <hi rend="antiqua">
+                  <persName ref="cmaltebrun">Malte-Brun</persName>s</hi> <bibl sameAs="921">Geographie</bibl>
+                    befindet, daß die Chinesen, deren Reise in diesem Werke beschrieben wird, bei
+                    ihrer Rückfahrt einen Aufenthalt von einigen Monaten auf <hi rend="antiqua">
+                  <placeName ref="Java">Java</placeName>
+               </hi> gemacht haben.
+                    Vorausgesetzt, daß hierunter wirklich die Insel zu verstehen ist, die wir heute
+                    so nennen, würde es mich ausnehmend intereßiren, ob sie etwas über den <hi rend="antiqua">Buddhisti</hi>schen Kultus hinzusetzen, den sie dort fanden.
+                    Denn so unbezweifelt es erscheint, daß der <hi rend="antiqua">Buddhismus</hi>
+                    lange Zeit hindurch auf <hi rend="antiqua">
+                  <placeName ref="Java">Java</placeName>
+               </hi> herrschte, so ist doch aus den <hi rend="antiqua">Javani</hi>schen Nachrichten<!-- Titel? --> über die Zeit seiner Einführung
+                    kein einziges ganz zuverläßiges Datum zu entnehmen. Es wäre daher von großer
+                    Wichtigkeit, eine so bestimmte Epoche angeben zu können als diese Reise
+                    Chinesischer <hi rend="antiqua">Buddhisten</hi>, wenn sie wirklich von <hi rend="antiqua">Buddha</hi> Kultus auf <hi rend="antiqua">
+                  <placeName ref="Java">Java</placeName>
+               </hi> sprächen, gewähren würde. Ich habe mich
+                    seit mehreren Monaten anhaltend mit dieser Materie beschäftigt und glaube,
+                    besonders über die <hi rend="antiqua">Buddhis</hi>tischen Tempelgebäude auf
+                    nicht unwichtige Aufklärungen gestoßen zu sein. Mit lebhaftem Vergnügen aber <pb n="15v"/>bekenne ich, wie oft ich bei diesen Studien Gelegenheit gehabt
+                    habe zu bemerken, wie viel dieser Theil der Geschichte der Asiatischen
+                    Religionen Ew Hochwohlgeboren Gelehrsamkeit und Scharfsinn verdankt. Da Ihnen
+                    gewiß <hi rend="antiqua">
+                  <persName ref="jpabel">Remusat</persName>s</hi> <bibl sameAs="916">Arbeiten über den <hi rend="antiqua">Fo-koue-ki</hi>
+               </bibl> genau bekannt sind, so darf ich
+                    mir vielleicht mit der Hoffnung schmeicheln, einige Aufklärung über den
+                    angeführten Punkt durch Ihre wohlwollende Güte zu erhalten.</p>
+            <closer>
+               <salute>Empfangen Ew Hochwohlgeboren die Versicherung meiner ausgezeichneten
+                        Hochachtung.</salute>
+               <lb/>
+               <signed>
+                  <handShift scribe="wvh"/> Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> Berlin den
+                        24. December 1832.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="16r; Anschrift"/>
+               <handShift scribe="Buschmann"/>
+               <address>
+                  <addrLine>A Monsieur</addrLine>
+                  <addrLine> Monsieur le Prof. Klaproth,</addrLine>
+                  <addrLine>à</addrLine>
+                  <addrLine>
+                     <placeName ref="Paris">Paris</placeName>
+                  </addrLine>
+                  <addrLine>Rue d’Amboise</addrLine>
+                  <addrLine>n 5</addrLine>
+               </address>
+               <lb/>
+               <pb n="links daneben umrandet:"/>Humboldt.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

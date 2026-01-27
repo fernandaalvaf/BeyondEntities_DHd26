@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 11.01.1833<idno type="BBAW">192</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Editon: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 72. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 85f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8473</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cmackenzie">
+                  <persName>Mackenzie, Colin</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="558">Bopp, Franz: Vergleichende Grammatik des Sanskrit, Zend,
+                    Griechischen, Lateinischen, Litthauischen, Gothischen und Deutschen (Berlin:
+                    Dümmler 1833)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java
+                    [Manuskript]</bibl>
+               <bibl corresp="551">MacKenzie, Colin / Wilson, Horace Hayman: MacKenzie Collection. A
+                    Descriptive Catalogue of the Oriental Manuscripts and Other Articles
+                    Illustrative of the Literature, History, Statistics and Antiquities of the South
+                    of India (Calcutta: Asiatic Society 1828)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin zwar sehr fleißig mit dem Lesen Ihrer
+                        vergleichenden Grammatik beschäftigt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1833-01-11"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger Schlussformel,
+                    Unterschrift und Adresszeile</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="ae">Avestisch (Zend)</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">25. September 2013</item>
+            <item n="status">in Bearbeitung, grob gegengelesen von AD, an neue Vereinbarungen
+                    angepasst von AD 16. Dezember 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1833_01_11/NDIGRKP004565_0480.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1833_01_11/NDIGRKP004565_0481.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1833_01_11/NDIGRKP004565_0482.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich bin zwar sehr fleißig mit dem Lesen <bibl sameAs="558">Ihrer
+                        vergleichenden Grammatik</bibl> beschäftigt liebster Freund kann aber doch
+                    unmöglich abwarten daß ich damit ganz zu Ende komme ehe ich Ihren gütigen Brief
+                    der so viele schmeichelhafte und freundschaftliche Aeußerungen für mich enthält
+                    beantworte. Ich bitte Sie zu glauben daß ich nie aufhöre auf diese Ihre gütige
+                    Freundschaft den höchsten Werth zu legen und recht von innigem Herzen wünsche
+                    ich daß es Ihnen und den Ihrigen auch in diesem Jahre recht wohl gehen möge. Es
+                    ist auch für die Wissenschaft wichtig daß Sie in dem Laufe Ihrer schönen Studien
+                    nicht gestört werden mögen. Ich kann Ihnen nicht genug sagen wie <bibl sameAs="558">Ihre neue Arbeit</bibl> mich mit wahrer Freude und Bewunderung
+                    erfüllt. Man sieht auf jeder Seite daß Sie den Gegenstand so ungeheuer auch sein
+                    Umfang ist vollkommen in Ihrer Gewalt haben und ich glaube nicht daß irgend
+                    jemand jetzt in demselben Grade als Sie das Talent besitzt gerade immer die
+                    Punkte herauszuheben aus welchen das Verfahren der Sprachbildung schlagend
+                    hervor leuchtet und die andern bei Seite liegen zu lassen. Man stößt daher bei
+                    Ihnen nur auf fruchtbare Bemerkungen und <pb n="2*"/>
+               <sic>und</sic> es gelingt
+                    Ihnen eine ungemeine Fülle von Stoff dennoch auf einem sehr mäßigen Raume zu
+                    verarbeiten. Auf Ihre Ausführung der Allgemeinheit der <hi rend="antiqua">Agglutination</hi> bin ich sehr begierig. <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>
+                    hat in jeder Art Unrecht da man sich bei der Entfaltung aus der Wurzel nichts
+                    deutliches denken kann. Auf der anderen Seite aber kann man in den Sprachen
+                    wahre von aller <hi rend="antiqua">Agglutination</hi> freie Flexion nicht
+                    wegleugnen. Ich glaube eine Meinung zu haben die beiden Theilen gewissermaßen
+                    ganz Recht giebt aber den Erklärungspunkt in etwas legt worin man ihn bis jetzt
+                    nicht gesucht hat. Ich habe mich gefreut zu sehen daß die <orgName ref="3">Akademie</orgName> nun auch <hi rend="antiqua">Zend</hi>-Lettern hat. Aber
+                    damit liebster Freund bin ich nicht mit Ihnen einig daß Sie die
+                    Sanskritbuchstaben <sic>in</sic> Deutschen mit so vielen Zeichen ausstatten. Ich
+                    werde für die Aspirationen immer <hi rend="antiqua">h</hi> hinzufügen und die
+                        <hi rend="antiqua">Palatinen</hi>-Buchstaben wie die Engländer schreiben.
+                    Man muß dünkt mich darin das erwählen was den Druck und das Lesen am wenigsten
+                    erschwert.</p>
+            <p>
+               <bibl sameAs="227">Meine Arbeit</bibl> geht auch jetzt wenigstens zum Ende eines
+                    großen Abschnitts. Mein Kapitel über den <hi rend="antiqua">Buddhismus</hi> auf
+                        <hi rend="antiqua">
+                  <placeName ref="Java">Java</placeName>
+               </hi> macht
+                    ziemlich soviel als die Hälfte meiner ganzen bis-<pb n="3*"/>
+               <sic>bisherigen</sic> Schrift. Es ist fertig und fordert nur noch eine
+                    letzte Durchsicht und einzelne Nachträge. Sobald dies zu Stande ist sehen Sie es
+                    und ich lasse den Druck angehen. Es sind dann gewiß <sic>funfzehn</sic>
+                    gedruckte Bogen fertig und ich kann also den Rest füglich während des Druckes
+                    abmachen. Meine körperlichen Schwächlichkeiten machen nur das Arbeiten sehr
+                    langsam und rauben ihm viele Stunden des Tages.</p>
+            <p>Sie besitzen, wenn ich mich nicht sehr irre, <hi rend="antiqua">
+                  <persName ref="hhwilson">W</persName>
+               </hi>
+               <damage/>
+               <note type="footnote" resp="editor">Papierstück ausgerissen. Lefmann ergänzt hier "Wilson
+                        Catalogue".</note> über <bibl sameAs="551">
+                  <hi rend="antiqua">Mackenzie’s
+                            Collection</hi>
+               </bibl>. Ich habe nur den ersten The<damage/>
+               <supplied cert="high">il, hät</supplied>ten Sie einen <bibl sameAs="609">zweiten</bibl>
+                    so würde ich ihn mit Vergnügen sehen.</p>
+            <closer>
+               <salute>Mit hochachtungsvollster Freundschaft <lb/>
+                  <handShift scribe="wvh"/> der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 11.<hi rend="superscript">t</hi> <hi rend="antiqua">Januar</hi>
+                        1833.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <hi rend="underline">
+                           <placeName ref="Berlin">Berlin</placeName>
+                        </hi>
+                     </hi>
+                  </addrLine>
+                  <addrLine>
+                     <handShift scribe="2. Schreiber"/> Kuhrstr No 39</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 07.05.1824<idno type="BBAW">799</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 125–128</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">11798</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jebode">
+                  <persName>Bode, Johann Elert</persName>
+               </person>
+               <person corresp="sbowdich">
+                  <persName>Bowdich, Sarah</persName>
+               </person>
+               <person corresp="tebowdich">
+                  <persName>Bowdich, Thomas Edward</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="frchateaubriand">
+                  <persName>Chateaubriand, François-René de</persName>
+               </person>
+               <person corresp="ahedohm">
+                  <persName>Dohm, Anna Henriette Elisabeth von, geb. Helwing</persName>
+               </person>
+               <person corresp="jfesch">
+                  <persName>Fesch, Kardinal Joseph</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="fgerard">
+                  <persName>Gérard, François</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="efjomard">
+                  <persName>Jomard, Edme François</persName>
+               </person>
+               <person corresp="jaletronne">
+                  <persName>Letronne, Jean-Antoine</persName>
+               </person>
+               <person corresp="aliebermann">
+                  <persName>Liebermann, August von</persName>
+               </person>
+               <person corresp="labourbon">
+                  <persName>Louis-Antoine de Bourbon, Duc d’Angoulême</persName>
+               </person>
+               <person corresp="ludwig18">
+                  <persName>Ludwig XVIII., König von Frankreich</persName>
+               </person>
+               <person corresp="jkmaltzahn">
+                  <persName>Maltzahn, Joachim Karl Ludwig Mortimer Graf
+                    von</persName>
+               </person>
+               <person corresp="fmartens">
+                  <persName>Martens, Friedrich Freiherr von</persName>
+               </person>
+               <person corresp="amendelssohn">
+                  <persName>Mendelssohn Bartholdy, Abraham</persName>
+               </person>
+               <person corresp="napoleon">
+                  <persName>Napoleon Bonaparte</persName>
+               </person>
+               <person corresp="kfschinkel">
+                  <persName>Schinkel, Karl Friedrich</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+               <person corresp="njsoult">
+                  <persName>Soult, Nicolas-Jean de Dieu</persName>
+               </person>
+               <person corresp="fawspohn">
+                  <persName>Spohn, Friedrich August Wilhelm</persName>
+               </person>
+               <person corresp="jvillele">
+                  <persName>Villèle, Joseph de</persName>
+               </person>
+               <person corresp="gwiessner">
+                  <persName>Wießner, Gottfried</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1236">Abel-Rémusat, Jean-Pierre (1817): L’invariable milieu, ouvrage
+                    moral de Tsèu-Ssê, en Chinios et en Mandchou. Avec une version littérale Latine,
+                    une traduction Françoise, et des notes, précédé d’une notice sur les quatre
+                    livres moraux communément attribués à Confucius, Paris: L’Imprimérie
+                    Royale</bibl>
+               <bibl corresp="1271">Bode, Johann Elert (1782): Die Vorstellung der Gestirne auf XXXIV
+                    Kupfertafeln nach der Pariser Ausgabe des Flamsteadschen Himmelsatlas.
+                    Durchgehend verbessert und mit den Beobachtungen neuerer Astronomen vermehrt
+                    nebst einer Anweisung zum Gebrauch und einem vollständigen Sternenverzeichnisse,
+                    Berlin/Stralsund: Gottlieb August Lange</bibl>
+               <bibl corresp="453">Wießner, Gottfried (1823): Beschreibung eines neuen mathematischen
+                    Instruments: zur Erleichterung der geometrischen Flächenberechnung, zum
+                    Auftragen aller durch Abscissen und Ordinaten gemachter Messungen, und zum
+                    Abschieben architektonischer Plane, Jena: Croekersche Buchhandlung</bibl>
+               <bibl corresp="541">Young, Thomas (1823–1828): Hieroglyphics, Collected by the Egyptian
+                    Society, Volume 1–2, London: Howlett and Brimmer</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">L'arrivée inattendue d'un courrier de Londres accentue
+                        tellement le départ du courrier pour Berlin, que j'ai à peine le loisir,
+                        cher ami, de faire le paquet de l'invariable milieu (fruit dont la graine
+                        s'est perdue). …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1824-05-07"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="de">Deutsch </language>
+            <language ident="la">Latein</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p> L’arrivée inattendue d’un courrier de <placeName ref="London">Londres</placeName> accentue tellement le départ du courrier pour
+                        <placeName ref="Berlin">Berlin</placeName>, que j’ai à peine le loisir, cher
+                    ami, de faire le paquet de <bibl sameAs="1236">
+                  <hi rend="letterspace">l’invariable
+                            milieu</hi>
+               </bibl> (fruit dont la graine s’est perdue), d’un excellent
+                    petit traité sur la Grammaire persanne, des <bibl sameAs="541">hièroglyphes</bibl> de <persName ref="tyoung">Young</persName>....
+                        <persName ref="jfchampollion">Champollion</persName> me charge de te dire
+                    combien il est reconnaissant de tes cadeaux et surtout de l’acceuil que tu as
+                    fait à ses travaux. Il a été frappé de la sagacité de plusieurs de tes
+                    observations critiques, je lui ai fait traduction verbale des passages
+                    principaux et comme il veut te répondre point sur point, j’ai cru ne pas devoir
+                    lui refuser une partie du manuscrit, pour qu’il le fasse traduire lui-même. Il
+                    sait que ce Msc. n’a jamais été destiné pour le public et aucune indiscrétion ne
+                    sera commise. J’ai remis entre les mains de <persName ref="jaletronne">Letronne</persName> la seconde partie de ton mémoire sur le sanscrit, qui
+                    renferme des choses si curieuses sur le gérondif des grecs. Que la différance
+                    des langues est une difficulté de communication depuis que l’on n’écrit plus en
+                    latin. Que l’on perd de tems avec les traductions. <persName ref="jaletronne">Letronne</persName> dit du moins qu’il sait l’allemand. Je complèterai tout
+                    ce qui me manque encore À ton exemplaire de mes ouvrages. Comment ne me
+                    permetterais-tupas de t’en faire hommage à mes fraix. Quant à d’autres livres
+                    que j’achète pour toi je t’enverrai le compte plus tard. Je suis peiné de voir
+                    que tes yeux demandent encore beaucoup de ménagement: aussi les miens ne sont
+                    pas brillants. J’ai un appartement où il y a trop de soleil. J’ai anéanti la
+                    lettre de <persName ref="fawspohn">Spohn</persName>, quelle rage teutonique! Je
+                    te prie de m’envoyer dès que <persName ref="gseyffarth">M. Seyffarth</persName>
+                    aura publié quelque chose. Je désirerais être agréable à <persName ref="jfchampollion">Champollion</persName>, par ce que la dédicace de
+                        <persName ref="tyoung">Young</persName> (qui fait allusion à ce que je l’ai
+                    vengé sur les chiffres des empiètemens de <persName ref="efjomard">Jomard</persName>) lui aurait pu faire croire que je lui serais contraire.
+                        <persName ref="tyoung">Young</persName> a sans doute ouvert le parti, mais
+                    c’est un homme sans franchise, qui ne dit jamais clair comment et jusqu’où il a
+                    trouvé. <bibl sameAs="541">Son dernier livre</bibl> est encore dégoûtant sous ce
+                    rapport. Les Candelabres sont très bien arrivés: on en est très content, mais on
+                    n’ose les louer tout haut. Ils ne seront pas populaires. Ose-t-on te dire
+                    quelque chose avec franchise sur des hommes dont nous estimons d’ailleurs le
+                    talent? Si les cahiers de <persName ref="kfschinkel">Schinkel</persName>,
+                    renfermant ses chefs d’oeuvre d’architecture, étaient arrivés plutôt, j’aurais
+                    eu quelque peine de le faire nommer associé de <orgName ref="23">l’Institut</orgName>. On a trouvé cela winkelig, dépourvu de grandes lignes
+                    non interrompues et un peu surchargé d’ornemens, surtout une malheureuse
+                    fontaine avec de petits Rois liliputiens qui se promènent sur les bords. Je
+                    cache les cahiers autant que je puis.... le corps de garde a plu le mieux. Mon
+                    buste aussi n’a pas trop satisfait, le masque est trop petit et le nez dans le
+                    platre replié vers la droite. Je l’ai donné à <persName ref="fgerard">Gérard</persName> qui en a été très reconnaissant. <persName ref="fw3">Le
+                        Roi</persName> m’a fait remercier tout exprès par une lettre de n’avoir pu
+                    rien acheter chez <persName ref="jfesch">le Cardinal</persName>.<note type="footnote" resp="editor">Siehe den <ref type="link" n="1123">Brief
+                            Alexander von Humboldts vom 7. April 1824</ref>. [FZ]</note>
+               <persName ref="amendelssohn">Mendelssohn</persName> a la faiblesse de croire
+                    qu’on pourrait persuader à notre gouvernement d’acheter les tableaux espagnoles
+                    (superbes sans doute) du <persName ref="njsoult">Maréchal Soult</persName>. Il
+                    ne les vendra que pour 2,100,000 francs, le marché avec le Ministère français
+                    était déjà conclu et des simples monastiques ont rompu le traité ou plutôt
+                    suspendu, car on a une telle abondance de fonds ici et un tel désir de ne rien
+                    laisser sortir du pays, que lorsque on croirait le marché conclu avec la Prusse,
+                        <persName ref="ludwig18">le Roi de France</persName> donnera un <hi rend="letterspace">peu plus</hi>. Voilà ce qui rend toutes ces négociations
+                    dégoûtantes: aussi je ne voudrais pas en être mêlé. Il y a douze superbes
+                    tableaux et puis une masse de médiocres. Il ne veut diviser: cela ne vaut je
+                    crois que 1 ½ million de francs, mais comme la Pairie de <persName ref="njsoult">Soult</persName> doit se lier à ce marché, je suis sûr que le Gouvernement
+                    français finira par acheter. La guerre des romantiques et des classiques est ici
+                    plus dégoûtante et plus âcre que jamais. Les grandes Puissances de l’est de
+                    l’Europe ont entièrement oublié qu’en engageant la France à faire une guerre
+                    heureuse à l’Espagne, la grande masse de la nation est devenue plus arrogante,
+                    plus sûre de ses forces, plus désireuse d’une guerre contre l’Allemagne que
+                    jamais. Il y a un grand mécontentement du Ministère actuel dont la fraction plus
+                    constitutionelle (<persName ref="jvillele">Ms. de Villèle</persName> et
+                        <persName ref="frchateaubriand">Chateaubr.</persName>) sont sous la
+                    domination du parti jésuitique (de robe courte, congrégation du sacré coeur) il
+                    y a beaucoup de confiance dans les idées constitutionelles de <persName ref="labourbon">M. le Duc d’Angoulême</persName>, qui déteste l’influence
+                    politique du clergé: il y a confiance dans l’armée, ordre dans les finances et
+                    arrogance nationale contre tous les étrangers - tels sont les élémens qui
+                    fermentent. Le Ministère se soutiendra en louvoyant et en cédant et les chambres
+                    fixent à pleine plus l’attention que du tems de <persName ref="napoleon">Bonaparte</persName>. S’il y a un peu de résistance contre le despotisme
+                    ministeriel c’est dans la chambre des pairs. </p>
+            <closer>
+               <salute>Adieu, cher cher ami, soigne bien tes yeux, embrasse <persName ref="cvh1">la Li</persName> et les chers
+                        enfans.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>Paris, ce 7. Mai
+                        1824.</dateline>
+            </closer>
+            <postscript>
+               <p>Une lettre de l’aimable <persName ref="ahedohm">Madame de Dohm</persName>,
+                        dont le cher fils dans un livre qu’il publie a cru nécessaire de faire le
+                        panégyrique de la Sainte Alliance. Je ne serai pas mécontent de la
+                        nomination de <persName ref="jkmaltzahn">Malzahn</persName>: c’est un
+                        honnête homme d’une taciturnité et d’un froid que l’on croit ici cacher de
+                        la médioctrité: il a avec lui un homme gras et larges dans ses paroles
+                            <persName ref="aliebermann">M. Liebermann</persName>, qui plait un peu
+                        plus. Mertens <hi rend="letterspace">jase</hi> et raconte à tout le monde
+                        qu’il cherche une Ambassade.<note type="footnote" resp="editor">Gemeint ist
+                            wohl <persName ref="fmartens">Friedrich von Martens</persName> (!)
+                            (1778–1857), Gesandter Preußens in Turin und Florenz 1827–1832 und
+                            Konstantinopel 1832–1834; siehe Johann Caspar Struckmann (2003):
+                            <hi rend="italic">Preußische Diplomaten im 19. Jahrhundert. Biographien und
+                            Stellenbesetzungen der Auslandsposten 1815–1870</hi>, Berlin: trafo Verlag, S. 161f. u.ö.; Tobias C. Bringmann
+                            (2012): <hi rend="italic">Handbuch der Diplomatie 1815–1963: Auswärtige
+                                Missionschefs in Deutschland und deutsche Missionschefs im Ausland
+                                von Metternich bis Adenauer</hi>, Berlin: de Gruyter, S. 321, 331.
+                            [FZ]</note> Cette pauvre <persName ref="sbowdich">Mad. B....</persName>
+                        qui a perdu <persName ref="tebowdich">son mari</persName> en Gambie, où elle
+                        l’avait suivi avec un enfant à la mamelle.<note type="footnote" resp="editor">Thomas Edward Bowdich und seine Frau Sarah hielten sich
+                            von 1820 bis 1822 in Paris auf und machten dort die Bekanntschaft u.a.
+                            von Alexander von Humboldt; im Anschluss reisten sie über diverse
+                            Stationen nach Gambia, wo Thomas E. Bowdich am 10. Januar 1824 an der
+                            Malaria starb; siehe <hi rend="italic">Annales maritimes et
+                                coloniales</hi> 1824, 2. Partie, Tome 1, S. 349. Sarah Bowdich
+                            kehrte daraufhin mit ihren drei kleinen Kindern nach Paris zurück; zu
+                            Sarah Bowdich und ihrem schriftstellerischen Werk siehe Donald deB.
+                            Beaver (1999): Writing natural history for survival – 1820–1856: the
+                            case of Sarah Bowdich, later Sarah Lee. In: <hi rend="italic">Archives
+                                of Natural History</hi> 26 (1), S. 19–31. [FZ]</note> Tu m’écriras
+                        bien quand tu sauras quelque chose des voyages de <persName ref="fw3">notre
+                            Roi</persName> sur le Rhin ou ailleurs? Envoye moi, cher ami, <persName ref="jebode">Bode</persName>ns <bibl sameAs="1271">Sternkarten, les
+                            petites, in 4°, die alten</bibl>. <bibl sameAs="453">Beschreibung eines
+                            Instrumentes zur geometrischen Flächenberechnung</bibl> von <persName ref="gwiessner">Wiesner</persName>, <placeName ref="Jena">Jena</placeName> 1823, ou s’il se peut le <hi rend="letterspace">châssis</hi> (instrument) de <persName ref="gwiessner">M.
+                            Wiesner</persName>.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

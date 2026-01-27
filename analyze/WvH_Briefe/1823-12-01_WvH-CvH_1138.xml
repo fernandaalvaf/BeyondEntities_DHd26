@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 01.12.1823<idno type="BBAW">1138</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1906, Bd. 7, S.
+                            200–202</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7353</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jhcdunker">
+                  <persName>Dunker, Johann Heinrich Christian</persName>
+               </person>
+               <person corresp="fw4">
+                  <persName>Friedrich Wilhelm, Kronprinz (später Friedrich Wilhelm IV., König
+                            von Preußen)</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cvwolzogen">
+                  <persName>Wolzogen, Caroline von, geb. von Lengefeld, gesch. von
+                            Beulwitz</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="29">Aristoteles: Nikomachische Ethik</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von (1823): Bhagavad-Gita, id est
+                        Θεσπέσιον μελος, sive almi Krishnae et Arjunae colloquium de rebus divinis,
+                        Bharateae episodium. Textum recensuit, annotationes criticas et
+                        interpretationem latinam adjecit Aug. Guil. a Schlegel, Bonn: Weber</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Du glaubst nicht, wie viel ich zu schreiben habe. Es wächst einem
+                    …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-12-01"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Burgörner, 1. Dezember 1823</dateline>
+            </opener>
+            <p>Du glaubst nicht, wie viel ich zu schreiben habe. Es wächst einem mit den
+                    Gütergeschäften ordentlich unter den Händen. Gestern schien die Sonne sehr
+                    freundlich. Heut war der Himmel sehr wunderbar, vorzüglich gegen Abend. Es war
+                    windiges Wetter und der ganze Himmel voll schwerer Wolken, die aber nur im Abend
+                    unbeweglich lagen, sonst hin und her trieben, und gerade am Abend blieb ein
+                    schmaler lichter Streif vom Horizont, durch den die Strahlen der Abendsonne
+                    schossen. Dazwischen lag nun das ganze Tal in einem schauerlichen Dunkel. Ich
+                    stand sehr lange auf dem Lindenberg und kann Dir nicht sagen, wie mir immer das
+                    Herz aufgeht, wenn ich alle Tage einen freien Blick in die weite Natur machen
+                    kann. Auch gehe ich sehr viel hier, aber ohne mich zu ermüden. Ich habe nichts
+                    von trockenen und mühevollen Studien hierher mitgenommen. Die wenigen Stunden,
+                    die mir von der Geschäftsschreiberei und dem Spazierengehen, Leutesprechen usf.
+                    bleiben, lese ich fast bloß die <bibl sameAs="29">Ethik</bibl> des <persName ref="aristoteles">Aristoteles</persName> und den <bibl sameAs="53">„Bhagavad
+                        Gîtâ“</bibl>, den <persName ref="awschlegel">Schlegel</persName>
+                    herausgegeben hat. Beide behandeln eigentlich dasselbe Thema, den Zweck aller
+                    Dinge, den Wert des Lebens, das höchste Gut, den Tod als den Anfang eines neuen
+                    Daseins. Im Aristoteles ist die Erhabenheit eines großen und beinah ungeheuren
+                    Geistes und der gebildetsten Nation des Erdbodens, in dem indischen Gedicht die
+                    vielleicht noch rührendere des höchsten Altertums und eines zu tiefsinniger
+                    Betrachtung gleichsam geschaffenen Volks. Ich lese von beiden eigentlich immer
+                    nur wenig, aber jeder Laut ergreift mich mit einer zum eigenen Nachdenken
+                    anregenden Stärke. Es fällt mir dabei oft ein, daß es doch eigentlich sonderbar
+                    ist, daß <persName ref="jwgoethe">Goethe</persName> so fast ausschließend in den
+                    Produkten der Zeit lebt und an dem hängt, was er seine Arbeit in seinen Heften
+                    nennt, was doch wieder nur eine für die neueste Zeit ist. Wenn ich mich meinem
+                    Hinscheiden so nahe glauben müßte wie er, seinem Alter und seiner Gesundheit
+                    nach, wäre mir das unmöglich. Ich ginge vielmehr dann nur in die Vorzeit zurück
+                    und suchte dasjenige um mich zu sammeln, worin sich die menschliche Natur am
+                    reinsten und einfachsten ausgesprochen hat.</p>
+            <p> Du wirst jetzt leicht mehr von ihm erfahren als ich. Selbst wenn ich <persName ref="cvwolzogen">Carolinen</persName> regelmäßig darum schriebe, würde es
+                    nicht eigentlich helfen. Man erfährt immer nur in <placeName ref="Weimar">Weimar</placeName> die Relationen des Bedienten oder die Räsonnements der
+                    Ärzte. Wer ihn nicht selbst sieht, kann nicht genau urteilen, und <persName ref="cvwolzogen">Caroline</persName> sieht ihn gar nicht. Sie sind
+                    eigentlich auseinandergekommen, und sie urteilt bisweilen über seinen Charakter
+                    und sein Benehmen mit einer Strenge, die einem weh tut. Wahr ist es indes, daß
+                    er sich gegen die <persName ref="fschiller">Schiller</persName>schen Kinder
+                    nicht gut benommen hat.</p>
+            <p>
+               <persName ref="fw4">Dem Kronprinzen</persName> habe ich am <date when="1823-11-29">29.</date> geschrieben und schicke den Brief mit diesem
+                    ab, da eher keine Post ging. Ich habe meiner Abwesenheit gar nicht und am
+                    wenigsten entschuldigend erwähnt, auch bin ich überzeugt, daß sie ihm nicht
+                    aufgefallen ist, und ich bin recht froh, daß ich die Reise gemacht habe. Wäre
+                    ich erst jetzt abgereist, wäre ich so in den Winter gekommen, daß das ein sehr
+                    großes Hindernis in allem geworden wäre.</p>
+            <p>Morgen, wo <persName ref="jhcdunker">Dunker</persName>
+               <note type="footnote" resp="editor">Dunker war Sekretär des Vaters von Caroline von Humboldt
+                        gewesen, bevor er Verwalter des Gutes Burgörner wurde; siehe
+                        Humboldt-Gesellschaft für Wissenschaft, Kultur und Bildung e.V. (Hrsg.)
+                        (2011): <hi rend="italic">Beiträge zur Humboldt’schen Familienchronik, Literatur und deutschen
+                        Sprache</hi>, Roßdorf: TZ-Verlag, S. 34f. und 64; siehe auch GS XIV, S. 241. [FZ]</note> abgeholt wird,
+                    lasse ich den Ingrimm zu seinem Vater gehen. Er kommt dann Sonntag zurück. Es
+                    ist mir nicht angenehm, ihn so lange zu entbehren, da, wenn mich jemand besucht,
+                    ich ohne allen Bedienten bin und in homerischer Einfachheit den Schweinerücken
+                    selbst teilen muß. Allein es ist eine heilsame Buße, und die vielleicht die
+                    Nemesis beschwichtigt, daß ein abgesetzter Minister einige Tage im Jahr in Staub
+                    und Asche zubringen muß.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

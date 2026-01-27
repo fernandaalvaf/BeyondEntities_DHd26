@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 07.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 09.12.1832<idno type="BBAW">910</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Dortmund, Stadt- u.
+                            Landesbibliothek Atg. Nr. 6965</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcrawfurd">
+                  <persName>Crawfurd, John</persName>
+               </person>
+               <person corresp="jarbentrecasteaux">
+                  <persName>Entrecasteaux, Joseph-Antoine-Raymond Bruny
+                    d’</persName>
+               </person>
+               <person corresp="tforrest">
+                  <persName>Forrest, Thomas</persName>
+               </person>
+               <person corresp="lcdfreycinet">
+                  <persName>Freycinet, Louis Claude Desaulces de</persName>
+               </person>
+               <person corresp="fmagellan">
+                  <persName>Magellan, Ferdinand</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="apigafetta">
+                  <persName>Pigafetta, Antonio</persName>
+               </person>
+               <person corresp="lethrelkeld">
+                  <persName>Threlkeld, Lancelot Edward</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="101">Crawfurd, John: History of the Indian Archipelago: Containing an
+                    account of the manners, arts, languages, religions, institutions, and commerce
+                    of its inhabitants, 3 Bände (Edinburgh: A. Constable and Co. 1820)</bibl>
+               <bibl corresp="105">Entrecasteaux, Antoine Raymond Joseph de Bruni d’ / Rossel,
+                    Elisabeth Paul Édouard: Voyage de Dentrecasteaux, envoyé à la recherche de la
+                    Pérouse (Paris: L'Impremerie Impériale 1807–1808)</bibl>
+               <bibl corresp="720">Forrest, Thomas: A voyage to New Guinea, and the Mollucas, from
+                    Balambangan: including on account of Magindano, Sooolos and other islands, and
+                    illustrated with thirty copperplates. Performed during the years 1774, 1775 and
+                    1776. To which is added a vocabulary of the Magindano tongue (London: Scott
+                    1779)</bibl>
+               <bibl corresp="898">Freycinet, Louis Claude Desauises de: Voyage autour du monde
+                    (Paris: Imprimerie royale 1824–1839)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java,
+                    nebst einer Einleitung über die Verschiedenheit des menschlichen Sprachbaues und
+                    ihren Einfluss auf die geistige Entwicklung des Menschengeschlechts. In:
+                    Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften zu Berlin
+                    aus dem Jahre 1832, Zweiter Theil (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1836)</bibl>
+               <bibl corresp="290">Marsden, William: The History of Sumatra (London: J. M’Creery
+                    1811)</bibl>
+               <bibl corresp="707">Threlkeld, Lancelot Edward: Specimens of a Dialect, of the
+                    Aborigines of New South Wales; being the First Attempt to Form their Speech into
+                    a Written Language (Sydney: Hill 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz / kann ich beiliegend mit großem Vergnügen
+                        den Marsden zurücksenden, dessen Studium ich glücklich vollendet habe,
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+               <date type="author" when="1832-12-09"/>
+               <placeName key="Prenzlau">Prenzlau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="912" type="prev">25.11.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe=""/>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="jv">Javanisch</language>
+            <!-- <language ident="mdh">Maguindanao</language>  ? -->
+            <language ident="ms">Malaiisch</language>
+            <language ident="paa">Papua-Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">07. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>kann ich beifolgend mit großem Vergnügen den <hi rend="antiqua">
+                  <bibl sameAs="290">Marsden</bibl>
+               </hi> zurücksenden, dessen Studium ich
+                    glücklich vollendet habe, und will dabei nicht unterlassen, daß ich mich zu
+                    desto größerem Danke für Ew. Excellenz Güte verpflichtet fühle, je mehr
+                    Belehrung ich aus diesem höchst wackeren <bibl sameAs="290">Werke</bibl> genommen
+                    habe. Den Weg der directen Übersendung habe ich wählen zu müssen geglaubt,
+                    theils um Ew Excellenz das <bibl sameAs="290">Werk</bibl> in der kürzesten Zeit
+                    zukommenzulassen, theils weil ich nicht glaube, dass der <persName ref="fwilken">Herr Geh. Regierungsrath <hi rend="antiqua">Wilken</hi>
+               </persName>, der
+                    dasselbe mir über Siegel zugesandt hat, davon unterrichtet gewesen ist. Den <hi rend="antiqua">
+                  <bibl sameAs="707">Threlkeld</bibl>
+               </hi> denke ich nun ebenfalls bald beenden
+                    zu können.</p>
+            <p>Was Ew Excellenz gütigen, für mich so ehrenvollen Vorschlag betrifft, meine
+                    Vocabularien dem <bibl sameAs="227">Werke</bibl> Ew. Excellenz einzuverleiben, so
+                    bin ich wohl gern bereit, alles was ich der Art besitze, Ew Excellenz geordnet
+                    zu übersenden, und denke dies gegen das Ende des künftigen Monates bestimmt thun
+                    zu können. Sie umfassen übrigens alle sogenannten Australnegerländer, bis zu
+                    Neuseeland herab, dies natürlich ausgelassen.</p>
+            <p>Die beiden Worte <hi rend="antiqua">
+                  <foreign sameAs="paa">wat</foreign>
+               </hi>
+               <!-- Papua-Sprache ? --> u <hi rend="antiqua">
+                  <foreign sameAs="paa">papua</foreign>
+               </hi>
+               <!-- Papua-Sprache ? -->
+                    betreffend, bedauere ich, wenig Befriedigendes darüber bemerken zu können. Das
+                    erste hat mich schon längst sehr viel beschäftigt. Es ist nicht wunderbar, daß
+                    in allen meinen Sammlungen sich kein Wort für den Begriff Gott befindet. Doch
+                    ist es merkwürdig, daß nach <hi rend="antiqua">
+                  <persName ref="lcdfreycinet">Freycinet</persName>
+               </hi> (<hi rend="antiqua">
+                  <bibl sameAs="898">voy. autour du monde</bibl>
+               </hi>, <hi rend="antiqua">Historique</hi> II. 56) die Papua der Insel <hi rend="antiqua">
+                  <placeName ref="Waigeo">Waigiou</placeName>
+               </hi> die Götzenbilder in ihren
+                    Wohnungen <hi rend="antiqua">
+                  <foreign sameAs="paa">nenek</foreign>
+               </hi>
+               <!-- Papua-Sprache ? --> nennen,
+                    was ich für das Malaiische Wort, das Großvater, Vorfahr bedeutet, halten möchte.
+                    Jedoch glaube ich, daß <hi rend="antiqua">
+                  <persName ref="tforrest">Forrest</persName>s</hi> <bibl sameAs="720">Vocabular</bibl> überall nur mit Vorsicht zu benutzen ist, es ist ohne
+                    Zweifel unter sehr großem Einfluß seines Begleiters <hi rend="antiqua">Tuan
+                        haji</hi>
+               <!-- PersName? --> abgefasst, und das gleich auf <hi rend="antiqua">
+                  <foreign sameAs="">wat</foreign>
+               </hi>
+               <!-- Sprache? Maguindanao (mdh)?-->
+                    folgende Wort <hi rend="antiqua">
+                  <foreign sameAs="">hytan</foreign>
+               </hi>
+               <!-- Sprache? Maguindanao (mdh)? --> sieht mir gar zu
+                    mohammedanisch aus. Auch fiel mir Ew. Excellenz Ableitung von <hi rend="antiqua">
+                  <foreign sameAs="ms">awataram</foreign>
+               </hi>
+               <!-- Sprache? Malaiisch? -->
+                    auf; ich hatte es, noch ehe ich wusste, daß <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi> derselben Ansicht ist, von
+                    dem Sanskritwort <hi rend="antiqua">
+                  <foreign sameAs="sa">dewa</foreign>
+               </hi>, wofür, wie ich glaube, auch eine
+                    Form <hi rend="antiqua">
+                  <foreign sameAs="sa">dewata</foreign>
+               </hi> existirt, abgeleitet;
+                        (<persName ref="tforrest">Forrest</persName> schreibt es <hi rend="antiqua">
+                  <foreign sameAs="">dwat</foreign>
+               </hi>
+               <!-- Sprache? Maguindanao (mdh)?-->.) die letzte Form
+                    erscheint mindestens in Sprachen des Archipels häufig, und der damit verbundene
+                    religiöse Begriff ist der viel einfachere.</p>
+            <p>Für <hi rend="antiqua">
+                  <foreign sameAs="paa">papua</foreign>
+               </hi>
+               <!-- Papua-Sprache? --> finde
+                    ich bei <hi rend="antiqua">
+                  <sic>
+                     <bibl sameAs="101">Crawford</bibl>
+                  </sic>
+               </hi> <hi rend="antiqua">
+                  <foreign sameAs="paa">puapua</foreign>
+               </hi>
+               <!-- Papua-Sprache? -->, woraus ich auf eine einfachere
+                    Form <hi rend="antiqua">
+                  <foreign sameAs="paa">pua</foreign>
+               </hi>
+               <!-- Papua-Sprache? --> schließen möchte. In einem kleinen
+                        <pb n="2*"/> Vocabular, das <hi rend="antiqua">
+                  <persName ref="jarbentrecasteaux">Entrecasteaux</persName>
+               </hi>’s Begleiter in <hi rend="antiqua">
+                  <placeName ref="Waigeo">Waigiou</placeName>
+               </hi> von Papuas sammelten, die
+                    sie für herübergekommen von Neuguinea hielten, finde ich das Wort <hi rend="antiqua">
+                  <foreign sameAs="paa">pia</foreign>
+               </hi>
+               <!-- Papua-Sprache? --> für Haar (<hi rend="antiqua">
+                  <persName ref="jarbentrecasteaux">Entrec.</persName> <bibl sameAs="105">voyage</bibl>
+               </hi> I. 590), und die Neucaledonischen Vocabularien
+                    geben mehrere Ausdrücke für Haar, die auf den gemeinsamen Stamm <hi rend="antiqua">
+                  <foreign sameAs="">poun</foreign>
+               </hi>
+               <!-- Sprache? --> schließen lassen.
+                    Über die Verbreitung des Stamms <hi rend="antiqua">papua</hi> habe ich noch eine
+                    historische Notiz gefunden, die vielleicht Beachtung verdient. <hi rend="antiqua">
+                  <persName ref="apigafetta">Pigafetta</persName>
+               </hi>, der bekannte Begleiter <sic>
+                  <hi rend="antiqua">
+                     <persName ref="fmagellan">Magelhans</persName>
+                  </hi>
+               </sic>, fand bei seinem Aufenthalt in <hi rend="antiqua">
+                  <placeName ref="Tidore">Tidor</placeName>
+               </hi> dort einen heidnischen König
+                    aus dem Innern von <hi rend="antiqua">
+                  <placeName ref="Silolo">Silolo</placeName>
+               </hi>, der <hi rend="antiqua">Raja
+                        papua</hi> hieß. Sollte das Wort um 1500 nur erst einen besonderen Stamm
+                    bezeichnet haben?</p>
+            <closer>
+               <salute>Indem ich Ew. Excellenz ersuche, diese geringen Andeutungen gütigst
+                        anzunehmen, kann ich zugleich nicht umhin, mit der Versicherung der
+                        innigsten Hochachtung mich zu unterzeichnen <lb/>Ew Excellenz
+                        <lb/>ergebenster</salute>
+               <signed>Dr. Meinicke</signed>
+               <lb/>
+               <dateline>Prenzlau den 9 December 1832.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="Rückseite des Bogens:"/>
+               <address>
+                  <addrLine>S. Excellenz</addrLine>
+                  <addrLine>dem Herrn Staatsminister Freiherrn <hi rend="antiqua">W. v.
+                                Humboldt</hi>.</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <hi rend="underline">
+                           <placeName ref="Berlin">Berlin</placeName>
+                        </hi>
+                     </hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <hi rend="underline">frei</hi>
+               <lb/>beiliegend ein <bibl sameAs="290">Buch</bibl> in gr. Leinwand <lb/>gez. O. P<!-- PersName? -->
+                    <lb/>
+               <hi rend="antiqua">
+                  <placeName ref="Berlin">Berlin</placeName>
+               </hi>. <lb/>
+               <pb n="Verschiedene Stempel und ein Siegelabdruck"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 23.05.1830<idno type="BBAW">173</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 55. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 72f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8224</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="fwbecker">
+                  <persName>Becker, Ferdinand Wilhelm</persName>
+               </person>
+               <person corresp="kfbecker">
+                  <persName>Becker, Karl Ferdinand</persName>
+               </person>
+               <person corresp="pkbuttmann">
+                  <persName>Buttmann, Philipp Karl</persName>
+               </person>
+               <person corresp="eggraff">
+                  <persName>Graff, Eberhard Gottlieb</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+               <person corresp="flcfpassow">
+                  <persName>Passow, Franz Ludwig Carl Friedrich</persName>
+               </person>
+               <person corresp="jhplath">
+                  <persName>Plath, Johann Heinrich</persName>
+               </person>
+               <person corresp="fwvschmidt">
+                  <persName>Schmidt, Friedrich Wilhelm Valentin (?)</persName>
+               </person>
+               <person corresp="wschott">
+                  <persName>Schott, Wilhelm</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="618">Bopp, Franz: Glossarium sanscritum: in quo omnes radices et
+                    vocabula usitatissima explicantur et cum vocabulis graecis (Berlin: Dümmler
+                    1830)</bibl>
+               <bibl corresp="548">Bopp, Franz: Ueber einige Demonstrativstämme und ihren Zusammenhang
+                    mit verschiedenen Präpositionen und Conjunctionen im Sanscrit und der mit ihm
+                    verwandten Sprachen: gelesen in der Kgl. Akademie der Wissenschaften den 7. Jan.
+                    1830 (Berlin: Druckerei der Königlichen Akademie der Wissenschaften
+                    1830)</bibl>
+               <bibl corresp="210">Humboldt, Wilhelm von: Ueber den Dualis. Gelesen in der Akademie
+                    der Wissenschaften am 26. April 1827. In: Abhandlungen der königlichen Akademie
+                    der Wissenschaften zu Berlin aus dem Jahre 1827, Historisch-philologische Klasse
+                    (Berlin: Druckerei der Königlichen Akademie der Wissenschaften 1830), S.
+                    161–188</bibl>
+               <bibl corresp="329">Passow, Franz Ludwig Carl Friedrich: Handwörterbuch der
+                    griechischen Sprache, 2 Bände (1. Aufl., Leipzig: Vogel 1819/1823; 2. Aufl.,
+                    Leipzig 1826; 3. Aufl., Leipzig 1828; 4. Aufl., Leipzig 1831)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe Ihnen, theuerster Freund, für zwei sehr gütige
+                        Briefe, und für Ihre Abhandlung und Ihr Wörterbuch zu danken …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-05-23"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Anmerkungen Humboldts sowie
+                    eigenhändiger Schlussformel und Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 7. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1830_05_23/NDIGRKP004565_0436.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_05_23/NDIGRKP004565_0437.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_05_23/NDIGRKP004565_0438.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich habe Ihnen, theuerster Freund, für zwei sehr gütige Briefe, und
+                    für <bibl sameAs="548">Ihre Abhandlung</bibl> und <bibl sameAs="618">Ihr
+                        Wörterbuch</bibl> zu danken, und thue dieß mit der herzlichsten Freude.
+                        <bibl sameAs="548">Die Abhandlung</bibl> habe ich auf’s neue mit großem
+                    Vergnügen gelesen. Sie ist in jeder Rücksicht überaus wichtig, und voll der
+                    scharfsinnigsten Bemerkungen und Herleitungen. Gegen eine einzige Stelle würde
+                    ich mir, wenn ich das Manuscript mit Muße hätte sehen können, eine Einwendung
+                    erlaubt haben. Sie sagen, daß <hi rend="antiqua">
+                  <foreign sameAs="grc">geras</foreign>
+               </hi> und <hi rend="antiqua">
+                  <foreign sameAs="grc">keras</foreign>
+               </hi> kein <hi rend="antiqua">t</hi> in der Flexion habe, und behandeln diese
+                    Wörter, als wäre nie ein <hi rend="antiqua">t</hi> darin gewesen. Dieß scheint
+                    mir nicht richtig. Sie haben ebensowohl als die anderen ursprünglich im Genitiv
+                    u. s. w. ein <hi rend="antiqua">t</hi> gehabt, nur ist die <hi rend="antiqua">Jonische</hi> Aussprache mit Weglassung des <hi rend="antiqua">t</hi> in
+                        <hi rend="antiqua">
+                  <foreign sameAs="grc">geras</foreign>
+               </hi> durchaus, in
+                        <hi rend="antiqua">
+                  <foreign sameAs="grc">keras</foreign>
+               </hi> meistentheils allgemein
+                    geworden. <persName ref="pkbuttmann">
+                  <hi rend="antiqua">Buttmann</hi>
+               </persName>, dem Sie gefolgt zu sein
+                    scheinen, <pb n="2*"/> spricht dem <hi rend="antiqua">
+                  <foreign sameAs="grc">keras</foreign>
+               </hi> zu unbedingt sein <hi rend="antiqua">t </hi> ab. <hi rend="antiqua">
+                  <foreign sameAs="grc">Kerata</foreign>
+               </hi> kommt, ob ich gleich jetzt
+                    keinen Vers anzugeben wüßte, sicher auch in <persName ref="fawolf">Wolff</persName>’s Ausgaben <subst>
+                  <del>immer mehr</del>
+                  <add>
+                     <handShift scribe="wvh"/> im <persName ref="homer">Homer</persName>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> vor. <persName ref="flcfpassow">
+                  <hi rend="antiqua">Passow</hi>
+               </persName> bemerkt es ausdrücklich in <bibl sameAs="329">seinem Wörterbuch</bibl>. Allein auch <persName ref="pkbuttmann">
+                  <hi rend="antiqua">Buttmann</hi>
+               </persName> spricht nur von einer <hi rend="antiqua">Jonischen</hi> Weglassung, nicht von einem ursprünglichen
+                    Mangel des <hi rend="antiqua">t</hi>.</p>
+            <p>Ich bin so frei, Ihnen anliegend, liebster Freund, 5 Exemplare <bibl sameAs="210">meiner Abhandlung</bibl> für Sie, <persName ref="fwvschmidt">Herrn <hi rend="antiqua">Schmidt</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="fwvschmidt">Friedrich Wilhelm Valentin Schmidt</persName>
+                        (1787–1831), Literaturforscher und Kustos der <orgName ref="1">Königlichen
+                            Bibliothek zu Berlin</orgName> (?).</note>, <persName ref="eggraff">Herrn <hi rend="antiqua">Graff</hi>
+               </persName>, und <persName ref="fwbecker">Herrn <hi rend="antiqua">Becker</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="fwbecker">Ferdinand Wilhelm Becker</persName>, Sohn des
+                        Offenbacher Sprachforschers <persName ref="kfbecker">Karl Ferdinand
+                            Becker</persName>.</note>, den Sie jawohl bisweilen sehen, und dem ich
+                    zwei für sich und <persName ref="kfbecker">seinen Vater</persName> in <placeName ref="Offenbach">Offenbach</placeName> bestimme, beizuschließen. Ich habe ein
+                    Exemplar an <persName ref="jpabel">
+                  <hi rend="antiqua">Remusat</hi>
+               </persName> geschickt, und vorzubeugen
+                    gesucht, daß der unglückliche <persName ref="cfneumann">
+                  <hi rend="antiqua">Neumann</hi>
+               </persName> nicht wieder wegen des
+                    chinesischen Theils <bibl sameAs="210">meiner Abhandlung</bibl> unhöflich
+                    behandelt werde. Was man <sic>ihn</sic> im ersten Zeitungsartikel vorgeworfen
+                    hat, halte ich wohl für gegründet. <persName ref="cfneumann">
+                  <hi rend="antiqua">Neumann</hi>
+               </persName> setzte ein zu großes Vertrauen in
+                    zu schnell erworbene Kenntnisse. Der Einsicht <hi rend="antiqua">
+                  <persName ref="wschott">Schotts</persName>
+               </hi> und <hi rend="antiqua">
+                  <persName ref="jhplath">Plaths</persName>
+               </hi> in das <pb n="3*"/> Chinesische traue ich durchaus nicht und möchte nicht durch sie vertheidigt
+                    werden.</p>
+            <p>Ich verreise am <date when="1830-06-01">1<hi rend="superscript">ten</hi>
+                        Junius</date> c. und danke Ihnen nochmals für die Güte, am <date when="1830-06-10">10<hi rend="superscript">ten</hi> Junius</date> in der
+                        <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> für mich lesen zu
+                    wollen.<!-- Lesung recherchieren --> Ich hoffe Sie im August recht gesund und
+                    wohl wieder zu sehen. </p>
+            <closer>
+               <salute>Mit der herzlichsten Freundschaft <handShift scribe="wvh"/> der
+                        Ihrige</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> Tegel, den 23. <hi rend="antiqua">Mai</hi>
+                        1830.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An Herrn Professor <hi rend="antiqua">Bopp</hi>.</addrLine>
+                  <addrLine>Wohlgebohren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>.</addrLine>
+                  <addrLine>Wohlgebohren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <hi rend="underline">
+                           <placeName ref="Berlin">Berlin</placeName>
+                        </hi>
+                     </hi>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

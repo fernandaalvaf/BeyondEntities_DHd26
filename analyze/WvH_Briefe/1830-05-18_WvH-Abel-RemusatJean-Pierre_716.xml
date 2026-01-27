@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jean-Pierre Abel-Rémusat, 18.05.1830<idno type="BBAW">716</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Mantes-la-Jolie, Archives Communales, Sous-série 3 S,
+                            Collection Clerc de Landresse, Inv.-Nr. 1898</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Rousseau/Thouard 1999, S. 264–266. – Auszug:
+                            http://www.eliohs.unifi.it/testi/800/quilraggh/quilraggh_burnouf.html:
+                            Anm. 7 mit falschem Datum (18.3.1828)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="alexandra">
+                  <persName>Alexandra Fjodorowna, Kaiserin von Russland (geb.
+                    Charlotte von Preußen)</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="asjulien">
+                  <persName>Julien, Aignan Stanislas</persName>
+               </person>
+               <person corresp="fw4">
+                  <persName>Kronprinz Friedrich Wilhelm (später Friedrich Wilhelm IV., König
+                    von Preußen)</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+               <person corresp="nikolaus1">
+                  <persName>Nikolaus I., Zar von Rußland</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="228">Humboldt, Wilhelm von: Über die Verwandtschaft der Ortsadverbien
+                    mit dem Pronomen in einigen Sprachen. Gelesen in der Akademie der Wissenschaften
+                    am 17. December 1829. In: Abhandlungen der historisch-philologischen Klasse der
+                    Königlichen Preußischen Akademie der Wissenschaften zu Berlin aus dem Jahre 1829
+                    (Berlin: Königliche Akademie der Wissenschaften 1832), S. 1–26</bibl>
+               <bibl corresp="1037">Julien, Stanislas: Vindiciae philologiae in linguam sinicam.
+                    Dissertatio prima de quibusdam litteris sinicis quae nonnunquam, genuina
+                    significatione deposita, accusandi casum mere denotant (Paris: Dondey-Dupré
+                    1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, / Vous aurez appris, Monsieur, dans le
+                        tems le malheureux évenement qui m’a frappé l’année passée. … </ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-05-18"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpabel">Abel-Rémusat, Jean-Pierre</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next" target="1130">04.01.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="hy">Armenisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="">Indisch-chinesische Sprachen</language>
+            <language ident="ms">Malayisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">30. April 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>Vous aurez appris, Monsieur, dans le tems le malheureux évenement qui m’a frappé
+                    l’année passée. <persName ref="cvh1">Md de Humboldt</persName> tomba presqu’au
+                    moment du retour de notre voyage dangereusement malade, elle succomba au mois de
+                    Mars, et cette perte cruelle détruisit tellement toute mon existence domestique
+                    que j’ai vécu depuis ce moment dans la plus profonde solitude. Mes études ont
+                    fait depuis mon unique occupation. J’ai tâché de remplir des lacunes que je
+                    remarquois dans mes connoissances et me suis livré à des recherches
+                    particulières sur les langues Malayes et Indo-Chinoises. Mon séjour à <placeName ref="Paris">Paris</placeName> et l’avantage de m’y entretenir souvent, avec
+                    Vous, Monsieur, m’ont été d’une immense utilité. J’y ai reconnû, combien de
+                    connoissances me manquoient encore pour entreprendre des travaux sur les langues
+                    en général, et j’ai redoublé de zêle et d’assiduité pour bien employer dans ce
+                    sens ma solitude champêtre. J’espère pouvoir Vous présenter en quelque temps
+                    d’ici un ouvrage plus digne de l’opinion favorable par laquelle Vous avez
+                    souvent eû la bonté d’encourager mes foibles travaux. </p>
+            <p>Veuillez me permettre, Monsieur, de Vous envoyer en attendant ci-joint <bibl sameAs="228">un mémoire</bibl> que j’ai lû il y a quelque temps à <orgName ref="3">notre Académie</orgName>. Il renferme une idée sur l’origine du
+                    pronom personnel dans quelques langues qui m’a parû être intéressante.<note type="footnote" resp="editor">Die Abhandlung wurde bereits im Sommer 1830 an
+                        verschiedene Freunde versandt; siehe Leitzmann in GS VI, S. 334 zu Nr.
+                        11.</note> C’est surtout l’Arménien que j’étudiois, il y a trois ans, qui
+                    m’a mis sur la voye de cette découverte Vous trouverez dans <bibl sameAs="228">mon mémoire</bibl> un
+                    article que je dois à la complaisance de <persName ref="cfneumann">M<hi rend="superscript">r</hi>. Neumann</persName>. Ce qu’il y avance, <pb n="2*"/> m’a parû ingénieux, je désire que Vous le trouviez en même temps
+                    fondé, Monsieur. <persName ref="cfneumann">M<hi rend="superscript">r</hi>.
+                        Neumann</persName> m’avoit communiqué d’abord une note dans laquelle il
+                    donnoit encore plus d’étendue à ses idées sur le mot <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign>. Mais comme il me sembloit attacher à ce mot une signification que
+                    je ne trouvois pas justifiée par les passages qu’il citoit, il a modifié ensuite
+                    son opinion. Vous m’aviez parlé, Monsieur, avec beaucoup d’éloges des études
+                    Chinoises de <persName ref="cfneumann">M<hi rend="superscript">r</hi>.
+                        Neumann</persName>, et c’est là ce qui m’a surtout engagé à y porter plus de
+                    confiance. J’ai vû depuis <persName ref="cfneumann">M<hi rend="superscript">r</hi>. Neumann</persName> plusieurs fois ici, et j’avoue qu’il m’a
+                    parû être un homme fort judicieux, et d’un savoir vraîment solide sur plusieurs
+                    objets. Je puis naturellement moins juger de ses connaissances en Chinois, et je
+                    ne disconviens pas qu’il met parfois plus de confiance que je ne le ferois, dans
+                    des connaissances rapidement acquises. J’ai cependant vû avec peine la vivacité
+                    et l’espèce d’acharnement avec lesquels il a été attaqué dans nos papiers
+                    publics. Les rectifications sont certainement précieuses, mais la politesse et
+                    au moins les dehors d’une certaine indulgence n’y gâtent rien. </p>
+            <p>
+               <persName ref="asjulien">M<hi rend="superscript">r</hi>. Julien</persName> m’a
+                    addressé <bibl sameAs="1037">un mémoire intéressant sur quelques points de la
+                        Grammaire Chinoise</bibl>. Je l’ai lû avec beaucoup de plaisir, mais si
+                        <persName ref="asjulien">M<hi rend="superscript">r</hi>. Julien</persName>
+                    croit prouver par son travail que le Chinois n’est pas une langue sans flexions
+                    et sans de véritables signes grammaticaux, je ne saurois partager son opinion
+                    que jusqu’à un certain point. La signification matérielle de quelques particules
+                    Chinoises s’est en effèt presqu’entièrement perdue par l’usage qu’on en fait;
+                    personne ne l’a mieux observé et prouvé que Vous, Monsieur. Mais ces cas sont
+                    isolés dans la langue et n’en forment pas la regle et le caractère, les rapports
+                    même que ces particules servent à marquer, ne le sont pas toujours par elles, et
+                    il est même impossible de déterminer jusqu’à quel dégré la signification
+                    matérielle et primitive s’est <pb n="3*"/> perdue dans cette espèce de mots. </p>
+            <p>
+               <persName ref="avh">Mon frère</persName> me charge des choses les plus amicales
+                    pour Vous, Monsieur. Il est au moment d’accompagner par Ordre du <persName ref="fw3">Roi</persName> le <persName ref="fw4">Prince Royal</persName> à
+                        <placeName ref="Warschau">Varsovie</placeName> pour y trouver <persName ref="nikolaus1">l’Empereur</persName> et <persName ref="alexandra">l’Impératrice de Russie</persName>. Cette excursion ne l’éloignera de
+                        <placeName ref="Berlin">Berlin</placeName> que pour deux ou trois semaines
+                    seulement.</p>
+            <closer>
+               <salute>Veuillez agréer, Monsieur, l’assurance sincère de mon éstime toute
+                        particulière et de mes sentimens les plus distingués.
+                        </salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Tegel près de Berlin, ce
+                        18. Mai, 1830.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>A Monsieur, <lb/>Monsieur Abel-Rémusat, <lb/>Membre de l’Institut
+                            de France cet. cet. <lb/>à <lb/>Paris, <lb/>
+                     <orgName ref="7">Bibliothèque Royale</orgName>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="Poststempel: Berlin 19 - 5"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

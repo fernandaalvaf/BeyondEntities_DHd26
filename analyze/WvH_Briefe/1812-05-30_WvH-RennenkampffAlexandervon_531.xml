@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 29. April 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Karl Jakob Alexander Edler von Rennenkampff, 30.05.1812<idno type="BBAW">531</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Jena, ThULB, Nachlass Leitzmann, Inv.-Nr. 280
+                            (verschollen)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Distel 1883, S. 19–22</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 3048</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="fmuenter">
+                  <persName>Münter, Friedrich Christian Carl Heinrich</persName>
+               </person>
+               <person corresp="souvaroff">
+                  <persName>Ouvaroff, Sergej S.</persName>
+               </person>
+               <person corresp="eqvisconti">
+                  <persName>Visconti, Ennio Quirino</persName>
+               </person>
+               <person corresp="gzoega">
+                  <persName>Zoëga, Georg</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="763">Münter, Friedrich: Antiquarische Abhandlungen (Kopenhagen:
+                    Schubothe 1816)</bibl>
+               <bibl corresp="750">Wörterbuch der Russischen Akademie der Wissenschaften (Slovar’
+                    Akademii Rossijskoj), Band 1–6 (St. Petersburg: Akademie der Wissenschaften
+                    1789–1794)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Wenn ich Ihnen, theuerster Herr Baron, auch
+                        später antworte, als ich gewünscht hätte …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1812-05-30"/>
+               <placeName key="Wien">Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="arennenkampff">Rennenkampff, Karl Jakob Alexander Edler von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="tt">Tatarische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">29. April 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Wien, den 30. Mai, 1812.</dateline>
+            </opener>
+            <p>Wenn ich Ihnen, theuerster Herr Baron, auch später antworte, als ich gewünscht
+                    hätte, so hat mir Ihr gütiger Brief doch darum nicht weniger Freude gemacht. Die
+                    neuen Beweise ihrer<note type="footnote" resp="editor">Leitzmann korrigiert in
+                        seinem Handexemplar (Jena, Thüringer Universitäts- und Landesbibliothek,
+                        Nachlass Leitzmann V,1, Nr. 437) von Distels Buch das fälschlich gedruckte „ihrer“ in
+                        „Ihrer“.</note> freundschaftlichen Anhänglichkeit, die er enthält, haben
+                    einen um so größeren Werth für mich, als ich dieselben Gesinnungen gewiß in
+                    gleichem Maße erwiedre. Außerdem ist es mir äußerst angenehm, durch Sie manchmal
+                    einige literarische Nachrichten aus Ihren Gegenden zu erhalten, aus denen sie
+                    sonst selten zu uns herkommen. Herzlich lieb wird es mir daher seyn, wenn Sie,
+                    statt Sich über die Länge Ihrer Briefe zu entschuldigen, mir oft und ausführlich
+                    schreiben wollen. Ihr Anerbieten, Aufträge, die ich in <placeName ref="St. Petersburg">Ihrer Stadt</placeName> haben könnte, gütigst zu
+                    übernehmen, ist mir ungemein erwünscht, und wenn Sie es mir erlauben, so mache
+                    ich gleich jetzt Gebrauch davon. Sie wissen, daß ich mich viel und anhaltend mit
+                    Sprachstudien beschäftige, ich besitze auch eine ziemlich ansehnliche Sammlung
+                    gedruckter und handschriftlicher Hülfsmittel dazu, zu deren Vermehrung Sie mir
+                    sehr behülflich seyn könnten, da Sie gerade in dem Reiche leben, das die meisten
+                    Sprachen in sich vereinigt. Eben diese aber, die sich nur bei Ihnen finden,
+                    haben jetzt ein doppeltes Interesse für mich, da ich vorzüglich die
+                    Amerikanischen Sprachen mir zum Gegenstande meiner Untersuchungen gewählt habe,
+                    und diese unter allen übrigen am meisten mit den Nordöstlich<note type="footnote" resp="editor">Leitzmann ändert „Nordöstlich“ in
+                        „NordÖstlich“.</note>-Asiatischen Sprachen und Mundarten Verwandtschaft
+                    haben. Ich bin daher so frei, Sie zu bitten, hiervon einige Nachricht
+                    einzuziehen, und für mich zu kaufen, was sich von Grammatiken und Wörterbüchern
+                    Asiatischer Sprachen bei Ihnen nur irgend finden kann. Wenn ich von Asiatischen
+                    Sprachen rede, nehme ich aber Arabisch, Türkisch, Persisch und alle sogenannten
+                    Semitischen Sprachen, ferner Indisch und Chinesisch aus. Alles Uebrige aber,
+                    besonders Alles, was zu den Tartarischen Sprachen gehört, hat, ohne Ausnahme,
+                    das größeste Interesse für mich. Es wäre auch möglich, daß sich bei der <orgName ref="21">Akademie</orgName>, oder sonst handschriftliche Materialien dieser
+                    Art vorfänden, und in diesem Fall würde ich Sie um Abschriften bitten, die aber
+                    freilich, vorzüglich für die fremden Wörter, sehr genau seyn müßten. Ich kann
+                    Ihnen nicht sagen, wie sehr Sie mich durch solche Mittheilungen verbinden
+                    würden. Die Kosten würde ich Ihnen auf Ihre Anzeige unmittelbar in <placeName ref="St. Petersburg">Petersburg</placeName> selbst ersetzen, und sollte auch
+                    jetzt der vielleicht ausbrechende Krieg die Communikationen schwieriger machen,
+                    so kann dies doch nur immer momentan seyn, und wenn Sie indeß Einiges gütigst
+                    sammelten, würde es mich nachher um so angenehmer und unerwarteter überraschen.
+                    Bemerken muß ich, daß ich das große <bibl sameAs="750">Wörterbuch der
+                        Akademie</bibl>, die <persName ref="jhklaproth">Claproth</persName>ischen
+                    Schriften u. s. w. natürlich habe. Ich habe auch Hrn.<note type="footnote" resp="editor">Leitzmann ändert „Hrn.“ in „He.“</note> <persName ref="souvaroff">von Ouvaroff</persName> in der Inlage gebeten, Sie hierbei
+                    zu unterstützen, und Sie werden mir eine ungemeine Gefälligkeit erzeigen, wenn
+                    Sie diesen Gegenstand, da Dinge dieser Art bei Ihnen gelegentlich fast immerfort
+                    von Zeit zu Zeit vorkommen müssen, gütigst im Auge behalten wollen. Die beiden
+                    Schriften von <persName ref="fmuenter">Münter</persName>
+               <note type="footnote" resp="editor">Anm. bei Distel 1883, S. 21: „Briefe von ihm und seiner
+                        Schwester <persName ref="fscbrun">Friedericke Brun</persName> in
+                        Rennenkampffs Nachlaß. Die hier näher gekennzeichnete Schrift ist abgedruckt
+                        in <persName ref="fmuenter">Münter</persName>s '<bibl sameAs="763">antiquarischen Abhandlungen</bibl>' Kopenh. (1816) II.“</note> habe
+                    ich mit vielem Vergnügen und mannigfaltiger Belehrung gelesen, ob ihnen gleich
+                    das eigentlich Geniale und Tiefgelehrte fehlt, das man in <persName ref="gzoega">Zoëga</persName>’s und <persName ref="eqvisconti">Visconti</persName>’s Abhandlungen über dergleichen Gegenstände antrift.
+                    Ganz eigen ist es zu sehen, daß ein Bischof, indem er seine Pfarrer zu einer
+                    Synode zusammenberuft, nur darum einen singulären Text aus der Apokalypse wählt,
+                    um dann<note type="footnote" resp="editor">Leitzmann ändert „dann“ in
+                        „davon“.</note> auf heidnische Schriftsteller und Alterthümer abschweifen zu
+                    können, von denen er kaum einen Augenblick am Ende mit wenigen Worten
+                        zurückkommt.<note type="footnote" resp="editor">Siehe Friedrich Münter (1816): De occulto
+                            Urbis Romae nomine, ad locum Apocalypseos XVII. 5. Programma, quo
+                            Synodum Dioeceseos Selandicae in Aede Cathedrali Roschildensi d. 3 Julii
+                            1811 celebrandam indixi. In: Friedrich
+                            Münter: <bibl sameAs="763">
+                     <hi rend="italic">Antiquarische Abhandlungen</hi>
+                  </bibl>, Kopenhagen: Schubothe, S.
+                        27–52. [FZ]</note> Ich danke Ihnen aber recht sehr für beide kleine <hi rend="antiqua">piècen</hi>, und bedauere, Sie gerade der interessanteren
+                    beraubt zu haben. Auch die Art der Zuckerpräparation, wenn es Ihnen keine große
+                    Mühe macht, erfahre ich sehr gern. Die Anekdote, die Sie mir dabei erzählen, ist
+                    sehr drollig. Sie werden aus den Briefen <persName ref="cvh1">meiner
+                        Frau</persName> gesehen haben, daß es uns wenigstens so gut geht, als es nun
+                    einmal uns außer Italien gefallen kann. Daß wir dahin, und um gänzlich zu
+                    bleiben, zurückkehren, ist gewiß, und wir bereiten im Stillen Alles dazu vor.
+                    Die Zeit ist freilich jetzt noch unbestimmbar, allein auch Sie, denke ich,
+                        gehen<note type="footnote" resp="editor">Leitzmann ändert „gehen“ in
+                        „gehn“.</note> über kurz oder lang in diesen Hafen ein, und sehr dann sollte
+                    es mich freuen, wenn wir wieder zusammen dort wären. Leben Sie indeß recht wohl
+                    und erhalten Sie mir Ihr gütiges Andenken!</p>
+            <closer>
+               <salute>Mit herzlicher Hochachtung und Freundschaft. <lb/>Der<note type="footnote" resp="editor">Leitzmann ändert „Freundschaft. |Absatz|
+                            Der“ zu „Freundschaft |Absatz| der“.</note>
+                        Ihrige,</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

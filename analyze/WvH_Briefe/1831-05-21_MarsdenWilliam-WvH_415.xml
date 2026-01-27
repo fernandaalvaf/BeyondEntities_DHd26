@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 20.02.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>William Marsden an Wilhelm von Humboldt, 21.05.1831<idno type="BBAW">415</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            176–179</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 223</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cbrosses">
+                  <persName>Brosses, Charles de</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="gerumpf">
+                  <persName>Rumpf (Rumphius), Georg Eberhard</persName>
+               </person>
+               <person corresp="fvalentijn">
+                  <persName>Valentijn, François</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="948">Collectanea malaica vocabularia: Hoc est congeries omnium
+                    dictionariorum malaicorum: hactenus editorum (Batavia: Apud Andream Lambertum
+                    Loderum 1707)</bibl>
+               <bibl corresp="699">Marsden, William: A Grammar of the Malayan language, with an
+                    introduction and praxis (London: Cox &amp; Baylis 1812)</bibl>
+               <bibl corresp="958">Marsden, William: Bibliotheca Marsdeniana philologica et
+                    orientalis. A catalogue of books and manuscripts collected with a view to the
+                    general comparison of languages, and to the study of Oriental literature
+                    (London: J. L. Cox 1827)</bibl>
+               <bibl corresp="350">Raffles, Sophia: Memoir of the Life and Public Services of Sir
+                    Thomas Stamford Raffles (London: John Murray 1830)</bibl>
+               <bibl corresp="351">Raffles, Thomas Stamford: The History of Java. In two Volumes
+                    (London: Black, Parbury, and Allen 1817)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Sir. Before I proceed to reply to your Queries
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wmarsden">Marsden, William</persName>
+               <date type="author" when="1831-05-21"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="350" type="prev">02.04.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wmarsden">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="kaw">Kawi</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="pi">Pali</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_353.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_354.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_355.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_356.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_357.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_358.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_359.jpg"/>
+      <graphic url="Marsden/Marsden-WvH_1831-05-21/Coll.ling.fol.53_360.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="176r"/>
+               <dateline>London 21.<hi rend="superscript">st</hi> May 1831</dateline>
+               <salute>My dear Sir,</salute>
+            </opener>
+            <p>Before I proceed to reply to your Queries, allow me to express my best thanks for
+                    the very kind &amp; handsome terms in which you speak of my literary labours. I
+                    can only say that during the long period of half a century that has elapsed
+                    since I first ventured to publish, they have always been directed to the
+                    investigation &amp; establishment of Truth.</p>
+            <p>In the first place you state that „<persName ref="tsraffles">M.
+                        Raffles</persName> tâche de prouver dans une lettre qu’il vous a adressé en
+                    1815 et qui se trouve dans <bibl sameAs="350">les Mémoires de sa vie</bibl>, que
+                    les rapports avec le continent de l’Inde et la civilisation qui en a été la
+                    suite, se sont établis plus tôt dans les îles Moluques qu’à <placeName ref="Java">Java</placeName>. Il dit à la
+                    suite de ce raisonnement (<bibl sameAs="350">p. 237</bibl>) que le Malay le plus
+                    cultivé (car c’est ainsi que je comprends l’expression <hi rend="underline">the
+                        highest Malay</hi>) est parlé dans les îles Moluques, et que la traduction
+                    de la Bible <del>dont <persName ref="tsraffles">S.<hi rend="superscript">r</hi>
+                            Thomas Raffles</persName> parle</del> dans ce langage est à peine
+                    (scarcely) <hi rend="underline">intelligible</hi> à ceux qui habitent les îles
+                    situées plus vers l’Ouest. Je servis curieux de connoitre, Monsieur, votre
+                    opinion sur ce passage et notamment sur les questions suivantes:“</p>
+            <p>Upon this I have to observe that the fact of the <pb n="176v"/> people of the
+                    Molucca islands having been civilised by intercourse with the continent of India
+                    at a more early period than those of <placeName ref="Java">Java</placeName>, does not appear to me, from what I
+                    know of those islands, to be well founded, nor is it probable in itself.
+                    Splendid remains of Indian temples, with their numerous deities, still exist in
+                    the latter great island, &amp; one of its dialects consists almost wholly of
+                    Hindu, <hi rend="underline">Pali</hi> or <hi rend="underline">Kawi</hi> words;
+                    but we have no evidence of the like being noticed in Ceram, Banda, or Amboyna.
+                    Their spices, it is true, have been objects of luxury in the West from the
+                    remotest times; yet it is more likely that <subst>
+                  <del>they</del>
+                  <add>these</add>
+               </subst> were collected at different <hi rend="underline">Emporia</hi>, &amp;
+                    from thence procured by vessels from India, the Persian Gulf, &amp; the Red Sea,
+                    than that the trade was a direct one to the remote islands where they were
+                    produced. It is true that since the period at which the Eastern archipelago has
+                    fallen under the dominion of Europeans, the progress of Christianity &amp; the
+                    degree of civilisation attending it has been much more considerable in the
+                    smaller islands, such as the Moluccas, than in the larger, where the native
+                    population is comparatively independent; but this foreign influence has
+                    certainly not had the effect of redering the Malayan dialect more pure. Of the
+                    contrary we find a proof in the „<bibl sameAs="948">Collectanea Malaica
+                        Vocabularia</bibl>“ published at <placeName ref="Batavia">Batavia</placeName> in 1707, where a list is given of „Eenighe Portuguysche
+                    woorden die inde Eylanden van Amboyna, Banda, en Molucken veel onder ’t Maleys
+                    werden vermenght“; amounting in number to 143. This, however, is to be
+                    understood of the common oral dialects, from which the written language varies
+                    much, although <pb n="177r"/> not essentially different. The latter preserves an
+                    uniformity, &amp; the reading of a letter from a prince of <hi rend="underline">Ternate</hi> is attended with no more difficulty than of one from the
+                    peninsula of Malacca. „High Malays“ may therefore be described as the language
+                    of the best literary composition, of the courts, &amp; of the superior class of
+                    people, as distinguished from the vulgar idiom of small traders, servants, &amp;
+                    others of the lower class – which, in truth, is that of the generality of
+                    Europeans.</p>
+            <p>You then ask: 1.° „Quelle est la traduction de la Bible dont <persName ref="tsraffles">S.<hi rend="superscript">r</hi> Thomas Raffles</persName>
+                    parle? J’en trouve plusieurs dans <bibl sameAs="958">le Catalogue de votre
+                        bibliothèque</bibl>, mais n’en connois par moi-même que celle publiée
+                    récemment en lettres Romaines par la Societé biblique.“</p>
+            <p>It is difficult to say to which of the Translations <persName ref="tsraffles">S.<hi rend="superscript">r</hi> T. S. Raffles</persName> meant to
+                    refer, but I consider as decidedly the best, that which was printed at
+                        <placeName ref="Amsterdam">Amsterdam</placeName> in the year 1732, II vols.
+                        4.<hi rend="superscript">to</hi>, in a modified Roman character, &amp; of
+                    which an Edition in the Malayan character was printed at <placeName ref="Batavia">Batavia</placeName> in 1758, V. vols. 8.<hi rend="superscript">vo</hi>. No evidence appears of this translation having been prepared in a
+                    dialect peculiar to the Molucca islands, nor, as the style adopted is that of
+                    the High or literary, do I think that any distinction of dialect could be
+                    observed. The Ecclesiatics to whose pious labours we are indebted for the work,
+                    were liable, like other servants of the <orgName ref="11">East India
+                        Company</orgName>, to be removed from place to place, &amp; it is not
+                    improbable that more leisure or freedom from interruption may have been found at
+                    Amboyna than at <placeName ref="Batavia">Batavia</placeName>.</p>
+            <p>2.° „Cette traduction dont <persName ref="tsraffles">Raffles</persName> parle,
+                    diffère-t-elle en effet si fort pour le langage du Malay tel que Vous l’avez
+                    donné <pb n="177v"/> dans <bibl sameAs="699">votre Grammaire</bibl>, ou est-ce
+                    que <persName ref="tsraffles">Sir Thomas</persName> a voulu dire seulement que
+                    ce langage ressemble précisement trop au langage cultivé de Malacca pour être
+                    facilement compris par les personnes accoutumées aux dialectes vulgaires des
+                    îles plus vers l’Ouest, tandis qu’aux Moluques il est familier au peuple
+                    même?“</p>
+            <p>This is in great measure answered by what I have said above, &amp; it is only
+                    necessary to add, that persons who have acquired a competent knowledge of the
+                    Malayan language for the ordinary transactions of business, might still find
+                    themselves at a loss in the perusal of this version, &amp; would be disposed to
+                    attribute the difficulty of its being composed in the dialect of some remote
+                    place; &amp;, in fact, this superior style has been objected to by some
+                    preachers of the Gospel, as ill-suited to the generality of their congregations,
+                    which consist of the lower classes of people, to whom the other versions were
+                    more practically useful.</p>
+            <p>3.° „Si ce langage des Moluques diffère de celui de Malacca, est-ce dans les mots
+                    seulement, nommément dans un plus grand nombre de mots sanscrits, ou est-ce
+                    aussi dans les formes grammaticales? – Ce point est surtout d’une grande
+                    importance.“</p>
+            <p>The style employed in good writings &amp; by well-educated persons, in
+                    conversation (but without any particular reference to the Molucca islands) does
+                    contain a greater number of words derived from the Sanskrit, &amp; works on
+                    religious <pb n="178r"/> subjects, a much greater number of Arabic words, than
+                    occur in the common language; but the difference is not <sic>fundemental</sic>;
+                    any more than is that which arises from a greater degree of precision in the
+                    grammatical forms or mode of employing the prefixed &amp; affixed particles,
+                    answering the purpose of the Latin inflexions.</p>
+            <p>4.° „Je n’ai presque rien sur le dialecte des Moluques. Mais comme <persName ref="tsraffles">Raffles</persName> le nomme <hi rend="underline">Malay</hi>,
+                    je suppose qu’il ne diffère pas autant que le Javanois du Malay de Malacca.“</p>
+            <p>Of Amboyna &amp; the other spice islands I know little beyond what is contained
+                    in the celebrated works of <persName ref="fvalentijn">Valentyn</persName> &amp;
+                        <persName ref="gerumpf">Rumphius</persName>. In common with all others of
+                    the archipelago they have each their language of the interior, being a dialect
+                    of the Polynesian; &amp; besides this, the Malayan, as a general medium of
+                    communication, ist spoken in the sea-ports &amp; generally along the coasts. It
+                        <add>(the Malayan)</add> was in itself, originally, a Polynesian dialect,
+                    but has been so changed by various admixtures as to become a distinct language –
+                    written in a modified Arabic character &amp; essentially connected with the
+                    Mahometan religion. The <persName ref="cbrosses">President De Brosses</persName>
+                    first employed the term of „Polynesia“ as a geographical distinction, &amp; I
+                    availed myself of its adjective, „Polynesian“, to denote that extraordinary
+                    chain of language found to extend from the island of Madagascar to the further
+                    limit of the Pacific ocean – excepting always the languages of New Holland, New
+                    Guinea, &amp; many smaler islands inhabited by Negritos.</p>
+            <p>5.° „Quelle es tvotre opinion sur la priorité des Moluques <pb n="178v"/> pour
+                    les rapports avec l’Inde? J’avoue que j’ai cru au contraire la civilisation de
+                    <placeName ref="Java">Java</placeName> antérieure à toute autre dans ces mers. Un passage de l’<bibl sameAs="351">Histoire de Java</bibl> de <persName ref="tsraffles">Raffles</persName>
+                    vient à l’appui de cette hypothèse. Une tradition Javanoise rapportée <bibl sameAs="351">vol. II.
+                    p. 84.</bibl> raconte que <hi rend="underline">Aru</hi> <hi rend="underline">Bandan</hi>, venant des Moluques, connessoit moins bien que <hi rend="underline">Sawéla</hi> <hi rend="underline">Chala</hi> les
+                    caractères et l’écriture d’<hi rend="underline">Aji</hi> <hi rend="underline">Saka</hi>. Or, ces caractères étoient sans doute Indien. Ce
+                    n’est là qu’une conte, mais les contes de ce genre renferment quelques fois des
+                    traits de verité cachés dans des recits fabuleux.“</p>
+            <p>My opinion agrees with yours, Monsieur, that the island of <placeName ref="Java">Java</placeName> (with that of <placeName ref="Bali">
+                  <hi rend="underline">Balli</hi>
+               </placeName> in its immediate vicinity) was the <hi rend="underline">earliest</hi>, as it has certainly been the <hi rend="underline">principal</hi> seat of Hindu (Buddhist) colonisation; &amp;
+                    I am not aware of any grounds for believing that the Moluccas have any sort of
+                    claim to priority in this or any othe respect – excepting their rich vegetable
+                    produce. Nor indeed does my excellent friend <persName ref="tsraffles">Raffles</persName> (who made Javanese more than Malayan literature the
+                    object of his attention) express himself very decidedly on the subject when he
+                    says: „The Javanese annals do not trace the first coming of the people from
+                    Western India much beyond the thousand years back, but <hi rend="underline">tradition justifies us in believing</hi> that long before <placeName ref="Java">Java</placeName> was
+                    civilised, the inhabitants of the more Eastern islands, &amp; particularly the
+                    Moluccas, had considerably <hi rend="underline">emerged from a state of
+                        barbarism</hi>. This tradition is strongly confirmed by the <hi rend="underline">probability</hi> &amp;c.“</p>
+            <p>6.° „Le mot <hi rend="underline">Aji</hi>, prince, ne peut-il pas venir d’<hi rend="underline">ajong</hi>, mettre en ordre, arranger?“ &amp;c.</p>
+            <p>
+               <pb n="179r"/> As the word <hi rend="underline">aji</hi> belongs to the High
+                    language of <placeName ref="Java">Java</placeName> (quite distinct from the ordinary dialects) we must look for
+                    its meaning in the Sanskrit, where it signifies „victorious“, rather than in the
+                    Malayan; nor can it be admitted that the word <graphic url="Marsden/Marsden-WvH_1831_05_21/g1.png"/> <hi rend="underline">aji</hi>
+                    has such an affinity to <graphic url="Marsden/Marsden-WvH_1831_05_21/g2.png"/> or <graphic url="Marsden/Marsden-WvH_1831_05_21/g3.png"/> <hi rend="underline">ajōng</hi> as to warrant
+                    an etymological inference.</p>
+            <p>In these answers I hope I have explained myself with sufficient clearness. Should
+                    it prove otherwise, I shall be happy to afford any further light you may
+                    require, &amp;</p>
+            <closer>
+               <salute>with apologies for the delay that has occured, I have the honour to be,
+                        with the highest respect, <lb/>My dear Sir, <lb/>Your faithful &amp;
+                        obedient <lb/>servant</salute>
+               <signed>W<hi rend="superscript">m</hi> Marsden</signed>
+               <address>
+                  <addrLine>His Excellency
+                    <lb/>the Baron de Humboldt
+                    <lb/>&amp;c &amp;c &amp;c</addrLine>
+               </address>
+               <lb/>
+               <pb n="179v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

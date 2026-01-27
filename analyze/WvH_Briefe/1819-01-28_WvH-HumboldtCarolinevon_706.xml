@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 28.01.1819<idno type="BBAW">706</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, A. v. Sydow (verschollen)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1916, Bd. 6, S.
+                            454–457. – Kappstein 1917, S. 331ff.; Oppeln-Bronikowski 1928, S. 302f.;
+                            Kappstein 1942, S. 13f.; Schreiber 1949, S. 103ff.; Voss 1949, S. 39, S.
+                            45, S. 119; Freese 1955, S. 814ff.; Nette 1956, S. 246f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 6807</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein zum</persName>
+               </person>
+               <person corresp="kahardenberg">
+                  <persName>Hardenberg, Karl August Fürst von</persName>
+               </person>
+               <person corresp="ahedemann">
+                  <persName>Hedemann, Adelheid von, geb. von Humboldt</persName>
+               </person>
+               <person corresp="agfhedemann">
+                  <persName>Hedemann, August Georg Friedrich von</persName>
+               </person>
+               <person corresp="dfkoreff">
+                  <persName>Koreff, David Ferdinand</persName>
+               </person>
+               <person corresp="cgkoerner">
+                  <persName>Körner, Christian Gottfried</persName>
+               </person>
+               <person corresp="hfkstein">
+                  <persName>Stein, Heinrich Friedrich Karl Reichsfreiherr vom und zum</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe dir in meinem letzten Brief so viele Dinge zu sagen
+                    gehabt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1819-01-28"/>
+               <placeName key="Frankfurt am Main">Frankfurt am Main</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Frankfurt, 28. Januar 1819</dateline>
+            </opener>
+            <p>Ich habe Dir in meinem letzten Brief so viele Dinge zu sagen gehabt, daß ich
+                    nicht habe dazu kommen können, Deine lieben Briefe zu beantworten. Du fragst
+                    mich, was <persName ref="dfkoreff">Koreff</persName> jetzt ist. Als er, ich
+                    denke ungefähr vor einem Jahr, in das Bureau des <persName ref="kahardenberg">Kanzlers</persName>s kam, hatte er gar keinen Titel. In <placeName ref="Aachen">Aachen</placeName> ist er Geheimer Ober-Regierungsrat geworden.
+                    Das ist derselbe Titel, den z. B. <persName ref="cgkoerner">Körner</persName>
+                    hat. Ich glaube nun auch, daß <persName ref="dfkoreff">Koreff</persName> in
+                    dieser Eigenschaft in <persName ref="ksfaltenstein">Altenstein</persName>s
+                    Departement angestellt ist, da es scheint, daß der <persName ref="kahardenberg">Kanzler</persName> sein Bureau auflösen will. Ob dies aber schon geschehen
+                    ist, weiß ich nicht. Dies sind indes nur die äußeren Attributionen. Denn sonst
+                    sprach er, als ob er alles gründete, stiftete, verordnete und eigentlich der
+                    Minister wäre.</p>
+            <p>… Allerdings können <persName ref="agfhedemann">Hedemann</persName> und <persName ref="ahedemann">Adelchen</persName> schon nicht leiden, wenn man anders
+                    handelt als es in ihrer Manier liegt. Das hängt aber ganz und gar mit sehr guten
+                    Eigenschaften in ihnen zusammen. Wenn eine gewisse Tüchtigkeit des praktischen
+                    Tuns, eine große Treue und Anhänglichkeit an die natürlichsten Verhältnisse
+                    nicht zugleich mit etwas eigentlich Idealischem in Geist und Gemüt verbunden
+                    ist, so ist neben der Stärke immer auch das Ausschließende da. Selbst in <persName ref="hfkstein">Stein</persName>
+                    hier merke ich das oft, obgleich den nun Jahre, Erfahrung und ein gewisser Grad
+                    der Phantasie, den er doch hat, oft darin weiter und zulassender machen. Alles
+                    im Menschen kommt auf die Mischung und das Verhältnis zwischen Wirklichkeit und
+                    Ideen in ihm an. Darin liegt das Geheimnis des Charakters, und das allein ist
+                    es, was dem Gemüt Farbe und Ton gibt. Die Menschen, die sich sonst in allem fast
+                    gleich sind, gehören dadurch wie in zwei verschiedene Klassen, und dies selbst
+                    bewirkt wieder die Phantasie, die nur gewöhnlich in einem viel beschränkteren
+                    Sinne genommen wird.</p>
+            <p>… Es ist mir, als stünde ich an einem Scheidewege des Lebens. Die Außenwelt hat
+                    mich nie so ernsthaft ergriffen, ich möchte sagen, so unausweichlich. Auch war
+                    der Abend, an dem ich die Kabinettsordre bekam, einer der wunderbarsten meines
+                    Lebens, und gewiß einer der wehmütigsten. Indes bin ich festen und auch guten
+                    Muts, wenn Du, liebe Seele, bei mir und gütig und nachsichtig mit mir bist.
+                    Daran hängt, darauf ruht alles. Ich habe ein inneres Sein, das keiner äußeren
+                    Mittel, keiner Zeit zur Beschäftigung bedarf, das, wie der Boden, über den die
+                    Welle geht, immer dasselbe bleibt, und nur in sich immer wächst, sich mit jedem
+                    Gedanken, jedem Gefühle, jeder Sorge vermischt, das mich nie sinken läßt, und
+                    mit dem ich alles gewöhnlich so genannte Unglück verachte, mit dem ich noch
+                    glücklich sein würde in der Enge eines Grabes, und das auf eine sehr wunderbare
+                    Weise mit der Phantasie vermischt ist. Ich lebe und webe darin, seit ich mir
+                    meiner selbst bewußt bin, alles Gute in mir stammt davon her und kehrt dahin
+                    zurück, und seit ich Dich besitze, ewig teures Herz, bist Du so darin verwebt,
+                    machst Du allein es eigentlich so ganz aus, daß ich mit Wahrheit sagen kann, daß
+                    ich vom Leben, ohne Dich auch lebend zu wissen, keinen Begriff habe. Bloß
+                    getrennt von Dir, leide ich am Innersten und Höchsten. Wenn ich also Dich wieder
+                    besitze, wenn Du mir bleibst und, soviel Du kannst, bei mir bleibst, habe ich
+                    eine Zuversicht, die wenig Menschen in diesem Grade kennen. Stein hat mir ein
+                    paarmal wiederholt, daß er sehr wünschte, daß Du ja bald mit dem Sommer kämst,
+                    weil ein Mann in einer bedeutenden Tätigkeit gar nicht ordentlich sein könnte
+                    als mit der, die jedes Leben mit ihm teilt. Diese Übereinstimmung bestätigt mir
+                    meine eigene Empfindung. Es ist im einzelnen Menschen nichts recht wahr und
+                    gediegen, was nicht, wenn auch in anderer Form, in allen und im ganzen
+                    Geschlecht liegt. Der Mensch ist überhaupt nichts, als nur durch die Kraft des
+                    Ganzen und indem er mit ihm zusammenzustimmen strebt. Dadurch nur läßt sich das
+                    Geheimnis der Sprache enträtseln, das sichere Kriterium der Wahrheit in aller
+                    Wissenschaft finden, und es ist der höchste Punkt, an den man alles Wirken nach
+                    außen hin anknüpfen muß. In sich aber ist dies selbst das Geheimnis des Lebens,
+                    das große Rätsel, das die Seele im Tode, solange man noch klares Bewußtsein
+                    haben kann, gespannt halten wird, was aber selbst der Tod vielleicht nicht ganz
+                    löst, wie der Mensch etwas für sich und doch nichts ohne den andern, ohne sein
+                    Geschlecht sein kann. Wenn ich bedenke, wie ich ins Leben hineingezogen worden
+                    bin und noch werde, so kommt es mir oft wie eine wunderbare Fügung des
+                    Schicksals vor. Ich ging hinein, bloß damit wir in Italien sein könnten, der
+                    Zufall führte mich fort, ich machte mich wieder los, um Geschäften und
+                    Verwickelungen zu entgehen, und kam in <placeName ref="Wien">Wien</placeName>
+                    gerade in neue und größere; an dies spann sich alles andere an. Nachher suchte
+                    ich wieder ein einfaches und ruhiges Verhältnis, verließ es ohne alle Absicht,
+                    nur um mit Dir zu sein, und stehe nun an dem Punkt, nach dem ich nie getrachtet
+                    habe. Die anderen wollen mich auch nicht da und ziehen mich wider meinen Willen
+                    hin. Sie werden es bereuen, ich hoffe, ich nicht. Der große Fehler des <persName ref="kahardenberg">Staatskanzler</persName>s, und der alles Schlimme, alles
+                    Halbe hervorgebracht hat, ist, daß er nicht Sinn und Charakter dazu hat, ein
+                    großes Geschäft frei mit anderen gleich Freien zu führen. Statt sich Leute zu
+                    suchen, die neben ihm an der ersten Stelle stehen konnten, raffte er immer neue
+                    Untergeordnete auf, behandelte noch die andern wie Werkzeuge und entfernte sie,
+                    wenn es nicht ging. Jetzt richtet ihn, und fast ohne daß sie sich ausspricht,
+                    die öffentliche Meinung, und er tritt ab, ohne daß man ihn nur vermißt. Bloß
+                    durch reines und uneigennütziges Verfolgen des entgegengesetzten Weges muß man
+                    im jetzigen Augenblick viel ausrichten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

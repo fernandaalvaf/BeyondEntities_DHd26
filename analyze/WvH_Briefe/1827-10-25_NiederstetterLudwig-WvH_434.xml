@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 24. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ludwig Niederstetter an Wilhelm von Humboldt, 25.10.1827<idno type="BBAW">434</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 135–136</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="wtilghman">
+                  <persName>Tilghman, William</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz gebe ich mir die Ehre in der Anlage eine
+                        Zeisbergersche Grammatik über die Sprache der Delawaren Indianer, von Herrn
+                        Duponceau die er mir für Eure Exzellenz mitgetheilt hat, zu übermachen
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="lniederstetter">Niederstetter, Ludwig</persName>
+               <date type="author" when="1827-10-25"/>
+               <placeName key="Philadelphia">Philadelphia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="lniederstetter">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="del">Delaware</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">24. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Niederstetter/Niederstetter-WvH_1827_10_25/Coll.ling.fol.52_280.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1827_10_25/Coll.ling.fol.52_281.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1827_10_25/Coll.ling.fol.52_282.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1827_10_25/Coll.ling.fol.52_283.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="135r"/> <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>gebe ich mir die Ehre in der Anlage eine <bibl sameAs="473">Uebersetzung</bibl>
+                    der <persName ref="dzeisberger">Zeisberger</persName> Grammatik über die Sprache
+                    der Delaware Indianer, von <persName ref="psduponceau">PE <hi rend="antiqua">Duponceau</hi>
+               </persName>
+               <note type="footnote" resp="editor">Das Kürzel
+                        "PE" steht für die französische Schreibung von Duponceaus Vornamen:
+                        Pierre-Étienne. [FZ]</note> die er mir für Ew. Excellenz mitgetheilt hat, zu
+                    übermachen, und benutze hiezu eine Schiffsgelegenheit nach <placeName ref="Hamburg">Hamburg</placeName> die sich gerade darbietet. In der Vorrede
+                    bemüht sich <persName ref="psduponceau">PE <hi rend="antiqua">Duponceau</hi>
+               </persName>, Ew. Excellenz Ansicht; daß die Sprachen der
+                    Nordamerikanischen Indianer blos <hi rend="antiqua">agglutinated</hi> wären –
+                    als einen Vorwurf zu bestreiten, weshalb diese Mittheilung Ew. Excellenz ohne
+                    Zweifel interessant seyn wird. <persName ref="psduponceau">PE <hi rend="antiqua">Duponceau</hi>
+               </persName> ist so gefällig gewesen neben einem <pb n="135v"/> Exemplar für mich, noch ein drittes zu meiner Disposition
+                    beizufügen, von dem ich keinen beßern Gebrauch zu machen gedenke, als indem ich
+                    es meiner Seits zu Ew. Excellenz beliebiger Disposition stelle.</p>
+            <p>Ebenso erlaube ich mir, zwei Exemplare einer neulichen Gedächtnißrede<note type="footnote" resp="editor">Horace Binney / Peter
+                    Stephen Duponceau / John Golder (1829): <hi rend="italic">Life of the honourable William
+                            Tilghman, late chief justice of the state of Pennsylvania: Compiled
+                            from the eulogies of two distinguished members of the Philadelphia Bar,
+                            who delivered them in commemoration of his virtues</hi>, Philadelphia:
+                        Printed by Thomas Town, for the author.</note> des <persName ref="psduponceau">PE <hi rend="antiqua">Duponceau</hi>
+               </persName> zu Ehren
+                    des Ober Richter <persName ref="wtilghman">
+                  <hi rend="antiqua">W. Tilghman</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="wtilghman">William Tilghman</persName> (1756–1827), Oberster
+                        Richter am Supreme Court von Pennsylvania, war von 1824 bis zu seinem Tod
+                        Präsident der <orgName ref="22">American Philosophical Society</orgName> in
+                            <placeName ref="Philadelphia">Philadelphia</placeName>. <persName ref="psduponceau">Duponceau</persName> war sein Nachfolger in diesem
+                        Amt. [FZ]</note> gehorsamst beizufügen.</p>
+            <p>Dergleichen Gedächtnißreden machen in diesem Lande, wo man die großen Männer nach
+                    republikanischer Sitte <del>nur</del> erst nach ihrem Tode ehrt, den Haupttheil
+                    der litterarischen Produktion aus.</p>
+            <p>Mein früheres gehorsames Schreiben v. <date when="1827-07-27">27. Juny</date>,
+                    datirt von <placeName ref="New York">New-York</placeName>, ist, wie ich hoffen
+                    durfte Ew. Excellenz richtig zugekommen, und dero Erwiederung, Ihre weitern
+                    gütigen Aufträge enthaltend wahrscheinlich unterweges. Ich glaube nicht
+                    hinzufügen zu dürfen, daß es mir zur besondren Genugthuung gereichen wird, <pb n="136r"/> sie soviel in meinen Kräften steht aufs beste auszurichten. Von
+                        <placeName ref="Havanna">
+                  <hi rend="antiqua">Havana</hi>
+               </placeName>, wohin ich mich gleichfalls
+                    gewandt, habe ich noch keine Antwort. – </p>
+            <closer>
+               <salute>Genehmigen Ew. Excellenz hochgeneigt die Versicherung meiner tiefen
+                        Verehrung und aufrichtigen Ergebenheit mit welcher ich Ehre habe mich zu
+                        unterzeichnen <lb/>Ew. Excellenz <lb/>gehorsamer Diener</salute>
+               <signed>Niederstetter</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Philadelphia</hi> den 25. Octbr. 1827</dateline>
+               <lb/>
+               <pb n="136v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

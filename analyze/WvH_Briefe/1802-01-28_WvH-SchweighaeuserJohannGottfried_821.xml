@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Gottfried Schweighäuser, 28.01.1802<idno type="BBAW">821</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Düsseldorf, Goethe-Museum,
+                            Anton-und-Katharina-Kippenberg-Stiftung</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1934, Nachtrag (separat erschienen als Nachtrag
+                            zu „Humboldts Briefe an Schweighäuser“) [non vidi]</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 704</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jdbarbie">
+                  <persName>Barbié du Bocage, Jean-Denis</persName>
+               </person>
+               <person corresp="pjbitaube">
+                  <persName>Bitaubé, Paul Jérémie</persName>
+               </person>
+               <person corresp="jfbourgoing">
+                  <persName>Bourgoing, Jean François Baron de</persName>
+               </person>
+               <person corresp="kgbrinckmann">
+                  <persName>Brinckmann, Karl Gustav von</persName>
+               </person>
+               <person corresp="hjcollin">
+                  <persName>Collin, Heinrich Joseph von</persName>
+               </person>
+               <person corresp="pcfdaunou">
+                  <persName>Daunou, Pierre Claude François</persName>
+               </person>
+               <person corresp="jjeschenburg">
+                  <persName>Eschenburg, Johann Joachim</persName>
+               </person>
+               <person corresp="euripides">
+                  <persName>Euripides</persName>
+               </person>
+               <person corresp="jafabricius">
+                  <persName>Fabricius, Johann Albert</persName>
+               </person>
+               <person corresp="jgfichte">
+                  <persName>Fichte, Johann Gottlieb</persName>
+               </person>
+               <person corresp="fvgentz">
+                  <persName>Gentz, Friedrich von</persName>
+               </person>
+               <person corresp="novalis">
+                  <persName>Hardenberg, Georg Philipp Friedrich von (d.i. der Dichter
+                            Novalis)</persName>
+               </person>
+               <person corresp="jhhorb">
+                  <persName>Horb, Johann Heinrich</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="jgjacobi">
+                  <persName>Jacobi, Johann Georg</persName>
+               </person>
+               <person corresp="fmklinger">
+                  <persName>Klinger, Friedrich Maximilian von</persName>
+               </person>
+               <person corresp="akotzebue">
+                  <persName>Kotzebue, August von</persName>
+               </person>
+               <person corresp="lslenormand">
+                  <persName>Lenormand, Louis-Sébastien</persName>
+               </person>
+               <person corresp="fwjschelling">
+                  <persName>Schelling, Friedrich Wilhelm Joseph von</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="gschlabrendorf">
+                  <persName>Schlabrendorf, Gustav Graf von</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="fdeschleiermacher">
+                  <persName>Schleiermacher, Friedrich Daniel Ernst</persName>
+               </person>
+               <person corresp="alschloezer">
+                  <persName>Schlözer, August Ludwig von</persName>
+               </person>
+               <person corresp="wshakespeare">
+                  <persName>Shakespeare, William</persName>
+               </person>
+               <person corresp="jbasuard">
+                  <persName>Suard, Jean Baptiste Antoine</persName>
+               </person>
+               <person corresp="jpfrichter">
+                  <persName>Richter, Johann Paul Friedrich (d.i. der Dichter Jean
+                            Paul)</persName>
+               </person>
+               <person corresp="algstael">
+                  <persName>Staël, Anne Louise Germaine de</persName>
+               </person>
+               <person corresp="pastapfer">
+                  <persName>Stapfer, Philipp Albert</persName>
+               </person>
+               <person corresp="jbasuard">
+                  <persName>Suard, Jean Baptiste Antoine</persName>
+               </person>
+               <person corresp="ltieck">
+                  <persName>Tieck, Ludwig</persName>
+               </person>
+               <person corresp="cvanderbourg">
+                  <persName>Vanderbourg, Martin-Marie-Charles de Boudens, Vicomte
+                            de</persName>
+               </person>
+               <person corresp="lvincke">
+                  <persName>Vincke, Ludwig Freiherr von</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1405">Archives littéraires de l’Europe, ou Mélanges de
+                        Littérature, d’Histoire et de Philosophie. Par une Société de Gens de
+                        Lettres. Suivis d’une Gazette littéraire universelle. Band I–IV, Paris:
+                        Henrichs / Tübingen: Cotta, 1804</bibl>
+               <bibl corresp="1407">Collin, Heinrich Joseph von (1802): Regulus. Eine Tragödie
+                        in fünf Aufzügen, Berlin: Unger</bibl>
+               <bibl corresp="1414">Fichte, Johann Gottlieb (1802): Grundlage der gesammten
+                        Wissenschaftslehre und Grundriss des Eigenthümlichen der Wissenschaftslehre
+                        in Rüksicht auf das theoretische Vermögen, Neue unveränderte Auflage,
+                        Tübingen: J. G. Cotta</bibl>
+               <bibl corresp="1416">Gentz, Friedrich (1801): Von dem politischen Zustande von
+                        Europa vor und nach der Französischen Revolution , Berlin: Heinrich
+                        Frölich</bibl>
+               <bibl corresp="1128">Jacobi, Friedrich Heinrich (1794): Woldemar, Königsberg:
+                        Nicolovius</bibl>
+               <bibl corresp="1410">Jacobi, Johann Georg (Hrsg.) (1796): Taschenbuch für das
+                        Jahr 1802, Hamburg: Friedrich Perthes</bibl>
+               <bibl corresp="1411">Klinger, Friedrich Maximilian von (1798): Geschichte eines
+                        Teutschen der neuesten Zeit, Leipzig: Hartknoch</bibl>
+               <bibl corresp="1409">Kotzebue, August von (1801): Des Teufels Lustschloß. Eine
+                        natürliche Zauber-Oper in drey Akten, Leipzig: Kummer</bibl>
+               <bibl corresp="1408">Kotzebue, August von (1803): Die Kreuzfahrer. Ein
+                        Schauspiel in fünf Akten, Augsburg: Frank</bibl>
+               <bibl corresp="1417">Le Publiciste, Paris, 1797–1810</bibl>
+               <bibl corresp="1413">Novalis (d.i. Friedrich von Hardenberg) (1802): Heinrich
+                        von Ofterdingen. Ein nachgelassener Roman von Novalis, Zwei Theile, Berlin:
+                        In der Buchhandlung der Realschule</bibl>
+               <bibl corresp="1390">Schlegel, August Wilhelm / Tieck, Ludwig (Hrsg.) (1802):
+                        Musen-Almanach für das Jahr 1802, Tübingen: Cotta</bibl>
+               <bibl corresp="1392">Schlegel, August Wilhelm (1803): Ion. Ein Schauspiel,
+                        Hamburg: Perthes</bibl>
+               <bibl corresp="1225">Schlegel, Friedrich (1797): Die Griechen und Römer.
+                        Historische und kritische Versuche über das Klassische Alterthum, Erster
+                        Band, Neustrelitz: Michaelis</bibl>
+               <bibl corresp="1406">Schlegel, Friedrich (1798): Geschichte der Poesie der
+                        Griechen und Römer, Berlin: Unger</bibl>
+               <bibl corresp="398">Schlegel, Friedrich (1802): Alarcos. Ein Trauerspiel,
+                        Berlin: Reimer</bibl>
+               <bibl corresp="1415">Schleiermacher, Friedrich Daniel Ernst (1800): Monologen.
+                        Eine Neujahrsgabe, Berlin: Christian Sigismund Spener</bibl>
+               <bibl corresp="1183">Schlözer, August Ludwig (Hrsg.) (1771): Allgemeine
+                        Nordische Geschichte. Aus den besten Nordischen Schriftstellern und eigenen
+                        Untersuchungen beschrieben, und als eine Geographische und Historische
+                        Einleitung zur richtigern Kenntniß aller Skandinavischen, Finnischen,
+                        Slavischen, Lettischen und Sibirischen Völker, besonders in alten und
+                        mittleren Zeiten, Halle: Johann Justinus Gebauer</bibl>
+               <bibl corresp="1412">Tieck, Ludwig (1798): Franz Sternbalds Wanderungen, eine
+                        altdeutsche Geschichte, Berlin: Unger</bibl>
+               <bibl corresp="1418">Wolf, Friedrich August (1801): M. Tulli Ciceronis quae
+                        vulgo feruntur orationes quatuor, recognovit animadversiones integras I.
+                        Marklandi et I. M. Gesneri suasque adiecit Frid. Aug. Wolfius, Berlin:
+                        Lagarde</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1802-01-28"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgschweighaeuser">Schweighäuser, Johann Gottfried</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig, mit Nachschrift von Caroline von
+                    Humboldt</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="egy">Ägyptisch (antik)</language>
+            <language ident="eu">Baskisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Januar 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/>
+               <dateline>Berlin, 28. Januar, 1802.</dateline>
+            </opener>
+            <p>Wie können Sie glauben, mein theurer Freund, daß ich ohne <subst>
+                  <del>eine</del>
+                  <add>ein</add>
+               </subst> sehr wichtiges Hinderniß die Antwort auf Ihren langen u. interessanten
+                    Brief so lang verschoben haben würde. Aber dieß Hinderniß war leider nur zu reel
+                    u. ich schwieg ebensowohl Ihret- als meintwegen.</p>
+            <p>
+               <persName ref="cvh1">Meine Frau</persName> war nemlich ungefähr von der Zeit, als
+                    ich Ihren Brief bekam an bis vor 8 Tagen so heftig u. zugleich so beunruhigend
+                    krank, daß es nicht bloß nur an Stimmung zum Schreiben fehlte, sondern daß ich
+                    auch Sie mit schlimmen u. so ungewissen Nachrichten quälen mochte. Der Gang
+                    dieser Krankheit war nemlich so äußerst verwickelt, daß der Arzt selbst fast
+                    immer nur von einer schlimmen Prognose in eine noch schlimmere fiel, u. ich
+                    selbst nicht mehr wußte, was ich davon denen sollte. Jetzt endlich hat es sich
+                    plötzlich u. so augenscheinlich gebessert, daß ich sie in wenig Tagen ausgehen
+                    zu sehen hoffe, u. zugleich sind alle Besorgnisse von größeren oder
+                    ungewöhnlichen Uebeln für die Folge verschwunden. Meinen Zustand während dieser
+                    Zeit vermag ich Ihnen kaum zu schildern. Ich habe zwar <persName ref="cvh1">meine Frau</persName> ein Paarmal in dringenderen, aber nie in einer mir
+                    selbst so gewiß scheinenden Gefahr gesehen. Ich habe seit 6 Wochen meine Stube
+                    kaum verlassen, u. schlechterdings niemand gesehen, als der <persName ref="cvh1">meine Frau</persName> zu besuchen kam, u. so hoffe ich, werden Sie, mein
+                    Lieber, mich mehr bedauern, als anklagen. Das eigentlich Uebel <persName ref="cvh1">meiner Frau</persName> u. vorzüglich das Beunruhigende dabei,
+                    bestand darin, daß sie schwanger zu seyn schien, u. die Aerzte dies doch
+                    läugneten, u. alle sehr mannigfaltige Uebel, an denen sie entsetzlich litt aus
+                    andern Ursachen herleiteten, u. wirklich herleiten mußten, so wunderbar waren
+                    die Symptome. Endlich hat es sich doch deutlich ausgewiesen, daß die
+                    Schwangerschaft wirklich ist, u. so ist auf einmal alle unnatürliche Besorgniß
+                    weggefallen. Zugleich hat sich, mehr durch Zufall, als Arznei, der
+                    Gesundheitszustand sichtbar gebessert.</p>
+            <p>Ich schreibe Ihnen ebenso ausführlich, liebster Freund, weil ich weiß, daß Sie
+                    einen freundschaftlichen u. herzlichen Antheil an uns nehmen, u. weil auch
+                    vielleicht andre Sie darnach fragen. Ich bitte Sie sogar, <persName ref="gschlabrendorf">Schlabrendorf</persName> davon, sobald Sie können, zu
+                    benachrichtigen. Ich hatte neulich einem <persName ref="lvincke">Hrn. v.
+                        Vincke</persName> zwei Zeilen an ihn mitgegeben, in denen ich ihm auf eine
+                    Weise über die Gesundheit <persName ref="cvh1">meiner Frau</persName>
+                    geschrieben hatte, die ihn gewiß auch beunruhigt. Wenn Sie aber mir antworten,
+                    so gehen Sie leichter über diesen Punkt weg. Ich beraube <persName ref="cvh1">meine Frau</persName> nicht gern des Vergnügens, Ihre Briefe zu lesen, u.
+                        <sic>Sie</sic>
+               <pb n="2"/> weiß doch im Grunde nicht, wie gefährlich sie eigentlich war.</p>
+            <p>
+               <persName ref="lvincke">Hrn. v. Vincke</persName> habe ich auch Sie, mein Bester,
+                    einige Zeilen mitgegeben. Sie werden mich recht sehr verbinden, wenn Sie Sich
+                    einige Mühe für ihn geben wollen. Belletristische Gesellschaften zwar, glaube
+                    ich, werden nicht sehr für ihn, so wie er nicht für sie seyn, aber er hat
+                    gründliche Kenntnisse von allem was Ackerbau u. Finanzen betrift, u. wünscht die
+                    Bekanntschaft der Gelehrten zu machen, die die an diese Dinge angrenzenden
+                    Fächer treiben. Niemand kann ihm dazu so gut Anleitung geben, als Sie, mein
+                    lieber Freund, u. ich bitte Sie recht sehr darum. Er <del type="fragment">ist
+                        übr</del> geht übrigens nur durch <placeName ref="Paris">Paris</placeName>
+                    durch, da unsre Regierung ihn nach Spanien geschickt hat, dort eine Anzahl Böcke
+                    u. Mutterschafe einzukaufen.</p>
+            <p>Ihre veränderte Lage hat mich recht eigentlich gefreut. Bei Ihrem Fleiß, Ihren
+                    Kenntnissen u. Ihren Bekanntschaften kann es Ihnen schlechterdings nicht an
+                    Mitteln fehlen, eine unabhängige Existenz zu behaupten, u. der einzige Vortheil,
+                    den Ihnen die Lage in <persName ref="lslenormand">leNormand</persName>s Hause
+                    verschaffte, war die Sicherheit des Auskommens. Der Aufenthalt in <placeName ref="Rouen">Rouen</placeName> aber machte diese Lage viel weniger angenehm
+                    u. nützlich.</p>
+            <p>Die Verbindung mit <persName ref="jbasuard">Suard</persName>, die Ihnen ganz
+                    vorzüglich nützlich seyn kann, müssen Sie ja cultiviren. Nichts gewährt in
+                        <placeName ref="Paris">Paris</placeName> so große Vortheile, als Arbeiten an
+                    einem Journal. Mit der Deutschen Literatur aber zweifle ich immer, daß man sehr
+                    glücklich seyn wird.</p>
+            <p>Sie wünschen, daß ich Ihnen in der letzteren Hinsicht Rath für Ihre <bibl sameAs="1405">Mélanges de littérature</bibl> geben soll, aber das ist in der
+                    That <sic>nich</sic> leicht. Man sucht in solchem Buch wohl mehr zur Ergetzung,
+                    als zum Unterricht. Ich müßte Sie also auch wohl vorzüglich auf belletristische
+                    Stücke aufmerksam machen. In dieser Rücksicht ist aber die Deutsche Literatur
+                    jetzt wirklich nicht reich, u. was sie noch besitzt, ist für Ihren Zweck gerade
+                    nicht sehr dankbar. Auszüge von Theaterstücken sind selten anziehend genug, u.
+                    von Deutschen würden Sie auch nur, da alsdann alles recht Eigenthümliche
+                    wegfällt, vielleicht nur Belege zur Deutschen Barbarei mehr geben. Auch wüßte
+                    ich Ihnen an solchen nur die bekannten <persName ref="fschiller">Schiller</persName>schen zu empfehlen. Es herrscht sonst eine gänzliche
+                    Armuth in diesem Fach. Zwar spricht man von 3 Stücken, die theils sehr die Bühne
+                    gesehen haben, theils noch sehen sollen, aber ich kenne sie nicht selbst u. kann
+                    also nicht darüber urtheilen. Zwei sind von den beiden Schlegeln. Das eine:
+                        <bibl sameAs="1392">Ion</bibl> – doch keine Uebersetzung des <persName ref="euripides">Euripide</persName>ischen – von <persName ref="awschlegel">August Wilhelm</persName>, dem eigentlichen Dichter u. Uebersetzer des
+                        <persName ref="wshakespeare">Shakespeare</persName>. Dies ist in <placeName ref="Weimar">Weimar</placeName>, einige behaupten mit glücklichem, andre mit
+                    zweifelhaftem Erfolge gegeben. Gedruckt ist es noch nicht. Das zweite: <bibl sameAs="398">Alarcos</bibl>, von <persName ref="fschlegel">Friedrich
+                        Schlegel</persName>, dem eigentlichen Philosophen, u. Vf. der <bibl sameAs="1406">Gesch. der Griech. Dichtkunst</bibl>. Es wird jetzt hier
+                    gedruckt, ob man es auch geben wird, ist noch ungewiß. Es ist auch eine Tragödie
+                    in der wirklich 3 Menschen umkommen. Aber man erspart ihnen die Todesangst, denn
+                    das <pb n="3"/> ganze Stück hat nur 2 Acte. Der Stoff nährt aus einer Spanischen
+                    Romanze her. Das 3<hi rend="superscript">
+                  <hi rend="underline">te</hi>
+               </hi>
+               <del type="fragment">S</del> dieser Stücke endlich, von dem man sogar schon in
+                    Zeitungen viel Aufhebens gemacht hat, ist gleichfalls noch ungedruckt u. bisher
+                    nur in Wien aufgeführt worden. Es heißt <bibl sameAs="1407">Regulus</bibl> u.
+                    ist von einem gewissen, mir sonst ungekannten <persName ref="hjcollin">Collins</persName>, den man sogar einmal für einen Franzosen, vermuthlich
+                    vom Rhein her ausgegeben hat. <persName ref="akotzebue">Kotzebue</persName> hat
+                    zur Eröfnung unsres neuen, übrigens nicht sehr geschmackvollen Theaters<note type="footnote" resp="editor">Gemeint ist der Vorgängerbau des heutigen
+                        Konzerthauses am Gendarmenmarkt: Architekt des "Königlichen
+                        Nationaltheaters" war <persName ref="cglanghans">Carl Gotthard
+                            Langhans</persName> (1732–1808); es brannte bereits am <date when="1817-07-29">29. Juli 1817</date> bei den Proben zu <persName ref="fschiller">Schiller</persName>s <bibl sameAs="1163">
+                     <hi rend="italic">Die Räuber</hi>
+                  </bibl> komplett aus und wurde durch
+                        den Neubau von <persName ref="kfschinkel">Schinkel</persName> ersetzt.
+                        [FZ]</note>, zwei neue Stücke, <bibl sameAs="1408">ein Trauerspiel: die
+                        Kreuzfahrer</bibl>
+               <note type="footnote" resp="editor">Die
+                        Eröffnungsvorstellung im neuen Theater fand am 1. Januar 1802 statt; vgl.
+                        die <ref type="linkExt"
+                       target="http://berlinerklassik.bbaw.de/BK/theater/Theaterzettel.html">Theater-Datenbank</ref> des abgeschlossenen Projektes an der BBAW s.v.
+                        "Kreuzfahrer" sowie die Rezension vom <date when="1802-01-16">16. Januar
+                            1802</date> in den <hi rend="italic">Annalen der neuen
+                            Nationalschaubühne zu Berlin und der gesammten deutschen dramatischen
+                            Literatur und Kunst</hi>. Hrsg. von Friedrich Eberhard Rambach, Berlin
+                        1802, <ref type="linkExt"
+                       target="https://books.google.de/books?id=l7SJKCD93OwC&amp;pg=PA59&amp;lpg=PA59&amp;dq=Annalen+des+neuen+Königlichen+Nationaltheaters+zu+Berlin&amp;source=bl&amp;ots=zPbywTLP0s&amp;sig=ACfU3U0B7LC3XCNwZyrDtOCymeMjGnPMFg&amp;hl=de&amp;sa=X&amp;ved=2ahUKEwiZ9JT3tZ7uAhVKPewKHXlcDzI4ChDoATAFegQIBBAC#v=onepage&amp;q=Kreuzfahrer&amp;f=false">S. 43</ref>. [FZ]</note> u. <bibl sameAs="1409">eine Oper</bibl>
+                    gemacht, sich aber mit beiden sehr blamirt.</p>
+            <p>Von lyrischen u. andren Gedichten kann ich Ihnen nur den <bibl sameAs="1390">Schlegel-Tiekschen Musenalmanach</bibl> empfehlen. Doch einige Stücke
+                        <persName ref="awschlegel">August Wilhelm</persName>s (vorzüglich in den
+                    Todtenopfern) u. einige Romanzen ausgenommen, ist es gleichfalls nicht viel. Im
+                        <persName ref="jgjacobi">Jacobi</persName>schen <bibl sameAs="1410">Almanach</bibl>, den Sie gewiß gesehen haben, sind hübsche u. sehr schön
+                    versificirte Scenen von <persName ref="kgbrinckmann">Brinckmann</persName>.</p>
+            <p>Wollten Sie für <bibl sameAs="1405">Ihre Mélanges</bibl> aus diesem Fach etwas
+                    benutzen, so könnte ich Ihnen kaum einen andren Rath geben, als die Romane
+                    vorzunehmen, durchzulaufen, u. piquante u. originelle Stellen, also immer
+                    philosophischen, oder psychologischen Gehalts auszuziehen u. zu übersetzen. In
+                    dieser Rücksicht würde ich Ihnen die <persName ref="jpfrichter">Richter</persName>schen, <persName ref="fmklinger">Klinger</persName>schen,
+                    u. einige <persName ref="ltieck">Tiek</persName>sche Romane vorzüglich
+                    empfehlen. <persName ref="jpfrichter">Richter</persName> ist neuerlich wenig
+                    fruchtbar gewesen. <persName ref="fmklinger">Klinger</persName> schreibt eine
+                    ganze Reihe zusammenhängender Romane. Es sind denke ich 14. Von denen aber
+                    bisher, glaub’ ich, nur 5 erschienen sind. In seiner <bibl sameAs="1411">Geschichte eines deutschen Mannes</bibl> finden Sie vorn eine Note darüber.
+                    Wie mir einer seiner Bekannten sagte, soll der letzte dieser Romane, der aber
+                    erst nach seien Tode erscheinen wird, damit schließen, daß die Kaiserin
+                    Katharina den Teufel, da sie in die Hölle kommt, vom Thron stürzt, u. sich an
+                    seine Stelle setzt. Ob es der Mühe werth seyn würde, von dieser ganzen
+                    Romanenreihe eine Idee zu geben, weiß ich nicht. Genialisch aber sind sie gewiß
+                    alle. Von den <persName ref="ltieck">Tiek</persName>schen soll der beste sein
+                        <bibl sameAs="1412">Sternbald</bibl> seyn. In seiner Genoveva<note type="footnote" resp="editor">Leben und Tod der heiligen Genoveva. In: <bibl sameAs="1318">Ludwig Tieck (1800): <hi rend="italic">Romantische
+                                Dichtungen</hi>
+                  </bibl>, Zweiter Theil, S. 1–330. [FZ]</note>, einer
+                    romantischen Tragödie, sind vortrefliche Sachen. Der <persName ref="novalis">Novalis</persName>, den Sie im <bibl sameAs="1390">Schlegelschen
+                        Almanach</bibl> finden<note type="footnote" resp="editor">Siehe im <bibl sameAs="1390">Musenalmanach für das Jahr 1802</bibl>: S. 35 "An Tieck";
+                        S. 160 "Bergmanns-Leben"; S. 162 "Lob des Weins"; S. 189 "Geistliche
+                        Lieder". [FZ]</note>, u. der eigentlich ein Hr. v. Hardenberg ist, hat (er
+                    starb in früher Jugend) ein Fragment eines Romans hinterlassen, das jetzt
+                    gedruckt wird, u. von dem man Wunderdinge sagt. Es heißt, glaube ich, <bibl sameAs="1413">Heinrich von Ofterdingen</bibl>.</p>
+            <p>In der metaphysischen Literatur spielen <persName ref="jgfichte">Fichte</persName> u. <persName ref="fwjschelling">Schelling</persName> noch
+                    immer die Hauptrolle. <persName ref="jgfichte">Fichte</persName> giebt jetzt
+                    seine Wissenschaftslehre heraus, die zu Ostern erscheinen<note type="footnote" resp="editor">Meint Humboldt die <bibl sameAs="1414">
+                     <hi rend="italic">Grundlage der gesammten Wissenschaftslehre und Grundriss des
+                                Eigenthümlichen der Wissenschaftslehre in Rüksicht auf das
+                                theoretische Vermögen, Neue unveränderte Auflage</hi>
+                  </bibl>? Dieses
+                        Buch ist allerdings sehr viel umfangreicher, als von Humboldt angegeben.
+                        [FZ]</note>, u. das Merkwürdige haben wird, daß sie nur 2 Bogen enthält, zu
+                    denen dann 6 Bogen Commentar folgen. Für ein metaphysisches Buch <del type="fragment">hat d</del> würde diese Kürze, sogar in <placeName ref="Paris">Paris</placeName>, glaube ich viel Empfehlungswürdiges haben.
+                    Von diesem ganzen Fach, dünkt mich, würde Ihr Zweck nur äußerst wenig
+                    ertragen.</p>
+            <p>
+               <pb n="4"/> Was neuere philologische Erscheinungen betrift, die Ihnen wichtig
+                    seyn könnten, so kann ich Sie nur auf eine Uebersetzung des Platon aufmerksam
+                    machen, die <persName ref="fschlegel">Friedrich Schlegel</persName> u. ein
+                    gewisser <del type="fragment">Schleichermache</del>
+               <persName ref="fdeschleiermacher">Schleiermacher</persName> gemeinschaftlich
+                    herausgeben, u. wovon der erste Theil in kurzem erscheinen wird. <persName ref="fdeschleiermacher">Schleiermacher</persName> ist Prediger hier, aber
+                    ein überaus guter Kopf, u. sehr gelehrter Grieche. Er soll die herrlichsten
+                    Verbesserungen im Theile gemacht haben. Er schreibt auch Deutsch sehr gut, u.
+                    hat philosophische sentimentale Betrachtungen unter dem Titel <bibl sameAs="1415">Monologen</bibl> herausgegeben. <persName ref="fschlegel">Schlegel</persName> wird zu dieser Uebersetzung eine große Einleitung
+                    machen, in der mehrere Gespräche des <persName ref="Platon">Platon</persName>,
+                    namentlich <hi rend="underline">die ganzen Gesetze</hi> (!!!) werden für unächt
+                    erklärt werden. Mit welchem Grunde weiß Gott. Aber Sie sehen: selbst die festen
+                    Felsen beben! Wenn aber diese Uebersetzung erscheint<note type="footnote" resp="editor">Schleiermachers Platon-Übersetzung erschien ab dem Jahr 1804.
+                        [FZ]</note>, so kann es nicht fehlen, daß sie Ihnen nicht sollte einen
+                    piquanten Artikel gewähren. Auch sollten Sie doch <persName ref="fschlegel">Schlegel</persName>s <bibl sameAs="1225">Griechen u. Römer</bibl> u. seine
+                        <bibl sameAs="1406">Gesch. der Griech. Dichtkunst</bibl> noch einmal in
+                    dieser Rücksicht ansehn.</p>
+            <p>Von Geschichte u. Politik weiß ich Ihnen nur <persName ref="fvgentz">Gentz</persName>, meines sehr genauen Freundes, <bibl sameAs="1416">Schrift: über den politischen Zustand Europas vor u. nach der
+                        Revolution</bibl> anzuführen. Diese aber ist, die Eigenheit gewisser
+                    Ansichten abgerechnet, classisch u. müßte einen überaus piquanten Auszug geben.
+                    Nur müßten Sie damit eilen. Denn es wird eben übersetzt. Es existirt in
+                        <placeName ref="Paris">Paris</placeName>, wie ich weiß. <persName ref="jfbourgoing">Bourgoing</persName> hat es.</p>
+            <p>Sie sehen daraus, lieber Freund, daß die Deutsche Literatur jetzt so reich nicht
+                    ist, als sie manchmal scheint. Ich wollte, es läge bloß an meiner mangelhaften
+                    Kenntniß, aber leider ist das wohl nicht der Fall. Indeß hat sie eine andere Art
+                    des Reichthums für den, der sie genau verfolgt. Es sind in der Deutschen
+                    Literatur mehr als in irgend einer andern eine Menge von Ideen ausgestreut.
+                    Diese finden sich überall, ohne daß man darum die einzelnen Bücher, die sie
+                    enthalten für Meisterstücke ausgeben kann. Ja es ist nicht einmal großes eignes
+                    Verdienst des Verfassers; eine gewisse Art die Gegenstände zu behandeln ist
+                    einmal in Cours, u. diese führt von selber jene interessanteren Ansichten
+                    herbei. Dies, glaube ich, wird keinem Unpartheiischen entgehen, der viele unsrer
+                    Schriftsteller liest. Ja es muß dem Fremden doppelt auffallen. Es ist damit wie
+                    mit einer Gesellschaft. Bei <persName ref="algstael">Fr. v. Stael</persName>
+                    z.B. ist es schon weniger Verdienst witzig zu seyn, auch wird da das, was in
+                    einer andern Gesellschaft schon viel Vogue machen würde, kaum mitgezählt. Man
+                    ist einmal auf diesen Ton montirt. Die dankbare Manier, die deutsche Literatur
+                    zu benutzen wäre also wohl freilich die, bei Bearbeitung irgend eines Fachs, die
+                    überall zerstreuten Ideen oder Materialien zu sammeln, u. in seine Arbeit zu
+                    verwandeln. Auch dazu führte Sie vielleicht einmal Ihr Weg, u. ich glaube, daß
+                        als-<pb n="5"/>dann die Philologie oder die Statistik, die Fächer seyn
+                    würden, in de<supplied cert="high">nen man</supplied>
+               <note type="footnote" resp="editor">Die obere rechte Ecke des Blattes fehlt.</note> am meisten
+                    vorgearbeitet finden dürfte. Gerade in diesen beiden aber wär<supplied cert="high">e aber</supplied> für Frankreich noch recht viel zu thun. So
+                    z.B. fehlt es doch ganz an <supplied cert="high">einer En</supplied>cyclopaedie
+                    der Philologie, wie auf eine minder gelehrte Art die dahin <unclear>ein<supplied cert="low">gehen</supplied>den</unclear>
+               <persName ref="jjeschenburg">Eschenburg</persName>ischen Werke, u. weitläuftig
+                    die von <persName ref="jafabricius">Fabricius</persName> u. <persName ref="jhhorb">Horb</persName>s sind.</p>
+            <p>
+               <persName ref="jbasuard">Suard</persName> bitte ich Sie, mich angelegentlicht zu
+                    empfehlen. Sein Ane<supplied cert="high">rbie</supplied>ten wegen des <bibl sameAs="1417">Publiciste</bibl> ist mir sehr schmeichelhaft gewesen, u. ich
+                    will sehr g<supplied cert="high">ern,</supplied> wenn sich die Gelegenheit
+                    findet, ihm einen oder den andern Beitrag zu <bibl sameAs="1417">seinem
+                        Journal</bibl> einfinden. Das Nächste dürften z.B. Nachrichten von <persName ref="avh">meinem Bruder</persName> seyn. Für das Bulletin danke ich Ihnen
+                    sehr. Es wäre mir sehr ängstlich, zu <unclear>beruhren</unclear>, ob ich ihn
+                    auch für 30# hinlänglich zurückgegeben hätte, u. überdieß muß das bloße Postgeld
+                    das Bulletin sehr theuer machen. Ich werde es aber hier empfehlen, u. wenn
+                    jemand meiner Bekanntschaft es haben wünschen sollte, es ihm schreiben.</p>
+            <p>
+               <persName ref="pastapfer">Stapfer</persName> ist, wie ich mit Gewißheit aus den
+                    Zeitungen gesehen zu haben glaube, nicht mehr Gesandter. Ist er aber auch
+                    überhaupt in <placeName ref="Paris">Paris</placeName>? Wäre er es, so grüßen Sie
+                    ihn herzlich von mir. Ich achte u. liebe ihn sehr.</p>
+            <p>Von der Aufnahme der <persName ref="fawolf">Wolf</persName>ischen <bibl sameAs="1418">Reden</bibl> wüßte ich sehr gern etwas Ausführliches. Man hat
+                    mir gesagt, es sey eine Commission beim Institut zum Rapport ernannt, u.
+                        <persName ref="pjbitaube">Bitaubé</persName> werde ihn machen. Ist dies
+                    gegründet, u. wie ist das Resultat ausgefallen? Empfehlen Sie mich ihm, u.
+                    uneingeschränkt alle, die sich meiner erinnern. An <persName ref="jdbarbie">Barbié</persName> lege ich Ihnen ein kleines Zettelchen bei.</p>
+            <p>Gegen <persName ref="jgjacobi">Jacobi</persName> bin ich freilich in einer
+                    entsetzlichen Schuld. Aber gewiß ohne Ursach, die sich auf meine Empfindeungen
+                    gegen ihn bezöge. Die einzige Schuld hat die Metaphysik, in die ich mich
+                    schlechterdings erst glaubte wieder hinein studiren zu müssen, ehe ich ihm
+                    antwortete, u. das ist denn keine so leichte Sache. <persName ref="algstael">Der
+                        Stael</persName> hat er, wie ich aus Ihrem Briefe schließe, misfallen. Das
+                    wundert mich. Denn er hat doch sonst eine so bewegliche Neigung zu gefallen, daß
+                    er sich leicht jeder Art zu seyn anschließt. Ich vermuthe, daß er daher selbst
+                    keinen guten Willen für sie gehabt hat, u. das ist mir schon aus <persName ref="cvanderbourg">Vanderbourg</persName>s u. selbst <persName ref="pcfdaunou">Daunou</persName>s Gesinnungen gegen sie begreiflich. Sagen
+                    Sie mir doch aber etwas darüber. Daß ich ihr nichts vom <bibl sameAs="1128">Woldemar</bibl> gesagt habe, dafür sollte er mir danken. Sie, der Sie den
+                        <bibl sameAs="1128">Woldemar</bibl> u. <persName ref="algstael">die
+                        Stael</persName> kennen, werden dies gewiß begreifen. <bibl sameAs="1128">Dies Buch</bibl> konnte bei <persName ref="algstael">der Stael</persName>
+                    nur, u. zwar à plat, fallen.<note type="footnote" resp="editor">Tomber à plat =
+                        keinen Anklang finden.</note>
+            </p>
+            <p>Für die Abschrift eines Theils der Aegyptischen Inschrift, u. die andern Notizen
+                    danke ich Ihnen sehr.</p>
+            <p>Ich bin <subst>
+                  <del>jetzt,</del>
+                  <add>jetzt</add>
+               </subst> mit der Ausarbeitung meines Büchelchens über die Basquen
+                        beschäftigt<note type="footnote" resp="editor">Die Arbeiten zum Baskischen
+                        beschäftigten Humboldt schließlich über zwei Jahrzehnte (siehe Wilhelm von
+                        Humboldt [2010]: Schriften zur Anthropologie der Basken, hrsg. von Bernhard
+                        Hurch, Paderborn: Schöningh, S. 7 [= Wilhelm von Humboldt. Schriften zur
+                        Sprachwissenschaft II/1]). [FZ]</note>. Ich bin soviel ich gekonnt habe,
+                    thätig gewesen, u. denke, Sie sollen es an der Schrift selbst erkennen. Ich habe
+                    besonders viel <pb n="6"/>
+               <supplied cert="high">über</supplied>
+               <note type="footnote" resp="editor">Die
+                        linke obere Ecke des Blattes fehlt.</note> die Analogie u. Etymologie
+                    des Baskischen gegrübelt, u. glaube wenig<supplied cert="high">stens
+                        den</supplied> Hauptschlüssel gefunden zu haben. Auch über die frühesten
+                        Völker<supplied cert="high">wander</supplied>ungen, die Celten, u.s.f.
+                    glaube ich jetzt klarer zu sehen. Das Buch, <supplied cert="high">welches</supplied> mir darin vortrefliche Dienste geleistet hat, ist
+                        <persName ref="alschloezer">Schlözer</persName>s <bibl sameAs="1183">allgemeine <supplied cert="high">No</supplied>rdische Geschichte</bibl>,
+                    die Sie kennen, u. ich wenig kannte, die mir jetzt <supplied cert="high">abe</supplied>r durchaus klassisch scheint.</p>
+            <closer>
+               <salute>Nun Adieu, lieber Freund. Ich lasse diesen Brief noch liegen, bis
+                            <supplied cert="high">ic</supplied>h <persName ref="algstael">der
+                            Stael</persName> geschrieben habe, damit beide Briefe zugleich abgehen.
+                        Vielleicht schreibe ich dann noch etwas hinzu. Bis dahin leben S<supplied cert="high">ie</supplied> recht wohl!</salute>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="Nachschrift von Caroline von Humboldt"/> den 6<hi rend="superscript">
+                  <hi rend="underline">ten</hi>
+               </hi> Febr. Meinen allerbesten Gruß lieber
+                    Schweighäuser und Dank für Ihr Andenken. Ach ich war ja Monate lang in einer
+                    Lage wo mir alle Lust vergieng meinen Freunden ein Zeichen des Lebens zu geben,
+                    und noch bin ich krank und bettlägrig. Doch, ob ich schon weiß wie viel mir noch
+                    auszuhalten übrig bleibt bin ich nicht ohne Hofnung der Genesung oder wenigstens
+                    der endlichen Entscheidung und beides macht heitrer.</p>
+            <p>Besorgen Sie mir, ich bitte inliegend Blättgen so schnell Sie können und nehmen
+                    Sie im voraus meinen Dank, für Ihre Gefälligkeit. – Leben Sie wohl und glüklich,
+                    schreiben Sie mir über Ihre Lage, Ihre Beschäftigungen und <sic>sein</sic> Sie meines
+                    Antheils auf immer versichert. Meine Kinder grüßen Sie. Sie sind schön wohl und
+                    blühend. Ich gehe in ein paar Tagen ganz allein auf unser Gut um mich in der
+                    tiefsten Stille von den ausgestandenen <placeName ref="Berlin">Berlin</placeName>er Leiden zu erholen. Adieu.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

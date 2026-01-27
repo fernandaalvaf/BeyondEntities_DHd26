@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 12.03.1827<idno type="BBAW">744</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 149–151</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11986</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="dlalbrecht">
+                  <persName>Albrecht, Daniel Ludwig</persName>
+               </person>
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="fcapreussen">
+                  <persName>Friedrich Carl Alexander, Prinz von Preußen</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cjordis">
+                  <persName>Jordis, Carl von</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="pslaplace">
+                  <persName>Laplace, Pierre-Simon</persName>
+               </person>
+               <person corresp="jkmaltzahn">
+                  <persName>Maltzahn, Joachim Karl Ludwig Mortimer Graf
+                    von</persName>
+               </person>
+               <person corresp="grose">
+                  <persName>Rose, Gustav</persName>
+               </person>
+               <person corresp="hrose">
+                  <persName>Rose, Heinrich</persName>
+               </person>
+               <person corresp="jjruehle">
+                  <persName>Rühle von Lilienstern, Johann Jakob Otto August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="106">Bonaparte, Napoleon (1809–1828): Description de l’Égypte ou recueil
+                    des observations et des recherches qui ont été faites en Égypte pendant
+                    l’expedition de l’Armée Française publié par les ordres de Sa Majesté l’empereur
+                    Napoléon le Grand, 20 Bände, Paris: L’Impremerie Impériale</bibl>
+               <bibl corresp="193">Bonpland, Aimé / Humboldt, Alexander von (1815–1825): Nova genera
+                    et species plantarum: Quas in peregrinatione ad plagam aequinoctialem orbis novi
+                    collegerunt descripserunt, partim adumbraverunt, 7 Bände, Paris: Librairie
+                    Grecque-Latine-Allemande</bibl>
+               <bibl corresp="196">Humboldt, Alexander von (1814–1825): Relation historique du Voyage
+                    aux Régions équinoxiales du Nouveau Continent fait en 1799, 1800, 1801, 1802,
+                    1803, et 1804 par Al. de Humboldt et A. Bonpland rédigé par Alexandre de
+                    Humboldt, 3 Bände, Paris: Schoell</bibl>
+               <bibl corresp="199">Humboldt, Wilhelm von (1826): Ueber die Bhagavad Gitâ. Bemerkungen
+                    über die Langloissche Recension der Schlegelschen Bhagavad-Gitâ. An Schlegel
+                    nach Bonn am 17. Junius 1825. geschickt. In: Indische Bibliothek 2, Heft 2, S.
+                    218–258; Heft 3, S. 328–372</bibl>
+               <bibl corresp="1089">Humboldt, Wilhelm von (1826): Sur le génie grammatical de la
+                    langue Chinoise, comparé à celui des autres langues. In: Journal Asiatique 9,
+                    August, S. 115–129</bibl>
+               <bibl corresp="202">Humboldt, Wilhelm von (1827): Lettre à Monsieur Abel Rémusat, sur
+                    la nature des formes grammaticales en général, et sur le génie de la langue
+                    Chinoise en particulier, Paris: Dondey-Dupré</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Je n’ai que le tems, cher ami, de t’écrire ces lignes par
+                        M. Jordis …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1827-03-12"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p> Je n’ai que le tems, cher ami, de t’écrire ces lignes par <persName ref="cjordis">M. Jordis</persName> que je n’ai pas besoin de recommender à
+                    ta bienveillance toute particulière. Voici enfin les premiers 3 exemplaires que
+                    j’ai pu avoir de <bibl sameAs="202">ton petit ouvrage</bibl> qui par ton nom, et
+                        <bibl sameAs="1089">les extraits donnés dans le Journal asiatique</bibl> a
+                    déjà eu de la célébrité avant de paraître. Tu n’as pas d’idée combien je suis
+                    tourmenté ici de procurer tes mémoires académiques sur les langues. On me les
+                    demande sans cesse. Fais moi la grâce de m’envoyer <bibl sameAs="199">les
+                        exemplaires qui te restent, surtout du Bhagavat Gita</bibl>. J’espère que
+                    tu seras content de l’impression. <bibl sameAs="202">Le petit livre</bibl> a très
+                    bonne mine. Je vais commencer la distribution la semaine prochaine, d’après les
+                    conseils de <persName ref="jpabel">Rémusat</persName>. Donne moi aussi ta liste
+                    pour l’Angleterre. Je t’enverrai à <placeName ref="Berlin">Berlin</placeName>
+                    par roulier une trentaine et plus si tu le veux. Nous disposons de 100 exempl.
+                    Je n’ai pas le tems aujourd’hui de remercier <persName ref="hbuelow">Bülow</persName> et <persName ref="kskunth">Kunth</persName> pour le joli
+                    logement qu’ils m’ont trouvé. J’en suis très content: mais la forteresse appelée
+                    Musée n’empêchera-t-elle pas les rayons du Soleil de pénétrer chez moi? Nous
+                    avons enterré <persName ref="pslaplace">M. Laplace</persName>: c’est une des
+                    grandes gloires de moins. La haine politique qu’on lui portait parce qu’il
+                    n’avait aucune élévation de caractère et courait toujours au secours du plus
+                    fort, a fait moins sentir sa perte ici. C’est une injustice cependant. La
+                    nomination de <persName ref="hbuelow">Bülow</persName> m’a fait un plaisir très
+                    vif: je te prie de l’en féliciter bien affectueusement en mon nom.
+                    Malheureusement la séparation de ta pauvre <persName ref="gbuelow">Gabriele</persName> est bien triste. On voudrait bien qu’en le menant à
+                        <placeName ref="London">Londres</placeName> tu puisses venir à <placeName ref="Paris">Paris</placeName>. Mais d’après ta dernière lettre, cher ami, le
+                    voyage même de <persName ref="hbuelow">Bülow</persName> en Angleterre me paraît
+                    bien réculé. <persName ref="jkmaltzahn">Malzahn</persName> croit qu’il doit se
+                    hâter pour <placeName ref="Wien">Vienne</placeName>. Il n’a personne pour le
+                    remplacer provisoirement. Je n’entends rien à tout cela. Je suis dans le
+                    ravissement de la santé de <persName ref="cvh1">la bonne Li</persName>. De tout
+                    côté on m’écrit que sa convalescence a pris des racines bien sûres. Quel
+                    bonheur. Je suis dans les larmes sur <bibl sameAs="196">un volume (cahier) de la
+                        Rel. hist.</bibl> que je me suis engagé de finir ici. Quelle horreur d’être
+                    lié par le tems pour un ouvrage intellectuel. Je dois cependant nécessairement
+                    être au commencement de Mai à <placeName ref="Berlin">Berlin</placeName>. Les
+                    noces du <persName ref="fcapreussen">Pr. Charles</persName> sont-elles fin de
+                    Mai? Fais moi la grâce, cher ami, d’envoyer la Statistique des crimes à
+                        <persName ref="dlalbrecht">Albrecht</persName> et les Annales à <persName ref="hrose">Rose</persName> ton voisin.<note type="footnote" resp="editor">Damit ist entweder der Chemiker Heinrich Rose gemeint, der 1827 <ref type="linkExt"
+                       target="https://digital.zlb.de/viewer/readingmode/34111663_1827/330/">in
+                            der Französischen Str. 51 wohnte</ref>, oder wohl wahrscheinlicher <persName ref="grose">dessen Bruder Gustav</persName>, der <ref type="linkExt"
+                       target="https://digital.zlb.de/viewer/readingmode/34111663_1827/330/">in
+                            der Markgrafenstr. 49</ref> lebte, an der Nordostecke des
+                        Gendarmenmarktes. Wilhelm von Humboldts Berliner Stadtwohnung befand sich zu
+                        der Zeit <ref type="linkExt"
+                       target="https://digital.zlb.de/viewer/image/34111663_1826/270/LOG_0024/">in der Französischen Str. 42</ref>, am Nordende des Gendarmenmarktes.
+                        [FZ]</note> Mille tendres amitiés. Les relieurs (cartonnages) de <bibl sameAs="106">l’ouvrage d’Egypte</bibl> m’ont forcé d’envoyer tout cet ouvrage
+                    par roulier dans une caisse à part. <bibl sameAs="193">La Nova Genera
+                        plant.</bibl> est à toi, comment peux-tu croire que nous voudrions cet
+                    ouvrage incomplet. Je n’oserais pas même en parler à <persName ref="kskunth">Kunth</persName>. Il est heureux de t’avoir pu offrir ce que d’ailleurs il
+                    possédait. J’ai été jusqu’ici bien peu heureux sur l’ouvrage du <persName ref="jjruehle">Général Rühl</persName>. Avant que le sort de la librairie
+                    n’est pas décidé par le rejet ou la réforme totale de cette abominable loi, les
+                    libraires ne veulent rien entreprendre. Je ne perdrai pas cet objet de vue. </p>
+            <closer>
+               <signed>A. Humboldt.</signed>
+               <lb/>
+               <dateline>Paris ce 12. Mars
+                        1827.</dateline>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <persName ref="jfchampollion">Champollion</persName> te présente ces
+                        hommages. Il prétend t’avoir écrit une longue lettre d’Italie (de <placeName ref="Livorno">Livourne</placeName>?). Ecris moi cher ami, si tu l’as
+                            reçue.<note type="footnote" resp="editor">Dabei wird es sich um den
+                            verlorenen Brief Champollions vom <date when="1826-06-12">12. Juni
+                                1826</date> aus Livorno handeln; siehe Messling (2008), S. 315.
+                            [FZ]</note>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

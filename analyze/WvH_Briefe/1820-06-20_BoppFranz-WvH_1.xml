@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von AD -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 20.06.1820<idno type="BBAW">1</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt; zuletzt bezeugt im Verst.-Kat. der Fa. K.E. Henrici
+                            (Berlin 1924), Nr. 253</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Harnack 1896, S. 64</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11612</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="abopp">
+                  <persName>Bopp, Andreas</persName>
+               </person>
+               <person corresp="ludwig1">
+                  <persName>Kronprinz Ludwig (später Ludwig I., König von
+                    Bayern)</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="560">Bopp, Franz: Analytical Comparison of the Sanskrit, Greek, Latin
+                    and Teutonic Languages. In: Annals of Oriental Literature (London: T. Rutt and
+                    Son 1820)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz haben mir durch Ihr gnädiges
+                        Zuschreiben eine sehr große Freude gemacht …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1820-06-20"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="3" type="next">04.01.1821</ref>
+               <ref target="82" type="prev">27.04.1820</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="am ind">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">24. Juni 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 12. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>Ew. Excellenz </opener>
+            <p>haben mir durch Ihr gnädiges Zuschreiben eine sehr grosse Freude gemacht. Die
+                    gelehrten Bemerkungen, welche dasselbe darbietet, sind für mich von äusserster
+                    Wichtigkeit. Es ist mir sehr lieb, dass Ew. Excellenz die Amerikanischen
+                    Sprachen zum Gegenstande Ihrer Untersuchungen machen; ich habe längst gewünscht,
+                    dass dieselben eine gründliche Bearbeitung, deren sie würdig sind, finden
+                    möchten. Die scharfsinnigen Beobachtungen Ew. Excellenz rechtfertigen meine
+                    Erwartungen, dass eine gründliche Durchforschung der Amerikanischen Sprachen
+                    sehr bedeutende Aufschlüsse über allgemeine Sprachengeschichte geben würde.
+                        …<note resp="editor" type="footnote">Auslassungspunkte bei
+                    Harnack.</note>
+            </p>
+            <p>Hierbey habe ich die Ehre Ew. Excellenz ein Exemplar <bibl sameAs="560">meiner
+                        früher erwähnten Arbeit</bibl> zu schicken; ich habe darin mehrere neue
+                    Ansichten zu entwickeln gesucht und verschiedene neue Berührungspunkte der
+                    verglichenen Sprachen aufgestellt. Es würde mich sehr freuen, wenn Ew. Excellenz
+                    die Abhandlung Ihrer Durchsicht würdigen und mich durch Ihr Urtheil darüber
+                    belehren wollten.</p>
+            <p>Indem es keine gedruckte Anleitung zum Lesen des Sanskrites giebt, wie
+                        <sic>Sie</sic> Ew. Excellenz wünschen, so habe ich mir das Vergnügen nicht
+                    entsagen können diesen Mangel in etwas zu ersetzen. Ich überschicke Ew.
+                    Excellenz hiermit die 4 ersten Seiten des <bibl sameAs="181">Hitopadesa</bibl> in
+                    Lateinischen Buchstaben, und wenn Hochdieselben diese kleine Arbeit für nützlich
+                    und eine Fortsetzung für erwünscht halten, so bitte ich Ew. Excellenz mich mit
+                    Ihren Befehlen zu beauftragen und überzeugt zu seyn, dass es für mich eine
+                    grosse Freude seyn wird sie zu erfüllen.</p>
+            <p>Ich werde wahrscheinlich im August <placeName ref="London">London</placeName>
+                    verlassen, kenne aber bis jetzt meine Bestimmung noch nicht, ich erwarte längst
+                    meine Ernennung zu einer Professur, um so mehr als mir das damit verbundene
+                    Gehalt zur Bestreitung meiner hiesigen Aufenthaltskosten beytragen sollte. Denn
+                    die Unterstützung die ich von dem <persName ref="ludwig1">Kronprinzen</persName>
+                    hatte, hörte mit dem verflossenen Jahre auf, und die Regierung hat es bey den
+                    tausend Gulden die ich von ihr hatte bewenden lassen; hiermit kann ich bey der
+                    grössten Einschränkung kaum die Hälfte meiner nothwendigsten Ausgaben
+                    bestreiten. Der <persName ref="ludwig1">Kronprinz</persName> begünstigt wie
+                    bekannt sehr die Wissenschaften, auch den Zweig, den ich ergriffen, ohne
+                        <persName ref="ludwig1">S. Königl. Hoheit</persName> hätte ich wirklich sehr
+                    geringe Hoffnung; wenn ich noch meinen Zweck bei der Bayrischen Regierung
+                    durchführe, so wird es durch den <persName ref="ludwig1">Kronprinzen</persName>
+                    seyn.</p>
+            <p>Im Fall mich Ew. Excellenz noch Anfang August mit einem Briefe beehren wollten,
+                    so bitte ich Sie denselben gnädigst an meinen Vater, <persName ref="abopp">Andreas Bopp</persName>, in <placeName ref="Aschaffenburg">Aschaffenburg</placeName> zu addressiren.</p>
+            <p>Ew. Excellenz werden vielleicht die Gnade haben beyliegenden Brief an seine
+                    Bestimmung ergehen zu lassen und meine Zudringlichkeit zu entschuldigen.</p>
+            <closer>
+               <salute>Mit tiefster Verehrung <lb/>Hochgebietender Herr Staatsminister
+                        <lb/>Ew. Excellenz <lb/>Unterthänigster</salute>
+               <signed>Fr.
+                        Bopp.</signed>
+               <lb/>
+               <dateline>London, den 20. Junius 1820.</dateline>
+               <address>
+                  <addrLine>37 Windsor Terrace</addrLine>
+                  <addrLine>City Road.</addrLine>
+               </address>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>Es wird Ew. Excellenz vielleicht angenehm seyn zu erfahren, dass <persName ref="hhwilson">Wilson</persName>’s <bibl sameAs="616">Sanskrit
+                            Dictionary</bibl> seit kurzem in <placeName ref="London">London</placeName> angekommen; ich zweifle jedoch, dass es jetzt schon
+                        im Verkaufe sey.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

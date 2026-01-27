@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Carl Ritter, 01.07.1826<idno type="BBAW">1068</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="alschloezer">
+                  <persName>Schlözer, August Ludwig von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1604">Schlözer, August Ludwig (1771): Übersetzung der Algemeinen
+                        Welthistorie, die in Engeland durch eine Geselschaft von Gelehrten
+                        ausgefertiget worden ... : nebst den Anmerkungen der holländischen
+                        Übersetzung auch vielen neuen Kupfern und Karten / genau durchges. und mit
+                        häufigen Anm. vermeret von Siegmund Jacob Baumgarten. Theil 31: Historie der
+                        neuern Zeiten, Halle: Gebauer</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeboren haben mir durch Ihr gütiges Schreiben von heute
+                    einen überaus schmeichelhaften Beweis Ihres Vertrauens gegeben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-07-01"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="critter">Ritter, Carl</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">01.07.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. November 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ew. Wohlgeboren haben mir durch Ihr gütiges Schreiben von heute<note type="footnote" resp="editor">Der Brief ist nicht nachzuweisen. [FZ]</note>
+                    einen überaus schmeichelhaften Beweis Ihres Vertrauens gegeben, für den ich
+                    Ihnen wahrhaft verbunden bin. Ich würde diesem Vertrauen nicht zu entsprechen
+                    glauben, wenn ich, da zum Nachdenken und Nachschlagen keine Zeit übrig ist, mich
+                    der Besorgniß hingeben wollte, in der Eil u. ohne nun eine gehörige Karte vor
+                    Augen zu haben, etwas zu sagen, <del>daß</del> das weder des Gegenstandes, noch
+                    Ihrer gütigen Einladung würdig ist. Ich glaube vielmehr es auf diese allerdings
+                    sehr drohende Gefahr hin wagen zu müssen, Ew. Wohlgeboren meine Meinung über die
+                    von Ihnen aufgestellte Preisaufgabe freimüthig und frei von allen kleinlich
+                        <unclear>egoistischen</unclear> Bedenklichkeiten zu sagen.<note type="footnote" resp="editor">Zu dieser Preisaufgabe siehe das Protokoll zur
+                        Leibniz-Sitzung der Berliner Akademie der Wissenschaften vom 3. Juli 1826
+                        (Archiv der BBAW, II-V, 182, 12v): "Als neue Preisaufgabe war von der
+                        historischphilologischen Classe die Untersuchung aufgegeben: Eine, neben der
+                        Benutzung der Geschichtsschreiber und Geographen, besonders auf Sprach-
+                        Kunst- und andere historische Denkmale gegründete Musterung der jetzt
+                        lebenden europäischen <del>Völker</del> Gebirgsvölker, von der obern Wolga, Duna,
+                        Dnepr an, zwischen dem schwarzen und baltischen Meere, gegen Südwest bis zum
+                        Adriatischen, und von diesem längs des nördlichen Po-Ufers, zu den Ost-Ufern
+                        der Rhone und des Mittel-Rheins; zum Behuf einer Grundlage der Ethnographie
+                        und Sprachen-Karte Europas. Der Einsendungs-Termin ist der 31. März 1828.
+                        Die Ertheilung des Preises von 50 Dukaten geschieht in der öffentlichen
+                        Sitzung am Jahrestage von Leibnitz, den 3. Julius desselben Jahres."
+                        [FZ]</note>
+            </p>
+            <p>Ich halte es für einen vortreflichen Gedanken, die ethnographischen Verhältnisse
+                    Europas zum Gegenstande einer akademischen Aufgabe zu machen, und stimme
+                    vollkommen in alles dasjenige ein, was Sie über diesen
+                        <unclear>Vorwurf</unclear> neuer Forschungen in Ihrer Einleitung zur neuen
+                    Preisaufgabe sagen. Das Bedürfniß ist, wie Ew. Wohlgeboren es vorstellen,
+                    dringend, und der Moment ist gekommen, wo <hi rend="underline">Sprach- und
+                        Völkerstudium</hi> die Lücke auszufüllen erlauben.</p>
+            <p>Worin ich eben nicht mit Ihnen, wie ich offenherzig gestehen muß, übereinstimmen
+                    kann, ist, daß Sie in der Aufgabe eine Musterung der <hi rend="underline">Gebirgs</hi>völker verlangen.</p>
+            <p>Zuerst ist dieser <hi rend="underline">Ausdruck</hi> zu wenig bestimmt, und wird
+                    es noch weniger dadurch, daß Sie zu den Gebirgen doch auch die niedrigeren
+                    Waldstriche mitnehmen. Wie weit sollte sich nun z.B. die <pb n="2*"/> Aufgabe
+                    über das platte Land von Schlesien erstrecken? So soll jedes auch kleinre
+                    Gebirge, wie der Harz, die kleinen Bergrücken in Westphalen mit aufgenommen
+                    werden, oder hat man nur die großen, das Riesengebirge, die Schweiz, die
+                    Karpathen u.s.f. gemeint?</p>
+            <p>Dann sieht man wenigstens <hi rend="underline">aus</hi> der <hi rend="underline">jetzigen Fassung</hi> nicht <hi rend="underline">recht</hi>, warum man
+                    gerade bei den Gebirgsvölkern stehen bleiben will. Die Einleitung entwickelt
+                    diese Idee gerade nicht, oder wenigstens nicht genug, u. mir wenigstens ist es
+                    so gegangen, daß ich diese Bestimmung nicht erwartete. Es heißt gar bei
+                    Gelegenheit der Albwiesen: <hi rend="underline">in dieses u. jenes, außerhalb
+                        großer Heerstraßen u.s.f. </hi>und hiermit scheint wohl ausgedrückt zu seyn,
+                    daß man die Untersuchung der <hi rend="underline">Gebirgs</hi>völker gerade noch
+                    vernachlässigt hält, daß man glaubt, daß es in den <hi rend="underline">Gebirgen</hi> gerade noch Sprach- u. andre Denkmäler giebt, welche Licht
+                    auf den Ueberrest des Landes verbreiten können. Ist das Ew. Wohlgeboren Meinung
+                    gewesen, so wage ich wirklich nicht, jetzt aus dem Stegreif weder zu behaupten,
+                    noch zu bestreiten, daß dieser Weg zu wichtigen Resultaten führen könne, allein
+                    so würde ich doch achten, dieser Idee in der <hi rend="underline">Einleitung zur
+                        Preisaufgabe mehr Raum</hi> zu vergönnen. Dadurch würde denn auch die
+                    Aufgabe von selbst im Ausdruck <hi rend="underline">Gebirge</hi> bestimmter
+                    werden. Denn es würde sich nun bald zeigen, bei welchen Gebirgen die
+                    Untersuchung gar nichts Neues anspräche, u. diese sonderte sich dann von selbst
+                    ab. Die Bewerber würden denn auch gleich auf das erst <hi rend="underline">neu</hi> zu leistende geführt, was immer gut ist, da man doch nicht in
+                    einer Preisaufgabe alles schon <hi rend="underline">Bekannte</hi> über einen so
+                    weitläuftigen Gegenstand wieder vortragen soll, noch kann.</p>
+            <p>Hat aber Ew. Wohlgeboren, ohne daß Sie die Aufgabe so beschränken sollten,
+                    vorgeschwebt, daß der Völkerzug oft u. meistens auf den Gebirgen fortgeht, u.
+                    sich von den Gebirgen aus verbreitet, so würde ich in der Aufgabe lieber sagen:
+                    „die jetztlebenden Europäischen <pb n="3*"/> Völkerstämme mit besondrer
+                    Rücksicht auf die Wege, die sie über die Gebirge genommen u. die <hi rend="underline">Spur</hi>, die sie in diesen, sowohl in den heutigen <hi rend="underline">Gebirgsvölkern</hi>, als in <hi rend="underline">todten
+                        Denkmalen</hi> hinterlassen haben.“ Denn in der Voraussetzung, von der ich
+                    jetzt rede, wollte man doch die Untersuchung nicht auf die Gebirgsvölker
+                    beschränken, sondern die Preisbewerber nun gleich dahin weisen, wo sie die
+                    tiefsten und ergiebigsten Forschungen zu machen hätten.</p>
+            <p>Wenn ich meine Meinung hier sagen darf, so scheint es mir, müßte die Preisaufgabe
+                    sich entweder insofern ganz auf die Gebirgsvölker beschränken, <sic>das</sic>
+                    man in diesen das noch vorzüglich Unbekannte zu finden meint, u. dann dadurch
+                    normirt u. eingeführt werde; oder sie müßte sich auf eine ethnographische
+                    Musterung Europas beziehen, wie wenn man z.B. das darüber von <persName ref="alschloezer">Schlözer</persName> im <bibl sameAs="1604">31. Th. der
+                        allgemeinen Weltgeschichte</bibl> Gesagte jetzt prüfen u. nach dem jetzigen
+                    Zustande der Wissenschaft berichtigen wollte. Die Gränze zwischen Europa u.
+                    Asien muß eben alsdann festgestellt werden nach ethnographischen Ansichten, u.
+                    dies scheint mir in Ew. Wohlgeboren Aufsatz sehr richtig geschehen zu seyn.</p>
+            <p>Nähme man die Aufgabe auf die letzte Weise, so ist sie überaus weitläuftig u. es
+                    scheint mir denn nothwendig, entweder ihr ihren ganzen Umfang zu lassen, ohne
+                    neu eine summarische Ausführung zu verlangen, oder ihren Umfang zu theilen.</p>
+            <p>Thäte man das Erstere so müßte die beantwortete Aufgabe nun die verschiednen
+                    Völkerstämme vollständig u. richtig angeben, sich aber über deren einzelne
+                    Verzweigungen nur im Allgemeinen einlassen. Sie wäre gelungen, wenn kein
+                    Völkerstamm fehlte, wenn keiner hineingelangen wäre, der nicht vorhanden ist,
+                    wenn nicht verschiedene Stämme als derselbe, oder derselbe, als verschieden
+                    genannt, u. wenn nicht wesentliche Irrthümer in ihrer Vertheilung begangen
+                    wären.</p>
+            <p>
+               <pb n="4*"/> Theilte man die Aufgabe, so könnte dies entweder nach den
+                    Völkerstämmen, oder nach den Länderstrichen geschehen.</p>
+            <p>In der ersteren Rücksicht könnte man die genaue Nachweisung aller Slawischen
+                    Völkerstämme u. ihre Spuren in Sprache, Namen, Sitten u. Denkmalen verlangen,
+                    und dies würde ich für eine höchst angemessene Fassung der Aufgabe halten. Die
+                    Preisbewerber müßten alsdann den slawischen Stamm nicht bloß von den offenbar
+                    von ihm verschiednen, wie es der sogenannte Thrakische ist, bestimmt scheiden,
+                    sondern auch von den Stämmen, die obgleich entweder selbst slawisch, oder viel
+                    Slawisches in sich tragend, dennoch nicht rein, oder bloß slawisch sind, wie die
+                    Litthauer u. die alten Preußen. Dann würde ich aber alle Bezeichnung des
+                    Landstriches weglassen.</p>
+            <p>In der zweiten der genannten Rücksichten glaube ich müßte der Länderstrich, wenn
+                    diese Fassung Nutzen greifen sollte, so bestimmt werden, daß er wenigstens Einen
+                    Völkerstamm ganz in sich faßte, u. dies ist wirklich in Ew. Wohlgeboren
+                    Bestimmung der Fall, die auf den Slawischen vorzugsweise paßt. Nur vermisse ich
+                    darin wieder einige Bestimmtheit. So vermisse ich z.B. wie weit zwischen dem
+                    Ausfluß der Donau <del>z.B.</del> u. dem Adriatischen Meere der Strich südlich
+                    genommen werden soll, ob nun bis an die Donau, oder tiefer u. durch ganz Ungarn,
+                    Griechenland u.s.f. Auf keine Weise aber kann ich in Europa selbst eine
+                    geographische Bestimmung sehr nützlich halten. Sie wird immer wieder die
+                    ethnographischen Verhältnisse zerschneiden u. stören, wie bei der
+                    Gränzbestimmung in Ew. Wohlgeboren Aufgabe der Deutsche Stamm vom
+                    Skandinavischen wirklich getrennt ist. </p>
+            <p>Ich fühle beim Durchlesen dieses Blattes, wie sehr es der Nachsicht Ew.
+                    Wohlgeboren bedarf. Ich bitte Sie aber nur zu glauben, daß ich geschrieben habe,
+                    weil Sie es so gütig wünschten, nicht aber in der Anmaßung etwas, worin Ew.
+                    Wohlgeboren so sehr Meister sind, bessern zu wollen. </p>
+            <closer>
+               <salute>Nichts würde so sehr der großen u. innigen Achtung entgegen seyn,
+                        die ich für Ew. Wohlgeboren hege, u. wenn ich Sie bitte, die erneuerte
+                        Versicherung anzunehmen.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <hi rend="antiqua">Tegel</hi>, den 1. <hi rend="antiqua">Jul</hi>.
+                    1826.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

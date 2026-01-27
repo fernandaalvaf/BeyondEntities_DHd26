@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 12.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Carl Eduard Meinicke,
+                                                  25.11.1832<idno type="BBAW">912</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Ruge 1878, S. 76–78</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8464</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="tforrest">
+                  <persName>Forrest, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="720">Forrest, Thomas: A voyage to New Guinea,
+                                                  and the Mollucas, from Balambangan: including on
+                                                  account of Magindano, Sooolos and other islands,
+                                                  and illustrated with thirty copperplates.
+                                                  Performed during the years 1774, 1775 and 1776. To
+                                                  which is added a vocabulary of the Magindano
+                                                  tongue (London: Scott 1779)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die
+                                                  Kawi-Sprache auf der Insel Java, nebst einer
+                                                  Einleitung über die Verschiedenheit des
+                                                  menschlichen Sprachbaues und ihren Einfluss auf
+                                                  die geistige Entwicklung des Menschengeschlechts.
+                                                  In: Abhandlungen der Königlichen Preußischen
+                                                  Akademie der Wissenschaften zu Berlin aus dem
+                                                  Jahre 1832, Zweiter Theil (Berlin: Druckerei der
+                                                  Königlichen Akademie der Wissenschaften
+                                                  1836)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich statte Ew. Wohlgeboren
+                                                  meinen herzlichsten Dank für Ihren mir so überaus
+                                                  schmeichelhaften Brief vom 19.hujs ab …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1832-11-25"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="910" type="next">9.12.1832</ref>
+               <ref target="418" type="prev">19.11.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident="aus">Australische Sprachen</language>
+            <language ident="ms">Malayisch</language>
+            <language ident="paa">Papua-Sprachen</language>
+            <!-- papuan languages -->
+            <language ident="ty">Tahitisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">12. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Ich statte Ew. Wohlgeboren meinen herzlichsten Dank für
+                                                  Ihren mir so überaus schmeichelhaften <ref type="link" target="418">Brief</ref> vom <date when="1832-11-19">19. hujs.</date> ab und freue
+                                                  mich sehr nunmehr den Plan Ihrer Arbeiten besser
+                                                  übersehen zu können. Ich kann demselben nur meinen
+                                                  ungetheilten Beifall schenken. Die Untersuchung
+                                                  über den Zustand, welcher in jener Inselwelt vor
+                                                  und unabhängig von dem Indischen Einflusse
+                                                  herrschte, ist gewiss die Grundlage jeder
+                                                  richtigen über diese Gegenden zu fassenden Ansicht
+                                                  und wiederum hierin mit Neu-Holland zu beginnen,
+                                                  ebenso zweckmässig. Denn dieser grosse Continent
+                                                  ist es doch wohl, von dem man die
+                                                  Inselbevölkerung, die seinen Bewohnern am meisten
+                                                  ähnlich ist, als ausgewandert, oder durch
+                                                  Naturereignisse abgerissen betrachten muss. Eine
+                                                  Erörterung des Zustandes desselben wird aber auch
+                                                  ausserdem gewiss sehr willkommen sein, da man
+                                                  wirklich sich jetzt mit ganz zerstückelten
+                                                  Nachrichten darüber behelfen muss.</p>
+            <p>Ew. Wohlgeboren sind so gütig, mir die von Ihnen
+                                                  gemachten Sammlungen über die sogenannten
+                                                  Austral-Neger anzubieten. Zu meiner jetzigen
+                                                  <bibl sameAs="227">Schrift</bibl>
+                                                  kann ich dieselben eigentlich nicht brauchen, so
+                                                  dankbar ich die Güte des Anerbietens erkenne. Es
+                                                  würde mich zu weit führen, in diese Materie tief
+                                                  einzugehen. Es wäre doch aber sehr schade, wenn so
+                                                  schöne Sammlungen dem Publikum lange entzogen
+                                                  blieben und <bibl sameAs="227">meine Schrift</bibl>
+                                                  könnte die Gelegenheit gewähren sie mitzutheilen.
+                                                  Ich könnte nämlich in einem Anhange eine Sammlung
+                                                  aller bis jetzt bekannten Wörter der
+                                                  Austral-Neger, welche ich natürlich als von Ihnen
+                                                  herkommend aufführen würde, geben. Unter
+                                                  Austral-Negern, was allerdings ein schwankender
+                                                  Name ist, müsste man denn ausser Neu-Holland und
+                                                  Neu-Guinea die Inseln und Stämme verstehen, die
+                                                  nicht sichtlich der Sprache nach zu den
+                                                  Malayischen und nicht, wie ganz offenbar, das dem
+                                                  Tahitischen so nahverwandte Neu-Seeland und die
+                                                  Fidgi-Inseln, zu den Südsee-Inseln gehören. Ew.
+                                                  Wohlgeboren dürften nur die Wörter geographisch
+                                                  und nach den verschiedenen Quellen vertheilt mir
+                                                  mittheilen. Die alphabetische Anordnung, wenn sie
+                                                  noch fehlen sollte und die Zusammenstellung aller
+                                                  in ein Deutsch-Australisches Wortverzeichniss
+                                                  würden meine Sorge sein. Dies wäre wenn Ew.
+                                                  Wohlgeboren damit übereinstimmten mein Plan. Doch
+                                                  muss ich mir vorbehalten, Ihnen genauer davon zu
+                                                  schreiben, wenn der Druck <bibl sameAs="227">meines
+                                                  Werkes</bibl> angegangen sein wird. Es ist dann
+                                                  noch vollkommen Zeit, weil derselbe doch gewiss
+                                                  einige Monate dauert.</p>
+            <p>Für den Augenblick aber würden Sie mich sehr verbinden,
+                                                  wenn Sie mir zu sagen die Güte hätten, ob Ihre
+                                                  Sammlungen etwas Näheres über folgende zwei Punkte
+                                                  enthalten. </p>
+            <p/>
+            <p>1.</p>
+            <p>Der Nahme der Papuas wird bekanntlich von dem der Sprache
+                                                  auf <placeName ref="Malakka">Malacca</placeName>
+                                                  eigenthümlichen Worte <foreign sameAs="paa">papuah</foreign>
+               <!-- Sprache? -->, gelockt,
+                                                  lockig, abgeleitet und dies Wort ist auch ein
+                                                  Javanisches. Dennoch zweifle ich, dass es wahrhaft
+                                                  Malayischen Ursprungs ist und wünschte von Ew.
+                                                  Wohlgeboren zu erfahren, ob es Ihnen vielleicht
+                                                  unter Wörtern von Neu-Guinea, oder von Inseln
+                                                  gleicher Bevölkerung aufgestossen ist? </p>
+            <p/>
+            <p>2.</p>
+            <p>Das für Gott auf Neu-Guinea übliche <foreign sameAs="paa">wat</foreign>, wird bekanntlich von
+                                                  mehreren Schriftstellern, ich denke auch von
+                                                  <persName ref="wmarsden">Marsden</persName>
+               <!-- -> Titel 699 (Grammatik) / 289 (Dictionary)? -->,
+                                                  für eine Verstümmelung von <foreign sameAs="ms">avatâram</foreign> gehalten.
+                                                  So ungewiss dies nun an sich scheint, so gewinnt
+                                                  es doch dadurch an Wahrscheinlichkeit, dass unter
+                                                  den wenigen bei <bibl sameAs="720">Forrest</bibl> gegebenen
+                                                  Wörtern einige sichtbar Sanskritische sind. Haben
+                                                  Sie aber vielleicht diesen oder einen ähnlichen
+                                                  Ausdruck auch in anderen Gegenden negerartiger
+                                                  Bevölkerung gefunden?</p>
+            <closer>
+               <salute> Ich bitte Ew. Wohlgeboren die
+                                                  Ausführlichkeit dieses Schreibens gütigst zu
+                                                  entschuldigen und die Versicherung meiner
+                                                  vollkommensten Hochachtung anzunehmen.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Tegel, den 25. November 1832.</dateline>
+               <lb/>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Rector Meinicke</addrLine>
+                  <addrLine>Wohlgeboren in <placeName ref="Prenzlau">Prenzlow</placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

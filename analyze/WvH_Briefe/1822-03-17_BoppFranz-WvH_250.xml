@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 17.03.1822<idno type="BBAW">250</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 264–265</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 165</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="567">Jones, Sir William: Hitópadésá, or, the Salutary Instructions of
+                    Vishnu Sarman, in the original Sanskrit. Printed London 1799, reprinted at the
+                    Hindoostanee Press (Calcutta: A. H. Hubbard 1810)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a series of
+                    connected Fables interspersed with Moral, Prudential &amp; Political Maxims,
+                    translated from an ancient manuscript in the Sanskreet Language with Explanatory
+                    Notes (London, Bath: R. Cruttwell 1787)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Excellenz wichtige Erörterungen über das
+                        Sanskrit-Gerundium habe ich mit großem Interesse gelesen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1822-03-17"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="89" type="next">18.03.1822</ref>
+               <ref target="249" type="prev">27.02.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">27. Juni 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 14. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1822_03_17/Coll.ling.fol.21_392.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_03_17/Coll.ling.fol.21_393.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_03_17/Coll.ling.fol.21_394.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_03_17/Coll.ling.fol.21_395.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="264r"/> <salute>Eurer Excellenz</salute>
+            </opener>
+            <p>wichtige Erörterungen über das Sanskrit-<hi rend="antiqua">Gerundium</hi> habe
+                    ich mit großem Interessen gelesen und ich glaube daß wir über diesen Punkt bald
+                    vollkommen einig seyn werden. Die Beyspiele verschiedener Art welche Ew
+                    Excellenz <add>gesammelt</add> sind bedeutsam für die Syntax, und wohl geeignet
+                    über die Formen auf <foreign sameAs="sa" n="transEd">tvā<graphic url="Bopp/Bopp-WvH_1822_03_17/0064.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/Bopp-WvH_1822_03_17/0065.svg"/>
+               </foreign> zu einer Entscheidung zu führen; nur in Bezug auf das letzte
+                    Beispiel hege ich großen Zweifel über die Richtigkeit des <persName ref="cwilkins">Wilkins</persName>ischen <bibl sameAs="564">Textes</bibl>, und
+                    meine <bibl sameAs="567">Calcutter Ausgabe</bibl> hilft uns durch eine bessere
+                    Lesart aus der Verlegenheit. <pb n="264v"/> Ich halte es bis jetzt noch für
+                    unmöglich daß <foreign sameAs="sa" n="transEd">dūtī<graphic url="Bopp/Bopp-WvH_1822_03_17/0066.svg"/>
+               </foreign> im Nominativ stehen
+                    könne und bezweifle daß sich fernere Beyspiele von Construktionen, wie diese
+                    wäre, finden lassen. Sollte es aber der Fall seyn, so würde ich mit Ew Excellenz
+                    aufhören besagte Form für ein <hi rend="antiqua">Gerundium</hi> zu halten. Die
+                        <bibl sameAs="567">Calcutter Ausgabe</bibl> hat statt <foreign sameAs="sa" n="transEd">dūtī<graphic url="Bopp/Bopp-WvH_1822_03_17/0066.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">dūtikayā<graphic url="Bopp/Bopp-WvH_1822_03_17/0067.svg"/>
+               </foreign> ein Instrumentalis
+                    von <foreign sameAs="sa" n="transEd">dūtikā<graphic url="Bopp/Bopp-WvH_1822_03_17/0068.svg"/>
+               </foreign>. Es schließt sich
+                    auf diese Weise dieses Beyspiel vollkommen an Hochderen 2tes Beyspiel an, und
+                    ich übersetze: „Hierauf wurde von der Botin, nach Gehung, alles dieses vor <hi rend="antiqua">Tungabala</hi> <del type="fragment">b</del>
+                    berichtet.</p>
+            <p>Ich gebe zu daß man in allen vorkommenden Fällen das Indische <hi rend="antiqua">Gerundium</hi> durch ein <hi rend="antiqua">participium</hi> übersetzen
+                    könnte, hier müßte man also sagen: „Hierauf wurde von der hingegangenen Botin
+                    alles dieses etc“</p>
+            <p>ich glaube aber nicht, <add>daß</add> jemals ein Indier sich <foreign sameAs="sa" n="transEd">gatvā<graphic url="Bopp/Bopp-WvH_1822_03_17/0069.svg"/>
+               </foreign> in einem so nahen
+                    Verhältniß zu <foreign sameAs="sa" n="transEd">dūtikayā<graphic url="Bopp/Bopp-WvH_1822_03_17/0067.svg"/>
+               </foreign>
+               <del>sich</del>
+                    gedacht habe, ich bin vielmehr überzeugt daß er sich <foreign sameAs="sa">
+                  <hi rend="antiqua">
+                     <hi rend="underline">gatvā</hi>
+                  </hi>
+               </foreign> für
+                    unabhängig von <foreign sameAs="sa">
+                  <hi rend="antiqua">dūtikayā</hi>
+               </foreign>
+                    dachte. Will man aber <foreign sameAs="sa">
+                  <hi rend="antiqua">gatvā</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="antiqua">kritvā</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="antiqua">uktvā</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="antiqua">āgatya</hi>
+               </foreign> für <hi rend="antiqua">participia</hi> <hi rend="antiqua">absoluta</hi> oder <hi rend="antiqua">abstracta</hi> ansehen,
+                    so trifft man mit dem <pb n="265r"/> Begriffe eines <hi rend="antiqua">gerundiums</hi> sehr nahe zusammen.</p>
+            <p>Auch bemerken Ew Excellenz in Bezug auf das 1ste und 2te Beyspiel sehr richtig,
+                    das <hi rend="antiqua">participium indeclinabile</hi> könne als für sich stehend
+                    betrachtet <subst>
+                  <del>und,</del>
+                  <add>und,</add>
+               </subst> wenn man
+                    interpunktirte, zwischen 2 <hi rend="antiqua">Commata</hi> gestellt werden. Ew
+                    Excellenz werden mir aber vielleicht beystimmen wenn ich aus Hochderen ganz
+                    richtiger Erklärung den Schluß ziehe, daß man im strengen <add>Sinne</add> die
+                    besagten Formen <subst>
+                  <del>als nichts</del>
+                  <add>nicht</add>
+               </subst> als
+                        <hi rend="antiqua">participia</hi> ansehen könne, weil sich diese auf ein
+                        <hi rend="antiqua">Subject</hi> beziehen müssen, so daß eigentlich im <hi rend="antiqua">participial</hi> Sinne zu übersetzen wäre: 1) der Höle
+                    gemacht habende <hi rend="antiqua">Hiranya</hi> wohnt. 2) durch den so geredet
+                    habenden wurden aller Bande gespalten. Wäre die letztere Uebersetzung richtig
+                    und <foreign sameAs="sa">
+                  <hi rend="antiqua">uktvā</hi>
+               </foreign> wirklich ein
+                        <hi rend="antiqua">participium</hi>, welches für alle <hi rend="antiqua">casus</hi> stehen könnend, hier den <hi rend="antiqua">instrumentalis</hi>
+                    vertrete, so würde man auch <foreign sameAs="sa">
+                  <hi rend="antiqua">tēna</hi>
+               </foreign> auslassen können, und <foreign sameAs="sa">
+                  <hi rend="antiqua">ēvam uktvā sarvvēśām bandanāni ýinnāni</hi>
+               </foreign>
+                    würde ebenfalls heißen können, „durch den so gesprochen habenden etc.<supplied cert="high">“</supplied>
+            </p>
+            <p>Was das 3te Beyspiel anbelangt, so ist dies eine etwas schwierige Stelle; ich
+                    beziehe <foreign sameAs="sa">
+                  <hi rend="antiqua">tēna</hi>
+               </foreign>, wie Ew
+                    Excellenz, auf den <pb n="265v"/> Fürsten, und betrachte diesen <hi rend="antiqua">Instrument.</hi> als zu dem <hi rend="antiqua">passiv-participium</hi> <foreign sameAs="sa" n="transEd">bhavitavyaṃ<graphic url="Bopp/Bopp-WvH_1822_03_17/0070.svg"/>
+               </foreign>
+                    gehörend: „Und morgen ist ihm (oder durch ihn), nach Gehung dahin, in des <hi rend="antiqua">Karpūra</hi>-Teiches Nähe zu seyn“; so wird aus der Jäger
+                    Mund ein Gerücht gehört. – (Das <term type="phon" ref="002">Visarga</term> von
+                        <foreign sameAs="sa" n="transEd">saraḥ<graphic url="Bopp/Bopp-WvH_1822_03_17/0071.svg"/>
+               </foreign> ist nicht Nominativ
+                    Zeichen, sondern <foreign sameAs="sa" n="transEd">saraḥ<graphic url="Bopp/Bopp-WvH_1822_03_17/0071.svg"/>
+               </foreign> ist die absolute
+                    Form für <foreign sameAs="sa" n="transEd">saras<graphic url="Bopp/Bopp-WvH_1822_03_17/0072.svg"/>
+               </foreign> nach der 8ten
+                    Deklin.</p>
+            <closer>
+               <salute>Hoffend bald die Ehre zu haben mich über diese Untersuchungen mit Ew
+                        Excellenz mündlich zu besprechen, verharrt in tiefster Ehrerbietung <lb/>Ew
+                        Excellenz <lb/>Unterthäniger </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <dateline>Berlin den 17<hi rend="superscript">ten</hi> März 1822</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

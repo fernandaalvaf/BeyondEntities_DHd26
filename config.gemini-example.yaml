@@ -1,0 +1,68 @@
+database:
+  driver: "mysql+pymysql"        # oder "postgresql", "sqlite", etc.
+  host: "localhost"
+  port: 3310
+  user: "root"
+  password: "your_mysql_password"
+  name: "cn_data"
+  # SQL-Query, die mindestens id und ein Textfeld (sourcetext) liefert
+  query: |
+    SELECT
+      id,
+      brieftext AS sourcetext
+    FROM briefe
+    WHERE processed = FALSE
+    LIMIT 10
+
+api:
+  # === GOOGLE GEMINI API KONFIGURATION ===
+  api_provider: "gemini"
+  base_url: "https://generativelanguage.googleapis.com"
+  endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
+  api_key: "AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # Ersetze mit deinem Key von https://aistudio.google.com/apikey
+  model: "gemini-2.5-flash-lite"
+  
+  # Alternative Gemini-Modelle:
+  # Für beste Qualität:
+  # endpoint: "/v1beta/models/gemini-1.5-pro:generateContent"
+  # model: "gemini-1.5-pro"
+  
+  # Für schnellere Verarbeitung:
+  # endpoint: "/v1beta/models/gemini-1.5-flash:generateContent"
+  # model: "gemini-1.5-flash"
+  
+  # Experimentell (Gemini 2.0):
+  # endpoint: "/v1beta/models/gemini-2.0-flash-exp:generateContent"
+  # model: "gemini-2.0-flash-exp"
+  
+  # HINWEIS: Der API-Key wird als Query-Parameter (?key=...) angehängt, nicht als Header
+  
+  timeout_seconds: 300
+  max_retries: 3
+  retry_delay_seconds: 3
+
+processing:
+  output_dir: "output_json"
+  required_keys:
+    - "entities"
+    - "praedikate"
+    - "triples"
+
+extraction:
+  default_granularity: 3          # Abstraktionslevel 1-5 (1=Kernaussage, 5=Vollständig)
+  entity_types:
+    - Person
+    - Ort
+    - Werk
+    - Institution
+    - Ereignis
+    - Konzept
+    - Zeitpunkt
+    - Sonstiges
+  normalize_predicates: true
+
+files:
+  input_dir: "analyze"
+  output_dir: "output_json"
+  filename_pattern: "{timestamp}-{source}.json"
+  xml_text_xpath: ".//text"

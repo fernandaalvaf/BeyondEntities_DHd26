@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 24. August 2017 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Gottlieb Welcker an Wilhelm von Humboldt, 30.07.1822<idno type="BBAW">1120</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Kekulé 1880, S. 193–198 (Auszug);
+                            Leitzmann 1911, S. 142–144 (Auszug, ergänzt Kekulé)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11700</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aischylos">
+                  <persName>Aischylos</persName>
+               </person>
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein zum</persName>
+               </person>
+               <person corresp="aboeckh">
+                  <persName>Boeckh, August</persName>
+               </person>
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von</persName>
+               </person>
+               <person corresp="fcdahlmann">
+                  <persName>Dahlmann, Friedrich Christoph</persName>
+               </person>
+               <person corresp="gldissen">
+                  <persName>Dissen, Georg Ludolf</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="kfheinrich">
+                  <persName>Heinrich, Karl Friedrich</persName>
+               </person>
+               <person corresp="jgherder">
+                  <persName>Herder, Johann Gottfried von</persName>
+               </person>
+               <person corresp="jgjhermann">
+                  <persName>Hermann, Johann Gottfried Jakob</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="cgheyne">
+                  <persName>Heyne, Christian Gottlob</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="fcwjacobs">
+                  <persName>Jacobs, Friedrich Christian Wilhelm</persName>
+               </person>
+               <person corresp="gamichaelis">
+                  <persName>Michaelis, Gustav Adolf</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="cgschuetz">
+                  <persName>Schütz, Christian Gottfried</persName>
+               </person>
+               <person corresp="sophokles">
+                  <persName>Sophokles</persName>
+               </person>
+               <person corresp="terenz">
+                  <persName>Terentius, Komödiendichter</persName>
+               </person>
+               <person corresp="lvincke">
+                  <persName>Vincke, Ludwig Freiherr von</persName>
+               </person>
+               <person corresp="ctwelcker">
+                  <persName>Welcker, Carl Theodor</persName>
+               </person>
+               <person corresp="ewelcker">
+                  <persName>Welcker, Emma</persName>
+               </person>
+               <person corresp="jjwinckelmann">
+                  <persName>Winckelmann, Johann Joachim</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1119">Böckh, August (1821): Πινδάρου τά σωζόμενα. Pindari Opera
+                        quae supersunt. Tomi secundi pars altera, Leipzig: Weigel</bibl>
+               <bibl corresp="1095">Dahlmann, Friedrich Christoph (1822): Forschungen auf dem
+                        Gebiete der Geschichte, Erster Band, Altona: Hammerich</bibl>
+               <bibl corresp="1121">Heyne, Christian Gottlob (1798): Pindari Carmina cum
+                        lectionis varietate et adnotationibus, iterum curavit Chr. Gottl. Heyne.
+                        Volumen I, Göttingen: Dieterich</bibl>
+               <bibl corresp="1428">Homer: Ilias</bibl>
+               <bibl corresp="184">Homer: Odyssee</bibl>
+               <bibl corresp="975">Jacobs, Friedrich / Welcker, Friedrich Gottlieb (Hrsg.)
+                        (1825): Philostratorum imagines et Callistrati Statuae. Textum ad fidem
+                        veterum librorum recensuit et commentarium adiecit Fridericus Iacobs.
+                        Observationes, Archaeologici praesertim argumenti, addidit Fridericus
+                        Theophilus Welcker, Leipzig: Libraria Dyckiana</bibl>
+               <bibl corresp="1117">Schlegel, Friedrich (1822): Friedrich Schlegel’s sämmtliche
+                        Werke, Erster Band: Geschichte der alten und neuen Litteratur. Vorlesungen
+                        gehalten zu Wien im Jahre 1812. Zweyte verbesserte und vermehrte Ausgabe.
+                        Erster Theil, Wien: Jakob Mayer und Compagnie</bibl>
+               <bibl corresp="1118">Tittmann, Friedrich Wilhelm (1822): Darstellung der
+                        griechischen Staatsverfassungen, Leipzig: Weidmann / Reimer</bibl>
+               <bibl corresp="759">Welcker, Friedrich Gottlieb (1824): Die Aeschylische
+                        Trilogie Prometheus und die Kabirenweihe zu Lemnos, nebst Winken über die
+                        Trilogie des Aeschylus überhaupt, Darmstadt: Leske</bibl>
+               <bibl corresp="976">Welcker, Friedrich Gottlieb (Hrsg.) (1826): Theognidis
+                        Reliquiae. Novo ordine disposuit, commentationem criticam et notas. Adiecit
+                        Friedericus Theophilus Welcker, Frankfurt/M.: H. L. Broenner</bibl>
+               <bibl corresp="1116">Winckelmann, Johann Joachim (1767): Monumenti antichi
+                        inediti, 2 Bände, Rom: a spese dell’autore</bibl>
+               <bibl corresp="1120">Zeitschrift für Geschichte und Auslegung der alten Kunst 1,
+                        1818 (hrsg. von F. G. Welcker, nur ein Band erschienen)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Der Brief, mit welchem Ew. Excellenz mir zuletzt einen großen
+                    Beweis der fortdauernden gütigsten Gesinnungen gaben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+               <date type="author" when="1822-07-30"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="752" type="prev">12.03.1822</ref>
+               <ref type="next" target="751">15.12.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="fgwelcker">Eigenhändig?</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="hbo">Hebräisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">03. März 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Bonn den 30. Jul. 1822.</dateline>
+            </opener>
+            <p>Der Brief, mit welchem Ew. Excellenz mir zuletzt einen großen Beweis der
+                    fortdauernden gütigsten Gesinnungen gaben, sehr wohlthuend und ermunternd, ist
+                    am <date when="1822-03-12">12. März</date> geschrieben. Daß ich nicht eher
+                    antworte, ist in mancherley, weniger absichtlichem als unwillkührlichem
+                    gegründet, und ich möchte immer eher, wenn ich Ew. Excellenz rege Thätigkeit und
+                    Ihre vielseitigen Forschungen mit meinen Briefen unterbreche, um Entschuldigung
+                    bitten, als dann wenn ich länger zurückgeblieben wäre. Vor einiger Zeit hatte
+                    ich das Vergnügen <persName ref="lvincke">Herrn von Vincke</persName> hier
+                    kennen zu lernen, und von ihm zu hören, daß Sie mit Ihrer ganzen Familie recht
+                    gesund seyen. Auch von <persName ref="gbuelow">Frau von Bülow</persName>, welche
+                    nach Ew. Excellenz letzten Nachrichten allein noch nicht völlig hergestellt war,
+                    wußte er nicht anders, als daß sie wohl sey. Man freut sich solcher Nachrichten
+                    um so mehr, als jetzt so selten Reisende kommen, und als überhaupt von
+                        <placeName ref="Berlin">Berlin</placeName> hierher unbegreiflich wenig
+                    Verbindung besteht. Auch sagte mir <persName ref="lvincke">Herr von
+                        Vincke</persName>, daß Ew. Excellenz Anpflanzungen machten, eine
+                    Liebhaberey, die noch gar nicht kannte, und die <persName ref="avh">Ihrem Herrn
+                        Bruder</persName> sehr schmeicheln wird. Von diesem schrieb uns mehrmals ein
+                    Vetter <persName ref="ewelcker">meiner Schwägerin</persName>, <persName ref="gamichaelis">Michaelis</persName>
+               <note type="footnote" resp="editor">Gustav Adolf Michaelis wuchs nach dem Tod des Vaters <persName ref="gpmichaelis">Gottfried Philipp</persName>, eines Sohnes von Johann
+                        David Michaelis, bei seiner Tante Luise (geb. Michaelis) und ihrem Mann,
+                        Christian Rudolf Wilhelm Wiedemann, auf. <persName ref="ewelcker">Seine
+                            Cousine Emma</persName> heiratete den Bruder von F. G. Welcker,
+                            <persName ref="ctwelcker">Carl Theodor</persName>. Gustav Adolf
+                        Michaelis hielt sich vom Sommer 1821 an für ein Jahr zu medizinischen
+                        Fortbildungszwecken in Paris auf. [FZ]</note>, aus <placeName ref="Paris">Paris</placeName> mit großer Begeisterung recht interessante
+                        Schilderungen.<note type="footnote" resp="editor">Der erste Absatz sowie das
+                        Ende des hier Wiedergebenen wurden von Leitzmann 1911 ediert, der für den
+                        umfangreichen mittleren Teil auf die Edition von Kekulé 1880 verweist.
+                        [FZ]</note>
+            </p>
+            <p>[Kekulé 1880, S. 193–198] Dass Ew. Excellenz die Zusammenstellung über den
+                    Aeschylischen Prometheus so wohl aufgenommen haben<note type="footnote" resp="editor">Es handelt sich hierbei um einen Aufsatz, der während der
+                        nächsten beiden Jahre zu Welckers großem Prometheus-Werk (<bibl sameAs="759">
+                     <hi rend="italic">Die Aeschylische Trilogie Prometheus und die
+                                Kabirenweihe zu Lemnos, nebst Winken über die Trilogie des Aeschylus
+                                überhaupt</hi>
+                  </bibl>, Darmstadt: Leske 1824) erweitert werden
+                        sollte. Siehe hierzu die Anmerkung Welckers, zitiert bei Haym 1859, S. 55:
+                        "Ein auch in der Dedication der Trilogie Prometheus, Darmstadt 1824 an
+                            <persName ref="gldissen">Professor Dissen</persName> in <placeName ref="Göttingen">Göttingen</placeName> erwähnter handschriftlicher
+                        Aufsatz, der schon in <placeName ref="Gießen">Giessen</placeName> (wo auch
+                        die <bibl sameAs="1061">Uebersetzung der Wolken und der Frösche</bibl> aus
+                        zwei Vorlesungen hervorgegangen war) als Einleitung zu einer Vorlesung
+                        geschrieben worden war, und dessen zufällige Mittheilung von Bonn aus an
+                            <persName ref="gldissen">Dissen</persName> die Bekanntmachung, die er
+                        anrieht, veranlasst hat; unter dem Druck dehnte dann die Untersuchung sich
+                        auf die sämmtlichen Ueberreste des Aeschylus aus." [FZ]</note>, kann
+                    unmöglich anders als mir höchst erfreulich seyn. Auch wenn man durch unbefangene
+                    Untersuchung ein gewisses Vertrauen zu dem Ergebniss erhält, nimmt doch die
+                    Sicherheit sehr zu, entsteht vielmehr erst durch die Zustimmung des ganz
+                    unpartheyischen Dritten, wenn in diesem alle Bedingungen des Urtheils sich
+                    glücklich vereinigen. Ich habe später mich noch umgesehen, wie weit nach andern
+                    Bruchstücken und Titeln äschylischer Stücke dies Form der Trilogie bey ihm
+                    rechte, und allerlei Reflexionen über Verhältnisse und Zusammenhang der
+                    Griechischen Kunstentwicklung werden hierdurch von selbst wach. Bis auf
+                        <persName ref="homer">Homer</persName> zurück reichen unmittelbar die
+                    Folgerungen, und ich bin jetzo von dem Kunstplan der Ilias sowie der <bibl sameAs="184">Odyssee</bibl> so überzeugt, dass mir der Meister Flicklied und
+                    was damit zusammenhängt einen wahren Widerwillen erregt, obgleich mein Respect
+                    vor den Hauptvertretern entgegengesetzter Ansichten sehr gross ist. Historische
+                    und ästhetische Resultate sind oft wie die Gebirgsspitzen zu betrachten, die auf
+                    einer gewissen Stelle des Wegs nicht zu erblicken sind, die nur im Fortgang, wie
+                    man aus den Thallabyrinthen der Forschung sich mehr herauswindet, erscheinen.
+                    Nur giebt es auch viele, welche die am fernsten Horizonte leicht gezeichneten
+                    Linien auch dann noch lieber läugnen, wenn sie von dem Punkt, wohin man sie
+                    stellte, wirklich für ein gesundes Aug erkennbar sind. So fürchte ich, dass
+                        <persName ref="kfheinrich">mein College Heinrich</persName> meine homerische
+                    Ketzerey so bitter aufnehmen möchte, wenn sie einmal aus dem engeren Kreis der
+                    Zuhörer heraustrit, wie nur je eine theologische als gefährlich für das Heil der
+                    Welt betrachtet worden ist. Auch andre Bemerkungen über <persName ref="homer">Homer</persName> bin ich recht verlangend weiter verfolgen zu können. Als
+                    ich ihn im vorigen Herbst in <placeName ref="Aachen">Aachen</placeName> mit
+                        <persName ref="herodot">Herodot</persName>, und vielen andern auch ganz
+                    entfernten Autoren, cursorisch und fast schwelgerisch las, überraschten sie mich
+                    so sehr, dass ich kaum glaube, sie werden vor der Prüfung ganz zu nichte werden.
+                    Aber seitdem habe ich gethan was ich musste, nicht was ich wollte, und noch sehe
+                    ich mich weit abgeschnitten von meiner Lieblingsarbeit. Zunächst drängt mich der
+                    edle und liebenswürdige <persName ref="fcwjacobs">Jacobs</persName>, der
+                    meinetwegen <bibl sameAs="975">seine Ausgabe von Philostratos Bildern</bibl>
+                    schon über drey Jahre zurückhält, ihm meine Beiträge zu liefern, wozu ich in den
+                    Ferien, nach einer kurzen Reise, zu schreiten gedenke. Der Gewissenhaftigkeit im
+                    Worthalten werde ich mir dabey sehr bewusst werden: denn herzlich zuwider ist
+                    mir jetzt das Geschäft. Alsdann durchsehe ich <bibl sameAs="976">die Ausgabe des
+                        Theognis</bibl>, ein kritisches Wagestück, und eine Arbeit über die <bibl sameAs="1116">Monumenti inediti</bibl>, zum 8. Bande der <persName ref="jjwinckelmann">Winckelmann</persName>ischen Werke bestimmt<note type="footnote" resp="editor">Diese Arbeit Welckers über Winckelmanns <hi rend="italic">Monumenti antichi inediti</hi> ist nie erschienen. U.a. in
+                        der <hi rend="italic">Allgemeinen Literatur-Zeitung</hi> Nr. 156 von Juni
+                        1826, Sp. 420f. werben sowohl Welcker als auch die Walthersche Buchhandlung
+                        in Dresden, bei der das Buch als 9. Band der Weimarer Ausgabe erscheinen
+                        sollte, für eine Subskription des Werkes – offensichtlich ohne Erfolg.
+                        [FZ]</note>, beydes vor mehreren Jahren gearbeitet, und hoffentlich wird
+                    mich dann nichts mehr hindern an einer Beschäftigung, die ich mir so lang
+                    gewünscht habe; denn immer, wenn ich untersichte, musste ich den Lectionen
+                    nachgeben, die einen unbarmherzig aus dem Kreis, worin man sich recht
+                    einheimisch machen möchte, immer von Tag zu Tag fortreissen; schreibt man aber,
+                    so richtet man alles nach seinem eigenen Willen ein.</p>
+            <p>Aber ich komme von meinem Prometheus ab, wovon ich Ihnen doch, da Ew. Excellenz
+                    über einen Punkt so gütig waren, mir Ihre Zweifel auszuführen, noch mehr zu
+                    schreiben wünschte. Sie betrafen die Stelle V. 1035 ff., wo Hermes dem
+                    Prometheus verkündigt, er solle seiner Qual kein Ende erwarten, bis der
+                    Unsterblichen einer als Nachfolger seiner Leiden erscheinen und statt seiner in
+                    die Unterwelt gehn werde. Ich muss gestehn, dass ich die Ansicht, diese Stelle
+                    sey prophetisch, nicht aufgeben kann, obgleich die Erklärung, die Ew. Excellenz
+                    aufstellen, und die auch <persName ref="cgschuetz">Schütz</persName> angedeutet
+                    hat, in Vereinigung mit dem was Sie hinzufügen, ein ganz andres Ansehn gewinnt.
+                    Es scheint mir was Hermes setzt das Unmögliche nicht bedeuten, oder nicht
+                    verneinen zu können, dass das andre je geschehen werde, darum weil es gar keine
+                    ungriechische Vorstellung ist, dass einer für den andern in den Tod gehe, wie
+                    die Fabeln der Alkestis und die Dioskuren zeigen. Aber die Sache selbst und der
+                    Ausdruck dürften auch für einen solchen Sinn etwas zu ernsthaft und edel seyn.
+                        <persName ref="sophokles">Sophokles</persName> sagt im Phineus <foreign sameAs="grc">βλέφαρον κέκλεισταί γ’ ὡς καπηλείου θύραι</foreign>, d. i.
+                    schlecht oder gar nicht, und im Philoktet (861) <foreign sameAs="grc">ὥς τις
+                        Ἀΐδᾳ παρακείμενος βλέπει</foreign>. Aehnliches kommt mehr vor; was <persName ref="cgschuetz">Schütz</persName> aus <persName ref="terenz">Terenz</persName> anführt, gehört im Allgemeinen dahin. Dass Chiron, als
+                    Unsterblicher, <foreign sameAs="grc">θεός</foreign> genannt wird, fällt mir bey
+                        <persName ref="aischylos">Aeschylus</persName> nicht auf, da er auch den
+                    Prometheus öfter so nennt, im Gegensatz zu sterblichen Wesen. Apollodor freylich
+                    sagt nicht ausdrücklich, dass er den Umstand, welchen ich in Hermes’ Worten
+                    finde, aus <persName ref="aischylos">Aeschylus</persName> nehme: aber die
+                    Tragiker sind doch fast seine jüngste Quelle, und nur in Tragödien oder auch
+                    Satyrspielen durchgeführte Züge pflegt er, ausser den alten und allgemein
+                    bekannten, in seinen gedrängten Abriss aufzunehmen. Da er nun alles
+                    zusammenstellt, was <persName ref="aischylos">Aeschylus</persName> befolgt,
+                    Erschiessung des Adlers, Annahme des Bandes, und Stellung des Chiron, so dünkt
+                    mir, sey doch sehr wahrscheinlich, dass er diese Stelle gerade ganz nach
+                        <persName ref="aischylos">Aeschylus</persName> gefasst habe. Was Ew.
+                    Excellenz über die inneren Bezüge oder auch Widersprüche dieser mytischen
+                    Momente anführen, ist vollkommen gegründet; es ist aber sehr oft der Fall, dass
+                    die Dichter nur absichtlos oder doch ohne Vortheil für die darzustellende Idee
+                    mythische Züge mitnehmen, die einmal mit andern variirt und nachher verflochten
+                    worden waren. Das Amalgamiren ist eins der fruchtbarsten Principien im
+                    Mythischen gewesen, und mehr als durch etwas wird hierdurch die reine Auslegung
+                    erschwert. Da die äusserliche Erzählung immer verknüpfte, und alles als faktisch
+                    zusammenzureimen suchte, so konnte auch der auf das Bedeutsame bedachte und
+                    wählende Dichter doch nicht immer alles überflüssige ausscheiden, um nicht
+                    unvollständig oder unachtsam zu scheinen. Dass ich die Stellvertretung des
+                    Chiron an sich mit Opferideen nicht unvereinbar halten möchte, erriethen Ew.
+                    Excellenz schon aus der Anführung von der Alkestis und den Dioskuren: es kommen
+                    auch die vielen Opfertode der Königstöchter, der edelsten Erstlinge (<foreign sameAs="grc">ἀπαρχή</foreign>) u.s.w. in den Sagen hinzu. Der grosse
+                    Unterschied ist allerdings, dass Chiron nicht aus Aufopferung und Liebe stirbt,
+                    sondern wegen eigner Schmerzen. Auch gebe ich sehr gerne nach, dass ich im
+                    Uebrigen mit ihm und seinem Namen gespitzfündelt haben mag: ich war mir diess
+                    sogar bey der Abfassung ziemlich bewusst. Ich dachte nemlich an <foreign sameAs="grc">χειρ</foreign> (<foreign sameAs="grc">ευχειρ</foreign>,
+                        <foreign sameAs="grc">Χιρ-ων</foreign>) da Chiron zuerst Wundarzt ist: diese
+                    Fertigkeit bewundert das höhere Alterthum, <persName ref="aischylos">Aeschylus</persName> hätte sie können dem Geist nachstellen. Uebrigens ist
+                    in der That auffallend, wie viele übersehene Spiele mit Eigennamen selbst in der
+                    homerischen Poesie vorkommen. Später sah ich <persName ref="jgjhermann">Hermann</persName>
+               <hi rend="italic">de tetralogia dramatum Graecorum</hi>
+               <note type="footnote" resp="editor">Welcker meint wohl Gottfried Hermanns 1819 erschienene <hi rend="italic">
+                     <bibl sameAs="1429">De compositione tetralogiarum
+                                tragicarum dissertatio</bibl>
+                  </hi>, eine nur 14-seitige Abhandlung.
+                        Die <hi rend="italic">
+                     <bibl sameAs="1430">De tetralogia dramatum
+                                Graecorum</bibl>
+                  </hi> von <persName ref="fawolf">Friedrich August
+                            Wolf</persName> erschien 1787 und enthält reine Textausgaben
+                        griechischer Tragödien ohne Kommentierung. [FZ]</note> ein, wo weder über
+                    Prometheus noch über Tetralogie viel gesagt ist, was nicht Eile zu verrathen
+                    schiene. Die Abschrift meines Aufsatzes war für Ew. Excellenz bestimmt, und es
+                    freut mich, dass Sie sie aufzubewahren nicht unwerth gefunden haben.</p>
+            <p>Was Sie über die Hieroglyphen, über Schrift, und die instinctmässige, oder
+                    nothwendige, vom glücklichen Zufall der Erfindung unabhängige Entwicklung, über
+                    Verschiedenheit der Völker in Beziehung auf diese Entwicklung schrieben, enthält
+                    in einzelnen Strichen ein ganzes System von Ansichten; von Ansichten, die der
+                    Ausführung und Anwendung in höchstem Grade würdig sind. Ich hoffe, dass nun bald
+                    die zögernde <orgName ref="3">Akademie</orgName> wieder eine Ihrer Vorlesungen
+                    wird abgedruckt haben. Mit Ungeduld warte ich darauf, indem es keine
+                    Wissenschaft giebt, der ich als Laie grösseren Geschmack abgewinnen könnte, als
+                    einer solchen Sprachphysiologie. Wenn die Naturstudien den Vorzug haben,
+                    zugleich die Einbildungskraft zu beschäftigen, so können sie gewiss dem Gedanken
+                    eine so tiefe Befriedigung nicht gewähren, wie eine Betrachtung der Sprache,
+                    welche mit der Schärfe der Abstraction und der Vergleichung einen sogestalten
+                    Stoff durchdringt und diesen Proteus zwingt, seine Geheimnisse auszureden. Ew.
+                    Excellenz haben in der neuen Ausgabe von <persName ref="fschlegel">F.
+                        Schlegel</persName>s <bibl sameAs="1117">Vorlesungen</bibl> die erweiterte
+                    Eintheilung der Sprachen nach den Buchstaben bemerkt (S. 169). Mir fiel bey den
+                    aspirabeln Buchstaben als Zeichen der göttlichen Inspiration in der hebräischen
+                    Sprache ein, wie ganz verschieden <persName ref="ahedemann">Ihre Frau Tochter
+                            <sic>Adelhaid</sic>
+               </persName> in <placeName ref="Wien">Wien</placeName>
+                    unterschied, als sie sagte: <hi rend="italic">ma voi col vostro hacchia tedesco:
+                        è propriamente per smorzare le candele</hi>.</p>
+            <p>Unter den neuern und neusten Schriften haben mich vorzüglich <persName ref="fcdahlmann">Dahlmann</persName>s <bibl sameAs="1095">historische
+                        Forschungen</bibl> angezogen, der den Kimonischen Frieden der Griechischen,
+                    und alle ihre vermeintlichen Grundlagen der älteren Dänischen Geschichte
+                    entzieht, dafür durch Grundsätze und Methode den Leser entschädigt. Was man im
+                    Mythischen nicht finden soll, zeigt er vortrefflich in dem letztgenannten Theile
+                    seines Buchs – was historisch brauchbares daraus abzunehmen sey, darauf wird die
+                    Aufmerksamkeit in dieser Zeit ohnehin gerichtet bleiben. Seitdem die <persName ref="jwgoethe">Göthe</persName>, <persName ref="jgherder">Herder</persName>,
+                    auch <persName ref="fschlegel">Schlegel</persName> u.a. den Geschmack der
+                    Ansichten, geistreichen Blicke, leichten Aussprüche, universellen Kenntnisse
+                    geweckt haben, der sich bey so vielen kenntnissleeren, unweisen und eitlen
+                    Schriftstellerlein jetzt findet, ist das Mythische ein allzubeliebter
+                    Gegenstand. Recht wacker und lehrreich finde ich auch <persName ref="fwtittmann">Tittmann</persName>s <bibl sameAs="1118">Griechische
+                        Staatsverfassungen</bibl>, obgleich einige der durchgehenden Ansichten mir
+                    nicht so fest zu stehn scheinen, wie dem Verfasser und das höhere Alterthum
+                    vielleicht nicht genug durchdrungen.</p>
+            <p>Ganz besonders aber freut mich <bibl sameAs="1119">die Erklärung der Pindarischen
+                        Siegslieder</bibl> von <persName ref="aboeckh">Böckh</persName> und
+                        <persName ref="gldissen">Dissen</persName>.<note type="footnote" resp="editor">In dem <bibl sameAs="1119">1821 erschienenen zweiten Teil des
+                            zweiten Bandes der von Böckh herausgegebenen Pindar-Ausgabe</bibl>
+                        wurden die Pindarschen Epinikien von Dissen und Böckh kommentiert.
+                        [FZ]</note> Ein guter Schritt vorwärts seit <persName ref="cgheyne">Heyne</persName>!<note type="footnote" resp="editor">Gemeint ist die <bibl sameAs="1121">Ausgabe der Siegeslieder Pindars</bibl> durch Christian
+                        Gottlob Heyne aus dem Jahr 1798. [FZ]</note> Diese Vereinigung von höherer,
+                    ästhetischer Auslegung mit der grammatischen hat mir als Forderung und Aufgabe
+                    längst vorgeschwebt: ein schöneres Beyspiel davon ist vielleicht an keinem alten
+                    Schriftsteller je gegeben worden. Es war hier so verdienstlicher, auf die
+                    Composition grosse Rücksicht zu nehmen, als auch der feinste und unverkennbarste
+                    Plan doch nur eine sehr bescheidne, fast unscheinbare Grazie entwickelt. Ich
+                    gestehe, dass mir <persName ref="gldissen">Dissen</persName>, mein inniger
+                    Freund, wenn er mir während der Arbeit häufig schrieb, zuweilen zu weit zu gehn
+                    schien, in der Verknüpfung des Mythischen mit den enkomischen Beziehungen und
+                    localen Umständen. Aber die Stücke die ich bis jetzt habe vergleichen können,
+                    lehren mich, dass er die durchgängige feine Absichtlichkeit des Dichters zu
+                    entdecken und nachzuweisen sehr geschickt war. Mir dünkt die Bedeutsamkeit,
+                    womit <persName ref="pindar">Pindar</persName> die Mythen anbringt, ist ungefähr
+                    mit derjenigen zu vergleichen, nach welcher die alte Kunst ihre Gegenstände zur
+                    Verzierung von Tempeln und Heiligthümern aller Art, zum Theil auch profaner
+                    Räume wählte und formte. Wir sind darin zurück, diese mythisch-poetischen Bezüge
+                    zu erkennen, weil wir nicht von Haus aus zu einer Fülle von Symbolen hingezogen
+                    und damit vertraut gemacht werden. Wie schön ist z.B. zur 3. Nemeischen Ode die
+                    Bemerkung, dass der Alte ein Theoros war, und das Gedicht bestimmt, unter dem
+                    Colleg der Theoren und in ihrem Haus aufgeführt zu werden! Ich möchte weiter
+                    gehn und dieses Theorion in den Versen 12 ff. namentlich verstehn. Des Landes
+                    Zier ist es (denn die Theoren als Ueberbringer und Bewahrer der Orakel haben
+                    überall grosses Ansehn: und ich glaube, dass die Pythier in Sparta nichts anders
+                    sind), in ihm wohnten nach der Ahnensage der Theoren selbst schon altadlige
+                    Myrmidonen, in deren Gesellschaft Aristokleidas nicht unwerth gewesen,
+                    aufgenommen zu werden. Und diese <foreign sameAs="grc">παλαίφατος
+                        ἀγορά</foreign> (Gesellschaft) mochte in altehrwürdigen Perücken, wie die
+                    Statuen uns zeigen, im Theorion aufgestellt seyn.</p>
+            <p>[Leitzmann 1911, 142–144] In Ansehung der 1. Nemeischen Ode kann ich <persName ref="gldissen">Dissen</persName>s Meynung, wie fein und gelehrt sie auch
+                    durchgeführt ist, nicht beytreten. Da Ew. Excellenz den kunstreichen,
+                    milderhabnen Dichter immer liebten, so bitte ich um Erlaubniß, Ihnen den
+                    Gesichtspunkt zur Prüfung mitzutheilen, unter welchem mir das Ganze dieser Ode
+                    sich befriedigend aufzulösen scheint.</p>
+            <p>
+               <persName ref="gldissen">Dissen</persName> glaubt Herakles Schlangentöder sey
+                    besungen zu Ehren des jungen Schlachtenhelden: denn <foreign sameAs="grc">πρώτᾳ
+                        ἐν ἡλικίᾳ</foreign> hatte Chromios gesiegt, wie Nem. 9, 42 ausdrücklich
+                    erwähnt ist. Aber wie weit steht dieß aus einander! Dort wird so viel füglicher
+                    Chromios dem Hektor vergleichen, der, am Skamander, wie jener am Heloros, das
+                    genahete Verderben auf die Feinde zurückgeworfen hatte. Das Hauptkriterion liegt
+                    in dem Umstande, daß Herakles als Neugeborner seigt: dieß findet seine Anwendung
+                    auf Chromios sofern dieser als Aetnäer, mit der Stadt selbst, den Lebenslauf
+                    eben angetreten hat. Hiernach ändert sich die Deutung mehrerer Stellen, zum
+                    Theil selbst dem Wortsinn nach, und das Ganze nimmt, wenn ich nicht im Ganzen
+                    und im Einzelnen zugleich irre, folgenden Gang.</p>
+            <p>Ortygia, Chromios Wohnsitz, darf ich preisen, da ihm, der nun Aetnäer wurde,
+                    Aetnas und Nemeas Zeus den Wagensieg vergönnt hat, den ersten Sieg der neuen
+                    Stadt. Durch seine Tugend ist der Grund des Ruhms gelegt, die ganze Insel
+                    verherrlicht, die fruchtbare, die Zeus mit Städten zu schmücken der Persephone
+                    verhieß, (mit Beziehung auf Aetna) die reich ist an wohlberittnen Streitern, an
+                    Olympischen Kränzen. (Hier nicht blos Punkt, sondern Ruhepunkt, Absatz.)</p>
+            <p>Oftmals nahm ich als Gast, als Sänger, an des Chromios von vielen Fremden
+                    besuchten Mahlen Theil. Viel Freunde gewann ihm seine Gastlichkeit, den Tadel zu
+                    überstimmen. (Einen auch in seinem jetzigen Sänger.) Verschieden ist Kunst und
+                    Beruf; genug, daß jeder auf geradem Weg den seinigen verfolgt. Macht und
+                    Reichthum ist wirksam in Werken (Chromios), der prophetische Geist, wem er
+                    eingeboren ist, in Wahrsagung (Pindar).</p>
+            <p>So vergleicht sich der Dichter, andeutend, mit Tiresias, der dem Kind Herakles
+                    aus dem Zeichen prophezeit, er werde Bestien, Feinde, selbst Giganten
+                    niederschmettern, indem er dem Chromios verkündigen will, der Kampfsieg werde
+                    Vorspiel großer Kriegesthaten seyn; aus dem von Göttern begünstigten Anfang (V.
+                    8) leitet er sie dichterisch ab, da ihm die politische Stellung des Schwagers
+                    von Hieron, und dessen kriegerische Neigung, wogegen Nem. 9, 28 und 46 ff.
+                    gerichtet zu seyn scheinen, wohl verrathen mochten, was zu erwarten sey. Der
+                    Stolz oder die Würde, womit der Dichter sich demnach dem Sieger zur Seite
+                    stellt, ist mehr aus dem Ton des Ehrenamts, das er verwaltet, als aus
+                    individuellem Selbstgefühl fließend. <foreign sameAs="grc">βουλαί</foreign> aber
+                    heißt wirklich Prophezeihung, Istm. 7, 11 ff. von der des Tiresias, und Themis
+                    und Nereus heißen bey <persName ref="pindar">Pindar</persName>s <foreign sameAs="grc">εὔβουλοι</foreign>. <persName ref="aboeckh">Böckh</persName>
+                    und <persName ref="gldissen">Dissen</persName> (<bibl sameAs="1119">p. 349 und
+                        354</bibl>) beziehen, mit dem Scholiasten, die Strophe auf das Siegsmahl,
+                    wobey man selbst an dem Präteritum <foreign sameAs="grc">ἔσταν</foreign>
+                    anstößt. Dann würde auch <foreign sameAs="grc">θαμὰ</foreign> (gewiß hier nicht
+                    soviel, sondern oft) <foreign sameAs="grc">δ’ ἀλλοδαπῶν οὐκ ἀπείραντοι δόμοι
+                        ἐντί</foreign> matt seyn. <foreign sameAs="grc">λέλογχε</foreign> p drückt
+                    die Wirkung der Gastfreundschaft aus, ganz in dem Sinn wie V. 31 <hi rend="italic">sq</hi>. (und jener ritterlichen Verschwendung Nem. 9, 3. 32.
+                    46.)</p>
+            <p>Im folgenden bleibt der Dichter bey der Gegeneinanderstellung des dichterischen
+                    Sehers mit dem reichen, heroischen Chromios stehn, indem er erst von diesem,
+                    dann von sich als Tiresias spricht. Und hier erklärt <persName ref="gldissen">Dissen</persName> wieder alles anders. Ich denke so: Du, dessen Art im Thun
+                    besteht, hast beydes, (nehmlich, daß du genießest, und daß du andre mit genießen
+                    lässest und dadurch Freunde erwirbst.) <foreign sameAs="grc">τῶν τε καὶ
+                        τῶν</foreign>, da es, nach dem Obigen, nicht auf das Vorhergehende, <foreign sameAs="grc">ἔργον</foreign> und <foreign sameAs="grc">βουλή</foreign>,
+                    sondern allein auf Chromios Verhältniß, demnach auf das Folgende geht, muß
+                    erklärt werden nach den beyden Seiten, von welchen <persName ref="pindar">Pindar</persName> eine Lage wie die des Chromios zu betrachten gewohnt ist.
+                    Und gerade so faßt er sie auf Pyth. 1 <hi rend="italic">fin</hi>. <foreign sameAs="grc">τὸ δὲ παθεῖν εὖ πρῶτον ἄθλων, εὖ δ’ ἀκούειν δευτέρα
+                        μοῖρα</foreign>, und Isth. V, 14 <persName ref="cgheyne">Heyne</persName>.
+                    In unsrer Stelle ist nur das Lob dieser doppelten Eigenschaft nicht direct
+                    ausgedrückt, sondern, wie mehrmals, in den allgemeinen Satz versteckt. Aber
+                        <persName ref="gldissen">Dissen</persName> erklärt auch <foreign sameAs="grc">εὖ πασχέμεν</foreign> anders, das so wie ich es genommen habe
+                    bey Theogn. 1003 vorkommt, <foreign sameAs="grc">τῶν ἀυτοῦ κτεάνων εὖ
+                        πασχέμεν</foreign>, und in dem Lokrischen Lied bey <persName ref="athenaios">Athen.</persName> 15 p. 697 B <foreign sameAs="grc">καὶ ἡδέων τι
+                        πάσχεις</foreign>
+               <note type="footnote" resp="editor">
+                  <ref type="linkExt"
+                       target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2013.01.0001%3Abook%3D15%3Achapter%3D53">Athenaios, Deipnosophistai 15, 53</ref>: καὶ ἥδε / ὦ τί πάσχεις.
+                        [FZ]</note>; an die so gefaßte Sentenz schließt sich das folgende <foreign sameAs="grc">κοιναὶ γὰρ ἔρχοντ’ ἐλπίδες πολυπόνων ἀνδρῶν</foreign> in keinem
+                    andern Sinn an, als: gegenseitig und durch einander bedingt ist was die Menschen
+                    von einander zu erwarten haben. Schön deutet <foreign sameAs="grc">πολυπόνων</foreign> an, daß auch der Mächtigste nicht selbständig sey,
+                    sondern daß ganz allgemein der Mensch an den Menschen geknüpft sey; <foreign sameAs="grc">κοιναὶ ἐλπίδες</foreign>. Hier muß Dissen dem Wort selbst
+                    Gewalt anthun. Daß der fürstliche Aufwand als das <foreign sameAs="grc">ἔργον</foreign>, statt aller andern Thaten und Tugenden hervortrit, ist
+                    nicht zu ändern. Es ist nicht besser noch schlimmer, daß ein Pferdesieg mit
+                    einer Wunderthat verglichen wird. Sehr natürlich aber scheint mir die 2. Strophe
+                    und die 2. Antistrophe in ein einiges Gedankenganzes auf diese Art
+                    zusammenzugehn. Indem der Dichter nun vom Chromios zu sich und seinem Beruf
+                    übergeht, <foreign sameAs="grc">ἐγὼ δὲ</foreign> – muß ich übersetzen: ich aber
+                    (um jetzt meine Gabe der Verheißung zu bewähren) mag gern eine alte Sage, vom
+                    Herakles, beym Preise deines Siegs, oder zum Preise, aufnehmen, die, wo Tiresias
+                    verkündete, (was ich heute Dir). Ohne alle Anwendung schließt die Ode mit dem
+                    Mythus, so ist es dem angenommenen Orakelton angemessen, den andern die Deutung
+                    zu überlassen.</p>
+            <p>Wenn der Hauptgedanke nicht verfehlt ist, so darf ich von Ew. Excellenz hoffen,
+                    daß Sie das Ueberflüssige in diesem brieflichen Commentar leicht entschuldigen
+                    werden. Zum Anfang der 9. Nemeischen Ode führt <persName ref="gldissen">Dissen</persName> eine Anmerkung von mir<note type="footnote" resp="editor">Dissen in <bibl sameAs="1119">Böckh 1821</bibl>, S. 453. [FZ]</note>, nur
+                    an der unrechten Stelle, an, die ich ihm auf seine Anfrage mitgetheilt
+                        hatte.<note type="footnote" resp="editor">Leitzmann 1911, 144 Anm. 1: Vgl.
+                        Briefwechsel zwischen Böckh und Dissen S. 37. 53. 137.</note> Darin liegt
+                    die Erklärung eines alten Basreliefs, die mir von allen am meisten Freude
+                    gemacht hat, ich meyne gewiß weniger, als ein eigner passender Einfall, als
+                    wegen der schönen Auflösung eines so interessanten Denkmals an sich. Nur ist
+                    gerade dieß, daß durch Pindars silberne Preisschalen der Kitharödenagonen die
+                    Trinkschale des Denkmals und mit ihr das ganze sich erklärt, nicht eigentlich
+                    herausgesagt, so wie <persName ref="gldissen">Dissen</persName> meinen Brief
+                    benutzt hat. </p>
+            <p>Wenn ich hiervon Anlaß nehme, Ew. Excellenz zu fragen, ob ich vielleicht künftig
+                    einmal eine Zeichnung von Ihrer Brunnenmündung<note type="footnote" resp="editor">Zur Ausstattung von Schloss Tegel und das Bildprogramm siehe
+                        Christine von Heinz / Ulrich von Heinz (2001/2018): Wilhelm von Humboldt in
+                        Tegel. Ein Bildprogramm als Bildungsprogramm, München/Berlin: Deutscher
+                        Kunstverlag. Dort S. 28f. zur Brunneneinfassung im Atrium des Schlosses Tegel;
+                        siehe außerdem Hans Eugen Pappenheim (1940): Wilhelm von Humboldts "Brunnen
+                        des Calixtus", in: Die Antike 16, S. 227–242. [FZ]</note> zur Herausgabe in
+                        <bibl sameAs="1120">meiner Zeitschrift</bibl> erhalten könnte, so werden Sie
+                    es eher für Eifer des Sammlers, als für eine Zudringlichkeit halten. Ich denke
+                    noch nicht sehr bald an die Fortsetzung dieser archäologischen Hefte zu gehn –
+                    und ich müßte auch vorher Anstalt treffen, daß sie in weniger schlechter Gestalt
+                        erschienen.<note type="footnote" resp="editor">Leitzmann 1911, 144 Anm. 2:
+                        Die archäologische Zeitschrift ist nicht fortgesetzt worden; über die
+                        Zeichnungen des Puteals vgl. Briefe [Haym 1859], S. 82 Anm. ("Rauch hat die
+                        Figuren gezeichnet, jede einzeln, in der Höhe eines gewöhnlichen
+                        Foliobogens. Diese Blätter sind später von mir, da ich sie als Geschenk von
+                        der Generalin Amalie von Helwig [Helvig] erhalten hatte, an K. O. Müller zum
+                        Gebrauch für seine Denkm[äler] der a[lten] K[unst] gekommen und nie an mich
+                        zurückgelangt. F.G.W.").</note>
+            </p>
+            <p>Ueber meine Zukunft ist bis jetzt nur entschieden, daß ich <persName ref="ctwelcker">meinen Bruder</persName> und er einen Ort, der Trotz aller
+                    Widerwärtigkeiten auch ihm sehr werth war, verlieren werde. Vor einen halben
+                    Jahr schlug er einen Ruf nach <placeName ref="Freiburg im Breisgau">Freyburg</placeName> aus – nach dem, was auswärts von unserer Lage errathen
+                    werden konnte, fing man ganz neuerlich wieder an. Zwar hatte früher <persName ref="ksfaltenstein">Se Durchlaucht der Staatskanzler</persName>, als
+                        <persName ref="ctwelcker">mein Bruder</persName> wegen des erhaltenen Rufs
+                    auf baldige Entscheidung antrug und diese verweigert wurde, erklärt, […]<note type="footnote" resp="editor">Leitzmann 1911, 144 Anm. 3: Der schließende
+                        halbe Bogen des Briefes ist nicht erhalten.</note>
+            </p>
+            <closer/>
+         </div>
+      </body>
+   </text>
+</TEI>

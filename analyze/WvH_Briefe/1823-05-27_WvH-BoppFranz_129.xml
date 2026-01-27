@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 27.05.1823 (Datierung unklar)<idno type="BBAW">129</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 17. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 34f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7302</bibl>
+               </witness>
+            </listWit>
+            <listBibl type="mentioned">
+               <bibl corresp="308">Nalus</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich finde eben wieder einen Fall des sogenannten
+                        Part. indeclin, der mir sehr merkwürdig scheint …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-05-27"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="130" type="next">30.05.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 29. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1823_05_27/NDIGRKP004565_0318.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_05_27/NDIGRKP004565_0319.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_05_27/NDIGRKP004565_0320.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich finde eben wieder einen Fall des sogenannten <hi rend="antiqua">Part. indeclin.</hi> der mir sehr merkwürdig scheint. Ich schreibe Ew.
+                    Wohlgeboren die ganze Stelle ab, weil ich glaube, daß Sie keinen <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> bei sich haben.</p>
+            <table cols="3" rows="6">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">I.</hi> 21. <hi rend="antiqua">sl.</hi>
+                     <!-- EW: der Sprung zu nächste Zeile könnte ich leider mit no-break space lösen -->
+                  </cell>
+                  <cell>22.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">vidyāsamugito<graphic url="Bopp/WvH-Bopp_1823_05_27/0649.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāmaḥ<graphic url="Bopp/WvH-Bopp_1823_05_27/0650.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">śuśubhe<graphic url="Bopp/WvH-Bopp_1823_05_27/0651.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">bhīmavikramaḥ<graphic url="Bopp/WvH-Bopp_1823_05_27/0652.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">sahasraraśmirbhagavān<graphic url="Bopp/WvH-Bopp_1823_05_27/0653.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">śāradīva<graphic url="Bopp/WvH-Bopp_1823_05_27/0654.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">divākaraḥ<graphic url="Bopp/WvH-Bopp_1823_05_27/0655.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>23.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">gurukāryyāṇi<graphic url="Bopp/WvH-Bopp_1823_05_27/0656.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sarvvāṇi<graphic url="Bopp/WvH-Bopp_1823_05_27/0657.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">niyujya<graphic url="Bopp/WvH-Bopp_1823_05_27/0658.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">kuśikātmaje<graphic url="Bopp/WvH-Bopp_1823_05_27/0659.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">ūṣustāṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0660.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rajanīntatra<graphic url="Bopp/WvH-Bopp_1823_05_27/0661.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sarayvāṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0662.svg"/>
+                     </foreign>
+                     <subst>
+                        <del>
+                           <foreign sameAs="sa" n="transEd">tṛṇaśayane<graphic url="Bopp/WvH-Bopp_1823_05_27/0663.svg"/>
+                           </foreign> =
+                                        <foreign sameAs="sa" n="transEd">nucite<graphic url="Bopp/WvH-Bopp_1823_05_27/0664.svg"/>
+                           </foreign>
+                           <foreign sameAs="sa" n="transEd">tadoṣitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0665.svg"/>
+                           </foreign>
+                        </del>
+                        <add>
+                           <foreign sameAs="sa" n="transEd">susukhaṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0666.svg"/>
+                           </foreign>
+                           <foreign sameAs="sa" n="transEd">trayaḥ<graphic url="Bopp/WvH-Bopp_1823_05_27/0667.svg"/>
+                           </foreign>
+                        </add>
+                     </subst>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>24.</cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">daśarathanṛpasūnusamā<graphic url="Bopp/WvH-Bopp_1823_05_27/0668.svg"/>
+                     </foreign>
+                     <subst>
+                        <del>
+                           <foreign sameAs="sa" n="transEd">tṛṇaśayaṇe<graphic url="Bopp/WvH-Bopp_1823_05_27/0669.svg"/>
+                           </foreign>
+                        </del>
+                        <add>
+                           <foreign sameAs="sa" n="transEd">tṛṇaśayane<graphic url="Bopp/WvH-Bopp_1823_05_27/0670.svg"/>
+                           </foreign>
+                        </add>
+                     </subst> = <foreign sameAs="sa" n="transEd">nucite<graphic url="Bopp/WvH-Bopp_1823_05_27/0671.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tadoṣitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0672.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">kuśikasutavaco<graphic url="Bopp/WvH-Bopp_1823_05_27/0673.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nulālitābhyāṃ<graphic url="Bopp/WvH-Bopp_1823_05_27/0674.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sukhamiva<graphic url="Bopp/WvH-Bopp_1823_05_27/0675.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sā<graphic url="Bopp/WvH-Bopp_1823_05_27/0676.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">cibabhau<graphic url="Bopp/WvH-Bopp_1823_05_27/0677.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">cibhāvarī<graphic url="Bopp/WvH-Bopp_1823_05_27/0678.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+            </table>
+            <p>Wie soll man hier <hi rend="antiqua">sl.</hi> 23. u. 24. <hi rend="antiqua">a</hi>. <hi rend="antiqua">construiren</hi>? Das <hi rend="antiqua">Subject</hi> geht hier, wie öfter in diesen <hi rend="antiqua">Constructionen</hi>, vom <hi rend="antiqua">Singular</hi> zum <hi rend="antiqua">Plural</hi> über. „Nachdem <hi rend="antiqua">Kuśika’s</hi>
+                    Sohn zusammengeknüpft (vollendet) hatte alle Geschäfte eines geistlichen
+                    Lehrers, brachten die drei freudig dort die Nacht zu.“ Wenn <foreign sameAs="sa" n="transEd">kuśikātmajaḥ<graphic url="Bopp/WvH-Bopp_1823_05_27/0679.svg"/>
+               </foreign> stände so wäre es
+                    ebenso wie in der Stelle des <bibl sameAs="308"><!-- oder 559? -->
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl>, wo gesagt wird daß indem <hi rend="antiqua">Nalas</hi> bei der <hi rend="antiqua">Damaianti</hi> stand,
+                    beide glücklich waren. Hier <pb n="2*"/> aber steht der <hi rend="antiqua">Locativus</hi>, als hieße es <foreign sameAs="sa" n="transEd">niyojate<graphic url="Bopp/WvH-Bopp_1823_05_27/0680.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kuśikātmaje<graphic url="Bopp/WvH-Bopp_1823_05_27/0681.svg"/>
+               </foreign>. Dies <hi rend="antiqua">Part. indeclin.</hi> wird daher hier wirklich ganz als ein
+                        <hi rend="antiqua">declinirtes Part.</hi> behandelt. Halten Sie aber die
+                    Lesart für richtig, oder sehen Sie einen andern Ausweg?</p>
+            <p>Noch muß ich bei der ganzen Stelle bemerken. Bei <foreign sameAs="sa" n="transEd">uṣ<graphic url="Bopp/WvH-Bopp_1823_05_27/0682.svg"/>
+               </foreign>
+                    finde ich gar nicht die Bedeutung „zubringen“, „sich aufhalten“, doch ist mir,
+                    als wäre sie mir sonst vorgekommen.</p>
+            <p>Die ersten Worte des letzten Verses kann man doch wohl nicht anders übersetzen
+                    als: „<add>von</add> den beiden nach der Rede des Sohnes des <hi rend="antiqua">K.</hi> Verlangenden“. Doch weiß ich nicht, woher das lange <foreign sameAs="sa" n="transEd">ā<graphic url="Bopp/WvH-Bopp_1823_05_27/0683.svg"/>
+               </foreign> hier in das <hi rend="antiqua">Part.</hi> von <foreign sameAs="sa" n="transEd">lal<graphic url="Bopp/WvH-Bopp_1823_05_27/0684.svg"/>
+               </foreign> kommt, da hier nicht
+                    der Sinn eines <hi rend="antiqua">Causalen Verbum</hi> eintritt. Die Engländer
+                    übersetzen <hi rend="antiqua">protected by the son of K.</hi> Das finde ich aber
+                    gar nicht. <add>Ich <hi rend="antiqua">construire</hi> nemlich: Die Nacht
+                        glänzte freudig vor den beiden treflichen Söhnen <hi rend="antiqua">Daśarathas</hi> (der <hi rend="antiqua">Ablat.</hi> oder besser wohl
+                        der <hi rend="antiqua">Instrum.</hi>) welche da verlangten die Rede des
+                        Sohnes <hi rend="antiqua">K.</hi> u. welche also zubrachten in dem
+                        ungeziemenden (nemlich für ihre Erhabenheit zu demüthigen)
+                    Graslager.</add>
+            </p>
+            <p>Ich hoffe Ew. Wohlgeb. sind neulich gut in der Stadt angekommen u. danke Ihnen
+                    nochmals für den angenehm zugebrachten Tag.</p>
+            <closer>
+               <salute>Mit herzlicher Hochachtung</salute>
+               <lb/>Ihr
+                            <signed>H.</signed>
+               <lb/>
+               <dateline>27.<note type="footnote" resp="editor">Lefmann 1897: 27. Mai 1823.</note>
+               </dateline>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat, links große Fehlstelle im Bogen durch Öffnen des Siegels"/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Bopp</hi>,</addrLine>
+                  <addrLine>Wohlgeb.</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

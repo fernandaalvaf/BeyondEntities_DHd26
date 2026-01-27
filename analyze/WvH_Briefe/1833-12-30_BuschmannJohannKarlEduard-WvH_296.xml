@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 13.04.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 30.12.1833<idno type="BBAW">296</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 87–89</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 218</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="pbohlen">
+                  <persName>Bohlen, Peter von</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="fhvdhagen">
+                  <persName>Hagen, Friedrich Heinrich von der</persName>
+               </person>
+               <person corresp="rcrask">
+                  <persName>Rask, Rasmus Christian</persName>
+               </person>
+               <person corresp="jrichardson">
+                  <persName>Richardson, John</persName>
+               </person>
+               <person corresp="pproorda">
+                  <persName>Roorda van Eysinga, Philippus Pieter</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="56">Bohlen, Peter von: Das alte Indien (Königsberg: Bornträger
+                    1830)</bibl>
+               <bibl corresp="558">Bopp, Franz: Vergleichende Grammatik des Sanskrit, Zend,
+                    Griechischen, Lateinischen, Litthauischen, Gothischen und Deutschen (Berlin:
+                    Dümmler 1833)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java
+                    [Manuskript]</bibl>
+               <bibl corresp="1077">Richardson, John / Eichhorn, Johann Gottfried / Federau,
+                    Friedrich: Abhandlung über Sprachen, Litteratur und Gebräuche morgenländischer
+                    Völker. Mit einer Abhandlung vom Herrn Professor Eichhorn über die verschiedenen
+                    Mundarten der Arabischen Sprache (Leipzig: Weygand 1779)</bibl>
+               <bibl corresp="697">Roorda van Eysinga, Philippus Pieter: Maleisch en nederduitsch
+                    woordenboek: onder goedkeuring en begunstiging der Hooge Regering van
+                    Nederlandsch Indië, vervaardigd en uitgegeven door P. P. Roorda van Eysinga
+                    (Batavia: Lands Drukkery 1825)</bibl>
+               <bibl corresp="589">Wilken, Friedrich: Institutiones ad fundamenta linguae persicae cum
+                    chrestomathia maximam partem ex auctoribus ineditis collecta et glossario
+                    locupleti (Leipzig: Crusius 1805)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz bescheinige ich unter dem unterthänigsten
+                        Danke den Empfang der doppelten Anweisung …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1833-12-30"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcebuschmann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz ind">
+            <language ident="arb">Arabisch</language>
+            <language ident="ae">Avestisch (Zend)</language>
+            <language ident="fa">Persisch</language>
+            <language ident="ru">Russisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">13. April 2015</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_179.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_180.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_181.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_182.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_183.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1833-12-30/Coll.ling.fol.53_184.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="87r"/>
+               <address>
+                  <addrLine>Sr. Excellenz</addrLine>
+                  <addrLine>dem Herrn Geheimen Staatsminister</addrLine>
+                  <addrLine>Freiherrn <hi rend="antiqua">von Humboldt</hi>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>bescheinige ich unter dem unterthänigsten Danke den Empfang der doppelten
+                    Anweisung für die Monate December d. J. und Januar k. J., auch den richtigen
+                    Empfang der Correctur des Bogens X., der Correcturbogen R., S. und T. und des
+                    Theils <bibl sameAs="227">des Manuscripts</bibl> von Seite 353 bis 378. – Den Fehler auf Bogen X. <hi rend="antiqua">
+                  <hi rend="underline">ûnyam</hi>
+               </hi> statt <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="sa">sûnyam</foreign>
+                  </hi>
+               </hi> hatte
+                        <persName ref="bopp">Hr. Prof. <hi rend="antiqua">Bopp</hi>
+               </persName>
+                    richtig bemerkt<note type="footnote" resp="editor">Siehe <bibl sameAs="227">Humboldt, Wilhelm von (1836)</bibl>: Über die Kawi-Sprache auf der
+                        Insel Java, nebst einer Einleitung über die Verschiedenheit des menschlichen
+                        Sprachbaues und ihren Einfluss auf die geistige Entwicklung des
+                        Menschengeschlechts. In: <hi rend="italic">Abhandlungen der Königlichen
+                            Preußischen Akademie der Wissenschaften zu Berlin aus dem Jahre
+                            1832</hi>, Zweiter Theil, S. 167, Anm. 1. [FZ]</note>.</p>
+            <p>Ew. Excellenz empfangen in der einen der beiden Ihnen zugehenden Mappen die
+                    Correctur des Bogens Y., einen Correcturbogen X. und den malayischen Theil des
+                        <hi rend="antiqua">
+                  <persName ref="pproorda">Roorda</persName>
+               </hi>’schen
+                        <bibl sameAs="697">Wörterbuches</bibl>; den andern Theil hoffe ich Ew. <pb n="87v"/> Excellenz in wenigen Tagen zu schicken.</p>
+            <p>Die Einschaltung des von Ew. Excellenz nachgesandten Excurses über die Schreibung
+                        <hi rend="antiqua">
+                  <hi rend="underline">Mahâvansi</hi>
+               </hi> war mißlich. Der
+                    Bogen Y. war schon fertig gesetzt und das ganze in der Druckerei befindliche
+                    Manuscript enthielt keine Erwähnung dieses
+                    Werkes<!-- = Mahâvansi; zu allg., keine ID vergeben --> mehr. Ich unternahm es
+                    daher, die Druckerei zu bewegen, die Stelle auf S. 169. in der Anm. 4.
+                    einzuschalten, um so mehr als der Inhalt dieser Anmerkung ungemein günstig sich
+                    mit diesem Nachtrage verwebt. Um die Verbindung zu vervollständigen, habe ich es
+                    auf meine Gefahr genommen, Ew. Excellenz Worten noch die Worte des Satzes in
+                    Zeile 4. und 5. der Anmerkung vorauszuschicken, bin aber ängstlich, daß Ew.
+                    Excellenz dieß mißbilligen könnten. Die Druckerei hat die Einschaltung willig
+                    ausgeführt, aber nicht ohne nachherige große Klagen wegen des durch Umwerfung
+                    dieses ganzen, so wie auch des folgenden Bogens verursachten Zeitverlustes. Man
+                    hat auch (ich weiß nicht weßhalb) einige Worte vom Ende des Bogens X.
+                    weggenommen und sie zu dem Anfang des Bogens Y. herübergenommen.</p>
+            <p>
+               <pb n="89r"/> Ew. Excellenz füge ich auch hier das Blatt über die Etymologie von
+                        <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">padischah</foreign>
+                  </hi>
+               </hi> wieder bei.</p>
+            <p>
+               <persName ref="fwilken">Hr. Geheimrath Wilken</persName> hält <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">padischah</foreign>
+                  </hi>
+               </hi>
+                    für ein Compositum von <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> und will ihm die Ableitung
+                    des ersten Theiles vom sanskritischen <foreign sameAs="sa" n="transEd">pati<graphic url="Buschmann/Buschmann-WvH_1833_12_30/001.svg"/>
+               </foreign> gefallen, so wie ihm nicht mißfällt, <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> von
+                        <foreign sameAs="sa" n="transEd">kṣatriya<graphic url="Buschmann/Buschmann-WvH_1833_12_30/002.svg"/>
+               </foreign>
+                    abzuleiten.</p>
+            <p>
+               <persName ref="bopp">Hr. Prof. <hi rend="antiqua">Bopp</hi>
+               </persName> glaubt
+                    mit <persName ref="rcrask">
+                  <hi rend="antiqua">Rask</hi>
+               </persName> (in seiner
+                    Handschrift bei <persName ref="fhvdhagen">v. d. Hagen</persName> S. 24.), daß
+                        <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> mit dem zendschen <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="ae">csahya</foreign>
+                  </hi>
+               </hi>
+                    (Nominativ <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="ae">csahyô</foreign>
+                  </hi>
+               </hi>), König, zusammenhängt (seine <bibl sameAs="558">vergleich. Gramm.</bibl> <subst>
+                  <del>S</del>
+                  <add>§</add>
+               </subst> 48.). Er nimmt auch an, daß <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> den letzten Theil
+                    von <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">padischah</foreign>
+                  </hi>
+               </hi> ausmache; nur ist er ungewiß, ob <hi rend="antiqua">
+                  <hi rend="underline">padi</hi>
+               </hi> das sanskr. <foreign sameAs="sa" n="transEd">pati<graphic url="Buschmann/Buschmann-WvH_1833_12_30/001.svg"/>
+               </foreign> sei und
+                    also zwei Mahl <hi rend="underline">Herrscher</hi> im Ganzen ausgedrückt sei,
+                    oder die Bedeutung <hi rend="underline">Fußvolk</hi> habe. In letzterem Falle
+                    würde er aber lieber <foreign sameAs="sa" n="transEd">padāti<graphic url="Buschmann/Buschmann-WvH_1833_12_30/003.svg"/>
+               </foreign> als
+                        <foreign sameAs="sa" n="transEd">padik<graphic url="Buschmann/Buschmann-WvH_1833_12_30/004.svg"/>
+               </foreign> darin
+                    suchen.</p>
+            <p>Ich halte es nicht für unmöglich (mehr wage ich freilich nicht zu sagen), daß der
+                    erste Theil von <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">padischah</foreign>
+                  </hi>
+               </hi> (nach <hi rend="antiqua">
+                  <bibl sameAs="1077">Richardson</bibl>
+               </hi> <!-- wahrscheinlich John Richardson: Abhandlung über Sprachen, Litteratur und Gebräuche morgenländischer Völker (Leipzig : Weygand 1779)? überprüfen!-->
+                    <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="">bâdschâh</foreign>
+                  </hi>
+               </hi> und <hi rend="antiqua">
+                  <hi rend="underline">pâdschâh</hi>
+               </hi>) das persische Wort <foreign sameAs="fa" n="transEd">bād<graphic url="Buschmann/Buschmann-WvH_1833_12_30/g001.png"/>
+               </foreign>, das außer
+                        <hi rend="underline">Wind</hi> auch <hi rend="underline">stolz</hi>, <hi rend="underline">heftig</hi> bedeutet, wäre; es <pb n="89v"/> käme<note type="footnote" resp="editor">Eingefügt aus Kustode.</note> aber darauf an
+                    eine Stelle zu haben, worin <foreign sameAs="fa" n="transEd">bād<graphic url="Buschmann/Buschmann-WvH_1833_12_30/g001.png"/>
+               </foreign> in dieser
+                    Bedeutung vorkommt. Die Ableitung des <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> von <foreign sameAs="sa" n="transEd">kṣatriya<graphic url="Buschmann/Buschmann-WvH_1833_12_30/002.svg"/>
+               </foreign> halte ich
+                    für sehr gewagt, da von diesem gar zu wenig übrig geblieben wäre, auch das <hi rend="antiqua">
+                  <hi rend="underline">h</hi>
+               </hi> von <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> mir ein wichtigeres
+                    Element zu seyn scheint. Die Zusammenstellung mit <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="ae">csahya</foreign>
+                  </hi>
+               </hi> im Zend ist wohl sehr
+                    gut. Ich wagte es noch das <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schah</foreign>
+                  </hi>
+               </hi> mit dem russischen
+                        <foreign sameAs="ru">
+                  <hi rend="antiqua">
+                     <hi rend="underline">zâr</hi>
+                  </hi>
+               </foreign> zusammenzustellen; es wäre
+                    möglich, daß die Veränderung und Natur des <term ref="002" type="phon">Wisarga</term> anwendbar wäre und so das <hi rend="antiqua">
+                  <hi rend="underline">r</hi>
+               </hi> mit dem <hi rend="antiqua">
+                  <hi rend="underline">h</hi>
+               </hi> ausgeglichen würde; ich will auch diesen
+                    Punct in den nächsten Tagen untersuchen. Übrigens hat mir <persName ref="fwilken">Hr. Geheimrath <hi rend="antiqua">Wilken</hi>
+               </persName>
+                    mitgetheilt, daß (wie in seiner neusten Lieferung aus Mirkond<!-- title? --> zu
+                    finden) die Beherrscher von Gordschestan den Titel <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="fa">schâr</foreign>
+                  </hi>
+               </hi> führten.</p>
+            <p>Die Ableitung von <hi rend="antiqua">
+                  <foreign sameAs="sa">îs̓a</foreign>
+               </hi> scheint mir wegen des Abwerfens
+                    von <hi rend="antiqua">
+                  <hi rend="underline">î</hi>
+               </hi> bedenklich, auch scheinen die <persName ref="fwilken">Herrn <hi rend="antiqua">Wilken</hi>
+               </persName> und <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> nicht gerne darauf eingehn zu
+                    wollen.</p>
+            <closer>
+               <salute>Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                        womit ich verharre <lb/>Ew. Excellenz <lb/>unterthänigster Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 30 Dec. 1833.</dateline>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="88r"/> Ueber <foreign sameAs="fa">padishah</foreign>.</p>
+            <p>So viel ich sehen kann, sind <foreign sameAs="fa">
+                  <hi rend="antiqua">shah</hi>
+               </foreign> und <foreign sameAs="fa">
+                  <hi rend="antiqua">padishah</hi>
+               </foreign> rein Persische Wörter, und haben
+                    namentlich nichts mit dem bloß Arabischen <foreign sameAs="arb">
+                  <hi rend="antiqua">sheik</hi>
+               </foreign> zu thun. Dies vorausgesetzt,
+                    wünschte ich zu wissen, ob man das längere Wort für ein Compositum aus dem
+                    kürzeren, oder das letzte nur für eine abgekürzte Aussprache des anderen hält?
+                    Auch hörte ich gern, wie man die beiden ersten Silben <hi rend="antiqua">padi</hi> erklärt.</p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="pbohlen">Bohlen</persName>
+               </hi> (<bibl sameAs="56">altes
+                        Indien</bibl> II S. 21) bildet zwei Sanskritwörter <foreign sameAs="sa">
+                  <hi rend="antiqua">kshatriyapa</hi>
+               </foreign> Herr der Krieger, und
+                    umgekehrt <foreign sameAs="sa">
+                  <hi rend="antiqua">patikshatriya</hi>
+               </foreign> (also vermutlich Krieger des
+                        Herrn<note type="footnote" resp="editor">Abschließende Klammer fehlt.</note>
+                    und leitet von dem letztern <hi rend="antiqua">
+                  <foreign sameAs="fa">padishah</foreign>
+               </hi> (<hi rend="antiqua">
+                  <foreign sameAs="ota">pascha</foreign>
+               </hi>) <add>ab</add>. Er erklärt nämlich
+                        <hi rend="antiqua">
+                  <foreign sameAs="fa">padishah</foreign>
+               </hi> durch Statthalter. Nach <hi rend="antiqua">
+                  <persName ref="fwilken">Wilken</persName>s</hi> <bibl sameAs="589">Persischem
+                        Wörterbuch</bibl> <subst>
+                  <del>heißt</del>
+                  <add>heist</add>
+               </subst> das Wort aber gerade ebenso als das einfache <hi rend="antiqua">
+                  <foreign sameAs="fa">shah</foreign>
+               </hi>, Kö-<pb n="88v"/>
+               <sic>Konig</sic>, Fürst. Nach <hi rend="antiqua">
+                  <persName ref="pbohlen">Bohlen</persName>s</hi> Erklärung wäre das einfache
+                    Wort <hi rend="antiqua">
+                  <foreign sameAs="fa">shah</foreign>
+               </hi> das Sanskritische <foreign sameAs="sa">
+                  <hi rend="antiqua">kshtriya</hi>
+               </foreign>.</p>
+            <p>Diese Erklärungen scheinen mir alle gewaltsam. Ich würde in beiden Wörtern das
+                    Sanskritische <subst>
+                  <del>
+                     <hi rend="antiqua">iŝa</hi>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa">
+                        <hi rend="antiqua">îs̓a</hi>
+                     </foreign>
+                  </add>
+               </subst> suchen, und das längere Wort mit <hi rend="antiqua">
+                  <foreign sameAs="sa">sênâpati</foreign>
+               </hi> gleichbedeutend halten. Nur
+                    kann ich mit <hi rend="antiqua">padi</hi> nicht fertig werden, da Heerführer des
+                    Fußvolks <subst>
+                  <del>
+                     <hi rend="antiqua">patikês̓a</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">
+                        <foreign sameAs="sa">padikês̓a</foreign>
+                     </hi>
+                  </add>
+               </subst> und nicht <subst>
+                  <del>
+                     <hi rend="antiqua">patês̓a</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">
+                        <foreign sameAs="sa">padês̓a</foreign>
+                     </hi>
+                  </add>
+               </subst> heißen würde.</p>
+            <p>Man könnte auch an eine Zusammensetzung von <hi rend="antiqua">pati</hi> <add>und</add> <hi rend="antiqua">
+                  <foreign sameAs="sa">is̓a</foreign>
+               </hi> also <hi rend="antiqua">patîs̓a</hi> denken.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

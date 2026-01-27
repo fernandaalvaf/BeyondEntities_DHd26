@@ -60,14 +60,34 @@ def get_database_config(config: dict[str, Any]) -> dict[str, Any]:
 def get_api_config(config: dict[str, Any]) -> dict[str, Any]:
     """
     Extrahiert die API-Konfiguration.
+    Wenn 'active_profile' gesetzt ist, wird das entsprechende Profil zurückgegeben.
     
     Args:
         config: Vollständige Konfiguration
         
     Returns:
-        API-Konfiguration
+        API-Konfiguration (aufgelöstes Profil oder direkte Config)
+        
+    Raises:
+        ValueError: Wenn active_profile nicht in profiles existiert
     """
-    return config.get('api', {})
+    api_config = config.get('api', {})
+    
+    # Prüfe ob Profile-basierte Konfiguration
+    if 'active_profile' in api_config and 'profiles' in api_config:
+        active = api_config['active_profile']
+        profiles = api_config['profiles']
+        
+        if active not in profiles:
+            raise ValueError(
+                f"Unbekanntes API-Profil: '{active}'. "
+                f"Verfügbare Profile: {', '.join(profiles.keys())}"
+            )
+        
+        return profiles[active]
+    
+    # Fallback: direkte API-Konfiguration (alte Struktur)
+    return api_config
 
 
 def get_processing_config(config: dict[str, Any]) -> dict[str, Any]:

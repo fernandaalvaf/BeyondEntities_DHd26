@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 13.01.1826<idno type="BBAW">147</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 33. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 45f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7562</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein
+                    zum</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="jfdavis">
+                  <persName>Davis, John Francis</persName>
+               </person>
+               <person corresp="jkmaltzahn">
+                  <persName>Maltzahn, Joachim Karl Ludwig Mortimer Graf
+                    von</persName>
+               </person>
+               <person corresp="rmorrison">
+                  <persName>Morrison, Robert</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="622">Bhāgavata-Purāṇa</bibl>
+               <bibl corresp="623">Morrison, Robert: Dialogues and detached sentences in the Chinese language; with a
+                    free and verbal translation in English (Macao: P. Thoms 1816)</bibl>
+               <bibl corresp="590">Rosen, Friedrich August: Radices Sanscritae (Berlin: Dümmler 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sie werden, liebster Freund, hoffentlich schon das
+                        Schreiben des Ministers …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-01-13"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 22. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1826_01_13/NDIGRKP004565_0369.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_01_13/NDIGRKP004565_0370.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 13. <hi rend="antiqua">Januar</hi>,
+                        1826.</dateline>
+            </opener>
+            <p>Sie werden, liebster Freund, hoffentlich schon das Schreiben des <persName ref="ksfaltenstein">Ministers</persName> haben, welches Ihnen 300 Th.
+                    anweist. Die <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> übernimmt sie. Ich wollte Ihnen mit Fleiß nicht eher schreiben, als
+                    bis die Sache in der <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> durchgegangen wäre, u. das ist sie heute, ohne alle Schwierigkeit. –
+                    Ich danke Ihnen sehr für Ihren gütigen Brief, u. freue mich im Voraus, wenn Sie
+                    wieder hier sind, wieder <hi rend="antiqua">Sanskriti</hi>sches mit Ihnen
+                    besprechen zu können. Ich fühle mich jetzt sehr allein. Ich erinnere mich einmal
+                    gelesen zu haben, daß die <bibl sameAs="52">
+                  <hi rend="antiqua">Bhagavad Gita</hi>
+               </bibl> (nicht der <bibl sameAs="622">
+                  <hi rend="antiqua">Bhagavata Purana</hi>
+               </bibl>, dessen Jugend anerkannt scheint) sey für unächt d. h. auch jung
+                    gehalten worden. Doch kann ich nicht finden, wo es steht. Ist Ihnen so etwas
+                    bekannt, oder könnten Sie nicht <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> fragen, ob er Zweifel hat? – Daß es von <persName ref="jfdavis">
+                  <hi rend="antiqua">Davy</hi>
+               </persName>
+               <note type="footnote" resp="editor">Mit "Davy" ist wohl der Diplomat und
+                        Sinologe <persName ref="jfdavis">John Francis Davis</persName> (1795–1890) gemeint. Vgl. den <ref type="link" target="146">Brief</ref> Humboldts an
+                        Bopp vom <date when="1825-11-16">16. November 1825</date>.</note> nicht
+                    Chinesischen Text giebt, ist mir leid. Die Uebersetzung allein kann mir
+                        <supplied cert="high">nicht</supplied>
+               <note type="footnote" resp="editor">Loch im Papier durch Erbrechen des
+                        Siegels.</note> helfen. Aber von <persName ref="rmorrison">
+                  <hi rend="antiqua">Morrison</hi>
+               </persName> muß es <bibl sameAs="623">
+                  <hi rend="antiqua">Dialogues</hi>
+               </bibl> geben, nemlich <hi rend="antiqua">Chinesisch</hi> u. <hi rend="antiqua">Englisch</hi>. Diese hätte ich sehr gern. Vielleicht hätten Sie auch die
+                    Güte Sich zu erkundigen, ob sonst etwas Gedrucktes in dem <hi rend="underline">neuen</hi> Chinesischen Styl (<hi rend="antiqua">Kouan hoa</hi>) vorhanden
+                    sey, u. schreiben es mir. – <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> hat sein Examen gemacht u. sehr gut. Wegen <bibl sameAs="590">seiner
+                        Abhandlung</bibl> hat mich die <hi rend="antiqua">Facultaet</hi>
+               <!-- AD: orgName, ref? --> zu Rathe gezogen, u. ich habe ihm mit
+                    Wahrheit das beste Zeugniß gegeben. Ob ich gleich mit meinen Augen bei seiner
+                    kleinen Hand nicht Alles habe lesen können, hat mir die Anlage u. Ausführung
+                    sehr gut geschienen. Nun leben Sie herzlich wohl.</p>
+            <closer>
+               <salute>Mit innigster Freundschaft der Ihrige,</salute>
+               <signed>H.</signed>
+               <lb/>
+               <pb n="2*"/>
+               <address>
+                  <addrLine>
+                     <hi rend="antiqua">A Monsieur,</hi>
+                     <note type="footnote" resp="editor">Rechts
+                        darüber ein Stempel: "BERLIN 13. IANR".</note>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Monsieur Bopp,</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Professeur au service de S. M. le Roi de Prusse</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">à</hi>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="London">
+                        <hi rend="antiqua">Londres.</hi>
+                     </placeName>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">à remettre à l’ hôtel</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">de <persName ref="jkmaltzahn">M<hi rend="superscript">r</hi>.
+                            de Maltzahn</persName>,</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Min. plénipotentiaire de <sic>lenvoyé</sic>
+                     </hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">extraord. de S. M. le Roi de Prusse.</hi>
+                     <note type="footnote" resp="editor">Darüber Stempel: "FRANCO".</note>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">43 Windsor Terrace City Road</hi>
+                     <note type="footnote" resp="editor">Diese Zeile in fremder Schrift. – Links oben Rundstempel: "F
+                        P O <date when="1826-01-26">JA 26 1826</date>"; teilweise überschneidend darübergesetzt ein ovaler
+                        Stempel: "F. V. E. N. A. <date when="1826-01-27">JA 27 1826</date>"</note>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

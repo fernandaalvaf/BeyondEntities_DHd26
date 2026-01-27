@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Gustav Seyffarth, 04.07.1829<idno type="BBAW">618</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Philadelphia, Historical Society of
+                            Pennsylvania, Gratz Collection</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8055</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="78">Champollion, Jean-François (1824): Précis du système hieroglyphique
+                    des anciens Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="405">Seyffarth, Gustav (1826): Rudimenta hieroglyphices: accedunt
+                    explicationes speciminum hieroglyphicorum glossarium atque alphabeta cum 36
+                    tabulis lithographis, Leipzig: J. A. Barth</bibl>
+               <bibl corresp="777">Seyffarth, Gustav (1827): Brevis defensio Hieroglyphices inventae a
+                    Fr. Aug. Guil. Spohn et G. Seyffarth, Leipzig: Barth</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ew Wohlgebohren sehr für Ihr gütiges Schreiben
+                        vom 28. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-07-04"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gseyffarth">Seyffarth, Gustav</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="472" type="prev">28.06.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Unterschrift Humboldts</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyh">Ägyptisch (Hieratisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">5. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ew Wohlgebohren sehr für Ihr gütiges Schreiben vom <date when="1829-06-28">28.</date> und dessen Beilagen. Ich danke Ihnen besonders
+                    für den gütigen Antheil, den Sie an dem großen Verluste genommen, den ich vor
+                    wenigen Monaten erlitten habe. Er hat allerdings meine ganze innere und äußere
+                    Lage auf die schmerzvollste Weise verödet und vereinsamt.</p>
+            <p>Was Sie mir über die demotischen Ziffern mittheilen, ist, indem ich die
+                    unbezweifelte Richtigkeit voraussetze, sehr interessant. In dem beständigen
+                    Vorausgehen der Einer ist eine Art von <hi rend="antiqua">Iuxtaposition</hi>. Es
+                    wäre gewiß gut, dieß drucken zu lassen, allein es müsste dann damit eine
+                    Uebersicht der ganzen <hi rend="antiqua">Aegyptischen</hi> Zahlenbezeichnung
+                    verbunden werden.</p>
+            <p>In dem <bibl sameAs="777">gedruckten Aufsatz</bibl> ist mit großer Mäßigung über
+                        <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>
+                    geurtheilt. Allein in das, was auch, aber weil zu unbestimmt, gegen sein System
+                    gesagt ist, kann ich nicht einstimmen. An eine Vergleichung des Systems Ew
+                    Wohlgebohren mit dem seinigen scheint mir noch gar nicht zu denken, weil, wie
+                    ich Ihnen schon einmal äußerte, es noch an einer klaren und vollständigen
+                    Darlegung Ihres Systems, so leid es mir thut es sagen zu müssen, meinem Urtheile
+                    nach, fehlt. Sie sprechen in Ihrem vorletzten Briefe von Ihrem Entschluß,
+                    nunmehr Ihr <hi rend="antiqua">Alphabet</hi> aufzustellen. Sollte es aber nicht
+                    viel einfacher sein, erst zu sagen, welche Buchstaben in <hi rend="antiqua">
+                  <persName ref="jfchampollion">Champollion</persName>s</hi> nicht so
+                    übermäßig zahlreichem <hi rend="antiqua">Alphabet</hi>
+               <note type="footnote" resp="editor">Gemeint sind die Tafeln A–K im <hi rend="italic">
+                     <bibl sameAs="78">Précis du système hiéroglyphique des anciens
+                                Égyptiens</bibl>
+                  </hi>. Humboldt besaß die erste Auflage von 1824
+                        [Bücherverzeichnis AST, vor Bl. 1: "Précis du systeme hieroglyphique des
+                        anciens Egyptiens par M<hi rend="superscript">r</hi>. Champollion le jeune.
+                        Imp. Roy. 1824. 8. (bei mir in zwei Bänden, Text u. Kupferplatten,
+                        gebunden.)"], die zweite von 1828 offenbar nicht. [FZ]</note>, Ihrer Meinung
+                    nach, wahr, und welche falsch sind? So hätte man doch ein <hi rend="antiqua">Fundament</hi>, und wüßte, worin Sie beide von einander abweichen. Dies
+                    müßte freilich mit Beweisen geschehen. Es müßte gezeigt werden, daß und warum,
+                    was <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>
+                    mit seinen angeblich falschen Buchstaben liest, das nicht heißen könne. Wäre
+                    dies geschehen, dann wäre <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> widerlegt. Für die Wissenschaft aber wäre
+                    ein großer Gewinn entstanden, da man nun einen Masstab besäße, nach dem man Ihre
+                    beiderseitigen Entzifferungen mit einander vergleichen <pb n="2*"/> könnte. In
+                        <bibl sameAs="405">Ihren <hi rend="antiqua">Rudimenta</hi>
+               </bibl> sind
+                    Stellen von den <hi rend="antiqua">Papyrus</hi> Rollen wie Anrufungen
+                    entziffert, die <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> wie <sic>Nahmen</sic> ließt. Dieser Lesung kann man
+                    nach seinem <hi rend="antiqua">Alphabet</hi> nachgehen. Ich habe mir oft große
+                    Mühe gegeben, dasselbe mit Ihrer entgegengesetzten Entzifferung nach den in
+                    Ihrem Werke enthaltenen Grundsätzen zu thun, es ist mir aber nie gelungen. Ew
+                    Wohlgebohren können versichert sein, daß ich gar keine Vorliebe für <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> habe. Er
+                    giebt aber ein bestimmtes, kurzes wenig Willkührlichkeiten ausgesetztes <hi rend="antiqua">Alphabet</hi>, er erklärt (nicht immer und das misbillige ich
+                    auch an ihm) meistentheils die <hi rend="antiqua">Aegyptischen</hi> Zeichen nach
+                    den einzelnen Buchstaben, man kann ihm also auf einem bestimmten Wege nachgehen.
+                    Das nur wünschte ich, daß auch erst mit Ew Wohlgebohren System möglich wäre, und
+                    wenn Sie Ihren Entzifferungen Eingang verschaffen wollen, müssen <add>Sie</add>
+                    das nothwendig thun. Ich muß recht sehr um Verzeihung bitten, daß ich mich mit
+                    so vieler Freymüthigkeit erkläre, aber ich wünschte, um der Sache willen, daß
+                    man genau urtheilen könnte, nicht grade nach welchem Systeme man die Schrift
+                    erklärt, aber nach welchen Grundsätzen und mit welchen Zeichen man nach
+                        <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>
+                    und Ihnen Texte entziffert. Jetzt erklären Sich Ew Wohlgebohren, wenn ich es
+                    offenherzig sagen soll, zu unbestimmt, wie auch in dem <bibl sameAs="777">gedruckten Aufsatz</bibl>
+                    geschieht, übereinstimmend mit <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> und abweichend von ihm, um daß es möglich
+                    ist zu sehen, worin Sie nun abweichen oder übereinstimmen.</p>
+            <closer>
+               <salute>Ich fürchte Sie aber mit meinen Bemerkungen zu ermüden, und bitte
+                        Sie, die Versicherung meiner ausgezeichneten Hochachtung
+                        anzunehmen.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi> den 4<hi rend="superscript">ten</hi>
+                  <hi rend="antiqua">Julius</hi> 1829.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="3*; Anschrift"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor Dr. <hi rend="antiqua">Seyffarth</hi>
+                  </addrLine>
+                  <addrLine>Wohlgebohren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Leipzig</hi>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="Stempel und Siegel; oben: »William Humboldt / author of                             many works on languages &amp;c«"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peter Stephen Duponceau an Wilhelm von Humboldt, 13.03.1828<idno type="BBAW">303</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 90–93</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 210</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="jdhunter">
+                  <persName>Hunter, John Dunn</persName>
+               </person>
+               <person corresp="pperez">
+                  <persName>Perez, Don Pedro</persName>
+               </person>
+               <person corresp="zmpike">
+                  <persName>Pike, Captain Zebulon Montgomery</persName>
+               </person>
+               <person corresp="tschultz">
+                  <persName>Schultz, Theodor</persName>
+               </person>
+               <person corresp="ewilliams">
+                  <persName>Williams, Eleazer</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="47">Basalenque, Diego: Arte de la Lengua Tarasca (Mexiko: Francisco de
+                    Rivera Caldron 1714)</bibl>
+               <bibl corresp="232">Hunter, John Dunn: Manners and customs of several Indian tribes:
+                    located west of the Mississippi (Philadelphia: J. Maxwell 1823)</bibl>
+               <bibl corresp="847">Pike, Zebulon Montgomery: An Account of Expeditions to the Sources
+                    of the Mississippi, and through the Western Parts of Louisiana, to the Sources
+                    of the Arkansaw, Kans, La Platte, Pierre Jaun, Rivers; Performed by Order of the
+                    Government of the United States During the Years 1805, 1806, and 1807. And a
+                    Tour through the Interior Parts of New Spain, when conducted through theses
+                    Provinces, by ordre of the Captain-General, in the Year 1807 (Philadelphia: C.
+                    &amp; A. Conrad , &amp; Co. 1810)</bibl>
+               <bibl corresp="338">Pike, Zebulon Montgomery: Exploratory Travels Through the Western
+                    Territories of North America (London: Longman, Hurst, Rees, Orme, and Brown
+                    1811)</bibl>
+               <bibl corresp="400">Schultz, Theodor: Grammatik des Arawakischen [Manuskript]</bibl>
+               <bibl corresp="401">Schultz, Theodor: Wörterbuch des Arawakischen [Manuskript]</bibl>
+               <bibl corresp="458">Williams, Eleazar: Gaiatonsera Ionteweienstagwa Ongwe Onwe
+                    Gawennontakon: A Spelling-Book in the Language of the Seven Iroquois Nations
+                    (Utica: Wiliam Williams 1813)</bibl>
+               <bibl corresp="474">Zeisberger, David: Wörterverzeichniss der Onondagischen Sprache
+                    (Manuskript)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron En relisant la lettre dont vous m’avez
+                        honoré le 21 Sept. dernier, je trouve quelques Articles auxquels je n’ai pas
+                        répondu aussi catégoriquement que j’aurois sans doute du le faire …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="psduponceau">Duponceau, Peter Stephen</persName>
+               <date type="author" when="1828-03-13"/>
+               <placeName key="Philadelphia">Philadelphia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="870" type="next">13.11.1828</ref>
+               <ref target="517" type="prev">21.09.1827</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="psduponceau">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="arw">Arawak</language>
+            <language ident="del">Delaware</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="inc">Indische Sprachen</language>
+            <language ident="iro">Irokesisch</language>
+            <language ident="ksk">Kansa</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="moh">Mohawk</language>
+            <language ident="ono">Onondaga</language>
+            <language ident="osa">Osage</language>
+            <language ident="tsz">Purepecha (Tarasca)</language>
+            <language ident="qu">Quechua</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">7. August 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_189.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_190.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_191.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_192.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_193.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_194.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_195.jpg"/>
+      <graphic url="DuPonceau/DuPonceau-WvH_1828-03-13/Coll.ling.fol.52_196.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="90r"/> <salute>Monsieur le Baron</salute>
+            </opener>
+            <p>En relisant la Lettre dont vous m’avés honoré <date when="1827-09-21">le 21
+                            Sept.<hi rend="superscript">e</hi> dernier</date>, je trouve quelques
+                    articles auxquels je n’ai pas répondu aussi catégoriquement que j’aurois sans
+                    doute du le faire; je m’empresse de profiter d’un bâtiment annoncé pour
+                        <placeName ref="Hamburg">Hambourg</placeName>, afin de réparer cette
+                    omission.</p>
+            <p>Vous m’avés d’abord demandé le nombre des feuilles de la <bibl sameAs="400">Grammaire</bibl> &amp; du <bibl sameAs="401">Dictionnaire</bibl> de la
+                    langue <subst>
+                  <del>Arawaque</del>
+                  <add>Aruwaque</add>
+               </subst>, par <persName ref="tschultz">Schulze</persName>.</p>
+            <p>1.° <bibl sameAs="400">La Grammaire</bibl> contient 173 pages in 12°. Caractère
+                    Allemand (les mots Indiens exceptés) sans marge.</p>
+            <p>Malheureusement, cet ouvrage n’est pas fini – <persName ref="tschultz">L’Auteur</persName> après avoir parcouru les différentes parties du
+                    discours jusques au Verbe, &amp; expliqué la différence entre les 5
+                    Conjugaisons, la 1re. en in, ün &amp; ùn (terminaison de l’Infinitif)</p>
+            <p>La 2<hi rend="superscript">e</hi>. en <foreign sameAs="arw">ân</foreign>; la
+                        3<hi rend="superscript">e</hi> en <foreign sameAs="arw">unnua</foreign>,
+                    la 4<hi rend="superscript">e</hi> en <foreign sameAs="arw">ên</foreign>, &amp;
+                    la 5.<hi rend="superscript">e</hi> différant de toutes les autres, formée par
+                    l’addition de l’Auxiliaire <hi rend="underline">
+                  <foreign sameAs="arw">ka</foreign>
+               </hi>, qu’il traduit en Allemand <hi rend="underline">bin</hi>, soit par
+                    intercalation ou autrement, dont il donne ces exemples.</p>
+            <p>
+               <foreign sameAs="arw">Kaku<hi rend="underline">ka</hi>de</foreign>, Ich lebe <lb/>
+               <foreign sameAs="arw">Hádubuttin</foreign>, zu schwitzen <lb/>
+               <foreign sameAs="arw">Hadubuttu<hi rend="underline">ka</hi>de</foreign>, ich
+                    schwitze <lb/>
+               <foreign sameAs="arw">Kanissin</foreign>, zu lieben <lb/>
+               <foreign sameAs="arw">Danssi<hi rend="underline">ka</hi>
+               </foreign>, ich liebe. (p. 77)</p>
+            <p>
+               <pb n="90v"/> <persName ref="tschultz">L’Auteur</persName>, dis je, après cette Explication,
+                    qui est précédée de la Définition des différentes espèces de Verbes Aruwaks,
+                    donne des paradigmes de chacune de ces différentes Conjugaisons, qu’il fait
+                    suivre par des paradigmes des Conjugaisons de Verbes Négatifs &amp; de quelques
+                    autres espèces de Verbes Composés – Mais <bibl sameAs="400">l’ouvrage</bibl>
+                    finit là; les quatre dernières parties du Discours y manquent entièrement – Ce
+                    que nous avons de <bibl sameAs="400">cette Grammaire</bibl> est divisé en 118
+                    paragraphes, qui se refèrent souvent l’un à l’autre. <persName ref="tschultz">L’Auteur</persName>, que je connois, est un homme d’esprit, &amp; a fait
+                    d’assés bonnes études</p>
+            <p>
+               <bibl sameAs="401">Le Dictionnaire</bibl> est Aruwak &amp; Allemand, &amp;
+                    contient 622 pages, in quarto, bien écrits, d’une belle main – Les mots
+                    Allemands sont en Caractères Gothiques. Lorsqu’on lit <bibl sameAs="400">la
+                        Grammaire</bibl> on est de tems en tems obligé de recourir à <bibl sameAs="401">ce Dictionnaire,</bibl> pour l’explication de certains mots.
+                    Quelques notes auroient évité cette peine.</p>
+            <p>Je suis en correspondance avec <persName ref="tschultz">cet Auteur</persName>. Il
+                    m’apprend de tems en tems des choses curieuses sur les formes de cette langue.
+                    En voici une, par exemple. Un messager, en rendant compte de sa mission,
+                    commence par raconter mot à mot autant qu’il peut s’en souvenir, la réponse
+                    qu’il a reçue, &amp; finit son récit par "<hi rend="underline">on m’a dit</hi>".
+                    Il en est de même d’une Histoire ou d’un fait qu’ils ont entendu raconter; ils
+                    la racontent d’abord comme d’eux mêmes, &amp; à la fin ajoutent <hi rend="underline">on m’a dit</hi>. La même chose arrive s’ils portent un
+                    message à quelqu’un. Ce n’est qu’à la fin du Discours qu’on sait de quelle
+                    part.</p>
+            <p>Dans leurs phrases, ils sousentendent souvent le Verbe principal. Exemple</p>
+            <p>
+               <foreign sameAs="arw">
+                  <hi rend="underline">mânhânika</hi>
+               </foreign>, quand vous ne <del>[futur] <add>
+                     <gap quantity="3" unit="chars"/>
+                  </add>
+               </del> <hi rend="underline">penserés pas</hi>, sousentendu <lb/>
+               <foreign sameAs="arw">
+                  <hi rend="underline">lakannamün</hi>
+               </foreign>, à moi;<lb/>
+               <foreign sameAs="arw">
+                  <hi rend="underline">andinkebedappa</hi>
+               </foreign>, je viendrai précisément alors</p>
+            <p>
+               <pb n="91r"/> J’ai traduit <hi rend="underline">penserés pas</hi>, ou plutôt
+                    j’ai indiqué le futur dans le mot qui précède, mais il me semble que c’est
+                    plutôt le présent de la 5<hi rend="superscript">e</hi>. Conjugaison, en <foreign sameAs="arw">
+                  <hi rend="underline">ka</hi>
+               </foreign> – Le futur se termine ordinairement en <hi rend="underline">pa</hi>.
+                    Mais c’est de peu de conséquence. <persName ref="tschultz">Mr Schulze</persName>
+                    explique cette phrase en Anglois, ainsi</p>
+            <p>As you were not (<hi rend="underline">thinking</hi> understood) of me, I will
+                    just come. <hi rend="underline">Were</hi> semble ici indiquer le Conditionel du
+                    Subjunctif, au moins un tems potentiel.</p>
+            <p>J’ai l’honneur de vous envoyer ci joint <bibl sameAs="232">le livre</bibl> de
+                    <persName ref="jdhunter">Hunter</persName>.<note type="footnote" resp="editor">Zu Hunter siehe Duponceaus Brief an Marc-Antoine
+                        Jullien de Paris, 13. Januar 1826: Pierre Swiggers (1998): American
+                        Linguists and the Origin of Linguistic Typology: Peter Stephen Du
+                        Ponceau’s "Comparative Science of Language". In: <hi rend="italic">Proceedings of the American Philosophical Society</hi> 142, No.
+                        1, S. 33, Anm. 20. [FZ]</note> Cet homme étoit vraiment un imposteur. Je l’ai convaincu à sa
+                    face d’une ignorance totale des langues sauvages, même de l’Osage &amp; du
+                    Kanza, qu’il prétendoit lui être naturelles. Il n’en savoit pas un mot.
+                    Cependant, il en a imposé à tout le monde, ici &amp; en Angleterre. C’étoit
+                    vraiment une Epidémie, à laquelle seul j’ai échappé pendant trois ans, jusqu’à
+                    ce qu’à la fin, il a été entièrement démasqué. Il est mort au Mexique, dans la
+                    Province de Tejas, où il tâchoit de révolutionner, n’ayant pas soutenir ici la
+                    honte de son imposture. Son livre n’est qu’une Compilation dont <persName ref="jdhunter">l’Auteur</persName> est connu.</p>
+            <p>Puisque vous desirés avoir quelque chose sur les langues Iroquoises, j’espère que
+                    je pourrai bientôt vous satisfaire. J’ai eu il y a quelque tems de longues
+                    conférences avec le <persName ref="ewilliams">Rev. M. Eleazer
+                        Williams</persName>, Ministre de l’Eglise Anglicane, né d’un Père blanc
+                    &amp; d’une Mère Iroquoise de la tribu des Mohawks, &amp; qui possède également
+                    les deux langues. Il est l’Auteur du <bibl sameAs="458">
+                  <hi rend="underline">Gaiatonsera</hi>
+               </bibl> de que vous me demandés, mais dont il n’existe plus d’Exemplaire. Il a
+                    traduit aussi en Mohawk la Liturgie de l’Eglise Anglicane, dont il m’a donné un
+                    Exemplaire, &amp; m’en a promis un autre que je vous enverrai quand <pb n="91v"/>je l’aurai reçu. Cet ouvrage est d’autant plus utile à un Linguiste, que tous
+                    les titres des différentes formules, prières, pseaumes &amp;c. sont donnés en
+                    Latin, tels que Gloria Patri, Pater Noster, Miserere &amp;c. Ainsi on sait ce
+                    qu’on a sous les yeux.</p>
+            <p>Ce Ministre doit revenir ici cet Eté, passer quelques semaines, &amp; nous devons
+                    faire ensemble une Grammaire de la langue Mohawke. Je lui ai déja fait un
+                    Alphabet, qui <sic>consistent</sic> des sons suivants, représentés par nos
+                    Caractères.</p>
+            <table cols="6" rows="3">
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">a</hi>
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>seul &amp; même</cell>
+                  <cell>⎧</cell>
+                  <cell>h-</cell>
+                  <cell/>
+                  <cell>⎫</cell>
+                  <cell>Ce son est très doux, &amp; s’exprime par </cell>
+               </row>
+               <row>
+                  <cell>sons</cell>
+                  <cell>⎩</cell>
+                  <cell>ch-</cell>
+                  <cell>allemand, χ grec, j. Esp.</cell>
+                  <cell>⎭</cell>
+                  <cell>la lettre h: Il n’y a pas deux sons.</cell>
+               </row>
+            </table>
+            <table cols="4" rows="12">
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>e</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>k</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>i</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>n</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>o</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>r</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>s</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>t</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>w anglois</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>an</cell>
+                  <cell>⎫</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>ain, in,</cell>
+                  <cell>⎬</cell>
+                  <cell>François, que j’écris a̧, ȩ, o̧.</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>on</cell>
+                  <cell>⎭</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>Il n’y a pas d’autre sons dans cette langue; on écrit plusieurs mots avec un g,
+                    au lieu d’un k, parce que les Iroquois, comme plusieurs Allemands, confondent
+                    ces deux sons; mais après plusieurs Essais, &amp; un mur examen, <persName ref="ewilliams">Mr Williams</persName> est convenu que sa langue a le son
+                        <hi rend="underline">k</hi> &amp; non le son <hi rend="underline">g</hi>
+                    durum.</p>
+            <p>Ainsi cette langue n’a que 14 sons, y compris les trois voyelles nasales.</p>
+            <p>
+               <pb n="92r"/> Ce Ministre, <persName ref="ewilliams">M. Williams</persName>,
+                    pendant le court séjours qu’il a fait ici, m’a donné quelques notions
+                    interessantes sur les langues Iroquoises. Il a eu la bonté d’analyser pour moi
+                    le <hi rend="underline">Pater Noster</hi> en langue Mohawke, &amp; j’ai été
+                    frappé surtout du premier mot qu’il présente; <hi rend="underline">Notre
+                        Père</hi>.</p>
+            <p>Ce mot est <foreign sameAs="iro">
+                  <hi rend="underline">Takwaie</hi>̧<hi rend="underline">ha</hi>
+               </foreign> – Ce n’est pas le mot <hi rend="underline">Pere</hi> dont on se sert
+                    ordinairement, qui est <foreign sameAs="iro">
+                  <hi rend="underline">Ronwaniha</hi>
+               </foreign> &amp; qui s’applique à un père naturel; c’est un mot composé, dont
+                    l’analyse produit les idées suivantes: O toi dont nous sommes les enfants! ou
+                    encore mieux en Espagnol: O tu, cuyas criaturas somos ! Car le mot dont est
+                    tirée la partie de celui ci qui réveille l’idée d’enfant, signifie <hi rend="underline">créature</hi>, progéniture, &amp; c’est ainsi, comme vous
+                    savés, que les Espagnols appellent les petits enfans, <foreign sameAs="es">
+                  <hi rend="underline">criatura</hi>
+               </foreign>. Cette expression, dit <persName ref="ewilliams">M.
+                        Williams</persName>, est un terme respectueux qu’on adresse seulement à la
+                    Divinité &amp; dans un sens religieux. Je ne ferai point d’observation là
+                    dessus; mais il me semble qu’il y a de la beauté dans cette manière de
+                    s’exprimer. Je compte apprendre beaucoup de choses intéressantes sur les langues
+                    Iroquoises l’Eté prochain.</p>
+            <p>J’avois un Peruvien, homme instruit, né d’une Peruvienne, sachant très bien
+                    l’Espagnol, le Latin &amp; le Quichua, &amp; qui avoit la bonté de m’initier
+                    dans les mystères &amp; les beautés de cette langue; il est mort subitement
+                    d’une apoplexie foudroyante. C’est une grande perte pour la Science. Il se
+                    nommoit <persName ref="pperez">Don Pedro Perez</persName>, &amp; avoit autant
+                    d’amabilité que de connoissance.</p>
+            <p>
+               <pb n="92v"/> Vous me demandés un Discours d’un chef sauvage dans un langue
+                    Indienne. <persName ref="jgeheckewelder">Heckewelder</persName> m’avoit promis
+                    de me donner <bibl sameAs="338">celui</bibl> du <persName ref="zmpike">Capitaine
+                        Pike</persName>
+               <note type="footnote" resp="editor">Captain Zebulon Montgomery Pike (1779–1813):
+                        Offizier der U.S. Army. Pike publizierte die Berichte über seine
+                        Entdeckungsreisen im Jahre 1810, ergänzt durch seine Korrespondenz mit
+                        General Wilkinson, seine Reden vor den Indianern, und detaillierte
+                        Landschaftsbeschreibungen, als <bibl sameAs="847">
+                     <hi rend="italic">An Account of Expeditions to the Sources of the
+                                Mississippi and through the Western Parts of Louisiana</hi>.
+                            Philadelphia 1810</bibl>. Eine veränderte Publikation unter dem Titel
+                            <bibl sameAs="338">
+                     <hi rend="italic">Exploratory Travels Through the Western Territories of
+                                North America</hi>
+                  </bibl> erschien im Jahr 1811 in London. [FZ]</note> en langue Delaware, mais il
+                    est mort sans avoir accompli sa promesse – Le tems n’est plus où on pouvoit se
+                    procurer de ces modèles d’éloquence Indienne. Je m’efforcerai d’obtenir pour
+                    vous quelque chose de ce genre, si toutesfois il m’est possible. Plus de guerre
+                    entre les sauvages du parti Anglois &amp; ceux attachés aux Etats Unis; par
+                    conséquent plus de beaux discours. Les Indiens sont maintenant soumis; ils ne se
+                    relèveront plus.</p>
+            <p>Je joins à cette lettre un Vocabulaire de la langue Onondago, que j’ai extrait
+                    pour vous du grand Dictionnaire de <persName ref="dzeisberger">Zeisberger</persName>.<note type="footnote" resp="editor">Dieser von
+                        Duponceau angefertigte Auszug befindet sich in Krakau unter der Signatur:
+                        Coll. ling. fol. 70, Bl. 3–7. [FZ]</note> J’espère que vous avés reçu la <bibl sameAs="47">Grammaire Tarasca</bibl>, que j’ai eu l’honneur de vous
+                    envoyer.</p>
+            <closer>
+               <salute>Je suis avec respect <lb/>Monsieur le Baron <lb/>De votre Excellence <lb/>
+                  <del type="fragment">Le t</del>
+                  <note type="footnote" resp="editor">Tinte verwischt.</note>
+                  <lb/>Le très humble <lb/>&amp; très obéissant serviteur,</salute>
+               <signed>Peter S. Du Ponceau</signed>
+               <lb/>
+               <dateline>Philadelphie <lb/>13 Mars 1828</dateline>
+               <lb/>
+               <address>
+                  <addrLine>Monsieur le Baron
+                    <lb/>G. de Humboldt.
+                    <lb/>Ministre d’Etat &amp;c &amp;c
+                    <lb/>a <placeName ref="Berlin">Berlin</placeName>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="93r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

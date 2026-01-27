@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 12.03.1822<idno type="BBAW">506</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q. 1900,
+                            No. 5, Courtesy of the Trustees of the Boston Public Library/Rare
+                            Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 279–291</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7189</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bsbarton">
+                  <persName>Barton, Benjamin Smith</persName>
+               </person>
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="hdaggett">
+                  <persName>Daggett, Herman</persName>
+               </person>
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="jedwards">
+                  <persName>Edwards, Jonathan</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="lhervas">
+                  <persName>Hervás y Panduro, Lorenzo</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="sfjarvis">
+                  <persName>Jarvis, Samuel Farmer</persName>
+               </person>
+               <person corresp="srasles">
+                  <persName>Rasles, Sébastien</persName>
+               </person>
+               <person corresp="fhlschladen">
+                  <persName>Schladen, Friedrich Heinrich Leopold von</persName>
+               </person>
+               <person corresp="jsvater">
+                  <persName>Vater, Johann Severin</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="442">Adelung, Johann Christoph / Vater, Johann Severin:
+                        Mithridates, oder allgemeine Sprachenkunde mit dem Vater Unser als
+                        Sprachprobe in beynahe fünfhundert Sprachen und Mundarten, 4 Bände (Berlin:
+                        Vossische Buchhandlung 1806–1817)</bibl>
+               <bibl corresp="26">Archaeologia Americana. Transactions and Collections of The
+                        American Antiquarian Society, Volume 1–7, 1820–1885</bibl>
+               <bibl corresp="46">Barton, Benjamin Smith: New Views of the origin of the tribes
+                        and Nations of America (Philadelphia: John Bioren 1798)</bibl>
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the
+                        Massachusetts (or Natick) Indian Language (Cambridge: E. W. Metcalf and
+                        Company 1829)</bibl>
+               <bibl corresp="119">Edwards, Jonathan: Observations on the language of the
+                        Muhhekaneew Indians (London: W. Justins 1789)</bibl>
+               <bibl corresp="117">Edwards, Jonathan / Pickering, John: Observations on the
+                        Language of the Muhhekaneew Indians (Boston: Phelps and Farnham 1823)</bibl>
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen /
+                        Davis, John: A Grammar of the Massachusetts Indian Language (Boston: Phelps
+                        and Farnham 1822)</bibl>
+               <bibl corresp="196">Humboldt, Alexander von: Relation historique du Voyage aux
+                        Régions équinoxiales du Nouveau Continent fait en 1799, 1800, 1801, 1802,
+                        1803, et 1804 par Al. de Humboldt et A. Bonpland rédigé par Alexandre de
+                        Humboldt, 3 Bände (Paris: Schoell 1814–1825)</bibl>
+               <bibl corresp="217">Humboldt, Wilhelm von: Vergleichende Amerikanische
+                        Grammatik. Materialien zur Allgemeinen Abhandlung (Manuskript)</bibl>
+               <bibl corresp="237">Jarvis, Samuel Farmer: A Discourse on the Religion of the
+                        Indian Tribes of North America (New York: C. Wiley &amp; Co. 1820)</bibl>
+               <bibl corresp="333">Pickering, John: An essay on a uniform orthography for the
+                        Indian languages of North America, as published in the Memoirs of the
+                        American Academy of Arts and Sciences (Cambridge: University Press, Hilliard
+                        and Metcalf 1820)</bibl>
+               <bibl corresp="353">Rasles, Sebastian / Pickering, John: A Dictionary of the
+                        Abnaki Language, in North America; by Father Sebastian Rasles. With an
+                        Introductory Memoir and Notes by John Pickering. In: American Academy of
+                        Arts nad Sciences, Memoirs, N.S. 1, 1833, S. 370–574</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni
+                        Lenape or Delaware Indians. Translated from the German Manuscript of the
+                        Author by Peter Stephen du Ponceau. With a Preface and Notes by the
+                        Translator (Philadelphia: James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je ne saurois Vous exprimer, Monsieur …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-03-12"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="443" type="prev">24.08.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="aaq">Abnaki-Sprache</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="tup">Brasilianisch (Tupi)</language>
+            <language ident="cho">Chocktaw (Chatha)</language>
+            <language ident="del">Delaware (Lenni-Lenape)</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="crb">Insel-Carib</language>
+            <language ident="it">Italienisch</language>
+            <language ident="la">Latein</language>
+            <language ident="ule">Lule</language>
+            <language ident="qij">Maipure</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+            <language ident="">Orinoko-Sprachen</language>
+            <language ident="qu">Peruanisch (Quechua)</language>
+            <language ident="pt">Portugiesisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="tot">Totonac</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">27. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je ne saurois Vous exprimer, Monsieur, quel plaisir Vous m’avez fait par <ref type="link" target="443">Votre lettre</ref> intéressante du <date when="1821-08-24">24. Aout dernier</date>, &amp; par les pièces
+                        instructives<hi rend="bold"/>qui accompagnoient cette lettre. Les notices
+                    que Vous m’y donnez, m’ont <sic>servi</sic> à rectifier &amp; à completer les
+                    notions que nous avons des langages dont Vous faites mention, &amp; toutes sont
+                    de la plus grande importance pour quelqu’un qui, ainsi que moi, s’occupe de
+                    langues qui sont parlées à une distance si immense de lui. Vous avez vraîment
+                    tort, Monsieur, &amp; Vous pêchez, si j’ose dire, par un excès de modestie en ne
+                    pas attachant plus de prix aux fruits que nous recueillons déjà des Vos soins,
+                    &amp; de ceux de Vos compatriotes. Ce qui s’est fait dans ces dernières années
+                    dans les Etats Unis pour l’examen &amp; la connoissance des idiômes Indiens est,
+                    on ne peut pas plus considérable, &amp; a d’autant plus de prix, <del>que</del>
+                    puisque Vous avez suivi dans Votre marche de justes principes, &amp; y avez été
+                    guidé par la connoissance générale des langues &amp; de la Grammaire. Depuis
+                    l’expulsion des Exjesuites de l’Amérique rien de bien important ne s’est fait
+                    pour la connoissance des langues Indiennes dans les possessions Espagnoles &amp;
+                    Portugaises de l’Amérique, &amp; les écrits des Jésuites Missionnaires nous font
+                    regretter à chaque page que ces Pères avoient les idées les plus bornés sur les
+                    langues en général, <pb n="2"/> &amp; que voulant tout réduire aux formes et aux
+                    regles de la langue Latine, ils ne nous montrent guères les Idiomes Indiens dans
+                    leur forme individuelle &amp; particulière.</p>
+            <p>Vous, Monsieur, &amp; <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        Du Ponceau</persName> avez adopté le grand principe de ne Vous en tenir
+                    qu’aux faits seulement, &amp; en poursuivant cette route, Vous ne manquerez pas
+                    de faire les progrès les plus rapides. Nous autres en Europe ne pouvons que
+                    classer les matériaux qui Vous nous fournissez, les comparer à d’autres langues,
+                    &amp; en tirer des inductions. Le difficile est de fournir les matériaux, &amp;
+                    voilà à quoi Vous travaillez avec le plus grand succès dans le moment
+                    présent.</p>
+            <p>La marche que Vous suivez d’après Votre lettre me semble excellente. Vous publiez
+                    les manuscrits que Vous possédez, Vous faites réimprimer les ouvrages qui sont
+                    devenûs rares, Vous interrogez enfin la nature elle-même en réunissant dans
+                        <orgName ref="41">Votre excellent établissement de Cornwall</orgName> des
+                    enfans de différentes nations. Soyez aussi bien persuadé que Vous ne sauriez
+                    mettre trop d’empressement, ni attacher trop d’importance à cette étude. J’ose
+                    avancer hardiment qu’aucun des autres continens n’est aussi intéressant sous le
+                    rapport des recherches sur l’histoire des différens idiomes, &amp; sur la
+                    formation du langage que l’Amérique. Aucun des autres continens n’offre une si
+                    grande variété de langues, &amp; celles qu’on parle dans les autres, ont déjà
+                    subi pour la plûpart les effèts de la civilisation. L’Afrique où cela est moins
+                    le cas qu’en Asie &amp; en Europe, n’est malheureusement pas assez <del>co<gap quantity="5" unit="chars"/>e.</del> connue.</p>
+            <p>La recherche, que Vous avez faite, Monsieur, à <orgName ref="41">l’éstablissement
+                        de Cornwall</orgName> sur le point important, si les Indiens se servent des
+                    mots abstraits de <hi rend="underline">père</hi>, <hi rend="underline">mère</hi>
+                    cet. m’a extrêmement ravi. C’est une des idées les plus ingénieuses que d’entrer
+                    ainsi dans le vé-<pb n="3"/>ritable génie de ces idiômes. Il me semble prouvé
+                    par les perquisitions qui Vous avez faites, que les Indiens ne détachent guères
+                    les noms substantifs des pronoms <del>personnels</del> possessifs, et que si le
+                    nom n’est pas, d’après le sens de la phrase, accompagné <subst>
+                  <del>d’une</del>
+                  <add>d’un</add>
+               </subst> pronom déterminé, ils y en ajoutent
+                    un indéterminé, c’est à dire que s’ils n’ont pas à exprimer <hi rend="underline">mon père</hi>, <hi rend="underline">ton père</hi>, <hi rend="underline">son
+                        père</hi>, ils pensent néanmoins le <hi rend="underline">père de
+                        quelqu’un</hi>. J’oserois cependant dire, que cette impossibilité d’exprimer
+                    le substantif sans relation à une personne n’est pas autant inhérente à la
+                    langue, qu’à la nation qui la parle, dans son étât actuel, &amp; c’est ainsi que
+                    je crois qu’il faut s’expliquer la différence d’opinion sur ce point entre
+                        <persName ref="jpeheckewelder">M<hi rend="superscript">r</hi>
+                        Heckewelder</persName>, &amp; les enfans que Vous avez consulté. <persName ref="jpeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName>
+                    est étranger, il juge de la langue, comme d’un idiôme en lui même, abstraction
+                    faite de la nation, &amp; il ne voit pas de difficulté à dire <hi rend="underline">père</hi> en abstrait. Le mot existe, on n’a qu’a en ôter
+                    le pronom. Mais la nation n’a pas été habituée jusqu’ici à détacher une de ces
+                    idées de l’autre, elle pourroit l’être dans la suite des temps, elle le seroit
+                    peut-être, &amp; pour lors cette singularité disparoitroit de la langue. Mais
+                    sur quoi je suis douteux encore, c’est de savoir si le mot Lenni-Lenape,
+                        <foreign sameAs="del">
+                  <hi rend="underline">ooch</hi>
+               </foreign>, possède un préfixe qui exprime le
+                    pronom de la 3. personne du singulier, &amp; si ce préfixe est l’<hi rend="underline">o</hi> initial, ou si la nation ajoute l’idée du pronom,
+                    sans qu’il soit exprimé dans le mot même. Dans ce dernier cas <persName ref="jpeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName>
+                    auroit raison de dire que <foreign sameAs="del">
+                  <hi rend="underline">ooch</hi>
+               </foreign> est simplement <hi rend="underline">père</hi> tandisque <foreign sameAs="del">
+                  <hi rend="underline">n-ooch</hi>
+               </foreign> est visiblement <hi rend="underline">mon-père</hi>, &amp; son tort consisteroit uniquement dans
+                    ce qu’il n’auroit pas observé que les Indigènes ajoutent toujour à ce mot l’idée
+                    de celui dont quelqu’un est père. Il est indubitable que les deux cas existent
+                    dans les langues Américaines, celui que chaque substantif est lié de lui même
+                    constamment <del>à un</del> au pronom de la 3. pers. du singulier, si le sens
+                    n’exige pas un autre pronom possessif, &amp; celui que <pb n="4"/> le substantif
+                    porte avec lui dans sa forme primitive l’idée de ce pronom de sorte qu’on n’a
+                    pas besoin de l’ajouter, même quand il seroit essentiel pour le sens de
+                    l’exprimer. Je n’ai pas besoin de citer un exemple du premier de ces cas. Votre
+                    lettre en renferme un de la langue des Choktaws. Mais le second de ces cas
+                    existe dans la langue des Maypures. <foreign sameAs="qij">
+                  <hi rend="underline">Nu-java</hi>
+               </foreign>, veut dire <hi rend="underline">ma hâche</hi>, &amp; <foreign sameAs="qij">
+                  <hi rend="underline">javà</hi>
+               </foreign> seul <hi rend="underline">sa
+                        hache.</hi> Il y a cependant dans cette langue une manière de dire <hi rend="underline">la hâche</hi> sans autre idée relative; il faut pour lors
+                    ajouter à la fin du mot le suffixe <foreign sameAs="qij">
+                  <hi rend="underline">ti</hi>
+               </foreign>; <foreign sameAs="qij">
+                  <hi rend="underline">javati</hi>
+               </foreign>, <hi rend="underline">la
+                        hache</hi>. La même chose existe en quelque façon dans la langue Mexicaine.
+                    Les pronoms possessifs s’y expriment également par des Préfixes et lorsque ces
+                    préfixes s’attachent aux substantifs ces derniers subissent pour la plûpart un
+                    changement. Ceux qui finissent en <foreign sameAs="nah">
+                  <hi rend="underline">tli</hi>
+               </foreign> perdent cette syllabe. <foreign sameAs="nah">
+                  <hi rend="underline">Nan-tli</hi>
+               </foreign> signifie <hi rend="underline">la
+                        mère</hi>; si l’on veut dire <hi rend="underline">la mère de quelqu’un</hi>,
+                    car les Mexicains possèdent un pronom possessif indéterminé, on ajoute <foreign sameAs="nah">
+                  <hi rend="underline">te</hi>
+               </foreign>, ôte <foreign sameAs="nah">
+                  <hi rend="underline">tli</hi>
+               </foreign> et dit <foreign sameAs="nah">
+                  <hi rend="underline">te-nan</hi>
+               </foreign>. Ce rapprochement entre une
+                    langue sur le Golfe du Mexique &amp; d’une sur l’Orénoque est tout curieux que
+                    celui très-intéressant entre les mots d’ <hi rend="underline">Inca</hi> &amp;
+                        <hi rend="underline">Ingka</hi>. Je dois cependant avouer que j’ai observé
+                    d’ailleurs une grande différence entre les langues de l’Amérique méridionale
+                    &amp; celles qu’on parle dans la Nouvelle Espagne, celles que les premières,
+                    surtout celles de l’Orénoque ne font presque pas du tout usage de la
+                    réduplication des syllabes qui est si fréquente dans les dernières. Mais pour en
+                    revenir <del>sur</del> au pronom <sic>possessiv</sic>, il est visible qu’il
+                    existe des différences <subst>
+                  <del>très-visibles</del>
+                  <add>très-marquées</add>
+               </subst> sur ce point dans
+                    les différentes langues Américaines. Je trouve <supplied cert="high">qu’on
+                        a</supplied> déjà observé avant moi que ce sont surtout les langues de
+                    l’Orénoque qui ne se servent presque jamais des substantifs abstraits. Sans
+                    avoir égard pour ces différences, on peut, je crois, sans risquer de se tromper,
+                    supposer qu’il est en général dans l’esprit des <pb n="5"/> nations Americaines
+                    de réunir l’idée de la personne à celle des choses, &amp; de particulariser,
+                    autant que possible, toutes les idées, de ne pas dire seulement que quelqu’un
+                    est père, mais d’ajouter toujours de qui il est père.</p>
+            <p>C’est sans doute de là que vient la coutûme de faire des <del type="fragment">noms p</del> pronoms possessifs, tandisque nous en formons des mots
+                    détachés. L’habitude de joindre ces mots aux substantifs en a fait un même mot.
+                    La même chose est arrivée dans la langue Latine &amp; Grecque aux Verbes,
+                    puisque le verbe par sa nature même ne sauroit être détaché de l’idée de la
+                    personne. Dans les langues Américaines le pronom est, selon moi, la partie du
+                    discours la plus essentielle. Il se divise ordinairement en deux grandes
+                    branches, dont l’une est destinée aux noms, l’autre aux Verbes, &amp; la
+                    précision, &amp; la clarté de la langue dépend beaucoup de la manière plus ou
+                    moins précise dont les différentes espèces de Pronoms sont classées. La langue
+                    Mexicaine possède de grands avantages sous ce rapport.</p>
+            <p>L’habitude de réunir grammaticalement des idées que nous séparons, s’étend encore
+                    sur d’autres cas. <persName ref="jedwards">M.<hi rend="superscript">r</hi>
+                        Edwards</persName> observe dans <bibl sameAs="119">son mémoire sur le
+                        langage des Mohegans</bibl> que je dois à Vos bontés, que cette nation n’a
+                    point d’Adjectifs, mais qu’elle les exprime par des verbes neutres. Cela veut
+                    dire en d’autres mots qu’elle ne se représente point les adjectifs <supplied cert="high">comme</supplied> abstraitement pris, mais comme inhérents à
+                    telle ou telle personne. J’ai trouvé la même chose d’une manière différente
+                    aussi dans d’autres langues Américaines.</p>
+            <p>C’est par ces raisons qu’il faut bien avoir attention en formant des vocabulaires
+                    Américains de ne pas prendre des mots composés pour des mots simples. <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Duponceau</persName> a
+                    très-ingénieusement découvert l’erreur par laquelle <persName ref="jsvater">l’auteur</persName> du <bibl sameAs="442">Mithridates</bibl> <pb n="6"/> a
+                    pris pour deux mots de différentes langues le même mot composé avec deux pronoms
+                    différens, et nos vocabulaires fourmillent certainement encore de fautes
+                    pareilles. Vous ne sauriez assez <del>ces</del> recommander à ceux qui traitent
+                    avec les Indigènes d’approfondir, autant que possible, le sens de chaque mot,
+                    &amp; si cela peut se faire, de chaque syllabe en particulier, &amp; de ne pas
+                    noter la phrase entière avec sa traduction, mais la traduction de chaque mot, en
+                    rapportant par des chiffres chaques mot à celui <sic>auquel</sic> il correspond.
+                    Je regrette p.e. que <persName ref="hdaggett">le Surintendant</persName> de
+                        <orgName ref="41">l’école de Cornwall</orgName> ne Vous ait marqué les sens
+                    précis de chaque mot de la phrase <foreign sameAs="cho">
+                  <hi rend="underline">Adam quo-nut-tuk moo-mah Ingka yut-tuk</hi>
+               </foreign> à
+                    moins qu’il n’ait sçu que Vous le connoissiez déjà. J’ai été frappé de ce que
+                        <foreign sameAs="cho">
+                  <hi rend="underline">Ingka</hi>
+               </foreign> doit être uni avec le pronom de la
+                    3. pers. du singulier. L’Anglois <hi rend="underline">of all men</hi> exigeroit
+                    celui du pluriel. Peut-être la langue des Choktaw se sert-elle d’un collectif
+                    pour exprimer le même sens.</p>
+            <p>Cette habitude de réunir des idées qui devroient être séparées, fait naître
+                    quelquefois de la confusion, &amp; de l’obscurité dans le langage. Dans la
+                    langue du Brésil <foreign sameAs="tup">
+                  <hi rend="underline">xer-uba</hi>
+               </foreign> p.e. signifie <hi rend="underline">mon père</hi>, &amp; <hi rend="underline">j’ai un
+                    père</hi>. </p>
+            <p>Le grand problême dans l’étude des langues consiste toujours à se procurer une
+                    idée claire &amp; précise de leur organisation primitive, &amp; pour y parvenir,
+                    il faut surtout avoir constamment deux choses devant les yeux.</p>
+            <p>La première est qu’il faut exactement se rendre compte de quelle manière &amp;
+                    par l’emploi de quelle partie du discours une langue a coutûme de rendre telle,
+                    ou telle des différentes formes grammaticales. Car il ne faut pas s’imaginer que
+                    p.e. le Conjonctif, l’Infinitif cet. soit formé de la même manière dans toutes
+                    les langues. Si l’on suit en cela les Jesuites Grammairiens des idiômes <pb n="7"/> Américains, on risque de tomber dans les erreurs les plus
+                    grossières. Permettez-moi de citer quelques exemples pour devenir plus clair.
+                    Dans la langue des Caribes <foreign sameAs="car">
+                  <hi rend="underline">a-veiri-daco</hi>
+               </foreign> doit être la 2. personne de
+                    l’Imparfait du subjonctif. Mais il est clair que ces trois parties du mot que
+                    j’ai séparées, expriment plutôt un gérondif; <foreign sameAs="car">
+                  <hi rend="underline">a</hi>
+               </foreign> est le pronom possessif de la 2.
+                    personne du singulier, <foreign sameAs="car">
+                  <hi rend="underline">veiri</hi>
+               </foreign> est ce qu’on peut nommer un
+                    infinitif, la forme primitive du verbe <hi rend="underline">être</hi>, <foreign sameAs="car">
+                  <hi rend="underline">daco</hi>
+               </foreign> est une particule qui désigne une
+                    certaine époque. <foreign sameAs="car">
+                  <hi rend="underline">Ornacono-daco</hi>
+               </foreign> veut dire au troisième
+                    jour. Le mot cité veut donc dire <hi rend="underline">à l’époque de ton
+                        être</hi>. Cela convient en effèt avec le sens du Conjonctif: <hi rend="underline">si tu étois</hi>, mais la forme Grammaticale est
+                    entièrement différente, &amp; la dénomination de Conjonctif en donne une idée
+                    entièrement fausse. Le Conjonctif se forme d’une manière entièrement analogue
+                    aussi dans d’autres langues Américaines, en sorte que sa syllabe caracteristique
+                    est une particule qui veut dire <hi rend="underline">à l’époque</hi>, <hi rend="underline">quand</hi>, <del type="fragment">ou sim</del> <hi rend="underline">lorsque</hi>, or simplement la préposition <hi rend="underline">dans</hi>, <hi rend="underline">en</hi>. L’Infinitif est
+                    dans plusieurs langues un simple nom verbal, dans la langue Mexicaine le futur
+                    placé d’une certaine manière auprès du verbe qui régit l’Infinitif, en fait les
+                    fonctions, dans la langue Lule on laisse, pour exprimer l’Infinitif, se suivre
+                    simplement le présent du <hi rend="underline">verbum regens &amp; rectum</hi>;
+                        <foreign sameAs="ule">
+                  <hi rend="underline">caic tucuec</hi>
+               </foreign> j’ai coutûme de manger, mais
+                    proprement mot à mot; <hi rend="underline">je mange, j’ai coutûme</hi>. Dans
+                    cette même langue on cite comme participe du Passif: <foreign sameAs="ule">
+                  <hi rend="underline">a</hi>{{1.}}-<hi rend="underline">le</hi>{{2.}}-<hi rend="underline">tipan</hi>{{3.}}</foreign>
+               <note type="footnote" resp="editor">Die Ziffern in doppelten geschwungenen Klammern stehen hier
+                        für von Humboldt gesetzten Suprascript-Ziffern zur Markierung der einzelnen
+                        Wortteile sowie deren wörtliche Übersetzung.</note>, fabriqué de terre, mais
+                    le sens verbal est: <hi rend="underline">de</hi>{{1.}} – <hi rend="underline">terre</hi>{{2.}} – <hi rend="underline">ils fabriquent</hi>{{3.}}. <foreign sameAs="ule">
+                  <hi rend="underline">Tipan</hi>
+               </foreign> est la 3. personne du pluriel du
+                    présent du verbe dont <foreign sameAs="ule">
+                  <hi rend="underline">tic</hi>
+               </foreign> est la 1. du singulier.</p>
+            <p>Avant que de n’avoir de cette manière réduit les soi-disantes dénominations des
+                    formes Grammaticales à la véritable valeur qu’elles ont dans la langue de
+                    laquelle on traite, il est entièrement impossible de se former une idée nette de
+                    son organisation. <pb n="8"/> La grammaire générale établit de certaines formes
+                    générales pour composer les phrases du discours; substantifs, adjectifs, verbes
+                    cet. Il faut nécessairement qu’il existe dans chaque langue quelquechose qui
+                    réponde à ces formes d’une manière plus ou moins exacte. Mais chaque langue peut
+                    se servir d’une manière particulière pour les exprimer. Si pour lors on n’a
+                    point égard à ces différences, si on les désigne toutes par les mêmes noms
+                    généraux, les nuances qui caractérisent les différentes langues, disparoissent,
+                    et toutes ne semblent avoir qu’une même grammaire. Or l’étude comparative des
+                    langues exige qu’on saisisse précisément ce qui leur est propre à chacune, ce
+                    qui forme son caractère particulier.</p>
+            <p>La seconde chose à laquelle je tiens beaucoup en travaillant sur une langue
+                    quelconque, c’est de l’analyser autant qu’il est possible dans ces premiers
+                    élémens. Ce travail se divise en deux parties. Il faut d’abord séparer le corps
+                    du mot de ses affixes, &amp; ces derniers d’entr’eux, il faut ensuite tâcher de
+                    découvrir la signification primitive de chacun de ces affixes. Car il est
+                    indubitable, que tous les affixes ont été autrefois des mots séparés &amp;
+                    distincts &amp; ayant un sens en eux mêmes. Il seroit inutile d’en citer les
+                    nombreux exemples qui se trouvent dans les langues Américaines. Il s’entend
+                    cependant de soi même qu’il y a aussi un bien plus grand nombre d’affixes
+                    encore, dont on chercheroit envain la signification primitive. Il faut aussi
+                    bien se garder pour cette raison de poursuivre cette partie de l’Analyse trop
+                    loin &amp; au delà du point, où l’on peut parvenir à des résultats de fait, sans
+                    se livrer à des conjectures. <del type="fragment">La subdivi</del> La séparation
+                    du corps du mot &amp; des Affixes réussit ordinairement dans les langues
+                    Américaines avec une grande facilité. Car on pour-<pb n="9"/>roit presque dire
+                    que les nations Américaines ne se servent pas de formes qui existent déjà toutes
+                    faites dans le langage, mais qu’elles les composent à chaque moment, selon le
+                    besoin, des mots primitifs, des pronoms, &amp; de particules. Tant l’union est
+                        <del>peu</del> visible &amp; peu ferme. Il y a néanmoins une grande
+                    différence parmi les langues Américaines aussi à cet égard, et il seroit
+                    superflû d’observer qu’aussi dans nos langues civilisées on s’apperçoit
+                    très-souvent de la manière dont les élémens des mots ont été réunis.</p>
+            <p>Tout le travail dont j’ai fait mention ici, est grammatical; mais il doit
+                    précéder, à ce qu’il me paroit, la formation définitive des Vocabulaires &amp;
+                    des Dictionnaires. Car ceux-ci doivent renfermer les mots simples, ou rendre
+                    raison des mots composés. Ils supposent pour cette raison une analyse déjà toute
+                    faite.</p>
+            <p>C’est pour cette raison que je compte commencer <bibl sameAs="217">l’ouvrage que je me propose de
+                    faire sur les langues Américaines</bibl>, par <del type="fragment">l<gap quantity="2" unit="chars"/>
+               </del> l’examen de leur Grammaire. J’ai composé d’après le systême que j’ai pris
+                    la liberté de Vous exposer ici, Monsieur, des Grammaires de la plupart des
+                    langues dont je possède des matériaux suffisans. J’ai formé surtout celles des
+                    langues de la Nouvelle Espagne, &amp; de la plupart de celles de l’Amérique
+                    Méridionale. Je m’occuperai àprésent incessamment de celles qui me restent
+                    encore à faire. Ayant examiné de cette manière chacun de ces différens idiômes
+                    en particulier, je compte en former un tableau général, passer en revue la
+                    grammaire entière, &amp; montrer de quelle manière chaque langue traite chaque
+                    partie du discours, de sorte que l’on pourra trouver dans ce travail toutes les
+                    nuances dans lesquelles l’organisation des langues Américaines est différente
+                    entr’elle même, &amp; toutes les variétés qu’elle offre. Cela sera non seulement
+                    utile pour résoudre la question: de quelle manière l’homme <pb n="10"/> en
+                    général parvient à former la Grammaire? mais facilitera aussi la comparaison des
+                    langues du nouveau continent avec celles des autres qui sera naturellement plus
+                    aisée lorsque tous les traits qui caractérisent ces langues, auront été réunis
+                    sous un même point de vue. D’un autre côté on reconnoîtra aussi <del>de</del>
+                    par cette méthode quelle analogie existe entre les différens idiômes de
+                    l’Amérique elle-même, &amp; s’il est vrai que ces idiômes portent tous un même
+                    caractère. Si les circonstances le permettent, je ferai pourtant imprimer après
+                    ce mémoire général aussi les grammaires particulières sur lesquelles il sera
+                    basé. Car il est pourtant nécessaire de présenter aussi chaque langue dans
+                    l’ensemble qu’elle forme. Voilà le plan sur lequel je travaille. Il seroit
+                    très-vaste, si l’on considère l’immensité des langues Américaines, mais il ne
+                    semble point excéder les forces d’un individu accoutumé à un travail assidû, si
+                    l’on fait reflexion que le nombre des matériaux, au delà desquels il est
+                    impossible d’aller, n’est que très-rétréci.</p>
+            <p>Vous faites mention du <hi rend="underline">Dualis</hi> des langues Américaines.
+                        <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Du
+                        Ponceau</persName> avoit élevé des doutes sur son existence. Mais elle est
+                    évidente dans quelques langages. La langue Totonaque se sert du <hi rend="underline">Dualis</hi> pour désigner tous les objèts qui par leur
+                    nature sont doubles, <del type="fragment">telle q</del> tels que les yeux, les
+                    oreilles, les mains. Ces objèts n’ont pas d’autre Pluriel, &amp; ce Dualis ne
+                    peut pas s’appliquer à d’autres objets, comme à deux hommes, chevaux cet. C’est
+                    donc exactement un Pluriel particulier pour les objèts doubles, et il est
+                    probable que dans toutes les langues l’origine du <hi rend="underline">Dualis</hi> a été le même. Car il n’y a d’ailleurs pas de raison pourquoi
+                    l’on devroit avoir un pluriel particulier pour le nombre deux, &amp; non pas
+                    pour trois, quatre cet. Il est remarquable encore que le mot <pb n="11"/> <hi rend="underline">étoile</hi>, <foreign sameAs="tot">
+                  <hi rend="underline">tzaco</hi>
+               </foreign>, en Totonaque se sert de ce
+                    pluriel particulier. Cela paroit prouver qu’originairement ce mot ne s’employoit
+                    que pour désigner les deux grands astres du ciel, le soleil &amp; la lune.</p>
+            <p>Mais c’est bien abuser de la permission que Vous voulez bien me donner de Vous
+                    écrire, Monsieur, que de traiter aussi longuement des questions générales, au
+                    lieu de Vous remercier des pièces intéressantes dont Vous avez enrichi ma
+                    collection de matériaux Américains. Vous m’avez rendû en effét un très-grand
+                    service par là qui excite toute ma reconnaissance dont je Vous prie d’agréer
+                    l’expression.</p>
+            <p>L’envoi de <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Du
+                        Ponceau</persName> ne m’est pas parvenû encore. Mais je possède par un autre
+                    canal l’<bibl sameAs="26">Archaeologia Americana</bibl> qui est un livre
+                    très-éstimable &amp; très-instructif. Je desire surtout recevoir bientôt <bibl sameAs="473">la Grammaire</bibl> de <persName ref="dzeisberger">M.<hi rend="superscript">r</hi> Zeisberger</persName>. Car c’est surtout sur
+                    cette partie de l’Amérique qu’on manque encore de grammaires détaillées.</p>
+            <p>Je Vous prie, Monsieur, de témoigner à <persName ref="sfjarvis">M.<hi rend="superscript">r</hi> Jarvis</persName> toute ma reconnoissance de
+                    l’envoi de <bibl sameAs="237">son excellent discours</bibl>. J’&lt;y&gt; ai été,
+                    on ne peut pas plus, sensible.</p>
+            <p>
+               <bibl sameAs="123">La réimpression du livre</bibl> d’<persName ref="jeliot">Eliot</persName>, &amp; <bibl sameAs="449">la publication du
+                        manuscrit</bibl> de <persName ref="jcotton">Cotton</persName> seront d’une
+                    très-grande utilité. Outre l’instruction qu’on en retirera, il sera encore,
+                    ainsi que Vous l’observez très-justicieusement, Monsieur, curieux de voir, si
+                    les langues sur lesquelles ils ont écrit, ont subi de grands changemens, ou si
+                    elles sont restées à peu près les mêmes. Je suis entièrement de Votre avis que
+                    les langues <del type="fragment">q</del> des Sauvages sont moins sujettes à des
+                    innovations, que les langues civilisées, &amp; ce qui Vous dites de la réaction
+                    de l’Orthographe sur la prononciation est aussi neuf, qu’ingénieux. Cela est
+                    certainement vrai, &amp; pourroit se prouver par plusieurs de nos langues, &amp;
+                    je ne me souviens point qu’un <pb n="12"/> autre ait déjà fait la même
+                    observation.</p>
+            <p>
+               <bibl sameAs="353">La publication du dictionnaire</bibl> du <persName ref="srasles">Père Rale</persName> seroit d’une plus grande importance
+                    encore, &amp; je ne puis que Vous engager le plus fortement possible de faire
+                    tout ce qui dépend de Vous pour qu’elle ait lieu. Comme, <supplied cert="high">pour</supplied> autant que je m’en souvienne, on se sait presque rien de la
+                    langue des Abnakis, ce seroit nous enrichir d’un idiôme de plus, &amp; sauver
+                    celui-ci d’un oubli éternel, auquel il seroit, sans cette publication,
+                    probablement condamné. L’échantillon que Vous avez eû la bonté de me
+                    communiquer, Monsieur, m’a donné une excellente idée de l’ensemble de l’ouvrage.
+                    Mais j’oserois Vous donner un conseil par rapport à la publication. Je suppose
+                    d’abord que Vous la ferez en François, &amp; sans altérer le Manuscrit. Mais
+                    ensuite, comme les mots sont classés de manière, que le mot François est le
+                    premier, &amp; que la série Alphabétique suit les mots François, il seroit
+                    absolument nécessaire d’y ajouter une partie Abnaki-Françoise. Sie Vous croyiez
+                    rendre par là l’impression trop couteuse, Vous pourriez donner à chaque mot
+                    François traduit en Abnaki un chiffre, &amp; ne mettre par lors dans la seconde
+                    partie que le mot Abnaki avec le Chiffre du mot François qui en donne
+                    l’explication. Mais il faudroit dans ce cas bien soigneusement se garder de
+                    fautes d’impression. Les dictionnaires des langues étrangères qui ne sont pas
+                    classés d’après la série Alphabétique des mots étrangers mêmes, sont d’une bien
+                    petite utilité pour l’étude des langues. Comme tous les mots <subst>
+                  <del>de cette dernière</del>
+                  <add>y</add>
+               </subst> sont dispersés d’après <del type="fragment">la s</del> l’ordre alphabétique d’un autre idiôme, on n’y
+                    reconnoit plus les familles, ni les compositions, &amp; la première chose qu’il
+                    faut faire, en voulant travailler sur un tel dictionnaire, c’est de le retourner
+                    pour ainsi <pb n="13"/> dire. Voilà ce que j’ai fait moi même dans plusieurs
+                    cas. J’ai aussi rédigé ainsi un dictionnaire dans lequel j’ai distribué les
+                    différentes paroles Indiennes qui se trouvent éparses dans <bibl sameAs="46">Barton</bibl>, <persName ref="lhervas">Hervas</persName>, <bibl sameAs="442">Mithridates</bibl>, <bibl sameAs="196">le Voyage</bibl> de
+                        <persName ref="avh">mon frère</persName> cet. d’après les langues auxquelles
+                    elles appartiennent, &amp; en ordre alphabétique dans chacune. Je possède par là
+                    une espèce de Glossaire Américain &amp; peut voir dans un instant quels mots on
+                    connoit de tel ou tel idiôme dont on ne possède pas un dictionnaire, ou
+                    vocabulaire entier. Comme à chaque mot le livre duquel il est pris, il est aisé
+                    de cette manière d’aller à la recherche s’il est bien, ou mal posé. Car Vous
+                    n’ignorez pas, que plusieurs des ouvrages que je viens de citer, renferment des
+                    erreurs. <persName ref="lhervas">Hervas</persName> surtout en fourmille. Les
+                    mots que Vous avez bien voulû me fournir, Monsieur, pour completter <bibl sameAs="46">Barton</bibl>, m’ont été fort intéressans aussi sous ce rapport.
+                    Je dois dire la même chose du <bibl sameAs="117">Manuscrit</bibl> d’<persName ref="jedwards">Edwards</persName> dont j’ai déjà tiré partie, ainsi que Vous
+                    voyez par la citation que j’en faite dans cette lettre même.</p>
+            <p>Il me reste à Vous parler, Monsieur, sur <bibl sameAs="333">Votre plan d’une
+                        orthographe uniforme pour les langues Américaines</bibl>. J’ai lû &amp; relû
+                    Votre mémoire avec la plus scrupuleuse attention, j’ai réfléchi mûrement sur son
+                    contenû, &amp; je me flatte que Vous voudrez bien me permettre de Vous dire mon
+                    opinion sur Votre idée, sans craindre de rendre encore plus longue ma lettre qui
+                    par sa prolixité réclame déjà Votre indulgence amicale.</p>
+            <p>Rien ne seroit aussi important que de se servir d’une même orthographe pour
+                    écrire sur les langues Indiennes. Mais comme il est à prévoir que cela ne pourra
+                    être obtenû que dans bien du tems d’ici, &amp; que Vous visez très-sagement
+                    partout à ce qui peut devenir utile dans l’exécution, tout à quoi on pourra
+                    atteindre àprésent, <pb n="14"/> sera de porter l’attention, autant que possible
+                    sur la juste prononciation de ces Idiomes, &amp; de jetter, ainsi que Vous
+                    l’avez fait, les bases d’une orthographe plus exacte.</p>
+            <p>Il y a évidemment deux méthodes pour déterminer les sons de langages peu connûs.
+                    L’une, entièrement scientifique, seroit de déterminer avec précision la manière
+                    de laquelle les sons se forment par les organes, &amp; de déterminer par là,
+                    pour ainsi dire, le nombre des sons possibles. Si l’on possédoit une pareille
+                    échelle des sons, il seroit plus aisé de dire quel est le point qu’y occupe un
+                    son encore inconnû. Mais jusqu’ici un pareil travail n’existe point, quoiqu’on
+                    ait fait bien des essais à cet égard. Je doute aussi qu’il soit possible de le
+                    faire de manière <sic>a</sic> pouvoir, pour ainsi dire, décrire le son par des
+                    paroles sans le proférer, &amp; être néanmoins entendû. Il est à savoir encore,
+                    quand même une pareille théorie existoit, s’il seroit aisé de s’en servir, ou si
+                    cela même n’exigeroit <supplied cert="high">point</supplied> une finesse peu
+                    commune d’ouie &amp; de prononciation, &amp; une étude &amp; une pratique
+                    très-suivie. Vous avez donc parfaitement bien fait d’abandonner cette route.</p>
+            <p>La seconde méthode est de fixer les différens sons connûs jusqu’ici d’après des
+                    exemples tirés des différentes langues déjà connues. Cette méthode est
+                    évidemment plus facile, mais elle a aussi le grand inconvénient qu’à peine un ou
+                    deux individus ont une connoissance exacte de la prononciation de quatre ou cinq
+                    langues étrangères, qu’ils n’en saississent au moins pas les nuances fines &amp;
+                    délicates, &amp; que de cette manière il peut naître des erreurs très-graves. Il
+                    n’est donc jamais à désirer qu’un écrivain entreprenne de fixer un son encore
+                    inconnû d’après un son d’une langue qui n’est pas la sienne.</p>
+            <p>Si donc les deux méthodes mentionées ici offrent de graves inconvéniens &amp;
+                    sont inexécutables dès qu’on exige une très-grande exacti-<pb n="15"/>tude, il
+                    résulte de là qu’il n’existe point encore une échelle de sons qui seroit
+                    générale &amp; à laquelle toutes les langues pourroient être comparées, &amp;
+                    que par conséquent l’Uniformité de l’Orthographe manque encore d’une base
+                    entièrement solide.</p>
+            <p>Pour éviter par conséquent toute erreur le plus sage me paroit, ainsi que Vous le
+                    proposez, de fixer les sons de la langue Indienne de laquelle on traite, d’après
+                    la sienne propre, de déterminer le nombre de sons, &amp; de fixer chacun de ses
+                    sons d’après un d’un mot déterminé de sa propre langue, &amp; de rendre
+                    exactement compte de la marche tenue à cet égard. Quant aux sons qui n’existent
+                    pas dans la langue de l’Auteur, il ne reste enfin que de dire de quels sons de
+                    cette langue ils se rapprochent, ou de les comparer pourtant à un son d’une
+                    langue étrangère, ou enfin d’en décrire la formation. Mais cette dernière
+                    méthode est la moins bonne. Car une pareille déscription est toujours vague
+                    &amp; peu claire autant qu’on manque d’une théorie exacte qui embrasseroit
+                    l’universalité des sons. Quant au rapprochement des différens sons entr’eux ce
+                    que Vous avez observé <bibl sameAs="333">p. 37.</bibl> est aussi ingénieux,
+                    qu’utile.</p>
+            <p>En suivant cette route on tombe toujours dans l’inconvénient que la langue
+                    inconnue a été décrite d’après une autre langue particulière, &amp; non pas
+                    d’après une échelle de sons générale placés au centre de toutes les langues,
+                    &amp; qu’il est nécessaire de connoitre la prononciation de la langue de chaque
+                    auteur qui traite des langues Indiennes, pour en apprendre la prononciation.
+                    Mais il sera impossible de rémédier à cet inconvénient. Il est plus essentiel de
+                    se mettre en garde contre l’erreur que de faciliter l’étude, &amp; les
+                    comparaisons des sons ne seront exactes qu’autant que ceux qui les forment, s’en
+                    tiennent à leurs langues maternelles.</p>
+            <p>Tout ce que je viens de dire regarde les sons mêmes. Quand même chaque auteur ne
+                    compareroit ces sons qu’aux mots de sa langue, il pourroit néanmoins adopter
+                    l’orthographe que Vous proposez et écrire p. e. le j de judge par dsh cet. et il
+                    en résulteroit certainement un <pb n="16"/> grand avantage. Il s’y trouve
+                    cependant aussi des inconvéniens considérables. Le premier est qu’un grand
+                    nombre de sons doit être rendû par deux ou trois lettres. Il peut résulter de là
+                    de la confusion, si <del>les</del> une de ces mêmes lettres suit immédiatement
+                    dans le mot étranger &amp; que le lecteur devient douteux, si cette lettre
+                    exprime un son en elle même, ou <supplied cert="high">si elle</supplied>
+                    appartient au <supplied cert="high">mot</supplied> précédent. Si p. e. un mot
+                    a-za s’écrit atsa il n’y a plus moyen de voir si les deux consonnes
+                    appartiennent à une même ou à deux syllabes. Puis ces nouveaux signes
+                    induiroient facilement à comprendre sous un même signe des sons de nature un peu
+                    différente ce qu’il faut néanmoins éviter. Le ch Allemand p. e. diffère assez
+                    sensiblement dans sa prononciation des j, g, &amp; x Espagnol, puisqu’il est
+                    moins guttural. En se servant pour ces différens sons du seul kh, on perdra
+                    infailliblement cette nuance qui est si importante que les lettres citées
+                    donnent à la langue Espagnole entière une prononciation très-gutturale qui
+                    n’existe pas dans la nôtre. L’inconvénient sera donc toujours de devoir
+                        <sic>ou</sic> adopter un même signe pour différens sons, ou de <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> devoir multiplier les signes ce qui est, comme Vous l’observez très-bien,
+                    très-difficile &amp; presqu’ impraticable. Dans la pratique actuelle on évite
+                    cet inconvénient, puisqu’en se servant des mêmes signes dans différens sons, on
+                    en indique la valeur. Enfin il naîtroit de l’adoption des nouveaux signes pour
+                    le moment un assez grand embarras, puisque chacun de ces signes rappelle des
+                    sons qu’il a dans telle ou telle langue, &amp; qu’il ne doit pas représenter
+                    ici. Mais cet inconvénient disparaitroit en peu de temps. Les signes que Vous
+                    proposez, sont au fond un alphabet général. Or <del>cet</del> un pareil
+                        <supplied cert="high">alphabet</supplied> suppose nécessairement une échelle
+                    générale des sons, et il doit être imparfait aussi long-tems que celle-ci nous
+                    manque. Je m’élève cependant ces doutes que je prends la liberté de Vous
+                    communiquer avec toute la franchise qu’exige la discussion sur des objéts
+                    scientifiques, que pour Vous encourager à poursuivre la route que Vous avez si
+                    bien frayée, et à voir, <pb n="17"/> si peut-être il ne seroit pas possible
+                    d’éviter, ou de diminuer les inconvéniens dont je viens de parler. Car il est
+                    hors de tout doute que le but auquel Vous visez, est de la plus haute
+                    importance.</p>
+            <p>Je ne me flatte point qu’il soit possible de <del>beaucoup</del> rendre le
+                    systême que Vous avez présenté beaucoup meilleur que Vous ne l’avez donné. Il me
+                    paroit très-ingénieux, &amp; comme pour l’améliorer il faudroit à la fois
+                    simplifier &amp; multiplier les signes, je doute que cela puisse se faire. A
+                    l’exception de quelques points que je prendrai la liberté d’indiquer plus bas,
+                    il me semble que Vous avez parfaitement bien réussi à atteindre ce à quoi il est
+                    possible de parvenir. S’il y a des imperfections &amp; des inconvéniens, <del type="fragment">ell</del> ils se trouvent dans la nature de l’objét &amp;
+                    non pas dans Votre travail.</p>
+            <p>Même malgré ces inconvéniens je crois que si Vous Vous bornez à Vous servir de
+                    Vos nouveaux signes partout là où Vous êtes à portée de leur comparer les sons
+                    mêmes, Vous en retirerez la plus grande utilité, &amp; Vous rendrez en même tems
+                    un grand service aux étrangers, et l’un &amp; l’autre sans courir des risques.
+                    Car Vous ne manquerez pas d’indiquer en même tems toujours à quel son de quel
+                    mot Anglois Vous comparez le son que Vous présentez avec la lettre que Vous
+                    substituez à celle usitée en Anglois. Il ne pourra donc pas y avoir
+                    d’inexactitude, &amp; comme précisement la langue Angloise à côté de tant de
+                    beautés &amp; d’avantages a l’inconvénient d’exprimer <supplied cert="high">soit</supplied> différens sons par une même lettre, et le même <supplied cert="high">son</supplied> par différentes <supplied cert="high">lettres</supplied>, Votre méthode est plus nécessaire là ou ce sont des
+                    Anglois qui rendent compte des langues Indiennes.</p>
+            <p>Mais je ne Vous conseillerois jamais de vouloir traduire dans Vos nouvelles
+                    lettres ce qui se trouve consigné dans d’autres livres de sons que Vous n’êtes
+                    point à même d’entendre, &amp; qui ont été recueillis par des personnes d’autres
+                    Nations. Vous direz que pour lors l’Orthographe ne devient pas uniforme; mais
+                    voilà proprement la seule, mais <pb n="18"/> grande objection que je voudrois
+                    faire à Votre travail que l’uniformité que Vous demandez, ne peut pas être
+                        <sic>obtenû</sic> encore dans l’étât où se trouve l’étude des langues
+                    Américaines dans ce moment, &amp; qu’elle ne le pourra peut-être jamais. Pour
+                    l’obtenir et pourtant éviter de graves erreurs en confondant un son avec
+                    d’autres, il faudroit que des personnes, munies de Votre systeme, allassent de
+                    nation a nation pour vérifier les sons de toutes les langues.</p>
+            <p>Je me suis sérieusement demandé, si je pourrois adopter Votre systême
+                        <add>généralement</add> dans l’ouvrage que je prépare. Je le désirerois
+                    infiniment. Car sans cela il me faudra ajouter à chaque mot, s’il doit être
+                    prononcé à l’Espagnole cet. et je ne pourrai même pas réunir dans un même
+                    dictionnaire les mots écrits d’après différens systemes. Mais je ne vois
+                    néanmoins pas de possibilité de réduire les sons des vocabulaires Espagnols
+                    &amp; Portugois à ce systeme sans m’exposer à beaucoup d’erreurs. Il est vrai
+                    que la véritable prononciation reste aussi jusqu’à un certain point douteux, si
+                    je me sers de l’Orthographe de ces Auteurs, mais le mot est pourtant alors
+                    reconnoissable par son Orthographe, ou bien que je le dénaturerois entièrement
+                    en l’écrivant d’une autre manière, sans être sûr de lui rendre par là sa
+                    véritable prononciation. Il y a même des cas, où il est impossible de décider
+                    quelle prononciation les auteurs ont voulû indiquer. Je ne Vous en citerai qu’un
+                    exemple. La lettre x se trouve très-souvent dans la langue Mexicaine. Aucun
+                    Grammairien ne dit de quelle manière il faut la prononcer, quoique la langue
+                    Espagnole ait deux prononciations entièrement opposées. Un seul nous donne à
+                    connoître que la prononciation Mexicaine de cette lettre diffère de ces deux
+                    prononciations. Enfin je suis parvenû à me procurer des éclaircissemens sur ce
+                    point par un Mexicain même, qui me mande que le son de l’x est entre le ch
+                    François &amp; le ss Italien. Or comment avant de posséder cette notice, au-<pb n="19"/>rois-je pû classer ce son? &amp; comment le noterois-je encore
+                    àprésent? Ne vaut il pas mieux de lui laisser le x &amp; de dire simplement, de
+                    quelle manière il doit être prononcé?</p>
+            <p>Je ne <sic>sai</sic> même s’il seroit permis de changer l’orthographe de langues
+                    qui, ainsi que la Mexicaine &amp; la Péruvienne, quoique peu civilisées, ont
+                    pourtant été écrites depuis le tems de la Conquête. Car il existe des <del type="fragment">la</del> manuscrits dans ces deux langues &amp; probablement
+                    qu’on y écrit encore des lettres, des comptes cet. ainsi que c’est le cas pour
+                    le Basque. Nous n’altérons jamais l’orthographe des noms ou mots Anglois, Vous
+                    en agissez de même pour nos noms &amp; nos mots. Là donc où dans le pais même,
+                    ou par les écrits des Missionnaires il s’est établi depuis des siecles une
+                    certaine orthographe il me sembleroit hasarde de la changer. Au moins ne
+                    pourroit-on le faire qu’avec pleine connoissance de cause, c’est à dire en ayant
+                    entendû soi même les sons mêmes de la langue.</p>
+            <p>Je vois aussi que Vous avez restreint uniquement Votre travail aux langues de
+                    l’Amérique Septentrionale, &amp; je suppose que Vous n’avez pas voulû y
+                    comprendre celles de la Nouvelle Espagne, quoique nous ayons l’habitude de
+                    nommer Amérique Septentrionale tous les pais jusque au détroit de Panama. En ne
+                    parlant que de ces langues Vous êtes à même de juger de leur prononciation
+                    actuelle, e&amp; Vous n’avez à faire qu’à des auteurs Anglois. Votre Orthographe
+                    uniforme pourra donc être appliquée à ces langues avec un succès complet.</p>
+            <p>Je me permettrai àprésent de Vous faire quelques observations isolées. <bibl sameAs="333">ad p. 6 nt.</bibl> le c devant a, o, u se prononce en Allemand
+                    entièrement comme un k, &amp; l’oreille la plus délicate ne sauroit y découvrir
+                    une différence. <bibl sameAs="333">ad p. 12.</bibl> Je ne <sic>sai</sic> s’il
+                    seroit bon de se servir du w pour désigner l’u long. Le w est usité dans
+                    plusieurs langues comme consonne, et cela produiroit toujours quelque confusion.
+                        <bibl sameAs="333">ad p.</bibl> <pb n="20"/> <bibl sameAs="333">14.</bibl>
+                    notre ä ne se prononce pas comme l’a en fate. Le son Anglois le plus approchant
+                    est celui de there. <bibl sameAs="333">ad p. 21.</bibl> le f manque à la vérité
+                    à un très-grand nombre de langues Américaines. Il existe cependant dans quelques
+                    unes. <bibl sameAs="333">ad. p. 23.</bibl> notre ch ne peut point, je crois,
+                    être rendû par kh qui me semble être un son tout à fait différent. Dans le kh le
+                    son du k doit toujours être sensible, dans notre ch on ne découvre pas la
+                    moindre trace d’un k. La différence me paroit être entre ces deux lettres, comme
+                    entre le <foreign sameAs="grc">φ</foreign> &amp; le f. Les Grecs avoient la première dans leur langue, &amp; ne
+                    pouvoient pas prononcer la seconde. <bibl sameAs="333">ad. p. 25.</bibl> pour
+                    dénoter l mouillé il faudroit bien choisir un autre signe que Ly ou Li. Car s’il
+                    suivoit un autre i, lii, on seroit embarrassé de savoir, s’il falloit lire gli
+                    ou li-i. <bibl sameAs="333">ad. p. 38.</bibl> J’oserois encore Vous faire une
+                    objection contre Votre assertion que le son in among, but est un véritable o, et
+                    qu’il diffère principalement par sa <hi rend="underline">quantité</hi> de
+                    l’autre o. Il me semble que c’est en même tems un son obscur, c’est à dire dans
+                    lequel on entend en même tems un e (d’après la dénomination Allemande) et que ce
+                    son répond exactement à notre ö lorsqu’il est court.</p>
+            <p>Mais j’abuse vraîment de Votre patience, Monsieur. Les détails dans lesquels j’ai
+                    pris la liberté d’entrer, Vous prouveront au moins combien je trouve plaisir à
+                    m’entretenir avec Vous, &amp; combien il me sera précieux, si Vous voudrez bien
+                    me donner, aussi souvent <del>&amp; de la <gap quantity="4" unit="chars"/>
+               </del> que Vous pourrez, de Vos nouvelles.</p>
+            <p>
+               <persName ref="fhlschladen">Mr. de Schladen</persName> dont Vous me demandez des
+                    nouvelles, a été en dernier lieu notre Ministre à <placeName ref="Konstantinopel">Constantinople</placeName>, et a été fait Comte par le
+                    Roi. Il est en congé en ce moment à <placeName ref="Wien">Vienne</placeName>,
+                    &amp; aura probablement une autre déstination. Quoique je ne me trouve point en
+                    correspondance directe avec lui, je tâcherai de lui faire savoir de quelle
+                    manière obligeante Vous avez bien voulû Vous souvenir de lui. –</p>
+            <closer>
+               <salute>Permettez moi, Monsieur, de finir ici, &amp; de Vous réitérer
+                        l’assurance de la considération la plus distinguée <lb/>avec laquelle j’ai
+                        l’honneur d’être, <lb/>Monsieur, <lb/>Votre très humble &amp; très-obéissant
+                        serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>à Berlin, ce 12. Mars, 1822.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

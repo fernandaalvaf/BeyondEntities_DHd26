@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 7. August 2017 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Eugène Burnouf, 20.05.1830<idno type="BBAW">1119</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Paris, Bibliothèque National de
+                            France, Nouvelles Acquisitions Françaises 10600, Fol. 91–92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bösch 2006, S. 273f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8219</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein
+                    zum</persName>
+               </person>
+               <person corresp="jlburnouf">
+                  <persName>Burnouf, Jean-Louis</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1114">Burnouf, Eugène (1829): [Rez.] A Grammar of the T’hai or siamese
+                    language by cap. J. Low. Calcutta 1828, in-4.°, avec neuf planches
+                    lithographiques. In: Nouveau Journal Asiatique 4, S. 210–228</bibl>
+               <bibl corresp="1115">Burnouf, Eugène (1829): Extrait d’un commentaire et d’une
+                    traduction nouvelle du Vendidad Sadé, l’un des livres de Zoroastre. In: Nouveau
+                    Journal Asiatique 3, S. 321–349</bibl>
+               <bibl corresp="493">Burnouf, Eugène (1829–1843): Vendidad Sadé, l’un des livres de
+                    Zoroastre Lithographié d’après le manuscrit Zend de la Bibliothèque du Roi,
+                    Livraisons 1–9, Paris: Perthes</bibl>
+               <bibl corresp="1277">Burnouf, Eugène (1840–1847): Bhâgavata Purâna ou histoire poétique
+                    de Krichna, 3 Bände, Paris: Imprimérie Royale</bibl>
+               <bibl corresp="667">Humboldt, Wilhelm von (1829): Anhang zu Rückerts Recension von
+                    Durschs Ghatakarparam. In: Jahrbücher für wissenschaftliche Kritik Nr. 73–76,
+                    April, Sp. 579–595</bibl>
+               <bibl corresp="1113">Humboldt, Wilhelm von (1830): Observations sur la séparation des
+                    mots dans les textes sanscrits, et sur la nature de l’alphabet dévanagari,
+                    traduites par M. Viguier. In: Nouveau Journal Asiatique 5, S. 437–463</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je dois paroître bien coupable à Vos yeux
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-05-20"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="eburnouf">Burnouf, Eugène</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="ae">Avestisch (Zend)</language>
+            <language ident="my">Birmanisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="te">Telugu (Telinga)</language>
+            <language ident="th">Thailändisch (Siamesisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">7. August 2017</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="91r"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je dois paroitre bien coupable à Vos yeux, Monsieur, de ne pas avoir repondu
+                    plutôt à une lettre aussi pleine d’intérêt et de bienveillance que celle que
+                    Vous m’avez fait l’honneur de m’écrire l’année dernière. Je n’entreprendrai pas
+                    d’excuser ce long silence. Je Vous prie seulement de voir que je n’en ai pas été
+                    moins sensible à tout ce que Vous m’y dites de flatteur et d’amical. Vous avez
+                    été, Vous et <persName ref="jlburnouf">M<hi rend="superscript">r</hi>. Votre
+                        père</persName>, à qui je Vous prie de présenter l’expression de tous mes
+                    sentimens, infiniment trop bons de prendre tant de peine par rapport à la petite
+                    affaire que j’avois pris la liberté de Vous recommander. Je Vous prie instamment
+                    de n’y plus penser.<note type="footnote" resp="editor">Bösch 2006, S. 273 Anm.
+                        394: "Mit der 'petite affaire' spielt Humboldt wohl auf <ref type="link" target="1118">seine ein Jahr zuvor geäußerte Bitte</ref> an, Eugène
+                        Burnouf möge sich um die Verbreitung von Humboldt neuester Abhandlung zur
+                        Sanskritschreibung in französischen Zeitschriften bemühen. Im Juni 1830
+                        erscheint mit einjähriger Verspätung die von Humboldt im vorangegangenen
+                        Brief angeregte <bibl sameAs="1113">französische Übersetzung</bibl> seines
+                            <bibl sameAs="667">
+                     <hi rend="italic">Anhangs zu Rückerts Rezension</hi>
+                  </bibl> im <hi rend="italic">Nouveau journal asiatique</hi>."</note> Il me suffit de
+                    savoir que Vous rendez justice à mes argumens, et que dans <bibl sameAs="1115">Votre mémoire sur le Vendidad Sadé</bibl> Vous avez presqu’ adopté mon
+                    systeme. Tout ce que Vous tenez, c’est que par respect pour les Manuscrits Vous
+                    n’en faisiez pas de même dans Votre Edition d’un Pourana<note type="footnote" resp="editor">Es ist nicht klar, auf welche Purana-Ausgabe Humboldt hier
+                        anspielt. Die Edition der <bibl sameAs="1277">Bhâgavata-Pourâna</bibl>, eines
+                        der Hauptwerke von Eugène Burnouf, erschien in drei Bänden erst in den
+                        Jahren 1840–1847. Außerdem erschienen in den 1820er-Jahren mindestens drei
+                        Aufsätze im <hi rend="italic">Journal Asiatique</hi> mit Anmerkungen und
+                        Auszügen der 18 Puranas. Vgl. auch den <ref type="link" target="1117">Brief Humboldts an Jean-Louis Burnouf vom 15. September 1825</ref>. Dort lässt sich Humboldt im letzten Absatz des langen Briefes über die Arbeiten des Sohnes Eugène aus. [FZ]</note>. Je répondrai seulement à cela, que
+                    personne n’imprime jusqu’ici de la manière qui est pratiquée dans les
+                    Manuscrits, puisque ceux-ci divisent et séparent en syllabes et séparent les
+                    mots toutes les fois que la séparation des syllabes coincide avec celle des
+                    mots. Les diverses manières dont on imprime àprésent, dévient toutes plus ou
+                    moins de celle des Manuscrits. – J’ai étudié le mémoire dont je viens de parler,
+                    avec une véritable admiration. Vous y ouvrez, Monsieur, des voyes entièrement
+                    neuves à la recherche des <pb n="91v"/> communications des peuples qui précèdent
+                    tout ce que l’histoire et la tradition nous fournissent. Vous frayez le chemin
+                    pour remonter aux sources mêmes du Sanskrit, et la méthode que Vous suivez dans
+                    Vos découvertes, est si sûre et si solide qu’elle éloigne jusqu’au plus léger
+                    doute sur la justesse des résultats auxquels elle Vous conduit. Il est étonnant
+                    quel immense travail préparatoire <del>que</del> Vous avez dû faire pour arriver
+                    au point auquel Vous Vous trouvez maintenant. J’admirois déjà Votre profonde
+                    connoissance du Zend alorsque Vous eûtes la bonté de m’accorder une si longue
+                    séance pour m’en donner quelques idées, mais je vois que Vous avez fait
+                    d’immenses progrès encore depuis ce temps. Puissiez-Vous terminer sans
+                    interruption <bibl sameAs="493">Votre Vendidad Sadé</bibl>. Ce sera un ouvrage
+                    unique. Il fera vraiment revivre le Zend que personne n’a jamais connû en Europe
+                    avant Vous et que pourroit approfondir sans y apporter, ainsi que Vous, la
+                    connoissance exacte et parfaite du Sanscrit. – Je n’ai pas manqué de recommander
+                    fortement Votre ouvrage, Monsieur, à <orgName ref="15">notre Ministère de
+                        l’Instruction publique</orgName>. <persName ref="ksfaltenstein">Le
+                        Ministre</persName> m’a répondû officiellement qu’il a dirigé l’attention de
+                    toutes nos Universités sur la nécessité de souscrire à une entreprise aussi
+                    intéressante pour leurs Bibliothèques. – <bibl sameAs="1114">Votre note sur la
+                        grammaire Siamoise dans le Journal Asiatique</bibl> m’a causé une vive
+                    satisfaction. Les observations que Vous y faites sur cette langue remarquable,
+                    sont, on ne peut pas plus, ingénieuses. Je me suis occupé avec assiduité de la
+                    langue Barmane qui est de la même famille. Mais je n’ai pu me procurer la
+                    Grammaire Siamoise. Toutes mes recherches à <placeName ref="London">Londres</placeName> ont été inutiles.<note type="footnote" resp="editor">Die von Burnouf rezensierte Thai-Grammatik von James Low fand schließlich
+                        doch ihren Weg in Humboldts Bibliothek: Schwarz 1993, S. 40 Nr. 289.
+                        [FZ]</note> – J’ai étudié avec soin depuis quelques temps les langues du
+                        Décan<note type="footnote" resp="editor">D.h. Dekkan, der südliche Teil des
+                        indischen Subkontinents. [FZ]</note>, surtout le Telinga. J’y ai trouvé fort
+                    singulier que les changemens des lettres initiales et finales des mots dans leur
+                    contact ne dependent à beaucoup près pas autant de la nature de ces lettres que
+                    de la catégorie grammaticale des mots auxquels elles appartiennent. Dans le
+                    Sanscrit cette circonstance n’influe que très-médiocrement sur <term ref="005">le Sandhi</term>. Ce sont en général des langues qui méritent une grande
+                    attention. – J’ai passé <pb n="92r"/> tout l’hiver dernier dans la plus profonde
+                    solitude <placeName ref="Tegel">à la campagne</placeName> d’où je Vous écris ces
+                    lignes. Je continuerai probablement ce genre de vie qui convient si bien a
+                    l’isolement auquel m’a réduit la perte funeste que j’ai faite l’année
+                        passée.<note type="footnote" resp="editor">Anspielung auf den Tod <persName ref="cvh1">Caroline von Humboldt</persName>s am 26. März 1829.
+                        [FZ]</note>
+            </p>
+            <closer>
+               <salute>Veuillez, Monsieur, me continuer Vos bontés et Votre amitié auxquelles
+                        j’attache un si grand prix, et agréer en même temps l’assurance de mes
+                        sentimens les plus distingués.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Tegel près de Berlin, ce 20. Mai, 1830.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="92v, Anschrift:"/>
+               <address>
+                  <addrLine>A Monsieur,</addrLine>
+                  <addrLine>Monsieur Eugene Burnouf,</addrLine>
+                  <addrLine>Professeur à l’école Orientale cet. cet.</addrLine>
+                  <addrLine>Paris.</addrLine>
+                  <addrLine>rue de l’école de Médecine,</addrLine>
+                  <addrLine>nr. 13.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

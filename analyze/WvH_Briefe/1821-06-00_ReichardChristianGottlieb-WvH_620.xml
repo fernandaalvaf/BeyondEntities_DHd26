@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Gottlieb Reichard an Wilhelm von Humboldt, vermutlich Mitte/Ende Juni
+                  1821<idno type="BBAW">620</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1091, Bl.
+                     139–150</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11702</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="augustus">
+                  <persName>Augustus, röm. Kaiser</persName>
+               </person>
+               <person corresp="ebarbaro">
+                  <persName>Barbaro, Ermolao (Hermolaus Barbarus der Jüngere)</persName>
+               </person>
+               <person corresp="abuchner">
+                  <persName>Buchner, Andreas</persName>
+               </person>
+               <person corresp="caesar">
+                  <persName>Caesar, Gaius Iulius</persName>
+               </person>
+               <person corresp="fcampe">
+                  <persName>Campe, Friedrich</persName>
+               </person>
+               <person corresp="icasaubon">
+                  <persName>Casaubon, Isaac</persName>
+               </person>
+               <person corresp="jjdalechamps">
+                  <persName>Daléchamps, Jacques Joseph</persName>
+               </person>
+               <person corresp="jgebel">
+                  <persName>Ebel, Johann Gottfried</persName>
+               </person>
+               <person corresp="eratosthenes">
+                  <persName>Eratosthenes von Kyrene</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="sgelenius">
+                  <persName>Gelenius, Sigismund</persName>
+               </person>
+               <person corresp="gregorvtours">
+                  <persName>Gregor von Tours</persName>
+               </person>
+               <person corresp="hannibal">
+                  <persName>Hannibal</persName>
+               </person>
+               <person corresp="jharduin">
+                  <persName>Harduin, Jean</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="fkhkruse">
+                  <persName>Kruse, Friedrich Karl Hermann</persName>
+               </person>
+               <person corresp="livius">
+                  <persName>Livius</persName>
+               </person>
+               <person corresp="kmannert">
+                  <persName>Mannert, Konrad</persName>
+               </person>
+               <person corresp="pmarca">
+                  <persName>Marca, Pierre de</persName>
+               </person>
+               <person corresp="jmariana">
+                  <persName>Mariana, Juan de</persName>
+               </person>
+               <person corresp="marinos">
+                  <persName>Marinos von Tyros</persName>
+               </person>
+               <person corresp="fnunez">
+                  <persName>Núñez y Guzmán, Fernando (gen. Pintianus)</persName>
+               </person>
+               <person corresp="plinius">
+                  <persName>Plinius Secundus, Gaius, der Ältere</persName>
+               </person>
+               <person corresp="polybios">
+                  <persName>Polybios</persName>
+               </person>
+               <person corresp="poseidonios">
+                  <persName>Poseidonios</persName>
+               </person>
+               <person corresp="probus">
+                  <persName>Probus, röm. Kaiser</persName>
+               </person>
+               <person corresp="ptolemaios">
+                  <persName>Ptolemaeus, Claudius</persName>
+               </person>
+               <person corresp="brhenanus">
+                  <persName>Rhenanus, Beatus</persName>
+               </person>
+               <person corresp="critter">
+                  <persName>Ritter, Carl</persName>
+               </person>
+               <person corresp="csalmasius">
+                  <persName>Salmasius, Claudius (Claude de Saumaise)</persName>
+               </person>
+               <person corresp="jjscaliger">
+                  <persName>Scaliger, Joseph Justus</persName>
+               </person>
+               <person corresp="seneca">
+                  <persName>Seneca, Lucius Annaeus</persName>
+               </person>
+               <person corresp="septimiusseverus">
+                  <persName>Septimius Severus, röm. Kaiser</persName>
+               </person>
+               <person corresp="jsimler">
+                  <persName>Simler, Josias</persName>
+               </person>
+               <person corresp="skymnos">
+                  <persName>Skymnos von Chios</persName>
+               </person>
+               <person corresp="stephbyzanz">
+                  <persName>Stephanos von Byzanz</persName>
+               </person>
+               <person corresp="strabon">
+                  <persName>Strabon</persName>
+               </person>
+               <person corresp="trajan">
+                  <persName>Trajan, röm. Kaiser</persName>
+               </person>
+               <person corresp="venantius">
+                  <persName>Venantius Fortunatus</persName>
+               </person>
+               <person corresp="vitruv">
+                  <persName>Vitruv</persName>
+               </person>
+               <person corresp="ivossius">
+                  <persName>Vossius, Isaac</persName>
+               </person>
+               <person corresp="pwesseling">
+                  <persName>Wesseling, Petrus</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1597">Buchner, Andreas (1818): Reise auf der Teufels-Mauer: Eine
+                  Untersuchung über die Überbleibsel der römischen Schutz-Anstalten im jenseits der
+                  Donau gelegenen Rhaetien. Nebst einer Abhandlung über den Carls Kanal. Bruchstücke
+                  aus der baierischen Geschichte des k. b. Lyceal-Professors zu Regensburg J.
+                  Andreas Buchner; mit dazu gehöriger Karte und Plan, Regensburg: Montag und
+                  Weiß</bibl>
+               <bibl corresp="1600">Ebel, Johann Gottfried (1793): Anleitung, auf die nützlichste
+                  und genussvollste Art die Schweiz zu bereisen, Zürich: Bey Orell, Gessner, Füssli
+                  und Compagnie</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von (1821): Prüfung der Untersuchungen über die
+                  Urbewohner Hispaniens vermittelst der Vaskischen Sprache, Berlin: Ferdinand
+                  Dümmler. – Vgl. GS IV, S. 57–232</bibl>
+               <bibl corresp="1596">Kruse, Friedrich Karl Hermann (1819): Budorgis oder das alte
+                  Schlesien vor Einführung der christlichen Religion, Dresden: Hartknoch</bibl>
+               <bibl corresp="307">Münchner Literatur Zeitung</bibl>
+               <bibl corresp="1583">Reichard, Christian Gottlieb (1820): Topographische
+                  Berichtigungen des alten Galliens aus den Feldzügen Hannibals und Caesars. In:
+                  Neue allgemeine geographische Ephemeriden 7, 1820, S. 56–72</bibl>
+               <bibl corresp="1599">Reichard, Christian Gottlieb (1824): Orbis terrarum antiquus,
+                  cum Thesauro topographico, continente indices tabularum geographicarum
+                  topographicos, eosdemque criticos, Nürnberg: Campe</bibl>
+               <bibl corresp="1420">Ritter, Carl (1818): Die Erdkunde im Verhältniss zur Natur und
+                  zur Geschichte des Menschen: oder allgemeine vergleichende Geographie, als sichere
+                  Grundlage des Studiums und Unterrichts in physikalischen und historischen
+                  Wissenschaften, Zweiter Theil, Berlin: G. Reimer</bibl>
+               <bibl corresp="1598">Wesseling, Petrus (1735): Vetera Romanorum itineraria, sive
+                  Antonini Augusti itinerarium, cum integris Jos. Simleri, Hieron, Suritae, et And.
+                  Schotti notis. Itinerarium hierosolymitanum; et Hieroclis grammatici synecdemus.
+                  Curante Petro Wesselingio, qui &amp; suas addidit adnotationes, Amsterdam: Apud J.
+                  Wetstenium &amp; G. Smith</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Hochwohlgebohrner, Höchstzuverehrender Herr, Drey Tage nach Abgang
+               meines Briefes langte Ihre Schrift bey mir an …</ab>
+            <p>Wohl aus Lobenstein. Reichard teilt mit, dass er drei Tage nach Abgang seines letzten
+               Briefes <bibl sameAs="206">die erwartete Schrift</bibl> erhalten habe. Er gibt eine
+               lange Erklärung zu den im Anhang folgenden 13 Seiten mit "Altgeograph. Bemerkungen"
+               zu Humboldts <bibl sameAs="206">
+                  <hi rend="italic">Prüfung der Untersuchungen über die
+                     Urbewohner Hispaniens vermittelst der Vaskischen Sprache</hi>
+               </bibl>.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cgreichard">Reichard, Christian Gottlieb</persName>
+               <date type="author" when="1821-06-15"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="phn">Phönizisch</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">27. Oktober 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter"/>
+         <div type="appendix">
+            <p>
+               <pb n="140r; S. 1"/> Altgeograph. Bemerkungen zu H. v. <hi rend="antiqua">Humboldt</hi>
+               <bibl sameAs="206">Prüfung pp</bibl>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 6. mit 66.<note type="footnote" resp="editor">Die
+                  Seitenzahlen beziehen sich auf die Druckfassung der <bibl sameAs="206">
+                     <hi rend="italic">Urbewohner</hi>
+                  </bibl>, verschickt im Mai/Juni 1821; siehe
+                  Leitzmann in GS IV, S. 438. [FZ]</note>
+               <lb/>
+               <hi rend="antiqua">Tartessus</hi>. Daß
+               der <hi rend="antiqua">Baetis Tartessus</hi> geheissen, ist eine Grille der alten
+               Geographen, die sich überhaupt in solche <hi rend="antiqua">Discussio</hi>nen nicht
+               recht schicken konnten. Meine Note im Texte zu Spanien unter <hi rend="antiqua">Carteja</hi> n. 3. wird hinreichende Auskunft geben. <persName ref="strabon">Strabo</persName> war der treuherzige Verbreiter dieser Idee, sonst wäre sie wohl
+               nicht so <subst>
+                  <del>verbreitet</del>
+                  <add>gäng u. gäbe</add>
+               </subst> worden. Er entschuldigt sich zwar mit seinem <foreign sameAs="grc">φασὶν</foreign>, allein ich glaube eher, daß er seine Nachrichten falsch
+               verstanden hat; denn lange vor ihm hatte ja schon <persName ref="skymnos">
+                  <hi rend="antiqua">Scymnus</hi>
+               </persName>
+               <del>dieses</del> das Rechte gewußt.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 20.<lb/>
+               <hi rend="antiqua">Rhegina</hi> Ptol. ist das <hi rend="antiqua">Regiana</hi> des <bibl sameAs="1598">It. Ant. <hi rend="antiqua">Wess</hi>. <hi rend="antiqua">p</hi>. 415.</bibl>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 21. <hi rend="antiqua">not</hi>. 22.<lb/>
+               <hi rend="antiqua">Agla Minor</hi>. Den Anhang <hi rend="antiqua">minor</hi> wüßte ich
+               für nichts anders zu erklären, als <hi rend="antiqua">latein.</hi> Zusatz; es muß ein
+                  <hi rend="antiqua">major</hi> doch dagewesen seyn, das keiner weiter sonst nennt.
+               Doch Ihnen gehört die Competenz in der Sprachforschung, darinnen ich nicht einmal
+               Dilettant bin.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 22.<lb/>
+               <hi rend="antiqua">Caviclum</hi>. <hi rend="antiqua">Cavidum</hi> hat nur der <hi rend="antiqua">Neap</hi>. u. <hi rend="antiqua">Longo</hi>. Codex des Itinerars, welche in Namen u. Zahlen meiner
+               Erforschung zu folge die unzuverlässigsten sind. Da der neuere Namen das <hi rend="antiqua">l</hi> beybehalten hat, so zweifle ich an der größeren Richtigkeit
+               des erstern, <hi rend="antiqua">Caviclum</hi>, nicht. Dem Abschreiber ist das <hi rend="antiqua">d</hi> leicht für <hi rend="antiqua">cl</hi> versehen.</p>
+            <p>
+               <hi rend="antiqua">Mergablum</hi> – <hi rend="antiqua">Mercallum</hi>. Die
+               verschiedenen alten Thürme an dasiger Küste, die so nahe bey einander liegen, als <hi rend="antiqua">Torre de Atalaya</hi>, <hi rend="antiqua">Blanca</hi>, <hi rend="antiqua">de Roca</hi>, <hi rend="antiqua">del Puerto</hi> lassen mir
+               entschiedene Wahl, ohnerachtet des gegebenen Maases nicht bestimmt zu, daher es in
+               meinem Text nicht aufgenommen ist. Daß es aber rein celtischer Namen sey, schließe
+               ich daraus, daß es in Gallien auch ein <hi rend="antiqua">Marcolles</hi> (auch <hi rend="antiqua">Marcoules</hi> oder <hi rend="antiqua">Marceules</hi> genannt) im
+               Dpt. <hi rend="antiqua">Cantal</hi> giebt, das unstreitig <hi rend="antiqua">Mercallum</hi> geheissen haben muß, ohnerachtet es bey den Alten nicht vorkommt.
+               Noch ein <hi rend="antiqua">Marcillac</hi> oder <hi rend="antiqua">Marsillas</hi>
+               giebt es im Dpt. <hi rend="antiqua">l’Aveiron</hi>, das indessen auch <hi rend="antiqua">Marcellum</hi> geheißen haben kann. Ferner <hi rend="antiqua">Mercadal</hi> auf <hi rend="antiqua">Menorca</hi> das eher hieher gehört. Und <hi rend="antiqua">Charquinez</hi> in <hi rend="antiqua">Alava</hi>.</p>
+            <p> </p>
+            <p>
+               <pb n="140v; S. 2"/>
+               <hi rend="antiqua">p</hi>. 24.<lb/>
+               <hi rend="antiqua">Astapa</hi>. Auch in Portugal
+               ist ein jetziges <hi rend="antiqua">Astapas</hi> im <hi rend="antiqua">Correiçâo de
+                  Thomas</hi> Prvz. <hi rend="antiqua"> Cotremadera</hi>, nördl. vom <hi rend="antiqua">Tajo</hi>.</p>
+            <p>
+               <hi rend="antiqua">Ascerris</hi>. Sollte der Flecken <hi rend="antiqua">Assinceira</hi> in demselben <hi rend="antiqua">Correiçâo</hi> n<supplied cert="high">ich</supplied>t <add>auch</add>
+               <hi rend="antiqua">Ascerris</hi> geheißen haben?</p>
+            <p>
+               <hi rend="antiqua">Ascua</hi>. In den gewöhnl. Ausgaben des <persName ref="livius">
+                  <hi rend="antiqua">Livius</hi>
+               </persName> steht <hi rend="antiqua">Asena</hi>.
+               Mir scheint es der bedeutende Ort <hi rend="antiqua">Escalona</hi> an der <hi rend="antiqua">Alberche</hi> zu seyn. Es hat ein uraltes Castell.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 25.<lb/>
+               <hi rend="antiqua">Urium</hi>. Schon
+                  <del>lange</del> bey meinem ersten Entwurf dachte ich <hi rend="antiqua">Urium</hi> des Ptol. u. Pl. in <hi rend="antiqua">Torre de Oro</hi> zu finden,
+               nur der Umstand hielt mich zurück, daß ich <sic>Plins</sic> Worte <hi rend="antiqua">Interfluentes</hi>, <hi rend="antiqua">Luxia</hi> &amp; <hi rend="antiqua">Urium</hi> nach <persName ref="jharduin">
+                  <hi rend="antiqua">Harduin</hi>
+               </persName>
+               <note type="footnote" resp="editor">Harduin
+                  veröffentlichte u.a. <ref type="linkExt"
+                       target="https://archive.org/search.php?query=external-identifier%3A%22urn%3Aoclc%3Arecord%3A754565428%22">eine fünfbändige Ausgabe von Plinius’ <hi rend="italic">Naturalis
+                        historia</hi>
+                  </ref>. [FZ]</note> für Flüsse hielt, u. die Endung mancher
+               Flüsse in <hi rend="antiqua">um</hi> nicht ohne Beyspiel ist. Jezt bin ich aber durch
+               Ihre richtigere Bemerkung davon zurückgekommen, finde <hi rend="antiqua">Luxia</hi>
+               in <hi rend="antiqua">Lucena</hi> u. <hi rend="antiqua">Urium</hi> (vergl. <hi rend="antiqua">Templum Iovis Urii</hi> am <hi rend="antiqua">Bosporus</hi>) in <hi rend="antiqua">Torre de Oro</hi>. <persName ref="plinius">Plinius</persName> hat
+               also die Reihe nach einander hie sehr richtig eingehalten, was die Richtigkeit dieser
+               Auslegung erhöhen muß, <hi rend="antiqua">Luxia</hi> hat aber sehr wahrscheinlich
+               auch der Fluß geheißen, denn er hat außer dem Namen <hi rend="antiqua">Titelo</hi>
+               auch den Namen <hi rend="antiqua">Ucige</hi>. </p>
+            <p>
+               <pb n="Einschub von Bl. 145r"/>
+               <add>Zu <hi rend="antiqua">p</hi>. 25. <hi rend="antiqua">Urium</hi>.<lb/>Daß <hi rend="antiqua">Interfluentes</hi> sich auf die vom <hi rend="antiqua">Otiel</hi>
+                  <note type="footnote" resp="editor">Recte: Odiel.</note> u. <hi rend="antiqua">Tinto</hi> gebildete Landzunge beziehe, ist augenscheinl., mir
+                  jedoch n<supplied cert="high">ich</supplied>t wahrscheinl. daß <del>es</del> eine
+                  Stadt oder Ort gemeint sey. Wäre es würkl. eine, so müßte es <hi rend="antiqua">Huelva</hi> seyn, worauf aber das Maas des Itin. mit <hi rend="antiqua">Onoba</hi> fällt, welches wohl gar auch den Namen <hi rend="antiqua">Interfl</hi>. gehabt. In der Regel muß bey der Graphik jeder andre Grund den
+                  zutreffenden Maaßen weichen, und hier ist an den Maaßen, von <hi rend="antiqua">Onoba</hi> nach <hi rend="antiqua">ad Rubras</hi>
+                  <del>rechts</del> links u. <hi rend="antiqua">Ilipa</hi> rechts <del>keine</del>
+                  nicht die mindeste Ausstellung zu machen. Vielleicht ist auch nur eine Schanze an
+                  der untersten Spitze, als Hafen oder Vorstadt von <hi rend="antiqua">Onoba</hi>,
+                  mit dem Namen <hi rend="antiqua">Interfl</hi>. da gewesen. Dem sey allem wie ihm
+                  wolle; genug, Sie haben mit Ihrer scharfsinnigen Bemerkung auch mir eine
+                  richtigere Ansicht verschaft.</add>
+            </p>
+            <p> </p>
+            <p>
+               <pb n="140v"/>
+               <hi rend="antiqua">p</hi>. <subst>
+                  <del>28.</del>
+                  <add>26.</add>
+               </subst>
+               <lb/>
+               <hi rend="antiqua">Calagurris</hi>. Das dritte <hi rend="antiqua">Calagurris</hi> in <hi rend="antiqua">Aquit</hi>. ist außer <persName ref="jsimler">
+                  <hi rend="antiqua">Simler</hi>
+               </persName> u. <bibl sameAs="1598">
+                  <hi rend="antiqua">Wess</hi>. <hi rend="antiqua">p</hi>. 457.</bibl> von keinem
+               Geographen weiter angetastet worden. Man sieht hier, wie überall, welches Stückwerk
+               immer geliefert worden. Daß dieses <hi rend="antiqua">Parros</hi> sey, ist mir auch
+                  dad<supplied cert="high">urc</supplied>h gewiß, weil der in <bibl sameAs="1598">
+                  <hi rend="antiqua">Wess</hi>. Note</bibl> vorkommende <hi rend="antiqua">Vigilantius</hi> aus dem Thale der <hi rend="antiqua">Convenae</hi> gebürtig
+               gewesen; das obere Thal der <hi rend="antiqua">Paronne</hi> war aber das Thal der <hi rend="antiqua">Convenae</hi>. S. mein Gallien<note type="footnote" resp="editor">Gemeint ist die tabellarische Aufstellung zu Tab. IX in Reichards <bibl sameAs="1599">
+                     <hi rend="italic">Orbis terrarum antiquus, cum Thesauro
+                        topographico</hi>
+                  </bibl>. [FZ]</note>; Note im Text.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 28.<lb/>
+               <hi rend="antiqua">Lancobriga</hi> des Ptol. der
+                  <hi rend="antiqua">Celtici</hi> glaube ich in <hi rend="antiqua">Landeira</hi>
+               (Ib) zu finden. Das <hi rend="antiqua">Langobrica</hi> des<bibl sameAs="1598"> It.
+                  Ant. <hi rend="antiqua">p</hi>. 423.</bibl> ist ein anderes.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 30.<lb/>
+               <hi rend="antiqua">Urgao</hi>. Die Sylbe <hi rend="antiqua">Urg</hi> u. <hi rend="antiqua">Virg</hi> ist gänzl. einerley und
+               wohl auch <hi rend="antiqua">Verg</hi>. Denn Plin. schreibt <hi rend="antiqua">Virgao</hi>; <hi rend="antiqua">quae Alba</hi> u. die Inscr. <hi rend="antiqua">Urgao Alba</hi>. Dann Ptol. <hi rend="antiqua">Vergilia</hi> u. Plin. nebst den
+               Inscr. <hi rend="antiqua">Virgilia</hi>. <hi rend="antiqua">Murgis</hi>, It. Ant. u.
+               Ptol. Plin. und <hi rend="antiqua">Virgis</hi>, <hi rend="antiqua">Mela</hi>. <hi rend="antiqua">Urgitanus</hi> (<hi rend="antiqua">Sinus</hi>) Plin. <hi rend="antiqua">Virgitanus</hi>, <hi rend="antiqua">Mela</hi>.</p>
+            <p> </p>
+            <p>
+               <pb n="141r; S. 3"/>
+               <hi rend="antiqua">p</hi>. 32.<lb/>
+               <hi rend="antiqua">Illurco</hi>. Ist wohl <hi rend="antiqua">Illara</hi>, was die Zusammenstellung der Orte von Plin. giebt. <hi rend="antiqua">Illarcum</hi> zeigt schon das It. Ant. <subst>
+                  <del>als</del>
+                  <add>in</add>
+               </subst>
+               <hi rend="antiqua">Eliocroca</hi> als <hi rend="antiqua">Lorca</hi> v. <bibl sameAs="1598">
+                  <hi rend="antiqua">Wess</hi>. 401.</bibl>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 33.<lb/>
+               <hi rend="antiqua">Solorius Mons</hi>. Plin. Ganz
+               unzweifelhaft die <hi rend="antiqua">Sierra Solorio</hi>, nach älterer Benennung <hi rend="antiqua">Saloria</hi>, auf der vorzüglichsten Wasserscheide Spaniens.
+               Deswegen ist sie dem Plin. merkwürdig. Die <hi rend="antiqua">Sierra de
+                  Vertientes</hi> ist mir unbekannt. Wo mag sie liegen?</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 35.<lb/>
+               <hi rend="antiqua">Turmodigi</hi>. Sollte der
+               Namen des Flusses <hi rend="antiqua">Tormes</hi> (Reg<hi rend="superscript">ne</hi>
+               <hi rend="antiqua">Salamanca</hi>) nicht denselben etymol. Ursprung haben? An ihm
+               liegt der Ort <hi rend="antiqua">Alba de Tormes</hi>. Nur fragt s. ob dieser Strich
+               unter den Ann. <hi rend="antiqua">Convent</hi> gehört habe, welches ich kaum glauben
+               kann. Leider führt Pl. <hi rend="antiqua">Salamanca</hi>, das nicht weit davon ist,
+               nicht an.</p>
+            <p>
+               <hi rend="antiqua">Ucultuniacum</hi>, <hi rend="antiqua">quae <hi rend="underline">T</hi>uriga nunc est</hi>, Plin. So steht im <hi rend="antiqua">Codx
+                  Salmant</hi>. der <hi rend="antiqua">Toletan</hi>. hat <hi rend="antiqua">
+                  <hi rend="underline">Ic</hi>uriga</hi> u. Ptol. <hi rend="antiqua">
+                  <hi rend="underline">C</hi>uriga</hi>. <hi rend="antiqua">Pintianus</hi> heißt im
+               Ptol. <hi rend="antiqua">
+                  <hi rend="underline">Ac</hi>uriga</hi> u. <persName ref="kmannert">Mannert</persName> schreibt <hi rend="antiqua">
+                  <hi rend="underline">C</hi>uriga</hi> aus Ptol. das It. Ant. hat aber <hi rend="antiqua">
+                  <hi rend="underline">C</hi>urica</hi> u. so ist wohl kein Zweifel mehr, daß der <hi rend="antiqua">Toletan. Codx</hi> die richtigere Lesart habe. <add>
+                  <hi rend="antiqua">Curiga</hi> oder <hi rend="antiqua">Curica</hi> wird nun wohl
+                  ebenfalls Vaskisch seyn.</add>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 39.<lb/>
+               <hi rend="antiqua">Aracillum</hi>, Flor. habe ich
+               in <hi rend="antiqua">Aguillar</hi> gefunden, was mit der Expedition des August<note type="footnote" resp="editor">Zum Feldzug des <persName ref="augustus">Augustus</persName> nach Spanien siehe Felix Bartenstein (2015): Die römischen
+                  Feldzüge in Hispanien nach 27 v. Chr. In: Gustav Adolf Lehmann / Rainer Wiegels
+                  (Hrsg.): <hi rend="italic">"Über die Alpen und über den Rhein…" Beiträge zu den
+                     Anfängen und zum Verlauf der römischen Expansion nach Mitteleuropa</hi>,
+                  Berlin: DeGruyter, S. 69–86. [FZ]</note> völlig übereinkommt.</p>
+            <p>
+               <del>
+                  <hi rend="antiqua">Artigi</hi>. Der Ort, welchen ich in meinem Texte (<hi rend="antiqua">Astigi</hi> das 2te) für verschrieben u. eigentl.</del>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 41.<lb/>
+               <hi rend="antiqua">Bilbilis</hi>. Mir scheint es
+                  <hi rend="antiqua">Mauritan</hi>. Ursprungs zu seyn. Dort gab es ein: <hi rend="antiqua">Igilgilis</hi> (Colonie); <hi rend="antiqua">Zilis</hi>; <hi rend="antiqua">Sitigi</hi>; <hi rend="antiqua">Gilda</hi>; <hi rend="antiqua">Sicilibra</hi>; <hi rend="antiqua">Tingis</hi>; <hi rend="antiqua">Tatildis</hi>;
+                  <hi rend="antiqua">Tigisis</hi>; <hi rend="antiqua">Bidil</hi>; <hi rend="antiqua">Tibigis</hi>; <hi rend="antiqua">Tigis</hi> u.s.w. Hier ist <hi rend="antiqua">i</hi> und <hi rend="antiqua">il</hi> durchaus herrschend, u. zu auffallend, als
+               daß man nicht vermuthen sollte, die Mauritanier hätten schon vor Erbauung Cartagos
+               Wanderungen nach Spanien vorgenommen und Besitzungen das. gehabt. Es müßten dann
+               diese Wortlaute Phöniz. seyn, welche Sprache ich nicht kenne. Noch jetzt ist das <hi rend="antiqua">i</hi> in der Berberey sehr vorherrschend.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 43.<lb/>
+               <hi rend="antiqua">Curgonii</hi>. Ich besitze
+               keine Ausgabe des <hi rend="antiqua">Florus</hi>, die <hi rend="antiqua">Curgonii</hi> hätte; statt davon lese ich <subst>
+                  <del>
+                     <hi rend="antiqua">Aurrigones</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Auprigones</hi>
+                  </add>
+               </subst>, welche die <hi rend="antiqua">Autrigones</hi> sind.</p>
+            <p> </p>
+            <p>
+               <pb n="141v; S. 4"/>
+               <hi rend="antiqua">p</hi>. 44.<lb/>
+               <subst>
+                  <del>
+                     <hi rend="antiqua">Edu<gap quantity="1" unit="chars"/>ius</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Edulius</hi>
+                  </add>
+               </subst>
+               <hi rend="antiqua">mons</hi>. Das ist kein andrer als der Mt. <hi rend="antiqua">Perdu</hi>, der auch eine so besondere u. isolirte Gestalt nach Spanien hinein
+               hat, daß sie den Römern bemerkl. werden mußte. Sollte nicht auch die Sylbe <hi rend="antiqua">du</hi> von <hi rend="antiqua">E<hi rend="underline">du</hi>lius</hi> herrühren? Von <hi rend="antiqua">Perdu</hi>
+               <hi rend="underline">verloren</hi>, so scheinbar das ist kann ich mich nicht
+               überreden. Auch in der Bildung solcher alten Namen glaube ich die <add>frühe</add>
+               Neigung der <del>frühern</del> Franzosen zum Wortspiel zu finden.</p>
+            <p> </p>
+            <p>
+               <del>
+                  <hi rend="antiqua">p.</hi>
+               </del>
+               <lb/>
+               <hi rend="antiqua">Egurri</hi>. Nach Plin.
+                  <hi rend="antiqua">Cigurri</hi>
+               <hi rend="antiqua">var. lect</hi>. <hi rend="antiqua">Giguri</hi>. Das ist das <hi rend="antiqua">Forum</hi> des It. Ant.
+               das <hi rend="antiqua">Forum Egurrorum</hi>
+               <hi rend="antiqua">var. l</hi>. <hi rend="antiqua">Gigurrorum</hi> des Ptol. (<bibl sameAs="1598">
+                  <hi rend="antiqua">Wess</hi>. <hi rend="antiqua">p</hi>.
+               428.</bibl>) <add>S. m. Text.</add>
+            </p>
+            <p>Hieher möchte wohl auch <hi rend="antiqua">Noega Ucesia</hi> gehören (Ae. m. K.) mit
+               der Endsylbe des ersten Wortes, <hi rend="antiqua">ega</hi>, wenn <hi rend="antiqua">No-ega</hi> gelesen wird, was mir noch zweifelhaft ist, da Strabo <foreign sameAs="grc">Νοῖγα</foreign> schreibt. <subst>
+                  <del>Und so</del>
+                  <add>Es</add>
+               </subst> möchte <add>auch</add> das heutige Wort <hi rend="antiqua">Gijon</hi> eher
+               von <hi rend="antiqua">Noiga</hi> als <hi rend="antiqua">Ucesia</hi> herkommen.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 47.<lb/>
+               <hi rend="antiqua">Lavara</hi>. Muß <hi rend="antiqua">Lavradio</hi> seyn. So schreiben die Neuren; die ältern <hi rend="antiqua">Lauradio</hi>, der Sylbe <hi rend="antiqua">lau</hi> ähnlicher. Es
+                  <del>folgt</del> fragt s. nun, liegt <hi rend="antiqua">Lauradio</hi> eben? Der
+               Befehl des vorigen Königs von 1785. alle Weinstöcke am <hi rend="antiqua">Tajo</hi>,
+                  <hi rend="antiqua">Mondego</hi> u. <hi rend="antiqua">Vouga</hi> auszurotten,
+               wovon <hi rend="antiqua">Lauradio</hi> unter andern verschont bleiben sollte, läßt
+               mich vermuthen, daß es <del>das</del> Anhöhen hat, u. Ptol. setzt sein <hi rend="antiqua">Lavara</hi> an den <hi rend="antiqua">Durius</hi>, was mich
+                  <add>beydes</add> stutzig macht. Ist jedoch <hi rend="antiqua">Lauradio</hi> an
+               oder in einer Ebene, so hat Ptol. das gewöhnl. gethan d. i. schlechte Graphik
+               verrathen.</p>
+            <p>
+               <hi rend="antiqua">Lissa</hi> des Ptol. halte ich für <hi rend="antiqua">Cissa</hi>
+               des <persName ref="polybios">Polyb.</persName> u. <hi rend="antiqua">Scissis</hi> des
+               Liv. (<hi rend="antiqua">Accus</hi>. <hi rend="antiqua">Scissim</hi>) wenn es Ptol.
+               gleich unter die <hi rend="antiqua">Jaccetaner</hi> stellt, aus denen man immer nicht
+               weiß, was man machen soll. Mannert hält sie geschwinde weg für die <hi rend="antiqua">Lacetaner</hi>, weil sie Ptl. an deren Ort setzt. Ich kann sie für nichts anders,
+               als für das Volk halten, deren Hauptort <hi rend="antiqua">Jacca</hi> war, denn
+               Strabo läßt sie ja an die <hi rend="antiqua">Vasconer</hi> unmittelbar gränzen. In so
+               fern hätte sie also Ptol. mit den <hi rend="antiqua">Lacetanern</hi> verwechselt, so
+               wenig man ihm auch sonst über Vertheilung der Ortschaften unter die Völker vorwerfen
+               kann, fast dem einzigen Guten, was an ihm ist. Dieser Ort gehörte nun zu den <hi rend="antiqua">Ilergeten</hi>, so wie das ihm nahe <hi rend="antiqua">Athanagia</hi> des <hi rend="antiqua">Liv</hi>. (Woher dieser Namen?)</p>
+            <p>
+               <pb n="142r; S. 5"/>
+               <hi rend="antiqua">Lobetum</hi>. Ist bey mir jezt <hi rend="antiqua">Lobos</hi> u. so
+               mit weit besser gestellt als zu vor.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 48.<lb/>
+               <hi rend="antiqua">Moron</hi>. Sie haben es
+               getroffen, aus welchem Grunde ich es an den <hi rend="antiqua">Anas</hi> stelle. In
+               der Revision habe ich derselben ausgesprochen. S. den jetzigen Text. In den ältern
+               Karten u. Nachrichten heißt dieser Ort <hi rend="antiqua">M<hi rend="underline">o</hi>raõ</hi> u. das Portug. <hi rend="antiqua">aõ</hi> (<hi rend="antiqua">a-ung</hi>, <hi rend="antiqua">a-ong</hi>) ist ja das <hi rend="antiqua">on</hi>
+               andrer Sprachen. Da erscheint der ganz unverirrbare Namen.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 54.<lb/>
+               <hi rend="antiqua">Basi</hi> Ptl. Sollte <hi rend="antiqua">Bassi</hi> eine Variante statt <hi rend="antiqua">Bussi</hi> seyn?
+                  <hi rend="antiqua">Bussi</hi> ist mir <hi rend="antiqua">S. Juan de
+               Bussols</hi>.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 56.<lb/>
+               <hi rend="antiqua">Elimberrum</hi>. Peut. Taf. u.
+                  <hi rend="antiqua">Mela</hi>. <persName ref="pwesseling">
+                  <hi rend="antiqua">Wess</hi>.</persName> der behauptet, jene hätte <hi rend="antiqua">Cliberre</hi>, hat falsch gesehen, es ist ein deutl. kleines <hi rend="antiqua">e</hi>. Das It. Ant. <hi rend="antiqua">Climberrum</hi>. Die übrigen alle <hi rend="antiqua">Ausci</hi>. Ich überzeuge mich aber d<supplied cert="high">urc</supplied>h Ihren mir vorher entgangenen Grund, daß <hi rend="antiqua">Eliberris</hi> die wahre Benennung ist</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p.</hi> 66.<lb/>
+               <hi rend="antiqua">Bae<hi rend="underline">t</hi>ula</hi>. So steht im <hi rend="antiqua">Polyb</hi>. (X. 35 n<supplied cert="high">ich</supplied>t 38.) aber im <hi rend="antiqua">Liv</hi>. zweymal <hi rend="antiqua">Bae<hi rend="underline">c</hi>ula</hi> XXVII. 20. u. XXVIII. 13. u.
+               dieß ist <hi rend="antiqua">Baylen</hi>, wo auch Ruinen sind. <del>Es ist</del> Daß
+               beyde Autoren einerley Stadt meinen, sieht man aus der Beschreibung des Zuges, u.
+               Lagers von dem Orte. <hi rend="antiqua">Baebro</hi> des <hi rend="antiqua">Plin</hi>.
+               ist es nicht. Von diesem finde ich in der Leidener Ausgabe <add>
+                  <hi rend="antiqua">v.
+                     ad</hi> 8 f.</add> (die ich erst kurz vor der Revision bekam) die Variante: <hi rend="antiqua">Ubeda</hi>. Sollte dieses gegründet seyn, so wäre <subst>
+                  <del>das</del>
+                  <add>es im</add>
+               </subst> heutige<add>n</add>
+               <hi rend="antiqua">Ubeda</hi> also ohne alle Umstände gefunden, und nicht <hi rend="antiqua">Baetulo</hi>, wie ich anfangs hatte, was ich aber leider, ohne die
+               Platte zu verderben, n<supplied cert="high">ich</supplied>t wegschaffen lassen
+               kann.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 71.<lb/>
+               <hi rend="antiqua">Salacia</hi>. Ein neuer Zuwachs
+               ist bey dieser Gelegenheit meinem Texte geworden, beym Worte <hi rend="antiqua">Caetobrix</hi>. Das erstemal hatte ich es der Mühe n<supplied cert="high">ich</supplied>t werth gehalten, den Stall Strabos zu säubern. Es ist sehr
+               interessant, den <hi rend="antiqua">Casaubonus</hi>
+               <note type="footnote" resp="editor">Damit wird die Strabo-Ausgabe von <persName ref="icasaubon">Isaac
+                     Casaubon</persName> aus dem Jahr 1587 gemeint sein: <hi rend="italic">Strabonis
+                     Rerum Geographicarum Libri XVII. Isaacus Casabonus recensuit, summoque studio
+                     &amp; diligentia, ope etiam veterum codicum, emendavit, ac Commentariis
+                     illustravit. Accessit &amp; Tabula Orbis totius descriptionem complectens.
+                     Adiecta est etiam Guilielmi Xylandri Augustani Latina versio, cum necessariis
+                     Indicibus. Isaaci Casauboni Commentarius et Castigationes ad lib. Strabonis
+                     Geograph. XVII</hi>, Genf: Eustathius Vignon. [FZ]</note> über diese Stelle zu
+               lesen. Welche Unbehülflichkeit der Stockphilologen in Erklärungen dieser Art.</p>
+            <p> </p>
+            <p>
+               <pb n="142v; S. 6"/>
+               <hi rend="antiqua">p</hi>. 72.<lb/>
+               <hi rend="antiqua">Segubia</hi>. Ptol. Die andern
+                  <hi rend="antiqua">Segovia</hi>; <hi rend="antiqua">Secovia</hi> die <hi rend="antiqua">Mpte</hi> u. gemeine Schreibart des It. Aber selbst Münzen (<bibl sameAs="1598">
+                  <hi rend="antiqua">Wess</hi>. <hi rend="antiqua">p</hi>.
+               435.</bibl>) haben <hi rend="antiqua">Segovia</hi> u. Ptol. stellt es auch unter die
+                  <hi rend="antiqua">Arevacae</hi>; folgl. kann keine Bedenklichkeit obwalten, es
+               für unser <hi rend="antiqua">Segovia</hi> anzusehen, das überdies bedeutende Ruinen
+               hat, die ich <persName ref="abuchner">
+                  <hi rend="antiqua">
+                     <hi rend="underline">Buchnern</hi>
+                  </hi>
+               </persName> (s. unten) zu untersuchen wünschte. Man wird
+               sie für Maurisch halten.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 84.<lb/>
+               <hi rend="antiqua">Iuliobriga</hi>. Mannert hat,
+               wie meistens, auch hier nur gerathen, u. nennt den <hi rend="antiqua">Nerva </hi>fl.
+               der seinen Namen nur gar zu vollständig bis auf unsre Zeiten gebracht (<hi rend="antiqua">Nervion</hi>) <hi rend="antiqua">Nansa</hi>, der aber jezt <hi rend="antiqua">Ason</hi> heißt. Er hat also nicht im <hi rend="antiqua">Mela</hi>
+               nachgelesen, welcher letztren <hi rend="antiqua">Nanasa</hi> nennt. Ueberhaupt haben
+               die Flüsse u. Orte an der ganzen nördl. Küste hin (eine zieml. Menge) beynahe alle
+               ihre Namen mit wenig Veränderung bis auf unsre Zeiten gebracht, welches daher kommen
+               mag, weil Cantabrien erst späte von den Römern u. von den Mauritaniern gar nicht
+               unterjocht worden, mithin wenig Verwässerung erlitten hat. Mir ist kaum eine
+               entgangen, so wenig Schwierigkeit macht ihre Auffindung.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 87.<lb/>
+               <hi rend="antiqua">Sucrana</hi>. Meine Ausgabe des
+                  <hi rend="antiqua">Plin</hi>. die Leidner von 1669. (<add>s.</add> oben) mit allen
+                  <hi rend="antiqua">Commentarien</hi> des <persName ref="ebarbaro">
+                  <hi rend="antiqua">Hermolaus</hi>
+               </persName>, <persName ref="fnunez">
+                  <hi rend="antiqua">Pintian.</hi>
+               </persName>
+               <persName ref="brhenanus">
+                  <hi rend="antiqua">Rhenan.</hi>
+               </persName>
+               <persName ref="sgelenius">
+                  <hi rend="antiqua">Gelen.</hi>
+               </persName>
+               <persName ref="jjdalechamps">
+                  <hi rend="antiqua">Dalecamp</hi>.</persName>
+               <persName ref="jjscaliger">
+                  <hi rend="antiqua">Scaliger.</hi>
+               </persName>
+               <persName ref="csalmasius">
+                  <hi rend="antiqua">Salmas.</hi>
+               </persName>
+               <persName ref="ivossius">
+                  <hi rend="antiqua">Voss.</hi>
+               </persName> p. versehen,
+               worinnen auch alle Varianten sind, hat <hi rend="antiqua">Sacrana</hi> ohne alle
+               Anmerkung. Vermuthl. hat die Zweybrück. (von mir abandonnirt) <hi rend="antiqua">S<hi rend="underline">u</hi>
+               </hi>.</p>
+            <p>Sollte nicht <hi rend="antiqua">Sucro</hi> fl. (<hi rend="antiqua">Plin</hi>. III. 3.
+                  <hi rend="antiqua">Strabo</hi>. <hi rend="antiqua">Cic. pro Balbo c.</hi> 2. <hi rend="antiqua">
+                  <persName ref="seneca">Seneca</persName> de Benef.</hi> V. 24.
+               Ptol. (<unclear>
+                  <hi rend="antiqua">fluv</hi>
+               </unclear>) <bibl sameAs="1598">It. Ant.
+                     <hi rend="antiqua">p</hi>. 400.</bibl>) hieher gehören?</p>
+            <p>
+               <hi rend="antiqua">Magrada</hi>. Ist ein <hi rend="underline">Ort</hi>, u. <hi rend="antiqua">Ocaso</hi> der Fluß. <hi rend="antiqua">Mela</hi> fängt einige
+               Zeilen vorher bey <hi rend="antiqua">et Derales</hi> an, den Fluß im <hi rend="antiqua">Accus</hi>. u. die Völker oder Orte im Nominativ zu setzen; vorher
+               umgekehrt. <hi rend="antiqua">Magrada</hi> ist indessen einer von den wenigen Orten,
+               deren Spur ich im Neuspanien n<supplied cert="high">ich</supplied>t gefunden. <hi rend="antiqua">Marquina</hi>, bey <hi rend="antiqua">Bilbao</hi> herum, kann ich
+               ohne großen Zwang n<supplied cert="high">ich</supplied>t wohl <gap quantity="6" unit="chars"/>.</p>
+            <p> </p>
+            <p>
+               <pb n="143r; S. 7"/>
+               <hi rend="antiqua">p</hi>. 88.<lb/>
+               <hi rend="antiqua">Brutobria</hi>. S. m. Text. Ich
+               denke nicht, daß ich mich in <hi rend="antiqua">Buitrago</hi> irre, wenn es schon nur
+               Vermuthung ist, jedoch n<supplied cert="high">ich</supplied>t ohne alle Gründe.
+                  <persName ref="stephbyzanz">
+                  <hi rend="antiqua">Stephan</hi>
+               </persName>s
+               Beschreibungen der Lagen der Orte sind fast alle so vag, wie die Briefadresse einer
+               hiesigen Taglöhnerin an ihren Sohn: Abzugeben in Ochsenkopf (war die Herberge im
+               Ochsenkopf zu Frankfurt gemeint), welcher Brief in ganz Deutschland u. der Türkey
+               herum bis nach <hi rend="antiqua">Oczakow</hi> u. wieder zurück wanderte. Die <hi rend="antiqua">Tyritaner</hi> mögen immerhin die <hi rend="antiqua">Turdetaner</hi> seyn; aber die <hi rend="antiqua">Expedition</hi> des <hi rend="antiqua">Brutus</hi> läßt so eine Gründung oder wenigstens
+               Namensvertauschung in <hi rend="antiqua">Brutus</hi>stadt <add>in</add> diesem
+               Striche, durch den er auf alle Fälle entweder von <hi rend="antiqua">Tarracona</hi>
+               oder von <hi rend="antiqua">Corduba</hi> her ziehen mußte, gar wohl vermuthen. Und
+               der jetzige Namen <hi rend="antiqua">Buitraga</hi> ist ein fast völliges <hi rend="antiqua">Anagramma</hi> des alten, blos <hi rend="antiqua">br</hi> u <hi rend="antiqua">g</hi>. sind verschieden. Ist nun diese Versetzung Neuspanisch oder
+               Maurisch? Ich sage Spanisch. Denn der Asiate (besonders der Araber u. Türke)
+               verwandelt zwar <hi rend="antiqua">Bre</hi>, <hi rend="antiqua">bri</hi>, <hi rend="antiqua">bru</hi>; <hi rend="antiqua">Tre</hi>, <hi rend="antiqua">tri</hi>,
+                  <hi rend="antiqua">tru</hi>, <hi rend="antiqua">tro</hi>, in <hi rend="antiqua">Ber</hi>, <hi rend="antiqua">bir</hi>, <hi rend="antiqua">bur</hi>, <hi rend="antiqua">Ter</hi>, <hi rend="antiqua">tir</hi>, <hi rend="antiqua">tur</hi>,
+                  <hi rend="antiqua">tor</hi>. Er würde also <hi rend="antiqua">Bur</hi> daraus
+               gemacht haben.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 93.<lb/>
+               <hi rend="antiqua">Bituriges</hi>. Machten in
+               Gallien 2. Stämme aus; <hi rend="antiqua">Cubi</hi> bey <hi rend="antiqua">Bourges</hi>, u. <hi rend="antiqua">Vivisci</hi> an der Mündung der <hi rend="antiqua">Gironde</hi>. Also waren sie doch eigentl. aquitan. Ursprungs, u.
+               vermuthl. ihr erster <add>und</add> Hauptsitz am Wasser d.i. der <hi rend="antiqua">Garonne</hi>, von denen s. in der Folge, wohl lange vor <hi rend="antiqua">Caesar</hi> die <hi rend="antiqua">Cubi</hi> getrennt, u. unter die Celten
+               gemacht.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 95.<lb/>
+               <hi rend="antiqua">Ardyes</hi>. Von <hi rend="antiqua">Polybius</hi> ausgeheckt. Kein andrer weiß etwas davon. Sollen es
+               die berüchtigten <hi rend="antiqua">Arverner</hi> seyn, oder lieber <hi rend="antiqua">Aedui</hi>, wo ersteres von <hi rend="antiqua">Polyb</hi>. selbst
+               falsch niedergeschrieben, letzteres leichter Fehler der Abschreiber seyn könnte
+                  (<foreign sameAs="grc">Ἄεδυες</foreign>/<foreign sameAs="grc">Ἄεδ8ες</foreign>)<note type="footnote" resp="editor">Die Ligatur in Form einer
+                  "8" ist durch „ου“ aufzulösen (also <foreign sameAs="grc">Ἄεδουες</foreign>); vgl.
+                  dazu den Brief Reichards an Humboldt vom 18. Oktober 1821.</note> oder ist damals
+               ein wichtiger Ort mit bedeutendem Gebiete dieses Namens daherum gewesen? Das wird
+               wohl so leicht nicht auszumitteln seyn.</p>
+            <p>
+               <pb n="143v; S. 8"/> Zur <hi rend="antiqua">Rhone</hi> gehen mehrere Flüsse, die die
+               erste Hälfte des Worts haben: <hi rend="antiqua">
+                  <hi rend="underline">Ard</hi>eche</hi> u. <hi rend="antiqua">
+                  <hi rend="underline">Ard</hi>ière</hi>
+               (letztere in die <hi rend="antiqua">Saone</hi> im ehemal. Ländchen <hi rend="antiqua">Villefranche</hi>, jezt <add>im</add> Dpt <hi rend="antiqua">du Rhone</hi>) dann
+               ist ein Städtchen <hi rend="antiqua">
+                  <hi rend="underline">Ard</hi>es</hi> (5. <hi rend="antiqua">Lieues</hi> NW. von <hi rend="antiqua">Brioude</hi>; Dpt. <hi rend="antiqua">Puy de Dome</hi>) ehemals Arvernisch. u.s.w. Nur ist diese Stelle
+               durch seine Keckheit mit der er uns den Zug des Hannibal <hi rend="underline">vorlügt</hi>, höchst verdächtig. Ich habe schon ehehin diese <hi rend="antiqua">Etourderie</hi> der Welt aufdecken wollen, nur fehlte es mir immer an Zeit. Er
+               sagt (III. 48. fin.) er sey aus Wißbegierde und Wahrheitsliebe (!) selbst auf den
+               Alpen gewesen, u. habe s. von gleichzeitigen Personen (<hi rend="underline">50</hi>.
+               Jahre nach dem 2<hi rend="superscript">ten</hi> Pun. Krieg fällt dies) die es erlebt
+               hätten, unterrichten lassen, u. spricht gleichwohl, <hi rend="antiqua">Hannibal</hi>
+               wäre beym Ursprung der <hi rend="antiqua">Rhone</hi> (welche unsinnige Beschreibung
+               giebt er vom Lauf dieses Stroms! <hi rend="antiqua">c</hi>. 47.) (also über die Reihe
+               vom großen <hi rend="antiqua">Bernhard</hi> bis zum <hi rend="antiqua">St.
+                  Gotthard</hi>) über die Alpen gegangen, <hi rend="underline2">wo</hi> er vom
+               Gipfel derselben (<hi rend="antiqua">
+                  <hi rend="underline2">N</hi>
+               </hi> ehe er
+               angefangen abwärts zu marschiren) seiner Armee die Pogefilde gezeigt habe. Da nun
+               dieses auf jener ganzen Reise gar <hi rend="underline">n<supplied cert="high">ich</supplied>t möglich</hi> ist, so hat er gelogen und zwar absichtlich; denn
+               ein sonst so gescheuter Schriftsteller wird sich von den Eingebohrnen doch eine so
+               augenscheinl. Unwahrheit nicht aufbürden lassen? Absichtlich! Denn er nennt auf
+               diesem ganzen Zuge auch n<supplied cert="high">ich</supplied>t einen einzigen Namen
+               weder eines Ortes, noch Flusses noch Volkes, d<supplied cert="high">urc</supplied>h
+               welches Hannibal gegangen (wie <hi rend="antiqua">Liv</hi>. zur völligen
+                  <sic>Gnüge</sic> thut) warum? um das Nachfragen u. Nachspüren zu erschweren –
+               keine andre Ursache. Er predigt ja die Wichtigkeit dieses Zuges auf allen Zeilen,
+               giebt bey andren minder wichtigen fast alle jene Gegenstände sorgfältig mit Namen u.
+               Localbeschreibungen an, nur hier ist er stockstille. Zu seinem Zeitalter hielt er s.
+               für <del>Nachforscher</del> sicher, nicht ertappt zu werden. Und warum weiß denn <hi rend="antiqua">Liv.</hi> alles haarklein, der doch diese Neugierde, selbst zu
+               sehen nicht hatte? – Man sieht aber daraus, daß <hi rend="underline">schon</hi> zu
+               seiner Zeit viel Streit über diese Frage entstanden seyn muß, den er <pb n="144r; S. 9"/> mit einer solchen Erdichtung <add>auf einmal</add> niederschlagen
+               u. sich in grosses Ansehen bringen wollte. <bibl sameAs="1583">In der Abh.</bibl>
+               <del>
+                  <gap quantity="1" unit="chars"/>
+               </del>
+               <bibl sameAs="1583">N. G. Eph. VII. I.</bibl> habe ich ihn noch bey Ehren gelassen,
+               weil mir es nicht um Polemik daselbst zu thun war. Indessen sollte man doch der Welt
+               über dgl. Dinge die Augen besser öfnen, damit auch die Rechte der Unschuldigen –
+               (hier des <hi rend="antiqua">Livius</hi> welcher schon gräulich mitgenommen worden,
+               als habe er den Polyb. ausgeschrieben, ja sogar verfälscht) vindicirt würden.
+                  <persName ref="jgebel">Ebel</persName> in <bibl sameAs="1600">s. Schweiz (<hi rend="antiqua">Art</hi>. gr. <hi rend="antiqua">Bernhard</hi>)</bibl>
+               <note type="footnote" resp="editor">Dort S. 24 der Artikel "St. Bernhardsberg". [FZ]
+               </note> hat recht gute Gründe wider diese Meinung aufgestellt, aber von des Polyb.
+               Windbeuteley nichts gemerkt, und den <persName ref="hannibal">Hannibal</persName>
+               seines Weges ziehen lassen. <add>– Noch ein Beweis seiner Anmaasung liegt darinnen,
+                  daß er den <persName ref="eratosthenes">
+                     <hi rend="antiqua">Eratosthenes</hi>
+                  </persName> corrigiren will, den er nicht einmal
+                  versteht.</add>
+            </p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 97.<lb/>
+               <hi rend="antiqua">Artobriga</hi> ist nicht
+                  <placeName ref="Regensburg">Regensburg</placeName>. Dies ist <hi rend="antiqua">Rhegina castra</hi> der Peut. T. des Itin. u. der Notit. Imp. Jenes war auf dem
+               Wege von <hi rend="antiqua">Iuvavia</hi> (Salzburg) nach dem <hi rend="antiqua">Pons
+                  aeni</hi> (<hi rend="antiqua">Rosenheim</hi>) und ich habe es in <hi rend="antiqua">
+                  <hi rend="underline">Hartburg</hi>
+               </hi> an der Südöstl. Seite des
+                  <hi rend="antiqua">Chiem</hi>see gefunden. Dies weiß noch niemand, kommt aber mit
+               meiner Karte von <hi rend="antiqua">Rhaetien</hi>, <hi rend="antiqua">Noric</hi>. <hi rend="antiqua">Pannon</hi>. p. zum Vorschein. <persName ref="abuchner">Prof. <hi rend="antiqua">Buchner</hi>
+               </persName>
+               <note type="footnote" resp="editor">Andreas Buchner (1776–1854), Theologe, Historiker und klass. Philologe. Seit 1811
+                  Professor für Geschichte am Lyzeum in Regensburg. Der erste Band seiner <hi rend="italic">Geschichte von Baiern</hi> erschien 1820, für deren Fortführung
+                  er im Oktober 1821 von König Maximilian I. 150 Gulden erhielt.</note> fand die
+               alte Strasse von <hi rend="antiqua">Aug. Vind.</hi> nach <hi rend="antiqua">Rosenheim</hi>. Wahrscheinl. ist Ihnen noch unbekannt, daß dieser <persName ref="abuchner">Professor <hi rend="antiqua">
+                     <hi rend="underline">Buchner</hi>
+                  </hi>
+               </persName> zu <hi rend="antiqua">Regensburg</hi> ganz Schwaben
+               u. <hi rend="antiqua">Bayern</hi>, benebst den benachbarten Gränzen seit einigen
+               Jahren durchreiset, um alle Römisch. Anlagen aufzusuchen. Mit Schwaben u. einem
+               zieml. Theil von <hi rend="antiqua">Bayern</hi> ist er fertig, heuer und übers Jahr
+               nimmt er noch den Theil vom <hi rend="antiqua">Lech</hi> ostwärts. Seine bisherigen
+               Berichte stehen in der <bibl sameAs="307">Münchner LiteraturZeitg</bibl>, u. vorher
+               gieng <bibl sameAs="1597">ein Tractat über die Teufelsmauer</bibl> (<hi rend="antiqua">limes Romanorum</hi>) von <hi rend="antiqua">Kelheim</hi> nach <hi rend="antiqua">Wassertrüdingen</hi> zu. Den vorjährl. Bericht über Schwaben
+                  <sic>habe</sic> soeben in der Hand, in <hi rend="antiqua">Mspt</hi>, indem ich <subst>
+                  <del>die</del>
+                  <add>seine</add>
+               </subst> Karte mit zu reguliren habe. Dieser Mann verdiente eine bessere
+               Unterstützung zu einem so wichtigen ächt literar. Unternehmen. Es hat viel solcher
+               Forscher an Ort u. Stelle gegeben, allein eine solche Gewandheit, ächt römisch.
+               Gegenstände überall aufzufinden und von allen andern zu unterscheiden, verbunden mit
+               ächter, classischer, gründlicher Gelehrsamkeit, hat noch keiner besessen; einen so
+               rastlosen Eifer nie jemand <subst>
+                  <del>so besessen</del>
+                  <add>gehabt</add>
+               </subst> und bewiesen; keiner noch solche Schwierigkeiten überwunden – ohne allen
+               Anspruch, aus Liebe zur Wissenschaft. Er ist ohne alles Vermögen u. hat nur sein
+               dürftiges Aus-<pb n="144v; S. 10"/>kommen, und er kann vermöge seines Amtes im <hi rend="antiqua">Lyceum</hi> nur die Hundstage reisen, worinnen ihn jetzt <persName ref="fcampe">
+                  <hi rend="antiqua">Campe</hi>
+               </persName> in <placeName ref="Nürnberg">
+                  <hi rend="antiqua">Nürnbg</hi>
+               </placeName> einigermaßen unterstützt. Die
+               Regierung hat noch nichts gethan. Diesen sollten alle Potentaten, deren Länder
+               Römisch. Alterthümer noch verbergen, beauftragen, sie zu untersuchen, er ist der
+               einzige Verläßliche, der sie aufs genaueste kennt. Auf seinen Entdeckungsreisen,
+               besonders auf dem letzten Gange durch Schwaben sind Dinge ohne Zahl, darum sich bis
+               diese Stunde niemand bekümmert hatte, zum Vorschein gekommen, Castra, Schanzen,
+               Thürme, Wälle u. Mauern 10. 15. 20. gg. Meilen lang in schnurgerader Linie, Tempel,
+               Gräber Bäder pp. der Utensilien gar n<supplied cert="high">ich</supplied>t zu
+               gedenken. <add>Alle Orte der Itinerarien, des Ptol. der <hi rend="antiqua">Notitia</hi> u. übrigen Autoren sind dad<supplied cert="high">urc</supplied>h
+                  an den Tag gekommen.</add> Dieses ungeheure Netz von Festungswerken, doppelten u.
+               dreyfachen, werden Sie auf meiner K. v. <hi rend="antiqua">Rhaetien</hi> künftig
+               ebenfalls finden. Jetzt ist eine ganze Gesellschaft in Schlesien, d<supplied cert="high">urc</supplied>h <persName ref="fkhkruse">H. Pr. Kruse</persName>
+               aufgeregt, zusammengetreten, diese Absicht zu erreichen, und, so viel ich gehört,
+               wolle <persName ref="fw3">der König</persName> auch eine Summe zur Unterstützung
+               verwenden. Man wird die Absicht <add>so</add> nicht erreichen, nur hier und da
+               Bruchstücke, ohne allen Zusammenhang erhalten, weil keiner weiß, was der andre thut.
+               Das bringt Lücken, Ungewißheiten, Streitigkeiten, unnützes Geschreibe und vergebl.
+               Aufwand zu wege, u. kann nie ein Ganzes werden. Ich bin zur Gewisheit gekommen, daß
+               die Römer <add>von August</add> bis zu Anfang des 4<hi rend="superscript">ten</hi>
+               Jahrhunderts durch Mähren und Böhmen hindurch in mehrern Kriegen nach Schlesien
+               hinein gedrungen, und dieses Land bis an die Elbe herüber eine Zeitlang besaßen, und
+                  <add>hie <unclear>schon</unclear>
+               </add> befestiget haben (vielleicht 100 u.
+               mehrere Jahre lang) besonders unter <add>
+                  <persName ref="trajan">
+                     <hi rend="antiqua">Trajan</hi>
+                  </persName>
+               </add>
+               <persName ref="septimiusseverus">
+                  <hi rend="antiqua">Septim. Severus</hi>
+               </persName>
+               u. <persName ref="probus">
+                  <hi rend="antiqua">Probus</hi>
+               </persName>; hier ist
+                  <persName ref="abuchner">
+                  <hi rend="antiqua">Buchner</hi>
+               </persName> der Mann, der
+               es völlig aufklären kann, wenn ihn von Seiten der KPr. Regierung zur Bereisung dieser
+               Gegenden (Schlesiens u. der Lausitz bis nach Polen (<hi rend="antiqua">Cissa</hi>)
+               hinein) Unterstützung gewähret würde. Und wie wohlfeil käme <persName ref="fw3">der
+                  König</persName> dazu, da <persName ref="abuchner">B.</persName> ohne alle <hi rend="antiqua">Praetension</hi> ist, da er nicht kutschiert, sondern überall zu
+               Fuße wandert, und nothwendiger Weise wandern muß, wenn er seinen Zweck erreichen
+               will, dagegen <pb n="145r; S. 11"/> jene Summen, der Gesellschaft gegeben, zu 1000den <subst>
+                  <del>verzehren</del>
+                  <add>wegnehmen</add>
+               </subst> würden, welches lauter weggeworfenes Geld wäre. Der Römisch. Urnen,
+               Degenspitzen, Töpfe, Scherben hat man schon so viel, daß sie gar kein Interesse mehr
+               erregen, während die eigentl. Grenzzeichen ihrer Herrschaft unerforscht bleiben. Die
+               einzigen Münzen sind von literar. Werth unter den Geräthschaften, weil <hi rend="antiqua">die Zeit</hi> allenfalls daraus bestimmt werden kann. – Sollte
+               dieses nun nicht zu des Königs Wissenschaft zu bringen seyn? Auch Sie würden so einem
+               Unternehmen, dessen Gelingen so vor Augen ist, gewiß Ihren Beyfall nicht versagen
+               können.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. <subst>
+                  <del>153.</del>
+                  <add>103.</add>
+               </subst>
+               <lb/>
+               <hi rend="antiqua">Eburovices</hi>. Plin. hat auch <hi rend="antiqua">Euburiates</hi> bey den Ligurern, od. die Ligurier selbst möchten am Ende mit
+               hieher zu ziehen seyn.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p.</hi> 105.<lb/>
+               <hi rend="antiqua">Medulli</hi>. Es gab nach <hi rend="antiqua">Plin.</hi>
+               <persName ref="vitruv">
+                  <hi rend="antiqua">Vitruv.</hi>
+               </persName> (VIII. 3.) u. einer
+               Inscr. von <persName ref="caesar">
+                  <hi rend="antiqua">Iul. Caesar</hi>
+               </persName> eine
+               Stadt <hi rend="antiqua">Medulli</hi> in <hi rend="antiqua">Latium</hi>.</p>
+            <p>
+               <hi rend="antiqua">Vindius mons</hi>. In der Provinz <hi rend="antiqua">tras los
+                  montes</hi> (<hi rend="antiqua">Correiçâo de Miranda</hi>) ist ein Städtchen <hi rend="antiqua">Vinhaes</hi>; ohnstreitig zu jenen Zeiten schon vorhanden, da es
+               dem <hi rend="antiqua">Vindius</hi> naheliegt. Noch ist ein <hi rend="antiqua">Vinca</hi> in der Grafschaft <hi rend="antiqua">Roussillon</hi> im <sic>Txt</sic>
+               gleicher Art.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 106.<lb/>
+               <hi rend="antiqua">Sicor</hi>. Ich lese <hi rend="antiqua">S<hi rend="underline">e</hi>cor</hi> im Ptl. auch die Tafel hat <hi rend="antiqua">S<hi rend="underline">e</hi>gora</hi>. Das ist <hi rend="antiqua">Saumur</hi> an der <hi rend="antiqua">Loire</hi>, mein Text von Gallien giebt
+               Aufschluß. <hi rend="antiqua">Segorium</hi> (<bibl sameAs="1598">
+                  <hi rend="antiqua">Wess. p.</hi> 372. <hi rend="antiqua">not.</hi>
+               </bibl>) = <hi rend="antiqua">Woringen</hi> sollte hieher mit gehören.</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p.</hi> 114.<lb/>
+               <add>
+                  <hi rend="antiqua">Aura</hi>. Auch der Fluß
+                     <hi rend="antiqua">Aura</hi> am Po. Plin. III. 16. ist ohne Anfangs <hi rend="antiqua">A</hi>.<lb/>
+                  <hi rend="antiqua">p</hi>. 120.</add>
+            </p>
+            <p>
+               <hi rend="antiqua">Iliga</hi>. <hi rend="antiqua">Helice</hi> scheint mir ebenfalls
+               offenbar gräcisirt. Der jetzige Name ist osmanisirt = <hi rend="antiqua">Ikliman</hi>
+               halb Griech. halb Türk. (<foreign sameAs="grc">λιμὴν</foreign>)</p>
+            <p> </p>
+            <p>
+               <hi rend="antiqua">p</hi>. 144.<lb/>
+               <hi rend="antiqua">Samara</hi>. Auch ich glaube
+                  n<supplied cert="high">ich</supplied>t, daß der Fluß so hieß. Erst <persName ref="venantius">
+                  <hi rend="antiqua">Venant. Fortunat</hi>
+               </persName> und <persName ref="gregorvtours">
+                  <hi rend="antiqua">Greg. Turones.</hi>
+               </persName> bringen den
+               ächten Namen <hi rend="antiqua">Somena</hi>, <hi rend="antiqua">Sumina</hi> vor.</p>
+            <p>
+               <pb n="146r"/> Einzelne Fragen ad <hi rend="antiqua">p</hi>. 172.<lb/>
+               <hi rend="antiqua">Celtae</hi>; <foreign sameAs="grc">Κέλτοι</foreign>, die schon
+                  <persName ref="herodot">Herodot</persName> so nannte. <hi rend="antiqua">Kalt</hi>, <hi rend="antiqua">Kälte</hi>; <hi rend="antiqua">Galatae</hi> u. <hi rend="antiqua">Galli</hi> bey den Römern. Sollte das Wort <hi rend="antiqua">Kälte</hi> mit <hi rend="antiqua">Celtae</hi> in Verwandtschaft stehen, so wäre
+               erwiesen daß sie aus dem Norden, in sehr frühen Zeiten ausgewandert <del>wären,</del>
+               und sehr wahrscheinl. <subst>
+                  <del>das</del>
+                  <add>sich um diese Zeit schon mit dem</add>
+               </subst> Stammvolk der <hi rend="antiqua">Iberier</hi>
+               <subst>
+                  <del>wären.</del>
+                  <add>vermischt hätten.</add>
+               </subst>
+            </p>
+            <p>
+               <pb n="146v und 147r/v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

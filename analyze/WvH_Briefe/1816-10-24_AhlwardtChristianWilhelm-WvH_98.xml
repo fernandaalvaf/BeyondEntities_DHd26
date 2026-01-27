@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Wilhelm Ahlwardt an Wilhelm von Humboldt, 24.10.1816<idno type="BBAW">98</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Archivmappe 75, Inv.-Nr.
+                     975, Bl. 108–109</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 10960 </bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eberlepsch">
+                  <persName>Berlepsch, Emilie von, geb. von Oppel, verh. Harms</persName>
+               </person>
+               <person corresp="mgfachoiseul">
+                  <persName>Choiseul-Gouffier, Marie-Gabriel-Florent-Auguste de</persName>
+               </person>
+               <person corresp="ktmdalberg">
+                  <persName>Dalberg, Karl Theodor Maria Reichsfreiherr von</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="jblechevalier">
+                  <persName>LeChevalier, Jean Baptiste</persName>
+               </person>
+               <person corresp="jmacdonald">
+                  <persName>Macdonald, James</persName>
+               </person>
+               <person corresp="jmacpherson">
+                  <persName>Macpherson, James</persName>
+               </person>
+               <person corresp="ossian">
+                  <persName>Ossian</persName>
+               </person>
+               <person corresp="wowenpughe">
+                  <persName>Owen Pughe, William</persName>
+               </person>
+               <person corresp="gaseckendorf">
+                  <persName>Seckendorf, Gustav Anton von</persName>
+               </person>
+               <person corresp="jsinclair">
+                  <persName>Sinclair, Sir John</persName>
+               </person>
+               <person corresp="rwood">
+                  <persName>Wood, Robert</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1574">Ahlwardt, Christian Wilhelm (1811): Die Gedichte Oisian’s, aus
+                  dem Gaelischen im Sylbenmaße des Originals, 3 Bände, Leipzig: Göschen</bibl>
+               <bibl corresp="1578">Berlepsch, Emilie von (1802–1804): Caledonia. Von der
+                  Verfasserin der Sommerstunden, 4 Bände, Hamburg: bey B. G. Hoffmann</bibl>
+               <bibl corresp="1563">Macpherson, James (1807): The Poems of Ossian in the original
+                  Gaelic, with a translation into Latin, 3 Bände, London: G. and W. Nicol</bibl>
+               <bibl corresp="1576">Owen, William (1793–1803): Geiriadur cynmraeg a saesoneg. A
+                  Welsh and English Dictionary; compiled from the laws, history, poetry, bardism,
+                  proverbs, and other monuments of the knowledge and learning of the ancient
+                  Britons; with numerous and select quotations to elucidate the meaning of words. To
+                  which is prefixed, a Welsh grammar, London: printed for E. and T. Williams,
+                  Strand</bibl>
+               <bibl corresp="1577">Owen, William (1806): Geiriadur cynmraeg a saesoneg. An
+                  abridgment of the Welsh and English Dictionary, London: printed for E. and T.
+                  Williams</bibl>
+               <bibl corresp="1575">Sinclair, Sir John (1791–1799): The statistical account of
+                  Scotland, drawn up from the communications of the ministers of the different
+                  parishes, 21 Bände, Glasgow: Angus and Son</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Unsre Unterredung über Ossian, Macpherson, und die vielleicht noch zu
+               rettenden Volkslieder …</ab>
+            <p>Aus Greifswald. Bezugnehmend auf eine gemeinsame Unterredung über Ossian, <persName ref="jmacpherson">James Macpherson</persName> und die Volkslieder der Gaelen,
+               skizziert Ahlwardt seine Pläne für eine Forschungsreise in das westliche Schottland,
+               die Hebriden, die Nordküste Irlands und nach Wales, "mit dem Ossian in der Hand […]
+               die Scenen seiner Gesänge auszuforschen", sowie noch erhaltene Volkslieder zu
+               sammeln. Diese Pläne hat er seit vielen Jahren; die Hoffnung auf Realisierung nahm
+               vor einigen Jahren Gestalt an, als <persName ref="ktmdahlberg">Fürst-Primas von
+                  Dahlberg</persName>, vermittelt durch <persName ref="gaseckendorf">Gustav Anton
+                  von Seckendorf</persName>, Interesse an einer Finanzierung hatte, die sich aber
+               aufgrund der politischen Entwicklung, d.h. des französischen Machtverlusts (und damit
+               der Absetzung Dahlbergs), zerschlug.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cwahlwardt">Ahlwardt, Christian Wilhelm</persName>
+               <date type="author" when="1816-10-24"/>
+               <placeName key="Greifswald">Greifswald</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="ga">Irisches Gälisch</language>
+            <language ident="cy">Kymrisch ("Wallisisch")</language>
+            <language ident="gd">Schottisches Gälisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">05. Oktober 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="108r"/> Unsre Unterredung über <persName ref="ossian">Ossian</persName>,
+                  <persName ref="jmacpherson">Macpherson</persName>, und die vielleicht noch zu
+               rettenden Volkslieder eines jetzt unbegünstigten, einst hoch poetischen Volks der
+               Gaelen, oder westlichen Schotten, und der mit ihnen an Sprache, Sitten, Cultur und
+               poetischem Geiste verwandten Einwohner von Nord-Irrland und Wales, in welchem
+               letztern Lande noch <hi rend="underline">Hunderte</hi> von Volksliedern alter Zeit im
+               Umlaufe sind, und mit jedem Tage immer mehr dem Untergange zueilen, hat einen
+               Lieblingswunsch in mir aufgeregt, der mich einst jahrelang beschäftigte und
+               begeisterte, und von dem ich sagen konnte:</p>
+            <p>„Meinen Träumen gehest du als Morgenstern,<lb/>„Meinem Schlaf als Morgenstern
+               voran...</p>
+            <p>Nur mit tiefem Schmerz habe ich ihn aufgegeben, und der Gedanke, einst Hoffnung
+               gehabt zu haben, ihn erfüllt zu sehen, hat immer Wehmuth zum Begleiter. Ich faßte
+               nähmlich während der Zeit, als ich zwei Jahre hindurch von Morgens 4 Uhr bis Abend 8
+               oft 9 Uhr <bibl sameAs="1574">am Ossian mit unermüdetem Eifer übersetzte</bibl>, und
+               auf manche Schwierigkeiten stieß, deren Lösung nur durch eigene Ansicht der Gegenden,
+               wo <persName ref="ossian">Ossian</persName> sang und seine Helden fochten, möglich
+               wird, wie einige wenige, glückliche im 3<hi rend="superscript">
+                  <hi rend="underline">t</hi>
+               </hi> Bande S. 498–531 der <bibl sameAs="1563">Gaelischen Ausgabe des
+                  Ossian</bibl> angeführten Untersuchungen der Art, die die <orgName ref="72">Highland Society</orgName> in <placeName ref="Edinburgh">Edinburg</placeName>
+               unterstützte, beweisen, den Gedanken, den schon <persName ref="rwood">Wood</persName>, <persName ref="mgfachoiseul">Choiseul-Gouffier</persName>,
+                  <persName ref="jblechevalier">Lechevalier</persName> und andre in Rücksicht des
+                  <persName ref="homer">Homer</persName> ausgeführt haben, das westliche Schottland,
+               die Hebriden und die Nordküste Irrlands <hi rend="underline">mit dem Ossian in der
+                  Hand zu bereisen</hi>, die Scenen seiner Gesänge auszuforschen, <pb n="108v"/> aus
+               dem Munde des Volks die Fragmente seiner Lieder, und der Gesänge späterer Barden
+               aufzusammeln, die Sitten und den Charakter dieses Bergvolks, das sich in seiner
+               Alterthümlichkeit mehr als irgend eine andre Nation erhalten, zu erforschen, und so
+               den Liedern Ossians als Erklärer ein Licht anzuzünden, dessen der <sic>ädle</sic>,
+               große Dichter eben so sehr bedarf, als werth ist. Nach diesem Plane<note type="footnote" resp="editor">Vgl. den <ref type="link" target="99">Brief
+                     Ahlwardts an Humboldt</ref> vom <date when="1817-07-17">17. Juli 1817</date>,
+                  in dem er erneut seine (gescheiterten) Reisepläne skizziert und ausführlich auf
+                  die aktuelle Diskussion über die Authentizität der Gedichte des Ossian eingeht.
+                  [FZ]</note> wollte ich etwa im Mai nach <placeName ref="London">London</placeName>
+               gehen, mich dort mit der <orgName ref="72">Highland Society</orgName>, einer
+               Schwester der <hi rend="underline">Highland Society appointed zu inquire into the
+                  authenticity of the poems of Ossian</hi> zu <placeName ref="Edinburgh">Edinburg</placeName>, in Verbindung setzen, dann nach <placeName ref="Edinburgh">Edinburg</placeName> zu der Highland Society reisen, bei welcher ich gewiß
+               Unterstützung meines Vorhabens finden würde. Von <placeName ref="Edinburgh">Edinburg</placeName> wollte ich dann nach <placeName ref="Inverness">Inverneß</placeName> gehen, und vom October bis April oder Mai, denn früher kann
+               man die Hebriden nicht gut bereisen, bleiben, um im Sprechen des Gaelischen die
+               gehörige Vollkommenheit zu erlangen; denn obgleich ich das Gaelische recht gut weiß,
+               um das bisher darin gedruckte lesen und verstehen zu können, so fehlt mir doch noch
+               immer viel zu der großen Geläufigkeit im Sprechen und Niederschreiben dieser schweren
+               Sprache, besonders wenn Ungelehrte <add>einem</add> Lieder darin vorsagen, die zu
+               dieser Reise erforderlich ist. Von <placeName ref="Inverness">Inverneß</placeName>
+               wollte ich dann im Mai das westliche Schottland, soweit das Gaelische herrscht, und
+               die sämmtlichen Hebriden, wo nichts, als Gaelisch gesprochen wird, und die Nordküste
+               Irrlands, dessen Sprache von dem Gaelischen nicht verschiedener ist, als das
+               Portugiesische vom Spanischen, oder das Dänische vom Schwedischen, bereisen, gegen
+               Herbst, dann nach <placeName ref="Edinburgh">Edinburg</placeName> zur <orgName ref="72">Highland Society</orgName> zurückkehren, <pb n="109r"/> mit dieser über
+               die gemischte Ausbeute conferiren, mir Abschriften ihrer eigenen Schätze, – denn sie
+               hat an 12000 Verse alter Gaelischer Barden, die noch nicht herausgegeben sind, – zu
+               verschaffen suchen, dann etwa im November nach Wales gehen, den Winter hindurch die
+               Landessprache, die vom Gaelischen, wie Französisch vom Lateinischen verschieden ist,
+               zu eigen zu machen suchen, und im Sommer darauf die Berggegenden Wales bereisen, dann
+               in <placeName ref="London">London</placeName> mit Hülfe der <orgName ref="72">Highland Society</orgName> und gelehrter Walliser alles ordnen, und mit meinen
+               Schätzen nach Deutschland zurückkehren, um sie der Welt mitzutheilen. Nebst manchem
+               andern Guten müßte nach meiner Ansicht aus einer solchen Reise auch ein großer Gewinn
+               für die Länder- und Völker-Kunde hervorgehen, denn Wales und noch mehr die Hebriden
+               und die westlichen Berggegenden Schottlands sind für uns in mancher Rücksicht eine
+                  <hi rend="underline">Terra incognita</hi>, denn alle die diese Länder bereiseten,
+                  <persName ref="jmacdonald">den einzigen Mac-Donald</persName>
+               <note type="footnote" resp="editor">Gemeint ist wohl <persName ref="jmacdonald">James
+                     Macdonald</persName> (1772–1810), ein schottischer Theologe, der in Weimar als
+                  Erzieher tätig war; siehe Alexander Gillies (1969): <hi rend="italic">A Hebridean
+                     in Goethe’s Weimar. The Reverend James Macdonald and the cultural relations
+                     between Scotland and Germany</hi>, Oxford: Blackwell. Macdonald kommentierte
+                  die aus dem Französischen (erschienen 1797) übersetzte deutsche Ausgabe von
+                     <persName ref="bfaujas">Barthélemy Faujas de Saint-Fond</persName> (1799): <hi rend="italic">Reise durch England, Schottland und die Hebriden in Rücksicht auf
+                     Wissenschaft, Künste, Naturgeschichte und Sitten</hi> […] <hi rend="italic">mit
+                     theils eigenen, theils ungedruckten Anmerkungen des Hrn. James Macdonald, eines
+                     gelehrten Schotten, welcher sich einige Zeit in Deutschland aufhielt</hi> […],
+                  Göttingen: Dieterich. [FZ]</note> ausgenommen, verstanden weder Gaelisch, und noch
+               weniger Wallisisch, und wenn wir des ädlen <persName ref="jsinclair">Sinclair</persName>’s <bibl sameAs="1575">statistical accounts über
+                  Schottland</bibl> nicht hätten, die aber nach ganz andern Ansichten und
+               Rücksichten gemacht sind: so wüßten wir von Schottland, besonders vom westlichen
+               Theil, gar nichts. Auch in Wales ist es hohe Zeit, daß man die Reste der alten Poesie
+               sammelt, denn der trefliche und fleißige <persName ref="wowenpughe">Owen</persName>,
+               der <bibl sameAs="1576">ein großes Wörterbuch dieser Sprache</bibl> ausarbeitete, und
+               über 20 Jahre daran arbeitete, sagt in dem 1806 gedruckten <bibl sameAs="1577">Abridgment of the Welsh and <sic>Englisch</sic> Dictionary</bibl>: The ancient
+               literature of Wales is at this time in <hi rend="underline">the last stage of
+                  decline.</hi>
+            </p>
+            <p>
+               <pb n="109v"/> Hätte ich Vermögen gehabt, so hätte ich schon vor mehrern Jahren die
+               Reise gemacht, und den Ossian in Schottland unter den Gaelen übersetzt, und manches,
+               was mir unendlich viel Mühe gekostet, denn manche Gesänge habe ich wohl viermahl ganz
+               umgeschmolzen, würde dort leichter und besser vollendet seyn. Vor einigen Jahren
+               hatte ich Hoffnung zu dieser Reise. <persName ref="gaseckendorf">Hr. v.
+                  Seckendorf</persName>, der unter dem Nahmen Patrick Peale als Declamator reiste,
+               auch in <placeName ref="OldenburgO">Oldenburg</placeName> Darstellung gab, und dem
+               ich diese Reise und den Nutzen derselben einleuchtend machte, erbot sich, die Kosten
+               zu dieser Reise bei dem damahls als Beschützer der Musen gefeierten <persName ref="ktmdalberg">Fürst-Primas von Dahlberg</persName> auszumitteln. Die Sache ging
+               sehr langsam, und der Sturz der Französischen Allgewalt, der auch den <persName ref="ktmdalberg">Fürst-Primas</persName> traf, machte diesem Plane, den bloß
+                  <persName ref="gaseckendorf">v. Seckendorf</persName> betrieb, oder bei dem
+                  <persName ref="ktmdalberg">Fürst-Primas</persName> zu betreiben vorgab, ein Ende.
+               In <placeName ref="London">London</placeName> kommt man mit einem Pfund Sterling
+               nicht viel weiter, als in <placeName ref="Berlin">Berlin</placeName> mit einem
+               Thaler. In Schottland ist etwas wohlfeiler, aber doch immer noch einmahl so theuer
+               als in Deutschland. Eine solche Reise könnte daher doch jährlich wohl 500 bis 600
+               Pfund, oder soviel Fr. d’or kosten, und anderthalb bis zwei Jahre würden erforderlich
+               seyn, wenn etwas genügendes, die Sache erschöpfendes heraus kommen sollte: Genauere
+               Details über das Reisen in Schottland und die Kosten der Reise ließen sich leicht von
+               der <persName ref="eberlepsch">Frau von Berlepsch, jetzigen Harmes</persName>, der
+               Verfasserin der <bibl sameAs="1578">Caledonia</bibl>, welche diesen Theil von
+               Schottland bereist hat, erfahren. Doch wozu die Details, da ich zu der Reise nichts
+               besitze, als – dem guten Willen, und die etwa erforderlichen Kenntnisse, das
+               Gaelische und die verwandten Sprachen, auch Englisch geläufig spreche und schreibe?
+               Doch genug und vielleicht schon zuviel hievon. Glückliche Liebhaber sprechen gerne
+               von ihrer Liebe, selbst wenn die Geliebte schon längst dahin ist. Verzeihen Sie daher
+               die ausführliche Erwähnung eines frühren Traums, der, um Ossianisch zu reden, mich
+               immer mit Wonne und Wehmuth erfüllt. </p>
+            <closer>
+               <salute>Mit der größten Hochachtung habe ich Ehre zu seyn<lb/>Ew.
+                  Hochwohlgeboren<lb/>ergebenster</salute>
+               <signed>C. W.
+                  Ahlwardt</signed>
+               <lb/>
+               <dateline>Greifswald d. 24 Octbr. 1816.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

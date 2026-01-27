@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 25.05.1835<idno type="BBAW">843</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                        Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library MS q. 1900,
+                            No. 35, Courtesy of the Trustees of the Boston Public Library/Rare Books
+                            (Abschrift)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12459</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cbyington">
+                  <persName>Byington, Cyrus</persName>
+               </person>
+               <person corresp="jfleming">
+                  <persName>Fleming, John</persName>
+               </person>
+               <person corresp="gticknor">
+                  <persName>Ticknor, George</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="134">Fleming, John: A Short Sermon: Also Hymns, in the Muskokee
+                        or Creek Language (Boston: Crocker and Brewster 1835)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel
+                        Java, nebst einer Einleitung über die Verschiedenheit des menschlichen
+                        Sprachbaues und ihren Einfluss auf die geistige Entwicklung des
+                        Menschengeschlechts. In: Abhandlungen der Königlichen Preußischen Akademie
+                        der Wissenschaften zu Berlin aus dem Jahre 1832, Zweiter Theil (Berlin:
+                        Druckerei der Königlichen Akademie der Wissenschaften 1836)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir – / I send you by my friend George Ticknor Esq.r …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1835-05-25"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="516" type="prev">08.12.1834</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="cho">Chocktaw (Chahta)</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="cai">Indianische Sprachen</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="mus">Muscogee (Creek)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">22. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <address>
+                  <addrLine>To Baron W.<hi rend="superscript">m</hi> von Humboldt</addrLine>
+               </address>
+               <dateline>[May 25. 1835]</dateline>
+               <lb/>Sir –</opener>
+            <p>I send you by my friend <persName ref="gticknor">George Ticknor Esq.<hi rend="superscript">r</hi>
+               </persName> (to whom I have given a letter of
+                    introduction to you) two little Indian publications – 1. <bibl sameAs="134">A
+                        short Sermon &amp; Hymns, in the Muskokee or Creek language</bibl>; 2. A
+                    Cherokee Alphabet published in a large size for the use of the Indian
+                        children.<note type="footnote" resp="editor">Wahrscheinlich ist damit die 42,8 ×
+                        37,1 cm große Tafel gemeint, die 1835 in Boston bei Pendleton’s Lithography
+                        gedruckt wurde, siehe James Constantine Pilling (1888): <hi rend="italic">Bibliography of the Iroquoian Languages</hi>, Washington: Government
+                        Printing Office, <ref type="linkExt"
+                       target="https://books.google.de/books?id=2kkSAAAAYAAJ&amp;pg=RA5-PA72&amp;lpg=RA5-PA72&amp;dq=cherokee+alphabet+pendleton%27s+lithography&amp;source=bl&amp;ots=1k9a8j3Tae&amp;sig=ACfU3U1GUrGA76cjzqrvAmtvW9lCGIVTfw&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwj_qpeD7-DqAhXS3KQKHf9BCqwQ6AEwGnoECAsQAQ#v=onepage&amp;q=cherokee%20alphabet%20pendleton's%20lithography&amp;f=false">S. 72 s.v. Guess (George)</ref> mit Abb. [FZ]</note>
+            </p>
+            <p>I have been obliged to intermit my Indian studies for nearly three years past, in
+                    consequence of being employed by the government of this state, with two others
+                    of my profession, in the redaction of the laws of our state in order to reduce
+                    them to a code. We have now almost completed this laborious task, after which I
+                    hope to find a little leisure for other studies</p>
+            <p>I avail myself of this occasion to acknowledge the receipt of your obliging
+                    letter of the <date when="1834-12-08">8.<hi rend="superscript">th</hi> Dec.<hi rend="superscript">r</hi> last</date> which arrived two months ago, but
+                    to which my pressing engagements abovementioned <add>have not</add> permitted me
+                    to reply.</p>
+            <p>I am much flattered by your friendly request to prepare a memoir upon the subject
+                    of the Indian languages; but I feel conscious that you estimate too highly my
+                    ability to do justice to the subject. I shall not, however, <pb n="2*"/> lose
+                    sight of this object; &amp; I may add, that our stock of materials is daily
+                    increasing. Our Missionaries are indefatigable, &amp; study various dialects
+                    with zeal. One of them <persName ref="cbyington">Mr. Byington</persName>, has
+                    nearly, or quite, completed two very important works – a Dictionary &amp;
+                    Grammar of the language of the Choctaws,<note type="footnote" resp="editor">Die
+                        beiden Werke sind erst Jahrzehnte später publiziert worden; siehe James
+                        Constantine Pilling (1885): <hi rend="italic">Proof-Sheets of a Bibliography
+                            of the Languages of the North American Indians</hi>, Washington:
+                        Government Printing Office, <ref type="linkExt"
+                       target="https://www.biodiversitylibrary.org/item/97785#page/161/mode/1up">S. 111 zu Nr. 557–561</ref>. [FZ]</note> now more
+                    correctly called <hi rend="underline">Chahtas</hi>. Our Scholars are impatient
+                    to see your great work on the languages of this continent. I hope no accident
+                    has impeded its progress. I am also extremely desirous to see <bibl sameAs="227">your work on the ancient political language of the island of Java</bibl>;
+                    the General Introduction which you make to it<note type="footnote" resp="editor">D.h. die "Kawi-Einleitung". [FZ]</note>, on the languages of the Globe
+                    will be of the highest interest &amp; importance to philologists.</p>
+            <p>When I read your last letter, I was sorry to learn that your health was not yet
+                        reestablis<supplied cert="high">hed.</supplied>
+               <note type="footnote" resp="editor">Papierbruch.</note> I hope this is no longer the case<note type="footnote" resp="editor">Humboldt war bereits am 8. April 1835 in Tegel gestorben. [FZ]</note>, and
+                    that your physical strength will enable you still to employ your eminent
+                    intellectual powers in the advancement of those branches of knowledge to which
+                    you have so largely contributed –</p>
+            <closer>
+               <salute>I am &amp;.<hi rend="superscript">c</hi>
+               </salute>
+               <lb/>
+               <dateline>Boston May 25.<hi rend="superscript">th</hi> 1835</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

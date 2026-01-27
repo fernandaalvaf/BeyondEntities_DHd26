@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Eugène Vincent Stanislas Jacquet, 10.12.1831 ("Lettre
+                    à Mr. Jacquet")<idno type="BBAW">745</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Nouveau Journal Asiatique 9, 1832,
+                            S. 484–508. – Neudruck in: Humboldt 1836, S. 492–511 [um Anmerkungen
+                            erweitert]</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8406</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="adcampbell">
+                  <persName>Campbell, Alexander Duncan</persName>
+               </person>
+               <person corresp="fcarey">
+                  <persName>Carey, Felix</persName>
+               </person>
+               <person corresp="diodor">
+                  <persName>Diodorus Siculus</persName>
+               </person>
+               <person corresp="dezguerra">
+                  <persName>Ezguerra, Domingo</persName>
+               </person>
+               <person corresp="ajudson">
+                  <persName>Judson, Adoniram</persName>
+               </person>
+               <person corresp="eaxclandresse">
+                  <persName>Landresse, Ernest Augustin Xavier Clerc de</persName>
+               </person>
+               <person corresp="dlossantos">
+                  <persName>los Santos, Domingo de</persName>
+               </person>
+               <person corresp="jlow">
+                  <persName>Low, James</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="jrodrigues">
+                  <persName>Rodrigues, Joâo</persName>
+               </person>
+               <person corresp="gsaugustin">
+                  <persName>San Agustín, Gaspar de</persName>
+               </person>
+               <person corresp="chthomsen">
+                  <persName>Thomsen, Claudius Henry</persName>
+               </person>
+               <person corresp="stotanes">
+                  <persName>Totanes, Sebastián de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="580">Bopp, Franz (1829): Grammatica critica linguae Sanscritae, Berlin:
+                    Dümmler</bibl>
+               <bibl corresp="870">Campbell, Alexander Duncan (1816): A grammar of the Teloogoo
+                    language, commonly termed the Gentoo, peculiar to the indoos inhabiting the
+                    north eastern provinces of the Indian peninsula, Madras: College Press</bibl>
+               <bibl corresp="1284">Carey, Felix (1814): A Grammar of the Burman language, to which is
+                    added a list of the simple roots fom which the language is derived, Serampore:
+                    Mission Press</bibl>
+               <bibl corresp="910">Ezguerra, Domingo (1747): Arte de la lengua bisaya de la provincia
+                    de Leyte. Apendice por el P. Constantino Bayle, Manila: Imp. de la Compañia de
+                    Jesus</bibl>
+               <bibl corresp="649">Jacquet, Eugène (1831): Mélanges Malays, Javanais et Polynésiens,
+                    No. I. Notice sur l’alphabet Yloc ou Ylog. In: Nouveau Journal Asiatique 8,
+                    Juillet, S. 2–45</bibl>
+               <bibl corresp="245">Judson, Adoniram (1826): A Dictionary of the Burmese language with
+                    explanations in English. Compiled from the ms of A. Judson and other
+                    missionaries in Burmah by J. Wade, Calcutta: Baptist Mission Press</bibl>
+               <bibl corresp="270">Low, James (1828): A grammar of the Thai, or, Siamese Language,
+                    Calcutta: Baptist Mission Press</bibl>
+               <bibl corresp="699">Marsden, William (1812): A Grammar of the Malayan language, with an
+                    introduction and praxis, London: Cox &amp; Baylis</bibl>
+               <bibl corresp="351">Raffles, Thomas Stamford (1817): The History of Java. In two
+                    Volumes, London: Black, Parbury, and Allen</bibl>
+               <bibl corresp="364">Rodrigues Girão, João / Landresse, Ernest-Augustin-Xavier Clerc de
+                    / Abel-Rémusat, Jean-Pierre (1825): Eléments de la grammaire japonaise, Paris:
+                    Dondey-Dupré Père et Fils</bibl>
+               <bibl corresp="930">San Augustin, Gaspar de (1787): Compendio de la Arte de la lengua
+                    Tagala. Segunda Impression, Sampaloc: Nuestra Señora de Loreto</bibl>
+               <bibl corresp="874">Santos, Domingo de los (1794): Vocabulario de la lengua Tagala,
+                    primera y segunda parte, Manila: N.S. de Loreto por B. Mariano</bibl>
+               <bibl corresp="716">Thomsen, Claudius Henry (1833): A Vocabulary of the English, Bugis
+                    and Malay languages, containing about 2000 words, Singapore: Mission
+                    Press</bibl>
+               <bibl corresp="436">Totanes, Sebastian de (1745): Arte de la Lengua Tagala, y Manual
+                    Tagalog… compuesto Fray… hijo de la apostolica y seraphica Provincia de S.
+                    Gregorio Magno, de Religiosos Descalzos de la Regular, y mas estrecha
+                    Observancia de Nuestro Padre San Francisco de las Islas Philipinas, Manila:
+                    Imprenta de Sampaloc, Convento de Nra. Señora de Loreto</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-12-10"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="evsjacquet">Jacquet, Eugène Vincent Stanislas</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="377" type="next">22.02.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident="bya">Batak</language>
+            <language ident="my">Birmanisch</language>
+            <language ident="bsb">Bisaya</language>
+            <language ident="bug">Buginesisch</language>
+            <language ident="haw">Hawaiianisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="ljp">Lampung</language>
+            <language ident="mg">Malagasy</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="mi">Maori (Neuseeländisch)</language>
+            <language ident="rej">Rejang</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="tl">Tagalog</language>
+            <language ident="ty">Tahitisch</language>
+            <language ident="te">Telugu (Telinga)</language>
+            <language ident="th">Thailändisch</language>
+            <language ident="to">Tonga</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Oktober 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Je commence, Monsieur, par vous envoyer une copie exacte des paragraphes où les
+                    PP. <persName ref="gsaugustin">Gaspar de S. Augustin</persName> et <persName ref="dezguerra">Domingo Ezguerra</persName>, dans leurs <bibl sameAs="930">grammaires <hi rend="italic">tagala</hi>
+               </bibl> et <bibl sameAs="910">
+                  <hi rend="italic">bisaya</hi>
+               </bibl>, parlent des alphabets de ces langues.
+                    Vous verrez par-là que vous avez eu parfaitement raison de supposer que ces deux
+                    dialectes et l’<hi rend="italic">ylog</hi> se servent du même alphabet; car
+                    quoique d’alphabet <hi rend="italic">bisay</hi> offre quelques variétés plus
+                    considérables que les deux autres, l’identité n’en est pas moins évidente. Vous
+                    trouverez aussi, Monsieur, dans les deux alphabets que j’ai l’honneur de vous
+                    transmettre, le <hi rend="italic">v de corazon</hi> de <persName ref="stotanes">Totanes</persName>
+               <note type="footnote" resp="editor">Totanes 1745, fol. 2
+                        (libro 1). [FZ]</note> et toutes les dix-sept lettres dont se compose
+                    l’alphabet des Philippines<note type="footnote" resp="WvH">Voyez ces extraits à
+                        la suite de la lettre.</note>.</p>
+            <p>Vous attribuez l’expression de <hi rend="italic">baybayin</hi> aux grammairiens
+                    espagnols, et cela m’a paru très-probable. Je vois cependant par <bibl sameAs="874">le dictionnaire</bibl> du <persName ref="dlossantos">P. Domingo
+                        de los Santos</persName>, que ces grammairiens ne reconnaissent pas ce mot
+                    pour le leur; il paraît appartenir aux indigènes, et l’étymologie qu’on en donne
+                    est assez curieuse. <hi rend="italic">Baybayin</hi> est un substantif formé du
+                    verbe <hi rend="italic">baybay</hi> (épeler, nommer une lettre après l’autre).
+                    Le même verbe signifie aussi, marcher sur la côte de la mer et naviguer près de
+                    la côte sans vouloir s’exposer aux dangers de la haute mer; c’est de cette
+                    métaphore que <persName ref="dlossantos">de los Santos</persName> dérive le mot,
+                    dans le sens d’épeler. J’ose aussi croire que la lettre <hi rend="italic">b</hi>
+                    serait plutôt nommée <hi rend="italic">ba</hi> que <hi rend="italic">bay</hi>.
+                        <persName ref="dlossantos">De los Santos</persName> dit expressément que les
+                    indigènes nomment les consonnes ainsi: <hi rend="italic">baba</hi>, <hi rend="italic">caca</hi>, <hi rend="italic">dara</hi>, <hi rend="italic">gaga</hi>, &amp;c.</p>
+            <p>Je suis entièrement d’accord avec vous, Monsieur, sur l’alphabet des Bugis. Les
+                    consonnes sont à-peu-près les mêmes que dans l’alphabet tagala; mais la manière
+                    d’écrire les voyelles en diffère beaucoup, non pas pour la forme seulement, mais
+                    pour le principe même de la méthode. C’est précisément ce point principal dont
+                    il est impossible de se former une idée juste d’après <persName ref="tsraffles">Raffles</persName>
+               <note type="footnote" resp="editor">Siehe die in der
+                        Beilage nach S. clxxxvlii im zweiten Band von <bibl sameAs="351">Raffles
+                            1817</bibl> wiedergebenen Alphabete des Ugi (bzw. Bugis). In der
+                        zweiten Auflage von 1830 ist die Tabelle nicht mehr vorhanden.[FZ]</note>.
+                    L’alphabet bugis manque de signes pour les voyelles initiales, à l’exception de
+                        l’<hi rend="italic">a</hi>: mais le fait est que cet <hi rend="italic">a</hi>, outre sa fonction de voyelle, est en même temps un <hi rend="italic">fulcrum</hi> pour toutes les autres voyelles, un signe qui, de
+                    même que toute autre consonne, leur sert pour ainsi dire de corps. Vous aurez
+                    peut-être déja observé, Monsieur, en consultant <bibl sameAs="270">la
+                        grammaire</bibl> de <persName ref="jlow">Low</persName>, que la même chose
+                    a lieu dans le <hi rend="italic">thaï</hi>. Dans la dernière série des consonnes
+                    thaï, se trouve un <hi rend="italic">ā</hi> dont <persName ref="jlow">Low</persName> donne l’explication suivante<note type="footnote" resp="editor">Low 1824, S. 3. [FZ]</note>: <hi rend="italic">ā, which is
+                        rather a vowel than a consonant, and is placed frequently in a word, as a
+                        sort of pivot, on which the vowel points are arranged. It forms, as it were,
+                        the body of each of the simple vowels</hi>. C’est ainsi qu’on place en
+                    javanais un h devant chaque voyelle initiale, mais sans le prononcer; et c’est
+                    encore ainsi que les mots malais commençant par <hi rend="italic">ī</hi>
+               <hi rend="italic"/>et <hi rend="italic">ū</hi> sont précédés tantôt d’un l,
+                    tantôt d’un <hi rend="italic">s</hi>.</p>
+            <p>
+               <persName ref="chthomsen">M. Thomsen</persName>, missionnaire danois, a commencé
+                    à imprimer à Sincapore, en types fort élégans, <bibl sameAs="716">un vocabulaire
+                        anglais-bugis</bibl>, où l’écriture indigène est placée à côté de la
+                    transcription anglaise, par exemple: <hi rend="italic">Earth</hi>, <hi rend="italic">Tana</hi> ᨈᨊ. Le manque de fonds nécessaires a fait abandonner
+                    l’entreprise; mais je tiens de l’obligeance de <persName ref="cfneumann">M.
+                        Neumann</persName> la première feuille de ce vocabulaire, qu’il a rapportée
+                    de son intéressant voyage à Canton; l’analyse de deux cents mots, qu’elle
+                    renferme, m’a fourni ce que je viens de dire sur l’emploi de l’<hi rend="italic">a</hi> bugis: <hi rend="italic">noouvae</hi> (<hi rend="italic">low
+                        water</hi>) y est écrit ᨊ ᨚ ᨕᨘ ᨓ ᨙ ᨕ; <hi rend="italic">makounraï</hi>
+                    (femme), ᨆ ᨀᨘ ᨑ ᨕᨗ. Vous voyez par ces exemples, monsieur, que la difficulté que
+                    ces alphabets (qui considèrent les voyelles médiales comme de simples appendices
+                    de consonnes) éprouvent d’écrire deux voyelles de suite, est levée par le moyen
+                    de cet <hi rend="italic">a</hi>. Le dévanagari, qui, parce que la langue
+                    sanscrite ne permet jamais à deux voyelles de se suivre immédiatement dans le
+                    même mot, a destiné les voyelles indépendantes à être exclusivement employées au
+                    commencement des mots, s’est mis par-là dans l’impossibilité d’écrire le mot
+                    bugis <hi rend="italic">ouwae</hi> (eau). Je trouve dans un seul mot le
+                    redoublement d’une voyelle médiale, <hi rend="italic">lelena</hi> ᨙ ᨙ ᨒ ᨊ: ce
+                    n’est là qu’une abréviation; on répète la voyelle, on néglige d’en faire autant
+                    pour la consonne, et le lecteur ne peut pas être induit en erreur; comme une
+                    consonne ne peut être accompagnée que d’une seule voyelle, il reconnaît de suite
+                    qu’il faut en reproduire le son.</p>
+            <p>Ce qui m’a frappé dans ce vocabulaire, c’est de trouver transcrit en anglais par
+                        <hi rend="italic">o</hi>, le signe que <persName ref="tsraffles">Raffles</persName> rend par <hi rend="italic">eng</hi>. Cet <hi rend="italic">o</hi>, que je nommerai nasal, diffère à la vérité, dans
+                    l’impression anglaise, de l’autre qui répond à l’<hi rend="italic">o</hi> bugis
+                    placé à la droite de la consonne, en ce que ce dernier est plus grèle et que
+                    l’autre est plus arrondi; mais cette différence typographique, très-peu sensible
+                    en elle-même, ne nous apprend rien sur la différence du son ou de l’emploi des
+                    deux signes bugis. Je crois m’être assuré que l’<hi rend="italic">o</hi> noté au
+                    dessus de la consonne ( ᩶ ) a en effet un son nasal, tandis que le signe placé à
+                    la droite de la consonne ( ᨚ ) ne s’emploi que là où le son de l’<hi rend="italic">o</hi> est pur et clair. C’est le mot <hi rend="italic">sopoulo</hi>, dix, qui m’a mis sur la voie de cette distinction: il s’écrit
+                    ᨔ᩶ ᨄᨘ ᨒ ᨚ ; il renferme donc les deux <hi rend="italic">o</hi>
+               <note type="footnote" resp="WvH">La forme du <hi rend="italic">p</hi> se
+                        rapproche, comme vous voyez, de celle du troisième alphabet de <persName ref="tsraffles">Raffles</persName> (<graphic url="Jacquet/Wvh-Jacquet_1831-12-10/005.svg"/>).<note type="footnote" resp="editor">Siehe oben Anm. b. [FZ]</note>
+               </note>. Or, <hi rend="italic">sopoulo</hi> est le <hi rend="italic">sanpóvo</hi> tagala
+                        (<bibl sameAs="436">Totanes, n.° 359</bibl>), et l’<hi rend="italic">o</hi>
+                    nasal bugis répond ainsi exactement au son nasal du mot tagala. L’<hi rend="italic">o</hi> nasal est souvent suivi, dans la prononciation, du son
+                    nasal <hi rend="italic">ñg</hi>; mais ce son n’en forme pas une partie
+                    nécessaire. Il se détache dans la prononciation, et l’<hi rend="italic">o</hi>
+                    reste nasal dans l’écriture: <hi rend="italic">oulong</hi>, lune, ᨕᨘ ᨒ᩶ ; <hi rend="italic">oulo tepou</hi>, pleine lune, ᨕᨘ ᨒ᩶ ᨙ ᨈ ᨄᨘ . L’<hi rend="italic">o</hi> nasal se trouve aussi dans les mots qui ne se terminent
+                    pas par le son <hi rend="italic">ñg</hi>; <hi rend="italic">oloe</hi>, air, ᨕ᩶
+                    ᨒ᩶ ᨙ ᨕ : il est même suivi de consonnes autre que <hi rend="italic">ñg</hi>; <hi rend="italic">alok</hi> bois ᨕ ᨒ᩶ ; tandis que cette consonne nasale peut
+                    être précédée par un <hi rend="italic">o</hi> pur, <hi rend="italic">tandjoñg</hi> ᨈ ᨍ ᨚ . Il résulte de tout cela que l’o nasal est un <term type="phon" ref="001">
+                  <hi rend="italic">anouswara</hi>
+               </term>, qui peut
+                    encore être renforcé par la consonne nasale.</p>
+            <p>L’uniformité avec laquelle les différens alphabets dont j’ai parlé placent l’<hi rend="italic">e</hi> et l’<hi rend="italic">i</hi> à la gauche de sa
+                    consonne et en sens contraire de la direction de l’écriture, est
+                    très-singulière: l’alphabet javanais assigne la même place à l’<hi rend="italic">e</hi>.</p>
+            <p>Les quatre lettres composées ᝨ <hi rend="italic">ñgka</hi>, ᨇ <hi rend="italic">mpa</hi>, <graphic url="Jacquet/Wvh-Jacquet_1831-12-10/001.svg"/>
+               <hi rend="italic">nra</hi>, <graphic url="Jacquet/Wvh-Jacquet_1831-12-10/002.svg"/>
+               <hi rend="italic">ñtcha</hi>, manquent dans mon vocabulaire; et ce qui est plus
+                    singulier encore, c’est qu’au cas échéant, la première des deux consonnes
+                    réunies n’est pas exprimée dans l’écriture bugis: elle n’est donc point
+                    regardée, ainsi qu’on devait le croire d’après <persName ref="tsraffles">Raffles</persName>, comme initiale, mais comme terminant la syllabe
+                    précédente; exemple: <hi rend="italic">lempok</hi> (inondation) ᨙ ᨒ ᨄ᩶ ; <hi rend="italic">onromalino</hi> (endroit retiré) ᨕ ᨚ ᨑ ᨚ ᨆ ᨄᨗ ᨊ ᨚ . Je ne
+                    trouve pas d’exemple des syllabes <hi rend="italic">ñgka</hi> et <hi rend="italic">ñtcha</hi>.</p>
+            <p>Vous supposez, Monsieur, que le <hi rend="italic">r</hi> initial est remplacé
+                    dans la langue tagala par l’<hi rend="italic">y</hi>; vous m’excuserez si je ne
+                    puis partager cette opinion. Les deux lettres <hi rend="italic">y</hi> et <hi rend="italic">r</hi>, il est vrai, se permutent souvent dans ces dialectes;
+                    le pronom tagala <hi rend="italic">siya</hi>, il, est indubitablement le <hi rend="italic">sira</hi> javanais ou plutôt kawi: mais le <hi rend="italic">r</hi> initial est remplacé par le <hi rend="italic">d</hi>: on dit <hi rend="italic">ratou</hi> et <hi rend="italic">datou</hi>, roi, <hi rend="italic">ka-datoan</hi> et <hi rend="italic">karaton</hi>, palais. Les
+                    indigènes des Philippines confondent sans cesse le <hi rend="italic">d</hi> et
+                    le <hi rend="italic">r</hi>; mais <persName ref="dlossantos">de los
+                        Santos</persName> donne pour règle que le <hi rend="italic">d</hi> doit être
+                    placé au commencement et le <hi rend="italic">r</hi> dans le milieu des mots.
+                    Cette règle paraît constante pour le tagala; mais elle est aussi observée dans
+                    d’autres dialectes: le <hi rend="italic">danau</hi> (mer) malais est le <hi rend="italic">ranou</hi> (eau) de Madagascar et le <hi rend="italic">dano</hi> ou <hi rend="italic">lano</hi> de l’île de Magindanaõ. L’<hi rend="italic">y</hi> entre aussi dans ces permutations, mais moins
+                    régulièrement, et dans la langue tagala, autant que je sache, jamais comme
+                    initiale. Un des exemples les plus frappans est le suivant. Ouir: <hi rend="italic">dingig</hi> en tagala, <hi rend="italic">ringue</hi>
+                    Madagascar, <hi rend="italic">rongo</hi> Nouvelle-Zélande, <hi rend="italic">roo</hi> Tahiti, <hi rend="italic">onga</hi> tonga; Oreille: <hi rend="italic">tayinga</hi> tagala, <hi rend="italic">telinga</hi> malais,
+                        <hi rend="italic">talinhe</hi>, <hi rend="italic">tadigny</hi>, Madagascar,
+                        <hi rend="italic">taringa</hi> Nouvelle-Zélande, <hi rend="italic">taria</hi> Tahiti.</p>
+            <p>Vous avez expliqué d’une manière fort ingénieuse, Monsieur, comment on a pu se
+                    méprendre sur la direction des signes de l’écriture tagala, et vous avez réfuté
+                    en même temps l’opinion de quelques missionnaires espagnols sur l’origine de cet
+                    alphabet. Cette opinion est certainement erronée: je ne voudrais cependant pas
+                    nier toute influence de l’écriture arabe sur les alphabets de l’archipel indien.
+                    Vous observez, Monsieur, que, dans le § 11, page 152, dont je joins la copie à
+                    cette lettre, le <persName ref="gsaugustin">P. Gaspar de S. Augustin</persName>
+                    écrit les mots <hi rend="italic">gaby</hi> et <hi rend="italic">gabe</hi> en
+                    caractères tagalais, de droite à gauche. Ce n’est là peut-être qu’une méprise du
+                    P. Gaspar. Mais ne pourrait-on pas supposer aussi que les indigènes, ou pour
+                    flatter leurs nouveaux maîtres, ou pour leur faciliter la lecture de leur
+                    écriture, l’ont en certaines occasions assimilée en ce point à l’arabe? Je
+                    soumettrai même à votre décision, Monsieur, une autre conjecture plus hasardée,
+                    mais plus importante. Vous témoignez avec raison votre étonnement de ce que
+                    l’alphabet bugis n’ait adopté que la première des voyelles initiales de
+                    l’alphabet tagala, et de ce que des deux alphabets, d’ailleurs si conformes,
+                    diffèrent l’un de l’autre dans un point aussi essentiel. J’avoue ingénuement que
+                    cette différence ne me paraît pas avoir dû toujours exister. Il est très-naturel
+                    de supposer que les Bugis ont eu, de même que les Tagalas, les trois voyelles
+                    initiales, mais que, voyant l’écriture malaie faire souvent servir l’<hi rend="italic">a</hi> de signe introductif de voyelle initiale (<bibl sameAs="699">
+                  <hi rend="italic">Gr. malaie</hi>
+               </bibl> de <persName ref="wmarsden">Marsden</persName>, page 19), ils ont inventé une méthode
+                    analogue et ont laissé tomber en désuétude leurs deux autres voyelles initiales.
+                    Je conviens que le cas n’est pas tout-à-fait le même, puisque le و et le ﻯ
+                    arabes font en même temps les fonctions de voyelles et de consonnes, et que leur
+                    qualité de voyelles longues entre aussi en considération; mais ces nuances ont
+                    pu être négligées. Il est très-remarquable encore que des trois alphabets
+                    sumatrans, le <hi rend="italic">batta</hi> ait les trois voyelles initiales,
+                    tandis que le <hi rend="italic">redjang</hi> et le <hi rend="italic">lampoung</hi> ont l’<hi rend="italic">a</hi> seulement. Cette diversité est
+                    explicable dans mon hypothèse, puisque le hasard a pu faire que l’écriture arabe
+                    ait exercé une plus grande influence sur différens points de l’archipel. Mais
+                    hors de cette hypothèse, elle reste inconcevable dans les alphabets dont le
+                    principe est évidemment le même. <persName ref="wmarsden">Marsden</persName> ne
+                    dit pas, au reste, de quelle manière des Redjangs et les Lampoungs écrivent
+                        l’<hi rend="italic">i</hi> et l’<hi rend="italic">o</hi> initiaux; mais
+                    j’aime à croire qu’ils usent de la même méthode que les Bugis.</p>
+            <p>J’ai cru ne devoir pas m’éloigner de la supposition que le signe en question est
+                    vraiment un <hi rend="italic">a</hi>, un signe de voyelle. S’il était permis de
+                    révoquer ce fait en doute, contre le témoignage des auteurs, toute difficulté
+                    serait levée par-là: le prétendu <hi rend="italic">a</hi> n’aurait rien de
+                    commun avec les voyelles sanscrites et tagalas; il serait le signe d’une
+                    aspiration infiniment faible, un <hi rend="italic">h</hi>, un <hi rend="italic">v</hi> ou un <hi rend="italic">y</hi>, et pourrait, comme une consonne,
+                    s’unir à toutes les voyelles.</p>
+            <p>L’erreur dans laquelle seraient tombés les auteurs à qui nous devons ces
+                    alphabets, serait facile à expliquer. Comme, dans ces langues, toute consonne,
+                    lorsqu’elle est indépendante, se prononce liée à un <hi rend="italic">a</hi>,
+                    ceux qui entendaient proférer un <hi rend="italic">a</hi> avec une aspiration
+                    très-faible, pouvaient regarder ce son comme celui d’une voyelle. Ce qui me
+                    confirme dans cette opinion, c’est que mon vocabulaire bugis ne fournit aucun
+                    signe pour le <hi rend="italic">h</hi>, et que l’<hi rend="italic">a</hi> thaï
+                        (<graphic url="Jacquet/Wvh-Jacquet_1831-12-10/003.svg"/>) est rangé parmi
+                    les consonnes. Le prétendu <hi rend="italic">a</hi> bugis (ᨓᨘ) ressemble moins à
+                        l’<hi rend="italic">a</hi> (ᜀ) qu’au <hi rend="italic">h</hi> (ᜑ) tagala, et
+                        l’<hi rend="italic">a</hi> (ꥆ) redjang n’a aucune ressemblance avec le
+                    véritable <hi rend="italic">a</hi> batta (ᯀ), tandis qu’à la position près, il a
+                    la même forme que le pseudo-<hi rend="italic">a</hi> lampoung (<graphic url="Jacquet/Wvh-Jacquet_1831-12-10/004.svg"/>). Mais ce qui me parait
+                    presque décider la question, c’est que les signes de l’<hi rend="italic">a</hi>
+                    (ᨕ) et du <hi rend="italic">w</hi> (ᨓ) bugis sont absolument les mêmes, à
+                    l’exception d’un point ajouté au premier: les lettres <hi rend="italic">h</hi>,
+                        <hi rend="italic">w</hi>, <hi rend="italic">y</hi> de ces alphabets peuvent
+                    être des consonnes plus prononcées. Si donc, Monsieur, vous ne trouvez pas trop
+                    hardi de nommer <hi rend="italic">h</hi> le signe que <persName ref="jlow">Low</persName>, <persName ref="wmarsden">Marsden</persName> et <persName ref="tsraffles">Raffles</persName>, d’après le témoignage des indigènes,
+                    nomment <hi rend="italic">a</hi>, j’abandonne l’hypothèse de l’influence arabe
+                    sur ce point, en m’en tenant simplement à la supposition que ces peuplades,
+                    d’après leur prononciation, ont admis dans leur alphabets les signes des
+                    voyelles initiales, ou adopté à leur place un signe d’aspiration infiniment
+                    faible, qui, sans presque rien ajouter au son des voyelles dans la
+                    prononciation, peut néanmoins leur servir de consonne dans l’écriture. La
+                    consonne <hi rend="italic">h</hi> qui précède toute voyelle initiale des mots
+                    javanais, est entièrement dans ce cas, et ressemble en cela au <hi rend="italic">spiritus lenis</hi> que nous ne faisons pas entendre non plus en prononçant
+                    les mots grecs.</p>
+            <p>Je ne suis cependant pas quitter cette question sans faire encore mention de
+                    l’alphabet <hi rend="italic">barman</hi>. Il possède dix voyelles initiales et
+                    autant de médiales; et cependant il use de cette même méthode de lier à la
+                    première les signes médiaux de tous les autres, en écrivant <hi rend="italic">aou</hi> pour <hi rend="italic">ou</hi>. <persName ref="fcarey">Carey</persName> (<bibl sameAs="1284">
+                  <hi rend="italic">Gramm. barm.</hi>
+                        page 17, n.° 72</bibl>) prescrit cette manière d’exprimer les voyelles
+                    initiales en les liant à un <hi rend="italic">a</hi> muet, comme règle générale
+                    pour la formation des monosyllabes. <persName ref="ajudson">Judson</persName>,
+                    dans la préface de <bibl sameAs="245">son dictionnaire barman</bibl> (page 12),
+                    s’exprime plus généralement. <hi rend="italic">The symbol</hi> (la forme
+                    médiale) <hi rend="italic">of any vowel</hi>, dit-il, <hi rend="italic">may be
+                        combined with</hi> a (<hi rend="italic">initial</hi>) <hi rend="italic">in
+                        which case the compound has the power of the vowel which the symbol
+                        representes, thus</hi> ai <hi rend="italic">is equivalent to</hi> i. Aucun
+                    de ces grammairiens ne dit à quel usage sont réservés les signes des autres
+                    voyelles initiales. Il faut cependant que l’usage en ait réglé l’emploi. Mais le
+                    nombre de mots où on les conserve est si peu considérable, que l’article de
+                        l’<hi rend="italic">a</hi> occupe 42 pages dans <bibl sameAs="245">le
+                        dictionnaire</bibl>
+               <note type="footnote" resp="editor">Judson 1826, S.
+                        1–42. [FZ]</note>, tandis que ceux des autres neuf voyelles en remplissent
+                    huit; encore y a-t-il beaucoup de mots palis dans ces derniers. Lorsqu’on
+                    réfléchit sur cette circonstance et qu’on y ajoute cette autre, que la méthode
+                    de se servir de l’<hi rend="italic">a</hi> comme une consonne est consacré
+                    particulièrement aux monosyllabes, on est tenté de croire que l’alphabet barman
+                    servait anciennement de la même méthode que l’alphabet des Bugis, celle de
+                    combiner les voyelles médiales avec l’<hi rend="italic">a </hi> initial, et que
+                    l’usage des autres voyelles initiales n’a été introduit que postérieurement.</p>
+            <p>Je ne me souviens pas d’avoir rencontré la particularité dont nous parlons ici,
+                    dans aucun des alphabets dérivés du dévanagari et usités dans l’Inde même, à
+                    l’exception naturellement des cas où, comme dans la langue hindoustanie, on
+                    emploie l’alphabet arabe.</p>
+            <p>Il y a cependant, dans la langue telinga, un cas où l’<hi rend="italic">a</hi>
+                    lié à une voyelle reste muet et conserve à la voyelle sa prononciation
+                    ordinaire; mais c’est pour la convertir de voyelle brève en voyelle longue.
+                        <persName ref="adcampbell">Campbell</persName> dit, en parlant de ces cas
+                    dans <bibl sameAs="870">sa <hi rend="italic">Teloogoo Grammar</hi> (page 10, n.°
+                        23)</bibl>: <hi rend="italic">In such cases, the symbol of the long
+                        vowel</hi> a <hi rend="italic">is to be considered as lengthening the short
+                        vowel</hi> i<hi rend="italic">, rather than as representing the long
+                        vowel</hi> a.</p>
+            <p>Au reste, je ne cite ces cas que parce qu’ils sont autant d’exemples, que l’<hi rend="italic">a</hi> est chargé d’une fonction étrangère à son emploi
+                    primitif. La solution la plus simple du problème qui nous occupe ici, est sans
+                    doute de supposer que les peuples de ces îles, ayant à leur disposition des
+                    voyelles médiales et initiales, ont trouvé plus simple de se passer de ces
+                    dernières, et d’accoler les premières (lorsqu’elles n’étaient point précédées de
+                    consonnes) à l’<hi rend="italic">a</hi>, qui, inhérent de sa nature aux
+                    consonnes, était la seule parmi les voyelles dont il n’existât pas de forme
+                    médiale. Le procédé n’en est pas moins étrange, et c’est pour cela que j’ai
+                    essayé de trouver une circonstance qui ait pu le faire adopter.</p>
+            <p>Les Tagalas trouvaient d’ailleurs, dans leur langue même, une raison particulière
+                    pour marquer bien fortement leurs trois voyelles, comme initiales de syllabes
+                    dans l’intérieur des mots. La langue tagala a deux accens, dont l’un prescrit de
+                    détacher entièrement la voyelle de la dernière syllabe d’un mot, de la consonne
+                    qui la précède immédiatement (<hi rend="italic">haciendo que la sylaba postrera
+                        no sea herida de la consonante que la prefiere, sino que suene independente
+                        de ella</hi> (<bibl sameAs="872">Gramm.</bibl> de <persName ref="gsaugustin">P. Gaspar de S. Augustin</persName>, <bibl sameAs="872">pag. 154, n.°
+                        3</bibl>). Il faut donc lire <foreign sameAs="tl">
+                  <hi rend="italic">pat-ir</hi>
+               </foreign>, <foreign sameAs="tl">
+                  <hi rend="italic">big-at</hi>
+               </foreign>, <foreign sameAs="tl">
+                  <hi rend="italic">dag-y</hi>
+               </foreign>, <foreign sameAs="tl">
+                  <hi rend="italic">tab-a</hi>
+               </foreign>, et non pas <hi rend="italic">pa-tir</hi>, &amp;c.
+                    Comme, dans ce cas, la voix glisse légèrement sur la première syllabe, on a
+                    coutume de noter cet accent par les lettres <hi rend="italic">p. c.</hi> (<hi rend="italic">penultimâ correptâ</hi>); l’accent opposé, noté <hi rend="italic">p. p.</hi> (<hi rend="italic">penultimâ productâ</hi>), appuie
+                    sur la penultième et laisse tomber la finale. Il est de la plus grande
+                    importance de ne pas confondre ces deux accens; car un grand nombre de mots
+                    changent entièrement de signification, selon l’accent qu’on leur donne. C’est
+                    donc à cet usage que les Tagalas réservaient spécialement leurs voyelles
+                    initiales. Ils les employaient aussi au milieu des mots, là où il importait de
+                    renvoyer une consonne à une syllabe précédente et de commencer la suivante par
+                    une voyelle. C’est ce qui résulte clairement de l’extrait de grammaire que je
+                    joins à cette lettre, et le <persName ref="gsaugustin">P. Gaspar</persName>
+                    observe très-judicieusement que c’était là un grand avantage de l’écriture
+                    indigène sur la nôtre.</p>
+            <p>
+               <foreign sameAs="arb">
+                  <hi rend="italic">Soulat</hi>
+               </foreign> et <foreign sameAs="arb">
+                  <hi rend="italic">sourat</hi>
+               </foreign> sont sans aucun doute
+                    des mots arabes; <persName ref="wmarsden">Marsden</persName> l’observe
+                    expressément de <foreign sameAs="arb">
+                  <hi rend="italic">sourat</hi>
+               </foreign>:
+                    on peut y ajouter le <foreign sameAs="jv">
+                  <hi rend="italic">serrat</hi>
+               </foreign> des Javanais et le <foreign sameAs="mg">
+                  <hi rend="italic">soratse</hi>
+               </foreign> de Madagascar. Veuillez encore
+                    remarquer la conformité grammaticale de ces quatre langues, qui forment de ces
+                    mots, <hi rend="italic">manounoulat</hi>, <hi rend="italic">meniourat</hi>, <hi rend="italic">nyerrat</hi>, <hi rend="italic">manorats</hi>, en changeant
+                    toutes le <hi rend="italic">s</hi> en un son nasal. Il m’a été fort agréable
+                    d’apprendre qu’il existe dans la langue tagala une expression indigène pour
+                    l’idée d’écrire. Je ne connaissais pas le mot <hi rend="italic">titic</hi>, qui
+                    ne se trouve pas dans le dictionnaire de <persName ref="dlossantos">de los
+                        Santos</persName>. Mais y aurait-il assez d’analogie entre <foreign sameAs="tl">
+                  <hi rend="italic">toulis</hi>
+               </foreign> et <hi rend="italic">titic</hi> pour dériver l’un de l’autre? Ce dernier ne serait-il pas plutôt
+                    le <foreign sameAs="ms">
+                  <hi rend="italic">titik</hi>
+               </foreign> malais, qui
+                    veut dire <hi rend="italic">goutte</hi>, mais aussi <hi rend="italic">tache</hi>
+                    (idée qui n’est pas sans rapport à l’écriture)? Quant à <foreign sameAs="tl">
+                  <hi rend="italic">toulis</hi>
+               </foreign>, qui est le <foreign sameAs="to">
+                  <hi rend="italic">toki</hi>
+               </foreign> de la langue tonga, j’ai
+                    toujours cru le retrouver dans le <foreign sameAs="tl">
+                  <hi rend="italic">toulis</hi>
+               </foreign> tagala, <hi rend="italic">pointe</hi>, <hi rend="italic">aiguiser</hi>: on trace ordinairement les lettres avec un
+                    instrument pointu.</p>
+            <p>Nous venons de voir que les langues malaies font subir aux mots arabes les
+                    changmens de lettres de leurs grammaires; la même chose a lieu pour les mots
+                    sanscrits qui passent dans le kawi: <hi rend="italic">boukti</hi> devient <hi rend="italic">mamoukti</hi>; <hi rend="italic">sabda</hi>, parole, devient
+                        <hi rend="italic">masabda</hi>, dire, et <hi rend="italic">sinabda</hi>, ce
+                    qui a été dit.</p>
+            <p>On est naturellement porté à regarder l’alphabet indien comme le prototype de
+                    tous les alphabets des îles du Grand Océan. Ces peuplades pouvaient, comme vous
+                    les dites, Monsieur, l’adapter chacune à la nature de sa langue et à son
+                    orthophonie. Cette opinion a été néanmoins contestée: quelques auteurs regardent
+                    comme très-probable que les différens alphabets ont été inventés indépendamment
+                    l’un de l’autre chez les différentes nations. Je ne puis partager cette opinion.
+                    Je ne nie point la possibilité de l’invention simultanée de plusieurs alphabets;
+                    mais ceux dont nous parlons ici sont trop évidemment formés, sans parler même de
+                    la ressemblance matérielle des caractères, d’après le même système, pour ne pas
+                    être rapportés à une source commune. Il n’existe pas de données historiques qui
+                    puissent nous guider dans ces recherches; mais il me semble que nous devons les
+                    diriger dans une voie différente, mettre un moment de côté tout ce qui est
+                    tradition ou conjecture historique, et examiner les rapports intérieurs qui
+                    existent entre ces alphabets, voir si nous pouvons trouver les chaînons qui
+                    conduisent de l’un à l’autre: car il semble naturel de supposer aussi, dans le
+                    perfectionnement des alphabets, des progrès successifs.</p>
+            <p>Les alphabets dont nous parlons ici ont cela de commun, qu’ils tracent les
+                    syllabes par des groupes de signes, dans lesquels la seule lettre initiale à
+                    laquelle on ajoute les autres comme accessoires est regardée comme constitutive.
+                    Ces alphabets, lorsqu’ils sont complets, se composent ainsi: 1.° de la série des
+                    consonnes et des voyelles initiales; 2.° de la série des voyelles proférées par
+                    les consonnes initiales; 3.° des consonnes qui se lient à d’autres consonnes
+                    sans voyelles intermédiaires; 4.° de quelques signes de consonnes, qui en
+                    terminant la syllabe, se lient étroitement à sa voyelle, tels que le <hi rend="italic">repha</hi>, l’<term type="phon" ref="001">
+                  <hi rend="italic">anouswara</hi>
+               </term>, le <term type="phon" ref="002">
+                  <hi rend="italic">visarga</hi>
+               </term>. Si les consonnes finales des mots ne passaient pas
+                    ordinairement, dans l’écriture de ces langues, aux lettres initiales des mots
+                    suivans, il faudrait encore ajouter à cette dernière classe toutes les consonnes
+                    pourvues d’un <hi rend="italic">virama</hi>. Ces alphabets se distinguent
+                    entièrement des syllabaires japonais: les syllabes n’y sont pas considérées
+                    comme indivisibles; on en reconnaît les divers élémens; mais cette écriture est
+                    pourtant syllabique, parce qu’elle ne détache pas toujours ces élémens l’un de
+                    l’autre, et parce qu’elle règle sa méthode de tracer les sons, d’après la valeur
+                    qu’ils ont dans la formation des syllabes, tandis qu’une écriture vraiment
+                    alphabétique isole tous les sons et les traite d’une manière égale.</p>
+            <p>Dans ce système commun, nous apercevons deux classes d’alphabets très-différens:
+                    les uns, tels que le dévanagari et le javanais, possèdent toute l’étendue des
+                    signes que je viens d’exposer; les autres, tels que le tagala, le bugis, et à ce
+                    qu’il paraît les sumatrans, se bornent aux deux premières classes de ces signes.
+                    Si l’on examine de plus près cette différence, on trouve qu’elle consiste en ce
+                    que les derniers de ces alphabets ne peuvent point détacher la consonne de sa
+                    voyelle, et que les premiers sont en possession de moyens pour réussir dans
+                    cette opération. Les alphabets tagala et bugis n’expriment en effet aucune
+                    consonne finale d’une syllabe; ils laissent au lecteur le soin de les deviner.
+                    La seule adoption du <hi rend="italic">virama</hi> aurait levé cette difficulté,
+                    et l’on est étonné de voir que ces peuples l’aient exclu de leurs alphabets.
+                    Mais je crois que nous nous représentons mal la question, en transportant nos
+                    idées d’aujourd’hui et de notre prononciation à des époques où les langues
+                    étaient encore à se former, et à des idiomes tout-à-fait différens. Si
+                    l’invention et le perfectionnement d’un alphabet exercent une influence
+                    quelconque sur la langue dont il rend les sons, c’est certainement celle de
+                    contribuer au perfectionnement de l’articulation, c’est-à-dire, de l’habitude
+                    des organes de la voix de séparer bien distinctement tous les élémens de la
+                    prononciation. Si les nations, pour être capables de faire usage d’un alphabet,
+                    doivent déjà posséder cette disposition à un certain degré, elle augmente par
+                    cette invention, et l’écriture et la prononciation se perfectionnent
+                    mutuellement.</p>
+            <p>Le premier pas était fait par l’invention des lettres initiales des syllabes, des
+                    voyelles qui en formant une à elles seules et des consonnes accompagnées de
+                    leurs voyelles.<note type="footnote" resp="editor">Schließender Punkt
+                        ergänzt.</note> Les langues dont nous parlons ici forment presque tous leurs
+                    mots de syllabes simples se terminant en voyelles; on pouvait donc, jusqu’à un
+                    certain degré, se passer des moyens de marquer aussi les consonnes finales: dans
+                    les 200 mots que renferme la première feuille du vocabulaire bugis, je ne trouve
+                    de consonnes finales que <hi rend="italic">m</hi>, <hi rend="italic">n</hi>, <hi rend="italic">k</hi>, <hi rend="italic">h</hi>, <hi rend="italic">ñg</hi>,
+                    les deux premières dans l’intérieur des mots seulement, <hi rend="italic">m</hi>
+                    devant <hi rend="italic">p</hi>, <hi rend="italic">n</hi> devant <hi rend="italic">r</hi>; <hi rend="italic">h</hi> et <hi rend="italic">k</hi>
+                    ne paraissent qu’à la fin des mots, mais <hi rend="italic">ñg</hi> occupe les
+                    deux places et est employé plus souvent que les autres.</p>
+            <p>Il n’était cependant pas si aisé d’aller plus loin. On ne pouvait écrire la
+                    terminaison des syllabes composées qu’en faisant une double opération. Après
+                    avoir privé la consonne finale de sa voyelle inhérente, par laquelle elle aurait
+                    formé une nouvelle syllabe, il fallait encore, pour en isoler entièrement le
+                    son, la détacher de la voyelle qui la précédait immédiatement; car le son de la
+                    consonne et celui de la voyelle se confondaient. Il faut observer en effet que
+                    les peuples qui se servaient d’alphabets semblables à ceux des Bugis et des
+                    Tagalas, ne croyaient pas représenter leurs syllabes d’une manière incomplète:
+                    ils ne voyaient pas, comme nous, dans les signes de leurs voyelles finales, un
+                        <hi rend="italic">i</hi> ou un <hi rend="italic">u</hi> seulement, mais,
+                    selon les circonstances aussi, un <hi rend="italic">ik</hi>, un <hi rend="italic">ing</hi>, &amp;c; ils ne concevaient pas même la possibilité
+                    de décomposer encore des sons déjà si simples. Le <hi rend="italic">virama</hi>
+                    privait bien la consonne de sa voyelle inhérente; mais l’opération de détacher
+                    la consonne de la voyelle qui la précédait, était plus difficile: car la voyelle
+                    qui s’exhale, pour ainsi dire, en consonne, rend naturellement un son plus
+                    obscur et moins distinct que la consonne qui commence la syllabe; de même la
+                    voyelle qui est coupée par une consonne finale, se trouve arrêtée dans sa
+                    formation. Il résulte des deux cas que la voyelle et la consonne des
+                    terminaisons de mots se modifient mutuellement.</p>
+            <p>L’écriture barmane offre un exemple très-curieux de ces modifications; j’observe
+                    que cette particularité se trouve dans les monosyllabes, qui constituent le font
+                    primitif de cette langue. Les consonnes, lorsqu’elles viennent à terminer un
+                    mot, recoivent dans presque tous les cas une autre valeur, et altèrent même
+                    celle de la voyelle qui les précède. Le monosyllabe écrit <hi rend="italic">kak</hi>, est prononcé <hi rend="italic">ket</hi>, un <hi rend="italic">p</hi> final devient <hi rend="italic">t</hi>, un <hi rend="italic">m</hi>
+                    final <hi rend="italic">n</hi>, &amp;c. (<bibl sameAs="1284">Carey, page
+                        19</bibl>; <bibl sameAs="245">Judson, p. 13</bibl>). On se demande
+                    naturellement d’où il vient que l’écriture ne suive pas ici la prononciation: si
+                    l’on prononce constamment <hi rend="italic">t</hi>, d’où sait-on que ce <hi rend="italic">t</hi> est proprement un <hi rend="italic">k</hi> ou un <hi rend="italic">p</hi>? L’étymologie du monosyllabe renferme,
+                    très-probablement, la réponse à ces questions. Les racines se terminant en une
+                    consonne bien prononcée, peuvent être et sont vraisemblablement, pour la
+                    plupart, des mots composés, la combinaison des syllabes japonaises, par exemple,
+                    offre des cas ou de deux syllabes ainsi réunies, la dernière perd sa voyelle. De
+                        <hi rend="italic">fa-tsou</hi> vient <hi rend="italic">fat</hi> (<bibl sameAs="364">
+                  <hi rend="italic">Gramm. japonaise</hi>
+               </bibl> de <persName ref="jrodrigues">Rodriguez</persName>, publiée par <persName ref="eaxclandresse">M. Landresse</persName>, p. 27). Or il ne serait pas
+                    étonnant qu’une consonne qui, comme initiale, se prononçait <hi rend="italic">k</hi>, changeât de valeur en devenant finale. Quoi qu’il en soit, cette
+                    divergence de l’écriture et de la prononciation des monosyllabes barmans, ne
+                    permet pas de méconnaître qu’il existe encore dans la langue une lutte qu’il
+                    serait important de faire cesser, entre les deux grands moyens de représenter la
+                    pensée.</p>
+            <p>Les voyelles se terminent souvent aussi, et sur-tout dans les langues dont nous
+                    parlons ici, en des sons qui ne s’annoncent pas comme des consonnes
+                    très-prononcées, mais seulement comme des aspirations ou des sons nasaux qu’il
+                    serait difficile ou même impossible de réduire en articulations. Le sanscrit
+                    même a dû encore accorder une place dans son alphabet à deux caractères, le
+                        <term type="phon" ref="002">
+                  <hi rend="italic">visarga</hi>
+               </term> et l’<term type="phon" ref="001">
+                  <hi rend="italic">anouswara</hi>
+               </term>, qu’on ne peut
+                    considérer comme de véritables lettres, sous le rapport de la clarté et de la
+                    précision de leur son. <persName ref="bopp">M. Bopp</persName> a en effet
+                    prouvé, dans <bibl sameAs="580">son excellente grammaire sanscrite</bibl>, que
+                        l’<term type="phon" ref="001">
+                  <hi rend="italic">anouswara</hi>
+               </term>, bien
+                    qu’il ne fasse souvent que remplacer les autres lettres nasales, possède aussi
+                    un son à lui, qui n’est représenté par aucune autre lettre.</p>
+            <p>Il restait donc, sous tous les rapports, beaucoup de chemin à faire pour arriver
+                    de l’alphabet tagala au dévanagari.</p>
+            <p>D’après ce que je viens d’exposer, il me semble évident qu’il existe, dans les
+                    deux classes d’alphabets désignées ici, une tendance progressive au
+                    perfectionnement de l’écriture. Je ne prétends cependant pas soutenir, sur ces
+                    données seules, que telle ait été réellement la marche historique de ce
+                    perfectionnement, et bien moins encore que l’alphabet tagala ait nécessairement
+                    dû servir d’échelon pour s’élever au dévanagari: je me borne, pour le moment,
+                    simplement à prouver, par la nature même de ces alphabets, qu’ils sont
+                    réellement du même genre; mais que le dévanagari complète le travail que le
+                    tagala et ceux qui lui ressemblent laissent imparfait.</p>
+            <p>Comme le système de ces alphabets moins parfaits est renfermé, pour ainsi dire,
+                    dans le système plus étendu du dévanagari, on peut supposer que les Tagalas
+                    n’ont pris de cet alphabet venu à leur connaissance que ce qu’il fallait à leur
+                    langue, beaucoup plus simple et moins riche dans son système phonétique.
+                    L’alphabet tagala serait, d’après cela, le dévanagari en raccourci. Mais c’est
+                    cette supposition sur-tout que je voudrais combattre; elle me semble être dénuée
+                    de toute probabilité. Quelque simple que soit l’alphabet tagala, il est complet
+                    dans son système; et dès qu’on lui accorde le principe sur lequel il est calqué,
+                    de ne noter les syllabes composées que par leurs voyelles seulement, il ne s’y
+                    trouve rien de superflu ni de défectueux. Il aurait été vraiment difficile
+                    d’abstraire aussi méthodiquement du dévanagari un système qu’il renferme en
+                    effet, mais qui ne forme que la moitié de sa tendance vers l’écriture
+                    alphabétique. Les syllabes des mots tagalas sont pourtant assez souvent
+                    terminées par des consonnes suffisamment prononcées; l’inconvénient de ne pas
+                    les noter se fait considérablement sentir, comme nous le voyons par le
+                    témoignage des missionnaires espagnols: pourquoi donc aurait-on repoussé
+                    l’adoption du <hi rend="italic">virama</hi>, moyen si simple et si facile à
+                    adapter à toute écriture? La langue barmane est, sous le rapport de la formation
+                    des mots, pour le moins tout aussi simple que la langue <hi rend="italic">tagala</hi>; elle a cependant adopté, même dans la partie qui lui est
+                    entièrement propre, tout les moyens de marquer les sons que le dévanagari lui
+                    offrait. Le même cas existe chez les Javanais et les Telougous: L’alphabet
+                    tamoul est moins nombreux en signes, mais fait également usage du <hi rend="italic">virama</hi> et de la réunion des consonnes par ce moyen.
+                    Pourquoi, si le dévanagari, dans l’état où nous le connaissons à présent, avait
+                    donné origine à leurs alphabets, les Tagalas, les Bugis et les Sumatrans
+                    n’auraient-ils pas fait de même? On peut dire que les Hindous avaient des
+                    établissemens moins fixes dans ces pays; mais cette circonstance, qui n’est même
+                    pas exacte pour Sumatra, change à l’état de la question: car il est beaucoup
+                    moins croyable qu’on ait pu à la hâte adapter l’alphabet hindou aux langues
+                    indigènes, d’une manière à-la-fois aussi méthodique et aussi incomplète.</p>
+            <p>Mais ce qui tranche la question, c’est qu’un examen plus réfléchi du dévanagari
+                    lui-même prouve qu’il a existé avant lui peut-être plus d’un alphabet dressé sur
+                    le même système, mais moins parfait que lui. Le dévanagari est visiblement sorti
+                    d’un système syllabique d’alphabets; il n’est pas une invention, mais seulement
+                    un perfectionnement du système. Le dévanagari ne se distingue d’une écriture
+                    vraiment alphabétique que par des choses qu’avec raison l’on peut nommer
+                    accessoires. Traiter l’<hi rend="italic">a</hi> bref de voyelle inhérente aux
+                    consonnes, se servir par cette raison du <hi rend="italic">virama</hi>, placer
+                        l’<hi rend="italic">i</hi> bref avant sa consonne, combiner les signes des
+                    consonnes au lieu de les écrire l’une après l’autre, voilà les seules
+                    différences entre lui et l’alphabet grec ou toute autre écriture alphabétique.
+                    L’isolement des syllabes dans les manuscrits est plutôt une habitude purement
+                    calligraphique. Les inventeurs du dévanagari avaient certainement, aussi bien
+                    que nous, le principe de l’écriture alphabétique; ils avaient franchi la grande
+                    difficulté qui arrête le progrès de la prononciation à l’écriture; ils savaient
+                    détacher en tout sens les voyelles des consonnes, ils leur assignaient leurs
+                    limites et les marquaient avec précision. S’ils n’avaient eu aucun alphabet
+                        <sic>déja</sic> existant sous les yeux, s’ils avaient dû travailler tout à
+                    neuf, ils auraient très-probablement formé une écriture alphabétique; car
+                    pourquoi, sachant parfaitement bien détacher les voyelles des consonnes et leur
+                    assigner leurs valeurs d’après leurs différentes positions, auraient-ils, par
+                    exemple, renfermé une voyelle dans une consonne, pour l’en détacher un moment
+                    après par un signe inventé pour cet usage? Mais ils ont visiblement pris à tâche
+                    de perfectionner une écriture syllabique au point qu’elle rendit tous les
+                    services d’une écriture alphabétique; car voilà ce qu’on peut dire de
+                    l’admirable arrangement du dévanagari.</p>
+            <p>Je ne crois pas que l’écriture alphabétique ait dû être nécessairement précédée
+                    de l’écriture syllabique; une telle supposition me paraît trop systématique:
+                    mais toute la structure du dévanagari me semble prouver qu’il n’a pas été fait
+                    d’un jet. Tout y est explicable, dès qu’on suppose qu’on a voulu rendre plus
+                    parfait un système déjà existant, remplir les lacunes, corriger ses défauts;
+                    sans cette supposition, il est inconcevable comment, connaissant si bien la
+                    nature des sons, étant habitué à les faire passer par toute la série de leurs
+                    modifications, sachant parfaitement balancer et contre-balancer leurs valeurs
+                    dans la formation des mots, on ait voulu se traîner encore dans la route des
+                    écritures syllabiques, tandis que l’écriture alphabétique est évidemment la
+                    seule véritable solution du grand problème de peindre la parole aux yeux. Je
+                    crois donc que l’alphabet tagala, avec tous ceux qui sont basés sur le même
+                    système, appartient à une classe d’alphabets antérieurs au dévanagari, ou du
+                    moins qu’il n’en est pas tiré. On pourrait plutôt croire ces alphabets des îles
+                    entièrement étrangers à l’alphabet du continent de l’Inde (et, dans ce cas, ils
+                    pourraient même lui être postérieurs), si la ressemblance des caractères ne
+                    s’opposait pas à une pareille supposition.</p>
+            <p>Je trouve avec vous, Monsieur, l’alphabet tagala très-remarquable, puisqu’il
+                    offre précisément la moitié du travail qu’il fallait faire pour se former une
+                    écriture capable de représenter la prononciation toute entière. Il appartient à
+                    la même classe que le dévanagari; je n’oserais décider si, pour cela, cet
+                    alphabet est d’origine indienne. De plus profondes recherches prouveront
+                    peut-être que la partie fondamentale du sanscrit a de fréquentes affinités avec
+                    les langues à l’est de l’Inde et avec celles des îles; les Hindous auraient donc
+                    bien pu avoir des alphabets d’une nation de ces contrées devant les yeux. Ce qui
+                    me paraît certain, c’est que les alphabets syllabiques, ceux sur-tout du genre
+                    de l’alphabet tagala, ont des rapports fort intimes avec la structure des
+                    langues monosyllabiques de ces contrées, et avec le passage de cet état des
+                    langues à un autre plus compliqué. Autant que chaque syllabe forme un mot à elle
+                    seule, les syllabes sont simples, mais variées dans les modifications et les
+                    accens des voyelles; on note alors facilement l’articulation principale, et l’on
+                    néglige impunément le reste: mais si des nations viennent à réunir plusieurs
+                    syllabes dans le même mot, et qu’elles visent à donner à chaque mot l’unité d’un
+                    ensemble, en quoi repose principalement l’artifice grammatical des langues dans
+                    le sens le plus étendu, il arrive des compositions, des contractions, des
+                    intercalations. Alors nait la tendance vers l’écriture alphabétique: car on
+                    sent, en voulant tracer les mots, la nécessité d’aller aux premiers élémens,
+                    pour avoir la liberté de les réunir entièrement à volonté. Le dévanagari et le
+                    système grammatical que nous admirons dans le sanscrit datent probablement
+                    à-peu-près de la même époque; une langue tellement organisée supposait une
+                    nation à laquelle le dernier perfectionnement et même l’invention de l’alphabet
+                    ne pouvaient pas rester long-temps étrangers. Le tagala était évidemment resté
+                    en arrière, avec son alphabet beaucoup trop borné pour la structure grammaticale
+                    de la langue.</p>
+            <p>Rien, au reste, n’empêcherait aussi que les habitans des Philippines fussent
+                    redevables de leurs alphabets aux Hindous. L’influence de l’Inde sur l’archipel
+                    qui l’avoisine a été exercée de manières et à des époques fort différentes; et
+                    l’on reconnaît ces époques, en quelque façon, au genre et à la coupe des mots
+                    que les langues de ces contrées ont adoptés du sanscrit. Les communications avec
+                    les Philippines m’ont paru, d’après ces considérations, être très-anciennes: le
+                    difficile est seulement de trouver une époque où l’on pourrait attribuer à
+                    l’Inde un alphabet aussi incomplet. Le sanscrit n’a certainement jamais pu être
+                    écrit par son moyen. Il est donc peut-être plus juste de dire que ces alphabets
+                    sont d’origine inconnue, que leur prototype doit être d’une haute antiquité,
+                    qu’il a servi de base au dévanagari lui-même; mais que c’est toujours de l’Inde
+                    que l’alphabet indien a obtenu tous les perfectionnemens de son système. Le
+                    dévanagari lui-même a éprouvé des changemens; mais si je nomme cet alphabet, je
+                    parle seulement de sa constitution, et plus particulièrement du principe qui
+                    tend en lui à réunir, dans l’écriture syllabique, tous les avantages de
+                    l’écriture alphabétique.</p>
+            <p>.............................</p>
+            <p>Votre interprétation du passage de <persName ref="diodor">Diodore</persName>
+               <note type="footnote" resp="editor">Siehe <bibl sameAs="649">Jacquet 1831</bibl>, S. 20–30. [FZ]</note> me
+                    semble très-juste, Monsieur, et elle a le mérite de prouver combien ce passage
+                    est remarquable. Je n’hésite pas à avancer, que c’est le seul, dans tous les
+                    auteurs grecs et romains, où une propriété très-particulière d’une langue
+                    étrangère ait été saisie avec autant de justesse. Le principe fondamental des
+                    alphabets syllabiques de l’Asie orientale y est exposé clairement; mais personne
+                    ne l’y avait découvert avant vous. Je prends avec vous, Monsieur, les <foreign sameAs="grc">γράμματα</foreign> pour les groupes syllabiques, et les
+                        <foreign sameAs="grc">χαρακτῆρας</foreign> pour les consonnes; non pas que
+                        <persName ref="diodor">Diodore</persName> les ait reconnues comme telles,
+                    mais parce que, dans ces alphabets, les consonnes seules s’annoncent par leurs
+                    formes comme de véritables lettres. Je crois donc que <persName ref="diodor">Diodore</persName> parle d’abord du nombre des signes de tout le
+                    syllabaire, et qu’il passe de là à celui des consonnes et des voyelles. Ce sont
+                    ces nombres seuls que je crois erronés dans le texte de <persName ref="diodor">Diodore</persName>, et encore ne le sont-ils que pour leur valeur: les
+                    rapports dans lesquels ils se trouvent sont parfaitement justes; car le nombre
+                    des signes du syllabaire est le plus considérable, et égal au produit de celui
+                    des consonnes multipliées par les voyelles. Il ne me paraît pas nécessaire de
+                    faire entrer les <hi rend="italic">vargas</hi> dans le passage; c’est en quoi
+                    seulement je voudrais, Monsieur, différer de votre opinion.</p>
+            <p>.....................................</p>
+            <closer>
+               <dateline>Tegel, ce 10 décembre 1831.</dateline>
+               <signed>G. de
+                        Humboldt.</signed>
+            </closer>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>I<hi rend="superscript">er</hi> Extrait.</p>
+               <p>(<bibl sameAs="872">Compendio de la arte de la lengua Tagala</bibl>, por el
+                            <persName ref="gsaugustin">Padre Fr. Gaspar de Sant-Agustin</persName>,
+                        [año 1703]. Segunda impression. <placeName ref="Manila">Pueblo de
+                            Sampaloc</placeName>, año de 1787.)</p>
+               <p> </p>
+               <p>(<bibl sameAs="872">Pagina 152.</bibl>)</p>
+               <p>11. Infinitas palabras se equivocan en nuestro escribir, que en caracteres
+                        tagalos se distinguen; y assi se tendrà cuydado con el accento en la
+                        penultima, sopena de decir uno por otro. Porque <hi rend="italic">gaby</hi>
+                        assi escrito es equivoco de <hi rend="italic">noche</hi> y <hi rend="italic">gabe</hi>; pero pronunciado <hi rend="italic">noche</hi> sera <foreign sameAs="tl">ᜁᜄ</foreign>
+                  <hi rend="italic">gab-y</hi>, y <hi rend="italic">gabe</hi>
+                  <foreign sameAs="tl">ᜊᜒᜄ</foreign> dirà <hi rend="italic">ga-bi</hi>: <hi rend="italic">olol</hi> es equivoco, porque <foreign sameAs="tl">ᜂᜎ</foreign>
+                  <hi rend="italic">o-lol</hi> es <hi rend="italic">llenar</hi>; y <foreign sameAs="tl">ᜂᜂ</foreign>
+                  <hi rend="italic">ol-ol</hi> es <hi rend="italic">loco</hi>.</p>
+               <p> </p>
+               <p>(<bibl sameAs="872">Pagina 168.</bibl>)</p>
+               <p>§ VI. <hi rend="italic">De los caracteres y escrituras.</hi>
+               </p>
+               <p>1. Por ultimo pondré el modo, que tenian de escribir antiguamente, y al
+                        presente lo usan en la Comintan y otras partes. Los caracteres son
+                        aprendidos de los Malayos y son diez y siete: las tres vocales, que
+                        equivalen à las cinco nuestras; las catorce consonantes, cuya forma y valor
+                        es este.</p>
+               <p> </p>
+               <p>II. <hi rend="italic">Vocales</hi>.</p>
+               <table cols="3" rows="2">
+                  <row>
+                     <cell>
+                        <foreign sameAs="tl">ᜀ</foreign>
+                     </cell>
+                     <cell>
+                        <foreign sameAs="tl">ᜁ</foreign>
+                     </cell>
+                     <cell>
+                        <foreign sameAs="tl">ᜂ</foreign>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>a</cell>
+                     <cell>e, i</cell>
+                     <cell>o, u</cell>
+                  </row>
+               </table>
+               <p> </p>
+               <p>
+                  <hi rend="italic">Las consonantes.</hi>
+               </p>
+               <table rows="6" cols="12">
+                  <row>
+                     <cell>ᜊ</cell>
+                     <cell>ᜃ</cell>
+                     <cell>ᜇ</cell>
+                     <cell>ᜄ</cell>
+                     <cell>ᜅ</cell>
+                     <cell>ᜑ</cell>
+                     <cell>ᜎ</cell>
+                     <cell>ᜋ</cell>
+                     <cell>ᜈ</cell>
+                     <cell>ᜉ</cell>
+                     <cell>ᜐ</cell>
+                     <cell>ᜆ</cell>
+                  </row>
+                  <row>
+                     <cell>ba</cell>
+                     <cell>ca</cell>
+                     <cell>da, ra</cell>
+                     <cell>ga</cell>
+                     <cell>ñga</cell>
+                     <cell>ha</cell>
+                     <cell>la</cell>
+                     <cell>ma</cell>
+                     <cell>na</cell>
+                     <cell>pa, fa</cell>
+                     <cell>sa</cell>
+                     <cell>ta</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>ᜏ</cell>
+                     <cell>ᜌ</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>va</cell>
+                     <cell>ya</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+               <p> </p>
+               <p>(<bibl sameAs="872">Pagina 169.</bibl>)</p>
+               <p>Poniendo à estos un punto arriba, hieren en <hi rend="italic">i</hi> ò <hi rend="italic">e</hi>; v.g. </p>
+               <table rows="8" cols="12">
+                  <row>
+                     <cell>be</cell>
+                     <cell>ke</cell>
+                     <cell>de, re</cell>
+                     <cell>ge</cell>
+                     <cell>ñge</cell>
+                     <cell>he</cell>
+                     <cell>le</cell>
+                     <cell>me</cell>
+                     <cell>ne</cell>
+                     <cell>pe, fe</cell>
+                     <cell>se</cell>
+                     <cell>te</cell>
+                  </row>
+                  <row>
+                     <cell>ᜊᜒ</cell>
+                     <cell>ᜃᜒ</cell>
+                     <cell>ᜇᜒ</cell>
+                     <cell>ᜄᜒ</cell>
+                     <cell>ᜅᜒ</cell>
+                     <cell>ᜑᜒ</cell>
+                     <cell>ᜎᜒ</cell>
+                     <cell>ᜋᜒ</cell>
+                     <cell>ᜈᜒ</cell>
+                     <cell>ᜉᜒ</cell>
+                     <cell>ᜐᜒ</cell>
+                     <cell>ᜆᜒ</cell>
+                  </row>
+                  <row>
+                     <cell>bi</cell>
+                     <cell>ki</cell>
+                     <cell>di, ri</cell>
+                     <cell>gi</cell>
+                     <cell>ñgi</cell>
+                     <cell>hi</cell>
+                     <cell>li</cell>
+                     <cell>mi</cell>
+                     <cell>ni</cell>
+                     <cell>pi, fi</cell>
+                     <cell>si</cell>
+                     <cell>ti</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>ve</cell>
+                     <cell>ye</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>ᜏᜒ</cell>
+                     <cell>ᜌᜒ</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>vi</cell>
+                     <cell>yi</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+               <p> </p>
+               <p>Si tubieren el punto abaxo, hieren en <hi rend="italic">o</hi> ò <hi rend="italic">u</hi>; v.g.</p>
+               <table rows="8" cols="12">
+                  <row>
+                     <cell>bo</cell>
+                     <cell>co</cell>
+                     <cell>do, ro</cell>
+                     <cell>go</cell>
+                     <cell>ñgo</cell>
+                     <cell>ho</cell>
+                     <cell>lo</cell>
+                     <cell>mo</cell>
+                     <cell>no</cell>
+                     <cell>po, fo</cell>
+                     <cell>so</cell>
+                     <cell>to</cell>
+                  </row>
+                  <row>
+                     <cell>ᜊᜓ<note type="footnote" resp="Jacquet">Il y a après cette lettre
+                                    un caractère que je ne reproduis point ici, parce qu’il n’est
+                                    pas assez nettement tracé dans le manuscrit. E.J.</note>
+                     </cell>
+                     <cell>ᜃᜓ</cell>
+                     <cell>ᜇᜓ</cell>
+                     <cell>ᜄᜓ</cell>
+                     <cell>ᜅᜓ</cell>
+                     <cell>ᜑᜓ</cell>
+                     <cell>ᜎᜓ</cell>
+                     <cell>ᜋᜓ</cell>
+                     <cell>ᜈᜓ</cell>
+                     <cell>ᜉᜓ</cell>
+                     <cell>ᜐᜓ</cell>
+                     <cell>ᜆᜓ</cell>
+                  </row>
+                  <row>
+                     <cell>bu</cell>
+                     <cell>ku</cell>
+                     <cell>du, ru</cell>
+                     <cell>gu</cell>
+                     <cell>ñgu</cell>
+                     <cell>hu</cell>
+                     <cell>lu</cell>
+                     <cell>mu</cell>
+                     <cell>nu</cell>
+                     <cell>pu, fu</cell>
+                     <cell>su</cell>
+                     <cell>tu</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>vo</cell>
+                     <cell>yo</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>ᜏᜓ</cell>
+                     <cell>ᜌᜓ</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>vu</cell>
+                     <cell>yu</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+               <p> </p>
+               <p>3. Entre cada diccion ponen esta nota ! que es toda su ortografia.</p>
+               <p> </p>
+               <p>(<bibl sameAs="872">Pagina 170.</bibl>)</p>
+               <p>4. Es escritura tan facil de escribir, como dificil de leer, porque es
+                        adivinar; porque estas dos letras ᜎᜒᜎᜒ|| se pueden leer de ocho modos, que
+                        son <hi rend="italic">lili</hi>, <hi rend="italic">lilim</hi>, <hi rend="italic">lilip</hi>, <hi rend="italic">lilis</hi>, <hi rend="italic">lilit</hi>, <hi rend="italic">liling</hi>, <hi rend="italic">liclic</hi>, <hi rend="italic">liglig</hi>; y con toto
+                        esso se entienden. Item ᜊᜆ|| se puede leer <hi rend="italic">bata</hi>, <hi rend="italic">batang</hi>, <hi rend="italic">bantay</hi>, <hi rend="italic">batar</hi>, <hi rend="italic">batac</hi>, <hi rend="italic">banta</hi>, <hi rend="italic">batay</hi>; y con todo
+                        yerran pocas veces.</p>
+               <p> </p>
+               <p> </p>
+               <p>II<hi rend="superscript">e</hi> Extrait.</p>
+               <p>(<hi rend="italic">
+                     <bibl sameAs="910">Arte de la lengua Bisaya de la provincia
+                                de Leyte</bibl>, compuesta por el</hi>
+                  <persName ref="dezguerra">P. Domingo Ezguerra</persName>; reimpressa en
+                            <placeName ref="Manila">Manila</placeName> [año de 1747], in-4°).</p>
+               <p>(<bibl sameAs="910">Pagina 1.</bibl>)</p>
+               <p>
+                  <hi rend="italic">Del modo de escrivir de estos naturales, y de sus
+                            letras.</hi>
+               </p>
+               <p>Solian antes de agora (y aun muchos oy dia) escrivir de abajo hazia arriba,
+                        poniendo el primer renglon hazia la mano izquierda. Las letras son diez y
+                        siete, de las quales, las tres son vocales, que equivalen à las cinco
+                        nuestras vocales: las demas son consonantes. Las letras que tienen, son las
+                        que se siguen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 09.02.1820<idno type="BBAW">80</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 1. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 4–6</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 6997</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="ludwig1">
+                  <persName>Kronprinz Ludwig (später Ludwig I., König von
+                    Bayern)</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Boppb, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="57">Boppa, Franz: Über das Conjugationssystem der Sanskritsprache in
+                    Vergleichung mit jenem der griechischen, lateinischen, persischen und
+                    germanischen Sprache (Frankfurt/Main: Andreä 1816)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="539">Wilkins, Charles: The Radicals of the Sanskrita language (London:
+                    Cox and Baylis 1815)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeboren haben mir durch die Uebersendung
+                        des Nalus und Ihr gütiges Schreiben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1820-02-09"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="81" type="next">05.03.1820</ref>
+               <ref target="79" type="prev">05.09.1819</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 5. Februar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1820_02_09/NDIGRKP004565_0265.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1820_02_09/NDIGRKP004565_0266.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1820_02_09/NDIGRKP004565_0267.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 9. <hi rend="antiqua">Februar</hi> 1820.</dateline>
+            </opener>
+            <p>Ew. Wohlgebohren haben mir durch die Uebersendung des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> und Ihr gütiges <ref type="link" target="79">Schreiben</ref> eine sehr große Freude gemacht, für die ich
+                    Ihnen meinen wärmsten Dank abstatte. Wörtlich treue lateinische Uebersetzungen
+                    sind unstreitig das beste Mittel, das Studium des <hi rend="antiqua">Sanskrit</hi> zu befördern, und sie werden doppelt nothwendig, so lange es
+                    an leicht zu habenden u. benutzenden Wörterbüchern mangelt. Es wäre unendlich zu
+                    wünschen, daß es Ew. Wohlgeb. vergönnt seyn möchte, noch längere Zeit in
+                        <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> bleiben,
+                    und für die Erforschung der vielfachen Schätze thätig seyn zu können, deren
+                    Benutzung Ihnen jetzt zu Gebote steht. Ich würde mit Vergnügen dazu beitragen,
+                    weil ich, ohne Ihnen das mindeste Schmeichelhafte sagen zu wollen, überzeugt
+                    bin, daß es niemanden gegenwärtig giebt, von dem man sich soviel, als von Ihnen,
+                    für die Kenntniß der Indischen Sprache u. Literatur versprechen kann. Ich
+                    befinde mich aber in Verlegenheit, was ich dafür zu thun im Stande wäre. Ich
+                    wüßte kaum ein anderes Mittel, als mich deshalb an den <persName ref="ludwig1">Kronprinzen von Baiern</persName> zu wenden. Ich gestehe Ew. Wohlgeb. aber,
+                    daß, da es mir an aller Veranlassung fehlt, <persName ref="ludwig1">Sr.
+                        Königlichen Hoheit</persName> zu schreiben, und ich in so sehr langer Zeit
+                    nicht das Glück gehabt habe, Ihnen nahe zu seyn, ich nicht wage, einen Schritt
+                    deshalb zu thun. Auch ist der <persName ref="ludwig1">Kronprinz</persName> immer
+                    zur Unterstützung wissenschaftlicher Untersuchungen so bereit, und gewiß von Ew.
+                    Wohlgeb. Verdienstlichkeit so überzeugt, daß ich meine Verwendung deshalb für
+                    unnütz halten muß. Sollte sich mir aber auf eine unvorhergesehene Weise eine
+                    Gelegenheit zur Beförderung Ihrer Ziele eröfnen, so seyn Sie gewiß versichert,
+                    daß ich sie mit dem lebhaftesten Vergnügen ergreifen werde. Da ich jetzt eine
+                    sehr erwünschte Muße genieße, so habe ich Ew. Wohlgeb. frühere <bibl sameAs="57">Schrift über das Conjugationssystem</bibl> aufs neue, u. mit ebensoviel
+                    Belehrung, als Vergnügen gelesen. Die genauere u. tief eingehende Analyse
+                    grammatischer Formen ist für die <pb n="2*"/> Erkennung u. Beurkundung der
+                    Verwandtschaft der Sprachen ein ebenso sicheres, als noch wenig benutztes
+                    Mittel, u. trägt ebensoviel zur Aufklärung des Sprachbaues überhaupt bei. Die
+                    AltIndische Sprache bleibt nach demjenigen, was Ew. Wohlgeb. sehr befriedigend
+                    entwickelt haben, ein Muster in der Hervorbringung grammatischer Formen durch
+                    bloße Umbiegung u. innere Veränderung der Laute, entgegengesetzt den durch
+                    sichtbare Agglutination erstehenden Sprachen. Sehr wünschte ich indeß, daß Ew.
+                    Wohlgeb. sich hierüber bei einer andern Gelegenheit noch mehr u. näher
+                    erklärten, um der Frage näher zu kommen, ob es wohl einen ursprünglichen
+                    Unterschied zwischen flectirenden u. agglutinirenden Sprachen geben mag, oder ob
+                    der, den wir jetzt unleugbar bemerken, nur ein daher entstandener ist, daß die
+                    Bedeutung der agglutinirten Silben verloren gegangen ist, sie selbst sich in der
+                    Aussprache abgeschliffen haben, u. daher jetzt nur als Flexionen erscheinen. Daß
+                    das Sanskrit wirklich das Hülfsverbum einverleibt, daß die Personenendungen von
+                    Pronomina herkommen, erkennen auch Ew. Wohlgeb. an. Es fragt sich nun, wie es
+                    mit den übrigen Umbiegungen sich verhalten mag. Ich meinerseits bin sehr
+                    geneigt, die Flexion zum aller größten Theil, als von ehemaliger Agglutination
+                    herkommend anzusehen, u. den ganzen Unterschied daher für einen geschichtlichen
+                    zu halten, der jedoch nicht bloß, und nicht einmal eigentlich Beweis des Alters,
+                    sondern vielmehr u. zugleich wenigstens der erlittenen Veränderungen einer
+                    Sprache ist. Denn unter gewissen Umständen kann eine Sprache sich viele
+                    Jahrhunderte hindurch in einem Zustande der Reinheit befinden. Demungeachtet
+                    giebt es Biegungen, die ich durchaus für Flexion auch ursprünglich halten möchte
+                    u. würde. So ist es mir nicht wahrscheinlich, ob man gleich allerdings die
+                    Möglichkeit nicht bestreiten kann, daß der Umlaut je aus einer Agglutination
+                    entstanden sey, u. gewisse Flexionen sind zugleich so bedeutend, u. in Sprachen
+                    so allgemein, daß ich sie auch ursprünglich zu nennen geneigt wäre, wie z. B.
+                    das <hi rend="antiqua">i</hi> des <hi rend="antiqua">Dativs</hi>, das <hi rend="antiqua">m</hi> desselben Casus bei uns, die beide mit dem schärferen
+                    Laut die Aufmerksamkeit auf die abweichende Natur dieses <hi rend="antiqua">casus</hi> ausdrücken zu wollen scheinen, der in der That nicht, wie die
+                    anderen, ein einfaches, sondern ein doppeltes Verhältniß anzeigt. Es läßt sich
+                    auch <pb n="3*"/> sehr wohl denken, daß, ohne, gewiß zu erweisende,
+                    conventionelle Bezeichnung, der Mensch auf ähnliche Weise, als er, durch
+                    Aehnlichkeiten des Lauts mit den Gegenständen geleitet, Wörter schuf, auch
+                    ebenso Verhältnisse bezeichnen konnte, wenn gleich in den meisten Fällen er
+                    hierzu das Mittel ergriff, wirkliche Wörter zusammenzustellen u. nur in der
+                    Aussprache zu verbinden. Denn im Ganzen kann man sich den Ursprung aller
+                    Grammatik wohl nur so denken, daß der Mensch die Sprachelemente nah neben
+                    einander stellte, u. nun durch das Bedürfniß, sie, als Rede, verbunden
+                    darzustellen, zu Veränderungen der Laute u. Bildung von Gewohnheiten, die in
+                    Regeln übergiengen, genöthigt wurde. Ganz werden sich diese Probleme nie
+                    auflösen lassen, u. selbst, ob z. B. im Griechischen <hi rend="antiqua">verbo</hi> überall, u. bloß das Hülfs<hi rend="antiqua">verbum</hi> zur
+                    Personenbildung mit der Stammsilbe verbunden ist, oder auch die Pronomina
+                    selbst? dürfte unmöglich jetzt zu ergründen seyn, so sehr wichtig der
+                    Unterschied auch in der That ist. Allein es ist sehr gut, wenn man nur gewisse
+                    allgemeine Sätze hinstellen kann; wie Ew. Wohlgeb. gethan haben, z. B. daß es
+                    dem Geiste des Alt Indischen widerspricht ein Verhältniß durch Anhängung
+                    mehrerer Buchstaben auszudrücken, die sich als ein eigenes Wort ansehen ließen,
+                    wo man aber doch die Einschaltung des Hülfs<hi rend="antiqua">verbi</hi>, das
+                    sich allerdings so betrachten läßt, ausnehmen muß, daß die Personen-Endungen <hi rend="antiqua">pronomina</hi> sind u. s. f. Ueber den <hi rend="antiqua">Infinitiv</hi> kann ich Ew. Wohlgeb. Meynung nicht ganz theilen. Ich halte
+                    ihn wirklich für einen <hi rend="antiqua">modus</hi>, der, gleich dem <hi rend="antiqua">Participium</hi>, wo es wahrhaft ein solches ist, <hi rend="antiqua">Verbum-</hi> u. <hi rend="antiqua">Nomennatur</hi> in sich
+                    vereinigt. Er ist der Begriff des <hi rend="antiqua">Verbum</hi> ohne alle
+                    Bestimmung von Person, u. selbst manchmal von Zeit, allein er behält, wenn er
+                    sich auch dadurch <hi rend="antiqua">abstracten Substantiven</hi> nähert, doch
+                    die eigentlichste Natur des <hi rend="antiqua">Verbi</hi>, als Bewegung gedacht
+                    zu werden. Ich wünsche zu besitzen ist ganz Leben u. Bewegung; ich wünsche mir
+                    das Besitzen, oder gar den Besitz ist dagegen todt u. starr. Es ist ein Vorrecht
+                    der Sprache, in dem jenigen was logisch ganz dasselbe ist, durch ihre
+                    eigenthümliche Natur Unterschiede zu bilden, u. den gleichen Gegenstand selbst
+                    zum gleichen Zweck auf verschiedene Weise mit sich in Verbindung zu bringen. Ich
+                    kann auch nicht in die Idee der Ableitung des griechischen <hi rend="antiqua">Infinitivi</hi> aus dem Participium einstimmen. <pb n="4*"/> Aber ich würde
+                    nicht aufhören, wenn ich in alle interessante Untersuchungen eingehen wollte,
+                    die Ew. Wohlgeb. in <bibl sameAs="57">Ihrer wirklich äußerst gehaltreichen
+                        Schrift</bibl> theils erschöpft, theils angeregt haben. <sic>
+                  <persName ref="cwilkins">Herrn <hi rend="antiqua">Wilkin</hi>
+                  </persName>
+               </sic> bitte ich Sie sehr, mich zu empfehlen, u. ihn zu erinnern, daß er mir ein
+                    Exemplar seiner <bibl sameAs="539">
+                  <hi rend="antiqua">Indi</hi>schen
+                        Wurzeln</bibl> zu verschaffen versprach. Ew. Wohlgeb. würden mich sehr
+                    verbinden, wenn Sie <persName ref="hbuelow">H. v. <hi rend="antiqua">Bülow</hi>
+               </persName> eines für mich übergeben könnten. Auch würden Sie
+                    mich sehr verpflichten, wenn Sie mir sagten, was wohl zur Erlernung der Elemente
+                    des <hi rend="antiqua">Sanscrit</hi> noch für Schritte nützlich seyn könnten.
+                    Ich besitze, außer der Ihrigen, bloß <sic>
+                  <persName ref="cwilkins">
+                     <hi rend="antiqua">Wilkin’s</hi>
+                  </persName>
+               </sic> <bibl sameAs="455">große Grammatik</bibl>. </p>
+            <closer>
+               <salute>Empfangen Ew. Wohlgeb. die erneuerte Versicherung meiner herzlichen
+                        u. ausgezeichneten Hochachtung.</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

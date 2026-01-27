@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Gustav Seyffarth, 07.01.1829<idno type="BBAW">617</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Abschrift: Jena, ThULB, Nachlass
+                            Leitzmann, Inv.-Nr. 405. – Ausfertigung: Verbleib unbekannt; zuletzt
+                            bezeugt im Versteigerungskatalog 4 der Fa. K.E. Henrici (Berlin
+                            1910)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7970</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="fawspohn">
+                  <persName>Spohn, Friedrich August Wilhelm</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="76">Champollion, Jean-François (1822): Lettre à M. Dacier
+                        relative à l’alphabet des hiéroglyphes phonétiques, Paris: Firmin Didot Père
+                        et Fils</bibl>
+               <bibl corresp="405">Seyffarth, Gustav (1826): Rudimenta Hieroglyphices: Accedunt
+                        explicationes speciminum hieroglyphicorum Glossarium atque alphabeta cum 36
+                        tabulis lithographis, Leipzig: J. A. Barth</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgebornen ausführlichen Brief habe ich heute erhalten und
+                    beantworte ihn sogleich. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-01-07"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gseyffarth">Seyffarth, Gustav</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="">Abschrift von Leitzmann</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">1. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="58r"/> An Seyffarth.</opener>
+            <p>Ew. <subst>
+                  <del>Wohlgebohrnen</del>
+                  <add>Wohlgebornen</add>
+               </subst> ausführlichen Brief<note type="footnote" resp="editor">Der Brief scheint nicht erhalten zu sein.</note> habe ich
+                    heute erhalten und beantworte ihn sogleich. Es hat mich sehr interessirt zu
+                    sehen, wie ungemein viel Sie zusammengebracht haben. Da Sie gewiss mit grosser
+                    Genauigkeit abgeschrieben, so ist schon eine solche Sammlung, alles Theoretische
+                    und Systematische sogar bei Seite gesetzt, ein wahrer Schatz.</p>
+            <p>Ich freue mich ungemein, dass Ew. Wohlgebornen so sehr darauf dringen, dass alle,
+                    die sich mit Aegyptischem Alterthum beschäftigen, in Einigkeit zusammen handeln,
+                    und jedem seine Entdeckung lassen sollten. Ebenso ist es ein Beweis Ihrer
+                    Unpartheilichkeit, dass Sie zugestehen, <subst>
+                  <del>einiges</del>
+                  <add>Einiges</add>
+               </subst> aufgestellt zu haben, was Sie jetzt zurücknehmen
+                    müssen. Dies kann und muss bei so schwierigen Gegenständen immer der Fall
+                    seyn.</p>
+            <p>Da Sie sich so sehr gütig und vertrauensvoll gegen mich äussern, so erlauben Sie
+                    mir Ihnen recht offen zu sagen, was Sie, um in der Aegyptischen Entzifferung
+                    einen auch dem Publikum Sicherheit gewährenden Weg zu gehen, thun müssten.</p>
+            <p>Wenn ich von Ihrem Beginnen rede, so unterscheide ich dreierlei.</p>
+            <p>1., Ihre Behauptung, dass der Weg von der demotischen Schrift zu den
+                    Hieroglyphen, als ausgemahlten Buchstaben gegangen sey, nicht, wie man bisher
+                    behauptet, rückwärts.</p>
+            <p>2., Ihr Entzifferungssystem.</p>
+            <p>3., die von Ihnen aus entzifferten Handschriften gemachten Entdeckungen.</p>
+            <p>Der erste Punkt ist rein theoretisch. Ich kann Ew. Wohlgebornen darin nicht
+                    beitreten, allein dies ist für die Entzifferung im Grunde gleichgültig.</p>
+            <p>Der letzte Punkt, die Entdeckungen, hängt vom zweiten ab. Denn ist Ew.
+                    Wohlgebornen Entzifferungssystem nicht richtig oder nicht falsch, so können auch
+                    die doch danach gemachten Entdeckungen es nicht seyn.</p>
+            <p>Alles kommt also auf Ihr Entzifferungssystem an. Dies nun – Sie werden meine
+                    Freimüthigkeit verzeihen – ist in <bibl sameAs="405">Ihren Rudimenten</bibl>
+                    noch bei weitem nicht klar und bestimmt genug auseinandergesetzt, und daran
+                    würde ich Ihnen rathen, zuerst zu arbeiten.</p>
+            <p>
+               <persName ref="jfchampollion">Champollion</persName> fieng vom Leichten an und
+                    gieng zum Schwereren über, er stellte gleich ein, und zwar einfaches Alphabet
+                    auf, er gab eine Liste symbolischer Zeichen. Man konnte nun jedes Wort prüfen,
+                    es in seine Theile zerlegen, und die Theile aufsuchen. Ich bin ihm so Schritt
+                    vor Schritt <pb n="58v"/> nachgegangen, und dies Nachgehen hat mir die
+                    Ueberzeugung gegeben, dass sein System, einiges Unrichtige oder Zweifelhafte
+                    ausgenommen, das Wahre ist.</p>
+            <p>In <bibl sameAs="405">Ew. Wohlgebornen Schrift</bibl> ist eine solche Masse von
+                    Zeichen für einen Buchstaben, dass ich mir nicht getrauen würde, danach ein
+                    einziges Wort zu entziffern. Ich sage darum nicht, dass es nicht möglich ist.
+                    Aber dem Leser wird es nicht klar, er behält den Verdacht, dass man dieselben
+                    Zeichen sehr verschieden erklären könne. Sie geben auch nicht genug
+                    Zergliederungen einzelner Wörter.</p>
+            <p>Um diese Zweifel zu heben, um Ihr System, gegen das ich nicht anmassend
+                    abspreche, wenn es auch mir nicht einleuchtet, siegreich durchzuführen, würde
+                    ich Ihnen rathen, es noch einmal vorzunehmen, bestimmt zu sagen was Sie für
+                    alphabetisch halten, ein möglichst einfaches Alphabet aufzustellen, und nun eine
+                    oder zwei Inschriften in zwei Sprachen so durchzugehen, dass Sie jedes Wort
+                    analysiren und auf die gegebnen Elemente zurückweisen. Auf ein solches Fundament
+                    läßt sich <subst>
+                  <del>weiterbauen</del>
+                  <add>weiter bauen</add>
+               </subst>, und nach einem solchen beurtheilen.</p>
+            <p>Was sich in den Hieroglyphen nicht in Buchstaben auflöst, kann nur symbolisch
+                    oder figurativ seyn. Erklärt man es weder für das eine noch andre und giebt doch
+                    der Gruppe von Zeichen eine feste Bedeutung, so ist die Kenntniss noch
+                    mangelhaft. Man erkennt den Sinn, aber man begreift nicht die Bezeichnung. Je
+                    weiter man vorrückt, desto mehr löst sich die Gruppe auf. Es war der wichtigste
+                    Schritt, den <persName ref="jfchampollion">Champollion</persName> für die
+                    Wissenschaft that, gleiche Elemente aufzusuchen, da <persName ref="tyoung">Young</persName> immer viel zuviel bei den Gruppen stehen geblieben ist.
+                    Ew. Wohlgebornen erwähnen von <persName ref="fawspohn">Spohn</persName> und
+                    sich, als einen Unterschied gegen <persName ref="jfchampollion">Champollion</persName>, dass Sie gleich auf ganze Texte ausgegangen sind,
+                    er auf einzelne Wörter, meist Namen. Ich gestehe aber, dass mir <persName ref="jfchampollion">Champollion</persName>s Weg hierin natürlicher,
+                    vorsichtiger und sichrer scheint. Ich mistraue jeder Entzifferung eines ganzen
+                    Textes. Ein Text besteht aus Einzelnem, also mit dem Einzelnen muss ich
+                    anfangen, und es ist kaum glaublich, dass in irgend einem längeren Text alles
+                    Einzelne sollte entzifferbar seyn. Rathen kann man allerdings Viel. <persName ref="jfchampollion">Champollion</persName> sagte mir diesen Sommer in
+                        <placeName ref="Paris">Paris</placeName>, dass er nun die ganze Rosettische
+                    Inschrift entziffern könne, aber ich gestehe, dass ich nicht daran glaube.</p>
+            <p>Wenn ich hier Ew. Wohlgebornen mein Glaubensbekenntniss offen und frei dargelegt
+                    habe, so verzeihen Sie je diese Offenheit. Ich folge darum mit nicht weniger
+                    Interesse Ihren wichtigen Arbeiten und <pb n="59r"/> würde die Plane, von <subst>
+                  <del>
+                     <gap quantity="4" unit="chars"/>
+                  </del>
+                  <add>denen</add>
+               </subst> Sie mir für Ihre <unclear>innere</unclear> Lage
+                    reden, nicht minder gern unterstützen, wenn nicht hier bei uns jetzt durchaus
+                    keine Möglichkeit dazu vorhanden wäre.</p>
+            <closer>
+               <salute>Erhalten Sie mir Ihre gütigen Gesinnungen und empfangen Sie die
+                        erneuerte Versicherung meiner hochachtungsvollsten Ergebenheit.</salute>
+               <lb/>
+               <dateline>Berlin, den 7. Jan. 1829.</dateline>
+               <signed>Humboldt.</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>Die <persName ref="jfchampollion">Champollion</persName>sche Schrift die Ew.
+                        Wohlgebornen wünschen, ist mir gar nicht bekannt, und in <placeName ref="Berlin">Berlin</placeName> ist sie gewiss nicht vorhanden. Das
+                        Erste, was ich von ihm habe, ist <bibl sameAs="76">die lettre à Dacier in
+                            8</bibl>. Diese steht Ew. Wohlgebornen jeden Tag zu Diensten, Sie haben
+                        sie aber gewiss.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

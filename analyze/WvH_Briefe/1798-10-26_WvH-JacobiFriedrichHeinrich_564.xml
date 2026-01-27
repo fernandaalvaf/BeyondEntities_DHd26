@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Heinrich Jacobi, 26.10.1798<idno type="BBAW">564</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem Berlin, AST; 1945 verbrannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1892, S. 59–74 (nach
+                            Abschrift)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 571</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jibaggesen">
+                  <persName>Baggesen, Jens Immanuel</persName>
+               </person>
+               <person corresp="econdillac">
+                  <persName>Condillac, Étienne Bonnot de</persName>
+               </person>
+               <person corresp="euripides">
+                  <persName>Euripides</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="akcjacobi">
+                  <persName>Jacobi, Anna Katharina Charlotte, Halbschwester von F. H.
+                    Jacobi</persName>
+               </person>
+               <person corresp="jfjacobi">
+                  <persName>Jacobi, Johann Friedrich</persName>
+               </person>
+               <person corresp="shjacobi">
+                  <persName>Jacobi, Susanna Helene, Halbschwester von F. H.
+                    Jacobi</persName>
+               </person>
+               <person corresp="fgklopstock">
+                  <persName>Klopstock, Friedrich Gottlieb</persName>
+               </person>
+               <person corresp="jmilton">
+                  <persName>Milton, John</persName>
+               </person>
+               <person corresp="hgmirabeau">
+                  <persName>Mirabeau, Honoré-Gabriel Victor de Riqueti, Marquis
+                    de</persName>
+               </person>
+               <person corresp="fepoel">
+                  <persName>Poel, Friederike Elisabeth, geb. Büsch</persName>
+               </person>
+               <person corresp="ppoel">
+                  <persName>Poel, Piter</persName>
+               </person>
+               <person corresp="cslreimarus">
+                  <persName>Reimarus, Christina Sophia Louise, geb.
+                    Hennings</persName>
+               </person>
+               <person corresp="jahreimarus">
+                  <persName>Reimarus, Johann Albert Heinrich</persName>
+               </person>
+               <person corresp="creinhard">
+                  <persName>Reinhard, Christine, geb. Reimarus</persName>
+               </person>
+               <person corresp="jjrousseau">
+                  <persName>Rousseau, Jean-Jacques</persName>
+               </person>
+               <person corresp="gschlabrendorf">
+                  <persName>Schlabrendorf, Gustav Graf von</persName>
+               </person>
+               <person corresp="ghsieveking">
+                  <persName>Sieveking, Georg Heinrich</persName>
+               </person>
+               <person corresp="jmsieveking">
+                  <persName>Sieveking, Johanna Margaretha, geb. Reimarus</persName>
+               </person>
+               <person corresp="algstael">
+                  <persName>Staël, Anne Louise Germaine de</persName>
+               </person>
+               <person corresp="jfvieweg">
+                  <persName>Vieweg, Johann Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="146">Goethe, Johann Wolfgang von (1797): Hermann und Dorothea, Berlin:
+                    Vieweg</bibl>
+               <bibl corresp="219">Humboldt, Wilhelm von (1799): Ästhetische Versuche. Erster Teil:
+                    Über Goethes Hermann und Dorothea, Braunschweig: Vieweg</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Das Stillschweigen, das Sie seit nunmehr beynah zwey Jahren
+                        gegen mich beobachten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1798-10-26"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fhjacobi">Jacobi, Friedrich Heinrich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="fr">Französisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">25. Februar 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Paris den 26sten October 1798.</dateline>
+            </opener>
+            <p>Das Stillschweigen, das Sie seit nunmehr beynah zwey Jahren gegen mich
+                    beobachten, hat mich tief geschmerzt, liebster Freund; ich habe es um so stärker
+                    empfunden, als unser schönes Beysammenseyn in <placeName ref="Wandsbek">Wandsbeck</placeName> mich durch den ungestörten Genuss Ihres täglichen
+                    Umgangs verwöhnt, u. mir auch für die Folge die Hoffnung eines minder
+                    unterbrochenen Briefwechsels eingeflösst hatte. Monate sind es, dass ich mir
+                    vorgesetzt hatte, es zu brechen, aber immer ist mir bey der Ausführung irgend
+                    ein Hinderniss dazwischen gekommen. Ich wünschte Ihnen mit irgend einem
+                    Reisenden zu schreiben, u. versäumte unglücklicher Weise die Gelegenheiten, die
+                    sich mir dazu zeigten. Ich eile um so mehr jetzt die zu benutzen, die sich mir
+                    eben darbietet.</p>
+            <p>Sie wissen längst, dass ich mich seit fast einem Jahre hier aufhalte; vielleicht
+                    haben Sie auch durch <persName ref="creinhard">Stienchen</persName>s Briefe an
+                        <persName ref="cslreimarus">ihre Mutter</persName> u. ########<note type="footnote" resp="editor">Hier wurde eine Blockade im gedruckten Text
+                        gesetzt. Sollte hier vielleicht der Name des französischen Gesandten in
+                        Hamburg und Bremen, <persName ref="kfreinhard">Karl Friedrich
+                            Reinhard</persName>, des Ehemanns von "Stienchen", d.h. Christine
+                        Reinhard, stehen? [FZ]</note>, wenn er Gelegenheit gehabt hat Sie zu sehen,
+                    etwas Näheres über unsere Art zu leben erfahren. Sie kennen mich zu sehr, um
+                    nicht zu wissen, dass ich nicht leicht aus dem <sic>Kraise</sic> von Gedanken u.
+                    Beschäftigungen heraus gehe, in den ich mich einmal festgesetzt habe. So ist es
+                    mir auch hier gegangen. Mein Nachdenken u. meine Thätigkeit haben sich auch hier
+                    so ziemlich um dieselben Gegenstände herum gedreht, die mich in Deutschland
+                    beschäftigten; ich habe mich viel u. genau um Frankreich u. seine jetzige Lage
+                    bekümmert, aber ich bin darum schlechterdings nicht aus meiner eigenthümlichen
+                    Assiette herausgekommen; ich bin vielmehr mitten in Frankreich nur ein noch viel
+                    eingefleischterer Deutscher als vorher geworden. Der Umgang mit einigen
+                    deutschen Freunden, die ich theils hier fand, u. die theils nach mir hier
+                    angekommen sind, hat viel dazu beygetragen, u. wie viel hätte ich nicht um die
+                    Freude gegeben, Sie manchmal bey einigen dieser Unterredungen zu sehen, wo
+                    gerade die Dinge abgehandelt wurden, die auch Ihnen die nächsten u. liebsten
+                    sind.</p>
+            <p>Das schlimmste Bild von <placeName ref="Paris">Paris</placeName> wird Ihnen
+                        <persName ref="jibaggesen">Baggesen</persName> (den ich Sie herzlich von mir
+                    zu grüssen bitte) entwerfen. Sie haben unstreitig einen Brief von ihm an
+                        <persName ref="ghsieveking">Sieveking</persName> gelesen, in dem er es als
+                    eine wahre Hölle, u. zwar nicht wie eine <persName ref="jmilton">Milton</persName>sche oder <persName ref="fgklopstock">Klopstock</persName>ische, sondern so, wie sie in einer Französischen Epopee
+                    seyn würde, matt, schaal, u. langweilig beschreibt. Auch hat er, wie Sie gewiss
+                    auch schon wissen, seinem Sängerberufe wahrhaft getreu, wie ein anderer Orpheus
+                    eine Euridice hier zu entführen getrachtet, u. wird, wie er mir beym Weggehn
+                    sagte, das Abentheuer im Junius ganz vollenden, wo ich ihn hier wiederzusehen
+                    denke, wenn ich nicht indessen auf meinem Büssungswege in die Unterwelt (denn
+                    das sonnige Licht ist doch nur in Deutschland oder Dännemark) weiter vorgerückt
+                    bin. Nach der Beschreibung unseres Freundes bedarf man in der That einer
+                    Entschuldigung, wenn man so lange hier bleibt, als ich mich jetzt hier
+                    aufhalte.</p>
+            <p>Wenn man die Sache mit philosophischen Augen betrachtet, so befindet sich diese
+                    Nation allerdings in einer sonderbaren u. bedenklichen Lage. Ich rede jetzt
+                    nicht von den Umständen des Tages, nicht von dem Missklange, der zwischen der
+                    Verfassung, wie manche sie sich denken oder träumen, u. dem Geiste u. dem
+                    Charackter der Nation, wie er noch wirklich ist, nur zu sehr bemerkt wird; nicht
+                    von der angeblichen Sittenverderbniss, über die so viel u. laut geschrieen wird.
+                    Vieles von diesem ist lange nicht so arg, als man es gern machen möchte;
+                    wenigstens nicht schlimmer, als an manchem andern Ort; u. wenigstens sind dies
+                    wie es mir vorkommt, nur Nebenfolgen eines ganz andern u. bey weitem schlimmeren
+                    Uebels, das ungleich älter ist; das die Revolution freilich nicht geheilt, aber
+                    auch war lich nicht hervorgebracht hat; das durch sie nur jetzt klarer ins Auge
+                    fällt.</p>
+            <p>Jede Nation nemlich, wie jeder Mensch überhaupt, braucht, dünkt mich, eine innere
+                    Triebfeder, eine lebendige immer rege Kraft, aus der sich seine höhere
+                    Thätigkeit, sein eigenthümliches Daseyn entwickeln kann. Ein solches inneres
+                    Princip des Lebens vermisse ich in dieser Nation; u. gerade weil ich dies
+                    wahrhaft heilige Feuer, das allein die Menschheit zugleich läutert und nährt,
+                    mehr als irgendwo sonst in der deutschen Nation antreffe, so wächst dadurch, wie
+                    ich nicht läugne, meine tiefe Achtung, u. meine innige Anhänglichkeit für
+                    sie.</p>
+            <p>Die Erscheinung, die sich einem anitzt am häufigsten aufdrängt, ist Mattigkeit u.
+                    Schwäche. Nirgends sieht man Energie, Feuer u. Leben. Ich rede hier nicht von
+                    den äusseren Begebenheiten, sonst würde viel gegen mich sprechen; aber da können
+                    einzelne Umstände und einzelne Menschen entscheidende Impulse geben, ich rede
+                    überhaupt nicht von der politischen Stimmung, ich beschränke mich bloss auf das
+                    was eigentlich national ist, auf den Gang der Meynungen und des Geistes, die
+                    Bildung des Karakters, die Sitten u.s.f. und hier ist jener Ausspruch nur zu
+                    wahr –.</p>
+            <p>Nur ein Theil der Wissenschaften macht merkliche Fortschritte; gerade aber der,
+                    welcher den Menschen am nächsten liegt, der eben auch eine höhere Spannung des
+                    Geistes und Gefühls erheischt, die Philosophie in allen ihren Theilen liegt und
+                    schlummert ganz und gar; die Poesie macht bloss einige schwache und meist
+                    vergebliche Anstrengungen, ihrem längst erreichten Maximum nur wieder irgend
+                    nahe zu kommen; in der Kunst zeichnet sich nur wenig aus; der Gesellschaft
+                    mangelt das bessere Leben, das Interesse des Geistes und Herzens; und selbst den
+                    öffentlichen Vergnügungen fehlt es an Raschheit und Mannichfaltigkeit, sie sind
+                    oft einförmig und langweilig, und selbst der verschrieene Luxus ist für die
+                    Masse der Menschen, die hier zusammengedrängt sind, nicht weit her; wenn er die
+                    Eitelkeit derer befriedigt, die ihn zeigen, so giebt er dem Zuschauer
+                    verhältnissmässig nur immer wenig zu bewundern oder zu belachen.</p>
+            <p>Grösstentheils ist diese Stimmung unstreitig eine Folge der Begebenheiten der
+                    leztverflossenen Jahre, und der jezigen Lage. Die Revolution hat viel zu sehr
+                    nur physisch gewirkt; die Schreckens Zeit hat mit ihrem eisernen Arme Frankreich
+                    in eine starre Betäubung versenkt, von der die Folgen nur noch zu sehr fühlbar
+                    sind; die Dauer des Kriegs hat auch das ihrige gethan, und selbst die oft noch
+                    schimmernde und doch immer verzögerte Hoffnung des Friedens ist hierinn
+                    verderblich. Man erlaubt sich eher die Hände in den Schoos zu legen, wenn man
+                    eine Epoche, die freylich zur Begünstigung aller Thätigkeit nothwendig ist, in
+                    einer gewissen Nähe vor sich sieht. Grossentheils ist also jene Erscheinung nur
+                    zufällig, und vorübergehend. Aber zum Theil ist sie auch, glaube ich, tief in
+                    dem Karakter der Nation gegründet, und diess muss der Philosoph ausspähen, wenn
+                    er über die Gegenwart hinausblicken will –. Der Mensch rückt nicht wahrhaft
+                    weiter fort, wenn er nicht Ideale vor Augen hat, wenn nicht die Ideen des Guten,
+                    Wahren, und Schönen in andern und höhern Bildern, als die uns täglich im bloss
+                    logisch Richtigen, Nüzlichen und Gefällig Harmonischen begegnen, vor uns stehen.
+                    Diese Ideale, der Blick auf sie, das was man, wie ich neulich irgendwo las, sehr
+                    gut <hi rend="letterspace">Echappées</hi> ins <hi rend="letterspace">Unendliche</hi> nennen kann, fehlt den Franzosen. Zwar nimmt ihre
+                    Einbildungskraft allerdings auch einen ähnlichen Flug; aber eben weil es bloss
+                    die Phantasie ist, die dahin gelangt so bleibt es gehaltleer, und man vermisst
+                    den innern Sinn, der ein lebendiger Zeuge ist, dass jene erhabnen Urbilder nicht
+                    übermenschliche Fremdlinge sind, sondern in dem Innern des menschlichen Busens
+                    wohnen, aus dem sie auch abstammen. Man vermisst die tiefe Energie des Geistes,
+                    die, durch wahre aber innere Erfahrung bereichert, nicht bloss Verhältnisse von
+                    Begriffen, sondern wahres Daseyn entdeckt; man vermisst den grossen bildenden
+                    Sinn, durch welchen der ächte Dichter die Natur auffasst und darstellt; man
+                    vermisst endlich, und diess natürlich am schmerzlichsten, das reine sittliche
+                    Gefühl, das, auf den strengen Begriff der Pflicht bezogen, den erhabenen; auf
+                    das begeisternde Bild einer hohen und idealischen Menschheit, den schönen und
+                    edlen; und in beyden Fällen, den uneigennüzigen Tugendhaften bildet.</p>
+            <p>Wenn es möglich wäre, diesen Ausspruch in schneidender Strenge zu verstehen, so
+                    wäre er das thörichtste Verdammungsurtheil, das der Stolz eines Menschen über
+                    eine Nation aussprechen könnte. Allein so können Sie, mein Lieber, mich nicht
+                    misverstehen. Es ist keine Frage und braucht nicht einmal erwähnt zu werden,
+                    dass jene, die Hauptenergien des menschlichen Gemüths, in einer Nation, die, als
+                    Masse betrachtet, und gerade durch ihre Natur Anlagen, so grosse Achtung und
+                        Bewunderuug<note type="footnote" resp="editor">Wohl eher ein Satzfehler als
+                        ein übernommener Schreibfehler Humboldts. [FZ]</note> verdient, thätig und
+                    mächtig seyn müssen, und selbst wenn man, was doch immer noch sehr übertrieben
+                    wäre, den Franzosen abläugnen wollte, dass sie zur wahren Philosophie, Poesie
+                    und Sittlichkeit auf der eigentlichen und ächten Bahn gelangten, so könnten sie
+                    noch immer andere gleichfalls zum Ziele führende Wege dahin einschlagen. Was ich
+                    meyne ist eigentlich nur das, dass die Richtung ihrer Kultur, nicht bloss ihrer
+                    geistigen Thätigkeit einen gerade vom Ziel abführenden Weg anweist, sondern auch
+                    die Quellen selbst verunreinigt, aus welchen sie entspringt; dass sie, sobald
+                    sie über diesen Gegenstand, die nothwendige Art der Bildung, raisonniren,
+                    geradezu demjenigen widerstreben, was sie allein aufsuchen sollten, und dass
+                    (diess ist der härteste Theil meiner Anklage) in dem gesammten Schaz ihrer
+                    Litteratur (die doch immer als die Darstellung des gesammten Gedankensystems die
+                    richtigste Quelle der Kenntniss einer Nation, besonders einer so hoch
+                    kultivierten, bleibt) kein einziges Denkmal vorhanden ist, aus dem sich ein
+                    entschiedenes Streben nach tiefer Philosophie, ächter Poesie, oder erhabener und
+                    idealischer Sittlichkeit in vollkommener Reinheit, und ohne allen Zusaz
+                    irrdischer Schlacken, (wenn Sie mir den Ausdruck erlauben) erweisen liesse.</p>
+            <p>Die ursprünglichen <hi rend="letterspace">Natur</hi>kräfte stehen also bey dieser
+                    Nation mit der <hi rend="letterspace">Cultur</hi> nicht nur, wie überall, in
+                    einem Streit, sondern auch in einem solchen, der nothwendig mit der Niederlage
+                    des einen beyder Theile endigen muss, und für den es keine Schlichtung in einer
+                        <hi rend="letterspace">kultivierten Natur</hi> giebt. Denn was jene als ihre
+                    freyeste Thätigkeit ansehen müssten, verwirft diese unerbittlich als Schwärmerey
+                    und Wahn. In diesem Streit müssen aber nothwendig die ersteren unterliegen, da
+                    endlich doch immer die Form und der Gedanke siegen, und alles, wie stark es auch
+                    sey, untergehen muss, das keinen intellektuellen Ausdruck zu finden vermag. Sie
+                    werden um so leichter unterdrückt, als die Französische Natur mehr gesund als
+                    derb, mehr leichtgestimmt als kraftvoll ist, und als diese Nation eine so
+                    wunderbare allgemeine Bildungsfähigkeit besizt, dass die Kultur, wenn sie einmal
+                    schädlich wirkt, auch weit allgemeiner schadet als bey ihren Nachbarn.</p>
+            <p>Darum scheint es mir in der That wahr, dass das innere und bessere Leben hier
+                    meistentheils zerknikt wird; und weil es schon viele Generationen hindurch
+                    dieselbe Operation erfahren hat, nun auch wirklich schwächer entglimmt, da der
+                    Mensch gerade da niedergedrückt wird, wo er anfängt emporzustreben. Darum
+                    erfahre ich auch hier fast das Gegentheil von dem, was ich in Deutschland fühle.
+                    In Deutschland vergisst man gerne die Masse, um bey einigen Individuen stehen zu
+                    bleiben; hier, so achtungswerth auch viele Einzelne sind, flüchtet man sich doch
+                    gerne zu diesem wirklich bewundernswürdig sanften, guten und verständigen Volke
+                    hin. In Deutschland lebe ich lieber in der Zukunft als in der Vergangenheit
+                    (denn mit der Gegenwart ist man doch in der Regel nirgends zufrieden), hier
+                    verweile ich am liebsten in dem vorigen und selbst der lezten Hälfte des
+                    sechzehnten Jahrhunderts. Denn wenn man von französischer Kraft spricht, so
+                    findet man sie in der That nur da eigentlich noch versammelt.</p>
+            <p>Es giebt hier jezt mehrere gute Köpfe, die sich mit Eifer mit Metaphysick
+                    beschäftigen, die auch ein grosses Verlangen haben, die Kantische zu kennen.
+                    Aber der wahre Zeit Punkt einer Revolution in diesem Fache ist noch lange nicht
+                    gekommen. Ob sie gleich ihre Philosophie selbst mangelhaft finden, so sind sie
+                    doch mit dem Wege, auf den sie <sic>
+                  <persName ref="econdillac">Condillak</persName>
+               </sic> gebracht hat, vollkommen zufrieden, und
+                    halten ihn für den einzigen wahren. Sie wollen nichts als Analytiker seyn, und
+                    verdrehen und verschlichten jeden Gegenstand, dem sich nun einmal nicht durch
+                    Analysis beykommen lässt; und für die Analyse selbst fehlt ihnen die nothwendige
+                    Strenge und Schärfe. Sie haben Ein ungeheures Schreckbild: angebohrene Ideen;
+                    und dafür muss alles gelten, was in das eigentlich nicht weiter Erklärbare
+                    eingreift, man möge es nun innere Geistesform, oder das Ich, oder allgemein das
+                    Ursprüngliche und Unvermittelte, oder im Praktischen Vernunft oder
+                    Vernunftinstinkt u.s.f. nennen. Man erschöpft vergebens die reichste
+                    Mannichfaltigkeit der Formen, alles soll auflösbar, alles bis zur Sensation
+                    zurückführbar seyn, die selbst nachher natürlich an Nichts festem hängen kann.
+                    Mit nothwendigem Sezen, mit der Abstraktion von aller äussern Erfahrung, mit dem
+                    durchaus bedingungslosen darf man gar nicht kommen. Alles diess sind nur
+                    Scheinbilder der metaphysicirenden Vernunft.</p>
+            <p>Bey dieser Philosophie muss natürlich aller Begriff ächter Tugend verschwinden,
+                    und sich in einen bloss vernünftigen Eigennuz auflösen. Auch ist es dieser
+                    leztere, den die hiesigen Moralisten recht allgemein fühlbar machen möchten. De
+                    creer des habitudes vertueuses ist ihr Haupt Ziel. Der Hang nach Grundsäzen zu
+                    handeln ist wirklich dem französischen Karakter nicht einmal in dem Grade eigen,
+                    als er einem Nationalkarakter eigen seyn kann; von Gefühlen besorgen sie immer
+                    Schwärmerey; es bleibt also nichts übrig, als Gewohnheiten. Diess ist um so
+                    furchtbarer, als die Moralität sonst mächtige Stützen verliert. Wirklich
+                    übertriebene Furcht vor Fanatismus und Aberglauben bringt gegen jede religiöse
+                    Empfindung (wenigstens bey einer grossen Zahl von Köpfen, indess andere mit
+                    nicht grossem Glücke deistische Ideen allgemein zu machen suchen) welcher Art
+                    sie auch sey, entweder Erbitterung und Hass oder wenigstens eine bloss
+                    verachtende Toleranz hervor, und wird derselben unstreitig eine der Aufklärung
+                    noch ungünstigere Richtung geben. Andere Arten erhöhter Empfindsamkeit fehlen
+                    gleichfalls, und so muss natürlich, da der Mensch doch einmal einer innern
+                    Bewegung bedarf, die Einbildungskraft durch keine Regel geleitet müssig
+                    umherschweifen, oder die nicht durch Empfindung gemilderte Leidenschaft
+                    ausserhalb suchen, was allein in uns zu finden wäre –.</p>
+            <p>In diesem Zustande könnte die Kunst, besonders die Dichtkunst, eine grosse Hülfe
+                    gewähren; allein daran ist hier nicht zu denken, wo selbst die, welchen die
+                    Französische, über die sie wirklich erhaben sind, weder den Geist noch das Herz
+                    erfüllt, sie dennoch für die höchste Poesie, und die ihnen unendlich mehr
+                    verwandte Englische zB. für Etwas Edleres, Gehaltvolleres und Besseres, nur
+                    nicht für <hi rend="letterspace">Poesie</hi> anerkennen: ein sicherer Beweis,
+                    dass ihnen der eigentliche Kunstsinn mangelt; dass sie in dem, was sie Poesie
+                    nennen, nur eine gewisse bestimmte äussere Form fühlen, und in dem wahren und
+                    ächten, mehr durch den Gehalt, als durch das, was eigentlich Kunst Form ist,
+                    angezogen werden.</p>
+            <p>Die griechische Einfachheit und Zartheit, die sich so ganz auf diese Seite neigt,
+                    ist dem französischen Charakter durchaus fremd, ebenso die nordische Derbheit
+                    und Stärke; und doch sprosst wohl nur aus der glücklichen Vereinigung beyder die
+                    schönste poetische und philosophische Blüthe empor, die vielleicht darum künftig
+                    einmal am besten auf deutschem Boden fortkömmt, weil die Natur die Deutschen am
+                    wenigsten mit einseitigen Vorzügen begabt hat, welche die Erreichung allgemeiner
+                    Vollkommenheit hindern könnten; sie mehr kräftig <hi rend="letterspace">ausgestattet</hi>, als selbst <hi rend="letterspace">geformt</hi> hat.</p>
+            <p>Ich sagte so eben, dass die Franzosen in der Philosophie nie anders als
+                    analytisch verfahren. Man könnte vielleicht nach der im Vorigen gemachten
+                    Darstellung den Hauptfehler ihrer <hi rend="letterspace">gebildeten</hi> Natur
+                    (denn die ungebildete ist immer gut) dadurch ausdrücken, dass sie alle <hi rend="letterspace">Synthesis</hi> wegläugnen; nichts anerkennen, als was
+                    sich mechanisch erklären lässt; die freie Zeugung des Geistes und Willens aus
+                    dem Nichts nicht gelten lassen; und ihm selbst da, wo sie ihm zB. im Handeln
+                    oder Dichten gleichsam unbewusst entschlüpft, nicht volles Recht wiederfahren
+                    lassen. In der That hätte, glaube ich, der, welcher in französischer Sprache
+                    irgend eine Synthesis (eine Thathandlung des Geistes oder Willens) rein und
+                    allgemeinverständlich aufstellen könnte, das Räthsel gelöst. „Doch wohl nicht
+                    bloss die Franzosen?“ werden Sie mir einwenden. Und freylich ist diess sehr
+                    wahr. Denn da liegt gerade jede Philosophie im Argen.</p>
+            <p>Überhaupt hätte mich die Scheu vor der Nemesis auch schon so weit nicht schreiben
+                    lassen, wenn ich nicht, wie schon gesagt, fürchtete, unser guter <persName ref="jibaggesen">Baggesen</persName> gäbe ihnen ein gar zu arges Bild des
+                    hiesigen Zustandes, das denn ganz wunderbar auf den zurückleuchtete, der
+                    freywillig schon ein Jahr hier ist, und noch immer wenigstens nicht sehr
+                    ernstlich auf seinen Rückzug denkt. Desswegen schien es mir nöthig, Ihnen zu
+                    zeigen, dass ich mich selbst wenigstens nicht auch mit dem Strohme fortreissen
+                    lasse, und immer kann es nicht schaden, von Zeit zu Zeit sein
+                    Glaubensbekenntniss abzulegen, wenn man unter Ungläubigen lebt.</p>
+            <p>Sehen Sie also, liebster Freund, das bisherige nur als eine Herzens Erleichterung
+                    meines beunruhigten vaterländischen Gewissens an. Sonst kann ich nicht läugnen,
+                    verweile ich wenig bey diesen Seiten, die man bald in den ersten Wochen bemerkt,
+                    und spühre mehr dem tiefern, verstecktern, und bessern nach. So bekannt auch im
+                    allgemeinen die Haupt Eigenthümlichkeiten dieses Nationalkarakters sind, so
+                    führt doch seine genauere Betrachtung noch auf Resultate, die für die allgemeine
+                    Menschenkenntniss schlechterdings nicht unwichtig sind. Vor allem lernt man, wie
+                    der Verstand, wenn er nicht hoch aber dabey einseitig bearbeitet ist, gleichsam
+                    die Rolle aller übrigen Fähigkeiten zu spielen im Stande ist; welche Gestalt
+                    unter seiner Herrschaft die Phantasie annimmt; und wie selbst das Gefühl seiner
+                    Natur nach die Forderungen desselben umwandlen kann, ohne dieselbe ganz
+                    aufzugeben. Denn das, was ihn in diesem Charakter so merkwürdig macht, ist
+                    gerade die ihm an sich heterogene Verbindung mit einem nicht bloss lebhaften,
+                    sondern heftigen, immer unruhigen, und doch immer nach einem äussern und schnell
+                    zu erreichenden Ziele strebenden Temperament. Er disponirt dadurch das Gemüth
+                    mehr zur Leidenschaft, als zum bloss stillen, sich selbst genügenden, Gefühl,
+                    und bringt dadurch eigene Modifikationen der Empfindung hervor, in denen man ihn
+                    immer wieder erkennt. In den spätern Griechen (schon im <persName ref="euripides">Euripides</persName>) werden Sie oft auch eine raisonnirende
+                    und sophistisirende Empfindung bemerkt haben; aber hier ist beydes viel inniger
+                    mit einander amalgamirt. Die Empfindung nimmt in der That einen höhern Flug, als
+                    es die eigentlich physische vermöchte; sie ist wahrhaft Empfindung, denn sie ist
+                    weder kalt noch erkünstelt; aber sie besizt ein Raffinement, sie führt eine
+                    Sprache, die allein den Antheil des Verstandes verrathen würde, wenn sich sonst
+                    auch nicht in der Spannung, in die sie die Seele versezt, in dem zerstöhrenden
+                    Feuer, dem es an aller wohlthätig erwärmenden Gluth fehlt, Mangel an
+                    eigentlichem Sinn, an Natureinfachheit, an Empfänglichkeit zeigte. Freylich
+                    sieht man diess nur selten in einer gewissen Vollkommenheit, da es in dieser nur
+                    in wirklich grossen Seelen erscheinen kann; aber es ist, dünkt mich, das, was
+                    der Beredsamkeit <persName ref="jjrousseau">Rousseau</persName>s zB. vorzüglich
+                    der Beredsamkeit der Leidenschaft eine so eigenthümliche Farbe giebt. In welche
+                    Sprache man das zu übersezen versuchen möchte, so verliehrt es immer gerade sein
+                    eigentliches Wesen, und wie es da ist, kann man nicht läugnen, ist es nicht nur
+                    in sich schön und gross, sondern entdeckt auch neue Nüançen, neue Seiten in dem
+                    menschlichen Gemüthe. Gerade darinn, in einem Gebrauche von Begriffen in einem
+                    Gebiete, in dem sonst der Begriff nichts vermag, in einer künstlichen Verbindung
+                    blosser Verhältniss Beziehungen, in einer aufs feinste berechneten Stellung
+                    aller Theile des Gedankens scheint mir die grosse Stärke auch der französischen
+                    Sprache zu liegen. Keine andere, kömmt ihr in der Kunst des Raisonnements
+                    gleich, und wenn man es epigrammatisch ausdrücken wollte, so könnte man sagen,
+                    dass keine soviel durch blosse Worte auszurichten vermag.</p>
+            <p>Es giebt eine Eigenschaft, die dem Franzosen vorzugsweise vor dem Deutschen eigen
+                    ist, und in der der leztere viel von dem erstern lernen könnte – die <hi rend="letterspace">Besonnenheit</hi>, die so wenig bloss ruhig ist, dass sie
+                    ihm auch in der höchsten Bewegung nicht fehlt. Der Deutsche ist so oft in dem
+                    Falle sich zu schämen; der Franzose nur äusserst selten; und ich sage diess hier
+                    gar nicht ironisch. Wir Deutsche unterscheiden immer ganz bestimmt, zwey
+                    gleichsam ganz verschiedene Welten, eine unsichtbare und eine sichtbare, ein
+                    inneres und ein äusseres Daseyn, und vergessen sehr oft, dass wir, indem wir
+                    reden schreiben, u. handlen, aus dem ersteren heraustreten. Dadurch sind wir
+                    dunkel, oft (da wir uns so oft nur als Natur zeigen) unfein, und beinahe immer
+                    formlos. Bey den Franzosen ist es gerade das Gegentheil, sie berechnen alles auf
+                    die Wirkung, und diess ist es, was im Grossen und im Kleinen, ihnen die
+                    politischen und gesellschaftlichen Vortheile über ihre Nachbarn giebt. Man
+                    verfolge nur mit rücksichtsloser Kälte Einen Zweck, und man wird ihn immer
+                    erreichen. Wer immer nur darauf denkt, wie er handlen, wenig, wie er seyn will,
+                    der wird in dem äussern Leben unfehlbar seyn.</p>
+            <p>Aber es wird dadurch doch zugleich etwas bey weitem achtungswürdigeres erreicht.
+                    Diese Rücksicht auf den Gebrauch und das äussere Leben hindert vielleicht das
+                    tiefe Forschen nach Wahrheit, aber es bewahrt auch vor einer Menge Chimären, und
+                    erleichtert die Verbreitung des wirklich gefundenen; sie lähmt vielleicht den
+                    hohen und idealischen Flug der Empfindung, aber sie bricht auch die Gewalt des
+                    rohen Naturtriebs; und vor allem bringt sie das Streben nach einer gewissen
+                    Kunstform hervor, welches nicht nur der allgemeinen Politur, sondern auch der
+                    Kunst in ihrem ächtesten Begriffe äusserst wesentlich ist. Diese grössere
+                    Kunstmässigkeit ist in der That in ihren Schauspielern, in ihren Dichtern, in
+                    ihren Prosaisten, ja selbst im Umgange und im täglichen Gespräch äusserst
+                    auffallend, und macht dass ihnen eigentlich alle übrige Nationen auf gewisse
+                    Weise roh vorkommen müssen. Vielleicht rührt auch daher ihr Urtheil, dass nur
+                    sie eigentlich Einfachheit und Natürlichkeit besizen, weil sie freylich alles
+                    wegschneiden, was nur irgend zu üppig scheinen könnte .</p>
+            <p>Wenn die Franzosen je eine grosse Tiefe des Geistes und Herzens gewinnen, wenn
+                    sie dann damit die ihnen in so hohem Grade eigene Gabe verbinden, das, was sonst
+                    nur einsam in einzelnen Köpfen ruht, in den täglichen Umlauf des Lebens zu
+                    bringen; so können sie erstaunlich wohlthätig für Europa werden, für das sie bis
+                    jezt fast durch alle Zeiten hindurch nur beunruhigend gewesen sind. Und ich
+                    glaube allerdings, dass es dahin noch einst kommen wird. Ein Charakter-Zustand,
+                    wie der, den ich Ihnen im Vorigen und ich glaube nicht unwahr schilderte, muss
+                    beinahe von selbst zum Durchbruche führen; wirklich haben die Franzosen an einer
+                    gewissen Soliditaet gewonnen, nur dass es bis jezt eine solche ist, die, ohne
+                    die Achtung sehr zu erhöhen, die Liebenswürdigkeit beinah vermindert, auch
+                    bekümmern sie sich sorgfältiger um fremde Sprachen und fremde
+                    Geistesbildung.</p>
+            <p>Zwar wendet man gegen eine solche <hi rend="letterspace">fortschreitende</hi>
+                    Bildung (oder vielmehr gegen eine solche <hi rend="letterspace">umkehrende</hi>,
+                    denn es müsste eine Art der Wiedergeburt vorgehen) gewöhnlich die Hindernisse
+                    ein, welche die Sprache ihnen in den Weg legen würde; allein daran glaube ich
+                    nicht recht. Es giebt eigentlich wenig Dinge in einer Sprache, die so fest sind,
+                    dass sie keine Umänderung erlaubten, und das Feld des willkührlichen Gebrauchs
+                    ist immer noch gross genug, dass das wahre Genie sich mit Freyheit darinn
+                    bewegen kann. Das Genie schafft sich ja immer selbst seine Sprache. Von den
+                    ersten Anfängen seiner Ausbildung an nuançirt es für sich die Bedeutungen der
+                    Worte, bildet es sich (alles innerhalb selbst der strengsten Grammatick) seine
+                    eigenen Phrasen, verwebt es mit einem Worte seine Individualität in seine
+                    Sprache. Welche neue Wendung hat nicht die Französische schon durch Rousseau,
+                    Mirabeau u.s.f. erhalten! Weil aber freylich eine dem Widerstande
+                    verhältnissmässige Kraft erfordert wird, um in diesem Kampfe zu siegen, so kann
+                    es seyn, dass Einzelne wirklich verstummen, weil ihre Individualität zu schön
+                    und zart ist, um in der Sprache ihrer Nation einen Ausdruck zu finden. Das
+                    Einzige, was man von der französischen vielleicht behaupten könnte, wäre die
+                    Unmöglichkeit, je einen eigentlich dichterischen Theil zu bekommen. Französische
+                    Poesie kann leicht untergehen, und unwiderbringlich untergehen; darüber werden
+                    sich aber die leicht trösten, welche die Poesie nur der Kindheit der Nationen
+                    anweisen.</p>
+            <p>Ich kann nicht läugnen, dass ich auf die Entwicklung des Französischen Geistes
+                    äusserst begierig bin. Aber freilich muss, um davon Früchte zu sehen, erst
+                    Friede geworden, erst allgemeiner Wohlstand (wozu troz der Noth des Tages der
+                    Saame doch reichlich ausgestreut ist) verbreitet, erst das Gemüth in Freyheit,
+                    der Geist in Schwung gesezt seyn.</p>
+            <p>Bis dahin können nur vorbereitende Schritte geschehen, grosses Vorrücken kann man
+                    nur in den Theilen der Wissenschaften erwarten, von denen ich hier gar nicht
+                    sprach, nur in den mathematischen und naturhistorischen. Denn vergessen muss man
+                    auch nicht, dass ein Beurtheiler wie ich, den Franzosen immer gewissermassen
+                    Unrecht thut, weil er in einem durchaus andern Fach lebt und webt als worinn sie
+                    vorzüglich sind.</p>
+            <p>Aber genug von diesem allgemeinen Geschwätz. Es ist eine recht deutsche Unart in
+                    solche weitläuftige Excurse in Briefen zu verfallen. Aber im freundschaftlichen
+                    Umgange kann ich einmal der Begierde nicht widerstehen, auch das auszusprechen,
+                    was mich gerade am meisten beschäftigt, und darum bitte ich Sie, Theurer Freund,
+                    recht herzlich um freundschaftliche Nachsicht für diese Ausführlichkeit. Es kam
+                    mir wirklich nur darauf an, Ihnen zu sagen, wie ich die Welt ansehe, die mich
+                    hier umgiebt, und es kam mir nicht in den Sinn, sie Ihnen zu schildern. Denn wer
+                    kennt den französischen Charakter besser als Sie, der Sie immer in der Nähe
+                    Frankreichs und in Verbindungen mit wichtigen Männern dieser Nation lebten, der
+                    Sie selbst so oft das Geheimniss gefunden haben, ihre Sprache Ihren eigenen
+                    tiefern und bessern Ideen anzupassen? Sehen Sie also diese Blätter recht
+                    eigentlich als <hi rend="letterspace">für Sie</hi> und <hi rend="letterspace">nur für Sie</hi> geschrieben an. Ich möchte um alles in der Welt vor keinem
+                    andern Richterstuhle als vor der Nachsicht der Freundschaft mit diesen flüchtig
+                    hingeworfenen Bemerkungen erscheinen, die noch dazu über eine ganze Nation immer
+                    Etwas Anmaassendes haben, und gegen die sich gewöhnlich zugleich die griechische
+                    und die französische Nemesis erhebt.</p>
+            <p>Von einzelnen Menschen und Dingen könnte ich Ihnen vielleicht Mancherley sagen,
+                    wenn wir erst wieder, wie ich hoffe, in fortwährendem Briefwechsel stehen; in
+                    Einem Briefe ist es, wie Sie selbst fühlen, nicht leicht möglich. Ich habe in
+                    der That das Glück gehabt, hier mehrere Menschen zu finden, mit denen es möglich
+                    ist, einen sehr interessanten Umgang zu haben. Nur ist der Umgang hier freylich
+                    etwas sehr Unterbrochenes. Eine meiner neuern Bekanntschaften ist <persName ref="algstael">die Stael</persName>, in der That eine äusserst merkwürdige
+                    Frau, und recht geschaffen, der Französischen Bildung neue Gestalten zu geben,
+                    da sie offenbar mehr und Etwas anderes besizt, als das was gewöhnlich in dem
+                    Französischen Nationalkarakter liegt.</p>
+            <p>Unter den Deutschen, die seit längerer Zeit sich hier aufhalten, ist
+                            <sic>
+                  <persName ref="gschlabrendorf">Schlabberndorf</persName>
+               </sic>, den
+                    Sie kennen, unstreitig bey weitem der interessanteste. Er erinnert sich Ihrer
+                    mit herzlichem Antheil, und ich bin überzeugt, dass auch troz vieler
+                    Verschiedenheiten in Meynung und Denkungsart sein Umgang Ihnen viel Vergnügen
+                    gewähren würde.</p>
+            <p>
+               <persName ref="jibaggesen">Baggesen</persName> ist uns hier eine überaus
+                    angenehme Erscheinung gewesen. Ich kannte ihn noch gar nicht, und war doch durch
+                    vieles, was ich von ihm gehört hatte, sehr auf seine Bekanntschaft gespannt. Er
+                    hat eine durchaus eigene Geistesform und ächte Genialität. Nur selten trifft man
+                    gewiss eine Phantasie an, die soviel Beweglichkeit doch mit soviel Tiefe und
+                    gesezmässiger Bildungskraft verbindet, das einige seiner poetischen Stücke ganz
+                    unläugbar darthun. Grüssen Sie ihn noch einmal herzlich von uns.</p>
+            <p>Von meinen hiesigen Arbeiten werden Sie bald eine sehen, für die ich mir hier
+                    recht eigen Ihre Aufmerksamkeit erbitten möchte. <persName ref="jfvieweg">Vieweg</persName> in <placeName ref="Berlin">Berlin</placeName> wird Ihnen
+                        <bibl sameAs="219">ein Bändchen „Aesthetische Versuche“</bibl> überschicken,
+                    die ich im vorigen Winter hier geschrieben habe. Sie werden darinn eine
+                    Beurtheilung von <persName ref="jwgoethe">Goethe</persName>s <bibl sameAs="146">Herrmann und Dorothea</bibl>, aber zugleich viel allgemeines über <hi rend="letterspace">Poesie</hi> und <hi rend="letterspace">Kunst</hi>
+                    überhaupt finden. Wie herzlich würde ich Ihnen danken, wenn Sie mir ein Wort
+                    eines gütigen Urtheils darüber sagten. Ich bedarf dessen um so mehr, da ich in
+                    der That immer fast nur in Rücksicht auf die wenigen Menschen schreibe, deren
+                    Geist ich kenne, und die immer lebendig vor meinen Gedanken stehen, sobald es
+                    mir gelingt in einiger Tiefe in das Gebiet der Ideen einzudringen. Über den
+                    Gegenstand selbst, glaube ich, werden wir einig seyn. Auch sehen Sie, dass ich
+                    den Muth nicht verlohren habe, meine freye Meynung über die Werke derer zu
+                    sagen, die ich meine Freunde nennen darf. Denn auch hier bin ich des lebhaften
+                    Widerspruchs eines Theils des Publikums fast gewiss.</p>
+            <p>Die Abhandlungen die Sie in <placeName ref="Wandsbek">Wandsbeck</placeName> ihrer
+                    Aufmerksamkeit widmeten sind seitdem liegen geblieben. Ich gestehe, dass erst
+                    Sie mir die Augen über sie eröffnet, und mir gezeigt hatten, dass ein Gegenstand
+                    wie dieser wenigstens andere Vorbereitungen erfordere. Ich hatte das
+                    undurchdringliche Geheimniss des <hi rend="letterspace">Charakters</hi> wirklich
+                    zu leicht angesehen. Indessen ist mir die Sache nur desto werther geworden, und
+                    ich habe jezt neue und ich glaube bessere Plane dazu –.</p>
+            <p>
+               <persName ref="cvh1">Meine Frau</persName> grüsst Sie, liebster Jacobi, <persName ref="shjacobi">Lenchen</persName> und <persName ref="akcjacobi">Lottchen</persName> mit der herzlichsten Freundschaft. Sie lebt hier recht
+                    vergnügt, und hat sich zwar sehr abwechslend, aber doch in der lezten Zeit
+                    besser als sonst befunden. Grüssen Sie von uns beyden auch tausendmal
+                        Reimarussens<note type="footnote" resp="editor">Der Arzt und Naturforscher
+                            <persName ref="jahreimarus">Johann Albert Heinrich Reimarus</persName>
+                        und seine Frau, die Salonnière <persName ref="cslreimarus">Sophie
+                            Reimarus</persName>.</note>, Sievekings<note type="footnote" resp="editor">Der Kaufmann <persName ref="ghsieveking">Georg Heinrich
+                            Sieveking</persName> und seine Frau <persName ref="jmsieveking">Johanna
+                            Margaretha</persName>, eine Tochter von <persName ref="jahreimarus">J.
+                            A. H. Reimarus</persName>.</note>, und Poels<note type="footnote" resp="editor">Der Diplomat und Schriftsteller <persName ref="ppoel">Piter
+                            Poel</persName> und seine Frau <persName ref="fepoel">Friederike
+                            Elisabeth</persName>.</note>, und sagen Sie allen, dass wir unendlich
+                    oft an <placeName ref="Hamburg">Hamburg</placeName> zurückdenken, dass wir viele
+                    Plane machen, dorthin zurückzukommen, und Plane die hoffentlich nicht
+                    unausgeführt bleiben sollen. Werden auch Sie denn noch da seyn? Sie müssen es
+                    nothwendig, wenn die Erinnerung an unser ehmaliges Zusammenseyn uns nicht die
+                    Freude um mehr als die Hälfte verderben soll.</p>
+            <p>Von ihren Kindern hörten wir zulezt nur durch <persName ref="creinhard">Stinchen</persName>. Ich habe <persName ref="jfjacobi">Fritz</persName> im
+                    Sommer 97 von <placeName ref="Dresden">Dresden</placeName> aus geschrieben, ihm
+                    für das köstliche Rosenöl gedankt, das er <persName ref="cvh1">meiner
+                        Frau</persName> geschickt hatte, und ihm gemeldet, dass wir nach <placeName ref="Wien">Wien</placeName> giengen, um von dort nach Italien zu reisen,
+                    woraus leider nichts geworden ist. Ich hatte den Brief nach <placeName ref="Braunschweig">Braunschweig</placeName> addressirt, habe aber keine
+                    Antwort erhalten. Grüssen Sie ihn und alle die seinigen innigst von uns.</p>
+            <p>Vor allem aber, liebster Freund, antworten Sie mir bald. Geben Sie mir nur ein
+                    Zeichen des Lebens, wenn Sie auch nicht gerade gestimmt sind, viel zu schreiben,
+                    und warten Sie ja nicht erst meine Schrift ab, mit deren Erscheinung es noch bis
+                    gegen Neujahr dauern kann. Meine Addresse ist: à M. d. H. à <placeName ref="Paris">Paris</placeName> rue du Colombier, Faubourg St. Germain nro. 7.
+                    und bis zum Frühjahr bleibe ich noch hier. So lange dauert es zB. schon noch,
+                    ehe man nur den Apoll hier sehen kann. Dann gehe ich, wenn es Friede ist nach
+                    Italien, sonst nach England. So sind nehmlich die Plane. Die Erfüllung?</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, und vergessen Sie nicht
+                        ihren</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

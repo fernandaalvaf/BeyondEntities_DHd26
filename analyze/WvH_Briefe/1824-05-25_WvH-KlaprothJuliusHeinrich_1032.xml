@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 4. November 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Julius Klaproth, 25.05.1824<idno type="BBAW">1032</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Mantes-la-Jolie, Archives Communales, Sous-série 3 S,
+                            Collection Clerc de Landresse, Inv.-Nr. 1897</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Quilici/Ragghianti 2001:
+                      &lt;URL: http://www.eliohs.unifi.it/testi/800/quilraggh/quilraggh_whumb.html#le1wh&gt;</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="dlalbrecht">
+                  <persName>Albrecht, Daniel Ludwig</persName>
+               </person>
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein
+                    zum</persName>
+               </person>
+               <person corresp="jpfancillon">
+                  <persName>Ancillon, Jean Pierre Frédéric</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="mengzi">
+                  <persName>Mengzi (Mencius)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="514">Bopp, Franz: Ardschuna’s Reise zu Indra’s Himmel, nebst anderen
+                    Episoden des Maha-Bharata (Berlin: Königliche Akademie der Wissenschaften
+                    1824)</bibl>
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache
+                    (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="859">Bulletin général et universel des annonces et des nouvelles
+                    scientifiques (Paris: 1823–1831)</bibl>
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen / Davis,
+                    John: A Grammar of the Massachusetts Indian Language (Boston: Phelps and Farnham
+                    1822)</bibl>
+               <bibl corresp="124">Eliot, John: The Indian Grammar begun: or, An essay to bring the Indian language into
+                    rules, for the help of such as desire to learn the same, for the furtherance of the
+                    Gospel among them (Cambridge: Marmaduke Johnson 1666)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430. – Separatdruck bereits von 1823</bibl>
+               <bibl corresp="860">Julien, Stanislas: Meng Tseu vel Mencium inter Sinensis philosophos, ingenio,
+                    doctrina, nominisque claritate Confucio proximum, 2 Bde. (Paris: Dondey-Dupré
+                    1824–1826)</bibl>
+               <bibl corresp="252">Klaproth, Heinrich Julius: Tableaux historiques de l’Asie, 2 Bände
+                    (Paris/Stuttgart/London: Schubart [u.a.] 1824–1826)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich statte E. Wohlgeboren meinen wärmsten Dank für das mir
+                        überschickte schöne Exemplar der tableaux hist. de l’Asie …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-05-25"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="10" type="prev">08.05.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. November 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1"/> Ich statte E. Wohlgeboren meinen wärmsten Dank für das mir
+                    überschickte schöne Exemplar der <bibl sameAs="252">
+                  <hi rend="antiqua">tableaux hist. de l’Asie</hi>
+               </bibl> und die Zueignung, die mir ungemein schmeichelhaft gewesen ist, ab. Ich
+                    habe die Karten u. den Text mit dem größesten Interesse durchgesehen und
+                    gelesen, u. es freut mich sehr aus Ihrem gütigen Schreiben zu sehen, daß dies
+                    wichtige Werk, dem die Asiatische Geschichte durch die Benutzung der
+                    Originalquellen so viele Aufklärungen verdanken wird, ununterbrochen fortgesetzt
+                    werden wird. Das für den <persName ref="fw3">König</persName> bestimmte Exemplar
+                    habe ich dem <persName ref="dlalbrecht">
+                  <hi rend="antiqua">Cabinets</hi> Rath <hi rend="antiqua">Albrecht</hi>
+               </persName> überschickt, u. ihn im Namen E. Wohlgeboren gebeten, dasselbe
+                        <persName ref="fw3">Sr. Majestät</persName> zu überreichen. <persName ref="jpfancillon">Herr <hi rend="antiqua">Ancillon</hi>
+               </persName> hat gleichfalls das seinige erhalten.</p>
+            <p>
+               <persName ref="ksfaltenstein">Minister <hi rend="antiqua">Altenstein</hi>
+               </persName> war in der That sehr krank, u. man konnte wohl Besorgnisse für seine
+                    künftige Geschäftsführung hegen. Er ist aber jetzt eigentlich ganz hergestellt,
+                    u. wenn er sich auch noch schont, so scheint mir doch kein Zweifel zu seyn, daß
+                    er ferner wird mit seiner gewöhnlichen Thätigkeit dem Ministerium vorstehen
+                    können. E. Wohlgeboren haben sehr Recht zu sagen, daß das Gegentheil ein großes
+                    Uebel <pb n="2"/> für alle wissenschaftliche Bemühungen bei uns seyn würde. Auch
+                    ich würde seinen Abgang sehr bedauern, da ich ihn aufrichtig schätze, und mich
+                    fortdauernd seiner Güte u. Freundschaft erfreue.</p>
+            <p>Ich bin so frei, E. Wohlgeboren ein Exemplar einer schon vor
+                    längerer Zeit in der <orgName ref="3">Akademie</orgName> gelesenen <bibl sameAs="222">Abhandlung</bibl> zu überschicken.
+                    Sie enthält auch über die Amerikanischen Sprachen Einiges, was vielleicht Ihr
+                    Interesse erweckt. Ihr eigentlicher Zweck aber ist, einen nicht unwichtigen
+                    Punkt in den allgemeinen Ansichten über Sprachentstehung u. Sprachbeurtheilung
+                    zu prüfen u. wo möglich zu berichtigen. Diese Arbeit hängt darin mit meinen
+                    früheren zusammen, so wie mit einigen, die mich jetzt beschäftigen.</p>
+            <p>
+               <persName ref="bopp">Herrn <hi rend="antiqua">Bopps</hi>
+               </persName> Bemühungen für die Verbreitung des <hi rend="antiqua">Sanskrits</hi>
+                    haben den erwünschtesten Fortgang. Er giebt jetzt <bibl sameAs="514">einige sehr
+                        interessante Episoden des <hi rend="antiqua">Maha Bharat</hi>
+               </bibl> heraus, deren Druck so gut als vollendet ist. Bis jetzt ist der Text,
+                    wofür ich nicht ganz gestimmt habe, mit einer metrischen deutschen Uebersetzung
+                    begleitet. Allein es wird bald eine Auflage mit lateinischer Uebersetzung
+                    nachfolgen. Von <bibl sameAs="570">seiner <hi rend="antiqua">Sanskrit
+                            Grammatik</hi>
+               </bibl> sind 6 Bogen in 4. gedruckt. Nach diesen zu urtheilen, scheint sie mir
+                    alle Forderungen, die sich an ein solches Werk machen lassen, zu erfüllen. Sie
+                    ist deutsch, u. dies scheint mir zu billigen. Im <pb n="3"/> Auslande wird man
+                    doch immer, wäre es auch nur aus Vorurtheil, die Englischen Grammatiken
+                    vorziehen, u. für den freien Ausdruck grammatischer Ideen würde das Lateinische,
+                    wenn man es nicht in außerordentlichem Grade besitzt, kaum so gut dienen
+                    können.</p>
+            <p>Für die Indischen Popularsprachen weiß ich E. Wohlgeboren gar keinen Rath zu
+                    geben. In Deutschland hat sich wohl niemand damit beschäftigt, u. mir ist leider
+                    ihr Studium noch ganz unbekannt.</p>
+            <p>Für die <hi rend="antiqua">Americana</hi> bin ich E. Wohlgeboren ungemein
+                    verbunden. Den neuen Abdruck von <hi rend="antiqua">
+                  <persName ref="jeliot">Elliot</persName>s</hi> <bibl sameAs="123">Grammatik</bibl> besitze ich selbst. Es ist <sic>Schade,</sic> daß er auch
+                    nicht die mindeste neue Erweiterung enthält, sondern bloß ein sorgfältiger
+                    Abdruck der <bibl sameAs="124">alten Ausgabe</bibl> ist, wie ich mich durch sehr genaue Vergleichung
+                    überzeugt habe. Auch die andren beigelegten Blätter haben mich sehr interessirt.
+                    Den <bibl sameAs="860">
+                  <hi rend="antiqua">Mencius</hi>
+               </bibl> werde ich <persName ref="avh">meinen
+                        Bruder</persName> bitten mir, wenn er erscheint, zu schicken, u. auf das
+                        <bibl sameAs="859">
+                  <hi rend="antiqua">Bulletin universel</hi>
+               </bibl> habe ich
+                    für die mich interessirenden Theile <hi rend="antiqua">subscribirt</hi>.</p>
+            <closer>
+               <salute>Indem ich E. Wohlgeboren meinen herzlichen Dank, u. meine wärmsten
+                        Wünsche für den glücklichen Erfolg Ihrer wichtigen wissenschaftlichen
+                        Untersuchungen wiederhole, bitte ich Sie die Versicherung meiner
+                        aufrichtigsten u. ausgezeichneten Hochachtung anzunehmen.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 25. <hi rend="antiqua">Mai</hi>,
+                        1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

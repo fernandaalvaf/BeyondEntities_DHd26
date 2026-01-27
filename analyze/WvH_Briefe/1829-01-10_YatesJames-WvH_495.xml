@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 10. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>James Yates an Wilhelm von Humboldt, 10.01.1829<idno type="BBAW">495</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 52, Bl.
+                            154–155</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 213</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="lbertonio">
+                  <persName>Bertonio, Ludovico</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="dyates">
+                  <persName>Yates, Dorothea</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="50">Bertonio, Ludovico: Vocabulario de la lengua Aymara (Chucuyto:
+                    Francisco del Canto 1612)</bibl>
+               <bibl corresp="194">Humboldt, Alexander von: Ansichten der Natur mit wissenschaftlichen
+                    Erläuterungen (Tübingen: J. G. Cotta 1808)</bibl>
+               <bibl corresp="1071">Humboldt, Alexander von: Cosmos: a sketch of a physical
+                    description of the universe, übers. v. E. C. Otté, B. H. Paul, W. S. Dallas
+                    (London: H.G. Bohn 1849-1858)</bibl>
+               <bibl corresp="1072">Humboldt, Alexander von: Kosmos : Entwurf einer physischen
+                    Weltbeschreibung, 5 Bd. (Stuttgart / Tübingen: Cotta 1845–1862)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Baron, I have the pleasure of writing to your
+                        Excellency respecting the possibility …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jyates">Yates, James</persName>
+               <date type="author" when="1829-01-10"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jyates">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="ay">Aimara</language>
+            <language ident="hi">Hindustani (Hindi)</language>
+            <!-- = Hindustanisch / Hindustani (Indien) = Hindi!? -->
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">11. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Yates/Yates-WvH_1829_01_10/Coll.ling.fol.52_318.jpg"/>
+      <graphic url="Yates/Yates-WvH_1829_01_10/Coll.ling.fol.52_319.jpg"/>
+      <graphic url="Yates/Yates-WvH_1829_01_10/Coll.ling.fol.52_320.jpg"/>
+      <graphic url="Yates/Yates-WvH_1829_01_10/Coll.ling.fol.52_321.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="152r"/>
+               <address>
+                  <addrLine>49 Upper Bedford Place. Russell Square.<lb/>London</addrLine>
+               </address>
+               <dateline>Jan.<hi rend="superscript">y</hi> 10.<hi rend="superscript">th</hi>
+                        1829.</dateline>
+               <lb/>
+               <salute>My dear Baron,</salute>
+            </opener>
+            <p>I have now the pleasure of writing to your Excellency respecting the possibility
+                    of obtaining a transcript of the copy of <persName ref="lbertonio">Bertonio</persName>’s <bibl sameAs="50">Vocabulario de la Lengua
+                        Aymara</bibl>. This, I fear, is next to impossible. The work is in one
+                    quarto volume, the Spanish and Aymara consisting of 474 pages, the Aymara and
+                    Spanish of 399. The print is rather small, and the forms and orthography of the
+                    Aymara are so unlike the European that even a Spanish scholar would be able to
+                    make an accurate transcript only by the most minute attention and the most
+                    perserving labour. On these accounts it appeared to me vain to attempt the task
+                    of transcription.</p>
+            <p>You will be glad to know that <persName ref="farosen">D.<hi rend="superscript">r</hi> Rosen</persName> stands here in the <add>highest</add>
+                    estimation as a scholar, although he has hitherto obtained but few pupils. He
+                    now chiefly employs <pb n="154v"/> himself in acquiring a knowledge of the
+                    Hindoostanee, a language here of the greatest practical importance, as it is
+                    that which is most generally spoken in India.</p>
+            <p>I have nearly completed the translation of the "<bibl sameAs="194">Ansichten der
+                        Natur</bibl>," but have not yet been able to make an arrangement with a
+                    bookseller for the publication of it.<note type="footnote" resp="editor">Diese
+                        Übersetzung von Yates ist, wenn sie denn fertiggestellt wurde, nie in
+                        den Druck gegangen. Die erste englische Übersetzung stammt von Elizabeth
+                        Juliana Leeves Sabine: Alexander von Humboldt (1849): <hi rend="italic">Aspects of Nature, in Different Lands and Different Climates; with Scientific Elucidations</hi>,
+                        translated by Mrs. Sabine, in two volumes, London: J. Murray &amp; Longman, Brown, Green, and
+                        Longmans. [FZ]</note>
+            </p>
+            <p>I have seen some announcement of an <bibl sameAs="1071">English
+                        translation</bibl> <supplied cert="high">of</supplied> <persName ref="avh">your brother</persName>’s Lectures on Physical geography<note type="footnote" resp="editor">
+                  <persName ref="avh">Alexander von Humboldt</persName> hielt im
+                        Wintersemester 1827/28 an der <orgName ref="6">Berliner
+                            Universität</orgName> und in einem zweiten, teilweise parallel
+                        verlaufenden Zyklus an der benachbarten <orgName ref="63">Singakademie</orgName> Vorträge über die <hi rend="italic">Physische
+                            Erdbeschreibung, mit Prolegomenen über Lage, Gestalt und
+                            Naturbeschaffenheit der Gestirne</hi> – später als »Kosmos-Vorträge«
+                        bezeichnet. Publiziert wurden sie erst Jahre später in überarbeiteter Form:
+                            <bibl sameAs="1072">
+                     <hi rend="italic">Kosmos: Entwurf einer physischen
+                            Weltbeschreibung</hi>
+                  </bibl>, 5 Bände (Stuttgart/Tübingen: Cotta
+                        1845–1862). Von den Originalvorlesungen existieren aber zahlreiche
+                        Nachschriften von Hörern, und eine digitale Edition ist in Arbeit (s. hierzu
+                        das Projekt <hi rend="italic">
+                     <ref type="linkExt"
+                          target="http://www.culture.hu-berlin.de/ck/forschung/hiddenkosmos">Hidden Kosmos — Reconstructing Alexander von Humboldt’s
+                                »Kosmos-Lectures«</ref>
+                  </hi> an der HU Berlin).</note>, which, I hope, will be published. To
+                        <persName ref="avh">him</persName> and to the <persName ref="cvh1">Baroness
+                        von Humboldt</persName> I beg to present my best compliments. If I can
+                    render you any assistance in your very interesting pursuits, I trust you will
+                    communicate your wishes to me, and I remain</p>
+            <closer>
+               <salute>Your Excellency’s faithful and obed.<hi rend="superscript">t</hi>
+                        friend</salute>
+               <signed>James Yates.</signed>
+               <lb/>
+               <persName ref="dyates">M.<hi rend="superscript">rs</hi> Yates</persName> desires
+                    her best respects to the <persName ref="cvh1">Baroness</persName> and to
+                        <persName ref="cvh2">Miss von Humboldt</persName>.<!-- eigentlich postscript, aber closer noch nicht zu Ende... -->
+                    <lb/>
+               <lb/>
+               <pb n="155r vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="155v, Anschrift"/>
+               <address>
+                  <addrLine>To His Excellency</addrLine>
+                  <addrLine>the Minister von Humboldt</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">Berlin</placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

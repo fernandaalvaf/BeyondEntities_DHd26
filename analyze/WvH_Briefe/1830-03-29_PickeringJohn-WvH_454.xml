@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 29.03.1830<idno type="BBAW">454</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 51–54</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 209</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12270</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="eeverett">
+                  <persName>Everett, Edward</persName>
+               </person>
+               <person corresp="msglykas">
+                  <persName>Glykas, Michael Sikidites</persName>
+               </person>
+               <person corresp="gwhaven">
+                  <persName>Haven, George Wallis</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="293">Missionary Herald 24, 1828</bibl>
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the Massachussets
+                    (or Natick) Indian language (Cambridge: E. W. Metcalf and Company 1829)</bibl>
+               <bibl corresp="494">Eliot, John: The Indian primer; or, The way of training up of our
+                    Indian youth in the good knowledge of God, in the knowledge of the Scriptures
+                    and in an ability to Reade (Cambridge, MA: Marmaduke Johnson 1669)</bibl>
+               <bibl corresp="312">Niebuhr, Barthold Georg u. a.: Corpus scriptorum historiae
+                    Byzantinae, 50 Bände (1828–1897)</bibl>
+               <bibl corresp="833">Pickering, John: The Civil Law. In: The American Jurist, and Law
+                    Magazine Vol. 2, No. 3, July 1829, S. 49–65</bibl>
+               <bibl corresp="437">Tsa-la-gi tsu-le-hi-sa-no-hi. A Cherokee Phoenix. Edited by Elias
+                    Boudinot for the Cherokee Nation (1828–1834)</bibl>
+               <bibl corresp="457">Williams, Roger: A Key into the Language of America: or, An help to
+                    the Language of the Natives in that part of America, called New England.
+                    Together, with briefe Observations of the Customs, Manners and Worships, &amp;c.
+                    of the aforesaid Natives, in Peace and Warre, in Life and Death. On all which
+                    are added Spirituall Observations, Generall and Particular by the Author
+                    (London: Gregory Dexter 1643)</bibl>
+               <bibl corresp="456">Williams, Roger: Key to the Indian Language (Providence: J. Miller
+                    1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, It is a great while since I have had the pleasure to
+                        hear from you …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1830-03-29"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="513" type="prev">15.11.1828</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="wam">Massachusett</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_109.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_110.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_111.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_112.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_113.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_114.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_115.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1830_03_29/Coll.ling.fol.52_116.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="51r"/> <salute>Sir,</salute>
+            </opener>
+            <p>It is a great while since I have had the pleasure to hear from you; your last
+                    letter being that of <date when="1828-11-15">Nov.<hi rend="superscript">r</hi>
+                        15, 1828</date>, which I received ten months ago. During this interval I
+                    have addressed two letters to you; one, dated <date when="1829-03-17">March
+                            17.<hi rend="superscript">th</hi>
+               </date>
+               <note type="footnote" resp="editor">Der Brief datiert vom 19. März 1829.</note> and the other,
+                        <date when="1829-07-23">July 23, 1829</date>. With the former of these
+                    letters I sent you some N.<hi rend="superscript">os</hi> of the <bibl sameAs="293">Missionary</bibl>
+               <note type="footnote" resp="editor">Textabschnitt von
+                        "Herald containing remarks …" bis "… Society in their" am linken Rand mit
+                        Bleistift angestrichen.</note>
+               <bibl sameAs="293">Herald</bibl> containing remarks on the Cherokee language
+                        &amp;.<hi rend="superscript">c</hi> and on the Polynesian languages. To
+                    these I added a Review of mine upon our English Lexicography. With my letter of
+                    the <date when="1829-07-23">23.<hi rend="superscript">d</hi> July</date> I
+                    forwarded a reprint of <persName ref="rwilliams">Roger Williams</persName>’s
+                        <bibl sameAs="456">
+                  <hi rend="underline">Key to the Language of the Naragansett
+                        Indians</hi>
+               </bibl>, a tribe, which inhabited the territory &amp;
+                    neighbourhood of the State which we call Rhode-Island. <bibl sameAs="457">This
+                        work was originally published in London in the year 1643</bibl>; &amp;
+                    extracts from it were published many years ago, &amp; very badly too, by our
+                        <orgName ref="40">Massachusetts Historical Society</orgName> in their
+                    Collections. The copy I sent you was a present <pb n="51v"/>
+               <note type="footnote" resp="editor">Textabschnitt von "from the Historical Society
+                        …" bis zum Absatzende ("… before this time.") am linken Rand mit Bleistift
+                        angestrichen.</note> from the <orgName ref="47">Historical Society of
+                        Rhode-Island</orgName>, of whom I requested it. I forwarded to you by the
+                    same conveyance thirteen <bibl sameAs="437">Cherokee newspapers</bibl>; and
+                        <bibl sameAs="833">a little Review of mine upon the Study of the Civil
+                        Law</bibl>. I hope these articles have all reached you long before this
+                    time.</p>
+            <p>I wrote to you, that my time was much occupied with professional business in this
+                    place. I have, however, stolen from my hours of sleep <note type="footnote" resp="editor">Textabschnitt von "&amp; from society …" bis "… any thing more
+                        than" am linken Rand mit Bleistift angestrichen.</note>&amp; from society
+                    time enough to print the <bibl sameAs="449">Vocabulary of Cotton</bibl>, which I
+                    have often mentioned to you. I could not find leisure enough to prefix to it any
+                    thing more than a short introduction, the object of which was to render some aid
+                    in ascertaining the <hi rend="underline">pronunciation</hi> &amp; thus
+                    obtaining, at least, <hi rend="underline">an approximated</hi> value of the
+                    orthography used by <persName ref="jeliot">Eliot</persName> &amp; others of that
+                    day. With the same view I have <note type="footnote" resp="editor">Textabschnitt
+                        von "added an Appendix …" bis "… You will also" am linken Rand mit Bleistift
+                        angestrichen.</note>added an <bibl sameAs="449">Appendix (p. 100)</bibl>
+                    containing Extracts from an <bibl sameAs="494">Indian Primer in the Massachusetts
+                        Language</bibl>; by means of the <hi rend="underline">syllabic
+                        divisions</hi> of words in this primer, we are materially aided in this
+                    investigation. You will also find, <bibl sameAs="449">p. 104, the
+                        Decalogue</bibl>, in question &amp; answer; and, at <bibl sameAs="449">p.
+                        105, and 110, two Sermons in English and Indian, preached by Cotton</bibl>,
+                    and now published from his MSS. <bibl sameAs="449">The Dialogues, at pp. 81,
+                        94</bibl> <pb n="52r"/> <bibl sameAs="449">and 98</bibl>, will amuse you; in
+                    one of them you will notice a curious remark of an Indian, <bibl sameAs="449">p.
+                        98</bibl>, upon some dialectical differences then existing between the
+                    natives of the <hi rend="underline">continent</hi> &amp; of the <hi rend="underline">island</hi> called Martha’s Vineyard, which is only a few
+                    miles from our Massachusetts coast. In one of my former letters I mentioned this
+                    circumstance to you, which I had then observed on reading the MS.</p>
+            <p>I send you, with the present letter, five copies of <bibl sameAs="449">Cotton’s
+                        Vocabulary</bibl>; of which I will thank you to present one to the <orgName ref="1">King’s Library</orgName>, if, in your judgment, that will be a
+                    proper disposition of it; one to the <orgName ref="3">Berlin Academy of
+                        Sciences</orgName>, &amp; one to the <orgName ref="6">Berlin University
+                        Library</orgName>; and, reserving a copy for yourself, you will be pleased
+                    to dispose of the other <del>to <gap quantity="2" unit="chars"/>
+               </del> as you
+                    may think proper. I also forward the remainder of your <bibl sameAs="437">Cherokee
+                        Newspapers</bibl>, from N.<hi rend="superscript">o</hi> 14 to N.<hi rend="superscript">o</hi> 46; in the latter numbers you will find many
+                    interesting remarks on the singularly varied forms of the Cherokee Verbs, which
+                    present a truly wonderful specimen of the mechanism of language. But these
+                    analyses must be received, at present, as <hi rend="underline">approximations</hi> <pb n="52v"/> only, because there has not yet been
+                    sufficient opportunity to make thorough investigations.</p>
+            <p>It gives me much pain to be obliged to add, that the poor Cherokees are now in a
+                    posture of great difficulty in relation to the United States &amp; the State of
+                    Georgia. That State (within whose territorial limits they reside) claims the
+                    right of governing them &amp; refuses to permit them to enjoy their own little
+                    government, which they have taken so much pains to establish. Georgia contends,
+                    that as a sovereign state, she has a right to govern all the people within her
+                    territory. On the other hand, the Cherokees maintain, that their independence
+                    has been guaranteed to them by <hi rend="underline">Treaties</hi> made with the
+                        <hi rend="underline">U. States</hi>, which treaties are binding upon the
+                    State of Georgia, as the Government of the U. States has the exclusive power to
+                    make treaties; &amp; they contend also, that although they dwell within certain
+                    limits which have been agreed upon, by the States composing the American Union,
+                    to be the limits of Georgia, yet that they, the Cherokees, are not at all bound
+                    by such an arrangement among the States – that their nation now occupies the
+                    same territory <pb n="53r"/> (except parts which <hi rend="underline">they</hi>
+                    have <hi rend="underline">sold</hi> to the U. States) which they did when the
+                    Europeans first came to America, &amp; that their present limits have been
+                    recognized by the U. States in several treaties. The Government of the U. States
+                    offers to them, if they will remove west of the Missisippi, a portion of the <hi rend="underline">National</hi> lands in that quarter, where they may make a
+                    new settlement. But the Cherokees reply, with much force, Why do not the white
+                    people remove to that distant country &amp; leave the Indians to enjoy the
+                    territory of which they have had the possession from time immemorial, &amp;.c
+                    &amp;.c?</p>
+            <p>Thus, you perceive, important questions of public law arise, very unexpectedly,
+                    out of the peculiar relations existing between this nation &amp; the United
+                    States. And the case is rendered the more embarrassing, because we have
+                    ourselves for forty years past been encouraging them to abandon hunting &amp; to
+                    become agriculturalists &amp; manufacturers, and thus adopt the condition of
+                    civilized people. They consider it peculiarly grievous &amp; unjust in us, under
+                    all these circumstances, to <pb n="53v"/> oblige them to abandon <hi rend="underline">their country</hi>; and, I confess, I think they have much
+                    reason on their side. What the result will be, I dare not predict; but passions,
+                    interest &amp; physical force, when united, are too apt to overpower the weaker
+                    party, if his cause is ever so just. I hope the Government of my country will
+                    not stain its character by any act which shall be condemned by the more
+                    impartial judgment of the statesmen &amp; jurists of your Continent.</p>
+            <p>I have lately procured from Germany the <bibl sameAs="312">volumes of the Byzantine
+                        Historians</bibl> published by <persName ref="bgniebuhr">M.<hi rend="superscript">r</hi> Niebuhr</persName>; and, as I suppose <note type="footnote" resp="editor">Textabschnitt von "you have some …" bis "…
+                        made of it. I have" am linken Rand mit Bleistift angestrichen.</note>you
+                    have some correspondence with him, it may be interesting to him to know, that we
+                    have in <orgName ref="44">our University Library</orgName>, a fine vellum MS. of
+                    the historian <persName ref="msglykas">
+                  <hi rend="underline">Glycas</hi>
+               </persName>, which appears to be of as early
+                    a date as the 13.<hi rend="superscript">th</hi> century. Perhaps he might like
+                    to have a collation made of it. I have looked at some parts, &amp; find it
+                    furnishes good readings of the text; but I have not yet examined it very
+                    particularly. It was bought in <placeName ref="Konstantinopel">Constantinople</placeName>, in the <pb n="54r"/> year 1819, by <persName ref="eeverett">M.<hi rend="superscript">r</hi> Everett</persName>
+               <note type="footnote" resp="editor">Edward Everett (1794–1865). s. <ref type="linkExt"
+                       target="http://www.harvardsquarelibrary.org/biographies/edward-everett-2/">Harvard Square Library</ref>
+               </note>, whom you may have seen in Europe.</p>
+            <p>I send your <bibl sameAs="437">Cherokee newspapers</bibl> and <note type="footnote" resp="editor">Textabschnitt von "Cotton’s Vocab.<hi rend="superscript">s</hi> …" bis "… you will pardon" am linken Rand mit
+                        Bleistift angestrichen.</note> <bibl sameAs="449">Cotton’s Vocab.<hi rend="superscript">s</hi>
+               </bibl> in two different packets, marked N.<hi rend="superscript">o</hi> 1 &amp; 2. They will be delivered to you by
+                        <persName ref="gwhaven">M.<hi rend="superscript">r</hi> George
+                        Haven</persName>, a young friend, to whom I have given a letter of
+                    introduction to you – which, I hope, was not taking too great a liberty. My
+                    young countrymen are so ambitious of seeing a person of so much distinction in
+                    the world as yourself, and one whose name is so well known among us, that I
+                    trust you will pardon them &amp; myself in this case.</p>
+            <closer>
+               <salute>I hope soon to have the pleasure of hearing from you &amp; receiving
+                        some portion of your great American work. <lb/>I have the honour to be
+                        <lb/>Sir, <lb/>with the highest respect <lb/>your very obedient <lb/>&amp;
+                        humble servant</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Boston, U. States, <lb/>Mar. 29, 1830.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="54v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

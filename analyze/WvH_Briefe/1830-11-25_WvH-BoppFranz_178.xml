@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 25.11.1830<idno type="BBAW">178</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 59. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 76f. </bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8305</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="644">Lassen, Christian: Ueber Herrn Bopps grammatisches System der
+                    Sanskrit-Sprache [Rezension von Franz Bopps Ausführliches Lehrgebäude der
+                    Sanskrita-Sprache, Berlin 1827]. In: Indische Bibliothek, Band 3, 1, 1830, S.
+                    1–113</bibl>
+               <bibl corresp="279">Mahābhārata</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin so frey, an Sie, liebster Freund, eine Bitte zu
+                        richten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-11-25"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="263" type="next">29.11.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Korrekturen Humboldts sowie
+                    eigenhändiger Schlussformel und Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="inc">Indische Sprachen</language>
+            <language ident="kaw">Kawi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 6. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1830_11_25/NDIGRKP004565_0447.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_11_25/NDIGRKP004565_0448.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_11_25/NDIGRKP004565_0449.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich bin so frey, an Sie, liebster Freund, eine Bitte zu richten,
+                    von der ich aber wünschte, da sie Ihnen Nachsuchen verursachen wird, daß Sie sie
+                    nur gelegentlich <subst>
+                  <del>erfüllen.</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            erfüllten.</add>
+               </subst>
+            </p>
+            <p>
+               <handShift scribe="Schreiber"/> In dem <hi rend="antiqua">Kavi</hi>-Gedicht,
+                    über das ich in der <orgName ref="3">Akademie</orgName> lesen will,<note type="footnote" resp="editor">Humboldt las am <date when="1831-01-20">20.
+                            Januar 1831</date> "über die Cavisprache auf der Insel Java" (vgl.
+                        Protokoll der Plenumssitzung, BBAW II-V, 12, 12). [FZ]</note> kommt dieselbe
+                    Schlacht vor, mit welcher die <hi rend="antiqua">
+                  <bibl sameAs="52">Bhagavad-Gita</bibl>
+               </hi> anhebt, und man sieht auch deutlich, daß der
+                    Dichter diese gekannt hat, obgleich er sich auf das <sic>Phylosophische</sic>
+                    nicht einläßt. Ich wünschte nun sehr zu erfahren, ob Sie wohl Auszüge (nicht den
+                    Text) von den unmittelbar vorausgehenden und nachfolgenden Gesängen hätten, und
+                    ob Sie die Güte haben wollten, mir dieselben mitzutheilen? am liebsten hätte ich
+                    den Auszug aus diesem ganzen Buche des Gedichts; auch wüßte ich gern, <subst>
+                  <del>daß</del>
+                  <add>
+                     <handShift scribe="wvh"/> das</add>
+               </subst> <handShift scribe="Schreiber"/> wie vielste Buch dieses ist? denn es <sic>gielt</sic>
+                    ja wohl auch für den <hi rend="antiqua">
+                  <bibl sameAs="279">Maha-Bharata</bibl>
+               </hi> eine <sic>herkömliche</sic> Abtheilung in eine
+                    gewiße Anzahl von Büchern<supplied cert="high">.</supplied>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="classen">Lassen</persName>
+               </hi> hat mir vor
+                    einigen Wochen geschrieben,<note type="footnote" resp="editor">Dieser Brief
+                        scheint nicht erhalten zu sein. Vgl. aber die <ref type="link" target="815">Antwort Humboldts an Lassen</ref> vom <date when="1830-11-10">10.
+                            November 1830</date>. [FZ]</note> und mir aufs neue versichert, daß er mit
+                        <bibl sameAs="644">seiner</bibl> <pb n="2*"/> <bibl sameAs="644">letzten
+                        Abhandlung</bibl> durchaus nichts feindseliges gegen Sie im Sinne gehabt
+                    habe. Ich habe diese Gelegenheit benutzt, ihm in meiner Antwort ernsthaft
+                    vorzustellen, wie Unrecht er gehabt hat, sich in einigen Punkten scharf zu
+                    äußern, und ihn zur Friedfertigkeit ermahnt. Es wäre wirklich sehr schön, wenn
+                    Sie beide auf den verschiedenen Wegen, welche Sie gehen, an <subst>
+                  <del>die</del>
+                  <add>
+                     <handShift scribe="wvh"/> der</add>
+               </subst> <handShift scribe="Schreiber"/> Aufklärung der Indischen Grammatik arbeiteten. Von
+                    Ihrer Seite wird dies, nicht absichtlich, aber zufällig gemeinschaftliche
+                    Arbeiten von selbst nicht gestört werden, und ich <damage/>
+               <supplied cert="high">würde</supplied>
+               <note type="footnote" resp="editor">Papierstück fehlt, wohl
+                        vom Öffnen des Siegels.</note> es eben so wenig von <hi rend="antiqua">
+                  <persName ref="classen">Lassen</persName>
+               </hi> glauben, wenn nicht auf
+                    diesen immer der fremde Einfluß zu fürchten wäre.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl. Mit der hochachtungsvollsten Freundschaft, <lb/>
+                  <handShift scribe="wvh"/> der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 25.<hi rend="superscript">t</hi> <hi rend="antiqua">November</hi>
+                        1830.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">
+                        <hi rend="antiqua">
+                           <hi rend="underline">Berlin</hi>
+                        </hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

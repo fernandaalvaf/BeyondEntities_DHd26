@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 07.04.1824<idno type="BBAW">1123</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 123f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">11796</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="dlalbrecht">
+                  <persName>Albrecht, Daniel Ludwig</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="kbhase">
+                  <persName>Hase, Karl Benedikt</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="thumboldt">
+                  <persName>Humboldt, Theodor von</persName>
+               </person>
+               <person corresp="fw4">
+                  <persName>Kronprinz Friedrich Wilhelm (später Friedrich Wilhelm IV., König von Preußen)</persName>
+               </person>
+               <person corresp="jkmaltzahn">
+                  <persName>Maltzahn, Joachim Karl Ludwig Mortimer Graf
+                    von</persName>
+               </person>
+               <person corresp="cfpmartius">
+                  <persName>Martius, Carl Friedrich Philipp von</persName>
+               </person>
+               <person corresp="nmaze">
+                  <persName>Maze, Nicolas (Buchhändler)</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="emitscherlich">
+                  <persName>Mitscherlich, Eilhard</persName>
+               </person>
+               <person corresp="cdrauch">
+                  <persName>Rauch, Christian Daniel</persName>
+               </person>
+               <person corresp="agrudelbach">
+                  <persName>Rudelbach, Andreas Gottlob</persName>
+               </person>
+               <person corresp="kfschinkel">
+                  <persName>Schinkel, Karl Friedrich</persName>
+               </person>
+               <person corresp="njsoult">
+                  <persName>Soult, Nicolas-Jean de Dieu</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="78">Champollion, Jean-François (1824–1827): Précis du système hieroglyphique des anciens
+                    Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte ou recueil des
+                    observations et des recherches qui ont été faites en Égypte pendant l’expédition de l’Armée
+                    Française publié par les ordres de Sa Majesté l’empéreur Napoléon le Grand, 20 Bände, Paris:
+                    L’Imprimérie Impériale</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">L'arrivée inattendue d'un courrier de Londres accentue
+                        tellement le départ du courrier pour Berlin, que j'ai à peine le loisir,
+                        cher ami, de faire le paquet de l'invariable milieu (fruit dont la graine
+                        s'est perdue). …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1824-04-07"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Paris, den 7. April 1824.</dateline>
+            </opener>
+            <p>Cher cher ami! le courrier qui ne devait partir qu’a 6 heures part a 3<hi rend="superscript">h</hi> et je n’ai le tems que te dire combien j’ai été
+                    consolé de la nouvelle du rétablissement de ton mal d’yeux. Le seul mot m’avait
+                    fait peur pour toi. J’en suis rassuré et ravi comme de tout ce qui tu me dis de
+                    <persName ref="thumboldt">Theodore</persName>! <persName ref="jfchampollion">M.
+                        Champollion</persName> a été très flatté de ton jugement. Il espère que tes
+                    démarches auprès de <persName ref="jhminutoli">Minutoli</persName> auront quelques succès.
+                    Il mérite des encouragements, je t’enverrai <bibl sameAs="78">son livre</bibl> la
+                    semaine prochaine par <persName ref="emitscherlich">M. Mitscherlich</persName>. Je n’ai pu
+                    rien acheter chez le <persName ref="jfesch">Cardinal Fesch</persName>. Quelle manière
+                    de donner des ordres, sans fixer même le prix total. Je me suis concerté avec
+                    <persName ref="jkmaltzahn">M. de Malzahn</persName>, qui m’a conseillé de ne pas aller
+                    au delà de 12000 francs. <persName ref="fw3">Le Roi</persName> dit exprès qu’il ne
+                    s’en souci pas. Il n’y avait de beau qu’une frise de Griffon, et deux basreliefs
+                    de la Villa Mattei restaurés à 8/9, proprement pas beaux, mais curieux. J’ai
+                    fait tout taxer, on a voulu que je n’aille pas pour les Griffons (un simple
+                    ornement) à plus 3500 frcs., pour les basreliefs à 4000 frcs. et 2000 frcs. <orgName ref="">Le
+                    Musée</orgName> et les Anglais ont poussé les Griffons à 12150 frcs., le basrelief des
+                    victimaires à 10000 et les soldats prétoriens à 3500 frcs. Le Labrum de giallo
+                    antico, que notre <persName ref="fw4">Prince Royal</persName> voulait pour 6000
+                    frcs., n’a pas été laissé pour 13000 frcs., on veut 15000 frcs. et la matière
+                    n’est pas très belle. J’entre dans ces détails pour te prouver qu’on aura tort
+                    de m’accuser de ce que je n’ai rien acheté. Comment le peut on avec des
+                    commissions donneés de cette manière, on avait meme oublié de m’envoyer le
+                    Catalogue avec les notes de <persName ref="cdrauch">Rauch</persName>. J’envoye à
+                    celui-ci aujourd’hui un beau morceau de marbre des Pyrénées. Voici le rapport
+                    qui en a été fait à <orgName ref="">l’Institut</orgName>. J’ajoute la liste des
+                    livres que je t’expédie par <persName ref="nmaze">M. Maze</persName> avec <bibl sameAs="106">l’ouvrage d’Egypte</bibl>. Il y a d’autres livres, un cadeau pour
+                    toi, cher ami. <persName ref="agrudelbach">M. Rudelbach</persName> est très savant, je m’en
+                    occupe beaucoup, mais quelle figure! <persName ref="kbhase">Hase</persName> m’écrit un
+                    billet assez gai sur lui. Je te prie de faire mille amitiés à <persName ref="kfschinkel">M. Schinkel</persName> et de le remercier de ses cahiers d’architecture.
+                    J’ai envoyé une partie à <persName ref="cfpmartius">M. Martius</persName>, comme il l’a
+                    désiré. <orgName ref="23">L’Institut</orgName> réclame des volumes de <orgName ref="3">notre Académie</orgName>. Tâche qu’on les donne. </p>
+            <closer>
+               <salute>Adieu mon cher et tendre ami! J’embrasse <persName ref="cvh1">la
+                            Li</persName> et les chers
+                        enfans.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Paris ce 7. Avril
+                        1824.</dateline>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>Der Kauf der span. Gemälde mit dem französischen Museum ist nicht zu Stande
+                        gekommen. <persName ref="njsoult">Soult</persName> fordert 2,100,000 Francs. La
+                        gravure de l’intérieur de <placeName ref="Tegel">Tegel</placeName> est
+                        délicieuse.</p>
+               <p>Fais bien que <persName ref="dlalbrecht">Albrecht</persName> n’apprenne pas que je
+                        t’envoye sa lettre! Tu la brûleras.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Jakob Otto August Rühle von Lilienstern,
+                        12.03.1827<idno type="BBAW">1164</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Slg. Autogr.: Humboldt, Wilhelm von, Bl.
+                            23–25 (acc. ms. 1965.3)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7746</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="amarcellinus">
+                  <persName>Ammianus Marcellinus</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="hfwgesenius">
+                  <persName>Gesenius, Heinrich Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="mlanci">
+                  <persName>Lanci, Michelangelo</persName>
+               </person>
+               <person corresp="ngpalin">
+                  <persName>Palin, Nils Gustaf</persName>
+               </person>
+               <person corresp="hsalt">
+                  <persName>Salt, Henry</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+               <person corresp="tacitus">
+                  <persName>Tacitus</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="214">Humboldt, Wilhelm von (1828): Ueber vier Aegyptische,
+                        löwenköpfige Bildsäulen in den hiesigen Königlichen Antikensammlungen.
+                        Gelesen in der Akademie der Wissenschaften am 24. März 1825. In:
+                        Abhandlungen der Königlichen Akademie der Wissenschaften in Berlin aus dem
+                        Jahre 1825, Historisch-Philologische Klasse, S. 145–168. – Vgl. GS V, S.
+                        134–157</bibl>
+               <bibl corresp="1499">Rühle von Lilienstern, Otto August (1827): Graphische
+                        Darstellungen zur ältesten Geschichte und Geographie von Aethiopien und
+                        Aegypten, Berlin: Duncker und Humblot</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Hochwohlgeborenen bitte ich, die anliegenden Bemerkungen zu
+                    den beiden Bogen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-03-12"/>
+               <placeName key="Berlin">[Berlin]</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jjruehle">Rühle von Lilienstern, Johann Jakob Otto
+                        August</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="WvH">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyh">Ägyptisch (Hieratisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Juni 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="23r"/> Ew. Hochwohlgeborenen bitte ich, die anliegenden Bemerkungen zu den
+                    beiden Bogen <hi rend="antiqua">D</hi>. u. <hi rend="antiqua">E</hi>. mit
+                    Nachsicht aufzunehmen, u. die Auslassung aller Titulaturen zu entschuldigen. Die
+                    Bemerk. betreffen bloß Ähnlichkeiten. Desto mehr habe ich mich über die
+                    lichtvolle u. kurze Herzählung der Regenten u. die kritische Anführung der
+                    Abweichungen u. Widersprüche <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champ</hi>.</persName> u. <persName ref="hsalt">
+                  <hi rend="antiqua">Salts</hi>
+               </persName> gefreut. Diese Zusammenstellung wird aber so
+                    nützlich seyn, als sie mühsam zu machen war.</p>
+            <p>Was Ew. Hochwohlgeboren aus <bibl sameAs="214">meiner Abhandlung</bibl> zu <hi rend="antiqua">citiren</hi> wünschen, steht Ihnen sehr zu Diensten. Nur kann
+                    ich, da sie erst eben gedruckt wird, die Seitenzahl nicht <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> angeben. Was ich aus <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champ</hi>.</persName> bisher nicht selbst <del type="fragment">über</del> entnommen habe, wünschte ich nicht erwähnt.</p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Freundschaft<lb/>Ew.
+                        Hochwohlgeboren<lb/>ergebenster,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>12.
+                            <hi rend="antiqua">März</hi>, 1827.</dateline>
+               <lb/>
+               <pb n="23v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="24r"/>
+               <bibl sameAs="1499">S. 29.</bibl> Sollte, was hier von der Unkenntniß der Aeg.
+                    Priester gesagt ist, nicht einige Milderung erfordern. Es gab doch von <hi rend="antiqua">Hermapion</hi> (<hi rend="antiqua">
+                  <persName ref="amarcellinus">Ammianus Marcellinus</persName>
+               </hi>. XVII. 4.) ein
+                    Entzifferungsbuch eines <hi rend="antiqua">Obeliskentexts</hi> und obgleich sein
+                    Zeitalter wohl genau nicht bekannt ist, so reicht er schwerlich bis <persName ref="herodot">
+                  <hi rend="antiqua">Herodot</hi>
+               </persName> hinauf. – Dem <hi rend="antiqua">Germanicus</hi> (<hi rend="antiqua">
+                  <persName ref="tacitus">Tacitus</persName>. Annal</hi>. II. 60.) las ein Priester Inschriften
+                    von Denkmalen ganz geläufig ab.<note type="footnote" resp="WvH">
+                  <pb n="Links am Rand"/> Es widerspricht auch die hier stehende Behauptung
+                        dem p. 40. von <hi rend="antiqua">Clem. Alex.</hi> Gesagten.</note>
+            </p>
+            <p>
+               <bibl sameAs="1499">S. 29. Z. 18.</bibl> Da Ew. Hochwohlgebornen doch gewiß auch
+                    hieratische u. hieroglyphische Schrift unterscheiden, so muß hier <hi rend="underline">hieroglyphisch</hi> stehen. Die <hi rend="antiqua">Rosetta</hi> Inschrift ist, wie der Anblick lehrt griechisch, demotisch u.
+                        hieroglyphisch.<note type="footnote" resp="WvH">
+                  <pb n="Links am Rand"/> S.
+                        39. nennen auch Sie die Hieroglyphen der <hi rend="antiqua">Rosetta</hi>
+                        Inschrift.</note>
+            </p>
+            <p>
+               <bibl sameAs="1499">S. 32.</bibl> Die schreiben hier <hi rend="antiqua">Calabsch<hi rend="underline">eh</hi>
+               </hi>, <hi rend="antiqua">Ghirsch<hi rend="underline">eh</hi>
+               </hi>. Ich kann, da ich die <hi rend="antiqua">Arab</hi>ische Schreibung nicht weiß, nicht darüber
+                    urtheilen. Ich glaube aber, daß man nach derselben Analogie auch mehr End-<hi rend="antiqua">h</hi> machen müßte. So wird gewöhnlich <hi rend="antiqua">Esneh</hi> geschrieben, wo Ew. Hochwohlgeboren immer <hi rend="antiqua">Esne</hi> haben. Sollte es nicht auch, um Kleinigkeiten zu erwähnen, besser
+                    seyn <hi rend="antiqua">Karnak</hi> oder <hi rend="antiqua">Carnac</hi> als <hi rend="antiqua">
+                  <hi rend="underline">K</hi>arna<hi rend="underline">c</hi>
+               </hi> zu schreiben. Auch <hi rend="antiqua">
+                  <hi rend="underline">C</hi>alabscheh</hi> und <hi rend="antiqua">
+                  <hi rend="underline">K</hi>arnac</hi> forderten wohl eine Gleichstellung.</p>
+            <p>
+               <bibl sameAs="1499">S. 33.</bibl>
+               <hi rend="antiqua">Pa<hi rend="underline">h</hi>lin</hi>. Auf dem Titel der
+                    französischen Schrift heißt der Vf. <hi rend="antiqua">
+                  <persName ref="ngpalin">Palin</persName>
+               </hi>.</p>
+            <p>S. 34. <hi rend="antiqua">Lanzi</hi> – Der jetzt gegen <persName ref="jfchampollion">Champollion</persName> geschrieben hat, heißt <persName ref="mlanci">
+                  <hi rend="antiqua">Lan<hi rend="underline">c</hi>i</hi>
+               </persName>. Einen andren dieses Namens kenne ich nicht als
+                    Gegner <hi rend="antiqua">
+                  <persName ref="jfchampollion">Champollion</persName>s</hi>.</p>
+            <p>S. 36. Ich würde lieber <hi rend="antiqua">
+                  <hi rend="underline">ae</hi>nigmatisch</hi> schreiben.</p>
+            <p>S. 37. Z. 7. <hi rend="underline">zur Darstellung von Gedanken</hi> scheint mir
+                    für die <hi rend="antiqua">Aegypti</hi>schen Hieroglyphen ein wenig zu
+                    unbestimmt. </p>
+            <p>
+               <pb n="24v"/> Die Hieroglyphen überhaupt begnügen sich entweder den <hi rend="underline">Gedanken</hi> darzustellen, indem sie es dem Leser
+                    überlassen, ihn in Worte zu kleiden, oder sie bestimmen u. zeichnen die <hi rend="underline">Rede</hi> selbst vor, so daß der Leser wirklich liest u.
+                    die Worte nicht frei wählen kann. Das Erste thun die Hieroglyphen vieler
+                    ungebildeter Völker; die <hi rend="antiqua">Mexicani</hi>schen gingen vielleicht
+                    nie weiter. Die <hi rend="antiqua">Aegypti</hi>schen charakterisirt die zweite
+                    Eigenschaft. Sollten Ew. Hochwohlgeboren daher nicht lieber geradezu: <hi rend="underline">zur Bezeichnung der Rede</hi> oder der <hi rend="underline">Sprache</hi> bestimmt sagen?</p>
+            <p>
+               <bibl sameAs="1499">S. 37. Z. 22.</bibl> Ich ahnde gar wohl, warum Sie die <sic>karakteristischen</sic>
+                    Elemente gesetzt haben. Es ist aber allein doch ein wenig zu dunkel. Ich würde
+                    vorschlagen zu schreiben: nach welcher die Köpfe der Menschen u. Thiergestalten
+                    u. d. k. E. d. U. der sonstigen Figuren g. s.</p>
+            <p>Gleich darauf müßte doch wohl gesagt werden, daß die <hi rend="antiqua">Vocale</hi> nicht immer zwischen den <hi rend="antiqua">Consonanten</hi>
+                    ausgelassen sind.</p>
+            <p>S. 39. <hi rend="underline">vom 19. Jahrh. an</hi>. Hieße es nicht besser: <hi rend="underline">von den ältesten Zeiten an</hi>? Der <hi rend="antiqua">terminus a quo</hi> läßt sich nicht gut bestimmen.</p>
+            <p>S. 42. Die hier vorkommenden griechischen Wörter stehen alle im <hi rend="antiqua">plural generis neutrius</hi>, da nur dies sich nicht auf das
+                    deutsche: Schrift beziehen kann, u. kein andres <hi rend="antiqua">Substantivum</hi> da ist, so fällt dies auf. Ich würde daher rathen,
+                    entweder zu schreiben im fem. sing. <foreign sameAs="grc">δημοτικη</foreign>,
+                        <foreign sameAs="grc">δημωδηϛ</foreign>, <foreign sameAs="grc">ἐγχωρια</foreign>, <foreign sameAs="grc">ἐπιστολογραφικη</foreign> oder
+                    diese Worte alle zu lassen, wie Sie bei Ihnen sind u. <foreign sameAs="grc">γραμματα</foreign> vor <foreign sameAs="grc">δημοτικα</foreign> zu
+                    setzen.</p>
+            <p>S. 49. Daß <hi rend="antiqua">Athotis</hi>, Er<gap quantity="3" unit="chars"/>ster <hi rend="antiqua">Thoths</hi> hieße, war mir unbekannt. Ich erkenne auch
+                    nicht die Etymologie des Worts.</p>
+            <p>
+               <pb n="25r"/> Bei Gelegenheit <hi rend="antiqua">
+                  <persName ref="gseyffarth">Seyffarth</persName>s</hi> muß ich bemerken, daß, was er von <hi rend="antiqua">Phönici</hi>schen Buchstaben sagt, aus ganz unzuverlässigen
+                    Quellen geschöpft ist, u. gar keinen Glauben verdient. Von <persName ref="hfwgesenius">
+                  <hi rend="antiqua">Gesenius</hi>
+               </persName> hat man erst
+                    ein <hi rend="antiqua">Phönici</hi>sches Alphabet zu erwarten.</p>
+            <p>
+               <pb n="25v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 27.02.1822<idno type="BBAW">249</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 253–256</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 165</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hpforster">
+                  <persName>Forster, Henry Pitts</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="57">Bopp, Franz: Über das Conjugationssystem der Sanskritsprache in
+                    Vergleichung mit jenem der griechischen, lateinischen, persischen und
+                    germanischen Sprache (Frankfurt/Main: Andreä 1816)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Excellenz habe ich die Ehre hiermit nebst hochderen
+                        Anmerkung einige Zusätze zu meiner Ansicht über das Sanskrita-Gerundium zu
+                        überschicken …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1822-02-27"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="86" type="prev">24.02.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="la">Latein</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">26. Juni 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 14. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_370.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_371.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_372.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_373.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_374.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_375.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_376.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_02_27/Coll.ling.fol.21_377.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="253r"/> <salute>Ew Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre hiermit nebst hochderen Anmerkung einige Zusätze zu meiner
+                    Ansicht über das Sanskrita-<hi rend="antiqua">Gerundium</hi> zu überschicken,
+                    worüber ich im Wesentlichen mit Ew Excellenz vollkommen einverstanden bin.</p>
+            <p>Es wird mir sehr angenehm seyn mich in Zukunft über diesen Gegenstand auf die
+                    Autorität Ew Excellenz berufen zu können.</p>
+            <closer>
+               <salute>In tiefster Ehrerbietung <lb/>Ew Excellenz <lb/>Unterthäniger </salute>
+               <signed>F. Bopp</signed>
+               <lb/>
+               <dateline>Berlin den 27<hi rend="superscript">ten</hi> Febr 1822</dateline>
+               <lb/>
+               <pb n="253v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="254r"/> Ew Excellenz bemerken von dem <hi rend="antiqua">Gerundium</hi>
+                        (<hi rend="antiqua">indeclin. particip</hi>) sehr richtig daß es von der
+                    Wurzel komme mit Ausnahme der im <hi rend="antiqua">Particip.</hi> des 3ten <hi rend="antiqua">Praet. pass.</hi> gebräuchlichen
+                        <sic>Veränderungerungen.</sic> Sollte man sich auf ähnliche Weise nicht in
+                    Bezug auf den Infinitiv ausdrücken können und sagen: er käme von der Wurzel
+                    durch Anhängung des <hi rend="antiqua">accusativs</hi> des Suffixes <foreign sameAs="sa">
+                  <hi rend="antiqua">
+                     <hi rend="underline">tu</hi>
+                  </hi>
+               </foreign>, wobey eben die Wurzel
+                    dieselben Veränderungen erleide, welche im ersten Futurum gebräuchlich sind? </p>
+            <p>
+               <pb n="254v"/> Die Uebereinstimmung des Infinitivs mit <del type="fragment">dem
+                        P</del> dem ersten Futurum läge also hauptsächlich darin daß beyde jene
+                    Wurzel-Vocal Veränderung <del type="fragment">vornehm</del> erleiden, welche von
+                    den Indischen Grammatikern <term type="morph" ref="009">
+                  <hi rend="antiqua">
+                     <hi rend="underline">guna</hi>
+                  </hi>
+               </term> genannt wird: d. h. <foreign sameAs="sa">
+                  <hi rend="antiqua">i</hi>
+               </foreign> wird in <foreign sameAs="sa">
+                  <hi rend="antiqua">ē</hi>
+               </foreign>, <foreign sameAs="sa">
+                  <hi rend="antiqua">u</hi>
+               </foreign> in <foreign sameAs="sa">
+                  <hi rend="antiqua">ō</hi>
+               </foreign>, <foreign sameAs="sa" n="transEd">ṛ<graphic url="Bopp/Bopp-WvH_1822_02_27/0039.svg"/>
+               </foreign> in
+                        <foreign sameAs="sa" n="transEd">ar<graphic url="Bopp/Bopp-WvH_1822_02_27/0040.svg"/>
+               </foreign> verwandelt. Diese
+                    dem Infin. und <del type="fragment">G</del> 1sten Futur gemeinschaftliche
+                    Vocal-Veränderung möchte ich zu jenen Verschwendungen organischer Hülfsmittel
+                    rechnen, wovon Ew Excellenz, wenn ich mich recht erinnere, in <bibl sameAs="222">Ihrer trefflichen Abhandlung</bibl>
+               <!-- AD: welche? evtl. ID 222? -->
+                    Erwähnung gethan haben; – denn besagte Vocalveränderung drückt kein
+                    grammatisches Verhältniß aus und ist also für das <hi rend="antiqua">Futurum</hi> wie für den Infinitiv eine unwesentliche, wie wohl standhafte,
+                    Zugabe. – Das erste Futurum erhält, wie ich glaube, seine zukünftige Bedeutung,
+                    einzig von dem Suffix <foreign sameAs="sa" n="transEd">tṛ<graphic url="Bopp/Bopp-WvH_1822_02_27/0041.svg"/>
+               </foreign>, welches ein <hi rend="antiqua">participium futurum</hi> bildet, dem Lateinischen in <foreign sameAs="la">
+                  <hi rend="antiqua">turus</hi>
+               </foreign> entsprechend, denn die 3te Person
+                    jenes 1sten Futurums scheint wohl nichts anders zu seyn <pb n="255r"/> als der
+                        <hi rend="antiqua">nomin. masc.</hi> in den 3 respektiven Zahlen, so daß
+                        <foreign sameAs="sa" n="transEd">dātā<graphic url="Bopp/Bopp-WvH_1822_02_27/0042.svg"/>
+               </foreign> (<foreign sameAs="la">
+                  <hi rend="antiqua">daturus</hi>
+               </foreign>) auch <foreign sameAs="la">
+                  <hi rend="antiqua">daturus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">datura</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">daturum est</hi>
+               </foreign> bedeutet, wie <foreign sameAs="sa" n="transEd">dātārau<graphic url="Bopp/Bopp-WvH_1822_02_27/0043.svg"/>
+               </foreign> (<foreign sameAs="la">
+                  <hi rend="antiqua">ambo daturi</hi>
+               </foreign>) zugleich für
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">ambo</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">ae</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">o</hi>
+               </foreign> <foreign sameAs="la">
+                  <hi rend="antiqua">daturi</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">ae</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">a sunt</hi>
+               </foreign>, und ebenso <foreign sameAs="sa" n="transEd">dātāraḥ<graphic url="Bopp/Bopp-WvH_1822_02_27/0044.svg"/>
+               </foreign> (<foreign sameAs="la">
+                  <hi rend="antiqua">daturi</hi>
+               </foreign>) für den <hi rend="antiqua">plur.</hi>
+            </p>
+            <p>Das <del type="fragment">
+                  <hi rend="antiqua">Suffix <foreign sameAs="sa">t</foreign>
+                  </hi>
+               </del> Infinitiv-<hi rend="antiqua">Suffix</hi> <foreign sameAs="sa">
+                  <hi rend="antiqua">
+                     <hi rend="underline">tum</hi>
+                  </hi>
+               </foreign> wird von <persName ref="hpforster">Forster</persName> zu den <term type="morph" ref="010">
+                  <hi rend="antiqua">Kridanta</hi>
+               </term>-Suffixen
+                    gerechnet<!-- AD: eigentlich müsste man oben im Header noch Forsters Werk angeben, aber welches? -->,
+                    dh zu denjenigen welche <hi rend="antiqua">nomina</hi> unmittelbar aus der
+                    Wurzel bilden. Indessen stimme ich doch mit Ew Excellenz darin überein daß man
+                    wegen der durchgängigen Analogie zwischen Futur. und Infinitiv. das eine von dem
+                    anderen ableiten kann; man dürfte jedoch fragen ob <del>man</del> nicht mit
+                    gleichem Rechte das erste Futur., oder, was dasselbe ist, das <hi rend="antiqua">partic.</hi> auf <foreign sameAs="sa" n="transEd">tṛ<graphic url="Bopp/Bopp-WvH_1822_02_27/0045.svg"/>
+               </foreign> von dem Infinitiv
+                        <del type="fragment">abzu</del> abzuleiten wäre, so wie man in der That im
+                    Lateinischen das <hi rend="antiqua">particip.</hi> auf <foreign sameAs="la">
+                  <hi rend="antiqua">turus</hi>
+               </foreign> von dem <hi rend="antiqua">Supinum</hi> abzuleiten pflegt. <pb n="255v"/> Merkwürdig ist es daß das
+                        <hi rend="antiqua">Gerundium</hi> zuweilen neben einer Form worin der
+                    Wurzel-Vocal unverändert erscheint, auch eine andere mit verstärktem Wurzellaut
+                    hat, welche sich dann an den Infinitiv anschließt, z B: <foreign sameAs="sa" n="transEd">ruditvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0046.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">roditvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0047.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">rodituṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0048.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ghutitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0049.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ghotitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0050.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ghotituṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0051.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">likhitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0052.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">lekhitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0053.svg"/>
+               </foreign>; <foreign sameAs="sa" n="transEd">lekhituṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0054.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kliṣṭvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0055.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kleśitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0056.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kleśituṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0057.svg"/>
+               </foreign>
+            </p>
+            <p>Zuweilen haben Infinitiv und <hi rend="antiqua">Gerundium</hi> zwey Formen, wovon
+                    die eine beyden gemeinschaftlich ist, z B</p>
+            <p>
+               <foreign sameAs="sa" n="transEd">naś<graphic url="Bopp/Bopp-WvH_1822_02_27/0058.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">naṃṣṭvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0059.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">naṣṭvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0060.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">naṣṭuṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0061.svg"/>
+               </foreign>
+               <del>
+                  <foreign sameAs="sa" n="transEd">naṣitvā<graphic url="Bopp/Bopp-WvH_1822_02_27/0062.svg"/>
+                  </foreign>
+               </del> <foreign sameAs="sa" n="transEd">naṣituṃ<graphic url="Bopp/Bopp-WvH_1822_02_27/0063.svg"/>
+               </foreign>
+            </p>
+            <p>Der Einwurf welchen <persName ref="awschlegel">Schlegel</persName> von der
+                    zuweilen stattfindenden Verschiedenheit zwischen Infinit. und <hi rend="antiqua">Gerundium</hi> hernimmt habe ich übrigens in meinem <bibl sameAs="57">ConjugationsSystem</bibl> selbst berührt <subst>
+                  <del>und zu widerlegen gesucht.</del>
+                  <add>p. 57.</add>
+               </subst> Das Wesentliche meiner Behauptung bleibt jedoch, wie sie Ew Excellenz
+                    aufgefaßt haben, daß der Infinitiv der <hi rend="antiqua">accusat.</hi> und das
+                        <hi rend="antiqua">Gerund.</hi> der <hi rend="antiqua">Instrumental.</hi>
+                    eines <hi rend="antiqua">Verbalnomen</hi> oder abstracten Substantivs sey.</p>
+            <pb n="256r/v vacat"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Rosen, 25.01.1829<idno type="BBAW">1001</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv, 62.192</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7974</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bgbabington">
+                  <persName>Babington, Benjamin Guy</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="whuttmann">
+                  <persName>Huttmann, William</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="664">Humboldt, Wilhelm von: An Essay on the best Means of ascertaining the Affinities of
+                    Oriental Languages. In: Transactions of the Royal Asiatic Society of Great Britain and
+                    Ireland Volume II, S. 213–221 (London: J. L. Cox 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen sehr, liebster Freund, für Ihren gütigen Brief vom 9. d. M. Es ist mir sehr lieb gewesen, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-01-25"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="55" type="prev">09.01.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">02. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ihnen sehr, liebster Freund, für Ihren
+                        gütigen <ref type="link" target="55">Brief</ref> vom <date when="1819-01-09">9. d. M.</date> Es ist mir sehr lieb gewesen, daß Sie mir so
+                        schnell geantwortet haben, ich sehe aber mit großer Begierde Ihrem
+                        ausführlicheren Briefe über Sie und Ihre Studien entgegen. Es wird mich
+                        ungemein interessiren, wenn Sie mir davon etwas Näheres sagen wollen.</p>
+            <p>Die Aufklärungen, die Sie mir über die Druckfehler gegeben, haben mich sehr
+                        gefreut. Meine Handschrift ist also unschuldig befunden. Ein <hi rend="antiqua">Secretair</hi>, wie <persName ref="bgbabington">
+                  <hi rend="antiqua">Babington</hi>
+               </persName>,
+                        sollte aber, auch in Sprachen, die er nicht weiß, sorgfältiger seyn. Von <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> sage ich nichts. Seine <hi rend="antiqua">Correctur</hi> ist natürlich nur eine Formalität. Wie wird sich der
+                        alte verdrießliche Mann die Mühe geben, etwas wirklich nachzusehen? Ich
+                        danke sehr für die Besorgung des <hi rend="antiqua">Cartons</hi>, und bitte
+                        Sie darauf zu halten, daß <persName ref="whuttmann">
+                  <hi rend="antiqua">Huttmann</hi>
+               </persName> im
+                        Druckfehlerverzeichniß meine Unschuld <hi rend="antiqua">documentirt</hi>.
+                        Der Druckfehler ist darum so unangenehm, weil es gar nicht die Art des
+                        Setzers ist, für tönende <pb n="2*"/> Buchstaben dumpfe zu nehmen.</p>
+            <p>Ich bin jetzt ganz mit <hi rend="antiqua">Sanskrit-Grammatik</hi> beschäftigt.
+                        Ich bin nämlich in dem ausführlichen Werke über Sprachen, das ich bearbeite,
+                        daran gekommen die Eigenthümlichkeiten eines wirklich formalen Baues an dem
+                            <hi rend="antiqua">Sanskrit</hi>, als dem leuchtendsten Beispiel
+                        desselben, zu zeigen. Ich habe die letzten Wochen mich vorzüglich mit dem
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> und Akut beschäftigt, wo ich nicht immer mit
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> gleicher Meinung bin, obschon ich immer mehr
+                        sein wahres Sprachtalent, und seine wirklich unendlichen Verdienste um das
+                            <hi rend="antiqua">Sanskrit</hi> ehre und bewundre.</p>
+            <p>Mit <persName ref="cvh1">meiner Frau</persName> geht es zwar seit etwa 14 Tagen viel besser, aber die wahre
+                        Wiederherstellung und Genesung bleibt immer sehr problematisch. Wie sehr
+                        mich das auch in meinem Studium stört und zurückbringt, begreifen Sie
+                        gewiß.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, liebster Freund, und erhalten Sie mir Ihr
+                    wohlwollendes Andenken. Ich bleibe mit der hochachtungsvollsten
+                    Freundschaft
+                    <lb/>der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 25. <hi rend="antiqua">Jan</hi>. 1829.</dateline>
+            </closer>
+            <postscript>
+               <p>In meinem Eifer gegen das <foreign sameAs="sa" n="transEd">jetukāma<graphic url="Rosen/WvH-Rosen_1829_01_25/0942.svg"/>
+                  </foreign> hatte ich nicht bemerkt, daß auf
+                    derselben Seite auch statt <hi rend="antiqua">wed<hi rend="underline">m</hi>i</hi>, <hi rend="antiqua">wed<hi rend="underline">ji</hi>
+                  </hi>
+                    gedruckt ist. Hoffentlich haben Sie auch dies im Carton berücksichtigt?</p>
+            </postscript>
+            <closer>
+               <pb n="3*"/> <handShift scribe="Schreiber"/>
+               <address>
+                  <addrLine>An
+                <lb/>Herrn <hi rend="antiqua">Doctor Rosen</hi>
+                     <lb/>Wohlgeboren
+                <lb/>in
+               <lb/>
+                     <placeName ref="London">
+                        <hi rend="antiqua">London</hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Karl Jakob Alexander Edler von Rennenkampff,
+                        28.07.1831<idno type="BBAW">536</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Handschrift verschollen; handschriftlich von Leitzmann
+                            korrigiertes Exemplar von Distel 1883: Jena, ThULB, Nachl.A.Leitzmann
+                            V,1, Nr. 437</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Distel 1883, S. 29–32</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8382</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="august1">
+                  <persName>August I., Großherzog von Oldenburg</persName>
+               </person>
+               <person corresp="jegoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                            Humboldt</persName>
+               </person>
+               <person corresp="mkardorff">
+                  <persName>Kardorff, Mathilde von, geb. Freiin von Dalwigk zu
+                            Lichtenfels</persName>
+               </person>
+               <person corresp="ablluetzow">
+                  <persName>Lützow, Adam Barthold Ludwig Freiherr von</persName>
+               </person>
+               <person corresp="edrennenkampff">
+                  <persName>Rennenkampff, Elisabeth Dorothea Edle von, geb. von
+                            Anrep</persName>
+               </person>
+               <person corresp="krennenkampff">
+                  <persName>Rennenkampff, Karoline Edle von, geb. Freiin von Dalwigk zu
+                            Lichtenfels</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1380">Goethe, Johann Wolfgang von (1816–1817): Aus meinem Leben.
+                        Zweiter Abteilung Erster und Zweiter Teil [= Italienische Reise]. In:
+                        Goethes Werke. Ausgabe B, Stuttgart: Cotta</bibl>
+               <bibl corresp="1381">Goethe, Johann Wolfgang von (1829): Zweyter Römischer
+                        Aufenthalt vom Juny 1787 bis April 1788. In: Goethe’s Werke. Vollständige
+                        Ausgabe letzter Hand, 29. Band, Stuttgart/Tübingen: Cotta</bibl>
+               <bibl corresp="208">Humboldt, Wilhelm von (1830): [Rez.] Goethes Zweiter
+                        römischer Aufenthalt. In: Jahrbücher für wissenschaftliche Kritik, Nr.
+                        45–47, Sp. 353–374</bibl>
+               <bibl corresp="220">Humboldt, Wilhelm von (1830): Vorerinnerung. Über Schiller
+                        und den Gang seiner Geistesentwicklung. In: Briefwechsel zwischen Schiller
+                        und W. v. Humboldt, Stuttgart/Tübingen: J. G. Cotta</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Herr Kammerherr von Lützen hat unsere kleine Insel früher
+                    verlassen, als ich dachte, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-07-28"/>
+               <placeName key="Norderney">Norderney</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="arennenkampff">Rennenkampff, Karl Jacob Alexander Edler
+                        von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. September 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Herr <persName ref="ablluetzow">Kammerherr von Lützen</persName>
+               <note type="footnote" resp="editor">Leitzmann korrigiert in seinem Handexemplar
+                        (Jena, Thüringer Universitäts- und Landesbibliothek, Nachlass Leitzmann V,1,
+                        Nr. 437) von Distels Buch den Namen „Lützen“ in „Lützow“.</note> hat
+                        <placeName ref="Norderney">unsere kleine Insel</placeName> früher verlassen,
+                    als ich dachte, und dies muß mich bei Ew. Hochwohlgeboren entschuldigen, daß ich
+                    Ihnen nicht wieder durch ihn geantwortet habe. Ew. Hochwohlgeboren Brief hat mir
+                    eine ungemein lebhafte Freude gemacht. Man hat nur selten und nur bei wenig
+                    Gegenständen die Genugthuung, daß das, was man schreibt, auf ähnliche Weise
+                    empfunden wird, als man es selbst empfindet. Bei der Arbeit, über welche Sie ein
+                    so gütiges Urtheil fällen, konnte ich bei Ihnen mit Sicherheit darauf rechnen,
+                    und Sie bestätigen mich hierin durch Ihren Brief auf eine Weise, die mir meine
+                    Ansichten weiter geführt zurückgiebt. Was Sie über das Sehen des Dichters sagen,
+                    ist vollkommen wahr, und zugleich tief aufgefaßt. Weil der Dichter in seiner
+                    Beschauung den Punkt zu heften versteht, wo das Wesen und die Gestalt der Dinge
+                    wunderbar in einander greifen, so glückt es ihm, die Wirklichkeit so zu ahnden,
+                    daß er sie selbst gewissermaßen entbehren kann. Indeß ist damit allerdings das
+                    Wesen der Poesie weder erklärt, noch erschöpft, und man kann wohl mit Sicherheit
+                    annehmen, daß man in dem Versuche, dies zu thun, immer nur bis auf einen
+                    gewissen Punkt kommen wird. Der ganze <persName ref="fschiller">Schiller</persName>sche Briefwechsel mit <persName ref="jwgoethe">Goethe</persName> und mir, <bibl sameAs="1380">Goethes Reise nach
+                        Italien</bibl> und so Vieles sonst in seinen und <persName ref="fschiller">Schiller</persName>s Werken behandelt ewig und ewig unter den
+                    verschiedensten Formen die Frage, was es denn eigentlich ist, wodurch das
+                    Poetische poetisch wird; doch zu einer klar gefaßten, einfachen Antwort gelangt
+                    man niemals dadurch. Man tritt indeß dem Geheimniß unendlich näher, und dies,
+                    und wie es geschieht, habe ich vorzüglich zu zeigen gesucht, als ich über
+                        <persName ref="jwgoethe">Goethe</persName> und <persName ref="fschiller">Schiller</persName> schrieb<note type="footnote" resp="editor">Dies bezieht
+                        sich auf die beiden im Jahr 1830 erschienenen Texte zu Schiller und Goethe:
+                        die <bibl sameAs="220">"Vorerinnerung. Über Schiller und den Gang seiner
+                            Geistesentwicklung". In: Briefwechsel zwischen Schiller und W. v.
+                            Humboldt, Stuttgart/Tübingen: J. G. Cotta</bibl>, sowie die Rezension
+                            <bibl sameAs="208">"Goethes Zweiter römischer Aufenthalt" im Jahrbücher
+                            für wissenschaftliche Kritik, Nr. 45–47</bibl>. [FZ]</note>. Ich würde
+                    sehr viel darum geben, wenn ich diese Arbeiten einige Jahre früher gemacht
+                    hätte. Die, welche so ganz, wie niemand so gut weiß, als Sie, in diesen Ideen
+                    und Empfindungen lebte, würde Freude daran gehabt, und wohlthätigen Einfluß
+                    darauf ausgeübt haben. Das Schicksal hat es aber anders gewollt, und es ist
+                    wunderbar, wie schriftstellerische Arbeiten an den zufälligsten Umständen
+                    hängen. Ueber <persName ref="fschiller">Schiller</persName> wollte ich seit
+                    Jahren schreiben, war mehrere Male nahe daran, kam aber doch nicht dazu.</p>
+            <p>Ew. Hochwohlgeboren haben uns, <persName ref="cvh2">meiner Tochter</persName>,
+                    die sich Ihnen Allen auf das herzlichste empfiehlt, und mir so angenehme Stunden
+                    in Ihrer Familie vergönnt, daß wir auf unserer Rückreise gewiß mit Ihrer
+                    Erlaubniß einen Tag in <placeName ref="OldenburgO">Oldenburg</placeName>
+                    verweilen werden. <persName ref="august1">Dem Großherzog</persName> würde ich
+                    gewiß sehr gern meine Ehrfurcht bezeugen. Indeß kommt es, recht offenherzig
+                    gesagt, darauf an, ob er es wirklich wünscht, und es, wenn ich es nicht thäte,
+                    übel empfinden würde? Denn an sich ist es jetzt weder meine Stimmung, noch
+                    System an Hof zu gehen; ich habe daher auch schlechterdings keine Hofkleider bei
+                    mir. Vor allen Dingen aber muß ich Sie bitten zu machen, daß mich die Aufwartung
+                    beim <persName ref="august1">Großherzog</persName> nicht um die Freude bringt,
+                    den Mittag in Ew. Hochwohlgeboren Familie zu sein. Je mehr wir überhaupt dort
+                    und allein mit den Ihrigen den Tag zubringen, desto erwünschter wird es uns
+                    sein. <persName ref="ghberg">Herrn von Berg</persName> kann ich ja auf eine
+                    halbe Stunde besuchen. <placeName ref="OldenburgO">In der Stadt</placeName>
+                    wünschten wir wohl die Gemälde-Sammlung und die Bildsäulen zu sehen, von denen
+                    wir neulich sprachen. Ich gebe mir auf Fall die Ehre, Ew. Hochwohlgeboren noch
+                    von dem Tag meiner Ankunft in <placeName ref="OldenburgO">Oldenburg</placeName>,
+                    wie Sie es so sehr gütig wünschen, zu benachrichtigen. Ich kann jetzt noch
+                    selbst nicht genau bestimmen, wie lange mein Aufenthalt hier dauern wird.
+                    Dreißig Bäder nehme ich auf jeden Fall, uns dies führt mich bis zum 12. August.
+                    Sagt aber unser Befinden zu, und ist das Wetter nicht so<note type="footnote" resp="editor">Leitzmann korrigiert zu „zu“.</note> ungünstig, so bleibe ich
+                    wohl zehn Tage länger, und bringe es auf vierzig Bäder. Dann hängt es wieder
+                    davon ab. ob ich den ersten Tag von hier bis <placeName ref="Moorburg">Moorburg</placeName>, oder nur bis <placeName ref="Aurich">Aurich</placeName> kommen kann.</p>
+            <p>Ich bitte Ew. Hochwohlgeboren mich <persName ref="edrennenkampff">Ihrer Frau
+                        Mutter</persName> und <persName ref="krennenkampff">Ihrer Frau
+                        Gemahlin</persName> angelegentlichst zu empfehlen. <persName ref="cvh2">Meine Tochter</persName> tritt dieser Bitte bei, und wünscht auch in Ew.
+                    Hochwohlgeboren freundschaftliches Andenken zurückgerufen zu werden. <persName ref="mkardorff">Frau von Kardorf</persName>
+               <note type="footnote" resp="editor">Leitzmann korrigiert zu „Kardorff“.</note> hat uns ungemein
+                    gütig aufgenommen, und ist uns eine sehr liebenswürdige Gesellschaft.<note type="footnote" resp="editor">Mathilde von Kardorff (1803–1883) war eine
+                        Schwester der Frau von Alexander von Rennenkampff. Siehe Distel 1883, S. 26
+                        Anm. 2. [FZ]</note>
+            </p>
+            <closer>
+               <salute>Genehmigen Ew. Hochwohlgeboren die erneuerte Versicherung meiner
+                        ausgezeichneten Hochachtung und meiner herzlichsten
+                            Freundschaft.</salute>
+               <signed>
+                  <handShift scribe="wvh"/>
+                        Humboldt.</signed>
+               <lb/>
+               <dateline>Norderney den 28. Julius
+                    1831.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

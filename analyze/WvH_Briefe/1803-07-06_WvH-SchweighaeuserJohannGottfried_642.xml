@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Gottfried Schweighäuser, 06.07.1803<idno type="BBAW">642</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Nancy, BM, Ms. 839, t. 4, G. de
+                            Humboldt, fol. 48–49</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1934, S. 19–22</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 888</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="mrargenson">
+                  <persName>Argenson, Marc-René-Marie, Comte de Voyer de Paulmy
+                    d’</persName>
+               </person>
+               <person corresp="sargenson">
+                  <persName>Argenson, Sophie, Comtesse de Voyer de Paulmy d’, geb. de
+                    Rosen-Kleinroop, verw. Princesse de Broglie</persName>
+               </person>
+               <person corresp="jgfichte">
+                  <persName>Fichte, Johann Gottlieb</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="platon">
+                  <persName>Platon</persName>
+               </person>
+               <person corresp="fwriemer">
+                  <persName>Riemer, Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="fwjschelling">
+                  <persName>Schelling, Friedrich Wilhelm Joseph von</persName>
+               </person>
+               <person corresp="algstael">
+                  <persName>Staël, Anne Louise Germaine de</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Das kleine Blättchen vom 17. vorigen Monats das ich gestern
+                        von Ihrer Hand empfangen, theurer Freund, hat mich so gerührt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1803-07-06"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgschweighaeuser">Schweighäuser, Johann Gottfried</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">22. Januar 2019</item>
+            <item n="status"/>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="48r"/>
+               <dateline>
+                  <hi rend="antiqua">Rom</hi>, den 6. <hi rend="antiqua">Julius</hi>, 1803.</dateline>
+            </opener>
+            <p>Das kleine Blättchen vom <date when="1803-06-17">17. v. M.</date> das ich gestern
+                    von Ihrer Hand empfangen, theurer Freund, hat mich so gerührt, daß ich mich
+                    augenblicklich hinsetze, es zu beantworten. Seit Monaten hatte ich mir
+                    vorgenommen, Ihnen zu schreiben, und ich weiß selbst nicht, wie sich die
+                    Ausführung so lange verschob, da ich sonst jetzt viel ordentlicher, als ehemals,
+                    im Briefschreiben bin. Aber von jetzt an sollen Sie nicht mehr klagen, u. ich
+                    bitte Sie sehr mir recht oft u. recht ausführlich Nachricht von Sich zu
+                    geben.</p>
+            <p>Dass Sie Deutscher Literatur treu bleiben, u. noch tief in Frankreich sogar
+                    Metaphysik treiben, freut mich innigst. Auch ich möchte viel drum geben, mit
+                    Ihnen darüber von Zeit zu Zeit reden zu können. Ich würde von Ihnen lernen, denn
+                    ich bin diesen Systemen sehr fremd geworden, u. kenne das <persName ref="fwjschelling">
+                  <hi rend="antiqua">Schelling</hi>
+               </persName>ische nur vom
+                    Hörensagen. Aber eigentlich bin ich im Voraus Ihrer Meynung. Auf die Philosophie
+                    in Deutschland d. h. ihre Resultate, habe ich nie soviel gegeben; nur auf die
+                    Methode des Philosophirens. Diese ist im Grunde hinein verderbt in Frankreich,
+                    sie ist so, daß ich noch dabei bleibe, daß in unsrer Zeit, wo einmal alles Gute
+                    in einer Nation nur durch Cultur entstehen kann, eine Nation, die eine solche
+                    Methode zu philosophiren hat, u. noch dazu für die einzig wahre hält, geistig,
+                    politisch u. moralisch verloren ist. Genauer ausgedrückt könnte man sagen, daß
+                    nur die Deutschen ein eigentliches Streben nach Philosophie haben. Bei allen
+                    übrigen, vorzüglich den Engländern, ist bloßer u. schrecklicher Materialismus.
+                    Aber über die Hohlheit u. Identität des <persName ref="jgfichte">Ficht</persName>ischen u. <sic>
+                  <persName ref="fwjschelling">Schellingg</persName>schen</sic> Systems bin ich ganz und gar mit Ihnen
+                    einverstanden. Es ist nur eine Sache wenigstens im ersteren (denn das zweite
+                    kenne ich, wie gesagt, nicht selbst) die mich doch immer daran gefesselt hat, u.
+                    die mir nicht gleich hohl vorgekommen ist. <persName ref="jgfichte">Fichte</persName> geht doch von einem wirklichen Akt<note type="footnote" resp="editor">Die Worte „wirklichen Akt“ wurden mit rotem Stift
+                        unterstrichen.</note> der innern Reflexion aus, u. dieser Akt<note type="footnote" resp="editor">„Dieser“ ist doppelt, „Akt“ ist einfach in Rot
+                        unterstrichen.</note> liegt eigentlich allem seinem Philosophiren zum
+                    Grunde. Dieser Akt ist bei ihm ein Praktischer<note type="footnote" resp="editor">Bei Leitzmann als „im Praktischen“ wiedergegeben. Beide Worte
+                        sind in Rot unterstrichen worden.</note>, da er seine Theorie eigentlich
+                    ganz auf den prakti-<pb n="48v"/>schen Theil gründet<note type="footnote" resp="editor">Rot unterstrichen wurden die Worte „praktischen Theil
+                        gründet“.</note>, u. es hat mir immer geschienen, als verstünde er
+                    eigentlich darunter die innige u. empfundene<note type="footnote" resp="editor">Rot unterstrichen wurden die Worte „innige u. empfundene“.</note>
+                    Ueberzeugung von der durch u. mit der menschlichen Natur selbst gesetzten
+                    Unabhängigkeit des Ichs vom Nicht Ich, eine Ueberzeugung, die, da sie eigentlich
+                    kein Wissen seyn kann, sich nur als <hi rend="underline">Wollen</hi> zu zeigen
+                    vermag. Dieser kräftige Grund ist, dünkt mich, allem, was <persName ref="jgfichte">Fichte</persName> schreibt, untergebaut, daher kommt aber
+                    auch freilich theils die Unbegreiflichkeit, theils die Leerheit seines Systems.
+                    Alles eigentlich Theoretische darin, Sie mögen es nun Erweiterung u. Ausführung
+                    jenes Satzes nennen, oder richtiger Zurüstung nothgedrungen (d. i. gezwungen den
+                    Knoten, den man theoretisch nicht auflösen kann, praktisch zu zerhauen) dahin zu
+                    gelangen, ist u. muß identisch seyn, mannigfaltiger Ausdruck der
+                    Wechselabhängigkeit des Ichs u. Nicht Ichs bei der zugleich scheinbar radikalen
+                    Selbstständigkeit beider. Das einzige Reale aber ist ein Wunder, was sich
+                    theoretisch nicht begreifen lässt u. noch dazu immer der Gefahr ausgesetzt ist,
+                    materiell verstanden u. gemißbraucht zu werden. Das Resultat des Ganzen muß aber
+                    immer ein reiner Idealismus seyn. Denn alles Begreifliche wird in Schein
+                    aufgelöst, u. das einzige Reale ist unbegreiflich. Unläugbar ist indeß doch im
+                    Menschen ein solcher Funken aus einer andern Welt, derselbe den die Alten nie
+                    verkannten, wenn gleich ihn <persName ref="platon">
+                  <hi rend="antiqua">Platon</hi>
+               </persName> zum Beispiel bloß poetisch darstellt. Dieß eben
+                    scheint mir das Kriterium jeder ächten Philosophie, ob sie ihn dem Auge heller
+                    zeigt oder verdunkelt u. verhüllt. Im letzteren Fall ist rein nicht nur nichts
+                    Gutes, sondern alles mögliche Schlimme davon zu erwarten, u. Sie werden mit mir
+                    gestehen, daß von diesem Gesichtspunkt aus nur noch die Deutsche Philosophie
+                    Achtung verdient.</p>
+            <p>Ob es aber nicht möglich wäre, ein metaphysisches System zu gründen, an das sich
+                    die Fülle des Lebens u. das reale Daseyn näher u. enger anschlösse, das scheint
+                    mir die große, der ernstesten Untersuchung <del type="fragment">wicht</del>
+                    würdige Frage. Wenn aber auch diese Frage bejaht werden könnte, so müßte einem
+                    solchen, nun alle Bedingungen erfüllenden System immer ein <del type="fragment">ab</del> ganz abstraktes vorhergehn, oder vielmehr der philosophirende
+                    Geist muß erst wie durch ein Feuer geläutert, alle Anlage zum Materialismus muß
+                    erst rein zu Asche verbrannt seyn, ehe an ein Weiterkommen zu denken ist.</p>
+            <p>Der Gedanke an u. über eine solche Möglichkeit beschäftigt mich mehr, als
+                    irgendwo sonst, in <hi rend="antiqua">Italien</hi>. Kein Land, als dieß,
+                    widersteht so durch seinen bloßen Anblick allem Holen, Leeren, oder
+                    Ueberspannten. <pb n="49r"/> Nirgends ladet die Natur so zum vollen
+                    ungeschwächten Lebensgenuß ein, u. hält ihn doch zugleich durch eine gewisse,
+                    über alle Formen selbst verbreitete Mäßigkeit wieder so in weise Schranken
+                    zurück. Wie man manchmal von einem Gemählde sagt, daß es mit Nichts gemacht
+                    scheint, u. doch eine tiefe Wirkung thut, so geht es mit <del type="fragment">z<gap quantity="1" unit="chars"/>
+               </del> dem Anblick Italiens. Nirgends
+                    erstaunt es, oft ahndet man nicht einmal gleich, daß ein Gegenstand so schön
+                    ist, als er nachher erscheint; aber unvermerkt schmeichelt es sich ein, u.
+                    umstrickt einen mit festen Banden. Ich bin schon jetzt mächtig davon gefesselt,
+                    u. werde mich schwer entschließen, es unter langer Zeit zu verlassen. Dann die
+                    Alterthümer u. die Erinnerungen. Es giebt in <placeName ref="Rom">
+                  <hi rend="antiqua">Rom</hi>
+               </placeName> vorzüglich eine Stelle, die meine
+                    Lieblingsstelle ist, eine <hi rend="antiqua">Platteform</hi> des alten
+                    Kaiserpallastes auf dem <hi rend="antiqua">Palatin</hi>. Wenn Sie nur einmal da
+                    stehen u. auf einmal die Trümmer des <hi rend="antiqua">Coliseums</hi>, die <hi rend="antiqua">thermen</hi> des <hi rend="antiqua">Caracalla</hi>, die
+                    düstre Pyramide des <hi rend="antiqua">Cajus Cestius</hi>, den einsamen u.
+                    romantischen <hi rend="antiqua">Aventin</hi> u. die kleineren <hi rend="antiqua">Latein</hi>ischen Gebirge u. den hohen oft mit Schnee bedeckten <hi rend="antiqua">Apennin</hi> mit Einem Blick übersehen sollten!</p>
+            <p>
+               <hi rend="antiqua">Non cuilibet licet adire Corinthum</hi> sagen Sie; recht
+                    sonderbar ist es, lieber Freund, daß wenn Sie frei gewesen wären, ich Ihnen
+                    heute, vielleicht schon <del type="fragment">f</del> einige Wochen früher Ihre
+                    alte Lage bei uns angeboten haben würde. Ich glaube, ich schrieb Ihnen einmal,
+                    daß ich für meine Kinder einen von vielen Seiten <persName ref="fwriemer">recht
+                        braven Menschen</persName> gefunden hatte. Mir u. <persName ref="cvh1">meiner Frau</persName> zum Umgange konnte er nicht seyn, was zum Beispiel
+                    Sie uns waren. Aber das zu finden ist eine Gabe des Schicksals, nicht etwas das
+                    sich fodern oder auch nur mit Gewißheit hoffen läßt. Seit einigen Monaten aber
+                    waren für ihn u. mich Umstände eingetreten, die eine Trennung unumgänglich
+                    nothwendig machten, u. er hat mein Haus seit 14 Tagen verlassen. Denken Sie Sich
+                    meine Verlegenheit. Sie, lieber Freund, weiß ich, sind, wenn Sie auch Lust
+                    hätten, wieder mit uns zu leben, gebunden. Sogar wenn Sie es nicht wären, wenn
+                    Sie nun die Wahl zwischen Ihrem jetzigen <hi rend="antiqua">Engagement</hi> u.
+                    einem bei mir hätten, würde ich selbst Ihnen jenes vorzuziehen anrathen. Sie
+                    sind in einem Hause, das Ihnen wie ich sehe äußerlich mehr Vortheile anbieten
+                    kann, u. wo Sie, bei einem einzigen Zögling auch mehr Zeit für sich behalten.
+                    Sie also in <hi rend="antiqua">Italien</hi> zu sehen, hoffe ich nur insofern,
+                    als vielleicht <persName ref="mrargenson">
+                  <hi rend="antiqua">Mr. de
+                        Voyer</hi>
+               </persName> einmal eine Reise macht oder sonst ein Zufall
+                    eintritt. Wüßten Sie aber vielleicht irgend einen Deutschen, der gerade in
+                        <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> wäre, u.
+                    auf den Sie Sich verlassen könnten, so thäten Sie mir einen großen Gefallen ihn
+                    mir anzuzeigen. Meine Bedingungen sind: freie Station u. 200 <hi rend="antiqua">Piaster</hi> also <hi rend="antiqua">circa</hi> 1000 <hi rend="antiqua">Livres</hi>
+               <pb n="49v"/> und natürlich freie Herreise. Freilich aber müßte ich einen
+                    Menschen wünschen, der sich mit Ernst der Erziehung meiner Kinder annähme, u.
+                    dem dies allein Hauptzweck wäre. Bestimmte Aussicht für die Zukunft könnte ich
+                    u. würde ich ihm nicht machen. Allein bliebe er eine Zeit von Jahren bei mir, so
+                    würde ich natürlich für ihn zu sorgen suchen, u. es in meiner jetzigen Lage auch
+                    mehr als ehemals können. Ich weiß, wie schwierig eine Bitte wie die ist, die ich
+                    Ihnen jetzt thue. Allein Sie haben einen sichern Maßstab zur Beurtheilung eines
+                    tauglichen Subjects. Je ähnlicher jemand Ihnen selbst an Kopf, Kenntnissen, u.
+                    vor allem an Charakter u. gesellschaftlicher Liebenswürdigkeit wäre, desto
+                    lieber würde er mir seyn. Schreiben Sie mir doch gleich, ob Ihnen jemand
+                    einfällt. Ich habe auch <persName ref="fschiller">
+                  <hi rend="antiqua">Schiller</hi>
+               </persName> Auftrag gegeben, u. müßte also gleich wissen,
+                    ob ich vielleicht auf Ihre Empfehlung ihm schreiben sollte, wenigstens noch mit
+                    Niemand abzuschließen. Den Menschen selbst hätte ich zwar gern auch bald, allein
+                    es wäre solche Eil nicht. Ich habe ein <hi rend="antiqua">interim</hi>istisches
+                        <hi rend="antiqua">Arrangement</hi> getroffen, das ich allenfalls bis zu
+                    Ende des Jahrs fortsetzen könnte.</p>
+            <closer>Leben Sie wohl. <persName ref="cvh1">Meine Frau</persName> grüßt Sie
+                    freundschaftlichst u. herzlich. Mit innigster u. aufrichtigster Freundschaft Ihr
+                        <signed>Humboldt.</signed>
+            </closer>
+            <lb/>
+            <lb/>
+            <postscript>
+               <p>Ihr Gut kenne ich sehr gut, auch <persName ref="sargenson">
+                     <hi rend="antiqua">Me. de Voyer</hi>
+                  </persName> bei <persName ref="algstael">Fr. <hi rend="antiqua">v. Stael</hi>
+                  </persName>, u. weil
+                        ich ihr bei meiner Rückkunft aus <hi rend="antiqua">Spanien</hi> an der <hi rend="antiqua">Garonne</hi> beim Uebersetzen begegnete. Wenn
+                            <sic>Sie</sic> Sich meiner erinnert, empfehlen Sie mich ihr.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

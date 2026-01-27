@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 14.04.1823<idno type="BBAW">1077</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition:
+                            Abschrift: Dresden, SLB, Mscr. Dresd. e 90, XIX, Bd. 11, S. 285–296, Nr.
+                            62. – Ausfertigung: ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 141–147</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11746</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="ghbernstein">
+                  <persName>Bernstein, Georg Heinrich</persName>
+               </person>
+               <person corresp="bhartrihari">
+                  <persName>Bhartrihari</persName>
+               </person>
+               <person corresp="rfpbrunck">
+                  <persName>Brunck, Richard François Philippe</persName>
+               </person>
+               <person corresp="alchezy">
+                  <persName>Chézy, Antoine-Léonard de</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="ofrank">
+                  <persName>Frank, Othmar</persName>
+               </person>
+               <person corresp="gchaughton">
+                  <persName>Haughton, Sir Graves Champney</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="gareimer">
+                  <persName>Reimer, Georg Andreas</persName>
+               </person>
+               <person corresp="algstael">
+                  <persName>Staël, Anne Louise Germaine de</persName>
+               </person>
+               <person corresp="valmiki">
+                  <persName>Valmiki</persName>
+               </person>
+               <person corresp="vyasa">
+                  <persName>Vyasa</persName>
+               </person>
+               <person corresp="cwilken">
+                  <persName>Wilken, Caroline (geb. Tischbein)</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="622">Bhāgavata-Purāṇa</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="572">Bernstein, Georg Heinrich: Hitopadaesi particula edidit et
+                    glossarium Sanscrito-Latinum (Breslau: Graß &amp; Barth 1823)</bibl>
+               <bibl corresp="179">Colebrooke, Henry Thomas: Hitópadéśa, or salutary instruction; in
+                    the original Sanscrit (Serampore: 1804)</bibl>
+               <bibl corresp="668">Colebrooke, Henry Thomas: On Sanscrĭt and Prácrĭt Poetry. In:
+                    Asiatick Researches 10, 1808, S. 389–474</bibl>
+               <bibl corresp="633">Frank, Othmar: Chrestomathia Sanskrita, quam ex codicibus
+                    manuscriptis, adhuc ineditis, Londini exscripsit atque in usum tironum versione,
+                    expositione, tabulis grammatcis etc. illustratam (München: Selbstverlag
+                    1820)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London:
+                    Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 432–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek
+                    [Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a series of
+                    connected Fables interspersed with Moral, Prudential &amp; Political Maxims,
+                    translated from an ancient manuscript in the Sanskreet Language with Explanatory
+                    Notes (Bath: R. Cruttwell 1787)</bibl>
+               <bibl corresp="660">Wilkins, Charles: The Bhagvat-Geeta, or dialogues of Kreeshna and
+                    Arjoon; in Eighteen Lectures; with Notes (London: C. Nourse 1785)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz habe ich die Ehre zu melden, daß nach langen
+                        Prüfungen meiner Geduld das 4te Heft der Indischen Bibliothek endlich ans
+                        Licht getreten ist. … </ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+               <date type="author" when="1823-04-14"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1091" type="next">06.05.1823</ref>
+               <ref target="1090" type="prev">08.04.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">20. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_57.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_58.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_59.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_60.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_61.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_62.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_63.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_64.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_65.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_66.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_67.jpg"/>
+      <graphic url="Schlegel/Schlegel-WvH_1823-04-14/Dresden, SLB, Mscr. Dresd. e 90_Seite_68.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="285"/>
+               <dateline>Bonn d. 14ten April 1823.</dateline>
+            </opener>
+            <p>Ew. Excellenz habe ich die Ehre zu melden, daß nach langen Prüfungen meiner
+                    Geduld das 4te Heft der <bibl sameAs="396">Indischen Bibliothek</bibl> endlich
+                    ans Licht getreten ist. Ein für Ew. Excellenz bestimmtes Exemplar ist vorgestern
+                    durch den Postwagen in einem Packet an den <persName ref="gareimer">Buchhändler
+                        Reimer</persName> abgesendet. Die 12 besonders abgedruckten Exemplare der
+                        <bibl sameAs="212">Abhandlung</bibl> sind etwas später fertig geworden, ich
+                    werde sie baldigst nach <placeName ref="Berlin">Berlin</placeName> fördern: Ihr
+                        <persName ref="avh">Herr Bruder</persName> wird sie morgen oder übermorgen
+                    schon in Händen haben, da gedruckte Sachen <hi rend="antiqua">sous bandes</hi>
+                    so schnell wie Briefe, in vier bis fünf Tagen von hier nach <placeName ref="Paris">Paris</placeName> gelangen.</p>
+            <p>Zu meinem Leidwesen hat nur die erste Abtheilung, nämlich § 1–6 <hi rend="antiqua">inclus.</hi> diesem Hefte eingerückt werden können. Ich hatte
+                    mich in der Schätzung des Manuscriptes verrechnet. Der Paragraph 7
+                        <sic>dürfte</sic> nicht zerschnitten werden, mit demselben würde das Heft
+                    weit über das gewöhnliche Maaß angewachsen seyn, während der Verleger den Preis
+                    doch nicht erhöhen durfte. Zudem war dann noch eine neue Verzöge-<pb n="286"/>rung zu besorgen, da der Vorrath an Papier <del>nicht</del> so weit nicht
+                    ausreichte. </p>
+            <p>Ich habe eine kurze Vorerinnerung beygefügt, von welcher ich <supplied cert="high">von</supplied>
+               <note type="footnote" resp="editor">Das Wort fehlt
+                    in der Abschrift, ist aber bei Leitzmann 1908, S. 142 vorhanden.</note> Herzen
+                    wünsche, daß <sic>Sie</sic> Ew. Excellenz nicht misfällig seyn möge. Das erste
+                    Heft des zweiten Bandes und in diesem die zweite Abtheilung der <bibl sameAs="212">Abhandlung</bibl> denke ich recht bald nachfolgen zu lassen. </p>
+            <p>In diesem Augenblicke empfange ich Ew. Excellenz gütiges <ref type="link" target="1090">Schreiben</ref> vom <date when="1823-04-08">8ten April</date>,
+                    und bin unendlich erfreut von Ihrem Wohlbefinden und Ihren unermüdlich
+                    fortgesetzten Studien so willkommne Nachrichten zu erfahren. </p>
+            <p>So bald der umgedruckte Bogen und die <supplied cert="low">Cartons</supplied>
+               <note type="footnote" resp="editor">Das Wort ist in der
+                    Abschrift ausgelassen, ist aber bei Leitzmann 1908, S. 142 vorhanden.</note> zum
+                        <bibl sameAs="53">
+                  <hi rend="antiqua">Bhag. Gîta </hi>
+               </bibl> fertig sind, werde ich den
+                    bloßen Text an Ew. Excellenz fördern. Da <sic>sie</sic> gesonnen sind, sich mit
+                        <sic>diesen</sic> Buche besonders zu beschäftigen, so wäre es gut, sich die
+                        <bibl sameAs="660">Übersetzung</bibl> von <persName ref="cwilkins">Wilkins</persName> zu verschaffen. Es ist damit ganz anders bewandt wie mit
+                        <bibl sameAs="564">der des <hi rend="antiqua">Hitopa.</hi>
+               </bibl> – Jene,
+                    zwar <bibl sameAs="660">seine erste Arbeit</bibl>, hat er in <placeName ref="Benares">Benares</placeName> verfertigt, unter der Leitung eines
+                    vortrefflichen einheimischen Gelehrten. Es fehlt zwar auch nicht an
+                    Nichtverstehen und an positiven Misverständnissen <pb n="287"/> doch ist sie im
+                    ganzen brauchbar. Im <bibl sameAs="564">
+                  <hi rend="antiqua">Hitop.</hi>
+               </bibl> gehen die Misverständnisse wirklich
+                    über die Gränzen des Erlaubten hinaus, und wenn viele Sentenzen im Originale so
+                    beschaffen wären, wie sie im Englischen lauten, so möchte man sich billig über
+                    den Ruf der Weisheit wundern, wozu das Buch gelangt ist. Bey allem dem suche ich
+                    diese <bibl sameAs="660">Übersetzung</bibl>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 143 fügt an dieser Stelle ein: dennoch.</note> als eine
+                    Handschrift zu benutzen, indem ich oft durch das trübe Medium hindurch errathen
+                    kann, wie er gelesen haben muß, und zuweilen <subst>
+                  <del>eine</del>
+                  <add>meine</add>
+               </subst> <placeName ref="Paris">Paris</placeName>er Lesearten<note type="footnote" resp="editor">Gemeint
+                        sind die <bibl sameAs="181">Hitopadeśa</bibl>-Manuskripte der <orgName ref="7">Bibliothèque Royale</orgName>.</note> bestätigt finde.</p>
+            <p>
+               <persName ref="ghbernstein">Hrn Bernstein</persName>s <bibl sameAs="572">lithographischen Versuch</bibl> habe ich noch nicht gesehn, und wäre
+                    neugierig darauf: er hätte ihn mir wohl zusenden können. Ich habe schon die
+                    Absicht gehabt, etwas auf Übertragungs-Papier zu schreiben, um zu zeigen, daß
+                    man es leicht besser machen könne als <persName ref="ofrank">Othmar
+                        Frank</persName>. Aber wozu soll man sich mit der Lithographie plagen, da
+                    man es mit dem Drucken so bequem hat? Was kann man mehr verlangen, als daß eine
+                    große Octavseite von 20 Zeilen, bey der von mir getroffenen Einrichtung der
+                    Typen, in anderthalb Stunden gesetzt wird? Dieß kann man im Arabischen nur ohne
+                    Vocalzeichen, sobald es punctirt wird, erfodert es viel mehr Zeit. Jeder Bogen
+                        <pb n="288"/> des <bibl sameAs="53">
+                  <hi rend="antiqua">Bhag. Gîta</hi>
+               </bibl> auf starkem geglätteten Velin,
+                    eine Auflage von 300 Ex. kostet mir alles in allem, Satz, Druck und Papier, 25
+                    Thl. Ein starker Band von 30–32 Bogen wird demnach 800 Thl. <del>kommen</del>
+                    kosten. Für einen solchen wäre 10 Thl. gewiß ein mäßiger Preis, und so würde ein
+                    Absatz von 100 Ex. die Kosten decken. Freylich bey dem jetzt noch so
+                    beschränkten Bedarf wird es Zeit erfodern, ehe so viele Exemplare abgehen, wenn
+                    ich nicht etwa in England eine Subscription zu Stande bringen kann. Ich hoffe
+                    dem Fonds des öffentlichen Unterrichts nicht beschwerlich zu fallen, sondern
+                    alles <subst>
+                  <del>mögstlichst</del>
+                  <add>möglichst</add>
+               </subst> aus eignen Mitteln zu bestreiten. </p>
+            <p>Die bisher von Ew. Excellenz befolgte Methode, immer dieselben Stücke wieder zu
+                    lesen, ist gewiß die rechte. Ich mache es eben so. Man dringt auf diese Weise in
+                    die Sinnesart ein, welche der Bildung der Sprache und des Styls zum Grunde
+                    gelegen hat, und spürt mit Freuden, wenn man nach <supplied cert="high">einer</supplied>
+               <note type="footnote" resp="editor">Das Wort fehlt in der
+                        Abschrift, ist aber bei Leitzmann 1908, S. 144 vorhanden.</note> Zwischenzeit zu
+                    dem oft <sic>betrachten</sic> zurückkehrt, daß einem ein neues Licht aufgegangen
+                    ist. Indessen denke ich, in der Folge, wenn erst eine gewisse Anzahl bequemer
+                    und correcter Ausgaben vorhanden sind, <pb n="289"/> werden Ew. Excellenz den
+                        <bibl sameAs="352">
+                  <hi rend="antiqua">Râmâyana</hi>
+               </bibl> und andre <del>pische</del> epische
+                    Stücke während der Nachmittagsruhe wie die Zeitungen weglesen können. </p>
+            <p>Ich stelle mir vor, die Jugendgeschichten des Krishnas und seine Liebschaften mit
+                    den Hirtinnen in dem <sic>
+                  <bibl sameAs="622">Bagavata-Purana</bibl>
+               </sic> müssen sehr anmuthig
+                    seyn.</p>
+            <p>Über den Gegensatz, welchen das Indische Epos mit dem Griechischen bildet, bin
+                    ich vollkommen einverstanden; indessen finde ich auch große Züge der
+                    Ähnlichkeit. Wenn wir jenes erst besser kennen, wird dieß Anlaß zu den
+                    anziehendsten Vergleichungen geben. Ungeachtet der völligen
+                        <sic>Emincipation</sic> der Homeriden von der priesterlichen Zucht glaube
+                    ich doch im <persName ref="homer">Homer</persName> noch Spuren der älteren
+                        <sic>sacerdatalen</sic> Poesie durchschimmern zu sehn. Auf der andern Seite
+                    kann ich nicht umhin anzunehmen, daß manche Theile der Indischen Mythologie von
+                    den Kschatriya’s und ihren Sängern ausgegangen sind und daß die Brahmanen sie
+                    nur nach ihrem Sinne umgestaltet und sich zugeeignet haben. Ein gelehrter Freund
+                    machte mir die Bemerkung, man dürfe aus dem <bibl sameAs="352">
+                  <hi rend="antiqua">Ramay.</hi>
+               </bibl> nur die Capitel <add>von</add> der
+                    Incarnation wegnehmen, <pb n="290"/> so erscheine nachher das übrige als eine
+                    bloß menschliche <subst>
+                  <del>Heldenthat.</del>
+                  <add>Heldengeschichte.</add>
+               </subst> Soll doch selbst <persName ref="valmiki">Valmikis</persName> der Sage
+                    nach nicht einmal ein Brahmane gewesen seyn. <persName ref="vyasa">Vyasas</persName> freylich war es, aber <persName ref="vyasa">Vyasas</persName> ist, wie     <note type="footnote" resp="editor">Leitzmann 1908, S. 145 gibt für die große Lücke in der Abschrift folgenden Text: <lb/>
+                  <foreign sameAs="grc">Ὁμηρος</foreign> von <foreign sameAs="grc">ὁμη</foreign> und <foreign sameAs="grc">ἀρω</foreign>,</note> der
+                    Zusammenfüger, und daß bey den Sagengedichten Brahmanen dieses Amt übernommen,
+                    kann man gern glauben.</p>
+            <p>Es freut mich außerordentlich, daß meine Versuche mit Übertragung der Sentenzen
+                    Ew. Excellenz nicht misfallen. Hier ist eine artige von <persName ref="bhartrihari">
+                  <hi rend="antiqua">Bhactri-Nari</hi>
+               </persName>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 145: Bhartṛi-Hari.</note>; ein verliebtes
+                    Epigramm: </p>
+            <p>Bey der Lampe, des Heerds Flamme, bey Mond- Sternen und Sonnenschein, <lb/>Fern
+                    von des Mädchens Rehaugen liegt die Welt mir in Finsterniß. </p>
+            <p>Es kommt, wie mich dünkt, hauptsächlich darauf an, daß man am Schluße des ersten
+                    Hemistichs den Fuß: ⏑ – – ⏓ recht fühlbar mache, und in dem zweiten den
+                    jambischen Gang vermeide. Die Gefahr des Holperichten liegt freylich sehr nahe,
+                    das haben uns leider die Beyspiele bewiesen. Und wie ist es zu machen, wenn das <subst>
+                  <del>Sylbenmaß</del>
+                  <add>Sylbenmaaß</add>
+               </subst> ein künstlicheres, und wie die lyrischen der Alten von einem Ende zum
+                    andern ganz festgesetzt ist? Damit gleiche Schritte<note type="footnote" resp="editor">Leitzmann 1908, S. 145: gleichen Schritt.</note> zu <pb n="291"/>
+                    halten, wird sehr schwierig seyn. <sic>Ubrigens</sic> muß ich mir doch die
+                    Freyheit vorbehalten, für die freye Nachbildung epischer Stücke so gelind
+                    fließende Hexameter zu machen, als ich nur irgend weiß und kann. </p>
+            <p>Die beiden von Ew. Excellenz angeordneten Auslassungen in dem letzten Theile der
+                    Abhandlung besorge ich sogleich. </p>
+            <p>In diesem Augenblicke erhalte ich durch eine verbindliche Sendung von <persName ref="ghbernstein">Hrn. Bernstein</persName> seine <bibl sameAs="572">
+                  <sic>lythographischen</sic> Blätter</bibl>. Sie gefallen mir ganz ungemein
+                    wohl, ja ich freue mich, sie den <persName ref="ofrank">Frank</persName>schen
+                        <bibl sameAs="633">Ungeheuern</bibl> entgegen stellen zu können, welche uns
+                    im Auslande lächerlich machen, und ich werde ihm darüber schreiben.</p>
+            <p>Freylich sollte man den Apostroph wohl immer setzen, wie alles was zur
+                    Deutlichkeit dient, ohne sich von dem ursprünglichen Gebrauche zu entfernen. In
+                        dem     <note type="footnote" resp="editor">Leitzmann 1908 gibt für die hier
+                        vorhandene Lücke auf S. 146: hitōpadēśō’yaṃ.</note> könnte ja der unerfahrne
+                    Schüler das letzte Wort für den <hi rend="antiqua">Acc. pronom. relat.</hi>
+                    nehmen. Noch viel unerlaßlicher ist das Zeichen aber, wenn das <hi rend="antiqua">a privativum</hi> wegfällt vor einem sonoren Buchstaben,
+                    welcher das <term type="phon" ref="002">
+                  <hi rend="antiqua">visarga</hi>
+               </term> auf gleiche Weise verwandelt haben
+                    würde. Hier könnte man der Sprache selbst Zweideutigkeit vorwerfen, wenn das
+                        <foreign sameAs="sa">
+                  <hi rend="antiqua">a</hi>
+               </foreign> <pb n="292"/> obschon <sic>etidirt</sic>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 146: elidirt.</note>, nicht
+                    hörbar bliebe, weswegen das Zeichen <foreign sameAs="sa" n="transEd">'<graphic url="Lassen/Lassen-WvH_1829_02_16/0945.svg"/>
+               </foreign>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 146 gibt ein Apostroph
+                        (’).</note> ein halbes <foreign sameAs="sa">
+                  <hi rend="antiqua">ă</hi>
+               </foreign> heißt. Dieß bestätigt auch <persName ref="htcolebrooke">Colebrooke</persName> in seiner <bibl sameAs="668">Abhandlung von der Indischen Poesie</bibl> von den sämtlichen Synaloephen,
+                    so wie <persName ref="rfpbrunck">Brunck</persName> behauptet, dasselbe habe in
+                    den <sic>dramathischen</sic> Versen der Griechen Statt gefunden.</p>
+            <p>Desto besser, wenn <persName ref="gchaughton">
+                  <hi rend="antiqua">Haughton</hi>
+               </persName> die Analyse des <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> nicht gemacht hat. Als er in
+                        <placeName ref="Paris">Paris</placeName> war, befand ich mich wegen der
+                    Krankheit meiner <persName ref="algstael">verewigten Freundin</persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="algstael">Anne Louise Germaine de Staël</persName>, bei der
+                        Schlegel seit 1803 als Mentor und Hauslehrer lebte, starb am <date when="1817-07-14">14. Juli 1817</date> in <placeName ref="Paris">Paris</placeName>.</note> in so schweren Bekümmernissen, daß ich seinen
+                    Besuch gar nicht benutzen konnte. <persName ref="alchezy">Chezy</persName> hatte
+                    aber wegen des verwünschten Verses <hi rend="antiqua">
+                  <bibl sameAs="610">Hitop. ed. Lond.</bibl> pag.</hi> 2. <hi rend="antiqua">lin.</hi> 21.     <note type="footnote" resp="editor">Leitzmann 1908 gibt für
+                        die hier vorhandene kleine Lücke auf S. 146: guṇi p.</note> ein Orakel von
+                    ihm begehrt, und seine Antwort nicht ganz befriedigend gefunden. Ich glaube
+                    einzusehn, daß die Dunkelheit von einem Wortspiele herrührt, bedarf aber
+                    dennoch, außer der <bibl sameAs="179">Seramporer Leseart</bibl>, einer Conjectur,
+                    um einigermaßen herauszukommen. </p>
+            <p>Die Umstellung eines Verses oder Distichons scheint mir zu den gelinderen
+                    Emendationen zu gehören: Der Indische Abschreiber entstellt seine Arbeit nicht
+                    gern durch Ausstreichen; wenn er nun die wahre Ordnung verfehlt hat, so macht
+                        <pb n="293"/> er vielleicht ein kleines Zeichen dabey, welches übersehen
+                    wird, und so kann der Irrthum sich leicht in einer Menge Handschriften
+                    verbreiten.</p>
+            <p>Man schildert mir <supplied cert="high">den Zustand</supplied>
+               <note type="footnote" resp="editor">Die Worte fehlen in der Abschrift und sind
+                    nach Leitzmann 1908, S. 147 ergänzt.</note> der Sanskritstudien in <placeName ref="Paris">Paris</placeName> als nicht sonderlich blühend. Dagegen weiß
+                        <persName ref="jpabel">Remusat</persName> den Eifer für das Chinesische zu
+                    beleben. Die <orgName ref="4">Asiatische Gesellschaft</orgName> hat noch keine
+                    Anstalt zu Devanagari-Lettern gemacht, und es ist fürs erste noch keine Aussicht
+                    dazu da. Ein Privatversuch, meldet man mir, werde angestellt, scheine aber nicht
+                    sonderlich auszufallen.</p>
+            <closer>
+               <salute>Ich empfehle mich dem wohlwollenden Andenken Ew. Excellenz mit
+                        unbegränzter Verehrung.<lb/>
+                  <supplied cert="high">gehorsamst</supplied>
+               </salute>
+               <signed>
+                  <supplied cert="high">AWvSchlegel.</supplied>
+                  <note type="footnote" resp="editor">Die Worte fehlen in der Abschrift und
+                            sind nach Leitzmann 1908, S. 147 ergänzt.</note>
+               </signed>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>Von dem Unglücke des wackern <persName ref="fwilken">Wilken</persName> wußte
+                        ich noch nicht, und beklage es von ganzem Herzen, um so mehr da ich ihn
+                        persönlich kennen gelernt habe, und auch an <persName ref="cwilken">seiner
+                            Frau</persName> und ihrer Familie freundschaftlich Antheil nehme.</p>
+               <pb n="294–296 vacat"/>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

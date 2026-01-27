@@ -16,13 +16,38 @@ database:
     LIMIT 10;
 
 api:
-  base_url: "http://localhost:11434"   # URL zu OpenWebUI / Proxy
-  endpoint: "/api/chat/completions"    # API-Endpoint
-  api_key: "your-api-key-here"         # API-Schlüssel für Authentifizierung (optional)
-  model: "your-model-name"             # z.B. "llama3.3:70b-instruct-q8_0"
-  timeout_seconds: 60
-  max_retries: 3
-  retry_delay_seconds: 3
+  active_profile: "chatai"  # Wähle: "chatai", "telota" oder "gemini"
+  
+  profiles:
+    chatai:
+      api_provider: "openai"
+      base_url: "https://chat-ai.academiccloud.de"
+      endpoint: "/v1/chat/completions"
+      api_key: "your-api-key-here"
+      model: "llama-3.3-70b-instruct"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+    
+    telota:
+      api_provider: "openai"
+      base_url: "http://telota-ai.bbaw.de:3000"
+      endpoint: "/api/chat/completions"
+      api_key: "your-api-key-here"
+      model: "llama3.3:70b-instruct-q8_0"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+    
+    gemini:
+      api_provider: "gemini"
+      base_url: "https://generativelanguage.googleapis.com"
+      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
+      api_key: "YOUR_GEMINI_API_KEY"
+      model: "gemini-2.5-flash-lite"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
 
 processing:
   output_dir: "output_json"
@@ -49,3 +74,4 @@ files:
   input_dir: "analyze"             # Verzeichnis für Textdateien (bei --source file)
   output_dir: "output_json"        # Ausgabeverzeichnis für JSON-Dateien
   filename_pattern: "{timestamp}-{source}.json"  # Pattern für Dateinamen
+  xml_text_xpath: ".//text"        # XPath-Ausdruck für Text-Extraktion aus XML

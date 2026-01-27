@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 30. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Lieber an Wilhelm von Humboldt, 16.11.1831<idno type="BBAW">823</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 119–120</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cfollen">
+                  <persName>Follen, Charles</persName>
+               </person>
+               <person corresp="sjohnson">
+                  <persName>Johnson, Samuel</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="mcnniebuhr">
+                  <persName>Niebuhr, Marcus Carsten Nicolaus</persName>
+               </person>
+               <person corresp="joppenheimer">
+                  <persName>Oppenheimer, Jas</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="sengstack">
+                  <persName>Sengstack, Capt.</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="15">Adams, John: American Almanac and Repository of useful Knowledge for
+                    the Year 1832 (Boston: Gray and Bowen 1832)</bibl>
+               <bibl corresp="126">Encyclopaedia Americana, seit 1829</bibl>
+               <bibl corresp="813">Follen, Charles: Inaugural Discourse (Massachusetts: Hilliard and
+                    Brown 1831)</bibl>
+               <bibl corresp="425">Harris, Thompson S.: Ne hoiwiyosdosheh noyohdadogehdih ne Saint
+                    Luke. The Gospel According to Saint Luke, Translated into the Seneca Tongue (New
+                    York: American Bible Society 1829)</bibl>
+               <bibl corresp="385">Humboldt, Wilhelm Freiherr von / Schiller, Friedrich: Briefwechsel
+                    zwischen Schiller und Wilhelm v. Humboldt (Stuttgart und Tübingen: J. G. Cotta
+                    1830)</bibl>
+               <bibl corresp="812">Johnson, Samuel: Dictionary of the English Language (London: J.
+                    &amp; P. Knapton 1755)</bibl>
+               <bibl corresp="811">Pickering, John: Appendix: Indian Languages of America. In: Lieber,
+                    Franz (Hrsg.): Encyclopædia Americana, Vol. 6, S. 581–600 (Philadelphia: Thomas,
+                    Cowperthwait &amp; Co. 1840)</bibl>
+               <bibl corresp="462">Wolzogen, Caroline von: Schillers Leben. Verfasst aus Erinnerungen
+                    der Familie, seinen eigenen Briefen und den Nachrichten seines Freundes Körner
+                    (Stuttgart: J. G. Cotta 1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Euer Excellenz Sehr gütiges Schreiben von Norderney den
+                        20ten August …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="flieber">Lieber, Franz</persName>
+               <date type="author" when="1831-11-16"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="875" type="next">14.06.1832</ref>
+               <ref target="873" type="prev">20.08.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="flieber">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="see">Seneca</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">30. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Lieber/Lieber-WvH_1831_11_16/Coll.ling.fol.52_249.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1831_11_16/Coll.ling.fol.52_250.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1831_11_16/Coll.ling.fol.52_251.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1831_11_16/Coll.ling.fol.52_252.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="119r"/> <salute>Euer Excellenz</salute>
+               <note type="footnote" resp="editor">Von dem Brief existiert ein <ref type="link" target="409">Duplikat</ref> vom <date when="1831-11-21">21.11.1831</date>.</note>
+            </opener>
+            <p>Sehr gütiges <ref type="link" target="873">Schreiben</ref> von <placeName ref="Norderney">Norderney</placeName> den <date when="1831-08-20">20<hi rend="superscript">ten</hi> August</date> kam mir richtig, am <date when="1831-11-10">Geburtstage</date> <persName ref="fschiller">Schiller</persName>’s, zu Händen, und gewährte mir eine ungemeine Freude,
+                    daß meine geringen Zusendungen<note type="footnote" resp="editor">Siehe Liebers
+                            <ref type="link" target="408">Brief</ref> vom <date when="1830-12-20">20.12.1830</date>.</note> Ihnen nicht ganz <sic>unnütz</sic> gewesen
+                    sind, daß Sie mir <bibl sameAs="385">Ihre Correspondenz mit Schiller</bibl>
+                    senden, daß Sie sich meiner zu ferneren Mittheilungen an Sie bedienen wollen –
+                    alles hat mir die größte Freunde gewährt. Das Päckchen, welches <bibl sameAs="385">Schiller’s Correspondenz mit Ihnen</bibl>, <bibl sameAs="462">sein
+                        Leben</bibl> und einige "Kleinigkeiten" von Ihnen, wie Sie es nennen,
+                    enthält, ist noch nicht angekommen. Ich werde für eine der hiesigen <hi rend="antiqua">Reviews</hi> einen Artikel über <bibl sameAs="385">Schiller’s
+                        Correspondenz</bibl> schreiben. Ließe mir nur mein Werk – die <bibl sameAs="126">
+                  <hi rend="antiqua">Encyclopaedia Americana</hi>
+               </bibl> ein wenig mehr Zeit!
+                    Sie ist eine eifersüchtige <sic>Gefährtinn</sic>. Freilich, hätte ich auch Zeit,
+                    meine schwachen Mittel würden doch nicht hinreichen den beiden Briefschreibern
+                    Gerechtigkeit wiederfahren zu lassen; und so will ich’s so gut thun als ich
+                    kann. Ich werde Ihnen ein Exemplar dieses Artikels senden, falls er <pb n="119v"/> so ausfällt, daß es irgend der Mühe werth ist, Ihnen denselben vorzulegen. –
+                    Es freut mich sehr Ihnen heut ein Päckchen von großem <sic>Intresse</sic>, wie
+                    ich hoffe, senden zu können. Die <bibl sameAs="425">Übersezung der H. Schrift in
+                            <add>die</add> <hi rend="antiqua">Seneca</hi> Sprache</bibl>, wird
+                    Ihnen sehr willkommen sein. Erlauben Sie mir hier eine kleine Bemerkung, daß man
+                    wohl thut eine englische Bibel zum Übersezen dieser Indianischen Übersezungen zu
+                    benuzen, wenn wie <add>es</add> bei <sic>mehren</sic> Büchern die ich heut sende
+                    der Fall ist, der englische Text nicht gegenüber gedruckt ist; eine Bemerkung,
+                    die sehr wahrscheinlich unnüz ist; dennoch schien mir diese Sache eine von den
+                    Kleinigkeiten zu sein, die man wohl ohne große Unachtsamkeit übersehen
+                        <del>kann</del>, und die <add>dann</add> viel Mühe verursachen kann. Ich
+                    lege außerdem den <bibl sameAs="15">
+                  <hi rend="antiqua">American Almanac for</hi> 1832</bibl> bei, ein Werk was
+                    sehr viel intressante statistische Nachrichten über diese Republik
+                        <sic>enthelt</sic>, und das, sollte es Ihnen ohne Werth sein, gewiß manchem
+                    Ihrer Freunde in <placeName ref="Berlin">Berlin</placeName> eine sehr willkommne
+                    Mittheilung sein wird. Ferner werden Sie zwei Exemplare des Artikels <bibl sameAs="811">
+                  <hi rend="antiqua">Indian Languages of America</hi>
+               </bibl>, wie er im
+                    Appendix zu <hi rend="antiqua">Vol.</hi> VI meiner <bibl sameAs="126">
+                  <hi rend="antiqua">Americana</hi>
+               </bibl> steht, dabei finden. Er ist von
+                        <persName ref="jpickering">Herrn <hi rend="antiqua">Pickering</hi>
+               </persName>, der, ich muß es bemerken, gezwungen
+                        <add>war</add> den Artikel in großer Eile zu schreiben. <persName ref="jpickering">Herr <hi rend="antiqua">Pickering</hi>
+               </persName> hat Ihnen
+                    schon vor einigen Monaten diesen <bibl sameAs="811"> Artikel</bibl> zugesandt.
+                    Endlich füge ich einige <hi rend="antiqua">Dead Letters</hi> bei, wie ich davon
+                    einer hiesigen <hi rend="antiqua">Monthly</hi> von einem größern M.S.
+                    mitgetheilt habe. Wenn man jeden Tag von fünf bis spät als <hi rend="antiqua">Lexicographer</hi> – das Wort in <hi rend="antiqua">
+                  <persName ref="sjohnson">Johnson</persName>’s</hi> <subst>
+                  <del>richtiger</del>
+                  <add>treffender</add>
+               </subst> <bibl sameAs="812">Definition</bibl> genommen – arbeitet, und es so bunt
+                    in der Welt steht, bedarf <pb n="120r"/> man der Erholung, die ich zuweilen in
+                    diesen satirischen Briefen suchte. Gerade gestern kamen diese drei aus der
+                    Presse, und ich dachte, ich wollte sie dem Päckchen zufügen. Vielleicht ist es
+                    Ihnen von einigem, geringem Intresse zu sehen wie sich ein Landsmann <subst>
+                  <del>im</del>
+                  <add>in</add>
+               </subst> einer fremden Sprache forthilft.</p>
+            <p>Ich möchte Euer Excellenz ersuchen mir ja alles was Sie über Sprachenkunde
+                    schreiben zukommen zu lassen. Obgleich ich jezt nicht Zeit habe mich in dieses
+                    intressante Studium zu vertiefen, was für mich einen besondren Reiz hat, weil
+                    man in den Sprachen oft den menschlichen Geist belauscht und attrappirt, möchte
+                    ich fast sagen, wie in keinem andren Gebiete, so gewährt mir doch alles was
+                    geistreiche und gründliche Forscher darüber sagen einen großen Genuß, und ich
+                    hoffe daß mich nicht immer so überhäufte Arbeit von diesem Lieblingsstudium
+                    abhalten wird.</p>
+            <p>Vorgestern hatte ich die Biographie meines geliebten Wohlthäters, <persName ref="bgniebuhr">Niebuhr</persName>s<note type="footnote" resp="editor">
+                  <persName ref="bgniebuhr">Barthold Georg Niebuhr</persName> (Kopenhagen
+                        1776–1831 Bonn), deutscher Althistoriker. Er war von 1816 bis 1823
+                        preußischer Gesandter am Heiligen Stuhl in <placeName ref="Rom">Rom</placeName>, wohnte seit 1817 im Palazzo Savelli, der im 13.
+                        Jahrhundert auf dem Marcellus-Theater am Forum Holitorium errichtet worden
+                        war – darauf bezieht sich die Bemerkung zum "Teatro Marcello"; s. ADB Bd.
+                        23, S. 646–661, bes. zum Palazzo Savelli S. 656. Lieber war 1822/1823 für
+                        ein Jahr Hauslehrer von Niebuhrs Sohn Marcus. [FZ]</note>, <del>zu
+                        schreiben</del> für <bibl sameAs="126">mein Werk</bibl> zu schreiben<note type="footnote" resp="editor">Siehe Franz Lieber (1832): "Niebuhr", in: <hi rend="italic">
+                     <bibl sameAs="126">Encyclopædia Americana</bibl>
+                  </hi>, Bd. 9,
+                        Philadelphia: Carey, Lea &amp; Carey, S. 286. [FZ]</note>. Ich dachte nicht,
+                    als <add>ich</add> eines meiner glücklichsten Lebensjahre mit ihm im <hi rend="antiqua">Teatro Marcello</hi>
+               <note type="footnote" resp="editor">„-<hi rend="antiqua">cello</hi>“ ergänzt aus dem <ref type="link" target="409">Duplikat</ref>, hier Fehlstelle.</note> verlebte, daß ich sein Leben,
+                    nach ein <sic>par</sic> Jahren<note type="footnote" resp="editor">„Jahre-“
+                        ergänzt aus dem <ref type="link" target="409">Duplikat</ref>, hier
+                        Fehlstelle.</note>, in <placeName ref="Boston">Boston</placeName>
+                    beschreiben sollte, eine Biographie unter<note type="footnote" resp="editor">
+                        „unter“ ergänzt aus dem <ref type="link" target="409">Duplikat</ref>, hier
+                        Fehlstelle.</note> der schon der Tod sein schwarzes Finis geschrieben.
+                        Sollten<note type="footnote" resp="editor">„Sollt-“ ergänzt aus dem <ref type="link" target="409">Duplikat</ref>, hier Fehlstelle.</note> Sie
+                    wieder an mich schreiben, und wissen Sie wo die Kinder des Verstorbenen sind,
+                    namentlich wo mein theurer <persName ref="mcnniebuhr">Marcus</persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="mcnniebuhr">Marcus Carsten Nicolaus von Niebuhr</persName>
+                        (Rom 1817–1860 Oberweiler), preußischer Staatsmann; s. ADB Bd. 23, S.
+                        662–664.</note> ist, so würden Sie mich unendlich verpflichten, mich davon
+                    in ein par Worten zu benachrichtigen. Ich möchte so gern an den <persName ref="mcnniebuhr">lieben Knaben</persName> schreiben.</p>
+            <p>Ich werde meinem Correspondenten in <placeName ref="New York">
+                  <hi rend="antiqua">Neuyork</hi>
+               </placeName> die Order geben, auf der
+                    Rückseite dieses Briefes zu schreiben mit welchem Schiffe, und an wen das
+                    Päckchen mit den Büchern <sic>gesanndt</sic> wird.</p>
+            <p>Wenn ich kann, lege ich noch die <bibl sameAs="813">
+                  <hi rend="antiqua">Inaugural Dis</hi>-</bibl>
+               <pb n="120v"/>
+               <bibl sameAs="813">
+                  <hi rend="antiqua">course</hi>
+               </bibl> des <persName ref="cfollen">Professor <hi rend="antiqua">Follen</hi>
+               </persName> bei. Es mag nicht ganz
+                    ohne Intresse für Sie sein, zu sehen wie ein Deutscher über deutsche
+                    Wissenschaft zu Amerikanern gesprochen hat. Auf jeden Fall gewinnt die kleine
+                    Schrift dadurch an Intresse, daß die <add>einige</add> hiesigen Zeitungen sie
+                    ganz u gar kopirt haben; <del>einige wenigstens</del>. – Wenn ich diesen Brief
+                    in einer Weise zusiegle, wie es in Deutschland nur für familiäre Correspondenz
+                    gebräuchlich ist, so geschieht es nur darum, weil ich weiß daß er über
+                        <placeName ref="Paris">Paris</placeName> bis zu Ihnen einen sehr weiten Weg
+                    zu machen hat, und ich seinen unbedeutenden Inhalt schon kaum des einfachen
+                    Portos werth halte, und ich mich nicht überwinden kann, noch die
+                    Höflichkeitstaxe, welche <add>Sie</add> für das Couvert zu
+                            <subst>
+                  <del>bezahlt</del>
+                  <add>bezahlen</add>
+               </subst> <add>haben</add> <subst>
+                  <del>werden</del>
+                  <add>würden</add>
+               </subst> <del>muß</del> zuzufügen.</p>
+            <closer>
+               <salute>Ich bin mit vorzüglichster Hochachtung und Ergebenheit <lb/>Euer
+                        Excellenz <lb/>ganz ergebenster Diener</salute>
+               <signed>Franz Lieber</signed>
+               <lb/>
+               <dateline>Boston November. 16 <lb/>1831.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>
+                     <hi rend="underline">
+                        <hi rend="antiqua">Singl.</hi>
+                     </hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Via <placeName ref="Le Havre">Havre</placeName>
+                     </hi>
+                     <note type="footnote" resp="editor">Darunter zwei Stempel: <placeName ref="Le Havre">"Havre</placeName> 24 Dec. 1831" <lb/> "Pays
+                                d’outremer"</note>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">A Son Excellence</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Monsieur le Baron Guillaume de Humboldt &amp; &amp;
+                                &amp;</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <placeName ref="Berlin">Berlin</placeName> en Prusse</hi>
+                     <note type="footnote" resp="editor">Auf der gleichen Seite, um 90°
+                                gedreht notiert, bedingt durch die Faltung des Briefes.</note>
+                  </addrLine>
+               </address>
+               <lb/>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <handShift scribe="Correspondent"/> <hi rend="antiqua">acheminée for
+                                <persName ref="joppenheimer">Jas Oppenheimer</persName>
+                  </hi>
+                  <lb/>
+                  <hi rend="antiqua">
+                     <placeName ref="New York">Newyork</placeName>
+                  </hi> 24 <hi rend="antiqua">Novbre</hi> 1831 <lb/>
+                  <hi rend="antiqua">Duplicat p Juno <persName ref="sengstack">Capt
+                                Sengstack</persName>
+                  </hi>
+                  <lb/>
+                  <hi rend="anntiqua">via <placeName ref="Bremen">Bremen</placeName>.</hi>
+                  <note type="footnote" resp="editor">Darunter: runder Stempel: "N221"</note>
+                  <note type="footnote" resp="editor">Vermutlich notiert vom besagten
+                            "Correspondenten in Neuyork".</note>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 14.07.1829<idno type="BBAW">167</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 50. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 66f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8061</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jhkalthoff">
+                  <persName>Kalthoff, Johann Heinrich</persName>
+               </person>
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae (Berlin
+                    1829)</bibl>
+               <bibl corresp="597">Bopp, Franz: Über die Zahlwörter im Sanskrit, Griechischen,
+                    Lateinischen, Litthauischen, Gothischen und Altslawischen. In: Abhandlungen der
+                    Königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1833 (Berlin:
+                    Königliche Akademie der Wissenschaften 1835), S. 163–170</bibl>
+               <bibl corresp="204">Humboldt, Wilhelm von: Mémoire sur la séparation des mots dans les
+                    textes samscrits, in: Journal Asiatique 11, September 1827, S. 163–172</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen sehr, liebster Freund, für Ihren gütigen
+                        Brief vom 4. d. und dessen interessante Beilagen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-07-14"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="br">Bretonisch</language>
+            <language ident="xtg">Gallisch, transalpin</language>
+            <language ident="cy">Kymrisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="osc">Oskisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 14. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1829_07_14/NDIGRKP004565_0421.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1829_07_14/NDIGRKP004565_0422.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1829_07_14/NDIGRKP004565_0423.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ihnen sehr, liebster Freund, für Ihren gütigen Brief vom
+                        <date when="1829-07-04">4. d.</date> und dessen <sic>interessanten</sic>
+                    Beilagen.</p>
+            <p>Ich habe die <bibl sameAs="597">Abhandlung über die Zahlen</bibl>
+               <note type="footnote" resp="editor">Die Abhandlung "Über die Zahlwörter im
+                        Sanskrit …" wurde von Bopp am <date when="1830-10-25">25. Oktober
+                            1830</date> in der <orgName ref="3">Akademie</orgName> gelesen, lag aber
+                        erst 1835 gedruckt vor. [FZ]</note> sogleich gelesen, und mich sehr daran
+                    gefreut. Sie enthält auch außer dem Interesse, welches das Ganze einflößt,
+                    einzelne sehr scharfsinnige etymologische Bemerkungen. Die Muthmaßung, daß
+                        <foreign sameAs="sa">
+                  <hi rend="antiqua">eka</hi>
+               </foreign>, der Begriff <hi rend="underline">eins</hi> eigentlich ein <hi rend="antiqua">Pronomen</hi> ist, ist der
+                    größesten Aufmerksamkeit werth. Ebenso die Zusammenstellung der Laute <hi rend="antiqua">tsch</hi> und <hi rend="antiqua">f</hi>. Bei diesem Punkt hätte man noch <foreign sameAs="osc">
+                  <hi rend="antiqua">petorritum</hi>
+               </foreign> von <foreign sameAs="cel">
+                  <hi rend="antiqua">
+                     <hi rend="underline">petora</hi>
+                  </hi>
+               </foreign>, nach dem Alter in <hi rend="antiqua">Osci</hi>scher u. <hi rend="antiqua">Galli</hi>scher Sprache
+                    4 hinzufügen können. Im <hi rend="antiqua">Walisi</hi>schen ist <foreign sameAs="cy">
+                  <hi rend="antiqua">pedwar</hi>
+               </foreign> (<hi rend="antiqua">masc.</hi>) 4,
+                    im <hi rend="antiqua">Bas Breton</hi> <foreign sameAs="br">
+                  <hi rend="antiqua">pevar</hi>
+               </foreign> (<hi rend="antiqua">masc.</hi>)
+                        <foreign sameAs="br">
+                  <hi rend="antiqua">pedor</hi>
+               </foreign> (<hi rend="antiqua">fem.</hi>). Die
+                    Sprachlehren leiten diese Wörter auf abgeschmackte Weise ab, sie sind aber
+                    offenbar die Wurzeln von <foreign sameAs="osc">
+                  <hi rend="antiqua">petorritum</hi>
+               </foreign>, u. bloße Lautabwechselungen
+                    mit <foreign sameAs="la">
+                  <hi rend="antiqua">quatuor</hi>
+               </foreign>. Dies geht um so mehr hervor, als
+                    alle Zahlen dieser Sprachen mit ganz kleinen Verschiedenheiten nur die
+                    Lateinischen sind. Ew. Wohlgeboren haben <foreign sameAs="la">
+                  <hi rend="antiqua">bis</hi>
+               </foreign> nicht erwähnt. Sie halten es wohl aber
+                    auch für entstanden aus <foreign sameAs="sa">
+                  <hi rend="antiqua">dvi</hi>
+               </foreign>. <foreign sameAs="la">
+                  <hi rend="antiqua">Dua</hi>
+               </foreign> ist auch in den <hi rend="antiqua">Südsee</hi> Sprachen und <foreign sameAs="eu">
+                  <hi rend="antiqua">bi</hi>
+               </foreign> in das sonst sehr abweichende <hi rend="antiqua">Vaski</hi>sche übergegangen. – Auf Ew. Wohlgeboren <hi rend="antiqua">formae auctae</hi> u. <hi rend="antiqua">purae</hi> will ich
+                    gewiß genau achten, wenn <bibl sameAs="580">Ihre lat. Gramm.</bibl> soweit
+                    gekommen seyn wird, u. die Sache mit völliger Unpartheilichkeit erwägen. Ich bin
+                    nur in den Sprachen der Einführung einer andern <hi rend="antiqua">Terminologie</hi>, als die sich schon in ihnen vorfindet, nicht sehr
+                    geneigt. – Ihr schmeichelhaftes Urtheil über <bibl sameAs="204">meinen Aufsatz
+                        über die Worttrennung</bibl> u. den noch ungedruckten<!-- AD: title? -->
+                    ist mir unendlich erfreulich gewesen. An dem letzten habe ich leider, seitdem
+                    Sie ihn kennen, nur sehr wenig arbeiten können, u. so ist er offenbar
+                    unvollendet. Ich muß also erst ihn weiter bringen u. mich dann über die Form, in
+                    der er zu geben seyn wird, entschließen. – Wenn Ew. Wohlgeboren <persName ref="jhkalthoff">Herrn <hi rend="antiqua">Kalthoff</hi>
+               </persName>
+               <note type="footnote" resp="editor">Gemeint sein muß der Orientalist <persName ref="jhkalthoff">Johann Heinrich Kalthoff</persName> (1803–1839), der
+                        nach der Promotion in <placeName ref="Bonn">Bonn</placeName> 1829 seine
+                        Studien in <placeName ref="Paris">Paris</placeName> bei <persName ref="aisacy">Sylvestre de Sacy</persName> und <persName ref="jpabel">Abel-Rémusat</persName> fortsetzte (ADB 15 [1882] S. 48). [FZ]</note>
+                    das anliegende Schreiben zukommen lassen können, soll es mir sehr <pb n="2*"/>
+                    lieb seyn. Hätten Sie keine Gelegenheit so erbitte ich es mir mit der
+                        <sic>Addresse</sic> des Mannes in <hi rend="antiqua">
+                  <placeName ref="Paris">Paris</placeName>
+               </hi> zurück. Ohne diese dürfte es unmöglich seyn es abzuschicken. – Ich lege
+                    Ihnen einen sehr hübschen Brief <hi rend="antiqua">
+                  <persName ref="classen">Lassen</persName>s</hi> bei, der wieder eine
+                    Bestätigung einer Ihrer Behauptungen enthält. Sie haben wohl die Güte, da ich
+                    ihn noch nicht beantwortet habe, ihn mir bald wieder zuzuschicken.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl. Mit der lebhaftesten Hochachtung und
+                        Freundschaft <lb/>der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 14. <hi rend="antiqua">Julius</hi>,
+                        1829.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="3*–4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

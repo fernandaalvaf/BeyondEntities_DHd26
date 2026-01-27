@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 05.05.1821<idno type="BBAW">606</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 1</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 6–11</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7103</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="gwleibniz">
+                  <persName>Leibniz, Gottfried Wilhelm</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von: Prüfung der Untersuchungen über die
+                    Urbewohner Hispaniens vermittelst der Vaskischen Sprache (Berlin: Ferdinand
+                    Dümmler 1821)</bibl>
+               <bibl corresp="630">Schlegela, August Wilhelm von: Die Herabkunft der Göttin Ganga, in
+                    zwei Gesängen. In: Indische Bibliothek 1, Heft 1, 1820, S. 50–96</bibl>
+               <bibl corresp="396">Schlegelb, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="445">Veda</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin Ew. Hochwohlgebohrnen noch meinen Dank für die
+                        Uebersendung der Indischen Bibliothek schuldig, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-05-05"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="607" type="next">23.–30.07.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="euq">Baskisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">30. Oktober 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_04.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_05.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_06.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_07.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-05-05/WvH-Schlegel_1821_05_05_Seite_08.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Oben rechts in Schlegels Handschrift: "d.
+                        5ten Mai. 21."</note> Ich bin Ew. Hochwohlgebohrnen noch meinen Dank für die
+                    Uebersendung der <bibl sameAs="396">
+                  <hi rend="antiqua">Indi</hi>schen Bibliothek</bibl> schuldig, die mich
+                    ungemein interessirt hat. Ich wünsche nichts mehr, als daß Sie dieselbe recht
+                    bald und schnell fortzusetzen Gelegenheit finden mögen. Ich habe seit dem Anfang
+                    dieses Jahres meinen längst gehegten Wunsch ausführen können, selbst <hi rend="antiqua">Sanskrit</hi> zu lernen.<note type="footnote" resp="editor">Schlegel berichtet Colebrooke über Wihelm von Humboldts Sanskrit-Studien in
+                        seinem Brief vom 5. September 1821: Rosane Rocher / Ludo Rocher (2013): <hi rend="italic">Founders of Western Indology. August Wilhelm von Schlegel
+                            and Henry Thomas Colebrooke in Correspondence 1820–1837</hi>, Wiesbaden:
+                        Harrassowitz, S. 57 mit Anm. 137. [FZ]</note> Ich habe alle mündliche u.
+                    lebendige Hülfe entbehren müssen, und bin daher freilich erst so weit, daß ich
+                    in Büchern mit wörtlicher Uebersetzung (wie der <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> von <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> ist) die einzelnen Wörter herausfinden u. meist mit Hülfe der <hi rend="antiqua">Grammatik</hi> u. des <hi rend="antiqua">Lexicons
+                        analysiren</hi> kann. Ich denke indeß durch eifrige Arbeit nun schneller
+                    weiter zu kommen. Mein Zweck bei diesem Studium ist mehr die Sprache, als die
+                    Literatur, gerade aber in dieser Hinsicht bietet das <hi rend="antiqua">Sanskrit</hi> ein sehr großes Interesse dar. Einige Dinge besonders werde
+                    ich vermuthlich noch lange nicht recht begreifen. So z. B. wie es eigentlich mit
+                    dem zusammenhängt, was man Wurzeln nennt. Diese Wurzeln u. der <hi rend="antiqua">status absolutus (crude state)</hi> der Wörter liegen, wie
+                    außerhalb der Sprache, wenn auch manchmal besonders das <hi rend="antiqua">Neutrum</hi> den Wurzeln gleich ist. Sind sie nun Bildungen der <hi rend="antiqua">Grammatiker</hi>, oder gehören sie einem frühern Zustand der
+                    Sprache <pb n="2*"/> an? Merkwürdig ist auch, daß die <hi rend="antiqua">modi</hi> außer dem <hi rend="antiqua">Indicativus</hi>, nur Ein <hi rend="antiqua">tempus</hi> haben, so daß <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> z. B. <hi rend="antiqua">tempora</hi> u. <hi rend="antiqua">modi</hi> zusammenwirft u. Alles <hi rend="antiqua">tenses</hi> nennt. Aus
+                    seiner <bibl sameAs="455">
+                  <hi rend="antiqua">Grammatik</hi>
+               </bibl> bringt man auch nicht heraus, daß die Sprache wirklich, wie die
+                    Griechische, vollständig alle <hi rend="antiqua">tempora</hi>, welche die
+                    allgemeine Sprachlehre fordert, sey es nun mit wahren <hi rend="antiqua">flexionen</hi>, oder mit Hülfsverben, wie <foreign sameAs="grc">μέλλω</foreign>, zu machen im Stande ist. Am aller wunderbarsten kommt es
+                    mir aber vor, daß die heutigen Sprachlehren wenigstens das <hi rend="antiqua">Sanskrit</hi> ganz als eine bloß zu lesende, und nicht auszusprechende
+                    Sprache behandeln, da sie gar keine Accentlehre aufstellen. <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> sagt, daß die <hi rend="antiqua">
+                  <bibl sameAs="445">Vedas</bibl> Accente</hi> bezeichnen, und nennt diese den
+                    Griechischen ähnlich. Aber auf diese dürftige Nachricht beschränkt sich auch
+                    Alles, was bei ihm darüber vorkommt. Dennoch lassen sich hier die
+                    interessantesten Fragen aufstellen, und die Sache ist im <hi rend="antiqua">Sanskrit</hi> um so wichtiger, als genau genommen, nur der <hi rend="antiqua">Accent</hi> bestimmen kann, welche Silben zu Einem Worte
+                    gehören, u. was ein Wort ausmacht, und als das <hi rend="antiqua">Sanskrit</hi>,
+                    auch die bloßen <hi rend="antiqua">orthographi</hi>schen Launen abgerechnet, die
+                    Wörter so häufig durch Zusammenziehen ihrer End- und Anfangslaute, oder
+                    Veränderung derselben, Wörter verbindet, die in andren Sprachen geschieden sind.
+                    Hatten nun diese Wörter verschiedne <hi rend="antiqua">Accente</hi>, oder wurden
+                    sie wirklich zu Einem unter demselben? Interessant wäre es auch zu <pb n="3*"/> wissen, ob der <hi rend="antiqua">acutus</hi> auch, wie im Griechischen im
+                    Zusammenhang der Rede zum <hi rend="antiqua">gravis</hi> wird? </p>
+            <p>
+               <bibl sameAs="630">Ihre Uebersetzung</bibl> habe ich mit dem größesten Vergnügen
+                    gelesen. Die Hexameter sind überaus schön. Nur zwei Fragen möchte ich mir
+                    erlauben. Ich bin ganz Ihrer Meinung, daß ein <hi rend="antiqua">Trochaeus</hi>
+                    in einem <hi rend="antiqua">Hexameter</hi> ein Unding ist, und daß man auch
+                    recht gut, u. nicht einmal mit so außerordentlicher Schwierigkeit die <hi rend="antiqua">Trochaeen</hi> vermeiden kann. Allein sollten dann nicht auch
+                    die <hi rend="antiqua">Pronomina</hi>, die nicht <hi rend="antiqua">orthotonirt</hi> sind, als Kürzen gelten u. aus einem Fuß, der kein <hi rend="antiqua">Dactylus</hi> ist, verbannt werden müssen? Auf mir lastet z.
+                    B. scheint mir doch noch immer ein <hi rend="antiqua">trochaei</hi>scher Anfang.
+                    Eben dies halte ich von den <hi rend="antiqua">Praepositionen</hi>, selbst <hi rend="antiqua">vor</hi> u. <hi rend="antiqua">aus</hi> nicht ausgenommen. Es
+                    ist zwar wahr, daß diese hier genannten Wörter in der Aussprache eine gewisse
+                    Länge haben, aber diese Länge, die bloß aus der Natur ihrer Laute fließt, u.
+                    sich ganz von derjenigen unterscheidet, welche der Sinn giebt, wie in <hi rend="antiqua">auf <hi rend="underline">mir</hi>
+               </hi> lastet, scheint mir nicht hinlänglich, einen Fuß im Hexameter als <hi rend="antiqua">Spondaeus</hi> zu bezeichnen. Auch die Endsilben von <hi rend="antiqua">Erfüllung</hi> reichen, meinem Gefühl nach, nicht dazu hin.
+                    Die zweite Frage betrift die <hi rend="antiqua">Caesur</hi> nach den ersten
+                    beiden Silben im 4. Fuß, wenn dieser ein <hi rend="antiqua">Dactylus</hi> ist.
+                    Ganz rein, so daß die beiden ersten Silben die Endsilben des einen, u. die
+                    letzte des <hi rend="antiqua">Dactylus</hi> Anfangssilbe eines mehrsilbigen
+                    Wortes sind, findet er sich bei den Griechen selten, im ganzen <persName ref="homer">Homer</persName> kaum 8–9mal, bei den Lateinern häufiger. <pb n="4*"/> Auch Sie haben diese Stellung durchaus vermieden. Nur in einigen
+                    Fällen haben Sie dieselbe beibehalten, in welchen es auch wirklich zweifelhaft
+                    ist, ob es nicht zulässig seyn dürfte, u. über diese wollte ich reden. Ein
+                    Beispiel ist <hi rend="antiqua">| beiden Ge | mahlinnen</hi>, auch, obgleich da
+                    der Fall etwas anders ist, <hi rend="antiqua">Stamm | halter zu |
+                    seyn</hi>
+               <!-- die Striche kennzeichnen hier die Metrik, inwieweit das als Fußnote erklärt werden soll, muss entschieden werden -->
+                    des Geschlechtes. <persName ref="fawolf">Wolf</persName>, mit dem ich oft über
+                    solche Dinge rede, hält beide Stellungen für vollkommen richtig, weil <hi rend="antiqua">beiden</hi> ganz eng, u. als wäre es Ein Wort zu <hi rend="antiqua">Gem.</hi> gehört, u. dies ebenso mit <hi rend="antiqua">zu</hi> sey. Ich kann aber darin nicht einstimmen. Der Grund der ganzen
+                    Regel, die diesen 4. <hi rend="antiqua">Trochaeus</hi> als <hi rend="antiqua">Caesur</hi> verwirft, scheint mir darin zu liegen, daß es nicht angenehm
+                    ist, wenn im Lesen, nachdem man beim 4. <hi rend="antiqua">Trochaeus</hi> einen
+                    Augenblick verweilt hat, der Rest des Verses mit einem ⏑‒ u. nicht mit einem ‒ ‒
+                    oder ⏑⏑‒ aufs neue anhebt. Dieses Anheben mit dem ⏑‒ ist nun aber bei diesen
+                    beiden <subst>
+                  <del>Stellungen,</del>
+                  <add>Stellungen</add>
+               </subst> doch unvermeidlich, was man auch thun mag, so wie man natürlich liest.
+                    Denn <hi rend="antiqua">Ge-</hi> u. <hi rend="antiqua">zu</hi> müssen nothwendig
+                    immer enger mit <hi rend="antiqua">mah</hi> u. <hi rend="antiqua">seyn</hi>
+                    verbunden werden, als es <hi rend="antiqua">den</hi>, u. <hi rend="antiqua">ter</hi> seyn können, die gewissermaßen nur Austönungen ihrer Vorsilben
+                    sind. Gewiß müssen Hexameter unendlich correct seyn, wenn man darauf kommen
+                    soll, bei ihnen über solche kleine Unterschiede zu rechten. Auch thue ich es
+                    nur, um Ihr Urtheil über die Grundsätze zu wissen. Worin aber diese Hexameter
+                    auch so wahrhaft meisterhaft sind, das ist das, was keine Regel beurtheilen
+                    kann, sondern worin sich bloß das poetische Gefühl u. Talent <pb n="5*"/> frei
+                    beweist, die Mischung u. Folge der Füße u. Abschnitte, ohne welche auch die
+                    höchste Correctheit doch keinen Wohlklang gewährt. Es ist sehr zu wünschen, daß
+                    Sie mehr Stücke auf gleiche Weise behandeln. Doch möchte ich, Sie verschmähten
+                    das einheimische Sylbenmaß nachzubilden nicht ganz. Der Hexameter hat doch immer
+                        <del>bei</del> in dieser Anwendung das gegen sich, daß er, wenn dies auch
+                    Schuld der Leser ist, zuviel Griechischen Anklang mit sich führt, u. dadurch der
+                    Eigenthümlichkeit schadet. Unter <hi rend="underline">Ihrer</hi> Behandlung
+                    würde auch das einheimische Sylbenmaß ganz anders erscheinen, da Sie ihm in den
+                    freien Stellen Mannigfaltigkeit u. Wohllaut zu geben wissen würden. </p>
+            <p>Sie werden in Kurzem durch <persName ref="avh">meinen Bruder</persName> eine
+                    Schrift von mir bekommen, die ich Sie bitte, zu meinem Andenken zu behalten. Es
+                    ist <bibl sameAs="206">eine vermittelst der Vaskischen Sprache angestellte Prüfung
+                        der Untersuchungen über die Urbewohner Hispaniens</bibl>. Ich habe
+                    Gelegenheit gehabt, da ich auch der Urbevölkerung Italiens erwähnen muß, auch
+                    Ihrer Meynungen zu erwähnen, u. bin, wie Sie sehen werden, mehreren derselben
+                    völlig beigetreten. Obgleich diese Schrift sich nur auf die Vergleichung der
+                    Ortnamen u. auf ihre Etymologie, nicht aber auf die Vergleichung der Sprachen
+                    selbst einläßt, so glaube ich, werden Sie mir beistimmen, daß man doch schon aus
+                    dem in dieser Rücksicht Entwickelten deutlich erkennt, daß die Vaskische Sprache
+                    vollkommen zu den ältesten Europäischen gehört, daß sie besonders mit dem
+                    Lateinischen viele Stammwörter gemeinschaftlich <pb n="6*"/> besitzt, und daß
+                    gar nicht daran zu denken ist, daß sie, wie <persName ref="gwleibniz">
+                  <hi rend="antiqua">Leibnitz</hi>
+               </persName> einmal vermuthete, aus <hi rend="antiqua">Africa</hi>, oder wie
+                    Neuere gewollt haben, aus <hi rend="antiqua">America</hi> zu uns herübergekommen
+                    sey. Ich würde schon längst eine eigentliche Vergleichung der Sprache selbst mit
+                    andern Europäischen angestellt haben, wenn ich nicht gern immer damit von Jahr
+                    zu Jahr wartete. Solche Vergleichungen sind wirklich immer in dem Grade mehr
+                    gut, in dem man selbst mehr Sprachen weiß, und so bringt ihnen, wenn man indeß
+                    nur nicht müßig bleibt, <add>die Zeit von selbst</add> Gewinn. Allein auch die
+                    Arbeiten Andrer warte ich noch gern dabei ab, u. so wünschte ich vorzüglich, daß
+                    wir erst das Werk besäßen, was Sie vorbereiten, u. worauf Sie auch in der <bibl sameAs="396">
+                  <hi rend="antiqua">Indi</hi>schen Bibliothek</bibl> einigemale hinweisen.
+                    Ich schmeichle mir mit der Hofnung, daß Sie mit den Resultaten meiner Schrift
+                    vollkommen einverstanden seyn werden. Auch verrücken dieselben nur Weniges
+                        <add>von dem</add>, was man schon jetzt in den Schriften der Vorzüglicheren
+                    über diese Gegenstände fand, sondern ordnen es nur besser, bestimmen es näher,
+                    u. stützen es auf bessre u. sichrere Gründe. Allein das Einzelne mag sehr der
+                    Nachsicht der Leser bedürfen, u. ich empfehle es der Ihrigen. Wenn man viele
+                    Jahre so gut als ausschließend in Geschäften gelebt hat, so fehlt einem Manches,
+                    was doch einer Schrift nicht fehlen sollte, u. so geräth man wohl auch in
+                    manchen Irrthum. Vielleicht hätte ich besser gethan, mit der Schrift zu warten,
+                    bis einige Jahre Muße länger mich tiefer in die Studien, die ich treibe,
+                    eingeführt, u. mich mehr darin be-<pb n="7*"/>festigt hätten. Aber da ich über
+                    das Vaskische noch, in ganz eigentlicher Rücksicht auf die Sprache zu schreiben
+                    gedenke, so wünschte ich vorläufig zu wissen, was man zu den Resultaten meiner
+                    jetzigen Untersuchungen sagen würde, und hätte ich auch dies <del type="fragment">ge</del> noch hinausgeschoben, so vergeht doch ein zu großer
+                    Theil des Lebens.</p>
+            <p>Ich werde den Sommer in <hi rend="antiqua">Schlesien</hi> zubringen, bitte Sie
+                    aber doch, wenn Sie mir die Freude machen wollen, die eine recht große für mich
+                    seyn wird, mir zu schreiben, Ihren Brief nur hierher zu <hi rend="antiqua">addressiren</hi>. Ich bekomme ihn auf diesem Wege gleich schnell u. mit
+                    mehr Sicherheit.</p>
+            <closer>
+               <salute>Erhalten Sie mir u. der Zeit, die wir vor langen Jahren zusammen
+                        zubrachten, u. die mir immer sehr theuer bleibt, Ihr gütiges Andenken, u.
+                        nehmen Sie die Versicherung meiner ausgezeichnetesten u.
+                        freundschaftlichsten Hochachtung an.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 5. <hi rend="antiqua">Mai</hi>,
+                        1821.</dateline>
+               <lb/>
+               <pb n="8* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

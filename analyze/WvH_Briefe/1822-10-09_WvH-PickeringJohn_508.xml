@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 09.10.1822<idno type="BBAW">508</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q. 1900,
+                            No. 6, Courtesy of the Trustees of the Boston Public Library/Rare
+                            Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 291–295</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7239</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="eeverett">
+                  <persName>Everett, Edward</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="124">Eliot, John: The Indian Grammar begun: or, An essay to bring the
+                    Indian language into rules, for the help of such as desire to learn the same,
+                    for the furtherance of the Gospel among them (Cambridge: Marmaduke Johnson
+                    1666)</bibl>
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen / Davis,
+                    John: A Grammar of the Massachusetts Indian Language (Boston: Phelps and Farnham
+                    1822)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, J’aime à me flatter que Vous aurez reçu une
+                        longue lettre …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-10-09"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="446" type="next">14.02.1823</ref>
+               <ref target="444" type="prev">18.02.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="ciw">Chippeway (Ojibwa)</language>
+            <language ident="del">Delaware (Lenni Lenape)</language>
+            <language ident="">Klassische Sprachen</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="wam">Massachusett</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+            <language ident="qu">Quechua (Peruanisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">27. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>J’aime à me flatter que Vous aurez reçu une <ref type="link" target="506">longue
+                        lettre</ref>
+               <!-- #506 (12.3.1822) gemeint? --> de ma part écrite l’hiver
+                    dernier. Je suis depuis en possession de <ref type="link" target="444">la
+                        Vôtre</ref> du <date when="1822-02-18">18. Fevrier</date> &amp; des
+                    intérressans ouvrages qui l’accompagnoient. Je Vous en présente mes bien vifs
+                    remercîmens. Je m’étois justement procuré un exemplaire de <bibl sameAs="124">l’ancienne édition de la Grammaire</bibl> d’<persName ref="jeliot">Eliot</persName> de l’université de <placeName ref="Göttingen">Göttingen</placeName> lorsque je reçus <bibl sameAs="123">Votre nouvelle
+                        impression</bibl> que Vous avez enrichi, Monsieur, d’une introduction
+                    extrêmement intéressante. Les notices que Vous y donnez sur les différentes
+                    langues qui sont parlées dans le Nord de l’Amérique et sur les dialectes de ces
+                    langues, sont vraîment précieuses. Elles répandent une clarté sous ces objets
+                    qui ne laisse absolument rien à desirer. <bibl sameAs="123">Votre nouvelle
+                        édition</bibl> est parfaite. Elle est correcte &amp; on ne peut pas mieux
+                    imprimée. Comme j’ai la méthode d’examiner les Grammaires de langues inconnues
+                    jusqu’ici de manière à découvrir les analogies de leur formation, j’ai été
+                    frappé par la structure singulière des Conjugaisons que renferment leur régime
+                    en elles mêmes &amp; que les Grammairiens Espagnols nomment des transitions. Il
+                    me semble que les idiômes <subst>
+                  <del>des langues
+                        de</del>
+                  <add>de</add>
+               </subst> <pb n="2"/> l’Amérique
+                    septentrionale ont particulièrement soigné &amp; cultivé ces conjugaisons dont
+                    on trouve bien des traces dans presque toutes les langues Américaines, mais
+                    presque dans aucune des systêmes aussi étendus. Mais ce qui m’a encore plus
+                    étonné, c’est la base sur laquelle la différence de ces conjugaisons est
+                    établie. Ordinairement les transitions ne sont reconnoissables que par les
+                    différens pronoms qui y sont employés, &amp; cette méthode est surtout facile là
+                    ou les pronoms qui sont au nominatif, et qui désignent l’Agent sont différens de
+                    ceux qui sont à l’accusatif &amp; désignent l’Objet. Dans ce cas là l’origine de
+                    ces conjugaisons est aussi très-aisée à expliquer. On a joint ces pronoms, comme
+                    Affixes, au Verbe, &amp; la rapidité de la prononciation en a formé un même mot.
+                    Mais si l’on examine à fond les paradigmes que donne <bibl sameAs="124">la
+                        grammaire d’Eliot</bibl> on y découvre un systeme entièrement différent. Le
+                    Pronom qui précède le verbe comme Préfixe, dénote d’après la différence des 6
+                    Conjugaisons de ce genre tantôt la personne qui agit, tantôt celle qui est
+                    l’objet de l’action, &amp; dans les modes qui n’ont point ces préfixes, il y a
+                    certaines lettres dont la présence désigne telle ou telle personne comme objet
+                    de l’action. Ces deux marques suffiroient pas entièrement <del>encore</del> pour
+                    reconnoître ces Conjugaisons. Mais il s’y joint d’autres circonstances de
+                    manière que je suis parvenû à pouvoir déterminer presque de chaque flexion de
+                    ces verbes, pourquoi elle ne peut être autre chose que ce qu’elle est
+                    véritablement, quoique je n’aye point réussi à les décomposer entièrement, c’est
+                    à dire <pb n="3"/> à<note type="footnote" resp="editor">Ergänzt aus der
+                        Kustode.</note> assigner à chacun de ses élémens sa signification
+                    particulière &amp; déterminée. Si l’on me demandoit p. e. quelle flexion est la
+                    forme <foreign sameAs="wam">
+                  <hi rend="underline">koo-wadchan-uk-oo</hi>
+               </foreign>, je répondrois. Elle doit appartenir au
+                    Présent de l’Indicatif, puisqu’elle a un préfixe, et qu’elle manque de la
+                    réduplication propre à l’Optatif et de la lettre caractéristique du Préterit. La
+                    syllabe <foreign sameAs="wam">
+                  <hi rend="underline">uk</hi>
+               </foreign> indique
+                    que la personne agissante est la 3. du Singulier ou du Pluriel. Mais comme elle
+                    manque de la syllabe caractéristique du Pluriel <foreign sameAs="wam">
+                  <hi rend="underline">og</hi>
+               </foreign> elle doit être du Singulier. La
+                    personne sur laquelle on agit doit être la 2. du singulier <del>&amp;</del> ou
+                    du Pluriel puisque toutes les flexions de la 3. personne agissante qui ont pour
+                    objèt les 1. ou 3. personnes du singulier ou du Pluriel ont le Préfixe <foreign sameAs="wam">
+                  <hi rend="underline">noo</hi>
+               </foreign>. La syllabe finale
+                        <foreign sameAs="wam">
+                  <hi rend="underline">oo</hi>
+               </foreign> est une
+                    syllabe caractéristique du Pluriel &amp; doit appartenir ici à la personne sur
+                    laquelle on agit, puisque la personne qui agit, est au Singulier. La flexion en
+                    question ne sauroit donc être autre chose, sinon la 3. personne agissante &lt;du
+                    singulier&gt; du présent de l’Indicatif de la Conjugaison qui a pour objèt la 2.
+                    personne du Pluriel. Il y a cependant des cas où <del>l’on</del> cette méthode
+                    ne conduit pas jusqu’à savoir quelle personne désigne la flexion en question,
+                    mais seulement à savoir qu’elle ne peut désigner que deux ou trois personnes de
+                    tel tems de verbe &amp; pas d’autres. Dans ce cas les flexions renferment des
+                    Elémens que la <bibl sameAs="124">Grammaire d’Eliot</bibl> n’explique point,
+                    &amp; dont il seroit fort à désirer qu’on découvrit la véritable signification.
+                    Dans la forme: <foreign sameAs="wam">
+                  <hi rend="underline">koo</hi>-<hi rend="underline">wa-q-dchan</hi>-ununn<hi rend="underline">aouz</hi>-<hi rend="underline">toh</hi>
+               </foreign> p. e. tous les élemens souslignés
+                    sont explicables, mais les deux syllabes ununn ne le sont pas. En suivant
+                    l’indication des syllabes explicables, cette flexion pourroit désigner ou <pb n="4"/> la 1. personne du singulier du Prétérit de l’Optatif de la
+                    Conjugaison qui a la 2. pers. du Pluriel pour objèt, ou la 2. personne du
+                    singulier ou pluriel de la Conjugaison qui a la 3. pers. du Pluriel pour objèt.
+                    Or la 1. personne du singulier jointe à la 2. du Pluriel, comme à son objèt, a
+                    pour Suffixe ununnaouz, les deux autres nommées ci dessus ont onaouz. La
+                    différence est donc dans les syllabes ununn &amp; ona dont il me seroit
+                    impossible de rendre compte. Je ne doute néanmoins pas qu’aussi ces syllabes
+                    &amp; d’autres du même genre n’ayent une signification précise dont la
+                    connoissance mettroit en étât de connoître le systême entier de ces
+                    conjugaisons. Ce qui me semble être fort essentiel pour la philosophie du
+                    langage, &amp; ce qui rend l’examen de ce systême important, c’est qu’il est
+                    bien difficile de deviner, comment un pareil systême a pû naître? Tel qu’on le
+                    voit il paroit y avoir bien de l’arbitraire. Le pronom préfixé p. e. dénote dans
+                    la Conjugaison qui a la 3. pers. du singulier pour objèt la personne agissante,
+                    &amp; dans la Conjugaison dont l’objèt est la 2. personne du singulier elle
+                    dénote la personne sur laquelle on agit. Pourquoi n’a-t-on pas établi le
+                    contraire? &amp; comment une nation entière a-t-elle pû s’entendre sur un point
+                    de cette nature qui semble supposer une convention expresse. Je pourrois à la
+                    vérité me tromper &amp; le pronom préfixé pourroit <del>avoir</del> être
+                    susceptible d’une autre explication. Mais pour lors il seroit pourtant singulier
+                    que la règle que je viens d’établir, pût servir, comme je l’ai montré ci-dessus,
+                    à déterminer le sens des différentes flexions. J’ai aussi trouvé quelques
+                            <subst>
+                  <del>flexions</del>
+                  <add>passages</add>
+               </subst> où il me
+                    semble qu’il doit y avoir de l’erreur dans les flexions telles que Eliot les
+                    donne, et telles que je les <pb n="5"/> ai trouvées en exacte conformité dans
+                    l’ancienne &amp; la nouvelle édition. Je Vous demanderai la permission,
+                    Monsieur, de Vous en citer quelques exemples. <bibl sameAs="124">Eliot p.
+                        28.</bibl>
+            </p>
+            <p>
+               <foreign sameAs="wam">koo-wadchan-uk-qun</foreign>, he keepeth us</p>
+            <p>
+               <bibl sameAs="124">p. 31.</bibl> <foreign sameAs="wam">koo-wadchan-uk-qun-onuppanneg</foreign>, they did keep us</p>
+            <p>
+               <bibl sameAs="124">34.</bibl> <foreign sameAs="wam">koo-w-a-adchan-uk-qun-an-toh</foreign>, I wish he keep us</p>
+            <p>Dans ces trois formules le préfixe devroit être <foreign sameAs="wam">noo</foreign> c’est à dire la 1. personne. Car les flexions de la 3.
+                    personne du Pluriel &amp; du Singulier dénotent dans la conjugaison dont l’objèt
+                    est la 1. personne du Pluriel, toujours la personne sur laquelle on agit. Les
+                    formules négatives de ces mêmes flexions qui se trouvent chez <bibl sameAs="124">Eliot p. 44. 47. 50.</bibl> ont réellement noo &amp; il n’est guère
+                    possible que les formules affirmatives &amp; négatives puissent différer sur ce
+                    point. Le koo paroit donc être faux, &amp; devoir être changé en noo.</p>
+            <p>
+               <bibl sameAs="124">p. 57.</bibl> <foreign sameAs="wam">wadchan-un<add>-</add>oo-óg-kus</foreign>, if we did not keep you. </p>
+            <p>Il est probable que la syllabe <foreign sameAs="wam">og</foreign> ne devroit
+                    pas avoir d’accent ici. Elle est sans accent <bibl sameAs="124">p. 41.</bibl>
+                    dans la formule affirmative de la même flexion, &amp; cela paroit juste. La
+                    syllabe non accentuée og indique la 1. pers. du pluriel, la syllabe accentuée
+                        <foreign sameAs="wam">óg</foreign> la 2. pers. du pluriel. Or dans la
+                    conjugaison qui a pour objèt la 2. pers. du pluriel, le <foreign sameAs="wam">og</foreign> représente toujours la personne sur laquelle on agit, &amp;
+                    porte toujours l’accent, excepté dans les flexions de la 1. pers. du pluriel
+                    agissante. Dans celle-ci le <foreign sameAs="wam">og</foreign> n’est jamais
+                    accentué, puisqu’il représente là la personne agissante. L’unique exception de
+                    la formule négative <bibl sameAs="124">p. 57.</bibl> semble donc être une
+                    erreur.</p>
+            <p>Vous trouverez peut-être, Monsieur, que j’entre dans des minuties peu dignes
+                                <subst>
+                  <del>
+                     <unclear>d’ecoûter</unclear>
+                  </del>
+                  <add>de
+                            fixer</add>
+               </subst> l’attention. Mais l’expérience me prouve
+                    journellement que l’étude des langues <del type="fragment">des i</del> qu’on
+                    veut bien nommer sauvages, <pb n="6"/> ne conduit à des résultats vraîment
+                    intéressans que lorsqu’on leur voue un examen très-exact &amp; même scrupuleux,
+                    ainsi qu’on le fait aux langues classiques. Ceux qui ne veulent que les
+                    considérer en général, sans en faire une étude tout a fait particulière, n’en
+                    retirent que des observations qu’on peut nommer plutôt curieuses qu’importantes,
+                    &amp; en portent nécessairement un jugement enserré. J’ai pris la liberté
+                    d’entrer dans ce détail par rapport aux conjugaisons dont je viens de parler,
+                    puisqu’il se pourroit que Vous même, Monsieur, ou quelqu’un de Vos amis eussiez
+                    occasion d’en approfondir d’avantage la structure &amp; le systême. La même
+                    chose seroit aussi nécessaire pour les conjugaisons des Chippeways &amp; des
+                    Lenni Lenape, car ce n’est qu’en poursuivant l’analyse des langues aussi bien
+                    que possible qu’on parvient à connoître en quoi consiste proprement leur
+                    caractère distinctif.</p>
+            <p>Il est fort à regretter que Eliot n’ait pas voulû entrer dans un plus grand
+                    détail dans sa grammaire. Il s’y trouve même des passages, où sa brièveté
+                    devient presque inintelligible. C’est ainsi que <bibl sameAs="124">p. 17.</bibl>
+                    j’ai tâché en vain d’expliquer les mots: <hi rend="underline">And this verb may
+                        take</hi> jusqu’aux mots: <hi rend="underline">the plural Number of the Noun
+                        inanimate.</hi>
+            </p>
+            <p>Ce qui seroit infiniment intéressant à vérifier et à éclaircir seroit l’usage des
+                    soi-disantes syllabes supplétives. <bibl sameAs="124">Eliot p. 23.</bibl> Les
+                    remarques que Vous avez faites à ce sujèt, Monsieur, <bibl sameAs="123">p.
+                        XLIII.</bibl> sont déjà fort satisfaisantes, mais il s’agiroit surtout de
+                    savoir comment on fait usage de ces syllabes, si on les place <hi rend="underline">seules</hi> accompagnées de leurs affixes, ou si elles sont
+                    toujours incorporées dans d’autres verbes? Il est presqu’ incroyable que ces
+                    syllabes n’ayent pour ainsi dire aucune signifi-<pb n="7"/>cation, mais il se
+                    pourroit pourtant bien que leur signification n’ajoutât que de très petites
+                    nuances aux phrases. J’ai observé que les langues Américaines ont assez souvent
+                    des syllabes ou des particules qui semblent être articulées plutôt à cause du
+                    son, qu’à cause du sens qu’elles renferment. Ces notions semblent se plaire à
+                    débiter &amp; à enchaîner ensemble un grand nombre de syllabes courtes liées à
+                    un même mot. C’est là sans doute aussi l’origine de l’usage de quelques unes de
+                    ces langues, surtout de la Mexicaine, de répéter plusieurs fois la même syllabe.
+                    La langue Péruvienne possède une douzaine de particules qu’elle ajoute partout
+                    &amp; pour lesquelles il existe un ordre fixe &amp; stable dans lequel elles se
+                    suivent, lorsque plusieurs sont mis en usage à la fois. La nuance qu’elles
+                    donnent à la Phrase, est presqu’ imperceptible &amp; elles ressemblent plutôt à
+                    une espèce de chant &amp; de cadence qui a été réduit à des règles déterminées.
+                    II seroit très-important à connoître, si un cas semblable existe dans l’idiôme
+                    des Massachusetts Indiens, &amp; si les syllabes supplétives d’<persName ref="jeliot">Eliot</persName> y appartiennent. Mais on ne pourroit apprendre
+                    ceci que par la conversation même avec ces Indiens. Car il est naturel que ces
+                    syllabes passent plus rarement dans les dictionnaires, les Grammaires &amp; les
+                    traductions qu’on a essayé de faire.</p>
+            <p>Mais je craindrois d’abuser de Votre patience, Monsieur, en m’étendant d’avantage
+                    sur les <unclear>
+                  <del type="fragment">caracté</del>
+               </unclear> réflexions que Vos
+                    intéressans envoys m’ont fait faire. Vous verrez du moins par ce petit
+                    échantillon que Vous ne les avez point fait à un ingrat. Ils m’ont causé le plus
+                    grand plaisir &amp; j’ai tâché d’en tirer autant d’instruction &amp; de fruit
+                    que possible.</p>
+            <p>J’espère pouvoir bientôt commencer àprésent mon ouvrage <pb n="8"/> sur les
+                    langues de Votre Continent. Il ne me reste plus que très-peu d’Idiômes à
+                    étudier, mon plan étant de ne point commencer le travail général avant d’avoir
+                    formé des grammaires particulières de chaque langue dont je possède des
+                    matériaux. Je voudrois, autant que mes foibles talens le permettent, faire un
+                    ouvrage solide, et dont toutes les parties reposeroient sur une connoissance
+                    exacte et complette de la nature &amp; de la structure des différens
+                    idiômes.</p>
+            <p>J’ai lû il y a quelques mois à l’<orgName ref="3">Académie</orgName> de
+                        <placeName ref="Berlin">Berlin</placeName> un <bibl sameAs="222">mémoire sur
+                        la différence des formes grammaticales des langues cultivées &amp; de celles
+                        qui ne sont pas parvenues à posséder une litérature</bibl>. Comme j’y parle
+                    beaucoup des langues Américaines je prendrai la liberté de Vous le communiquer
+                    dès qu’il sera imprimé.</p>
+            <p>La mention flatteuse que Vous avez faite, Monsieur, de mes foibles travaux dans
+                    Vos écrits, excite toute ma reconnoissance. Je Vous prie d’en accepter
+                    l’expression. Vos suffrages &amp; ceux de Vos compatriotes me serviront
+                    d’encouragement à poursuivre ma route souvent aride &amp; hérissée de nombreuses
+                    difficultés.</p>
+            <closer>
+               <salute>Veuillez me conserver, Monsieur, Votre souvenir bienveillant, &amp;
+                        agréez l’assurance de la considération très-distinguée avec laquelle j’ai
+                        l’honneur d’être, <lb/>Monsieur, <lb/>Votre <lb/>très-humble, &amp;
+                        très-obéissant <lb/>serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>à Tegel près de <placeName ref="Berlin">Berlin</placeName>, ce 9.
+                        Octobre, 1822.</dateline>
+            </closer>
+            <postscript>
+               <p>J’écris aujourd’hui par la voye de <placeName ref="London">Londres</placeName> à <persName ref="eeverett">Mr. Everett</persName>,
+                        &amp; Vous prie, Monsieur, de le lui faire savoir pour le cas que <ref type="link" target="864">ma lettre</ref> éprouvât quelque fâcheux
+                        accident.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

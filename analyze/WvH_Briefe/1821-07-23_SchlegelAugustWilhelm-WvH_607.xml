@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 23.–30.07.1821<idno type="BBAW">607</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                        Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1908, S. 12–28</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11652</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein zum</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="alchezy">
+                  <persName>Chézy, Antoine-Léonard de</persName>
+               </person>
+               <person corresp="chosrau">
+                  <persName>Chosrau I. (501–579)</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="spfestus">
+                  <persName>Festus, Sextus Pompeius</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="fgklopstock">
+                  <persName>Klopstock, Friedrich Gottlieb</persName>
+               </person>
+               <person corresp="rpknight">
+                  <persName>Knight, Richard Payne</persName>
+               </person>
+               <person corresp="jglkosegarten">
+                  <persName>Kosegarten, Johann Gottfried Ludwig</persName>
+               </person>
+               <person corresp="llanzi">
+                  <persName>Lanzi, Luigi</persName>
+               </person>
+               <person corresp="ahmatthiae">
+                  <persName>Matthiae, August Heinrich</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="rnyerup">
+                  <persName>Nyerup, Rasmus</persName>
+               </person>
+               <person corresp="otfrid">
+                  <persName>Weißenburg, Otfrid von</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="critter">
+                  <persName>Ritter, Carl</persName>
+               </person>
+               <person corresp="jhvoss">
+                  <persName>Voß, Johann Heinrich</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="varro">
+                  <persName>Varro, Marcus Terentius</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+               <person corresp="wyates">
+                  <persName>Yates, William</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="629">Amaruśataka</bibl>
+               <bibl corresp="53">Bhagavadgitā</bibl>
+               <bibl corresp="632">Fredegar-Chronik</bibl>
+               <bibl corresp="181">Hitopadesa</bibl>
+               <bibl corresp="625">Panchatantra</bibl>
+               <bibl corresp="1074">Puranas</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="626">Siddhāṇta Kaumudī</bibl>
+               <bibl corresp="442">Adelung, Johann Christoph / Vater, Johann Severin:
+                        Mithridates, oder allgemeine Sprachenkunde mit dem Vater Unser als
+                        Sprachprobe in beynahe fünfhundert Sprachen und Mundarten, 4 Bände (Berlin:
+                        Vossische Buchhandlung 1806–1817)</bibl>
+               <bibl corresp="724">Bābū Rāma (Hg.): Śrīmad Bhagavad Gītā (Khidarpoor
+                        [Calcutta]: Bābūrāma Press 1808/09)</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua: The Ramayuna of Valmeeki,
+                        in the original Sungskrit. With a prose translation, and explanatory notes,
+                        3 Bände (Serampore: Mission Press 1806–1810)</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von: Prüfung der Untersuchungen über die
+                        Urbewohner Hispaniens vermittelst der Vaskischen Sprache (Berlin: Ferdinand
+                        Dümmler 1821)</bibl>
+               <bibl corresp="723">Lanzi, Luigi: Saggio di lingua Etrusca e di altre antiche
+                        d’Italia per servire alla storia de’popoli, delle lingue, e delle Belle
+                        Arti, 3 Bände (Rom: Pagliarini 1789)</bibl>
+               <bibl corresp="628">Lanzi, Luigi: Saggio delle lingue d’Italia (o. O.:
+                        1806)</bibl>
+               <bibl corresp="624">Matthiae, August Heinrich: Ausführliche griechische
+                        Grammatik (Leipzig: Vogel 1807)</bibl>
+               <bibl corresp="313">Niebuhr, Barthold Georg: Römische Geschichte, 1. Band
+                        (Berlin: Realschulbuchhandlung 1811)</bibl>
+               <bibl corresp="645">Ritter, Carl: Die Vorhalle europäischer Völkergeschichten
+                        vor Herodotus, um den Kaukasus und an den Gestaden des Pontus (Berlin
+                        1820)</bibl>
+               <bibl corresp="631">Schlegel, August Wilhelm von: Rezension zu Barthold Georg
+                        Niebuhr: Römische Geschichte, 3 Bände (Berlin: Realschulbuchhandlung
+                        1811–1832). In: Heidelbergische Nachrichten der Litteratur 53, 1816, S.
+                        833–906</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek
+                        [Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="726">Schlegel, August Wilhelm von: Specimen novae typographiae
+                        Indicae, iussu ministrorum regis Borrusiae, serenissimi principis ab
+                        Hardenberg, cancellarii status, et illustrissimi dynastae ab Altenstein,
+                        rerum ecclesiasticarum et eruditionis praesidis, publicis sumtibus
+                        concinnatae. Litterarum figuras ad elegantissimorum codicum Bibliothecae
+                        Regiae Parisiensis exemplaria delineavit, caelandas feriundas, flandas
+                        curavit (Paris: Crapelet 1821)</bibl>
+               <bibl corresp="630">Schlegel, August Wilhelm von: Die Herabkunft der Göttin
+                        Ganga, in zwei Gesängen. In: Indische Bibliothek I, 1823, S. 50–96</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language
+                        (London 1808)</bibl>
+               <bibl corresp="725">Yates, William: A Grammar of the Sunscrit Language, on a new
+                        plan (Calcutta: Baptist Mission Press 1820)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz haben mich durch Ihren so reichhaltigen und
+                    aufmunternden Brief …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+               <date type="author" when="1821-07-23"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="608" type="next">01.11.1821</ref>
+               <ref target="606" type="prev">05.05.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="bn">Bengali</language>
+            <language ident="br">Bretonisch</language>
+            <language ident="ett">Etruskisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="got">Gotisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="cy">Kymrisch</language>
+            <language ident="la">Latein</language>
+            <language ident="gmh">Mittelhochdeutsch</language>
+            <language ident="pal">Pahlavi</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="es">Spanisch</language>
+            <language ident="ta">Tamil</language>
+            <language ident="telu">Telugu</language>
+            <language ident="xum">Umbrisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS/FZ</item>
+            <item n="date">07. Februar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Bonn den 23sten Julius 21.</dateline>
+            </opener>
+            <p> Ew. Excellenz haben mich durch Ihren so reichhaltigen und aufmunternden <ref type="link" target="606">Brief</ref> vom <date when="1821-05-05">5<hi rend="superscript">
+                     <hi rend="underline">ten</hi>
+                  </hi> Mai</date> auf die erfreulichste
+                    Weise überrascht. Ich empfing ihn in <placeName ref="Paris">Paris</placeName>,
+                    eben unter der Verwirrung der letzten Besorgungen: diese, dann meine Rückreise
+                    und die hier vorgefundenen Geschäfte, sind Schuld an der Verzögerung meiner
+                    Antwort, die ich Sie gütigst zu entschuldigen bitte. Einen solchen Brief glaubte
+                    ich nicht flüchtig und obenhin beantworten zu dürfen. Ew. Excellenz sind mir
+                    eigentlich zuvorgekommen: schon längst hatte ich mir vorgesetzt, Ihnen zu
+                    schreiben, und für meine jetzigen Bestrebungen Ihre wohlwollende Aufmerksamkeit
+                    in Anspruch zu nehmen. Ich betrachte es als eine glückliche Vorbedeutung für das
+                    Gedeihen der Indischen Philologie in Deutschland, daß Sie dem Sanskrit Ihre
+                    Neigung zugewendet haben. Hätte ich nur in Ihrer Nähe seyn können, um Ihnen die
+                    Mühseligkeit der ersten Schritte zu erleichtern! Denn bey Ihrer Stärke in der
+                    vergleichenden Sprachkunde und in der allgemeinen Grammatik werden Sie bald oder
+                    vielleicht schon jetzt keiner Hülfe mehr bedürfen. Zu der künftigen
+                    Annehmlichkeit des Studiums hoffe ich durch die verbesserte Typographie etwas
+                    beyzutragen. Vielleicht ist Ihnen <bibl sameAs="726">mein <hi rend="italic">Specimen</hi>
+               </bibl> zu Gesichte gekommen. Seitdem ist aber fast nichts
+                    unverändert geblieben, und ich schmeichle mir, daß das Ganze noch beträchtlich
+                    gewonnen haben soll. Alle zur Anlage einer Indischen Druckerey erforderlichen
+                    Arbeiten sind unter meinen Augen in <placeName ref="Paris">Paris</placeName>
+                    vollendet worden, bis auf den Guß, dessen zweckmäßige Ausführung ich durch die
+                    früher gegebenen Anleitungen und durch zurückgelassene Modelle gegoßner Lettern
+                    hinlänglich gesichert zu haben denke. In kurzem erwarte ich nun den
+                    vollständigen Vorrath, und werde dann auf Befehl des <persName ref="ksfaltenstein">Herrn Ministers von Altenstein</persName> die Matrizen
+                    und Gußformen nach <placeName ref="Berlin">Berlin</placeName> senden, wo ein
+                    zweyter Guß angefertigt werden soll. Wer wird aber dort Herausgeber seyn? </p>
+            <p>Ich werde nicht säumen, Hand ans Werk zu legen, und gedenke zuerst den <bibl sameAs="53">Bhagavad-Gîtâ</bibl> zu drucken. Die <bibl sameAs="724">Ausgabe
+                        von Calcutta</bibl>
+               <!-- die erste gedruckte Ausgabe erschien 1808 in Calcutta, weitere 1815 und 1818 ebendort; s. Adelung, Bibliotheca sanscrita (1837) S. 241 -->
+                    ist äußerst selten und schwer zu haben, dazu wie alles dort gedruckte unbequem
+                    zum Gebrauch. Die Conjectural-Kritik hat an diesem Werke nichts zu thun: der
+                    Text ist in jeder Sylbe rein erhalten. Die Fehler der gedruckten Ausgabe bin ich
+                    im Stande durch Vergleichung der Parisischen Handschriften zu verbessern. Die
+                    grammatische Auslegung ist leicht; einen philosophischen Commentar muß ich auf
+                    die Zukunft versparen, ich habe die einheimischen Ausleger noch zu wenig
+                    benutzen können.</p>
+            <p>Demnächst denke ich an den <bibl sameAs="181">Hitôpadêsa</bibl> zu gehen. Mit
+                    diesem Buche verhält es sich nun freylich ganz anders: die Handschriften weichen
+                    sehr ab, und, wiewohl schon zweymal gedruckt, liegt der Text noch sehr im Argen.
+                    Die Vergleichung der einzigen Parisischen Handschrift<!-- siehe oben --> hat mir
+                    schon einen beträchtlichen Vorrath besserer Lesearten geschafft. Das Buch ist
+                    wichtig, weil es eine ganze Litteratur voraussetzt. In der Folge wird man, nach
+                        <persName ref="htcolebrooke">Colebrooke</persName>’s Rath, auf den <bibl sameAs="625">Panchatantra</bibl> zurückgehen müssen<note type="footnote" resp="editor">Zu Colebrookes Vorschlag siehe seinen Brief an Schlegel vom
+                        31. Januar 1821: Rosane Rocher / Ludo Rocher (2013): <hi rend="italic">Founders of Western Indology. August Wilhelm von Schlegel and Henry
+                            Thomas Colebrooke in Correspondence 1820–1837</hi>, Wiesbaden:
+                        Harrassowitz, S. 45f.; ebenda Anm. 96 zitiert diese Stelle des
+                        Schlegel-Briefes an Humboldt. Siehe zudem ebenda S. 48 Anm. 106.
+                    [FZ]</note>: denn da dieser die ältere Redaction jenes Fabelbuches ist, welche
+                    unter dem <persName ref="chosrau">Nuschirvan</persName> ins Pehlvi übersetzt
+                    worden, und da alle die Schriften, woraus die Sprüche geborgt sind, schon früher
+                    vorhanden seyn mußten, so ist keines mehr geeignet, uns zu einer wenigstens
+                    negativen Chronologie der Indischen Litteratur zu verhelfen.</p>
+            <p>In der Folge, wenn mir der Himmel noch einige Jahre Leben und Gesundheit gewährt,
+                    möchte ich wohl eine Ausgabe des ganzen <bibl sameAs="352">Râmâyana</bibl>
+                    veranstalten. An sich ist diese Unternehmung nicht unübersehlich: der bloße Text
+                    wird sich in 5 Octavbände bringen lassen. Alle Varianten beyzufügen, das wäre
+                    freylich endlos: man muß sich damit begnügen, die von Seiten des Inhalts
+                    merkwürdigen anzuzeichnen. Überhaupt darf man sich nicht schmeicheln, einen
+                    einzig authentischen Text auszumitteln, was wohl nur bey solchen Werken möglich
+                    ist, wovon es fortlaufende alle einzelnen Sätze wiederholende Commentare giebt.
+                    Die Handschriften weichen, nach den wenigen Abschnitten zu urtheilen, die ich
+                    habe vergleichen können, zum Verzweifeln weit von einander ab. Wir wollen
+                    zufrieden seyn, wenn wir einen sprachrichtigen, zusammenhängenden, nicht
+                    lückenhaften und nicht auffallend interpolirten Text haben. Es besser zu machen,
+                    wie die Herausgeber der <bibl sameAs="563">beyden ersten Bücher in
+                        Serampore</bibl>, ist allerdings leicht.</p>
+            <p>So viel von meinen Planen. Jetzt zu Ihren Fragen, die ich versuchen will, so gut
+                    ich weiß und kann, zu beantworten. Der <hi rend="italic">status absolutus</hi>
+                    der Substantive und Adjective ist meines Bedünkens keinesweges eine Fiction der
+                    grammatischen Theorie, sondern eine Thatsache: denn er ist, mit wenigen
+                    Ausnahmen die Gestalt, worin das Wort in den <hi rend="italic">compositis</hi>
+                    erscheint. Ich finde vielmehr hier ein großes Misverständniß in der Lehre der
+                    Griechischen und Lateinischen Grammatiker, welche den Nominativ für das nackte
+                    Wort selbst nehmen, und keine <hi rend="italic">notam nominativi</hi>
+                    anerkennen, welche doch offenbar vorhanden ist. Und zwar ist die <hi rend="italic">nota nominativi</hi> im mascul. bey den Griechen in der ersten
+                    zweyten und dritten Declination, in dieser auch im femin. ein <foreign sameAs="grc">
+                  <hi rend="italic">Σ</hi>
+               </foreign>; eben so im Lateinischen mit Ausnahme der
+                    ersten Declination, in welcher es wohl keine andre masculina giebt als
+                    Etruskische Namen und Wörter. Dieß ist sehr wichtig für die Verwandtschaft der
+                    Sprachen: im Indischen, Griechischen, Lateinischen, Gothischen, und nach
+                        <persName ref="herodot">Herodot</persName> auch im Altpersischen ist das <hi rend="italic">S</hi> allgemeines Kennzeichen des Nom. im mascul., zuweilen
+                    auch im femin. – Das <term type="phon">
+                  <hi rend="italic">visarga</hi>
+               </term> ist nur eine flüchtigere Aussprache,
+                    wie ja auch die Römer <foreign sameAs="la">
+                  <hi rend="italic">poplu</hi>
+               </foreign> gesagt haben. Im Etruskischen ist
+                    dieses Wegwerfen des ohne Zweifel ursprünglichen <hi rend="italic">s</hi>
+                    allgemein (<foreign sameAs="ett">
+                  <hi rend="italic">Hercle</hi>
+               </foreign>, <foreign sameAs="ett">
+                  <hi rend="italic">Vtυχe</hi>
+               </foreign>), und ich glaube im <persName ref="homer">Homer</persName> noch Spuren zu finden (<foreign sameAs="grc">
+                  <hi rend="italic">νεφεληγερέτα Ζεὺς</hi>
+               </foreign> – <foreign sameAs="grc">
+                  <hi rend="italic">ἱππότα Νέστωρ</hi>
+               </foreign>) daß es vor
+                    Alters im Griechischen in gewissen Fällen gleichfalls gebräuchlich war. – Mich
+                    dünkt, dieß ist auch schon von den Etymologen durch die That anerkannt worden:
+                    man weiß daß man nicht <foreign sameAs="grc">
+                  <hi rend="italic">αἴξ</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">mons</hi>
+               </foreign>, u. s. w. abzuleiten hat, sondern
+                        <foreign sameAs="grc">
+                  <hi rend="italic">ΑΙΓ-ος</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">MONT-is</hi>
+               </foreign>. Im Neutrum ist die <hi rend="italic">nota nominativi</hi> ein <foreign sameAs="la">
+                  <hi rend="italic">n</hi>
+               </foreign> oder <foreign sameAs="la">
+                  <hi rend="italic">m</hi>
+               </foreign>, wie im Indischen ebenfalls. </p>
+            <p>Mit der Wurzel der Zeitwörter verhält es sich etwas anders: sie gehört zwar der
+                    Theorie an, ist aber doch keine Fiction. Es ist eine Darlegung der
+                    Grundbestandtheile, woraus alle Verwandlungen und Entwickelungen des Wortes wie
+                    aus ihrem Princip begriffen werden können. Irgendwo pflegt doch auch die Wurzel
+                    als Bestandtheil unverändert zum Vorschein zu kommen. Wenn wir im Griechischen
+                    und Lateinischen auf einen grünen Zweig kommen sollen, ich will nicht sagen mit
+                    der Etymologie, sondern selbst mit der grammatischen Analyse, so werden wir es
+                    auch versuchen müssen, Wurzeln der Zeitwörter aufzustellen, wiewohl den alten
+                    Grammatikern dieser Begriff ganz fremd ist. Das praes. indicat. hat sie noch
+                    schlimmer irregeführt als der nom. sing., indem sie beydes für das Wort selbst
+                    nahmen.</p>
+            <p>Die <term type="morph">Sautradhâtu’s</term>, die <term type="morph">Uṇadi-Affixe</term>, sind allerdings der Theorie zu Liebe ersonnen. Sonst
+                    aber haben, wie mich dünkt, die Indischen Grammatiker, bey Aufzählung der
+                    Wurzeln, die Thatsache des Sprachgebrauchs mit größter Gewissenhaftigkeit
+                    aufgefaßt. Sie unterscheiden das nahe Verwandte, und nehmen verschiedene Wurzeln
+                    an, wo nur eine Modification der Bedeutung, der Flexion, oder der Aussprache
+                    Statt findet. Manches möchte ich nicht für wahre Wurzeln gelten lassen, zB. alle
+                    Zeitwörter, die bloß nach der 10ten Conjugation gehen, denn diese ist meines
+                    Erachtens nichts andres als das <hi rend="italic">caussativum</hi>. </p>
+            <p>In Absicht auf die <hi rend="italic">tempora</hi> und <hi rend="italic">modos</hi> muß man wohl eingestehen, daß die Griechische Sprache sich
+                    reicher und mannigfaltiger als die Indische entwickelt hat. Sie verdankt dieß
+                    wohl zum Theil den Revolutionen, welche sie erlitten, und denen im Indischen
+                    durch frühe Feststellung vorgebeugt ward. So scheinen mir zB. der Griechische
+                    Optativ und Conjunctiv ursprünglich nur zwey verschiedene Exemplare derselben
+                    Sache zu seyn: der Optativ ist von der älteren Form in <foreign sameAs="grc">
+                  <hi rend="italic">μι</hi>
+               </foreign> abgeleitet, auf eben die Weise wie der
+                    Conjunctiv von der jüngeren Form <foreign sameAs="grc">
+                  <hi rend="italic">ω</hi>
+               </foreign>, <foreign sameAs="grc">
+                  <hi rend="italic">εις</hi>
+               </foreign>, <foreign sameAs="grc">
+                  <hi rend="italic">ει</hi>
+               </foreign>. Nachher ist dieß freylich zu feineren
+                    Unterscheidungen benutzt worden. Übrigens haben die Indier bey ihrem
+                    eigenthümlichen Gedankengange doch noch Überfluß, denn verschiedne Biegungsarten
+                    kommen äußerst selten vor. Die <hi rend="italic">tempora</hi> des Indicativs
+                    sind allerdings vollständig bis auf das <hi rend="italic">plusquamperfectum</hi>, Wilkins hat sie nur falsch benannt, wie er überhaupt in
+                    seiner Terminologie meistens unglücklich ist. Diese Zeiten sind: <hi rend="italic">praesens</hi>, <hi rend="italic">imperfectum</hi>, <hi rend="italic">praeteritum</hi>, <hi rend="italic">perfectum</hi>, <hi rend="italic">aoristus</hi> und zwey <hi rend="italic">futura</hi>, ein <hi rend="italic">remotum</hi> und ein <hi rend="italic">proximum</hi>. – Das
+                    Sanskrit, das Lateinische, die meisten Sprachen haben nur Einen Imperativ: der
+                    Natur der Sache nach scheint es nicht mehrere geben zu können. Die Griechen
+                    haben drey oder vier Imperative. Was machen sie damit? Ich finde keine Sylbe
+                    hierüber in <persName ref="ahmatthiae">Matthiae</persName>’s <bibl sameAs="624">weitläuftiger Grammatik</bibl>. Man muß es wohl eingestehen, der
+                    grammatische Bildungstrieb kann auch apokryphische Zeugungen ans Licht fördern,
+                    und dieß scheint wirklich in der Griechischen Sprache zuweilen geschehen zu
+                    seyn. – Die Form, welche <persName ref="cwilkins">Wilkins</persName> den <hi rend="italic">potentialis</hi> nennt, gebrauchen die Indier auf die
+                    umfassendste Weise, als <hi rend="italic">dubitativus</hi>, <hi rend="italic">concessivus</hi>, <hi rend="italic">optativus</hi>, <hi rend="italic">exhortativus</hi> etc. Statt des eigentlichen <hi rend="italic">coniunctivus</hi>, d. h. um die Abhängigkeit von einer Bedingung
+                    auszudrücken, setzen sie häufig den <hi rend="italic">indicativus</hi> mit einer
+                    Partikel; z. B. statt <foreign sameAs="la">
+                  <hi rend="italic">cura ut fiat</hi>
+               </foreign>: <foreign sameAs="la">
+                  <hi rend="italic">cura quomodo fiet</hi>
+               </foreign>. Den <hi rend="italic">precativus</hi> sollte man lieber <hi rend="italic">optativus</hi> nennen.
+                    Auch der Aoristus wird mit der <hi rend="italic">particula averruncandi</hi> als
+                    ein verneinender Optativ gebraucht, freylich mit Weglassung des Augments.
+                    Übrigens können die fehlenden <hi rend="italic">tempora</hi>, das <hi rend="italic">plusquamperfectum</hi> des Indicativs, und beym Conjunctiv
+                    alle näheren Zeitbestimmungen allerdings durch paraphrastische Conjugation,
+                    nämlich durch ein Participium mit einem Hülfsworte, ersetzt werden. <hi rend="italic">cf. </hi>
+               <bibl sameAs="455">Wilkins</bibl>
+               <hi rend="italic"> p. </hi> 656<hi rend="italic">.</hi>
+            </p>
+            <p>Über die Tonstellung kann ich Ihnen für jetzt noch keine Auskunft geben. Die
+                    Kunstwörter <hi rend="italic">acutus</hi>, <hi rend="italic">gravis</hi>, <hi rend="italic">circumflexus</hi> stehen gleich zu Anfange des <bibl sameAs="626">Siddhâṇta Kaumudi</bibl>; welche Sylben aber diese
+                    verschiedenen Bestimmungen erhalten, darüber habe ich, die Regeln noch nirgends
+                    gefunden. Das mit den Veda’s ist meines Erachtens anders zu verstehen, nämlich
+                    als eine Art von <hi rend="italic">canto fermo</hi>, Hebungen und Senkungen der
+                    Stimme nach ganz musikalischen Intervallen, womit der Überlieferung gemäß die
+                    heiligen Bücher vorgetragen werden sollen. Auf ähnliche Art hat unser <persName ref="otfrid">Otfrid</persName> seine Lieder accentuirt: die Accente treffen
+                    immer mit den grammatischen zusammen, stehen aber nur da, wo die Stimme die Höhe
+                    erreicht, und sich wieder zu senken anfängt. Wenn die Indischen Grammatiker über
+                    die Tonlegung schweigen (was ich jedoch nicht weiß), so behandeln sie das
+                    Sanskrit nur allzu sehr als eine lebende Sprache, worin das Gefühl hiefür nicht
+                    durch Regeln geleitet zu werden bedurfte. Haben die Griechen sich doch auch erst
+                    mit den Accenten bemüht, als ihr <foreign sameAs="grc">
+                  <hi rend="italic">διάλεκτος κοινή</hi>
+               </foreign> eine gelehrte Büchersprache
+                    zu werden anfing. Die Römer schrieben aus Nachahmung der Alexandriner zur Zeit
+                    des Quinctilians das Lateinische mit Accenten, haben es aber nachher wieder
+                    vernachlässigt. <persName ref="tsraffles">Raffles</persName> hat bey den Wörtern
+                    der Javaner Dichtersprache, welche meistens reines Sanskrit sind, nicht die
+                    Quantität der Vocale, sondern den Wortaccent bezeichnet, der dann oft auf die
+                    Kürze fällt. Ob es im Sanskrit eben so war und ist, kann ich nicht sagen. Den
+                    majestätischen Wortlaut der Sprache im Munde der Brahmanen haben mir Engländer
+                    oft gerühmt. </p>
+            <p>Aus <placeName ref="Calcutta">Calcutta</placeName> wird uns <bibl sameAs="725">eine abgekürzte und vereinfachte Grammatik des Sanskrit</bibl> von einem
+                    Englischen Geistlichen, Namens <persName ref="wyates">Yates</persName>,
+                    angekündigt. Mir misdünkt daran die Schreibung <hi rend="letterspace">Sunskrit</hi>, aber die Engländer sind hierin fast unheilbar. Ich weiß
+                    nicht, wo es <persName ref="rnyerup">Nyerup</persName> hergenommen hat, daß ich
+                    die Indischen Grammatiker als Subtilitäten Krämer geringschätze. Ich hege für
+                    sie eine gränzenlose Bewunderung, und wollte nur, ich verstände sie erst
+                    vollkommen. Ich zweifle nicht, es wird Ihnen einen großen Genuß gewähren, in der
+                    Folge an die Originalwerke dieser wissenschaftlichen Köpfe selbst zu gehen, da
+                    Sie gewohnt sind, schwere Räthsel aufzulösen.</p>
+            <p>Bey der Indischen Litteratur hat man eine breite Wahl. Wem die <bibl sameAs="1074">Purâṇa’s</bibl> nicht zusagen, der findet vielleicht mehr
+                    Geschmack an der kunstreichen Poesie aus dem Zeitalter des Kalidasa, welcher
+                    auch <persName ref="htcolebrooke">Colebrooke</persName> den Vorzug giebt. Ich
+                    habe <persName ref="alchezy">Chezy</persName> ganz in Entzücken verlassen über
+                    den <bibl sameAs="629">Amaruṣataka</bibl>, eine Sammlung erotischer Epigramme
+                    oder Idyllien.</p>
+            <p>Meine <bibl sameAs="630">Herabkunft der Göttin Ganga</bibl> habe ich nicht
+                    eigentlich für eine Übersetzung ausgegeben. Ich wollte die alte Dichtung dem
+                    Inhalte und Charakter nach treu nacherzählen, sonst aber auf meine Weise und in
+                    schon einheimisch gewordnen und ansprechenden Formen. Zu wörtlichen
+                    Übersetzungen der alten epischen Poesie kann ich überhaupt nicht rathen, theils
+                    wegen der Variationen des Textes, theils wegen der unendlichen Wortfülle, die im
+                    Original immer mannigfaltig, tönend und geflügelt ist, bey unsrer Armuth aber
+                    unvermeidlich in leidige Wiederholungen ausartet. Die Versuche von <persName ref="bopp">Bopp</persName> und <persName ref="jglkosegarten">Kosegarten</persName> sind abschreckende Beyspiele. </p>
+            <p>Erlauben mir Ew. Excellenz noch eine Bitte. Ich wünsche zu erfahren, wie viel und
+                    was für Handschriften in der <orgName ref="56">Propaganda</orgName> zu
+                        <placeName ref="Rom">Rom</placeName> befindlich sind? Vorzüglich auch in was
+                    für Schriftarten? Ich befürchte, meistens Talinga, Tamul pp, da ich nur
+                    Dêvanâgari und Bengali brauchen kann. Sie könnten mir vielleicht zu einer
+                    Nachricht hierüber verhelfen. Ich mag mich nicht an <persName ref="bgniebuhr">Niebuhr</persName> wenden, weil ich höre, daß er wegen <bibl sameAs="631">meiner Recension</bibl> nicht freundlich für mich gesinnt ist.</p>
+            <p>
+               <bibl sameAs="206">Ihre Schrift</bibl>, die ich doppelt erfreut bin, als ein
+                    Ehrengeschenk aus Ihrer Hand zu besitzen, führt uns um einen sichern Schritt
+                    vorwärts in der alten Völkerkunde. Einer so angestellten Untersuchung zu folgen,
+                    ist für mich ein wahrer Genuß, auch unabhängig von dem Ertrage. Noch habe ich
+                    die Schrift erst Einmal gelesen, und wage es kaum, Ihnen eine und die andre
+                    Bemerkung und Frage vorzulegen. Davon haben Sie mich nun wohl überzeugt, daß das
+                    Vaskische eine alte und ächte Sprache ist: daß Sie es dafür halten, ist mir am
+                    Ende Beweises genug. Aber sobald sich Ähnlichkeiten mit benachbarten Sprachen
+                    kund geben, kann ich dem Verdachte nicht widerstehen, sie möchten nicht
+                    ursprünglich sondern durch fremde Einmischungen entstanden seyn. Denn diese
+                    ließen sich wohl schwerlich vermeiden bey einem unlitterarischen Völkchen, das
+                    lange Jahrhunderte ohne schriftliche Denkmale seiner Sprache von überlegenen
+                    Nationen in einen Winkel zurückgedrängt lebte. Dieß ist auch meine allgemeine
+                    Ansicht vom Wallisischen und Niederbretagnischen. Z. B. <foreign sameAs="eu">
+                  <hi rend="italic">campoan</hi>
+               </foreign> ist mir verdächtig als romanischen
+                    Ursprungs. Wir haben ja auch <foreign sameAs="fr">
+                  <hi rend="italic">échapper</hi>
+               </foreign>, <foreign sameAs="it">
+                  <hi rend="italic">scampare</hi>
+               </foreign> von <foreign sameAs="la">
+                  <hi rend="italic">ex-campare</hi>
+               </foreign>. Also <foreign sameAs="eu">
+                  <hi rend="italic">campoan</hi>
+               </foreign>, mit einem einheimischen Suffixe,
+                        <foreign sameAs="la">
+                  <hi rend="italic">in campo</hi>
+               </foreign>, auf dem Felde, draußen. In dem
+                    Fragment eines alten Gedichtes im <bibl sameAs="442">Mithridates</bibl> bemerkte
+                    ich mehrere dieser Art. Eine Untersuchung über die Zustände und Verhältnisse,
+                    worin die Vasken zwischen Gothen, Arabern, Franken und Römischen Provinzialen
+                    das Mittelalter hindurch gelebt haben, wäre eine willkommene Zugabe. Im Norden
+                    der Pyrenäen erscheinen sie erst in der letzten Hälfte des Merowingischen
+                    Zeitraums, und sind wohl eingezogen als die Westgothen diese Wohnsitze zum Theil
+                    geräumt hatten. Wo ich nicht irre, führen ihre Heerführer beym <bibl sameAs="632">Fredegarius</bibl> zuweilen Deutsche Namen. Da ganz <placeName ref="Gascogne">Gascogne</placeName> von ihnen den Namen führt, wo doch
+                    großentheils romanisch gesprochen wird, so muß hier wohl eine Vermischung der
+                    Stämme vorgegangen seyn. Und sollte dieß gar nicht auf die Sprache der
+                    Spanischen Vasken zurückgewirkt haben? Schreibt sich nicht auch aus diesen
+                    Gegenden der Name der <hi rend="italic">
+                  <foreign sameAs="fr">cagots</foreign>
+               </hi> her, welcher nach der Etymologie
+                    nichts anders bedeuten kann, als Gothische Hunde, d. h. vermuthlich Arrianisch
+                    gebliebene Gothen? – Es wäre nun eine schöne Arbeit zu machen, die sich an die
+                    Ihrige anschließen würde, nämlich im ganzen Vorrath der Spanischen Sprache die
+                    Wörter auszusondern, die nicht Lateinisch, nicht Gothisch, nicht arabisch,
+                    sondern Vaskischen Ursprungs sind. Ohne Zweifel sprach man zwar, als die Sueven,
+                    Vandalen und Gothen eindrangen, in ganz Spanien, die nordwestlichen Küstenländer
+                    ausgenommen, Lateinisch; aber in das Romanische der Bauern konnten sich Wörter
+                    aus der Ursprache eingemengt haben.</p>
+            <p>Mit den Lateinischen Wörtern, welche Sie aus dem Vaskischen herzuleiten geneigt
+                    sind, möchte ich wohl noch einen Versuch wagen, eine einheimische Wurzel
+                    auszumitteln. <foreign sameAs="la">
+                  <hi rend="italic">Cūria a coëundo</hi>
+               </foreign>.<note type="footnote" resp="Schlegel">Nicht etwa von dem Infinitiv <hi rend="italic">ire</hi>; das
+                            <hi rend="italic">r</hi> gehört zur Derivationsform, wie in <foreign sameAs="la">
+                     <hi rend="italic">centu-ria</hi>
+                  </foreign>.</note> Dem Sinne nach wie
+                        <foreign sameAs="la">
+                  <hi rend="italic">comitium</hi>
+               </foreign>. <foreign sameAs="la">
+                  <hi rend="italic">Coetus</hi>
+               </foreign> und <foreign sameAs="la">
+                  <hi rend="italic">coïtus</hi>
+               </foreign> eben daher. Wohl zu merken, daß die
+                    Römer vor Alters kein <hi rend="italic">o</hi> hatten, das letzte Wort also
+                    zumal <foreign sameAs="la">
+                  <hi rend="italic">cuitus</hi>
+               </foreign> geschrieben wurde. – <foreign sameAs="la">
+                  <hi rend="italic">Mons a movendo</hi>
+               </foreign>, wie <foreign sameAs="la">
+                  <hi rend="italic">pons a ponendo</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">fons a fundendo</hi>
+               </foreign>. Wir haben auch <foreign sameAs="la">
+                  <hi rend="italic">momentum</hi>
+               </foreign> statt <foreign sameAs="la">
+                  <hi rend="italic">movimentum</hi>
+               </foreign>. <foreign sameAs="la">
+                  <hi rend="italic">Moveo</hi>
+               </foreign> ist eine abgeleitete Form, <foreign sameAs="la">
+                  <hi rend="italic">movi</hi>
+               </foreign> zeugt von der ursprünglichen, <foreign sameAs="grc">
+                  <hi rend="italic">Μάω</hi>
+               </foreign> vor Alters <foreign sameAs="grc">
+                  <hi rend="italic">ΜΑϝΟ</hi>
+               </foreign>. <foreign sameAs="la">
+                  <hi rend="italic">Mons</hi>
+               </foreign> ware also das Emporstrebende.</p>
+            <p>
+               <foreign sameAs="la">
+                  <hi rend="italic">Murus</hi>
+               </foreign>, eine Einfassung, Begränzung,
+                    Scheidung, <foreign sameAs="grc">
+                  <hi rend="italic">ἀπὸ τοῦ μείρειν</hi>
+               </foreign>. In <foreign sameAs="la">
+                  <hi rend="italic">pomoerium</hi>
+               </foreign> erkennen wir die alte Form
+                        <foreign sameAs="la">
+                  <hi rend="italic">moerus</hi>
+               </foreign> (wie <foreign sameAs="grc">
+                  <hi rend="italic">µοῖρα</hi>
+               </foreign>) oder vielmehr nach dem Etruskischen
+                    Alphabet <foreign sameAs="la">
+                  <hi rend="italic">MVIRVS</hi>
+               </foreign> oder <foreign sameAs="la">
+                  <hi rend="italic">MVERVS</hi>
+               </foreign>. Das ursprüngliche Zeitwort ist
+                    verloren, aber in der abgeleiteten Form <foreign sameAs="la">
+                  <hi rend="italic">mereri</hi>
+               </foreign>, seinen Antheil bekommen, ist noch
+                    die Bedeutung des Griechischen nachzuweisen.</p>
+            <p>Für <foreign sameAs="la">
+                  <hi rend="italic">Vertere</hi>
+               </foreign> weiß ich kein Griechisches
+                    Analogon, wohl aber ein Indisches ganz genau entsprechendes: <foreign sameAs="sa">
+                  <hi rend="italic">vrit</hi>
+               </foreign>, 3 p. praes. <foreign sameAs="sa">
+                  <hi rend="italic">vartati</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">vertit</hi>
+               </foreign>. Dann das Gothische: <foreign sameAs="got">
+                  <hi rend="italic">vairthan</hi>
+               </foreign>, woher <foreign sameAs="got">
+                  <hi rend="italic">vairths</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">versus</hi>
+               </foreign>. Das Wort ist also genugsam als
+                    einheimisch beurkundet, da es sich in dreyen der zu dieser bekannten Familie
+                    gehörigen Sprachen findet. – Wahrscheinlich war es auch in der Etruskischen
+                    Sprache, wenn der Gott Vertumnus nicht bey der Verpflanzung nach <placeName ref="Latium">Latium</placeName> seinen Namen verändert hat, was nicht
+                    wahrscheinlich ist, da die Endung (das part. praes. medii oder passivi) auch an
+                    andern Etruskischen Götternamen vorkommt. </p>
+            <p>Über <foreign sameAs="la">
+                  <hi rend="italic">vrbs</hi>
+               </foreign> weiß ich für jetzt nichts, als was
+                        <persName ref="varro">Varro</persName> und <persName ref="spfestus">Festus</persName>
+               <!-- title? unklar, welcher Titel von Varro/Festus, deshalb erstmal nur als Namen getaggt! -->
+                    sagen. – Sollte das Vaskische <foreign sameAs="eu">
+                  <hi rend="italic">cillarra</hi>
+               </foreign> nicht eher von dem Gothischen
+                        <foreign sameAs="got">
+                  <hi rend="italic">silubr</hi>
+               </foreign> herkommen, als umgekehrt? Fremd
+                    klingt das letzte freylich, und dieß ist bey Metallnamen häufig der Fall,
+                    begreiflicher Weise; aber sehr frühzeitig muß das Wort doch den Stammvätern der
+                    deutschen Sprachen zugebracht seyn, da es sich, soviel ich weiß, in allen
+                    Mundarten findet. – Das Spanische <foreign sameAs="es">
+                  <hi rend="italic">izquierdo</hi>
+               </foreign> scheint ausgemacht von dem
+                    Vaskischen <foreign sameAs="eu">
+                  <hi rend="italic">Ezquerra</hi>
+               </foreign> herzukommen. Aber ich möchte von
+                    beyden eine Deutsche Ableitung versuchen: <foreign sameAs="gmh">
+                  <hi rend="italic">twerch</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="italic">obliquus</hi>
+               </foreign>; im Gothischen hieß es
+                    vermuthlich: <foreign sameAs="got">
+                  <hi rend="italic">thvairh</hi>
+               </foreign>. Die Benennungen der linken Hand
+                    pflegen immer von solchen Bildern hergenommen zu seyn. – Das in Ihrem Glossar
+                    daneben stehende <foreign sameAs="eu">
+                  <hi rend="italic">ezquilla</hi>
+               </foreign> ist unläugbar
+                    Germanisch-Romanisch. Im Italiänischen <foreign sameAs="it">
+                  <hi rend="italic">squilla</hi>
+               </foreign>; unser <hi rend="letterspace">Schelle</hi> von schallen. <foreign sameAs="eu">
+                  <hi rend="italic">Landa</hi>
+               </foreign>, das Feld, ist auch Deutsch – beym
+                    Ammianus <foreign sameAs="la">
+                  <hi rend="italic">caucalandia</hi>
+               </foreign>, Gothisch <foreign sameAs="got">
+                  <hi rend="italic">hauhaland</hi>
+               </foreign>, das hohe Land (Siebenbürgen);
+                    ganz in der Nachbarschaft der Vasken ist der Name <foreign sameAs="fr">
+                  <hi rend="italic">les landes</hi>
+               </foreign>, wie zum Andenken der Gothischen
+                    Bewohner stehen geblieben.</p>
+            <p>Sie sehen, welche Gefahr dabey ist, wenn man einem Etymologen die Schleusen
+                    seiner Liebhaberey aufzieht. Ich verschone Sie mit dem übrigen. Nur, da Sie
+                    bemerken, daß der Vaskischen Sprache, wie den Americanischen das <hi rend="italic">F</hi> fehlt, will ich hinzufügen, daß mir eben dieß schon an
+                    der Sprache der Gallier aufgefallen ist. Ich erinnere mich, bey allen Orts- und
+                    Personennamen und andern Wörtern nur eine einzige Ausnahme gefunden zu haben,
+                    die eben deswegen verdächtig ist. Auch die andern <hi rend="italic">adspiratae
+                        θ</hi> und <hi rend="italic">χ</hi> fehlen. Dieß macht einen schneidenden
+                    Gegensatz mit dem Deutschen Sprachstamme. </p>
+            <p>Italien berühren Sie nur im Vorbeygehn: ich möchte Sie wohl um nähere
+                    Erörterungen Ihrer Ansicht bitten. Aus Hellenischen Colonien läßt sich die
+                    Verwandtschaft der Alt-Italischen Mundarten mit dem Griechischen nicht erklären;
+                    diese Colonien sind alle sehr jung; die Trojanischen und Vortrojanischen sind
+                        <hi rend="italic">mera Graeculorum somnia</hi>; unter den historischen sind
+                    auch die Annalen von Cumä <!-- recherchieren -->apokryphisch. Dieß geht in eine
+                    weit höhere Vorzeit zurück, vor der Trennung der Italischen und Pelasgischen
+                    Stämme. Wie hätte sich sonst in Italien so viel rein-Indisches erhalten, was in
+                    Griechenland erloschen ist? Sind Sie nicht auch der Meynung, daß es in Italien,
+                    die späteren Ansiedelungen abgerechnet, nur zwey Hauptsprachen gab, die
+                    Etruskische, und die andre, nur in verschiedenen Mundarten, Umbrisch,
+                    Lateinisch, Sabinisch, Oscisch, Siculisch durch die ganze Halbinsel hindurch bis
+                    tief in Sicilien hinein? Mich dünkt, dieß geht aus allen Ort- und Personennamen,
+                    einzelnen Wörtern, Inschriften u. s. w. hervor. Das Etruskische rechne ich
+                    freylich auch zu derselben Familie, aber es steht viel weiter abwärts. In keinem
+                    Stücke habe ich <persName ref="bgniebuhr">Niebuhr</persName>s <bibl sameAs="313">Werk</bibl> unbefriedigender gefunden als in Beziehung auf die Sprachen.
+                    Ich habe ehemals viel über diese Sache gesammelt, aber ich weiß nicht, ob ich
+                    jemals dazu kommen werde, meine <hi rend="italic">Origines Italiennes</hi> zu
+                    schreiben. <persName ref="llanzi">Lanzi</persName>’s Buch<note type="footnote" resp="editor">Bei dem genannten Werk handelt es sich wohl um <persName ref="llanzi">Lanzi</persName>s <bibl sameAs="723">
+                     <hi rend="italic">Saggio di lingua Etrusca e di altre antiche d’Italia
+                                per servire alla storia de’popoli, delle lingue, e delle Belle
+                                Arti</hi>, Band 1–3, Rom: Pagliarini 1789</bibl>, der sich
+                        nachweislich in Schlegels Besitz befand, s. Dresden, SLUB, Mscr.Dresd.e.90,
+                        XV, "Verzeichniß meiner Bücher im December 1811", S. 73 Nr. 727–729. Der
+                        ominöse <bibl sameAs="628">
+                     <hi rend="italic">Saggio delle lingue d’Italia</hi> von 1806</bibl>, der
+                        nur in Biographien <persName ref="llanzi">Lanzi</persName>s genannt wird,
+                        ist anderweitig nicht nachweisbar. [FZ]</note> ist doch am Ende die einzige
+                    Vorarbeit, die wir bis jetzt haben. Wer schreibt uns ein Italisches Onomasticon?
+                    und ein Buch über die Geographischen Namen Italiens wie <bibl sameAs="206">das
+                        Ihrige über Spanien</bibl>? Wenn ich nur Zeit hätte, so dächte ich wohl den
+                    Iguvinischen Tafeln völlig auf den Grund zu kommen. Es bleibt doch eins der
+                    merkwürdigsten Denkmäler des Alterthums. </p>
+            <p>Es ist mir unendlich freulich, daß Sie den Bau meiner Hexameter im Ganzen
+                    billigen. In der Theorie möchte ich schlecht bestehen: ich glaube wohl den Grund
+                    von diesem und jenem zu errathen; aber ich begnüge mich damit, die Praxis der
+                    Alten genau zu bemerken und dann mein Gehör zu Rathe zu ziehen. – Von den
+                    Gesetzen der Quantität in unsrer Sprache glaube ich hingegen ziemlich genaue
+                    Rechenschaft ablegen zu können. Die Abstufung unsrer Längen und Kürzen, und ihre
+                    Wechselbestimmung wird anerkannt; die Einwirkung des vorwaltenden Rhythmus, und
+                    gewisser Stellen im Verse ist vielleicht noch nicht gehörig entwickelt worden.
+                    Bey der Worttheilung müssen die anhängenden Redetheilchen in Betracht kommen:
+                    denn wir haben deren, sowohl vorangehende als nachfolgende, wiewohl weder bey
+                        <persName ref="fgklopstock">Klopstock</persName> noch bey <persName ref="jhvoss">Voß</persName> davon die Rede ist. Dieß ist um so weniger zu
+                    verwundern, da auch unsre meisten Hellenisten keine anschauliche Vorstellung von
+                    der Sache haben. Ich wenigstens habe erst durch die Aussprache der Neugriechen
+                    erfahren, was eine <hi rend="italic">particula enclitica</hi> ist. – <hi rend="letterspace">Beyden Gemahlinnen</hi>, das ist gerade wie <hi rend="italic">mollis amaracus</hi>; <hi rend="letterspace">Stammhalter zu
+                        seyn | des Geschlechtes</hi>; hier wird, wie mich dünkt, eben durch die
+                    Inversion, das <hi rend="letterspace">zu seyn</hi> mit großer Gewalt zu dem
+                    vorhergehenden gezogen. Was die unerlaubte Tmesis im vierten Daktylus betrifft,
+                    so können wir es schwerlich dem Homer gleichthun: wenn wir nur einen durch den
+                    Sinn gebildeten Abschnitt vermeiden, so können wir uns auf das Beyspiel der
+                    Lateinischen Dichter berufen. <hi rend="letterspace">Auf mir lastet. Mir</hi>
+                    ist entschieden lang durch die Emphase, es wäre also natürlicher Weise ein
+                    Antispast; aber <hi rend="letterspace">auf</hi> wird lang durch die erste Arsis
+                    des Hexameters, wo jedes einsylbige Wort, das nicht eine <hi rend="italic">particula enclitica </hi> ist, lang werden kann. <hi rend="letterspace">In
+                        aufwallendem Zorn</hi> ist meines Erachtens ein richtiger Hexametrischer
+                    Anfang. Bey der Mittelzeit, wo die grammatische Bedeutsamkeit nicht so
+                    herrschend entscheidet, tritt als untergeordnetes Princip das materielle Gewicht
+                    der Sylben, die Dehnung der Vocale, und in gewissen Fällen die Position hervor.
+                    Dieß möchte ich noch mehr geltend machen als bisher geschehen ist. Alle
+                    Präpositionen, selbst <hi rend="letterspace">in</hi> und <hi rend="letterspace">an können</hi> lang werden: <hi rend="letterspace">auf</hi>, <hi rend="letterspace">aus</hi>, <hi rend="letterspace">vor</hi> möchte ich
+                    durchaus nicht als Kürzen gebrauchen; nun vollends <hi rend="letterspace">durch</hi>, welches eigentlich aus zwey Sylben, <hi rend="italic">thuruh</hi>, zusammengezogen ist. Irgendwo müssen wir diese verwünschten
+                    mittelzeitigen Wörtchen doch hinschieben, und ich will mir lieber unvollkommne
+                    Längen gefallen lassen, als erzwungene Kürzen. In der letzten Hinsicht sind mir
+                        <persName ref="jhvoss">Voss</persName>ens Hexameter noch viel zu hart. Er
+                    hat die Sache allerdings vorwärts gebracht, aber nun möchte er sie gern auf dem
+                    Punkte festhalten, über welchen er nicht hinaus gekonnt hat. In seinem Buche
+                    über die Zeitmessung zeigt sich praktische Fertigkeit, zugleich aber eine
+                    völlige Abwesenheit der Gedanken. So weiß er zB. nicht zu erklären, warum <hi rend="letterspace">un</hi> zuweilen kurz und unbetont ist, andremale die
+                    Länge und den Ton bekommt. Und doch war der Unterschied ganz logisch zu fassen:
+                    sind die Begriffe <hi rend="italic">contradictorie</hi> entgegengesetzt, so
+                    bleibt <hi rend="letterspace">un</hi> kurz; sind es hingegen <hi rend="italic">contrarie opposita</hi>, wird die Verneinung positiv, so wird es lang.</p>
+            <p>
+               <persName ref="avh">Ihren Bruder</persName> habe ich recht wohl und heiter
+                    verlassen: noch kurz vor meiner Abreise speisten wir sehr vergnügt zusammen im
+                        <hi rend="italic">Palais royal</hi>. Er hat mir versprochen, mir etwas für
+                    die <bibl sameAs="396">Indische Bibliothek</bibl> zu geben: wenn er nur Wort
+                    hält! Die gleiche Bitte möchte ich an Ew. Excellenz wagen. Es liegt so manches
+                    in dem Umfange Ihrer Untersuchungen, was in den Kreis <bibl sameAs="396">meiner
+                        Zeitschrift</bibl> gehört, und wenige Seiten von Ihrer Hand würden für mich
+                    ein Geschenk vom größten Werthe seyn. Ich werde die Muße der nächsten Ferien
+                    sogleich für das dritte Heft benutzen. Es wird bald einmal ein großer Artikel
+                        <hi rend="letterspace">Berichtigungen</hi> nöthig seyn, denn es wird in
+                    Deutschland Mode, daß die Crethi und Plethi nicht nur von den Indischen
+                    Alterthümern sondern auch vom Sanskrit schwatzen, ohne ein Wort davon zu wissen.
+                    – Ich werde nicht umhin können, gegen die <bibl sameAs="645">
+                  <hi rend="letterspace">Vorhalle</hi>
+               </bibl> des wackern <persName ref="critter">Ritter</persName> vieles einzuwenden; unmöglich kann ich
+                    seinen vorbrahmanischen Buddhaismus durchgehen lassen. Daß <persName ref="fawolf">Wolf</persName> günstig für mich gesinnt ist, habe ich mit
+                    großer Freude erfahren: ich fürchte nur, ich werde bald einmal alles durch das
+                    Digamma verderben, wiewohl ich es damit nicht so wie <persName ref="rpknight">Knight</persName> zu machen hoffe.<note type="footnote" resp="editor">Siehe
+                        hierzu <persName ref="rpknight">Richard Payne Knight</persName> (1820): <hi rend="italic">Carmina Homerica, Ilias et Odyssea, a rhapsodorum
+                            interpolationibus repurgata, et in pristinam formam, quatenus
+                            recuperanda esset, tam e veterum monumentorum fide et auctoritate, quam
+                            ex antiqui sermonis indole ac ratione, redacta</hi>, London: in ædibus
+                        Valpianis.</note>
+            </p>
+            <p>Dießmal habe ich in <placeName ref="Paris">Paris</placeName> Bekanntschaft mit
+                        <persName ref="jpabel">Abel Remusat</persName> gestiftet, der ohne Zweifel
+                    einer der tüchtigsten Sprach- und Geschichtforscher in Europa ist, und dessen
+                    Untersuchungen die meinigen ganz nahe berühren. </p>
+            <p>Die Zahl der vollgeschriebenen Blätter erinnert mich daran, Ihre Geduld nicht auf
+                    eine zu starke Probe zu stellen. Der Empfang <ref type="link" target="606">Ihres
+                        Briefes</ref> vergegenwärtigte mir lebhaft, welche Mittheilungen und
+                    Anregungen ich dadurch einbüße, daß ich nicht in <placeName ref="Berlin">Berlin</placeName> lebe. Mich fesselt hier der schöne Rhein, die mildere
+                    Luft, die fast ländliche Ruhe und Beschränktheit und dann die günstige Lage für
+                    mancherley Reisen; nun auch schon die Gewohnheit und die Scheu vor einer neuen
+                    Einrichtung. Doch ist meine schließliche Ansiedelung hier noch nicht höheren
+                    Orts entschieden, und ich habe meinerseits <placeName ref="Berlin">Berlin</placeName> nicht ganz aus den Augen verloren. Auf jeden Fall hoffe
+                    ich bald einmal wieder mit Ihnen zusammenzutreffen, wie ich ja schon in so
+                    manchen Städten und Ländern das Glück hatte. Ich bitte Sie mich <persName ref="cvh1">Frau von Humboldt</persName> [zu empfehlen]<note type="footnote" resp="editor">Einfügung Leitzmanns.</note>, </p>
+            <closer>
+               <salute>und bin mit der ausgezeichnetsten Verehrung <lb/>Ew. Excellenz <lb/>
+                        gehorsamster</salute>
+               <signed>AWvSchlegel.</signed>
+               <lb/>
+               <dateline>den 30sten Julius 21.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

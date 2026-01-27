@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 08.12.1834<idno type="BBAW">516</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q.
+                            1900, No. 33, Courtesy of the Trustees of the Boston Public Library/Rare Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 314f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8607</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, J’aime me flatter que Vous avez reçu, Monsieur,
+                        la lettre …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1834-12-08"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="843" type="next">25.05.1835</ref>
+               <ref target="460" type="prev">26.07.1834</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Schreiberschrift mit Adresszeile und Unterschrift
+                    Humboldts</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="ciw">Chippeway (Ojibwa)</language>
+            <language ident="del">Delaware</language>
+            <language ident="en">Englisch</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+            <language ident="qu">Quechua (Peruanisch)</language>
+            <language ident="tup">Tupi (Brasilianisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">22. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>J’aime me flatter que Vous avez reçu, Monsieur, la lettre que j’ai eû l’honneur
+                    de Vous écrire il y a quelques mois par la voie de <placeName ref="Bremen">Bremen</placeName>. J’ai dejà à Vous remercier d’une nouvelle par laquelle
+                    Vous voulez bien de nouveau enrichir ma collection linguistique. Je me souviens
+                    d’avoir lû qu’on voulait publier à <placeName ref="London">Londres</placeName>
+                    un ouvrage étendu sur la langue <sic>Chipperey</sic> mais j’ignore si ce projèt
+                    a été exécuté.</p>
+            <p>C’est premierement par Votre lettre, Monsieur, que j’ai eu connaissance du prix
+                    proposé par <orgName ref="23">l’Institut</orgName> de <placeName ref="Paris">Paris</placeName>. Je pense avec Vous qu’on aurait pû proposer des
+                    questions plus intéressantes sur les langues Americaines. Je suppose cependant
+                    qu’on a voulû désigner par les trois dialectes la langue Delavare et qu’on
+                    demande l’esquisse du <sic>caractaire</sic> grammatical de cette <pb n="2*"/> langue et des <sic>particularites</sic> qui la distinguent des autres du Nord de
+                    l’Amerique.</p>
+            <p>Je sais infiniment bien apprécier l’intention bienveillante que Vous avez eû,
+                    Monsieur, de fournir à <orgName ref="3">notre
+                        Académie</orgName> <sic>en</sic> mémoire sur ces langues. Mais
+                    malheureusement notre reglement ne permet pas d’imprimer dans notre collection
+                    de memoires d’autres que ceux lûs dans les séances mêmes par les membres de
+                        l’<orgName ref="3">Académie</orgName>. Je ne voudrais cependant pas que
+                    cette circonstance privât le public et la science d’un travail aussi utile. Je
+                    Vous conseillerais, Monsieur, de rédiger Votre mémoire, de lui donner l’étendue
+                    que Vos autres travaux Vous <sic>permettrons</sic> et de le faire imprimer
+                    séparément et en Anglais. Cet ouvrage intéressant serait accueilli avec
+                    empressement par tous ceux en Europe qui s’attachent à l’étude des langues. Il
+                    serait en même temps plus digne de Votre nom qu’un mémoire qui se perd dans la
+                    foule de ceux à la suite desquels il parait. Les langues du Nord de l’Amerique
+                    sont moins connues que celles du Mexique, de Perou et du Brésil. Ce qu’on en
+                    sait on le doit uniquement à Vos soins et à ceux de <sic>
+                  <persName ref="psduponceau">Mr. Du Ponçeaux</persName>
+               </sic>. Il serait donc très
+                    utile de donner un tableau de l’embranchement de ces langues des classes
+                    qu’elles forment, <pb n="3*"/> de leur caractère général et particulier. Je
+                    conçois que Vos occupations ne Vous permettront pas d’entrer dans tous les
+                    details minutieux, mais il serait même dans l’intérèt des lecteurs de Vous en
+                    tenir aux principes. <bibl sameAs="473">La grammaire</bibl> de <persName ref="dzeisberger">Zeisberger</persName> quelque précieuse <sic>quelle</sic>
+                    soit, contient beaucoup trop peu de regles et se contente trop de donner les
+                    Paradigmes en <sic>laissent</sic> au lecteur le travail d’abstraire les
+                    premières des derniers. Il serait intéressant en même temps de donner un apperçû
+                    statistique des tribûs Indiennes qui avoisinent les Étâts-Unis. Voilà ce qui
+                    pourrait former un ouvrage également instructif et important et tout ce que Vous
+                    avez dejà publié dans ce genre, Monsieur, prouve suffisamment ce à quoi on
+                    pourrait s’attendre de Votre part. Je ne puis donc assez Vous encourager à
+                    persister dans Votre projèts de rédiger un mémoire sur cet objèt, mais de lui
+                    donner une forme séparée.</p>
+            <closer>
+               <salute>
+                  <sic>Veullez</sic> agréer, Monsieur, l’assurance de ma considération la
+                        plus <sic>distingue</sic>.</salute>
+               <signed>
+                  <handShift scribe="wvh"/> Humboldt.</signed>
+               <lb/>
+               <dateline>à Tegel ce 8 Décembre 1834.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

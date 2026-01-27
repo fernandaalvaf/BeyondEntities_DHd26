@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Rosen, 18.06.1829<idno type="BBAW">1003</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv,
+                            62.192</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8049</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="204">Humboldt, Wilhelm von: Mémoire sur la séparation des mots dans les textes samscrits.
+                    In: Journal Asiatique 11, 1827, S. 163–172</bibl>
+               <bibl corresp="667">Humboldt, Wilhelm von: Anhang zu Rückerts Recension von Durschs Ghatakarparam. In:
+                    Jahrbücher für wissenschaftliche Kritik Nr. 73–76, April 1829, S. 579–595</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de Ramae rebus gestis
+                    poetae antiquissimi Valmicis opus, Volume 1 (Bonn: sumtibus editoris 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Wohlgebohren haben immer einen so freundschaftlichen
+                        Theil an meinen Arbeiten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-06-18"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift; Korrekturen, der letzte Absatz, Datum
+                    und Unterschrift von Humboldt</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">16. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ew. Wohlgebohren haben immer einen so freundschaftlichen Theil an
+                    meinen Arbeiten genommen, daß ich es mir zu einer wahren Pflicht mache, Ihnen
+                    <bibl sameAs="667">die Inlage</bibl> zuzusenden, die so eben abgedruckt erschienen ist. Ich bin überzeugt,
+                    daß Sie an dieser weiteren Entwickelung meiner Ideen über diesen Gegenstand um
+                    so mehr einen freundschaftlichen Antheil nehmen werden, als Ihre gütige
+                    Erwähnung derselben auch schon Veranlassung zu meinem früheren Aufsatze darüber
+                    war. Ich kann aber nicht läugnen, daß ich bei der gegenwärtigen Mittheilung auch
+                    noch eine andere Absicht habe, durch deren gütige Erfüllung Sie mir einen großen
+                    Freundschaftdienst erweisen würden. Es wäre mir nämlich sehr daran gelegen, daß
+                    mein Vorschlag einer gänzlichen Worttrennung, von allen seinen Gründen
+                    unterstützt, in <hi rend="antiqua">England</hi> bekannt würde, und Sie würden
+                    mich daher sehr verpflichten, wenn Sie einen englischen Aufsatz darüber in
+                    irgend einer der am meisten gelesenen englischen <hi rend="antiqua">Journale</hi> erscheinen lassen wollten. Es wäre dann Hoffnung, daß ein
+                    solcher Artikel auch bis nach <hi rend="antiqua">Indien</hi> selbst dränge. Es
+                    würde aber nöthig sein, in demselben <bibl sameAs="204">meinen früheren Aufsatz im <hi rend="antiqua">Pariser Asiati</hi>schen <hi rend="antiqua">Journal</hi>
+               </bibl> mit
+                    <bibl sameAs="667">dem gegenwärtigen</bibl> zu verbinden, um nichts, was ich über die Sache beigebracht
+                    habe aus der Acht zu lassen. Ew. Wohlgebohren pflichteten schon früher meiner
+                    Meinung gütigst bei, und es würde mir daher sehr angenehm sein, wenn Sie
+                    dieselbe vielleicht auch noch mit eigenen Gründen zu unterstützen die Güte haben
+                    wollten. Wären Sie aber auf der andern Seite auch in irgend einem oder andern
+                    Punkte abweichender Meinung, so bitte ich Sie recht sehr, sich nicht durch
+                    partheiliche Freundschaft abhalten zu lassen, es ausführlich zu sagen. Es kann
+                    mir nur angenehm sein, wenn die Einwendungen, welche man mir doch entgegensetzen
+                    wird, mit dem Wohlwollen und der Nachsicht vorgetragen werden, deren ich mir von
+                    Ihnen schmeicheln kann.</p>
+            <p>Ew. Wohlgebohren werden bereits vielleicht den ersten Theil des <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>schen <bibl sameAs="634">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> gesehen
+                    haben. Es ist innerlich und äußerlich ein schönes und merkwürdiges Werk, und das
+                    seinem Verfasser, <pb n="2*"/> vorzüglich wenn ihm die Vollendung desselben
+                    gelingt, einen dauernden Nachruhm zusichert. In Absicht der darin beobachteten
+                    Worttrennung aber kann ich <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>, auch unabhängig von
+                    meinem Wunsche gänzlicher Absonderung, nicht beistimmen. Er hat in diesem Werke
+                    ein neues Princip, nämlich das der Endconsonanten befolgt. Er läßt nun, aber
+                    auch alle die Wörter getrennt stehen, deren im Zusammenhang endigende Buchstaben
+                    Endbuchstaben eines Wortes sein können. Er zieht daher ein Wort mit endigendem
+                    dentalen <hi rend="antiqua">n</hi> mit einem folgenden, mit einem Vocal
+                    beginnenden Worte nicht zusammen. Dies kann ich nicht billigen. Ich kann nur
+                    zwei richtige Principien der Worttrennung, entweder für den <hi rend="underline">Verstand</hi>, auf den ersten Anblick die Begriffselemente des Gedanken zu
+                    erkennen, oder für das <hi rend="underline">Ohr</hi>, unmittelbar durch die
+                    Lesung zu erfahren, welche <add>Worte die</add> Aussprache zusammen verbinden
+                    soll. Der Grundsatz der Endbuchstaben findet hier, meinem Urtheile nach, gar
+                    keine Anwendung. Er bezieht sich nur auf die Wörter <hi rend="underline">außer</hi> dem Zusammenhange, und wird nicht verletzt, wenn <hi rend="underline">im</hi> Zusammenhange andere Endbuchstaben eintreten. Die
+                    Ausnahme des möglichen Einflusses der Veränderung der gewöhnlichen
+                    Endconsonanten durch auf sie folgende Anfangsbuchstaben, ist immer
+                    stillschweigend mit dem Grundsatze selbst verbunden. Der Zustand, in welchem ein
+                    Wort, ohne mit dem folgenden zusammenzuschmelzen, durch dies folgende Wort eine
+                    Veränderung in seinem Endbuchstaben erfährt, wird grade sehr passend und gut in
+                    der Schreibung durch einen ungewöhnlichen und befremdlichen Endconsonanten
+                    angedeutet. Die neue <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>sche Methode thut nicht
+                    dem Verstande Genüge, weil sie viele, dem Begriff nach, getrennte Wörter
+                    zusammenzieht; sie <sic>unterichtet</sic> den Leser nicht über die Aussprache,
+                    indem sie getrennt läßt, was die Indische Aussprache zusammenzog, da die
+                    Verwandlung der dumpfen Consonanten in <subst>
+                  <del>tönenden</del>
+                  <add>
+                     <handShift scribe="wvh"/> tönende</add>
+               </subst> <handShift scribe="Schreiber"/> vor Vocalen
+                    hinlänglich beweist, daß ein schließender Consonant vor einem anfangenden Vocal
+                    nicht getrennt wurde; sie entfernt sich eben so weit, als die Meinige, von dem
+                    Indischen Herkommen, dem nichts so sehr entgegen sein kann, als die Trennung
+                    eines Consonanten von dem unmittelbar auf ihn folgenden Vocal. Um das jetzige
+                    <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>sche Princip mit Grunde auf die Schreibung
+                    des Sanskrit anwenden zu können, müßte man beweisen, daß die Indische Aussprache
+                    die Wörter niemals zusammengezogen habe, wo ein legitimer <pb n="3*"/> Endconsonant ein Wort beschloß, und ich zweifle daß dies möglich sey.</p>
+            <p>
+               <handShift scribe="wvh"/> Sie werde von dem unglücklichen Verluste gehört haben, den ich erlitten habe, und
+                    ich <sic>ich</sic> bin Ihres freundschaftlichen Antheils
+                    versichert. Ich lebe jetzt mit meinen Kindern in fast gänzlicher Einsamkeit, die
+                    unser aller Stimmung am meisten zusagt. Ihnen geht es, hoffe ich, erwünscht, und
+                    ich wünsche von Herzen, daß Ihnen Ihre Lage jetzt, da Sie dieselbe genau kennen,
+                    noch dieselbe Zufriedenheit einflößen möge, als sie es früher that. Man hat uns
+                    mit der Hoffnung geschmeichelt, Ew. Wohlgeboren in diesem Sommer hier zu sehen.
+                    Wie sehr würde es mich freuen, die Hoffnung erfüllt zu sehen.</p>
+            <closer>
+               <salute>Leben Sie recht
+                        wohl und nehmen Sie die Versicherung meiner herzlichen und ausgezeichneten
+                        Hochachtung und aufrichtige Freundschaft an!</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 18. <hi rend="antiqua">Junius</hi>, 1829.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="4*"/> <handShift scribe="Schreiber"/>
+               <address>
+                  <addrLine>An
+                <lb/>Herrn <hi rend="antiqua">D<hi rend="superscript">r</hi>. Rosen</hi>
+                     <lb/>Wohlgebohren
+                <lb/>in
+                    <lb/>
+                     <hi rend="antiqua">
+                        <hi rend="underline">
+                           <placeName ref="London">London</placeName>
+                        </hi>
+                     </hi>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
