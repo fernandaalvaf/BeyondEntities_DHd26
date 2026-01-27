@@ -1,0 +1,124 @@
+# Ultrastabiler JSON-Only-Prompt für Konzept-, Matching-, Abweichungs- und Ähnlichkeitsanalyse
+
+**WICHTIG:**  
+Die Antwort MUSS ausschließlich aus einem einzigen JSON-Objekt bestehen.  
+Der erste ausgegebene Charakter MUSS `{` sein, der letzte `}`.  
+Keinerlei Erklärungen, Kommentare, Hinweise oder Text außerhalb des JSON.
+
+---
+
+# AUFGABE
+
+Aus zwei ikonografischen Beschreibungen sollen:
+
+1. vollständige semantische Konzepte extrahiert werden  
+2. ein sauberes 1:1-Matching durchgeführt werden  
+3. eine similarity (0–100) berechnet werden  
+4. abweichung korrekt bestimmt werden  
+5. das Ergebnis ausschließlich als JSON ausgegeben werden  
+
+---
+
+# REGELN
+
+## 1. Konzepte
+Ein Konzept besteht immer aus: **Subjekt + Handlung/Attribut/Position/Beziehung**  
+Keine Einzelwörter.
+
+Beispiele:  
+- „Anchialos nach rechts“  
+- „Anchialos mit Taenia“  
+- „Kapaneus Speer in der rechten Hand haltend“
+
+## 2. Subjekt immer nennen
+Nie: „nach rechts“, „mit Taenia“, „mit Gewand“.  
+Immer: „Anchialos nach rechts“, „Anchialos mit Taenia“.
+
+## 3. Synonyme / Äquivalenzen
+- Perlkreis = border of dots
+- Bildleiste = ground line
+
+Synonyme gelten als similarity = 100 und dürfen nur einmal gematcht werden.
+
+## 4. Mehrfachobjekte aufspalten
+„holding shield and ladder“ →  
+- „holding shield“  
+- „holding ladder“
+
+## 5. Kritische Parameter
+Immer abweichungsrelevant:
+- links/rechts  
+- oben/unten  
+- vorn/facing  
+- Objekt in welcher Hand  
+- Körperteil auf welchem Objekt  
+- Bewegungsrichtung  
+- Orientierungen wie „nach links unten“
+
+## 6. similarity
+- 100 = vollständig äquivalent  
+- 95–99 = praktisch identisch  
+- 70–94 = deutlich ähnlich  
+- 40–69 = teilweise ähnlich  
+- 1–39 = geringe Ähnlichkeit  
+- 0 = keine Übereinstimmung
+
+## 7. abweichung
+abweichung = true, wenn  
+- similarity < 95  
+ODER  
+- kritischer Parameter unterschiedlich ist
+
+abweichung = false, wenn  
+- similarity ≥ 95  
+UND  
+- kein kritischer Parameter unterschiedlich ist
+
+## 8. Matching-Regeln
+- Jedes **DE-Konzept** wird genau **einem EN-Konzept** zugeordnet.  
+- Ein EN-Konzept darf **nur einmal** zugeordnet werden.  
+- Nach Synonym-Match darf ein EN-Konzept **nie erneut** erscheinen.  
+- `konzept_en = null` ist nur erlaubt, wenn EN-Konzept **nicht** bereits zugeordnet wurde.
+
+## 9. Keine Nebeninterpretationen
+- Keine Ableitungen aus Namen („male“ etc.)  
+- Keine künstlichen Zusatzkonzepte  
+- „low wall“ ≠ automatische Abweichung
+
+## 10. Absolutes Ausgabeformatgebot
+Die Antwort MUSS ein vollständiges, syntaktisch korrektes JSON-Objekt sein.  
+Keine Einleitung, kein Kommentar, kein Fließtext.
+
+---
+
+# AUSGABEFORMAT
+
+```json
+{
+  "originaleingabe": {
+    "de": "...",
+    "en": "..."
+  },
+  "konzepte": {
+    "de": [ "...", "..." ],
+    "en": [ "...", "..." ]
+  },
+  "vergleich": [
+    {
+      "konzept_de": "...",
+      "konzept_en": "... oder null",
+      "similarity": 0,
+      "abweichung": true,
+      "beschreibung": "nur bei abweichung"
+    }
+  ],
+  "meta": {
+    "source_id": "",
+    "languages": ["de", "en"],
+    "erstelldatum": "YYYY-MM-DD",
+    "ausfuehrungszeit_ms": 0
+  }
+}
+```
+
+Es dürfen **keine weiteren Felder** enthalten sein.

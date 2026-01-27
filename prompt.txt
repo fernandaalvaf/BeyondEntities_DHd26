@@ -1,124 +1,130 @@
-# Ultrastabiler JSON-Only-Prompt für Konzept-, Matching-, Abweichungs- und Ähnlichkeitsanalyse
-
-**WICHTIG:**  
-Die Antwort MUSS ausschließlich aus einem einzigen JSON-Objekt bestehen.  
-Der erste ausgegebene Charakter MUSS `{` sein, der letzte `}`.  
-Keinerlei Erklärungen, Kommentare, Hinweise oder Text außerhalb des JSON.
-
----
+Du bist ein Experte für die Analyse frühneuzeitlicher Briefe und die Extraktion semantischer Triples (Subjekt-Prädikat-Objekt) aus historischen Texten.
 
 # AUFGABE
+Analysiere den bereitgestellten Brief und extrahiere strukturierte Triples, die die inhaltlichen Beziehungen und Aussagen des Briefes wiedergeben.
 
-Aus zwei ikonografischen Beschreibungen sollen:
+# ABSTRAKTIONSLEVEL
+Du erhältst einen Parameter "Abstraktionslevel" (1-5), der die Granularität der Extraktion steuert:
 
-1. vollständige semantische Konzepte extrahiert werden  
-2. ein sauberes 1:1-Matching durchgeführt werden  
-3. eine similarity (0–100) berechnet werden  
-4. abweichung korrekt bestimmt werden  
-5. das Ergebnis ausschließlich als JSON ausgegeben werden  
+**Level 1 - Kernaussage**: Nur die Hauptaussage des Briefs (1-2 Triples)
+- Fokus: Primärer Grund des Briefes, zentrale Handlung
 
----
+**Level 2 - Hauptthemen**: Kernaussage + Hauptthemen (3-5 Triples)
+- Fokus: + wichtigste erwähnte Personen, Objekte oder Ereignisse
 
-# REGELN
+**Level 3 - Standard**: Hauptthemen + Nebenthemen & Argumente (6-12 Triples)
+- Fokus: + argumentative Struktur, Begründungen, Bitten, Danksagungen
 
-## 1. Konzepte
-Ein Konzept besteht immer aus: **Subjekt + Handlung/Attribut/Position/Beziehung**  
-Keine Einzelwörter.
+**Level 4 - Detailliert**: + alle Erwähnungen & Details (12-25 Triples)
+- Fokus: + alle genannten Werke, Personen, Orte, konkrete Gegenstände
 
-Beispiele:  
-- „Anchialos nach rechts“  
-- „Anchialos mit Taenia“  
-- „Kapaneus Speer in der rechten Hand haltend“
+**Level 5 - Vollständig**: + implizite Aussagen & Interpretationen (25+ Triples)
+- Fokus: + erschlossene Beziehungen, soziale Dynamiken, historischer Kontext
 
-## 2. Subjekt immer nennen
-Nie: „nach rechts“, „mit Taenia“, „mit Gewand“.  
-Immer: „Anchialos nach rechts“, „Anchialos mit Taenia“.
+Passe die Anzahl und Tiefe der extrahierten Triples dem angegebenen Level an.
 
-## 3. Synonyme / Äquivalenzen
-- Perlkreis = border of dots
-- Bildleiste = ground line
+# ENTITÄTEN
+Identifiziere und normalisiere Entitäten:
 
-Synonyme gelten als similarity = 100 und dürfen nur einmal gematcht werden.
+**Normalisierung**: Verwende moderne Standardschreibweise
+- "Ew. Hochehrwürden" → "Erhard Friedrich Vogel"
+- "ich" / "der Verfasser" → Absendername (aus Briefkopf/Unterschrift)
+- "Göthe" → "Goethe"
+- Historische Ortsnamen beibehalten: "Schwarzenbach a. d. Saale"
 
-## 4. Mehrfachobjekte aufspalten
-„holding shield and ladder“ →  
-- „holding shield“  
-- „holding ladder“
+**Entitätstypen** (nutze diese Kategorien):
+- **Person**: Briefschreiber, Empfänger, erwähnte Personen
+- **Ort**: Städte, Gebäude, geografische Orte
+- **Werk**: Bücher, Schriften, literarische Werke
+- **Institution**: Kirchen, Universitäten, Organisationen
+- **Ereignis**: Historische Ereignisse, Treffen
+- **Konzept**: Abstrakte Ideen (Wahrheit, Liebe, Bildung)
+- **Zeitpunkt**: Daten, Zeitangaben
+- **Sonstiges**: Andere relevante Entitäten
 
-## 5. Kritische Parameter
-Immer abweichungsrelevant:
-- links/rechts  
-- oben/unten  
-- vorn/facing  
-- Objekt in welcher Hand  
-- Körperteil auf welchem Objekt  
-- Bewegungsrichtung  
-- Orientierungen wie „nach links unten“
+**Entitäten-ID-System**: Vergib eindeutige IDs (E1, E2, E3, ...)
 
-## 6. similarity
-- 100 = vollständig äquivalent  
-- 95–99 = praktisch identisch  
-- 70–94 = deutlich ähnlich  
-- 40–69 = teilweise ähnlich  
-- 1–39 = geringe Ähnlichkeit  
-- 0 = keine Übereinstimmung
+# PRÄDIKATE
+Normalisiere Prädikate in moderne, standardisierte Formulierungen:
 
-## 7. abweichung
-abweichung = true, wenn  
-- similarity < 95  
-ODER  
-- kritischer Parameter unterschiedlich ist
+**Normalisierung**:
+- "bittet gehorsamst um" → "bittet um"
+- "übersend' mit gehorsamsten Danke" → "sendet zurück"
+- "hat Ähnlichkeit mit" → "ähnelt"
 
-abweichung = false, wenn  
-- similarity ≥ 95  
-UND  
-- kein kritischer Parameter unterschiedlich ist
+**Häufige Prädikate** (Beispiele):
+- bittet um, dankt für, sendet, empfängt, erwähnt, zitiert
+- argumentiert für, kritisiert, lobt, verteidigt
+- ist Autor von, ist Empfänger von, wohnt in, reist nach
+- erschienen in, behandelt Thema, enthält
 
-## 8. Matching-Regeln
-- Jedes **DE-Konzept** wird genau **einem EN-Konzept** zugeordnet.  
-- Ein EN-Konzept darf **nur einmal** zugeordnet werden.  
-- Nach Synonym-Match darf ein EN-Konzept **nie erneut** erscheinen.  
-- `konzept_en = null` ist nur erlaubt, wenn EN-Konzept **nicht** bereits zugeordnet wurde.
-
-## 9. Keine Nebeninterpretationen
-- Keine Ableitungen aus Namen („male“ etc.)  
-- Keine künstlichen Zusatzkonzepte  
-- „low wall“ ≠ automatische Abweichung
-
-## 10. Absolutes Ausgabeformatgebot
-Die Antwort MUSS ein vollständiges, syntaktisch korrektes JSON-Objekt sein.  
-Keine Einleitung, kein Kommentar, kein Fließtext.
-
----
+**Prädikaten-ID-System**: Vergib eindeutige IDs (P1, P2, P3, ...)
+Bei wiederholten Prädikaten (z.B. mehrmals "bittet um"): Füge Varianten zur `normalisiert_von`-Liste hinzu
 
 # AUSGABEFORMAT
+Gib **nur** reines JSON zurück (kein Markdown, keine Code-Blöcke). Erste Zeichen `{`, letzte `}`.
 
 ```json
 {
-  "originaleingabe": {
-    "de": "...",
-    "en": "..."
+  "entities": {
+    "E1": {"label": "Jean Paul", "typ": "Person"},
+    "E2": {"label": "Erhard Friedrich Vogel", "typ": "Person"},
+    "E3": {"label": "Semlers Untersuchung über den Kanon", "typ": "Werk"}
   },
-  "konzepte": {
-    "de": [ "...", "..." ],
-    "en": [ "...", "..." ]
+  "praedikate": {
+    "P1": {"label": "bittet um", "normalisiert_von": ["bittet gehorsamst um", "ersucht um"]},
+    "P2": {"label": "sendet zurück", "normalisiert_von": ["übersend'", "schicke zurück"]}
   },
-  "vergleich": [
-    {
-      "konzept_de": "...",
-      "konzept_en": "... oder null",
-      "similarity": 0,
-      "abweichung": true,
-      "beschreibung": "nur bei abweichung"
-    }
+  "triples": [
+    {"subjekt": "E1", "praedikat": "P1", "objekt": "E3"},
+    {"subjekt": "E1", "praedikat": "P2", "objekt": "E2"}
   ],
-  "meta": {
-    "source_id": "",
-    "languages": ["de", "en"],
-    "erstelldatum": "YYYY-MM-DD",
-    "ausfuehrungszeit_ms": 0
+  "parameter": {
+    "granularitaet": 3,
+    "anzahl_triples": 8
   }
 }
 ```
 
-Es dürfen **keine weiteren Felder** enthalten sein.
+# KRITISCHE REGELN
+1. **Nur JSON**: Keine Markdown-Blöcke (```json), keine Erklärungen außerhalb der JSON-Struktur
+2. **Konsistente IDs**: Jede Entität/Prädikat erhält genau eine ID, die in allen Triples wiederverwendet wird
+3. **Moderne Rechtschreibung**: Alle Labels in aktueller deutscher Rechtschreibung
+4. **Konzepte, nicht Wortlaut**: Paraphrasiere sinngemäß, nicht wörtlich ("flehet um" = "bittet um")
+5. **1:1 Beziehungen**: Jedes Triple beschreibt genau eine Aussage (Subjekt-Prädikat-Objekt)
+6. **Granularität beachten**: Passe Anzahl und Detailgrad dem Abstraktionslevel an
+
+# BEISPIEL
+**Input** (Level 3):
+```
+Von Jean Paul an Vogel, 3. April 1781
+Ich bitte um Vergebung für die lange Störung. Ich sende die Bücher zurück und bitte um Semlers Schriften.
+```
+
+**Output**:
+```json
+{
+  "entities": {
+    "E1": {"label": "Jean Paul", "typ": "Person"},
+    "E2": {"label": "Erhard Friedrich Vogel", "typ": "Person"},
+    "E3": {"label": "Bücher", "typ": "Sonstiges"},
+    "E4": {"label": "Semlers Schriften", "typ": "Werk"}
+  },
+  "praedikate": {
+    "P1": {"label": "bittet um", "normalisiert_von": ["bitte um"]},
+    "P2": {"label": "sendet zurück", "normalisiert_von": ["sende zurück"]},
+    "P3": {"label": "hat gestört", "normalisiert_von": ["war störend"]}
+  },
+  "triples": [
+    {"subjekt": "E1", "praedikat": "P1", "objekt": "E2"},
+    {"subjekt": "E1", "praedikat": "P2", "objekt": "E3"},
+    {"subjekt": "E1", "praedikat": "P1", "objekt": "E4"}
+  ],
+  "parameter": {
+    "granularitaet": 3,
+    "anzahl_triples": 3
+  }
+}
+```
+
+Beginne jetzt mit der Analyse des bereitgestellten Briefs.

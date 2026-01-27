@@ -6,8 +6,9 @@ import logging
 import sys
 from pathlib import Path
 
-from config_loader import load_config, get_database_config, get_api_config, get_processing_config
+from config_loader import load_config, get_database_config, get_api_config, get_processing_config, get_extraction_config, get_files_config
 from db_client import DatabaseClient
+from file_client import FileClient
 from openwebui_client import OpenWebUIClient
 from processor import Processor
 
@@ -91,6 +92,24 @@ def main() -> int:
         help='Pfad zur Log-Datei (Standard: logs/processing.log)'
     )
     parser.add_argument(
+        '--source',
+        type=str,
+        choices=['file', 'db'],
+        default='file',
+        help='Datenquelle: "file" für Textdateien, "db" für Datenbank (Standard: file)'
+    )
+    parser.add_argument(
+        '--filename',
+        type=str,
+        help='Name einer spezifischen Datei im analyze-Verzeichnis (nur bei --source file). Falls nicht angegeben, werden alle .txt-Dateien verarbeitet.'
+    )
+    parser.add_argument(
+        '--granularity',
+        type=int,
+        choices=[1, 2, 3, 4, 5],
+        help='Abstraktionslevel für Triple-Extraktion (1=Kernaussage, 5=Vollständig). Überschreibt Config-Default.'
+    )
+    parser.add_argument(
         '--skip-existing',
         action='store_true',
         help='Überspringe IDs, für die bereits JSON-Dateien existieren. Nützlich zum Fortsetzen unterbrochener Verarbeitungen oder für inkrementelle Updates.'
@@ -121,20 +140,33 @@ def main() -> int:
         system_prompt = load_prompt(args.prompt)
         
         # 3. Komponenten initialisieren
-        db_config = get_database_config(config)
         api_config = get_api_config(config)
         processing_config = get_processing_config(config)
+        extraction_config = get_extraction_config(config)
+        files_config = get_files_config(config)
         
-        logger.info("Initialisiere Datenbank-Client")
-        db_client = DatabaseClient(
-            driver=db_config['driver'],
-            host=db_config['host'],
-            port=db_config['port'],
-            user=db_config['user'],
-            password=db_config['password'],
-            name=db_config['name'],
-            query=db_config['query']
-        )
+        # Granularität: CLI-Argument überschreibt Config
+        granularity = args.granularity if args.granularity else extraction_config.get('default_granularity', 3)
+        
+        # Client basierend auf Source initialisieren
+        if args.source == 'file':
+            logger.info("Initialisiere File-Client")
+            input_dir = files_config.get('input_dir', 'analyze')
+            data_client = FileClient(input_dir=input_dir)
+        else:  # args.source == 'db'
+            logger.info("Initialisiere Datenbank-Client")
+            db_config = get_database_config(config)
+            if not db_config:
+                raise ValueError("Datenbank-Konfiguration fehlt in config.yaml (erforderlich für --source db)")
+            data_client = DatabaseClient(
+                driver=db_config['driver'],
+                host=db_config['host'],
+                port=db_config['port'],
+                user=db_config['user'],
+                password=db_config['password'],
+                name=db_config['name'],
+                query=db_config['query']
+            )
         
         logger.info("Initialisiere OpenWebUI-Client")
         openwebui_client = OpenWebUIClient(
@@ -142,7 +174,6 @@ def main() -> int:
             endpoint=api_config['endpoint'],
             model=api_config['model'],
             system_prompt=system_prompt,
-            languages=api_config.get('languages', {'field1': 'unknown', 'field2': 'unknown'}),
             api_key=api_config.get('api_key'),
             timeout_seconds=api_config.get('timeout_seconds', 60),
             max_retries=api_config.get('max_retries', 3),
@@ -151,16 +182,20 @@ def main() -> int:
         
         logger.info("Initialisiere Processor")
         processor = Processor(
-            db_client=db_client,
+            data_client=data_client,
             openwebui_client=openwebui_client,
             output_dir=processing_config['output_dir'],
             required_keys=processing_config.get('required_keys', []),
             skip_existing=args.skip_existing,
-            update_metadata=args.update_metadata
+            update_metadata=args.update_metadata,
+            granularity=granularity,
+            source_type=args.source,
+            filename=args.filename,
+            entity_types=extraction_config.get('entity_types', [])
         )
         
         # 4. Verarbeitung durchführen
-        with db_client:  # Context Manager für Verbindungsmanagement
+        with data_client:  # Context Manager für Verbindungsmanagement
             stats = processor.run()
         
         # 5. Zusammenfassung

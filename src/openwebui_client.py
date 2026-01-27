@@ -32,7 +32,6 @@ class OpenWebUIClient:
         endpoint: str,
         model: str,
         system_prompt: str,
-        languages: dict[str, str],
         api_key: str | None = None,
         timeout_seconds: int = 60,
         max_retries: int = 3,
@@ -46,7 +45,6 @@ class OpenWebUIClient:
             endpoint: API-Endpoint (z.B. "/api/chat/completions")
             model: Modellname
             system_prompt: System-/Instruktionsprompt
-            languages: Dictionary mit Sprachen-ISO-Codes (field1, field2, field3)
             api_key: API-Schlüssel für Authentifizierung (optional)
             timeout_seconds: Timeout für API-Aufrufe in Sekunden
             max_retries: Maximale Anzahl von Wiederholungsversuchen
@@ -56,7 +54,6 @@ class OpenWebUIClient:
         self.endpoint = endpoint
         self.model = model
         self.system_prompt = system_prompt
-        self.languages = languages
         self.api_key = api_key
         self.timeout_seconds = timeout_seconds
         self.max_retries = max_retries
@@ -64,24 +61,34 @@ class OpenWebUIClient:
         self.full_url = f"{self.base_url}{self.endpoint}"
         self.api_call_counter = 0  # Zähler für API-Aufrufe
     
-    def build_payload(self, descriptions: dict[str, Any]) -> dict[str, Any]:
+    def build_payload(
+        self,
+        text_data: dict[str, Any],
+        granularity: int = 3,
+        entity_types: list[str] | None = None
+    ) -> dict[str, Any]:
         """
         Erstellt die Request-Payload für die API.
         
         Args:
-            descriptions: Dictionary mit id und Beschreibungen
-                         (Schlüssel: "id", "field1", "field2")
+            text_data: Dictionary mit id und sourcetext
+            granularity: Abstraktionslevel (1-5)
+            entity_types: Liste erlaubter Entitätstypen
         
         Returns:
             Payload-Dictionary für die API
         """
-        # Erstelle den User-Prompt mit den zwei Beschreibungen und Sprachen
-        lang1 = self.languages.get('field1', 'unknown')
-        lang2 = self.languages.get('field2', 'unknown')
+        # Erstelle den User-Prompt mit dem Text
+        sourcetext = text_data.get('sourcetext', '')
         
-        user_prompt = f"""Beschreibung ({lang1}): {descriptions.get('field1', '')}
+        # Füge Granularität und Entity-Typen zum Prompt hinzu
+        user_prompt = f"""Text:
+{sourcetext}
 
-Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
+Abstraktionslevel: {granularity}/5"""
+        
+        if entity_types:
+            user_prompt += f"\nErlaubte Entitätstypen: {', '.join(entity_types)}"
         
         # Payload-Struktur für OpenWebUI / OpenAI-kompatible APIs
         payload = {
@@ -97,12 +104,10 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
                 }
             ],
             "temperature": 0.1,  # Niedrige Temperatur für konsistentere Outputs
-            "max_tokens": 2000
+            "max_tokens": 4000
         }
         
-        return payload
-    
-    def _extract_model_output(self, response_data: dict[str, Any]) -> str:
+        return payload    def _extract_model_output(self, response_data: dict[str, Any]) -> str:
         """
         Extrahiert den eigentlichen Modell-Output aus der API-Antwort.
         
@@ -183,15 +188,19 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
     
     def call_model(
         self,
-        descriptions: dict[str, Any],
-        required_keys: list[str] | None = None
+        text_data: dict[str, Any],
+        required_keys: list[str] | None = None,
+        granularity: int = 3,
+        entity_types: list[str] | None = None
     ) -> dict[str, Any]:
         """
         Ruft das Modell auf und gibt den validierten JSON-Output zurück.
         
         Args:
-            descriptions: Dictionary mit id und Beschreibungen
+            text_data: Dictionary mit id und sourcetext
             required_keys: Liste der erforderlichen Keys zur Validierung
+            granularity: Abstraktionslevel (1-5)
+            entity_types: Liste erlaubter Entitätstypen
             
         Returns:
             Parsed und validiertes JSON als Dictionary
@@ -200,7 +209,7 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
             RequestException: Nach Ausschöpfen aller Wiederholungsversuche
             ValueError: Bei nicht-parsbarem oder ungültigem JSON
         """
-        record_id = descriptions.get("id", "unknown")
+        record_id = text_data.get("id", "unknown")
         
         for attempt in range(1, self.max_retries + 1):
             self.api_call_counter += 1
@@ -213,7 +222,7 @@ Beschreibung ({lang2}): {descriptions.get('field2', '')}"""
                 logger.info(f"API-Aufruf #{self.api_call_counter} für ID {record_id}, Versuch {attempt}/{self.max_retries}")
                 
                 # Payload erstellen
-                payload = self.build_payload(descriptions)
+                payload = self.build_payload(text_data, granularity, entity_types)
                 
                 # Headers vorbereiten
                 headers = {"Content-Type": "application/json"}

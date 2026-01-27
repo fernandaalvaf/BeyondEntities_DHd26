@@ -1,5 +1,5 @@
 """
-CSV-Exporter für Vergleichsergebnisse aus JSON-Dateien.
+CSV-Exporter für Triple-Extraktionsergebnisse aus JSON-Dateien.
 """
 import csv
 import json
@@ -12,36 +12,34 @@ logger = logging.getLogger(__name__)
 
 
 class CSVExporter:
-    """Exportiert Vergleichsergebnisse aus JSON-Dateien in CSV."""
+    """Exportiert Triple-Ergebnisse aus JSON-Dateien in CSV."""
     
-    def __init__(self, json_dir: str, output_csv: str, languages: dict[str, str]):
+    def __init__(self, json_dir: str, output_csv: str):
         """
         Initialisiert den CSV-Exporter.
         
         Args:
             json_dir: Verzeichnis mit JSON-Dateien
             output_csv: Pfad zur Output-CSV-Datei
-            languages: Dictionary mit Sprachen (field1, field2)
         """
         self.json_dir = Path(json_dir)
         self.output_csv = Path(output_csv)
-        self.languages = languages
         
-    def collect_comparisons(self) -> list[dict[str, Any]]:
+    def collect_triples(self) -> list[dict[str, Any]]:
         """
-        Sammelt alle Vergleichsdaten aus den JSON-Dateien.
+        Sammelt alle Triple-Daten aus den JSON-Dateien.
         
         Returns:
-            Liste von Vergleichseinträgen
+            Liste von Triple-Einträgen mit aufgelösten Labels
         """
-        all_comparisons = []
+        all_triples = []
         
         # Durchsuche alle JSON-Dateien
         json_files = sorted(self.json_dir.glob("*.json"))
         
         if not json_files:
             logger.warning(f"Keine JSON-Dateien in {self.json_dir} gefunden")
-            return all_comparisons
+            return all_triples
         
         logger.info(f"Verarbeite {len(json_files)} JSON-Dateien")
         
@@ -50,71 +48,92 @@ class CSVExporter:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
-                # Extrahiere ID aus meta oder Dateinamen
-                source_id = data.get('meta', {}).get('source_id', json_file.stem)
+                # Extrahiere Metadaten aus quelle
+                quelle = data.get('quelle', {})
+                datei = quelle.get('datei', json_file.stem)
+                source_id = quelle.get('source_id', '')
+                verarbeitet = quelle.get('verarbeitet', '')
+                original_text = quelle.get('original_text', '')
                 
-                # Extrahiere Originaltexte aus meta
-                original_texts = data.get('meta', {}).get('original_texts', {})
-                original_field1 = original_texts.get(self.languages['field1'], '')
-                original_field2 = original_texts.get(self.languages['field2'], '')
+                # Extrahiere Entities und Prädikate
+                entities = data.get('entities', {})
+                praedikate = data.get('praedikate', {})
                 
-                # Extrahiere Vergleiche
-                vergleiche = data.get('vergleich', [])
+                # Extrahiere Triples
+                triples = data.get('triples', [])
                 
-                for vergleich in vergleiche:
-                    comparison = {
-                        'id': source_id,
-                        'url': f'https://data.corpus-nummorum.eu/editor#/designs/{source_id}',
-                        'original_field1': original_field1,
-                        'original_field2': original_field2,
-                        'konzept_field1': vergleich.get(f'konzept_{self.languages["field1"]}', ''),
-                        'konzept_field2': vergleich.get(f'konzept_{self.languages["field2"]}', ''),
-                        'similarity': vergleich.get('similarity', ''),
-                        'abweichung': vergleich.get('abweichung', ''),
-                        'beschreibung': vergleich.get('beschreibung', '')
+                for triple in triples:
+                    # Löse Entity- und Prädikat-IDs auf
+                    subjekt_id = triple.get('subjekt', '')
+                    praedikat_id = triple.get('praedikat', '')
+                    objekt_id = triple.get('objekt', '')
+                    
+                    subjekt_label = entities.get(subjekt_id, {}).get('label', subjekt_id)
+                    subjekt_typ = entities.get(subjekt_id, {}).get('typ', '')
+                    
+                    praedikat_label = praedikate.get(praedikat_id, {}).get('label', praedikat_id)
+                    praedikat_normalisiert = ', '.join(praedikate.get(praedikat_id, {}).get('normalisiert_von', []))
+                    
+                    objekt_label = entities.get(objekt_id, {}).get('label', objekt_id)
+                    objekt_typ = entities.get(objekt_id, {}).get('typ', '')
+                    
+                    triple_entry = {
+                        'datei': datei,
+                        'source_id': source_id,
+                        'verarbeitet': verarbeitet,
+                        'subjekt_id': subjekt_id,
+                        'subjekt': subjekt_label,
+                        'subjekt_typ': subjekt_typ,
+                        'praedikat_id': praedikat_id,
+                        'praedikat': praedikat_label,
+                        'praedikat_normalisiert_von': praedikat_normalisiert,
+                        'objekt_id': objekt_id,
+                        'objekt': objekt_label,
+                        'objekt_typ': objekt_typ,
+                        'original_text': original_text
                     }
-                    all_comparisons.append(comparison)
+                    all_triples.append(triple_entry)
                 
-                logger.debug(f"Verarbeitet: {json_file.name} - {len(vergleiche)} Vergleiche")
+                logger.debug(f"Verarbeitet: {json_file.name} - {len(triples)} Triples")
                 
             except json.JSONDecodeError as e:
                 logger.error(f"Fehler beim Parsen von {json_file}: {e}")
             except Exception as e:
                 logger.error(f"Fehler bei Verarbeitung von {json_file}: {e}")
         
-        logger.info(f"Insgesamt {len(all_comparisons)} Vergleiche gesammelt")
-        return all_comparisons
+        logger.info(f"Insgesamt {len(all_triples)} Triples gesammelt")
+        return all_triples
     
     def export_to_csv(self) -> None:
         """
-        Exportiert die Vergleichsdaten in eine CSV-Datei.
+        Exportiert die Triple-Daten in eine CSV-Datei.
         """
-        comparisons = self.collect_comparisons()
+        triples = self.collect_triples()
         
-        if not comparisons:
-            logger.warning("Keine Vergleichsdaten zum Exportieren vorhanden")
+        if not triples:
+            logger.warning("Keine Triple-Daten zum Exportieren vorhanden")
             return
         
-        # Sortiere nach ID aufsteigend
-        comparisons.sort(key=lambda x: int(x['id']) if str(x['id']).isdigit() else x['id'])
+        # Sortiere nach Datei/ID
+        triples.sort(key=lambda x: (x['datei'], x['subjekt']))
         
         # Erstelle Output-Verzeichnis falls nötig
         self.output_csv.parent.mkdir(parents=True, exist_ok=True)
         
-        # Dynamische Header basierend auf Sprachen
-        lang1 = self.languages['field1']
-        lang2 = self.languages['field2']
-        
         fieldnames = [
-            'id',
-            f'original_{lang1}',
-            f'original_{lang2}',
-            f'konzept_{lang1}',
-            f'konzept_{lang2}',
-            'similarity',
-            'abweichung',
-            'beschreibung',
-            'url'
+            'datei',
+            'source_id',
+            'verarbeitet',
+            'subjekt_id',
+            'subjekt',
+            'subjekt_typ',
+            'praedikat_id',
+            'praedikat',
+            'praedikat_normalisiert_von',
+            'objekt_id',
+            'objekt',
+            'objekt_typ',
+            'original_text'
         ]
         
         try:
@@ -127,24 +146,10 @@ class CSVExporter:
                 )
                 
                 writer.writeheader()
-                
-                for comparison in comparisons:
-                    # Mappe die Felder auf die Header
-                    row = {
-                        'id': comparison['id'],
-                        'url': comparison['url'],
-                        f'original_{lang1}': comparison['original_field1'],
-                        f'original_{lang2}': comparison['original_field2'],
-                        f'konzept_{lang1}': comparison['konzept_field1'],
-                        f'konzept_{lang2}': comparison['konzept_field2'],
-                        'similarity': comparison['similarity'],
-                        'abweichung': comparison['abweichung'],
-                        'beschreibung': comparison['beschreibung']
-                    }
-                    writer.writerow(row)
+                writer.writerows(triples)
             
             logger.info(f"CSV erfolgreich exportiert: {self.output_csv}")
-            logger.info(f"Anzahl Zeilen: {len(comparisons)}")
+            logger.info(f"Anzahl Zeilen: {len(triples)}")
             
         except IOError as e:
             logger.error(f"Fehler beim Schreiben der CSV-Datei: {e}")

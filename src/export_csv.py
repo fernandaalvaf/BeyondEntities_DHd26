@@ -1,12 +1,12 @@
 """
-Standalone-Skript zum Exportieren von JSON-Vergleichen nach CSV.
+Standalone-Skript zum Exportieren von JSON-Triples nach CSV.
 """
 import argparse
 import logging
 import sys
 
-from config_loader import load_config, get_api_config, get_processing_config
-from csv_exporter import export_comparisons_to_csv
+from config_loader import load_config, get_processing_config
+from csv_exporter import CSVExporter
 
 
 def setup_logging() -> None:
@@ -26,7 +26,7 @@ def main() -> int:
         Exit-Code (0 = Erfolg, 1 = Fehler)
     """
     parser = argparse.ArgumentParser(
-        description="Exportiert Vergleichsdaten aus JSON-Dateien nach CSV"
+        description="Exportiert Triple-Daten aus JSON-Dateien nach CSV"
     )
     parser.add_argument(
         '--config',
@@ -42,8 +42,8 @@ def main() -> int:
     parser.add_argument(
         '--output',
         type=str,
-        default='csv/vergleiche.csv',
-        help='Pfad zur Output-CSV-Datei (Standard: csv/vergleiche.csv)'
+        default='csv/triples.csv',
+        help='Pfad zur Output-CSV-Datei (Standard: csv/triples.csv)'
     )
     
     args = parser.parse_args()
@@ -54,30 +54,27 @@ def main() -> int:
     
     try:
         logger.info("=" * 60)
-        logger.info("Starte CSV-Export von Vergleichsdaten")
+        logger.info("Starte CSV-Export von Triple-Daten")
         logger.info("=" * 60)
         
         # Konfiguration laden
         logger.info(f"Lade Konfiguration aus: {args.config}")
         config = load_config(args.config)
         
-        # Verzeichnisse und Sprachen aus Config
+        # Verzeichnisse aus Config
         processing_config = get_processing_config(config)
-        api_config = get_api_config(config)
         
         json_dir = args.input_dir or processing_config.get('output_dir', 'output_json')
-        languages = api_config.get('languages', {'field1': 'de', 'field2': 'en'})
         
         logger.info(f"JSON-Verzeichnis: {json_dir}")
         logger.info(f"Output-CSV: {args.output}")
-        logger.info(f"Sprachen: {languages}")
         
         # Export durchführen
-        export_comparisons_to_csv(
+        exporter = CSVExporter(
             json_dir=json_dir,
-            output_csv=args.output,
-            languages=languages
+            output_csv=args.output
         )
+        exporter.export_to_csv()
         
         logger.info("=" * 60)
         logger.info("CSV-Export erfolgreich abgeschlossen")

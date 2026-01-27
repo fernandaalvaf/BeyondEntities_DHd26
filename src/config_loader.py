@@ -33,7 +33,7 @@ def load_config(path: str = "config.yaml") -> dict[str, Any]:
             raise ValueError("Konfigurationsdatei ist leer")
             
         # Validiere Hauptsektionen
-        required_sections = ['database', 'api', 'processing']
+        required_sections = ['api', 'processing']
         for section in required_sections:
             if section not in config:
                 raise ValueError(f"Fehlende Sektion in Konfiguration: {section}")
@@ -81,3 +81,29 @@ def get_processing_config(config: dict[str, Any]) -> dict[str, Any]:
         Verarbeitungs-Konfiguration
     """
     return config.get('processing', {})
+
+
+def get_extraction_config(config: dict[str, Any]) -> dict[str, Any]:
+    """
+    Extrahiert die Extraktions-Konfiguration.
+    
+    Args:
+        config: Vollständige Konfiguration
+        
+    Returns:
+        Extraktions-Konfiguration
+    """
+    return config.get('extraction', {})
+
+
+def get_files_config(config: dict[str, Any]) -> dict[str, Any]:
+    """
+    Extrahiert die Datei-Konfiguration.
+    
+    Args:
+        config: Vollständige Konfiguration
+        
+    Returns:
+        Datei-Konfiguration
+    """
+    return config.get('files', {})

@@ -5,13 +5,12 @@ database:
   user: "your_database_user"
   password: "your_database_password"
   name: "your_database_name"
-  # SQL-Query, die mindestens id und zwei Beschreibungsfelder liefert
-  # Die Query muss die Felder als field1, field2 zurückgeben (mit AS)
+  # SQL-Query, die mindestens id und ein Textfeld (sourcetext) liefert
+  # Die Query muss das Textfeld als sourcetext zurückgeben (mit AS)
   query: |
     SELECT
       id,
-      description_column_1 as field1,
-      description_column_2 as field2
+      text_column AS sourcetext
     FROM your_table_name
     WHERE processed = FALSE
     LIMIT 10;
@@ -21,10 +20,6 @@ api:
   endpoint: "/api/chat/completions"    # API-Endpoint
   api_key: "your-api-key-here"         # API-Schlüssel für Authentifizierung (optional)
   model: "your-model-name"             # z.B. "llama3.3:70b-instruct-q8_0"
-  # Sprachen-ISO-Codes (zweistellig) für die zwei Felder
-  languages:
-    field1: "de"   # Deutsch
-    field2: "en"   # Englisch
   timeout_seconds: 60
   max_retries: 3
   retry_delay_seconds: 3
@@ -33,5 +28,24 @@ processing:
   output_dir: "output_json"
   # Optional: erwartete Top-Level-Keys im JSON der KI
   required_keys:
-    - "konzepte"
-    - "abweichungen"
+    - "entities"
+    - "praedikate"
+    - "triples"
+
+extraction:
+  default_granularity: 3          # Abstraktionslevel 1-5 (1=Kernaussage, 5=Vollständig)
+  entity_types:                    # Erlaubte Entitäts-Typen
+    - Person
+    - Ort
+    - Werk
+    - Institution
+    - Ereignis
+    - Konzept
+    - Zeitpunkt
+    - Sonstiges
+  normalize_predicates: true       # Prädikate normalisieren
+
+files:
+  input_dir: "analyze"             # Verzeichnis für Textdateien (bei --source file)
+  output_dir: "output_json"        # Ausgabeverzeichnis für JSON-Dateien
+  filename_pattern: "{timestamp}-{source}.json"  # Pattern für Dateinamen

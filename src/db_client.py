@@ -93,8 +93,7 @@ class DatabaseClient:
         Returns:
             Liste von Dictionaries mit den Feldern:
             - id: Datensatz-ID
-            - field1: Erste Beschreibung
-            - field2: Zweite Beschreibung
+            - sourcetext: Textinhalt
             
         Raises:
             SQLAlchemyError: Bei Fehlern während der Abfrage
@@ -112,8 +111,7 @@ class DatabaseClient:
                 for row in result:
                     record = {
                         "id": row.id,
-                        "field1": row.field1,
-                        "field2": row.field2
+                        "sourcetext": row.sourcetext
                     }
                     records.append(record)
                 
@@ -126,7 +124,7 @@ class DatabaseClient:
         except AttributeError as e:
             logger.error(f"Query liefert nicht die erwarteten Felder: {e}")
             raise ValueError(
-                f"Die Query muss die Felder 'id', 'field1' und 'field2' "
+                f"Die Query muss die Felder 'id' und 'sourcetext' "
                 f"zurückgeben. Fehler: {e}"
             )
     
