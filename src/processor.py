@@ -43,7 +43,8 @@ class Processor:
         granularity: int = 3,
         source_type: str = 'file',
         filename: str | None = None,
-        entity_types: list[str] | None = None
+        entity_types: list[str] | None = None,
+        limit: int | None = None
     ):
         """
         Initialisiert den Processor.
@@ -59,6 +60,7 @@ class Processor:
             source_type: 'file' oder 'db'
             filename: Spezifischer Dateiname (nur bei source_type='file')
             entity_types: Liste erlaubter Entitätstypen
+            limit: Maximale Anzahl zu verarbeitender Dateien (None = alle)
         """
         self.data_client = data_client
         self.openwebui_client = openwebui_client
@@ -70,6 +72,7 @@ class Processor:
         self.source_type = source_type
         self.filename = filename
         self.entity_types = entity_types or []
+        self.limit = limit
         
         # Erstelle Output-Verzeichnis
         self._ensure_output_dir()
@@ -79,25 +82,78 @@ class Processor:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         logger.info(f"Output-Verzeichnis bereit: {self.output_dir}")
     
-    def _generate_timestamp_filename(self, record_id: str | int) -> str:
+    def _generate_timestamp_filename(self, record: dict[str, Any]) -> Path:
         """
-        Generiert einen Timestamp-basierten Dateinamen.
+        Generiert einen Timestamp-basierten Dateinamen basierend auf dem Record.
         
         Args:
-            record_id: ID des Datensatzes
+            record: Record mit id, source_path und relative_path
             
         Returns:
-            Dateiname im Format YYYYMMDD-HHMMSS-{source}.json
+            Path-Objekt für die Output-Datei (relativ zu output_dir)
         """
         timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-        return f"{timestamp}-{self.source_type}.json"
+        
+        if self.source_type == 'file' and 'relative_path' in record:
+            # Verwende relative Verzeichnisstruktur aus Quelldatei
+            rel_path = record['relative_path']
+            # Entferne Dateiendung und füge Timestamp hinzu
+            stem = rel_path.stem
+            parent = rel_path.parent
+            
+            # Neuer Dateiname: {timestamp}_{originalname}.json
+            new_name = f"{timestamp}_{stem}.json"
+            return parent / new_name
+        else:
+            # Fallback für DB-Modus
+            record_id = record.get('id')
+            return Path(f"{timestamp}-{self.source_type}.json")
     
-    def _update_json_metadata(self, filename: str, sourcetext: str) -> bool:
+    def _find_existing_output(self, record: dict[str, Any]) -> Path | None:
+        """
+        Sucht nach einer existierenden Output-Datei für diesen Record.
+        
+        Prüft ob im Output-Verzeichnis bereits eine JSON-Datei existiert,
+        die den Original-Dateinamen enthält (Format: {timestamp}_{originalname}.json).
+        
+        Args:
+            record: Record mit id, source_path und relative_path
+            
+        Returns:
+            Path zur existierenden Datei oder None wenn nicht gefunden
+        """
+        if self.source_type == 'file' and 'relative_path' in record:
+            rel_path = record['relative_path']
+            stem = rel_path.stem
+            parent = rel_path.parent
+            
+            # Suche im entsprechenden Unterverzeichnis
+            search_dir = self.output_dir / parent
+            if search_dir.exists():
+                # Suche nach Dateien mit Pattern *_{originalname}.json
+                pattern = f"*_{stem}.json"
+                matches = list(search_dir.glob(pattern))
+                if matches:
+                    # Nehme die neueste Datei (nach Timestamp sortiert)
+                    matches.sort(reverse=True)
+                    return matches[0]
+        else:
+            # DB-Modus: Suche nach Dateien mit der Record-ID
+            record_id = record.get('id')
+            pattern = f"*-{record_id}.json"
+            matches = list(self.output_dir.glob(pattern))
+            if matches:
+                matches.sort(reverse=True)
+                return matches[0]
+        
+        return None
+    
+    def _update_json_metadata(self, filename: Path, sourcetext: str) -> bool:
         """
         Aktualisiert die Metadaten in einer existierenden JSON-Datei.
         
         Args:
-            filename: Name der JSON-Datei
+            filename: Relativer Pfad der JSON-Datei (Path-Objekt)
             sourcetext: Ursprünglicher Textinhalt
             
         Returns:
@@ -356,16 +412,19 @@ class Processor:
         # Exportiere als HTML-String
         return fig.to_html(include_plotlyjs='cdn', full_html=True)
     
-    def _save_result(self, filename: str, result: dict[str, Any], meta_info: dict[str, Any]) -> None:
+    def _save_result(self, filename: Path, result: dict[str, Any], meta_info: dict[str, Any]) -> None:
         """
         Speichert das Ergebnis als JSON-Datei.
         
         Args:
-            filename: Name der Output-Datei
+            filename: Relativer Pfad der Output-Datei (Path-Objekt)
             result: Verarbeitetes JSON-Ergebnis
             meta_info: Zusätzliche Metadaten
         """
         output_file = self.output_dir / filename
+        
+        # Erstelle Unterverzeichnisse falls nötig
+        output_file.parent.mkdir(parents=True, exist_ok=True)
         
         # Generiere PlantUML-Code
         plantuml_code = self._generate_plantuml(result)
@@ -402,22 +461,22 @@ class Processor:
             logger.error(f"Fehler beim Speichern der Datei {output_file}: {e}")
             raise
     
-    def _process_record(self, record: dict[str, Any], counter: int) -> tuple[bool, str]:
+    def _process_record(self, record: dict[str, Any], counter: int) -> tuple[bool, Path]:
         """
         Verarbeitet einen einzelnen Datensatz.
         
         Args:
-            record: Datensatz mit id und sourcetext
+            record: Datensatz mit id, sourcetext, source_path und relative_path
             counter: Laufende Nummer für die Ausgabedatei
             
         Returns:
-            Tuple (Erfolg: bool, Dateiname: str)
+            Tuple (Erfolg: bool, Dateiname: Path)
         """
         record_id = record.get("id")
         sourcetext = record.get("sourcetext", "")
         
-        # Generiere Dateinamen
-        filename = self._generate_timestamp_filename(record_id)
+        # Generiere Dateinamen basierend auf Record
+        filename = self._generate_timestamp_filename(record)
         
         # Update-Metadata Modus: Nur Metadaten in existierenden Dateien aktualisieren
         if self.update_metadata:
@@ -457,6 +516,7 @@ class Processor:
                 "ausfuehrungszeit_sekunden": round(execution_time, 2),
                 "modell": self.openwebui_client.model,
                 "api_provider": self.openwebui_client.api_provider,
+                "zeichenanzahl": len(sourcetext),
                 "original_text": sourcetext
             }
             
@@ -523,22 +583,39 @@ class Processor:
                 print(f"{Colors.CYAN}Skip-Modus aktiv: Existierende JSON-Dateien werden übersprungen{Colors.RESET}")
                 logger.info("Skip-Modus aktiv: Existierende JSON-Dateien werden übersprungen")
             
+            if self.limit:
+                print(f"{Colors.CYAN}Limit: Maximal {self.limit} Dateien werden verarbeitet{Colors.RESET}")
+                logger.info(f"Limit aktiv: Maximal {self.limit} Dateien werden verarbeitet")
+            
+            # Zähler für tatsächlich verarbeitete Dateien (nicht übersprungene)
+            processed_count = 0
+            
             # Verarbeite jeden Datensatz
             for i, record in enumerate(records, 1):
                 record_id = record.get("id")
                 
-                # Generiere vorläufigen Dateinamen zum Prüfen
-                temp_filename = self._generate_timestamp_filename(record_id)
-                output_file = self.output_dir / temp_filename
+                # Skip-Logik: Prüfe ob bereits eine Output-Datei existiert
+                if self.skip_existing and not self.update_metadata:
+                    existing_file = self._find_existing_output(record)
+                    if existing_file:
+                        stats["skipped"] += 1
+                        print(f"\n{Colors.YELLOW}--- Datensatz {i}/{stats['total']} (ID {record_id}) ---{Colors.RESET}")
+                        print(f"{Colors.YELLOW}⏭ Übersprungen (existiert bereits): {existing_file.name}{Colors.RESET}")
+                        logger.info(f"Überspringe bereits verarbeitete Datei: {record_id} -> {existing_file}")
+                        continue
                 
-                # Skip-Logik (vereinfacht, da Timestamp-Namen Kollisionen unwahrscheinlich macht)
-                # Im Update-Modus: Keine Skip-Logik
-                # Im Normal-Modus mit skip_existing: Wird durch Timestamp-Namen praktisch verhindert
+                # Limit-Prüfung: Stoppe wenn Limit erreicht
+                if self.limit and processed_count >= self.limit:
+                    remaining = stats["total"] - i - stats["skipped"] + 1
+                    print(f"\n{Colors.YELLOW}Limit von {self.limit} erreicht. {remaining} Dateien verbleiben.{Colors.RESET}")
+                    logger.info(f"Limit von {self.limit} erreicht. Verarbeitung gestoppt.")
+                    break
                 
                 print(f"\n{Colors.CYAN}--- Datensatz {i}/{stats['total']} (ID {record_id}) ---{Colors.RESET}")
                 logger.info(f"Verarbeite Datensatz {i}/{stats['total']}")
                 
                 success, filename = self._process_record(record, i)
+                processed_count += 1  # Zähle verarbeitete Dateien (unabhängig vom Erfolg)
                 
                 if success:
                     stats["success"] += 1

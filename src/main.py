@@ -119,6 +119,12 @@ def main() -> int:
         action='store_true',
         help='Aktualisiere nur die Metadaten (original_texts) in existierenden JSON-Dateien, ohne die KI-API aufzurufen. Nützlich zum Nachtragen fehlender Originaltexte.'
     )
+    parser.add_argument(
+        '--limit',
+        type=int,
+        default=None,
+        help='Maximale Anzahl der zu verarbeitenden Dateien. Nützlich für Batch-Verarbeitung in Teilmengen.'
+    )
     
     args = parser.parse_args()
     
@@ -193,7 +199,8 @@ def main() -> int:
             granularity=granularity,
             source_type=args.source,
             filename=args.filename,
-            entity_types=extraction_config.get('entity_types', [])
+            entity_types=extraction_config.get('entity_types', []),
+            limit=args.limit
         )
         
         # 4. Verarbeitung durchführen
