@@ -28,6 +28,7 @@ api:
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
+      exponential_backoff: true
     
     telota:
       api_provider: "openai"
@@ -38,6 +39,7 @@ api:
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
+      exponential_backoff: true
     
     gemini:
       api_provider: "gemini"
@@ -48,6 +50,7 @@ api:
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
+      exponential_backoff: true
 
 processing:
   output_dir: "output_json"
@@ -73,5 +76,5 @@ extraction:
 files:
   input_dir: "analyze"             # Verzeichnis für Textdateien (bei --source file)
   output_dir: "output_json"        # Ausgabeverzeichnis für JSON-Dateien
-  filename_pattern: "{timestamp}-{source}.json"  # Pattern für Dateinamen
+  filename_pattern: "{timestamp}_{source}.json"  # Pattern für Dateinamen (Unterverz. gespiegelt)
   xml_text_xpath: ".//text"        # XPath-Ausdruck für Text-Extraktion aus XML

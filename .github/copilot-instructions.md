@@ -2,35 +2,37 @@
 
 ## Project Overview
 
-KI-gestützte semantische Triple-Extraktion (SPO: Subjekt-Prädikat-Objekt) aus historischen Briefen. Verarbeitet Textdateien oder Datenbank → LLM-Analyse → strukturiertes JSON mit normalisierten Entitäten.
+KI-gestützte semantische Triple-Extraktion (SPO: Subjekt-Prädikat-Objekt) aus historischen Briefen im TEI-XML-Format. Verarbeitet Textdateien oder Datenbank → LLM-Analyse → strukturiertes JSON mit normalisierten Entitäten.
 
-**Core workflow**: `Datei/DB → Processor → OpenWebUI Client → LLM (Llama 3.3-70B) → JSON → {timestamp}-{source}.json → CSV`
+**Core workflow**: `TEI-XML/TXT → Token-Optimierung → Processor → Multi-API-Client → LLM → JSON → {timestamp}_{source}.json → CSV`
 
 ## Architecture
 
 ### Component Responsibilities
 
-- **`src/file_client.py`**: Liest `.txt`-Dateien aus `analyze/`, liefert `{id, sourcetext}`
-- **`src/db_client.py`**: SQLAlchemy-Client (PostgreSQL/MySQL/SQLite), Query muss `sourcetext` zurückgeben
-- **`src/openwebui_client.py`**: LLM-API-Wrapper mit Retry-Logik, JSON-Cleanup, Farbausgabe
-- **`src/processor.py`**: Orchestriert Pipeline, generiert Timestamp-Dateinamen, Granularität-Handling
-- **`src/csv_exporter.py`**: Exportiert Triples mit aufgelösten Entity-Labels
+- **`src/file_client.py`**: Liest `.txt`/`.xml`-Dateien rekursiv aus `analyze/`, optimiert TEI-XML (72-87% Token-Ersparnis), liefert `{id, sourcetext, source_path, relative_path}`
+- **`src/db_client.py`**: SQLAlchemy-Client (PostgreSQL/MySQL/SQLite), Query muss `id` und `sourcetext` zurückgeben
+- **`src/openwebui_client.py`**: Multi-API-Wrapper (OpenAI + Gemini) mit Retry-Logik, Exponential Backoff, JSON-Cleanup, Farbausgabe
+- **`src/processor.py`**: Orchestriert Pipeline, Skip-Logik, Limit-Handling, Graph-Generierung (optional)
+- **`src/csv_exporter.py`**: Exportiert Triples rekursiv mit aufgelösten Entity-Labels
 - **Entry points**: `src/main.py` (Verarbeitung), `src/export_csv.py` (CSV-Export)
 
 ### Data Flow
 
 ```
-File/DB → {id, sourcetext}
+File/DB → {id, sourcetext, relative_path}
   ↓
-Processor → OpenWebUI Client (build_payload mit Granularität + Entity-Typen)
+TEI-XML → _extract_tei_optimized() → TITEL, ABSENDER, ORT, DATUM, EMPFÄNGER, BRIEFTEXT
   ↓
-LLM → JSON (entities, praedikate, triples)
+Processor → Skip-Check → Limit-Check → OpenWebUI Client (build_payload)
   ↓
-JSON-Cleanup (strip markdown) + Validierung (required_keys)
+LLM (OpenAI/Gemini) → JSON (entities, praedikate, triples)
   ↓
-Save to {YYYYMMDD-HHMMSS}-{source}.json mit quelle.original_text
+JSON-Cleanup + Validierung (required_keys)
   ↓
-CSV-Exporter → triples.csv (one row per triple, labels aufgelöst)
+Save to {subdir}/{YYYYMMDD-HHMMSS}_{source}.json + .puml + .html
+  ↓
+CSV-Exporter (rglob) → triples.csv (one row per triple, labels aufgelöst)
 ```
 
 ## Critical Patterns
@@ -88,17 +90,44 @@ Validated via `processing.required_keys` (default: `["entities", "praedikate", "
 python src/main.py --source file
 ```
 
-**Skip-existing** (`--skip-existing`): Timestamp-Naming verhindert Kollisionen
+**Skip-existing** (`--skip-existing`): Überspringe bereits verarbeitete Dateien
+- Prüft via Pattern `*_{originalname}.json` im entsprechenden Unterverzeichnis
+- Ideal für Fortsetzen unterbrochener Batch-Verarbeitungen
+
+**Limit** (`--limit N`): Verarbeite maximal N Dateien
+```bash
+python src/main.py --source file --skip-existing --limit 10
+```
+
+**No-graphs** (`--no-graphs`): Deaktiviert HTML-Graph-Generierung
+- Spart Speicherplatz und Zeit bei großen Batches
+- PlantUML-Diagramme werden weiterhin generiert
+
 **Update-metadata** (`--update-metadata`): Aktualisiert `quelle.original_text` ohne LLM
 
 ### 4. Configuration System (`config.yaml`)
 
 **Kritische Constraints**:
+- `api.active_profile`: Wähle API-Profil (`chatai`, `telota`, `gemini`)
+- `api.profiles.*.api_provider`: `openai` oder `gemini`
+- `api.profiles.*.exponential_backoff`: Exponentielles Backoff aktivieren (default: true)
 - `database.query` MUSS `id` und `sourcetext` zurückgeben (mit `AS`)
 - `extraction.default_granularity`: 1-5 (Default: 3)
 - `extraction.entity_types`: Liste erlaubter Typen
 - `files.input_dir`: Verzeichnis für Textdateien (default: `analyze`)
-- `api.base_url` + `api.endpoint` = LLM-API-URL
+
+**Beispiel API-Profile**:
+```yaml
+api:
+  active_profile: "gemini"
+  profiles:
+    gemini:
+      api_provider: "gemini"
+      base_url: "https://generativelanguage.googleapis.com"
+      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
+      api_key: "YOUR_API_KEY"
+      exponential_backoff: true
+```
 
 **Beispiel DB-Query**:
 ```sql
@@ -155,8 +184,10 @@ python src/main.py --source file --filename jean-paul-1.txt --granularity 5
 
 | Task | Command |
 |------|---------|
-| Einzelnen Brief verarbeiten | `python src/main.py --source file --filename name.txt --granularity 3` |
+| Einzelnen Brief verarbeiten | `python src/main.py --source file --filename name.xml --granularity 3` |
 | Alle Briefe (Batch) | `python src/main.py --source file` |
+| Nächste 10 unverarbeitete | `python src/main.py --source file --skip-existing --limit 10` |
+| Batch ohne HTML-Graphen | `python src/main.py --source file --skip-existing --no-graphs` |
 | Datenbank-Modus | `python src/main.py --source db --granularity 4` |
 | CSV exportieren | `python src/export_csv.py --output csv/triples.csv` |
 | Test single record | Nutze `--filename` für File-Mode oder `LIMIT 1` in DB-Query |
@@ -164,8 +195,9 @@ python src/main.py --source file --filename jean-paul-1.txt --granularity 5
 ## Project Conventions
 
 - **Encoding**: UTF-8 (frühneuzeitliche Texte)
-- **Terminal output**: ANSI color codes (Colors class)
+- **Terminal output**: ANSI color codes (Colors class in openwebui_client.py)
 - **Logging**: Dual output → `logs/processing.log` + stdout
-- **File naming**: `{YYYYMMDD-HHMMSS}-{source}.json`
+- **File naming**: `{YYYYMMDD-HHMMSS}_{source}.json` (Unterverzeichnisse gespiegelt)
 - **Path handling**: `pathlib.Path` für Cross-Platform
 - **Config security**: `config.yaml` in `.gitignore`
+- **API-Retry**: Exponential Backoff (3s, 6s, 12s bei max_retries=3)
