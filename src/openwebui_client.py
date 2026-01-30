@@ -36,7 +36,8 @@ class OpenWebUIClient:
         timeout_seconds: int = 60,
         max_retries: int = 3,
         retry_delay_seconds: int = 3,
-        api_provider: str = "openai"
+        api_provider: str = "openai",
+        exponential_backoff: bool = True
     ):
         """
         Initialisiert den OpenWebUI-Client.
@@ -61,6 +62,7 @@ class OpenWebUIClient:
         self.max_retries = max_retries
         self.retry_delay_seconds = retry_delay_seconds
         self.api_provider = api_provider.lower()
+        self.exponential_backoff = exponential_backoff
         self.full_url = f"{self.base_url}{self.endpoint}"
         self.api_call_counter = 0  # Zähler für API-Aufrufe
         
@@ -348,8 +350,10 @@ Abstraktionslevel: {granularity}/5"""
                 
                 logger.warning(f"Netzwerkfehler bei ID {record_id}, Versuch {attempt}: {e}")
                 if attempt < self.max_retries:
-                    logger.info(f"Warte {self.retry_delay_seconds} Sekunden vor erneutem Versuch...")
-                    time.sleep(self.retry_delay_seconds)
+                    # Berechne Wartezeit (exponentiell oder konstant)
+                    wait_time = self.retry_delay_seconds * (2 ** (attempt - 1)) if self.exponential_backoff else self.retry_delay_seconds
+                    logger.info(f"Warte {wait_time:.1f} Sekunden vor erneutem Versuch...")
+                    time.sleep(wait_time)
                 else:
                     logger.error(f"Maximale Anzahl Wiederholungen erreicht für ID {record_id}")
                     raise
@@ -361,8 +365,10 @@ Abstraktionslevel: {granularity}/5"""
                 
                 logger.warning(f"Validierungsfehler bei ID {record_id}, Versuch {attempt}: {e}")
                 if attempt < self.max_retries:
-                    logger.info(f"Warte {self.retry_delay_seconds} Sekunden vor erneutem Versuch...")
-                    time.sleep(self.retry_delay_seconds)
+                    # Berechne Wartezeit (exponentiell oder konstant)
+                    wait_time = self.retry_delay_seconds * (2 ** (attempt - 1)) if self.exponential_backoff else self.retry_delay_seconds
+                    logger.info(f"Warte {wait_time:.1f} Sekunden vor erneutem Versuch...")
+                    time.sleep(wait_time)
                 else:
                     logger.error(f"Maximale Anzahl Wiederholungen erreicht für ID {record_id}")
                     raise

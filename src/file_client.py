@@ -2,11 +2,13 @@
 File-Client für das Lesen von Textdateien und XML-Dateien aus dem analyze-Verzeichnis.
 Optimiert TEI-XML für Token-Effizienz durch Extraktion relevanter Metadaten und Brieftext.
 """
+import copy
 import logging
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Generator
+
 logger = logging.getLogger(__name__)
 
 # TEI-Namespace
@@ -204,7 +206,6 @@ class FileClient:
             Bereinigter Brieftext
         """
         # Arbeite mit einer Kopie, um Original nicht zu verändern
-        import copy
         body_copy = copy.deepcopy(body)
         
         # Entferne störende Elemente (Apparatnotizen, Registereinträge, Anker)

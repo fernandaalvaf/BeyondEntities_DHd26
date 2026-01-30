@@ -34,8 +34,8 @@ class CSVExporter:
         """
         all_triples = []
         
-        # Durchsuche alle JSON-Dateien
-        json_files = sorted(self.json_dir.glob("*.json"))
+        # Durchsuche alle JSON-Dateien rekursiv (auch in Unterverzeichnissen)
+        json_files = sorted(self.json_dir.rglob("*.json"))
         
         if not json_files:
             logger.warning(f"Keine JSON-Dateien in {self.json_dir} gefunden")
@@ -154,20 +154,3 @@ class CSVExporter:
         except IOError as e:
             logger.error(f"Fehler beim Schreiben der CSV-Datei: {e}")
             raise
-
-
-def export_comparisons_to_csv(
-    json_dir: str,
-    output_csv: str,
-    languages: dict[str, str]
-) -> None:
-    """
-    Convenience-Funktion zum Exportieren von Vergleichen nach CSV.
-    
-    Args:
-        json_dir: Verzeichnis mit JSON-Dateien
-        output_csv: Pfad zur Output-CSV-Datei
-        languages: Dictionary mit Sprachen (field1, field2)
-    """
-    exporter = CSVExporter(json_dir, output_csv, languages)
-    exporter.export_to_csv()

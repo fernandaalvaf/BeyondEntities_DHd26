@@ -12,21 +12,10 @@ import plotly.graph_objects as go
 
 from db_client import DatabaseClient
 from file_client import FileClient
-from openwebui_client import OpenWebUIClient
+from openwebui_client import OpenWebUIClient, Colors
 
 
 logger = logging.getLogger(__name__)
-
-
-class Colors:
-    """ANSI-Farbcodes für Terminal-Ausgabe."""
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BLUE = '\033[94m'
-    CYAN = '\033[96m'
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
 
 
 class Processor:
@@ -44,7 +33,8 @@ class Processor:
         source_type: str = 'file',
         filename: str | None = None,
         entity_types: list[str] | None = None,
-        limit: int | None = None
+        limit: int | None = None,
+        generate_graphs: bool = True
     ):
         """
         Initialisiert den Processor.
@@ -61,7 +51,12 @@ class Processor:
             filename: Spezifischer Dateiname (nur bei source_type='file')
             entity_types: Liste erlaubter Entitätstypen
             limit: Maximale Anzahl zu verarbeitender Dateien (None = alle)
+            generate_graphs: Wenn True, werden HTML-Graphen generiert (default: True)
         """
+        # Validiere Granularität
+        if not (1 <= granularity <= 5):
+            raise ValueError(f"Granularität muss zwischen 1 und 5 liegen, erhalten: {granularity}")
+        
         self.data_client = data_client
         self.openwebui_client = openwebui_client
         self.output_dir = Path(output_dir)
@@ -73,6 +68,7 @@ class Processor:
         self.filename = filename
         self.entity_types = entity_types or []
         self.limit = limit
+        self.generate_graphs = generate_graphs
         
         # Erstelle Output-Verzeichnis
         self._ensure_output_dir()
@@ -107,7 +103,7 @@ class Processor:
         else:
             # Fallback für DB-Modus
             record_id = record.get('id')
-            return Path(f"{timestamp}-{self.source_type}.json")
+            return Path(f"{timestamp}-{record_id}.json")
     
     def _find_existing_output(self, record: dict[str, Any]) -> Path | None:
         """
@@ -449,13 +445,14 @@ class Processor:
             
             logger.info(f"PlantUML-Diagramm gespeichert: {puml_file}")
             
-            # Generiere und speichere interaktiven Netzwerkgraph
-            html_graph = self._generate_interactive_graph(result)
-            html_file = output_file.with_suffix('.html')
-            with open(html_file, 'w', encoding='utf-8') as f:
-                f.write(html_graph)
-            
-            logger.info(f"Interaktiver Graph gespeichert: {html_file}")
+            # Generiere und speichere interaktiven Netzwerkgraph (optional)
+            if self.generate_graphs:
+                html_graph = self._generate_interactive_graph(result)
+                html_file = output_file.with_suffix('.html')
+                with open(html_file, 'w', encoding='utf-8') as f:
+                    f.write(html_graph)
+                
+                logger.info(f"Interaktiver Graph gespeichert: {html_file}")
             
         except IOError as e:
             logger.error(f"Fehler beim Speichern der Datei {output_file}: {e}")

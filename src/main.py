@@ -125,6 +125,11 @@ def main() -> int:
         default=None,
         help='Maximale Anzahl der zu verarbeitenden Dateien. Nützlich für Batch-Verarbeitung in Teilmengen.'
     )
+    parser.add_argument(
+        '--no-graphs',
+        action='store_true',
+        help='Deaktiviert die Generierung von interaktiven HTML-Graphen. Spart Speicherplatz und Zeit bei großen Batches.'
+    )
     
     args = parser.parse_args()
     
@@ -185,7 +190,8 @@ def main() -> int:
             timeout_seconds=api_config.get('timeout_seconds', 60),
             max_retries=api_config.get('max_retries', 3),
             retry_delay_seconds=api_config.get('retry_delay_seconds', 3),
-            api_provider=api_config.get('api_provider', 'openai')
+            api_provider=api_config.get('api_provider', 'openai'),
+            exponential_backoff=api_config.get('exponential_backoff', True)
         )
         
         logger.info("Initialisiere Processor")
@@ -200,7 +206,8 @@ def main() -> int:
             source_type=args.source,
             filename=args.filename,
             entity_types=extraction_config.get('entity_types', []),
-            limit=args.limit
+            limit=args.limit,
+            generate_graphs=not args.no_graphs
         )
         
         # 4. Verarbeitung durchführen
