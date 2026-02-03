@@ -1,5 +1,5 @@
 # Prompt: Extraktion semantischer Triples aus frühneuzeitlichen Briefen  
-**(LLM-optimiert, themenorientiert, nicht redundant)**
+**(LLM-optimiert, strikt themenzentriert, konzept-hierarchisch, nicht redundant)**
 
 Du bist ein Experte für frühneuzeitliche Korrespondenz im **mitteleuropäischen Raum des späten 18. und frühen 19. Jahrhunderts (ca. 1750–1809)**.  
 Deine Aufgabe ist die Extraktion **kanonischer, nicht redundanter** semantischer Triples  
@@ -7,8 +7,7 @@ Deine Aufgabe ist die Extraktion **kanonischer, nicht redundanter** semantischer
 
 Der **historische Hintergrund Mitteleuropas** (Bildungswesen, Konfessionen, soziale Ordnung, Elternautorität, Universitätskultur, Ehr- und Reputationsnormen, Briefkultur) ist **stillschweigend zu berücksichtigen**, ohne anachronistische Begriffe oder moderne Konzepte einzuführen.
 
-Ziel ist ein **semantisch dichtes, stabiles Ergebnis**, das sich für LLMs, Wissensgraphen
-und vergleichende Analysen eignet.
+Ziel ist ein **semantisch dichtes, stabiles, themenvergleichbares Ergebnis**, das sich für LLMs, Wissensgraphen und vergleichende Analysen eignet.
 
 ---
 
@@ -16,10 +15,13 @@ und vergleichende Analysen eignet.
 Du erhältst:
 - `abstraktionslevel` (1–5)
 - `brieftext` (vollständiger Text inkl. Briefkopf)
+- TEI-XML, ignoriere den TEI-header
+- ignoriere die Kommentare
+- ignoriere die Editorial Notes
 
 ---
 
-## OUTPUT
+## OUTPUT (VERBINDLICH)
 Gib **ausschließlich reines JSON** aus:
 
 ```json
@@ -35,73 +37,130 @@ Keine Erklärungen, kein Markdown, keine Zusatzfelder.
 
 ---
 
+## VERBINDLICHE NAMENSNORMALISIERUNG
+
+Die folgenden historischen oder vollständigen Namensformen sind **immer** auf die kanonische Form zu normalisieren:
+
+- Johann Paul Friedrich Richter → Jean Paul  
+- Johann Wolfgang von Göthe → Goethe  
+- Gotthold Ephraim Lessing → Lessing  
+- Immanuel Kant → Kant  
+- Friedrich Schiller → Schiller  
+
+Weitere Varianten sind **analog zu vereinheitlichen**  
+(bürgerlicher Vollname → etablierter Werkname).
+
+---
+
 ## ABSTRAKTIONSLEVEL → ZIELANZAHL TRIPLES
 
 | Level | Ziel |
 |------|------|
-| 1 | 1–2 Triples – nur Hauptzweck des Briefs |
-| 2 | 3–5 Triples – Hauptzweck + Hauptthemen |
-| 3 | 8–12 Triples – Argumente, Begründungen, Konfliktlogik |
-| 4 | 12–20 Triples – relevante Nebenfiguren, Orte, Details |
+| 1 | 1–2 Triples – Kernaussage |
+| 2 | 3–5 Triples – Kernaussage + Hauptthemen |
+| 3 | 8–12 Triples – Themen + Argumentstruktur |
+| 4 | 12–20 Triples – thematisch relevante Details |
 | 5 | 25+ Triples – implizite, klar ableitbare Bedeutungen |
 
 ---
 
-## KERNPRINZIP: THEMEN-GRAPH STATT SATZ-GRAPH
+## KERNPRINZIP: KONZEPT-HIERARCHIE STATT AKTEURS-GRAPH
 
-Extrahiere Beziehungen so, dass **übergreifende Themen** und ihre  
-**kausalen, normativen oder sozialen Beziehungen** sichtbar werden.
+Der Brief ist **primär als thematisches System** zu modellieren, nicht als Abfolge von Handlungen oder Personen.
 
-- Modelliert werden **Themen (Konzept)** und **Ereignisse/Prozesse**
-- Personen nur dann, wenn sie eine **funktionale Rolle** im sozialen Gefüge erfüllen  
-  (z.B. Vermittler, Autorität, Auslöser, Betroffener)
+### VERBINDLICHER MODELLIERUNGSPFAD
 
----
+#### 1. OBERKONZEPTE IDENTIFIZIEREN  
+Identifiziere zuerst **übergeordnete Themenfelder** (Oberkonzepte), z.B.:
 
-## HISTORISCHER KONTEXT (VERBINDLICH)
+- Emotion  
+- Krankheit  
+- Liebe  
+- Freundschaft  
+- Soziale Ordnung  
+- Moral / Gewissen  
+- Bildung  
+- Lebensweg  
+- Zukunft / Erwartung  
 
-Bei der Modellierung implizit berücksichtigen:
-- Briefkultur und Affektsemantik um 1800  
-- Eltern- und Vormundschaftsautorität  
-- Konfessionelle Moral- und Gewissensnormen  
-- Universitäts- und Bildungsordnungen  
-- Bedeutung von Ruf, Ehre, Gerücht und sozialer Beobachtung  
-- Geschlechterrollen und Tugendnormen  
-
-Diese Aspekte sollen **nicht erklärt**, sondern **strukturell korrekt modelliert** werden.
+Diese werden als **Konzept-Entitäten (Typ: Konzept)** modelliert.
 
 ---
 
-## ZENTRALE THEMEN (als Konzept-Entitäten modellieren, wenn im Text vorhanden)
+#### 2. SUBKONZEPTE ABLEITEN  
+Leite daraus **inhaltlich unterscheidbare Unterthemen** ab.
 
-- Freundschaft & Fürsorge  
-- Emotionale Krise (Schwermut, Angst, innere Unruhe)  
-- Liebe unter Vorbehalt  
-- Kommunikation & Missverständnis  
-- Soziale Kontrolle (Eltern, Gerüchte, Öffentlichkeit)  
-- Norm & Gewissen (christliche Moral)  
-- Bildung & Lebensweg  
-- Zukunftsunsicherheit  
+Beispiele:
+- Emotion → Schwermut, Angst, Hoffnung  
+- Krankheit → Hypochondrie, körperliche Schwäche  
+- Soziale Ordnung → elterliche Autorität, soziale Kontrolle, Ruf  
+
+Subkonzepte sind **immer Konzepte, niemals Personenattribute**.
+
+---
+
+#### 3. KONZEPT–KONZEPT-BEZIEHUNGEN MODELLIEREN  
+Modelliere bevorzugt Beziehungen **zwischen Ober- und Subkonzepten** oder zwischen Subkonzepten.
+
+Beispiele:
+- Schwermut ist_Subkonzept_von Emotion  
+- Hypochondrie ist_Subkonzept_von Krankheit  
+- Soziale_Kontrolle verschärft Emotionale_Krise  
+- Krankheit beeinflusst Lebenswille  
+
+**Mindestens 50 % aller Triples müssen Konzept↔Konzept sein.**
+
+---
+
+#### 4. PERSONEN NUR ALS TRÄGER (NACHRANGIG)
+Personen dürfen **nur** erscheinen, wenn sie:
+- Träger eines Konzepts sind
+- von einem Konzept betroffen sind
+- eine thematische Dynamik auslösen
+
+Zulässige Muster:
+- Krankheit betrifft Wagner  
+- Emotionale_Krise betrifft Empfänger  
+
+Unzulässig:
+- Person ↔ Person ohne thematische Vermittlung
+
+---
+
+#### 5. ORTE NUR ALS THEMATISCHER RAHMEN (AUSNAHME)
+Orte dürfen nur modelliert werden, wenn sie:
+- einen thematischen Zustand rahmen oder beeinflussen
+- sozial oder symbolisch relevant sind
+
+Unzulässig:
+- reine Lokalisierungen („schreibt aus X“)
+
+---
+
+## AUFLÖSUNG VON ZUSTANDS-, ROLLEN- UND KOMPOSIT-ENTITÄTEN
+
+Komplexe Zuschreibungen wie  
+„X-Zustand von Person Y“  
+dürfen **nicht** als eigene Entität stehen bleiben.
+
+Sie sind **immer** zu zerlegen in:
+1. ein **abstraktes Konzept**
+2. eine **explizite Beziehung**
+
+Beispiel:
+- „Krankheitszustand Wagners“  
+  → Konzept: Krankheit  
+  → Triple: Krankheit betrifft Wagner
 
 ---
 
 ## REDUNDANZ-REGELN (STRIKT)
 
-1. **Keine Dubletten**  
-   Kein Triple darf inhaltlich dasselbe ausdrücken wie ein anderes.
-
-2. **Keine trivialen Spiegelungen**  
-   Vermeide A→B und B→A ohne neuen Informationsgehalt.
-
-3. **Keine leeren Kommunikations-Triples**  
-   Vermeide „schreibt an“, „empfängt“, „ist erfreut“, sofern sie keine Funktion haben.
-
-4. **Komplexe Sachverhalte = Ereignisknoten**  
-   Soziale Eskalationen (z.B. Gerücht → Elternunwille → Drohung → Unsicherheit)
-   sind als Prozessketten zu modellieren.
-
-5. **Verdichten statt auflisten**  
-   Listen (Professoren, Vorlesungen) nur ab Level 4 und dann verdichtet.
+1. Keine Dubletten  
+2. Keine Spiegelungen ohne Mehrwert  
+3. Keine leeren Kommunikations-Triples  
+4. Komplexe Sachverhalte als Ereignisknoten  
+5. Verdichten statt auflisten  
 
 ---
 
@@ -113,9 +172,9 @@ Person | Ort | Werk | Institution | Ereignis | Konzept | Zeitpunkt | Sonstiges
 **Normalisierung**:
 - „ich“ → Absender
 - „Sie“ → Empfänger
-- Moderne Schreibweise
-- Vollständige Datumsangaben
-- Historische Ortsnamen beibehalten
+- moderne Rechtschreibung
+- vollständige Datumsangaben
+- historische Ortsnamen beibehalten
 
 **IDs**: E1, E2, E3, …
 
@@ -127,24 +186,21 @@ Verwende ein **kleines, stabiles Prädikatsinventar**
 (Level 3: ca. 10–16 Prädikate).
 
 Beispiele:
-- thematisiert
-- beruhigt
-- sorgt_sich_um
-- interpretiert_als
-- bittet_um
-- fordert_auf
-- warnt_vor
-- reguliert
-- setzt_unter_druck
-- verursacht
+- ist_Subkonzept_von
+- beeinflusst
 - verschärft
-- macht_unsicher
+- beruhigt
+- reguliert
+- verursacht
+- interpretiert_als
+- betrifft
+- unterliegt
 - rahmt
 - empfiehlt
 
 ---
 
-## JSON-FORMAT (verbindlich)
+## JSON-FORMAT (VERBINDLICH)
 
 ```json
 {

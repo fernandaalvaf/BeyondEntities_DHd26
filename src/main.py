@@ -130,6 +130,11 @@ def main() -> int:
         action='store_true',
         help='Deaktiviert die Generierung von interaktiven HTML-Graphen. Spart Speicherplatz und Zeit bei großen Batches.'
     )
+    parser.add_argument(
+        '--raw-xml',
+        action='store_true',
+        help='XML-Dateien unverarbeitet an die KI übergeben (ohne TEI-Optimierung). Nützlich für Nicht-TEI-Formate oder wenn das Original-XML analysiert werden soll.'
+    )
     
     args = parser.parse_args()
     
@@ -164,7 +169,11 @@ def main() -> int:
             logger.info("Initialisiere File-Client")
             input_dir = files_config.get('input_dir', 'analyze')
             xml_text_xpath = files_config.get('xml_text_xpath', './/text')
-            data_client = FileClient(input_dir=input_dir, xml_text_xpath=xml_text_xpath)
+            data_client = FileClient(
+                input_dir=input_dir,
+                xml_text_xpath=xml_text_xpath,
+                raw_xml=args.raw_xml
+            )
         else:  # args.source == 'db'
             logger.info("Initialisiere Datenbank-Client")
             db_config = get_database_config(config)
@@ -191,7 +200,8 @@ def main() -> int:
             max_retries=api_config.get('max_retries', 3),
             retry_delay_seconds=api_config.get('retry_delay_seconds', 3),
             api_provider=api_config.get('api_provider', 'openai'),
-            exponential_backoff=api_config.get('exponential_backoff', True)
+            exponential_backoff=api_config.get('exponential_backoff', True),
+            temperature=api_config.get('temperature', 0.1)
         )
         
         logger.info("Initialisiere Processor")

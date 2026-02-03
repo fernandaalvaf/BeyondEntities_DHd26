@@ -18,16 +18,18 @@ TEI_NS = {'tei': 'http://www.tei-c.org/ns/1.0'}
 class FileClient:
     """Client für das Lesen von Textdateien und XML-Dateien."""
     
-    def __init__(self, input_dir: str, xml_text_xpath: str = ".//text"):
+    def __init__(self, input_dir: str, xml_text_xpath: str = ".//text", raw_xml: bool = False):
         """
         Initialisiert den File-Client.
         
         Args:
             input_dir: Verzeichnis mit den zu verarbeitenden Dateien (txt, xml)
             xml_text_xpath: XPath-Ausdruck für Text-Extraktion aus XML (default: .//text)
+            raw_xml: XML-Dateien unverarbeitet übergeben (ohne TEI-Optimierung, default: False)
         """
         self.input_dir = Path(input_dir)
         self.xml_text_xpath = xml_text_xpath
+        self.raw_xml = raw_xml
         
         if not self.input_dir.exists():
             raise FileNotFoundError(f"Input-Verzeichnis nicht gefunden: {input_dir}")
@@ -67,8 +69,9 @@ class FileClient:
     def _read_xml_file(self, file_path: Path) -> str:
         """
         Liest eine TEI-XML-Datei und extrahiert Metadaten + Brieftext als optimierten Plaintext.
+        Falls raw_xml=True, wird die Datei unverarbeitet zurückgegeben.
         
-        Extrahiert:
+        Extrahiert (bei raw_xml=False):
         - Titel, Absender, Empfänger, Datum, Ort aus correspDesc
         - Brieftext bereinigt (ohne Apparatnotizen, Markup)
         
@@ -76,11 +79,28 @@ class FileClient:
             file_path: Pfad zur XML-Datei
             
         Returns:
-            Optimierter Plaintext mit Metadaten und Briefinhalt
+            Optimierter Plaintext mit Metadaten und Briefinhalt (oder Raw-XML bei raw_xml=True)
             
         Raises:
             IOError: Bei Lesefehlern oder Parse-Fehlern
         """
+        # Bei raw_xml=True: Datei unverarbeitet zurückgeben
+        if self.raw_xml:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read().strip()
+                if not content:
+                    logger.warning(f"XML-Datei ist leer: {file_path}")
+                logger.info(f"Raw-XML gelesen (unoptimiert): {file_path}")
+                return content
+            except UnicodeDecodeError as e:
+                logger.error(f"Encoding-Fehler beim Lesen von {file_path}: {e}")
+                raise IOError(f"Konnte XML-Datei nicht lesen (Encoding-Problem): {file_path}")
+            except IOError as e:
+                logger.error(f"Fehler beim Lesen von {file_path}: {e}")
+                raise
+        
+        # Standard-Verarbeitung (TEI-Optimierung)
         try:
             tree = ET.parse(file_path)
             root = tree.getroot()

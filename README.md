@@ -62,6 +62,9 @@ python src/main.py --source file --filename brief.xml --granularity 3
 # Batch: Nächste 10 unverarbeitete Dateien
 python src/main.py --source file --skip-existing --limit 10
 
+# Nicht-TEI-XML unoptimiert verarbeiten
+python src/main.py --source file --filename custom.xml --raw-xml
+
 # CSV exportieren
 python src/export_csv.py --output csv/triples.csv
 ```
@@ -97,10 +100,16 @@ python src/main.py --source {file,db}     # Datenquelle
                    --skip-existing         # Überspringe bereits verarbeitete
                    --limit N               # Max. N Dateien verarbeiten
                    --no-graphs             # Keine HTML-Graphen generieren
+                   --raw-xml               # XML unverarbeitet übergeben (ohne TEI-Optimierung)
                    --update-metadata       # Nur Metadaten aktualisieren
 
 # CSV-Export
 python src/export_csv.py --output csv/triples.csv
+
+# Themenanalyse (neue Funktion!)
+python src/analyze_themes.py                           # Analysiere alle JSON-Dateien
+python src/analyze_themes.py --top 30                  # Top 30 statt Top 20
+python src/analyze_themes.py --output csv/themes.csv   # Mit CSV-Export
 ```
 
 ## API-Profile (config.yaml)

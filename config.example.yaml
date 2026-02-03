@@ -29,6 +29,7 @@ api:
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
+      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
     
     telota:
       api_provider: "openai"
@@ -40,6 +41,7 @@ api:
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
+      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
     
     gemini:
       api_provider: "gemini"
@@ -51,6 +53,7 @@ api:
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
+      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
 
 processing:
   output_dir: "output_json"

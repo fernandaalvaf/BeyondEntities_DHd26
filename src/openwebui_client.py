@@ -37,7 +37,8 @@ class OpenWebUIClient:
         max_retries: int = 3,
         retry_delay_seconds: int = 3,
         api_provider: str = "openai",
-        exponential_backoff: bool = True
+        exponential_backoff: bool = True,
+        temperature: float = 0.1
     ):
         """
         Initialisiert den OpenWebUI-Client.
@@ -52,6 +53,7 @@ class OpenWebUIClient:
             max_retries: Maximale Anzahl von Wiederholungsversuchen
             retry_delay_seconds: Wartezeit zwischen Wiederholungen
             api_provider: API-Provider ("openai", "gemini") - default: "openai"
+            temperature: Kreativität des Modells (0.0-2.0, default: 0.1 für konsistente Outputs)
         """
         self.base_url = base_url.rstrip('/')
         self.endpoint = endpoint
@@ -63,6 +65,7 @@ class OpenWebUIClient:
         self.retry_delay_seconds = retry_delay_seconds
         self.api_provider = api_provider.lower()
         self.exponential_backoff = exponential_backoff
+        self.temperature = temperature
         self.full_url = f"{self.base_url}{self.endpoint}"
         self.api_call_counter = 0  # Zähler für API-Aufrufe
         
@@ -127,7 +130,7 @@ Abstraktionslevel: {granularity}/5"""
                     "content": user_prompt
                 }
             ],
-            "temperature": 0.1,  # Niedrige Temperatur für konsistentere Outputs
+            "temperature": self.temperature,
             "max_tokens": 8000
         }
         
@@ -161,7 +164,7 @@ Abstraktionslevel: {granularity}/5"""
                 ]
             },
             "generationConfig": {
-                "temperature": 0.1,
+                "temperature": self.temperature,
                 "maxOutputTokens": 65536  # Gemini Maximum
             }
         }

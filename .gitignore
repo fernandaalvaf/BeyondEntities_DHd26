@@ -1,13 +1,38 @@
-*.pyc
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
 
-# Virtuelle Umgebungen
-venv/
-env/
-ENV/
+# Virtual Environment
 .venv/
+venv/
+ENV/
+env/
+
+# Configuration (enthält API-Keys!)
+config.yaml
+
+# Output-Verzeichnisse (werden lokal generiert)
+output_json/*
+!output_json/.gitkeep
+
+# CSV-Exports (werden lokal generiert)
+csv/*
+!csv/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Input-Daten (zu groß für Git)
+analyze/*
+!analyze/.gitkeep
 
 # IDE
 .vscode/
@@ -15,26 +40,6 @@ ENV/
 *.swp
 *.swo
 *~
-
-# Logs
-logs/
-*.log
-
-# Output
-output_json/
-*.json
-
-# CSV-Exporte
-csv/
-*.csv
-
-# Konfiguration mit Live-Daten (nicht committen!)
-config.yaml
-
-# Datenbank
-*.db
-*.sqlite
-*.sqlite3
 
 # OS
 .DS_Store
