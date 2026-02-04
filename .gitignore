@@ -16,23 +16,27 @@ ENV/
 env/
 
 # Configuration (enthält API-Keys!)
-config.yaml
+pipeline/config.yaml
 
 # Output-Verzeichnisse (werden lokal generiert)
-output_json/*
-!output_json/.gitkeep
+pipeline/output_json/*
+!pipeline/output_json/.gitkeep
 
 # CSV-Exports (werden lokal generiert)
-csv/*
-!csv/.gitkeep
+pipeline/csv/*
+!pipeline/csv/.gitkeep
 
 # Logs
-logs/*
-!logs/.gitkeep
+pipeline/logs/*
+!pipeline/logs/.gitkeep
 
 # Input-Daten (zu groß für Git)
-analyze/*
-!analyze/.gitkeep
+pipeline/analyze/*
+!pipeline/analyze/.gitkeep
+
+# Examples (optional, falls zu groß)
+pipeline/examples/*
+!pipeline/examples/.gitkeep
 
 # IDE
 .vscode/

@@ -16,43 +16,29 @@ database:
     LIMIT 10;
 
 api:
-  active_profile: "chatai"  # Wähle: "chatai", "telota" oder "gemini"
+  active_profile: "chatai"  # Wähle: "chatai" oder "gemini"
   
   profiles:
     chatai:
       api_provider: "openai"
       base_url: "https://chat-ai.academiccloud.de"
       endpoint: "/v1/chat/completions"
-      api_key: "your-api-key-here"
+      api_key: "4ad74635c3c2c8509204c127961c58ad"
       model: "llama-3.3-70b-instruct"
-      timeout_seconds: 60
+      timeout_seconds: 300
       max_retries: 3
       retry_delay_seconds: 3
-      exponential_backoff: true
-      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
-    
-    telota:
-      api_provider: "openai"
-      base_url: "http://telota-ai.bbaw.de:3000"
-      endpoint: "/api/chat/completions"
-      api_key: "your-api-key-here"
-      model: "llama3.3:70b-instruct-q8_0"
-      timeout_seconds: 60
-      max_retries: 3
-      retry_delay_seconds: 3
-      exponential_backoff: true
       temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
     
     gemini:
       api_provider: "gemini"
       base_url: "https://generativelanguage.googleapis.com"
-      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
-      api_key: "YOUR_GEMINI_API_KEY"
-      model: "gemini-2.5-flash-lite"
-      timeout_seconds: 60
+      endpoint: "/v1beta/models/gemini-3-pro-preview:generateContent"
+      api_key: "AIzaSyDxhU7Sty4ZhGKJ9Z69CduT1PNY5vLufos"
+      model: "gemini-3-pro-preview"
+      timeout_seconds: 300
       max_retries: 3
       retry_delay_seconds: 3
-      exponential_backoff: true
       temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
 
 processing:

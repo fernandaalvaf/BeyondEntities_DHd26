@@ -4,7 +4,7 @@ KI-gestützte semantische Triple-Extraktion (Subjekt-Prädikat-Objekt) aus histo
 
 ## Features
 
-- **Multi-API-Support**: OpenAI-kompatible APIs (ChatAI, TELOTA) + Google Gemini
+- **Multi-API-Support**: OpenAI-kompatible APIs (ChatAI) + Google Gemini
 - **TEI-XML-Optimierung**: 72-87% Token-Ersparnis durch intelligente Metadaten-Extraktion
 - **Rekursive Verarbeitung**: Unterstützt Unterverzeichnisse mit Strukturerhalt
 - **Batch-Verarbeitung**: Skip-Funktion, Limit-Parameter, Fortsetzen unterbrochener Runs
@@ -14,7 +14,7 @@ KI-gestützte semantische Triple-Extraktion (Subjekt-Prädikat-Objekt) aus histo
 
 #### Multi-API-Support
 Unterstützt verschiedene LLM-APIs über ein Profil-System:
-- **OpenAI-kompatibel**: ChatAI (academiccloud.de), TELOTA (BBAW), lokale Ollama-Instanzen
+- **OpenAI-kompatibel**: ChatAI (academiccloud.de), lokale Ollama-Instanzen
 - **Google Gemini**: Native Gemini-API mit systemInstruction-Support
 - Einfacher Wechsel via `active_profile` in config.yaml
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 # Konfiguration
 cp config.example.yaml config.yaml
-# Bearbeite config.yaml: API-Profil wählen (chatai/telota/gemini), API-Key setzen
+# Bearbeite config.yaml: API-Profil wählen (chatai/gemini), API-Key setzen
 
 # Einzelnen Brief verarbeiten
 python src/main.py --source file --filename brief.xml --granularity 3
@@ -116,7 +116,7 @@ python src/analyze_themes.py --output csv/themes.csv   # Mit CSV-Export
 
 ```yaml
 api:
-  active_profile: "chatai"  # Wähle: chatai, telota, gemini
+  active_profile: "chatai"  # Wähle: chatai, gemini
   
   profiles:
     chatai:
