@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Giovanni Fabbroni, 21.12.1804<idno type="BBAW">851</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> 
+                		Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Philadelphia, American
+                            Philosophical Society: B F 113</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Costa 1970, S. 550ff. (Auszug)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 1213</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="clberthollet">
+                  <persName>Berthollet, Claude-Louis</persName>
+               </person>
+               <person corresp="jbbiot">
+                  <persName>Biot, Jean-Baptiste</persName>
+               </person>
+               <person corresp="jlgaylussac">
+                  <persName>Gay-Lussac, Joseph Luis</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="llanzi">
+                  <persName>Lanzi, Luigi</persName>
+               </person>
+               <person corresp="asmazzocchi">
+                  <persName>Mazzocchi, Alessio Simmaco</persName>
+               </person>
+               <person corresp="gpalloni">
+                  <persName>Palloni, Gaetano</persName>
+               </person>
+               <person corresp="gbvermiglioli">
+                  <persName>Vermiglioli, Giovanni Battista</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1209">Humboldt, Alexander von / Biot, Jean-Baptiste (1804): Sur
+                        les variations du magnétisme terrestre à différentes latitudes. Lu par M.
+                        Biot à la classe des Sciences mathématiques et physiques de l’Institut
+                        national, le 26 frimaire an 13 [17. Dezember 1804]. In: Journal de Physique,
+                        de Chimie et d’Histoire naturelle 59, 1804, S. 429–450</bibl>
+               <bibl corresp="1208">Humboldt, Alexander von / Gay-Lussac, Joseph Louis (1805):
+                        Expériences sur les moyens eudiométriques, et sur la proportion des
+                        principes constituans de l’atmosphère. Lues à la première classe de
+                        l’Institut National, 1er pluviose an 13 [21. Januar 1805]. In: Journal de
+                        Physique, de Chimie et d’Histoire naturelle 60, 1805, S. 129–168</bibl>
+               <bibl corresp="197">Humboldt, Alexander von (1808): Essai sur les réfractions
+                        astronomiques dans la zône torride, correspondantes à des angles de hauteurs
+                        plus petits que dix degrés, et considérées comme effet du décroissement du
+                        calorique, Lu à la première Classe de l’Institut, le 29 février, 1808. In:
+                        Journal de Physique, de Chimie, d’Histoire naturelle et des Arts 66, S.
+                        413–447</bibl>
+               <bibl corresp="723">Lanzi, Luigi (1789): Saggio di lingua Etrusca e di altre
+                        antiche d’Italia per servire alla storia de’popoli, delle lingue, e delle
+                        Belle Arti, 3 Bände, Rom: Pagliarini</bibl>
+               <bibl corresp="1205">Mazzocchi, Alessio Simmaco (1741): Sopra l’origine de’
+                        Tirreni. In: Saggi di dissertazioni accademiche, pubblicamente lette nella
+                        nobile Accademia Etrusca dell’antichissima Città di Cortona, Tomo III, Rom:
+                        Stamperia de’ Fratelli Pagliarini, S. 1–66</bibl>
+               <bibl corresp="1203">Palloni, Gaetano (1804): Osservazioni mediche sulla
+                        malattia febbrile dominante in Livorno per servire d’istruzioni ai signori
+                        medici destinati al servizio del nuovo Spedale provvisorio di S. Jacopo del
+                        dottore Gaetano Palloni, Livorno: per Tommaso Masi e Comp</bibl>
+               <bibl corresp="1204">Vermiglioni, Giovanni Battista (1804): Le antiche
+                        iscrizioni perugine raccolte illustrate e pubblicate da Gio. Battista
+                        Vermiglioli. Tomo Primo: Che contiene le Iscrizioni Etrusche, ed un
+                        Ragionamento sulle Origini di Perugia, Perugia: Carlo Baduel</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Veneratissimo Signore ed amico, Trovandomi adesso sempre nella
+                    necessità di rispondere …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1804-12-21"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gfabbroni">Fabbroni, Giovanni</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="ett">Etruskisch</language>
+            <language ident="la">Latein</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. Februar 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>Roma, ai 21. Decembre, 1804.</dateline>
+               <salute>Veneratissimo Signore ed amico,</salute>
+            </opener>
+            <p>Trovandoci adesso sempre nella necessità di rispondere il giorno medesimo alle
+                    lettere della Toscana, non mi fù possibile di scriverle, otto giorni fà. Mi
+                    lusingo che vorrà scusarmi e non credere che il di Lei carteggio mi <subst>
+                  <del>p<gap quantity="2" unit="chars"/>t<gap quantity="1" unit="chars"/>
+                  </del>
+                  <add>arrechi</add>
+               </subst> meno piacere che ne godo in fatti.</p>
+            <p>Sono intieramente del sentimento suo sopra la lingua Etrusca. Avevo anch’ io
+                    creduto di trovarvi un gran ajuto per i miei studj, lessi con impazienza le
+                    opere di <persName ref="llanzi">Lanzi</persName>
+               <note type="footnote" resp="editor">Gemeint ist wohl der 3-bändige <bibl sameAs="723">
+                     <hi rend="italic">Saggio di lingua Etrusca</hi>
+                  </bibl>. [FZ]</note> ed
+                    una parte di quella di <persName ref="gbvermiglioli">Vermiglioli</persName>
+               <note type="footnote" resp="editor">Hiermit ist wahrscheinlich der erste Band von
+                            <bibl sameAs="1204">
+                     <hi rend="italic">Le antiche iscrizioni perugine</hi>
+                  </bibl> gemeint,
+                        der sich den etruskischen Inschriften aus Perugia widmet. [FZ]</note>, mà
+                    appena hò potuto raccogliere una od altra parola, e nulla ne hò cavato che mi
+                    sia stato utile nelle mie ricerche sulla lingua Cantabra<note type="footnote" resp="editor">Gemeint sind Humboldts Studien zum Baskischen. Zur
+                        Begrifflichkeit "Cantabrisch" und "Baskisch" siehe <persName ref="jsvater">Johann Severin Vater</persName> im <bibl sameAs="442">
+                     <hi rend="italic">Mithridates</hi>
+                  </bibl>, Band 2, S. 9–30. [FZ]</note>. La più gran
+                    parte delle iscrizioni contiene soltanto <subst>
+                  <del>nomj</del>
+                  <add>nomi</add>
+               </subst> proprj ed il sistema adottato forse con troppo
+                    grande facilità di derivare tutto del Greco e dal Latino fà trascurare a
+                        <persName ref="llanzi">Lanzi</persName> l’investigazione, se le radici di
+                    qualche parola più difficile a riportare a questi idiomi non sia di un’altra
+                    origine. Bisogna però confessare che le ricerche in questo <pb n="2*"/> ramo non
+                    saranno mai soddisfacenti prima che non avremo mezzi più facili di procurarci
+                    cada uno una cognizione più profonda di molte lingue ed anche di tutte quelle
+                    che sono veramente originarie. Fin là ognuno paragonerà sempre quella nuova
+                    sulla quale scrive egli, con quelle sole che conosce e con una certa sagacità
+                    crederà <del type="fragment">rintracciar</del> di poter rintracciare la di essa
+                    somiglianza con queste, come infatti l’erudito <persName ref="asmazzocchi">Mazocchi</persName> credette di ritrovare ogni parola Etrusca nelle lingue
+                        dell’Oriente.<note type="footnote" resp="editor">Siehe dazu u.a. Mazzocchis
+                        Abhandlung <bibl sameAs="1205">"Sopra l’origine de’ Tirreni"</bibl>,
+                        erschienen im Jahr 1741. [FZ]</note>
+            </p>
+            <p>Per parlarle di scienze più utili e di maggior evidenza mi rallegro di porter
+                    dirle che <persName ref="avh">mio fratello</persName> stà già per fare stampare
+                    alcuni saggi sopra materie relativi al suo viaggio. Si pubblicherà fra poco una
+                    decina di rami colla descrizione sopra <hi rend="underline">les plantes
+                        Equinoxiales</hi>. L’opera intiera sarà data per decine e saranno cento rami
+                    in un Volume. Si fà il principio dalla <hi rend="underline">Palme à cire</hi>.
+                    Egli hà letto all’ <orgName ref="23">Istituto Nazionale</orgName> una breve
+                    definizione di tutto il suo viaggio in 6 dissertazioni, e due altri l’una: <bibl sameAs="197">
+                  <hi rend="underline">sur le décroissement du Calorique dans l’air &amp; la
+                            limite inférieure de la neige</hi>
+               </bibl>; e l’altra <bibl sameAs="1209">
+                  <hi rend="underline">sur l’Intensité des forces magnétiques</hi>
+               </bibl>.
+                    Questa ultima l’hà fatta assieme con <persName ref="jbbiot">Biot</persName>.
+                    Egli hà scoperto che la <del type="fragment">f</del> proporzione della forza
+                    magnetica è dall’ Equator fin’ al 48. grado de latitudine setten-<pb n="3*"/>trionale come 211<hi rend="superscript">2</hi> : 245<hi rend="superscript">2</hi>. Farà delle nuove sperienze sopra questa materia nel venire in
+                    Italia, volendo fermarsi 8 giorni per questo effetto nel Convento del S.
+                    Bernard. Sarà accompagnato quando viene quà da <persName ref="jlgaylussac">Gay-Lussac</persName>, allievo di <persName ref="clberthollet">Berthollet</persName>, e si propongono l’uno e l’altro di dare qui l’ultima
+                    mano ad una opera già incominciata sotto il titolo: <bibl sameAs="1208">
+                  <hi rend="underline">sur l’analyse de l’Atmosphère &amp; sur tous les moyens
+                            eudiométriques connûs jusqu’à ce jour</hi>
+               </bibl>. Spero di veder
+                        <persName ref="avh">mio fratello</persName> già nel mese di Febbrajo e come
+                    allora il passaggio per l’Etruria non sarà più chiuso, egli avrà il piacere di
+                    visitarla Lei, caro amico, a <placeName ref="Florenz">Firenze</placeName>.</p>
+            <p>Mi scrivono da <placeName ref="Livorno">Livorno</placeName> che la febbre hà
+                    quasi cessata, e vedo dal <bibl sameAs="1203">libro</bibl> di <sic>
+                  <persName ref="gpalloni">Pallone</persName>
+               </sic> che non è mai morta che la
+                    piccola somma di 711 persone. In Germania cominciano adesso a tirar cordoni. Il
+                    viaggiare fra poco sarà impossibile.</p>
+            <p>Aggiungo a questa mia lettera la relazione dell’ arrivo del Pallone lanciato a
+                        <placeName ref="Paris">Parigi</placeName> ai 25 Frimaire all’<placeName ref="Anguillara">Anguillara</placeName> distante di 30 miglia di <placeName ref="Rom">Roma</placeName>.<note type="footnote" resp="editor">Aus Anlass
+                        der Krönung <persName ref="napoleon">Napoleon Bonaparte</persName>s zum
+                        Kaiser der Franzosen hatte <persName ref="ajgarnerin">André-Jacques
+                            Garnerin</persName>, ein Pionier der Ballonfahrt, am <date when="1804-12-02">2. Dezember 1804</date> in
+                        <placeName ref="Paris">Paris</placeName> einen unbemannten Ballon starten lassen, der <date when="1804-12-03">einen Tag später</date> in
+                        <placeName ref="Anguillara">Anguillara</placeName> bei Rom niederkam; siehe dazu Humboldts amtlichen Bericht vom <date when="1804-12-22">22.
+                        Dezember 1804</date> aus <placeName ref="Rom">Rom</placeName> (GS X, S. 10f.). [FZ]</note> La cosa pare incredibile,
+                    non posso assicurarle, che non vedo come ragionevolmente questo fenomeno vero in
+                    se possa spiegarsi, e tutte le ipotesi che si formano dicendo che il Pallone non
+                        <del type="fragment">si</del> venga da <placeName ref="Paris">Parigi</placeName> ma da più vicino sono meno facili a credere che la
+                    schietta verità; ed in fatti non mi pare niente impossibile che un pallone di
+                    una <pb n="4*"/> grandezza più che ordinario possa in 24 ore venire da
+                        <placeName ref="Paris">Parigi</placeName> a <placeName ref="Rom">Roma</placeName>.</p>
+            <p>Ho veduto con grandissimo interesse la parte principale ch’ Ella prende adesso
+                    nell’ Amministrazione delle finanze della di Lei patria. Mene rallegro
+                    moltissimo per i suoi Concittadini, non sò se posso far altrettanto riguardo a
+                    Lei. In ogni stato l’amministrazione delle Finanze è sempre il punto il più
+                    difficile ed il più fastidioso.</p>
+            <closer>
+               <salute>Mi creda, caro Signor ed amico, con sincera amicizia ed inviolabile
+                        considerazione Suo obbligat<hi rend="superscript">mo</hi> ed affezionat<hi rend="superscript">mo</hi> Servitore ed amico</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 15.11.1823<idno type="BBAW">1136</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1906, Bd. 7, S.
+                            177–180</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7346</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cavonsachsen">
+                  <persName>Carl August, Großherzog von Sachsen-Weimar-Eisenach</persName>
+               </person>
+               <person corresp="ajcarstens">
+                  <persName>Carstens, Asmus Jacob</persName>
+               </person>
+               <person corresp="ferdinand3">
+                  <persName>Ferdinand III., Erzherzog von Österreich-Toskana, Großherzog der
+                            Toskana</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cjagemann">
+                  <persName>Jagemann von Heygendorff, Caroline</persName>
+               </person>
+               <person corresp="luiseweimar">
+                  <persName>Luise, Großherzogin von Sachsen-Weimar-Eisenach, Prinzessin von
+                            Hessen-Darmstadt</persName>
+               </person>
+               <person corresp="mariapawlowna">
+                  <persName>Maria Pawlowna, Großfürstin von Russland, Erbprinzessin von
+                            Sachsen-Weimar-Eisenach</persName>
+               </person>
+               <person corresp="jhmeyer">
+                  <persName>Meyer, Johann Heinrich</persName>
+               </person>
+               <person corresp="jcemueller">
+                  <persName>Müller, Johann Christian Ernst</persName>
+               </person>
+               <person corresp="fwriemer">
+                  <persName>Riemer, Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="eschiller">
+                  <persName>Schiller, Emilie von, verh. Freifrau von
+                            Gleichen-Rußwurm</persName>
+               </person>
+               <person corresp="clseidler">
+                  <persName>Seidler, Caroline Louise</persName>
+               </person>
+               <person corresp="cvwolzogen">
+                  <persName>Wolzogen, Caroline von, geb. von Lengefeld, gesch. von
+                            Beulwitz</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="393">Schiller, Friedrich (1800): Wallenstein, ein dramatisches
+                        Gedicht, Tübingen: J. G. Cotta</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sie werden, liebster Freund, hoffentlich schon das Schreiben des
+                    Ministers …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-11-15"/>
+               <placeName key="Weimar">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="" type="prev">11.11.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh"/>
+         </handNotes>
+         <langUsage n="ind, am">
+            <language ident="al">Amerikanische Sprachen (allgemein)</language>
+            <language ident="arw">Arawak</language>
+            <language ident="cax">Chiquitano</language>
+            <language ident="gn">Guaraní</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">6. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Weimar, 15. November 1823</dateline>
+            </opener>
+            <p>Ich danke Dir herzlich, süßes Herz, für Deinen lieben Brief vom <date when="1823-11-11">11.</date>, der mich hier sehr angenehm überrascht
+                    hat…</p>
+            <p>Ich habe heute einen sehr hübschen Abend gehabt. Ich war mit <persName ref="cvwolzogen">Carolinen</persName>, die Dich innigst grüßt, und der
+                        <persName ref="eschiller">Emilie Schiller</persName> im Theater. Man gab
+                        <bibl sameAs="393">Wallensteins Tod</bibl>. <persName ref="cjagemann">Die
+                        Jagemann</persName> spielte die Thekla sehr gut, ob sie gleich zu alt und
+                    stark für die Rolle ist. Hernach war ich bis 11 allein bei <persName ref="cvwolzogen">Carolinen</persName>, die sehr liebenswürdig ist. Man ist
+                    ein ganz anderer Mensch, wenn man aus einer Tragödie kommt, das habe ich immer
+                    gefühlt, und heute wieder; wenn auch nur leidlich gespielt wird, geht doch das
+                    Große so lebendig an einem vorüber. Das Schauspiel, würdig und ruhig genossen,
+                    bleibt das Edelste aller Vergnügen.</p>
+            <p>Mit <persName ref="cvwolzogen">Carolinen</persName> haben wir viel der
+                    vergangenen Zeiten gedacht. Sie hat mir einen Brief gezeigt, den ich ihr <date when="1790-01-16">1790 am 16. Januar</date> aus <placeName ref="Dessau">Dessau</placeName> über Dich geschrieben. Es war mir in den Tagen in
+                        <placeName ref="Weimar">Weimar</placeName> erst recht aufgegangen, wie Du
+                    mich liebtest, süßes Herz, und davon handelt eigentlich der Brief. Es ist eine
+                    Stelle darin, die ich abschreibe, weil sie von unserer damaligen Zukunft
+                    spricht, die nun auch wieder Vergangenheit ist. Ich sage von Dir: „Ich fühl’ es,
+                    was sie mir jetzt ist, ist doch nur erst ein Schatten von dem, was sie mir sein
+                    wird. Ihre Seele ist zu groß und reich, als daß die meine sie schon jetzt ganz
+                    zu fassen vermöchte. Es ist zu viel in ihr, als daß jedes Schöne in ihr etwas in
+                    mir finden könnte, womit es sich gattete. Ich bin nicht unruhig darüber, die
+                    Liebe gibt allen Dingen die Farbe des eigenen Gefühls, und verliert einmal, wenn
+                    wir beide alt werden, diese Liebe bei ihr die Glut, die den Genuß jetzt so
+                    schwärmerisch entzückend macht, so bleibt es ihr, mich durch sie glücklicher zu
+                    sehen. Allein immer werde ich mehr durch sie als sie durch mich genießen." Die
+                    Stelle hat mich so gefreut, weil es wirklich buchstäblich wahr ist, daß ich mit
+                    jedem Jahre, wo wir zusammenleben, immer mehr in Dir gefunden habe und noch
+                    finde. Es liegt auf der einen Seite wohl darin, daß, wer einmal viel ist, dies
+                    Viele immer mehr und reicher entfaltet, aber es ist auch wahr, daß das Große und
+                    Schöne einem immer größer und schöner erscheint, je inniger man sich daran
+                    gewöhnt.</p>
+            <p>Mit <persName ref="jwgoethe">Goethe</persName> geht es noch gar nicht gut. Auch
+                    heute abend soll er sich sehr matt und angegriffen gefühlt haben. Ich sah ihn
+                    leider heute gar nicht. Den Vormittag ging ich mit <persName ref="fwriemer">Riemer</persName> auf die <orgName ref="71">Bibliothek</orgName>, nach 9 Uhr. <persName ref="cavonsachsen">Der Großherzog</persName> hatte bestellt, daß man ihm
+                    sagen lassen sollte, wenn ich gekommen sein würde. Er kam bald darauf, blieb
+                    sehr lange mit mir dort, fuhr dann mit mir nach dem Jägerhause, wo Bilder
+                    aufgestellt werden, und so wurde es drei, als wir zu Hause kamen, und den Abend
+                    war ich im Theater. Ich fürchte mich auch gewissermaßen, bei <persName ref="jwgoethe">Goethe</persName> zu sein. Er soll nicht viel sprechen, und
+                    meine Gegenwart verleitet ihn immer dazu.</p>
+            <p>Das Herumfahren mit <persName ref="cavonsachsen">dem Großherzog</persName> ist
+                    sehr pittoresk. Wir sitzen nebeneinander in einer Droschke und zwischen uns ein
+                    schwarzer, großer neufundländischer Hund, der über uns beide hervorragt und alle
+                    Augenblicke herauf und herunter springt, und einem mit seinem Schwanz unter der
+                    Nase wegfährt. Vier andere Hunde laufen um den Wagen herum.</p>
+            <p>Auf der <orgName ref="71">Bibliothek</orgName> sind schöne Sachen, und ich habe ein Manuskript einer
+                    Grammatik einer amerikanischen Sprache gefunden, von der ich noch keine hatte
+                    und der ich lange nachtrachtete<note type="footnote" resp="editor">Dabei dürfte
+                        es sich um den bereits <ref type="link" target="1047">in dem Brief</ref> an
+                            <persName ref="jwgoethe">Goethe</persName> vom <date when="1823-11-20">20. November 1823</date>
+                  <ref type="linkExt"
+                       target="https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00077883">genannten Sammelband</ref> mit Grammatiken zum Arawakischen, Chiquitano
+                        und Guarani handeln (Jena, ThULB, Inv. Ms. Prov. q. 330a; freundlicher
+                        Hinweis von Joachim Ott, ThULB). Erst 1826 konnte Humboldt diesen Band in
+                        Augenschein nehmen; vgl. dazu die Briefe vom <ref type="link" target="1131">13. Februar 1826</ref>, <ref type="link" target="1132">20. Dezember
+                            1826</ref> und <ref type="link" target="1133">23. Januar 1827</ref>.
+                        [FZ]</note>. Ich erhalte es hier ohne Mühe mitgeteilt. <persName ref="cavonsachsen">Der Großherzog</persName> ist die Freundlichkeit selbst.
+                    Er hat sich heute nach allem, was von Sanskrit hier sein könnte, aufs
+                    sorgfältigste erkundigt, damit es mir gezeigt werden sollte. <persName ref="luiseweimar">Die Großherzogin</persName> ist gütig wie immer, und
+                        <persName ref="mariapawlowna">die Großfürstin</persName> scheint diesmal
+                    besonders zufrieden mit mir. Sie hatte gestern einen großen Tee, wo auch
+                        <persName ref="luiseweimar">die Großherzogin</persName> und die ganze Stadt
+                    war, und machte, wie es ans Spiel ging, die Konversation allein mit mir. Ich
+                    blieb aber nur bis gegen 9, da ich oben beim <persName ref="cavonsachsen">Großherzog</persName> allein zum Abendessen eingeladen war. Die Kinder hat
+                    sie mir versprochen zu zeigen, aber es kam noch nicht dazu.</p>
+            <p>Sehr hübsch ist doch, daß bei diesen Gesellschaften auch <persName ref="fwriemer">Riemer</persName> und <persName ref="jhmeyer">Meyer</persName>, trotz
+                    seines wunderbaren Aussehens, sind und sehr geehrt werden. <persName ref="jhmeyer">Meyer</persName> trägt dann eine schwarze Samtkappe, und graue
+                    oder gepuderte Locken hängen auf der Seite heraus. Ich gehe hier auch frisiert.
+                    Den ersten Tag kam der Friseur ohne Puder. Auf meine Bemerkung meinte er,
+                    niemand trüge mehr Puder. Ich blieb aber bei meiner Sitte und schickte ihn fort,
+                    welchen zu holen. Nun kam er aber auch wie zur Schlacht gerüstet, in einer Hand
+                    die Schachtel, in der anderen einen ungeheuren Puderquast und einen kleinen zum
+                    Sukkurs, und <supplied cert="high">in</supplied> einem schmutzigen eingepuderten
+                    Rock, da er erst einen sehr reinen hatte. So begann und vollendete er das Werk.
+                    Nun proponierte er mir aber, mich mit dem großen Quast zu pudern, wo der Friseur
+                    so von weitem auf einen losblitzt und man nach wenig Augenblicken in eine Wolke
+                    gehüllt ist, und das reizte so alle meine Kindererinnerungen, wo ich in Tegel
+                    zum Pudern immer auf den Boden ging, daß ich mich gleich hinaus mit ihm begab
+                    und die Operation standhaft aushielt. So haben wir wirklich ein sehr schönes
+                    Werk zustande gebracht.</p>
+            <p>Im Jägerhause habe ich heute <persName ref="clseidler">die Seidler</persName> aus
+                        <placeName ref="Rom">Rom</placeName> gesehn. Sie hat Rom im Iunius verlassen
+                    und ist seit zwei Monaten hier. Man hat ihr eine sehr helle, hübsche, warme
+                    Stube zur Werkstatt eingeräumt, und sie hatte eben ein Bild, eine eigene
+                    Komposition zu <persName ref="jwgoethe">Goethen</persName> geschickt. Sie malt
+                    jetzt eine heilige Elisabeth, die Almosen spendet, für den <persName ref="cavonsachsen">Großherzog</persName>. Das Bild war erst aufgezeichnet
+                    und etwas steif und unbewegt. Ich liebe auch eigentlich diesen Gegenstand gar
+                    nicht. Von der Madonna des <persName ref="ferdinand3">Großherzogs von
+                        Toskana</persName> und der <hi rend="antiqua">del Cardello</hi> hatte sie
+                    Kopien, beide aber, vorzüglich die letztere, viel schwächer als unsere. Sie
+                    selbst aber hat mir sehr gefallen. Sie hat umständlich nach Euch allen gefragt
+                    und grüßt sehr. Wenn ich nur zu irgend etwas kommen kann, besuche ich sie gewiß
+                    noch. Ich wüßte lange nicht, eine Person so einfach angenehm gefunden zu
+                    haben.</p>
+            <p>Die Zeichnungen <persName ref="ajcarstens">Carstens</persName>, die man hier hat,
+                    sind sehr schön. Sie lagen auf der Erde, weil man sie eben in Glas und Rahmen
+                    bringen wollte, und Du hättest die Verzweiflung des armen <persName ref="jcemueller">Professors Müller</persName> sehen sollen, wenn die fünf
+                    Hunde des <persName ref="cavonsachsen">Großherzog</persName>s darüber
+                    hinliefen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

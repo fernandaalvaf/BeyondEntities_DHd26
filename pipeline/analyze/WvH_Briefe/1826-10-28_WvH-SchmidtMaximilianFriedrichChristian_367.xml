@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Maximilian Friedrich Christian Schmidt,
+                        28.10.1826<idno type="BBAW">367</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition:
+                            Konzept: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 55, Bl. 60–69. – Ausfertigung: ehem. Halle, Frau Dir. Schmidt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 1853, S. 242–251</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 230</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7682</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="anakreon">
+                  <persName>Anakreon</persName>
+               </person>
+               <person corresp="afbernhardi">
+                  <persName>Bernhardi, August Ferdinand</persName>
+               </person>
+               <person corresp="jharris">
+                  <persName>Harris, James</persName>
+               </person>
+               <person corresp="herodot">
+                  <persName>Herodot</persName>
+               </person>
+               <person corresp="kyrosdj">
+                  <persName>Kyros der Jüngere, achämenidischer Prinz</persName>
+               </person>
+               <person corresp="fwreitz">
+                  <persName>Reitz, Friedrich Wolfgang</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+               <person corresp="xenophon">
+                  <persName>Xenophon</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="640">Bernhardi, August Ferdinand (1801/1803): Sprachlehre, Berlin:
+                    Heinrich Frölich</bibl>
+               <bibl corresp="1004">Bernhardi, August Ferdinand (1805): Anfangsgründe der
+                    Sprachwissenschaft, Berlin: Heinrich Frölich</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von (1823–1824): Ueber die in der
+                    Sanskrit-Sprache durch die Suffixa twâ und ya gebildeten Verbalformen. In:
+                    Indische Bibliothek 1, Heft 4, S. 432–473; Band 2, Heft 1, S. 71–134</bibl>
+               <bibl corresp="657">Schmidt, Maximilian (1826): Ueber den Infinitiv: Einladungsschrift
+                    zur öffentlichen Prüfung der Schüler des Königlichen Gymnasiums in Ratibor am
+                    5., 6. und 7. April, Ratibor: Gustav Kupfer</bibl>
+               <bibl corresp="1253">Schweighäuser, Johannes (Hrsg.) (1816): Herodoti Musae sive
+                    historiarum libri IX. Graece et latine. Tomus I, Straßburg: Typis Philippi
+                    Iacobi Dannbach</bibl>
+               <bibl corresp="1254">Zeune, Johann Karl (Hrsg.) (1785): Xenophontis De Cyri minoris
+                    expeditione commentarii recensiti et explicati ab Io. Carolo Zeunio, Leipzig:
+                    Sumtibus Caspari Fritsch</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bat Euer Wohlgeboren in meinem letzten Brief um
+                        Erlaubniss, Ihnen noch ausführlich über Ihre gehaltvolle Schrift schreiben
+                        zu dürfen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-10-28"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="mfcschmidt">Schmidt, Maximilian Friedrich Christian</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="schreiber">Schreiberschrift mit Änderungen Humboldts</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="">Sanskrit</language>
+            <language ident="">Chinesisch</language>
+            <language ident="">Amerikanische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">13. Juni 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="60r"/>
+               <address>
+                  <addrLine>An Herrn Oberlehrer Dr:</addrLine>
+                  <addrLine>Schmidt</addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in Ratibor.</addrLine>
+               </address>
+               <lb/>
+               <dateline>Tegel, den <subst>
+                     <del>September</del>
+                     <add>
+                        <handShift scribe="wvh"/> 28. October,</add>
+                  </subst> 1826.</dateline>
+            </opener>
+            <p>Ich bat Euer Wohlgeboren in meinem letzten Brief um Erlaubniß, Ihnen noch
+                    ausführlich über <bibl sameAs="657">Ihre gehaltvolle Schrift</bibl>
+               <note type="footnote" resp="editor">Beigefügt ist dem Briefentwurf die <ref type="linkExt"
+                       target="https://zs.thulb.uni-jena.de/rsc/viewer/jportal_derivate_00198494/JALZ_1826_Bd4_0137.tif?logicalDiv=jportal_jparticle_00209661">Nummer 213</ref> der <hi rend="italic">Jenaischen Allgemeinen
+                            Literatur-Zeitung</hi> vom November 1826, in der sich eine Rezension der
+                        Schrift Schmidts befindet, Sp. 257–263. [FZ]</note> schreiben zu dürfen, und
+                    schiebe dies um so weniger auf, als ich dieselbe eben wieder vollständig und
+                    genau <subst>
+                  <del>durchgesehen</del>
+                  <add>
+                     <handShift scribe="wvh"/> durchgelesen</add>
+               </subst> habe.</p>
+            <p>Ich habe mich auf’s Neue an dem belehrenden Reichthum scharfsinniger Bemerkungen
+                    erfreut, den Euer Wohlgeboren mit einer interessanten Auswahl von Stellen,
+                    welche eine ausgebreitete und sorgfältig benutzte Belesenheit in den alten
+                    Schriftstellern <sic>beweißt,</sic> über den Theil der Grammatik und vorzüglich
+                    der Syntaxis, in welcher der Infinitiv einschlägt, zusammen gestellt haben.</p>
+            <p>
+               <bibl sameAs="657">Ihre Abhandlung</bibl> muß schon dadurch jeden, der sich mit
+                    Sprachstudium beschäftigt, um so wichtiger werden, als Sie überall auch aus
+                    andern Sprachen Beweise herbeibringen, und ihre verschiedene Constructionsart
+                    vergleichen. Ich übergehe indeß diesen ganzen Theil, und wende mich <subst>
+                  <del>nun</del>
+                  <add>
+                     <handShift scribe="wvh"/> nur</add>
+               </subst> zu demjenigen, gegen den ich wünschte, Ihnen meine abweichende Meinung
+                    vorzutragen. Die Punkte, über die wir verschiedenen Ansichten <pb n="60v"/>
+                    folgen, beruhen auf so feinen, ja ich möchte sagen, spitzigen Gründen, daß man
+                    sehr leicht darüber immer uneins bleiben kann, aber sie berühren auch sehr nahe
+                    die ersten Grundsätze der Grammatik, und schon darum, wenn es nicht überhaupt
+                    immer angenehm wäre, seine Ideen da gegenseitig auszutauschen, wo allein das
+                    reine Interesse an der zu suchenden Wahrheit vorwaltet, scheint es mir
+                    wichtiger, den Gegenstand noch einmal zur Sprache zu bringen.</p>
+            <p>Ich werde dabei eigentlich mehr <persName ref="afbernhardi">Bernhardi</persName>,
+                    als mich, zu vertheidigen haben. Denn die Zweifel, die ich Euer Wohlgeboren
+                    vortragen möchte, betreffen, noch außer der Streitfrage über den Infinitiv, Ihre
+                    Theorie der momentanen <sic>Merckmale</sic> und der Satzbildung überhaupt, so
+                    wie das, was Sie über die <hi rend="antiqua">tempora</hi> sagen. Allein auch in
+                    Absicht des <hi rend="antiqua">Infinitivs</hi> ist <persName ref="afbernhardi">Bernhardi</persName>, wenn er ihn gleich ein <hi rend="antiqua">Substantivum</hi> nennt, dennoch mehr meiner, als Euer Wohlgeboren Meinung.
+                    Denn er befaßt (<bibl sameAs="1004">§ 64. N°., 5</bibl>) den <hi rend="antiqua">Infinitiv</hi> unter das <hi rend="antiqua">Verbum</hi>, wie Sie (<bibl sameAs="657">§ 20</bibl>) nicht zu thun geneigt sind, und nennt ihn,
+                    ungeachtet er ihn zum <hi rend="antiqua">Verbal-Substantiv</hi>
+               <pb n="61r"/> macht, (<bibl sameAs="1004">§ 47 Nr 1</bibl>) ein Mittelglied
+                    zwischen dem <hi rend="antiqua">Participium</hi> und <hi rend="antiqua">Substantiv</hi>, was ich nicht logisch richtig finden kann. Denn wenn das
+                        <hi rend="antiqua">Verbal-Substantiv</hi> nur Mittelglied, also Annäherung
+                    zum <hi rend="antiqua">Substantiv</hi> ist, so muß es auch vom <hi rend="antiqua">Substantiv</hi> selbst ausgeschlossen werden.</p>
+            <p>Dem Begriff des <hi rend="antiqua">Participiums</hi> den des momentanen Merkmals
+                    unterzuschieben, scheint mir, wenn ich Meinung frei sagen soll, nicht zulässig,
+                    vielmehr der philosophischen Herleitung des Begriffs des <hi rend="antiqua">verbum</hi> und der ganzen Bildung des Satzes wesentlich
+                    entgegenzustehen.</p>
+            <p>Zuerst bestimmt der Ausdruck <hi rend="underline">momentan</hi>, dem <hi rend="underline">dauernden</hi> entgegengesetzt, durchaus nicht das, was
+                    wesentlich im <hi rend="antiqua">Participium</hi> liegt, sondern begreift,
+                    streng genommen, auch bloße <hi rend="antiqua">Adjectiva</hi> unter sich. Denn
+                    ist nicht das Grün der Blätter ein andauerndes und momentanes Merkmal, da sie im
+                    Herbste gelb sind? und doch ist hier aller Begriff von <hi rend="antiqua">verbum</hi> und <hi rend="antiqua">Participium</hi> entfernt. Doch will ich
+                    hierauf kein Gewicht legen. Aber auf jeden Fall vermisse ich in Ausdruck und
+                    Begriff die Schärfe, die klar und rein das Wesen des <hi rend="antiqua">Participiums</hi> anzeigt. Euer Wohlgeboren nennen momentanes Merkmal
+                        das-<pb n="61v"/>jenige, was man sich nur als <hi rend="underline">vorübergehend</hi> an einer Sache denkt. Hierbei bleibt man nun ungewiß, ob
+                    das Characteristische dieser Merkmale in der <hi rend="underline">Zeit</hi>
+                    ihrer Dauer, oder darin liegt, daß sie eine Energie (Handeln, Leiden, sich
+                    befinden) sind. Es scheint sogar, als erklärten Sie Sich für das Erstere, da Sie
+                        (<bibl sameAs="657">S. 6</bibl>) die Thätigkeit nur erst an die Zeit
+                    anknüpfen.</p>
+            <p>Hieraus entsteht nun aber, meiner Meinung nach, eine wahre Verdunkelung des
+                    scharf aufzufassenden Begriffs <subst>
+                  <del>eines <hi rend="antiqua">Participiums</hi>.</del>
+                  <add>
+                     <handShift scribe="wvh"/> der <hi rend="antiqua">Participien.</hi>
+                  </add>
+               </subst> Denn das Characteristische dieser liegt gerade in der Energie, und die
+                    Zeit knüpft sich nur an diese an. Ja, genau genommen, ist es nicht einmal die
+                    Zeit, insofern sie aus Gegenwart, Vergangenheit und Zukunft besteht, welche beim
+                        <hi rend="antiqua">Participium</hi> mitgedacht wird. Es sind nur die <subst>
+                  <del>darin</del>
+                  <add>
+                     <handShift scribe="wvh"/> drei</add>
+               </subst>, bei jeder Energie
+                    nothwendig zu unterscheidenden Punkte, die aber freilich successiv, also in der
+                    Zeit wirklich werden, wie <persName ref="afbernhardi">Bernhardi</persName> mir
+                    sehr gut (<bibl sameAs="1004">§ 43 N° 8</bibl>) zu beweisen scheint. Jene als
+                    Vergangenheit, Gegenwart und Zukunft gedachte Zeit gehört der <hi rend="antiqua">Copula</hi> an, und bei Euer Wohlgeboren Begriff eines momentanen Merkmals
+                    entsteht nun wieder, wenn ich nicht ganz irre, daraus eine Verlegenheit, daß
+                    dieselbe <pb n="62r"/> gleichsam alle Zeit an sich reißt, <del>ein Chl<gap quantity="2" unit="chars"/>
+               </del> was vorzüglich bei der Erörterung der
+                        <hi rend="antiqua">tempora</hi> sichtbar wird. Ueberhaupt hätte ich
+                    gewünscht, Euer Wohlgeboren hätten sich auch über die <hi rend="antiqua">Copula</hi> erklärt. Soll diese nichts als das Gleichheitszeichen der
+                    Mathematik sein, so kommt, wie es mir scheint, niemals ein Satz zu Stande. Ist
+                    sie aber das <subst>
+                  <del>synresirende</del>
+                  <add>
+                     <handShift scribe="wvh"/> synthesirende</add>
+               </subst> Seyn, so wird man, dünkt mich, von selbst darauf geführt, das momentane
+                    Merkmal in ein wahres energisches <hi rend="antiqua">Participium</hi>
+                    umzuschaffen.</p>
+            <p>In <persName ref="afbernhardi">Bernhardi</persName>’s Definition ist dagegen das
+                        <hi rend="antiqua">Participium</hi> in seinem eigentlichen Wesen aufgefaßt,
+                    und vielleicht ist nur sein Ausdruck in <bibl sameAs="1004">§ 40 Nr 7</bibl> zu
+                    tadeln, wobei ich jedoch bemerken muß, daß derselbe in der <hi rend="antiqua">Citation</hi> in <bibl sameAs="657">Ihrer Abhandlung</bibl> (S. 6. Z. 8)
+                    durch den Druckfehler eines ausgelassenen <hi rend="antiqua">Commas</hi>
+                    zwischen <hi rend="underline">kräftig</hi> und <hi rend="underline">wirkend</hi>, unangemessener erscheint, als bei ihm, wo er sagt: <hi rend="underline">sind kräftig, wirkend</hi> u. s. f. Er hätte bei den
+                    Worten: energisch, sich bewegen stehen bleiben sollen, und hinzusetzen, daß das
+                    Leiden ebenso eine Bewegung im Leidenden erheischt, der ja das Leiden ertragen,
+                    d. h. gegenwirken muß. Im Grunde ist das aber nicht nothwendig. Denn das <hi rend="antiqua">part. pass.</hi>
+               <pb n="62v"/>
+               <subst>
+                  <del>drückt</del>
+                  <add>
+                     <handShift scribe="wvh"/> deutet</add>
+               </subst> ja ebenso gut eine Handlung aus, nur von Seiten dessen, auf den sie
+                    geschieht. Auch die <hi rend="antiqua">verba</hi>, wie <foreign sameAs="grc">ἰσάζειν</foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">albere</hi>
+               </foreign>. bilden, dünkt mich, gar keine Ausnahme, sie sind nur
+                    Metaphern, wie die Sprache so viele hat. Das <hi rend="antiqua">Adjectivum</hi>
+               <hi rend="underline">gleich</hi> wird, als wäre es eine Handlung des
+                    Gegenstandes, in das <hi rend="antiqua">Participium</hi>
+               <hi rend="underline">gleichsam</hi> umgebildet, und so entstehen mit dem Begriff
+                    des Seyns jene <hi rend="antiqua">verba</hi>. Auch scheint <persName ref="afbernhardi">Bernhardi</persName> selbst den Zweifel, den er in der
+                        <bibl sameAs="640">1801 erschienenen Sprachlehre</bibl> hierüber hatte, 1805.
+                    aufgegeben zu haben, da er in den in diesem Jahre herausgegebenen <bibl sameAs="1004">Anfangsgründen</bibl> bei seiner ersten Definition bleibt.</p>
+            <p>Ich bin nun zwar gar nicht der Meinung, daß man schlechterdings hier <persName ref="afbernhardi">Bernhardi</persName>s Behauptungen ängstlich folgen müsse.
+                    Wäre eine andere Art der Darstellung lichtvoller oder bestimmter, so würde ich
+                    sie mit Freuden ergreifen. Allein in Ihrer Herleitung durch den Begriff eines
+                    momentanen Merkmals scheint mir das, was die Hauptsache beim <hi rend="antiqua">Participium</hi> ist, daß gehandelt wird, in den Schatten gestellt, und der
+                    Begriff der Zeit, der nur insofern in das <hi rend="antiqua">Participium</hi>
+                    kommen darf, als er von jener Haupt-<pb n="63r"/>sache gefordert wird, als das
+                    Wesentliche, und unabhängig von jener Beschränkung, hineingebracht zu sein. Ich
+                    will auf keine Weise läugnen, daß man den Begriff von allem dem, was nicht
+                    wesentlich zum <hi rend="antiqua">Participium</hi> gehört, reinigen kann; dann
+                    wird er aber auch auf dasselbe mit der <persName ref="afbernhardi">Bernhardi</persName>schen Definition hinauskommen, und <hi rend="underline">momentan</hi> und <hi rend="underline">vorübergehend</hi> sind, meinem
+                    Gefühl nach, immer zu sehr zwischen bloßer <hi rend="antiqua">successiver</hi>
+                    Abwechslung und wirklicher Handlung schwankende Begriffe.</p>
+            <p>Die Sprache ist doch nichts als ein Bild der Wirklichkeit, wie wir sie in uns
+                    aufnehmen. Nun aber ist Alles, was wir sehen oder erfahren Substanz, (Sache)
+                    oder Beschaffenheit, oder Handlung im weitläuftigsten Sinne des Worts. Das
+                    Handelnde ist sichtbar das <hi rend="antiqua">Participium</hi> und nachher <hi rend="antiqua">verbum</hi>. Jede Handlung ist nun allerdings <hi rend="antiqua">momentan</hi> und vorübergehend, aber dies möchte ich nur
+                    Nebensache in ihr nennen. Die Hauptsache ist, so wie im <hi rend="antiqua">verbum</hi>, die Kraftäußerung. Das Vorübergehende läßt sich aus dieser
+                    natürlich herleiten und bestimmen, allein die Kraftäußerung aus dem
+                    Vorübergehenden nicht mit gleich gebie-<pb n="63v"/>tender Nothwendigkeit.</p>
+            <p>Dieß hat nun auch auf den Begriff des <hi rend="antiqua">Infinitivs</hi> einen
+                    unverkennbaren Einfluß, da derselbe ganz eigentlich nichts anders enthält, als
+                    die <hi rend="antiqua">specifi</hi>sche Kraftäußerung des <hi rend="antiqua">verbum</hi>, verbunden mit der Richtung derselben, und ihrer Bestimmung auf
+                    einen Zeitpunkt oder Zeitraum.</p>
+            <p>Daß der Begriff des <hi rend="antiqua">Infinitivs</hi> in seiner reinen Form, wie
+                    Euer Wohlgeboren <bibl sameAs="657">§ 9</bibl> sagen, zu einem abgeschlossenen
+                    Ganzen zusammengefaßt werde, ist das, was ich eben läugnen muß. <subst>
+                  <del>Es</del>
+                  <add>
+                     <handShift scribe="wvh"/> Er</add>
+               </subst> scheint mir kein <hi rend="antiqua">Substantivum</hi> eben darum, weil
+                    in ihm die Verknüpfung zur <hi rend="underline">Einheit</hi> fehlt, die
+                        <persName ref="afbernhardi">Bernhardi</persName> mit Recht, wie auch Sie ihm
+                    beistimmen, im <hi rend="antiqua">Substantivum</hi> fordert. Wenn ich sage: ich
+                    sehe den Menschen gehen, sondere ich allerdings das Merkmal des Gehens von dem
+                    Menschen ab, allein ich füge nicht den zweiten zur Bildung eines <hi rend="antiqua">Substantivum</hi> nothwendigen <hi rend="antiqua">Act</hi>,
+                    das Zusammenfassen dieses Merkmals in eine Einheit, hinzu. Dies thue ich
+                    dagegen, wenn ich sage: ich sehe das Gehen (den Gang) des Menschen. Jedes <hi rend="antiqua">Substantivum</hi> muß immer auf eine <hi rend="antiqua">Substanz</hi>
+               <pb n="64r"/> hinauskommen. Damit fängt auch <persName ref="afbernhardi">Bernhardi</persName> seine Erklärung des <hi rend="antiqua">Substantivs</hi> (<bibl sameAs="1004">§ 35 Nr 1</bibl>) an. Nun aber sträubt
+                    sich, wie gern ich meine Ansicht gegen die von Euer Wohlgeboren aufgeben möchte,
+                    durchaus mein Gefühl dagegen, in den Worten: ich will essen, das letzte, als
+                    eine <hi rend="antiqua">Substanz</hi> anzusehen. Es enthält gar nichts, was
+                    nicht schon im <hi rend="antiqua">Attributivum</hi> lag, aber es ist ihm das,
+                    was das <hi rend="antiqua">Attributivum</hi> zu solchem macht, das Ankleben an
+                    einer <hi rend="antiqua">Substanz</hi> genommen. Euer Wohlgeboren nennen <bibl sameAs="657">S. 9</bibl> diese Vorstellungsart verwerflich, weil sich logisch
+                    dafür kein <add>
+                  <handShift scribe="wvh"/> Substrat</add>
+               <note type="footnote" resp="editor">Der Schreiber hatte an dieser Stelle eine Lücke
+                        gelassen.</note> finden lasse. Ich habe auf diese Einwendung (<bibl sameAs="212">S. 84. Anm</bibl>) selbst aufmerksam gemacht. Allein ich glaube
+                    noch heute keine <subst>
+                  <del>Wiederlegung</del>
+                  <add>
+                     <handShift scribe="wvh"/> Widerlegung</add>
+               </subst> darin zu finden. Der <hi rend="antiqua">Infinitiv</hi> ist die
+                    Darstellung des reinen Bewegens in der Zeit, er gehört gar nicht zu der Gattung,
+                    welche sich durch die Eintheilung in Substanz und <hi rend="antiqua">Attribut</hi> erschöpfen läßt.</p>
+            <p>Euer Wohlgeboren nennen den <hi rend="antiqua">Infinitiv</hi> ein <hi rend="antiqua">Abstractum</hi>, Bernhardi trennt ihn grade von diesem <subst>
+                  <del>fein</del>
+                  <add>frei</add>
+               </subst> geschaffenen <hi rend="antiqua">Substantivum</hi> (<bibl sameAs="1004">§
+                        45 Nr 10</bibl>) Ich kann mich nicht enthalten, hierbei eine Bemerkung zu
+                    machen, die in <bibl sameAs="212">meiner Abhandlung</bibl> nicht vorkommt. Dem
+                    Begriff und <pb n="64v"/> der Sache nach, möchte ich den <hi rend="antiqua">Infinitiv</hi> eher eine bloße, allgemein und <subst>
+                  <del>
+                     <gap quantity="4" unit="chars"/>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> vage</add>
+               </subst> ausgedrückte Wahrnehmung nennen. <hi rend="underline">Hitze</hi> ist
+                    ein <hi rend="antiqua">Abstractum</hi> , <hi rend="underline">heißes Eisen</hi>
+                    zusammenzufügen, ist schon bestimmte Sprachart, aber <hi rend="underline">Eisen
+                        heiß</hi> zu sagen ist der unmittelbare und unverbundene Ausdruck der
+                    Wahrnehmung. Wie nun da <hi rend="underline">heiß</hi> steht, so scheint mir der
+                            <sic>
+                  <hi rend="antiqua">Infinitif</hi>
+               </sic> zu sein, nicht das <hi rend="antiqua">Abstractum</hi> des <hi rend="antiqua">Participiums</hi> ,
+                    sondern der Stoff, aus dem es erst künstlich gebildet wird. Daher sagen die
+                    Kinder, wie auch Euer Wohlgeboren anführen, anfangs alles im <hi rend="antiqua">Infinitiv</hi>.<note type="footnote" resp="editor">Der nächste Satz folgt
+                        nach einem größeren Abstand.</note> Die Chinesische Sprache kennt, meiner
+                    Ansicht nach (obgleich unsere Chinesischen Grammatiken es anders nehmen) vom
+                    ganzen <hi rend="antiqua">Verbum</hi> nichts, als diesen <hi rend="antiqua">Infinitiv</hi>. Im <subst>
+                  <del>Sansscrit</del>
+                  <add>Sanscrit</add>
+               </subst> sind alle Wurzelwörter der <hi rend="antiqua">verba</hi>
+               <hi rend="antiqua">dá,</hi>
+               <hi rend="antiqua">vá</hi> u. s. f. wirkliche <hi rend="antiqua">Infinitive</hi>, nur daß sie in der verbundenen Rede<note type="footnote" resp="editor">Humboldt hat hier eine vom Schreiber gelassene Lücke durch
+                        einen Strich geschlossen.</note> nicht vorkommen. Aber sie bezeichnen
+                    Handlungen, und tragen gar keine Art der Bestimmung an sich. In einigen
+                    Amerikanischen Sprachen kann man <hi rend="antiqua">Substantiva</hi> und <hi rend="antiqua">verba</hi> an sich nur nach ihrer Bedeutung unterscheiden,
+                    aber beide untermischt gebrauchen und durch <pb n="65r"/> Hinzufügung gewisser
+                    Partikeln zu diesen oder jenen stempeln. Man könnte dies allerdings einen
+                    vorgrammatischen Zustand nennen, allein auch in unserer gebildetsten
+                        <sic>Sprachen</sic> kann ich im wahren <hi rend="antiqua">Infinitiv</hi>
+                    nicht mehr sehen. Es scheint damit nun im Widerspruch zu stehen, daß der reine
+                        <hi rend="antiqua">Infinitiv</hi> eigentlich nur in wenig Sprachen vorhanden
+                    ist, und die ungebildeten Sprachen, namentlich die Amerikanischen<add>,</add> so
+                    große Schwierigkeit finden, Redensarten in denen er vorkommt, nachzubilden.
+                    Diese Schwierigkeit aber ist mehr eine syntaktische, da <subst>
+                  <del>nun</del>
+                  <add>
+                     <handShift scribe="wvh"/> nur</add>
+               </subst> der <hi rend="antiqua">Infinitiv</hi> so gestellt werden soll, daß
+                    seine Abhängigkeit sichtbar wird, und die Redeverbindung ist gerade das, worin
+                    diese Völker am meisten zurück sind. Wo es auch einmal ein <hi rend="antiqua">flectirtes Verbum</hi> giebt, da wird es schwer, es wieder von aller <hi rend="antiqua">flexion</hi> zu entblößen, und es doch noch in der <hi rend="antiqua">verbal</hi> form, abgesondert vom <hi rend="antiqua">Substantiv</hi> , festzuhalten. Da tritt wirklich die Nothwendigkeit einer
+                        <hi rend="antiqua">Abstraction</hi> ein. Aber sehr für meine Ansicht spricht
+                    es, daß, wie ich auch angeführt, gerade diese, sich ihrem natürlichen Gefühle
+                    überlassenden Volkerstämme mehr <hi rend="antiqua">Verbal</hi>- als <hi rend="antiqua">Substantiv</hi>-Formen zu Surrogaten des <hi rend="antiqua">Infinitivs</hi> gebrauchen. <pb n="65v"/> Es ist zwar unläugbar, daß, wie
+                    Euer Wohlgeboren <bibl sameAs="657">S. 8</bibl> sagen, jeder regierende Theil
+                    eines Satzes, für sich allein genommen, einen unvollständigen Begriff giebt.
+                    Allein da sich hierin doch Grade unterscheiden lassen, so scheint mir der <hi rend="antiqua">Infinitiv</hi> ganz unvergleichbar enger, als ein Nomen, mit
+                    dem Worte, von dem er abhängig ist, zusammen zu gehören.</p>
+            <p>Es liegt dies auch darin, daß nicht bloß der regierende Theil des Satzes
+                    unvollständig ist, sondern der <hi rend="antiqua">Infinitiv</hi>, seiner Natur
+                    nach, gar nicht dem Geiste, auf ihn, wie doch auf <subst>
+                  <del>eine Substanz,</del>
+                  <add>
+                     <handShift scribe="wvh"/> einer Substanz möglich ist,</add>
+               </subst> zu ruhen erlaubt. Dieser Unterschied zwischen <hi rend="antiqua">Substantivum</hi> und <hi rend="antiqua">Infinitiv</hi> zeigt sich auch
+                    darin, daß gewisse Wörter, wie <hi rend="underline">müssen</hi> , <hi rend="underline">dürfen</hi> , <hi rend="underline">können</hi> gar nicht
+                    ein <hi rend="antiqua">Substantiv</hi> , als regiert, nach sich nehmen können.
+                    Sie verbinden sich auf diese Weise, außer dem <sic>
+                  <hi rend="antiqua">Infinitif</hi>
+               </sic>, bloß mit <hi rend="antiqua">Pronomina</hi> und
+                    einigen dieser gleich kommenden <hi rend="antiqua">Adjectiven</hi> (wie <hi rend="underline">Alles</hi>, <hi rend="underline">Einiges</hi> u. s. f.) und
+                    thun dies letztere vermuthlich nur deshalb, weil dabei immer ein nur
+                    ausgelassener <sic>
+                  <hi rend="antiqua">Infinitit</hi>
+               </sic> mitverstanden werden
+                    kann.</p>
+            <p>In Absicht des Artikels glaube ich keine <sic>Inconsekuenz</sic> zu begehen, wenn
+                    ich sage, daß er beim <hi rend="antiqua">Nomen</hi>, als bestimmter, im
+                    Gegensatz des unbestimmten, beim <hi rend="antiqua">Infi</hi>-<pb n="66r"/>
+               <hi rend="antiqua">nitiv</hi> als Kennzeichen, daß er substantvirt wird, steht.
+                    In dem einen oder anderen Fall thut er, auch meiner Meinung nach, dasselbe, <hi rend="underline">er bestimmt</hi>; daß aber sein Bestimmen verschieden
+                    wirket, liegt in der Natur des <hi rend="antiqua">Nomen</hi> und <hi rend="antiqua">Infinitivs</hi>. Das <hi rend="antiqua">Nomen</hi> kann
+                    unbestimmt (Menschen) und bestimmt (der Mensch) genommen werden. Der Artikel
+                    entscheidet hierüber. Der <hi rend="antiqua">Infinitiv</hi> verliert mit der
+                    Bestimmung auch unmittelbar seine <hi rend="antiqua">Infinitiv</hi>natur und ist
+                        <hi rend="antiqua">substantiv</hi>, so wie er bestimmt ist. An sich ist er
+                    nicht, wie das <hi rend="antiqua">Nomen</hi>, zugleich der Bestimmtheit und
+                    Unbestimmtheit fähig.</p>
+            <p>Es hat aber auch aus einem anderen Grunde eine andere Bewandniß mit dem Artikel
+                    beim <hi rend="antiqua">Infinitiv</hi>, als beim <hi rend="antiqua">Nomen</hi>.
+                    Euer Wohlgeboren nennen den <sic>Artickel</sic> ein ideales <hi rend="antiqua">pronomen demonstrativum</hi>, <persName ref="afbernhardi">Bernhardi</persName>, der ungebührlich kurz über ihn ist, (<bibl sameAs="1004">§ 62 N° 4</bibl>) ein <hi rend="antiqua">determinatives</hi>.
+                    Ich gestehe, daß ich mit beidem nicht ganz übereinstimmen kann. Meiner Meinung
+                    nach, ist der Artikel gar kein <hi rend="antiqua">pronomen</hi>, sondern gehört
+                    in die Kategorie der Zahlwörter. Die <hi rend="antiqua">Substantiva</hi> können
+                    sich nemlich auf <subst>
+                  <del>ein</del>
+                  <add>
+                     <handShift scribe="wvh"/> Ein</add>
+               </subst> Individuum, auf durch Zahl bestimmte, auf unbestimmt gelassene, <pb n="66v"/> endlich auf alle Individuen der Gattung, oder was dasselbe ist,
+                    auf den allgemein gefaßten Begriff der Gattung beziehen, und der Artickel ist
+                    der Redetheil, welcher diesen verschiedenartigen Umfang bestimmt. Wenn daher
+                    Euer Wohlgeboren <bibl sameAs="657">§ 7 No 1</bibl> sagen: der Artickel zeigt an,
+                    daß der von uns ausgesprochene Begriff von uns auf ein Individuum bezogen, und
+                    in der Vorstellung als ein bestimmtes gedacht werde, so pflichte ich hiervon dem
+                    letztern vollkommen bei, aber das Erste erschöpft meines Erachtens, den Begriff
+                    nicht. Zwar werden Euer Wohlgeboren wohl meinen, daß der allgemeine Begriff, der
+                    Mensch, das Thier, ein <hi rend="antiqua">ideales</hi> Individuum sei, und dann
+                    allerdings kommt es auf dasselbe hinaus. Doch weiß ich nicht, ob man bei dieser
+                    Vorstellungsart an Deutlichkeit gewinnt. Als <hi rend="antiqua">Pronomen</hi>
+                    kann ich den Artickel nicht anerkennen, weil das <hi rend="antiqua">Pronomen</hi> ein <hi rend="antiqua">repräsentativer</hi> Redetheil ist,
+                    und der Artickel das <hi rend="antiqua">Nomen</hi> nicht <hi rend="antiqua">repräsentirt</hi>, sondern begleitet. Dies thun zwar die <hi rend="antiqua">pronomina demonstrativa</hi> auch (dieser Mensch) allein sie können doch
+                    allein stehen, der Artickel nicht, und wenn sie das <hi rend="antiqua">Substantiv</hi> bei sich führen, sind sie im Grunde <pb n="67r"/> auch nur
+                    in <hi rend="antiqua">Adjectiva</hi> verwandelte <hi rend="antiqua">Adverbia
+                        loci</hi>, nicht mehr wahre <hi rend="antiqua">Pronomina</hi>. Im Deutschen
+                    unterscheiden wir auch sehr deutlich durch die Aussprache <hi rend="underline">der</hi>
+               <add>,</add> wenn es <hi rend="antiqua">Pronomen
+                        demonstrativum</hi> und wenn es Artickel ist, obgleich im <hi rend="antiqua">Plural</hi> diese Unterscheidung freilich hinwegfällt. Es kommt indeß
+                    hierauf nichts an. Will man auch den Artickel als <hi rend="antiqua">Pronomen</hi> ansehen, so bleibt immer gewiß, daß jenen Umfang der
+                    Bedeutung der <hi rend="antiqua">Substantiva</hi> zu bezeichnen sein Amt ist.
+                    Wendet man nun das auf den <hi rend="antiqua">Infinitiv</hi> an, so könnte er
+                    sich zwar auch auf Eine Handlung, mehrere Handlungen unbestimmt, und die Gattung
+                    der Handlungen überhaupt, erstrecken. So wie er aber das thut, betrachtet er die
+                    Handlungen, als Substanzen, ist die Darstellung derselben, und wird <hi rend="antiqua">Substantiv</hi>. Auf diese Weise <add>
+                  <handShift scribe="wvh"/> sagt</add> man im Deutschen: ein, mehrere, das Essen, auch ein Gehen,
+                    einiges Gehen und das Gehen. Beim <hi rend="antiqua">Verbum finitum</hi> kann
+                    die Frage des Umfangs nicht vorkommen, da es immer einen individuellen Fall
+                    ausspricht, und da der <hi rend="antiqua">Infinitiv</hi> meiner Vorstellung
+                    nach, die ganze <hi rend="antiqua">Verbal</hi> natur beibehält, so kann in den
+                    Worten: ich sehe blitzen, niemand veranlaßt sein, nach dem Umfang dieses
+                    Ausdrucks zu fragen. Jeder fühlt, daß sie heißen <pb n="67v"/> sollen, daß es
+                    blitzte und ich es sah, und es ist also hier weder an einen bestimmten noch
+                    unbestimmten Artickel zu denken. Wie ein Artickel hinzukommt, ist der <hi rend="antiqua">Infinitiv</hi> nicht mehr <hi rend="antiqua">Infinitiv</hi>.
+                    Daß, wie Euer Wohlgeboren <bibl sameAs="657">S 15</bibl> sagen, jeder mit <hi rend="antiqua">Substantiven</hi> zusammengestellte <hi rend="antiqua">Infinitiv</hi> den Artickel haben müßte, sehe ich nicht ein. Es dient
+                    vielmehr, wie in der von Ihnen angeführten Stelle <hi rend="antiqua">
+                  <persName ref="anakreon">Anacreon</persName>s</hi>, zur Abwechslung, wenn auch auf <subst>
+                  <del>wieder</del>
+                  <add>
+                     <handShift scribe="wvh"/> einander</add>
+               </subst> bezogene Begriffe, die einen als Dinge, Substanzen, die andern als
+                    bloße Energien, Bewegungen dargestellt werden.</p>
+            <p>So gestehe ich, kann ich mich von meiner Ansicht, den <hi rend="antiqua">Infinitiv</hi> strenge zum <hi rend="antiqua">verbum</hi> zu nehmen, und
+                    ihn als etwas vom <hi rend="antiqua">Attributivum</hi> und <hi rend="antiqua">Substantivum</hi> Verschiedenes anzusehen, nicht trennen, und wenn ich die
+                    von Euer Wohlgeboren aufgestellten <hi rend="antiqua">Verbal Substantiva</hi>
+                    betrachte, so weichen sie auch fast in allen Dingen von andern <hi rend="antiqua">Substantiven</hi> ab.</p>
+            <p>Ich würde indeß Euer Wohlgeboren Geduld zu ermüden fürchten, wenn ich hierin
+                    weiter einginge; ich will mich daher darauf beschränken, nur noch des <bibl sameAs="657">§ 16</bibl> über die <hi rend="antiqua">tempora</hi> des <hi rend="antiqua">Infinitivs</hi> zu erwähnen.</p>
+            <p>Zuerst möchte ich bemerken, daß <persName ref="afbernhardi">Bern</persName>-<pb n="68r"/>
+               <persName ref="afbernhardi">hardi</persName> gar nicht die Theorie
+                    der relativen Zeiten annimmt, die auch mir aus Gründen, die es hier zu
+                    weitläuftig sein würde, zu entwickeln, nicht die richtige scheint. <persName ref="afbernhardi">Bernhardi</persName> leitet die neun, nicht <hi rend="antiqua">Aoristi</hi>schen <hi rend="antiqua">tempora</hi>, nach der
+                    bessern Alten, <persName ref="jharris">
+                  <hi rend="antiqua">Harris</hi>
+               </persName>, <persName ref="fwreitz">
+                  <hi rend="antiqua">Reiz</hi>
+               </persName> und <hi rend="antiqua">
+                  <persName ref="fawolf">Wolf</persName>s</hi> Vorgang aus der Beziehung der Vergangenheit,
+                    Gegenwart und Zukunft (nicht wieder, wie bei der Theorie der <hi rend="antiqua">relativen</hi> Zeiten geschieht, auf eine andere Vergangenheit, Gegenwart
+                    und Zukunft) sondern auf den Anfangs- Mittel- und Endpunkt der einen Zeitraum
+                    durchlaufenden Energie oder Handlung her.</p>
+            <p>Diese drei Punkte nun gehören dem <hi rend="antiqua">Participium</hi> an, die
+                    drei Zeiten aber der <hi rend="antiqua">Copula</hi>, dem <hi rend="antiqua">Verbum</hi> Seyn, und daraus folgt nun schon unmittelbar, daß der <hi rend="antiqua">Infinitivus</hi>, der bloß aus dem <hi rend="antiqua">Participium</hi> entsteht, auch, außer der <hi rend="antiqua">Aoristen</hi>, nur drei <hi rend="antiqua">Tempora</hi> haben kann.</p>
+            <p>Euer Wohlgeboren haben sich nun freilich nicht genau darüber erklärt, ob Sie die
+                        <hi rend="antiqua">tempora</hi>, wie es scheint, bloß <subst>
+                  <del>aus</del>
+                  <add>
+                     <handShift scribe="wvh"/> in</add>
+               </subst> dem Zeitbegriff, der im momentanen Merkmal enthalten ist, oder zugleich
+                    in der <hi rend="antiqua">Copula</hi> finden. Da aber die <hi rend="antiqua">Copula</hi> doch auch eine Zeit ausdrücken muß, so würden doch auch in
+                    Ihrem momentanen <pb n="68v"/> Merkmal nur drei Zeitpunkte, außer der <hi rend="antiqua">Aoristen</hi> liegen, und den <hi rend="antiqua">Infinitiv</hi> nicht mehr haben können.</p>
+            <p>Es scheint mir dies aber auch aus einem andern Grunde zu folgen. Der <hi rend="antiqua">Infinitiv</hi> ist immer von einem andern <hi rend="antiqua">verbum</hi> abhängig. Selbst wenn ihn ein <hi rend="antiqua">Nomen</hi>
+                    regiert, ist dies doch mit einem <hi rend="antiqua">verbum</hi> in einem Satze
+                    verknüpft. Dies <hi rend="antiqua">verbum</hi> muß ein <hi rend="antiqua">verbum
+                        finitum</hi> sein, und also in irgend einer Zeit seine Aussage machen. Nehme
+                    ich nun relative Zeiten an, so habe ich hier die eine Reihe der drei möglichen
+                    Zeiten, und es kann daher im <hi rend="antiqua">Infinitiv</hi> nur noch eine
+                    zweite liegen. Hätte der <hi rend="antiqua">Infinitiv</hi> für sich zwei Reihen,
+                    als soviel 6 <hi rend="antiqua">tempora</hi> erfordern würden, so kämen 3 Reihen
+                    in <hi rend="antiqua">Contact</hi>, was wohl denkbar wäre, allein zu keinem
+                    neuen Resultat führen könnte.</p>
+            <p>Denn ich gestehe, daß ich auch in den von Euer Wohlgeboren angeführten Beispielen
+                    den Unterschied nicht finden kann. <foreign sameAs="grc">ὁ παῖς. θρηνήσεται
+                        τετύφθαι</foreign> und <foreign sameAs="grc">τετύψεσθαι</foreign> scheinen
+                    mir ganz dasselbe anzudeuten. Daß der Knabe noch nicht geschlagen worden ist,
+                    indem die Worte gesprochen werden, liegt in dem <hi rend="antiqua">futurum</hi>
+               <foreign sameAs="grc">θρηνήσεται</foreign>. Hätte er die Schläge schon <pb n="69r"/> bekommen, könnte sein Weinen nicht erst künftig sein. Die erste
+                    Redensart heißt: er wird weinen, daß er geschlagen worden ist, die andre, wenn
+                    ich <foreign sameAs="grc">τετύψεσθαι</foreign> als <hi rend="antiqua">futurum
+                        exactum</hi> übersetze, daß er wird geschlagen worden sein. <hi rend="underline">Wenn</hi> einzuschieben, scheint mir die Redenart nicht zu
+                    erlauben. Die Worte sind hier freilich anders, aber die Sache ist dieselbe, das
+                    zweite <hi rend="antiqua">futurum</hi> das im <hi rend="antiqua">Infinitiv</hi>
+                    liegt, kann, da schon eines vorhanden ist, nichts hinzufügen. Das Weinen ist
+                    zukünftig, die Schläge, als dessen Ursach, werden als vergangen vorgestellt, an
+                    sich sind sie auch, wie das Weinen, noch zukünftig, und es ist gleich, ob man
+                    diese Zukunft mit ausdrückt oder nicht. Anders gestehe ich die Sache nicht
+                    einsehen zu können. <add>
+                  <handShift scribe="wvh"/> In <persName ref="xenophon">Xenophon</persName>s <bibl sameAs="1254">Anabasis (I, 5, 16.)</bibl>
+                  <foreign sameAs="grc">εἰ γάρ τινα ἀλλήλοις μάχην συνάψετε, νομίζετε, ἐν
+                            τῇδε τῇ ἡμέρᾳ ἐμέ τε κατακεκόψεσθαι κ τ. λ.</foreign>
+                  <note type="footnote" resp="editor">Laut Bücherverzeichnis (AST, Archivmappe
+                            75, M. 4, Bl. 148v) besaß Humboldt die
+                            Zeune-Ausgabe von 1785: "Xenophontis anabasis. Ed. Zeune. Leipz. Fritsch. 1785. 8." [FZ]</note> scheint mir dieser letzte <hi rend="antiqua">Infinitivus</hi> keinen andern Sinn zu geben, als der <hi rend="antiqua">Infinitivus</hi> des nicht <hi rend="antiqua">reduplicirten Futurum</hi> thun würde. Man könnte zwar eine rhetorische
+                        Verstärkung darin finden, daß <persName ref="kyrosdj">
+                     <hi rend="antiqua">Cyrus</hi>
+                  </persName> nicht sagt, daß, so wie sie kämpfen werden,
+                        auch er werde niedergemacht werden, sondern daß er dadurch <hi rend="antiqua">eo ipso</hi> schon werde niedergemacht worden seyn.
+                        Alleine diese Nüance der Bedeutung ist hier aufs mindeste nicht nothwendig,
+                        und ich finde sie nicht einmal passend, weil der Gebrauch des <hi rend="antiqua">futurum exactum</hi>, wenn er auch die Behauptung des
+                        Niedermachens verstärkt, den Zusammenhang dieser Niederlage mit dem zu
+                        verhütenden Kampfe weniger sichtbar macht, da, indem die Niederlage als
+                        schon geschehen dargestellt ist, sie ja auch einen andren Grund, als den
+                        Kampf gehabt haben könnte. <add>(Ein andres Beispiel s. <bibl sameAs="1253">
+                        <hi rend="antiqua">Herodot</hi>. I. 80. <hi rend="antiqua">Ed.
+                                    Schweigh</hi>. I. 97. l. 3.</bibl>
+                  </add>
+               </add> Das zweite <subst>
+                  <del>Beispiel</del>
+                  <add>
+                     <handShift scribe="wvh"/> von Ew. angeführte Beispiel</add>
+               </subst> ist mir noch weniger klar. Welch ein <hi rend="antiqua">Infinitiv</hi>
+                    auch <hi rend="underline">schlagen</hi> sein möchte, kann ich in den Worten
+                    immer nicht mehr sehen, als daß die <add>
+                  <handShift scribe="wvh"/>
+                        Velleitaet</add>
+               <note type="footnote" resp="editor">Das Wort wurde durch
+                        Humboldt in eine vom Schreiber frei gelassene Lücke eingesetzt.</note> des
+                    Schlagens hier in die vergangene Zeit der währenden Handlung gesetzt ist, und
+                    ich finde nicht, daß, wenn der <hi rend="antiqua">Infinitiv</hi> nun auch eine
+                    vergangene Zeit einer währenden Handlung anzeigte, daraus der Sinn hervorgienge,
+                    daß das Schlagen mit dem Wollen vorüber sei. Denn die Phrase: sie hatten
+                    beschlossen, daß sie mich schlügen, wo beide <hi rend="antiqua">verba</hi> im
+                        <hi rend="antiqua">Imperfectum</hi> stehen, scheint mir kein größeres Licht
+                        <pb n="69v"/> über die Sache zu geben, als die mit dem <hi rend="antiqua">Infinitiv</hi>.</p>
+            <p>Das sogenannte <hi rend="antiqua">paulo post futurum</hi> der Griechen scheint
+                    mir kein gültiger Einwurf gegen eine Behauptung, die, meiner Ueberzeugung nach,
+                    so streng und <hi rend="antiqua">evident</hi> aus den allgemeinen Begriffen
+                    folgt. Wie den Sprachen Formen fehlen, so können sie davon auch mehr haben, als
+                    nöthig ist. Dies ist um so mehr möglich, als wir die Geschichte keiner Sprache
+                    genau genug kennen, um zu wissen, ob nicht ursprünglich gewisse Formen ganz
+                    anders gebraucht worden sind. Ich erinnere mich nicht, ob man wohl die Stellen
+                    gesammelt hat, in welchen der <hi rend="antiqua">Infinitiv</hi> dieses <hi rend="antiqua">tempus</hi> vorkommt, und deren wohl nicht viele sein werden.
+                    Dies müßte auf jeden Fall belehrend sein.<note type="footnote" resp="editor">Im
+                        Druck von 1853 wird der im Konzept nicht vorhandene Schluss des Briefes
+                        wiedergegeben: „[Eigenhändige nachschrift des Verfassers.] Ew. wohlgeboren
+                        werden entschuldigen, daß ich nicht mit eigner hand geschrieben habe. Die
+                        fremde ist leserlicher und ich wünschte mein concept zu behalten. Ich bitte
+                        Sie zu glauben, daß ich es zu schätzen weiß, in Ihnen einen mann gefunden zu
+                        haben, der diese grammatischen gegenstände, die jetzt leicht mit dem namen
+                        philosophischer spitzfindigkeiten gebrandmarkt werden, gern einer neuen
+                        untersuchung unterwirft. Mein halten an <persName ref="afbernhardi">Bernhardi</persName> müssen Sie mir verzeihen: ich bleibe gern bei dem
+                        bisherigen. bis es sich als nicht mehr zu vertheidigen erweist. Indem ich
+                        den forschungen ew. wohlgeboren zu ihrer genugtuung und zum allgemeinen
+                        nutzen der wissenschaft ungestörten und glücklichen fortgang wünsche,
+                        wiederhole ich Ihnen die versicherung meiner ausgezeichneten hochachtung.
+                        Tegel, den 28. October 1826. W.v.Humboldt“</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

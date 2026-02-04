@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Christian Gottfried Körner, 01.07.1812<idno type="BBAW">1161</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1940b, S. 87–90 Nr.
+                            27</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 3059</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="kfgessler">
+                  <persName>Geßler, Karl Friedrich Graf von</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="thumboldt">
+                  <persName>Humboldt, Theodor von</persName>
+               </person>
+               <person corresp="ctkoerner">
+                  <persName>Körner, Carl Theodor</persName>
+               </person>
+               <person corresp="ahmueller">
+                  <persName>Müller, Adam Heinrich</persName>
+               </person>
+               <person corresp="owkroeder">
+                  <persName>Roeder von Bomsdorf, Otto Wilhelm Karl</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich von</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich</persName>
+               </person>
+               <person corresp="aesteigentesch">
+                  <persName>Steigentesch, August Ernst Freiherr von</persName>
+               </person>
+               <person corresp="jsvater">
+                  <persName>Vater, Johann Severin</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="442">Adelung, Johann Christoph / Vater, Johann Severin:
+                        Mithridates, oder allgemeine Sprachenkunde mit dem Vater Unser als
+                        Sprachprobe in beynahe fünfhundert Sprachen und Mundarten, 4 Bände (Berlin:
+                        Vossische Buchhandlung 1806–1817)</bibl>
+               <bibl corresp="1466">Deutsches Museum, hrsg. von Friedrich Schlegel, Wien
+                        1812–1813</bibl>
+               <bibl corresp="745">Humboldt, Wilhelm von (1812): Proben Vaskischer Schreibart
+                        und Dichtung. In: Königsberger Archiv für Philosophie, Theologie,
+                        Sprachkunde und Geschichte, Band 1, 1812, 3. Stück (Beilage), S.
+                        277–291</bibl>
+               <bibl corresp="747">Humboldt, Wilhelm von (1817): Berichtigungen und Zusätze zum
+                        ersten Abschnitt des zweyten Bandes des Mithridates über die Cantabrische
+                        oder Baskische Sprache. In: Adelung/Vater: Mithridates, 1806–1817, Band 4
+                        (1817), S. 275–360</bibl>
+               <bibl corresp="1467">Körner, Christian Gottfried (1812): Ueber die deutsche
+                        Litteratur. Aus einem Briefe an den Herausgeber des deutschen Museums. In:
+                        Deutsches Museum 2, H. 9, S. 252–260</bibl>
+               <bibl corresp="1465">Steigentesch, August Ernst Freiherr von (1812): Ein Wort
+                        über deutsche Litteratur und deutsche Sprache. In: Deutsches Museum 1, H. 3,
+                        S. 197–220</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">… Meines Bruders Hierseyn ist mir ungemein angenehm und sogar
+                    tiefer wohlthätig gewesen. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1812-07-01"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cgkoerner">Körner, Christian Gottfried</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="eu">Baskisch</language>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">16. April 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Burgörner bei Eisleben, den 1. Julius, 1812.</dateline>
+            </opener>
+            <p>Ihr lieber freundschaftlicher Brief ist mir hierher, wo mich auf einem Gute
+                        <persName ref="cvh1">meiner Frau</persName> allerlei Geschäfte einige Wochen
+                    festhalten, gefolgt, und hat mich zwar herzlich gefreut, aber mir auch einen
+                    mächtigen Schrecken eingeflößt, daß Sie gar in der Zeit meiner Abwesenheit in
+                        <placeName ref="Wien">Wien</placeName> ankommen könnten. <persName ref="cvh1">Meine Frau</persName> finden Sie zwar, aber für mich wäre der
+                    Verlust gleich groß, und da Sie so selten <placeName ref="Dresden">Dresden</placeName> auf lange verlassen, fast unersetzlich. Ich eile daher
+                    auch deshalb Ihnen, zu schreiben, um Sie zu bewegen, wo möglich zu machen, daß
+                    ich doch nicht einen zu großen Theil Ihres dortigen Aufenthalts verliere. Ich
+                    habe zwar nur einen zweimonatlichen Urlaub, und habe <placeName ref="Wien">Wien</placeName> am <date when="1812-06-08">8<hi rend="superscript">ten</hi>
+                  <hi rend="italic">pr.</hi>
+               </date> verlassen. Aber ich denke eine kleine
+                    Verlängerung zu erhalten, und treffe schwerlich vor dem <date when="1812-08-15">15. August</date> wieder in Wien ein. Länger kann indeß meine Abwesenheit
+                    auch nicht füglich dauern. Könnten Sie also Ihre Ankunft dort zwischen den <date when="1812-08-15">15.</date> und <date when="1812-08-20">20.</date> fallen
+                    lassen, und den September bei uns bleiben, so wäre es ungemein erwünscht. Ich
+                    riethe Ihnen hierzu um so mehr, als ich mir doch vorstelle, daß, da es jetzt
+                    wintermäßig kalt ist, der Herbst schön seyn muß. Er ist in Wien für diejenigen,
+                    die nicht, wie ich, passionirte Liebhaber der Hitze sind, überhaupt gewöhnlich
+                    schöner, als der Sommer. </p>
+            <p>Mit Ihren Ideen über <persName ref="ctkoerner">Ihren Sohn</persName>, und selbst
+                    über <persName ref="thumboldt">den meinigen</persName>, bin ich ganz einig. Man
+                    muß nicht immer allgemeinen Ideen, am wenigsten hergebrachten folgen, und eigne,
+                    auf den individuellen Charakter berechnete Wege einschlagen. Mit <persName ref="ctkoerner">dem Ihrigen</persName> geht es gewiß außerordentlich gut. Er
+                    hat entschiednes Talent, und was treflich ist, gar keine Eitelkeit auf die schon
+                    gemachten Fortschritte und gehabten Erfolge. Sein unbefangenes, immer heitres
+                    Wesen führt ihn gefahrlos, und ohne daß er es selbst weiß, zwischen Eigendünkel
+                    und Mangel an Zuversicht zu sich selbst sehr glücklich hindurch. Ich glaube, er
+                    wird auch in größeren und tragischen Compositionen Talent zeigen, und es scheint
+                    mir sehr möglich, daß er, wenn er mit Liebe und Eifer und Anspruchlosigkeit bei
+                    der Kunst bleibt, außerordentlich viel leiste. In diesem Fall ist er geborgen,
+                    und alsdann werden auch Sie nichts andres für ihn verlangen. Sollte es aber auch
+                    der Fall nicht seyn, sollte, wie ich sicherlich das Gegentheil glaube, sein
+                    entschiednes Talent sich früh ausgesprochen und erschöpft haben, so lenkt er
+                    sehr leicht in irgend eine bürgerliche Existenz ein, zu der er schon vielerlei
+                    Kenntnisse besitzt, und hernach bald die Fertigkeit erwirbt. Wien schadet ihm
+                    sicherlich nicht. Er ist und bleibt von den Dingen, die eine große Stadt
+                    Gefährliches hat, unangesteckt, nur in wenigen jungen Leuten seines Alters fand
+                    ich ein so reines und unverdorbnes Gemüth, und er verliert da wenigstens nach
+                    und nach – wenn auch, wie ich freilich offen gestehe, da das das Einzige ist,
+                    was ich in ihm auszulöschen wünschte, langsam, die Vorliebe für ältere
+                    Studentenerinnerungen, die sogar seinen beiden ersten kleinen Stücken ankleben.
+                    Es ist mir sehr lieb, daß er gern in unsrem Hause ist. Wir lieben ihn ungemein,
+                    und sehen es immer sehr ungern, wenn er einmal einige Tage nichts von sich hören
+                    läßt. </p>
+            <p>Mit <persName ref="thumboldt">dem meinigen</persName> ist das Loos nun geworfen.
+                        <persName ref="owkroeder">Röder</persName> ist ein treflicher Mensch, und
+                    ich bin nie einer Wahl so sicher gewesen, als dieser. Der ganze Schritt;
+                        <persName ref="thumboldt">Theodor</persName> schon jetzt auf eine
+                    Universität zu schicken, obgleich er noch nicht Student ist, wird vielen auch
+                    bedenklich vorkommen. Allein <persName ref="thumboldt">Theodor</persName> war
+                    auf eine ungewöhnliche, durch den Zufall unsres Umherziehens entstandne Weise
+                    bis dahin erzogen, und nun konnte man nicht schlechtweg den gewöhnlichen Weg
+                    einschlagen. </p>
+            <p>Das späte Erscheinen <bibl sameAs="747">meines Aufsatzes</bibl> verdrießt auch
+                    mich ungemein. <persName ref="jsvater">Der Herausgeber</persName> hat mich erst
+                    gedrängt, daß ich wirklich mit Eilfertigkeit habe arbeiten müssen, und nun ist
+                    der Aufsatz ein volles Jahr liegen geblieben<note type="footnote" resp="editor">Humboldt hatte seine von <persName ref="jsvater">Vater</persName> für den
+                            <bibl sameAs="442">Mithridates</bibl> erbetenen Arbeiten zum Baskischen
+                        bereits im Sommer 1811 eingeliefert. Vater veröffentlichte jedoch zuerst
+                            <bibl sameAs="745">die Sprachproben im Königsberger Archiv</bibl>, und
+                        seine grammatischen Studien zum Baskischen, die in den 1812 erschienenen
+                        dritten Band des Mithridates aufgenommen werden sollten, wurden letztendlich
+                        erst im Herbst 1816 (im Buch: 1817) <bibl sameAs="747">im vierten Band
+                            publiziert</bibl>. Siehe hierzu Albert Leitzmann in: GS III, S. 374f.
+                        [FZ]</note>. Er verdient übrigens Ihre Aufmerksamkeit nur sehr wenig. Allein
+                    ich denke jetzt auf ein raisonnirendes allgemeines Werkchen über Sprachen und
+                    ihr Studium, und wünsche sehr, daß dies mir gelingen möge<note type="footnote" resp="editor">Damit ist wohl die Abhandlung "<bibl sameAs="209">Über das
+                            vergleichende Sprachstudium in Beziehung auf die verschiedenen Epochen
+                            der Sprachentwicklung</bibl>" gemeint, die 1820 in der <orgName ref="3">Akademie der Wissenschaften</orgName> gelesen wurde. [FZ]</note>. Sie
+                    wundern Sich vielleicht, daß ich an diesem, immer von vielen Seiten trocknen und
+                    mühvollen Studium klebe. Allein, liebster Freund, ich möchte in den wenigen
+                    Jahren, die einem noch übrig sind, etwas machen, das ich selbst Etwas nennen
+                    könnte. Wenn man nun, wie es mein Fall ist, nicht geboren ist, ein Kunstwerk
+                    hervorzubringen, so ist es am dankbarsten, wenn es gelingt, irgend einem
+                    einzelnen Studium eine bestimmte Richtung zu geben, und dazu glaube ich gerade
+                    hier im Stande zu seyn. Auch hängt das Arbeiten in diesem Fach weniger von
+                    augenblicklich glücklicher Stimmung ab, und verträgt sich mehr mit andern
+                    Geschäften und Zerstreuungen. </p>
+            <p>Daß Sie dem <persName ref="aesteigentesch">Steigentesch</persName>ischen <bibl sameAs="1465">Aufsatz</bibl>
+               <bibl sameAs="1467">seine Abfertigung geben</bibl>, ist mir eine
+                    ordentliche Beruhigung. Schaden konnte zwar ein so unglaublich triviales Gewäsch
+                    nicht anrichten, allein es ist immer gut, daß solche aus lauter kleinlichen und
+                    mittelmäßigen Fertigkeiten, die man nur fälschlich Talente schilt,
+                    zusammengesetzte Stümper sehen, daß man sie in ihren Kreis zu verweisen
+                    versteht. Mit dem <persName ref="fschlegel">Schlegel</persName>schen <bibl sameAs="1466">Journal</bibl> hat es aber überhaupt, dünkt mich, wenigen
+                    Fortgang. Er selbst thut sogar zu wenig, und besitzt vor Allem nicht die
+                    Geschicklichkeit und den Fleiß, etwas, das zugleich und großentheils von Andern
+                    abhängt, in Gang zu bringen. Seine und <persName ref="ahmueller">Müller</persName>s Vorlesungen waren merkwürdige
+                    Erscheinungen am Wiener Horizont, – wenn man es kurz definiren will eine
+                    sophistische Rhetorik, die, von höchst einseitigen Gesichtspunkten aus,
+                    Philosophie und Kunst in eine bestimmte Form zu zwingen versuchte, und die der
+                    eine durch die Kraft der Gedanken, der andre oft nur durch eine künstliche
+                    Behandlung der Sprache durchsetzte. Wenn sie über <persName ref="jwgoethe">Göthe</persName> und <persName ref="fschiller">Schiller</persName>
+                    sprachen, und man sich bei ihren Vorlesungen an ein lebendiges Gespräch jener
+                    beiden über ähnliche Gegenstände erinnerte, war es einem, als stritten Pygmaeen
+                    auf den Gräbern von Heroen. Sehr neugierig bin ich, wie Sie mit <persName ref="fschlegel">Schlegel</persName> werden
+                    fertig werden. Ich bringe ihn mit mir nicht zu einem interessanten Gespräch.
+                    Alles ist abgeschlossen in ihm, und wo einer nicht seiner Meynung ist, kann er
+                    nur vor dem Jünger predigen, oder vor dem Ketzer sich verschließen, oder
+                    spötteln. Freies Gespräch, ausgehend von der Idee, daß man noch immer nur wenig
+                    von der Wahrheit ergriffen hat, und ihr noch immer unendlich viel abzugewinnen
+                    übrigbleibt, kennt er, wenigstens mit mir, nicht, und <persName ref="ctkoerner">Ihr Sohn</persName> bestätigt mir
+                    dasselbe. </p>
+            <closer>
+               <salute>Aber auch darüber mündlich. Empfehlen Sie mich herzlich allen den
+                        Ihrigen, die ich mich unendlich in Wien zu sehen freue, und leben Sie
+                        herzlich wohl! <persName ref="kfgessler">Geßler</persName> sah ich in
+                            <persName ref="Karlsbad">Carlsbad</persName>, aber was die Heiterkeit
+                        und den Frohsinn betrifft, <hi rend="italic">quantum mutatus ab illo</hi>!
+                        Mit herzlicher Liebe und Anhänglichkeit der Ihrige
+                        </salute>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Lassen an Wilhelm von Humboldt, 16.02.1829<idno type="BBAW">403</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 116–117</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 162f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wcarey">
+                  <persName>Carey, William</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="panini">
+                  <persName>Pāṇini</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="626">Siddhāṇta Kaumudī</bibl>
+               <bibl corresp="445">Veda</bibl>
+               <bibl corresp="569">Carey, William: A Grammar of the Sungskrit language, composed from
+                    the works of the most esteemd Grammarians, to which are added examples for the
+                    exercise of the student, and a complete list of the Dhattoos or Roots
+                    (Serampore: Mission Press 1806)</bibl>
+               <bibl corresp="90">Colebrooke, Henry Thomas: A Grammar of the Sanscrit language
+                    (Calcutta: Honorable Company’s Press 1805)</bibl>
+               <bibl corresp="578">Colebrooke, Henry Thomas: The Grammatical Sootras or aphorisms of
+                    Pánini with selections from various Commentators, 2 Bände (Calcutta:
+                    1809)</bibl>
+               <bibl corresp="664">Humboldt, Wilhelm von: An Essay on the best Means of ascertaining
+                    the Affinities of Oriental Languages. In: Transactions of the Royal Asiatic
+                    Society of Great Britain and Ireland Volume II (London: J. L. Cox 1829), S.
+                    213–221</bibl>
+               <bibl corresp="663">Humboldt, Wilhelm von: Ueber die Verwandtschaft des Griechischen
+                    Plusquamperfectum, der reduplicirenden Aoriste und der Attischen Perfecta mit
+                    einer Sanskritischen Tempusbildung [1828]. In: Leitzmann, Albert (Hrsg.):
+                    Wilhelm von Humboldts Gesammelte Schriften, 6. Band (Berlin: B. Behr’s Verlag
+                    1907), S. 58–75</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Volume 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+               <bibl corresp="665">Schlegel, August Wilhelm von / Lassen, Christian: Hitopadesas id
+                    est Institutio Salutaris, Pars I (Bonn: Weber 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Meine Danksagung für das schöne Geschenk, welches ich dem
+                        gütigen Wohlwollen Ewr. Excellenz verdanke, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="classen">Lassen, Christian</persName>
+               <date type="author" when="1829-02-16"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="814" type="prev">26.01.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="classen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="hi">Hindi</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Lassen/Lassen-WvH_1829-02-16/Coll.ling.fol.21_153.jpg"/>
+      <graphic url="Lassen/Lassen-WvH_1829-02-16/Coll.ling.fol.21_154.jpg"/>
+      <graphic url="Lassen/Lassen-WvH_1829-02-16/Coll.ling.fol.21_156.jpg"/>
+      <graphic url="Lassen/Lassen-WvH_1829-02-16/Coll.ling.fol.21_157.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="116r"/>
+               <dateline>
+                  <hi rend="antiqua">Bonn</hi> den 16<hi rend="superscript">ten</hi> Februar
+                        1829.</dateline>
+            </opener>
+            <p>Meine Danksagung für das schöne <bibl sameAs="664">Geschenk</bibl>, welches ich
+                    dem gütigen Wohlwollen Ewr. Excellenz verdanke, würde ich schon früher die Ehre
+                    gehabt haben, Ihnen abzustatten, wenn ich es nicht für meine Pflicht gehalten
+                    hätte, die bisher gedruckten Indischen Grammatiker noch einmahl durchzusehen, um
+                    Ihre Nachfrage über das Weda-Tempus, <hi rend="antiqua">Let</hi> genannt,
+                    genügender beantworten zu können; zuerst sey es mir aber erlaubt, Ihnen meine
+                    aufrichtige Freude darüber zu bezeugen, daß Sie sich veranlasst gefunden haben,
+                    sich über die richtige Methode der Sprachvergleichung zu erklären. Eine so klare
+                    Auseinandersetzung so einleuchtender Grundsätze, von der Autorität Ihres Nahmens
+                    begleitet, wird gewiß nicht auf einen unfruchtbaren Boden fallen; sie thut grade
+                    vorzüglich den Englischen Orientalisten Noth, die bis jetzt noch gar nicht aus
+                    dem Etymologischen Blindekuh Spielen herauskommen konnten. Zwar <persName ref="jhklaproth">
+                  <hi rend="antiqua">Klaproth</hi>
+               </persName> werden Sie nicht dadurch
+                    reformiren; er hat aber besondre Gründe, grade bei seiner Methode zu
+                    bleiben.</p>
+            <p>Ich habe dem <persName ref="awschlegel">Herrn von <hi rend="antiqua">Schlegel</hi>
+               </persName> das für ihn bestimmte Exemplar eingehändigt
+                    und bin beauftragt, Ihnen vorläufig seinen verbindlichsten Dank dafür
+                    abzustatten; er wird bei der Uebersendung des <bibl sameAs="634">Ersten Bandes
+                        seines <hi rend="antiqua">Ramayana</hi>
+               </bibl> und des <bibl sameAs="665">Ersten Heftes unserer gemeinschaftlichen Ausgabe des <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> selbst die Ehre haben, Ewr. Excellenz
+                    ausführlich darüber zu schreiben.</p>
+            <p>Ich will jetzt die Angaben des <persName ref="panini">
+                  <hi rend="antiqua">Panini</hi>
+               </persName> über das Tempus <foreign sameAs="sa" n="transEd">leṭ<graphic url="Lassen/Lassen-WvH_1829_02_16/0943.svg"/>
+               </foreign> (diese
+                    Bezeichnung giebt <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> in seiner <bibl sameAs="90">Grammatik</bibl> selbst an, <hi rend="antiqua">p.</hi> 132. ausserdem <hi rend="antiqua">
+                  <bibl sameAs="569">Carey</bibl> p.</hi> 133) hersetzen; obwohl es daraus <pb n="116v"/> hervorgehen wird, daß keine Reduplication dabei stattfindet und
+                    das Tempus daher nicht das Gebiet <bibl sameAs="663">Ihrer Abhandlung</bibl>
+                    berührt, so wird es doch vielleicht nicht uninteressant seyn, die darüber
+                    vorhandenen Angaben beisammen zu haben; ich gestehe, daß <del>mir</del> mir
+                    vieles darin dunkel ist und ich möchte gern Ihre Meinung darüber haben, ob die
+                    Indischen Grammatiker Recht haben, so verschiedenartige Formen unter dieselbe
+                    Benennung zu bringen.</p>
+            <p>Die Angaben nebst den Beispielen sind folgende: (<hi rend="antiqua">
+                  <bibl sameAs="578">Panini</bibl> p.</hi> 212. <hi rend="antiqua">p.</hi> 332.
+                        <hi rend="antiqua">p.</hi> 352. <hi rend="antiqua">p.</hi> 998. <hi rend="antiqua">ed. Calcutt.</hi>
+               <note type="footnote" resp="editor">Bei
+                        dieser Panini-Ausgabe wird es sich um <persName ref="htcolebrooke">Henry Thomas Colebrooke</persName> (1809): <bibl sameAs="578">
+                     <hi rend="italic">The Grammatical Sootras or aphorisms of Pánini with
+                                selections from various Commentators</hi>
+                  </bibl>, Calcutta,
+                        handeln, die erste Ausgabe dieses Werkes; s. <persName ref="fadelung">Friedrich Adelung</persName> (1837): <hi rend="italic">Bibliotheca sanscrita.
+                            Literatur der Sanskritsprache</hi>, St. Petersburg: Karl Kray,
+                        S. 35. [FZ]</note> <hi rend="antiqua">
+                  <bibl sameAs="626">Siddhânta-Kaumudî</bibl> p.</hi> <subst>
+                  <del>443.)</del>
+                  <add>433.)</add>
+               </subst>
+               <note type="footnote" resp="editor">Bei diesem Werk kann es sich um den bei <persName ref="fadelung">Adelung</persName> S. 35 genannten "Sidhanta Kaumudi: a Sanscrit
+                        Grammar. Calcutta 1812." handeln. [FZ]</note>
+            </p>
+            <p>1.) <foreign sameAs="sa" n="transEd">leṭo<graphic url="Lassen/Lassen-WvH_1829_02_16/0944.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">’<graphic url="Lassen/Lassen-WvH_1829_02_16/0945.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ḍātai<graphic url="Lassen/Lassen-WvH_1829_02_16/0946.svg"/>
+               </foreign> d.h. bei dem
+                    Tempus <hi rend="antiqua">Let</hi> ist das <hi rend="antiqua">
+                  <hi rend="underline">a</hi>
+               </hi> vor den Personal-Bezeichnungen <foreign sameAs="sa" n="transEd">t<graphic url="Lassen/Lassen-WvH_1829_02_16/0947.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">s<graphic url="Lassen/Lassen-WvH_1829_02_16/0948.svg"/>
+               </foreign> u.s.w. entweder
+                    kurz oder lang; aus dem folgenden scheint hervorzugehen, daß dieses auf das <hi rend="antiqua">Parasmaipadam</hi> zu beschränken sey. Die Beispiele sind:
+                        <foreign sameAs="sa" n="transEd">joṣiṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0949.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tāriṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0950.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">mandiṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0951.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">patāti<graphic url="Lassen/Lassen-WvH_1829_02_16/0952.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">vidyut<graphic url="Lassen/Lassen-WvH_1829_02_16/0953.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">udadhiṃ<graphic url="Lassen/Lassen-WvH_1829_02_16/0954.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">vyāvapāti<graphic url="Lassen/Lassen-WvH_1829_02_16/0955.svg"/>
+               </foreign>
+            </p>
+            <p>2.) <foreign sameAs="sa" n="transEd">āta<graphic url="Lassen/Lassen-WvH_1829_02_16/0956.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ai<graphic url="Lassen/Lassen-WvH_1829_02_16/0957.svg"/>
+               </foreign> d.h. aus <hi rend="antiqua">â</hi> wird <hi rend="antiqua">aî</hi>. Diese Regel wird auf
+                    die 2<hi rend="superscript">te</hi> und 3<hi rend="superscript">te</hi> Person
+                    des Dualis <hi rend="antiqua">Atmanêpad.</hi> beschränkt: Beispiele: <foreign sameAs="sa" n="transEd">maṃtrayaite<graphic url="Lassen/Lassen-WvH_1829_02_16/0958.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">maṃtrayaithe<graphic url="Lassen/Lassen-WvH_1829_02_16/0959.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">karavaite<graphic url="Lassen/Lassen-WvH_1829_02_16/0960.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">karavaithe<graphic url="Lassen/Lassen-WvH_1829_02_16/0961.svg"/>
+               </foreign>
+            </p>
+            <p>3.) <foreign sameAs="sa" n="transEd">vaito<graphic url="Lassen/Lassen-WvH_1829_02_16/0962.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">’<graphic url="Lassen/Lassen-WvH_1829_02_16/0963.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nyatra<graphic url="Lassen/Lassen-WvH_1829_02_16/0964.svg"/>
+               </foreign> in den andern
+                    Personen ist es freigelassen, <hi rend="antiqua">ê</hi> oder <hi rend="antiqua">aî</hi> zu setzen. Beispiele: <foreign sameAs="sa" n="transEd">ahameva<graphic url="Lassen/Lassen-WvH_1829_02_16/0965.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">paśunāmīśai<graphic url="Lassen/Lassen-WvH_1829_02_16/0966.svg"/>
+               </foreign> (möge ich die
+                    Thiere beherrschen) <foreign sameAs="sa" n="transEd">saptāhāni<graphic url="Lassen/Lassen-WvH_1829_02_16/0967.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">śāyai<graphic url="Lassen/Lassen-WvH_1829_02_16/0968.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">gṛhyāntai<graphic url="Lassen/Lassen-WvH_1829_02_16/0969.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">pātrārāyucyāntai<graphic url="Lassen/Lassen-WvH_1829_02_16/0970.svg"/>
+               </foreign>
+            </p>
+            <p>4.) <foreign sameAs="sa" n="transEd">itaśva<graphic url="Lassen/Lassen-WvH_1829_02_16/0971.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">lopaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/0972.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">parasmaipadeṣu<graphic url="Lassen/Lassen-WvH_1829_02_16/0973.svg"/>
+               </foreign> das <foreign sameAs="sa" n="transEd">i<graphic url="Lassen/Lassen-WvH_1829_02_16/0974.svg"/>
+               </foreign>
+               <subst>
+                  <del>wird ausgelassen</del>
+                  <add>kann ausgelassen werden</add>
+               </subst> im <hi rend="antiqua">Parasmaipadam</hi>. Hier werden die Beispiele zu
+                        n<hi rend="superscript">o</hi> 1 wiederhohlt.</p>
+            <p>5. <foreign sameAs="sa" n="transEd">sa<graphic url="Lassen/Lassen-WvH_1829_02_16/0975.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">uttamasya<graphic url="Lassen/Lassen-WvH_1829_02_16/0976.svg"/>
+               </foreign> d.h. das
+                        <foreign sameAs="sa" n="transEd">s<graphic url="Lassen/Lassen-WvH_1829_02_16/0977.svg"/>
+               </foreign> der 1<hi rend="superscript">sten</hi> Person kann ausgelassen werden. <foreign sameAs="sa" n="transEd">karavāvaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/0978.svg"/>
+               </foreign> oder <foreign sameAs="sa" n="transEd">karavāva<graphic url="Lassen/Lassen-WvH_1829_02_16/0979.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">karavāmaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/0980.svg"/>
+               </foreign> oder <foreign sameAs="sa" n="transEd">karavāma<graphic url="Lassen/Lassen-WvH_1829_02_16/0981.svg"/>
+               </foreign>
+            </p>
+            <p>6. <foreign sameAs="sa" n="transEd">sibbahulaṃ<graphic url="Lassen/Lassen-WvH_1829_02_16/0982.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">leṭi<graphic url="Lassen/Lassen-WvH_1829_02_16/0983.svg"/>
+               </foreign> diese Regel
+                    verstehe ich nicht; <hi rend="antiqua">Sip</hi> ist die Bezeichnung des <foreign sameAs="sa" n="transEd">si<graphic url="Lassen/Lassen-WvH_1829_02_16/0984.svg"/>
+               </foreign> der 2<hi rend="superscript">ten</hi> Pers. Singul. also: <hi rend="antiqua">Sip</hi>
+                    ist häufig im <hi rend="antiqua">Let</hi>; aber die Beispiele, die ganz
+                    dieselben wie bei n<hi rend="superscript">o</hi> 1 sind, gehören der 3<hi rend="superscript">ten</hi> Person an und es muß das <foreign sameAs="sa" n="transEd">s<graphic url="Lassen/Lassen-WvH_1829_02_16/0985.svg"/>
+               </foreign> gemeint seyn, welches in den Formen <pb n="117r"/> <foreign sameAs="sa" n="transEd">pāriṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0986.svg"/>
+               </foreign>
+               <subst>
+                  <del>etc.</del>
+                  <add>etc.</add>
+               </subst> vorkommt; denn <foreign sameAs="sa" n="transEd">patāti<graphic url="Lassen/Lassen-WvH_1829_02_16/0987.svg"/>
+               </foreign> steht als
+                    Beispiel für das Nichtvorkommen des <hi rend="antiqua">Sip</hi>. Unter den
+                    Beispielen steht noch <foreign sameAs="sa" n="transEd">sāviṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0988.svg"/>
+               </foreign>
+            </p>
+            <p>7.) <foreign sameAs="sa" n="transEd">liṅarthe<graphic url="Lassen/Lassen-WvH_1829_02_16/0989.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">leṭ<graphic url="Lassen/Lassen-WvH_1829_02_16/0990.svg"/>
+               </foreign>
+               <hi rend="antiqua">Let</hi> steht in der Bedeutung des <hi rend="antiqua">Optativs</hi> oder <hi rend="antiqua">Precativs</hi>.</p>
+            <p>Beispiele: <foreign sameAs="sa" n="transEd">netā<graphic url="Lassen/Lassen-WvH_1829_02_16/0991.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">neṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/0992.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kavayasta<gap quantity="1" unit="chars"/>ikṣapat<graphic url="Lassen/Lassen-WvH_1829_02_16/0993.svg"/>
+               </foreign> (sic)
+                            <add>
+                  <foreign sameAs="sa" n="transEd">yat<graphic url="Lassen/Lassen-WvH_1829_02_16/0994.svg"/>
+                  </foreign>
+               </add>
+               <foreign sameAs="sa" n="transEd">patāti<graphic url="Lassen/Lassen-WvH_1829_02_16/0995.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">vidyut<graphic url="Lassen/Lassen-WvH_1829_02_16/0996.svg"/>
+               </foreign>
+            </p>
+            <p>8.) <foreign sameAs="sa" n="transEd">upasaṃvādāśaṃkayośca<graphic url="Lassen/Lassen-WvH_1829_02_16/0997.svg"/>
+               </foreign> es steht in der
+                    Bedeutung des Befürchtens und <hi rend="antiqua">Upasamvâda</hi>; das letztere
+                    Wort wage ich nicht zu bestimmen. Beispiele von <hi rend="antiqua">Upasamvâda</hi>: <foreign sameAs="sa" n="transEd">ahameva<graphic url="Lassen/Lassen-WvH_1829_02_16/0998.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">paśūnāmīśai<graphic url="Lassen/Lassen-WvH_1829_02_16/0999.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">madagnā<graphic url="Lassen/Lassen-WvH_1829_02_16/1000.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">eva<graphic url="Lassen/Lassen-WvH_1829_02_16/1001.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">vo<graphic url="Lassen/Lassen-WvH_1829_02_16/1002.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">gṛhā<graphic url="Lassen/Lassen-WvH_1829_02_16/1003.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">gṛhyāntai<graphic url="Lassen/Lassen-WvH_1829_02_16/1004.svg"/>
+               </foreign> von <hi rend="antiqua">Âsankâ</hi>: <foreign sameAs="sa" n="transEd">nej<graphic url="Lassen/Lassen-WvH_1829_02_16/1005.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">jihmāyanto<graphic url="Lassen/Lassen-WvH_1829_02_16/1006.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">narakaṃ<graphic url="Lassen/Lassen-WvH_1829_02_16/1007.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">patāma<graphic url="Lassen/Lassen-WvH_1829_02_16/1008.svg"/>
+               </foreign>
+            </p>
+            <p>9.) <foreign sameAs="sa" n="transEd">ghorlopo<graphic url="Lassen/Lassen-WvH_1829_02_16/1009.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">leṭi<graphic url="Lassen/Lassen-WvH_1829_02_16/1010.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">va<graphic url="Lassen/Lassen-WvH_1829_02_16/1011.svg"/>
+               </foreign> Bei den Wurzeln,
+                    die mit <foreign sameAs="sa" n="transEd">ghu<graphic url="Lassen/Lassen-WvH_1829_02_16/1012.svg"/>
+               </foreign> bezeichnet
+                    werden, ist die Elision (<hi rend="antiqua">lôpa</hi>) freigelassen (<hi rend="antiqua">vâ</hi>); die Elision, wovon hier die Rede ist, ist die des
+                        <hi rend="antiqua">â</hi>, wovon schon bei N<hi rend="superscript">o</hi> 1
+                    gesprochen worden. Beispiel: <foreign sameAs="sa" n="transEd">dadāt<graphic url="Lassen/Lassen-WvH_1829_02_16/1013.svg"/>
+               </foreign> od. <foreign sameAs="sa" n="transEd">dadat<graphic url="Lassen/Lassen-WvH_1829_02_16/1014.svg"/>
+               </foreign>
+            </p>
+            <p>Weiter finde ich keine Angabe bei <bibl sameAs="578">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl>; in den <bibl sameAs="626">
+                  <hi rend="antiqua">Siddhânta-Kanmudî</hi>
+               </bibl>, wo die sehr durch
+                    einander geworfenen <bibl sameAs="578">
+                  <hi rend="antiqua">Sutra's</hi> des <hi rend="antiqua">Panini</hi>
+               </bibl>
+                    nach ihrem Gehalte zusammengestellt sind, findet sich ausser den angeführten
+                    Stellen des <bibl sameAs="578">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl> keine angeführt; so daß ich glauben
+                    darf, daß mir keine entgangen sey.</p>
+            <p>Es scheint mir klar, daß in den angeführten <bibl sameAs="578">
+                  <hi rend="antiqua">Sutra’s</hi>
+               </bibl> Formen zusammengestellt sind, die in
+                    der Bedeutung verwandt seyn mögen, aber in Beziehung auf ihre Bildung genau aus
+                    einander gehalten werden müsssen. die Formen <foreign sameAs="sa" n="transEd">neṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/1015.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">sāviṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/1016.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tāriṣat<graphic url="Lassen/Lassen-WvH_1829_02_16/1017.svg"/>
+               </foreign> etc. sind von
+                    den Wurzeln <foreign sameAs="sa" n="transEd">nī<graphic url="Lassen/Lassen-WvH_1829_02_16/1018.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">sū<graphic url="Lassen/Lassen-WvH_1829_02_16/1019.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">tṝ<graphic url="Lassen/Lassen-WvH_1829_02_16/1020.svg"/>
+               </foreign>, durch <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> oder <term type="morph" ref="003">
+                  <hi rend="antiqua">Vriddhi</hi>
+               </term>, durch Einschiebung eines mit einem
+                    Bindevocal <foreign sameAs="sa" n="transEd">i<graphic url="Lassen/Lassen-WvH_1829_02_16/1021.svg"/>
+               </foreign> oder unmittelbar
+                    mit dem Thema verbundenen <foreign sameAs="sa" n="transEd">s<graphic url="Lassen/Lassen-WvH_1829_02_16/1022.svg"/>
+               </foreign> und durch die
+                    Endungen des Imperfectums oder Aorists gebildet und zwar ohne Augment. <foreign sameAs="sa" n="transEd">dadāt<graphic url="Lassen/Lassen-WvH_1829_02_16/1023.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">dadat<graphic url="Lassen/Lassen-WvH_1829_02_16/1024.svg"/>
+               </foreign> sind Formen des
+                    Imperfectums mit Weglassung des Augments und im zweiten Beispiele mit Verkürzung
+                    des Wurzelvocals. So werden auch <foreign sameAs="sa" n="transEd">dadhāt<graphic url="Lassen/Lassen-WvH_1829_02_16/1025.svg"/>
+               </foreign>
+                    und <foreign sameAs="sa" n="transEd">dadhat<graphic url="Lassen/Lassen-WvH_1829_02_16/1026.svg"/>
+               </foreign> angeführt.</p>
+            <p>
+               <pb n="117v"/> Die übrigen Beispiele haben die Endungen des Präsens und aus den
+                    vorliegenden Formen möchte ich zu vermuthen wagen, daß das vollständige Schema
+                    folgendes sey:</p>
+            <table cols="6" rows="3">
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāmi<graphic url="Lassen/Lassen-WvH_1829_02_16/1027.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāvaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/1028.svg"/>
+                     </foreign> od.
+                                <foreign sameAs="sa" n="transEd">va<graphic url="Lassen/Lassen-WvH_1829_02_16/1029.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāmaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/1030.svg"/>
+                     </foreign> od.
+                                <foreign sameAs="sa" n="transEd">ma<graphic url="Lassen/Lassen-WvH_1829_02_16/1031.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patai<graphic url="Lassen/Lassen-WvH_1829_02_16/1032.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāvahai<graphic url="Lassen/Lassen-WvH_1829_02_16/1033.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāmahai<graphic url="Lassen/Lassen-WvH_1829_02_16/1034.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāsi<graphic url="Lassen/Lassen-WvH_1829_02_16/1035.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāthaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/1036.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patātha<graphic url="Lassen/Lassen-WvH_1829_02_16/1037.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāsai<graphic url="Lassen/Lassen-WvH_1829_02_16/1038.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">pataithe<graphic url="Lassen/Lassen-WvH_1829_02_16/1039.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patādhvai<graphic url="Lassen/Lassen-WvH_1829_02_16/1040.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāti<graphic url="Lassen/Lassen-WvH_1829_02_16/1041.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patātaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/1042.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patānti<graphic url="Lassen/Lassen-WvH_1829_02_16/1043.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patātai<graphic url="Lassen/Lassen-WvH_1829_02_16/1044.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">pataite<graphic url="Lassen/Lassen-WvH_1829_02_16/1045.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">patāntai<graphic url="Lassen/Lassen-WvH_1829_02_16/1046.svg"/>
+                     </foreign>
+                  </cell>
+               </row>
+            </table>
+            <p>Wenn meine Vermuthung gegründet wäre, so wäre das Tempus <hi rend="antiqua">Let</hi> nicht ohne Interesse für die Vergleichung des Sanskrits mit dem
+                    Griechischen; dem Indischen <foreign sameAs="sa" n="transEd">ā<graphic url="Lassen/Lassen-WvH_1829_02_16/1047.svg"/>
+               </foreign> entspricht im
+                    Griechischen bald ω (<foreign sameAs="sa" n="transEd">āśu<graphic url="Lassen/Lassen-WvH_1829_02_16/1048.svg"/>
+               </foreign> = ὠκὺς) bald η
+                        (<foreign sameAs="sa" n="transEd">svādu<graphic url="Lassen/Lassen-WvH_1829_02_16/1049.svg"/>
+               </foreign> = ἡδὺς) und es
+                    würde sich das <hi rend="antiqua">Let</hi> zum Präsens verhalten, wie im
+                    Griechischen der <hi rend="antiqua">Conjunctiv</hi> zum <hi rend="antiqua">Indicativ</hi>.</p>
+            <p>Doch ich muß schon befürchten, Ew. Excellenz zu lange mit einem Gegenstande
+                    aufgehalten zu haben, der kein gegenwärtiges Interesse für Sie <subst>
+                  <del>haben</del>
+                  <add>hat</add>
+               </subst>. Von Formen aus den <bibl sameAs="445">Wedas</bibl> mit <hi rend="antiqua">Reduplication</hi> und die zugleich keine Frequentative sind,
+                    finde ich in meinen Auszügen aus der <hi rend="antiqua">Siddhanta-Kaumudî</hi>
+                    nur das einzige <foreign sameAs="sa" n="transEd">yuyodhi<graphic url="Lassen/Lassen-WvH_1829_02_16/1050.svg"/>
+               </foreign>, das Beispiel
+                    lautet vollständig <foreign sameAs="sa" n="transEd">yuyodhi<graphic url="Lassen/Lassen-WvH_1829_02_16/1050.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">jatāvedaḥ<graphic url="Lassen/Lassen-WvH_1829_02_16/1051.svg"/>
+               </foreign>, diesem von
+                        <foreign sameAs="sa" n="transEd">yu<graphic url="Lassen/Lassen-WvH_1829_02_16/1052.svg"/>
+               </foreign> gebildeten <hi rend="antiqua">Imperativ</hi> entspricht <foreign sameAs="sa" n="transEd">rārandhi<graphic url="Lassen/Lassen-WvH_1829_02_16/1053.svg"/>
+               </foreign> von <foreign sameAs="sa" n="transEd">ram<graphic url="Lassen/Lassen-WvH_1829_02_16/1054.svg"/>
+               </foreign>
+               <hi rend="antiqua">
+                  <bibl sameAs="578">Panini</bibl> p.</hi> 839. <foreign sameAs="sa" n="transEd">dhi<graphic url="Lassen/Lassen-WvH_1829_02_16/1055.svg"/>
+               </foreign> steht in den <bibl sameAs="445">Wedas</bibl> für das spätere
+                        <foreign sameAs="sa" n="transEd">hi<graphic url="Lassen/Lassen-WvH_1829_02_16/1056.svg"/>
+               </foreign> der 2<hi rend="superscript">ten</hi> Person <hi rend="antiqua">Imperat</hi>. Worauf
+                    mag sich denn <hi rend="antiqua">
+                  <persName ref="htcolebrooke">Colebrooke</persName>’s</hi> <bibl sameAs="578">Angabe</bibl> gründen? – er gehört zu den Leuten, die sich selten
+                    irren.</p>
+            <closer>
+               <salute>Erlauben Sie mir, mich zu unterzeichnen, <lb/>Ew. Excellenz
+                        <lb/>ehrerbietigster und verbundenster</salute>
+               <signed>Chr. Lassen.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

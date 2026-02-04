@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 04. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August von Liebermann an Wilhelm von Humboldt, 23.11.1826<idno type="BBAW">411</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 127–130</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="dboroa">
+                  <persName>Boroa, Diego de</persName>
+               </person>
+               <person corresp="jberro">
+                  <persName>Erro y Aspiroz, Juan Bautista</persName>
+               </person>
+               <person corresp="fdelacarrera">
+                  <persName>La Carrera, Fernando de</persName>
+               </person>
+               <person corresp="jpavon">
+                  <persName>Pavon, José</persName>
+               </person>
+               <person corresp="aruizdemontoya">
+                  <persName>Ruiz de Montoya, Antonio</persName>
+               </person>
+               <person corresp="mvitelleschi">
+                  <persName>Vitelleschi, Mutio</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="259">La Carrera, Fernando de: Arte de la lengua Yunga de los valles del
+                    obispado de Trujillo, con un confesonario y todas las oraciones cristianas y
+                    otras cosas (Lima: Reimpr. en la Imp. Liberal 1644)</bibl>
+               <bibl corresp="303">Ruiz de Montoya, Antonio: Arte y vocabulario de la lengua Guarani
+                    (Madrid: Imp. Iuan Sanchez 1640)</bibl>
+               <bibl corresp="841">Ruiz de Montoya, Antonio: Catecismo de la lengua guarani (Madrid:
+                    por Diego Diaz de la Carrera 1640)</bibl>
+               <bibl corresp="304">Ruiz de Montoya, Antonio: Tesoro de la lengua Guarani (Madrid: Imp. Iuan
+                    Sanchez 1639)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mit Bezugnahme auf das Schreiben, welches ich, in
+                        Begleitung …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="aliebermann">Liebermann, August von</persName>
+               <date type="author" when="1826-11-23"/>
+               <placeName key="Madrid">Madrid</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="aliebermann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="gn">Guaraní</language>
+            <language ident="qu">Quechua</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">28. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_265.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_266.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_267.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_268.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_269.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_270.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_271.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_11_23/Coll.ling.fol.52_272.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="127r"/> Mit Bezugnahme auf das <ref type="link" target="412">Schreiben</ref>, welches ich, in Begleitung eines, dem hiesigen Academiker
+                        <persName ref="jpavon">
+                  <hi rend="antiqua">D. José Pavon</hi>
+               </persName> zugehörigen <bibl sameAs="434">Werkes über die Sprache <hi rend="antiqua">Quichua</hi>
+               </bibl>,
+                    unter dem <date when="1826-10-24">24<hi rend="superscript">sten</hi>. vor.
+                        Mon.</date>; an Ew. Excellenz zu richten die Ehre hatte, bin ich so
+                    glücklich Hochdemselben in den beygehenden Packeten nachträglich zwey andere
+                    Schriften über Americanische Sprachen ganz ergebenst übersenden zu können, –
+                    welche mir der Königl. Spanische Staats-Rath, <persName ref="jberro">H. <hi rend="antiqua">Erro</hi>
+               </persName>, ganz kürzlich zu diesem Zwecke
+                    anvertraut <subst>
+                  <del>hat;</del>
+                  <add>hat,</add>
+               </subst> nämlich:</p>
+            <p>1°./ <hi rend="antiqua">
+                  <bibl sameAs="303">Arte y Vocabulario de la lengua Gùarani</bibl>; por el
+                            <persName ref="aruizdemontoya">Padre fr. Anton. Ruiz</persName>; Madrid
+                        1640.</hi> und</p>
+            <p>2°./ <hi rend="antiqua">
+                  <bibl sameAs="259">Arte de la lengua Yunga de los Valles del Obispado de
+                            Truxillo del Peru</bibl>; su Autor el beneficiado <persName ref="fdelacarrera">D. Fernando de la Carrera</persName> &amp;. impreso
+                        en Lìma, por Joseph de Contreras.</hi>  <hi rend="antiqua">Año de
+                            <sic>1640</sic>.</hi>
+            </p>
+            <p>Das erstere dieser Bücher ist nicht ganz vollständig; – ich habe es mir aber zur
+                    Pflicht gemacht, das Titelblatt, – so wie die fehlenden acht Seiten 217. bis
+                    224. <hi rend="antiqua">inclus.</hi>, aus dem, auf der hiesigen <orgName ref="24">Königl. Bibliothek</orgName> befindlichen Exemplar möglichst
+                    sorgfältig und genau abschreiben zu lassen; wie Ew. Excellenz aus den, am
+                    gehörigen Orte eingelegten Blättern geneigtest ersehen wollen. – </p>
+            <p>Die angefertigte Abschrift enthält unter Andern auch den <hi rend="antiqua">Artikel Borracho</hi>, welcher mir wegen der vielen und mannichfaltigen
+                    Ausdrücke, womit die Sprache <hi rend="antiqua">Guarani</hi> die verschiedenen
+                    Nuancen und Gradationen des Zustandes der <pb n="127v"/> Trunckenheit
+                    bezeichnet, nicht allein in philologischer, sondern auch in psychologischer
+                    Hinsicht von Interesse zu seyn scheint.</p>
+            <p>
+               <persName ref="jberro">Herr <hi rend="antiqua">Erro</hi>
+               </persName>, welcher
+                    sich selbst bey mir eingefunden und mir von Neuem Entschuldigungen darüber
+                    gemacht hat, daß er Ew. Excellenz Wünschen, in Betreff der <persName ref="ppastarloa">
+                  <hi rend="antiqua">Astarloa</hi>
+               </persName>schen Manuscripte, nicht
+                    entsprechen könne<note type="footnote" resp="editor">Vgl. hierzu den <ref type="link" target="412">Brief von Liebermann</ref> vom <date when="1826-10-24">24.10.1826</date>.</note>, – hat mir keinen bestimmten
+                    Termin zur Zurückgabe der mir überbrachten Bücher anberaumt; allein da er auf
+                    der andern Seite nicht geneigt schien, solche käuflich abzulassen – und ich
+                    hierauf um so weniger bestehen zu dürfen glaubte, als sich für solche Werke
+                    jetzt in der That kaum ein Preiß bestimmen läßt, – so kann ich nicht umhin Ew.
+                    Excellenz hiermit ganz ergebenst zu ersuchen, mich von dem richtigen Eingange
+                    der gegenwärtigen Sendung geneigtest benachrichtigen und mir zugleich wissen
+                    lassen zu wollen, auf wie lange ungefähr Hochdieselben diese Bücher, behufs Ihre
+                    literarischen Arbeiten, zu bedürfen glauben? –</p>
+            <p>Indem ich noch eine kurze Notiz über die von dem <persName ref="aruizdemontoya">Pater fr. <hi rend="antiqua">Antonio Ruiz</hi>
+               </persName> herausgegebenen
+                    Bücher über die <hi rend="antiqua">Guarani</hi>sche Sprache, hier beyzufügen
+                    mich beehre, benutze ich diese Veranlassung um Ew. Excellenz den Ausdruck der
+                    ausgezeichnetsten Hochachtung und Respectsvollen Ergebenheit zu erneuern, womit
+                    ich verharre,</p>
+            <closer>
+               <salute>Ew. Excellenz <lb/>gehorsamster Diener</salute>
+               <signed>A. v. Liebermann</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Madrid</hi> dem 23<hi rend="superscript">sten</hi> <hi rend="antiqua">November</hi>
+               </dateline>
+               <lb/>1826.</closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="128r"/>
+               <handShift scribe="Jentsch"/>
+               <!-- Wer ist das? nicht in PersIndex! --> <hi rend="antiqua">Por la
+                        aprobacion concedida en <placeName ref="Buenos Aires">Buenos-Ayres</placeName> <date when="1637-10-04">4. de Octubre de
+                            1637</date>. por el <persName ref="dboroa">Padre fray Diego de
+                            Boroa</persName>, provincial de la provincia del Paraguay de la Compañia
+                        de Jesus, (comisionado al efecto por el <persName ref="mvitelleschi">Padre
+                            General Mutio Vitteleschi</persName>). para que pudiera imprimirse el
+                            <bibl sameAs="303">Arte de la lengua Guarani</bibl>, a parece se
+                        publícaron entonces ademas de <unclear>dho</unclear>
+               </hi> <bibl sameAs="303">
+                  <hi rend="underline">Arte,</hi>
+                  <lb/>
+                  <hi rend="antiqua">
+                     <bibl sameAs="303">El Vocabulario</bibl> y</hi>
+               </bibl>
+               <lb/>
+               <hi rend="antiqua">
+                  <bibl sameAs="304">El tesoro</bibl> de la misma lengua y</hi>
+               <note type="footnote" resp="editor">Notierter Zusatz links am Rand: <hi rend="antiqua">./. imp° 1639 ./.</hi>
+               </note>
+               <lb/>
+               <hi rend="antiqua">
+                  <bibl sameAs="841">El Catecismo</bibl> con su explicacion, de los misterios
+                        de la <placeName ref="Santa Fe">Santa Fé</placeName> con los tratados que en
+                        el se contienen,</hi>
+               <lb/>
+               <hi rend="antiqua">y de cuyas obras fué el autor el <persName ref="aruizdemontoya">Padre Antonio Ruiz</persName>.</hi>
+               <lb/>
+               <hi rend="antiqua">La razon que antecede la tomé en <orgName ref="24">la
+                            Biblioteca Real</orgName> de <placeName ref="Madrid">Madrid</placeName>
+                        hoy à </hi>
+            </p>
+            <closer>
+               <dateline>
+                  <date when="1826-11-22">
+                     <hi rend="antiqua">22. de Noviembre el 1826</hi>
+                  </date>. </dateline>
+               <signed>
+                  <hi rend="antiqua">Jentsch</hi>
+               </signed>
+               <lb/>
+               <pb n="128v und 129/130 vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Gottlieb Reichard an Wilhelm von Humboldt, 21.07.1822<idno type="BBAW">619</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1090a, Bl.
+                     135–138</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11699</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jbbanville">
+                  <persName>Anville, Jean-Baptiste Bourguignon d’</persName>
+               </person>
+               <person corresp="pjbruns">
+                  <persName>Bruns, Paul Jakob</persName>
+               </person>
+               <person corresp="abuchner">
+                  <persName>Buchner, Andreas</persName>
+               </person>
+               <person corresp="ccellarius">
+                  <persName>Cellarius, Christophorus (Christoph Martin Keller)</persName>
+               </person>
+               <person corresp="pcluever">
+                  <persName>Clüver, Philipp</persName>
+               </person>
+               <person corresp="chammerstein">
+                  <persName>Hammerstein-Equord, Carl Freiherr von</persName>
+               </person>
+               <person corresp="fkhkruse">
+                  <persName>Kruse, Friedrich Karl Hermann</persName>
+               </person>
+               <person corresp="kmannert">
+                  <persName>Mannert, Konrad</persName>
+               </person>
+               <person corresp="jjmascov">
+                  <persName>Mascov, Johann Jacob</persName>
+               </person>
+               <person corresp="ptolemaios">
+                  <persName>Ptolemaeus, Claudius</persName>
+               </person>
+               <person corresp="jtroscher">
+                  <persName>Roscher, Johann Theodor</persName>
+               </person>
+               <person corresp="csagittarius">
+                  <persName>Sagittarius, Caspar</persName>
+               </person>
+               <person corresp="pschenk">
+                  <persName>Schenk, Peter, der Jüngere</persName>
+               </person>
+               <person corresp="csmith">
+                  <persName>Smith, Charles</persName>
+               </person>
+               <person corresp="jcspener">
+                  <persName>Spener, Jakob Carl</persName>
+               </person>
+               <person corresp="fastroth">
+                  <persName>Stroth, Friedrich Andreas</persName>
+               </person>
+               <person corresp="tacitus">
+                  <persName>Tacitus</persName>
+               </person>
+               <person corresp="kgzumpt">
+                  <persName>Zumpt, Karl Gottlob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="415">Bruns, Paul Jakob / Hummel, Bernhard Friedrich / Stroth,
+                  Friedrich Andreas (1785): Handbuch der alten Erdbeschreibung, zum Gebrauch der
+                  eilf größern Danvillischen Landcharten, Nürnberg: Weigel und Schneider</bibl>
+               <bibl corresp="1589">Gaspari, Adam Christian (1819): Vollständiges Handbuch der
+                  neuesten Erdbeschreibung, Abtheilung 1, Band 5, Weimar: Geographisches
+                  Institut</bibl>
+               <bibl corresp="410">Halliwell, R. / Smith, Charles (1809): Smith’s classical atlas:
+                  containing distinct maps of the countries described in ancient history both sacred
+                  and profane, London: C. Smith</bibl>
+               <bibl corresp="239">Jenaische Allgemeine Literatur-Zeitung, 1804–1841</bibl>
+               <bibl corresp="1590">Mannert, Konrad (1792): Geographie der Griechen und Römer aus
+                  ihren Schriften dargestellt, Dritter Theil: Germania, Rhaetia, Noricum, Pannonia,
+                  nach den Begriffen der Griechen und Römer : Mit zwey Karten, Nürnberg: Ernst
+                  Christoph Grattenauer</bibl>
+               <bibl corresp="1511">Reichard, Christian Gottlieb (1818–1831): Orbis terrarum
+                  antiquus, Nürnberg: Camp</bibl>
+               <bibl corresp="1591">Reichard, Christian Gottlieb (1822): Ueber den Limes
+                  Transdanubianus und Transrhenanus der Römer und das von ihm begränzte Land. In:
+                  Neue allgemeine geographische Ephemeriden 10, 1822, S. 347–394</bibl>
+               <bibl corresp="1588">Zürner, Adolf Friedrich (1752): Atlas Saxonicus novus, darinnen
+                  nicht allein die Länder des Kurfürstenthums Sachsen nach ihren Kreisen, ... nebst
+                  dessen incorporirten Ländern ... sondern auch die Fürstenthümer und Herrschaften
+                  des Fürstlichen Hauses Sachsen, nebst allen daran grenzenden Ländern enthalten;
+                  welche alle mit der größten Sorgfalt und Fleiße übersehen, und von Fehlern
+                  gesäubert worden, Amsterdam/Leipzig: Peter Schenk</bibl>
+               <bibl corresp="1585">Zumpt, Karl Gottlob [gezeichnet: "S.R."] (1822): Rez: Reichardi
+                  Orbis terrarum antiquus, a Dr. Campio editus. 1818. Tab. 4. In: Jenaische
+                  Allgemeine Literatur-Zeitung 1822, Nr. 49, Februar, Sp. 313–319</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Hochwohlgebohrner, Höchstzuverehrender Freyherr, Endlich ist es mir
+               gelungen …</ab>
+            <p>Aus Lobenstein. Reichard dankt "für die letztern tiefdurchdachten, reichhaltigen und
+               höchstlehrreichen Bemerkungen" vom 13. März 1828. Übersendet mit dem Schreiben seinen
+               Aufsatz zum Donau- und Rhein-Limes und berichtet von seiner Entdeckung eines "zweyten
+               Limes von der Elbe nach Oder", dessen Spuren er im Folgenden ausführlich beschreibt.
+               Desweiteren identifiziert er diverse bei <persName ref="ptolemaios">Ptolemaios</persName> genannte Orte. Vernichtendes Urteil über <bibl sameAs="1590">den dritten Teil</bibl> von <persName ref="kmannert">Mannert</persName>s Geographie der Griechen und Römer. Äußert seine Freude über
+               Humboldts Arbeiten zu den Amerikanischen Sprachen.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cgreichard">Reichard, Christian Gottlieb</persName>
+               <date type="author" when="1822-07-21"/>
+               <placeName key="Lobenstein">Lobenstein</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">13.03.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen (allgemein)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Oktober 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter"/>
+      </body>
+   </text>
+</TEI>

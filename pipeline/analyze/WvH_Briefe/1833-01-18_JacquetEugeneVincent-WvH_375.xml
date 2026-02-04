@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS, 20.05.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eugène Vincent Stanislas Jacquet an Wilhelm von Humboldt, 18.01.1833 (?)<idno type="BBAW">375</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            quart. 47, Bl. 23–30</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 296</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="lnicolas">
+                  <persName>Nicolas, Louis</persName>
+               </person>
+               <person corresp="drodriguez">
+                  <persName>Rodríguez de Figueroa, Diego</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="375">Abel-Rémusat, Jean-Pierre: Extrait d’une lettre de M. Abel Rémusant
+                    adressée à M. le baron G. de Humbolt. In: Nouveau Journal Asiatique 11, Mars
+                    1833, S. 273–282</bibl>
+               <bibl corresp="649">Jacquet, Eugène: Mélanges Malays, Javanais et Polynésiens, No. I.
+                    Notice sur l’alphabet Yloc ou Ylog. In: Nouveau Journal Asiatique 8, Juillet
+                    1831, S. 2–45</bibl>
+               <bibl corresp="235">Jacquet, Eugène: Mélanges Malays, Javanais et Polynésiens, No. II.
+                    Bibliothèque Malaye. In: Nouveau Journal Asiatique 9, Février 1832, S.
+                    97–132</bibl>
+               <bibl corresp="109">La Galissonniere, R. M. B.: Petit Dictionnaire de la langue des
+                    Iroquois de la nation de l’Agnie (ca. 1700)</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu
+                    [u.a.] 1822–heute)</bibl>
+               <bibl corresp="311">Nicolas, Louis: Grammaire Algonquine, ou des Sauvages de l’Amérique
+                    Septentrionale, avec la description du pays, journaux de voyages, mémoires,
+                    remarques sur l’histoire naturelle (1672) [Manuskript]</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron J’ai tant d’excuses à vous faire que je
+                        ne puis vous les presenter toutes à la fois …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="evsjacquet">Jacquet, Eugène Vincent Stanislas</persName>
+               <date type="author" when="1833-01-18"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="evsjacquet">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="alg">Algonkin-Sprache</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="iro">Irokesische Sprache</language>
+            <language ident="ms">Malaiisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">20. Mai 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_053.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_054.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_055.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_056.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_057.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_058.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_059.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_060.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_061.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_062.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_063.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_064.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_065.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_066.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_067.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1833-01-18/Coll.ling.quart.47_068.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="23r"/> <salute>Monsieur le Baron</salute>
+            </opener>
+            <p>J’ai tant d’excuses à vous faire que je ne puis vous les presenter toutes à la
+                    fois. <sic>Jeme</sic> permettrai donc de ne vous en offrir dans cette lettre que
+                    pour l’envoi anonyme que je vous ai fait dans les derniers jours de Decembre des
+                    epreuves d’un <bibl sameAs="235">memoire</bibl> depuis longtemps composé qui
+                    venait de paraître dans <bibl sameAs="773">le Journal asiatique</bibl>.
+                    J’esperais en ce moment pouvoir vous annoncer cet envoi, deux ou trois jours
+                    après, par une lettre dont quelques pages etaient deja <pb n="23v"/> ecrites;
+                    mais des circonstances que j’aurai l’honneur de vous faire connâitre à la fin de
+                    cette lettre ne m’ont pas permis jusqu’à present de la terminer: je ne puis
+                    assez vous dire, Monsieur, quelle anxieté me fait eprouve<supplied cert="high">r</supplied>
+               <note type="footnote" resp="editor">Rechter Seitenrand des
+                        Digitalisats eingebunden.</note> <sic>ceretard</sic>, combien je suis
+                    mecontent de moi m<supplied cert="high">ême</supplied>, des circonstances qui
+                    m’entravent et dont je ne puis me debarasser; j’ai voulu, en interpos<supplied cert="high">ant</supplied> quelques mots d’excuses entre la date de la
+                        der<supplied cert="high">nière</supplied> lettre dont vous m’avez honoré et
+                    celle de la lettre que j’aurai bientôt, je l’espere, le loisir de terminer, j’ai
+                    voulu plutôt me dissimuler mon tort et attenuer le sentimen<supplied cert="high">t</supplied> d’inquietude qu’il me fait eprouver, que vous faire accepter
+                    des excuses qui ne seron<supplied cert="high">t</supplied> <pb n="24r"/> jamais
+                    une reparation suffisante de mon impolitesse. Je vous en fais, Monsieur, l’aveu
+                    avec franchise, Si je ne vous ai pas encore repondu, c’est la faute de mon
+                    esprit, mais je vous prie instamment de croire que ce n’est point celle de ma
+                    volonté: vous ne pouvez me juger plus severement que je ne me juge moi même.</p>
+            <p>Je ne puis non plus tarder plus longtemps à vous remercier de l’envoi que vous
+                    avez bien voulu me faire de <bibl sameAs="375">la lettre de Mr A. Remusat</bibl>;
+                    il a été convenu qu’elle parâitrait dans <bibl sameAs="773">le J. Asiat.</bibl>
+                        (n<hi rend="superscript">o</hi>. de Mars); aussitôt que <persName ref="jhklaproth">Mr J. Klaproth</persName> <add>à qui elle a été renvoyée
+                        pour examen, comme à l’un des commissaires du <bibl sameAs="773">J.
+                            asiat.</bibl>
+               </add>, qui l’a encore entre les mains pour verifier les
+                    caracteres à faire graver, me l’aura remise, je m’empresserai, Monsieur, de vous
+                    la faire parvenir avec <pb n="24v"/> l’expression de ma gratitude et des details
+                    que je me permets de referrer pour cette autre lettre. <sic>Jene</sic> puis,
+                    Monsieur, puisque vous voulez bien dans votre derniere lettre vous occuper de
+                    moi, vous faire mieux connaître <subst>
+                  <del>mon</del>
+                  <add>ma</add>
+               </subst>
+                    situation d’esp<supplied cert="high">oir</supplied>
+               <note type="footnote" resp="editor">Rechter Seitenrand des Digitalisats eingebunden.</note>
+                    actuelle, qu’en vous disant que je vis beaucoup de souvenirs et de regrets, bien
+                    peu d’esperances. Je vous prie, Monsieur, de vouloir bien presenter à <persName ref="avh">Monsieur le Baron Alexandre</persName> qui <subst>
+                  <del>s’e<gap quantity="2" unit="chars"/>
+                  </del>
+                  <add>s’est</add>
+               </subst>
+                    joint au sentiment que vous m’exprim<supplied cert="high">ez</supplied>
+                    l’expression de mon respect et de ma gratitude. Je prends la liberté de vous
+                    envoyer, Monsieur, sous la même enveloppe que ce billet quelq<supplied cert="high">ues</supplied> feuilles depuis longtemps preparées dans
+                        l’int<supplied cert="high">en</supplied>tion de vous les offrir. Je crains
+                    bien qu<supplied cert="high">e</supplied> <pb n="25r"/> ne puissent vous être
+                    d’aucune utilité pour vos travaux sur les langues de l’amerique; c’est néanmoins
+                                <subst>
+                  <del>
+                     <gap quantity="6" unit="chars"/>
+                  </del>
+                  <add>avec
+                            ce</add>
+               </subst> desir que je les avais reunies.</p>
+            <p>La premiere de ces feuilles presente une analyse sommaire de la <bibl sameAs="311">
+                  <hi rend="underline">grammaire algonquine</hi>
+               </bibl> des premieres pages
+                    de la quelle j’ai eu l’honneur de vous envoyer une copie. L’ouvrage existe MS. à
+                    la <orgName ref="7">Bibliotheque Royale</orgName>; si vous en desiriez la
+                    communication, je pense que les conservateurs <subst>
+                  <del>
+                     <gap quantity="2" unit="chars"/>mpresseraient</del>
+                  <add>s’empresseraient</add>
+               </subst> de vous
+                    l’offrir</p>
+            <p>La seconde feuille presente des extraits de deux MSS. de la <orgName ref="25">Bibliotheque de l’arsenal</orgName>, le premier contenant un <bibl sameAs="109">
+                  <hi rend="underline">dictionnaire Iroquois</hi>
+               </bibl>, le
+                    second, tracé au crayon, paraissant contenir une histoire des guerres des tribes
+                    sauvages de l’amerique Septentr.<hi rend="superscript">le</hi>, <pb n="25v"/> en
+                    hieroglyphes (je me sors de ce mot à defaut d’aut<supplied cert="high">re</supplied>
+               <note type="footnote" resp="editor">Rechter Seitenrand des
+                        Digitalisats eingebunden.</note>); j’ai figuré quelques dessins de ce
+                        <sic>mS</sic> vieux, souillé et dechiré.</p>
+            <p>la troisieme feuille est la copie d’<add>
+                  <gap quantity="3" unit="chars"/>
+               </add>
+                    feuillet d’un MS. sur cuir de la <orgName ref="7">Bibliotheque Royale</orgName>
+                    ce MS formé de plusieurs peaux à peine preparé<supplied cert="high">es</supplied> et retenues par des cordelettes, est couvert de crasse; après
+                    l’avoir fait decrotter j’y ai reconnu un grand nombre de figures et de scenes
+                    semblables à celles que j’ai copiées: ce livre, (si j’ose le nommer ainsi), me
+                    parait être le rituel magique de quelqu’une des nations les plus grossieres de
+                    la Polynesie.</p>
+            <p>J’espere pouvoir accompagner ma prochai<supplied cert="high">ne</supplied> lettre
+                    de la copie d’une <subst>
+                  <del>r<gap quantity="2" unit="chars"/>ation</del>
+                  <add>relation</add>
+               </subst> inedite <pb n="26r"/> d’un
+                    voyage dans les andes<note type="footnote" resp="editor">Das Manuskript wurde im Jahr 1910
+                        von Richard Pietschmann unter dem Titel "Bericht des Diego
+                            Rodríguez de Figueroa über seine Verhandlungen mit dem Inka Titu Cusi
+                            Yupanqui in den Anden von Villcapampa" in den <hi rend="italic">Nachrichten der
+                        Königlichen Gesellschaft der Wissenschaften zu Göttingen,
+                        Philologisch-historische Klasse</hi> herausgegeben; ebendort S. 79 der
+                        Verweis auf die Herkunft des Manuskriptes.</note>, fait vers le milieu du
+                        16<hi rend="superscript">e</hi> siecle par <persName ref="drodriguez">Diego
+                        Rodriguez</persName> de <placeName ref="Cusco">Cuzco</placeName>; j’ai
+                    retrouvé cette relation dans un vieux MS. Espagnol de la <orgName ref="7">Bibl.
+                        Royale</orgName>: je prierai <persName ref="avh">Monsieur le Baron a. de
+                        humboldt</persName> de vouloir bien en accepter la copie. </p>
+            <p>Je vous prie, Monsieur de ne considerer ce billet que comme l’annonce d’une
+                    lettre dont l’etendue me permettra de vous presenter l’expression de
+                        <add>tous</add> mes regrets.</p>
+            <closer>
+               <salute>Veuillez accepter, Monsieur le Baron, celle de mes sentimens les plus
+                        respectueux</salute>
+               <signed>E. Jacquet</signed>
+               <lb/>
+               <dateline>Paris ce 18 Janvier</dateline>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="26v vacat"/>
+            </p>
+            <p>
+               <pb n="27r, verschiedene Zeichnungen"/>
+            </p>
+            <p>
+               <pb n="27v vacat"/>
+            </p>
+            <p>
+               <pb n="28r"/> Livre des Sauvages <pb n="Darunter verschiedene Zeichnungen"/>
+            </p>
+            <p>
+               <pb n="28v"/> Volume in fo<supplied cert="high">lio</supplied>. titre de la
+                    reliure – <bibl sameAs="109">
+                  <hi rend="underline">Dictionnaire – Iroquois</hi>
+               </bibl>
+               <lb/>80 pages doubles. <lb/>
+               <!-- ID 109 = eigtl. 84 Doppelseiten! (vgl. Digitalisat unter: https://archive.org/stream/rosettaproject_moh_dict-1/iroquois_dict_1700s#page/n0/mode/2up) -->
+               <sic>point detitre</sic> interieur</p>
+            <p>
+               <hi rend="underline">A</hi> – voyez <hi rend="underline">avoir</hi>
+            </p>
+            <p>il y a un Dieu trouvez un Dieu <gap quantity="2" unit="chars"/>
+            </p>
+            <p>
+               <hi rend="underline">a</hi> entre deux verbes ne s’exprime point. exemple Je
+                        con<gap quantity="2" unit="chars"/>
+               <note type="footnote" resp="editor">
+                        Rechter Seitenrand des Digitalisats eingebunden.</note> à travailler on dit
+                    voila que je commence ce que je travaille lorsque <hi rend="underline">a</hi>
+                    signifie le lieu comme aux champs à la cabane il s’exprime par <hi rend="underline2">
+                  <foreign sameAs="iro">gué</foreign>
+               </hi>
+               <gap quantity="1" unit="chars"/>: à la campagne <hi rend="underline2">
+                  <foreign sameAs="iro">Kahentägué</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="underline">ab.</hi> 8 p.<gap quantity="2" unit="chars"/>
+            </p>
+            <p>
+               <hi rend="underline">abaisser</hi> les verbes n’ont point d’infinitif</p>
+            <p>
+               <hi rend="underline">abaissé</hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hektagué</foreign>
+               </hi> <hi rend="underline2">
+                  <foreign sameAs="iro">ôhaouitti</foreign>
+               </hi> <gap quantity="3" unit="chars"/>
+               <foreign sameAs="iro">de amené à tu<gap quantity="2" unit="chars"/>
+               </foreign>
+            </p>
+            <p>
+               <add>
+                  <hi rend="underline">present</hi>
+               </add>
+               <lb/>
+               <hi rend="underline">j’abaisse</hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hektaguéha</foreign>
+               </hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hakaouitta</foreign>
+               </hi> <add>
+                  <hi rend="underline2">
+                     <foreign sameAs="iro">hektaguéha</foreign>
+                  </hi> <add>signifier</add> ou <hi rend="underline2">
+                     <foreign sameAs="iro">hektagu</foreign>
+                     <gap quantity="1" unit="chars"/>
+                  </hi> <add>a terre simplement</add>
+               </add>
+            </p>
+            <p>
+               <hi rend="underline">tu abaisses</hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hektaguéha</foreign>
+               </hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hacha ouitta</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="underline">il abaisse</hi> <hi rend="underline2">
+                  <foreign sameAs="iro">hektaguéha</foreign>
+               </hi> <hi rend="underline2">
+                  <foreign sameAs="iro">haha ouitta</foreign>
+               </hi>
+            </p>
+            <p>nous abaissons </p>
+            <p> Duel <lb/> nous <hi rend="underline2">
+                  <foreign sameAs="iro">aguihaouitt</foreign>
+                  <gap quantity="1" unit="chars"/>
+               </hi>
+               <lb/> vous <hi rend="underline2">
+                  <foreign sameAs="iro">Izi
+                        haouitta</foreign>
+               </hi>
+               <lb/>ils <hi rend="underline2">
+                  <foreign sameAs="iro">hi
+                        haouitta</foreign>
+               </hi>
+               <lb/>
+               <lb/>
+            </p>
+            <p>
+               <pb n="29r"/> Bibl. R. X + 1613 <add>c</add> in fo<supplied cert="high">lio</supplied>
+            </p>
+            <p>Le manuscrit qui porte le titre de <bibl sameAs="311">
+                  <hi rend="underline">Grammaire algonquine</hi>
+               </bibl> est un brouillon très
+                    confus destiné à l’impression. il se compose actuellement de 4 parties en 5
+                    cahiers; la premiere <subst>
+                  <del>pa<gap quantity="2" unit="chars"/>ie</del>
+                  <add>partie</add>
+               </subst> contient 31 pp. la seconde 61 pp. la troisieme 13 pp. la quatrieme 20
+                    pp. Ce ms. n’est plus complet, une cinquieme partie devait contenir un
+                    dictionnaire Franç-algonq. et algonq. Franç. et etait peutêtre suivie de
+                    plusieurs autres divisions <del>
+                  <gap quantity="10" unit="chars"/>
+               </del> presentant un catechisme, des
+                    prieres, des hymnes en langue algonquine, une topographie de l’amerique
+                    septentrionale, l’histoire naturelle de ces contrées, un traité des moeurs et
+                    coutumes de ces peuples etc. Ils sont du moins les nombreux appendis promis dans
+                    le titre de la grammaire et qui devaient être réunis dans le nom general de <hi rend="underline">lieux communs</hi>. on est certain qu’il ne s’est rien
+                    perdu de la partie proprement grammaticale de l’ouvrage, puisque la derniere
+                    phrase du dernier cahier est celle ci ce <hi rend="underline">avertissement</hi>. J’ai mis partout autant que j’ai pu "la signification
+                    française sous chaque mot sauvage: quand j’ai été trop contraint, j’ai marqué
+                    avec des chiffres l’ordre qu’il faut tenir dans l’explication de chaque mot; je
+                    vais garder le même ordre dans la suite des lieux communs que je vous presente
+                    ici ensuite." et en réclame "Lieux communs"<supplied cert="high">.</supplied>
+            </p>
+            <p>La premiere partie presente les paradigmes, sans discussions grammaticales,
+                    quelques remarques necessaires à l’intelligence des tableaux, exceptées. la
+                    seconde partie developpe la theorie <del>de la</del> grammaticale de <subst>
+                  <del>
+                     <gap quantity="2" unit="chars"/>
+                  </del>
+                  <add>la</add>
+               </subst> langue, quelques paradigmes supplementaires ou comparatifs y compris,
+                    la troisieme partie est destinée à la Syntaxe, la quatrieme traite des
+                    particules et des idiotismes. </p>
+            <p>1<hi rend="superscript">ere</hi> Partie Plusieurs declinaisons sont etablis par
+                        <persName ref="lnicolas">l’auteur</persName>, deux sont affectées aux
+                    substantifs <del>s<gap quantity="2" unit="chars"/>
+               </del> a l’etat simple, quatre aux substantifs rendus complexes <pb n="29v"/>
+                    par l’addition des <del>pronoms</del> suffixes pronominaux. La division la plus
+                    generale des verbes est en verbes neutres – (<add>trois</add> conjugaisons
+                    determinées par la lettre finale de la 3e personne du present de cette voie),
+                    verbes moyens (<hi rend="underline">medium</hi>) c’est à dire embrassant le
+                    sujet, l’acte, le rapport et <subst>
+                  <del>
+                     <gap quantity="7" unit="chars"/>
+                  </del>
+                  <add>le complement</add>
+               </subst>, quand ce <subst>
+                  <del>
+                     <gap quantity="6" unit="chars"/>
+                  </del>
+                  <add>complement</add>
+               </subst> est un pronom, verbes actifs et passifs, renfermant le complement en
+                    eux mêmes et subdivisés en <hi rend="underline">nobles</hi> et <hi rend="underline">ignobles</hi>, verbes impersonnels (comprenant deux
+                    conjugaisons): cette partie est complete par des observations sur les verbes
+                    anomaux – Toutes ces divisions <subst>
+                  <del>paraissent</del>
+                  <add>sont</add>
+               </subst> mal etablies et encore plus mal observées; les details paraissent
+                    néanmoins traités avec soin: ces paradigmes completés par les notions
+                    grammaticales qui se trouvent dans la seconde partie et etudiés avec une
+                    critique severe, donn<gap quantity="2" unit="chars"/> les elemens d’une théorie
+                    grammaticale beaucoup plus irreprochable que celle qui suit cet exposé du
+                    materiel de la langue.</p>
+            <p>2<hi rend="superscript">e</hi> Partie Les sujets traités dans cette partie sont –
+                    les valeurs de prononciation ou elemens vocaux (17 lettres, 4 voyelles a e c o,
+                    [4 diphtongues, 12 consonnes et une aspiration [H] – les parties de l’oraison –
+                    du Substantif (sous cette denomination est aussi compris l’adjectif) – [il n’y a
+                    point d’article] – du nom propre et du nom <hi rend="underline">appellatif ou
+                        commun</hi> (sic) – le nom commun subdivisé en noble et ignoble – deux
+                    nombres le sing. et le plur. – de la particule numerale ou article indefini –
+                    des differentes especes de noms nobles et ignobles – des nombres subdivisés en
+                    nobles et ignobles, par application – des degrés de comparaisons – du pronom –
+                    remarques particulieres sur l’adjectif pronominal (toute cette partie est très
+                    confuse) – division des pronoms en nobles et ignobles – du verbe – du verbe
+                    substantif – observations sur les caracteres communs de tous les verbes – Regles
+                    generales de la conjugaison – il n’y a dans cette langue que 3 conjugaisons <pb n="30r"/> aux quelles se rapportent plus de cent formes verbales – 1ers
+                    verbes neutres – 2<hi rend="superscript">e</hi> verbes nobles actifs – verbes
+                    nobles passifs – Remarques generales sur les figuratives – remarques sur les
+                    finales – remarques particulieres sur la seconde conjugaison – remarques
+                    particulieres sur la trosieme conjugaison – du verbe impersonnel – des verbes
+                        <add>primitifs</add> de la premiere classe – Principes de la formation des
+                    verbes de la seconde classe – Remarques sur les mutations de voyelles, sur les
+                    augmens etc – de l’application des negations aux verbes – des negations propres
+                    aux divers modes du verbe – Des verbes frequentatifs – dubitatifs, affirmatifs,
+                    substantifs diminutifs etc – des verbes anomaux – de l’augment dans les verbes
+                    anomaux – remarques sur la syllabe <hi rend="underline">ni</hi>. – des verbes
+                    impersonnels – ces indications sommaires ayant été recueillies dans l’ordre des
+                    matieres dont traite cette seconde partie, la confusion qu’elles presentent peut
+                    temoigner de celle qui regne dans la thèorie grammaticale qui vient d’être
+                    analysée; <persName ref="lnicolas">l’auteur</persName>
+               <!-- = L. Nicolas? -->
+                    n’est pas d’accord avec lui même sur les divisions generales et particulieres
+                    des conjugaisons; les paradigmes et la theorie qui doit les expliquer ne
+                    concordent point. Dans cette abscence de toute methode on ne peut d’empêcher
+                    d’observer que <persName ref="lnicolas">l’auteur</persName> comprenait mieux son
+                    sujet qu’il ne l’a exposé, les nombreuses observations, souvent pleines de
+                    finesse, qu’il a recueillies, ne demandent qu’à être presentées d’une maniere
+                    plus nette et disposées dans un ordre plus regulier.</p>
+            <p>Troisieme Partie – De la syntaxe proprement dite ou de l’accord des diverses
+                    parties du discours entr’elles. – (cette partie se compose d’observations qui ne
+                    suivent pas un ordre très régulier et qu’on ne peut même croire n’être que des
+                    notes detachées, <subst>
+                  <del>
+                     <gap quantity="9" unit="chars"/>
+                  </del>
+                  <add>non soumises à un principe</add>
+               </subst> systematique.) – de la phraséologie (la même remarque est applicable à
+                    cette partie)</p>
+            <p>quatrieme partie – Des diverses especes d’adverbes – des prepositions et
+                    propositions – des interjections – des conjonctions – <pb n="30v"/> des
+                    particules formant des idiotismes (dans l’ordre alphabetique) cette partie est
+                    la plus riche en exemples et la mieux traitée.</p>
+            <p>Enresumé cet ouvrage contient d’excellens materiaux </p>
+            <p>d’une <bibl sameAs="311">grammaire algonquine</bibl>;</p>
+            <p>Il me parait être, quelque soient ses defauts, beaucoup plus </p>
+            <p>savant que <bibl sameAs="473">la grammaire Delaware</bibl> de </p>
+            <p>
+               <persName ref="dzeisberger">Zeisberger</persName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

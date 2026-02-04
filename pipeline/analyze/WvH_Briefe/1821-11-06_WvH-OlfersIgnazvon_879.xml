@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG C.L., 11. Juli 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Ignaz von Olfers, 06.11.1821<idno type="BBAW">879</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Autogr. I/282</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Fa L. Liepmannssohn (Berlin), Lagerkat. 219 (1924), Nr.
+                            325 (Reg.); Fa J.A. Stargardt (Hamburg), Kat. 567 (1964), Nr. 482 (Reg.
+                            + Auszug)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7149</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bsbarton">
+                  <persName>Barton, Benjamin Smith</persName>
+               </person>
+               <person corresp="rbreton">
+                  <persName>Breton, Raymond</persName>
+               </person>
+               <person corresp="lfigueira">
+                  <persName>Figueira, Luiz</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego González </persName>
+               </person>
+               <person corresp="bdelugo">
+                  <persName>Lugo, Bernardo de</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="ldeneve">
+                  <persName>Neve y Molina, L. D. Luis de</persName>
+               </person>
+               <person corresp="jortega">
+                  <persName>Ortega, P. Joseph de</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="areyes">
+                  <persName>Reyes, Antonio de los</persName>
+               </person>
+               <person corresp="cdetapia">
+                  <persName>Tapia Zenteno, Carlos de</persName>
+               </person>
+               <person corresp="avasquez">
+                  <persName>Vasquez Gastelu el Rey de Figueroa, Antonio</persName>
+               </person>
+               <person corresp="adevetancurt">
+                  <persName>Vetancurt, Augustín de</persName>
+               </person>
+               <person corresp="jzambrano">
+                  <persName>Zambrano Bonilla, José</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="46">Barton, Benjamin Smith: New Views of the origin of the tribes and
+                    Nations of America (Philadelphia: John Bioren 1798)</bibl>
+               <bibl corresp="60">Breton, Raymond: Dictionnaire caraibe-françois : meslé de quantité
+                    de Remarques historiques pour l'eclaircissement de la Langue (Auxerre: Gilles
+                    Bouquet 1665)</bibl>
+               <bibl corresp="92">Diccionario portuguez, e brasiliano (Lissabon: Na officina
+                    patriarcal 1795)</bibl>
+               <bibl corresp="272">Figueira, Luiz: Arte da Grammatica da Lingua do Brasil (Lissabon:
+                    Na Officina Patriarcal 1795)</bibl>
+               <bibl corresp="441">Vasquez Gastelu el Rey de Figueroa, Antonio: Arte de lengua
+                    mexicana, 2. Auflage (Puebla de los Angeles: Diego Fernandez de Leon
+                    1693)</bibl>
+               <bibl corresp="182">González Holguín, Diego: Gramatica y arte nueua de la lengua
+                    general de todo el Peru, Ilmada lengua Quichua, o lengua del Inca (Lima: por
+                    Francisco del Canto 1607)</bibl>
+               <bibl corresp="151">González Holguín, Diego: Vocabulario de la lengua general de todo
+                    el Peru llamada lengua Qquichua ó del Inca (Ciudad de los Reyes [Lima]:
+                    Francisco del Canto 1608)</bibl>
+               <bibl corresp="108">La Salle de L'Étang, Simon Philibert de / Pelleprat, Pierre:
+                    Dictionnaire galibi, présenté sous deux formes; : I° Commençant par le mot
+                    françois; II° Par le mot Galibi. Precédé d'un essai de grammaire (Paris: Bauche
+                    1763)</bibl>
+               <bibl corresp="271">Lugo, Bernardo de: Gramática en la lengua general del Nuevo Reyno,
+                    llamada Mosca (Madrid: Bernardino de Guzmann 1619)</bibl>
+               <bibl corresp="302">Molina, Alonso de: Vocabulario en lengua Castellana y Mexicana
+                    (Mexiko: Antonio de Spinosa 1555)</bibl>
+               <bibl corresp="426">Nene karighwiyoston tsinihorighhoten ne Saint John. The Gospel
+                    according to St. John (London: Phillips &amp; Fardon 1804)</bibl>
+               <bibl corresp="310">Neve y Molina, Luis de: Reglas de Orthographia, Diccionario, y arte
+                    del Idioma Othomi (Mexiko: Imprenta de la Bibliotheca Mexicana 1767)</bibl>
+               <bibl corresp="61">Nieto Polo, Tomás: Breve Instruccion, o arte para entender la lengua
+                    comun de los Indios, segun se habla en la Provincia de Quito (Lima: En la
+                    imprenta de la Plazuela de San Christoval 1753)</bibl>
+               <bibl corresp="322">Ortega, José de: Vocabulario en lengua Castellana y Cora (Mexiko:
+                    Francisco Rodriguez Lupercio 1732)</bibl>
+               <bibl corresp="333">Pickering, John: An essay on a uniform orthography for the Indian
+                    languages of North America, as published in the Memoirs of the American Academy
+                    of Arts and Sciences (Cambridge: University Press, Hilliard and Metcalf
+                    1820)</bibl>
+               <bibl corresp="24">Reyes, Antonio de los: Arte en Lengua Mixteca compuesta (Mexiko:
+                    Pedro Balli 1593)</bibl>
+               <bibl corresp="427">Tamedsa Johannesib aglangit okautsiñik tussarnertuñik, Jesuse
+                    Kristusenik, Gudim erngninganik. St. John's Gospel, edited by B.G. Kohlmeister
+                    from a Gospel Harmony prepared by the Moravians. An edition of 1000 copies,
+                    published by the BFBS 'for the use of the Christian Esquimaux in the
+                    Mission-Settlements of the United Brethren at Nain, Okkak, and Hopedale, on the
+                    Coast of Labrador (London: Dowall 1810)</bibl>
+               <bibl corresp="419">Tapia Zenteno, Carlos de: Noticia de la lengua huasteca (Mexiko:
+                    Imprente de la Bibliotheca Mexicana 1767)</bibl>
+               <bibl corresp="428">The Gospels according to St. Matthew, St. Mark, St. Luke, and St.
+                    John: translated into the language of the Esquimaux Indians, on the Coast of
+                    Labrador; by the Missionaries of the Unitas Fratrum; or, United Brethren:
+                    (London: Dowall 1813)</bibl>
+               <bibl corresp="16">Transactions of the Historical and Literary Comittee of the American
+                    Philosophical Society held at Philadelphia, (Philadelphia: American
+                    Philosophical Society 1819–1843)</bibl>
+               <bibl corresp="804">Vetancurt, Augustín de: Arte de lengua mexicana, dispuesto por
+                    orden, y mandato de N. Rmo P. Fr. Francisco Trevino (Mexico: Francisco Rodriguez
+                    Lupercio 1673)</bibl>
+               <bibl corresp="469">Zambrano Bonilla, José: Arte de lengua totonaca, conforme a el Arte
+                    de Antonio Nebrija, compuesto por D. Joseph Zambrano Bonilla, Vicario de San
+                    Andres Hueitlapan. Lleva añadido una Doctrina de la Lengua de Naolinga, con
+                    algunos vozes de la lengua por. D. Fran. Dominguez (Puebla: La Viuda de Miguel
+                    de Ortega 1752)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Hochwohlgebohrnen / haben mir theils durch
+                        Ihre interessanten Mittheilungen, theils durch Ihr gütiges Versprechen,
+                        denselben noch andre folgen zu lassen, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-11-06"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ifwmolfers">Olfers, Ignaz Franz Werner Maria von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="437" type="next">26.01.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="crb">Carib (Insel-Carib)</language>
+            <language ident="chb">Chibcha (Mosca, Muisca)</language>
+            <language ident="crn">Cora</language>
+            <language ident="hus">Huastekisch</language>
+            <language ident="esx">Eskimo-aleutische Sprachen</language>
+            <language ident="mix">Mixtec</language>
+            <language ident="nah">Nahuatl (Mexikanisch)</language>
+            <language ident="oto">Otomi</language>
+            <language ident="qu">Quechua</language>
+            <language ident="tot">Totonac</language>
+            <language ident="tup">Tupi (Brasilianisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">11. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/> <salute>Ew. Hochwohlgebohrnen</salute>
+            </opener>
+            <p>haben mir theils durch Ihre interessanten Mittheilungen, theils durch Ihr gütiges
+                    Versprechen, denselben noch andre folgen zu lassen, so überzeugende Beweise
+                    Ihrer zuvorkommenden Gefälligkeit gegeben, daß ich, dadurch aufgemuntert, mir
+                    die Freiheit nehme, Ihnen mit einer neuen Bitte beschwerlich zu fallen.</p>
+            <p>Es scheint mir kaum fehlen zu können, daß sich nicht in <placeName ref="Lissabon">
+                  <hi rend="antiqua">Lissabon</hi>
+               </placeName>, wenigstens bei
+                    Antiquaren, Sprachlehren oder Wörterbücher <hi rend="antiqua">Amerika</hi>nischer Sprachen befinden sollten. Ew. Hochwohlgeb. würden mich nun
+                    ausnehmend verbinden, wenn Sie Schriften dieser Art gelegentlich aufsuchen u.
+                    für mich anschaffen wollten. Damit Sie aber gleich sehen können, was ich schon
+                    selbst besitze, u. daher nicht doppelt zu haben brauche, lege ich einen <hi rend="antiqua">Catalogus</hi> meiner bisherigen Sammlung bei.</p>
+            <p>Sehr angenehm würde es mir seyn, wenn ich zugleich durch Ew. Hochwohlgebohrnen
+                    erfahren könnte, ob wohl auf der <orgName ref="42">Königlichen
+                        Bibliothek</orgName> in <placeName ref="Lissabon">
+                  <hi rend="antiqua">Lissabon</hi>
+               </placeName> Bücher dieser Gattung, die <pb n="2*"/> nicht
+                    auf meiner Liste stehen, u. welche? vorhanden sind? ob es möglich seyn würde,
+                    insofern ich es wünschte, Abschriften daraus zu bekommen, und wieviel ungefähr
+                    die Abschrift eines gedruckten Bogen kosten dürfte?</p>
+            <p>Ich fühle, wie unbescheiden es ist, Ew. Hochwohlgeb. mit so vielen Bitten u.
+                    Anfragen beschwerlich zu fallen, allein Sie nehmen ein so lebendiges Interesse
+                    an wissenschaftlichen Forschungen jeder Art, daß ich mir darum gütige
+                    Entschuldigung bei Ihnen versprechen darf.</p>
+            <closer>
+               <salute>Ich habe die Ehre, mit der ausgezeichnetsten Hochachtung zu
+                        verharren. <lb/>Ew. Hochwohlgeb.
+                        <lb/>ergebenster</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>Berlin, den
+                        6. Nov. 1821.</dateline>
+               <lb/>
+               <lb/>Alle Auslagen werde ich augenblicklich auf
+                    Ew. Hochwohlgeb. Anzeige erstatten. <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>den Königlichen Geschäftsträger, Herrn von Olfers,</addrLine>
+                  <addrLine>Hochwohlgeb. in <placeName ref="Lissabon">Lissabon</placeName>.</addrLine>
+               </address>
+            </closer>
+            <lb/>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="3*"/> <handShift scribe="Sachse"/>
+            </p>
+            <p>
+               <persName ref="bdelugo">Bernardo de Lugo</persName>, <bibl sameAs="271">gramatica
+                        de la lengua general del Nuevo Regno del Granada o de la lengua de los <hi rend="antiqua">Muyzcas</hi>o Mozcas</bibl>. Madrid. 1619.</p>
+            <p>
+               <persName ref="ademolina">Al. de Molina</persName>, <bibl sameAs="302">Vocabulario
+                        de la lengua <hi rend="antiqua">Mexicana</hi>
+               </bibl>. Mexico. 1571.</p>
+            <p>
+               <persName ref="adevetancurt">Augustin de Vetancurt</persName>, <bibl sameAs="804">Arte de la lengua <hi rend="antiqua">Mexicana</hi>
+               </bibl>. Mexico.
+                    1673.</p>
+            <p>
+               <persName ref="avasquez">Ant. Vasquez Gastelu y Raym de Figueroa</persName>,
+                        <bibl sameAs="441">arte de lengua <hi rend="antiqua">Mexicana</hi>
+               </bibl>.
+                    Puebla de los Angeles. 1693.</p>
+            <p>
+               <persName ref="ldeneve">L. de Neve y Molina</persName>, <bibl sameAs="310">Reglas
+                        de ortografia. Diccionario y arte del idioma <hi rend="antiqua">Othomi</hi>
+               </bibl>. Mexico. 1767.</p>
+            <p>
+               <persName ref="cdetapia">Carlos de Tapia Zenteno</persName>, <bibl sameAs="419">Noticia de la lengua <hi rend="antiqua">Huasteca</hi>, con doctrina
+                        christiana</bibl>. Mexico. 1767.</p>
+            <p>
+               <persName ref="areyes">Fr. Antonio de los Reyes</persName>, <bibl sameAs="24">Gramatica de la lengua <hi rend="antiqua">Mixteca</hi>
+               </bibl>. Mexico.
+                    1593.</p>
+            <p>
+               <persName ref="jzambrano">Jose Zambrano Bonilla</persName>, cura de Andres de
+                    Hucitlapan, <bibl sameAs="469">arte de la lengua <hi rend="antiqua">Totonaca</hi>
+               </bibl>, con una doctrina de la lengua de <hi rend="antiqua">Naolingo</hi>, con algunas voces de la lengua de aquella sierra y de esta
+                    por aca, por Franc. Dominguez, cura de Halpan. Puebla de los Angelos. 1752.</p>
+            <p>
+               <persName ref="jortega">Jose de Ortega</persName>, <bibl sameAs="322">Vocabulario
+                        della lengua Castellana y <hi rend="antiqua">Cora</hi>
+               </bibl>. Mexico.
+                    1732.</p>
+            <p>
+               <persName ref="rbreton">Raymond Breton</persName>, <bibl sameAs="60">Dict. <hi rend="antiqua">Caraibe</hi>-François</bibl>. Auxerre. 1665.</p>
+            <p>
+               <bibl sameAs="108">Dictionnaire <hi rend="antiqua">Galibi</hi>
+               </bibl>, par. M. D.
+                    L. S. Paris. 1763.</p>
+            <p>
+               <persName ref="lfigueira">Luiz Figueira</persName>, <sic>
+                  <bibl sameAs="272">Gramatica de la lengua del <hi rend="antiqua">
+                        Bresil</hi>
+                  </bibl>
+               </sic>. Lisboa. 1795.</p>
+            <p>
+               <bibl sameAs="92">Lexic. <hi rend="antiqua">Bras</hi>
+               </bibl>. Lisb. 1795.</p>
+            <p>
+               <bibl sameAs="428">The Gospels of St.</bibl>
+               <sic>
+                  <bibl sameAs="428">Mattew</bibl>
+               </sic>
+               <bibl sameAs="428">, St. Mark, St. Luke
+                        translated into the language of the <hi rend="antiqua">Esquimaux</hi>
+                        Indians on the Coast of Labrador by the Missionaries cet</bibl>. London.
+                    1813. 8.</p>
+            <p>
+               <bibl sameAs="427">The Gospel of St. John, translated into the language of the <hi rend="antiqua">Esquimaux</hi> cet</bibl>. London, 1810. 8.</p>
+            <p>
+               <pb n="4*"/> <bibl sameAs="16">Transactions of the</bibl>
+               <sic>
+                  <bibl sameAs="16">hist</bibl>
+               </sic>
+               <bibl sameAs="16">and
+                        Literary committee of the American</bibl>
+               <sic>
+                  <bibl sameAs="16">Philadelphical</bibl>
+               </sic>
+               <bibl sameAs="16">Society</bibl>
+               <sic>
+                  <bibl sameAs="16">hold</bibl>
+               </sic>
+               <bibl sameAs="16">at Philadelphia</bibl>. Vol. I. Philadelphia. 1819.
+                    8.</p>
+            <p>
+               <bibl sameAs="46">New Views of the origin of the tribes and Nations of</bibl>
+               <sic>
+                  <bibl sameAs="46">Amerika</bibl>
+               </sic>. By <persName ref="bsbarton">Benj. Smith
+                        Barton</persName>. Philadelphia. 1789. 8.</p>
+            <p>
+               <bibl sameAs="426">The Gospel according to St. John</bibl>. London. 8. (<hi rend="antiqua">Mohawk</hi>) </p>
+            <p>
+               <bibl sameAs="333">An essay on a uniform orthography for the Indian languages of
+                        North-America</bibl>, by <persName ref="jpickering">John
+                        Pickering</persName>. Cambridge. Hilliard and Metcalf. 1820. 4.</p>
+            <p>
+               <bibl sameAs="151">Vocabulario de la lengua <hi rend="antiqua">Qquichua</hi>
+               </bibl>, compuesto por <persName ref="dgonzalezholguin">Diego
+                        Goncalez Holguin</persName>. Ciudad de los <sic>Reges</sic> de Peru. 1608.
+                        <bibl sameAs="182">Grammatica de la lengua <hi rend="antiqua">Qquichua</hi>
+               </bibl> compuesto por <persName ref="dgonzalezholguin">Diego</persName>, cet. 1607. 4.</p>
+            <p>
+               <bibl sameAs="61">Breue <del>Instruction</del> Instruccion para entender la lengua
+                        comun de los Indios segun se habla en la Provincia de <hi rend="antiqua">Quito</hi>
+               </bibl>. Lima. 1753.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lucas Alamán an Alexander von Humboldt, nach dem 27. September 1821<idno type="BBAW">218</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 50, Bl. 83</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 1994b, Bd. 2, S. 278f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 206</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="lcastorena">
+                  <persName>Castorena, Luciano</persName>
+               </person>
+               <person corresp="hcortes">
+                  <persName>Cortés, Hernán</persName>
+               </person>
+               <person corresp="wvh">
+                  <persName>Humboldt, Wilhelm von</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Je suis faché de ne pouvoir pas répondre aux nouvelles
+                        questions que Mr. de Humboldt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="lalaman">Alamán, Lucas</persName>
+               <date type="author" when="1821-09-28"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="avh">Humboldt, Alexander von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="lalaman">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="nah">Nahuatl (Aztekisch, Mexicanisch)</language>
+            <language ident="crn">Cora</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">3. März 2016</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Alaman/Alaman-AvH2/Coll.ling.fol.50_173.jpg"/>
+      <graphic url="Alaman/Alaman-AvH2/Coll.ling.fol.50_174.jpg"/>
+      <graphic url="Alaman/Alaman-AvH2/Coll.ling.fol.50_175.jpg"/>
+      <graphic url="Alaman/Alaman-AvH2/Coll.ling.fol.50_176.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener/>
+            <p>
+               <pb n="83r"/> Je suis faché de ne pouvoir pas répondre aux nouvelles questions
+                    que <persName ref="wvh">Mr. de Humboldt</persName> m’adresse avec la même
+                    certitude que je l’ai fait aux autres: mais <persName ref="lcastorena">Mr.
+                        Castorena</persName>
+               <note type="footnote" resp="editor">Luciano Castorena
+                        war seit dem 20. Mai 1821 Deputierter der spanischen Cortes für das Jahr
+                        1821; siehe Charles R. Berry, The Election of the Mexican Deputies to the
+                        Spanish Cortes, 1810–1822. In: Nettie Lee Benson (Hrsg.), <hi rend="italic">Mexico and the Spanish Cortes, 1810–1822. Eight Essays</hi>. University
+                        of Texas Press 2014, S. 34 Table 6. Die Sitzungsperiode dauerte bis zum 14.
+                        Februar 1822. Daher ist der Brief spätestens nach dem Ende der
+                        Sitzungsperiode und der damit verbundenen Rückreise Castorenas nach Mexiko
+                        zu datieren. Wahrscheinlicher ist ein früheres Enddatum, da Mexiko bereits
+                        am 27. September 1821 die Unabhängigkeit von Spanien erklärte. [FZ]</note> s’étant
+                    embarqué pour rétourner dans son pays, je suis privé de son sécours et je ne
+                    connois personne qui ait les connoissances que lui sur ce sujet en Europe: je
+                    garderai la note de <persName ref="wvh">Mr. de Humboldt</persName> et je
+                    tacherai á mon rétour dans le Méxique de me procurer tous les renseignements
+                    necessaires pour resoudre les doutes que <persName ref="wvh">Mr. de
+                        Humboldt</persName> me propose et tous ceux qu’il pourra avoir sur les
+                    autres langues indiennes et qu’il voudra bien me communiquer.</p>
+            <p> </p>
+            <p> </p>
+            <p>1.</p>
+            <p>Quand j’ai dit que le <hi rend="underline">s</hi>. le <hi rend="underline">c</hi>
+                    (avant <hi rend="underline">e</hi> et <hi rend="underline">i</hi>) et le <hi rend="underline">z</hi>. (ou le <hi rend="underline">ç</hi>) se prononcent
+                    en Méxicain comme le <hi rend="underline">s</hi> français, ou italien au
+                    commencement et au milieu des mots, il faut entendre que dans le Méxicain on ne
+                    fait point de difference entre le commencement et le milieu des mots, et que
+                    dans les deux cas, ces lettres se prononcent comme le <hi rend="underline">s</hi> français, ou plus justement comme le <hi rend="underline">s</hi>
+                    espagnol comme dans les deux exemples que <persName ref="wvh">Mr. de
+                        Humboldt</persName> cite <foreign sameAs="es">
+                  <hi rend="underline">Señior</hi>
+               </foreign>, <foreign sameAs="es">
+                  <hi rend="underline">Sencillo</hi>
+               </foreign>, et encore dans <foreign sameAs="es">
+                  <hi rend="underline">acusacion</hi>
+               </foreign>, <foreign sameAs="es">
+                  <hi rend="underline">disposicion</hi>
+               </foreign>.</p>
+            <p> </p>
+            <p>2.</p>
+            <p>Je ne puis établir de régle génerale pour les cas oú le <hi rend="underline">h</hi> doit étre prononcé comme deux <hi rend="underline">ss</hi>. mais
+                    j’ai lieu de croire que cela arrive toutes les fois que le <hi rend="underline">h</hi> se trouve entre deux <hi rend="underline">i</hi>. Je crois avoir
+                    expliqué la prononciation de ce double <hi rend="underline">ss</hi> dans la
+                    quelle il y a un peu de sifflement.</p>
+            <p> </p>
+            <p>3.</p>
+            <p>Le <hi rend="underline">h</hi> final n’a pas une prononciation comme lettre, mais
+                    elle fait aspirer la voyele qui la precede. Il ne faut pas perdre de vue que les
+                    premiers espagnols qui passerent en Amérique étoient de l’Andalousie ou de
+                    l’Extremadure ou l’on conserve une prononciation qui tient beaucoup de l’Arabe:
+                    dans le dialect de ces deux provinces <pb n="83v"/> on aspire fortement le <hi rend="underline">j</hi>, et de la vient que les écrivains qui en sont issus,
+                    disent que l’aspiration finale des méxicains est le <hi rend="underline">j</hi>
+                    espagnol. Comme dans les mêmes provinces on ne fait pas dans la prononciation du
+                        <hi rend="underline">s</hi>. du <hi rend="underline">c</hi>. et du <hi rend="underline">z</hi>. la difference que font les Castillans c’est par
+                    cela qu’on a écrit indiferentement ces lettres pour le <hi rend="underline">s</hi> mexicain.</p>
+            <p> </p>
+            <p>4.</p>
+            <p>Je croirois pouvoir attribuer l’irrégularité qu’on rémarque par rapport au <hi rend="underline">tl</hi> prononcé comme <hi rend="underline">cl</hi> á la
+                    résemblance de ces deux prononciations: on aura cru au commencement qu’on disoit
+                        <hi rend="underline">tl</hi>, et on l’aura écrit ainsi: on aura observé
+                    aprés que la prononciation étoit <hi rend="underline">cl</hi> et l’écriture
+                    ayant deja passé en principe on l’aura conservé en rectifiant la prononciation.
+                    Les erreurs grossiers qu’on trouve dans les ouvrages des conquerants me le
+                        fairoient<note type="footnote" resp="editor">Geschrieben: "fairoit"</note>
+                    croire: il n’y a que voir la maniere dans la quelle <persName ref="hcortes">Cortés</persName> écrit dans ses lettres <foreign sameAs="nah">Temistitan</foreign>, <foreign sameAs="nah">Guatimozin</foreign>, et
+                    plusieurs autres mots qu’il auroit du bien connoitre, pour s’en convaincre: mais
+                    la reflexion de <persName ref="wvh">Mr. de Humboldt</persName> tirée des mots
+                    semblables de la langue Cora est tellement forte qu’elle parait detruire ma
+                    suposition et éxiger des récherches que je ne pourrois faire qu’au Méxique même:
+                    mais il est toujours certain que l’usage aujourduy est de prononcer <hi rend="underline">cl</hi>. et non pas <hi rend="underline">tl</hi> comme on
+                    écrit.</p>
+            <closer>
+               <signed>Alaman</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

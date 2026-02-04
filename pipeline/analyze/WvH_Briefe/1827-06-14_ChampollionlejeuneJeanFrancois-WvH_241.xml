@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jean-François Champollion le jeune an Wilhelm von Humboldt, 14.06.1827<idno type="BBAW">241</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, BJ, Coll. ling. fol. 49,
+                            Bl. 169–171</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Messling 2008, S. 391–395</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 203 </bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="iaguljanov">
+                  <persName>Gul’janov, Ivan Aleksandrovič</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="jpassalacqua">
+                  <persName>Passalacqua, Joseph</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="78">Champollion, Jean-François (1824): Précis du système hieroglyphique
+                    des anciens Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="1345">Champollion, Jean-François (1827): Lettre sur la découverte des
+                    hiéroglyphes acrologiques, adressée à M. le chev. de Goulianoff par M. Klaproth:
+                    Analyse critique de cet ouvrage. In: Bulletin universel des sciences et de
+                    l’industrie 7, n° 330, Avril 1827: S. 289–299</bibl>
+               <bibl corresp="1346">Klaproth, Heinrich Julius (1827): Lettre sur la découverte des
+                    hiéroglyphes acrologiques, adressée à M. le chevalier de Goulianoff, membre de
+                    l’Académie russe. Paris: Merlin</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Je profiterai du départ de Mr.
+                        Passalacqua …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jfchampollion">Champollion le jeune, Jean-François</persName>
+               <date type="author" when="1827-06-14"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="569" type="next">07.07.1827</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jfchampollion">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="cop">Koptisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">06. April 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_350.jpg"/>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_351.jpg"/>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_352.jpg"/>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_353.jpg"/>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_354.jpg"/>
+      <graphic url="Champollion/Champollion-WvH_1827_06_14/Coll.ling.fol.49_355.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="169r"/>
+               <dateline>Paris le 14 Juin 1827.</dateline>
+               <salute>Monsieur Le Baron,</salute>
+            </opener>
+            <p>Je profiterai du départ de <persName ref="jpassalacqua">mr
+                        Passalacqua</persName>
+               <note type="footnote" resp="editor">Giuseppe
+                        Passalacqua (1797–1865), Triester Pferdehändler, Ägyptenreisender,
+                        Archäologe und privater Sammler. 1827 erwarb <persName ref="fw3">Friedrich
+                            Wilhelm III.</persName> durch Vermittlung <persName ref="avh">Alexander
+                            von Humboldt</persName>s in Paris Passalacquas ägyptische Kunstschätze
+                        und ernannte diesen 1828 zum ersten Direktor des Ägyptischen Museums in
+                            <placeName ref="Berlin">Berlin</placeName>. Diesen Posten hatte
+                        Passalacqua zwar bis zu seinem Tod im Jahr 1865 inne, er musste ihn
+                        allerdings von 1855 an mit dem zu diesem Zeitpunkt längst viel berühmteren
+                        Carl Richard Lepsius teilen (Messling 2008, S. 391 Anm. 2). [FZ]</note>, qui
+                    se rend à <placeName ref="Berlin">Berlin</placeName>, pour me rappeler à votre
+                    souvenir et renouer des rapports bien précieux pour moi et que la vie presque
+                    Nomade que j’ai menée jusques ici m’a seule empéché d’entretenir comme je
+                    l’eusse desiré. Permettez moi en même temps de recommander <persName ref="jpassalacqua">Mr Passalacqua</persName> à toute votre bienveillance. Le
+                    beau choix de monuments qu’il a formé et que votre gouvernement vient
+                        d’<sic>acquerir</sic>, parlent assez haut en sa faveur. Je n’insisterai donc
+                    pas davantage sur ce point. </p>
+            <p>J’aime à espérer que la lettre que j’eus l’honneur de vous <sic>ecrire</sic>,
+                    l’an <sic>passè</sic>, de <placeName ref="Livorno">Livourne</placeName> et que
+                    je mis à la poste après avoir vainement cherché une voie plus sûre, vous sera
+                    parvenue <subst>
+                  <del>à</del>
+                  <add>en</add>
+               </subst> son temps: Elle contenait mes opinions sur plusieurs points qui
+                    attiraient alors votre attention, et que je serais peut être aujourd’hui plus en
+                        <sic>étât</sic> de discuter que je ne l’<sic>etais</sic> alors. Le peu de
+                    moments que l’organisation du <orgName ref="69">Musée Royal</orgName> laisse à
+                    ma libre disposition sont consacrés à étudier les matériaux nombreux que j’ai
+                    réunis pendant mon long voyage d’Italie; et cette étude confirme d’abord
+                    pleinement la certitude des Principes généraux que j’ai exposé dans <bibl sameAs="78">le Précis du Système hieroglyphique</bibl>, et <sic>etend</sic>,
+                    chaque jour d’avantage nos connaissances sur les détails du mécanisme de cette
+                    singuliere écriture. </p>
+            <p>
+               <pb n="169v"/> Mes résultats principaux portent sur un point capital de ce
+                        Systême<supplied cert="high">.</supplied> Les <hi rend="underline">Déterminatifs</hi>, <sic>espece</sic> de caractères que j’avais très
+                        <sic>lègèrement</sic> indiquée dans <bibl sameAs="78">mon précis</bibl> mais
+                    qui joue un rôle fort important dans l’Ecriture hiéroglyphique. Des occupations
+                    obligées ne me permettant pas de publier ces résultats de longtemps encore, je
+                    crois, Monsieur Le Baron, que vous accorderez quelque <sic>interet</sic> au
+                    rapide exposé <del>
+                  <gap quantity="3" unit="chars"/>
+                  <gap quantity="3" unit="chars"/>
+               </del> de la théorie des <hi rend="underline">Déterminatifs</hi> que je trace ici à la hâte.</p>
+            <p>J’ai reconnu en <sic>effèt</sic> plusieurs <del>especes</del> classes de <sic>
+                  <hi rend="underline">determinatifs</hi>
+               </sic>
+            </p>
+            <p>1° Les <hi rend="underline">déterminatifs</hi> de <hi rend="underline">Genre</hi>
+                    ou <hi rend="underline">d’Espèce</hi>: Tels sont les caractères <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/001.svg"/>
+               </foreign>
+               <hi rend="underline">homme</hi> et <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/002.svg"/>
+               </foreign>
+               <hi rend="underline">femme</hi> placés non seulement à la suite des <hi rend="underline">noms propres</hi> des deux sexes, mais encore à la suite de
+                        <hi rend="underline">noms communs</hi> tels que <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/003.svg"/>
+               </foreign>
+               <foreign sameAs="Egyd">ⲥⲛ</foreign> (copte <foreign sameAs="cop">ⲥⲟⲛ</foreign>) frère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/004.svg"/>
+               </foreign>
+               <sic>
+                  <hi rend="underline">Pere</hi>
+               </sic>, <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/005.svg"/>
+               </foreign>
+               <hi rend="underline">sœur</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/006.svg"/>
+               </foreign>
+               <hi rend="underline">Mère</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/007.svg"/>
+               </foreign>
+               <hi rend="underline">Prêtre – Prophète</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/008.svg"/>
+               </foreign>
+               <hi rend="underline">scribe</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/009.svg"/>
+               </foreign>
+               <hi rend="underline">serviteur</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/010.svg"/>
+               </foreign>
+               <hi rend="underline">servante</hi> etc. etc.</p>
+            <p>2° Les<hi rend="underline"> Déterminatifs figuratifs</hi>, placés à la suite des
+                    groupes Symboliques ou Phonetiques et représentant l’<sic>objèt</sic> exprimé
+                    par ces groupes comme <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/011.svg"/>
+               </foreign>
+               <hi rend="underline">Osiris</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/012.svg"/>
+               </foreign>
+               <hi rend="underline">Isis</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/013.svg"/>
+               </foreign>
+               <hi rend="underline">Phtah</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/014.svg"/>
+               </foreign>
+               <hi rend="underline">Mandou</hi> etc.</p>
+            <p>L’Ecriture Egyptienne Phonétique ne traçant que les consonnes et les voyelles
+                    radicales des mots, à la <sic>maniere</sic> arabe, il devait arriver qu’un même
+                    Groupe <sic>Phonetique</sic> pouvait être pris dans plusieurs acceptions
+                    différentes selon que l’on suppléait telle ou telle voyelle <del>[<gap quantity="2" unit="chars"/>]di</del> entre les consonnes radicales. On
+                    eut donc recours, pour fixer la <sic>veritable</sic> prononciation du mot, a des
+                    caractères <sic>
+                  <hi rend="underline">determinatifs</hi>
+               </sic> qui indiquaient
+                    clairement la <sic>veritable</sic> prononciation du groupe.</p>
+            <p>Autant que possible ces <hi rend="underline">Déterminatifs</hi>, représentaient
+                    au propre l’<sic>objèt</sic> dont le groupe phonétique précédant exprimait le
+                        nom<supplied cert="high">.</supplied> C’etait donc encore là des <sic>
+                  <hi rend="underline">Determinatifs</hi>
+               </sic>
+               <hi rend="underline">figuratifs</hi>: cette sorte de <sic>caracteres</sic>
+                    Images se joignait<supplied cert="high">.</supplied>
+            </p>
+            <p>1° aux Groupes <sic>Phonetiques</sic> exprimant des noms communs: comme:</p>
+            <p>
+               <pb n="170r"/>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/015.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲥⲱϩ</foreign>) <hi rend="underline">crocodile</hi>;
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/016.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲱⲣⲱ</foreign>
+               <hi rend="underline">Basilic</hi>
+               <foreign sameAs="cop">ⲟⲩⲣⲱ</foreign>
+               <hi rend="underline">aspic</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/017.svg"/>
+               </foreign> copte
+                        <foreign sameAs="cop">ⲃⲏϫ</foreign>
+               <hi rend="underline">Epervier</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/018.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲣⲓⲣ</foreign>) <hi rend="underline">Porc</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/019.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲉϩⲉ</foreign>) Bœuf <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/020.svg"/>
+               </foreign> (copte <foreign sameAs="cop">ⲉϩⲏⲟⲩ</foreign>) <hi rend="underline">Bœufs</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/021.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲥⲉⲣ</foreign>
+               <hi rend="underline">Giraffe</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/022.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϭⲁϩⲥⲓ.ϯ.</foreign>) <hi rend="underline">Chèvre
+                        Sauvage</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/023.svg"/>
+               </foreign>
+                        (<add>copte</add>
+               <foreign sameAs="cop">ϣⲁⲩ</foreign>) <hi rend="underline">chat</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/024.svg"/>
+               </foreign>
+               <add>copte)</add>
+               <foreign sameAs="cop">ϩϥⲱ</foreign>
+               <foreign sameAs="cop">ϩⲱϥ</foreign>
+               <hi rend="underline">Serpent</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/025.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲛⲟⲩⲣⲉ</foreign>) <hi rend="underline">Vautour</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/026.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϩⲧⲱⲱⲣ</foreign>) <hi rend="underline">Chevaux</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/027.svg"/>
+               </foreign>
+                        (<foreign sameAs="cop">ϩⲓⲃ</foreign>) <hi rend="underline">Ibis</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/028.svg"/>
+               </foreign>
+                        (<add>copte</add>
+               <foreign sameAs="cop">ⲟⲃϩⲉ</foreign>) <hi rend="underline">Dents</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/029.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲣⲁⲧ</foreign>) <hi rend="underline">jambes</hi>;
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/030.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲧⲉⲛϩ</foreign>) <hi rend="underline">ailes</hi>;
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/031.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/032.svg"/>
+               </foreign>
+                        (<foreign sameAs="cop">ⲃⲁ</foreign> ou <foreign sameAs="cop">ⲃⲁⲁ</foreign>) <hi rend="underline">Barque</hi> d’où <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/033.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲃⲁⲁⲣⲏ</foreign>
+               <hi rend="underline">Bari</hi> = La barque du soleil = <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/034.svg"/>
+               </foreign> copte <foreign sameAs="cop">ⲥⲟⲩⲟ̀</foreign>
+               <hi rend="underline">froment</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/035.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲥϣⲛⲓⲛ</foreign>
+               <hi rend="underline">Le Lotus</hi> d’où l’arabe <foreign sameAs="arb">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/036.svg"/>
+               </foreign>
+               <foreign sameAs="arb">
+                  <hi rend="underline">Baschnin</hi>
+               </foreign> accru de
+                    l’article masculin, nom du Lotus en Egypte: <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/037.svg"/>
+               </foreign> ou
+                    simplement <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/038.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲛⲟⲩϩⲓ.ⲧ.</foreign>) <hi rend="underline">Le
+                        Sycomore</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/039.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϩⲣⲏⲣⲉ</foreign>) <hi rend="underline">fleurs</hi>;
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/040.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲯⲓϯ ⲡⲉⲧⲉ</foreign>) <hi rend="underline">Arc</hi>;
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/041.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲃⲁⲥ.ⲧ.</foreign>) <hi rend="underline">Scie</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/042.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϩⲛⲁⲁⲩ</foreign>) <hi rend="underline">Vases</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/043.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲥⲱⲟⲩϩ</foreign>) <hi rend="underline">œuf</hi>
+               <del>mot</del> nom qui entre dans la composition de celui du crocodile = etc.
+                    etc. etc.</p>
+            <p>2° Ces <sic>
+                  <hi rend="underline">determinatifs</hi>
+               </sic>
+               <hi rend="underline">figuratifs</hi> suivaient <add>aussi</add> les Groupes exprimant des
+                        <del>actions</del> verbes comme <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/044.svg"/>
+               </foreign> ou bien
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/045.svg"/>
+               </foreign> copte
+                        <foreign sameAs="cop">ϯⲉⲟⲟⲩ</foreign>
+               <hi rend="underline">adorer</hi>, <hi rend="underline">glorifier</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/046.svg"/>
+               </foreign>
+                        (<foreign sameAs="Egyd">ⲧⲣⲃ</foreign>) copte <foreign sameAs="cop">ⲧⲃⲏⲣ</foreign>
+               <hi rend="underline">Danser</hi> etc. Mais ils sont rares.</p>
+            <p>3° La <sic>troisieme</sic>
+               <sic>espece</sic> de <hi rend="underline">Figuratifs</hi> est <hi rend="underline">Symbolique</hi> ou <hi rend="underline">Tropique</hi>: ou
+                    plaçait après le Groupe Phonétique l’image d’un objet <hi rend="underline">en
+                        rapport</hi> avec celui que le Groupe <sic>Phonetique</sic> exprimait: ces
+                    déterminatifs accompagnent<supplied cert="high">.</supplied>
+            </p>
+            <p>A. Les Groupes Phonet. <sic>representant</sic> des noms: comme: <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/047.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲏⲣⲡ</foreign>
+               <supplied cert="high">)</supplied>
+               <hi rend="underline">Vin</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/048.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲉⲣⲱⲧⲉ.ⲧ.</foreign>) <hi rend="underline">Lait</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/049.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/050.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲥⲕⲁⲓ</foreign>) <hi rend="underline">Labourage</hi>
+                    = <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/051.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϩⲓⲕ.ⲧ.</foreign>) <hi rend="underline">Liqueur
+                        précieuse</hi>, <hi rend="underline">Remède</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/052.svg"/>
+               </foreign> (copte <foreign sameAs="cop">ⲣⲁⲛ</foreign>) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/053.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲁϣϫ</foreign>
+               <foreign sameAs="cop">ⲙⲁⲥϫ</foreign>) <hi rend="underline">oreilles</hi> en
+                    général <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/054.svg"/>
+               </foreign>
+                        (<foreign sameAs="Egyd">ⲟⲩⲩⲛ</foreign>) copte <foreign sameAs="cop">ⲟⲩⲱⲉⲓⲛ</foreign>
+               <sic>
+                  <hi rend="underline">Lumiere</hi>
+               </sic>, <hi rend="underline">clarté</hi>
+                    etc. etc. <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/055.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/056.svg"/>
+               </foreign> copte
+                        <foreign sameAs="cop">ϭⲱⲣϩ</foreign>, <foreign sameAs="cop">ϭⲱⲣⲁϩ</foreign>
+               <hi rend="underline">La nuit</hi>, <foreign sameAs="la">
+                  <hi rend="underline">nox</hi>
+               </foreign>. </p>
+            <p>
+               <pb n="170v"/> B. ces <sic>determinatifs</sic> suivent également les Groupes
+                    Phonétiques exprimant des verbes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/057.svg"/>
+               </foreign> pour
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/058.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲓ</foreign>, <foreign sameAs="cop">ⲉⲓ</foreign>)
+                        <hi rend="underline">aller <foreign sameAs="la">ire</foreign>
+               </hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/059.svg"/>
+               </foreign> pour
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/060.svg"/>
+               </foreign> (copte
+                    theb. <foreign sameAs="cop">ⲛ̅</foreign>, <foreign sameAs="cop">ⲉⲛ</foreign>) <hi rend="underline">mener</hi>, <hi rend="underline">conduire</hi>: <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/061.svg"/>
+               </foreign> (copte
+                    ⲥⲱ, <foreign sameAs="cop">ⲥⲁⲩ</foreign>) <hi rend="underline">Boire</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/062.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲟⲟⲛⲉ</foreign>) <hi rend="underline">arriver aux
+                        port</hi>
+               <sic>
+                  <hi rend="underline">debarquer</hi>
+               </sic>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/063.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲟⲟⲛⲉ</foreign>, <foreign sameAs="cop">ⲙⲟⲛⲓ</foreign>) <hi rend="underline">Nourrir</hi> Le déterminatif
+                    représente deux <hi rend="underline">Mamelles</hi> que l’on retrouve en
+                        <sic>effèt</sic> en <hi rend="underline">déterminatif figuratif</hi> dans le
+                    mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/064.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲛⲟⲧ</foreign>) <hi rend="underline">Les
+                        mamelles</hi>, aussi bien que dans le mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/065.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲁⲁⲛⲓ.ⲧ.</foreign>) <hi rend="underline">Nourrice</hi>, <foreign sameAs="la">
+                  <hi rend="underline">Nutrix</hi>
+               </foreign>. = <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/066.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲙⲟⲛⲭ</foreign>, <foreign sameAs="cop">ⲙⲟⲩⲛⲕ</foreign>) <foreign sameAs="la">
+                  <hi rend="underline">formare</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">dare
+                            formam</hi>
+               </foreign> selon la forme<supplied cert="high">.</supplied>
+                    Le nom <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/067.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲙⲟⲛⲭ-ⲛⲟⲩⲃ</foreign> (copte idem) <hi rend="underline">orfèvre</hi>, travailleur <hi rend="underline">d’or</hi> = Le déterminatif
+                    tropique <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/068.svg"/>
+               </foreign> est ou
+                    une <hi rend="underline">Truelle</hi> ou un maillet. = <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/069.svg"/>
+               </foreign>
+               <foreign sameAs="Egyd">ⲥϩⲧ</foreign> (copte <foreign sameAs="cop">ⲥⲁϩⲧ</foreign>, <foreign sameAs="cop">ⲥⲉϩⲧ</foreign>) <hi rend="underline">faire de la toile tisser</hi>, <foreign sameAs="la">
+                  <hi rend="underline">texere</hi>
+               </foreign> = <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/070.svg"/>
+               </foreign> (copte <foreign sameAs="cop">ⲥⲟⲩⲱⲛ</foreign>) <hi rend="underline">ouvrir</hi>, <hi rend="underline">rendre patent</hi> (Le
+                        <sic>determinatif</sic> est un battant de Porte <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/071.svg"/>
+               </foreign>) etc. etc. = Enfin les deux caractères <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/072.svg"/>
+               </foreign> et <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/073.svg"/>
+               </foreign> sont
+                    outre cela des <sic>
+                  <hi rend="underline">determinatifs</hi>
+               </sic> très fréquents
+                    des Groupes <sic>Phonetiques</sic> exprimant <hi rend="underline">des Verbes
+                        actifs</hi> ou <hi rend="underline">Les verbes d’action</hi>
+               <sic>recoivent</sic> ordinairement le <sic>determinatif</sic>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/074.svg"/>
+               </foreign> Le
+                    signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/075.svg"/>
+               </foreign> indique
+                    des verbes de <hi rend="underline">mouvement</hi> et souvent aussi, ce que je ne
+                    conçois pas, des <hi rend="underline">verbes Neutres</hi>, exprimant des
+                        <sic>manieres</sic> d’Etre: Voici quelques Exemples: <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/076.svg"/>
+               </foreign>
+               <hi rend="underline">ouvrir</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/077.svg"/>
+               </foreign>
+               <foreign sameAs="Egyd">ⳓⲡ</foreign> (copte <foreign sameAs="cop">ⳓⲟⲡ</foreign> et <foreign sameAs="cop">ϣⲱⲡ</foreign>) <hi rend="underline">Prendre saisir</hi>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/078.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ⲧⲱⲣ</foreign>) <sic>
+                  <hi rend="underline">transfigère</hi>
+               </sic>; <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/079.svg"/>
+               </foreign> (copte
+                        <foreign sameAs="cop">ϥⲁⲓ</foreign>, <foreign sameAs="cop">ϥⲓ</foreign>)
+                        <hi rend="underline">Porter</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/080.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/081.svg"/>
+               </foreign> copte
+                        <foreign sameAs="cop">ⲛⲟϩⲙ̅</foreign>
+               <add>
+                  <sic>
+                     <hi rend="underline">delivrer</hi>
+                  </sic>, <hi rend="underline">sauver</hi>
+               </add>, d’où le nom de <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1827_06_14/082.svg"/>
+               </foreign> que je
+                    transcris en copte <foreign sameAs="cop">ⲛⲁϩⲙⲉⲥ-ⲣⲏ(ⲛ̅)ⲑⲟ</foreign>. c. a. d.
+                        <hi rend="underline">Le Soleil du Monde a sauvé elle</hi>: <hi rend="underline">celle que le Soleil a sauvée</hi>
+               <supplied cert="high">.</supplied>
+            </p>
+            <p>
+               <pb n="171r"/> Cette connaissance des <sic>
+                  <hi rend="underline">Determinatifs</hi>
+               </sic> des trois Espèces m’est devenue très utile
+                    pour l’analyse des textes <sic>hieroglyphiques</sic>: Je le considère comme un
+                    très grand pas pour l’avancement des Etudes Egyptiennes et je regrette que le
+                    prompt départ de <persName ref="jpassalacqua">Mr Passalacqua</persName> ne me
+                    permette point d’entrer dans de plus Grands détails, sur l’origine et les
+                    conséquences de l’Emploi de cette sorte de caractères. J’aurais à vous parler
+                    également <del>d une</del>
+               <unclear>d’un</unclear> autre genre de <sic>determinatifs</sic> que
+                    j’appellerais <hi rend="underline">déterminatifs de classes</hi> ou <hi rend="underline">d’ordres</hi> et qui s’adjoignent à un très Grand nombre de
+                    Groupes <sic>phonetiques</sic> tel par exemple que le <sic>caractere</sic>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/083.svg"/>
+               </foreign> ou bien
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/084.svg"/>
+               </foreign>
+               <hi rend="underline">Signe des Richesses</hi> en général: on l’observe en
+                        <sic>effèt</sic>
+               <sic>joints</sic> aux mots ou Signes Symboliques <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/085.svg"/>
+               </foreign> ou <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/086.svg"/>
+               </foreign>
+               <hi rend="underline">Parfums</hi>, <hi rend="underline">aromates</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/087.svg"/>
+               </foreign>
+               <hi rend="underline">or</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/088.svg"/>
+               </foreign>
+               <hi rend="underline">argent</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/089.svg"/>
+               </foreign>
+               <foreign sameAs="Egyd">ϩⲛⲙⲧ</foreign> (copte <foreign sameAs="cop">ϩⲟⲙⲛⲧ</foreign>, <foreign sameAs="cop">ϩⲟⲙⲧ</foreign>) <hi rend="underline">cuivre</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1827_06_14/090.svg"/>
+               </foreign>
+               <foreign sameAs="Egyd">ϩⲥⲙⲛ</foreign> (copte <foreign sameAs="cop">ϩⲁⲥⲙ</foreign>) <hi rend="underline">Natron</hi>, <hi rend="underline">Sel
+                        de Nitre</hi> et en général à tous les noms de <hi rend="underline">métaux</hi> et de <sic>
+                  <hi rend="underline">matieres</hi>
+               </sic>
+               <hi rend="underline">minérales</hi>, et à ceux <hi rend="underline">des
+                        couleurs</hi>, que les Egyptiens tiraient aussi des minéraux.</p>
+            <p>Vous avez sans doute, Monsieur Le Baron, entendu parler des <hi rend="underline">hieroglyphes</hi>
+               <hi rend="underline">acrologiques</hi> de MM. <persName ref="iaguljanov">Goulianoff</persName> et <persName ref="jhklaproth">Klaproth</persName>
+               <note type="footnote" resp="editor">Dazu siehe Messling
+                        2008, S. 162f. Anm. 316. [FZ]</note>: j’ai donné mon opinion <bibl sameAs="1346">sur cette prétendue découverte</bibl> dans <bibl sameAs="1345">une
+                        brochure</bibl> dont je joins <del>ici</del> quelques Exemplaires à cette
+                    lettre. <persName ref="jhklaproth">Mr Klaproth</persName> a cru me répondre en
+                    prouvant que les mots dont il se sert et que j’ai déclarés n’<sic>etre</sic>
+                    point <hi rend="underline">Egyptiens</hi>, se trouvent dans les vocabulaires <hi rend="underline">coptes</hi>. Il sait cependant aussi bien que moi que dans
+                    les Livres comme dans les Dictionaires Coptes, <del>les</del> certains mots sont
+                    vraiment Egyptiens et que d’autres ne le sont pas. Mais il a voulu
+                        <sic>repondre</sic> quelque chose. Pour moi considérant cette discussion
+                    comme terminée, je ne perdrai pas mon temps à répondre aux ratiocinations de
+                    deux <sic>personne</sic> qui veulent traiter une matière dont ils ne savent pas
+                    même les premiers Eléments. J’en agirai de même avec <persName ref="gseyffarth">Mr Seyffarth</persName>: me contentant de poursuivre mes <pb n="171v"/>
+                    recherches dans la seule direction qui me paraisse bonne. Je
+                        <sic>repondrai</sic> ainsi par des faits positifs à toutes les vaines
+                    hypothèses et aux <sic>Exigeances</sic> de ceux qui se figurent qu’on retrouve
+                    en un tour de main la clef d’un <sic>Systême</sic> aussi compliqué que
+                        <add>celui</add> des Ecritures Egyptiennes. Je me trouve à <placeName ref="Paris">Paris</placeName> dans une singulière position. Les Bons esprits
+                    capables de juger de la <sic>verité</sic> de ma méthode et de <bibl sameAs="78">mon Systême hieroglyphique</bibl>, se contentent <subst>
+                  <del>à</del>
+                  <add>de</add>
+               </subst> donner une approbation tacite <del>mais</del> et ne disent pas un seul
+                    mot pour la défendre, quoiqu’<sic>il</sic> connaissent <sic>a</sic> fond le peu
+                    de portée des objections et des Chicanes que l’on cherche à me faire. Je crois
+                    avoir pris le bon parti: celui de continuer mes travaux en me passant de
+                    l’approbation publique des vues et en ne donnant aucune attention aux attaques
+                    des autres. Je trouve la seule <sic>recompense</sic> que je doive ambitionner,
+                    dans l’<sic>Intéret</sic> que des Personnes, telles que Vous, Monsieur le Baron,
+                    veulent bien accorder aux efforts que je tente pour la solution d’un
+                        <sic>Problême</sic> tel que l’Ecriture <sic>hieroglyphique</sic>. De tels
+                    encouragements me flattent et soutiennent mon ardeur.</p>
+            <closer>
+               <salute>Permettez moi de renouveller ici l’Espression des Sentiments de
+                        Respect et de Dévouement avec lesquels j’ai l’honneur d’être,<lb/>Monsieur
+                        Le Baron,<lb/>votre très humble et tres<lb/>
+                  <sic>obeissant</sic>
+                        serviteur</salute>
+               <signed>JF. Champollion lej</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

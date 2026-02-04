@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 02. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Wilhelm Koppe an Wilhelm von Humboldt, 25.04.1830<idno type="BBAW">397</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 109–115</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 211</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jaaldamayguevara">
+                  <persName>Aldama y Guevara, José Agustín</persName>
+               </person>
+               <person corresp="parenas">
+                  <persName>Arenas, Pedro de</persName>
+               </person>
+               <person corresp="favila">
+                  <persName>Avila, Francisco de</persName>
+               </person>
+               <person corresp="hocarochi">
+                  <persName>Carochi, Horacio</persName>
+               </person>
+               <person corresp="ccastillo">
+                  <persName>Castillo, Christoval del</persName>
+               </person>
+               <person corresp="doucet">
+                  <persName>Doucet</persName>
+               </person>
+               <person corresp="dpgonzalez">
+                  <persName>Gonzalez, Diego Pablo</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego González</persName>
+               </person>
+               <person corresp="mdeleon">
+                  <persName>Leon, Martin de</persName>
+               </person>
+               <person corresp="bdelugo">
+                  <persName>Lugo, Bernardo de</persName>
+               </person>
+               <person corresp="jmijangos">
+                  <persName>Mijangos, Juan de</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="iparedes">
+                  <persName>Paredes, Ignacio de</persName>
+               </person>
+               <person corresp="mperes">
+                  <persName>Peres, Manuel</persName>
+               </person>
+               <person corresp="jplock">
+                  <persName>Plock, Julius</persName>
+               </person>
+               <person corresp="jmripalda">
+                  <persName>Ripalda, Jerónimo Martínez de</persName>
+               </person>
+               <person corresp="grivera">
+                  <persName>Rivera, Gregorio</persName>
+               </person>
+               <person corresp="amdelarosa">
+                  <persName>Rosa, Antonio Maria de la</persName>
+               </person>
+               <person corresp="rsandoval">
+                  <persName>Sandoval, Rafael</persName>
+               </person>
+               <person corresp="hternaux">
+                  <persName>Ternaux, Henry</persName>
+               </person>
+               <person corresp="cuhde">
+                  <persName>Uhde, Carl Adolf</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="13">Aldáma y Guevára, José Augustin de: Arte de la lengua Mexicana
+                    (Mexiko: En la Imprenta nueva de la Bibliotheca Mexicana 1754)</bibl>
+               <bibl corresp="28">Arenas, Pedro de: Vocabulario manual de las lenguas castellana y
+                    mexicana (Mexiko: Bernardo Calderon 1611)</bibl>
+               <bibl corresp="39">Avila, Francisco de: Arte de la lengua mexicana (Mexiko: Ribera
+                    Calderõ 1717)</bibl>
+               <bibl corresp="491">Bárenca, Alfonso / Bertonio, Ludovico / del Canto, Francisco / de
+                    Santo Tomás, Domingo / Holguín, Diego Gonzáles / de Torres Rubio, Diego: Arte, y
+                    Vocabulario en la lengua general del Peru, llamada Quichua, y en la lengua
+                    Española. El mas coposio y elegante, que hasta agora se ha impresso (Lima:
+                    Francisco del Canto 1614)</bibl>
+               <bibl corresp="326">Carochi, Horacio / Paredes, Ignacio de: Compendio del Arte de la
+                    Lengua Mexicana (Mexiko: Imprenta de la Bibliotheca mexicana 1759)</bibl>
+               <bibl corresp="776">Castaño, Bartolomé / Ripalda, Gerónimo de / Paredes, Ignacio de:
+                    Catecismo mexicano, que contiene toda la doctrina christiana con todas sus
+                    declaraciones; en que el Ministro de Almas hallarà, lo que á estas debe enseñar;
+                    y estas hallarán lo que, para salvarse, deben saber, creer, y observar:
+                    dispusolo primeramente en castellano Geronymo de Ripalda de la Compañia de
+                    Jesus; y despues para la comun utilidad de los Indios (Mexiko: En la Imprenta de
+                    la Bibliotheca Mexicana 1758)</bibl>
+               <bibl corresp="848">Doctrina christiana, y catecismo para instruccion de los indios, y
+                    de las de mas personas, que han de ser enseñadas en nuestra sancta Fé. Con un
+                    confessionario, y otras cosas necessarias para los que doctrinan, que se
+                    contienen en la pagina siguiente. Compuesto por auctoridad del Concilio
+                    Provincial, que se celebro en la Ciudad de los Reyes, el año de 1583. Y por la
+                    misma traduzido en las dos lenguas generales, de este Reyno, Quichua, y Aymara
+                    (Ciudad de los Reyes [Lima]: por Antonio Ricardo 1584)</bibl>
+               <bibl corresp="152">González, Diego Pablo: Manual para administrar á los Indios del
+                    idioma Cahita (Mexiko: Maria de Rivera 1740)</bibl>
+               <bibl corresp="151">González Holguín, Diego: Vocabulario de la lengua general de todo
+                    el Peru llamada lengua Qquichua ó del Inca (Ciudad de los Reyes: Francisco del
+                    Canto 1608)</bibl>
+               <bibl corresp="108">La Salle de L’Étang, Simon Philibert de / Pelleprat, Pierre:
+                    Dictionnaire galibi, présenté sous deux formes: I° Commençant par le mot
+                    françois; II° Par le mot Galibi. Precédé d’un essai de grammaire (Paris: Bauche
+                    1763)</bibl>
+               <bibl corresp="263">León, Martin de: Camino para el cielo en lengua Mexicana (Mexiko:
+                    Diego Lopez Daualos 1611)</bibl>
+               <bibl corresp="264">León, Martin de: Catecismo, Confesonario y Arte de bien morir en
+                    Mejicano</bibl>
+               <bibl corresp="271">Lugo, Bernardo de: Gramática en la lengua general del Nuevo Reyno,
+                    llamada Mosca (Madrid: Bernardino de Guzmann 1619)</bibl>
+               <bibl corresp="294">Mijangos, Juan: Primera parte del sermonario, dominical, y
+                    sanctoral en lengua mexicana (Mexiko: Iuan de Alcaçar 1624)</bibl>
+               <bibl corresp="298">Molina, Alonso de: Confessionario mayor, en lengua mexicana y
+                    castellana (Mexiko: Antonio de Spinosa 1565)</bibl>
+               <bibl corresp="780">Molina, Alonso de: Confesionario mayor en la lengua mexicana y
+                    castellana (Mexiko: Pedro Balli 1578)</bibl>
+               <bibl corresp="61">Nieto Polo, Tomás: Breve Instruccion, o arte para entender la lengua
+                    comun de los Indios, segun se habla en la Provincia de Quito (Lima: En la
+                    imprenta de la Plazuela de San Christoval 1753)</bibl>
+               <bibl corresp="328">Paredes, Ignacio de: Promptuario manual mexicano (Mexiko:
+                    Bibliotheca Mexicana 1759)</bibl>
+               <bibl corresp="330">Peres, Manuel: Cathecismo romano, traducido en Castellano y
+                    Mexicano (Mexiko: Francisco de Rivera Calderon 1723)</bibl>
+               <bibl corresp="359">Rivera, Gregorio: Silabario de la lengua mexicana (Mexiko: D.
+                    Mariano Ontiveros 1818)</bibl>
+               <bibl corresp="383">Sandoval, Rafael: Arte de la lengua mexicana (Mexiko: D. Manuel
+                    Antonio Valdés 1810)</bibl>
+               <bibl corresp="87">Saville, Marshall H.: Clara y sucinto esposicion del pegueño
+                    Catecismo (Puebla: S. Felipe Neri 1819)</bibl>
+               <bibl corresp="428">The Gospels according to St. Matthew, St. Mark, St. Luke, and St.
+                    John: translated into the language of the Esquimaux Indians, on the Coast of
+                    Labrador; by the Missionaries of the Unitas Fratrum; or, United Brethren:
+                    (London: Dowall 1813)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Eure Exzellenz bitte ich um Erlaubniß nachfolgende kurze
+                        Rechenschaft von demjenigen ablegen zu dürfen, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cwkoppe">Koppe, Carl Wilhelm</persName>
+               <date type="author" when="1830-04-25"/>
+               <placeName key="Mexiko-Stadt">Mexiko-Stadt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="">Cahita</language>
+            <!-- Kürzel???, Cáhita = Yaqui (yaq), Mayo (mfy)-->
+            <language ident="myn">Maya Sprachen</language>
+            <language ident="nah">Mexikanisch (Nahuatl)</language>
+            <language ident="oto">Otomi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">02. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_229.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_230.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_231.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_232.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_233.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_234.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_235.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_236.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_237.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_238.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_239.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_240.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_241.jpg"/>
+      <graphic url="Koppe/Koppe-WvH_1830_04_25/Coll.ling.fol.52_242.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="109r"/>
+               <dateline>Mexico den 25<hi rend="superscript">ten</hi> April 1830</dateline>
+            </opener>
+            <p>Euer Excellenz bitte ich um Erlaubniß nachfolgende kurze Rechenschaft von
+                    demjenigen ablegen zu dürfen, was seit meiner Ankunft auf mexicanischem Gebiete
+                    am <date when="1830-02-20">20<hi rend="superscript">ten</hi>
+                  <hi rend="antiqua"> Febr.</hi>
+               </date> und in der <placeName ref="Mexiko-Stadt">Hauptstadt</placeName> am <date when="1830-03-08">8<hi rend="superscript">ten</hi> <hi rend="antiqua">Maerz</hi> ct.</date>, zur Erledigung der literarischen Aufträge meinerseits hat geschehen
+                    können, mit welchen Euer Excellenz durch das gewogentliche Schreiben vom <date when="1829-07-28">28<hi rend="superscript">ten</hi> <hi rend="antiqua">July</hi> p.</date> mich beehrt haben.</p>
+            <p>In der Anlage überreiche ich eine Liste der, nach Ihrer Anweisung, bisher für
+                    Euer Excellenz gesammelten Bücher, welche zur Absendung bei mir bereit liegen.
+                    Wahrscheinlich wird sie der, in einigen Monaten von <placeName ref="Veracruz">
+                  <hi rend="antiqua">VeraCruz</hi>
+               </placeName> nach Europa zurückkehrende Kaufmann <persName ref="jplock">
+                  <hi rend="antiqua">Plock</hi>
+               </persName> mitnehmen und Euer Excellenz selbst zu überreichen die Ehre haben,
+                    für welchen Fall ich diesen sehr gebildeten und tüchtigen jungen Landsmann Euer
+                    Excellenz Gewogenheit zu empfehlen, mir erlaube. Ueber die Bücher selbst,
+                    bemerke ich Folgendes:</p>
+            <p>1., Die von <persName ref="iparedes">
+                  <hi rend="antiqua">Paredes</hi>
+               </persName> herausgegebene <bibl sameAs="326">Grammatik</bibl> <pb n="109v"/> des p. <persName ref="hocarochi">
+                  <hi rend="antiqua">Carochi</hi>
+               </persName>, wird Euer Excellenz hoffentlich um so weniger unwillkommen seyn,
+                    als Sie das <bibl sameAs="328">
+                  <hi rend="antiqua">
+                     <sic>Promtuario</sic> manual mexicano</hi>
+               </bibl> <persName ref="iparedes">desselben Herausgebers</persName> schon
+                    in Ihrer Sammlung besitzen.</p>
+            <p>2., Von den in der Liste enthaltenen Werken werden </p>
+            <p>a. Die <bibl sameAs="39">Grammatik</bibl> des <persName ref="favila">
+                  <hi rend="antiqua">Fray de Avila</hi>
+               </persName> vom Jahre 1717</p>
+            <p>b. der <bibl sameAs="263">
+                  <hi rend="antiqua">Camino para el cielo</hi>
+               </bibl> des <persName ref="mdeleon">
+                  <hi rend="antiqua">Fray de Leon</hi>
+               </persName> vom Jahre 1611.</p>
+            <p>c. der <bibl sameAs="294">
+                  <hi rend="antiqua">Sermonario dominical y santoral</hi>
+               </bibl> vom Jahre 1624 – wovon leider bis jetzt nur der erste Theil
+                    aufzutreiben gewesen.</p>
+            <p>d. der <bibl sameAs="298">
+                  <hi rend="antiqua">Confesonario</hi>
+               </bibl> des p. <persName ref="ademolina">
+                  <hi rend="antiqua">Molina</hi>
+               </persName> vom Jahre 1578.</p>
+            <p>e. der <bibl sameAs="264">
+                  <hi rend="antiqua">Catecismo</hi>
+               </bibl> pp. des <persName ref="mdeleon">
+                  <hi rend="antiqua">Fray de Leon</hi>
+               </persName>; endlich</p>
+            <p>f. das <bibl sameAs="152">
+                  <hi rend="antiqua">Manual para administrar los sacramentos á los Indios del
+                            idioma <hi rend="underline">Cahita</hi>
+                  </hi>
+               </bibl> (: dessen Sitz zwischen den Flüßen <hi rend="antiqua">Mayo</hi> und <hi rend="antiqua">Hiaqui</hi> im Staat <hi rend="antiqua">Sonora</hi>)</p>
+            <p>hier zu 
+                        <hi rend="antiqua">Mexico</hi>
+                     als <hi rend="antiqua">libri rari</hi> und resp. <hi rend="antiqua">rarissimi</hi> behandelt; ich darf also annehmen, daß sie auch in Europa
+                    nicht gemein sind.</p>
+            <p>3. Die <hi rend="underline">roth</hi> unterstrichenen Werke sind diejenigen,
+                    welche der gelehrte <persName ref="amdelarosa">
+                  <hi rend="antiqua">Don Antonio Maria de la Rosa</hi>
+               </persName> zu <placeName ref="Puebla de los Angeles">
+                  <hi rend="antiqua">Puebla de los Angeles</hi>
+               </placeName>, laut seines hier beikommenden, an mich gerichteten Originalbriefes
+                    vom <date when="1830-04-21">21<hi rend="superscript">ten</hi> ct.</date> Euer
+                    Excellenz ersucht, als einen Tribut seiner Ihren literarischen Verdiensten <pb n="113r"/> gewidmeten Verehrung in Ihre <sic>Bibliotheck</sic> aufzunehmen.
+                    Die <hi rend="underline">schwarz</hi> Unterstrichenen habe ich von dem hiesigen
+                    Kaufmann <persName ref="cuhde">
+                  <hi rend="antiqua">Herrn Carlos Uhde</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="cuhde">Carl Adolf Uhde</persName> (1792–1856), deutscher Kaufmann und Südamerika-Sammler. Geschäftsaufenthalt in Mexiko von 1823 bis 1835.</note> bekommen, welcher gleichfalls, sobald er erfuhr, das sie für Euer
+                    Excellenz bestimmt wären, keine Vergütung dafür annehmen <hi rend="underline">wollte</hi>, und sich glücklich schätzt, wenn sie in Ihrer Sammlung einen
+                    Platz verdienen können.</p>
+            <p>4. Von folgenden drei Werken, welche Euer Excellenz bereits besitzen, oder resp.
+                    laut vorbenannter Liste jetzt erhalten,</p>
+            <p>a., <hi rend="antiqua">
+                  <bibl sameAs="328">Promptuario manual mexicano</bibl>, lo que dispuso el P.
+                            <persName ref="iparedes">Ignacio de Paredes</persName>. Mejico 1759.
+                        4.</hi>
+            </p>
+            <p>b., <hi rend="antiqua">
+                  <bibl sameAs="326">Compendio del arte de la lengua Mexicana</bibl> del P.
+                            <persName ref="hocarochi">Carochi</persName>, dispuesto por el P.
+                            <persName ref="iparedes">I. de Paredes</persName>. Mejico 1759. 4.</hi>
+            </p>
+            <p>c. <hi rend="antiqua">
+                  <bibl sameAs="383">Arte de la lengua Mejicana</bibl>, por <persName ref="rsandoval">D. Rafael Sandoval</persName>. Mejico 1810. 16.</hi>
+            </p>
+            <p>habe ich Doubletten, welche ich zwar für’s erste nicht mitsende, über welche aber
+                    Euer Excellenz jederzeit disponiren können, wenn Sie es etwa im Interesse der
+                    Sammlung eines literarischen Freundes oder Korrespondenten wünschenswerth
+                    finden.</p>
+            <p>Das Manuscript<!-- evtl. Cristóbal del Castillo, "Historia de la venida de los mexicanos y otros pueblos e Historia de la conquista" (MS um 1600)? --> des <persName ref="ccastillo">
+                  <hi rend="antiqua">Christoval de Castillo</hi>
+               </persName>, dessen Euer Excellenz in Ihrem geehrten Schreiben vom <date when="1829-07-28">28<hi rend="superscript">ten</hi> July p.</date> wünschen,
+                    existirt, wie man <sic>mich</sic> bestimmt versichert hat, <pb n="113v"/> in der
+                    <sic>
+                  <orgName ref="61">Bibliotheck</orgName>
+               </sic>
+               <!-- = La Biblioteca Turriana? --> der hiesigen Kathedralkirche. <sic>ich</sic> soll es
+                    nächstens zu sehn bekommen, und auch die Erlaubniß erhalten, beliebige
+                    Abschriften daraus nehmen zu laßen. <sic>ich</sic> darf also hoffen, zur
+                    baldigen Erledigung der, in Bezug auf dieses Manuscript mir ertheilten Aufträge
+                    in den Stand gesetzt zu werden.</p>
+            <p>Außerdem sind mir von mehreren Seiten her, Drucksachen und Manuscripte im Othomi
+                    und <sic>Mayaidialeckt</sic> versprochen worden. Auch hoffe ich, bis zum Monat
+                        <hi rend="antiqua">November</hi> oder <hi rend="antiqua">December</hi>, die
+                    von einem Pfarrer in Nord-<hi rend="antiqua">Sonora</hi> gesammelten Materialien
+                    zur Aufstellung eines Wörterbuchs und einer Grammatik des Hauptdialeckts der
+                    Indianischen Bewohner von Neu-Andalusien, handschriftlich, und mit der Erlaubniß
+                    Abschriften davon nehmen zu lassen, zu meiner Disposition zu erhalten.</p>
+            <p>Jedenfalls bitte ich Euer Excellenz überzeugt zu seyn, daß, während meines
+                    hiesigen Aufenthaltes, kein Fleiß von mir gespart werden soll, Ihre Zwecke zu
+                    fördern und dadurch besser als durch Worte die unbegränzte Verehrung Ihnen zu
+                    bethätigen, in welcher ich verharre</p>
+            <closer>
+               <salute>Euer Excellenz <lb/>ganz gehorsamster</salute>
+               <lb/>
+               <signed>
+                  <handShift scribe="cwkoppe"/>
+                  <note type="footnote" resp="editor">Mutmaßlich eigenhändige Unterschrift
+                            Koppes. Unterschrift unleserlich</note>
+               </signed>
+               <lb/>
+               <address>
+                  <addrLine>
+                     <handShift scribe="Schreiber"/> An</addrLine>
+                  <addrLine>des Königl. Geheimen Staatsministers</addrLine>
+                  <addrLine>Herrn Freyherrn <hi rend="antiqua">
+                        <hi rend="underline">Wilhelm v. Humboldt</hi>
+                     </hi>
+                  </addrLine>
+                  <addrLine>Excellenz</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <placeName ref="Berlin">
+                           <hi rend="underline">Berlin</hi>
+                        </placeName>
+                     </hi>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="110r"/> <hi rend="underline">Verzeichniß</hi>
+            </p>
+            <p>derjenigen Bücher, welche von <persName ref="cwkoppe">dem
+                        Unterzeichneten</persName>
+               <!-- persname = Koppe; so korrekt? --> an S<hi rend="superscript">r</hi>. Excellenz den Staatsminister <persName ref="wvh">Herrn Freyherrn <hi rend="antiqua">W<hi rend="superscript">m</hi>. von
+                            Humboldt</hi>
+               </persName> in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> durch Herrn <persName ref="jplock">
+                  <hi rend="antiqua">Julius Plock</hi>
+               </persName> von <placeName ref="Veracruz">
+                  <hi rend="antiqua">VeraCruz</hi>
+               </placeName>, abgesandt werden sollen.</p>
+            <p>1., Grammatische Bücher</p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="359">
+                     <hi rend="underline">Silabario de la lengua</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> mejicana</bibl> por <persName ref="grivera">D<hi rend="superscript">n</hi> Greg Rivera</persName>, Mejico 1818.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="326">
+                     <hi rend="underline">Compendio del Arte</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> de la lengua mejicana</bibl> del P<hi rend="superscript">e</hi> <persName ref="hocarochi">Horacio
+                            Carochi</persName> dispuesto por el P. <persName ref="iparedes">Ignacio
+                            de Paredes</persName>. Mejico 1759.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="13">
+                     <hi rend="underline">Arte de la lengua mejicana</hi>
+                  </bibl>
+                  <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>
+                        por <persName ref="jaaldamayguevara">D<hi rend="superscript">n</hi> José
+                            Agustin de Aldama y Guevara</persName> Mejico 1754.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="28">
+                     <hi rend="underline">Vocabulario Manual</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> de las lenguas Castellana y Mejicana</bibl> por
+                            <persName ref="parenas">Pedro de Arenas</persName>. Mejico en la
+                        imprenta de Fr<hi rend="superscript">co</hi> de Rivera Calderon.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="39">
+                     <hi rend="underline">Arte de la lengua Mejicana</hi>
+                  </bibl>
+                  <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>
+                        por el P<hi rend="superscript">e</hi> Fray <persName ref="favila">Fr<hi rend="superscript">co</hi> de
+                            Avila</persName>. Mejico 1717.</hi>
+               <lb/>
+               <lb/>
+            </p>
+            <p>
+               <hi rend="underline">II. Bücher in <hi rend="antiqua">Mejican</hi>
+               </hi>ischer Sprache.</p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="263">
+                     <hi rend="underline">Camino para el cielo</hi> en lengua mejicana, por
+                            el P<hi rend="superscript">e</hi>
+                  </bibl> Fray <persName ref="mdeleon">Martin de Leon</persName>. Mejico
+                        1611.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="87">
+                     <hi rend="underline">Clara y sucinta</hi> esposicion del pequeño
+                            Catecismo, impreso en el idioma mejicano</bibl>. Puebla 1819.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="294">
+                     <hi rend="underline">Primera parte del sermonario</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> Dominical y Santoral en lengua mejicana</bibl> por el
+                            P<hi rend="superscript">e</hi> Maestro Fray <persName ref="jmijangos">Juan de Miiangos</persName> &amp;<hi rend="superscript">ca</hi>. Mejico
+                        1624.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="780">
+                     <hi rend="underline">Confesonario en lengua</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> castellana y mejicana</bibl>, por el R. P<hi rend="superscript">e</hi> Fray <persName ref="ademolina">Alonso de
+                            Molina</persName>. Mejico 1578.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="330">
+                     <hi rend="underline">Catecismo romano</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note>, traducido en Castellano y Mejicano</bibl> por el P<hi rend="superscript">e</hi> Fray <persName ref="mperes">Manuel
+                            Peres</persName> &amp;<hi rend="superscript">c</hi>. Mejico 1723.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="264">
+                     <hi rend="underline">Catecismo, Confesonario</hi>
+                     <note type="footnote" resp="editor">Unterstreichung in roter
+                                Tinte</note> y Arte de bien morir en Mejicano</bibl> por Fray
+                            <persName ref="mdeleon">Martin de Leon</persName>. Raro.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="776">
+                     <hi rend="underline">Catecismo Mejicano</hi>
+                  </bibl>
+                  <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>,
+                        traducido del Castellano de P<hi rend="superscript">e</hi> <persName ref="jmripalda">Ripalda</persName> por el P<hi rend="superscript">e</hi> <persName ref="iparedes">Ignacio de Paredes</persName>.
+                        Mejico 1758.</hi>
+               <lb/>
+               <lb/>
+            </p>
+            <p>
+               <pb n="110v"/> <hi rend="underline">III. in der <hi rend="antiqua">Cahita</hi>
+               </hi> Sprache.</p>
+            <p>
+               <hi rend="antiqua">
+                  <bibl sameAs="152">
+                     <hi rend="underline">Manual para administrar</hi> á los Indios del
+                            Idioma Cahita los Santos Sacramentos</bibl>, por un Sacerdote de la
+                        Compañia de Jesus. Méjico 1740.</hi>
+            </p>
+            <closer>
+               <dateline>
+                  <hi rend="antiqua">Méjico</hi> d. 23. <hi rend="antiqua">April</hi>
+                        1830.</dateline>
+            </closer>
+            <lb/>
+            <lb/>
+         </div>
+         <div type="letter">
+            <opener>
+               <pb n="111r"/> pr. 22/4 30<note type="footnote" resp="editor">In der Schrift
+                            Koppes?</note>
+               <lb/>
+               <address>
+                  <addrLine>
+                     <handShift scribe="amdelarosa"/> <persName ref="cwkoppe">Sõr. D<hi rend="superscript">n</hi>.  Carlos Koppe</persName>.</addrLine>
+               </address>
+               <dateline>
+                  <placeName ref="Puebla de los Angeles">Puebla</placeName> Abril
+                        21/830.</dateline>
+               <lb/>
+               <salute>Muy Sõr. mio:</salute>
+            </opener>
+            <!-- spanischen Texts auf tags überprüfen! -->
+            <p>es adjunta la nota de nueve volum.<hi rend="superscript">s</hi> de idioma
+                    Mexicano, de los q.<hi rend="superscript">e</hi> acaso habrá V. conseguido ahi
+                    algunos en el tiempo q.<hi rend="superscript">e</hi> he dilatado esta noticia
+                        p.<hi rend="superscript">a</hi> el empeño q.<hi rend="superscript">e</hi>
+                    tenia de complacerlo recogiendo mayor num.<hi rend="superscript">o</hi> de
+                        volum.<hi rend="superscript">s</hi> y de los raros. Puede q.<hi rend="superscript">e</hi> estos no lo sean, en especial en esa <placeName ref="Puebla de los Angeles">Ciudad</placeName>
+               <!-- Puebla gemeint!? --> en
+                        q.<hi rend="superscript">e</hi> todo abunda; pero alg.<hi rend="superscript">s</hi> de ellos lo son aqui, y tienen à lo me nos el merito de ser nuevos
+                        p.<hi rend="superscript">a</hi> el <persName ref="wvh">Sõr. Ministro
+                        Humboldt</persName>, à quien p.<hi rend="superscript">a</hi> medio de V.
+                    consagra ese corto obsequis un Mexicano, p.<hi rend="superscript">a</hi> el
+                        q.<hi rend="superscript">e</hi> ademas velar consideraciones q.<hi rend="superscript">e</hi> tiene p.<hi rend="superscript">a</hi> con el
+                        <persName ref="wvh">Sõr. Ministro</persName>, respeta un nombre de buena
+                    memoria p.<hi rend="superscript">a</hi> todos los Mexicanos.</p>
+            <p>Siento q.<hi rend="superscript">e</hi> no estén conservados, ni encuadernados con
+                    la decenia q.<hi rend="superscript">e</hi> quisiera, y yo habria hecho q.<hi rend="superscript">e</hi> los compusiesen aqui; mas como no sé la forma en
+                        q.<hi rend="superscript">e</hi> los apetecerá el <persName ref="wvh">Sõr.
+                        Ministro</persName>, y p.<hi rend="superscript">a</hi> los Literatos suele
+                    ser un atentado desposar à los libros de algunas señales de su venerable
+                    antiguedad, los entrego en su estado actual al <persName ref="doucet">Sõr.
+                        Doucet</persName>
+               <!-- Señor Doucet??  -->, q.<hi rend="superscript">e</hi>
+                    se encargó de dirigirlos à V., y p.<hi rend="superscript">a</hi> enyo dictamen
+                    va una obra à q.<hi rend="superscript">e</hi> falta el t.<hi rend="superscript">o</hi> 2.<hi rend="superscript">o</hi>, q.<hi rend="superscript">e</hi> no
+                    se encuentra.</p>
+            <p>Aprecio esta ocasion de protestar à V. de nuevo,</p>
+            <closer>
+               <salute>&amp;. soy con la mayor consideracion su att.<hi rend="superscript">o</hi> y S. S.</salute>
+               <signed>
+                  <persName ref="amdelarosa">Antonio Maria de la Rosa</persName>
+               </signed>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="111v und 112r/v vacat"/>
+            </p>
+            <p>
+               <pb n="114r"/> <handShift scribe="Schreiber"/>
+            </p>
+            <table cols="2" rows="14">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <persName ref="dgonzalezholguin">Holguin</persName> <bibl sameAs="491">Grammatica Quichua</bibl>. Lima 4°</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">imprime</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <persName ref="bdelugo">Lugo</persName> <bibl sameAs="271">grammatica de la lengua mosca</bibl> 11°</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <persName ref="dgonzalezholguin">holguin</persName> <bibl sameAs="151">vocabulario quichua</bibl>
+                        <!-- ID 151? --> 4°</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <bibl sameAs="848">Doctrina cristiana en quichua y aymara</bibl>
+                     </hi>
+                     <!-- überprüfen! ID 848!? -->
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <bibl sameAs="848">confessionario en quichua y aymara</bibl>
+                     </hi>
+                     <!-- überprüfen! ID 848!? -->
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <bibl sameAs="61">grammatica de la lengua que hablan los<lb/>indios de
+                                    la provincia de quito</bibl>
+                     </hi>
+                     <!-- überprüfen! ID 61!? -->
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <bibl sameAs="108">vocabulaire galibi</bibl>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <bibl sameAs="428">the four evangils in the esquimaux lenguage</bibl>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Doctrina cristiana en la lengua
+                            Xebera</hi>
+                     <!-- vmtl. MS (wahrscheinlich vom Jesuiten Samuel Fritz (1654-1726)); Teile des MS in der British Library, unveröffentlicht! -->
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">manuscrit</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">vocabulario de la lengua
+                            xebera</hi>
+                     <!-- vmtl. Vocabulario enla lengua Castellana, la del Ynga y Xebera, a trilingual Spanish-Quechua-Jebero vocabulary (wahrscheinlich auch von Samuel Fritz (1654-1726)), MS in der British Library, unveröffentlicht! -->
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">vocabulario de la lengua de los indios del rio
+                                napo</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Sermones de tribus indiorum vitiis in Quichua</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">grammatica de la lengua del Inca</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">id</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <lb/>
+               <pb n="114v und 115r vacat"/>
+            </p>
+            <p>
+               <lb/>
+               <pb n="115v"/> <handShift scribe="AvH"/> Collection de Grammaires de langues americaines
+                    apartenant à <persName ref="hternaux">Mr <subst>
+                     <del>Tenry</del>
+                     <add>Henry</add>
+                  </subst>
+                    Ternaux</persName>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Friedrich Wurm an Wilhelm von Humboldt, 09.07.1833<idno type="BBAW">503</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. quart. 38, Nr. 3 und
+                            Nr. 1</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 290f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="rbaker">
+                  <persName>Baker, Robert</persName>
+               </person>
+               <person corresp="jbowring">
+                  <persName>Bowring, Sir John</persName>
+               </person>
+               <person corresp="nhjulius">
+                  <persName>Julius, Nikolaus Heinrich</persName>
+               </person>
+               <person corresp="ekingsborough">
+                  <persName>Kingsborough, Edward King, Viscount</persName>
+               </person>
+               <person corresp="astrong">
+                  <persName>Strong, Alexander</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="452">[Strong, Alexander]: Quipos, or Peruvian Knot-Records. In:
+                    Westminster Review 21, Juli 1829, S. 228–253</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Meine Abwesenheit von der Stadt habe ich sehr
+                        bedauert …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cfwurm">Wurm, Christian Friedrich</persName>
+               <date type="author" when="1833-07-09"/>
+               <placeName key="Hamburg">Hamburg</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="1158">05.07.1833</ref>
+               <ref type="next" target="1159">21.07.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="cfwurm">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="qu">Quechua (Quipus)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">10. August 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Wurm/Wurm-WvH_1833-07-09/Coll.ling.quart.38_013.jpg"/>
+      <graphic url="Wurm/Wurm-WvH_1833-07-09/Coll.ling.quart.38_014.jpg"/>
+      <graphic url="Wurm/Wurm-WvH_1833-07-09/Coll.ling.quart.38_015.jpg"/>
+      <graphic url="Wurm/Wurm-WvH_1833-07-09/Coll.ling.quart.38_016jpg"/>
+      <graphic url="Wurm/Wurm-WvH_1833-07-09/Coll.ling.quart.38_008.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>Hamburg 9 Juli ’33.</dateline>
+            </opener>
+            <p>Meine Abwesenheit von der Stadt habe ich sehr bedauert, als ich vernahm, daß Ew.
+                    Excellenz mir die Ehre Ihres Besuches zugedacht hatten. Sonnabend frühe hoffte
+                    ich zwar Ew. Excellenz noch im Gasthof zu treffen, kam aber zu spät; erst <date when="1833-07-08">
+                  <hi rend="underline">gestern</hi>
+               </date> Abend ward mir
+                    von dorther, wie ich vermuthe, Ihre verehrte Zuschrift vom <date when="1833-07-05">5.<hi rend="superscript">te</hi> d.<hi rend="superscript">s</hi> M.<hi rend="superscript">ts</hi>
+               </date> zugeschickt.</p>
+            <p>Ich säume nicht, Ew. Excellenz mitzutheilen, was ich über die Quipos gesammelt
+                    und in Erfahrung gebracht habe.</p>
+            <p>D<hi rend="superscript">r</hi>. Julius<note type="footnote" resp="editor">Gemeint
+                        ist wohl <persName ref="nhjulius">Nikolaus Heinrich Julius</persName>
+                        (1783–1862), Arzt und Literaturforscher in Hamburg und Berlin; s. <ref type="linkExt"
+                       target="http://daten.digitale-sammlungen.de/bsb00008372/image_688">Allgemeine deutsche Biographie 14, Leipzig: Duncker &amp; Humblot
+                            1881, S. 686–689</ref>. [FZ]</note> irrt, wenn er von mir gehört zu haben glaubt, daß mir
+                    eine americanische Quelle zugänglich sei. Als ich der Quipos flüchtig gegen ihn
+                    erwähnte, war meine Aufmerksamkeit nur eben durch den <bibl sameAs="452">Aufsatz
+                        in Nr. XXI des Westminster Review S. 228–253</bibl> auf den Gegenstand
+                    gerichtet worden. Das Heft liegt hier bei. Hier war eine Entdeckung angekündigt,
+                    die sich, wenn sie ächt war, zu einer historischen, im schlimmsten Fall aber,
+                    dem einer <hi rend="antiqua">Forgery</hi>, zu einer bedeutenden psychologischen
+                    Curiosität zu gestalten versprach. Der Umstand, daß die Sache zwei volle Jahre
+                    von der periodischen Presse ganz unbeachtet geblieben, konnte mich darüber
+                    trösten, daß sie mir während meines Aufenthalts in London, (bis zum December
+                    ’27) entgangen war.</p>
+            <p>Ich ließ den Prospectus der Quipola kommen, und erhielt die gleichfalls
+                    beiliegende, äusserst diminutive Schrift. Zugleich aber hatte ich an den
+                    Schiffszimmermann, <persName ref="astrong">Alex.<hi rend="superscript">r</hi>
+                        Strong</persName>, geschrieben, den das Westm.<hi rend="superscript">r</hi>
+                    Review als den Besitzer der Quipos und der dazu gehörigen <hi rend="antiqua">Clavis</hi> bezeichnete. Ich hatte ihm einige Fragen über die äussere
+                    Beschaffenheit der Quipos vorgelegt, und den Wunsch ausgedrückt, eine kleine
+                    Probe der <hi rend="antiqua">Clavis</hi>, wenn es auch nur <pb n="2*"/> wenige
+                        <hi rend="underline">zusammenhängende</hi> Zeilen wären, in Abschrift, und
+                    wo möglich eine Zeichnung der dazugehörigen Knoten zu erhalten: seine Auslagen
+                    würde ihm der Agent der Börsen-Halle in <placeName ref="London">London</placeName> jeden Augenblick ersetzen: mein Zweck sei, das gelehrte
+                    Publicum in Deutschland mit seiner Entdeckung bekannt zu machen.</p>
+            <p>
+               <persName ref="astrong">Strong</persName>’s <ref type="link" target="474">Antwort</ref> vom <date when="1829-08-10">10 Aug.<hi rend="superscript">t</hi> ’29</date> (A) bestätigte ganz den nahe liegenden Schluß auf den
+                    Grad seiner persönlichen Bildung, zu welchem sein Prospectus und seine ganze
+                    Geschichte zu berechtigen schien. Er habe die Quipos an <persName ref="ekingsborough">Lord Kingsbury</persName> um ₤60 verkauft, habe aber
+                    dennoch so viel davon zurückbehalten, daß er hoffe, meinen Wünschen zu
+                    entsprechen, sobald die Sorge für sein tägliches Brod ihm erlaube, sich mit der
+                    Abschrift zu beschäftigen. War das <hi rend="antiqua">fair play</hi> gegen
+                        <persName ref="ekingsborough">Lord Kingsbury</persName>? Doch ging aus dem
+                    Brief überzeugend hervor, daß Gewinnsucht zu des Mannes Hauptmotiven <hi rend="underline">nicht</hi> gehörte. Indessen erwartete ich kaum, von
+                        <persName ref="astrong">Strong</persName> wieder zu hören.</p>
+            <p>Die Peerage belehrte mich, daß es keinen <persName ref="ekingsborough">Lord
+                        Kingsbury</persName> gebe: es mußte wohl Kingsborough heissen. An diesen
+                    schrieb ich also, erkundigte mich, ob vielleicht zur Untersuchung der in seinem
+                    Besitz übergegangenen seltsamen Documente bereits geschritten sei, und ob er mir
+                    bei einem intendirten Besuch in <placeName ref="London">London</placeName> etwa
+                    gestatten würde, zum Zweck einer öffentlichen Notiz mich durch den Augenschein
+                    über dieselben zu belehren.</p>
+            <p>In der mittlern Weile bemühte ich mich vergebens, unter der auf unsrer Bibliothek
+                    vorhandenen, nicht eben verächtlichen Sammlung älterer spanischer Schriftsteller
+                    etwas Neues über die Quipos aufzufinden.</p>
+            <p>
+               <pb n="3*"/>
+               <persName ref="ekingsborough">Lord Kingsborough</persName>’s <ref type="link" target="374">Antwort (B)</ref> vom <date when="1829-10-13">13
+                            Oct.<hi rend="superscript">r</hi> ’29</date> füge ich bei, weil sie mir
+                    den Mann zu charakterisiren scheint, der eine Seltenheit an sich gebracht hat,
+                    ohne sich persönlich dafür zu interessiren, und ohne recht zu wissen, oder sich
+                    darum zu kümmern, was nun weiter damit werden soll.</p>
+            <p>Wenige Tage nach dem Empfang dieser Antwort besuchte mich <persName ref="jbowring">D<hi rend="superscript">r</hi>. Bowring</persName>, der
+                    Redacteur des Westminster Review, und Verf. des Artikels über die Quipola. Er
+                    brachte mir <ref type="link" target="475">einen zweiten Brief</ref> von
+                        <persName ref="astrong">Strong</persName> (C), vom <date when="1829-10-20">20 Oct.<hi rend="superscript">r</hi> ’29</date>, der dann zu meiner
+                    Verwunderung wirklich ein Stück der <hi rend="antiqua">Clavis</hi> (D) in
+                    Abschrift enthielt – offenbar dasjenige, das im Prospectus unter der Rubrik <hi rend="antiqua">Bunch</hi> 1. paraphrasirt ist. So schwer es auch
+                        <sic>fält</sic>, aus diesem Actenstück irgend Etwas zu machen, so fällt doch
+                    beim ersten Anblick ein Mißverständniß auf, das noch bedenklicher erscheint, als
+                    die im <bibl sameAs="452">Westm.<hi rend="superscript">r</hi> Review S. 252 und
+                        253</bibl> angeführten. Der Mond ist nach dem Prospectus (<hi rend="antiqua">Bunch</hi> 1. Zeile 5 v. o.) „<hi rend="antiqua">Lord and
+                        Ruler of the Sea</hi>“. Vergleicht man das unglückliche <hi rend="antiqua">pluere</hi> (D <del>Z+</del> S. 1. Zeile 5 v. o.) so kann man sich schwer
+                    überreden, daß der Calambour<note type="footnote" resp="editor">Gemeint ist
+                        Franz. "calembour" (= Kalauer, Wortspiel). [FZ]</note> <hi rend="antiqua">rain</hi> für <hi rend="antiqua">reign</hi> einem Andren begegnen konnte,
+                    als eben einem Engländer, dessen Orthographie so bestellt ist, wie die von
+                        <persName ref="astrong">Alexander Strong</persName>.</p>
+            <p>Diese Abschrift war von einer sehr ernstlichen Vermahnung über deren Gebrauch
+                    begleitet. „<hi rend="antiqua">I do this upon strict faith</hi> (oder <hi rend="italic">strick fath</hi>, wie <persName ref="astrong">Strong</persName> schreibt) <hi rend="antiqua">that you will not publish
+                        any part of it, at least till <persName ref="ekingsborough">Lord
+                            Kingsbury</persName> has published his &amp;c.</hi>“ Das war denn βους
+                    ἐπι γλωσσῃ μεγας! Daß <persName ref="ekingsborough">der edle Lord</persName>
+                    irgend Etwas darüber zum Druck befördert, oder daß seitdem irgend eine
+                    öffentliche Erwähnung der Sache geschehen, ist mir wenigstens nicht bekannt
+                    geworden. Kann es Ew. E. interessiren, so wird es mir Vergnügen machen, in
+                        <placeName ref="London">London</placeName> darüber Nachfrage anstellen zu
+                    lassen.</p>
+            <p>
+               <pb n="4*"/> Die schwer zu erkennenden Züge <ref type="link" target="475">auf der
+                        Adresse des Briefes C</ref> hat <persName ref="jbowring">Bowring</persName>
+                    mit dem Bleistift gezogen, um das Aeussere des Knotenbündels einigermaassen zu
+                    versinnlichen.</p>
+            <p>Eine mündliche Mittheilung von <persName ref="jbowring">Bowring</persName>
+                    schreckte mich von der weiteren Untersuchung zurück, weil es schien, daß ohne
+                    Autopsie, ohne Nachforschungen über die Substanz der Knotenbündel sowohl als des
+                    Kastens, worin sie enthalten, (<bibl sameAs="452">Westm.<hi rend="superscript">r</hi> Rev. S. 247</bibl>) und worüber ein <hi rend="antiqua">certificat d’origine</hi> so wünschenwerth als schwer auszumitteln sein
+                    dürfte, überhaupt ohne ein, nicht sowohl kritisches als <hi rend="underline">inquisitorisches</hi> Verfahren kein Resultat zu hoffen sei.</p>
+            <p>
+               <persName ref="jbowring">D<hi rend="superscript">r</hi>. Bowring</persName>
+                    erzählte, er habe <persName ref="astrong">Strong</persName> mehrmals befragt, ob
+                    er denn gar nichts Schriftliches von <persName ref="rbaker">Robert
+                        Baker</persName> besitze, von welchem er, nach seiner Aussage (<bibl sameAs="452">Westm.<hi rend="superscript">r</hi> Rev. S. 239</bibl>) die
+                    Quipos für ₤10 gekauft. Endlich sei <persName ref="astrong">Strong</persName>
+                    gekommen: ja, er habe nun einen Brief von <persName ref="rbaker">Baker</persName> wieder aufgefunden. Ich weiß nicht, was <persName ref="jbowring">Bowring</persName>’s Verdacht schon damals vage gemacht:
+                    indessen, er hielt das Blatt gegen das Licht, und <hi rend="underline">die
+                        Jahrszahl in der Wassermarke des Papiers war später</hi>, als das Datum des
+                    Briefes. <persName ref="astrong">Strong</persName> war sehr unglücklich über die
+                    Entdeckung: man habe ihm auch gar zu wenig getraut, gar stark zugesetzt, so sei
+                    er auf den fatalen Einfall gekommen, den er auch bereue, die Zweifel auf diese
+                    Weise zum Schweigen zu bringen. <persName ref="jbowring">Bowring</persName>
+                    lehnte das Geschenk einer von <persName ref="astrong">Strong</persName>
+                    verfertigten Tabaksdose, mit ähnlicher sehr künstlicher Vorrichtung zum Oeffnen,
+                    wie im <bibl sameAs="452">Westm.<hi rend="superscript">r</hi> Rev. S. 247</bibl>
+                    Zeile 10 v. unten beschriebene, ab, weil er, zumal nach einer solchen Scene,
+                    keine Lust hatte, sich von <persName ref="astrong">Strong</persName> Etwas
+                    schenken zu lassen. Doch wünschte <persName ref="jbowring">Bowring</persName>,
+                    daß weder des einen noch des andern Umstandes öffentlich erwähnt werde.</p>
+            <p>
+               <pb n="Ende des Textes von Dokument Nr. 3; es folgt hier das Ende                     eines Briefes, wohl zugehörig zum vorigen, der als Dokument Nr. 1 vorne in                     dem Konvolut eingebunden wurde."/>
+            </p>
+            <p>
+               <pb n="Dokument Nr. 1, Rückseite"/> Auf eine Anfrage bei einem verständigen
+                    jungen Mann in einem Handelshaus zu <placeName ref="Lima">Lima</placeName>, auf
+                    dessen Bereitwilligkeit ich zählen konnte, ward mir binnen achtzehn Monaten die
+                    Antwort, er habe Niemand getroffen, der sich erinnerte, von Quipos Etwas gesehen
+                    oder gehört zu haben. Ebensowenig wußte ein gebildeter junger Spanier, der von
+                    hier nach <placeName ref="Kopenhagen">Kopenhagen</placeName> ging, der ganz
+                    Südamerica bereiset haben wollte, und <hi rend="antiqua">ex professo</hi> von
+                    Curiositäten Notiz zu nehmen gewohnt war, das Mindeste darüber zu erzählen.</p>
+            <p>– Habe ich nun Unrecht gethan, mich von weiterer Nachforschung zurückhalten zu
+                    lassen, während ich mich doch der Ueberzeugung nicht entschlagen konnte, hier
+                    sei mehr als ein gewöhnlicher, und mehr überhaupt, als <hi rend="underline">blosser</hi> Betrug: so bin ich Ew. Excellenz um so dankbarer für die
+                    dargebotene Gelegenheit, mein Unrecht wieder gut zu machen, indem ich die,
+                    freilich sehr dürftigen Materialien, die mir Neugierde und Zufall in die Hand
+                    gespielt, ganz und gar zu Ihrer Disposition stelle. Es ist einzig <bibl sameAs="452">das Heft des Westminster Review</bibl>, das ich mir, wenn Ew. E.
+                    davon Gebrauch gemacht haben werden, ganz gleichgültig zu welcher Zeit, zurück
+                    erbitte, da es zu der Sammlung der Börsen-Halle gehört. </p>
+            <closer>
+               <salute>Ich habe Nichts beizufügen, als den innigsten Wunsch, daß <placeName ref="Norderney">Norderney</placeName> seine ganze Kraft erproben möge,
+                        und den Ausdruck der aufrichtigsten Ehrerbietung und
+                        Ergebenheit.</salute>
+               <signed>C. F. Wurm.</signed>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="Nr. 1, Vorderseite"/>
+               <handShift scribe="Schulz"/> Das diesem Briefe
+                    beiliegende <hi rend="antiqua">Journal</hi>-Heft was ich zurückgegeben ist <hi rend="antiqua">the</hi> <bibl sameAs="452">
+                  <hi rend="antiqua">Westminster
+                            Review</hi>. Nummer 21 <hi rend="antiqua">Julius</hi> 1829.</bibl>
+            </p>
+            <p>Die andren Beilagen des Briefes die ich behalten sind</p>
+            <p>1. ein <sic>gedrukter</sic> Prospectus</p>
+            <p>2. <ref type="link" target="474">ein Brief</ref> von <hi rend="antiqua">
+                  <persName ref="astrong">Strong</persName>
+               </hi> gez. A.</p>
+            <p>3, <ref type="link" target="374">ein Brief</ref> von <hi rend="antiqua">
+                  <persName ref="ekingsborough">Lord Kingsborough</persName>
+               </hi> gez. B.</p>
+            <p>4, <ref type="link" target="475">ein zweiter Brief</ref> von <hi rend="antiqua">
+                  <persName ref="astrong">Strong</persName>
+               </hi> gez. C.</p>
+            <p>5, eine Abschrift eines Theils der <hi rend="antiqua">Clavis</hi> gez. D.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

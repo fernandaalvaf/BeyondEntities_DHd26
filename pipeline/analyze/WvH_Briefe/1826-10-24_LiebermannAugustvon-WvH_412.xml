@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 04. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August von Liebermann an Wilhelm von Humboldt, 24.10.1826<idno type="BBAW">412</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 125–126</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ppastarloa">
+                  <persName>Astarloa y Aguirre, Pedro Pablo de</persName>
+               </person>
+               <person corresp="jberro">
+                  <persName>Erro y Aspiroz, Juan Bautista</persName>
+               </person>
+               <person corresp="lhervas">
+                  <persName>Hervás y Panduro, Lorenzo</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego Gonzalez</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="fdelacarrera">
+                  <persName>La Carrera, Fernando de</persName>
+               </person>
+               <person corresp="adementrida">
+                  <persName>Mentrida, Alonso de</persName>
+               </person>
+               <person corresp="jpavon">
+                  <persName>Pavon, José</persName>
+               </person>
+               <person corresp="orich">
+                  <persName>Rich, Obadiah</persName>
+               </person>
+               <person corresp="aruizdemontoya">
+                  <persName>Ruiz de Montoya, Antonio</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diègo de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="784">Astarloa y Aguirre, Pablo Pedro de: Discursos filosóficos sobre la
+                    lengua primitiva o Gramática y análisis razonada del euskera o bascuence [1805]
+                    (Bilbao: Pedro Velasco 1883)</bibl>
+               <bibl corresp="36">Astarloa y Aguirre, Pablo Pedro de: Plan de Lenguas o Gramatica
+                    Bascongada en el Dialecto Bizcaino (ca. 1801) [Fragment]</bibl>
+               <bibl corresp="154">Gramatica de los Pueblos de America (Santa Cruz 1770)</bibl>
+               <bibl corresp="785">Hervás y Panduro, Lorenzo: Catálogo de las lenguas de las Naciones
+                    conocidas y numeracion, division y Clases de estas segun la diversidad de sus
+                    idiomas y dialectos, Bd. 1–6 (Madrid: Ranz 1800)</bibl>
+               <bibl corresp="182">Holguín, Diego Gonzalez: Gramatica y arte nueua de la lengua
+                    general de todo el Peru, Ilmada lengua Quichua, o lengua del Inca (Los Reyes del
+                    Peru: Francisco del Canto 1608)</bibl>
+               <bibl corresp="259">La Carrera, Fernando de: Arte de la lengua Yunga de los valles del
+                    obispado de Trujillo, con un confesonario y todas las oraciones cristianas y
+                    otras cosas (Lima: Reimpr. en la Imp. Liberal 1644)</bibl>
+               <bibl corresp="291">Mentrida, Alonso de: Diccionario de la lengua Bisaya Hiligueina y
+                    Haraya de la Isla de Panay (Manila: D. Manuel y de D. Felis S. Dayot
+                    1841)</bibl>
+               <bibl corresp="303">Ruiz de Montoya, Antonio: Arte y vocabulario de la lengua Guarani
+                    (Madrid: Imp. Iuan Sanchez 1640)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ewr. Exzellenz werden ohne Zweifel nicht wenig ungehalten
+                        auf mich seyn …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="aliebermann">Liebermann, August von</persName>
+               <date type="author" when="1826-10-24"/>
+               <placeName key="Madrid">Madrid</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">02.07.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="aliebermann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="gn">Guaraní</language>
+            <language ident="ule">Lule</language>
+            <language ident="qu">Quechua</language>
+            <language ident="tup">Tupi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">25. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Liebermann/Liebermann-WvH_1826_10_24/Coll.ling.fol.52_261.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_10_24/Coll.ling.fol.52_262.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_10_24/Coll.ling.fol.52_263.jpg"/>
+      <graphic url="Liebermann/Liebermann-WvH_1826_10_24/Coll.ling.fol.52_264.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="125r"/>
+               <salute>Ewr. Excellenz</salute>
+            </opener>
+            <p>werden ohne Zweifel nicht wenig ungehalten auf mich seyn, da ich bisher weder
+                    dem, mir vor meiner Abreise von <placeName ref="Berlin">Berlin</placeName>,
+                    geneigtest ertheilten mündlichen Auftrage, noch demjenigen nachgekommen bin,
+                    welchen Sie mir durch das Hochgeehrte Schreiben vom <date when="1826-07-02">2<hi rend="superscript">ten</hi> July</date> haben zugehen lassen. Ich bin
+                    indeß nicht so schuldig, wie ich Ew. Excellenz erscheinen mag und habe bloß
+                    deßhalb so lange mit meiner Berichts-Erstattung gezaudert, weil ich nicht gern
+                    mit ganz leeren Händen vor Ihnen erscheinen wollte und von einem Tage zum Andern
+                    hoffte, Ihren Wünschen wenigstens in etwaß entsprechen zu können.</p>
+            <p>Was zuvörderst die Mittheilung der von dem verstorbenen <persName ref="ppastarloa">Pfarrer <hi rend="antiqua">Astarloa</hi>
+               </persName> hinterlassenen Manuscripte über die Biscayische Sprache betrifft, –
+                    so befindet sich <persName ref="jberro">Herr Erro</persName>, welcher dieselben
+                    besitzt, jetzt zwar allerdings in <placeName ref="Madrid">Madrid</placeName> und
+                    er ist um so bekannter hierselbst, als er den angesehenen Posten eines activen
+                    Mitgliedes des Staats Rathes bekleidet und – mit Recht – für einen der Coripheen
+                    der darin vorherrschenden ultra-royalistischen /: oder – wie andere sagen –
+                    fanatischen :/ Parthey gehalten wird. Allein gerade dieser Verhältniße wegen,
+                    steht er mit dem diplomatischen Corps, und überhaupt mit den Fremden, in
+                    durchaus keiner Berührung – und es war um so schwieriger, ja in einiger
+                    Hinsicht, sogar um so bedenklicher für mich, seine persönliche Bekanntschaft zu
+                    suchen, als hier alle und jede Schritte der Repräsentanten der auswärtigen
+                    Mächte sorgfältig belauert und in der Regel gemißdeutet werden, ich mithin –
+                    besonders zu einer Zeit, wo von dem Wieder Eintritte des <persName ref="jberro">
+                  <hi rend="antiqua">Herrn Erro</hi>
+               </persName> in’s Ministerium die Rede
+                    war, befürchten mußte, daß man einer mit ihm anzuknüpfenden mündlichen oder
+                    schriftlichen Unterhandlung andere Beweggründe als rein literarische
+                    unterschieben, <pb n="125v"/> und – wie es hier an der Tagesordnung ist, mich
+                    einer politischen oder persönlichen <sic>Intrigen</sic> beschuldigen werde. Da
+                    sich inzwischen durchaus keine Gelegenheit absehen ließ, mit dem <persName ref="jberro">Herrn <hi rend="antiqua">Erro</hi>
+               </persName> rein zufällig, am dritten Orte zusammenzutreffen, so entschloß ich
+                    mich endlich, mich schließlich an ihn zu wenden, ihn an Euer Excellenz Wunsch im
+                    Allgemeinen zu erinnern und bey ihm anzufragen; ob und wann ich ihn antreffen
+                    und mich dieserhalb näher mit ihm besprechen könne? <persName ref="jberro">
+                  <hi rend="antiqua">Herr Erro</hi>
+               </persName> hat mir hierauf sehr höflich erwiedert, daß er es sich zur Pflicht
+                    machen würde, zu mir zu kommen /: wenn er sagte: <hi rend="antiqua">tant a cause
+                        de l’estime qu’il porte a M. le B.<hi rend="superscript">n</hi> de Humboldt
+                        que de la consideration qu’il me professe</hi>
+               <!-- als frz taggen? --> :/;
+                    Allein da mehrere Wochen vergiengen, ohne daß er sein Versprechen erfüllt hätte,
+                    so habe ich ihn selbst in seiner Behausung aufgesucht und bey einem zweyten
+                    Besuche angetroffen. – Leider ist <persName ref="jberro">Herr <hi rend="antiqua">Erro</hi>
+               </persName> aber nicht zur Mittheilung der in Rede stehenden Manuscripte zu
+                    bewegen gewesen, ungeachtet ich es mir nach besten Kräften habe angelegen seyn
+                    lassen, die Beweggründe auseinander zu setzen und geltend zu machen, welche Euer
+                    Excellenz in dem mir im vorigen Jahre geneigtest eingehändigten
+                    Aufsatze<!-- title? Kein Brief aus dem vergangenen Jahr, oder? --> ausgeführt
+                    haben. – <persName ref="jberro">Herr <hi rend="antiqua">Erro</hi>
+               </persName> behauptet, daß die Euer Excellenz bekannt gewordenen Manuscripte,
+                    namentlich die Grammatik, unter dem Titel <bibl sameAs="36">
+                  <hi rend="antiqua">Raiz de lengua</hi>
+                  <!-- = Plan de lenguas (ID 36) ? -->
+               </bibl>, voller Unrichtigkeiten und Mangelhaftigkeiten, mithin zur Herausgabe
+                    nicht geeignet seyen; daß <persName ref="ppastarloa">H. <hi rend="antiqua">Astarloa</hi>
+               </persName> sich hiervon selbst überzeugt, seinen frühern Plan geändert und
+                    diese Materialien in ein anderes größeres Werk mit aufgenommen, welches er unter
+                    dem Titel: <bibl sameAs="784">
+                  <hi rend="antiqua">discursos filosóficos</hi>
+               </bibl> /: sollte es nicht <hi rend="antiqua">filológicos</hi> seyn? :/ habe
+                    herausgeben wollen; daß er /: <persName ref="jberro">H. <hi rend="antiqua">Erro</hi>
+               </persName> :/ dieses größere Manuscript zwar besitze, solches jedoch keinem
+                    Andern überlassen könne; theils weil es selbst noch einer sorgfältigen Revision
+                    und Berichtigung bedürfe, – zu welchem Ende er bereits eine Menge einzelner –
+                    nur für ihn brauchbarer – Bemerkungen und Notizen gesammelt habe, theils und
+                    hauptsächlich aber, weil der verstorbene <persName ref="ppastarloa">
+                  <hi rend="antiqua">Astarloa</hi>
+               </persName> auf seinem TodtenBette gerade <hi rend="underline">ihm</hi> dieses
+                        <bibl sameAs="784">Werk</bibl> anvertraut und behufs der Herausgabe
+                    hinterlassen habe. – <persName ref="jberro">Herr <hi rend="antiqua">Erro</hi>
+               </persName> versichert dennoch, daß er der letztwilligen Bestimmung seines
+                    Freundes <persName ref="ppastarloa">
+                  <hi rend="antiqua">Astarloa</hi>
+               </persName> noch immer nachzukommen gedenke, <pb n="126r"/> ungeachtet er
+                    freylich, seiner amtlichen Geschäfte wegen, den Zeitpunkt der Herausgabe deß
+                    fraglichen <bibl sameAs="784">Werkes</bibl> vor der Hand nicht bestimmen könne.
+                    –</p>
+            <p>In Erfüllung des zweyten, mir durch Ew. Excellenz Hochgeehrtes Schreiben vom
+                        <date when="1826-07-02">2<hi rend="superscript">ten</hi> July c.</date>
+                    ertheilten Auftrages bin ich anfangs nicht viel glücklicher gewesen. Ich habe
+                    bey allen hiesigen Buchhandlern, Antiquaren und bouquinisten angefragt und noch
+                    in der kürzlich – im Monat September – hier Statt gefundenen, sogenannten Messe,
+                    alle mögliche Nachforschungen anstellen lassen, ohne ein einziges der mir
+                    bezeichneten Bücher auffinden zu können. Auch in die Diarien von <placeName ref="Madrid">Madrid</placeName> und von <placeName ref="Cadiz">Cadiz</placeName> habe ich Aufforderungen einrücken lassen, wie Ew.
+                    Excellenz aus den anliegenden beyden Blättern geneigtest näher ersehen wollen;
+                    Allein dieselben sind bisher eben so fruchtlos geblieben, als eine von mir in
+                        <placeName ref="Sevilla">Sevilla</placeName>, bey einem dortigen
+                    Bücherkenner gemachte Einschreitung. Es sollen im vergangenen Jahr noch ein Paar
+                    Grammatiken americanischer Sprachen bey einem hiesigen Antiquar vorhanden
+                    gewesen seyn; allein alle diese und ähnliche seltene Werke sind von dem
+                    NordAmericanischen <persName ref="orich">
+                  <hi rend="antiqua">Consul Rich</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="orich">Obadiah Rich</persName> (1783–1850) war u.a. US-Konsul
+                        in <placeName ref="Valencia">Valencia</placeName> und <placeName ref="Madrid">Madrid</placeName>, Buchhändler sowie Sammler früher
+                        lateinamerikanischer Publikationen und Manuskripte (s. <ref type="linkExt"
+                       target="http://www.nypl.org/sites/default/files/archivalcollections/pdf/richcoll.pdf">"The Obadiah Rich Collection"</ref>).</note> aufgekauft und in England
+                    und den vereinigten NordAmericanischen Staaten mit sehr bedeutendem Gewinn
+                    wieder abgesetzt worden. <persName ref="orich">
+                  <hi rend="antiqua">Herr Rich</hi>
+               </persName> selbst ist jetzt nicht mehr hier anwesend. – Auf der hiesigen
+                        <orgName ref="24">Königl. Bibliothek</orgName> befinden sich, nach dem
+                    Catalog, folgende Grammatiken und Vocabularien Americanischer Sprachen:</p>
+            <p>1.) <hi rend="antiqua">
+                  <bibl sameAs="303">Arte y vocabulario</bibl>
+               </hi> /: nicht <hi rend="antiqua">tesoro</hi> :/ <hi rend="antiqua">
+                  <bibl sameAs="303">de la lengua <hi rend="underline">Guarani</hi>
+                  </bibl>, por el Padre Fr. <persName ref="aruizdemontoya">Ant: Ruiz de
+                            Montoya</persName>.</hi> <hi rend="antiqua">Madrid 1640.</hi>
+            </p>
+            <p>2.) <hi rend="antiqua">
+                  <bibl sameAs="182">Gramatica y Vocabulario en la lengua del Perù, llamada <hi rend="underline">Quichua</hi>
+                  </bibl>, por <persName ref="dgonzalezholguin">Gonzalez Holguin
+                            Diego</persName>.</hi> /: N.B. war in dem, durch den Catalog angegebenen
+                    Schranke nicht aufzufinden. :/</p>
+            <p>3.) <bibl sameAs="154">
+                  <hi rend="antiqua">Gramatica de los pueblos de America. S<hi rend="superscript">ta</hi>. Cruz. 8<hi rend="superscript">os</hi>.
+                            1770.</hi>
+               </bibl>
+            </p>
+            <p>4.) <hi rend="antiqua">
+                  <bibl sameAs="259">Gramatica Yunga</bibl> de <persName ref="fdelacarrera">D<hi rend="superscript">n</hi>. Fernando la Carrera</persName>;
+                        und</hi>
+            </p>
+            <p>5.) <hi rend="antiqua">
+                  <bibl sameAs="291">Bocabulario de lengua Bisaia Hiliguoyna y Haraia de la Isla
+                            de Panai y Sugbu y p.<hi rend="superscript">a</hi> las demas
+                            islas</bibl>; por el P. fr. </hi>
+               <hi rend="antiqua">
+                  <persName ref="adementrida">Alonso de Mentrida</persName>.</hi>
+            </p>
+            <p>Ueber die Sprache Lùle ist kein Werk vorhanden, so wie denn überhaupt diese
+                    Mundart jetzt hier, selbst dem Namen nach, unbekannt geworden zu scheint. – Ich
+                    habe mehrere, selbst halb <pb n="126v"/> offizielle Versuche gemacht, die
+                    aufgefundenen Bücher auf ein Paar Monate geliehen zu erhalten, um sie Ew.
+                    Excellenz übersenden zu können; Allein es ist mir erwiedert worden, daß nach den
+                    bestehenden bestimmten Vorschriften, unter keiner Bedingung, Bücher, an wen es
+                    auch sey, verborgt werden dürften. Zum Excerpiren und Copiren im Gebäude der
+                        <orgName ref="24">Bibliothek</orgName> selbst, ist dagegen alle mögliche
+                    Leichtigkeit vorhanden; nur scheint mir in dem vorliegenden Falle an das
+                    Abschreiben des einen oder des andern der fraglichen Werke um so weniger zu
+                    denken zu seyn, als eine solche Abschrift nicht allein <hi rend="underline">höchst theuer</hi> zu stehen kommen, sondern auch auf deren Correctheit
+                    wenig zu bauen seyn würde. Zum Beweise wie schwierig das Abschreiben des <bibl sameAs="303">Werks über die Sprache <hi rend="antiqua">Guarani</hi>
+               </bibl> seyn würde, – erlaube ich mir Ew. Excellenz auf die
+                    Verschiedenartigkeit der, in andern Sprachen zum Theil ganz unbekannten Accente
+                    ergebenst aufmerksam zu machen, welche Sie aus dem hier beygefügten kleinen
+                    Auszuge geneigtest näher ersehen wollen. –</p>
+            <p>Es ist mir also nichts anders übrig geblieben, als Nachforschungen darüber
+                    anzustellen, ob eins oder das andere der mir von Ew. Excellenz bezeichneten
+                    Bücher in einer hiesigen Privat Bibliothek vorhanden seyn möchte – und es ist
+                    mir endlich nach mannigfaltigen vergeblichen Anfragen, gelungen zu erfahren, daß
+                    sich der hiesige Academiker und Botaniker <persName ref="jpavon">
+                  <hi rend="antiqua">Dn J. Pavon</hi>
+               </persName> im Besitze eines <bibl sameAs="434">Werkes über die Sprache <hi rend="antiqua">Quichua</hi>
+               </bibl> befindet. – Es ist dieß eine in <placeName ref="Lima">Lima</placeName>
+                    herausgekommene, bedeutend verbesserte und vermehrte, auch mit einem Anhange
+                    über einen <sic>besondrn</sic> Sprach-Dialect versehene Ausgabe des von Ew.
+                    Excellenz angegebenen <bibl sameAs="434">Werks</bibl> von <persName ref="dtorres">
+                  <hi rend="antiqua">Diègo de Torres-Rubio</hi>
+               </persName>. – <persName ref="jpavon">Herr <hi rend="antiqua">Pavon</hi>
+               </persName> will dieß <bibl sameAs="434">Werk</bibl> um keinen Preiß verkaufen
+                    und hat anfangs auch viele Schwierigkeiten gemacht, solches nur aus den Händen
+                    zu geben. Allein in Folge der ihm gemachten Vorstellungen /: und da er selbst
+                    mit Ihrem <persName ref="avh">Herrn Bruder</persName> in literarischer
+                    Correspondenz steht :/ so hat er sich endlich entschlossen, mir dasselbe <hi rend="underline">auf einige Monate</hi> für Ew. Excellenz zu überlassen –
+                    und ich beehre mich demnach Ihnen solches in dem beygehenden Packete ganz
+                    ergebenst zu übersenden. Da ich inzwischen dem <persName ref="jpavon">H. <hi rend="antiqua">Pavon</hi>
+               </persName> einen schriftlichen Empfangs- &amp; Gewährleistungsschein
+                    ausgestellt habe, so unterstehe ich mich Ew. Excellenz füglich zu ersuchen, mir
+                    den richtigen Eingang dieses Werks geneigtest <sic>anzeigen</sic>, und mir
+                    dasselbe, nach davon gemachtem Gebrauche, auf sicherm Wege, durch Vermittelung
+                    der Königl. Gesandtschaft in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName>, wieder zugehen lassen zu wollen. – Genehmigen Ew. Excellenz bey
+                    dieser Veranlassung dem Ausdruck der innigen Verehrung und Respectsvollen
+                    Ergebenheit womit ich die Ehre habe zu seyn</p>
+            <closer>
+               <salute>Ew. Excellenz <lb/>gehorsamer Diener</salute>
+               <signed>A. v. Liebermann</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Madrid</hi> den 24<hi rend="superscript">sten</hi> <hi rend="antiqua">October</hi> 1826.</dateline>
+            </closer>
+            <postscript>
+               <p>
+                  <pb n="Links entlang der Seite notiert:"/>
+                  <lb/>P.S. Kennen Ew. Excellenz folgendes Werk: <hi rend="antiqua">
+                     <bibl sameAs="785">Catálogo de las lenguas de las Naciones conocidas y
+                                numeracion, division y Clases de estas segun la diversidad de sus
+                                idiomas y dialectos.</bibl> – Su autor el <persName ref="lhervas">Abate D.<hi rend="superscript">n</hi> Lorenzo Hervas</persName>,
+                            teólogo del Emm. S. Cardinal J. F.<hi rend="superscript">o</hi> Albani.
+                            en 5. Vol. Madrid 1800</hi>? Der erste Theil handelt <hi rend="antiqua">de lenguas y naciones Americanas</hi>. – Es sind darin eine Menge
+                        Americanischer Mundarten aufgeführt, jedoch keine Details darüber enthalten.
+                    </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

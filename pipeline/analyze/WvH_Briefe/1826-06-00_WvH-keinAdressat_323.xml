@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an unbekannt, wohl Sommer 1826<idno type="BBAW">323</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 57, Bl.
+                            62–63</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 240</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="pbeltran">
+                  <persName>Beltran de Santa Rosa María, Pedro</persName>
+               </person>
+               <person corresp="jcamano">
+                  <persName>Camaño y Bazán, Joaquín</persName>
+               </person>
+               <person corresp="acastro">
+                  <persName>Castro, Andrés de</persName>
+               </person>
+               <person corresp="fjclavijero">
+                  <persName>Clavijero, Francisco Javier</persName>
+               </person>
+               <person corresp="afebres">
+                  <persName>Febrés, Andrés</persName>
+               </person>
+               <person corresp="lfigueira">
+                  <persName>Figueira, Luiz</persName>
+               </person>
+               <person corresp="mgilberti">
+                  <persName>Gilberti, Maturino</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego Gonzalez</persName>
+               </person>
+               <person corresp="amachioni">
+                  <persName>Machioni, Antonio</persName>
+               </person>
+               <person corresp="lvmamiani">
+                  <persName>Mamiani, Lodovico Vincenzo de</persName>
+               </person>
+               <person corresp="pmarban">
+                  <persName>Marbán, Pedro</persName>
+               </person>
+               <person corresp="aruizdemontoya">
+                  <persName>Ruiz de Montoya, Antonio</persName>
+               </person>
+               <person corresp="gsanbuenaventura">
+                  <persName>San Buenaventura, Gabriel de</persName>
+               </person>
+               <person corresp="aserra">
+                  <persName>Serra, Ángel</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diego de</persName>
+               </person>
+               <person corresp="aulloa">
+                  <persName>Ulloa, Antonio de</persName>
+               </person>
+               <person corresp="bvillacanas">
+                  <persName>Villacañas, Benito de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="491">Bárenca, Alfonso / Bertonio, Ludovico / del Canto, Francisco
+                        / de Santo Tomás, Domingo / Holguín, Diego Gonzáles / de Torres Rubio,
+                        Diego: Arte, y Vocabulario en la lengua general del Peru, llamada Quichua, y
+                        en la lengua Española. El mas coposio y elegante, que hasta agora se ha
+                        impresso (Lima: Francisco del Canto 1614)</bibl>
+               <bibl corresp="536">Beltrán de Santa Rosa, Pedro: Arte del idioma maya, reducido
+                        a sucinctas reglas, y semilexicon yucateco (México D.F.: Viuda de d.J.
+                        Bernardo de Hogal 1746)</bibl>
+               <bibl corresp="824">Castro, Fray Andrés de: Vocabulario Español a Matlatzinca.
+                        Escrito en las márgenes de la primera edición del Vocabulario Castellano a
+                        Mexicano del fray Alonso de Molina (Mexiko: Antonio de Spinosa 1555)</bibl>
+               <bibl corresp="88">Clavigero, Francesco Saverio: Storia antica del Messico, 4
+                        Bände (Cesena: Biasini 1780–1781)</bibl>
+               <bibl corresp="132">Febrés, Andrés: Arte de la lengua general del reyno de
+                        Chile, con un dialogo chileno-hispano muy curioso: a que se añade la
+                        Doctrina christiana, esto es, rezo, catecismo, coplas, confesionario, y
+                        plàticas; lo mas en lengua chilena y castellana: Y por fin un Vocabulario
+                        hispano-chileno, y un Calepino chileno-hispano mas copioso (Lima: En la
+                        calle de la Encarnaçion 1765)</bibl>
+               <bibl corresp="272">Figueira, Luiz: Arte da Grammatica da Lingua do Brasil
+                        (Lissabon: Na Officina Patriarcal 1795)</bibl>
+               <bibl corresp="509">Gilberti, Maturino: Otro cartapacio impreso en lengua
+                        tarasca (México: Juan Pablos 1553)</bibl>
+               <bibl corresp="182">González Holguín, Diego: Gramatica y arte nueua de la lengua
+                        general de todo el Peru, Ilmada lengua Quichua, o lengua del Inca (Lima: por
+                        Francisco del Canto 1607)</bibl>
+               <bibl corresp="151">González Holguín, Diego: Vocabulario de la lengua general de
+                        todo el Peru llamada lengua Qquichua ó del Inca (Ciudad de los Reyes [Lima]:
+                        Francisco del Canto 1608)</bibl>
+               <bibl corresp="278">Machioni, Antonio: Arte, y vocabulario de la Lengua Lule, y
+                        Tonocoté (Madrid: Juan Garcia Infanzon 1732)</bibl>
+               <bibl corresp="281">Mamiani, Luis Vincencio: Arte de grammatica da lingua
+                        brasilica da naçam Kiriri (Lissabon: Miguel Deslandes 1699)</bibl>
+               <bibl corresp="284">Marbán, Pedro: Arte de la lengua Moxa: con su vocabulario, y
+                        cathecismo (Lima: impr. real de Joseph de Contreras 1701)</bibl>
+               <bibl corresp="304">Ruiz de Montoya, Antonio: Tesoro de la lengua Guarani
+                        (Madrid: Imp. Iuan Sanchez 1639)</bibl>
+               <bibl corresp="303">Ruiz de Montoya, Antonio: Arte y vocabulario de la lengua
+                        Guarani (Madrid: Imp. Iuan Sanchez 1640)</bibl>
+               <bibl corresp="508">San Buenaventura, Gabriel de: Arte de la lengua Maya
+                        (Mexiko-Stadt: Viuda de B. Calderón 1684)</bibl>
+               <bibl corresp="510">Serra, Angel: Vocabulario, arte y confesionario en lengua
+                        tarasca [devotional handbook] (Mexico: ca. 1695)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua
+                        quichua general de los indios de el Peru (Lima: Plazuela de San Christoval
+                        1754)</bibl>
+               <bibl corresp="48">Villacañas, Benito de: Arte de lengua cacchiquel &amp;
+                        Vocabulario en lengua cacchiquel (1692)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Je m’occupe depuis plusieurs
+                    années de recherches sur les langues Américaines,  …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date when="1826-06-01">Sommer 1826</date>
+               <placeName key="Berlin">[Berlin]</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="">kein Adressat</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="cax">Chiquitano</language>
+            <language ident="prr">Coroado (Puri)</language>
+            <language ident="gn">Guarani</language>
+            <language ident="kzw">Kiriri (Karirí)</language>
+            <language ident="ule">Lule</language>
+            <language ident="arn">Mapuche (Araukanisch)</language>
+            <language ident="myn">Maya</language>
+            <language ident="mxq">Mixe (Juquila Mixe)</language>
+            <language ident="ign">Moxo</language>
+            <language ident="nah">Nahuatl (Mexikanisch)</language>
+            <language ident="pt">Portugiesisch</language>
+            <language ident="tsz">Purepecha (Tarasca)</language>
+            <language ident="qu">Quechua</language>
+            <language ident="es">Spanisch</language>
+            <language ident="tup">Tupi (Brasilianisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">23. Juni 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="62r"/>
+               <note type="footnote" resp="editor">Ein Exemplar dieser Liste wird <ref type="link" target="881">dem Schreiben
+                        Humboldts</ref> an <persName ref="ifwmolfers">Ignaz von Olfers</persName> vom
+                            <date when="1826-07-26">26. Juli 1826</date> beigelegen haben. – Eine
+                        fast identische (lithografierte) Bücherliste ist <ref type="link" target="439">dem
+                            Schreiben</ref> von Olfers an Humboldt vom <date when="1827-10-23">23.
+                            Oktober 1827</date> beigefügt. [FZ]</note> Je m’occupe depuis plusieurs
+                    années de recherches sur les langues Américaines, que je compte publier aussitôt
+                    que je les aurai terminées. Je me trouve muni de nombreux et riches matériaux
+                    pour cette étude, mais je n’ai pû jusqu’ici me procurer les ouvrages
+                    suivans:</p>
+            <p>1. <bibl sameAs="132">Gramatica y Diccionario de la lengua de Chili</bibl> por el
+                    Ab: <persName ref="afebres">
+                  <hi rend="underline">Andr. Febrès</hi>
+               </persName>. Lima. 1765.</p>
+            <p>2. Il doit exister une grammaire et un dictionnaire de la langue des <hi rend="underline">Chiquitos</hi>
+               <note type="footnote" resp="editor">Vermutlich Jesuiten-Manuskripte; vgl. hierzu: Adam, Lucien / Henry, Victor
+                        (1880): <bibl sameAs="821">
+                     <hi rend="italic">Arte y vocabulario de la lengua chiquita: con algunos
+                                textos traducidos y explicados, compuestos sobre manuscritos
+                                inéditos del XVIIIo siglo</hi>
+                  </bibl> (Paris: Maisonneuve y cía.) –
+                        enthält folgende Manuskripte von <persName ref="jcamano">Joaquín
+                            Camaño</persName>: <hi rend="italic">Grammática de la lengua
+                            chiquita</hi>; <hi rend="italic">Arte de la lengua chiquita</hi> (1718);
+                            <hi rend="italic">Pláticas para el uso de la lengua chiquita:
+                            Vocabulario de la lengua, parte segunda, chiquito-español, y parte
+                            tercera, de sus raíces</hi>.</note>, la première imprimée in 4.° le
+                    second in <hi rend="underline">folio</hi>, mais j’ignore le nom de l’auteur et
+                    le lieu del’impression. Je connois ces deux ouvrages seulement par une notice
+                    manuscrite du <persName ref="jcamano">P. Camaño</persName> sur la langue des
+                    Chiquitos. </p>
+            <p>3. <bibl sameAs="304">Tesoro de la lengua Guarani</bibl> por <persName ref="aruizdemontoya">
+                  <hi rend="underline">Ant. Ruiz de Montoya</hi>
+               </persName>. Madrid. 1639.
+                    4.</p>
+            <p>4. <bibl sameAs="303">Arte y vocabulario de la lengua Guarani</bibl> por
+                        <persName ref="aruizdemontoya">
+                  <hi rend="underline">Ant. Ruiz de Montoya</hi>
+               </persName>. Madrid. 1640.
+                    12.</p>
+            <p>5. <bibl sameAs="281">Arte de Grammatica da lingua Brasilica da naçao
+                        Kiriri</bibl> composta pelo <persName ref="lvmamiani">P. <hi rend="underline">Luiz Vincencio Mamiani</hi>
+               </persName>. Lisboa.
+                    1699.</p>
+            <p>76 <bibl sameAs="434">Gramatica y vocabulario en la lengua del Perù llamada
+                        Quichua y en la lengua Español</bibl>. por <persName ref="dtorres">
+                  <hi rend="underline">Diego de Torres Rubio</hi>
+               </persName>. Sevilla.
+                    1603.</p>
+            <p>7. <bibl sameAs="278">Gramatica de la lengua Lule</bibl>. por el <persName ref="amachioni">P. <hi rend="underline">Ant Machoni</hi>
+               </persName>. Madrid.
+                    1732.</p>
+            <p>
+               <pb n="62v"/> 8. <bibl sameAs="284">Gramatica de la lengua Moxa (Mossa)</bibl>
+                    por <persName ref="pmarban">
+                  <hi rend="underline">Pedro Marban</hi>
+               </persName>. 1701.</p>
+            <p>9. <bibl sameAs="48">Gramatica y vocabulario de la lengua Chacciquel
+                        (Guatímala)</bibl> por <persName ref="bvillacanas">
+                  <hi rend="underline">Benedetto de Villacañas</hi>
+               </persName>.</p>
+            <p>10. <bibl sameAs="508">Gramatica de la lengua Maya (Yucatana)</bibl> por el
+                        <persName ref="gsanbuenaventura">P <hi rend="underline">Gabr. de S.
+                            Bonaventura</hi>
+               </persName>. Mexico. 1654.</p>
+            <p>11. <bibl sameAs="536">Vocabulario de la lengua Maya</bibl> por <persName ref="pbeltran">
+                  <hi rend="underline">Pedro Beltran</hi>
+               </persName>.</p>
+            <p>12. <bibl sameAs="509">Gramatica de la lengua Tarasca</bibl> por <persName ref="mgilberti">Maturino Gilbert</persName>.</p>
+            <p>13. <bibl sameAs="510">Gramatica y vocabulario de la lengua Tarasca</bibl> por
+                        <persName ref="aserra">
+                  <hi rend="underline">Angelo</hi> Sierra</persName>.</p>
+            <p>14. <bibl sameAs="824">Arte de aprender las lenguas Mexicana y Matlazinga y
+                        Vocabulario</bibl> por <persName ref="acastro">
+                  <hi rend="underline">Andr. de Castro</hi>
+               </persName>.</p>
+            <p>15. <bibl sameAs="825">Gramatica y vocabulario de la lengua Mixe</bibl>
+                        (<persName ref="fjclavijero">Clavigero</persName> cite cette grammaire dans
+                    son <bibl sameAs="88">histoire du Mexique.</bibl> T. IV. pag. 264.)</p>
+            <p>Ces ouvrages ne sont plus dans le commerce dela librairie; je n’ai pas même pû
+                    trouver jusqu’ici ceux qui ont été publiés en Espagne et en Portugal. Mais il
+                    est probable qu’il en existe encore des exemplaires en Amérique soit chez les
+                    Bouquinistes, soit dans les Bibliothèques publiques ou dans celles des
+                    particuliers. Les personnes qui dans ce cas, voudroient avoir la complaisance de
+                    me les faire obtenir, rendroient, comme je crois pouvoir l’assurer, service à
+                    l’étude comparative des langues, et de la connoissance plus particulière des
+                    peuplades indigènes du Nouveau Continent, et m’obligeroient infiniment
+                        personnel-<pb n="63r"/>lement. Je préférerois naturellement de faire
+                    l’acquisition de ceux de ces ouvrages qu’on voudroit bien me céder, et j’en
+                    paîrois le prix dont on seroit convenû. Mais j’obtiendrois aussi mon but, si les
+                    personnes, qui possèdent ces ouvrages, vouloient seulement consentir à me les
+                    prêter pour un tems déterminé. Je les renverrois exactement à l’époque fixée.
+                    Même si l’on ne vouloit en aucune manière s’en priver, il me seroit déjà
+                    intéressant de savoir où ils existent, et où il seroit possible de les consulter
+                    pour vérifier tel ou tel point. Je n’ajoute point ici la liste des ouvrages que
+                    je possède, ni celle de ceux dont je connois les tîtres, sans les avoir
+                    moi-même, mais dont je puis me passer, puisque j’en ai d’autres sur les mêmes
+                    langues plus récens et plus complets. Mais tout renseignement sur un ouvrage
+                    imprimé ou manuscrit sur une langue Américaine quelconque sera toujours du plus
+                    grand prix pour moi. Mon adresse est la suivante:</p>
+            <closer>
+               <address>
+                  <addrLine>à Mr. le Baron Guillaume de Humboldt <lb/>Ministre d’Etât de S. M.
+                            le Roi des Prusse <lb/>à <placeName ref="Berlin">Berlin</placeName>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="63v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

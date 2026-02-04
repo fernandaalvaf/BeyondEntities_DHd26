@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 31. Juli 2017 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jean-Louis Burnouf, 29.12.1824<idno type="BBAW">1115</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Paris, Bibliothèque National de
+                            France, Nouvelles Acquisitions Françaises 10600, Fol. 81–82</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Bösch 2006, S. 255–257</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7445</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="fwthiersch">
+                  <persName>Thiersch, Friedrich Wilhelm</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="1109">Eugène Burnouf (1824): Analyse et extraits du Dévi Mahatmyam,
+                    fragmens du Markandéya Pourana. In: Journal Asiatique 4, S. 24–32</bibl>
+               <bibl corresp="1110">Eugène Burnouf (1824): De re judicata et de rei judiciariae apud
+                    Romanos disciplina exercitationem […] tuebitur die 6 augusti 1824 ad licenciatus
+                    gradum promovendus E. Burnouf, Paris: Delalain</bibl>
+               <bibl corresp="1108">Jean-Louis Burnouf (1823): Critique littéraire: Système
+                    perfectionné de conjugaison des verbes grecs, présenté dans une suite de
+                    tableaux paradigmatiques, D. Frédéric Thiersch […]. In: Journal Asiatique 3, S.
+                    364–378, S. 7–60</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, avec le plus vif intérêt que j’ai lû les deux
+                        brochures …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-12-29"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jlburnouf">Burnouf, Jean-Louis</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1128" type="next">31.03.1825</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">31. Juli 2017</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="81r"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>C’est avec le plus vif intérêt que j’ai lû les deux brochures que Vous avez bien
+                    voulû m’envoyer.<note type="footnote" resp="editor">Dieser Brief von Burnouf an
+                        Humboldt ist nicht erhalten.</note> Je Vous parle, Monsieur, d’en agréer mes
+                    sincères remercimens.</p>
+            <p>
+               <bibl sameAs="1108">L’analyse de l’ouvrage</bibl> de <persName ref="fwthiersch">M<hi rend="superscript">r</hi>. Thiersch</persName> renferme des
+                    observations aussi judicieuses que neuves, &amp; il est infiniment louable qu’un
+                    savant Helleniste, tel que Vous, Monsieur, ne dédaigne pas d’entrer dans le
+                    labyrinthe <subst>
+                  <del>des</del>
+                  <add>de</add>
+               </subst> la Grammaire Sanscrite pour faire des rapprochemens ingénieux de la
+                    structure des deux langues. Le peu de pages que Vous avez vouées à cette analyse
+                    prouve déjà quel parti on peut tirer de la réunion de ces deux langues pour la
+                    connoissance plus intime de chacune d’elles. Les analogies qu’elles offrent tant
+                    dans les formes grammaticales que dans les mots, sont, ainsi que Vous
+                    l’observez, sans nombre; mais le systême de la langue Grecque me semble sous
+                    tous les rapports plus perfectionné que celui de la langue Sanscrite. La
+                    première a, si je ne me trompe, retranché de cette dernière, &amp; y a ajouté
+                        précise-<pb n="81v"/>ment ce qui étoit de trop ou ce qui manquoit. Un gout
+                    plus pûr paroit avoir présidé à la formation de l’idiôme grec, &amp; il en est
+                    résulté une plus grande sobriété dans les sons de l’Alphabet, dans les
+                    changemens des lettres, dans les formes composées, plus de précision dans la
+                    signification des tems &amp; des modes du Verbe, plus d’aisance, si j’ose dire,
+                    &amp; de facilité dans la tournure des phrases qui en frisant les sesquipedalia
+                    Verba du Sanscrit lient les leurs par une variété de particules qui y ajoutent
+                    des nuances fines &amp; délicates. </p>
+            <p>Je partage entièrement Votre opinion, Monsieur, qu’on pourroit faciliter beaucoup
+                    l’étude du Sanscrit, si l’on n’aimait pas à présenter aux autres les difficultés
+                    par lesquelles on a passé soi-même. La Grammaire pourroit être simplifiée, et la
+                    lecture facilitée par la coupure des mots impitoyablement liés ensemble. Cette
+                    liaison des mots me semble cependant bien remarquable. Il est presqu’ impossible
+                    d’en porter un jugement solide, puisque nous ignorons entièrement le systême de
+                    l’accentuation Indienne. Les limites d’un mot sont circonscrites par l’influence
+                    de son accent tant sur les syllabes qui le devancent que sur celles qui le
+                    suivent; ce qui est placé sous un même accent est un mot; le domaine de deux
+                    accents, principaux l’un &amp; l’autre, <subst>
+                  <del>forment</del>
+                  <add>forme</add>
+               </subst> deux mots. Cette regle semble tellement inhérente à la prononciation
+                    qu’il est difficile de croire que la même regle n’ait pas prévalû aussi dans le
+                    Sanscrit. Mais il faut supposer <subst>
+                  <del>qu’ils</del>
+                  <add>que les habitans de l’Inde</add>
+               </subst> ayent sû au penchant de faire tellement influer un mot sur l’autre
+                    qu’il s’en suivait l’altération des lettres qui occupe <pb n="82r"/> tant de
+                    pages dans la Grammaire Sanscrite. La prononciation formoit donc des liaisons
+                    imparfaites de plusieurs mots indépendamment de l’accent, &amp; indépendamment
+                    du rhytme &amp; des sons. Je ne saurois m’imaginer que cela ait tenû uniquement
+                    à la manière d’Inde. Les Manuscrits Indiens placent les vers entiers sous une
+                    même ligne, &amp; malgré cela on ne sauroit s’empecher de croire qu’ils n’ayent
+                    liés plus étroitement ensemble des mots tels que atischtan – manuzendranan<note type="footnote" resp="editor">In der heutige gängigen Umschrift: atiṣṭhan –
+                        manujendrāṇān (Bösch).</note> au lieu de atischtat<note type="footnote" resp="editor">In der heutige gängigen Umschrift: atiṣṭhat (Bösch).</note> cet.
+                    que p.e. murddhni devapatis<note type="footnote" resp="editor">In der
+                        heutige gängigen Umschrift: mūrddhni devapatiś (Bösch).</note> cet. Tout ce
+                    qu’on peut accorder, il me semble, c’est que cette méthode de lier les mots a pû
+                    devenir moins fréquente, la où <supplied cert="high">on</supplied> ne la
+                    conservoit pas également <add>par l’écriture</add>. Je suis par cette raison l’exemple de
+                        <persName ref="awschlegel">M<hi rend="superscript">r</hi>. Schlegel</persName> de conserver le changement
+                    des lettres aussi dans les paroles séparées &amp; et d’écrire p.e. <bibl sameAs="52">Bhagavad et non Bhagavat Gita</bibl>.</p>
+            <p>
+               <bibl sameAs="1109">L’extrait du Devimahatmya</bibl> de <persName ref="eburnouf">Monsieur Votre fils</persName> qui marche avec tant de succès sur les
+                    traces de son digne père, m’a d’autant plus intéressé que je ne connoissois
+                    point jusqu’ici ce Pourana. La traduction m’a parû être d’une noble &amp; belle
+                    simplicité. Je désirerois pouvoir parler également d’après mon propre jugement
+                    de la dissertation pleine d’érudition de <persName ref="eburnouf">Monsieur Votre
+                        fils</persName>
+               <bibl sameAs="1110">de re judicata</bibl>, mais c’est là une matière qui m’est
+                    entièrement inconnue.</p>
+            <p>Le jugement que Vous avez la bonté de porter dans Votre lettre sur mes foibles
+                    travaux, a été on ne peut pas plus flatteur pour moi. J’y reconnois surtout
+                    Votre indulgence, Monsieur <pb n="82v"/> mais il m’encouragera à continuer mes
+                    travaux de la manière que je les ai commencés, &amp; c’est en profitant des
+                    lumières de personnes telles que Vous que je pourrai espérer de faire quelques
+                    progrès dans cette route difficile.</p>
+            <closer>
+               <salute>J’ai l’honneur d’être avec la considération la plus distinguée,
+                        <lb/>Monsieur, <lb/>Vôtre <lb/>très-humble &amp; très-obéissant
+                        <lb/>Serviteur,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Berlin, ce 29. Décembre, 1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

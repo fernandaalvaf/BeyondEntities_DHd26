@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jacob Grimm, 08.07.1827<idno type="BBAW">543</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Nachlass Grimm, 1165
+                            (2)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1929, S. 204–206</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7805</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="jdobrovsky">
+                  <persName>Dobrovský, Josef</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="627">Bopp, Franz: [Rez.] Deutsche Grammatik von Dr. Jacob Grimm. Zweite
+                    Aufl. Erster Theil 1822. Zweiter Theil 1826. In: Jahrbücher für
+                    wissenschaftliche Kritik, hrsg. v. der Societät für wissenschaftliche Kritik zu
+                    Berlin, Jg. 1827, Nr. 31/32 bis 37/38, S. 251–303; Nr. 92/93 bis 95/96, S.
+                    725–759</bibl>
+               <bibl corresp="1261">Grimm, Jacob: Deutsche Grammatik (Göttingen: Dieterich
+                    1819)</bibl>
+               <bibl corresp="202">Humboldt, Wilhelm von: Lettre à Monsieur Abel Rémusat, sur la
+                    nature des formes grammaticales en général, et sur le génie de la langue
+                    Chinoise en particulier (Paris: Dondé &amp; Dupré 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich fühle mich ordentlich strafbar …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-07-08"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgrimm">Grimm, Jacob</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="gem">Germanische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">04. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1"/> Ich fühle mich ordentlich strafbar, Ew. Wohlgebornen gütigen Brief,
+                    der nun schon ein volles Jahr bei mir liegt, erst heute, und auch heute, da ich
+                    im Begriff stehe, eine Reise einiger Monate anzutreten, viel kürzer, als ich
+                    wünschte, zu beantworten. Ich wartete aber immer ab, Ihnen eine kleine <bibl sameAs="202">Schrift</bibl>, deren Druck schon damals im Werke war, zugleich
+                    zu überschicken.</p>
+            <p>Der Gedanke eines Compositionsvocals spricht mich sehr lebendig an. Man dürfte
+                    ihn vielleicht vorzugsweise in Sprachen erwarten, die nicht gewohnt sind, fast
+                    überall den Endbuchstaben eines Worts vom Anfangsbuchstaben eines andern <hi rend="antiqua">afficiren</hi> zu lassen. Allerdings aber bleibt in Sprachen,
+                    welche die Grundform nicht eigen aufstellen, immer zweifelhaft, ob dieser <hi rend="antiqua">Vocal</hi> nicht dieser angehört. Der Flexion sprechen Ew.
+                    Wohlgebornen diesen Vocal ganz ab, und ich trete Ihnen darin vollkommen bei,
+                    wenn Sie von eigentlichen Flexionslauten reden. Aber die Flexionslaute bedürfen
+                    oft auch eines vermittelnden <hi rend="antiqua">Vocals</hi>, u. wie nun wenn
+                    dieser derselbe, als der in der Composition wäre? Die wirklich dem Wort
+                    zufügende Flexion bleibt immer, welches System man über sie annehmen möge, eine
+                    Art der Composition. So kann ich in <foreign sameAs="grc">οἰκ-ο-δομέω</foreign> doch nicht <foreign sameAs="grc">οικο</foreign> für
+                    die Grundform ansehen, u. auch nicht <foreign sameAs="grc">oς</foreign> als <sic>
+                  <hi rend="antiqua">Nominatif</hi>
+               </sic> Zeichen. Erstere scheint mir nur
+                        <foreign sameAs="grc">οικ</foreign>, letzteres nur <foreign sameAs="grc">σ</foreign>, <hi rend="antiqua">o</hi> ist in beiden Fällen Anfügungs<hi rend="antiqua">vocal</hi>.</p>
+            <p>Ew. Wohlgebornen kennen nunmehr gewiß unseres gemeinschaftlichen Freundes
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> <bibl sameAs="627">Anzeige</bibl>
+                    Ihrer treflichen <bibl sameAs="156">Grammatik</bibl>.</p>
+            <p>
+               <pb n="2"/> Ich bin sehr begierig zu hören, wie Sie über die darin hauptsächlich
+                    berührten Punkte denken. Mich hat vorzüglich das darin über den Ablaut und das
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> Gesagte interessirt, ich muß aber
+                    gestehen, u. habe darüber mit unserm <persName ref="bopp">Freunde</persName>
+                    selbst viel verhandelt, daß ich ihm darin nicht beitreten kann. Ich halte Ablaut
+                    und <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term>, u. hierin weiche ich auch von Ew.
+                    Wohlgebornen ab, für zwei verschiedene u. wenigstens nur entfernt verwandte
+                    Erscheinungen. Dagegen besitzt das <hi rend="antiqua">Sanskrit</hi> eine andre
+                        <hi rend="antiqua">Vocal</hi>veränderung, welche dem Ablaut mehr gleich
+                    kommt, nemlich diejenige, durch welche z. B. aus <hi rend="antiqua">man</hi> im
+                        <hi rend="antiqua">reduplicirten Praeteritum mene</hi>
+               <note type="footnote" resp="editor">Leitzmann 1929, S. 205: „<hi rend="antiqua">mamn</hi>“.</note>
+                    wird. Schon im <hi rend="antiqua">Sanskrit</hi> möchte ich bezweifeln, daß das
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> von der Leichtigkeit der Endsylben
+                    herrührte. Es sind so wichtige <hi rend="antiqua">Instanzen</hi> dagegen, daß
+                    der Ausnahmen von der angeblichen Regel zu viele werden. Allein nie würde ich
+                    mich dazu verstehen können abzuläugnen, daß im <hi rend="antiqua">german</hi>ischen Ablaut ein ursprüngliches tiefes u. schönes grammatisches
+                    Gefühl liegt, u. daß er nur diesem seinen Ursprung verdankt. Mehrere
+                    sanskritische Sprachen besitzen Aehnliches, aber so schön, so rein, so
+                    systematisch, als die germanischen, keine, u. es geschieht ja auch sonst, daß
+                    unter ganz verwandten Sprachen eine etwas dem Stamm nicht Fremdes, aber doch
+                    ganz Eigenthümliches besitzt.</p>
+            <p>Ich füge diesen Zeilen eine kleine, beinahe zur Streitschrift gewordene <bibl sameAs="202">Schrift über den Bau des Chinesischen</bibl> hinzu. Es wird Ew.
+                    Wohlgebornen doch vielleicht interessiren, von einer Sprache näher zu hören, die
+                    gewissermaßen aller Grammatik entsagt. Ich bin jetzt mit den Südseesprachen
+                    beschäftigt, die sich an das Chinesische, obschon viel grammatischer, gleichsam
+                    anschließen. Die sanskritischen Sprachen sind, meiner Kenntniß nach, die
+                    vollkommenst grammatischen. Außer ihrem Kreise giebt es aber eine <pb n="3"/>
+                    Anzahl von Sprachen in denen es gleichsam sichtbar ist, daß die in allen
+                    Menschen gleiche Grammatik hat in sie hinabsteigen wollen, daß sie aber
+                    Schwierigkeit gefunden, darin Platz zu gewinnen. In dem Kreise dieser Sprachen
+                    bewege ich mich für jetzt, da ich für den Augenblick niemand kenne, der gleiche
+                    äußere Hülfsmittel dazu besäße, und da dies Feld bisher sehr verkehrt behandelt
+                    worden ist. Die sanskritischen Sprachen dagegen, deren Bearbeitung freilich
+                    schwieriger, edler, belohnender u. verdienstlicher ist, erfreuen sich in Ihnen,
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>, der eigentlichen <hi rend="antiqua">Hellenisten</hi> nicht zu gedenken, so treflicher Bearbeiter,
+                    daß es Anmaßung wäre zu glauben, daß man auf diesem Gebiete nöthig seyn könnte.
+                    Ew. Wohlgebornen müssen aber darum nicht glauben, daß ich mit geringerem
+                    Interesse <bibl sameAs="156">Ihre Grammatik</bibl> studirte. Ich kehre, obgleich
+                    jetzt meine Augen mir dabei einige Schwierigkeiten verursachen, immer u. um so
+                    mehr zu derselben zurück, als ich bedauern muß, in frühern Jahren gerade den
+                    germanischen Sprachen nicht genug Zeit gewidmet zu haben. Es ist meine innigste
+                    Ueberzeugung, daß es ein wahrhaft unsterbliches u. einziges Werk ist, so sehr
+                    daß das Ausland, Frankreich u. England, noch nicht einmal einen Begriff von
+                    einer solchen Bearbeitung einer Sprache haben. Nur <persName ref="jdobrovsky">
+                  <hi rend="antiqua">Dobrowsky</hi>
+               </persName>’s Arbeiten können, meinem
+                    Gefühl nach, einigermaßen damit verglichen werden. Möge Ihnen der Himmel
+                    Gesundheit u. Muße schenken, dies wirklich große Werk zu
+                        vollenden.<note type="footnote" resp="editor">Jacob Grimm veröffentlichte
+                        bis 1837 noch zwei weitere Bänder der 2. Auflage der <hi rend="italic">Deutschen
+                            Grammatik</hi> (Göttingen: Dieterich, <bibl sameAs="1261">Bd. 1:
+                                1822, Bd. 2: 1826,</bibl> Bd. 3: 1831, Bd. 4: 1837). [FZ]</note>
+            </p>
+            <closer>
+               <salute>Mit der herzlichen Verehrung der Ihrige</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi> bei <hi rend="antiqua">Berlin</hi>, den 8. <hi rend="antiqua">Julius</hi>, 1827.</dateline>
+               <lb/>
+               <pb n="4 vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

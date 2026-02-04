@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 04. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Karl Josias Bunsen an Wilhelm von Humboldt, 06.12.1826<idno type="BBAW">673</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 13</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1949, S. 12f. (Reg. + Ausz.)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11956</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bate">
+                  <persName>Bate, Herr</persName>
+               </person>
+               <person corresp="bgenelli">
+                  <persName>Genelli, Bonaventura</persName>
+               </person>
+               <person corresp="georgkve">
+                  <persName>Georg IV., König von England</persName>
+               </person>
+               <person corresp="agrahl">
+                  <persName>Grahl, August</persName>
+               </person>
+               <person corresp="guli">
+                  <persName>Guli, Pater</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cfakloeber">
+                  <persName>Kloeber, Carl Friedrich August von</persName>
+               </person>
+               <person corresp="amai">
+                  <persName>Mai, Angelo</persName>
+               </person>
+               <person corresp="aaplaval">
+                  <persName>Montmorency-Laval, Anne-Adrien-Pierre de</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="jharoux">
+                  <persName>Roux, Jean-Henri-Auguste</persName>
+               </person>
+               <person corresp="gtstaunton">
+                  <persName>Staunton, Sir George Thomas</persName>
+               </person>
+               <person corresp="atemmel">
+                  <persName>Temmel, August</persName>
+               </person>
+               <person corresp="jbthavenet">
+                  <persName>Thavenet, Jean-Baptiste</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="787">Mai, Angelo: Catalogo de’ papiri egiziani della Biblioteca Vaticana
+                    e Notizia più estesa di uno d’essi con breve previo discorso e con susseguenti
+                    riflessioni (Rom: Tipi Vaticani 1825)</bibl>
+               <bibl corresp="508">San Buenaventura, Gabriel de: Arte de la lengua Maya (Mexiko-Stadt:
+                    Viuda de B. Calderón 1684)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Eczellenz gütiges Schreiben vom 28. Septbr. hatte ich
+                        die Ehre …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ckjbunsen">Bunsen, Christian Karl Josias</persName>
+               <date type="author" when="1826-12-06"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="108" type="next">31.03.1827</ref>
+               <ref target="107" type="prev">28.09.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ckjbunsen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="egy">Ägyptisch</language>
+            <language ident="alq">Algonkin</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="yua">Yucatanisch (Maya)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">05. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="18a"/>
+               <dateline>
+                  <hi rend="antiqua">Rom</hi> 6 <hi rend="antiqua">Dcbr.</hi> 1826.</dateline>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>gütiges <ref type="link" target="107">Schreiben</ref> vom <date when="1826-09-28">28. <hi rend="antiqua">Septbr.</hi>
+               </date> hatte ich die Ehre am <date when="1826-10-15">15<hi rend="superscript">ten</hi> October</date> auf dem
+                    Lande zu erhalten. Bei meiner Rückkehr zum Kapitol habe ich es mir sogleich zur
+                    angenehmsten Pflicht gemacht, mit meinen guten Bekannten und Nachbarn im
+                        <orgName ref="57">Gesù</orgName> mich hinsichtlich der Abschrift der
+                    Collation der von Ew. Excellenz nahmhaft gemachten Papiere des <persName ref="lhervas">
+                  <hi rend="antiqua">Hervas</hi>
+               </persName> zu verständigen, und ich habe
+                    jetzt das Vergnügen Ihnen anzuzeigen, daß der <persName ref="guli">
+                  <hi rend="antiqua">P. Guli</hi>
+               </persName> die in Italien unerhörte Liberalität gehabt hat, mir zu erlauben die
+                    Handschriften aus der <orgName ref="57">Bibliothek</orgName>
+               <!-- Gesù-Bibliothek? --> zu nehmen, und sie dem jungen
+                    Manne zu übergeben, den ich (als den RR. PP. bekannt) dazu vorgeschlagen hatte.
+                    In einem Monate spätestens wird alles vollendet sein. Wenn die Abschrift
+                    vollendet ist, werde ich die zweifelhaften Nummern (<hi rend="antiqua">Orinokesi</hi> bis <hi rend="antiqua">Canarina</hi>) untersuchen, um zu
+                    entscheiden, ob auch sie abzuschreiben sind.</p>
+            <p>Leider findet sich die <bibl sameAs="508">Yucatanische Grammatik von 1684</bibl>
+                    nicht mehr im <orgName ref="27">
+                  <hi rend="antiqua">Collegio Romano</hi>
+               </orgName>. <hi rend="underline">Möglich</hi> wäre es, daß sie auf die <orgName ref="51">
+                  <hi rend="antiqua">Vaticana</hi>
+               </orgName> verschlagen sich dort fände: dieß
+                    werde ich noch in der nächsten Woche untersuchen. Ein glücklicher Zufall hat
+                    mich dagegen in Stand gesetzt, einen eben aus Canada <pb n="18b"/> <sic>ankommende</sic> Geistlichen zu treffen, dessen nähere Bekanntschaft
+                    ich durch den <persName ref="aaplaval">Duc de Laval</persName> gemacht habe, um
+                    Mittheilungen über amerikanische Sprachen zu erhalten. Er hat mir gesagt – er
+                    selbst ist Superior des reichen Klosters <hi rend="antiqua">de S<hi rend="superscript">t</hi> Sulpice</hi> in <placeName ref="Montreal">
+                  <hi rend="antiqua">Montreal</hi>
+               </placeName>, <subst>
+                  <del>
+                     <hi rend="antiqua">M</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">P.</hi>
+                  </add>
+               </subst> <persName ref="jharoux">
+                  <hi rend="antiqua">Roux</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="jharoux">Jean-Henri-Auguste Roux</persName> (1760–1831); s.
+                                Gilles Chaussé (1992): <hi rend="italic">Les Prêtres de Saint-Sulpice au Canada:
+                                    grandes figures de leur histoire</hi>, Québec: Les Presses de l’Université Laval, S. 186–189. [FZ]</note> – daß
+                    einer seiner Klosterbrüder<note type="footnote" resp="editor">Bei dem
+                        Klosterbruder müsste es sich um <persName ref="jbthavenet">Jean-Baptiste
+                            Thavenet</persName> handeln, zu dem Humboldt am <date when="1828-07-23">23. Juli 1828</date> in <placeName ref="Paris">Paris</placeName> per
+                            <ref type="link" target="223">Brief</ref> Kontakt aufnimmt. Thavenet
+                        verfasste ein "dictionnaire manuscrit algonquin-français" (ca. 1815); s.
+                        André Thibault (2008): <hi rend="italic">Richesses du français et géographie
+                            linguistique</hi>, Band 2, Brüssel: De Boeck, S. 158. [FZ]</note> eine
+                    Grammatik und Wörterbuch der Sprache der <hi rend="antiqua">Algonquins</hi>
+                    verfaßt habe, welche dem <persName ref="georgkve">Könige von England</persName>
+                    zugeeignet, oder von der französischen Regierung herausgegeben werden solle. Er
+                    selbst habe die Materialien dazu dem Verfasser verschafft, und könne über sie
+                    verfügen, wenn die Herausgabe nicht bald erfolge. Er hoffe auch andre
+                    handschriftliche Notizen auftreiben zu können, die er gern mittheilen werde. Der
+                    Mann scheint sehr ehrenwerth, und es läßt sich also etwas von ihm erwarten: ich
+                    werde ihn nicht aus den Augen lassen, und über den Fortgang berichten. Erst
+                    vorgestern lernte ich ihn kennen, und so habe ich noch nichts Näheres in
+                    Erfahrung bringen können. In vier Monaten geht er wieder nach <placeName ref="Montreal">Montreal</placeName>, und im schlimmsten Falle würde man ihm
+                    Fragen und Aufträge mitgeben können.</p>
+            <p>
+               <pb n="19a"/> Durch einen in 3 Wochen nach <placeName ref="Bonn">Bonn</placeName>
+                    zurückkehrenden Landsmann habe ich an <persName ref="bgniebuhr">Niebuhr</persName> für Ew. Excellenz zu weiterer Beförderung ein Exemplar
+                    von <persName ref="amai">Mais</persName> <bibl sameAs="787">Buch über die <hi rend="antiqua">Papiri Egizj Vaticani in 4°</hi>
+               </bibl> geschickt: es
+                    muß bei Eingang dieser Zeilen schon in <persName ref="bgniebuhr">Niebuhr</persName>s Händen sein. In der Eile konnte ich kein ganz neues
+                    Exemplar finden, und muß Ew. Excellenz also um Verzeihung bitten, daß ich mir
+                    erlaube Ihnen das meinige zuzuschicken. Wenn sich mir eine gleich schnelle
+                    Gelegenheit fände, die <persName ref="lhervas">Hervas</persName>schen
+                    Abschriften zu expedirn! –</p>
+            <p>Wahrscheinlich werden Ew. Excellenz schon vor meiner desfalsigen Anzeige etwas
+                    von den römischen Skizzen zur Preisaufgabe vernommen haben. Die Sache ist in
+                        <placeName ref="Rom">Rom</placeName> mit solcher Oeffentlichkeit behandelt,
+                    daß das <hi rend="antiqua">Incognito</hi> und die Motto’s fast lächerlich
+                    scheinen. <persName ref="cfakloeber">Herrn von Klöbers</persName> Skizze scheint
+                    hier allgemein den Vorzug erhalten zu haben: nach ihr wohl die, obgleich schwach
+                    ausgeführte von <persName ref="agrahl">Hr. Grahl</persName> (<hi rend="antiqua">Amor vincit</hi>) die wenigstens für geistreicher aufgefaßt gilt als die
+                    von Sokrates-<persName ref="atemmel">Themmel</persName> (<add>
+                  <placeName ref="Köthen">Kothen</placeName>scher Hofmaler</add> aus Schlesien
+                        gebürtig<note type="footnote" resp="editor">
+                  <persName ref="atemmel">August Temmel</persName> (1797 Ratibor – 1841 Rom),
+                        Historienmaler.</note>). Der zweite ist ein sehr ernst aufstrebender, Ew.
+                    Excellenz vielleicht durch seine <pb n="19b"/> Miniatur-Arbeiten bekannter,
+                    Porträtmaler, der sich durch tüchtiges Naturstudium und Zeichnung des Nakten zum
+                    Historienmaler zu erheben sucht, und die Madonna von Foligno mit Glück kopirt,
+                    dem es aber bis jetzt an Gelegenheit gefehlt hat, Arbeiten dieser Art zu
+                    unternehmen. – Man bedauert sehr, daß der eben so geniale als durch seine
+                    Sonderbarkeiten abstoßende <persName ref="bgenelli">
+                  <hi rend="antiqua">Ginelli</hi>
+               </persName> sich – was auch er jetzt bedauert
+                    – <del>sich</del> zu spät besonnen hat: er würde wahrscheinlich etwas sehr
+                    Ausgezeichnetes geliefert haben.</p>
+            <p>Mit der größten Freude haben wir alle hier die beruhigenden Nachrichten von dem
+                    Gesundheitszustand <persName ref="cvh1">Ihrer verehrten Frau Gemalinn</persName>
+                    erhalten, und bitten ihrem wohlwollenden Andenken aufs beste empfohlen zu
+                    werden. Wenn <persName ref="avh">Ihr Herr Bruder</persName> noch bei Ew.
+                    Excellenz ist; so erlaube ich mir <add>die Bitte,</add> ihm meine ergebensten
+                    Empfehlungen mit meinem Dank für die mir gütigst verschaffte Bekanntschaft von
+                        <persName ref="gstaunton">
+                  <hi rend="antiqua">Sir George Staunton</hi>
+               </persName> und andern
+                        <sic>Reisende</sic> aussprechen zu wollen.</p>
+            <closer>
+               <salute>Mit unveränderlicher Verehrung <lb/>Ew. Excellenz <lb/>ganz
+                        gehorsamster</salute>
+               <signed>Bunsen</signed>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <hi rend="antiqua">P.S.</hi> So eben vor Abgang des Briefes erhalte ich das
+                        gütige Schreiben I. E. wegen der drei gewünschten Mosaiken<!-- note? -->,
+                        und bitte um Verzeihung daß ich wegen Kürze der Zeit nicht heut schon
+                        antworte. Noch heut wird alles besorgt werden: fertig findet sich wohl ganz
+                        sicher keine jener Darstellungen. Einen Brief von <persName ref="bate">
+                     <hi rend="antiqua">Hn. Bate</hi>
+                     <!-- ???? -->
+                  </persName> schließe ich bei.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

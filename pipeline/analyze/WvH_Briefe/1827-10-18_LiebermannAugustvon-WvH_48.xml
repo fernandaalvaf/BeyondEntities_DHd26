@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 24. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August von Liebermann an Wilhelm von Humboldt, 18.10.1827<idno type="BBAW">48</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1066, Bl.
+                            64–69</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12018</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jaaldamayguevara">
+                  <persName>Aldama y Guevara, José Agustín</persName>
+               </person>
+               <person corresp="fboisdeslandes">
+                  <persName>Boisdeslandes, Ferdinand de</persName>
+               </person>
+               <person corresp="hocarochi">
+                  <persName>Carochi, Horacio</persName>
+               </person>
+               <person corresp="jberro">
+                  <persName>Erro y c, Juan Bautista</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="tortiz">
+                  <persName>Ortiz, Tomás</persName>
+               </person>
+               <person corresp="jpavon">
+                  <persName>Pavon, José</persName>
+               </person>
+               <person corresp="ldvelasco">
+                  <persName>Velasco, Luis de</persName>
+               </person>
+               <person corresp="adevetancurt">
+                  <persName>Vetancurt, Augustín de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="13">Aldáma y Guevára, José Augustin de: Arte de la lengua Mexicana
+                    (Mexiko: En la Imprenta nueva de la Bibliotheca Mexicana 1754)</bibl>
+               <bibl corresp="72">Carochi, Horacio: Arte de la Lengua mexicana con la declaración de
+                    todos sus adverbios (Mexiko: Juan Ruyz 1645)</bibl>
+               <bibl corresp="154">Gramatica de los Pueblos de America (Santa Cruz 1770)</bibl>
+               <bibl corresp="302">Molina, Alonso de: Vocabulario en lengua Castellana y Mexicana
+                    (Mexiko: Antonio de Spinosa 1555)</bibl>
+               <bibl corresp="323">Ortiz, Thomas: Arte y reglas de la lengua tagala (Sampaloc, Manila:
+                    Convento de Nra. Señora de Loreto 1740)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+               <bibl corresp="804">Vetancurt, Augustín de: Arte de lengua mexicana, dispuesto por
+                    orden, y mandato de N. Rmo P. Fr. Francisco Trevino (Mexico: Francisco Rodriguez
+                    Lupercio 1673)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ewr. Excellenz hochgeehrtes Schreiben vom 9ten
+                        July d. J. …</ab>
+            <p>Aus Madrid. Liebermann hat Humboldts Brief vom <date when="1827-07-09">09.07.1827</date> erst im September erhalten ohne die Bücher. Die Schreiben
+                    an <persName ref="jberro">Erro</persName> und <persName ref="jpavon">Pavon</persName> hat er weitergeleitet. Letzterer hat Liebermann ein
+                    geliehenes <bibl sameAs="434">Buch</bibl> ganz überlassen. Liebermann übermittelt
+                    einen Brief von <persName ref="jberro">Erro</persName> an Humboldt Die von
+                    Humboldt gesuchte <bibl sameAs="154">Gramatica de los pueblos de America</bibl>
+                    ist unauffindbar in der <orgName ref="24">Königlichen Bibliothek</orgName>. Er
+                    fügt aber Notizen aus Werken der <orgName ref="24">Bibliothek</orgName> über
+                    lengua Mexicana und lengua Tagala an.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="aliebermann">Liebermann, August von</persName>
+               <date type="author" when="1827-10-18"/>
+               <placeName key="Madrid">Madrid</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="aliebermann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="nah">Nahuatl (Aztekisch, Mexicanisch)</language>
+            <language ident="tl">Tagalog</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">24. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter"/>
+         <div type="appendix">
+                <!-- andere Handschrift als Brief? - überprüfen! -->
+            <p>
+               <pb n="65r"/> <handShift scribe="Schreiber?"/>
+               <lb/>1., <hi rend="antiqua">
+                  <persName ref="ademolina">Molina</persName>, <bibl sameAs="302">Vocabulario de la Lengua Mexicana</bibl>
+               </hi>
+               <lb/>– ⁒ das Titelblatt
+                    fehlt ⁒ –</p>
+            <p>Aus der, am Ende des Werks befindlichen Zueignung "<hi rend="antiqua">
+                  <foreign sameAs="es">en honra y gloria de Nuestro Señor Jesu Cristo y de su
+                            bendita Madre</foreign>
+               </hi>", geht hervor, daß der <bibl sameAs="302">
+                  <hi rend="antiqua">Vocabulario</hi>
+               </bibl> in <hi rend="antiqua">Mexico</hi> im Jahre 1555. gedruckt worden ist zu welcher Zeit jenes
+                    Königreich von <persName ref="ldvelasco">
+                  <hi rend="antiqua">D<hi rend="superscript">n</hi> Luis de Velasco</hi>
+               </persName> als
+                    Vizekönig regiert wurde.</p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Dios</foreign>. <foreign sameAs="nah">Teutl</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">frayle</foreign>. <foreign sameAs="nah">Teupixqui</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Virey</foreign>. <foreign sameAs="nah">Tlahtocateixiptla</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Padre</foreign> <foreign sameAs="nah">Yzcacauthli</foreign>, <foreign sameAs="nah">teizcacauh</foreign>.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Madre</foreign> <foreign sameAs="nah">Tenantzin</foreign>. <foreign sameAs="nah">Nantli</foreign>. <foreign sameAs="nah">Teciztli</foreign>.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Platero</foreign> <foreign sameAs="nah">Yztacteocuitlapitzqui</foreign>.</hi>
+            </p>
+            <p/>
+            <p>2., <hi rend="antiqua">
+                  <bibl sameAs="72">Arte de la Lengua Mexicana con la
+                            declaracion de los adverbios de ella</bibl>, por el Padre <persName ref="hocarochi">Horacio Carachi</persName>, Rector del Colegio de la
+                        Compañia de Jesus de San Pedro y San Pablo de Mexico. Año de 1645. impreso
+                        en Mexico en el mismo año.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">A esta lengua le faltan 7. letras que son:</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">b. d. f. g. r. s. j Los varrnes ses pronuncian la v.
+                        consonante como en la lengua Castellana se pronuncian las dos v. v. de la
+                        palabra <hi rend="underline">
+                     <foreign sameAs="es">vivo</foreign>
+                  </hi>,
+                        porque toca un poco en la pronunciacion de la v. vocal: pero tan poco que no
+                        hace sillaba de por si; y asi esta</hi> <pb n="65v"/> <hi rend="antiqua">palabra <hi rend="underline">
+                     <foreign sameAs="nah">vēuētl</foreign>
+                  </hi> que significa atabal ô tamboril es de dos
+                        sylabas y no de quatro y para que no se pronuncia esta J. consonante como en
+                        Castellano se le suele anteponer una h. como <hi rend="underline">
+                     <foreign sameAs="nah">huēhuētl</foreign>
+                  </hi>, y <hi rend="underline">
+                     <foreign sameAs="nah">huēhuē</foreign>
+                  </hi>, (<foreign sameAs="es">viejo</foreign>). Pero las Mugeres Mexicanas pronuncian la
+                        J. consonante como en Castellano. De la Z. no usan al principio de las
+                        dicciones ni de las Sylabas, sino solamente al fin de ellas como <foreign sameAs="nah">Ninemiz</foreign> ⁒ <foreign sameAs="nah">yo
+                            viviné</foreign> ⁒ – ; <foreign sameAs="nah">Tinomizquî</foreign> ⁒
+                            <foreign sameAs="nah">nosotros visirémos</foreign> ⁒</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Se pronuncia como la S. castellana. Otra letra tienen parecida
+                        en la pronunciacion à la <hi rend="underline">z</hi> y à la C. pero es de
+                        mas fuerte pronunciacion. Corresponde à la letra hebrea llamada Tsade.
+                        Tambien carece de la <hi rend="underline">ñ:</hi> castellana y de las <hi rend="underline">ll:</hi> castellanas, y cuando en mexicano se hablaren
+                        se han de pronuciar como en latin. Tampoco se pronuncia la N: antes de le X:
+                        sino que la X: se pronuncia con mas fuerza como si fueran dos; v. g. en
+                        lugar de dicer <foreign sameAs="nah">Mātiquìnxōx</foreign> dicen <foreign sameAs="nah">mātiquìxxox</foreign> ⁒ <foreign sameAs="es">no los
+                            enchices</foreign>
+                  <!-- spanisch? --> ⁒ –</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Hay quatro accentos para distinguir quatro generos de tonos
+                        con que se pronuncia la Vocal de cada Sylaba, y son estos: á. ā. à.
+                    â.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">El accento ´ es señal de sylaba breve como tétl ⁒ <foreign sameAs="es">piedra</foreign> ⁒, <foreign sameAs="nah">tlétl</foreign> ⁒ <foreign sameAs="es">fuego</foreign> ⁒ – . La ̄ es
+                        de sylaba larga como ātl ⁒ <foreign sameAs="es">agua</foreign> ⁒ –
+                            <foreign sameAs="nah">teōtl</foreign> ⁒ <foreign sameAs="es">Dios</foreign> ⁒ – La ` es señal de pronunciacion que suelen llamar
+                        saltillo, porque la Vocal sobre que cae este accento se pronuncia como con
+                        salto, ô sin gulto ô repraro y suspension, v. g.</hi> <pb n="66r"/> <hi rend="antiqua">
+                  <foreign sameAs="nah">tàtli</foreign> – ⁒
+                            <foreign sameAs="es">padre</foreign> ⁒ <foreign sameAs="nah">pàtli</foreign> ⁒ <foreign sameAs="es">medicina</foreign> ⁒ <foreign sameAs="nah">motótli</foreign> ⁒ <foreign sameAs="es">bardilla</foreign> ⁒ .</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Del accento ` usarémos solamente en las ultimas vocales de
+                        todos los plurales de Verbos y nombres que acabaren en vocal quando no se
+                        pronunciare immediatamente otra diccion.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua"> Se debe tener mucho cuidado en la pronunciacion notéx – ⁒ la
+                        téx breve ⁒, significa – <foreign sameAs="es">mi harina</foreign> –, notēx
+                        ⁒ la tex larga ⁒ significa – <foreign sameAs="es">mi
+                        Cuñado</foreign>.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Los nombres en singular tienen varias terminaciones, y entre
+                        ellas hay quatro Amisibles que son tl, tli, li in. Se llaman <hi rend="underline">amisibles</hi> porque se pierden ô mudan en otras en el
+                        plural, y tambien se pierden quando estos nombres se componen con
+                        preposiciones.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">Genero</hi> En esta lengua no hay genero
+                        ni de Cosas inanimadas, ni animadas. <foreign sameAs="nah">Máçātl</foreign> se dice del Ciervo asi del macho como de la hembra
+                        &amp; &amp; &amp;.</hi>
+            </p>
+            <table cols="6" rows="4">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Conjugaciones</hi>
+                     </hi>
+                     <lb/>
+                     <hi rend="antiqua">Singul.<hi rend="superscript">r</hi>
+                     </hi>
+                  </cell>
+                  <cell> ⎧ <lb/> ⎨ <lb/> ⎩ </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Ninemí</foreign>.</hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">Yo vivo</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">tinemí</foreign>.</hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">tu vives</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">nemí</foreign>.</hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">aquel vive</foreign>.</hi>
+                  </cell>
+                  <cell> ⎫ <lb/> ⎬ <lb/> ⎭ </cell>
+                  <cell>
+                     <hi rend="antiqua">una variacion para la tercera persona no
+                                existe</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Plural<hi rend="superscript">r</hi>
+                     </hi>
+                  </cell>
+                  <cell> ⎧ <lb/> ⎨ <lb/> ⎩ </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Tinemî</foreign>.</hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">vivimos</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">annemî</foreign>
+                     </hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">vivis</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">nemî</foreign>
+                     </hi>
+                     <lb/>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">viven</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                     <lb/>
+                     <hi rend="antiqua">&amp; &amp;
+                            &amp;</hi>
+                  </cell>
+               </row>
+            </table>
+            <p/>
+            <p>3.) <hi rend="antiqua">
+                  <bibl sameAs="804">Arte de la Lengua Mexicana</bibl>
+                        dispuesto por orden y mandato de Nuestro Reverendo Padre Francisco Treviño y
+                        esexito por el Padre Fray <persName ref="adevetancurt">Agustin de
+                            Betancurt</persName>
+                  <!-- eigtl. Vetancurt!, sic? -->, Vicario de la
+                        Capilla de San Jozé en el Convento de Nuestro Padre San Francisco de Mexico
+                        impreso 1673.</hi>
+            </p>
+            <p>
+               <pb n="66v"/> 4.) <hi rend="aniqua">
+                  <bibl sameAs="13">Arte de la Lengua
+                            Mexicana</bibl> dispuesto por D<hi rend="superscript">n</hi> <persName ref="jaaldamayguevara">Jozé Agustin de Aldama y
+                            Guevára</persName>, presbitero en el Arzobispado de Mexico, impreso en
+                        Mexico 1754.</hi>
+            </p>
+            <p>
+               <pb n="67r"/> <hi rend="antiqua">
+                  <bibl sameAs="323">Arte y Reglas de la lengua
+                            Tagala</bibl> por el M: R: P. Lector Fray <persName ref="tortiz">Tomas
+                            Ortiz</persName>, ex-provincial de su provincia del Santisimo Nombre de
+                        Jesus del or͠n de nr͠o Padre San Agustin en estas islas Filipinas y prior de
+                        el Convento de Nr͠a Sor͠a de Guadalupe de Mexico. Dedicado al Santm͠o y
+                        Dulcisimo Nombre de Jesus. = Viderunt omnes populi gloriam nominis ejus.
+                        Omnia in nomine Domini N: Jesus Christi facite = Impreso con las licencias
+                        necesarias en el Convento de Nr͠a Sor͠a de Loreto en el Pueblo de Sampaloc.
+                        Año de 1740.</hi>
+            </p>
+            <table rows="6" cols="5">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Nomino:</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Aco</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">Yo</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Ycao</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">Tu</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Genitivo</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Áquin ò
+                            cò</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">de mi</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Iyo ò
+                            mo</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">de ti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Dat.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            áquin</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">para
+                            mi</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            iyo</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">para
+                            ti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Accusat:</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            áquin</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">à mi</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            iyo</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">à ti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Vocato</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="antiqua">Ablato</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            aquin</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">En, con, de
+                                mi</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="nah">Sa
+                            iyo</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="es">En, con, de
+                                ti</foreign>.</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <lb/>
+               <pb n="67v"/> <hi rend="antiqua">Los nombres en esta lengua sòn
+                        indeclinables y para poderlos declinar se les anteponen diversos articulos
+                        como Si</hi>, <hi rend="antiqua">Ni</hi>, <hi rend="antiqua">Cay</hi>
+                    &amp;c.</p>
+            <p>
+               <table cols="4" rows="13">
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell>
+                        <hi rend="antiqua">Ang távo</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Elhombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Si
+                                Pedro</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Pedro</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Nang
+                                    távo</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">delhombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Ni Pedro</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">de P<hi rend="superscript">o</hi>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Sa
+                                távo</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">para elhombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Cay Pedro</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">para P<hi rend="superscript">o</hi>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Nangô Sa
+                                    távo</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">al hombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Cay
+                                    Pedro</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">A P<hi rend="superscript">o</hi>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Ay
+                                Távo</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">O hombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Cay
+                                    Pedro</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">O P<hi rend="superscript">o</hi>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Say
+                                Tavo</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Con el hombre</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Cay Pedro</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Con P<hi rend="superscript">o</hi>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Angmango
+                                    távo</foreign>
+                        </hi>. </cell>
+                     <cell>
+                        <hi rend="antiqua">Los hombres</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Pres: <foreign sameAs="nah">Ungma áral ca sa
+                                        Batâ</foreign>
+                        </hi>.</cell>
+                     <cell>
+                        <hi rend="antiqua">Enseña tu al Muchacho</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Nangmango
+                                        távo</foreign>.</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">de los hombres</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Pret: <foreign sameAs="nah">Ungmaral ca sa
+                                        Batâ</foreign>
+                        </hi>.</cell>
+                     <cell>
+                        <hi rend="antiqua">Enseñaste &amp;c.</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Sa mango
+                                    távo</foreign>.</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">à, pa los hombres</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Fut: <foreign sameAs="nah">Aaral ca sa
+                                        Batâ</foreign>
+                        </hi>.</cell>
+                     <cell>
+                        <hi rend="antiqua">Enseñaras tu al Muchacho</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Nangô Sa mango
+                                        távo</foreign>
+                        </hi>. </cell>
+                     <cell>
+                        <hi rend="antiqua">à los hombres</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Imp: <foreign sameAs="nah">Umáral ca sa
+                                        Batâ</foreign>
+                        </hi>.</cell>
+                     <cell>
+                        <hi rend="antiqua">Enseña tu al M:</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Vocativo no existe</hi>
+                     </cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Infin: <foreign sameAs="nah">Umaral <del>ca
+                                            sa</del> Batâ</foreign>
+                        </hi>.</cell>
+                     <cell>
+                        <hi rend="antiqua">Enseñar &amp;c.</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">
+                           <foreign sameAs="nah">Sa Mango
+                                    távo</foreign>.</hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">de, con los hombres</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi rend="antiqua">Verbal: <foreign sameAs="nah">Parágal <del>ca
+                                            sa</del> Batâ</foreign>
+                        </hi>
+                     </cell>
+                     <cell>
+                        <hi rend="antiqua">Enseñanza</hi>
+                     </cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <lb/>
+               <hi rend="antiqua">
+                  <foreign sameAs="nah">Nangangalásaq ca</foreign>
+               </hi>.
+                        <hi rend="antiqua">Tu te abroquelas.</hi>
+            </p>
+            <p>
+               <pb n="68r"/>
+               <hi rend="antiqua">
+                  <foreign sameAs="nah">Inaalismo ang
+                            Báta</foreign>
+               </hi>. <hi rend="antiqua">El muchacho es quitado por
+                        ti.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="nah">Pinag sisintahán mo siya</foreign>. El
+                        es en quien continuamente pones tu amor.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="nah">Pinaninhintahánmosiya</foreign>. El es
+                        en quien ordinariam &lt;te&gt; pones tu amor.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="nah">Mapaparapâca</foreign>. Tu das de
+                        hocicos ô caes boca abayo.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Los caracteres tagales son 17. es decir 14. consonantes y tres
+                        vocales. Los vocales para escribir son tres y para hablar cinco porque usan
+                        indiferentemente de la <hi rend="underline">e</hi> y de la <hi rend="underline">i</hi> como si fuesen una misma cosa. Lo mismo sucede
+                        con la <hi rend="underline">o</hi> y con la <hi rend="underline">y</hi>.</hi>
+            </p>
+            <table rows="3" cols="3">
+               <row>
+                  <cell>ᜀ</cell>
+                  <cell>ᜁ</cell>
+                  <cell>ᜂ</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="italic">a.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="italic">e. i.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="italic">o. u.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="italic">ang.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="italic">in.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="italic">og.</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <hi rend="antiqua">Las letras <hi rend="underline">K</hi>: <hi rend="underline">C</hi>: y <hi rend="underline">Q</hi>. sirben por una sola. De las dos
+                        letras <hi rend="underline">D</hi>. y <hi rend="underline">R</hi>: usan
+                        indiferentemente. La <hi rend="underline">P</hi>: sirbe para <hi rend="underline">H</hi>: y <hi rend="underline">F</hi>: y se pronuncia
+                        como Iota. <hi rend="underline">I</hi>. no existe ni tampoco <hi rend="underline">Ll</hi>: y en su lugar usan de la igriega <hi rend="underline">Y</hi>. La <hi rend="underline">B</hi>: sirve tambien
+                        de <hi rend="underline">V</hi>: consonante. No tienen las dos letras <hi rend="underline">X</hi>: y <hi rend="underline">Z</hi>:. La</hi>
+               <pb n="68v"/>
+               <hi rend="antiqua">
+                  <hi rend="underline">X</hi> no la suplen con la
+                            <hi rend="underline">Z</hi>., la suplen con <hi rend="underline">S</hi>:. En lugar de las Comas y puntos castellanos ponen dos rayos despues
+                        de cada palabra en esta forma ||., las quales no sirven para mayor claridad
+                        sino para mayor confusion. La escritura tagala es toda ella una confusion
+                        porque si es dificil de escribir, mucho mas lo es de leer, y de
+                        entender.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Estas dos letras</hi> ᜎ ᜒ ᜎ ᜒ ||. <hi rend="antiqua">se pueden
+                        leer de ocho modos diferentes.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">Lili, Lilim, Lilip, Lilis, Lilit, Liclic, Ligliq y
+                        Litlit.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

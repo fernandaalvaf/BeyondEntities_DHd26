@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jean-François Champollion le jeune an Wilhelm von Humboldt, 12.02.1825<idno type="BBAW">334</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Ideler 1841, App. XXXII, S. 1–15.
+                            – Hartleben 1909, S. 144–166</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11833</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="diodor">
+                  <persName>Diodorus Siculus</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="horapollon">
+                  <persName>Horapollon</persName>
+               </person>
+               <person corresp="iamblichos">
+                  <persName>Iamblichos von Chalkis</persName>
+               </person>
+               <person corresp="karlfelix">
+                  <persName>Karl Felix I., König von Sardinien</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="fawspohn">
+                  <persName>Spohn, Friedrich August Wilhelm</persName>
+               </person>
+               <person corresp="fltwaldburg">
+                  <persName>Waldburg-Truchsess, Friedrich Ludwig Graf von</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="77">Champollion, Jean-François (1823): Panthéon égyptien, collection des
+                    personnages mythologiques de l’ancienne Égypte, d’après les monuments, Paris:
+                    Firmin Didot Père et Fils</bibl>
+               <bibl corresp="78">Champollion, Jean-François (1824): Précis du système hieroglyphique
+                    des anciens Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte
+                    ou recueil des observations et des recherches qui ont été faites en Égypte
+                    pendant l’expédition de l’Armée Française publié par les ordres de Sa Majesté
+                    l’empéreur Napoléon le Grand, 20 Bände, Paris: L’Imprimérie Impériale</bibl>
+               <bibl corresp="1325">Minutoli, Heinrich Freiherr von (1824): Reise zum Tempel des
+                    Jupiter Ammon in der Libyschen Wüste und nach Ober-Ägypten in den Jahren 1820
+                    und 1821. Nach den Tagebüchern Sr. Excellenz herausgegeben und mit Beilagen
+                    begleitet von Dr. E. H. Toelken, Berlin: August Rücker</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Je ne sais en quels termes vous supplier
+                        de vouloir …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jfchampollion">Champollion le jeune, Jean-François</persName>
+               <date type="author" when="1825-02-12"/>
+               <placeName key="Turin">Turin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="570" type="next">08.03.1826</ref>
+               <ref target="332" type="prev">26.06.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="cop">Koptisch</language>
+            <language ident="la">Latein</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="">Semitische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. April 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/>
+               <dateline>Turin le 12 février 1825</dateline>
+               <salute>Monsieur Le Baron,</salute>
+            </opener>
+            <p>Je ne sçais en quels termes Vous supplier de vouloir bien excuser le trop long
+                    retard que j’ai mis à répondre à <ref type="link" target="332">l’interessant récit</ref>, que Vous m’avez fait
+                    l’honneur de m’adresser, au mois de juin passé. Le flatteur intérêt que Vous
+                    accordez aux Etudes Egyptiennes me faisait un devoir impérieux de satisfaire
+                    plus tôt aux différents questions sur lesquelles il Vous a plu de me consulter;
+                    mais les circonstances en ont autrement décidé. Lorsque <ref type="link" target="332">cette Lettre</ref> parvint à
+                        <placeName ref="Paris">Paris</placeName>, j’étais déjà parti pour <placeName ref="Turin">Turin</placeName>, où
+                    je ne l’ai reçue que deux mois après; successivement entrainé et absorbé par les
+                    nouveaux sujets d’études que la magnifique collection Égyptienne acquise par
+                        <persName ref="karlfelix">S. M. le Roi de Sardaigne</persName>, me
+                    présentait chaque jour, le temps s’est écoulé sans que je pusse trouver le
+                    moment de Vous remercier, Monsieur, et des divers envois d’empreintes de la
+                    collection Minutoli, et surtout de la bonté si honorable pour moi, avec laquelle
+                    Vous avez pris la défense de ma doctrine Hiéroglyphique. J’ignore quel est à cet
+                    égard le sentiment des érudits de Votre patrie, mais il me suffit d’un suffrage
+                    tel que le Vôtre, pour être convaincu que mes longues recherches sur cette aride
+                    matière ne resteront pas tout-à-fait sans fruit pour la Science. Je vous prie
+                    donc d’agréer l’expression de la vive gratitude de l’Auteur pour ce que Votre
+                    Indulgence a bien voulu faire pour le Livre.</p>
+            <p>Je profiterai aussi du peu de jours qui me reste à passer dans cette capitale,
+                    pour répondre de mon mieux et autant que je pourrai le faire n’ayant point sous
+                    la main tous les matériaux que j’eusse voulu consulter, à la série des questions
+                        <sic>exposée</sic> dans Votre dernier écrit, en commençant par le nom de
+                    l’Égyptien à la momie duquel se rapporte le Manuscrit noté B. </p>
+            <p>Le soin préalable que Vous avez pris, Monsieur le Baron, de recueillir dans le
+                    Papyrus entier toutes les variantes de ce nom propre, est en effet le seul moyen
+                    de bien en assurer la lecture. C’est celui que je mets toujours en pratique, et
+                    l’ennui que cette fastidieuse opération peut causer, se trouve bien souvent plus
+                    que compensé par la découverte réelle de plusieurs caractères <hi rend="underline">homophônes</hi>. Le nom propre en question nous apprend par
+                    exemple que le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/001.svg"/>
+               </foreign> est un
+                    simple <hi rend="underline">homôphone</hi> de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/002.svg"/>
+               </foreign> et de
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/003.svg"/>
+               </foreign>
+                    employés dans la transcription du même son et à la même place. Quoique l’extrême
+                    rapport de formes existant entre ces trois signes, autorisât déjà à supposer
+                    cette homophonie, nous en sommes à un point des études Égyptiennes où une
+                    pareille certitude <pb n="2"/> n’est pas encore à dédaigner. </p>
+            <p>J’ai attribué, dans mon <hi rend="underline">Précis du système
+                        hiéroglyphique</hi>, la valeur <foreign sameAs="cop">ⲕ</foreign> ou
+                        <foreign sameAs="cop">ⲭ</foreign> à l’hiéroglyphe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/004.svg"/>
+               </foreign>, linéaire <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/005.svg"/>
+               </foreign>,
+                    parceque je le trouvai d’abord dans un cartouche dessiné sur les temples de
+                    Philée, employé à exprimer la consonne k dans le mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/006.svg"/>
+               </foreign>, <foreign sameAs="cop">Ⲁⲟⲧⲕⲣⲧⲱⲣ</foreign>. Un nouveau
+                    monument a depuis confirmé cette valeur phonétique en m’offrant le nom du
+                    Pharaon <hi rend="underline">Néchao</hi>, le <foreign sameAs="cop">Ⲛⲉⲭⲁⲱ̀</foreign> ou le <foreign sameAs="cop">Ⲛⲉⲭⲱ̀</foreign> des auteurs
+                    Grecs écrit <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/007.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲛ-ⲕ-ⲟⲩ</foreign>
+                    ou <foreign sameAs="cop">ⲛ-ⲕ-ⲱ</foreign>. De sorte que je ne conserve plus de doutes sur le son que le caractère
+                    représente. Surtout où je le trouve employé, il m’est impossible de ne point lui
+                    attribuer ce son, surtout dans les innombrables inscriptions funéraires soit
+                    missils soit stèles où on le trouve employé dans des formules perpétuellement
+                    reproduites: telle est par exemple celle-ci, que l’on rencontre aux noms propres
+                    privés dans presque tous les basreliefs funéraires:</p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/008.svg"/>
+               </foreign>
+            </p>
+            <table cols="6" rows="2">
+               <row>
+                  <cell>1.</cell>
+                  <cell>2.</cell>
+                  <cell>3.</cell>
+                  <cell>4.</cell>
+                  <cell>5.</cell>
+                  <cell>6.</cell>
+               </row>
+               <row>
+                  <cell>Supplions</cell>
+                  <cell>Amon-Ra</cell>
+                  <cell>Roi des Dieux</cell>
+                  <cell>Seigneur du Ciel</cell>
+                  <cell>qu’il donne</cell>
+                  <cell>la vie heureuse</cell>
+               </row>
+            </table>
+            <table cols="5" rows="2">
+               <row>
+                  <cell>7.</cell>
+                  <cell>8.</cell>
+                  <cell>9.</cell>
+                  <cell>10.</cell>
+                  <cell>11.</cell>
+               </row>
+               <row>
+                  <cell>à l’adorateur</cell>
+                  <cell>à <hi rend="underline">Osortasen</hi> (homme)</cell>
+                  <cell>fils de</cell>
+                  <cell>
+                     <hi rend="underline">Hontèb</hi>
+                  </cell>
+                  <cell>(femme).</cell>
+               </row>
+            </table>
+            <p>Il est évident, pour moi, que le 7<hi rend="superscript">ème</hi> groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/009.svg"/>
+               </foreign> souvent
+                    écrit <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/010.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/011.svg"/>
+               </foreign>, ou
+                    même <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/012.svg"/>
+               </foreign> ne peut
+                    signifier comme Vous le pensez également, Monsieur, que l’<hi rend="underline">Adorateur</hi> ou plutôt celui <hi rend="underline">qui fait
+                        l’offrande</hi>, ce qui nous ramène au copte <foreign sameAs="cop">ⲕⲁ</foreign>, <foreign sameAs="cop">ⲕⲁⲁ</foreign>, <foreign sameAs="cop">ⲕⲱ</foreign>, <hi rend="underline">placer, <foreign sameAs="la">ponere</foreign>
+               </hi>. Je trouve en effet ce même groupe
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/013.svg"/>
+               </foreign>
+                    perpétuellement tracé sur toutes les stèles funéraires, à la suite de
+                    l’indication détaillée soit <hi rend="underline">des offrandes</hi>, ainsi qu’il
+                    suit: </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/014.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <hi rend="underline">une grande quantité</hi> (ϣⲟ <hi rend="underline">mille,
+                        beaucoup</hi>) <hi rend="underline">de pains, une grande quantité de vin,
+                        une grande quantité de bœufs, une grande quantité de oies et d’autres bien
+                        purs...</hi> soit aussi à la suite des biens que les dévots Égyptiens
+                    demandaient aux dieux, conformément à la formule habituelle par laquelle ils
+                    espéraient obtenir de la Bonté céleste <hi rend="underline">une maison</hi>
+                    fournie <hi rend="underline">de pain</hi>, <hi rend="underline">de vin</hi>, <hi rend="underline">de bœufs</hi>, <hi rend="underline">d’oies</hi>, etc. etc.
+                    passages dans lesquels le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/015.svg"/>
+               </foreign> exprime
+                    nécessairement des idées <hi rend="underline">d’adoration</hi> ou <hi rend="underline">d’offrande</hi>. Ce qui me fait pencher entier pour la
+                    dernière de ces acceptions, c’est qu’un Manuscrit du Musée de Turin me présente
+                    une peinture dans laquelle les <hi rend="underline">offrandes</hi> faites au nom
+                    du défunt, et qui consistent aussi en <hi rend="underline">pains</hi>, <hi rend="underline">vases de vin</hi>, <hi rend="underline">bœufs</hi>, <hi rend="underline">canards</hi>, etc. sont placées sur un autel justement dans
+                        <hi rend="underline">l’intervalle des deux</hi> bras réunis qui <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/016.svg"/>
+               </foreign> forment
+                    le caractère en question. </p>
+            <p>Il me semble bien difficile, en conséquence, de trouver un meilleur <hi rend="underline">commentaire</hi> pour l’explication <pb n="3"/> de ce signe
+                    hiéroglyphique. Dans tous les cas, le sens du groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/017.svg"/>
+               </foreign> nous fût-il totalement inconnu, il reste toujours certain que
+                    pris phonétiquement son premier signe répond aux consonnes ⲕ ou ⲭ de l’alphabet
+                    Copte-Grec. Les deux exemples cités précédemment suffisent pour l’établir. </p>
+            <p>J’avais également remarqué l’emploi du même groupe dans l’hiéroglyphe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/018.svg"/>
+               </foreign> dont
+                    les groupes cités dans Votre lettre sous les n° (10.) <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/019.svg"/>
+               </foreign> (7)
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/020.svg"/>
+               </foreign> sont
+                    des rédoublements, et le n° (9.) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/021.svg"/>
+               </foreign> une
+                    simple abréviation. Je suis convaincu que ces divers groupes expriment soit un
+                    nom <hi rend="underline">de Région</hi> soit un nom de <hi rend="underline">ville</hi> ou de grande habitation, puisqu’ils sont affectés des signes
+                    déterminatifs <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/022.svg"/>
+               </foreign>
+               <hi rend="underline">demeure</hi> ou <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/023.svg"/>
+               </foreign>
+               <hi rend="underline">région</hi>. J’ai déjà recueilli en effet sur les monuments
+                    de divers genres, les noms hiéroglyphiques d’un grand nombre de <hi rend="underline">villes</hi> de l’Égypte et presque tous sont formés du
+                    caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/024.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/025.svg"/>
+               </foreign> (une
+                    enceinte murée) renfermant le nom du dieu Éponyme de la cité; ainsi par exemple
+                        <hi rend="underline">Thèbes</hi> est toujours nommée: <hi rend="underline">La demeure ou l’habitation d’Ammon</hi> et son nom est écrit: <hi rend="underline">La Maison d’Ammon</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/026.svg"/>
+               </foreign> ou bien
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/027.svg"/>
+               </foreign> ou même
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/028.svg"/>
+               </foreign>. Nous
+                    trouvons le nom de <hi rend="underline">Memphis</hi> dans l’inscription de
+                    Rosette sous la forme <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/029.svg"/>
+               </foreign>
+               <hi rend="underline">l’habitation de Phtha</hi> et je le rencontre ailleurs
+                    ainsi figuré <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/030.svg"/>
+               </foreign>. Enfin,
+                    Monsieur, les noms propres des principales villes de l’Égypte que je crois avoir
+                    reconnu d’une manière certaine, tels que <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/031.svg"/>
+               </foreign>
+               <hi rend="underline">La Demeure d’Athyr</hi> (<hi rend="underline">Tentyris</hi>) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/032.svg"/>
+               </foreign> La
+                    demeure de <hi rend="underline">Schmoun</hi> (<hi rend="underline">Hermopolis
+                        magna</hi>), l’<foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/033.svg"/>
+               </foreign> des
+                    Arabes), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/034.svg"/>
+               </foreign> L’<hi rend="underline">Habitation</hi>
+               <foreign sameAs="cop">ⲧⲟⲩ̅</foreign> (<hi rend="underline">Apollonopolis
+                        magna</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/035.svg"/>
+               </foreign>
+               <hi rend="underline">Edfou</hi>) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/036.svg"/>
+               </foreign>
+                    L’Habitation d’Isis (<foreign sameAs="la">Isidis <hi rend="underline">oppidum</hi>
+               </foreign>), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/037.svg"/>
+               </foreign>
+               <hi rend="underline">L’habitation de Bouto</hi> (Létopolis près de Memphis),
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/038.svg"/>
+               </foreign>
+               <hi rend="underline">L’habitation de Netphé</hi> (probablement l’Aphroditopolis
+                    de l’Heptanomide), et une foule d’autres noms semblables que je me dispense de
+                    citer pour ne point abuser de Votre patience, établissent assez clairement que
+                    le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/039.svg"/>
+               </foreign> est un
+                    nom de <hi rend="underline">Ville</hi> ou de <hi rend="underline">Nome</hi>.
+                    J’ajouterai même que l’extrême fréquence de ce groupe dans les inscriptions des
+                    momies provenans de <hi rend="underline">Memphis</hi> et dans les légendes des
+                    basréliefs qui décorent les grottes voisines de cette ancienne capitale près de
+                    Sakkâra et des Pyramides, me porte à croire que ce groupe est le nom d’un lieu
+                    du Nome Memphite, ou d’une portion de Memphis, ou de sa <hi rend="underline">Nécropole</hi>: dans cette dernière hypothèse, le sens du groupe, qui me
+                    paraît signifier <hi rend="underline">la Demeure</hi> ou <hi rend="underline">le
+                        Lieu des offrandes</hi>, trouverait une explication bien naturelle. La
+                    liaison du nom de Phtha <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/040.svg"/>
+               </foreign> avec ce
+                    groupe, est une raison bien puissante pour le considérer comme le nom propre
+                    d’un lieu dépendant de Memphis dont Phtha fut le Dieu <hi rend="underline">Éponyme</hi>.</p>
+            <p>La présence seule des déterminatifs <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/041.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/042.svg"/>
+               </foreign>
+                    déciderait, en l’absence même du caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/043.svg"/>
+               </foreign>, que ce
+                    groupe est un nom de lieu et je l’ai en effet observé sous la simple forme
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/044.svg"/>
+               </foreign> dans
+                    divers textes funéraires du musée de Turin. Cela ne m’a nullement surpris,
+                    puisque je rencontre aussi sur les monuments dont les inscriptions ont dû être
+                    tracées avec plus de soin, des noms propres de villes Égyptiennes tels que
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/045.svg"/>
+               </foreign>
+               <hi rend="underline">Manlak</hi> (Philée), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/046.svg"/>
+               </foreign>
+               <hi rend="underline">Pselk</hi> (Pselcis en Nubie, aujourd’hui Dakké) <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/047.svg"/>
+               </foreign>
+               <hi rend="underline">Sné</hi> (Latopolis), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/048.svg"/>
+               </foreign>
+               <hi rend="underline">Pschschati</hi> la <foreign sameAs="cop">ⲡϣϣⲁϯ</foreign>
+                    des Coptes et la <foreign sameAs="grc">Πρόσωπις</foreign> des Grecs), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/049.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ϩⲣⲱⲙⲁ</foreign>
+               <hi rend="underline">Rome</hi> et <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/050.svg"/>
+               </foreign>
+               <hi rend="underline">Psaï-Ptolémaïs</hi> (Le <hi rend="underline">Ptolémaïs</hi>
+                    de haute Egypte) etc. tracés en divers lieux avec l’omission totale du signe
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/051.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/052.svg"/>
+               </foreign> employé
+                    assez ordinairement dans les groupes exprimant des noms de Villes.</p>
+            <p>Du reste, la portion du Rituel funéraire dans laquelle se trouve le groupe
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/053.svg"/>
+               </foreign>,
+                    contient <pb n="4"/> une grande quantité d’autres <hi rend="underline">noms-propres</hi> de <hi rend="underline">Régions</hi> ou de Demeures soit
+                        <hi rend="underline">célestes</hi> soit <hi rend="underline">terrestres</hi>, puisque les noms des 42 <hi rend="underline">juges</hi> ou
+                    plutôt <hi rend="underline">Jurés</hi> qui assistaient au jugement des morts
+                    dans l’Amenti, selon la doctrine Égyptienne, y sont suivis du nom du <hi rend="underline">lieu</hi> où chacune de ces divinités s’est plus
+                    particulièrement manifestée (<foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/054.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ϩⲣⲧ</foreign> ou <foreign sameAs="cop">ⲓⲣⲧ</foreign>,
+                    que je rapporte à la racine <foreign sameAs="cop">ⲓⲱⲣϩ</foreign>, <foreign sameAs="cop">ⲉⲓⲱⲣϩ</foreign>, <foreign sameAs="la">
+                  <hi rend="underline">videre</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">apparere</hi>
+               </foreign>, combinée avec le <foreign sameAs="cop">ⲧ</foreign> exprimant l’expression réfléchie, comme <foreign sameAs="cop">ⲧⲱⲙⲧ</foreign>
+               <hi rend="underline">se fermer</hi> et <foreign sameAs="cop">ⲧⲟⲙ</foreign>
+               <hi rend="underline">fermer</hi>, soit à une racine perdue <foreign sameAs="cop">ⲓⲣ</foreign>, <foreign sameAs="cop">ⲉⲓⲣ</foreign>, <foreign sameAs="cop">ⲉⲓⲣⲉ</foreign>
+               <hi rend="underline">voir</hi> à laquelle a pu appartenir le mot Égyptien
+                        <foreign sameAs="cop">ⲓⲣⲓ</foreign>
+               <hi rend="underline">œil</hi>, cité par <hi rend="underline">Plutarque</hi>.) La
+                    demeure dont notre groupe est le signe écrit y est désignée comme celle des
+                    Jurés no. 10 et 34. Ce dernier, le dieu <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/055.svg"/>
+               </foreign>, que
+                    j’ai reconnu pour être l’<hi rend="underline">Esculape</hi> Egyptien, <hi rend="underline">Imouthès</hi>, est encore une divinité spécialement <hi rend="underline">Memphite</hi>. Je la retrouve en effet représentée à la
+                    suite de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/056.svg"/>
+               </foreign>
+               <hi rend="underline">Phtah</hi> son père et du <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/057.svg"/>
+               </foreign>
+               <hi rend="underline">Boeuf Apis</hi> sur la plupart des stèles ou monuments
+                    venant de Memphis. Je dirai enfin que le groupe constamment lié au nom de <hi rend="underline">Phtah</hi> ne peut être ou un des noms hiéroglyphiques de
+                        <hi rend="underline">Memphis</hi>, demeure terrestre du Dieu, ou le nom de
+                    l’une des Régions célestes auxquelles cette divinité était censée présider; tous
+                    les rituels que j’ai étudiés portent les groupes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/058.svg"/>
+               </foreign>, <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/059.svg"/>
+               </foreign>, que
+                    Vous avez déjà notés ou bien les Groupes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/060.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/061.svg"/>
+               </foreign> et même
+                    simplement <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/062.svg"/>
+               </foreign>, <hi rend="underline">La Région de Phtah</hi>, <hi rend="underline">Le Lieu des
+                        offrandes de Phtah</hi>, <hi rend="underline">La Demeure où l’on adore
+                        Phtah</hi>, que je trouve dans différents papyrus et dans la même division
+                    du Rituel.</p>
+            <p>Quant au groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/063.svg"/>
+               </foreign> que je
+                    traduis par <hi rend="underline">demeure</hi> ou <hi rend="underline">maison</hi>, parceque cette valeur m’est invinciblement démontrée par une
+                    foule d’exemples, je considère le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/064.svg"/>
+               </foreign> comme
+                    un <hi rend="underline">article</hi> féminin; et, si j’ai donné le nom de <hi rend="underline">figuratif</hi> au caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/065.svg"/>
+               </foreign> qui représente le plan d’une enceinte avec son ouverture ou
+                    porte, ce n’est que conditionnellement (<bibl sameAs="78">
+                  <hi rend="underline">Système hiéroglyphique</hi>, pag. 277.</bibl>) Ayant cru nécessaire de
+                    la distinguer des véritables caractères <hi rend="underline">figuratifs</hi>
+                    ainsi que tous ceux qui expriment des Édifices, je n’ai trouvé de meilleure
+                    appellation à leur appliquer que <sic>celle</sic>
+               <hi rend="underline">figuratifs par convention</hi> (<bibl sameAs="78">pag.
+                        278</bibl>), tout en avouant que l’expression manque de justesse jusques à
+                    un certain point. </p>
+            <p>J’ai attribué jusques à présent la prononciation <foreign sameAs="cop">ⲱⲥ</foreign> au groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/066.svg"/>
+               </foreign> qui est
+                    l’initiale d’un très-grand nombre de formules et que je le considère comme
+                    l’orthographe hiéroglyphique répondant au verbe copte <foreign sameAs="cop">ϩⲱⲥ</foreign>, <hi rend="underline">Hôs</hi>, <foreign sameAs="la">
+                  <hi rend="underline">laudare</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">celebrare</hi>
+               </foreign>. L’absence de l’aspiration
+                        <foreign sameAs="cop">ϩ</foreign> ne peut être une objection, puisqu’il me
+                    paraît que les anciens Égyptiens n’ont que fort rarement noté cette aspiration
+                    surtout au commencement des mots. Nous en avons un exemple dans la perpétuelle
+                    préposition <foreign sameAs="cop">ϩⲙ</foreign>
+               <hi rend="underline">dans</hi>, exprimée simplement par <foreign sameAs="cop">ⲙ</foreign> (m), <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/067.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/068.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/069.svg"/>
+               </foreign> dans
+                    tous les textes hiéroglyphiques. J’ajoute aussi, puisque je parle de cette <hi rend="underline">préposition</hi>, que dans beaucoup de manuscrits
+                    funéraires à la place du groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/070.svg"/>
+               </foreign>
+               <hi rend="underline">manifesté dans</hi>... je trouve le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/071.svg"/>
+               </foreign> employé
+                    comme synonyme constant du premier. C’est évidemment ϥⲙ̀, c’est-à-dire le copte
+                        <foreign sameAs="cop">ϥϩⲙ̅</foreign>
+               <hi rend="underline">celle qui est dans</hi>..., <foreign sameAs="la">
+                  <hi rend="underline">Ille qui est in</hi>
+               </foreign>... On trouve également
+                    dans les textes coptes <foreign sameAs="cop">ⲥϩⲙ̅</foreign>
+               <hi rend="underline">celle qui est dans</hi>, <foreign sameAs="cop">ⲕϩⲙ̅</foreign>
+               <hi rend="underline">toi qui es dans</hi>, <foreign sameAs="cop">ⲉⲩϩⲙ̅</foreign>
+               <hi rend="underline">ceux qui sont dans</hi>. J’ai principalement observé
+                    l’échange de ces deux groupes dans les Litanies des 42 juges de l’Amenti, que
+                    Diodore appelle les <hi rend="underline">assesseurs</hi> ou <hi rend="underline">Parèdres</hi> d’Osiris, dans la déscription du tombeau d’Osymandias.</p>
+            <p>Le sens précis du groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/072.svg"/>
+               </foreign> qui
+                    représente certainement deux <hi rend="underline">bras humains</hi> étendus
+                    m’est tout-à fait inconnu. Vous savez sans doute, Monsieur le Baron, que la
+                    Commission d’Égypte veut y trouver le fléau de la Balance céleste et n’y voir
+                    qu’un signe purement astronomique perpétué dans nos almanachs par une constante
+                    tradition. J’avoue que <pb n="5"/> rien jusques ici ne m’a prouvé la justesse de
+                    cette supposition qui peut provenir d’une ressemblance fortuite dans les
+                    formes.</p>
+            <p>Je persiste toujours à croire que le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/073.svg"/>
+               </foreign> est une
+                    voyelle longue soit ω soit ου mais je pense en même temps que ce caractère est
+                    très-distinct des signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/074.svg"/>
+               </foreign>
+               <hi rend="underline">Soleil</hi> et <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/075.svg"/>
+               </foreign>
+               <hi rend="underline">Région</hi>, quoique je l’aye maintefois rencontré aussi,
+                    tracé d’une façon très-négligée <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/076.svg"/>
+               </foreign> et de
+                    manière à être facilement confondu avec les deux autres. Je crois que les
+                    scribes comptaient un peu sur la science préalable de leurs lecteurs, dans des
+                    cas semblables à celui que présente le groupe cité sous le nr. 9 de Votre
+                    lettre: <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/077.svg"/>
+               </foreign> pour
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/078.svg"/>
+               </foreign>. </p>
+            <p>L’Élément principal de ce groupe le mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/079.svg"/>
+               </foreign> qui
+                    reparaît comme Vous le faites observer, dans la <hi rend="underline">Déscription
+                        de l’Égypte</hi>, pl. 73, col. 37, dans la formule <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/080.svg"/>
+               </foreign> peut fort bien y faire partie d’un mot composé <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/081.svg"/>
+               </foreign> dont
+                    les éléments peuvent être <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/082.svg"/>
+               </foreign>
+               <hi rend="underline">faiseur d’offrande</hi>, <hi rend="underline">adorateur</hi>, <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/083.svg"/>
+               </foreign>
+               <hi rend="underline">dieu</hi> ou <hi rend="underline">divin</hi>, et le signe
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/084.svg"/>
+               </foreign>
+               <hi rend="underline">homme</hi> et n’être là comme je l’observe dans plusieurs
+                    autres groupes, qu’un signe <hi rend="underline">déterminatif</hi>, indiquant,
+                    que le groupe précédent doit être pris comme <hi rend="underline">adjectif</hi>
+                    ou <hi rend="underline">nom d’Agent</hi>, et ce titre pourrait appartenir soit
+                    au prêtre chargé des <hi rend="underline">offrandes divines</hi>, soit au Dieu
+                    qui y présidait. Je ferai observer en faveur de ces hypothèses que la légende
+                    des colonnes 38 à 31 de la même planche 73 se <sic>rapportent</sic> à la
+                    peinture du Manuscrit dans laquelle on voit aussi une Enseigne surmontée des <hi rend="underline">deux bras élevés</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/085.svg"/>
+               </foreign> entre
+                    lesquels sont placées des offrandes. Le <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/086.svg"/>
+               </foreign> cité
+                    colonnes 33 et 32 serait purement et simplement <hi rend="underline">l’adorateur</hi> ou le <hi rend="underline">faiseur d’offrandes</hi>. J’ai
+                    enfin remarqué le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/087.svg"/>
+               </foreign> employé
+                    comme simple <hi rend="italic">élément phonétique</hi> dans le mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/088.svg"/>
+               </foreign> placé
+                    sur toutes les peintures des manuscrits représentant le <hi rend="underline">Labourage</hi>. C’est certainement là le mot copte <foreign sameAs="cop">ⲥⲕⲉ</foreign>, <foreign sameAs="cop">ⲥⲭⲁⲓ</foreign>, <foreign sameAs="cop">ⲥⲕⲁⲓ</foreign>, <hi rend="underline">labourer</hi>: aussi le
+                    groupe est-il suivi du caractère <hi rend="underline">déterminatif</hi>: <hi rend="underline">charrue</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/089.svg"/>
+               </foreign>. La
+                    première syllabe du nom-propre hiéroglyphique du défunt de Votre Mss. B.,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/090.svg"/>
+               </foreign> est
+                    donc bien sûrement <foreign sameAs="cop">ⲕⲁ</foreign> ou <foreign sameAs="cop">ⲕⲉ</foreign>.</p>
+            <p>Le caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/090a.svg"/>
+               </foreign> est un
+                    signe de voyelle, ce qui explique pourquoi on le trouve omis si souvent
+                    lorsqu’on collationne deux textes semblables Signe pour Signe. </p>
+            <p>Le troisième est un <foreign sameAs="cop">ⲣ̅</foreign> ou un <foreign sameAs="cop">ⲗ̅</foreign>.</p>
+            <p>Quant au cinquième <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/091.svg"/>
+               </foreign> des
+                    comparaisons de textes m’ont appris depuis la publication de mon <bibl sameAs="78">
+                  <hi rend="underline">Précis du système hiéroglyphique</hi>
+               </bibl>, que
+                    ce signe est un homophone de l’oiseau <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/092.svg"/>
+               </foreign>, lequel
+                    est un <hi rend="underline">P</hi> ou un <hi rend="underline">PH</hi> et non un
+                        <foreign sameAs="cop">ⲓ</foreign> comme je l’avais cru d’abord. Je dirais
+                    donc le nom entier du défunt <foreign sameAs="cop">ⲕⲁⲗⲁⲡⲉ</foreign> ou
+                        <foreign sameAs="cop">ⲕⲁⲗⲁⲫⲉ</foreign>.</p>
+            <p>Le caractère final <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/093.svg"/>
+               </foreign>, est le
+                    signe de l’Espèce <hi rend="underline">Homme</hi>, une image humaine ayant <hi rend="underline">un bras étendu</hi> et l’autre <hi rend="underline">appuyé
+                        sur la hanche</hi>. Dans tous les textes que je puis avoir étudiés ce
+                    caractère ne m’a jamais paru avoir d’autre sens que celui de <hi rend="underline">Homme</hi>; je le crois toujours <hi rend="underline">figuratif</hi> et jamais <hi rend="underline">phonétique</hi>. Il n’a rien
+                    de commun, ce me semble, avec <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/094.svg"/>
+               </foreign> que je
+                    crois un caractère de <hi rend="underline">son</hi>. </p>
+            <p>Le caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/095.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/096.svg"/>
+               </foreign> que
+                    j’ai traduit aussi par <foreign sameAs="cop">ⲣⲱⲙⲉ</foreign>, n’est comme le
+                    précédent qu’un signe déterminatif des noms-propres d’individus mâles, mais il
+                    est plus particulièrement employé à la suite des noms propres d’individus <hi rend="underline">défunts</hi>. Il est tres-probable, comme Vous le pensez,
+                    Monsieur le Baron, que le <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/097.svg"/>
+               </foreign>
+               <hi rend="underline">fouet</hi> placé dans les mains de cette petite figure
+                    comme dans celles de certaines divinités, doit modifier le <hi rend="underline">sens</hi> du signe. Je crois que cet emblême se lie ayec le <hi rend="underline">fouet</hi>, <hi rend="underline">la charrue</hi>, <hi rend="underline">le hoyau</hi> ou <hi rend="underline">le sac de
+                        semences</hi> que portent presque <hi rend="underline">toutes</hi> les <hi rend="underline">figurines funéraires</hi> en bois ou en terre émaillée.
+                        Voulait-<pb n="6"/>on exprimer par-là que l’Individu appartenait à la caste
+                    agricole? ou, ce qui est plus probable, l’agriculture étant le premier des arts
+                    en Égypte, les lois religieuses voulaient-elles que tout individu se décorât de
+                    ses instruments ou de ses emblèmes? Je ne le déciderai point: mais je ne croirai
+                    point pour cela, comme on l’a voulu dire, que ce fouet ait été figuré dans la
+                    main des <hi rend="underline">défunts</hi> pour chasser les malins Esprits qui
+                    voltigeaient autour de leur tombe. Quant à l’adoration <hi rend="underline">des
+                        défunts</hi> par leurs enfants, rien n’est plus certain et des milliers de
+                    stèles en font foi. Je n’ai remarqué dans aucune d’elles que le défunt portât le
+                        <hi rend="underline">fouet</hi> à la main. Cet instrument est échangé en une
+                        <hi rend="underline">fleur de Lotus</hi> dans le signe d’espèce des noms
+                    propres de femmes défuntes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/098.svg"/>
+               </foreign>, et un
+                    bouquet de la même plante <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/099.svg"/>
+               </foreign> tient
+                    souvent la place de ce caractère lui-même. Nous trouvons au reste la fleur de
+                    Lotus, placée sur la tête de toutes les momies de femmes-<hi rend="underline">défuntes</hi> représentées dans les Papyrus peints. Vous trouverez un
+                    exemple de l’emploi de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/100.svg"/>
+               </foreign> à la
+                    place du caractère figuratif <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/101.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/102.svg"/>
+               </foreign>, dans
+                    le Mssct. de la Commission d’Égypte à la suite du nom propre de la mère du
+                    défunt <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/103.svg"/>
+               </foreign>
+               <hi rend="underline">Pétamon</hi>, <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/104a.svg"/>
+               </foreign>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/104b.svg"/>
+               </foreign> dont
+                    les éléments <foreign sameAs="cop">ⲛⲱⲥⲧⲃⲛⲧϫ</foreign> me paraissent avoir du
+                    se prononcer no ou <foreign sameAs="cop">ⲛⲟ-</foreign> ou <foreign sameAs="cop">ⲛⲟⲩ-</foreign>
+               <hi rend="underline">Saté</hi> -<hi rend="underline">Wentédj</hi> et peut-être
+                    même <hi rend="underline">Saté-Ouentédj</hi>. Je soupçonne que ce nom propre est
+                    complexe et qu’il est formé de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/105.svg"/>
+               </foreign>
+                    véritable nom propre de la femme et d’un nom patronymique <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/106.svg"/>
+               </foreign> dans
+                    lequel le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/107.svg"/>
+               </foreign> me
+                    parait devoir être pris dans le sens ordinaire <hi rend="italic">enfant</hi>,
+                    mâle ou femelle: νο ou νου <hi rend="underline">fille de Wentedj</hi>. Je
+                    traduis toujours <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/108.svg"/>
+               </foreign> par <hi rend="underline">enfant</hi>, parceque ce groupe est employé dans les deux
+                    genres, quoique j’aie trouvé plus souvent <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/109.svg"/>
+               </foreign> après
+                    les noms féminins et simplement <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/110.svg"/>
+               </foreign> après
+                    les noms propres masculins; mais je n’ai jamais rencontré <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/111.svg"/>
+               </foreign> que
+                    devant les noms <hi rend="underline">féminins</hi>. Je n’ose décider encore,
+                    quoique la valeur de ces groupes soit parfaitement connue, <sic>on</sic> si
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/112.svg"/>
+               </foreign> ainsi
+                    pris dans les deux genres (et le <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/113.svg"/>
+               </foreign> étant
+                    considéré comme radicale, ne pouvant être article féminin devant un nom propre
+                        <hi rend="underline">masculin</hi>), doit être rapporté à la racine copte
+                        <foreign sameAs="cop">ⲥⲁⲧ</foreign>, <foreign sameAs="cop">ⲥⲁⲧⲉ</foreign>, <hi rend="underline">Seminare</hi>, <hi rend="italic">Semen</hi>; si <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/114.svg"/>
+               </foreign> (le
+                        2<hi rend="superscript">e</hi> caractère considéré comme article) est ou
+                    n’est point un groupe simplement homophone de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/115.svg"/>
+               </foreign>, ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/116.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/117.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/118.svg"/>
+               </foreign>,
+                        <foreign sameAs="cop">ⲥⲉⲧ</foreign> ou <foreign sameAs="cop">ⲧⲥⲉ</foreign> fille; mais je suis presque persuadé que <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/119.svg"/>
+               </foreign> et
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/120.svg"/>
+               </foreign> sont
+                    les formes hiéroglyphiques de l’hiératique <foreign sameAs="Egyh">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/121.svg"/>
+               </foreign>, et
+                        <foreign sameAs="Egyh">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/122.svg"/>
+               </foreign>,
+                        <foreign sameAs="cop">ⲥⲉⲛ</foreign> ou <foreign sameAs="cop">ⲧⲥⲉⲛ</foreign>, formative des noms patronymiques Égyptiens, lesquels dans
+                    les textes correspondants <hi rend="underline">en Grec</hi> commencent toujours
+                    par la syllabe <foreign sameAs="cop">Ⲥⲉⲛ</foreign>. Il se pourrait donc aussi
+                    que le nom précité de la défunte se prononçât <hi rend="underline">No-tsen-wentedj</hi>, le signe de rapport <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/123.svg"/>
+               </foreign> étant
+                    omis ici comme dans une infinité d’autres cas.</p>
+            <p>Le nom propre de la défunte de Votre Mssct A, si je vois bien la transscription
+                    que Vous avez la bonté de me communiquer, se compose des signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/124.svg"/>
+               </foreign>: je
+                    présume que ce sont ceux qui dans les Msscts plus soignés se forment de la
+                    manière suivante <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/125.svg"/>
+               </foreign>. Je
+                    crois donc, s’il en est ainsi, que ce nom a se prononçait <hi rend="underline">Toutoua</hi> ou <foreign sameAs="cop">Ⲧⲟⲧⲟⲁ</foreign>, ayant souvent
+                    trouvé le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/126.svg"/>
+               </foreign>
+                    remplacé par <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/127.svg"/>
+               </foreign>, et les
+                    formes <hi rend="underline">démotiques</hi> de ce même groupe composant un nom
+                    propre transcrit <foreign sameAs="grc">Τοτόης</foreign> dans le texte Grec du
+                    même contrat.</p>
+            <p>Le nom du père est <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/128.svg"/>
+               </foreign>. Le
+                    premier signe, <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/129.svg"/>
+               </foreign>, n’est
+                    point la préposition <hi rend="underline">de</hi> et ne dépend pas de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/130.svg"/>
+               </foreign> fille.
+                    Il appartient au nom propre même qui est formé comme ceux que je trouve ailleurs
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/131.svg"/>
+               </foreign> de <hi rend="underline">Natsiamoun</hi>, <hi rend="underline">Natsiphtha</hi>, <hi rend="italic">Natsiési</hi>, <hi rend="italic">Natsiosor</hi>, du mot
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/132.svg"/>
+               </foreign> souvent
+                    écrit <pb n="7"/>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/133.svg"/>
+               </foreign> et d’un
+                    nom de divinité. Le nom divin qui termine le nom propre dont il s’agit ici est
+                    celui <hi rend="underline">d’Ammon Générateur</hi>, <hi rend="underline">nom
+                        symbolique</hi> que je trouve indifféremment écrit <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/134.svg"/>
+               </foreign> ou <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/135.svg"/>
+               </foreign> ou même
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/136.svg"/>
+               </foreign>, sur
+                    les basreliefs ou dans les textes relatifs à cette grande divinité que les Grecs
+                    ont appellée <hi rend="underline">Mendes</hi> et assimilée à leur <hi rend="underline">Pan</hi> ou <hi rend="underline">Priape</hi>. Une figurine
+                    du Musée de Turin m’a présenté ce caractère symbolique <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/137.svg"/>
+               </foreign> accompagné de sa prononciation phonétique <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/138.svg"/>
+               </foreign>
+               <hi rend="underline">Mantou</hi> ou <hi rend="underline">Mandou</hi>. Je crois
+                    donc que le nom propre sus-dit peut être prononcé <hi rend="underline">Natsi-Mandou</hi>.</p>
+            <p>Les signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/139.svg"/>
+               </foreign> qui
+                    précèdent ce nom propre sont en effet, comme Vous le dites fort bien, Monsieur
+                    le Baron, une qualification de l’individu. Je les trouve dans un même Manuscrit,
+                    dans une même stèle, ou sur une même momie, échangés fréquemment avec les
+                    groupes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/140.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/141.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/142.svg"/>
+               </foreign> et
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/143.svg"/>
+               </foreign> d’où
+                    j’ai conclu avec toute certitude que c’était une des nombreuses manières
+                    d’exprimer le titre prêtre <foreign sameAs="cop">ⲟⲩⲏⲃ</foreign> dans
+                    l’écriture hiéroglyphique. Ainsi la série des signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/144.svg"/>
+               </foreign> de Votre Manuscrit signifie sans aucun doute <foreign sameAs="cop">ⲟⲩⲏⲃ ⲛ̀ ⲁⲙⲟⲩⲛ</foreign>, Le prêtre d’Ammon. J’ai receuilli à
+                    Turin une foule de titres semblables relatifs à des prêtres d’un grand nombre de
+                    divinités. Le dernier signe de Votre nr. 62 <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/145.svg"/>
+               </foreign> n’est
+                    que la couronne <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/146.svg"/>
+               </foreign> tracée
+                    d’une manière très négligée. Je la trouve ainsi et même <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/147.svg"/>
+               </foreign> dans plusieurs textes hiéroglyphiques d’une mauvaise
+                    écriture.</p>
+            <p>Le nom de la femme de ce prêtre <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/148.svg"/>
+               </foreign>
+                    présente un caractère dont le son m’est encore inconnu; le reste se lit sans
+                        difficulté<foreign sameAs="cop">ⲧⲁⲱ-ⲃⲁ</foreign>. C’est un nom formé comme
+                    la grande masse des noms propres Égyptiens de femme du démonstratif possessif
+                        <foreign sameAs="cop">ⲧⲁ</foreign> ou <foreign sameAs="cop">ⲑⲁ</foreign>
+                    et d’un nom ou épithète propre à une divinité. Vous remarquerez que je m’etais
+                    trompé dans mon <bibl sameAs="78">
+                  <hi rend="underline">Précis du système
+                            hiéroglyphique</hi>
+               </bibl> sur la valeur du signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/149.svg"/>
+               </foreign> et
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/150.svg"/>
+               </foreign>; je les
+                    croyais représentatifs de la consonne <foreign sameAs="cop">ⲕ</foreign>: je me
+                    suis convaincu depuis qu’ils tiennent lieu de la voyelle <foreign sameAs="cop">ⲁ</foreign> des Coptes. </p>
+            <p>Je passe, Monsieur, au caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/151.svg"/>
+               </foreign> qui
+                    fait partie du nom propre de la mère du défunt du Msscrit B. J’ai reconnu depuis
+                    longtemps, et avant que j’eusse l’occasion de m’entretenir au sujet de cet
+                    hiéroglyphe avec le <persName ref="tyoung">Dr. <hi rend="underline">Young</hi>
+               </persName> à son passage à Paris, la signification <hi rend="underline">Épouse</hi> qu’il faut lui attribuer. Elle résulta pour moi
+                    de la comparaison des légendes hiéroglyphiques des Rois et des Reines Lagides.
+                    J’ai depuis trouvé la pleine confirmation de cette traduction dans les stèles et
+                    dans les contrats soit démotiques soit hiératiques. Je n’ose décider encore si
+                    ce signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/152.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/153.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/154.svg"/>
+               </foreign> est ou
+                        <hi rend="underline">symbolique</hi> ou phonétique et si dans ce dernier cas
+                    il n’est pas l’initiale caractéristique du mot <foreign sameAs="cop">ϩⲓⲙⲉ</foreign> ou <foreign sameAs="cop">ⲥϩⲓⲙⲉ</foreign>. Ce qui me fait
+                    pencher beaucoup pour cette dernière hypothèse, c’est que je rencontre
+                    très-souvent dans les textes hiéroglyphiques où il peut être question d’<hi rend="underline">Épouse</hi> ce même caractère accompagné des signes <hi rend="underline">m</hi> et <hi rend="underline">é</hi> ou <hi rend="underline">a</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/155.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/156.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/157.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/158.svg"/>
+               </foreign> comme
+                    nous le trouvons aussi dans le nom propre en question. Mais je m’aperçois que
+                    vous avez fait une observation pareille. Le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/159.svg"/>
+               </foreign> serait figuratif-determinatif. </p>
+            <p>Il n’est pas douteux que le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/160.svg"/>
+               </foreign> de la
+                    97. col. pl. 72. de la Déscription de l’Égypte, ne signifie <hi rend="underline">Épouse</hi>, de même que dans le passage de votre Manuscrit B.</p>
+            <p>
+               <pb n="8"/>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/161.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <hi rend="underline">Mère de Pschakasé-Dieu Royale <hi rend="underline">Épouse</hi> de Pa-lé</hi>&lt;ré&gt;-<hi rend="underline">Hata-Dieu</hi>. </p>
+            <p>Je présume que cette série est tirée de la dernière partie de Votre Rituel
+                    funéraire. Je la retrouve en effet dans le plus complet des Rituels de Turin, là
+                    où il est question d’une de ces grandes Déesses de l’Égypte, l’une des divinités
+                    spéciales de Memphis, la compagne de Phtha et la mère d’Esculape <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/162.svg"/>
+               </foreign>. La
+                    prononciation du nom de cette déesse <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/163.svg"/>
+               </foreign> m’est
+                    encore inconnue à cause du premier caractère. Le manuscrit que j’ai sous les
+                    yeux porte: </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="bigger" url="Champollion/Champollion-WvH_1825_02_12/164.svg"/>
+               </foreign>
+            </p>
+            <p>et je n’y trouve de variante notable que dans le nom du Dieu que je lis <hi rend="underline">Pale haka</hi>, qui n’est point divisé en deux parties,
+                    offre le signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/165.svg"/>
+               </foreign> au lieu
+                    de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/166.svg"/>
+               </foreign> de
+                    votre papyrus. A cette occasion je Vous inviterai, Monsieur le Baron, à examiner
+                    avec quelque attention la légende qui dans Votre manuscrit suit immédiatement
+                    celle de la déesse <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/167.svg"/>
+               </foreign>. La
+                    Vignette doit représenter <hi rend="underline">Amon</hi>-<hi rend="underline">ra</hi>-<hi rend="underline">Générateur</hi>-<hi rend="underline">Panthée</hi>, et ce même Dieu y est invoqué sous les noms très
+                    extraordinaires, en voilà les principaux:</p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="bigger" url="Champollion/Champollion-WvH_1825_02_12/168.svg"/>
+               </foreign>
+            </p>
+            <p>1° <hi rend="underline">Phāl</hi>, <hi rend="underline">Phar</hi> ou <hi rend="underline">Pal</hi>;<lb/>2° <hi rend="underline">Ioukaseph</hi> (<hi rend="underline">Ioukasep</hi>) <hi rend="underline">Dieu Seigneur de la
+                        Région supérieure du Ciel</hi>.<lb/>3° <hi rend="underline">Nātkl’eti</hi>;<lb/>4° <hi rend="underline">Kās’eikā</hi>;<lb/>5° <hi rend="underline">Alétikdse’tikā</hi>;<lb/>6° <hi rend="underline">Tekeschāri</hi> ou <hi rend="italic">Tekschari</hi>;<lb/>7° <hi rend="underline">Létaséschākā</hi> ou <hi rend="italic">Rétaséschākā</hi>;<lb/>8° <hi rend="underline">Tenasi</hi> ou <hi rend="underline">Tonasé</hi>;<lb/>9° <hi rend="underline">Malkaté</hi> ou
+                        <hi rend="underline">Malkato</hi>;<lb/>10° <hi rend="underline">Schālschātékāta</hi>. </p>
+            <p>
+               <pb n="9"/> J’ai été frappé de la singularité de ces noms presque tous formés des
+                    mêmes élémens répétés, mais dans un ordre différent, lorsque je les ai remarqués
+                    pour la première fois. Et plus je les ai examinés, après m’être convaincu que
+                    ces noms étaient appliqués à la principale divinité de l’Égypte plus je
+                    m’attache à l’idée que ces mêmes noms ne tiennent pas radicalement à la langue
+                    Égyptienne proprement dite, dont le Copte est un débris peu défiguré par la
+                    succession des siècles. Vous remarquerez sans doute le soin avec lequel le
+                    scribe a marqué phonétiquement <hi rend="underline">toutes les Voyelles</hi>
+                    dans la très-grande partie de ces noms.</p>
+            <p>Un second Manuscrit original que j’ai consulté, ne présente aucune sorte de
+                    Variante ni d’omission quelconque de voyelle; ce qui semble prouver que
+                    l’orthographe de ces noms divins était bien fixe et invariable. La raison ne
+                    serait-elle pas que ces appellations n’appartenant pas à la langue ordinaire,
+                    les <hi rend="underline">Hiérogrammates</hi> les copiaient religieusement comme
+                    ils les trouvaient <sic>écrits</sic> dans les modèles d’après lesquels ils
+                    confectionnaient leurs Rituels funéraires? Serait-ce là des mots de cette <hi rend="underline">Langue Sacrée</hi> différente de la langue <hi rend="underline">commune</hi>, et dont l’existence en Égypte semble indiquée
+                    par certains passages des auteurs classiques? ou bien devons-nous y voir
+                    plusieurs de ces noms divins dont parle <hi rend="underline">Jamblique</hi>,
+                    noms dont le sens était totalement inconnu aux Hiérophantes même les
+                    plus-instruits et qui cachaient selon cet auteur des Mystères infinis? Ces
+                    diverses hypothèses me semblent probables et je ne sais à laquelle m’arrêter. Je
+                    vous prierais, Monsieur le Baron, si ce n’est abuser de Votre temps que
+                    reclament des affaires d’une plus haute importance, de faire collationner ces
+                    noms avec ceux que doit renfermer Votre papyrus à la dernière légende. S’il
+                    était possible de faire cette comparaison sur plusieurs textes, cela serait plus
+                    profitable encore. Peut-être de nouveaux documents résulteraient de la
+                    Parallèle, nous trouverions nous à même de nous former quelques idées arrêtées
+                    sur ces mots, dont plusieurs semblent appartenir aux langues <hi rend="underline">Sémitiques</hi>, et la plus grande partie offrir une
+                    analogie plus frappante avec les mots <hi rend="underline">Sanskrits</hi>.</p>
+            <p>J’ajouterai relativement au caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/169.svg"/>
+               </foreign>, dont
+                    les noms d’Amon-Ra nous ont un peu éloignés, que sa valeur, <hi rend="underline">femme</hi>, <hi rend="underline">épouse</hi>, est on ne peut plus évidente
+                    lorsqu’on examine avec soin une dixaine de stèles funéraires. Quelques-unes
+                    m’ont même offert ce signe en combinaison avec d’autres groupes connus; ainsi
+                    les idées <hi rend="underline">Beaupère</hi> (<foreign sameAs="la">
+                  <hi rend="underline">socer</hi>
+               </foreign>) et <hi rend="underline">Belle</hi>-<hi rend="underline">Mère</hi> 
+                    (<foreign sameAs="la">
+                  <hi rend="underline">socrus</hi>
+               </foreign>) sont exprimées par les signes </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/170.svg"/>
+               </foreign>
+            </p>
+            <p>c’est-à-dire <hi rend="underline">Le Père de son épouse</hi>, <hi rend="underline">La Mère de son épouse</hi>, en parlant de <pb n="10"/>
+                    l’individu défunt. Quant au groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/171.svg"/>
+               </foreign>
+                        (<foreign sameAs="cop">ⲥⲧⲛ̀ ϩⲓⲙⲉ</foreign>) <hi rend="underline">Royale
+                        Épouse</hi>, c’est un composé <hi rend="underline">l’Initiale</hi> = <hi rend="underline">caractéristique</hi> du mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/172.svg"/>
+               </foreign> comme les groupes</p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/173.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/174.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/175.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <hi rend="underline">Royal fils</hi>, <hi rend="underline">Royale fille</hi>, <hi rend="underline">Royal Scribe</hi>, c. a. d. <hi rend="underline">Prince</hi>, <hi rend="underline">Princesse</hi>, et le Magistrat que les
+                    Grecs nommaient <foreign sameAs="grc">Βασιλικὸς γραμματεύς</foreign>. </p>
+            <p>Le nom de la mère du défunt auquel se rapporte Votre manuscrit noté B.</p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/176.svg"/>
+               </foreign>
+            </p>
+            <p>me semble seul devoir être lu de deux manières et cela dans la double supposition
+                    que le signe initial <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/177.svg"/>
+               </foreign> soit
+                    indépendant ou non des deux signes qui suivent.</p>
+            <p>1° En considérant <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/177.svg"/>
+               </foreign> comme
+                    l’initiale ca ractéristique isolée du groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/178.svg"/>
+               </foreign>
+                        (<foreign sameAs="cop">ϩⲙⲓ</foreign>) <hi rend="underline">femme</hi>, <hi rend="underline">épouse</hi>, je lirais ce nom propre <foreign sameAs="cop">ϩⲓⲙⲉ-ϩⲙ-ⲁⲥⲣⲏ-ⲧⲟ</foreign> et je le traduirais par <hi rend="underline">Épouse dans le monde appellé As-ré</hi>. Que pouvait on
+                    entendre par-là? Je l’ignore; mais le sens de certains noms propres Égyptiens
+                    dont la signification m’est bien démontrée, est tellement extraordinaire et
+                    empreint d’un Mysticisme si outré, que celui-ci ne me surprendrait
+                    nullement.</p>
+            <p>2° En regardant <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/177.svg"/>
+               </foreign> comme
+                    Phonétique, il faudrait lire ϩⲙⲁⲥⲣⲏⲧⲟ. Mais j’avoue que la première hypothèse me
+                    semble préférable.</p>
+            <p>Quant aux trois traits <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/179.svg"/>
+               </foreign> qui
+                    accompagnent le caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/180.svg"/>
+               </foreign>, je
+                    pense qu’ils équivalent aux trois disques <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/181.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/182.svg"/>
+               </foreign> ou même
+                    à <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/183.svg"/>
+               </foreign> qui
+                    suivent assez ordinairement ces deux lignes horizontales. Je trouve en effet
+                    l’idée <hi rend="italic">monde</hi> (<foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/184.svg"/>
+               </foreign>)
+                    exprimée dans les textes sacrés par les figures </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/185.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/186.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/187.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/188.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/189.svg"/>
+               </foreign> et
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/190.svg"/>
+               </foreign>
+            </p>
+            <p>employées indifféremment.</p>
+            <p>Je n’ai jamais considéré le groupe ou plutôt le mot <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/191.svg"/>
+               </foreign> comme répondant au mot Copte <foreign sameAs="cop">ⲕⲁϩ</foreign> ou <foreign sameAs="cop">ⲕⲁϩⲓ</foreign>, lequel est <hi rend="underline">masculin</hi> comme Vous le remarquez en effet, Monsieur le
+                    Baron, considéré phonétiquement <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/192.svg"/>
+               </foreign> me
+                    paraîtrait répondre à <foreign sameAs="cop">ⲕⲟⲧ</foreign> ou <foreign sameAs="cop">ⲕⲧⲟ</foreign>, cercle, <hi rend="underline">zône</hi>.
+                    J’ajouterai à cette occasion que dans la formule <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/193.svg"/>
+               </foreign> j’ai eu tort de regarder le caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/194.svg"/>
+               </foreign> comme faisant partie du groupe exprimant l’idée <hi rend="underline">Égypte</hi>. J’ai reconnu depuis que c’est simplement le
+                    pronom de 2<hi rend="superscript">e</hi> personne <pb n="11"/> singulier
+                    masculin, et qu’il faut traduire cette série par <hi rend="underline">Roi-vengeur de l’Égypte</hi> ou plutôt <hi rend="underline">toi vengeur de
+                        ton pays</hi> en regardant <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/195.svg"/>
+               </foreign> comme
+                    affixe au groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/196.svg"/>
+               </foreign>
+               <hi rend="underline">Égypte pays</hi>. Je trouve en effet <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/197.svg"/>
+               </foreign>
+                    lorsqu’il s’agit <hi rend="underline">d’une Déesse</hi> et <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/198.svg"/>
+               </foreign>
+                    lorsqu’il s’agit de plusieurs Dieux. La valeur des pronoms affixes
+                    hiéroglyphiques </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/199.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/200.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/201.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/202.svg"/>
+               </foreign>,
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/203.svg"/>
+               </foreign> et
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/204.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/205.svg"/>
+               </foreign>
+            </p>
+            <p>m’est complétement démontrée et je ne conserve aucun doute à leur égard.</p>
+            <p>Le caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/206.svg"/>
+               </foreign> qu’on
+                    peut facilement confondre avec <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/207.svg"/>
+               </foreign> dans
+                    les textes hiéroglyphiques linéaires peu soignés n’a rien de commun avec ce
+                    dernier. <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/206.svg"/>
+               </foreign> est la
+                    forme linéaire de <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/208.svg"/>
+               </foreign> lequel
+                    peint en <hi rend="underline">Rouge</hi>, exprime l’idée <hi rend="underline">Sol</hi>, <hi rend="underline">terrein</hi>, comme j’en ai acquis la
+                    conviction. Cela m’a expliqué pourquoi je trouvais ce caractère employé comme
+                    déterminatif à la fin de groupes qui me paraissent devoir en effet représenter
+                    des noms de lieux.</p>
+            <p>Il a été impossible jusqu’ici à <placeName ref="Turin">Turin</placeName>, de se
+                    procurer <bibl sameAs="1325">l’ouvrage</bibl> du <persName ref="jhminutoli">général <hi rend="underline">Minutoli</hi>
+               </persName> et je Vous remercie,
+                    Monsieur le Baron, du croquis du Cartouche Royal copié à <hi rend="underline">Aschmouneïn</hi>. L’emploi surabondant des signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/209.svg"/>
+               </foreign> pour exprimer la simple voyelle <foreign sameAs="cop">ⲓ</foreign> ne me surprend nullement, ayant déjà noté une foule d’exemples
+                    semblables dans plusieurs cartouches de noms propres de Rois Lagides et
+                    d’Empereurs Romains. Il est certain que les monuments Égyptiens présentent une
+                    étrange confusion dans la notation des voyelles, mais cela ne saurait Vous
+                    arrêter dans la lecture du cartouche en question dont les éléments sont
+                    d’ailleurs si clairs: </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/210.svg"/>
+               </foreign>
+               <foreign sameAs="cop">ⲡϩ-ⲓ-ⲗ-ⲓ-ⲡⲟⲥ</foreign>
+            </p>
+            <p>Vos apperçus sur le cartouche <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/211.svg"/>
+               </foreign> sont
+                    infiniment justes: c’est en effet la légende originale d’<hi rend="underline">Osiris</hi> considéré comme <hi rend="underline">Dynaste</hi>. J’ai
+                    retrouvé parmi les Stèles du Musée de Turin, un tableau peint représentant dans
+                    des <hi rend="underline">cartouches</hi> les noms de toute la famille <hi rend="underline">d’Osiris</hi>, <hi rend="underline">Isis</hi>, <hi rend="underline">Horus</hi>, <hi rend="underline">Anubis</hi> et <hi rend="underline">Nephthys</hi>; et celui du Chef est précisément le même
+                    cartouche qui attire Votre attention dans les Papyrus funéraires. Je crois comme
+                    Vous qu’il exprime simplement l’idée <hi rend="underline">Dieu très</hi>-<hi rend="underline">bienfaisant</hi>; car, Monsieur le Baron, le sens du
+                    caractère <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/212.svg"/>
+               </foreign> est
+                    parfaitement démontré et je trouve le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/213.svg"/>
+               </foreign> ou
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/214.svg"/>
+               </foreign> dans
+                    presque tous les passages du texte hiéroglyphique de Rosette, où, répondant aux
+                    lignes du texte Grec où sont exprimées les idées <hi rend="underline">Paraître</hi>, <pb n="12"/>
+               <hi rend="underline">se montrer</hi>, <hi rend="underline">être patent</hi>, <hi rend="underline">être connu</hi>. Et le Bienfaiteur de l’Égypte, Osiris,
+                    pouvait être convenablement désigné par le titre de Dieu qui se montre Bon,
+                    Gracieux ou Bienfaisant.</p>
+            <p>L’animal premier signe de ce cartouche examiné sur les monuments qui l’offrent en
+                    Grand, présente beaucoup plus d’analogie que le signe linéaire <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/215.svg"/>
+               </foreign>, avec
+                    une certaine espèce de <hi rend="underline">Lièvre</hi> ou de <hi rend="underline">Lapin</hi>, il est ainsi formé</p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/216.svg"/>
+               </foreign>
+            </p>
+            <p>et toujours peint de couleur <hi rend="underline">rougeâtre</hi>. C’est
+                    probablement une Espèce de Quadrupède particulière à l’Égypte; il me paraît sûr
+                    néanmoins que c’est là l’animal désigné sous le nom Grec du Lièvre <foreign sameAs="grc">Λαγώς</foreign> dans le texte d’Horapollon, où on lit que cet
+                    animal était le signe de tout ce qui est <hi rend="underline">ouvert</hi>; or,
+                    je le trouve employé à exprimer les idées <hi rend="underline">paraître</hi>,
+                        <hi rend="underline">être patent</hi> dans les textes Égyptiens à l’analogie
+                    des racines <foreign sameAs="cop">ⲟⲩⲱⲛ</foreign>, <foreign sameAs="la">
+                  <hi rend="underline">aperire</hi>
+               </foreign>, <hi rend="underline">ouvrir</hi>, <hi rend="underline">enseigner</hi>
+               <hi rend="underline">et</hi>
+               <foreign sameAs="cop">ⲥⲟⲩⲱⲛ</foreign>, <foreign sameAs="cop">ⲥⲱⲟⲩⲛ</foreign>,
+                        <hi rend="underline">connaître et ouvrir</hi>, <hi rend="underline">montrer</hi>, et trop marqué dans les restes de la langue Égyptienne, pour
+                    ne point reconnaître l’identité de l’animal appelé <hi rend="underline">Lièvre</hi> par Horapollon avec celui qui est le signe des idées: <hi rend="underline">être patent</hi>, <hi rend="underline">être ouvert</hi>,
+                        <hi rend="underline">être permis</hi> dans les textes hiéroglyphiques. </p>
+            <p>Le groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/217.svg"/>
+               </foreign> que je
+                    trouve aussi dans le cartouche d’Osiris ne me paraît nullement altérer le sens.
+                    Je regarde en effet ces signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/218.svg"/>
+               </foreign> comme
+                    une simple modification grammaticale ajoutée au signe d’idée <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/219.svg"/>
+               </foreign>
+               <foreign sameAs="la">
+                  <hi rend="underline">bonus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">beneficus</hi>
+               </foreign>. Je suis
+                    seulement encore à décider si ce groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/220.svg"/>
+               </foreign> répond
+                    aux mots <foreign sameAs="cop">ⲣⲉϥⲛⲁⲛⲉ</foreign>, <foreign sameAs="cop">ⲣⲉϥⲣ̅ⲛⲁⲛⲩϥ</foreign>, ou au mot <foreign sameAs="cop">ⲛⲟϥⲣⲉ</foreign>,
+                        <hi rend="underline">utile</hi>, <hi rend="underline">bon</hi>, <hi rend="underline">chose utile</hi>, <hi rend="underline">Bienfait</hi>, car
+                    ce dernier mot paraît avoir pour primitif la racine Égyptienne <foreign sameAs="cop">ⲛⲟϥⲣ</foreign>, <foreign sameAs="cop">ⲛⲟϥⲣⲉ</foreign>,
+                        <foreign sameAs="cop">ⲛⲟϥⲣⲓ</foreign>
+               <foreign sameAs="la">
+                  <hi rend="underline">Bonus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">Bonum</hi>
+               </foreign>. Le même groupe est
+                    employé comme nom dans le passage de votre Manuscrit A, sect. <hi rend="underline">I</hi>, col. 74., sous n. 44. c. <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/221.svg"/>
+               </foreign> les <hi rend="underline">Bienfaits</hi>. Il est adjectif dans
+                    le n. 43. <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/222.svg"/>
+               </foreign>
+               <hi rend="underline">Bienfaisante</hi> et se rapporte soit à une défunte, soit à
+                    la déesse directrice de la <hi rend="underline">Région inférieure du Ciel</hi>
+                    dont l’emblème précède immédiatement le groupe: ce serait alors un titre de la
+                    déesse Athyr désignée soit par son nom spécial </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/223.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <foreign sameAs="cop">ϩⲁⲑⲟⲣ</foreign>
+               <hi rend="underline">La demeure mondaine d’Horus</hi>, soit par le nom même <pb n="13"/> hiéroglyphique de la <hi rend="underline">Région inférieur du
+                        Ciel</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/224.svg"/>
+               </foreign> dont le
+                    groupe cité à la suite de Votre lettre n’est qu’un simple développement accru de
+                        <hi rend="underline">l’Épervier</hi>, <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/225.svg"/>
+               </foreign> oiseau commun à Hathôr qui le porte souvent sur <hi rend="underline">sa tête</hi> et au Dieu son époux <hi rend="underline">Phtha Socari</hi> ou <hi rend="underline">Phtha Sacri</hi>, divinité à tête
+                    d’Épervier, qualifié sur les Papyrus funéraires de <hi rend="underline">Taureau
+                        de la Région Inférieure</hi>, dans cette prière que Vous devez retrouver sur
+                    Vos manuscrits (vers la fin): </p>
+            <p>
+               <foreign sameAs="Egyp">
+                  <graphic rend="wide" url="Champollion/Champollion-WvH_1825_02_12/226.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <hi rend="underline">Je supplie toi</hi>, <hi rend="underline">Taureau</hi>, <hi rend="underline">de la Région Inférieure du Ciel</hi>, <hi rend="underline">Seigneur éternel</hi>, <hi rend="underline">Dieu-grand</hi>, <hi rend="underline">du pays de</hi>
+               <hi rend="underline">
+                  <foreign sameAs="cop">Ⲁⲕⲣ</foreign>
+               </hi>, <hi rend="underline">pour que tu reçoives avec toi l’Osirien</hi> (un tel). Le
+                    titre de <hi rend="underline">Taureau</hi> désignait comme nous l’apprend
+                    Horapollon un maître <hi rend="underline">fort avec tempérance</hi>, <hi rend="underline">puissant avec modération</hi>; et j’ai trouvé parmi les
+                    titres de Horus celui de <hi rend="underline">Taureau fils de Taureau</hi> et
+                    plus souvent encore celui de <hi rend="underline">Veau fils de Veau</hi>. Il est
+                    évident que ces expressions doivent être prises dans un sens tout-à-fait
+                    symbolique.</p>
+            <p>Le groupe <foreign sameAs="Egyp">
+                  <graphic rend="big" url="Champollion/Champollion-WvH_1825_02_12/227.svg"/>
+               </foreign> nom de
+                    la <hi rend="underline">Région inférieure du Ciel</hi> (que vous retrouverez,
+                    Monsieur le Baron, sur un des côtés du zodiaque circulaire de Dendérah, en
+                    opposition au signe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/228.svg"/>
+               </foreign> symbole
+                    de la <hi rend="underline">Partie supérieure du Ciel</hi>) est formé: 1° de la
+                    plume ou feuille <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/229.svg"/>
+               </foreign> (qu’il
+                    ne faut pas confondre avec le signe phonétique <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/230.svg"/>
+               </foreign>). C’est
+                        <hi rend="underline">l’emblème de Saté</hi> (la <hi rend="underline">Junon</hi> Égyptienne, <foreign sameAs="cop">Σάτης</foreign>, <foreign sameAs="grc">Σάτις</foreign> de l’inscription des cataractes) directrice
+                    de <hi rend="underline">l’Hémisphère Inférieur</hi> selon Horapollon, 2° du
+                    groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/231.svg"/>
+               </foreign> qui
+                    peut être <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/232.svg"/>
+               </foreign>
+                        (<foreign sameAs="cop">ⲥⲧ</foreign>) que je trouve comme nom de la Déesse
+                    Saté <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/233.svg"/>
+               </foreign> et
+                    placé devant son image sur l’obélisque de St. Jean de Latran, mot évidemment en
+                    liaison, comme le nom de la Déesse avec les racines <foreign sameAs="cop">ⲥⲁⲧ</foreign>, <foreign sameAs="cop">ⲥⲉⲧ</foreign>, <foreign sameAs="cop">ⲥⲏⲧ</foreign>, <foreign sameAs="cop">ⲥⲁⲧⲉ</foreign>, <foreign sameAs="la">
+                  <hi rend="underline">abiectus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">deictus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">infimus</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="underline">inferior</hi>
+               </foreign>. Les
+                    signes <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/234.svg"/>
+               </foreign> sont
+                    simplement <hi rend="underline">déterminatifs</hi> d’espèce <hi rend="underline">Pays</hi>, <hi rend="underline">terre</hi>, <hi rend="underline">sol</hi>,
+                        <hi rend="underline">terrain</hi>, <hi rend="underline">espace</hi>, comme
+                    je l’ai dit plus haut. Je suis entré dans <pb n="14"/> beaucoup de détails à
+                    l’occasion de ce groupe <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/235.svg"/>
+               </foreign>, dans
+                    les dernières livraisons de mon <hi rend="underline">Panthéon Égyptien</hi>,
+                    ouvrage dans lequel je me suis simplement proposé de dégrossir nos idées sur le
+                    matériel du culte Égyptien. J’y établis la distinction à faire entre le signe
+                        <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/235.svg"/>
+               </foreign> de la
+                        <hi rend="underline">Région inférieure céleste</hi> et celui de la <hi rend="underline">Région inférieure terrestre</hi>
+               <foreign sameAs="Egyp">
+                  <graphic url="Champollion/Champollion-WvH_1825_02_12/236.svg"/>
+               </foreign> et ses
+                    variantes.</p>
+            <p>J’eusse désiré, Monsieur le Baron, que le tems m’eût permis de repondre plus en
+                    détail aux diverses questions renfermées dans Votre lettre; il m’eût été encore
+                    plus agréable d’être à même d’éclaircir tous Vos doutes et décider avec
+                    certitude toutes les difficultés, mais ma science hiéroglyphique n’en est point
+                    encore là, elle est assez avancée seulement pour entrevoir l’espace immense qui
+                    lui reste à franchir avant de marcher sans aucun obstacle dans le grand
+                    Labyrinthe de l’Écriture Sacrée. Je vois la route qu’il faut suivre, je sais les
+                    moyens qui restent à employer pour avancer à pas certains sur ce terrain si neuf
+                    et si riche, mais j’ignore si le zèle d’un seul homme et sa vie entière peuvent
+                    suffire pour une si vaste entreprise. Quoi qu’il puisse arriver, je continue mes
+                    recherches et je cours après les monuments originaux, les seuls guides que nous
+                    puissions suivre, sans risquer d’être retardés, comme je l’ai été pendant dix
+                    ans, par les Inscriptions inexactes gravées dans le grand ouvrage de la
+                    Commission d’Égypte. J’ose attendre de Votre zèle pour la Science, Monsieur le
+                    Baron, que Vous hâterez de toute Votre influence la publication des monuments
+                    Égyptiens acquis par <persName ref="fw3">S. M. le Roi de Prusse</persName> et
+                    rapportés par le <persName ref="jhminutoli">Général Minutoli</persName>, ce
+                    serait un beau présent à faire à l’archéologie. Publie-t-on en Allemagne les
+                    travaux de <persName ref="fawspohn">M. Spohn</persName> si pompeusement annoncés
+                    par la Gazette de Nuremberg?<note type="footnote" resp="editor">Nicht erschließbar.</note> J’avoue que je serais ravi d’y trouver comme on ne
+                    craignait point de le dire, <hi rend="underline">la traduction complette de 32
+                        manuscrits Égyptiens</hi>. Cela pourrait nous éviter beaucoup de sueurs et
+                    de fatigues.</p>
+            <p>J’espère que M. de Truchsès dont on annonce la prochaine arrivée dans cette
+                    capitale, voudra bien se charger de Vous faire parvenir cette lettre; et si,
+                    pardonnant à ma coupable lenteur, Vous vouliez bien encore, Monsieur le Baron,
+                    perdre quelques instants avec moi, Vos lettres m’arriveront facilement en me les
+                    adressant à <placeName ref="Turin">Turin</placeName> sous le couvert de
+                    l’ambassadeur de France. Je compte être de retour ici vers la fin de Juillet: si
+                    je Vous ~ pouvais (Vous) être agréable en quelque chose, pendant mon séjour <pb n="15"/> à <placeName ref="Neapel">Naples</placeName>, <placeName ref="Rom">Rome</placeName> et <placeName ref="Florenz">Florence</placeName>, disposez
+                    de moi sans réserve.</p>
+            <closer>
+               <pb n="In Champollions Handschrift:"/>
+               <salute>Je terminerai ma lettre, en réclamant toute votre indulgence, pour la
+                        diffusion et les negligences dont elle abonde; je regrette que le temps ne
+                        m’ait point permis d’entrer dans une infinité de détails qui eussent pu vous
+                        intéresser peut être; mais j’ai pu a <add>grand</add> peine trouver le
+                        moment d’écrire l’indigeste bavardage que je suis honteux de vous adresser:
+                        En Vous suppliant d’agréer mes excuses je vous prie de recevoir l’assurance
+                        des sentiments de gratitude et de respectueux dévouement avec lesquels j’ai
+                        l’honneur d’être<lb/>Monsieur le Baron,<lb/>Votre tres humble et très
+                        obeissant Serviteur,</salute>
+               <signed>J.-F. Champollion
+                    lej.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

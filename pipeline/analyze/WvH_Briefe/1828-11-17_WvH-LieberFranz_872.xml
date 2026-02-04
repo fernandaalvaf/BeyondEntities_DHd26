@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 25. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Lieber, 17.11.1828<idno type="BBAW">872</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: San Marino, Calif., The Huntington
+                            Library, LI 2413</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lenel 1965, S. 328f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7947</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="jsvater">
+                  <persName>Vater, Johann Severin</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="437">Tsa-la-gi tsu-le-hi-sa-no-hi. A Cherokee Phoenix. Edited by
+                        Elias Boudinot for the Cherokee Nation (1828–1834)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Als ich in vergangenem Monate von einer Reise durch Frankreich
+                    und England zurückkehrte, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1828-11-17"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="flieber">Lieber, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz am">
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="haw">Hawaiianisch (= Sandwich Dialect)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">25. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Als ich im vergangenen Monate von einer Reise durch Frankreich und
+                    England zurückkehrte, fand ich vier Briefe von Ew. Wohlgebornen hier vor, von
+                    welchen der älteste vom <date when="1828-02-24">24. <hi rend="antiqua">Februar</hi>
+               </date> war. Ich sage Ihnen meinen wärmsten Dank dafür. Die
+                    kleinen Schriften<!-- identifizierbar? --> im <hi rend="antiqua">Sandwich
+                        Dialect</hi> haben mich sehr interessirt, da ich mit den Sprachen des
+                    Südmeeres im Ganzen mich viel beschäftigt habe, allein fast nichts über den
+                    Dialect der <hi rend="antiqua">Sandwich</hi> Inseln besaß. Die <bibl sameAs="437">
+                  <hi rend="antiqua">Cherokee</hi> Zeitung</bibl> hat mich gar auch
+                    interessiert, aber ich bitte doch Ew. Wohlgebornen mir <hi rend="underline">keine</hi> mehr zu schicken, und am wenigsten, so wie ich heute <subst>
+                  <del>
+                     <gap quantity="4" unit="chars"/>
+                  </del>
+                  <add>eine</add>
+               </subst> von Ihnen empfangen habe, ein einzelnes Blatt,
+                    in einem versiegelten Brief. Solche Sendungen werden so theuer, daß der Werth
+                    der Sache dagegen verschwindet. Ich habe durch <persName ref="jpickering">Herrn
+                            <hi rend="antiqua">Pickering</hi>
+               </persName> auf den <bibl sameAs="437">
+                  <hi rend="antiqua">Phoenix</hi>
+               </bibl> <hi rend="antiqua">subscribirt</hi>
+                    und werde ihn auf diesem Wege erhalten. Uebrigens kann ich fürs erste gar keinen
+                    Gebrauch von ihm machen. Man hat bekanntlich von dieser Sprache weder Grammatik,
+                    noch Wörterbuch. Nur ein kleines Wörterverzeichnis<note type="footnote" resp="editor">Siehe den Briefwechsel mit <persName ref="cfpmartius">Martius</persName>.</note> besitze ich, u. aus Bibelüberübersetzungen
+                    erst beides zu <hi rend="antiqua">abstrahiren</hi> ist ein zu weitläuftiges und
+                    doch auch unsicheres Unternehmen. — Ew. Wohlgebornen Entwurf zu einer
+                    Gesellschaft für Amerikanische Sprachkunde habe ich mit großem Interesse
+                        gelesen<note type="footnote" resp="editor">Siehe dazu den Brief Liebers an
+                        seine Eltern vom <date when="1828-01-18">18. Januar 1828</date>: T. S. Perry
+                        (1882): <hi rend="italic">The Life and Letters of Francis Lieber</hi>,
+                        Boston: James R. Osgood &amp; Co., S. 81 (ins Engl. übersetzt): "[…] I am
+                        deeply engaged in the study of the language of the North American Indians,
+                        and wish to propose to <persName ref="psduponceau">Mr. Duponceau</persName>
+                        a plan greatly approved of by <persName ref="jpickering">Mr.
+                            Pickering</persName>, to found a society for the promotion of the study
+                        of the Indian language. If it can be done, I shall consider it a very
+                        fortunate circumstance in my life to have aided the cause of science in this
+                        way. / Many men in Germany are engaged in this study, especially William von
+                        Humboldt. I have recently read a treatise of his on the Chinese language,
+                        and he is just as zealously devoting his attention to the Indian dialects.
+                        They are of great importance in the study of philology, both because of
+                        their regular formation, great variety, and their development without the
+                        influence of Asiatic or European languages. We hope to be assisted by the
+                        English and American missionaries, and I am writing to William von Humboldt
+                        on the subject." [FZ]</note>. Den Nutzen, wenn die Sache guten Fortgang
+                    hätte, u. ein recht kundiger Mann, <persName ref="psduponceau">H. <hi rend="antiqua">Du Ponceau</hi>
+               </persName> oder gar <persName ref="jpickering">
+                  <hi rend="antiqua">Pickering</hi>
+               </persName> z. B. Secretair wäre, könnte
+                    gewiß sehr bedeutend seyn. Aber Geldunterstützungen aus <hi rend="antiqua">Europa</hi>, die nur irgend der Mühe wert wären, dürfte man <del>aus <hi rend="antiqua">Europa</hi>
+               </del> nicht hoffen. Diese Gegenstände haben ein sehr kleines <hi rend="antiqua">Publicum</hi>. Der selige <persName ref="jsvater">
+                  <hi rend="antiqua">Vater</hi>
+               </persName> hatte Mühe, um einen Verleger, auch
+                    ohne Honorar, für seine Sachen zu finden. Ob in <hi rend="antiqua">America</hi>
+                    mehr Sinn dafür ist, weiß ich nicht. In <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> ist eine ähnliche Anstalt (<hi rend="antiqua">Language Institution</hi>) aus Mangel an Theilnehmern
+                    untergegangen. Das Wichtigste wäre, die sehr interessanten handschriftlichen
+                    Hülfsmittel, die man auch in den Vereinigten Staaten hat, drucken zu lassen.
+                    Einiges der Art ist geschehen, aber man müßte <pb n="2*"/> fortsetzen, und das
+                    können die schon bestehenden ge<note type="footnote" resp="editor">Die rechte
+                        obere Ecke des Blattes fehlt, so dass die Enden der ersten fünf Zeilen z. T.
+                        starken Textschwund aufweisen. [FZ]</note>
+               <damage/>
+               <lb/>
+               <persName ref="psduponceau">Herr <hi rend="antiqua">Du Ponceau</hi>
+               </persName>
+                    an dem Gelingen des Plans gezweif<damage/>
+               <lb/>
+               <unclear>Zeichen</unclear>, u. an sein Land u. sein <hi rend="antiqua">Publicum</hi> kann <gap quantity="3" unit="chars"/>
+               <damage/>
+               <lb/>es einfacher mit einem <hi rend="antiqua">Journal</hi> allein anzufangen u.
+                    für dieses <damage/>
+               <lb/>sammeln. Missionaren u. andre, die Hülfsmittel für solche Sprachen bes<damage/>
+               <lb/>sie dann da einschicken u. drucken lassen. – <persName ref="avh">Mein
+                        Bruder</persName> trägt mir seine Empfehlungen u. seine Danksagung für das
+                    Uebersendete auf. – Ich wiederhole auch Ew. Wohlgeboren die meinige, und bitte
+                    Sie die Versicherung meiner ausgezeichneten Hochachtung anzunehmen.</p>
+            <closer>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>Berlin, den 17. November, 1828.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

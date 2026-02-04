@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 10. Februar 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Heinrich Julius Klaproth an Wilhelm von Humboldt, 18.11.1834<idno type="BBAW">394</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 165–169</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 222</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="faxian">
+                  <persName>Faxian (chinesischer Mönch)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="911">Amiot, Joseph Marie u.a.: Mémoires concernant L'Histoire, les
+                    Sciences, les Arts, les Mœurs, les Usages, &amp;c. des Chinois; par les
+                    Missionaires de Pe-Kin. Tome Quartorzieme (Paris: Nyon 1789)</bibl>
+               <bibl corresp="916">Foĕ Kouĕ Ki ou Relations des Royaumes buddhiques. Voyage dans la
+                    Tartarie, dans l’Afghanistan et dans l’Inde, exécuté à la fin du IVme siècle par
+                    Chy Fa Hian. Traduit du Chinois par Abel Rémusat. Ouvrage posthume révu,
+                    complété et augmenté par M. M. Klaproth et Landresse (Paris: Imprimerie Royale
+                    1836)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz habe ich die Ehre anzuzeigen dass die Auszüge
+                        über Java aus chinesischen Quellen, im 14ten Bande der Memoires sur les
+                        Chinois, p. 101 bis 111, stehen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+               <date type="author" when="1834-11-18"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jhklaproth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="my">Birmanisch (Burmesisch)</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fi">Finnisch</language>
+            <language ident="grc">Griechisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="mak">Makassarisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="ru">Russisch</language>
+            <language ident="sa">Sanskrit</language>
+            <!--  Sprache in/auf Formosa und auf den Karolinen? -->
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">10. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_333.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_334.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_335.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_336.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_337.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_338.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_339.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1834-11-18/Coll.ling.fol.53_340.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="166r"/>
+               <dateline>Berlin d. 18 Nov. 1834</dateline>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre anzuzeigen daß die Auszüge über <placeName ref="Java">Java</placeName> aus chinesischen Quellen, im <bibl sameAs="911">14.<hi rend="superscript">ten</hi> Bande der Memoires sur les Chinois</bibl>
+                    pag 101 bis 111, stehen. Sie gehen noch weiter auf unsere Zeiten herunter als
+                    die von <sic>
+                  <persName ref="tsraffles"> Raffels</persName>
+               </sic> gegebenen.
+                        <placeName ref="Java">Java</placeName> ist dort <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g001.png"/> <foreign sameAs="zh">
+                  <hi rend="underline">Kua va</hi>
+               </foreign> genannt, statt <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g002.png"/> <foreign sameAs="zh">
+                  <hi rend="underline">Tchao va</hi>
+               </foreign> oder <foreign sameAs="zh">
+                  <hi rend="underline">Dshao va</hi>
+               </foreign>. Aus diesem Fehler ist die
+                    falsche <hi rend="underline">Übersetzung son de courge</hi>, entstanden.
+                        <foreign sameAs="zh">
+                  <hi rend="underline">Tschao va</hi>
+               </foreign> oder
+                        <foreign sameAs="zh">
+                  <hi rend="underline">Dshao va</hi>
+               </foreign> ist
+                    nichts anderes als die Chinesische Umschreibung von <placeName ref="Java">
+                  <hi rend="underline">Java</hi>
+               </placeName> (lies Dshava).</p>
+            <p>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Tsché po</hi>
+               </foreign>, ist das
+                        <foreign sameAs="zh">
+                  <hi rend="underline">Cha pō</hi>
+               </foreign> bei
+                            <sic>
+                  <persName ref="tsraffles">Raffels</persName>
+               </sic>. Dieses Wort
+                    wird eigentlich <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g003.png"/> <foreign sameAs="zh">
+                  <hi rend="underline">Dsha po</hi>
+               </foreign>
+                    geschrieben, aber ehemals <hi rend="underline">Dsha va</hi> ausgesprochen, denn
+                        <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g004.png"/> <hi rend="underline">po</hi> steht in den alten Umschreibungen indischer und
+                    anderer fremder Wörter für <hi rend="underline">va</hi>
+               <!-- welche foreign tags? (auch im folgenden)-->.</p>
+            <p>Im <bibl sameAs="916">Foe kue ki</bibl>
+               <!-- = ID 916 (erst 1836 erschienen)? -->
+                    wird der <sic>Namen</sic> dieser Insel viel richtiger <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g005.png"/> <hi rend="underline">Ya po
+                        thi</hi>, d. i. <hi rend="underline">Java dwîp</hi> geschrieben. Was
+                        <persName ref="faxian">Fa hian</persName> davon sagt ist sehr kurz, nämlich:
+                    "Alors on vient à un royaume nomme <hi rend="underline">Ya po thi</hi>. Il
+                    renferme des héretiques et des brahmans en abondance; la religion de Foe y est
+                    moins repandue."</p>
+            <p>Von <placeName ref="Paris">Paris</placeName> aus werde ich die Ehre haben
+                    ausführlicheres über <placeName ref="Java">Java</placeName> zu übersenden.</p>
+            <closer>
+               <salute>Mit vorzüglichster Hochachtung <lb/>Ew. Excellenz <lb/>ganz gehorsamster
+                        Diener</salute>
+               <signed>JHKlaproth</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <note type="footnote" resp="editor">Anmerkung unten links von Klaproths
+                            Hand</note>Historischer Styl <lb/>
+                  <graphic url="Klaproth/Klaproth-WvH_1834_11_18/g006.png"/> <foreign sameAs="zh">Wen tchang</foreign>.</p>
+            </postscript>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="166v vacat"/>
+            </p>
+            <p>
+               <pb n="165r"/>
+               <note type="footnote" resp="editor">Von Kurt Mueller-Vollmer
+                        diesem Brief zugeordnet.</note> Le mot <hi rend="underline">eau</hi>
+                    appartient à ceux dont j’ai receuilli les formes dans presque toutes les langues
+                    de l’Ancien Monde. Voici celles dans lesquels le <hi rend="underline">R</hi> est
+                    radical.</p>
+            <p>Birman – <hi rend="antiqua">
+                  <foreign sameAs="my">re</foreign>
+               </hi>
+            </p>
+            <p>Menadou (île de Java) – <hi rend="antiqua">
+                  <foreign sameAs="jv">rano</foreign>
+               </hi>
+            </p>
+            <p>Macassar – <hi rend="antiqua">
+                  <foreign sameAs="mak">rano</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mak">ranou</foreign>
+               </hi>
+            </p>
+            <p>Carolines – <hi rend="antiqua">ral</hi>, <hi rend="antiqua">ralou</hi>
+               <!-- welche Sprache? -->
+            </p>
+            <p>Formosa – <hi rend="antiqua">raolaum</hi>.</p>
+            <!--  welche Sprache? -->
+            <p>Celà n’empêche cependant pas, que dans les noms de rivières le <hi rend="underline">R.</hi> ne puisse etre le prèmier radical; car nous l’avons
+                    dans l’allemand <hi rend="underline">
+                  <foreign sameAs="de">rinnen</foreign>
+               </hi>, dans <foreign sameAs="grc">ῥέω</foreign>, dans le russe <hi rend="underline">
+                  <foreign sameAs="ru">reìjou</foreign>
+               </hi>
+               <!-- Russisch? --> (couler),
+                    dans le sanscrit <foreign sameAs="sa" n="transEd">rī<graphic url="Klaproth/Klaproth-WvH_1834_11_18/0001.svg"/>
+               </foreign>
+               <hi rend="underline">
+                  <foreign sameAs="sa">rî</foreign>
+               </hi> (stillare), dans le Persan <hi rend="underline">
+                  <foreign sameAs="fa">roud</foreign>
+               </hi>
+               <!-- Persisch? -->, rivière. –
+                    Quand au mot <hi rend="underline">
+                  <foreign sameAs="la">Rhodanus</foreign>
+               </hi>
+                    je crois que la syllabe <hi rend="underline">dan</hi> y indique l’eau, comme
+                    dans <hi rend="underline">Donau</hi>, <hi rend="underline">Don</hi>, <add>
+                  <hi rend="underline">
+                     <foreign sameAs="grc">Tanais</foreign>
+                  </hi>,</add> <hi rend="underline">Danapris</hi>, <hi rend="underline">
+                  <foreign sameAs="grc">Danastris</foreign>
+               </hi>; c’est
+                    l’ancien mot indo-germanique qui s’est encore conservé chez les Ossètes dans le
+                    Caucase, chez lesquels <hi rend="underline">don</hi> ou <hi rend="underline">Doun</hi> signifie eau, comme <del>
+                  <hi rend="underline">Th<gap quantity="4" unit="chars"/>
+                  </hi>
+               </del> <subst>
+                  <del>
+                     <hi rend="underline">Th<gap quantity="4" unit="chars"/>
+                     </hi>
+                  </del>
+                  <add>
+                     <hi rend="underline">d’hounî</hi>
+                     <!-- Sanskrit? -->
+                  </add>
+               </subst> en sanscrit. Je ne trouve aucun mot semblable, pour fleuve, dans les
+                    langues finnoises </p>
+            <p>
+               <pb n="165v vacat"/>
+            </p>
+            <p>
+               <pb n="167r"/> Wenn Ew. Excellenz erlauben, werde ich <date when="1834-11-24">Montags</date> früh die Ehre haben meine Aufwartung in <placeName ref="Tegel">Tegel</placeName> zu machen</p>
+            <closer>
+               <salute>Mit vorzüglichster Hochachtung</salute>
+               <signed>JHKlaproth</signed>
+               <lb/>
+               <dateline>Berlin d. 22 Nov. 1834.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="167v vacat"/>
+               <lb/>
+               <pb n="168 fehlt, wohl aufgrund eines Fehlers bei der Numerierung der Blätter"/>
+               <lb/>
+               <pb n="169r vacat"/>
+               <lb/>
+               <pb n="169v"/>
+               <address>
+                  <addrLine>A Son Excellence</addrLine>
+                  <addrLine>Monsieur le Baron G. de Humboldt</addrLine>
+                  <addrLine>Ministre d’état, cet. cet. cet.</addrLine>
+                  <addrLine>à</addrLine>
+                  <addrLine>
+                     <placeName ref="Tegel">Tegel</placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

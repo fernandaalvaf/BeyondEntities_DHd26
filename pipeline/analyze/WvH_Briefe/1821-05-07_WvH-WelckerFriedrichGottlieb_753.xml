@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 07. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 07.05.1821<idno type="BBAW">753</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 28</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 46–49</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7105</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="206">Humboldt, Wilhelm von: Prüfung der Untersuchungen über die
+                    Urbewohner Hispaniens vermittelst der Vaskischen Sprache (Berlin: Ferdinand
+                    Dümmler 1821)</bibl>
+               <bibl corresp="209">Humboldt, Wilhelm von: Ueber das vergleichende Sprachstudium in
+                    Beziehung auf die verschiedenen Epochen der Sprachentwicklung. In: Abhandlungen
+                    der königlich preußischen Akademie der Wissenschaften aus den Jahren 1820–1821,
+                    Historisch-philologische Klasse (Berlin: Reimer 1822), S. 239–260</bibl>
+               <bibl corresp="231">Humboldt, Wilhelm von: Ueber die Aufgabe des Geschichtschreibers.
+                    In: Abhandlungen der königlichen preußischen Akademie der Wissenschaften aus den
+                    Jahren 1820–1821, Historisch-philologische Klasse (Berlin: Reimer 1822), S.
+                    305–322</bibl>
+               <bibl corresp="754">Humboldt, Wilhelm von: Versuch einer Analyse der Mexicanischen
+                    Sprache (1821). In: Albert Leitzmann: Wilhelm von Humboldts Gesammelte
+                    Schriften, 4. Band (Berlin: Behr’s Verlag 1905), S. 233–284</bibl>
+               <bibl corresp="630">Schlegel, August Wilhelm von: Die Herabkunft der Göttin Ganga, in
+                    zwei Gesängen. In: Indische Bibliothek 1, Heft 1, 1820, S. 50–96</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sie werden, liebster Freund, durch Buchhändlergelegenheit
+                        eine Schrift bekommen, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-05-07"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="nah">Nahuatl</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">21. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Sie werden, liebster Freund, durch Buchhändlergelegenheit eine
+                        <bibl sameAs="206">Schrift</bibl> bekommen, die ich eben habe drucken lassen,
+                    und die ich Ihrer Nachsicht u. Güte empfehle. Sie bedarf der ersteren noch
+                    besonders darum, weil ich, um den Druck nicht bis künftigen Winter
+                    aufzuschieben, was mir zu lang schien, <sic>ich</sic> geeilt habe, damit vor dem
+                    Sommer fertig zu werden, wo ich aufs Land gehe, u. die Arbeit hätte liegen
+                    lassen müssen. Es würde mich sehr freuen, wenn Sie an dieser <bibl sameAs="206">Untersuchung über die Urbewohner Hispaniens</bibl> u. der Art, wie ich sie
+                    geführt habe, Gefallen fänden. Für mich hat dieser Theil der Geschichte, der
+                    aller Ueberlieferung vorausgeht, u. wo man den Zustand der Völker nur aus Namen
+                    u. Denkmalen erkennen kann, etwas ungemein Anziehendes. Die Völker und das
+                    Menschengeschlecht sind in ihrem frühesten Leben, u. ihren Wanderungen in dieser
+                    Epoche mehr der Natur selbst gleich, u. noch frei von allem Kleinlichen u.
+                    Willkührlichen, was das individuelle Leben hinzufügt. Diese Neigung zur
+                    Urgeschichte, um es kurz zu bezeichnen, hat mich auch bewogen, seit einiger Zeit
+                    das <hi rend="antiqua">Sanskrit</hi> zu studiren. Man hat dabei mit sehr
+                    schlimmen Schwierigkeiten zu kämpfen, woran noch mehr die unbequeme Einrichtung
+                    der Hülfsmittel, als die Sprache selbst, Schuld ist, aber man wird auch schon
+                    bei jedem Schritt, möchte ich sagen, dafür reichlich durch die Sprache selbst
+                    belohnt. Sie öfnet sich einem vom ersten Moment an, als der Urquell der
+                    Sprachen, die man am <pb n="2*"/> eigenthümlichsten kennt, u. am liebsten
+                    treibt, u. es mischt sich dadurch zu dem bloß linguistischen Interesse ein
+                    bedeutendes Historisches. Ueber die Literatur möchte ich nicht so günstig
+                    urtheilen. Doch mag es seyn, daß ich noch zu wenig davon weiß. Allein was ich
+                    bis jetzt kenne, reproducirt mir weder den Genuß, den das Griechische gewährt,
+                    noch stellt es etwas Neues, gleich Erhebendes an dessen Stelle. Es fehlt ihm,
+                    dünkt mich, die freie, einfache, allgemeine Ansicht des Universum, die tiefe
+                    Menschlichkeit, und das Maß, wodurch das Erhabne sich vom Riesenhaften
+                    unterscheidet. Wie die Indische Poesie nun aber einmal ist, so muß man auch ihre
+                    Eigenthümlichkeit beibehalten. In dem neulich durch <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> <bibl sameAs="630">übersetzten Stück</bibl> scheint mir schon ein
+                    gewisses Accomodationssystem zu seyn, das ich nicht billigen kann. Selbst der
+                    Hexameter giebt, ohne daß etwas Einzelnes geändert sey, einen Griechischen, der
+                    Eigenthümlichkeit schädlichen Anklang. Dennoch ist es sehr gut, daß gerade
+                        <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> sich bei uns des Indischen angenommen hat. Er wird ein allgemeineres
+                    Interesse dafür erwecken, als eine bloß sprachgelehrte Behandlung gethan
+                        hätte.<note type="footnote" resp="editor">Diese Bemerkung bezieht sich auf
+                        Schlegels Publikation der <hi rend="italic">Indischen Bibliothek</hi>: vgl.
+                        Rosane Rocher / Ludo Rocher (2013): <hi rend="italic">Founders of Western
+                            Indology. August Wilhelm von Schlegel and Henry Thomas Colebrooke in
+                            Correspondence 1820–1837</hi>, Wiesbaden: Harrassowitz, 17 Anm. 65.
+                        [FZ]</note>
+            </p>
+            <p>Die <bibl sameAs="206">Schrift</bibl>, von der ich eben redete, wird Ihnen,
+                    liebster Freund, einen Begriff meiner jetzigen Lebensweise und meiner
+                    Beschäftigungen geben. Ich arbeite außerdem, wenn auch unterbrochen, an einer,
+                    soviel als möglich, vollständigen Darstellung der Amerikanischen Sprachen fort.
+                    Es ist ein weitläuftiges Unternehmen, das einen wenn auch nicht einmal von der
+                    Arbeit, aber selbst von der mit vielen Schwierigkeiten verknüpften Herausgabe
+                    abschreckt. <pb n="3*"/> Allein ich bin einmal nicht unbedeutend vorgerückt, u.
+                    mag auch leicht jetzt mehr Hülfsmittel zusammengebracht haben, als sonst einer
+                    in <hi rend="antiqua">Europa</hi> besitzt. Daher möchte ich nicht gern von dem
+                    einmal Begonnenen ablassen. Ich habe schon gegen ein Duzend Sprachlehren fertig
+                    ausgearbeitet liegen, wovon die ausführlichste u. interessanteste die der <bibl sameAs="754">Mexicanischen Sprache</bibl> ist. Ich bin auch schon in der
+                    vorläufigen Kenntniß der noch nicht völlig ausgearbeiteten so weit gekommen, daß
+                    ich übersehen kann, daß die Uebersicht des Ganzen zu nicht unwichtigen
+                    Resultaten führen wird.</p>
+            <p>Bei der <orgName ref="3">Akademie</orgName> habe ich zwei Abhandlungen
+                    vorgelesen, die ich Ihnen schicken werde, sobald sie, was da ein wenig langsam
+                    zugeht, gedruckt werden. Die eine, die Sie gewiß noch im Laufe <sic>deß</sic>
+                    Sommers erhalten, betrift <bibl sameAs="209">das vergleichende
+                        Sprachstudium</bibl>, die andre <bibl sameAs="231">die Aufgabe, welche der
+                        Geschichtschreiber zu lösen hat</bibl>. In dieser letzten habe ich zu
+                        <sic>entwikeln</sic> gesucht, wie es eigentlich keine historische Wahrheit
+                    in Erzählung weder einer einzelnen Thatsache, noch eines Zusammenhanges von
+                    Begebenheiten giebt, wenn man nicht bis zu der unsichtbaren Idee hinabsteigt,
+                    die sich in jedem Geschehenen offenbart. Ich habe darin die Geschichte mit der
+                    Kunst verglichen, die auch nicht sowohl Nachahmung der Gestalt, als
+                    Versinnlichung der in der Gestalt ruhenden Idee ist.</p>
+            <p>Aber ich habe Ihnen schon zu lange, liebster Freund, von mir u. dem, was mich
+                    angeht gesprochen. Doch nehmen Sie seit Jahren einen so freundlichen Antheil
+                    auch an meinen Studien, daß ich auch jetzt auf Ihre Theilnahme rechnen darf.</p>
+            <p>Ich gehe in wenigen Tagen nach <hi rend="antiqua">Schlesien</hi>, u. wenn Sie mir
+                    schreiben wollen, so bitte ich Sie, Ihre Briefe nach <placeName ref="Ottmachau">
+                  <hi rend="antiqua">Ottmachau</hi>
+               </placeName> zu <hi rend="antiqua">ad</hi>-<pb n="4*"/>
+               <hi rend="antiqua">dressiren</hi>. <persName ref="cvh1">Meine Frau</persName> u.
+                        <persName ref="cvh2">
+                  <hi rend="antiqua">Caroline</hi>
+               </persName>, die Sie herzlich grüßen, begleiten mich, gehen aber von dort in die
+                    Böhmischen Bäder. Vor dem Herbst kehren wir nicht hierher zurück.</p>
+            <closer>
+               <salute>Leben Sie recht wohl, und erhalten Sie mir Ihr gütiges u.
+                        freundschaftliches Andenken. Mit den Gesinnungen der lebhaftesten
+                        Hochachtung <lb/>der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 7. <hi rend="antiqua">Mai</hi>,
+                            1821.<note type="footnote" resp="editor">Darunter die Notiz von Welcker:
+                            „erhalten zur Post <date when="1821-05-24">d. 24. May</date> Auf d.
+                            Couvert ein Postzeichen des <date when="1821-05-12">12.<hi rend="superscript">t</hi>
+                     </date> “</note>
+               </dateline>
+               <lb/>
+               <address>
+                  <addrLine>An H. <hi rend="antiqua">Professor</hi> u. Bibliothekar <hi rend="antiqua">Welcker</hi>, Wohlgeb. in <placeName ref="Bonn">
+                        <hi rend="antiqua">Bonn</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

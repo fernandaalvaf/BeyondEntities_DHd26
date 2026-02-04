@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 06.02.1830<idno type="BBAW">171</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 53. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 70f.; Humboldt 2017, S. 600f.
+                            (Ausschnitt)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8158</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fadelung">
+                  <persName>Adelung, Friedrich von</persName>
+               </person>
+               <person corresp="ejvogt">
+                  <persName>Vogt, Ernst Jacob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache, 2.
+                    Aufl. (Berlin: Dümmler 1827)</bibl>
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae 1 (Berlin:
+                    Dümmler 1829)</bibl>
+               <bibl corresp="210">Humboldt, Wilhelm von: Ueber den Dualis. Gelesen in der Akademie
+                    der Wissenschaften am 26. April 1827. In: Abhandlungen der königlichen Akademie
+                    der Wissenschaften zu Berlin aus dem Jahre 1827, Historisch-philologische Klasse
+                    (Berlin: Druckerei der Königlichen Akademie der Wissenschaften 1830), S.
+                    161–188</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Es ist unendlich lange her, daß ich Nichts von Ihnen
+                        vernommen habe …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-02-06"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger Schlussformel und
+                    Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="ms">Malayisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 9. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1830_02_06/NDIGRKP004565_0430.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_02_06/NDIGRKP004565_0431.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_02_06/NDIGRKP004565_0432.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Es ist unendlich lange her, daß ich Nichts von Ihnen vernommen
+                    habe, und diese Entfernung gerade von Ihnen liebster Freund thut mir unendlich
+                    leid. Aber ich begreife daß niemand in diesem Wetter <placeName ref="Tegel">auf
+                        das Land</placeName> kommen kann, und mit meinem Entschluß ganz an Einem
+                    Orte und gerade hier zu leben giebt mir doch jeder Tag mehr Ursach zufrieden zu
+                    seyn. Ich schicke Ihnen, da Sie es doch vielleicht gern ansehen, eine kleine
+                        Schrift<note type="footnote" resp="editor">Kann hier möglicherweise
+                            <persName ref="fadelung">Adelung</persName>s <hi rend="italic">Versuch
+                            einer Literatur der Sanskrit-Sprache</hi> (St. Petersburg: Kray 1830)
+                        gemeint sein?</note>
+               <!-- unsicher! --> <hi rend="antiqua">
+                  <persName ref="fadelung">Adelung</persName>’s</hi> die natürlich kein
+                    großes Verdienst haben kann, allein immer nützlich ist. Ich bin sehr beschäftigt
+                    und werde von den <hi rend="antiqua">Malayischen</hi>-Sprachen in meiner Arbeit
+                    auf Allgemeineres übergehen, und so in der nehmlichen auch die <bibl sameAs="210">Abhandlung über das <hi rend="antiqua">Sanskrit</hi>
+               </bibl>
+               <!-- Ist die Zuweisung korrekt? --> die Sie schon kennen
+                    benutzen. Dieß wird mich nicht nur zum <hi rend="antiqua">Sanskrit</hi>
+                    zurückführen, sondern mir auch Gelegenheit geben auf eine ungezwungene und
+                    meiner Absicht ganz entsprechende <pb n="2*"/> Weise über das große Verdienst
+                    Ihrer beiden Grammatiken<note type="footnote" resp="editor">Gemeint sind <bibl sameAs="570">
+                     <hi rend="italic">Ausführliches Lehrgebäude der
+                            Sanskrita-Sprache</hi>
+                  </bibl> (Berlin 1827) und <bibl sameAs="580">
+                     <hi rend="italic">Grammatica critica linguae Sanscritae</hi>
+                  </bibl>
+                        (Berlin 1829).</note> zu sprechen. Es ist nur eine gewaltige Masse des
+                    Stoffes die ich bei dieser Arbeit zu überwinden habe und ich möchte sie wirklich
+                    überwinden, Resultate aus ihr, so wenig als möglich aber von der Masse selbst
+                    geben. Ich versichere Ihnen, daß ich bisweilen nach drey und vierstündiger
+                    Arbeit doch nur eine halbe Seite schreibe.</p>
+            <p>Ich habe dießmal von der <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> nicht den Zettel bekommen auf welchem die Ordnung des Lesens gedruckt
+                    verzeichnet ist. Sollte er wegen der Klassenveränderungen noch nicht ausgegeben
+                    worden sein? hätten Sie ihn aber schon, so hätten Sie wohl die Güte mir den
+                    Ihrigen zu schicken, und Sich von <persName ref="ejvogt">
+                  <hi rend="antiqua">Vogt</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="ejvogt">Ernst Jacob Vogt</persName> (1772–1854), Leiter der
+                        Druckerei der <orgName ref="3">Akademie der Wissenschaften</orgName> zu
+                            <placeName ref="Berlin">Berlin</placeName>.</note> einen anderen geben
+                    zu laßen.</p>
+            <closer>
+               <salute>Sagen Sie mir doch ob ich bald etwas von Ihnen erhalten kann, und leben
+                        Sie recht wohl. Mit der innigsten Freundschaft<lb/>
+                  <handShift scribe="wvh"/> der Ihrige</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 6. Februar
+                        1830.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>in <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="3*–4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

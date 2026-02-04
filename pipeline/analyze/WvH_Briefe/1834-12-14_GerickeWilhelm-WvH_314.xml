@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 14.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm Gericke an Wilhelm von Humboldt, 14.12.1834<idno type="BBAW">314</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 138–141</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 211</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfcgericke">
+                  <persName>Gericke, Johann Friedrich Carl</persName>
+               </person>
+               <person corresp="jmueller">
+                  <persName>Müller, Johannes</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="58">Brata Yudha</bibl>
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+               <bibl corresp="279">Mahābhārata</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz erhalten beifolgend ein Schreiben,
+                        das einem Briefe beigefügt war, den ich vor einigen Tagen von meinem Bruder,
+                        dem Directeur des Instituts der Javanischen taal zu Jurukarta auf der Insel
+                        Java ... erhielt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wgericke">Gericke, Wilhelm</persName>
+               <date type="author" when="1834-12-14"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wgericke">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="jv">Javanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">20. Januar 2015</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_281.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_282.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_283.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_284.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_285.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_286.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_287.jpg"/>
+      <graphic url="Gericke/Gericke-WvH_1834-12-14/Coll.ling.fol.53_288.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="138r"/>
+               <salute>Hochgeborner Herr, <lb/>Hochgebietender Herr Staatsminister,
+                        <lb/>Gnädiger Herr!</salute>
+            </opener>
+            <p>Ew. Excellenz erhalten beifolgend ein Schreiben, das einem Briefe beigefügt war,
+                    den ich vor einigen Tagen von <persName ref="jfcgericke">meinem
+                        Bruder</persName>, dem Directeur des <orgName ref="54">Instituts der
+                        Javanischen taal zu Surakarta auf der Insel Java</orgName>, über <placeName ref="Amsterdam">Amsterdam</placeName> durch Herrn Buchhändler <persName ref="jmueller">Johannes Müller</persName> erhielt. Zugleich bin ich so frei,
+                    Ew. <sic>Excelenz</sic> anzuzeigen, daß ich im Besitz der von <persName ref="jfcgericke">meinem Bruder</persName> bearbeiteten <bibl sameAs="140">Malaiischen Sprachlehre nebst Lehr- und Wörterbuch</bibl> bin, und daß es
+                    mir ein außerordentliches Vergnügen gewähren würde, wenn ich Ew.
+                        <sic>Excelenz</sic> dieses von einem geborenen und erzogenen Deutschen
+                    bearbeitete Malaiische Werk, zur Ansicht vorlegen dürfte.</p>
+            <closer>
+               <salute>Mit vorzüglicher Hochachtung habe ich die Ehre mich zu zeichnen
+                        <lb/>Ew. Excellenz <lb/>unterthänigster Diener</salute>
+               <signed>Wilh.
+                        Gericke, <lb/>Schulvorsteher.</signed>
+               <lb/>
+               <address>
+                  <addrLine>Jägerstr. No. 18.</addrLine>
+               </address>
+               <lb/>
+               <dateline>Berlin, d. 14. Decbr. 1834.</dateline>
+               <lb/>
+               <pb n="138v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <opener>
+               <lb/>
+               <pb n="139r"/>
+               <handShift scribe="jmueller"/>
+               <note type="footnote" resp="editor">Siehe auch <ref type="link" target="424">Johannes Müller an
+                            Wilhelm von Humboldt, ohne Ort, ohne Datum</ref>.</note>
+               <lb/>
+               <salute>
+                        Hochgebohrener Herr Baron!</salute>
+            </opener>
+            <p>Ein heute von meinem Freunde <persName ref="jfcgericke">Gericke</persName>
+                    eingegangenes Schreiben vom <date when="1834-05-03">3<hi rend="superscript">ten</hi> Mai</date> enthält gar nichts besonderes, indessen wollte ich
+                    dennoch nicht unterlassen Ew: Excellenz Einliegendes mitzutheilen. – Von der
+                        <bibl sameAs="279">Mahabarata</bibl> bestehet, soviel ich weiß, keine
+                    vollständige Uebersetzung, sollte dies aber dennoch der Fall seyn, so wollte ich
+                    Ew: Exc: ergebenst ersuchen mir diese gütigst namhaft zu
+                            <subst>
+                  <del>lassen</del>
+                  <add>machen</add>
+               </subst>, ich werde
+                    alsdann nicht nachlassen eine solche an <persName ref="jfcgericke">H<hi rend="superscript">r</hi>. Gericke</persName> zu besorgen. – Leider
+                    ersehe ich aus dem Brief, daß <persName ref="jfcgericke">H<hi rend="superscript">r</hi>. Gericke</persName> noch ein Schreiben von mir, vom August 1833,
+                    nicht erhalten hatte, ich bezweifele nicht, oder es wird derselbe sich nach
+                    Eingang desselben an Ew: Excellenz schriftlich wenden.</p>
+            <closer>
+               <salute>Mit Achtung    Ew:
+                        Excellenz!    ganz ergebener
+                        Diener</salute>
+               <signed>Johannes Müller.</signed>
+               <lb/>
+               <lb/>
+               <pb n="139v: Anschrift"/>
+               <address>
+                  <addrLine>S<hi rend="superscript">r</hi>. Excellenz</addrLine>
+                  <addrLine>dem Hochgebohrenen Herrn Baron</addrLine>
+                  <addrLine>W. von Humboldt, Staatsminister</addrLine>
+                  <addrLine>
+                     <persName ref="fw3">S<hi rend="superscript">r</hi>. Maj. des
+                                Königs</persName>
+                  </addrLine>
+                  <addrLine>in Berlin.</addrLine>
+               </address>
+            </closer>
+         </div>
+         <div type="appendix">
+            <pb n="140r"/> Auszug.
+                <opener>
+               <lb/>
+               <dateline>
+                  <placeName ref="Surakarta">Surakarta</placeName> 3<hi rend="superscript">t</hi>. Mai 1834.</dateline>
+            </opener>
+            <p>Ich arbeite noch immer an dem <sic>Javanschen</sic> <bibl sameAs="140">Wörterbuch</bibl>, das mir unbegreifliche Mühe und Arbeit verschafft. Zur
+                    Ergänzung und Berichtigung desselben gebrauche ich in diesem Augenblick die
+                    Javanschen Gesetzbücher in Prosa und die <hi rend="antiqua">Broto Judo</hi>
+               <note type="footnote" resp="editor">vermutlich: <bibl sameAs="58">Brata
+                            Yudha</bibl>
+               </note>./. Mahabarat ./. ein episches Gedicht. Man hat
+                    einzelne Bruchstücke des <bibl sameAs="279">Mahabarat</bibl> in Uebersetzungen
+                    aus dem Sanskrit doch meines Wissens bestehet noch keine vollständige
+                    Uebersetzung des Ganzen, sollte eine solche etwa später erschienen seyn, so
+                    bitte ich Sie mich in Besitz derselben zu stellen. Die <hi rend="antiqua">Broto
+                        Judo</hi> ist ursprünglich im <hi rend="antiqua">Kawi</hi> oder der Sprache
+                    der Javanschen Gelehrten geschrieben, ich freue mich, daß ich es soweit gebracht
+                    habe, sie im Ursprünglichen verstehen zu können. Wenn nicht noch in diesem Jahr
+                    so hoffe ich wenigstens künftiges Jahr eine Reise nach dem östlichen Theile von
+                        <placeName ref="java">Java</placeName>, nach Sumarang<note type="footnote" resp="editor">
+                  <placeName ref="Semarang">Semarang</placeName> im Osten <placeName ref="Java">Java</placeName>.</note> und <placeName ref="Bali">Bali</placeName> zu machen. Im
+                    vorigen Jahr habe ich das djokjakartische Reich, <pb n="140v"/> die Provinzen
+                        <hi rend="antiqua">Tagelea</hi>, <hi rend="antiqua">Bannju-Mas</hi>, <hi rend="antiqua">Kadu</hi> und zugleich die Ruinen von <hi rend="antiqua">Brambannan</hi>, <hi rend="antiqua">Boro-Budor</hi> und <hi rend="antiqua">Dieng</hi> besucht.</p>
+            <pb n="141r/v vacat"/>
+         </div>
+      </body>
+   </text>
+</TEI>

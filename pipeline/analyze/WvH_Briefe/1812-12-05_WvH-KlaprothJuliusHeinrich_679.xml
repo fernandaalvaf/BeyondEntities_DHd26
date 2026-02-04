@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Julius von Klaproth, 05.12.1812<idno type="BBAW">679</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: St. Petersburg, Russische Akademie der Wissenschaften,
+                            Archiv, F. 783, Op. 2, Nr. 34, fol. 3</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 3150</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="jhammer">
+                  <persName>Hammer, Joseph von</persName>
+               </person>
+               <person corresp="kahardenberg">
+                  <persName>Hardenberg, Karl August Fürst von</persName>
+               </person>
+               <person corresp="afcheim">
+                  <persName>Heim, August Friedrich Christian</persName>
+               </person>
+               <person corresp="wrzewuski">
+                  <persName>Rzewuski, Graf Wenzel Severin</persName>
+               </person>
+               <person corresp="fschuckmann">
+                  <persName>Schuckmann, Friedrich von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="136">Fundgruben des Orients, 1809–1818</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeb: gütiges Schreiben vom 20. v. M. habe ich
+                        richtig empfangen, und sage Ihnen meinen lebhaftesten Dank für die für mich
+                        darin enthaltenen schmeichelhaften Aeußerungen. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1812-12-05"/>
+               <placeName key="Wien">Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">20.11.1812</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="asm">Asiatische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">7. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="3r"/>
+               <dateline>
+                  <hi rend="antiqua">Wien</hi>, den 5. <hi rend="antiqua">December</hi>,
+                        1812.</dateline>
+            </opener>
+            <p>Ew. Wohlgebh: gütiges Schreiben vom <date when="1812-11-20">20. v. M.</date> habe
+                    ich richtig empfangen, und sage Ihnen meinen lebhaftesten Dank für die für mich
+                    darin enthaltenen schmeichelhaften Aeußerungen. Mit aufrichtigem Bedauern aber
+                    habe ich gesehen, daß meine Bemühungen bisher fruchtlos geblieben sind, und
+                    sogar die Aussicht, die sich Ihnen noch zu einer Anstellung in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> eröfnet, gering ist.
+                    Was Ihnen <persName ref="fschuckmann">H: <hi rend="antiqua">v.
+                        Schuckmann</hi>
+               </persName> in Absicht der <orgName ref="3">
+                  <hi rend="antiqua">Academie</hi>
+               </orgName> gesagt hat, ist allerdings vage;
+                    allein ich sollte doch denken, daß es an seinem Platze noch sonst Mittel geben
+                    müßte, einen so nützlichen wissenschaftlichen Endzweck zu erfüllen. Für den
+                    Augenblick weiß ich aber freilich wenig zu rathen, es müßten sich Ihnen denn
+                    Wege darbieten, gerade an <persName ref="kahardenberg">den Staatskanzler</persName>, oder <persName ref="fw3">den König</persName> zu gehen. Ich werde
+                    gewiß keine Gelegenheit versäumen, wo ich hoffen könnte, zur Erfüllung Ihrer
+                    Wünsche beizutragen; allein in der Entfernung, und außer der näheren Beziehung
+                    mit den inneren Départments kann ich mir natürlich auch nicht viel
+                        versprechen.<note type="footnote" resp="WvH">Wollen Sie den <hi rend="antiqua">Catalog</hi> unsrer Asiatischen Handschriften nicht
+                        druken lassen?</note> – Hier ist leider nicht die mindeste <pb n="3v"/>
+                    Hofnung. Es giebt gar schlechterdings Niemanden hier, der die Sprachen und
+                    Studien triebe, die Sie vorzüglich beschäftigen. Allein niemand fühlt auch nur
+                    wie fern der Mangel u. das Bedürfniß. Die Regierung thut schlechterdings nichts
+                    für wissenschaftliche Institute, als es im einmal vorgeordneten Gange liegt, und
+                    selbst zu den nothwendigsten Dingen klagt man über Mangel an Mitteln. Der
+                        <persName ref="wrzewuski">Gr. Wenzel Rzewuski</persName>
+               <note type="footnote" resp="editor">Graf Wenzel Severin Rzewuski (1784–1831), Orientalist und Finanzier der <hi rend="italic">
+                     <bibl sameAs="136">Fundgruben des Orients</bibl>
+                  </hi>.</note> ist jetzt nicht hier.
+                    Allein sein Vermögen befindet sich in so großer Zerrüttung, daß es auch an Geld
+                    zu Fortsetzung der <bibl sameAs="136">Fundgrube</bibl> mangelt. Das 1. Heft des
+                    3. Bandes ist zwar erschienen, allein nur weil der Drucker das Geld
+                    vorgeschossen hat; mit diesem Vorschuß will er nicht fortfahren, u. höchst
+                    wahrscheinlich bleibt nun auch der übrige Band liegen. – <persName ref="jhammer">Hammer</persName> läßt sich Ew. Wohlgebh. angelegentlichst empfehlen; er
+                    wird mir das neue Heft der <bibl sameAs="136">Fundgrube</bibl> mittheilen, das
+                    ich Ihnen mit der nächsten Gelegenheit übersenden werde. Indeß hat er mir
+                    inliegendes Blatt gegeben, mit der Bitte, es Ihnen zuzuschicken, und Sie zu
+                    ersuchen, ihm gelegentlich den Sinn in einer getreuen Untersuchung mitzutheilen.
+                    Es ist eine Schrift, die sich auf einem der Gräflich <hi rend="antiqua">Burgstalli</hi>schen Familie gehörenden Gemählde finden solle. Wollen Ew.
+                    Wohlgebh. ihm die Gefälligkeit erzeigen, so brauchen Sie die Uebersetzung nur
+                    mir durch den Geh. Registrator <hi rend="antiqua">Heim</hi>
+               <note type="footnote" resp="editor">August Friedrich Christian Heim (1772–1844); siehe Royal
+                        Historical Society (Hrsg.) (2000): <hi rend="italic">British Envoys to Germany, 1816–1866</hi>.
+                        Vol. 1: 1816–1829, Cambridge: University Press, S. 544. [FZ]</note>
+                    zuzuschicken.</p>
+            <closer>
+               <salute>Ich benutze mit Vergnügen diese Gelegenheit, um Euer Wohlgebh. die
+                        Versicherung meiner hochachtungsvollsten Ergebenheit zu
+                        erneuern.</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

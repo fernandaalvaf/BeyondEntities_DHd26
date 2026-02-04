@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 16. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Christian Becher an Wilhelm von Humboldt, 20.07.1828<idno type="BBAW">230</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 82–84</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 210 </bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listBibl type="mentioned">
+               <bibl corresp="284">Marbán, Pedro: Arte de la lengua Moxa: con su vocabulario, y
+                    cathecismo (Lima: Impr. real de Joseph de Contreras 1701)</bibl>
+               <bibl corresp="435">Torres Rubio, Diego (1603): Grammatica y Vocabulario en la lingua general
+                    del Peru, llamada Quichua y en la lengua Española (Sevilla: Hidalgo
+                    1603)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego (1754): Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz war ich im Begriff die unangenehme Nachricht
+                        mitzutheilen dass die auf dem angehefteten Blättchen verzeichneten beiden
+                        Bücher, welche von Lima aus auf hier unterwegs waren, in Rio
+                        verlorengegangen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ccbecher">Becher, Carl Christian</persName>
+               <date type="author" when="1828-07-20"/>
+               <placeName key="Elberfeld">Elberfeld</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ccbecher">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">16. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_173.jpg"/>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_174.jpg"/>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_175.jpg"/>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_176.jpg"/>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_177.jpg"/>
+      <graphic url="Becher/Becher-WvH_1828_07_20/Coll.ling.fol.52_178.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="82r"/>
+               <address>
+                  <addrLine>S<hi rend="superscript">r</hi>. Excellenz</addrLine>
+                  <addrLine>dem Königl. Preuß. StaatsMinister</addrLine>
+                  <addrLine>Freiherrn v. Humboldt</addrLine>
+               </address>
+               <note type="footnote" resp="editor">Auf Blatt (82r) unten links notiert.</note>
+               <lb/>
+               <lb/>
+               <salute>Ew. Excellenz,</salute>
+            </opener>
+            <p>war ich im Begriff die unangenehme Nachricht mitzutheilen daß die auf dem
+                    angehefteten Blättchen verzeichneten beiden Bücher, welche von <hi rend="antiqua">
+                  <hi rend="underline">
+                     <placeName ref="Lima">Lima</placeName>
+                  </hi>
+               </hi> aus auf hier unterwegens waren, in <placeName ref="Rio de Janeiro">Rio</placeName> verlohren gegangen, – als ich die Einlage erhielt welche
+                    diese Unannehmlichkeit um so mehr auswegt als das darinn erwähnte Schiff <hi rend="antiqua">the Arab</hi>, bereits in <placeName ref="Liverpool">
+                  <hi rend="antiqua">Liverpool</hi>
+               </placeName> angekommen ist &amp; die fraglichen <hi rend="underline">5.</hi>
+                    Bücher also in <hi rend="antiqua">salvo</hi> sind.</p>
+            <p>Ich habe unserm <placeName ref="London">Londner</placeName> Komissionair
+                    aufgetragen, bei der Gesandschaft anfragen zu lassen ob <hi rend="underline">Ew.
+                        Excellenz</hi> noch in England seien in welchem Falle das Kästchen Ihnen
+                    dort zugestellt werden wird; im entgegengesetzten Falle habe ich daßelbe via
+                        <placeName ref="Hamburg">Hamburg</placeName> nach <placeName ref="Berlin">Berlin</placeName> zu senden beordert u. hoffe daß auf dem einen oder dem
+                    andern Wege, Ew. Excellenz <hi rend="underline">bald</hi> in den Besitz der
+                    Sache gelangen <pb n="82v"/> werden</p>
+            <closer>
+               <salute>Ich ergreife mit wahrem Vergnügen diese Gelegenheit, der Fortdauer
+                        meiner innigen Verehrung zu versichern &amp; beharre <lb/>Ew. Excellenz
+                        <lb/>ganz gehorsamster Diener</salute>
+               <signed>C. C. Becher</signed>
+               <lb/>
+               <dateline>Elberfeld am 20<hi rend="superscript">t</hi>.
+                        Juli<lb/>1828</dateline>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="83r"/> Für <persName ref="wvh">Hrn von Humboldt.</persName>:</p>
+            <table cols="3" rows="4">
+               <row>
+                  <cell>
+                     <bibl sameAs="434">Vocabolario y Phrasis de la lengua general<lb/>de los
+                                Indios del Peru, llamada Quichua.</bibl> —</cell>
+                  <cell>⎫</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="435">Gramatica derselben Sprache</bibl>. —</cell>
+                  <cell>⎬</cell>
+                  <cell>in Schweinsleder gebunden.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <bibl sameAs="284">Arte de la lengua Moxa</bibl> —</cell>
+                  <cell>⎭</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>Diese beiden Bücher waren in einem Koffer enthalten der in der <hi rend="antiqua">Douane </hi> in <placeName ref="Rio de Janeiro">
+                  <hi rend="antiqua">Rio Janeiro</hi>
+               </placeName> gestohlen worden ist, &amp; wahrscheinlich nicht wieder zum
+                    Vorschein kommen wird —</p>
+            <closer>
+               <dateline>E.. 20<hi rend="superscript">t</hi>. July 28</dateline>
+               <signed>CCBecher</signed>
+               <lb/>
+               <pb n="83 v und 84 r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

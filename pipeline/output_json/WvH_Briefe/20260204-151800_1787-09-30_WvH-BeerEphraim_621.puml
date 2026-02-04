@@ -1,0 +1,33 @@
+@startuml
+
+skinparam defaultTextAlignment center
+skinparam objectBorderColor #333333
+skinparam objectBackgroundColor #FEFECE
+skinparam arrowColor #333333
+
+object "Humboldt" as E1 #ADD8E6
+object "Beer" as E2 #ADD8E6
+object "Mendelssohn" as E3 #ADD8E6
+object "Morgenstunden" as E4 #FFB6C1
+object "Intellektueller_Austausch" as E5 #E6E6FA
+object "Möglichkeit" as E6 #E6E6FA
+object "Wirklichkeit" as E7 #E6E6FA
+object "Denkendes_Wesen" as E8 #E6E6FA
+object "Widerspruchsfreiheit" as E9 #E6E6FA
+object "Zweifel" as E10 #E6E6FA
+object "Positives_Prädikat" as E11 #E6E6FA
+object "Negatives_Prädikat" as E12 #E6E6FA
+
+E5 --> E1 : "rahmt"
+E5 --> E4 : "bezieht_sich_auf"
+E3 --> E11 : "postuliert"
+E11 --> E8 : "erfordert"
+E1 --> E3 : "hinterfragt"
+E1 --> E12 : "interpretiert_als"
+E12 --> E9 : "interpretiert_als"
+E9 --> E8 : "ist_unabhängig_von"
+E1 --> E7 : "postuliert"
+E7 --> E8 : "ist_unabhängig_von"
+E10 --> E1 : "charakterisiert"
+
+@enduml

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Eduard Schulz an Wilhelm von Humboldt, Frühjahr bis Spätherbst
+                        1824<idno type="BBAW">466</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                        Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 17, Bl. 85–86</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 157f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="wvh">
+                  <persName>Humboldt, Wilhelm von</persName>
+               </person>
+               <person corresp="konfuzius">
+                  <persName>Konfuzius</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="222">Humboldt, Wilhelm von (1825): Über das Entstehen der
+                        grammatischen Formen und ihren Einfluß auf die Ideenentwicklung. Gelesen in
+                        der Akademie der Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                        historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften
+                        in Berlin aus den Jahren 1822 und 1823, S. 401–430 (Separatdruck 1824). –
+                        Vgl. GS IV, S. 285–313</bibl>
+               <bibl corresp="5">Abel-Rémusat, Jean-Pierre (1822): Eléments de la grammaire
+                        chinoise ou principes généraux du Kou-Wen, ou style antique, et du
+                        Kouan-Hoa, c’est-à-dire de la langue commune généralement usitée dans
+                        l’empire chinois, Paris: L’Imprimérie Royale</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Über eine das Chinesische betreffende Stelle …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="feschulz">Schulz, Friedrich Eduard</persName>
+               <date type="editor" from="1824-05-22" to="1824-12-25">Frühjahr bis Spätherbst
+                        1824</date>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="feschulz">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. Juni 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schulz/Schulz–Wvh_Fruehjahr-Herbst_1824/Coll.ling.fol.17_215.jpg"/>
+      <graphic url="Schulz/Schulz–Wvh_Fruehjahr-Herbst_1824/Coll.ling.fol.17_216.jpg"/>
+      <graphic url="Schulz/Schulz–Wvh_Fruehjahr-Herbst_1824/Coll.ling.fol.17_217.jpg"/>
+      <graphic url="Schulz/Schulz–Wvh_Fruehjahr-Herbst_1824/Coll.ling.fol.17_218.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="85r"/> Über eine das Chinesische betreffende Stelle der <bibl sameAs="222">Abhandlung über das Entstehen der grammat. Formen u ihren Einfluß auf die
+                        Ideenentwicklung. p. 27</bibl>
+               <note type="footnote" resp="editor">Diese
+                        Seiten sind keinem Brief zuzuweisen. Die Abhandlung "Über das Entstehen der
+                        grammatischen Formen und ihren Einfluß auf die Ideenentwicklung", auf die
+                        Schulz Bezug nimmt, erschien im Frühjahr 1824 als Separatdruck (siehe dazu
+                        Leitzmann in GS 4, S. 439, mit Nennung u.a. des <ref type="link" target="721">Briefes</ref> an <persName ref="fgwelcker">Welcker</persName> vom <date when="1824-05-22">22. Mai 1824</date>).
+                        Dass Schulz einen Sonderdruck vorliegen haben musste, erweist die angegebene
+                        Seitenzahl (die Seite 27 des Separatdrucks entspricht den <hi rend="italic">Abhandlungen der historisch-philologischen Klasse der Königlichen
+                            Akademie der Wissenschaften in Berlin aus den Jahren 1822 und 1823</hi>,
+                        S. 427) und lässt sich aus einer Bemerkung <persName ref="avh">Alexander von
+                            Humbold</persName>ts in <ref type="link" target="739">seinem Brief</ref>
+                        vom <date when="1824-09-13">13. September 1824</date> annehmen ("Il se
+                        trouverait très flatté de ton souvenir, tu pourrais lui adresser des
+                        questions sur le chinois…"). Der Text wird vor <ref type="link" target="467">dem Brief</ref> vom <date when="1824-12-25">25. Dezember 1824</date> an
+                        Humboldt abgegangen sein. In dem ganzen genannten Zeitraum hielt sich Schulz
+                        in <placeName ref="Paris">Paris</placeName> auf, bevor er 1826 nach Persien
+                        und in die Türkei reiste. [FZ]</note>
+            </p>
+            <p>Eine der Haupteigenschaften der von den Chinesen <foreign sameAs="zh">
+                  <graphic rend="medium" url="Schulz/006.svg"/>
+               </foreign>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="zh">ku
+                            wen</foreign>
+                  </hi>
+               </hi>, „<hi rend="underline">alter Styl</hi>“
+                    genannten Ausdrucksweise ist allerdings <hi rend="underline">Kürze</hi>. Diese
+                    herrscht, wenn auch in sehr bedeutend verschiedenen Graden, ebensowohl in dem,
+                    was die Chinesen <foreign sameAs="zh">
+                  <graphic rend="medium" url="Schulz/007.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="antiqua">
+                     <hi rend="underline">schang ku
+                            wen</hi>
+                  </hi>
+               </foreign>, wie in dem, was sie <foreign sameAs="zh">
+                  <graphic rend="medium" url="Schulz/008.svg"/>
+               </foreign> und <foreign sameAs="zh">
+                  <graphic rend="medium" url="Schulz/009.svg"/>
+               </foreign>
+                        (<foreign sameAs="zh">
+                  <hi rend="antiqua">
+                     <hi rend="underline">tschong ku
+                                wen</hi>
+                  </hi>
+               </foreign> und <foreign sameAs="zh">
+                  <hi rend="antiqua">
+                     <hi rend="underline">hia ku wen</hi>
+                  </hi>
+               </foreign>) genannt haben,
+                    oder, um wörtlich zu übersetzen, in dem <hi rend="underline">hochalten</hi> Styl
+                    ebensowohl, (dh in den King’s und in einigen Inschriften des höchsten
+                    Alterthums) wie in den <hi rend="underline">mittel-alten</hi> (in den Schriften
+                    des <persName ref="konfuzius">Confucius</persName> u seiner Schule) und in den <hi rend="underline">niedrig-alten</hi> (dh <add>in der</add> in allen späteren historischen u
+                    philosophischen Werken gebräuchlichen, der älteren klaßischen nachgeahmten,
+                    freilich schon etwas gedehnteren, aber vom <hi rend="antiqua">
+                  <hi rend="underline">kouan hoa</hi>
+               </hi> doch noch sehr weit verschiedenen
+                    Schreibart.)</p>
+            <p>Diese Kürze, die hauptsächlich in dem fast gänzlichen Nichtvorhandenseyn eigener
+                    grammat. Formen und Bestimmungen besteht, ist es, <del>was</del>, wie es mir
+                    scheint, <add>was</add> mehr als alles andere, <del>was</del> dem <hi rend="antiqua">
+                  <hi rend="underline">Ku wen</hi>
+               </hi> den Vorwurf der
+                    Unbestimmtheit und den Operationen seiner Erklärer und Übersetzer den des <hi rend="underline">Errathens</hi> zugezogen hat.</p>
+            <p>Obgleich nun diese, im <hi rend="underline">hochalten Styl</hi> sicherlich auf
+                    das äußerste, nur je erreich- und gedenkbare getriebene Kürze nur sehr selten
+                    oder wenig <add>im <hi rend="underline">niedrigalten</hi>
+               </add>, und selbst
+                    schon weniger in dem <hi rend="underline">mittelalten</hi> Style stattfindet,
+                    und man, wenn man wollte, durch die Nachweisung einer Menge ausdrücklicher
+                    grammatischer Formen und Bezeichnungen in beiden, den Vorwurf <subst>
+                  <del>des Errathens</del>
+                  <add>der</add>
+               </subst> Unbestimmtheit allein auf den ältesten <hi rend="antiqua">
+                  <hi rend="underline">kou wen</hi>
+               </hi>, also <add>auf</add> eine
+                    verhältnißmäßig äußerst kleine Anzahl chinesischer Schriften zurückführen
+                    könnte, so glaube ich, würde doch <pb n="85v"/> selbst dieß zuviel zugegeben und
+                    dem Charakter jener ältesten Litteraturüberreste in mehrfacher Beziehung dadurch
+                    zu nahe getreten seyn. Ich behaupte vielmehr, daß als eine zweite
+                    Haupteigenschaft alles kou wen, folglich auch jedes ältesten, <hi rend="underline">vollkommene Klarheit und höchste Bestimmtheit </hi>zu
+                    betrachten sind und daß eben durch die Vereinigung dieser, mit <add>jener</add>
+                    durch keine nur erdenkliche Form oder Wendung einer anderen Sprache zu
+                    übertreffenden <hi rend="underline">Kürze</hi>, der menschliche Geist eine ihm
+                    zur höchsten Ehre gereichende Erscheinung aufgestellt hat. Dieß ist nun freilich
+                    eine Behauptung, welche rein auf Erfahrung beruht und keinen anderen Beweis
+                    zuläßt, als den der Hinweisung auf die im <hi rend="antiqua">Ku wen</hi> aus vorliegenden Schriften,
+                    verbunden mit der, wie ich mich unter H <hi rend="antiqua">
+                  <persName ref="jpabel">Abel Rémusat</persName>’s</hi> Anleitung unzähligemale
+                    selbst überzeugen konnte, sehr leichten Darlegung deßen, daß gerade jene, beim
+                    ersten Anblick oft verzweifelt scheinende Kürze, weit entfernt den Leser irgend
+                    etwas <hi rend="underline">errathen</hi> zu laßen, <add>ihn</add> vielmehr
+                    geradezu zwingt, für jedes Wort und Zeichen seine, ihm nur durch die Stellung
+                    fixirt, <hi rend="underline">nothwendige</hi> Geltung <add>als Verbum, Subst.
+                        Adjectivum u dglch.</add> heraus zu finden, welche denn immer die <hi rend="underline">einzige</hi> ist, deren Annahme streng philologisch sich
+                    rechtfertigen läßt. Dem hier sehr richtig scheinenden Einwurfe dagegen : daß
+                    doch immer in jenen Schriften eine Menge von Stellen unklar und vielleicht auf
+                    ewig unverständlich bliebe : kann ich auf das leichteste mit der Bemerkung
+                    entgegen treten, daß all dieß Unklare und Unverständliche durchaus nicht in der
+                    Unbestimmtheit und Mangelhaftigkeit der <hi rend="underline">Sprachbezeichnung</hi>, sondern einzig u allein in hiervon ganz
+                    unabhängigen Umständen zb in der Unvollständigkeit unserer lexikographischen
+                    Kenntniße, in unserer Unbekanntschaft mit einer Menge <subst>
+                  <del>darin</del>
+                  <add>in jenen Stellen</add>
+               </subst> berührter histor. Thatsachen u dgl., seinen Grund habe. –</p>
+            <p>Zwar scheinen die Arbeiten mancher Missionäre, welche größtentheils
+                        <del>zum</del> durchaus keinen, auf grammatische oder
+                    allgemeinphilosophische Forschungen gerichteten Geist, zum Theil selbst nicht
+                    einmal <add>auch nur</add> einigermaßen richtige Ansichten von irgend einer
+                    einzelnen der ihnen geläufigen europäischen Sprachen, <pb n="86r"/> in deren
+                    Formen sie nun sogleich das Chinesische hineinzwängten, zum Studium dieser
+                    Sprache mitbrachten, <add>manche</add> ihrer Arbeiten, sage ich, scheinen
+                    allerdings sehr für jenes behauptete <hi rend="underline">Errathen</hi> des
+                    Sinnes der <hi rend="antiqua">Kou-wen</hi>schriften zu sprechen, und mehrere
+                    ihrer Übersetzungen in der Hand, <subst>
+                  <del>ließe sich</del>
+                  <add>könnte man</add>
+               </subst> füglich von <hi rend="antiqua">Kou wen</hi> behaupten, daß sich <subst>
+                  <del>aus</del>
+                  <add>bei</add>
+               </subst> seinen Erzeugnißen alles Mögliche nach Belieben hierin oder heraus
+                    verstehen laße. Aber von diesem Unfuge, der nothwendigen Folge routinenmäßiger
+                    Erlernung einer Sprache, wie das Chinesische, darf, wie ich glaube, nach
+                    Erscheinung der trefflichen <persName ref="jpabel">
+                  <hi rend="antiqua">Rémusat</hi>
+               </persName>’schen <bibl sameAs="5">
+                  <hi rend="antiqua">Élemens</hi>
+               </bibl> nicht mehr die Rede seyn; und ich bin überzeugt,
+                        <persName ref="wvh">H. von Humboldt</persName> wird, wenn er von diesem
+                    Werke geleitet, dem Studium der <hi rend="antiqua">Kouwen</hi>literatur seine
+                    Aufmerksamkeit schenken will, mit Vergnügen zugestehen, daß der <add>harte</add>
+                    Ausdruck des <hi rend="underline">Errathens</hi>
+               <del>doch</del> jetzt <del>nicht mehr füglich</del> von dem Verständniß dieser
+                    Schriften <add>nicht mehr füglich</add> angewandt werden könne. <persName ref="jpabel">H. <hi rend="antiqua">Abel Remusat</hi>
+               </persName> wenigstens
+                    wird den <bibl sameAs="222">in der angeführten Abhandlung</bibl> dem
+                    Chinesischen gemachten Vorwurf sicherlich nicht zugeben und bei den, als Beweis
+                    dafür aus <bibl sameAs="5">seinen <hi rend="antiqua">élémens</hi>
+               </bibl> dort
+                    angeführten Stellen, bemerken, daß er allerdings selbst in seiner Grammatik
+                    aussprechen mußte, was ein unläugbares Factum ist, – daß nämlich ein jedes der
+                    von den Missionären darum oft mit Bias verglichenen, Chinesischen Wörter alles
+                    mögliche oder die Fähigkeit bald als Verbum, bald als <hi rend="antiqua">Substantivum</hi>, oder <hi rend="antiqua">Adjectivum</hi> oder <hi rend="antiqua">partikel</hi>
+               <hi rend="antiqua">etc</hi>. aufzutreten, in sich trage – <add>nur wird er
+                        hinzusetzen</add> daß er <del>aber</del> darum noch weit davon entfernt sey,
+                    dem Chinesischen dieß als einen Vorwurf anzurechnen, indem er vielmehr durch
+                    sein ganzes Werk hindurch zu zeigen gesucht, wie das aus jenem Factum vermuthete
+                    Schwankende, Unsichere und Willkührliche im <hi rend="antiqua">Kou wen</hi> gar
+                    nicht statt habe, sondern wie, wenn ich mich dieses Ausdrucks bedienen darf, die
+                    Evolution der in einem einzelnen Worte eingefloßenen hier substantivischen, dort
+                    adjectivischen oder verbalen etc. Geltungen, mit größter Sicherheit und nach
+                    sehr fest bestimmten Gesetzen vor sich gehe.</p>
+            <p>Diese, wie <persName ref="jpabel">
+                  <hi rend="antiqua">Rémusat</hi>
+               </persName>
+                    zuerst <add>es</add> gezeigt hat und wie tausendfache Erfahrungen es bestätigen,
+                    großentheils auf der Wortstellung beruhenden Gesetze sind so fest und so
+                    unabänderlich, daß sich für die <pb n="86v"/> des <hi rend="antiqua">Kouwen</hi>
+                    eine Art algebraischer Formeln aufstellen ließe, in welchen Buchstaben die
+                    nothwendige Stelle des Subjects, des Objects, des Verbums u. s. w. bezeichneten
+                    und so bestimmt angäben, welche eigenthümliche Rolle ein jedes Wort
+                        <add>in</add> der Rede spiele, wodurch dann natürlich von selbst dem
+                    Schwanken zwischen der Maße seiner verschiedenen grammat. Geltungen, deren es
+                        <add>für sich genommen</add> fähig ist, ein Ende gemacht wird. Wie
+                        <add>wir</add> zb wenn wir, in der einfachsten Satzform, die Stelle des
+                    Subjects durch A, die des Verbums durch B und die des Objects durch C
+                    bezeichnen, durch die, <subst>
+                  <del>als</del>
+                  <add>ein</add>
+               </subst> unabänderliches Stellungsgesetz ausdrückende Formel</p>
+            <p>A<lb/>B<lb/>C</p>
+            <p>und ihre Anwendung auf die 3 Chinesischen, zusammenconstruirten Wörter</p>
+            <p>
+               <foreign sameAs="zh">
+                  <graphic rend="big" url="Schulz/010.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="antiqua">jin hao hiŏ</hi>
+               </foreign>
+            </p>
+            <p>sogleich wissen, daß dieser Satz vernünftigerweise nur ausdrücken könne: <foreign sameAs="la">
+                  <hi rend="antiqua">homo amat studium</hi>
+               </foreign> wiewohl
+                        <foreign sameAs="zh">
+                  <graphic url="Schulz/011.svg"/>
+               </foreign> außer
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">homo</hi>
+               </foreign>, ebensowohl
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">humanus</hi>
+               </foreign>, wie <foreign sameAs="la">
+                  <hi rend="antiqua">hominem esse</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">humanum reddere</hi>
+               </foreign> u.s.w.
+                    bezeichnet, <foreign sameAs="zh">
+                  <graphic url="Schulz/012.svg"/>
+               </foreign> aber
+                    <subst>
+                  <del>
+                     <gap quantity="3" unit="chars"/>
+                  </del>
+                  <add>in</add>
+               </subst> einer Menge anderer Stellen <subst>
+                  <del>
+                     <gap quantity="3" unit="chars"/>
+                  </del>
+                  <add>eine</add>
+               </subst> substantive,
+                    oder adverbiale etc Bedeutung hat, bei welcher Analyse ich nun das bemerken muß,
+                    daß ich der Kürze wegen amat gesagt und damit einen <hi rend="underline">Zeitbegriff</hi> in das entsprechende chines. Wort hineingetragen habe,
+                    der, wie es mir scheint, eigentlich nicht darin enthalten ist, indem, wie ich
+                    überzeugt bin, dasjenige was man überall Chines. <hi rend="antiqua">Verbum</hi>
+                    genannt findet, bei der logischen Analyse <add>in den meisten Fällen</add>, wenn
+                    man sich unserer Terminologie bedienen will, als ein bloßer Aorist oder als eine
+                    bloße Verknüpfung der Copula mit dem Adjectiv ohne <hi rend="underline">alle
+                        Zeitbestimmung</hi> zu betrachten ist.</p>
+            <p>Gegen die Aufstellung solcher Buchstabenformeln möchte sich nun vieles, auf den
+                    ersten Blick sehr Erhebliches <subst>
+                  <del>anfechten</del>
+                  <add>anführen</add>
+               </subst> oder dieselbe <add>möchte</add> vielleicht nur für die allereinfachste,
+                    der <add>alle</add> vollständig ausgesprochenen Theile eines Urtheils
+                    enthaltenden Satzformen als zuläßig sich betrachten laßen; aber ich glaube
+                    ebenso wohl jenes <unclear>
+                  <add>hier</add>
+               </unclear> bestätigen, wie dieser
+                    Einschränkung, durch Nachweisung der Zuläßigkeit dieses Verfahrens für fast alle
+                    chines. Sätze, zuvorkommen zu können.</p>
+            <p>Nur wage ich es nicht im voraus zu vermuthen, ob Ausführungen der Art der gütigen
+                    Nachsicht sich zu erfreuen haben dürften, welche ich durch das Ebengeschriebene
+                    vielleicht allzulange in Anspruch zu nehmen mir erlaubt habe.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

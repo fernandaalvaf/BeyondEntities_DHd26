@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 27.11.1827<idno type="BBAW">447</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 31–34. – Kopie: Boston, Public Library, MS q. 1900, No.
+                            13, Courtesy of the Trustees of the Boston Public Library/Rare Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Pickering 1887, S. 351 ff. (gekürzt); Mueller-Vollmer 1976, S. 318, 326 (Ausz.); 
+                            </bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 208</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12021</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="lcass">
+                  <persName>Cass, Lewis</persName>
+               </person>
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="eeverett">
+                  <persName>Everett, Edward</persName>
+               </person>
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="castigator">
+                  <persName>Kass-ti-ga-tor-skee (Castigator; pen-name von John
+                    Pickering)</persName>
+               </person>
+               <person corresp="sequoyah">
+                  <persName>Sequoyah (oder Georges Guess, oder George Gist)</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="827">[Cass, Lewis:] Indians of North America. In: North American Review
+                    22, Jan. 1826, S. 53–120</bibl>
+               <bibl corresp="483">Chahta holisso: [or, Choctaw book] (Cincinnati 1825)</bibl>
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the Massachussets
+                    (or Natick) Indian language (Cambridge: E. W. Metcalf and Company 1829)</bibl>
+               <bibl corresp="124">Eliot, John: The Indian Grammar begun: or, An essay to bring the
+                    Indian language into rules, for the help of such as desire to learn the same,
+                    for the furtherance of the Gospel among them (Cambridge: Marmaduke Johnson
+                    1666)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="828">Kass-ti-ga-tor-skee, or the Feathered Arrow: Examination of an
+                    Article in the North American Review respecting the North American Indians. In:
+                    The New-York Review, May 1826, S. 405–422</bibl>
+               <bibl corresp="816">Pickering, John: Grammar of the Cherokee Language (Boston: Mission
+                    Press 1830)</bibl>
+               <bibl corresp="295">The Syllabic Cherokee Alphabet. In: Missionary Herald 23, No. 7,
+                    July 1826, S. 212f.</bibl>
+               <bibl corresp="437">Tsa-la-gi tsu-le-hi-sa-no-hi. A Cherokee Phoenix. Edited by Elias
+                    Boudinot for the Cherokee Nation (1828–1834)</bibl>
+               <bibl corresp="463">[Wright, Alfred:] A Spelling Book Written in the Chahta Language,
+                    with an English Translation, Second Edition, revised (Cincinnati: Morgan, Lodge,
+                    and Fisher 1827)</bibl>
+               <bibl corresp="464">[Wright, Alfred / Byington, Cyrus:] Chahta holisso a tukla, or the
+                    second chahta book, containing translations of portions of the Scriptures,
+                    biographical notices of Henry Obokiah and Catherine Brown, a catechism, and
+                    dissertations on religious subjects (Cincinnati: Morgan 1827)</bibl>
+               <bibl corresp="472">Zeisberger, David: Essay of a Delaware-Indian and English
+                    spelling-Book: For the use of the Schools of the Christian Indians on Muskingum
+                    River (Philadelphia: Henry Miller 1776)</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, It is a great while since I received your last letter
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1827-11-27"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="512" type="next">12.07.1828</ref>
+               <ref target="443" type="prev">24.08.1821</ref>
+               <ref target="510" type="prev">29.06.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="chr">Cherokee</language>
+            <language ident="cho">Chocktaw</language>
+            <language ident="cai">Indianische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">07. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_069.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_070.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_071.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_072.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_073.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_074.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_075.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1827-11-27/Coll.ling.fol.52_076.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="31r"/> <salute>Sir,</salute>
+            </opener>
+            <p>It is a great while since I received your last letter (which was dated the <date when="1824-06-29">29.<hi rend="superscript">th</hi> of June 1824</date>) and
+                    you may, perhaps, be surprised at my apparent neglect in replying to it. The
+                    truth is, that the delay has proceeded from causes altogether beyond my
+                        <sic>controul</sic> – from circumstances mostly of a personal nature, which
+                    it would be impertinent towards you &amp; unpleasant to myself to trouble you
+                    with. I beg you, Sir, to be assured, that nothing less than the irresistible
+                    force of circumstances would have occasioned any interruption of a
+                    correspondence from which I derive so much pleasure &amp; instruction, &amp;
+                    which I hope now to continue without so long an intermission in future.</p>
+            <p>Since I last wrote to you, I have removed to this city (<placeName ref="Boston">Boston</placeName>) which is the capital of New England, and where the
+                    advantages for pursuing my professional business are much greater than they were
+                    in <hi rend="underline">
+                  <placeName ref="Salem, MA">Salem</placeName>
+               </hi>, my
+                    former residence. <placeName ref="Boston">Boston</placeName> is also the centre
+                    of our <hi rend="underline">Northern</hi> literature, and is only three miles
+                    (English) from our University of <placeName ref="Cambridge, MA">Cambridge</placeName>, where there is <orgName ref="44">a valuable
+                        library</orgName>, to which I <pb n="31v"/> have access. This, in addition
+                    to the literary society of this city, affords facilities for study, which are
+                    not to be found in our smaller towns. But although I am thus more favourably
+                    situated both for <hi rend="underline">business</hi> &amp; <hi rend="underline">study</hi>, yet I do not expect to devote so much time as heretofore to
+                    literary pursuits; for I find, that in a large town one is obliged to give an
+                    undivided attention to the object of pursuit, whether it be business or study;
+                    and, as I cannot live by literature, I must decide to live by my profession, the
+                    law, and indulge myself occasionally only as an <hi rend="underline">amateur</hi> in literature.</p>
+            <p>I beg to make my acknowledgements to you for the valuable present of your <hi rend="underline">Berlin Academy’s Transactions</hi>, and the copies of
+                        <bibl sameAs="222">your own <hi rend="underline">Memoir</hi>
+               </bibl>, which
+                    last, you will allow me to say, is full of interest to all who like to take
+                    extensive &amp; philosophical views of the subject. I delivered the several
+                    copies of it intended for <persName ref="eeverett">M.<hi rend="superscript">r</hi> Everett</persName> &amp; other gentlemen.</p>
+            <p>In return for your favours, I am now able to send you the long-wished for "<bibl sameAs="473">
+                  <hi rend="underline">Grammar of the Language of the Lenni-Lenápé
+                            or Delaware Indians</hi>
+               </bibl>", by <persName ref="dzeisberger">David
+                        Zeisberger</persName>. This work is just published, from the Translation of
+                        <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        DuPonceau</persName>, in the Memoirs of the <orgName ref="22">American
+                        Philosophical Society</orgName> at <placeName ref="Philadelphia">Philadelphia</placeName>.</p>
+            <p>
+               <pb n="32r"/> It is <sic>undoudtedly</sic> the most important publication that
+                    has yet been made upon the subject of the Indian Languages; and, as the author
+                    was a German, &amp; adopted a German orthography, the work will be the more
+                    interesting to yourself &amp; other literati in that part of Europe to which the
+                    rest of the world looks for instruction on this &amp; almost every other subject
+                    of human knowledge. You will now possess the means of knowing with exactness the
+                    structure of a very extensive Indian language, or rather a <hi rend="underline">stock</hi> or <hi rend="underline">family</hi> of languages, from a work
+                    composed many years ago by an honest &amp; intelligent missionary, who formed
+                    the grammar merely for practical use &amp; not to support any theories or
+                    speculations in philology. So that whatever results we shall be obliged to come
+                    to, they will be results which rest upon well established facts; and, I may add,
+                    they are facts which are in accordance with those stated an hundred &amp; fifty
+                    years ago in <persName ref="jeliot">Eliot</persName>’s<bibl sameAs="124"> ancient
+                        grammar of the <hi rend="underline">Massachusetts Indian
+                        Language</hi>
+               </bibl>, which, as you know, is but a dialect of the Delaware
+                    stock. Indeed I cannot but think, that <persName ref="dzeisberger">Zeisberger</persName>’s <bibl sameAs="473">Grammar</bibl>, so much more full
+                    &amp; exact than any other, will excite the greatest interest among the
+                    philologists of Germany &amp; other <pb n="32v"/> parts of Europe, &amp; give a
+                    new impulse to these studies.</p>
+            <p>During the last three years some other publications have appeared respecting the
+                    Indians &amp; their Languages; &amp; some others are in preparation; of which
+                    the following are the principal:</p>
+            <p>1. <bibl sameAs="827">An Article in the North American Review, for Jan<hi rend="superscript">y</hi>. 1826</bibl>, which is understood to be from
+                    the pen of <persName ref="lcass">Governour <hi rend="underline">Cass</hi>
+               </persName>, who presides over a part of the United States known
+                    as <hi rend="underline">The Michigan Territory</hi>, which borders on Lake
+                    Michigan. The author has been a negotiator &amp; agent of the Government for
+                    many years with the Indian Tribes, &amp; is well acquainted with their habits of
+                    life &amp;.<hi rend="superscript">c</hi> and the parts of his review relating to
+                    this subject are deserving of much attention. But as to their <hi rend="underline">languages</hi> &amp; general philology, he assumes to know
+                    much more than he has a right to do; &amp; he has indulged himself in unjust
+                    animadversions upon the late <persName ref="jgeheckewelder">M.<hi rend="superscript">r</hi> Heckewelder</persName> &amp; <persName ref="psduponceau">M.<hi rend="superscript">r</hi> DuPonceau</persName>: His
+                    ignorance of this subject was soon exposed with some severity (but not
+                    undeserved) by another review published at <placeName ref="New York">New
+                        York</placeName>, in an article entitled —</p>
+            <p>2. "<bibl sameAs="828">Examination of an Article in the North American Review
+                        respecting the North American Indians &amp;.<hi rend="superscript">c</hi>
+               </bibl> By <persName ref="castigator">Kass-ti-ga-tor-skee</persName>, or The Feathered Arrow." This pseudo-Indian
+                    name is understood to be a ludicrous compound of the Latin word <pb n="33r"/> <hi rend="underline">Castigator</hi> (which has an allusion, in its
+                    first syllable, to the name of <persName ref="lcass">
+                  <hi rend="underline">Cass</hi>
+               </persName>) and an arbitrary suffix, <hi rend="underline">skee</hi>, to give the whole name an Indian costume. There has been no
+                    reply to this "Examination"; but the author of it has been threatened with a
+                    reply, though I confess I could not perceive that it was unsound in any
+                        part.<note type="footnote" resp="editor">Laut Müller-Vollmer 1976, 267
+                        verbirgt sich John Pickering selbst hinter diesem Pseudonym.</note>
+            </p>
+            <p>3. <bibl sameAs="463">A Spelling-Book of the Chahta (or Choctaw) Language</bibl>,
+                    in 12.<hi rend="superscript">mo</hi>
+            </p>
+            <p>4. <bibl sameAs="483">Chahta Holissoo</bibl>, or Chahta Reading Book, for
+                    children. in 12.<hi rend="superscript">mo</hi>
+               <note type="footnote" resp="editor">Der Titel ist so nicht zu finden; vgl. aber <hi rend="italic">Annual Report of the American Board of Commissioners for Foreign
+                            Missions</hi> 27, 1836, S. 135.</note>
+            </p>
+            <p>5. <bibl sameAs="464">Id. second part, containing passages of Scripture in the
+                        Chahta language alone</bibl>. in 12.<hi rend="superscript">mo</hi>
+            </p>
+            <p>In these three last books, the Missionaries have adopted my system of
+                    orthography.</p>
+            <p>6. <bibl sameAs="449">Cotton’s Vocabulary of the Massachusetts Language</bibl>
+                    (which I mentioned to you in my letter of <date when="1821-08-24">Aug. 24,
+                        1821</date>) is now preparing for the press by our <orgName ref="40">Massachusetts Historical Society</orgName>.</p>
+            <p>7. <bibl sameAs="437">A Gazette or Newspaper, in the <hi rend="underline">Cherokee</hi> &amp; English languages, is about to be published in the
+                        Cherokee nation</bibl>. The types are now making in this city (<placeName ref="Boston">Boston</placeName>) for a new set of <hi rend="underline">characters made by a native Cherokee</hi>. I should inform you, that this
+                    native (whose name is <persName ref="sequoyah">George <hi rend="underline">Guess</hi>
+               </persName>, &amp; who is called by his countrymen "The
+                    Philosopher") was not satisfied with the alphabet of letters, or <hi rend="underline">single sounds</hi>, which we white people had prepared for
+                    him, <pb n="33v"/> in the sheets of a <bibl sameAs="816">Cherokee Grammar</bibl>
+                    formerly sent to you, but he thought fit to devise a new <hi rend="underline">syllabic</hi> alphabet; which is quite contrary to our notions of a useful
+                    alphabetic system. He has, by his own analysis, reduced all the <hi rend="underline">syllables</hi> of their language to about <hi rend="underline">eighty three</hi>, &amp; his alphabet accordingly consists
+                    of 83 arbitrary characters, instead of 16 or 18 Roman letters. He has, however,
+                    taken the Roman letters as the basis &amp; has only added to them some little
+                    marks, or has distorted their shapes in order to suit his purpose. This is much
+                    to be regretted as respects the facility of communication between these Indians
+                    &amp; the white people; &amp; the plan seems to us to be very unphilosophical.
+                    But, strange as it may appear, the fact is, that either by force of national
+                    pride (for which we cannot blame them) or by reason of the greater convenience
+                    of this syllabic alphabet, the use of the new characters has spread among them
+                    in the most inconceivable manner, &amp; they learn with great rapidity, both the
+                        <hi rend="underline">old</hi> <sic>&amp;</sic> people &amp; the <hi rend="underline">young</hi>. So strong is their partiality for this national
+                    alphabet, that our missionaries have been obliged to yield to the impulse, &amp;
+                    consent to print their books in future in the new character instead of the Roman
+                    letters. As soon as the newspaper is begun, I shall not fail to transmit <pb n="34r"/> some of the numbers to you, which will certainly be a great
+                    curiosity to the world. I send you a journal, called the <bibl sameAs="295">Missionary Herald, giving some account of this new alphabet. <hi rend="underline">See p. 212</hi>.</bibl>
+            </p>
+            <p>You will perceive by the above list of publications, that we are not idle; &amp;
+                    I hope every succeeding year will be more fertile. I shall not omit to inform
+                    you of our progress from time to time.</p>
+            <p>I have been long hoping to see your great work on the American Languages; but I
+                    know how laborious an undertaking it must be, &amp; therefore I wait with all
+                    the patience I can command.</p>
+            <p>I hope you will receive this letter &amp; the accompanying books in safety, &amp;
+                    that I shall have the pleasure of a letter from you, informing me of what has
+                    been done in Germany on the subject of the American languages. I hope above all
+                    things, for the benefit of learning, that the weakness of your eyes has entirely
+                    left you, and that you are now able to pursue your favourite studies, by night
+                    as <pb n="34v"/> well as by day, so that I may have many more opportunities of
+                    making my acknowledgements to you for new instruction.</p>
+            <closer>
+               <salute>I have the honour to be with the highest consideration, <lb/>Sir,
+                        <lb/>your most obedient <lb/>&amp; most humble <lb/>servant</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Boston, Massachusetts, <lb/>Nov. 27. 1827.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>Address: <lb/>To John Pickering, Esquire <lb/>Boston <lb/>in
+                            Massachusetts <lb/>United States of America.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

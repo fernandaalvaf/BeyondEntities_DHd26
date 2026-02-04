@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sir Alexander Johnston an Wilhelm von Humboldt, 17.08.1827<idno type="BBAW">381</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 56, Bl. 122–125
+                            und Bl. 120–121</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 233, 235</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="jarundel">
+                  <persName>Arundel, Rev. John</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="wbfox">
+                  <persName>Fox, Rev. William Buckly</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="whuttmann">
+                  <persName>Huttmann, William</persName>
+               </person>
+               <person corresp="eupham">
+                  <persName>Upham, Edward</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="439">Upham, Edward: The history and doctrine of Budhism (London:
+                    Ackerman 1829)</bibl>
+               <bibl corresp="604">Upham, Edward: The Mahávansi, the Rájá-Ratnácari, and the
+                    Rájá-Vali, forming the Sacred and historical Books of Ceylon; also, a collection
+                    of tracts illustrative of the doctrines and literature of Buddhism, 3 Bände
+                    (London: Parbury, Allen, and Co. 1833)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Sir. I have to return you a great many
+                        thanks for your very obliging letter of the 7th of last month and for the
+                        copy which you have done me the favor to send me of your letter to Monsieur
+                        Rémusat …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ajohnston">Johnston, Sir Alexander</persName>
+               <date type="author" when="1827-08-17"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">07.07.1827</ref>
+            </correspContext>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ajohnston">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="pi">Pali</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="si">Singhalesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_253.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_254.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_255.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_256.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_257.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_258.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_259.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_260.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_253.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_249.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_250.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_251.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1827-08-17/Coll.ling.fol.56_252.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="122r"/>
+               <dateline>19 Great Cumberland Place<lb/>17. August
+                        1827</dateline>
+               <lb/>
+               <salute>My dear Sir.</salute>
+            </opener>
+            <p>I have to return you a great many thanks for your very obliging letter of the
+                        <date when="1827-07-07">7th of last month</date> &amp; for the copy which
+                    you have done me the favor to send me of your letter to <persName ref="jpabel">Monsieur Remusat</persName>
+            </p>
+            <p>The philosophical manner in which you have treated the subject of the Chinese
+                    &amp; Sanscrit languages will do more than any work which has yet been published
+                    to interest the literary characters of Europe in questions of this description
+                    &amp; all those who are desirous of promoting the civilisation &amp; prosperity
+                    of the inhabitants of Asia ought to hail the publication of your letter to
+                        <persName ref="jpabel">Remusat</persName> as one of the most auspicious
+                        <unclear>merits</unclear> which has occured in the history of the study of
+                    Oriental languages. <pb n="122v"/> I requested our Librarian <persName ref="whuttmann">Mr. Hautman</persName>
+               <note type="footnote" resp="editor">Gemeint ist William Huttmann, Sekretär der Royal Asiatic Society bis
+                        1832. [FZ]<!-- s. http://www.lordbyron.org/persRec.php?choose=PersRefs&selectPerson=WiHuttm1844 --></note>
+                    who has, I understand, acquired a general knowledge of the Chinese language to
+                    insert in the Literary Gazette a short notice by which the attention of the
+                    English public might be called to that letter &amp; I have now the pleasure to
+                    send you by <persName ref="hbuelow">Baron Bulow</persName> a copy of that
+                    Gazette. I cannot help feeling a regret that he has not been able to enter more
+                    in detail into the very great merits of your work &amp; into the very beneficial
+                    effect in a literary point of view, which must inevitably be produced, both in
+                    Asia &amp; in Europe, by the popularity &amp; éclat which you have given, to the
+                    study of Oriental Literature by associating your name &amp; literary fame with a
+                    philosophical consideration of the two most celebrated &amp; most
+                        <sic>antient</sic> languages of Asia.</p>
+            <p>I am extremely happy to find that you have turned your attention <pb n="123r"/> to the <subst>
+                  <del>study</del>
+                  <add>formation</add>
+               </subst> of the
+                    Polynesian languages. The <orgName ref="16">London Missionary Society</orgName>
+                    is the Society in England which has the most knowledge of &amp; the most
+                    communication with all the people of the different Islands in the Pacific Ocean.
+                        <persName ref="hbuelow">Baron Bulow</persName> will deliver to you a
+                    collection which <persName ref="jarundel">the Secretary</persName> of <orgName ref="16">that Society</orgName> has forwarded to me by my desire for you, of
+                    every document which the members of <orgName ref="16">this Society</orgName>
+                    possess in print relative to the grammar &amp; languages of those people. I am
+                    now engaged in tracing for you any manuscripts or verbal information which I can
+                    discover in this country upon the same subject &amp; shall the moment I receive
+                    any, transmit them to you through the Prussian Embassy.</p>
+            <p>As <persName ref="eupham">Mr. Upham</persName> is about to publish <bibl sameAs="439">a work</bibl> which will contain more authentic information than
+                    any which has yet appeared in Europe relative to the real <pb n="123v"/> tenets
+                    &amp; history of the religion of Buddho, I take the liberty, at his request, to
+                    enclose to you a copy of his prospectus &amp; also a copy of a letter which I
+                    wrote also at his request to the Direction of the <orgName ref="11">East India
+                        Company</orgName>. I need not say, that if you can in any way recommend to
+                    the patronage of the <persName ref="fw3">king of Prussia</persName> &amp; to
+                    other sovereigns &amp; learned societies in Germany, this work, you will
+                    materially assist <persName ref="eupham">Mr. Upham</persName> in the
+                    accomplishment of his meritorious labors &amp; cooperate with the <orgName ref="14">Asiatic Society</orgName> in their endeavors to afford <persName ref="eupham">Mr. Upham</persName> every patronage in their power in England
+                    in addition to that which he has obtained from the <orgName ref="11">East
+                        India</orgName> <add>
+                  <orgName ref="11">Company</orgName>
+               </add> in
+                    consequence of the letter to them of which the enclosed is a copy.</p>
+            <p>I am delighted to hear that <sic>that</sic> we may expect to have the <pb n="124r"/> pleasure of seeing you in England in the course of next spring.
+                    May I beg that you will offer my fond regards to the <persName ref="avh">Baron
+                        Alexander Humboldt</persName> &amp; that you will believe me to be with
+                    great esteem &amp; respect</p>
+            <closer>
+               <salute>My dear Sir <lb/>Your very faithful &amp; humble
+                            servant</salute>
+               <signed>Alex.<hi rend="superscript">r</hi>
+                        Johnston</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <persName ref="htcolebrooke">M<hi rend="superscript">r</hi>.
+                            Colebrooke</persName> is out of town. I have forwarded the copy of your
+                        letter to <persName ref="jpabel">Remusat</persName> to him &amp; I have also
+                        presented to <orgName ref="14">the A Society</orgName> the copy which you
+                        have sent for them. <lb/>
+                  <pb n="123v + 124r vacat"/>
+               </p>
+            </postscript>
+            <closer>
+               <pb n="124v"/>
+               <address>
+                  <addrLine>The</addrLine>
+                  <addrLine>Baron Humboldt</addrLine>
+                  <addrLine>&amp;c</addrLine>
+                  <addrLine>By favor of His Excellency</addrLine>
+                  <addrLine>
+                     <persName ref="hbuelow">Baron Bulow</persName>
+                  </addrLine>
+               </address>
+            </closer>
+            <lb/>
+            <lb/>
+         </div>
+         <div type="letter">
+            <note>
+               <pb n="120/121, Kopie des Schreibens Johnstons an die East India                 Company vom 13. November 1826"/>
+            </note>
+            <opener>
+               <pb n="120r"/>
+               <address>
+                  <addrLine>19, Great Cumberland Place,</addrLine>
+               </address>
+               <dateline>13<hi rend="superscript">th</hi> Nov.<hi rend="superscript">r</hi> 1826.</dateline>
+               <salute>To the Chairman and <lb/>Deputy Chairman
+                        of the <lb/>Court of Directors. <lb/>Gentlemen,</salute>
+            </opener>
+            <p>I have the honor, at the request of <persName ref="eupham">M<hi rend="superscript">r</hi>. Upham</persName> to enclose to you a letter
+                    from him soliciting the patronage of your Honorable Court to <bibl sameAs="604">an
+                        English translation</bibl> which he is about to publish of the Three Works,
+                    called The Mahá-vansi – The Rájá-valí – and The Rájá-ratnácari. – The first is
+                    written in the Pali and the other two in the Cingalese language and they are all
+                    three explanatory of the Origin, Doctrines, and Introduction into the Island of
+                    Ceylon, of the Buddhoo Religion.</p>
+            <p>The English translation was a short time ago given by me to <persName ref="eupham">M<hi rend="superscript">r</hi>. Upham</persName> upon his
+                    expressing a wish to publish some genuine Account of a religion which whatever
+                    may be the nature and tendency of its doctrines, deserves the consideration of
+                    the Philosopher and the Statesman, from the unlimited influence which it at
+                    present exercises over so man millions of the inhabitants of Asia. –</p>
+            <p>The circumstances under which I received the Three Works to which I have just
+                    alluded, afford such strong evidence of their authenticity, and of the respect
+                    in which they are held by the Buddhists of Ceylon, that I shall take the liberty
+                    of stating them to you, that your Honorable Court may form some judgment as to
+                    the degree of encouragement which you may be justified in giving to <persName ref="eupham">M<hi rend="superscript">r</hi>. Upham</persName>.</p>
+            <p>After a very long residence on Ceylon as Chief Justice and First Member of H. M.
+                    Council on that Island and after a constant intercourse, both literary and
+                    official for many years with the natives of every Cast, and of every religious
+                    persuasion in the Country, I felt it to be my duty to submit it as my official
+                    opinion to H. M. Government <pb n="120v"/> that it was absolutely necessary in
+                    order to secure for the natives of Ceylon a popular and a really efficient
+                    administration of Justice, to compile for their separate use a special Code of
+                    Laws which, at the same time that it was founded upon the universally admitted,
+                    and therefore universally applicable abstract principles of justice, should be
+                    scrupulously adapted to the local circumstances of the Country and to the
+                    peculiar religion, manners, usages, and feelings of the people. H. M. Government
+                    fully approved of my opinion, and officially authorised me to take the necessary
+                    steps for framing such a Code.</p>
+            <p>Having publicly informed all the natives of the Island of the use and beneficial
+                    object which H. M. Government had in view, I called upon the most learned and
+                    the most celebrated of the Priests of Buddhoo, both those who had been educated
+                    on Ceylon, and those who had been educated in the Burmese Empire to co-operate
+                    with me in carrying H. M.’s gracious intention into effect, and to procure for
+                    me, as well from Books as other sources, the most authentic information that
+                    could be obtained relative to the Religion, <sic>usuages</sic>, manners, and
+                    feelings of the people, who professed the Buddhoo Religion on the Island of
+                    Ceylon.</p>
+            <p>The Priests after much consideration amongst themselves, and after frequent
+                    consultations with their followers in every part of the Island, presented to me
+                    the Copies which I now possess of the Mahá-vansí, Rájá-valí, and Rájá-ratnácarí,
+                    as containing according to the judgment of the best informed of the Buddhist
+                    Priests on Ceylon, the most genuine Account which is extant of the origin of the
+                    Buddhoo Religion, of its doctrines, of its introduction into Ceylon, and of the
+                    effects, moral and political, which those doctrines had, from time to time,
+                    produced upon <pb n="121r"/> the conduct of the native Government, and upon the
+                    manners and <sic>usuages</sic> of the native inhabitants of the Country. As the
+                    Priests themselves, as well as all the people of the Country from being aware of
+                    the object which I had in view, felt themselves directly interested in the
+                    authenticity of the information which I received, and as they all concurred in
+                    opinion with respect to the authenticity and value of the information which
+                    these Works contain, I have no doubt whatever, that the Account which they give
+                    of the origin and doctrines of the Buddhoo Religion is that which is universally
+                    believed to be the true Account by all the Buddhist inhabitants of Ceylon. –</p>
+            <p>The Copies of these Works which were presented to me by the Priests, after having
+                    been, by my direction, compared with all the best Copies of the same Works in
+                    the different temples of Buddhoo on Ceylon, were carefully revised and corrected
+                    by two of the ablest Priests of Buddhoo on that Island. – An English translation
+                    of them was then made by my official translators under the superintendance of
+                    the late Native Chief of the Cinnamon Department, who was himself the best
+                    native Pali and Cingalese scholar in the Country; and that translation is now
+                    revising for <persName ref="eupham">M<hi rend="superscript">r</hi>.
+                        Upham</persName> by the <persName ref="wbfox">Rev.<hi rend="superscript">d</hi> M<hi rend="superscript">r</hi>. Fox</persName>, who resided on
+                    Ceylon for many years, as a Wesleyan Missionary, and who is the best European
+                    Pali &amp; Cingalese scholar at present in Europe.<note type="footnote" resp="editor">Zu William Buckley Fox s. Charles Allen (2012): <hi rend="italic">Ashoka: The Search for India’s Lost Emperor</hi>, London: Hachette, S. 99f. und passim. [FZ]</note>
+            </p>
+            <closer>
+               <salute>I have the honor to be <lb/>Gentlemen, <lb/>Your most obedient
+                        <lb/>humble servant</salute>
+               <signed>(Signed) Alex.<hi rend="superscript">r</hi> Johnston.</signed>
+               <lb/>
+               <pb n="121v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

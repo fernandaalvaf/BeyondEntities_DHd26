@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 12.07.1828<idno type="BBAW">512</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q.
+                            1900, No. 19, Courtesy of the Trustees of the Boston Public Library/Rare Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 303f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7918</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the Massachusetts
+                    (or Natick) Indian Language (Cambridge: E. W. Metcalf and Company 1829)</bibl>
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen / Davis,
+                    John: A Grammar of the Massachusetts Indian Language (Boston: Phelps and Farnham
+                    1822)</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, J’ai bien des excuses à Vous faire, Monsieur
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1828-07-12"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="447" type="prev">27.11.1827</ref>
+               <ref target="448" type="prev">29.12.1827</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="ai">Aimara </language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="arw">Arawak</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="cax">Chiquitano</language>
+            <language ident="del">Delaware</language>
+            <language ident="crb">Insel-Carib</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">10. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>J’ai bien des excuses à Vous faire, Monsieur, de ne pas avoir répondû plutôt aux
+                    deux lettres intéressantes que Vous m’avez fait l’honneur de m’écrire le <date when="1827-11-27">27. Nov.</date> et le <date when="1827-12-29">29. Décembre
+                        de l’année dernière</date>. Il auroit été également de mon désir &amp; de
+                    mon devoir de Vous remercier incessamment des envois qui accompagnoient ces
+                    lettres. Mais sachant dès l’automne que je devois faire un voyage de six mois à
+                        <placeName ref="Paris">Paris</placeName> et à <placeName ref="London">Londres</placeName> j’eus tant d’affaires indispensables sur les bras dans
+                    les trois premiers mois de l’année que je me vis contraint de mettre à côté
+                    toute correspondance littéraire quelque grand qu’en fût mon regret. Je dois donc
+                    Vous prier, Monsieur, d’agréer aujourd’hui mes sincères &amp; vifs remercîmens
+                    des marques de bonté et d’intérêt que Vous continuez de me donner. J’y suis, on
+                    ne peut pas plus, sensible, et en retire le plus grand fruit pour mes études
+                    favorites.</p>
+            <p>
+               <bibl sameAs="473">La Grammaire</bibl> de <persName ref="dzeisberger">M.<hi rend="superscript">r</hi> Zeisberger</persName> est sans contredit la
+                    meilleure qu’on possède d’aucune langue Américaine, et comme la langue dont elle
+                    développe les principes, est une des plus intéressantes, cette publication fera
+                    sans doute époque <pb n="2"/> dans l’étude des langues. Le systême de
+                    conjugaison que les Grammairiens Espagnols nomment <hi rend="underline">Transitions</hi> et dont on trouve quelques traces aussi dans les langues
+                    de l’ancien continent, semble appartenir essentiellement au Nord de l’Amérique.
+                    Car il n’existe nulle part aussi complet et aussi régulièrement développé que
+                    dans la langue Delaware. La Mexicaine en possède beaucoup, mais cette
+                    particularité grammaticale se trouve bien moins dans les idiomes de l’Amérique
+                    méridionale. Il est également intéressant de comparer les formes grammaticales
+                    données par <persName ref="dzeisberger">Zeisberger</persName> à celles
+                    renfermées dans <bibl sameAs="123">la grammaire</bibl> d’<persName ref="jeliot">Eliot</persName>. Je suis entièrement de Votre avis, Monsieur, que ces
+                    langues subissent bien peu d’altérations dans le cours des siècles. C’est une
+                    grande preuve que le manque d’un Alphabet ne rend pas les langues moins stables,
+                    et que les formes et les terminaisons données aux mots, sont si inhérentes dans
+                    l’esprit et dans les organes des nations qu’elles conservent jusqu’aux plus
+                    petites variations des voyelles et des consonnes. </p>
+            <p>Le nouvel alphabet indigène Cherokee dont Vous me parlez, Monsieur, est un
+                    phénomène bien remarquable. Je ne m’étonne cependant pas que les Indiens
+                    préfèrent un Alphabet syllabique. Comme les consonnes ne peuvent être prononcées
+                    qu’à l’aide des voyelles, ceux qui n’ont jamais lû, éprouvent une certaine
+                    difficulté à comprendre que <hi rend="underline">l</hi> et <hi rend="underline">a</hi> p. e. doive faire <hi rend="underline">la.</hi> Un alphabet
+                    syllabique est certaine-<pb n="3"/>ment moins commode et moins philosophique,
+                    mais plus naturel que le nôtre. Ce n’est vraîment pas la lettre, mais la syllabe
+                    qui constitue l’unité dans la prononciation des mots. Les alphabets Indiens que
+                    je crois remonter à une haute antiquité, ont pour la plupart conservé des traces
+                    de la nature syllabique. Car une consonne qui n’est pas suivie d’une voyelle
+                    tracée expressement, se prononce toujours avec une certaine voyelle constamment
+                    sousentendue, et il faut un signe particulier pour la faire regarder pour une
+                    consonne isolée. – L’espérance que Vous me donnez, Monsieur, de la publication
+                    prochaine de <persName ref="jcotton">Cotton</persName>’s <bibl sameAs="449">Dict.
+                        de la langue de Massachusetts</bibl>, m’a fait un plaisir extrême. On
+                    possédera alors tous les matériaux nécessaires pour juger de la langue des
+                    Délawares quoique dans deux dialectes différens. Cela complettera <bibl sameAs="473">la Grammaire</bibl> de <persName ref="dzeisberger">Zeisberger</persName> qui laisse un Vocabulaire à désirer.</p>
+            <p>Je conçois entièrement, Monsieur, que Vous vouez Votre attention en premier lieu
+                    aux occupations d’affaires que Vous suivez d’une manière aussi éminemment
+                    distinguée, ainsi que me l’ont repété plusieurs de Vos compatriotes que j’ai eû
+                    le plaisir de voir à <placeName ref="Berlin">Berlin</placeName>. Le zèle d’être
+                    utile à ses concitoyens doit toujours aller avant tout autre considération. Mais
+                    je ne puis que regretter vivement que Vous pourrez par cette raison consacrer
+                    moins de tems aux sciences et aux travaux littéraires. C’est une perte bien
+                    réelle aussi pour tous ceux qui s’occupent de ces objèts en Europe. J’aime par
+                        <pb n="4"/> cette raison me flatter que Vous réussirez, Monsieur, à dérober
+                    de tems en tems quelques momens de loisir aux Affaires pour les employer à des
+                    recherches scientifiques. Je crois pouvoir dire avec vérité que je n’ai pas été
+                    oisif dans le long espace de tems où à mon grand regret j’ai été sans recevoir
+                    de Vos lettres. J’ai tâché de rendre, autant que mes facultés &amp; mon tems me
+                    l’ont permis, mes études des langues plus étendues et surtout plus solides. J’ai
+                    fait ces efforts surtout pour me mettre mieux en étât de developper la nature
+                    des langues Américaines. J’ai étudié quelques unes de ces dernières que je
+                    connoissois <del>que</del> très-imparfaitement jusque là, ainsi que la Chiquita,
+                    le Caribe, l’Arawaque, l’Aymara et d’autres. Mon plan est toujours de donner une
+                    analyse aussi complette que possible des langues du nouveau continent, et d’y
+                    rapporter toutes les recherches &amp; toutes les études que j’ai faites sur
+                    d’autres langues du globe. Mais je crois absolument nécessaire de faire preceder
+                    mon ouvrage sur les langues Américaines d’une introduction générale dans
+                    laquelle je développerai mes idées sur les langues en général autant que je suis
+                    en étât de la faire àprésent. Cette introduction est terminée de plus de moitié,
+                    et je pourrai ainsi mettre sous peu main à la partie pour laquelle Vous avez
+                    bien voulû, Monsieur, me secourir de tant et de si précieux matériaux.</p>
+            <closer>
+               <salute>Veuillez <del>me</del> agréer de nouveau mes profonds remercîmens, &amp;
+                        veuillez me conserver ces mêmes sentimens d’intérêt &amp; de bienveillance.
+                        J’ai l’honneur d’être avec la considération la plus distinguée,
+                        <lb/>Monsieur, <lb/>Votre très-humble et très-obéissant serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>à Londres, ce 12. Juillet, 1828.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

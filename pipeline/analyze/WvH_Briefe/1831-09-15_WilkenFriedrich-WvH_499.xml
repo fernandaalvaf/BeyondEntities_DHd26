@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 28.11.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Wilken an Wilhelm von Humboldt, 15.09.1831<idno type="BBAW">499</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 266–267</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 226</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="avicenna">
+                  <persName>Avicenna (Abū Alī al-Husain ibn Abdullāh ibn
+                    Sīnā)</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="jgolius">
+                  <persName>Golius, Jacobus</persName>
+               </person>
+               <person corresp="mlumsden">
+                  <persName>Lumsden, Matthew</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="62">Bruckner, Gottlob: Das neue Testament übersetzt auf Javanisch
+                    (Serampore: 1829)</bibl>
+               <bibl corresp="867">Golius, Jacobus: Lexicon Arabico-Latinum (Leiden: Elsevir
+                    1653)</bibl>
+               <bibl corresp="273">Lumsden, Matthew: A Grammar of the Persian Language, 2 Bände
+                    (Calcutta: 1810)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz erlaube ich mir ganz gehorsamst, dass die
+                        Königliche Majestät heute ein Exemplar der Übersetzung des N.T. in der
+                        Sprache von Java als Geschenk an …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fwilken">Wilken, Friedrich</persName>
+               <date type="author" when="1831-09-15"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="fwilken">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="arb">Arabisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="fa">Persisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">28. November 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Wilken/Wilken-WvH_1831-09-15/Coll.ling.fol.53_533.jpg"/>
+      <graphic url="Wilken/Wilken-WvH_1831-09-15/Coll.ling.fol.53_534.jpg"/>
+      <graphic url="Wilken/Wilken-WvH_1831-09-15/Coll.ling.fol.53_535.jpg"/>
+      <graphic url="Wilken/Wilken-WvH_1831-09-15/Coll.ling.fol.53_536.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="266r"/> <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>erlaube ich mir ganz gehorsamst anzuzeigen, daß des <persName ref="fw3">Königs
+                        Majestät</persName> heute ein Exemplar der <bibl sameAs="62">Uebersetzung des
+                        N. T. in der Sprache von Java</bibl> als Geschenk an die <orgName ref="1">Königliche Bibliothek</orgName> haben abgeben lassen. Sollten Ew. Excellenz
+                    die Mittheilung dieser Uebersetzung befehlen, so werde ich mit Vergnügen
+                    dieselbe Ew. Excellenz übersenden.</p>
+            <p>Nachträglich zu der Weise der Araber, Jahreszahlen durch Wörter, deren Buchstaben
+                    in ihrer numerischen Bedeutung dieselben bezeichnen, auszudrücken, nehme ich mir
+                    die Freyheit, Ew. Excellenz folgende Notiz,
+                            <subst>
+                  <del>welches</del>
+                  <add>welche</add>
+               </subst> sich in <hi rend="antiqua">
+                  <persName ref="mlumsden">Lumsden</persName> <bibl sameAs="273">persian
+                            grammar</bibl> T</hi>. I. <hi rend="antiqua">p</hi>. 36<note type="footnote" resp="editor">Das Zitat findet sich auf S. 38 [!] der
+                        Ausgabe von 1810. [FZ]</note> findet, vorzulegen:</p>
+            <p>
+               <hi rend="antiqua">The Hisaube Joommul</hi> (<graphic url="Wilken/Wilken-WvH_1831_09_15/g001.png"/>d. i. die Weise die Buchstaben
+                    als Zahlenzeichen anzuwenden) <hi rend="antiqua">is generally used in poetry, to
+                        ascertain the date of any particular event; as in the following lines on
+                            <persName ref="avicenna">Aboo Ali Syna or Avicenna</persName>, in which
+                        the dates of his birth, education and death are commemorated.</hi>
+            </p>
+            <p>
+               <graphic url="Wilken/Wilken-WvH_1831_09_15/g002.png" rend="big"/>
+            </p>
+            <p>Der Sinn dieser persischen Verse ist: „Der Inbegriff aller Trefflichkeit
+                        <persName ref="avicenna">Abu Ali Sina</persName> kam im <hi rend="antiqua">Schadscha</hi> vom Nichtseyn zum Seyn, im <hi rend="antiqua">Schafa</hi>
+                    machte er das <unclear>Gemeine</unclear> aller Wissenschaften, und im Tukus
+                    sagte er der Welt Lebewohl.“</p>
+            <p>
+               <graphic url="Wilken/Wilken-WvH_1831_09_15/g003.png"/> (d. i. Unerschrockenheit)
+                    bedeutet die Jahreszahl d. H. 373 (<graphic url="Wilken/Wilken-WvH_1831_09_15/01.svg"/> = 300  <graphic url="Wilken/Wilken-WvH_1831_09_15/02.svg"/> = 3  <graphic url="Wilken/Wilken-WvH_1831_09_15/03.svg"/> = 70), <graphic url="Wilken/Wilken-WvH_1831_09_15/g004.png"/> das Jahr 391 <lb/>(<graphic url="Wilken/Wilken-WvH_1831_09_15/01.svg"/> = 300  <graphic url="Wilken/Wilken-WvH_1831_09_15/04.svg"/> = 90  <graphic url="Wilken/Wilken-WvH_1831_09_15/05.svg"/> = 1) und <graphic url="Wilken/Wilken-WvH_1831_09_15/g005.png"/> das Jahr 427 (<graphic url="Wilken/Wilken-WvH_1831_09_15/06.svg"/> = 400  <graphic url="Wilken/Wilken-WvH_1831_09_15/07.svg"/> = 20  <graphic url="Wilken/Wilken-WvH_1831_09_15/08.svg"/> = 7). Die Wurzel <graphic url="Wilken/Wilken-WvH_1831_09_15/g006.png"/> bedeutet im Arabischen: <hi rend="antiqua">
+                  <foreign sameAs="la">obriguit fixus fuit visus</foreign>
+               </hi> nach <hi rend="antiqua">
+                  <bibl sameAs="867">Golius</bibl>
+               </hi>. Ein Wort <graphic url="Wilken/Wilken-WvH_1831_09_15/g007.png"/> findet sich weder in
+                    Arabischen noch Persischen Wörterbüchern.</p>
+            <closer>
+               <salute>Ehrerbietigst beharre ich<lb/>Ew. Excellenz<lb/>ganz
+                        gehorsamster</salute>
+               <signed>Fr. Wilken</signed>
+               <lb/>
+               <dateline>Berlin d. 15 September 1831.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="266v–267v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

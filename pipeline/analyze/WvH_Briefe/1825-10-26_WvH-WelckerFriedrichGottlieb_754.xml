@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 26.10.1825<idno type="BBAW">754</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 38</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 127–131</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7534</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jnbach">
+                  <persName>Bach, Johann Nicolaus</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="kfheinrich">
+                  <persName>Heinrich, Karl Friedrich</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="jcjuengken">
+                  <persName>Jüngken, Johann Christian</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich</persName>
+               </person>
+               <person corresp="hfwelcker">
+                  <persName>Welcker, Heinrich Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="283">Manus Gesetzbuch</bibl>
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache
+                    (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="213">Humboldt, Wilhelm von: Über die unter dem Namen Bhàgavad-Gítá
+                    bekannte Episode des Mahá-Bhárata I–II. In: Abhandlungen der Königlichen
+                    Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 1–65</bibl>
+               <bibl corresp="975">Jacobs, Friedrich / Welcker, Friedrich Gottlieb (Hrsg.):
+                    Philostratorum imagines et Callistrati Statuae. Textum ad fidem veterum librorum
+                    recensuit et commentarium adiecit Fridericus Iacobs. Observationes,
+                    Archaeologici praesertim argumenti, addidit Fridericus Theophilus Welcker
+                    (Leipzig: Libraria Dyckiana 1825)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="242">Te evanelia a Joane, o te parau maitai no Jesu Christ, to tatou
+                    fatu [Das Johannes-Evangelium, das gute Wort Jesu Christi, unseres Herrn.]
+                    (Huahine 1820)</bibl>
+               <bibl corresp="976">Welcker, Friedrich Gottlieb (Hrsg.): Theognidis Reliquiae. Novo
+                    ordine disposuit, commentationem criticam et notas. Adiecit Friedericus
+                    Theophilus Welcker (Frankfurt/M.: H. L. Broenner 1826)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihr freundschaftlicher Brief vom 4. v. M. hat mir, wie
+                        alle, die ich von Ihnen empfange, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1825-10-26"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="map">Austronesische Sprachen (Sprachen der Südseeinseln)</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. März 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 26. <hi rend="antiqua">October</hi>,
+                        1825.</dateline>
+            </opener>
+            <p>Ihr freundschaftlicher Brief vom <date when="1825-09-04">4. v. M.</date> hat mir,
+                    wie alle, die ich von Ihnen empfange, die herzlichste Freude gemacht, und ich
+                    danke Ihnen, liebster Freund, auf das innigste dafür. Es ist <persName ref="cvh1">meiner Frau</persName> und mir wirklich rührend gewesen, daß Sie
+                    Sich des Geburtstags des 16. Mai erinnert haben, und Sie können gewiß überzeugt
+                    seyn, daß auch in uns die Erinnerungen jener Zeit, wo Sie in unsrem Hause
+                    lebten, nie erlöschen wird. <persName ref="cvh1">Meine Frau</persName> u.
+                        <persName ref="cvh2">Caroline</persName> grüßen Sie auf das
+                    freundschaftlichste. Ihre Reise nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> würde uns, wenn sie gerade in eine Zeit getroffen hätte, wo wir
+                    dort oder hier gewesen wären, unendliche Freude gemacht haben, allein als
+                    Geschäftsreise, wie Sie sie mir schildern, hätte ich sie Ihnen selbst nicht
+                    gewünscht. Es ist in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> doch Vieles, was Sie interessiren wird, auch Menschen, denen daran
+                    liegt, Sie zu sehen, u. die Sie wieder gern sehen werden, und alles dies müssen
+                    Sie in freier u. heitrer Muße genießen. Sehr schmerzhaft ist mir gewesen, was
+                    Sie von <persName ref="hfwelcker">Ihrem Vater</persName> sagen. Ich wünsche von
+                    Herzen, daß seine Gesundheit sich wieder herstellen möge. – <bibl sameAs="975">Ihren Philostrat</bibl> habe ich freilich bis jetzt nur sehr flüchtig
+                    ansehen können, allein ich lese u. studire gewiß noch Einzelnes darin. Wenn ich
+                    mich jetzt meist auch mit sehr heterogenen Dingen beschäftige, so verlieren
+                    meine frühern Beschäftigungen ihren Reiz für mich nicht, u. ich lese doch immer
+                    noch sehr viel Griechisch u. Römisches. Ich hätte aber gewünscht, <bibl sameAs="975">der Philostrat</bibl> wäre Deutsch. Nun haben Sie einen ganzen
+                    Theil des Publikums ausgeschlossen, u. einen sehr dankbaren, die Künstler. Ich
+                    freue mich, aber bewundere auch Ihre rüstige Thätigkeit, liebster Freund, die
+                    neben dem Lesen u. gewiß vielen andren Geschäften so Vieles zu Tage fördert.
+                        <bibl sameAs="976">Ihrem <hi rend="antiqua">Theognis</hi>
+               </bibl> sehe ich mit
+                    wahrem Verlangen entgegen. Mir wird es immer unmöglich bleiben, viel drucken zu
+                    lassen. Ich schreibe zum Druck zu zögernd u. langsam, und mache nicht bloß zu
+                    dem, was ich schreibe, oft übermäßig große Vorstudien, sondern oft auch
+                    Vorstudien <pb n="2*"/> zu Arbeiten, die ich nie mache, oder die nie erscheinen,
+                    so daß auch von den Vorarbeiten niemand etwas erfährt. So habe ich im vergangnen
+                    Winter gewiß vier Wochen mit den Sprachen der Südseeinseln zugebracht, u. mir
+                    die Mühe gegeben ein ganzes <bibl sameAs="242">Otaheitisches Evangelium <hi rend="antiqua">Johannis</hi>
+               </bibl>
+               <note type="footnote" resp="editor">In Humboldts Nachlass, Varia Tahitiana
+                        (Konvolut 2); s. Schwarz 1993, S. 59 Nr. 451.</note> bloß nach dürftigen
+                    Hülfsmitteln verwandter Dialecte durchzuarbeiten, ohne daß ich weiß, ob ich
+                    davon werde je Gebrauch machen können. Es scheint mir aber nothwendig in den
+                    Studien, die ich treibe, Vieles, auch zur Seite Liegendes, zu durchlaufen, bloß
+                    um gewiß zu seyn, daß da nichts steckt, was den Behauptungen, die man machen
+                    möchte, feindlich entgegentritt. Das Meiste aber, was in mir der Autorschaft
+                    entgegenwirkt, liegt tiefer in meiner Ansicht des Lebens. Ich habe, so lange ich
+                    in Geschäften war, mehr auf das Thun, als die Thaten, gehalten, u. halte im
+                    litterärischen Leben mehr vom Lernen, als vom Hervorbringen. Ich habe einmal die
+                    bestimmte Idee, daß man, ehe man dies Leben verläßt, soviel von inneren
+                    menschlichen Erscheinungen, für die ich doch allein rechten Sinn habe, da mich
+                    alles Andere nur vorübergehend berührt, kennen u. in sich aufnehmen muß, als nur
+                    immer möglich ist. Ein mir neues wichtiges Buch, eine neue Lehre, eine neue
+                    Sprache scheinen mir etwas, das ich der Nacht des Todes entrissen habe, und
+                    machen mich innerlich viel mehr glücklich, als ich es aussprechen kann. Das
+                    geringe Talent äußrer Hervorbringung, das ich besitze, ist auch gar nicht zu
+                    vergleichen mit dem, wie ich wahrhaft sagen kann, viel ausgezeichneteren,
+                    Verschiedenartiges u. Tiefes in mich aufzufassen, u. innerlich zu verknüpfen, u.
+                    jeder Mensch muß doch seiner Individualität u. seinem charakteristischen Talent
+                    nachgehen. Daß ich z. B. Sanskrit gelernt habe, kann ich in der Freude u.
+                    Genugtuung, die es mir innerlich verschafft, mit keinem andren Gut u. keiner
+                    andren Freude vergleichen. Es ist mir geradezu ein solcher Gewinn, wie es mir
+                    war, in das Griechische einzugehen, u. da es sich mit dem Griechischen
+                    glücklicherweise in mir verbindet, stellt es sich auf einmal auf eine viel
+                    höhere Stufe. Den ganzen Sommer habe ich <bibl sameAs="283">
+                  <hi rend="antiqua">Manus</hi> Gesetzbuch</bibl> gelesen u. studirt,
+                    großentheils mit dem Indischen Commentar, u. ob es gleich bei weitem die
+                    Eindrücke nicht hinterlassen kann, welche die <bibl sameAs="53">
+                  <hi rend="antiqua">Bhagavad Gita</hi>
+               </bibl> macht, <pb n="3*"/> so gewährt
+                    es mir doch einen ungemeinen Genuß. <persName ref="fschlegel">
+                  <hi rend="antiqua">Friedrich Schlegel</hi>
+               </persName> hat von beiden
+                    Gedichten (verrathen Sie mich aber <persName ref="awschlegel">dem
+                        Bruder</persName> nicht) wirklich ziemlich, wie der Blinde von der Farbe,
+                    gesprochen, u. mit schneidender Systemssucht. Ich werde vermuthlich auf <bibl sameAs="213">die fertige Abhandlung über die <hi rend="antiqua">Gita</hi>
+               </bibl> eine über den Manus<note type="footnote" resp="editor">Die Abhandlung über Manus Gesetzbuch wurde nicht fertiggestellt; die
+                        Vorarbeiten befinden sich unter die Signatur Coll. ling. fol. 152 in der
+                        Staatsbibliothek zu Berlin.</note> folgen lassen, in der ich alle
+                    metaphysischen Stellen, die zum Theil ganze Bücher sind, auf das sorgfältigste
+                    durchgegangen bin. Ein großer Reiz des Alterthums, davon bin ich jetzt fest
+                    überzeugt, liegt gewiß darin, daß eine Schrift aus klassischer Zeit nicht mehr
+                    Gedanken eines Einzelnen, sondern einer Nation, eines Zeitalters scheint, u. der
+                    Mensch will doch immer auf der breiten Basis der Menschheit ruhen, nicht ohne
+                    geheime Ahndung, daß in dieser unmittelbarer die Gottheit liegt. – Sie haben
+                    vielleicht, liebster Freund, aus den Zeitungen gesehen, daß ich an der Spitze
+                    eines <orgName ref="2">Kunstvereins</orgName> stehe, der sich hier gebildet hat,
+                    um die Hervorbringung u. Verbreitung von Kunstwerken zu befördern. Die Sache hat
+                    sehr guten Fortgang u. wir mögen wohl schon 1,200 bis 1,300 Th. jährliche
+                    Beiträge unterzeichnet besitzen. Ich werde so frei seyn, Ihnen einige Exemplare
+                    des Status u. der Ankündigung zu überschicken, u. es würde uns sehr freuen, wenn
+                    wir durch Sie auch von dorther Unterschriften erhielten. <orgName ref="2">Der
+                        Verein</orgName> hat die Portofreiheit, u. wenn Sie uns etwas für unsren
+                    Zweck überschicken wollten, müßten <sic>sie</sic> nur die Addresse an den
+                        <orgName ref="2">Verein</orgName> richten (abzugeben bei mir, oder dem
+                        <persName ref="jcjuengken">
+                  <hi rend="antiqua">Secretair Dr. Jüngken</hi>
+               </persName>) u. Ihren Namen
+                    eigenhändig auf die Addresse schreiben. Natürlich muß in dem beigefügten Brief
+                    zugleich nichts Anderes stehen, als was auf den Verein unmittelbar Bezug hat. –
+                        <persName ref="jnbach">Herrn <hi rend="antiqua">Bach</hi>
+               </persName> habe
+                    ich mit Vergnügen gesehen, u. freue mich zu hören, daß er noch hier ist. Von dem
+                    sehr tadelnswürdigen Betragen <persName ref="kfheinrich">
+                  <hi rend="antiqua">Heinrichs</hi>
+               </persName> hatte er mir erzählt. Die <hi rend="antiqua">Suspension</hi> aber kann ich nicht billigen. Meiner Neigung
+                    nach eignete sich die Sache zu einem Verweise u. seiner Belehrung, u. dann
+                    konnte vieleher der Beleidigte die Civilklage anstellen, was er aber vielleicht
+                    nicht gethan hätte. Wollte man weiter gehen, so war die Entlassung
+                    unvermeidlich. Was sollte eine <hi rend="antiqua">Suspension</hi> bewirken?<note type="footnote" resp="editor">Der Abschnitt zu Bach und Heinrich fehlt in
+                        der Edition von Haym, da der Vorfall wohl als ehrenrührig angesehen wurde.
+                        Vgl. zu Bach und seinem Konflikt mit Heinrich: Rosane Rocher / Ludo Rocher
+                        (2013): <hi rend="italic">Founders of Western Indology. August Wilhelm von
+                            Schlegel and Henry Thomas Colebrooke in Correspondence 1820–1837</hi>,
+                        Wiesbaden: Harrassowitz, S. 131 Anm. 128; Friedrich von Bezold (1920): <hi rend="italic">Geschichte der Rheinischen Friedrich-Wilhelms-Universität
+                            von der Gründung bis zum Jahr 1870</hi>, Bonn: Marcus &amp; Weber, S.
+                        238f. und 267f. [FZ]</note> – Daß <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> viele erzürnen muß sehe ich auch
+                    daraus, daß er gar nicht schreibt. Ich habe ihm im
+                        Julius<!-- Brief nicht erhalten? --> <pb n="4*"/> einen
+                    Aufsatz<!-- title? --> geschickt, u. weiß noch nicht, ob er ihn empfangen hat.
+                    Sie würden mich sehr verbinden, wenn Sie es von ihm herausbrächten, nemlich das
+                    einfache Factum, ob ihm der Aufsatz zugekommen ist? Hat er ihn erhalten, so
+                    bedarf es weiter nichts. Hätte er ihn aber nicht bekommen, dann bitte ich Sie,
+                    es mir anzuzeigen. Ich ersuche Sie aber bestimmt, ihn nicht in meinem Namen zu
+                    fragen, sondern nur so, als schiene es Ihnen aus meinem Briefe, daß ich ihm
+                    etwas geschickt habe. Ich bin über sein Stillschweigen, das ich ganz begreiflich
+                    finde, nicht im Mindesten empfindlich, u. er würde das unfehlbar denken, wenn
+                    ich nach der Antwort fragen ließe. <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> hat wirklich ein seltenes
+                    Talent, u. ein großes Verdient um mehr als Ein Fach des Wissens u. Denkens, aber
+                    es wäre sehr zu wünschen, daß er wenigstens jetzt die Eigenheit verlöre, sich so
+                    leicht durch etwas, das gar nicht mit dem, was er leisten kann, im Verhältniß
+                    steht, von dem richtigen Wege abbringen zu lassen. Auch im <hi rend="antiqua">Sanskrit</hi>, u. von dem was er darin geleistet, konnte er unglaublich
+                    viel mehr, fast mit derselben Mühe thun. – Haben Sie <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> vielleicht auf seiner Durchreise
+                    durch Ihre Gegend gesehen? Er ist eine der stillen u. sehr anspruchlosen
+                    Naturen, die aber in ihrem bestimmten Kreise sogar viel mehr zu Stande bringen,
+                    als man ihnen anfangs zutraut. Ich halte ungemein viel auf <bibl sameAs="570">seine <hi rend="antiqua">Sanskrit Grammatik</hi>
+               </bibl>. Schade nur ist
+                    es, daß er nicht die Fundamentalkenntnisse des Lateinischen u. Griechischen hat,
+                    die man bei uns bei jedem Philologen, nicht mit Unrecht, voraussetzt.<note type="footnote" resp="editor">Dieser Satz fehlt in der Edition von
+                        Haym.</note>–</p>
+            <closer>
+               <salute>Leben Sie nun herzlich wohl, theuer Freund. Mit der innigsten
+                        Freundschaft <lb/>der Ihrige.</salute>
+               <signed>Humboldt</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Peter Stephen Duponceau, 21.09.1827<idno type="BBAW">517</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Philadelphia, American
+                            Philosophical Society, Hist. and lit. Comm., Letterbooks, vol. 5, p.
+                            40–45</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Swiggers 1999, S. 461–465</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7820</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="dbasalenque">
+                  <persName>Basalenque, Diego de</persName>
+               </person>
+               <person corresp="afebres">
+                  <persName>Febrés, Andrés</persName>
+               </person>
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="shopkins">
+                  <persName>Hopkins, Samuel</persName>
+               </person>
+               <person corresp="jdhunter">
+                  <persName>Hunter, John Dunn</persName>
+               </person>
+               <person corresp="jmorse">
+                  <persName>Morse, Jedidiah</persName>
+               </person>
+               <person corresp="lniederstetter">
+                  <persName>Niederstetter, Ludwig</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="jcpyrlaeus">
+                  <persName>Pyrlaeus, Johann Christoph</persName>
+               </person>
+               <person corresp="cquandt">
+                  <persName>Quandt, Christlieb</persName>
+               </person>
+               <person corresp="tsay">
+                  <persName>Say, Thomas</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="tschultz">
+                  <persName>Schultz, Theodor</persName>
+               </person>
+               <person corresp="tsschumann">
+                  <persName>Schumann, Theophilus Salomo</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diego de</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="844">A Brief Account of the Proceedings of the Committee
+                        appointed in 1795, by the Yearly Meeting of Friends of Pennsylvania,
+                        New-Jersey, &amp;c. for promoting the improvement and gradual civilization
+                        of the Indian Natives (Philadelphia: Kimber, Conrad, &amp; Co. 1805)</bibl>
+               <bibl corresp="47">Basalenque, Diego: Arte de la Lengua Tarasca (Mexiko:
+                        Francisco de Rivera Caldron 1714)</bibl>
+               <bibl corresp="842">Catalogue of the Library of the American Philosophical
+                        Society, held at Philadelphia for promoting knowledge. Published by order of
+                        the Society (Philadelphia: Joseph R. A. Skerrett 1824)</bibl>
+               <bibl corresp="843">Dencke, Christian Frederick: The three Epistles of the
+                        Apostle John, translated into Delaware Indian, with the text opposite (New
+                        York: American Bible Society 1818)</bibl>
+               <bibl corresp="132">Febrés, Andres: Arte de la lengua general del reyno de Chile
+                        (Lima: Calle de la Encarnación 1765)</bibl>
+               <bibl corresp="114">Heckewelder, John / Du Ponceau, Peter Stephen: A
+                        Correspondence Between the Reverend John Heckwelder, of Bethlehem, and Peter
+                        S. Duponceau Esq. […] Respecting the Languages of the American Indians. In:
+                        Transactions of the Historical and Literary Committee of the American
+                        Philosophical Society 1, 1819, S. 351–448</bibl>
+               <bibl corresp="186">Hopkins, Samuel: An Abridgement of Mr. Hopkins’ Historical
+                        Memoirs (Philadelphia: Franklin &amp; Hall 1757)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache
+                        durch die Suffixa twâ und ya gebildeten Verbalformen. In: Indische
+                        Bibliothek, 1. Band (Bonn: Eduard Weber 1823), S. 71–134, S. 433–473</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen
+                        Formen und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie
+                        der Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                        historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften
+                        in Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen
+                        Akademie der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="202">Humboldt, Wilhelm von: Lettre à Monsieur Abel Rémusat, sur
+                        la nature des formes grammaticales en général, et sur le génie de la langue
+                        Chinoise en particulier (Paris: Dondé &amp; Dupré 1827)</bibl>
+               <bibl corresp="215">Humboldt, Wilhelm von: Untersuchungen über die
+                        Amerikanischen Sprachen. In: Leitzmann, Albert (Hrsg.): Wilhelm von
+                        Humboldts Gesammelte Schriften, 5. Band (Berlin: Behr’s Verlag 1906
+                        [1826])</bibl>
+               <bibl corresp="210">Humboldt, Wilhelm von (1830): Ueber den Dualis. Gelesen in
+                        der Akademie der Wissenschaften am 26. April 1827. In: Abhandlungen der
+                        königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1827,
+                        Historisch-philologische Klasse, S. 161–188. – Vgl. GS VI, S. 4–30</bibl>
+               <bibl corresp="232">Hunter, John Dunn: Manners and customs of several Indian
+                        tribes: located west of the Mississippi (Philadelphia: J. Maxwell
+                        1823)</bibl>
+               <bibl corresp="305">Morse, Jedidiah: A report to the Secretary of War of the
+                        United States, on Indian affairs, comprising a narrative of a tour (New
+                        Haven: Converse 1822)</bibl>
+               <bibl corresp="342">Quandt, Christlieb: Deutsch-arawakisches Wörterbuch
+                        [Manuskript]</bibl>
+               <bibl corresp="384">Say: Vocabulary of the Wahtoktata or Otto Indians (1823)</bibl>
+               <bibl corresp="399">Schultz, Theodor: Grammaticalische Sätze von der
+                        Aruwakkischen Sprache, 1803 [Manuskript]</bibl>
+               <bibl corresp="400">Schultz, Theodor: Grammatik des Arawakischen
+                        [Manuskript]</bibl>
+               <bibl corresp="401">Schultz, Theodor: Wörterbuch des Arawakischen
+                        [Manuskript]</bibl>
+               <bibl corresp="402">Schumann, Theophilus Salomo: Grammatik des Arawakischen
+                        [Manuskript]</bibl>
+               <bibl corresp="433">Torres Rubio, Diego: Arte de la Lengua Aymara (Lima:
+                        Francisco del Canto 1616)</bibl>
+               <bibl corresp="458">Williams, Eleazar: Gaiatonsera Ionteweienstagwa Ongwe Onwe
+                        Gawennontakon: A Spelling-Book in the Language of the Seven Iroquois Nations
+                        (Utica: Wiliam Williams 1813)</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni
+                        Lenape or Delaware Indians. Translated from the German Manuscript of the
+                        Author by Peter Stephen du Ponceau. With a Preface and Notes by the
+                        Translator (Philadelphia: James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">M. – C’est avec un regret extrême, que j’ai appris par M.
+                    Niederstetter …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-09-21"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="psduponceau">Duponceau, Peter Stephen</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="302" type="next">26.12.1827</ref>
+               <ref target="303" type="next">13.03.1828</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="psduponceau">Eigenhändig begonnene Abschrift von Duponceau, von
+                    Schreiberhand fortgeführt</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="ay">Aimara</language>
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="arw">Arawak</language>
+            <language ident="map">Austronesische Sprachen (Sprachen der
+                    Südsee-Inseln)</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="iow">Chiwere (Otoe, Wahtoktata)</language>
+            <language ident="iro">Irokesische Sprache</language>
+            <language ident="nah">Nahuatl (Aztekisch, Mexicanisch)</language>
+            <language ident="ono">Onondaga</language>
+            <language ident="tsz">Purepecha (Tarasca)</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="tt">Tatarisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. August 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="40"/>
+               <dateline>Berlin, 21 Sep.<hi rend="superscript">e</hi> 1827 –</dateline>
+               <address>
+                  <addrLine>Lettre de M. le B.<hi rend="superscript">on</hi> W. de Humboldt
+                            <lb/>à M. DuPonceau</addrLine>
+               </address>
+            </opener>
+            <p>M. – C’est avec <add>un</add> regret extrème, que j’ai appris par M. <handShift scribe="Schreiber"/> <persName ref="lniederstetter">Niederstetter</persName>, notre ministre auprès des Etats Unis, que vous avez
+                    eu la bonté de m’écrire une lettre il y a quelques annees, qui ne m’est jamais
+                    parvenue. <persName ref="lniederstetter">M.<hi rend="superscript">r</hi>
+                        Niederstetter</persName> m’a communiqué celle que vous avez bien voulû lui
+                    écrire à mon égard, Monsieur. J’ai été vivement touché par tout ce que vous y
+                    dites de flatteur pour moi et par le prix que vous attachés à mes foibles
+                    productions. Je sais que je n’en suis redevable qu’à vos bontés &amp; à votre
+                    indulgence; mais je tâche au moins de mériter d’avantage vos suffrages par
+                    l’assiduité avec laquelle je continue à m’appliquer à l’étude des langues dont
+                    vous vous occupez, Monsieur, avec un succès aussi distingué.</p>
+            <p>Je prends la liberté de vous addresser deux Exemplaires d’un <bibl sameAs="202">petit ouvrage</bibl> qui vient de paroître de moi à <placeName ref="Paris">Paris</placeName>, il est en quelque façon un examen plus étendu et une
+                    nouvelle application des idées que j’avois développées dans <bibl sameAs="222">mon mémoire academique</bibl>. <persName ref="jpabel">M.<hi rend="superscript">r</hi> Abel Remusat</persName> a eu la complaisance
+                    d’ajouter des notes à <bibl sameAs="202">ce petit ouvrage</bibl>. Vous verrez
+                    qu’il n’est pas satisfait de ma manière de juger le Chinois et qu’il en
+                    entreprend la défence. <sic>je</sic> ne repondrai point pour le moment à ses
+                    objections; mais je me propose de revenir une autre fois sur le même sujet.</p>
+            <p>C’est une question fondamentale dans toutes les langues: de quelle manière, si
+                    j’ose m’exprimer ainsi, la grammaire s’etablit dans un idiome et comment il y
+                    prend racine? <sic>même de</sic> langues également belles, également bien
+                    organisées sont neanmoins differentes à cet égard. Je crois même avoir fait
+                    cette observation sur le Sanscrit et le Grec. L’homme porte la grammaire, ses
+                    formes, ses loix en lui, il l’a manifeste pour ainsi dire dans sa langue; mais
+                    l’empreinte que celle ci en reçoit n’est pas toujours la même. Voila en quoi je
+                    trouve la difference fondamentale de toutes les langues.</p>
+            <p>Je vois par votre lettre à <sic>
+                  <persName ref="lniederstetter">M.<hi rend="superscript">r</hi>
+                            Neidersteller</persName>
+               </sic> Monsieur, que vous me <sic>supposés</sic>
+                    des préjugés contre les langues Américaines <pb n="41"/> et vous trouvez que
+                    j’en juge à tort d’une maniere défavorable. Je regrette vivement de ne pas avoir
+                    reçu la lettre que vous m’avez addressée à ce sujet. <sic>j’y</sic> aurois puisé
+                    des éclaircissements bien precieux. <sic>j’avoue</sic> cependant que je crois
+                    pouvoir <del>me</del> défendre ma cause et me purger surtout du reproche de
+                    faire tort à des langues dont j’ai étudié avec trop de peine la structure, pour
+                    ne pas en apprecier l’ordre artificiel et les avantages évidens. Elles en
+                    possedent en vérité de bien réels, et si l’on regarde l’énergie, la vivacité,
+                    souvent la délicatesse de l’éxpression, ce n’est qu’en les comparant aux langues
+                    classiques et sous le rapport de la pensée nue et abstraite que j’ai émis
+                    l’opinion qu’elles me paroissent des instruments moins parfaits. Mais je
+                    n’insisterai même pas la dessus, car elles paroissent arriver au même but par
+                    d’autres moyens, quoique cela me paroisse toujours difficile.</p>
+            <p>Ce qui me paroît évident, c’est que leurs formes Grammaticales ne portent point
+                        <sic>l’emprinte</sic> libre de <subst>
+                  <del>toutes idées</del>
+                  <add>toute idée</add>
+               </subst> matérielle, la fixité
+                    absolue, et ce caractère qui indique immediatement à l’oreille que la chose se
+                    présente sous divers rapports, que nous rencontrons dans les langues Grecque
+                    &amp; Sanscrite. Mais aussi en cela il faut distinguer avec précaution, les
+                    langues Americaines portent bien toutes un certain air de famille; mais elles
+                    sont bien différentes entre elles. Dans une même langue de certaines formes
+                    approchent plus que d’autres du caractère qu’elles devraient porter toutes; mais
+                    en général le fait me semble constaté. L’agglutination n’est pas toujours un
+                    procédé rude ainsi que vous le dites, Monsieur, elle se trouve à côté de la
+                    flexion que je lui oppose dans les plus belles langues de l’antiquité, j’ai
+                    aussi insisté expressément dans <bibl sameAs="202">mon mémoire p. 15–16.</bibl>
+                    sur ce les langues Américaines possedent également des formes qu’on doit placer
+                    dans la classe des flexions. Je dis positivement qu’on ne peut diviser les
+                    langues en langues d’agglutinations &amp; de <sic>flixions</sic>, ce n’est que
+                    le plus ou le moins qui forme le caractère des langues qui toutes se
+                    ressemblent, puis que c’est toujours l’homme dont elles sont l’origine. Malgré
+                    cela la différence entre ce qui est nommé franc Grammaticale dans la plus part
+                    des langues Américaines et dans la langue Grecque p. e. me semble claire et
+                    visible, et il est impossible que cette circonstance agissant continuellement
+                    sur l’esprit d’une <pb n="42"/> nation ne dût pas y produire une influence même
+                    marquée. Voila ce qui est mon raisonnent<note type="footnote" resp="editor">Soll
+                        heißen: „raisonnement“.</note> qui me semble basé sur des faits, s’il existe
+                    un idiôme Américain qui n’est pas dans ce cas, je suis prêt à lui assigner une
+                    autre place parmi les langues ce qui m’intéresse dans tout cela c’est l’examen
+                    solide des faits. Quant au raisonnement sur les faits, quant a la question
+                    nommément des avantages d’une langue sur une autre j’avoue volontiers que ces
+                    matières sont d’une nature si délicate qu’il seroit pardonnable de s’y tromper
+                    &amp; qu’il est bien permis d’y différer d’opinion. <sic>mais</sic> c’est un
+                    fait bien constaté p. e. que le Pronom <sic>joues</sic> un rôle bien plus
+                    important dans la plus part des langues Américaines que dans les nôtres, et
+                    qu’on le reconnoît souvent dans les déclinaisons des verbes, c’en est un autre
+                    que bien des langues Américaines ne permettent pas de se servir d’un Substantif,
+                    ou de certains Substantifs sans y ajoûter le pronom <sic>possesif</sic> que
+                    d’autres ajoutent constamment au verbe immediatement sur régime, la langue
+                    réunit ainsi ce qui d’après nos logiques <sic>simple</sic> &amp;
+                        <sic>naturelle</sic> devroit être sépare, elle rend indispensable,
+                        <sic>ci</sic> dont on se passeroit souvent sans faire aucunement tort a
+                    l’expression. Je regarde les langues comme des objets de la nature, et je tâche
+                    de les juger avec une parfaite impartialité. <sic>je</sic> m’occupe beaucoup
+                    plus à étudier &amp; à analyser leurs varietés qu’à leur assigner précisément
+                    leurs rang respectif, mais je crois de mon devoir d’examiner toujours quelle
+                    influence telle ou telle propriété d’un idiôme doit exercer sur l’esprit de
+                    l’homme sauf la <sic>possibité</sic> que d’autres propriétés contrebalancent et
+                        <sic>empêchant</sic> cette influence. Je m’accuserois même d’ingratitude
+                    envers vos bontés, Monsieur, &amp; celles de <persName ref="jpickering">M.<hi rend="superscript">r</hi> Pickering</persName>, si je jugeois avec
+                    présomption ou avec légèreté des langues pour l’étude desquelles vous avez bien
+                    voulu me fournir des matériaux bien précieux. <sic>je</sic> reconnois d’ailleurs
+                    très certainement la Structure vraiment admirable de ces langues bien plus
+                    primitives que les nôtres, et j’espère que j’aurai bientôt occasion d’en parler
+                    devant le public, la langue Mexicaine possede p. e. de formes pour tous les tems
+                    des verbes que la Grammaire générale y établit, et cet avantage manque à la plus
+                    part de nos langues si souvent prônées, ainsi qu’à la Latine.</p>
+            <p>Il est question, Monsieur, dans <bibl sameAs="114">Votre correspondance</bibl>
+                    avec le digne <persName ref="jgeheckewelder">Heckewelder</persName> de la double
+                    forme de la première personne <pb n="43"/> du <sic>plurier</sic> du pronom
+                    inclusive &amp; exclusive, j’ai cru pendant long temps que cette forme
+                    n’appartenoit qu’aux langues Américaines, je me suis trompé. Elle se trouve
+                    également, et même aussi pour le duel dans les langues de la mer Pacifique et
+                    dans celle des Tataras Maesdëlroun.<note type="footnote" resp="editor">„Tatares
+                        Mandchous“</note>
+            </p>
+            <p>J’ai été on ne peut plus reconnoissant de l’envoi du <bibl sameAs="842">catalogue
+                        de la Bibliothèque de votre société</bibl> qu’elle a bienvoulu m’addresser
+                        <sic>Je</sic> vous supplie de témoigner ces sentiments en mon nom à cette
+                    Société savante, &amp; de la prier de vouloir bien accepter un Exemplaire de
+                        <bibl sameAs="202">ma lettre à M.<hi rend="superscript">r</hi> Abel
+                        Remusat</bibl>. Je vous enverrois volontiers également <bibl sameAs="212">une dissertation sur l’Infinitif, le Gerondif &amp; le Supin en Grec &amp;
+                        en Sanscrit</bibl> qui est imprimée dans la Bibliotheque Indienne de
+                        <persName ref="awschlegel">Schlegel</persName>, mais je n’en possède
+                    malheureusement pas d’Exemplaire.</p>
+            <p>Je suis, on ne peut pas plus sensible aux offres bienveillantes, Monsieur, que
+                    vous voulez bien me faire de continuer de me fournir des materiaux pour mes
+                    études. J’y seroi infiniment reconnoissant et vous pouvez être sûr que tout ce
+                    qui regarde les langues Américaines sentant<note type="footnote" resp="editor">„surtout“?</note> celles qui sont parlées par les nations qui avoisinent
+                    les Etats Unis, sont du plus grand prix pour moi. Je vois avec un plaisir infini
+                    que <bibl sameAs="473">la Grammaire</bibl> de <persName ref="dzeisberger">Zeisberger</persName> va paroître bientôt aprésent. J’ose vous supplier
+                    instamment de me l’envoyer immédiatement lors qu’elle aura parû, ce sera un très
+                    grand service rendu à la science que de faire connoître d’une manière complette
+                    une langue qui d’après le peu que j’en connois, je regarde comme une des plus
+                    remarquables pour sa Structure. <sic>je</sic> suppose que c’est le manuscrit
+                    cité <bibl sameAs="842">p. 226 No. 512. de Votre catalogue</bibl>.</p>
+            <p>Encouragé par vos bontés, Monsieur, je prendrai la liberté de vous indiquer ce
+                    que je désirerois avoir par votre entremis bienveillante.</p>
+            <p>1. Je vous prie d’acheter pour moi les livres suivans qui tous sont imprimés dans
+                    les Etats-Unis &amp; qui certainement existent dans le commerce ordinaire des
+                    libraires</p>
+            <table cols="5" rows="7">
+               <row>
+                  <cell>
+                     <bibl sameAs="842">Catal. p. 74.</bibl>
+                  </cell>
+                  <cell>no. 1378.</cell>
+                  <cell>
+                     <bibl sameAs="843">The third Epistles of John.</bibl>
+                  </cell>
+                  <cell>Newyork</cell>
+                  <cell>1818.</cell>
+               </row>
+               <row>
+                  <cell>    "     "   87.</cell>
+                  <cell> "     685.</cell>
+                  <cell>
+                     <bibl sameAs="844">Brief account.....</bibl>
+                  </cell>
+                  <cell>Philad<hi rend="superscript">a</hi>
+                  </cell>
+                  <cell>1805.</cell>
+               </row>
+               <row>
+                  <cell>    "     " 198.</cell>
+                  <cell> "     626.</cell>
+                  <cell>
+                     <persName ref="shopkins">Hopkin</persName>’s <sic>
+                        <bibl sameAs="186">abridgment</bibl>
+                     </sic>
+                  </cell>
+                  <cell>Philad<hi rend="superscript">a</hi>
+                  </cell>
+                  <cell>1757.</cell>
+               </row>
+               <row>
+                  <cell>    "     "  . . </cell>
+                  <cell> "     853</cell>
+                  <cell>
+                     <persName ref="jdhunter">Hunter</persName>’s <sic>
+                        <bibl sameAs="232">accout</bibl>
+                     </sic>
+                     <note type="footnote" resp="editor">Zu Hunter siehe Duponceaus Brief an Marc-Antoine
+                                Jullien de Paris, 13. Januar 1826: Pierre Swiggers (1998): American
+                                Linguists and the Origin of Linguistic Typology: Peter Stephen Du
+                                Ponceau’s "Comparative Science of Language". In: <hi rend="italic">Proceedings of the American Philosophical Society</hi> 142, No.
+                                1, S. 33, Anm. 20. [FZ]</note>
+                  </cell>
+                  <cell>Philad<hi rend="superscript">a</hi>
+                  </cell>
+                  <cell>1823.</cell>
+               </row>
+               <row>
+                  <cell>    "     " 231.</cell>
+                  <cell> "     685</cell>
+                  <cell>
+                     <bibl sameAs="458">Gaiatonsera</bibl>
+                  </cell>
+                  <cell>Plattsburgh</cell>
+                  <cell>1813.</cell>
+               </row>
+               <row>
+                  <cell>    "     " 233</cell>
+                  <cell> "     731</cell>
+                  <cell>Vocabularies of the languages of the <lb/>Oto &amp;.<hi rend="superscript">c</hi>
+                  </cell>
+                  <cell>Philad.<hi rend="superscript">a</hi>
+                  </cell>
+                  <cell>1822.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="44"/> <bibl sameAs="842">Cat. p. 236.</bibl>
+                  </cell>
+                  <cell>no 880.</cell>
+                  <cell>
+                     <bibl sameAs="384">Vocabularies of the languages of the <lb/>Wahtoktata &amp;.<hi rend="superscript">c</hi>
+                     </bibl>
+                  </cell>
+                  <cell>Philad<hi rend="superscript">a</hi>
+                  </cell>
+                  <cell>1823.</cell>
+               </row>
+            </table>
+            <p>2. Quant aux livres rares et aux manuscrits, il paroit que vous seriez disposé à
+                    permettre qu’on en prît copies sur les lieux. Dans ce cas là je vous prierois de
+                    me faire faire une copie de la <bibl sameAs="47">Grammaire de la langue
+                        Tarasque</bibl> notée <bibl sameAs="842">p. 236. no. 1569. de Votre
+                        catalogue</bibl>.</p>
+            <p>Je <sic>possede</sic> par les bontés de <persName ref="jpickering">M.<hi rend="superscript">r</hi> Pickering</persName> une petite Grammaire de
+                    la langue Onondago qui n’a jamais été imprimée jusqu’ici. <sic>je</sic> suppose
+                    que c’est celle notée <bibl sameAs="842">p. 231. no. 532 de Votre
+                        catalogue</bibl>. Je désirerois de savoir, si celle notée <bibl sameAs="842">no. 527</bibl> est beaucoup plus étendue. <sic>et</sic> si les Vocabulaires
+                    de <persName ref="jcpyrlaeus">Pyrlaeus</persName> possedent encore quelque prix
+                    auprès des ouvrages de <persName ref="dzeisberger">Zeisberger</persName> sur ces
+                    mêmes langues.</p>
+            <p>Je me <subst>
+                  <del>borne</del>
+                  <add>bornérai</add>
+               </subst> aprésent a faire faire une copie de la langue
+                    Tarasque <add>&amp; que vous vouliés bien m’indiquer le nombre</add> des
+                    feuilles des manuscrits suivans.</p>
+            <table cols="2" rows="2">
+               <row>
+                  <cell>
+                     <bibl sameAs="842">Cat. p. 224. no. 1578</bibl>
+                  </cell>
+                  <cell>
+                     <bibl sameAs="399">Grammatische Sätze</bibl> (J’ai une <bibl sameAs="402">Grammaire Aruvaque</bibl> par <sic>
+                        <persName ref="tsschumann">Schuemann</persName>
+                     </sic> MS)</cell>
+               </row>
+               <row>
+                  <cell>             "            521.</cell>
+                  <cell>
+                     <bibl sameAs="401">Aruwakkisch-Deutsches Wörter-Buch</bibl> (j’en
+                            possède <bibl sameAs="342">une</bibl> de <persName ref="cquandt">Quandt</persName>. M.S)</cell>
+               </row>
+            </table>
+            <p>Les differens manuscrits sur la langue Iroquoise, à la <bibl sameAs="842">page
+                        231. du catalogue</bibl>.</p>
+            <p>Je vous prie, Monsieur, de recommander au copiste d’écrire aussi exactement et
+                    aussi clairement que possible, et surtout d’employer plutôt un grand qu’un petit
+                    caractère.</p>
+            <p>3. <bibl sameAs="305">Le report</bibl> de <persName ref="jmorse">M.<hi rend="superscript">r</hi> Morse</persName> qui est un des ouvrages le
+                    plus intéressans que je connoisse, renferme des discours de Chefs des nations
+                    Indiennes qui m’ont infiniment étonné par leur éloquences mâle et naturelle. Ne
+                    seroit-il pas possible d’obténir les textes Indigènes d’un ou autre discours de
+                    ce genre? Un tel morceau seroit surtout précieux, si l’on y joignoit une
+                    traduction litterale. Mais aussi sans ce secours, je possedérois très volontiers
+                    un pareil discours. Il est inapréciable de trouver des morceaux composés dans
+                    ces langues par les indigènes mêmes. Tout ce que nous voyons ordinairement
+                    d’elles, provient des Missionaires Européens, et ne porte point une emprinte
+                    assez originale.</p>
+            <p>Je vous prie, Monsieur, de faire parvenir tout ce que vous me déstinez à
+                        <persName ref="lniederstetter">M.<hi rend="superscript">r</hi>
+                        Neidersteller</persName>, il s’empressera de vous restituer, Monsieur, les
+                    frois que mes commissions vous auront occasionné.</p>
+            <p>
+               <bibl sameAs="433">La Grammaire</bibl> de <persName ref="dtorres">Torres
+                        Rubio</persName> m’a été présentée par M.<hi rend="superscript">r</hi>
+                    Pavres de <placeName ref="Madrid">Madrid</placeName> &amp; je l’ai fait après un
+                    autre. <bibl sameAs="132">Celle</bibl> de <persName ref="afebres">Fébres</persName> m’est parvenue du Chili</p>
+            <p>Veuillez pardonner, Monsieur, la longueur de cette lettre <pb n="45"/> mais les
+                    expressions pleines de bonté &amp; d’interêt de votre lettre à <sic>
+                  <persName ref="lniederstetter">M.<hi rend="superscript">r</hi>
+                            Neidersteller</persName>
+               </sic> m’y ont encouragé.</p>
+            <closer>
+               <salute>J’ai l’honneur d’<sic>etre</sic> avec la considération la plus
+                        distinguée <lb/>Monsieur <lb/>Votre très humble &amp; très obéissant
+                        Serviteur</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>a Tegel ce 21 Septembre 1827.</dateline>
+            </closer>
+            <postscript>
+               <p>P.S. J’ajoute, Monsieur, à cette lettre, une note tirée <sic>d’un</sic>
+                        mémoire que je viens de lire à <orgName ref="3">l’academie</orgName> de
+                            <placeName ref="Berlin">Berlin</placeName>, <bibl sameAs="210">sur la
+                            forme grammaticale des duel</bibl>.<note type="footnote" resp="editor">Humboldt hatte den Vortrag über den Dualis bereits am <date when="1827-04-26">26. April 1827</date> vor dem Plenum der Akademie
+                            gehalten; siehe Jürgen Trabant (2012): <hi rend="italic">Weltansichten.
+                                Wilhelm von Humboldts Sprachprojekt</hi>, München: C. H. Beck, S.
+                            127 (nach den Protokollen der Akademie). Daher überrascht es etwas, wenn
+                            er hier nun ankündigt, den Vortrag demnächst halten zu wollen!
+                            [FZ]</note> Vous verrez pour son contenu combien je sais apprécier les
+                        avantages des langues Américaines pour l’energie et la Simplicité de
+                        l’expression, et de quelle manière je prends fait et cause pour elles
+                        lorsqu’elles sont attaquées injustement.</p>
+            </postscript>
+         </div>
+         <div type="appendix">
+            <p>
+               <handShift scribe="psduponceau"/> <persName ref="tschultz">Schulze</persName>’s
+                        <bibl sameAs="400">Aruwak Grammar</bibl> 173. pp 12.° German Character = no
+                    margin =</p>
+            <p>
+               <bibl sameAs="401">Dictionary</bibl> 622 pp. q.<hi rend="superscript">to</hi>
+            </p>
+            <p>Aruwak Grammar</p>
+            <p>5 Conjug. of regular verbs.</p>
+            <p>1. in <hi rend="italic">
+                  <foreign sameAs="arw">in</foreign>
+               </hi>, <hi rend="italic">
+                  <foreign sameAs="arw">ün</foreign>
+               </hi> &amp; <hi rend="italic">
+                  <foreign sameAs="arw">ùn</foreign>
+               </hi>, Infinit.</p>
+            <p>2. in <hi rend="italic">
+                  <foreign sameAs="arw">ân</foreign>
+               </hi>
+            </p>
+            <p>3. in <hi rend="italic">
+                  <foreign sameAs="arw">unnua</foreign>
+               </hi>
+            </p>
+            <p>4. in <hi rend="italic">
+                  <foreign sameAs="arw">ên</foreign>
+               </hi>
+            </p>
+            <p>5. with <del>
+                  <hi rend="italic">
+                     <foreign sameAs="arw">ka</foreign>
+                  </hi>
+               </del> the auxiliary <hi rend="italic">
+                  <foreign sameAs="arw">ka</foreign>
+               </hi> (am or I am) prefixed <add>or
+                        intercalated</add> to the first person of the Present Tense <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">kakun</foreign>
+               </hi>, to live <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">kakukade</foreign>
+               </hi>, I live <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">hádubuttin</foreign>
+               </hi>, to sweat <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">hadubuttikade</foreign>
+               </hi>, I sweat <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">kanissin</foreign>
+               </hi>, to love <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="arw">Danssika</foreign>
+               </hi>, I love</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 08.07.1827<idno type="BBAW">756</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 42</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 141–143</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7807</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="202">Humboldt, Wilhelm von: Lettre à Monsieur Abel Rémusat, sur la
+                    nature des formes grammaticales en général, et sur le génie de la langue
+                    Chinoise en particulier (Paris: Dondé &amp; Dupré 1827)</bibl>
+               <bibl corresp="215">Humboldt, Wilhelm von: Ueber vier Aegyptische, löwenköpfige
+                    Bildsäulen in den hiesigen Königlichen Antikensammlungen. In: Abhandlungen der
+                    Königlichen Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 145–168</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Volume 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich wollte Ihnen, theuerster Freund, einen
+                        ausführlichen Brief durch Schlegel schreiben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-07-08"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind paz">
+            <language ident="map">Austronesische Sprachen (Sprachen der Südseeinseln)</language>
+            <language ident="grc">Griechisch</language>
+            <language ident="">Hieroglyphen</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">31. März 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich wollte Ihnen, theuerster Freund, einen ausführlichen Brief durch
+                        <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>
+                    schreiben. Allein seine verspätete Abreise hat mich so nahe an meine eigne
+                    gebracht, daß ich herzlich bedaure, Ihnen jetzt nur einige flüchtige Worte sagen
+                    zu können. Ich begleite nemlich <persName ref="cvh1">meine Frau</persName> u.
+                        <persName ref="cvh2">
+                  <hi rend="antiqua">Carolinen</hi>
+               </persName>, die sich
+                    Ihnen herzlich empfehlen, in das <placeName ref="Bad Gastein">Bad von <hi rend="antiqua">Gastein</hi>
+               </placeName>, und wir reisen in zwei, drei
+                    Tagen ab, und können vor Mitte <hi rend="antiqua">Septembers</hi> nicht hierher
+                    zurückgekehrt seyn. An <persName ref="cvh1">meiner Frau</persName> hat das
+                        <placeName ref="Bad Gastein">
+                  <hi rend="antiqua">Gasteiner</hi>
+                        Bad</placeName> im vorigen Jahre in der That Wunder bewiesen. Sie war in
+                    einem Krankheitszustand, an den ich nicht ohne wahres Entsetzen zurückdenken
+                    kann, und der, wenn nichts ihn aufgehalten hätte, gewiß sie in wenigen Monaten
+                    dem Tode zugeführt hätte. Sie hat <placeName ref="Bad Gastein">
+                  <hi rend="antiqua">Gastein</hi>
+               </placeName> gebraucht, und ist seit ihrer
+                    Rückkehr bis jetzt von gichtischen Anfällen befreit gewesen, u. hat sich den
+                    strengen Winter u. das Frühjahr hindurch wirklich sehr wohl befunden. Bloß seit
+                    4 Wochen haben einige, jedoch nur Stunden lang anhaltende Anfälle des alten
+                    Uebels sie an die Nothwendigkeit erinnert, <placeName ref="Bad Gastein">
+                  <hi rend="antiqua">Gastein</hi>
+               </placeName> abermals zu besuchen. <persName ref="cvh2">
+                  <hi rend="antiqua">Caroline</hi>
+               </persName> ist von ihrer
+                    sonstigen Kränklichkeit ganz hergestellt. Ich habe mich ohne allen Anstoß wohl
+                    befunden, selbst mit meinen Augen geht es besser. Indeß werde ich <placeName ref="Bad Gastein">
+                  <hi rend="antiqua">Gastein</hi>
+               </placeName> brauchen, da
+                    ich einmal dort seyn werde. Das Bad ist allgemein stärkend, u. vorzüglich
+                    bejahrten Personen wohlthätig. Ich mache indeß die Reise nicht deshalb, sondern
+                    bloß um <persName ref="cvh1">meine Frau</persName> <pb n="2*"/> und
+                        <persName ref="cvh2">
+                  <hi rend="antiqua">Carolinen</hi>
+               </persName> nicht
+                    allein reisen zu lassen. Ich entferne mich immer ungern von hier und meinen
+                    gewöhnlichen Arbeiten. Sie leiden unausbleiblich durch die langen
+                    Unterbrechungen, u. leider sind meine Untersuchungen, sey es an sich, oder bei
+                    meiner Methode, höchst zeitraubend. Denn es ist ein durch Erfahrung in mir
+                    bestätigter Grundsatz, daß man in Sprachen nichts machen kann, wenn man nicht in
+                    sehr kleinlich scheinendes <hi rend="antiqua">détail</hi> hinabsteigt. Ich
+                    verfolge jetzt die Untersuchungen, die Sie aus <bibl sameAs="202">meinem Brief an
+                            <hi rend="antiqua">Abel-Rémusat </hi>
+               </bibl> kennen, u. sie haben mich
+                    zunächst in die Sprachen der Südsee Inseln geführt. Es existirt ein eignes
+                    Sprachgebiet ganz, in Rücksicht auf die Grammatik, außer dem der klassischen
+                    Sprachen u. des Sanskrits, u. in diesem habe ich mich schon seit einigen Jahren
+                    festgesetzt, u. siedle mich immer mehr darin an. Eine deutliche Einsicht in die
+                    Natur desselben aber habe ich erst seit Kurzem gewonnen. Es ist möglich, daß ich
+                    im nächsten Jahre eine Reise nach <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> u. <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> mache. Sie werden aus den Zeitungen gesehen
+                    haben, theurer Freund, daß <persName ref="hbuelow">mein Schwiegersohn <hi rend="antiqua">Bülow</hi>
+               </persName> Gesandter in <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> geworden ist.
+                        <persName ref="gbuelow">
+                  <hi rend="antiqua">Gabriele</hi>
+               </persName> ist mit
+                    ihren drei Kindern noch hier, und wenn er sie noch den Winter hier läßt, u. dann
+                    im Frühjahr nicht selbst abholt, so werde ich sie nach <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> begleiten. Vermuthlich gehen
+                        <persName ref="cvh1">meine Frau</persName> und <persName ref="cvh2">
+                  <hi rend="antiqua">Caroline</hi>
+               </persName> auch mit. <hi rend="antiqua">
+                  <persName ref="gbuelow">Gabrielen</persName>s</hi> drei Töchter sind
+                    allerliebste kleine Geschöpfe. Ich schreibe Ihnen von dem allen, da Sie immer so
+                    liebevollen Antheil uns erhalten haben. Ich lege diesen Zeilen <bibl sameAs="215">eine Abhandlung über Hieroglyphen</bibl> bei, die aber gar nichts Eigenes
+                    enthält u. auf die ich sehr wenig Werth setze. Wollen Sie die Güte haben eins
+                    der beiden Exemplare an <persName ref="bgniebuhr">
+                  <hi rend="antiqua">Niebuhr</hi>
+               </persName> mit <pb n="3*"/> meinen freundschaftlichsten
+                    Grüßen zu besorgen. <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> habe ich leider sehr wenig hier gesehen, da er
+                    selten <placeName ref="Berlin">die Stadt</placeName> verläßt. Er hat mir <bibl sameAs="634">das bisher von seinem <hi rend="antiqua">Ramayana</hi>
+                        Gedruckte</bibl> mitgetheilt. Es scheint mir eine einzig schöne Arbeit.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, theurer Freund und halten Sie mir Ihr
+                        gütiges Andenken. Mit der herzlichsten Hochachtung und Freundschaft der
+                        Ihrige</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 8. <hi rend="antiqua">Julius</hi>,
+                    1827.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 12.05.1833<idno type="BBAW">268</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 29–30</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 215</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="hpforster">
+                  <persName>Forster, Henry Pitts</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="514">Bopp, Franz: Ardschuna’s Reise zu Indra’s Himmel, nebst anderen
+                    Episoden des Maha-Bharata (Berlin: Königliche Akademie der Wissenschaften
+                    1824)</bibl>
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae 1 (Berlin:
+                    Dümmler 1829)</bibl>
+               <bibl corresp="593">Bopp, Franz: Die Sündflut nebst drei anderen der wichtigsten
+                    Episoden des Maha-Bharata (Berlin: Dümmler 1829)</bibl>
+               <bibl corresp="554">Colebrooke, Henry Thomas: Cósha, or Dictionary of the Sanskrit
+                    Language (Serampore: Carey 1808)</bibl>
+               <bibl corresp="135">Forster, Henry Pitts: An Essay on the Principles of Sanskrit
+                    Grammar (Calcutta: Ferris 1810)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java
+                    [Manuskript]</bibl>
+               <bibl corresp="279">Mahābhārata</bibl>
+               <bibl corresp="594">Mausala Parva (16tes Buch des Mahabharata)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Excellenz habe ich die Ehre beiliegend Ihren
+                        hochgeneigten Brief und dies letzte Heft Ihres Werkes zurückzusenden,
+                        welches ich nochmals mit dem lebhaftesten Interesse durchlesen habe …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1833-05-12"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="198" type="next">16.05.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">22. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 29. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1833_05_12/Coll.ling.fol.53_063.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1833_05_12/Coll.ling.fol.53_064.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1833_05_12/Coll.ling.fol.53_065.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1833_05_12/Coll.ling.fol.53_066.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="29r"/>
+               <salute>Ew Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre beifolgend Ihren hochgeneigten Brief und das letzte Heft <bibl sameAs="227">Ihres Werkes</bibl> zurückzusenden, welches ich nochmals mit dem
+                    lebhaftesten Interesse durchlesen habe. In der bewußten Stelle ist doch das
+                    zweite Wort, wie ich als richtig annehme die Partikel <foreign sameAs="sa">
+                  <hi rend="antiqua">hi</hi>
+               </foreign>. Man könnte es für <foreign sameAs="sa" n="transEd">di<graphic url="Bopp/Bopp-WvH_1833_05_12/0402.svg"/>
+               </foreign>
+               <add>
+                  <hi rend="antiqua">di</hi>
+               </add> lesen, was aber keinen Sinn gäbe. Ueber
+                        <foreign sameAs="sa" n="transEd">samyac<graphic url="Bopp/Bopp-WvH_1833_05_12/0403.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">chāstram<graphic url="Bopp/Bopp-WvH_1833_05_12/0404.svg"/>
+               </foreign> könnte man ein
+                    graphisches Bedenken haben, wenn aber <hi rend="antiqua">
+                  <persName ref="htcolebrooke">Colebrooke</persName>
+               </hi> so geschrieben hat, so
+                    wird es wohl am besten sein diese Schreibart beizubehalten, und sich bei dieser
+                    Kleinigkeit nicht aufzuhalten. Ich würde <pb n="29v"/>
+               <foreign sameAs="sa" n="transEd">samyak<graphic url="Bopp/Bopp-WvH_1833_05_12/0405.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">śāstram<graphic url="Bopp/Bopp-WvH_1833_05_12/0406.svg"/>
+               </foreign> erwarten nach § 59
+                        <bibl sameAs="580">meiner Gramm.</bibl> <persName ref="hpforster">Forster</persName> unterscheidet ein radikales und ein nicht
+                        <sic>radicales</sic> <foreign sameAs="sa" n="transEd">ca<graphic url="Bopp/Bopp-WvH_1833_05_12/0407.svg"/>
+               </foreign>. Des letzteren habe
+                    ich in <bibl sameAs="580">meiner Gramm.</bibl> absichtlich keine Erwähnung
+                        <add>gethan</add>, weil, soviel mir bekannt ist, das <foreign sameAs="sa" n="transEd">c<graphic url="Bopp/Bopp-WvH_1833_05_12/0408.svg"/>
+               </foreign> am
+                    Ende immer radikal ist, denn es gibt keine Suffixe, die damit enden, und auf
+                    grammatische Kunstausdrücke die damit enden mögen wollte ich keine Rücksicht
+                    nehmen. <persName ref="hpforster">Forster</persName> läßt nun nach letzterem,
+                    zufolge den einheimischen Grammatikern, das <foreign sameAs="sa" n="transEd">c<graphic url="Bopp/Bopp-WvH_1833_05_12/0408.svg"/>
+               </foreign> überall
+                    in der palativen Klasse, so daß es sich nur vor Tönenden in <foreign sameAs="sa" n="transEd">j<graphic url="Bopp/Bopp-WvH_1833_05_12/0409.svg"/>
+               </foreign> um wandelt. <del type="fragment">Vor la</del> In Verbindung mit
+                        <foreign sameAs="sa" n="transEd">śa<graphic url="Bopp/Bopp-WvH_1833_05_12/0410.svg"/>
+               </foreign> läßt <persName ref="hpforster">Forster</persName> <bibl sameAs="135">
+                  <hi rend="antiqua">p.</hi> 37 <hi rend="antiqua">n.</hi> 33.</bibl> die
+                    Schreibarten <foreign sameAs="sa" n="transEd">ccha<graphic url="Bopp/Bopp-WvH_1833_05_12/0411.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">cśa<graphic url="Bopp/Bopp-WvH_1833_05_12/0412.svg"/>
+               </foreign> und <subst>
+                  <del>
+                     <foreign sameAs="sa" n="transEd">chsa<graphic url="Bopp/Bopp-WvH_1833_05_12/0413.svg"/>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">chśa<graphic url="Bopp/Bopp-WvH_1833_05_12/0414.svg"/>
+                     </foreign>
+                  </add>
+               </subst> zu, allein das radikale <foreign sameAs="sa" n="transEd">ca<graphic url="Bopp/Bopp-WvH_1833_05_12/0407.svg"/>
+               </foreign> gibt <add>er</add>
+                    mit <foreign sameAs="sa" n="transEd">śa<graphic url="Bopp/Bopp-WvH_1833_05_12/0410.svg"/>
+               </foreign> <bibl sameAs="135">
+                  <hi rend="antiqua"> l.c. n.</hi> 31.</bibl> <add>durch</add> <foreign sameAs="sa" n="transEd">kśa<graphic url="Bopp/Bopp-WvH_1833_05_12/0415.svg"/>
+               </foreign>. <foreign sameAs="sa" n="transEd">samyac<graphic url="Bopp/Bopp-WvH_1833_05_12/0403.svg"/>
+               </foreign> ist ein Wort der Art
+                    wie <foreign sameAs="sa" n="transEd">pratyac<graphic url="Bopp/Bopp-WvH_1833_05_12/0419.svg"/>
+               </foreign>, welche die Wurzel
+                        <foreign sameAs="sa" n="transEd">ac<graphic url="Bopp/Bopp-WvH_1833_05_12/0420.svg"/>
+               </foreign> oder <foreign sameAs="sa" n="transEd">añc<graphic url="Bopp/Bopp-WvH_1833_05_12/0421.svg"/>
+               </foreign> am Ende haben; sein
+                        <foreign sameAs="sa" n="transEd">c<graphic url="Bopp/Bopp-WvH_1833_05_12/0422.svg"/>
+               </foreign> muß also vor <del type="fragment">Gut</del> Con-<pb n="30r"/>sonanten guttural werden.</p>
+            <p>Zu <bibl sameAs="227">
+                  <hi rend="antiqua">p.</hi> 122</bibl> erlaube ich mir zu bemerken, daß im
+                        <bibl sameAs="279">
+                  <hi rend="antiqua">Mahâ-Baratha</hi>
+               </bibl> die Wittwenverbrennung wirklich
+                        vorkommt<supplied cert="high">.</supplied> Daß sich <hi rend="antiqua">Mâdrî</hi>, die eine von <hi rend="antiqua">Pându’s</hi> Frauen mit ihm
+                    verbrannt habe, habe ich in der Vorrede zu <bibl sameAs="514">
+                  <hi rend="antiqua">Ardsch.</hi> Himmelreise</bibl> <hi rend="antiqua">p.</hi> X bemerkt. Außerdem habe ich in <bibl sameAs="593">meinen
+                        Auszügen</bibl>
+               <!-- AD: Title? Sündflut? Ardschunas Himmelreise? --> des
+                        <bibl sameAs="279">
+                  <hi rend="antiqua">Mah.</hi>
+               </bibl> in diesen Tagen noch eine merkwürdige
+                    Stelle der Art gefunden. Es wird <sic>nämmlich</sic> im <bibl sameAs="594">16ten
+                        Theile des <hi rend="antiqua">Mahâ-Bhâr.</hi>
+               </bibl> erzählt, daß <hi rend="antiqua">Ardschun</hi>, der sich auf die Nachricht von <hi rend="antiqua">Krischna’s</hi> Tod nach <hi rend="antiqua">Dvârakâ</hi>
+                    begeben hatte, dort die Leiche des <hi rend="antiqua">Vasudêva</hi>, des Vaters
+                        <hi rend="antiqua">Krischna’s</hi> der bald nach seiner Ankunft starb,
+                    verbrennen ließ, wobei vier von <hi rend="antiqua">Vasudêva’s</hi> Frauen,
+                    seinen Scheiterhaufen bestiegen. Ich lege meine Abschrift dieser Stelle bei, und
+                    verharre in tiefster Ehrerbietung</p>
+            <closer>
+               <salute>Ew Excellenz <lb/>ganz gehorsamster </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <dateline>Berlin d. 12. Mai 1833</dateline>
+               <lb/>VA<!-- AD: ? -->
+                </closer>
+            <postscript>
+               <p>
+                  <pb n="30v"/> Wo <foreign sameAs="sa" n="transEd">lā<graphic url="Bopp/Bopp-WvH_1833_05_12/0423.svg"/>
+                  </foreign> geben bedeutet,
+                        mag ihm allerdings wie der primitiven Form <foreign sameAs="sa" n="transEd">dā<graphic url="Bopp/Bopp-WvH_1833_05_12/0424.svg"/>
+                  </foreign>, die Präp. <foreign sameAs="sa" n="transEd">ā<graphic url="Bopp/Bopp-WvH_1833_05_12/0425.svg"/>
+                  </foreign> zur Seite
+                        stehen. Eine Erwähnung meiner Vermuthung könnte für mich bei der Bestätigung
+                        Ew Excellenz nur höchst ehrenvoll seyn.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

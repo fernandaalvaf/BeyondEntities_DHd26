@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jean François Champollion le jeune, 26.06.1824
+                        (Ausfertigung)<idno type="BBAW">332</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Paris, BNF, Nouvelles Acquisitions
+                            Françaises 20357, fol. 238–257 (Ausfertigung). – Ehem. Preußische
+                            Staatsbibliothek zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek
+                            Krakau, Coll. ling. fol. 26, Bl. 116r–136v (Entwurf vom 16. Juni
+                            1824)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Ideler 1841, App. XXXI, S. 59–75 + 8 Folgeseiten;
+                            Messling 2008, S. 317–331</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7407</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bjdacier">
+                  <persName>Dacier, Bon Joseph</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="manetho">
+                  <persName>Manetho (ca. 3. Jh. v. Chr.)</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="cniebuhr">
+                  <persName>Niebuhr, Carsten</persName>
+               </person>
+               <person corresp="plutarch">
+                  <persName>Plutarch</persName>
+               </person>
+               <person corresp="ehtoelken">
+                  <persName>Toelken, Ernst Heinrich</persName>
+               </person>
+               <person corresp="mlacroze">
+                  <persName>Veyssière de la Croze, Mathurin</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+               <person corresp="gzoega">
+                  <persName>Zoëga, Georg</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="76">Champollion, Jean-François (1822): Lettre à M. Dacier relative à
+                    l’alphabet des hiéroglyphes phonétiques, Paris: Firmin Didot Père et
+                    Fils</bibl>
+               <bibl corresp="77">Champollion, Jean-François (1823): Panthéon égyptien, collection des
+                    personnages mythologiques de l’ancienne Égypte, d’après les monuments, Paris:
+                    Firmin Didot Père et Fils</bibl>
+               <bibl corresp="78">Champollion, Jean-François (1824): Précis du système hieroglyphique
+                    des anciens Égyptiens, T. 1–2, Paris: Imprimérie royale</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte
+                    ou recueil des observations et des recherches qui ont été faites en Égypte
+                    pendant l’expédition de l’Armée Française publié par les ordres de Sa Majesté
+                    l’empéreur Napoléon le Grand, 20 Bände, Paris: L’Imprimérie Impériale</bibl>
+               <bibl corresp="1325">Minutoli, Heinrich Freiherr von (1824): Reise zum Tempel des
+                    Jupiter Ammon in der Libyschen Wüste und nach Ober-Ägypten in den Jahren 1820
+                    und 1821. Nach den Tagebüchern Sr. Excellenz herausgegeben und mit Beilagen
+                    begleitet von Dr. E. H. Toelken, Berlin: August Rücker</bibl>
+               <bibl corresp="1327">Niebuhr, Carsten (1774–1778): Reisebeschreibung nach Arabien und
+                    andern umliegenden Ländern, 2 Bände, Kopenhagen: Nicolaus Möller</bibl>
+               <bibl corresp="448">Veyssière de la Croze, Mathurin (1775): Lexicon aegyptiaco-latinum
+                    ex veteribus illius linguae monumentis summo studio collectum et elaboratum a
+                    Maturino Veyssiere La Croze. Quod in compendium redegit, ita ut nullae voces
+                    aegytiacae, nullaeque earum significationes omitterentur, Christianus Scholtz.
+                    Notulas quasdam et indices adjecit Carolus Godofredus Woide, Oxford: Clarendon
+                    Press</bibl>
+               <bibl corresp="468">Young, Thomas (1823): An Account of Some Recent Discoveries in
+                    Hieroglyphical Literature and Egyptian Antiquities, London: John Murray</bibl>
+               <bibl corresp="1328">Zoëga, Georg (1797): De origine et usu obeliscorum ad Pium Sextum
+                    pontificem maximum auctore Georgio Zoega Dano, Rom: Lazzarini</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">L’accueil favorable que Vous avez bien voulu faire à un
+                        mémoire Allemand que mon frère a pris la liberté de Vous communiquer,
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-06-26"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jfchampollion">Champollion le jeune, Jean-François</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="334" type="next">12.02.1825</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyh">Ägyptisch (Hieratisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="cop">Koptisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. März 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.1.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.2.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.3.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.4.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.5.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.6.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.7.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.8.jpg"/>
+      <graphic url="Champollion/WvH-Champollion_1824_06_26/Bl.9.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="238r"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>L’accueil favorable que Vous avez bien voulû faire à un mémoire Allemand<note type="footnote" resp="editor">Dabei wird es sich um eine Abschrift der am
+                            <date when="1824-03-08">8. März 1824</date> an der <orgName ref="3">Berliner Akademie</orgName> vorgetragenen Abhandlung "Ueber die
+                        phonetischen Hieroglyphen des Herrn Champollion des jüngern" handeln, die
+                        erstmals 1836 im Anhang des ersten Band des Kawi-Werkes (d.h. die Einleitung
+                        mit dem Titel "Über die Verschiedenheit des menschlichen Sprachbaues und
+                        ihrer Einfluss auf die geistige Entwickelung des Menschengeschlechts"), S.
+                        463–491 erschien. Vgl. Messling 2008, S. 317 Anm. 5. [FZ]</note> que
+                        <persName ref="avh">mon frère</persName> à pris la liberté de Vous
+                    communiquer, m’encourage à Vous addresser cette lettre pour Vous demander des
+                    éclaircissemens sur quelques passages de deux Manuscrits hieroglyphiques de la
+                    collection de <persName ref="jhminutoli">M<hi rend="superscript">r</hi>. le
+                        Comte de Minutoli</persName> dont <persName ref="fw3">S. M. le Roi de
+                        Prusse</persName> a fait l’acquisition.</p>
+            <p>Vous avez vû par mon mémoire, Monsieur, qu’il avoit pour but de répondre aux
+                    objections qu’on auroit pû élever peut-être contre Votre explication de
+                    l’écriture hieroglyphique, mais que j’avois crû nécessaire pour ce but même
+                    d’exposer également mes propres doutes sur quelques points de Votre systême. Je
+                    n’avois lû pour lors que <bibl sameAs="76">Votre lettre</bibl> à <persName ref="bjdacier">M<hi rend="superscript">r</hi>. Dacier</persName>. <bibl sameAs="78">L’ouvrage complet</bibl> dont Vous avez enrichi depuis l’étude de
+                        l’<bibl sameAs="106">Antiquité Egyptienne</bibl>, &amp; que Vous eûtes la
+                    bonté de m’envoyer, même avant sa publication, a entièrement dissipé ces doutes,
+                    et il ne m’est resté que la satisfaction d’admirer une découverte à laquelle
+                    Vous avez sû rattacher les vuës les plus intéressantes sur l’époque des
+                    différentes constructions Egyptiennes, &amp; sur la marche de la civilisation en
+                    Egypte et dans la partie de l’Afrique qui avoisine ce païs. Ce que Vous
+                    établissez à cet égard dans <bibl sameAs="78">Votre Système hieroglyphique (p.
+                        388–393.)</bibl> est, on ne peut pas plus, important, &amp; devra servir de
+                    base à toute recherche sur les origines Egyptiennes. Il est seulement à desirer
+                    que Vous puissiez parvenir bientôt, Monsieur, à donner tous les développemens
+                    nécessaires à ces idées si neuves &amp; d’un si grand intérêt pour les études
+                    historiques.</p>
+            <p>Quelque vif que soit celui que ces recherches m’ont <pb n="238v"/> inspiré, je
+                    suis fort éloigné de me flatter de pouvoir y concourir par de nouveaux
+                    résultats. Je Vous prie, Monsieur, de croire, que je n’en ai nullement la
+                    prétention, &amp; que si <subst>
+                  <del>j’ai</del>
+                  <add>je</add>
+               </subst> hasarde dans cette lettre quelques conjectures sur des caractères ou
+                    passages hieroglyphiques, mon but a été uniquement de les voir rectifiées par
+                    Vos lumières. Je sens trop bien qu’il faut avoir consacré des années entières à
+                    l’étude des Antiquités Egyptiennes pour y être tellement initié, qu’à la vue
+                    d’un grouppe hieroglyphique, l’objet ou le mot qui peut s’y trouver caché, se
+                    présente à l’imagination. Il faut encore, pour réussir dans ce déchiffrement
+                    pénible &amp; difficile, être doué du talent de deviner avec facilité &amp; de
+                    manière que cette opération périlleuse soit guidée par un tact sûr et une masse
+                    de connaissances solides &amp; d’apperçûs ingénieux.</p>
+            <p>Ce qui m’a engagé surtout à me rendre ces recherches plus familières, c’est
+                    l’étude des langues en général à laquelle je me voue depuis longtemps. Les
+                    questions sur la nature de l’Alphabet, ses rapports avec la langue parlée, son
+                    invention &amp; sa propagation y sont du plus grand intérêt, &amp; ces mêmes
+                    questions se présentent sous un nouveau point de vuë depuis la découverte du
+                    systême de l’écriture hieroglyphique. J’ai désiré en même tems <sic>de’
+                        examiner</sic> les monumens &amp; manuscrits Egyptiens qui sont dans ce
+                    moment réunis à <placeName ref="Berlin">Berlin</placeName>, &amp; mon but en
+                    prenant la liberté de Vous addresser cette lettre, Monsieur, est en grande
+                    partie celui de Vous faire connaître plus particulièrement deux manuscrits du
+                    genre de ceux qui furent, encore avant peu d’années, éstimés fort rares, puisque
+                    les Editeurs de la <bibl sameAs="106">Déscription de l’Egypte</bibl> observent
+                    que celui dont ils ont donné <bibl sameAs="106">(Ant. T. 2. pl. 15–72)</bibl> une
+                    si belle copie, étoit au moins alors le seul qu’on possédoit &amp; connoissoit à
+                        <placeName ref="Paris">Paris</placeName>.</p>
+            <p>La collection que <persName ref="jhminutoli">M<hi rend="superscript">r</hi>. le
+                        Comte de Minutoli</persName> a rapportée de son voyage en Egypte, &amp; qui
+                    fait partie dans ce moment des collections Royales, renferme un assez grand
+                    nombre de manuscrits en écriture hieroglyphique, hieratique et <pb n="239r"/>
+                    démotique. Une partie considérable en est déroulée. Mais je n’en ai examiné plus
+                    particulièrement que deux jusqu’ici qui ont attiré de préférence mon attention,
+                    puisqu’ étant du même genre que celui publié dans la <bibl sameAs="106">Déscription de l’Egypte</bibl>, ils me mirent en étât de comparer trois
+                    rituels funéraires ensemble. Ces Manuscrits sont écrits &amp; dessinés sur un
+                    très-beau Papyrus, très-bien conservés &amp; d’une étendue considérable, mais
+                    ils ne sont point coloriés, si l’on excepte les formules initiales peintes en
+                    rouge dans l’un des deux. Je les désignerai par les lettres A. &amp; B. Le
+                    Manuscrit A. est de la longueur de 15 pieds 2 pouces &amp; un quart; la largeur
+                    en est de 11 pouces et un huitième. Le Manuscrit B. a 321. Colonnes d’écriture
+                    hieroglyphique.</p>
+            <p>J’ai réuni en trois paragraphes les questions que je desirerois de Vous proposer,
+                    Monsieur, &amp; j’ai crû bien faire en notant sur des feuilles séparées, en
+                    forme d’annexes, les grouppes hieroglyphiques<note type="footnote" resp="editor">Diese "Grouppes Hieroglyphiques" werden hier als <ref type="linkExt"
+                       target="https://xmledit.bbaw.de/expath/apps/WvH/Brief?section=all&amp;id=332&amp;view=faksimile">Faksimiles</ref> wiedergegeben.</note> qu’il m’a semblé indispensable
+                    de mettre en même tems sous Vos yeux. </p>
+            <p> </p>
+            <p>1.,<lb/>Sur le nom de l’Egyptien à la Momie duquel se rapportoit le Manuscrit
+                    B.</p>
+            <p>Le nom de cet individû est répété 116 fois dans ce Manuscrit, il est accompagné
+                    114 fois de celui de s mère également défunte.</p>
+            <p>En prenant l’ensemble des deux noms avec tout ce qui y appartient, on en trouve à
+                    peu près 80 Variantes, c’est à dire 80 répétitions des eux noms dont aucune
+                    n’est entièrement conforme à l’autre, si l’on tient exactement compte de tous
+                    les changemens &amp; de toutes les transpositions et omissions de signes.</p>
+            <p>Afin de connoître tous les sons &amp; tous les symboles qui entrent dans
+                    l’écriture de ces deux noms quoiqu’ils n’y soyent pas marqués chaque fois que
+                    ces noms reparoissent dans le Manuscrit, j’ai réuni sous le nr. 1. des grouppes
+                    hieroglyphiques ci-joints tous les caractères qui se trouvent dans les
+                    différentes variantes, en y ajoutant en meme tems leurs équivalens qui les
+                    remplacent dans <pb n="239v"/> plusieurs. Cela m’a semblé nécessaire pour lire
+                    exactement les noms propres, &amp; pour connoître la phrase entière qu’ils
+                    forment. Le grouppe nr. 1. est à la vérité devenû par là en quelque façon un
+                    grouppe idéal, puisqu’il ne paroit pas une seule fois dans le Manuscrit d’une
+                    manière aussi complette; il n’en est cependant pas moins vrai. Car quoique p.e.
+                    le 7<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> signe du grouppe
+                    ne <subst>
+                  <del>s’y</del>
+                  <add>se</add>
+               </subst> trouve exprimé que cinq fois dans le nom du défunt, ces cinq fois
+                    prouvent évidemment que ce nom termine par le son de ce signe, &amp; nom pas par
+                    celui qui appartient au 6<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> caractère, et que ce n’est que pas manière d’abbréviation
+                    qu’il a été retranché dans les autres 111 répétitions du nom.</p>
+            <p>Le nr. 2. des grouppes ci-joints présente la variante la plus ordinaire des deux
+                    noms exactement comme elle se trouve dans le Manuscrit.</p>
+            <p>J’ai divisé le grouppe entier d’après les idées qu’il énonce, en huit
+                    parties.</p>
+            <p>La première ne renferme que le grouppe symbolique d’Osiris. Le Manuscrit en donne
+                    toutes les variantes enumérées dans le systême hieroglyphique.</p>
+            <p>La seconde forme le nom du défunt. Il consiste en six lettres dont trois
+                    certainement sont des voyelles, et expriment très-probablement le même son.</p>
+            <p>Le premier signe est le nr. 56. de <bibl sameAs="78">Votre Alphabet</bibl>
+               <note type="footnote" resp="editor">Die Tabelle mit dem Alphabet Champollions
+                    findet sich eingebunden am Ende des zweiten Bandes des <bibl sameAs="78">
+                     <hi rend="italic">Précis</hi>
+                  </bibl> als Tafel A–K. [FZ]</note>, <foreign sameAs="cop">ⲕ</foreign>, qui dans le Dialecte Saitique pourroit aussi
+                    être pris pour <foreign sameAs="cop">ⲭ</foreign>. Vous n’avez point donné
+                    d’exemple de l’emploi de ce signe dans <bibl sameAs="78">Votre précis</bibl>.</p>
+            <p>Il s’y trouve seulement dans les <bibl sameAs="78">nrs. 119. 120. &amp; 130. du
+                        tabl. gén.</bibl>
+               <note type="footnote" resp="editor">Der "Tableau Général
+                        des signes et groupes hiéroglyphiques" befindet sich im zweiten Band des <hi rend="italic">Précis</hi>. [FZ]</note> où il est probablement symbolique
+                    &amp; le même que celui que Vous citez nr. 308. Il paroit dans tous ces cas
+                    annoncer des offrandes, ou dénoter quelqu’un qui a coutûme d’en faire aux Dieux
+                    indiqués par les autres caractères auxquels celui ci est joint, à Toré &amp;
+                    Phré (nr. 119.) à Saté &amp; Phré (nr. 120.) à Anubis (nr. 130.) Mais comme Vous
+                    hésitez à l’expliquer (<bibl sameAs="78">Syst. hier. p. 196.</bibl>) je ne
+                    voudrois pas hasarder de conjecture à cet égard.</p>
+            <p>Si Vous n’avez point vû encore <bibl sameAs="1325">l’ouvrage</bibl> du <persName ref="jhminutoli">Comte de Minutoli</persName>, Vous y trouvez, Monsieur,
+                    (pl. 14.) un prénom Royal où le titre ordinaire <hi rend="underline">chéri par
+                        Amon-Ré</hi> est suivi des trois signes du nr. 64. des grouppes ci-joints
+                    qu’il faudroit lire <pb n="240r"/>
+               <foreign sameAs="cop">ⲕⲁⲛ</foreign> ou <foreign sameAs="cop">ⲕⲉⲛ</foreign>.</p>
+            <p>J’ai réuni sous les nrs. 3–12. plusieurs grouppes hieroglyphiques desquels ce
+                    caractère fait partie. Ils se trouvent dans les deux Papyrus de Berlin, mais
+                    aussi pour la plupart dans le Manuscrit de Paris. (<bibl sameAs="106">Déscr. de
+                        l’Egypte.</bibl>)</p>
+            <p>En parlant de grouppes je dois Vous prévenir, Monsieur, que j’ai tâché d’analyser
+                    les deux Manuscrits de Berlin de manière que j’ai toujours cherché des réunions
+                    de caractères qui, en se retrouvant dans la même série ensemble, sont précédés
+                    &amp; suivis de signes différens dans les différens passages. J’ai crû remarquer
+                    que Vous employez le même procédé, &amp; cette méthode me semble être la seule
+                    par laquelle on pourra parvenir peu à peu à séparer les mots pour ces déterminer
+                    ensuite la valeur. En comparant deux Manuscrits ensemble on obtient à la vérité
+                    des phrases entières qui quelquefois sont fort longues, mais les grouppes plus
+                    étendûs peuvent être réduits a de plus petits, &amp; on obtient surtout ceux qui
+                    semblent devoir former des mots ou même des syllabes, en comparant les différens
+                    passages d’un même Manuscrit. Il me semble, qu’en poursuivant cette méthode avec
+                    une grande attention &amp; persévérance, on parviendroit à dresser un catalogue
+                    de mots hieroglyphiques, même avant que d’en connoitre la signification, &amp;
+                    cela ne seroit guères inutile. </p>
+            <p>Parmi les grouppes nr. 3–12. ceux qui en premier lieu ont attiré mon attention,
+                    sont nrs. 6–10. qui renferment les caractères de <hi rend="underline">demeure</hi>, <hi rend="underline">habitation</hi>.</p>
+            <p>Je prendrai à cette occasion la liberté de Vous soumettre un doute sur
+                    l’explication que Vous donnez, Monsieur, des signes du <add>nr.</add> 278. de
+                        <bibl sameAs="78">Votre tableau général</bibl>. Vous les nommez figuratifs.
+                        (<bibl sameAs="78">Explic. des planches. p. 32. Syst. p. 348. 349.</bibl>)
+                    Mais peut-on bien appeller figuratif un caractère qui ne rend en aucune manière
+                    la figure de l’objèt ? Il me semble que les deux signes peuvent très-bien être
+                    pris phonétiquement, ainsi que les signes du nr. 280. de <bibl sameAs="78">Votre
+                        tableau gén.</bibl> Ils donnent très-naturellement la prononciation de
+                    l’Adverbe <foreign sameAs="cop">ⲧⲁⲓ</foreign>, ici, dont le sens s’adapte
+                    parfaitement à l’emploi qui est fait de ces deux caractères. Leur signification
+                    reste la même que celle que Vous leur attribuez. Si le segment de sphère se
+                    trouve seul, comme dans les nrs. 282–284. de <bibl sameAs="78">Votre tabl.
+                        gén.</bibl> cela se fait par abbréviation. Le caractère figuratif: <hi rend="underline">maison</hi>, <hi rend="underline">habitation</hi> peut
+                    accompagner ce mot on manquer, le sens reste toujours le même: <hi rend="underline">ici est</hi>, <hi rend="underline">se trouve</hi> cet.</p>
+            <p>
+               <pb n="240v"/> Les nrs. 6–10. des grouppes ci-joints sont pris de la partie des
+                    manuscrits funéraires (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 72. col.
+                        34–14.)<note type="footnote" resp="editor">Die von Humboldt konsultierten
+                        Tafeln der <hi rend="italic">Déscription de l’Egypte</hi> befinden sich im
+                        2. Band der Planches, erschienen 1812. [FZ]</note> qui se distinque par la
+                    régularité de sa disposition, et dont toutes ces phrases doivent avoir une
+                    structure égale, puisqu’elles commencent constamment par les mêmes caractères
+                    (nr. 49. des grouppes ci-joints) renfermant toujours dans leur milieu le
+                    caractère nr. 50. des grouppes ci-joints suivi de la lettre <hi rend="underline">m</hi>, <hi rend="underline">manifesté</hi>, <hi rend="underline">engendré
+                        par</hi>, &amp; terminent par une série de signes précédés par le signe <hi rend="underline">balance</hi> (nr. 51. des grouppes ci-joints)</p>
+            <p>J’ai soigneusement examiné, surtout dans cette partie, la conformité des deux
+                    Manuscrits de Berlin avec celui dont la <bibl sameAs="106">Déscription de
+                        l’Egypte</bibl> donne le fac-simile. Le Manuscrit B. rend ce passage dans
+                    la même étendue &amp; dans le même ordre que celui de Paris. Il y a dans l’un
+                    &amp; dans l’autre exactement 42. phrases qui commencent par la plume &amp; par
+                    la figure qui porte sa main gauche à la tête. Le Manuscrit A. ne donne que les
+                    phrases de la partie supérieure des colonnes de la pl. 72. de la <bibl sameAs="106">Déscr. de l’Egypte</bibl>, &amp; il faut croire que l’Auteur de
+                    ce Manuscrit a eû pour ces retrancher les autres, des raisons qui nous sont
+                    inconnus àprésent. On peut toutefois en conclure que, si ces phrases ne sont pas
+                    des formules entièrement détachées, mais qu’il existe une certaine liaison
+                    entr’elles, il faut lire d’abord toutes celles de la partie supérieure des
+                    colonnes de la droite à la gauche, &amp; revenir après à la partie inférieure de
+                    la colonne qui est la première à main droite. Une autre omission semble devoir
+                    être attribuée uniquement à la négligence <subst>
+                  <del>du</del>
+                  <add>de</add>
+               </subst> l’écrivain. Car après avoir transcrit fidèlement des formules de la
+                    partie supérieure des <bibl sameAs="106">col. 34–17. de la pl. 72.</bibl>
+                    jusqu’au signe <hi rend="underline">balance</hi> incl. il omet les hieroglyphes
+                    (nr. 52. des grouppes ci-joints) qui suivent ce caractère, ainsi que toute la
+                    partie supérieure de la Col. 16. et celle de la col. 15. jusqu’au signe <hi rend="underline">balance</hi>, passe immédiatement aux hieroglyphes (nr. 53.
+                    des grouppes ci-joints) de la col. 15. &amp; donne ainsi le reste de cette
+                    partie du Manuscrit. Il omet par conséquente les formules des <bibl sameAs="106">Colonnes 16. &amp; 15. de la planche 72</bibl>.</p>
+            <p>Ce qui peut-être n’est pas une simple inadvertance, c’est que deux formules de ce
+                    même Manuscrit, commençant par la plume &amp; la figure qui porte la main à la
+                    tête, consistent en trois parties de manière que première phrase de la formule
+                    n’est pas suivie, comme cela est généralement le cas, par une, mais pas deux
+                    phrases, précédées chacune du signe <hi rend="underline">balance</hi>. Après la
+                    formule qui répond à la partie supérieure de <bibl sameAs="106">la col. 23. de la
+                        pl. 72.</bibl> vient le grouppe hieroglyphique ci-joint nr. 15. &amp; après
+                    la formule qui correspond avec la partie supérieure de la <bibl sameAs="106">col.
+                        22. de la pl. 72.</bibl> suit le grouppe ci-joint nr. 16. et puis celui qui
+                    est <pb n="241r"/> conforme au même de <bibl sameAs="106">la col. 22. de la pl.
+                        72.</bibl>
+            </p>
+            <p>Dans les passages qui sont précédées par le signe <hi rend="underline">balance</hi> le Manuscrit B. offre également des transpositions
+                    singulières, mais seulement dans ceux de la partie inférieure des colonnes de la
+                        <bibl sameAs="106">pl. 72</bibl>. A la place de la phrase de la col. 34. se
+                    trouve une différente en partie conforme à la même de la partie supérieure de la
+                    col. 32. Celle de la colonne <subst>
+                  <del>33</del>
+                  <add>34</add>
+               </subst>. passe à la phrase commerçant par la plume &amp; la
+                    figure connue de la partie inférieure de la col. 33. &amp; ainsi jusqu’à la col.
+                    24. qui est conforme dans les deux Manuscrits. Dans le reste des formules il n’y
+                    a d’autres transpositions que dans les col. 16. &amp;. 17. dont les phrases
+                    précédées par le signe <hi rend="underline">balance</hi> de la partie inférieure
+                    sont échangées de manière que celle de la col. 16. suit la phrase qui à la
+                    partie inférieure de la colonne 17. commence par la plume &amp; la figure, &amp;
+                    vice versa.</p>
+            <p>Voilà ce qui est pour le nombre &amp; l’ordre de ces formules dans les trois
+                    Manuscrits. Ler conformité du reste est fort grande, &amp; pour Vous en donner
+                    une idée plus précise, monsieur, j’ai copié d’après les deux Manuscrits (nr. 13.
+                    des grouppes ci-joints) la formule qui est celle de la partie supérieure de
+                        <bibl sameAs="106">la col. 25. de la pl. 72</bibl>. Ce n’est que dans <bibl sameAs="106">les col. 15. &amp; 14. de la pl. 72. part. inf.</bibl> qu’on
+                    rencontre une différence essentielle. Vous trouvez ci-joints (nr. 14. α &amp; β)
+                        <del>ci-joint</del> une copie de ces passages d’après le Manuscrit B. Vous
+                    observez, Monsieur, que les caractères notés a. répondent exactement à <bibl sameAs="106">la col. 16. (part. inf.) de la pl. 72.</bibl> &amp; que ceux
+                    notés b. pourroient être pris pour homophones avec les mêmes de la <bibl sameAs="106">pl. 72.</bibl> si l’ordre n’en étoit pas différent.</p>
+            <p>Cet ordre semble cependant varier quelquefois sans altérer pour cela le sens. Les
+                    signes de <bibl sameAs="106">la col. 16. de la pl. 72.</bibl> que je viens de
+                    citer, <hi rend="underline">t</hi>, <hi rend="underline">p</hi>, <hi rend="underline">h</hi>, se trouvent exactement de même dans le Manuscrit de
+                    Berlin. Il semble néanmoins qu’ils indiquent le Dieu <foreign sameAs="cop">ⲡⲧϩ</foreign> quoiqu’ils doivent évidemment être lus <foreign sameAs="cop">ⲧⲡϩ</foreign>. Les Manuscrits de Berlin donnent très-souvent
+                    ce nom de cette manière, &amp; ce qui me conferme dans l’idée que ces deux
+                    écritures sont identiques, c’est que dans le nr. 13. des grouppes ci-joints un
+                    des Manuscrits donne la leçon inverse, tandisque les deux autres ont celle
+                    qu’exige l’ordre de la prononciation. Comme cependant Vous n’avez pas fait
+                    mention de cette irrégularité dans <bibl sameAs="78">Votre précis</bibl>,
+                    Monsieur, je serois charmé d’apprendre quelle est Votre opinion à cet égard? Il
+                    ne seroit pas impossible du reste que la nature même de l’écriture
+                    hieroglyphique &amp; l’usage de signes symboliques &amp; figuratifs eussent
+                    contribué à <add>faire</add> regarder l’hieroglyphe d’un nom ou d’un mot plutôt
+                    comme un tableau entier, que comme une série de lettres qu’il faut épeler
+                    d’après <pb n="241v"/> l’ordre dans lequel elles sont écrites.</p>
+            <p>Le Manuscrit B. pourroit servir à remplier presque les lacunes et échancrures du
+                    Manuscrit de la <bibl sameAs="106">Déscription de Egypte</bibl> dans cette
+                    partie. Mais je suis sur qu’on possède àprésent à <placeName ref="Paris">Paris</placeName> d’autres Manuscrits également propres à cet usage. J’ai
+                    donc crû inutile de Vous envoyer, Monsieur, une copie de ces passages.</p>
+            <p>La partie des Manuscrits funéraires dont je viens de parler, me semble en former
+                    une des plus remarquables, &amp; qui se prêtent le plus facilement au
+                    déchiffrement.</p>
+            <p>Vous avez très-bien expliqué, Monsieur, le signe <hi rend="underline">manifeste</hi> dont <persName ref="tyoung">M<hi rend="superscript">r</hi>.
+                        Young</persName> avoit également déjà deviné à peu près le sens. Mais
+                    j’eusse desiré que pour ceux qui sont moins profondement versés dans la langue
+                    Copte, Vous eussiez donné une explication plus précise du mot <foreign sameAs="cop">ϩⲣⲧ</foreign> ou <foreign sameAs="cop">ⲓⲣⲧ</foreign> par
+                    lequel Vous traduisez ce caractère. Je ne trouve point ce mot dans <bibl sameAs="448">le Dictionnaire</bibl> de <persName ref="mlacroze">La
+                        Croze</persName>, et j’ignore même, si Vous prenez le <foreign sameAs="cop">ⲧ</foreign> final par une lettre radicale de ce verbe, ou
+                    seulement pour le <foreign sameAs="cop">ⲧ</foreign> qui s’ajoute quelquefois
+                    aux verbes Coptes, ou même pour appartenant à la terminaison participiale
+                        <foreign sameAs="cop">ⲟⲩⲧ</foreign> ou <foreign sameAs="cop">ⲉⲓⲧ</foreign>. Dans ces derniers cas le primitif seroit <foreign sameAs="cop">ⲉⲣ</foreign>, <foreign sameAs="cop">ⲓⲣⲓ</foreign>, <hi rend="underline">être</hi>, <hi rend="underline">faire</hi>. Mais il existe
+                    peut-être un verbe de cette nature, dont le Dictionnaire ne rend pas compte,
+                    &amp; qui par une métaphore fort facile à saisir, pourroit avoir rapport à
+                        <foreign sameAs="cop">ϩⲣⲁ</foreign>, <hi rend="underline">visage</hi>, <hi rend="underline">face</hi>.</p>
+            <p>Je desirerois vivement de savoir ce que Vous pensez, Monsieur, des caractères
+                    initiaux, la plume jointe à la figure qui porte la main à la tête, ainsi que du
+                    signe <hi rend="underline">balance</hi>. Quant au dernier je ne saurois rien
+                    alléguer pour le déchiffrer aussi facilement par conjecture, à moins qu’il ne
+                    soit identique avec le caractère nr. 121. (<foreign sameAs="cop">ⲟⲩ</foreign>,
+                        <foreign sameAs="cop">ϥ</foreign>) de <bibl sameAs="78">Votre
+                        Alphabet</bibl>, et désigne par manière d’abbréviation un mot commençant
+                    par cette lettre. Mais les premiers de ces caracteres qui sont un <hi rend="underline">s</hi> placé après une voyelle, ne pourroient-ils pas
+                    répondre à l’adverbe Copte <foreign sameAs="cop">ⲓⲥ</foreign> ou <foreign sameAs="cop">ⲉⲓⲥ</foreign>, <foreign sameAs="la">ecce</foreign>, voilà,
+                    plus unsité dans le Copte vulgaire sous la forme composée de <foreign sameAs="cop">ϩⲏⲡⲡⲉ ⲓⲥ</foreign>? Ce qui me fait attacher quelque prix à
+                    cette explication, c’est que ces signes, formant le mot initial de beaucoup de
+                    phrases différentes, doivent presque nécessairement être une interjection ou un
+                    mot semblable à cette autre formule initiale que Vous avez si bien expliquées
+                    dans <bibl sameAs="78">Votre pl. VI. nr. 8.</bibl>
+               <note type="footnote" resp="editor">Im ersten Band des <bibl sameAs="78">
+                     <hi rend="italic">Précis</hi>
+                  </bibl> neben S. 80. [FZ]</note> où la simple plume
+                    tient aussi lieu de diphthongue. La circonstance que la lettre <hi rend="underline">s</hi> dans ces phrases est toujours désignée par le même
+                    caractère, tient peut-être au geste de la petite figure qui paroit indiquer une
+                    acclamation douloureuse. Car Vous avez très-bien observé, Monsieur, que les
+                    Egyptiens dans le choix des caractères homophones regarderoient <pb n="242r"/> à
+                    la nature particulière du signe plus analogue à tel emploi qu’à un autre.</p>
+            <p>En supposant homophones les signes qui dans les colonnes qui dans ces différens
+                    Manuscrits répondent l’une à l’autre, occupent la même place, il faut croire
+                    que<lb/>1., les nrs. 9. 10. 6.<lb/>2., et les nrs. 54. et 7. des grouppes
+                    ci-joints <lb/>expriment la même idée.</p>
+            <p>Il est encore à remarquer que dans tous ces passages ces signes sont précédés par
+                    le nom du Dieu Phtah qui dans le Manuscrit B. se trouve aussi dans les deux
+                    formules où dans ce Manuscrit et dans celui de la <bibl sameAs="106">Déscr. de
+                        l’Eg.</bibl> (pl. 72. col. 15. 14. &amp; Manuscrit B. col. 155. 156.) les
+                    signes qui précèdent le caractère <hi rend="underline">manifesté</hi> sont les
+                    mêmes, tandisque ceux qui le suivent, diffèrent. Il est vrai que ce nom manque
+                    dans ces deux endroits dans le Manuscrit de Paris, mais il faut presque croire
+                    qu’il y a été simplement omis par inadvertance, car si le signe <hi rend="underline">manifesté</hi> indique l’idée de l’origine, il n’est guères
+                    probable qu’on assigne au même individû une double issue.</p>
+            <p>Le signe de la 145<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> col.
+                    du Manuscrit B. (nr. 6. des grouppes ci-joints) est trop petit pour que j’aye pû
+                    le distinguer bien clairement, mais il m’a semblé être le même que le 5<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> caractère de la partie
+                    inférieure de le 15<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi>
+                    col. de <bibl sameAs="106">la pl. 72. de la Déscr. de l’Egypte</bibl>. Il diffère
+                    presqu’ insensiblement dans sa forme <bibl sameAs="106">pl. 75. col. 121. 112.
+                        111. 82.</bibl> &amp; dans le Manuscrit A. il m’a semblé représenter une
+                    tête en profil. Je le retrouve dans cette même forme dans <bibl sameAs="78">Votre
+                        Précis</bibl> pl. XI. nr. 2. 3.<note type="footnote" resp="editor">Im ersten Band
+                        des <hi rend="italic">Précis</hi> neben S. 206. [FZ]</note> mais Vous n’en
+                    donnez point l’explication (p. 208. 209.) J’ai crû d’abord reconnoître dans ce
+                    signe le <bibl sameAs="78">nr. 53. de Votre Alphabet</bibl>, <foreign sameAs="cop">ⲕ</foreign>. Mais j’ai été frappé de trouver dans le
+                    Mansucrit B. (col. 44.) un grouppe qui je crois devoir lire <hi rend="underline">Haroeri</hi>, écrit de la manière notée nr. 55. des grouppes ci-joints. Ce
+                    signe paroit donc dans cet endroit, comme aussi dans le nr. 6. comparé avec le
+                    nr. 9. des grouppes ci-joints, être homophone avec le cercle ayant un point au
+                    milieu &amp; représentant le disque solaire. Il se pourroit cependant aussi que
+                    ce que je prends ici pour un signe particulier, ne fût que ce même disque
+                    solaire très-mal formé.</p>
+            <p>Je desirerois aussi beaucoup d’apprendre, Monsieur, si je me trompe en croyant
+                    que le cercle strié que Vous déclarez p. 69. du <bibl sameAs="78">Précis</bibl>
+                    être un <foreign sameAs="cop">ⲟⲩ</foreign>, est souvent remplacé par les
+                    signes de la roue désignant <hi rend="underline">contrée</hi>, &amp; par le
+                    disque solaire, ou les remplace plutôt lui-même?</p>
+            <p>Il existe un grouppe que revient très-fréquemment dans ces manus-<pb n="242v"/>crits funéraires, que Vous pourrez voir dans la <bibl sameAs="106">Déscription
+                        de l’Egypte</bibl> pl. 74. col. 120. au commencement, 5–10<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> signe. Or j’ai trouvé
+                    souvent dans les deux Manuscrits de Berlin à la place du cercle strié de ce
+                    grouppe le signe contrée ou le cercle ayant un point au milieu. J’ai rencontré
+                    de même le cercle strié dans un autre grouppe également fréquent, noté nr. 56.
+                    des grouppes ci-joints. Il faudroit donc soigneusement distinguer les cas où les
+                    caractères <hi rend="underline">contrée</hi> &amp; <hi rend="underline">disque
+                        solaire</hi> ont passé sous le roseau de l’écrivain à celui du cercle strié,
+                    et où ce dernier est employé dans sa signification primitive de la diphthongue
+                        <foreign sameAs="cop">ⲟⲩ</foreign>. J’ai aussi trouvé dans les Manuscrits
+                    de Berlin un cercle traversé par une seule ligne (nr. 57. des grouppes
+                    ci-joints) &amp; fait d’une manière si soigneuse qu’on a de la peine à croire
+                    que ce soit par erreur. La col. 44. de la pl. 72. (signe antepenultième) de la
+                        <bibl sameAs="106">Déscr. de l’Egypte</bibl> offre un signe approchant de
+                    cette forme.</p>
+            <p>Ce qui me semble indiqué par les passages précités, c’est que <bibl sameAs="78">la
+                        lettre 57. col. 2. de Votre Alphabet</bibl>, ⲕ, suivi d’une voyelle ou,
+                    seule, exprime un mot à elle seule. Car dans tous ces passages entrent les idées
+                    de <hi rend="underline">Phtah</hi>, <hi rend="underline">habitation</hi> &amp;
+                        <hi rend="underline">contrée</hi> entre lesquelles cette syllabe seule est
+                    placée de sorte qu’elle ne semble pas indiquer un second nom propre, mais plutôt
+                    un mot de la langue. Si le disque solaire &amp; le petit signe indistinct (nr.
+                    6. des grouppes ci-joints) expriment ici des <hi rend="underline">r</hi>, ce son
+                    ne doit pas être essentiel à la phrase écrite, puisqu’il manque dans l’un des
+                    Manuscrits. Il est encore à remarquer que le Manuscrit de Paris qui a le disque
+                    solaire, n’a point le signe <hi rend="underline">contrée</hi> que présentent les
+                    deux autres. Seroit-ce peut-être, puisque l’un est remplacé quelquefois par
+                    l’autre?</p>
+            <p>Ce qui me fait croire surtout que la syllabe qui se trouve nr. 7. des grouppes
+                    ci-joints à coté du signe figuratif <hi rend="underline">habitation</hi>, forme
+                    un mot à elle seule, c’est qu’elle est placée souvent, comme ici, de manière
+                    qu’elle ne sauroit se lier ni <subst>
+                  <del>avec</del>
+                  <add>
+                     <sic>a</sic>
+                  </add>
+               </subst> ce qui précède, ni <subst>
+                  <del>avec</del>
+                  <add>à</add>
+               </subst> ce qui suit. C’est ainsi que <bibl sameAs="106">col. 37. pl. 73. de la
+                        Déscr. de l’Egypte</bibl> elle <del>est</del> se trouve entre les mots <hi rend="underline">soutien de l’Egypte</hi> &amp; le signe figuratif d’un
+                    Dieu, et <bibl sameAs="106">col. 32. pl. 73.</bibl> entre le nom de <hi rend="underline">Haroeri</hi> &amp; le signe figuratif du défunt dans une
+                    phrase qui dit évidemment <hi rend="underline">le défunt chéri par Osiris</hi> .
+                    . <hi rend="superscript">
+                  <foreign sameAs="cop">ⲕⲓ</foreign>
+               </hi> . . <hi rend="underline">par Haroeri</hi>. <bibl sameAs="106">Col. 33. pl. 73.</bibl>
+                    il est également immédiatement suivi du caractère figuratif <hi rend="underline">homme</hi>, &amp; précédé par un signe qui revient très-souvent à lui seul,
+                    &amp; auquel il ne sauroit appartenir. <bibl sameAs="106">Col. 70. pl. 75.</bibl>
+                    cette syllabe est entre le signe figuratif <hi rend="underline">dieu</hi> &amp;
+                    le caractère symbolique <hi rend="underline">ciel</hi> suivi d’un taureau. Le
+                    même grouppe se trouve dans le Manuscrit B. avec la différence seulement que le
+                    caractère <bibl sameAs="78">nr. 56 de Votre Alphabet</bibl> a un petit trait
+                    après lui, &amp; aussi là la lettre nr. 56. ne se lie avec <pb n="243r"/> rien
+                    qui précède, puisqu’elle commence la phrase. Le grouppe se trouve de la même
+                    manière dans le Manuscrit A. (Tableaux.). <bibl sameAs="106">Col. 16. pl.
+                        72.</bibl> la syllabe en question est suivie du caractère <hi rend="underline">monde</hi> (<bibl sameAs="78">Syst. hier. tabl. gén. nr.
+                        233.</bibl>) et ce grouppe revient très-fréquemment. Dans ce passage je
+                    n’oserois décider, si les signes qui précèdent la lettre 56. en sont separés par
+                    leur sens ou non? Mais il y a lieu à le croire, puisque dans un passage du Man.
+                    A. ce groupe suit immédiatement le signe figuratif <hi rend="underline">dieu</hi>. (Div. I. col. 38.)<note type="footnote" resp="editor">Dieser
+                        Verweis bezieht sich auf Humboldts Arbeit zum Papyrus A in Berlin: Coll.
+                        ling. fol. 27, Bl. 10r. [FZ]</note> Il est fort remarquable que dans les
+                        <bibl sameAs="106">col. 23. pl. 75. &amp; col. 39. pl. 73. de la Déscription
+                        de l’Egypte</bibl> on voit au lieu du petit trait le signe du lituus. (Voy.
+                    nr. 5. des groupes ci-joints) Il est claire par là que la syllabe peut se
+                    prononcer <foreign sameAs="cop">ⲕⲱ</foreign>, ainsi que d’après <bibl sameAs="78">Votre précis</bibl> (p. 87.) <foreign sameAs="cop">ⲕⲉ</foreign>,
+                        <foreign sameAs="cop">ⲕⲓ</foreign>, <foreign sameAs="cop">ⲕⲏ</foreign>
+                    &amp; d’après <bibl sameAs="78">Votre Alphabet</bibl> (nr. 11.) <foreign sameAs="cop">ⲕⲁ</foreign>. Je la trouve encore terminée par un segment de
+                    sphère, mais dans un passage <sic>ou</sic> je crois que ce signe indique le sexe
+                    de la figure qui le suit immédiatement. Comme le Manuscrit de Paris (<bibl sameAs="106">Déscr. de l’Eg. pl. 72. col. 34. in fine</bibl>) est defectueux à
+                    cet endroit, je l’ai copié nr. 17. des groupes ci-joints d’après le Man. B. </p>
+            <p>Si j’osais émettre une conjecture, je croirois trouver dans ces signes les verbes
+                    Coptes <foreign sameAs="cop">ⲕⲉⲧ</foreign>, <foreign sameAs="cop">ⲕⲏⲧ</foreign>, <foreign sameAs="cop">ⲕⲟⲧ</foreign>, <foreign sameAs="cop">ⲕⲱⲧ</foreign>, <hi rend="underline">
+                  <foreign sameAs="la">aedificare</foreign>
+               </hi>, <hi rend="underline">
+                  <foreign sameAs="la">condere</foreign>
+               </hi>, ou plutôt le verbe qu’on peut, il me semble,
+                    regarder comme leur primitif <foreign sameAs="cop">ⲭⲁ</foreign>, <foreign sameAs="cop">ⲭⲏ</foreign>, <foreign sameAs="cop">ⲭⲱ</foreign>, Dial.
+                    Sahid. <foreign sameAs="cop">ⲕⲁⲁ</foreign>, <foreign sameAs="cop">ⲕⲱ</foreign>, <hi rend="underline">
+                  <foreign sameAs="la">ponere</foreign>
+               </hi>. Le <foreign sameAs="cop">ⲧ</foreign> final ne
+                    sauroit s’opposer à cette interprétation. Il termine souvent les verbes Coptes
+                    sans appartenir à leur racine, &amp; les idées de <hi rend="underline">placer</hi>, <hi rend="underline">fonder</hi> et celles <hi rend="underline">d’être</hi> &amp; <hi rend="underline">de rester</hi> se
+                    confondent d’avantage dans ces deux verbes que les Lexicographes ne voudroient
+                    le permettre en assignant p.e. à <foreign sameAs="cop">ⲭⲱ</foreign> seulement
+                    la signification de <hi rend="underline">
+                  <foreign sameAs="la">ponere</foreign>
+               </hi>, à <foreign sameAs="cop">ⲭⲏ</foreign> celle d’<hi rend="underline">
+                  <foreign sameAs="la">esse</foreign>
+               </hi>. Le verbe
+                    substantif de la langue Arabe semble être le même mot. Cette signification
+                    paroit convenir à tous les passages ci-dessus cités dans lesquels il est
+                    question d’un place, d’un local, région, ciel, monde, &amp; d’un rapport entre
+                    un homme &amp; un Dieu. Car être fondé, placé, construit, créé par une divinité,
+                    c’est bien être protégé &amp; adopté par elle. </p>
+            <p>Il s’entend naturellement que dans d’autres passages cette même syllabe ⲕⲓ peut
+                    faire partie d’un autre mot. </p>
+            <p>J’ai déjà trop fatigué Votre patience, Monsieur, par m’étendre encore sur les
+                    nrs. 4. 8. &amp; 12. des grouppes ci-joints. Mon but est simplement d’obtenir de
+                    Vos bontés des éclaircissemens sur un caractère de l’emploi duquel je manquois
+                    d’exemples jusqu’ici, &amp; j’ai crû Vous faciliter la peine de me les donner en
+                    réunissant plusieurs grouppes d’hieroglyphes dont elle fait partie. </p>
+            <p>Les lettres 3. 5. 7. du nr. 1. des grouppes ci-joints sont évidemment des
+                    voyelles auxquelles, quoique ce signe puisse en représenter différentes, il
+                    faudra pourtant dans ce même nom assigner le <pb n="243v"/> même son à ce qu’il
+                    me semble. </p>
+            <p>Le 6<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> signe m’arrête
+                    entièrement dans la lecture du nom du défunt, puisque sa signification m’est
+                    tout à fait inconnue. <bibl sameAs="78">Votre Précis</bibl>, Monsieur, renferme
+                    un seul caractère qui lui ressemble. Il se trouve au <bibl sameAs="78">nr. 125 de
+                        Votre tabl. gén.</bibl> Vous l’expliquez par <hi rend="underline">i</hi>
+                        (<bibl sameAs="78">p. 179.</bibl>) Mais l’oiseau dont je parle ici, n’est non
+                    seulement différent pour sa forme, mais paroit aussi plutôt exprimer une
+                    consonne, puisqu’il se trouve placé entre deux voyelles. </p>
+            <p>Il y a dans les trois Manuscrits deux figures d’oiseaux qui en tenant les ailes
+                    élevées, ont une certaine ressemblance. Je veux dire celle dont je parle ici,
+                    &amp; qui est représentée dans la <bibl sameAs="106">Descr. de l’Egypte</bibl>
+                    pl. 75. col. 65. 21. pl. 74. col. 22. pl. 73. col. 55. 24. pl. 72. col. 34. 31.
+                    27. &amp; un autre oiseau que Vous trouverez dans la <bibl sameAs="106">Déscr. de
+                        l’Egypte</bibl> pl. 75. col. 76. 21. pl. 74. col. 19. 18. 16. 15. 11. pl.
+                    73. col. 39. 38. 19. pl. 72. col. 44. 17. </p>
+            <p>La première de ces figures a partout le bec visiblement ouvert, le corps trappû,
+                    la queue composée de petites plumes, &amp; représente de la manière la plus
+                    caractéristique un oiseau aquatique qui, en poussant des cris &amp; en battant
+                    des aîles, est au moment de s’élever de l’eau, ou de s’enfuir en nageant avec
+                    précipitation. Le Man. B. le présente quelquefois debout, se tenant sur ses
+                    pieds, &amp; quelquefois sans jambes. Mais la bouche béante &amp; la forme du
+                    corps &amp; de la queue le distinguent aussi dans cette position. L’autre oiseau
+                    est toujours debout, &amp; bat simplement des ailes. </p>
+            <p>J’ai hésité longtems à décider, si ces deux oiseaux ne sont pas peut-être le même
+                    signe tracé avec des contours plus ou moins fugitives. Mais comme la différence
+                    des deux figures est constante, &amp; comme je n’ai jamais trouvé que
+                        <add>dans</add> des passages homophones l’une passât à la place de l’autre,
+                    je crois pouvoir supposer que ce sont là deux caractères de signification
+                    différente. Celui de <bibl sameAs="78">Votre Précis</bibl> ressemblé davantage au
+                    dernier. </p>
+            <p>Il y a un troisième oiseau qui a des plumes pendantes au cou, &amp; qui revient
+                    très-fréquemment dans les trois Manuscrits (<bibl sameAs="106">Déscr. de
+                        l’Eg.</bibl> pl. 73. col. 93. &amp; sous une figure différente col. 128.)
+                    Je l’ai rencontré dans un grouppe où il pourroit être pris pour homophone d˚un
+                    des deux dont je viens de parler. Mais un examen plus mûr m’a prouvé que ce
+                    seroit porter un jugement pour le moins précipité. Le grouppe en question (nr.
+                    18. ci-joint) semble au contraire repondre à deux mots dont le dernier diffère
+                    dans les deux passages. Le grouppe de l’oiseau ayant des plumes au cou suivi de
+                    la petite ligne perpendiculaire revient souvent dans les Manuscrits, &amp; je me
+                    tromperois fort, s’il ne formoit pas un mot à lui seul, &amp; même s’il
+                    n’indiquait pas le nom de quelque divinité. Il est fréquemment placé de manière
+                    à ne pas pouvoir se lier ni <subst>
+                  <del>avec</del>
+                  <add>
+                     <sic>a les</sic>
+                  </add>
+               </subst> signes qui le précèdent, ni <del>avec</del> aux qui viennent après lui.
+                    Le nr. 19. des grouppes ci-<pb n="244r"/>joints réunit les trois oiseaux
+                    mentionnés ici, tracés de manière à ne pouvoir guères être confondûs. </p>
+            <p>Je crois ne pas devoir passer sous silence non plus ici l’oiseau qui, en battant
+                    des ailes, semble prendre de la nourriture d’une corbeille ou d’un vase
+                    semblable. (<bibl sameAs="106">Déscr. de l’Eg.</bibl> p. 73. col. 128.) </p>
+            <p>Le Manuscrit de la <bibl sameAs="106">Déscr. de l’Egypte</bibl> représente (pl.
+                    74. Col. 76.) deux oiseaux qui battent des ailes, et qui sont assis sur des
+                    vases tels que Vous les donnés, Monsieur, dans Votre tableau général comme
+                    exprimant l’idée de <hi rend="underline">seigneur</hi>. Le rapprochement de ce
+                    passage et du passage parallèle du Man. A. m’a parû remarquable à faire. Je
+                    joins à ces deux passages encore un troisième où les deux oiseaux sont suivis
+                    des noms d’Isis, Horus &amp; Amset. (nr. 24. 25. des grouppes ci-joints)</p>
+            <p>L’oiseau figuré <bibl sameAs="78">nr. 55. de Votre Alphabet</bibl> ressemble pour
+                    sa posture à l’oiseau <subst>
+                  <del>à</del>
+                  <add>au</add>
+               </subst> bec ouvert. Mais il n’a ni ce signe caractéristique, ni les ailes
+                    battantes. </p>
+            <p>J’ignore donc complettement quel son il faut attribuer à ce signe et me borne à
+                    indiquer (nr. 20. 21. des grouppes ci-joints) deux combinaisons de caractères
+                    dans lesquelles il entre. </p>
+            <p>La 8<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> signe du nr. 1. des
+                    grouppes ci-joints, le caractère figuratif <hi rend="underline">homme</hi>, ne
+                    donne lieu à aucune observation particulière; mais je voudrois Vous soumettre
+                    quelques questions à l’égard de ce signe, Monsieur. </p>
+            <p>Comme la figure humaine reparoit dans des attitudes très-différentes dans les
+                    Hieroglyphes, est-ce exclusivement celle dans laquelle un bras est étendû et
+                    l’autre appuyé sur la hanche, qui sert à désigner figurativement un homme? </p>
+            <p>Cette figure dans cette attitude a-t-elle exclusivement ce sens, ou est-elle
+                    placée aussi quelquefois phonétiquement, en signifiant <hi rend="italic">s</hi>,
+                    comme celle qui porte une main à la tête? </p>
+            <p>Vous trouverez ci-joint (nr. 22. 23.) deux grouppes qui m’ont conduit à cette
+                    idée. Je n’oserois cependant rien décider là-dessus, puisque je me suis
+                    convaincu qu’on peut très-facilement être induit en erreur sur les signes qui
+                    semblent homophones, sans l’être réellement. </p>
+            <p>Dans <bibl sameAs="78">Votre planche XI. nr. 4. p. 209.</bibl> Vous expliquez,
+                    Monsieur, une figure assise, tenant un fléau ou fouet en main, simplement par
+                        <foreign sameAs="cop">ⲣⲱⲙⲉ</foreign>. Mais le fouet n’indique-t-il pas
+                    toujours un dieu, ou, vouloit-on exprimer de cette manière que le défunt, comme
+                    tel, étoit regardé comme une divinité, puisqu’en effet à une place déterminée
+                    des tableaux des Manuscrits funéraires qui manque à celui de la <bibl sameAs="106">Déscr. de l’Egypte</bibl> pl. 72. mais qui se trouve dans le Manuscrit
+                    hieratique pl. 70. on vient leur offrir des offrandes? </p>
+            <p>La 4<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> &amp; 8<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> partie du nr. 1. des
+                    grouppes ci-joints renferment les signes de décès, ainsi que <bibl sameAs="78">Votre Précis</bibl> (tabl. gén. nr. <pb n="244v"/> 450.) les présente.
+                    Mais on trouve dans quelques passages après ces signes un grouppe de plus formé
+                    par la ligne perpendiculaire qui termine enbas par un ovale ou un cercle, par
+                    l’oiseau <bibl sameAs="78">nr. 35. de Votre Alphabet</bibl>, et par l’homme
+                    portant la main gauche à la tête, ou plutôt par ces deux derniers signes
+                    seulement. Car il est visible que le trait perpendiculaire fait encore partie de
+                    ceux qui précèdent, auxquels dans ce cas il manque constamment. Ce grouppe est
+                    évidemment phonétique, puisqu’on trouve aussi à la place de l’oiseau, son signe
+                    homophone, le lituus qui dans plusieurs passages du Manuscrit B. (où cependant
+                    ce groupe n’est pas précédé par le nom du défunt, mais seulement par la ligne
+                    perpendiculaire) se joint, en formant un signe composé, à la figure de l’homme.
+                    (nr. 26. des groupes ci-joints) Le nom du défunt est suivi dans un passage de ce
+                    Manuscrit par le lituus seul (<bibl sameAs="78">nr. 36. de l’Alphabet
+                        hier.</bibl>) après lequel vient immédiatement le nom de la mère du défunt,
+                    &amp; la même chose se trouve dans un autre passage après le nom de cette
+                    dernière. Ce lituus ou <hi rend="italic">o</hi> est aussi toujours précédé par
+                    la ligne perpendiculaire qui appartient aux signes du décès, et il ne me semble
+                    être qu’une abréviation du grouppe de l’oiseau avec la figure qui porte la main
+                    à la tête, <hi rend="underline">os</hi>. </p>
+            <p>Le Man. A. n’a jamais ces signes à la suite du nom du défunt &amp; de ses
+                    parens.</p>
+            <p>Dans le Manuscrit de la <bibl sameAs="106">Déscr. de l’Egypte</bibl> ils se
+                    trouvent terminant la mention faite du défunt pl. 74. col. 43. Dans un autre
+                    passage le nom de la mère du défunt (pl. 75. col. 42.) est suivi d’un oiseau
+                        (<bibl sameAs="78">nr. 35. de l’Alphabet hier.</bibl>) qui pourroit être une
+                    abbréviation, comme le lituus du Man. B. Mais ce caractère peut aussi se lier <subst>
+                  <del>avec</del>
+                  <add>
+                     <sic>a les</sic>
+                  </add>
+               </subst> autres qui le suivent. Car ce qui me fait prendre le lituus du Man. B.
+                    positivement pour une abbréviation, c’est qu’il se trouve une fois entre les
+                    noms du défunt &amp; de sa mère où il est impossible qu’il se lie <subst>
+                  <del>a</del>
+                  <add>avec</add>
+               </subst> ce qui vient après lui. </p>
+            <p>Je n’ai pas besoin de répéter que je ne parle ici de ces deux signes, l’oiseau
+                    &amp; la figure portant la main à sa tête, qu’en autant qu’ils sont précédés de
+                    la ligne perpendiculaire qui annonce l’idée de la mort. Car du reste ils forment
+                    la syllabe <hi rend="underline">os</hi> qui peut appartenir à beaucoup d’autres
+                    mots. </p>
+            <p>Vous n’avez point expliqué phonétiquement, Monsieur, le <bibl sameAs="78">groupe
+                        450. de Votre Tableau général</bibl> dont les premiers trois signes se
+                    liroient d’ailleurs tout naturellement <foreign sameAs="cop">ⲥⲧⲁ</foreign> ou
+                        <foreign sameAs="cop">ⲥⲁⲧⲁ</foreign> ou de quelqu’ autre manière selon
+                    l’insertion des voyelles. Il me paroit aussi résulter nécessairement des moyens
+                    de déchiffrement qu’on peut appliquer aux hieroglyphes &amp; de notre
+                    connoissance peu étendue de l’ancienne langue Egyptienne qu’on puisse dans
+                    certains cas assigner un sens à un grouppe phonétique sans connoître <pb n="245r"/> pour cela son expression précise dans la langue parlée.</p>
+            <p>Je n’ose donc décider, si la ligne qui porte un cercle à son extrémité
+                    inférieure, qui est quelquefois perpendiculaire, mais plus souvent
+                    horizontalement couchée, et qui ressemble à une rame ou peut-être à un
+                    instrument de labourage, est ou n’est pas un signe phonétique.</p>
+            <p>Ce qui m’a frappé c’est que dans un groupe de signes (nr. 27. des groupes
+                    ci-joints) qu’on rencontre plusieurs fois dans le Man. B. il se trouve dans un
+                    passage à la place de ce signe un caractère qui paroit être le <bibl sameAs="78">nr. 29. de Votre Alphabet</bibl>. L’avant-dernier signe du <bibl sameAs="78">groupe 8. de Votre planche VI.</bibl> a aussi souvent dans le Man. B. la
+                    forme notée nr. 58. des groupes ci-joints toute approchante de la ligne
+                    perpendiculaire ou horizontale. </p>
+            <p>Ce signe reparoit aussi sans les autres signes du décès &amp; sans les lettres
+                        <hi rend="underline">os</hi> dans d’autres groupes dont je me bornerai à
+                    citer celui des col. 99. 58. 56. de la pl. 72. &amp; de la col. 77. de la pl.
+                    73. de la <bibl sameAs="106">déscr. de l’Eg.</bibl> &amp; un autre du Man. A.
+                    (nr. 28. des groupes ci-joints<supplied cert="high">)</supplied>.</p>
+            <p>Réunie à la syllabe <hi rend="underline">os</hi>, réprésentée par l’oiseau ou le
+                    lituus, &amp; par la figure qui porte la main à la tête, la ligne terminant par
+                    un ovale ou un cercle se trouve pour la plupart à la suite des autres signes de
+                    décès, cela n’est cependant pas toujours le cas. Il est aussi quelquefois dénué
+                    de ces signes tant dans le Manuscrit de la <bibl sameAs="106">Déscr. de
+                        l’Egypte</bibl> (pl. 72. col. 23.) que dans le Papyrus B. (nr. 30. des
+                    groupes ci-joints)</p>
+            <p>L’emploi le plus fréquant de ce groupe semble pourtant être celui où il est
+                    précédé par les signes qu’on pourrait lire <foreign sameAs="cop">ⲥⲁⲧⲁ</foreign>. </p>
+            <p>Il y a dans le Manuscrit de Paris (<bibl sameAs="106">Déscr. de l’Eg.</bibl> p.
+                    74. col. 120–66.) un passage très-long qui est partagé en 10 sections commençant
+                    chacune par les signes de la plume &amp; de la figure qui porte la main à la
+                    tête, et ayant après ces caractères <del>la</del> constamment la formule
+                    suivante; </p>
+            <p>1., le caractère symbolique du dieu Thot,<lb/>2., deux sceptres affrontés suivis
+                    de signes du décès,<lb/>3., le caractère symbolique d’Osiris,<lb/>4., un groupe
+                    très-fréquent dans les Manuscrits funéraires qui se distingue par une figure
+                    bizarre &amp; courbée, et qui commence par la bouche et termine par le céraste,
+                    que j’ai cependant souvent trouvé aussi sans ces deux signes. Ce groupe paroit
+                    être en rapport intime avec <subst>
+                  <del>les idées</del>
+                  <add>l’idée</add>
+               </subst> de la mort, puisqu’il se lie souvent, comme ici, avec les signes du
+                    décès.<lb/>5., deux sceptres affrontés suivis des signes du décès,<lb/>6., le
+                    caractère symbolique d’Osiris,<lb/>7., le nom du défunt &amp; sa
+                    parenté,<lb/>8., le groupe de la figure courbée,<lb/>
+               <pb n="245v"/> 9., les
+                    signes notés nr. 59. des groupes ci-joints qui semblent former un mot à eux
+                    seuls, puisque le groupe qui les suit immédiatement, se trouve ordinairement
+                    sans eux,<lb/>10., deux sceptres affrontés suivis de signes du décès,<lb/>11.,
+                    le caractère symbolique d’Osiris,<lb/>12., le groupe de la figure
+                    courbée,<lb/>13., le nycticorax<note type="footnote" resp="editor">D.h.
+                        Nachtreiher.</note>, m, probablement <hi rend="underline">par</hi>,<lb/>14.,
+                    le caractère symbolique du ciel,<lb/>15., un groupe commençant par les signes
+                    notés nr. 60 des groupes ci-joints et terminant par le bras étendu &amp; le
+                    segment de sphère. Ce groupe paroit composé de deux parties de manière que la
+                    figure du dieu assis forme le dernier caractère de la première. Car l’on trouve
+                    chacune de ces deux parties isolément,<lb/>16., un grouppe de quatre signes
+                    extrêmement fréquent dans ces Manucrits. </p>
+            <p>Après cette formule les différentes sections de ce passage varient, et semblent
+                    être chacune d’un contenû différent. </p>
+            <p>Le Man. A. renferme ces mêmes dix sections avec les mêmes signes initiaux. Les
+                    sections y sont même séparées par des lignes de manière qu’elles forment des
+                    compartimens symmétriques. La formule que je viens de décrire, est absolument la
+                    même dans le Man. A. à l’exception de quelques changemens peu notables. Le seul
+                    qui m’a<add>it</add> parû digne d’attention, est qu’un vase à anse (<bibl sameAs="78">nr. 20. de Votre Alphabet</bibl>, <foreign sameAs="cop">ⲕ</foreign>) est ordinairement placée entre 10., &amp; 11., &amp; 12.,
+                    &amp; 13., Mais <del>dans</del> la partie qui suit cette formule diffère
+                    considérablement d’un Manuscrit à l’autre. </p>
+            <p>J’ai cherché envain ce même passage &amp; ce même arrangement de formules
+                    homophones dans le Man. B. Il n’y existe pas, soit qu’il ait réellement manqué à
+                    ce Manuscrit, soit qu’il ait trouvé place dans une partie mutilée du Papyrus. On
+                    rencontre à la vérité dans les premières colonnes du Manuscrit dont le
+                    commencement est mutilé, le caractère du dieu Thoth suivi des sceptres affrontés
+                    et des mêmes signes du décès que dans le Manuscrit de Paris, le groupe de
+                    l’homme courbé s’y joint encore, mais le groupe d’Osiris manque, ainsi que les
+                    autres groupes, &amp; le passage n’est évidemment pas le même. Comme il ne
+                    semble pas, que ce Manuscrit ait éprouvé une mutilation considérable, pas même
+                    dans son commencement, la circonstance dont je parle, paroit prouver que la
+                    conformité de ces rituels funéraires n’est pourtant pas aussi grande qu’on le
+                    croiroit au premier coup-d’oeil. J’ai observé plus haut que le Man. A. ne donne
+                    que la moitié d’une autre partie de ces formulaires. </p>
+            <p>Les signes du décès dans les passages du Man. de Paris dont je parle ici, varient
+                    assez considérablement, &amp; l’écrivain leur a donné tantôt plus, tantôt moins
+                    d’étendue. (Comparez <bibl sameAs="106">pl. 74. col. 108.</bibl>
+               <pb n="246r"/>
+               <bibl sameAs="106">93. 69.</bibl>) mais ordinairement les signes de l’oiseau, <hi rend="italic">o</hi>, &amp; de la figure tenant sa tête, <hi rend="italic">s</hi>, en font partie &amp; suivant immédiatement le caractère qui est le
+                    dernier des quatre qui forment le <subst>
+                  <del>grouppe</del>
+                  <add>groupe</add>
+               </subst> complet de l’hieroglyphe du décès. Il est remarquable que le Man. A. ne
+                    joigne jamais ces signes à ceux qui indiquent habituellement une personne
+                    défunte. Ils n’y paroissent pas une seule fois, <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> ni peutêtre <subst>
+                  <del>pas</del>
+                  <add>non</add>
+               </subst> plus dans aucune autre partie du manuscrit. </p>
+            <p>Quoique ces signes, <hi rend="underline">os</hi>, se trouvent ordinairement
+                    placés après ceux qui indiquent une personne défunte, je suis très-éloigné de
+                    croire qu’ils fassent partie de ces signes. Ce n’est, il me semble, que la
+                    liaison des idées qui les y rattache. Il me paroit que ce groupe exprime
+                    phonétiquement le mot ⲱϣ dont la signification de <hi rend="underline">déclarer</hi>, <hi rend="underline">annoncer</hi>, <hi rend="underline">invoquer</hi>, même de <hi rend="underline">promettre</hi> &amp; de <hi rend="underline">faire voeu</hi> convient extrèmement bien au contenû des
+                    Manuscrits funéraires en général, &amp; donne aussi un sens très-naturel dans
+                    les passages où il reparoit le plus fréquemment. Dans ceux cités ci-dessus du
+                    Man. de Paris il est toujours suivi du caractère d’Osiris, dans un passage du
+                    Man. B. (col. 3.) de celui d’Horus. Précédé dans ces passages par les signes de
+                    personne défunte il semble dire: <hi rend="underline">le défunt invoque Osiris
+                        cet</hi>. ou peut être aussi <hi rend="underline">s’est voué à Osiris</hi>.
+                    On conçoit aussi aisément que l’hieroglyphe de l’invocation peut être placé à la
+                    suite des noms des défunts sans que l’objet particulier auquel ces invocations
+                    s’addressent, soit désigné, et qu’on a pû entièrement le laisser dehors,
+                    puisque, lorsque le nom d’une divinité est placé après, celui d’un défunt, le
+                    rapport dans lequel ils doivent se trouver, saute de soi même aux yeux du
+                    lecteur.</p>
+            <p>Je passe cependant volentiers de ces conjectures à une question que je voudrois
+                    Vous soumettre, Monsieur, sur le vaisseau à anse qui dans le Man. de Paris
+                        (<bibl sameAs="106">pl. 74. col. 98. 92. 73.</bibl>) se trouve inséré dans
+                    les signes, de la personne défunte, &amp; qui, en précédant un de ces signes,
+                    semble réellement en faire partie. Le Man. A. le place, comme nous venons de le
+                    voir, quelquefois immédiatement après ces signes, mais jamais parmi eux. </p>
+            <p>Vous remarquerez, Monsieur, dans la 5<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> partie du nr. 1. des groupes ci-joints que les caractères
+                    qui indiquent habituellement la filiation, lorsqu’il est question de la mère du
+                    défunt, parmi tant de répétitions de son nom, ne sont employés que trois fois,
+                    tandisque 98. fois l’oeil &amp; le segment de sphère ou l’oeil seul occupent
+                    leur place. Je ne saurois Vous nier que le segment de sphère, <foreign sameAs="cop">ⲧ</foreign> (qui pour faire cette observation en passant,
+                    ressemble dans le Man. A. habituellement plutôt à un triangle équilatéral) n’a
+                    pas laissé que de m’embarasser beaucoup, puisqu’il est ordinairement le signe du
+                    sexe feminin. </p>
+            <p>J’ai d’abord consulté <bibl sameAs="78">Votre précis</bibl> &amp; j’y ai trouvé
+                    les deux signes <bibl sameAs="78">nr. 259. du tabl. gén.</bibl> Mais
+                    l’explication de ce seul numéro <pb n="246v"/> manque malheureusement (<bibl sameAs="78">p. 31.</bibl>) dans l’explication des planches, &amp; partout où
+                    Vous parlez dans <bibl sameAs="78">Votre ouvrage</bibl> du signe de filiation
+                    suivi de la lettre <foreign sameAs="cop">ⲧ</foreign>, <foreign sameAs="cop">ⲥⲉⲧ</foreign>, <foreign sameAs="cop">ϣⲉⲧ</foreign> (<bibl sameAs="78">p.
+                        74. 79. 169.</bibl>) Vous regardez cette lettre comme l’article féminin
+                    placé, contre la coutûme de la langue Copte, à la fin du mot. J’ai crû devoir
+                    conclure de là que même là où Vous ajoutez au mot de <hi rend="underline">fille</hi> celui d’<hi rend="underline">enfant</hi> (<bibl sameAs="78">Explic. des pl. nr.
+                    258.</bibl>) Vous n’avez pas voulû dire que <foreign sameAs="cop">ⲥⲉⲧ</foreign> peut
+                    aussi signifier <hi rend="underline">fils</hi>. </p>
+            <p>Malgré cela il est évident que le Man. B. appartient à la momie d’un homme, &amp;
+                    non pas d’une femme. Le signe figuratif <hi rend="underline">homme</hi> duquel
+                    son nom est constamment suivi, &amp; la manière dont le défunt est dessiné dans
+                    les tableaux du Manuscrit, l’attestent indubitablement. Il ne peut pas non plus
+                    être question ici de la fille du défunt. Car dans ce cas le groupe ordinaire de
+                    la filiation du côté de la mère, <foreign sameAs="cop">ⲙⲓⲥⲓ</foreign>, ne
+                    pourroit jamais trouver place dans cette combinaison d’idées, celui de <foreign sameAs="cop">ⲥⲉⲧ</foreign> devroit être suivi du prénom, &amp; l’idée de
+                        <hi rend="underline">maîtresse de maison</hi>, appartenant évidemment à la
+                    mère du défunt, ne conviendroit point à sa fille. </p>
+            <p>Le signe ⲧ ne peut donc point être ici l’article féminin, mais doit, réuni à l’
+                        <foreign sameAs="cop">ⲥ</foreign>, s’adopter à un individû du sexe
+                    masculin, désigner <hi rend="underline">fils</hi>, et non pas <hi rend="underline">fille</hi>. </p>
+            <p>J’ai comparé ensuite les deux autres Manuscrits. </p>
+            <p>Celui de Paris présente trois fois les signes <hi rend="underline">oeil</hi>
+                    &amp; <hi rend="underline">segment de sphère</hi>, au lieu de <foreign sameAs="cop">ⲙⲓⲥⲓ</foreign> (<bibl sameAs="106">pl. 75. col. 53. 18.
+                        5</bibl>.) et il est également indubitable qu’ils y indiquent la filiation
+                    du défunt du côté maternel. J’aurois desiré que Vous eussiez voulû parler du nom
+                    de la mère de cet Egyptien dans <bibl sameAs="78">Votre ouvrage</bibl>. Il semble
+                    devoir se prononcer <foreign sameAs="cop">ⲛⲟⲥⲃⲉⲛϫ</foreign> mais j’hésite à le
+                    lire ainsi, puisqu’on trouve aussi </p>
+            <p>
+               <foreign sameAs="cop">ⲛⲟⲧⲥⲃⲉⲛϫ</foreign>
+               <bibl sameAs="106">pl. 74. col. 82.</bibl>
+               <lb/>
+               <foreign sameAs="cop">ⲛⲟⲧⲥⲧⲃⲉⲛϫ</foreign>
+               <bibl sameAs="106">pl. 74. col. 73.</bibl>
+               <lb/>
+               <foreign sameAs="cop">ⲛⲟⲥⲧⲓⲃⲉⲛϫ</foreign>
+               <bibl sameAs="106">pl. 74. col. 4. pl. 73. col. 7.</bibl>
+            </p>
+            <p>L’omission, presque régulière, de consonnes dans un nom propre me semble fort
+                    extraordinaire, &amp; me rend douteux, si le nom de la défunte n’est pas
+                    seulement <foreign sameAs="cop">ⲃⲉⲛϫ</foreign>, &amp; si les premières lettres
+                    n’appartiennent pas à un mot qui précède ce nom en guise de titre. Les
+                    abbréviations seroient alors plus facile à expliquer. </p>
+            <p>Le Man. A. est de la Momie d’une femme, comme l’indiquent les tableaux et la
+                    petite figure tenant la tige de lotus. Son nom se trouve tantôt accompagné de
+                    celui de ses deux parens, tantôt de celui de sa mère seulement, tantôt, &amp;
+                    c’est là l’ordinaire, tout seul. Sa filiation du côté du père est constamment
+                    indiquée par le Chenalopex<note type="footnote" resp="editor">Heute veraltete
+                        Bezeichnung der Nilgans (moderne Bezeichnung: <hi rend="italic">Alopochen
+                            aegyptiaca</hi>). [FZ]</note> précédé du segment de sphère (<bibl sameAs="78">nr. 254. de Votre tableau gén.</bibl>) <foreign sameAs="cop">ⲧϣⲉ</foreign>, celle du côté de la mère tantôt par <foreign sameAs="cop">ⲙⲓⲥⲓ</foreign>, tantôt par l’oeil &amp; le segment de sphère, et une fois
+                    par l’oeil, le segment de sphère &amp; une petite ligne perpendiculaire à la
+                    fin. La voyelle indiquée <pb n="247r"/> par cette ligne, semble appartenir aux
+                    signes qui <del type="fragment">p</del> la précèdent, puisqu’elle est suivie du
+                    caractère symbolique de <hi rend="underline">maîtresse de maison</hi>. </p>
+            <p>Comme il pourroit Vous intéresser, Monsieur, de connoître les noms mentionnés
+                    dans ce Manuscrit, je les ai transcrits nr. 31. des groupes ci-joints. Les deux
+                    premiers de ces noms renferment des signes que Vous n’avez pas encore insérés
+                    dans <bibl sameAs="78">Votre Alphabet</bibl>; je n’entreprendrai donc pas de les
+                    lire. Les <subst>
+                  <del>consonnes</del>
+                  <add>lettres écrites</add>
+               </subst> du nom de la mère semblent être <foreign sameAs="cop">ⲧⲕⲟ<add>ⲩ</add>ⲥⲃⲕ</foreign>. </p>
+            <p>Le nom du père est précédé une fois (Div. I. col. 14.)<note type="footnote" resp="editor">Dieser Verweis bezieht sich auf Humboldts Arbeit zum Papyrus A
+                        in Berlin: Coll. ling. fol. 27, Bl. 8r. [FZ]</note> par les signes notés nr.
+                    61. des groupes ci-joints, une autre fois (<subst>
+                  <del>Div.</del>
+                  <add>Sect.</add>
+               </subst> I. col. 31.)<note type="footnote" resp="editor">Dieser Verweis bezieht sich auf Humboldts Arbeit zum Papyrus A in Berlin:
+                        Coll. ling. fol. 27, Bl. 9v. [FZ]</note>
+               <add>par</add> des signes notés
+                    nr. 62. des groupes ci-joints, une troisième fois (Sect. I. col. 36.)<note type="footnote" resp="editor">Dieser Verweis bezieht sich auf Humboldts
+                        Arbeit zum Papyrus A in Berlin: Coll. ling. fol. 27, Bl. 10r. [FZ]</note>
+                    des signes notés nr. 63. des groupes ci-joints qui par consequent se placent
+                    entre la ligne horizontal (<foreign sameAs="cop">ⲛ</foreign>) qui indique la
+                    préposition <hi rend="underline">par</hi> ou <hi rend="underline">de</hi> &amp;
+                    le nom du père. Il est évident que ces signes n’appartiennent pas à ce nom,
+                    puisqu’il se trouve sans eux, &amp; tel que Vous le voyez nr. 31. des groupes
+                    ci-joints, au dessus de la tête de la défunte. Je crois donc pouvoir conclure de
+                    là que ces caractères expriment une qualification du défunt dont ils précèdent
+                    le nom, ainsi que ceux qu’on voit à la même place devant un nom propre dans le
+                    Manuscrit de Paris (<bibl sameAs="106">pl. 73. col. 7</bibl>) où il est
+                    visiblement question d’Amonré, <add>mais où</add> le second signe m’est inconnû;
+                    il semble <add>cependant</add> le même que que celui qu’on trouve <bibl sameAs="106">col. 19. pl. 72</bibl>. Mais que veut dire dans le Man. A. le
+                    groupe nr. 61. ci-joints? Le dernier signe du nr. 62. et l’avant-dernier du nr.
+                    63. est évidemment un <hi rend="underline">n</hi>, &amp; le dernier du nr. 63.
+                    le caractère symbolique du dieu Amon. </p>
+            <p>Je n’ai pas pû découvrir le nom du père de l’Egyptien à la momie duquel
+                    appartenoit le Man. B. Il ne s’y trouve pas de la manière ordinaire à la suite
+                    du nom du défunt. S’il en est fait mention, c’est d’une manière plus cachée
+                    &amp; qui, pour être reconnue, exige une connoissance plus profonde de
+                    l’écriture hieroglyphique. </p>
+            <p>Je dois faire le même aveu par rapport au Manuscrit de la <bibl sameAs="106">Déscription de l’Egypte</bibl>. J’ai crû à la vérité un moment le
+                    découvrir <bibl sameAs="106">col. 83. pl. 72</bibl>. Le nom du défunt est
+                    immédiatement suivi ici, ainsi que c’est souvent le cas, par deux signes que je
+                    crois être équivalens au <bibl sameAs="78">nr. 240. de Votre tabl. gén.</bibl> en
+                    transformant seulement le caractère symbolique <hi rend="underline">contrée</hi>
+                    dans l’abbréviation phonétique <foreign sameAs="cop">ⲕ(ⲁϩⲓ)</foreign> et
+                    dénoter <hi rend="underline">terre</hi>, <hi rend="underline">païs</hi> &amp;
+                    plus spécialement <hi rend="underline">l’Égypte</hi>. Après ce caractère vient
+                        <hi rend="underline">engendré par</hi>, puis une série d’hieroglyphes &amp;
+                    enfin le signe figuratif <hi rend="underline">homme</hi> qui semble indiquer que
+                    les hieroglyphes qui le précèdent, désignent un nom propre. Les signes du décès
+                    manquent, &amp; il seroit par conséquent ici question d’une individû encore
+                    vivant du tems de la mort de celui duquel est la momie. Mais ce qui m’embarasse
+                    dans l’explication de ce passage, c’est que, comme Vous l’observez, le signe
+                    ⲙⲓⲥⲓ est presqu’ exclusivement employé lorsqu’il est fait mention de la mère
+                    &amp; non pas du père du défunt. </p>
+            <p>Pour en revenir, après cette digression, aux caractères <hi rend="underline">oeil
+                        &amp; segment de</hi>
+               <pb n="247v"/>
+               <hi rend="underline">sphère</hi>, la comparaison des trois Manuscrits prouve à
+                    ce qu’il me paroit, à l’évidence qu’ils ne doivent point être pris pour le
+                    substantif <hi rend="underline">fils</hi> ou <hi rend="underline">fille</hi>,
+                    mais comme <foreign sameAs="cop">ⲙⲓⲥⲓ</foreign>, pour un verbe placé en guise
+                    de participe &amp; signifiant généralement: <hi rend="underline">engendré</hi>,
+                        <hi rend="underline">enfanté</hi>, <hi rend="underline">issû</hi>, cet.
+                    Lorsque l’oeil, s, est seul, il ne semble y avoir guères de difficulté de le
+                    rapporter aux verbes <foreign sameAs="cop">ϣⲁ</foreign>, <foreign sameAs="cop">ϣⲁⲓ</foreign>, <foreign sameAs="cop">ϣⲉ</foreign> desquels
+                    Vous parlez <bibl sameAs="78">p. 67. de Votre précis</bibl>. Mais comment
+                    expliquer le <foreign sameAs="cop">ⲧ</foreign> qui termine quelquefois les
+                    verbes Coptes, sans appartenir à leur racine? et comment rendre compte de la
+                    voyelle la petite ligne perpendiculaire, qui se trouve encore après cette
+                    lettre? Cette dernière pourroit peut-être appartenir au signe du Génitif
+                        <foreign sameAs="cop">ⲛ⳿</foreign> qui à la rigueur devroit se trouver
+                    avant le caractère <hi rend="underline">dame de maison</hi> &amp; qui semble
+                    omis par une simple négligence de l’écrivain. </p>
+            <p>L’observation ingénieuse &amp; importante que Vous faites, Monsieur, que
+                    l’écriture hieroglyphique plaçoit quelquefois les articles d’une manière
+                    inverse, n’en reste pas moins vraie quand même le <foreign sameAs="cop">ⲧ</foreign> final de <foreign sameAs="cop">ⲥⲉⲧ</foreign> n’en offriroit <subst>
+                  <del>pas</del>
+                  <add>point</add>
+               </subst> un exemple. Il est même prouvé par le mot de <hi rend="underline">mout</hi> que Vous citez d’après <persName ref="plutarch">Plutarque</persName>
+               <note type="footnote" resp="editor">Champollion, <hi rend="italic">Précis</hi>, Bd. 1, S. 74. [FZ]</note>, que cet article se
+                    prononçoit aussi à la même place. Car sans cette autorité là on auroit pû
+                    éleverl’objection que les Egyptiens plaçant souvent le signe du sexe féminin
+                    après les caractères symboliques &amp; accoutumés par ces derniers à regarder un
+                    mot comme exprimant dans son ensemble une idée, auroient pû en faire de même
+                    après les mots écrits phonétiquement, sans altérer pour cela leur prononciation.
+                    L’exemple du nom du Dieu Phtah que j’ai cité plus haut, semble prouver en effèt
+                    qu’ils ne tenoient pas toujours rigoureusement à l’ordre des lettres, quoique
+                    certainement il ne faille pas poser en principe cette méthode, puisqu’elle
+                    renverseroit d’ailleurs toute écriture alphabétique. La prononciation elle-même,
+                    lorsqu’elle est vicieuse, altère quelquefois l’ordre des lettres. </p>
+            <p>Le 12<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> signe du nr. 1.
+                    des groupes ci-joints présente l’irrégularité que l’article féminin y manque de
+                    manière qu’il faudroit proprement lire <hi rend="underline">maître</hi> &amp;
+                    non pas <hi rend="underline">maîtresse de maison</hi>. Il est néanmoins question
+                    d’une femme ici. </p>
+            <p>Le Man. A. place le signe de cet article après la voyelle initiale du mot <hi rend="underline">maison</hi>
+               <add>(nr. 32. des groupes ci-joints)</add> ce qui est aisé à expliquer d’après
+                    ce que Vous avez observé dans d’autres cas. Mais il manque aussi dans ce
+                    Manuscrit une fois. </p>
+            <p>Ce qui m’a beaucoup frappé, c’est que dans plusieurs passages de ce Manuscrit où
+                    il est fait mention de la mère de la défunte, le caractère <hi rend="underline">dame de maison</hi> est suivi de la bouche qui répond à la lettre <hi rend="underline">r</hi>. (nr. 33. des groupes ci-joints) Cet <hi rend="underline">r</hi> ne semble pas faire partie du nom propre, mais
+                    appartenir au signe <hi rend="underline">dame de la maison</hi>. Car on ne le
+                    trouve jamais là, où ce tître ne précède pas le nom. Il manque cependant
+                    quelquefois aussi là où ce tître est placée. Vous donnez la lettre <hi rend="underline">r</hi> pour signe initial au caractère <hi rend="underline">grand</hi> (<bibl sameAs="78">nr. 444. 445 du tabl. gén. p. 348.</bibl>) <pb n="248r"/> et l’idée m’est venue, Monsieur, que la bouche signe homophone du
+                    sceptre (<bibl sameAs="78">nr. 113. de Votre Alphabet</bibl>) pourroit bien être
+                    une abbréviation du même caractère. Je lirois donc nr. 33. des groupes ci-joints
+                        <hi rend="underline">grande dame de maison</hi>. </p>
+            <p>Le 13<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> caractère du nr.
+                    1. des groupes ci-joints est le signe du génitif, ainsi que le 11<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi>. Cette répétition du
+                    même signe est naturelle là où le caractère symbolique <hi rend="underline">dame
+                        de maison</hi> est placée <subst>
+                  <del>entr’</del>
+                  <add>entre les</add>
+               </subst> deux. L’un appartient pour lors à ce signe, l’autre au mot suivant.
+                    Mais <subst>
+                  <del>il</del>
+                  <add>ce double n</add>
+               </subst> se trouve constamment également <del>là répeté</del> là <sic>ou</sic>
+                    ce caractère manque, &amp; dans ces cas qui sont les plus fréquens, l’un des
+                    deux <hi rend="underline">n</hi> devient nécessairement superflû, puisque le
+                    même mot ne sauroit être accompagné de deux préfixes ayant la même
+                    signification. A-t-on peut-être voulû indiquer par manière d’abbréviation par la
+                    répétion du Préfixe que le second substantif doit être sousentendû? </p>
+            <p>Le 14<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> Caractère <subst>
+                  <del>des</del>
+                  <add>du nr. 1. des</add>
+               </subst> groupes <del>1.</del> ci-joints se voit sous cette même forme souvent
+                    dans le Manuscrit de la <bibl sameAs="106">Déscr. de l’Egypte</bibl> (p.e. pl.
+                    75. col. 54.) Mais le Man. A. le présente sous une forme un peu différente,
+                    &amp; dans le Man. B. même il passe à une autre quelquefois dans laquelle il
+                    pourroit être confondû avec un caractère dont j’ignore également la
+                    signification, mais qui est, on ne peut pas plus, fréquent dans les trois
+                    Manuscrits. J’ai placé l’un à côté de l’autre les différens caractères qui
+                    offrent plus ou moins de ressemblance (nr. 34. des groupes ci-joints) J’ai
+                    hésité à ajouter à ces caractères le <bibl sameAs="78">nr. 64. de Votre
+                        Alphabet</bibl> (<bibl sameAs="106">Déscr. de l’Eg. pl. 72. col. 86.</bibl>)
+                    quoiqu’il rappelle le caractère <hi rend="underline">c</hi>, et que sa forme
+                    hiératique surtout ressemble au caractère g. Car il m’a parû que c’est surtout
+                    la forme concave qui caractérise les signes <hi rend="italic">a–c</hi>. Il est
+                    vrai qu’elle manque au nr. <hi rend="italic">e.</hi> qui est positivement le
+                    même caractère. Mais ce n’est là qu’une négligence de l’écrivain, &amp; je ne
+                    crois pas devoir confondre pour cela les caractères <hi rend="italic">a–c.
+                        e</hi>. avec <hi rend="italic">f</hi> &amp; <hi rend="italic">g</hi>. </p>
+            <p>Le caractère dont il s’agit ici (nr. 34. a. des groupes ci-joints) désigne
+                    d’après <persName ref="tyoung">M<hi rend="superscript">r</hi>. Young</persName>
+                        (<bibl sameAs="468">an account of some recent discoveries cet.</bibl> p. 157.
+                    nr. 128.) l’idée de <hi rend="underline">femme</hi> (<foreign sameAs="en">
+                  <hi rend="underline">wife</hi>
+               </foreign>) Mais voyant que dans le passage de
+                    Votre ouvrage, Monsieur, où Vous indiquez les explications de <persName ref="tyoung">M<hi rend="superscript">r</hi>. Young</persName> que Vous
+                    croyez véritable, Vous n’adoptez point celle dont je viens de parler, j’essayai,
+                    si ce caractère formoit peut-être, comme signe phonétique, la lettre initiale du
+                    nom de la mère du défunt. Je m’apperçus plus tard de l’inscription de la stèle
+                    dont Vous donnez l’explication <bibl sameAs="78">p. 202 nr. 6. (pl. X. nr. 11.) de
+                        Votre ouvrage</bibl>, &amp; je revins pour lors à l’idée de <persName ref="tyoung">M<hi rend="superscript">r</hi>. Young</persName>. Il est vrai
+                    que Vous ne faites pas expressement mention du premier signe de cette
+                    inscription; mais Vous traduisez <foreign sameAs="cop">ⲧ(ϩⲓⲙⲉ)ϥ</foreign> et
+                    l’article seul ne sauroit exprimer l’idée d’épouse que Vous devez par conséquent
+                    avoir trouvé dans le caractére initial. L’application de cette signification au
+                    passage du Man. B. ne prouve néanmoins encore la double difficulté que ce
+                    caractère n’est pas accompagné ici de l’article féminin, &amp; qu’il n’est pas
+                    question ici de l’épouse, <pb n="248v"/> mais de la mère du défunt, quoiqu’en
+                    effèt sa mère pouvoit aussi être qualifiée <hi rend="underline">épouse</hi> sans
+                    que le nom du mari fût ajouté, surtout si le caractère suivant exprimoit
+                    peut-être l’idée d’être <hi rend="underline">chérie</hi>, <hi rend="underline">aimée</hi>. La phrase entière diroit dans ce cas <hi rend="underline">né de
+                        la grande dame de maison, l’épouse chérie, Asritto, femme défunte</hi>. </p>
+            <p>Ce ne sont cependant là que des conjectures, &amp; ce caractère pourroit
+                    très-bien n’être que phonétique. Car qu’il soit tel dans d’autres passages des
+                    Manuscrits funéraires, me semble probable à cause des différentes combinaisons
+                    dans lesquelles on le trouve avec d’autres hieroglyphes, &amp; rien n’empêche
+                    qu’il ne soit, ainsi que le disque solaire &amp; peut-être encore d’autres
+                    hieroglyphes, symbolique &amp; phonétique à la fois. </p>
+            <p>Deux passages surtout m’ont beaucoup frappé &amp; m’ont parû rendre probable que
+                    ce caractère exprime réellement l’idée de <hi rend="underline">femme</hi>,
+                    puisqu’il est suivi dans ces deux passages du segment de sphère &amp; du
+                    caractère figuratif de <hi rend="underline">femme</hi> ou <hi rend="underline">déesse</hi>. Vous les trouverez, Monsieur, dans la <bibl sameAs="106">Déscr.
+                        de l’Egypte</bibl> (pl. 72. col. 97.) et dans les groupes ci-joints (nr.
+                    35.) Le premier commence par trois caractères qu’on pourroit traduire <hi rend="underline">son frère</hi>, s’il est permis de mettre ici l’<hi rend="underline">oeil</hi> à la place du caractère qui exprime
+                    habituellement (<bibl sameAs="78">nr. 260–266. du tableau gén.</bibl>) ce degré
+                    de parenté. Puis vient le nom du Dieu <hi rend="underline">Thore</hi> &amp; le
+                    signe figuratif <hi rend="underline">dieu</hi>. Mais entre ces deux caractères
+                    se place une voyelle, <hi rend="underline">o</hi>, qui me rend douteux, si en
+                    effèt il est question de Thore ici? J’ai cependant observé souvent cette voyelle
+                    devant les signes figuratifs <hi rend="underline">homme</hi> &amp; <hi rend="underline">dieu</hi>, de manière qu’elle n’appartient peut-être pas au
+                    nom Thore. Après cela se trouvent le céraste qui indique peut être le pronom, le
+                    nycticorax &amp; les deux sceptres affrontés. Je crois pouvoir lire ces deux
+                    derniers signes <hi rend="underline">qu’il aime, elle</hi>, puisqu’aussi dans
+                    Voire <bibl sameAs="106">nr. 410. du tabl. gén.</bibl> le participe <foreign sameAs="cop">ⲙⲉⲓ</foreign> est indiqué par un <del>simple</del>
+               <hi rend="underline">m</hi> seulement. Enfin vient le caractère dont il s’agit
+                    ici, l’article féminin &amp; un signe figuratif que <del>pour</del> je prends
+                    pour une déesse &amp; non pas pour une femme, puisqu’il s’agit de divinités dans
+                    ce passage, &amp; que la même figure dans la même colonne est suivie du mot <hi rend="underline">vénérable</hi>. </p>
+            <p>Le passage du Man. B. que j’ai copié ci-joint (nr. 35.) semble parler d’une
+                    déesse, mère d’un Dieu dont le nom est suivi du signe figuratif, après semble
+                    venir <hi rend="underline">reine</hi>, <subst>
+                  <del>
+                     <hi rend="underline">femme</hi>
+                  </del>
+                  <add>épouse</add>
+               </subst> et encore un caractère figuratif, puis vient l’indication de deux dieux
+                    dont je ne puis déchiffrer le nom, &amp; enfin celle d’une déesse qui m’est
+                    également inconnue. </p>
+            <p>La qualification de <hi rend="underline">mère</hi> se trouve aussi à la suite du
+                    caractère duquel nous parlons, col. 25. pl. 72. de la <bibl sameAs="106">Déscr. de
+                        l’Egypte</bibl>, &amp; le bouquet de lotus qui annonce une femme défunte,
+                    accompagne souvent ce même caractère. </p>
+            <p>Un autre passage du Man. B. (nr. 36 des groupes ci-joints) semble aussi employer
+                    symboliquement ce caractère, puisqu’il y est lié avec <pb n="249r"/> d’autres
+                    signes également symboliques. </p>
+            <p>Il ya deux grouppes dans lesquels entre le caractère dont il s’agit ici,
+                    extrêmement fréquens dans les trois Manuscrits funéraires que j’ai sous les
+                    yeux. Dans le premier (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 75. col. 54.
+                    46. 34. 22. pl. 72. col. 9. 5.) ce caractère est suivi de la syllabe <hi rend="underline">ma</hi>, dans le second du caractère <hi rend="underline">s</hi> et d’une figure humaine assise ayant les bras étendûs (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 75. col. 15. pl. 74. col. 10. pl. 73.
+                    col. 71. 41.) Le premier se termine souvent par le signe figuratif <hi rend="underline">homme</hi> &amp; le céraste. J’ai été frappé de voir que
+                    dans un passage d’environ 50 signes qui dans les deux Manuscrits de Berlin
+                    semble être du même contenû, l’un de ces groupes est deux fois mis à la place de
+                    l’autre de manière qu’on doit les regarder comme rendant le même sens. (Voy. nr.
+                    37. des groupes ci-joints) Le groupe nr. 38. ci-joint semble les réunir,
+                    puisqu’il place à la suite du caractère en question les deux consonnes <hi rend="underline">m</hi> &amp; <hi rend="underline">s</hi> là où les deux
+                    groupes n’en offrent qu’un<add>e</add> seul<add>e</add> chacun. </p>
+            <p>Il est peut-être encore utile à observer que ce caractère est fréquemment précédé
+                    par le signe <hi rend="underline">balance</hi>. (<bibl sameAs="106">Déscr. de
+                        l’Eg.</bibl> pl. 75. col. 15. p. 72. <supplied cert="high">col.</supplied>
+                    43. 40. 25.) </p>
+            <p>Il résulte des exemples que je viens de citer, ainsi que d’autres qu’on peut y
+                    ajouter (<bibl sameAs="106">Descr. de l’Eg.</bibl> pl. 75. col. 3. pl. 73. col.
+                    51. 44. 5. pl. 72. col. 40.) que ce caractère est, si non toujours, du moins
+                    ordinairement suivi d’un <hi rend="underline">m</hi>, &amp; très-souvent de la
+                    syllabe <hi rend="underline">ma</hi>. </p>
+            <p>Vous aurez aussi remarqué, Monsieur, que le caractère en question est quelquefois
+                    accompagné (<bibl sameAs="106">Déscript. de l’Eg.</bibl> pl. 73. col. 5. pl. 72.
+                    col. 40.) de l’oiseau aquatique qui tire un poisson de l’eau, caractère qu’ou
+                    trouve aussi sans le poisson &amp; de manière que l’oiseau semble seulement
+                    plonger son bec dans l’eau. </p>
+            <p>La circonstance que le caractère en question se trouve presque constamment
+                    accompagné de la lettre <hi rend="underline">m</hi>, jointe à celle que cette
+                    lettre manque dans quelques répétitions du nr. 1. des groupes
+                        <sic>ci-joints)</sic> tandisque la voyelle <hi rend="underline">a</hi> la
+                    suit toujours et sans aucune faute, m’a fait penser qu’il falloit prendre la
+                    consonne pour l’abbréviation comme <hi rend="underline">aimée</hi> &amp; la
+                    voyelle qui se trouve aussi là où la consonne est omise, pour la lettre initiale
+                    du nom de la mère du défunt. Car si ce nom commençoit par la voyelle a, il étoit
+                    important de ne jamais l’omettre, attention qui pour une voyelle intermédiaire
+                    ne seroit guères ordinaire dans un Manuscrit hieroglyphique. Malgré la
+                    probabilité de ces raisons, je n’oserois point décider avec certitude, si le nom
+                    dont il s’agit ici, doit se lire <hi rend="underline">Masritto</hi>, <hi rend="underline">Asritto</hi>, ou <hi rend="underline">Sritto</hi>
+                    seulement. Il est vrai que les noms propres dans les Manuscrits funéraires sont
+                    assez clairement <del>signalés</del> marqués par les caractères figuratifs &amp;
+                    les noms de parenté, mais comme il arrive pourtant qu’un mot commun soit placé
+                    dans ce même espace, il auroit été beaucoup à désirer que pour le bien des
+                    lecteurs on n’eût pas accordé aux Rois seuls l’honneur des encadremens
+                    elliptiques. Les noms des divinités &amp; des particuliers s’en trouveroient
+                    également bien. </p>
+            <p>Ce qui me rend encore douteux, si l’on doit détacher la lettre <hi rend="underline">m</hi> du <pb n="249v"/> nom propre ou non, c’est que <subst>
+                  <del>au</del>
+                  <add>l’emploi du</add>
+               </subst> participe <foreign sameAs="cop">ⲙⲉⲓ</foreign>, si l’on peut nommer
+                    participe la simple racine d’un verbe, seroit fait ici de manière, comme je ne
+                    le trouve dans aucun des exemples que Vous citez dans Votre Système. Car il
+                    voudroit dire ici généralement <hi rend="underline">épouse chérie</hi>, sans
+                    désigner l’individû par qui elle fût aimée, tandisque dans Vos exemples,
+                    Monsieur, d’ <foreign sameAs="cop">ⲁⲙⲟⲩⲛⲙⲉⲓ</foreign>, <foreign sameAs="cop">ⲙⲉⲓ ⲁⲙⲟⲩⲛ</foreign>, <foreign sameAs="cop">ⲙⲉⲓϥ</foreign>, <foreign sameAs="cop">ⲙⲉⲓⲥ</foreign> la personne qui porte cette affection, est
+                    toujours indiquée. Le doute m’est venû aussi, si la langue Copte permet un tel
+                    emploi, ou autorise au moins à le supposer dans l’ancien langage Egyptien. </p>
+            <p>Il faut avouer que la méthode de la langue Copte de former le participe &amp; le
+                    passif, est extrêmement imparfaite. Cette langue ressemble dans ce point, comme
+                    dans plusieurs autres, aux idiômes des peuples les moins cultivés. Le sens
+                    passif est transformé dans un sens actif, et conserve néanmoins le régime qui
+                    lui est propre, le participe appelle à son secours le pronom relatif, et la
+                    difficulté est plutôt augmentée que diminuée par là. Car ce pronom aussi est
+                    fort imparfait dans la langue Copte, ainsi que dans toutes les langues peu
+                    cultivées. Il employe sans nécessité le pronom démonstratif, &amp; peut souvent
+                    être confondû avec la conjonction du même son, on sort plutôt en même tems de
+                    conjonction ce qui est très-remarquable, puisqu’en effèt le pronom relatif est
+                    une conjonction transformée en pronom<note type="footnote" resp="editor">Soll
+                        heißen: „participe“.</note>. Il est fort important, mais très-difficile en
+                    même tems de distinguer dans la langue Copte ce qui doit être attribué à la
+                    corruption des tems postérieurs de ce qui appartient à l’imperfection de
+                    l’organisation primitive. L’analogie générale des langues porteroit à croire que
+                    l’emploi fréquent du pronom relatif, &amp; surtout de ce pronom joint au pronom
+                    démonstratif, fût plutôt propre aux tems postérieurs, &amp; que l’ancien idiôme
+                    se servît davantage des formes primitives du verbe dans les différens emplois
+                    d’actif &amp; de passif, de participe &amp; de verbe conjugué. Lorsqu’on
+                    considère en effèt que presque tous ces verbes Coptes servent en même tems de
+                    substantifs, et très-souvent encore de participes passifs (comme p.e. <foreign sameAs="cop">ⲙⲉⲛⲣⲓⲧ</foreign>) on voit clairement qu’il faut abandonner
+                    les idées grammaticales que nous puisons dans les langues les plus cultivées que
+                    l’esprit humain soit jamais parvenû à former, &amp; qu’il faut étudier le génie
+                    particulier de cet idiôme, c’est à dire la manière dont cette nation en
+                    particulier regardoit &amp; traitoit les élémens du discours pour en former un
+                    ensemble. Or en suivant cette route, il me semble évident qu’un mot Copte ne
+                    désigne que l’idée en général, &amp; que ce sont uniquement les affixes &amp;
+                    crémens qui le marquent comme telle ou telle forme grammaticale en particulier.
+                        <foreign sameAs="cop">ⲙⲓⲥⲓ</foreign> p.e. sera verbe avec <foreign sameAs="cop">ϯ</foreign>–<foreign sameAs="cop">ϯⲙⲓⲥⲓ</foreign>,
+                    participe ou adjectif verbal avec l’article <foreign sameAs="cop">ⲡⲓⲙⲓⲥⲓ</foreign>. &amp; ainsi du reste. <subst>
+                  <del>Si</del>
+                  <add>Lorsqu’</add>
+               </subst> un mot paroit sans ses affixes, il sera toujours incertain de quelle
+                    manière il devra être pris, à moins que l’usage ne lui ait assigné un sens
+                    déterminé. <foreign sameAs="cop">ⲉⲧⲧⲟⲓ</foreign> p.e. a, selon le Dictionnaire
+                    de Lacroze, toujours un sens passif, mais cela ne peut être que la suite d’un
+                    usage introduit, car d’après sa forme ce mot pourroit être tout aussi bien actif
+                    que <foreign sameAs="cop">ⲉⲑⲙⲉⲓ</foreign>
+               <pb n="250r"/> qui au contraire ne semble jamais être employé dans un sens
+                    passif. Si la langue Copte n’a pas conservé l’emploi du verbe <subst>
+                  <del>
+                     <foreign sameAs="cop">ⲙⲉⲓ</foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="cop">ⲙⲁⲓ</foreign>
+                  </add>
+               </subst> dans un sens passif, comme Vous l’observez, Monsieur, (<bibl sameAs="78">p. 155.</bibl>) cela ne peut encore tenir qu’<sic>a</sic> l’usage; car
+                        <foreign sameAs="cop">ⲙⲉⲛⲣⲓⲧ</foreign> ou <foreign sameAs="cop">ⲙⲉⲣⲓⲧ</foreign> qui est un verbe de la même genre, &amp; venant de la même
+                    racine, est employé passivement. D’après le génie de la langue Copte, les
+                    verbes, à bien peu d’exceptions près, peuvent dans ces cas indifféremment
+                    adopter l’un ou l’autre sens. Le participe est rarement caractérisé par une
+                    terminaison particulière; il est au passif la racine du verbe joint à l’article
+                    accompagné quelquefois d’un pronom possessif, ou au pronom relatif, <foreign sameAs="cop">ⲡⲓⲙⲓⲥⲓ</foreign>, <foreign sameAs="cop">ⲡⲁⲙⲉⲛⲣⲓⲧ</foreign>,
+                        <foreign sameAs="cop">ⲉⲧⲧⲟⲓ</foreign>, à l’actif cette même racine
+                    conjuguée ainsi que le sens l’exige, sans ou avec le pronom relatif. Dans ce
+                    dernier cas l’affixe par lequel le verbe est conjugué, ne trouve pas place,
+                    &amp; la forme devient, ainsi que nous venons de le voir, entièrement la même
+                    que dans le sens passif. </p>
+            <p>Ce qui seul marque pour &lt;lois&gt; l’emploi dans le sens actif, c’est le régime
+                    placé, comme crément, à la fin du verbe, <foreign sameAs="cop">ⲙⲉⲓϥ</foreign>,
+                        <foreign sameAs="cop">ⲙⲉⲓⲥ</foreign>. Ce crément est à l’accusatif, &amp;
+                    ce cas ne peut être régi que d’un verbe actif. Il est vrai que ce suffixe
+                    pourroit aussi être pris pour le pronom possessif qui se place également
+                    quelquefois à la fin des substantifs. Car telle est la ressemblance de la langue
+                    Copte avec les idiômes des peuples peu cultivés, qu’elle employe, ainsi que
+                    celles-ci, en grande partie le même pronom comme pronom possessif auprès des
+                    Substantifs, &amp; comme pronom, tenant lier le régime, auprès des Verbes. Mais
+                    je crois pourtant que cet emploi exigeroit toujours l’article au commencement du
+                    mot. </p>
+            <p>Il me paroit résulter de ce que j’e viens de dire, que le simple verbe dans sa
+                    forme primitive, sans affixes, ni crémens, peut servir de participe soit actif,
+                    soit passif, quoique la langue Copte actuelle ne semble pas en offrir d’exemple,
+                    mais ajouter toujours soit l’affixe du sujet de l’action, soit le crément du
+                    régime du verbe, soit enfin le pronom relatif ou l’article. Vous paroissez
+                    partager cette même opinion, Monsieur, &amp; dans les combinaisons de <foreign sameAs="cop">ⲡⲧⲁϩ-ⲙⲁⲓ</foreign>, ⲟⲩⲥⲓⲣⲉ-ⲙⲁⲓ le verbe n’est accompagné
+                    d’aucun des affixes dont la langue Copte a coutûme de l’entourer. Je doute même
+                    que cette dernière se serve de mots composés de ce genre, puisque je vois que
+                    des mots grecs <foreign sameAs="grc">θεόπνευστος</foreign>, <foreign sameAs="grc">γηγενὴς</foreign> cet. sont traduits par des
+                    circonlocutions.</p>
+            <p>La nature de l’ancien langage ne sembleroit par conséquent pas s’opposer à ce que
+                    le verbe, dénué de tout affixe, fut pris pour participe, et <foreign sameAs="cop">ϩⲓⲙⲓ ⲙⲉⲓ</foreign> comme nous l’avons ici, si le signe ⲙ
+                    n’appartient pas au nom propre, pourroit dire <hi rend="underline">épouse
+                        chérie</hi>, même peut-être <hi rend="underline">épouse aimante</hi>. Ce qui
+                    me fait hésiter seulement à embrasser cette opinion, c’est que, d’après
+                    l’analogie des phrases mentionnées ci-dessus, ces deux mots Coptes devroient
+                    présenter le sens de <hi rend="underline">chéri par l’épouse</hi>, idée qui ne
+                    peut point trouver place ici. </p>
+            <p>
+               <pb n="250v"/> Vous voyez, Monsieur, combien j’ai besoin d’être guidé par Vos
+                    lumières dans la lecture même d’un passage qui ne semble guères offrir de
+                    grandes difficultés.</p>
+            <p>Quoique je croye que les signes 20–22. du nr. 1. des groupes ci-joints doivent
+                    être prononcés <hi rend="underline">to</hi>, j’avance néanmoins que les trois
+                    traits qui indiquent ordinairement un pluriel, ne laissent pas que de
+                    m’embarrasser. J’ai pensé un moment que ces trois <del type="fragment">petites
+                        li</del> caractères pourroient peut-être indiquer, comme c’est le cas dans
+                    le Man. de la <bibl sameAs="106">Déscr. de l’Eg.</bibl> un titre de la divinité
+                    dont le nom entre dans celui de l’individû défunt, mais dans ce cas l’omission
+                    de l’idée principale: <hi rend="underline">Seigneur</hi> (<hi rend="underline">des mondes ou des parties du monde</hi>) seroit trop violente. Je préfère
+                    donc de prendre les trois petites lignes perpendiculaire pour une manière de
+                    tracer fugitivement les signes qui dans <bibl sameAs="78">le nr. 233 de Votre
+                        tabl. gén.</bibl> se trouvent au dessous des deux bâtons, ou pour la
+                    voyelle <hi rend="underline">i</hi> (<bibl sameAs="78">nr. 45. de Votre
+                        Alphabet</bibl>) de manière que le nom seroit <hi rend="underline">Asritoi</hi>. </p>
+            <p>Dans le Man. de la <bibl sameAs="106">Déscr. de l’Eg.</bibl> où les trois traits
+                    existent également, le cas n’est pas tout à fait le même. Car il est question
+                    dans ce Manuscrit d’un pluriel, le caractère <hi rend="underline">païs</hi>
+                    n’est pas répété (comme dans le <bibl sameAs="78">nr. 370. de Votre tabl.
+                        gén.</bibl>) et le signe du pluriel paroit être placé à la fin du groupe
+                    entier quoiqu’il se rapporte proprement à une partie de ce groupe seulement. Le
+                    groupe représente par là dans le nr. 370. une phrase &amp; dans le Manuscrit
+                    mentionné un mot composé. Mais ce qui répugne à l’analogie d’autres langues,
+                    c’est que le mot qui est placé au pluriel, forme le première &amp; non pas la
+                    dernière partie du composé.</p>
+            <p>Vous ne donnez point, Monsieur, (<bibl sameAs="78">p. 145. 146. 343. nr. 370. du
+                        tabl. gén.</bibl>) l’explication du segment de sphère, <foreign sameAs="cop">ⲧ</foreign>, qui suit la lettre ⲕ tant dans le numero cité
+                    que dans le Man. de la <bibl sameAs="106">Déscr. de l’Eg.</bibl> Cette lettre ne
+                    peut point être ici un signe du sexe féminin, puisque <foreign sameAs="cop">ⲕⲁϩⲓ</foreign> et <foreign sameAs="cop">ⲑⲟ</foreign> sont des substantifs
+                    masculins. Mais ne pourroit-on pas y reconnoître l’abbréviation du mot <foreign sameAs="cop">ⲧⲟⲓ</foreign> (<foreign sameAs="cop">ⲧⲟ</foreign> en
+                    dialecte sahidique) <hi rend="underline">portion</hi>, <hi rend="underline">partie</hi>, de façon que le sens complet du groupe serait: <hi rend="underline">seigneur des trois régions, parties du monde</hi>? </p>
+            <p> </p>
+            <p>2.,<lb/>Sur une légende royale d’<placeName ref="Aschmunein">Aschmounin</placeName>. </p>
+            <p>J’ai parlé plus haut de la 14<hi rend="superscript">
+                  <hi rend="underline2">me</hi>
+               </hi> pl. <bibl sameAs="1325">du Voyage</bibl> de <persName ref="jhminutoli">M<hi rend="superscript">r</hi>. le Comte de
+                        Minutoli</persName> qui vient de paroître ici. Il se trouve sur cette même
+                    planche un nom Royal répété plusieurs fois dont j’ai joint (nr. 40.) la copie à
+                    cette lettre, puisqu’il se pourroit que cet ouvrage ne se trouvât pas encore à
+                        <placeName ref="Paris">Paris</placeName>. L’éditeur, <persName ref="ehtoelken">le Professeur Toelcken</persName>, en a tenté la lecture
+                    d’après Vos principes, Monsieur, qu’il ne connoissoit cependant que d’après
+                        <bibl sameAs="76">Votre lettre à M<hi rend="superscript">r</hi>.
+                        Dacier</bibl>. Il <pb n="152r"/> hasarde la conjecture que ce nom soit <hi rend="underline">Philippe</hi>. Mais par quelle raison la voyelle brève <hi rend="underline">i</hi> bref de ce nom auroit-elle été allongée en deux sons
+                        <foreign sameAs="grc">η</foreign> &amp; <foreign sameAs="grc">α</foreign>? J’ai cherché envain dans le catalogue des Rois de <persName ref="manetho">Manéthon</persName>
+               <note type="footnote" resp="editor">Zu
+                        Manetho und mit den unterschiedlichen Überlieferungen seiner Königsliste
+                        siehe W. G. Waddell (1940): <hi rend="italic">Manetho</hi>, Cambridge (MA): Harvard University
+                        Press / London: Wiliam Heinemann. Diese Ausgabe wurde noch dreimal
+                        nachgedruckt, zuletzt 1964. [FZ]</note> un nom auquel on pourroit adapter
+                    les caractères hieroglyphiques, &amp; j’ai voulû diriger Votre attention,
+                    Monsieur, sur cette légende, puisqu’elle est tirée d’<placeName ref="Aschmunein">Aschmounin</placeName>, &amp; que Vous observez dans <bibl sameAs="78">Votre
+                        ouvrage (p. 388.)</bibl> que Vous manquez encore de moyens suffisans pour
+                    fixer l’époque des constructions de cet endroit.</p>
+            <p>
+               <bibl sameAs="1327">Le voyage</bibl> de <persName ref="cniebuhr">Niebuhr</persName> que malheureusement je n’ai pas sous les yeux dans ce
+                    moment, contient aussi un cartouche que j’ai envain essayé de déchiffrer, &amp;
+                    qui a cela de particulier que, quoique surmonté de l’abeille, il semble
+                    renfermer non pas le tître, mais le nom propre d’un Souverain.</p>
+            <p> </p>
+            <p>3.,<lb/>Sur quelques Cartels ou Cartouches dans le Man. A.</p>
+            <p>Comme les Cartouches d’après Votre nouvel ouvrage, Monsieur, sont exclusivement
+                    déstinés à renfermer des noms ou tîtres royaux, j’ai été étonné d’en trouver
+                    dans le Man. A. Mais je me suis convaincû bientôt de ce qu’ils n’y renferment
+                    jamais un nom propre d’un homme, mais un groupe d’hieroglyphes qu’on rencontre
+                    très-fréquemment dans les trois Manuscrits funéraires que j’ai devant les yeux. </p>
+            <p>Il y a quatre cartouches perpendiculairemens posés, absolument semblables, dans
+                    la série même des hieroglyphes, et chacun de ces quatre cartouches porte la même
+                    légende. Deux autres, l’un posé perpendiculairement, l’autre horizontalement
+                    couché, faisant également partie des colonnes hieroglyphiques, sont vuides et un
+                    septième n’est tracé qu’à moitié, comme on en trouve également un dans le Man.
+                    de la <bibl sameAs="106">Déscr. de l’Eg. pl. 73. col. 43</bibl>. </p>
+            <p>La légende des quatre Cartouches mentionnés ci-dessus (nr. 41. des groupes
+                    ci-joints) est un groupe d’hieroglyphes qui, comme je viens de le dire, existe
+                    également dans le Man. B. (Tableau des 16. <unclear>carées.</unclear> Bande 4.
+                    Compart. 3.) et dans celui de la <bibl sameAs="106">Déscr. de l’Eg. (pl. 74. col.
+                        78.)</bibl> La différence consiste seulement dans ce que ces deux Papyrus
+                    placent le signe figuratif <hi rend="underline">dieu</hi> au lieu du caractère
+                    symbolique nr. 226. de <bibl sameAs="78">Votre tabl. gén.</bibl> et qu’ils
+                    employent d’autres signes du décès. </p>
+            <p>Je suis douteux sur l’espèce d’animaux à laquelle je dois attribuer la figure
+                    couchée que j’ai désignée généralement (nr. 41.) mais sur la forme de laquelle
+                    Vous ne sauriez rester incertain, puisqu’elle est absolument la même dans les
+                    deux Manuscrits de Berlin que dans celui de la <bibl sameAs="106">Déscr. de
+                        l’Egypte</bibl>. Les longues oreilles me la firent prendre d’abord pour un
+                    lièvre, mais je me suis apercû plus tard que la queue courte de cet animal ne
+                    ressemble guères à celle de la figure. Un plus mûr examen me fait croire
+                    àprésent que c’est un loup qu’on a voulû représenter. Car outre que la figure
+                    ressemble assez à cet animal, <pb n="251v"/> j’ai pû voir, comme je l’exposerai
+                    plus en détail ci-dessous, que le groupe d’hieroglyphes dont cet animal forme la
+                    principale partie, se trouve dans un rapport particulier avec le dieu Osiris. Or
+                    il est connû (<persName ref="gzoega">Zoëga</persName>
+               <bibl sameAs="1328">de obeliscis. p. 307.</bibl>) que le loup étoit un animal
+                    consacré à cette Divinité, ainsi qu’à l’Amenti en général.</p>
+            <p>Le groupe nr. 41. consiste évidemment en trois parties que les trois Manuscrits
+                    présentent souvent isolées. Ils réunissent aussi souvent les deux premières.
+                        (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 74. col. 57. pl. 73. col. 79.
+                    où le caractère symbolique d’Osiris précède ces hieroglyphes. pl. 72. Tableau où
+                    ce groupe est placé dans un rapport évident avec l’image de ce dieu) </p>
+            <p>Le loup (car c’est ainsi que je nommeroi l’animal en attendant d’être rectifié
+                    peut-être par Vos lumières) est suivi tantôt de deux lignes horizontales (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 75. col. 131. 87. pl. 74. col. 122.
+                    34. pl. 73. col. 110. 95. pl. 72. col. 112. 88. cet.) tantôt d’une ligne
+                    seulement (<bibl sameAs="106">Ib.</bibl> pl. 75. col. 129. 31. pl. 73. col. 59.
+                    50. pl. 72. col. 86. 26. cet.) Après les deux lignes, &amp; <del>joint</del>
+                    formant un signe composé avec la dernière d’elles, vient souvent le rectangle,
+                        <hi rend="underline">m</hi>, soit strié (<bibl sameAs="106">Déscr. de
+                        l’Eg.</bibl> pl. 73. col. 116. 77. pl. 72. col. 115. 102. 62.) soit en
+                    blanc (<bibl sameAs="106">Ib.</bibl> pl. 74. col. 26. où le caractère Osiris
+                    précède le groupe) suivi <subst>
+                  <del>d’</del>
+                  <add>du</add>
+               </subst> bras qui équivaut à la voyelle <hi rend="underline">a</hi>. Mais cette
+                    syllabe <hi rend="underline">ma</hi> ne paroit pas appartenir au groupe
+                    lui-même, &amp; n’est peut-être que la syllabe Copte <foreign sameAs="cop">ⲙⲁⲓ</foreign>, <hi rend="underline">aimé</hi>. Le groupe se trouve plus
+                    souvent sans elle. </p>
+            <p>J’ai observé plus haut qu’il semble être en rapport particulier avec Osiris. J’ai
+                    cité plusieurs exemples où le nom de cette divinité le précède immédiatement,
+                    &amp; ce qui me confirme surtout dans cette idée, c’est que dans le Manuscrit
+                    Parisien il se trouve immédiatement à côté de l’image d’Osiris. La petite
+                    colonne d’hieroglyphes, placée ainsi, réunit trois grouppes qui semblent former
+                    trois qualifications ou tîtres d’Osiris, celui dont je parle, un second dont je
+                    ferai mention d’abord &amp; qui forme la seconde partie du nr. 41. et un
+                    troisième qui n’est pas bien distinct dans le fac-simile du Manuscrit Parisien
+                        (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 72. Tableau.) mais que je
+                    crois être le nr. 42. des groupes ci-joints. Il se trouve dans le Man. A. près
+                    de l’image d’Osiris, dans le Man. B. près de celle de la divinité à tête
+                    d’épervier. Ce groupe est lui-même composé, car les derniers quatre signes se
+                    trouvent très-souvent, &amp; même habituellement sans les deux premiers. (<bibl sameAs="106">Déscr. de l’Eg.</bibl> pl. 75. col. 120.) Un des tableaux du
+                    Manuscrit A. présente la défunte, une divinité que je crois être Horus, &amp;
+                    une déesse dont la tête est surmontée d’un épervier, avec trois colonnes
+                    d’hieroglyphes dont la dernière qui semble appartenir à la Déesse, renferme le
+                    groupe dont je parle, tellement calligraphiquement développé que j’en ai joint
+                    une copie à cette lettre (nr. 43.) Je desirerois bien connoître Votre opinion
+                    sur ce groupe, &amp; surtout sur son premier caractère. </p>
+            <p>La seconde partie du nr. 41. des groupes ci-joints indique évidemment la bonne
+                    Divinité, le Dieu de bonté, par excellence. <persName ref="tyoung">M<hi rend="superscript">r</hi>. Young</persName> a ainsi expliqué le premier
+                    signe (<bibl sameAs="468">l.c. p. 158. nr. 152.</bibl>) et Vous avez ap-<pb n="252r"/>prouvé, Monsieur, cette interprétation. (<bibl sameAs="78">Syst.
+                        hier. p. 377. pl. 10. nr. 2. p. 197.</bibl>) Je ne crois cependant pas
+                    devoir confondre cette épithète avec celle de l’<foreign sameAs="grc">ἀγαθοδαίμων</foreign> qui semble plutôt propre à Cneph dont il n’est pas
+                    question ici. </p>
+            <p>Le caractère dont je viens de parler, a dans le Man. B. seulement une ligne
+                    transversale, et ces deux signes semblent par conséquent homophones. Mais ce qui
+                    est plus étonnant, c’est que dans un groupe fréquent dans les deux Manuscrits,
+                    le Man. B. met une fois à la place du caractère, employé ordinairement, un autre
+                    dont la forme est très-différente (nr. 44. a. b. des groupes ci-joints) </p>
+            <p>Le<add>s</add>
+               <sic>groupe</sic> nr. 44. a. c. d. semble<add>nt</add> pouvoir se lire sans
+                    difficulté: </p>
+            <p>
+               <foreign sameAs="cop">ⲛⲁⲛⲉϥ ⲟⲩⲣⲟ</foreign>
+               <lb/>
+               <foreign sameAs="cop">ⲛⲁⲛⲉⲩ
+                        ⲟⲩⲣⲱⲟⲩ (ⲛ̀)ⲕⲁϩⲓ</foreign>
+               <lb/>
+               <foreign sameAs="cop">ⲛⲁⲛⲉϥ ⲟⲩⲣⲟ
+                        ⲛ̀ⲫⲉ</foreign>
+            </p>
+            <p>&amp; ces épithètes de <hi rend="underline">bon roi de la terre et du ciel</hi>
+                    semblent pouvoir convenir à plusieurs divinités. </p>
+            <p>La dernière partie du groupe nr. 41. est formée par des signes de décès, &amp; je
+                    suppose qu’ils doivent dans ce passage désigner l’individû défunt &amp; son
+                    rapport avec la divinité, caractérisée par les qualifications précédentes. </p>
+            <p>La variante du premier de ces signes dans le nr. 41. m’a parû remarquable. Je ne
+                    me souviens pas d’avoir trouvé dans le Manuscrit de la <bibl sameAs="106">Déscr.
+                        de l’Egypte</bibl> un caractère semblable qui eût la forme renversée de
+                    celui qui est ordinairement le dernier dans le groupe indiquant qu’il est
+                    question d’une personne défunte. Le Man. B. en présente un que Vous trouverez,
+                    Monsieur, nr. 45. des groupes ci-joints. </p>
+            <p>Comme le même groupe d’hieroglyphes dans ces différens Manuscrits est entouré
+                    d’un encadrement elliptique et placé en ligne courante, je crois devoir regarder
+                    l’encadrement elliptique ou cartouche dans ce cas comme un simple ornement. On
+                    ne voit cependant pas la raison pourquoi il a été employé dans ce manuscrit de
+                    préférence aux deux autres. </p>
+            <p>Le cartouche tracé à moitié me semble être un hieroglyphe, comme les autres,
+                    &amp; non pas un ornement seulement; il est peut-être un signe figuratif, comme
+                    il y a une stèle dans l’inscription de Rosette. </p>
+            <p>Je ne sai, si l’on ne devoit pas expliquer de la même manière les deux cartels
+                    entiers, mais vides. Il Vous sera peut-être plus aisé d’en juger, Monsieur, si
+                    Vous consultez dans les nr. 46–48. ci-joints les hieroglyphes qui accompagnent
+                    ces cartouches. </p>
+            <p>Je m’aperçois, en relisant cette lettre, que les deux signes (nr. 278. 279. de
+                        <bibl sameAs="78">Votre tabl. gén.</bibl>) qui représentent l’idée <hi rend="underline">demeure</hi>, <hi rend="underline">habitation</hi>, ont
+                    très-souvent (p.e. nr. 13. des groupes ci-joints) après eux le céraste qui est
+                    ordinairement le signe du pronom personnel. Ils semblent donc dénoter un
+                    substantif, &amp; non pas un adverbe, comme <pb n="252v"/> j’avais crû pouvoir
+                    le supposer. </p>
+            <p>J’ai tâché de tracer les hieroglyphes dans les groupes ci-adjoints de manière à
+                    être parfaitement reconnoissables. II n’y a que les figures d’oiseaux qui
+                    pourroient Vous causer quelqu’ embarras, Monsieur. J’espère cependant qu’en les
+                    citant d’après <bibl sameAs="78">Votre Alphabet</bibl>, les nrs. 4. 5. (<hi rend="underline">a</hi>) 35. (<hi rend="underline">o</hi>) &amp; 55. (<hi rend="underline">k</hi>) seront les seuls qui pourroient être confondûs.
+                        Tou<add>te</add>s les autres ont une forme si distincte qu’il seroit
+                    difficile de s’y méprendre. </p>
+            <p>Il ne me reste après une si longue lettre que de Vous présenter, Monsieur, mon
+                    excuse de Vous avoir fatigué de questions aussi minutieuses. Mais elles Vous
+                    prouverent l’attention avec laquelle j’ai suivi Vos recherches, l’intérêt
+                    qu’elles m’ont inspiré, &amp; surtout la confiance que je mets dans Votre
+                    indulgence. Ma lettre pourra en même tems <del>Vous</del> servir à Vous indiquer
+                    les difficultés principales qui restent à vaincre à celui qui, après avoir
+                    étudié soigneusement <bibl sameAs="78">Votre ouvrage</bibl>, entreprend
+                    d’examiner de nouveaux textes hieroglyphiques, sans autre prétention que celle
+                    d’y appliquer fidèlement les principes que Vous avez exposé avec tant de clarté
+                    &amp; de précision. </p>
+            <closer>
+               <salute>Veuillez agréer, Monsieur, l’assurance de la considération
+                        très-distinguée avec laquelle j’ai l’honneur
+                        d’être,<lb/>Monsieur,<lb/>Votre<lb/>très-humble &amp;
+                        très-obéissant<lb/>Serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Tegel
+                        près de Berlin, ce 26. Juin, 1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

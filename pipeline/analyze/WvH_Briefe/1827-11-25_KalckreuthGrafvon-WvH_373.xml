@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Heinrich Wilhelm Adolf Graf von Kalckreuth an Wilhelm von Humboldt,
+                  25.11.1827<idno type="BBAW">373</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu
+                     Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 57,
+                     Bl. 68–72</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 241</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="afbernhardi">
+                  <persName>Bernhardi, August Ferdinand</persName>
+               </person>
+               <person corresp="jgfichte">
+                  <persName>Fichte, Johann Gottlieb</persName>
+               </person>
+               <person corresp="hfwgesenius">
+                  <persName>Gesenius, Heinrich Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="mluther">
+                  <persName>Luther, Martin</persName>
+               </person>
+               <person corresp="jhmichaelis">
+                  <persName>Michaelis, Johann Heinrich</persName>
+               </person>
+               <person corresp="fwjschelling">
+                  <persName>Schelling, Friedrich Wilhelm Joseph von</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="thukydides">
+                  <persName>Thukydides</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="202">Humboldt, Wilhelm von (1827): Lettre à Monsieur Abel Rémusat, sur
+                  la nature des formes grammaticales en général, et sur le génie de la langue
+                  Chinoise en particulier, Paris: Dondey-Dupré</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Gleich nach meiner Rückkehr von Berlin habe ich, wiewohl andre
+               Geschäfte mir vorlagen, dennoch nichts anziehender gefunden, als Ew. Exzellenz
+               Schrift über die grammatischen Formen u. die chinesische Sprache, als sein
+               Sendschreiben an A. Rémusat in Paris mit Fleiss durchzulesen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="hwakalckreuth">Kalckreuth, Heinrich Wilhelm Adolf Graf von</persName>
+               <date type="author" when="1827-11-25"/>
+               <placeName key="Siegersdorf">Siegersdorf (Schlesien)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="hwakalckreuth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="hbo">Hebräisch</language>
+            <language ident="pl">Polnisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">25. Juni 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="68r"/> Hoch und Wohlgeborener Freiherr<lb/>Höchstzuverehrender Herr
+               Staats-Minister.</opener>
+            <p>Gleich nach meiner Rückkehr von <placeName ref="Berlin">Berlin</placeName> habe ich,
+               wiewohl andere Geschäfte mir vorlagen, dennoch für mich nichts anziehendes gefunden,
+               als Eu. Excellenz <bibl sameAs="202">Schrift über die <sic>gramatikalischen</sic>
+                  Formen u. die chinesische Sprache</bibl>, als ein Sendschreiben an <persName ref="jpabel">H. <hi rend="antiqua">Rémusat</hi>
+               </persName> in <placeName ref="Paris">Paris</placeName> mit Fleiß durchzulesen – Es ist mir jetzt leid, daß
+               ich meinen Brief an den <persName ref="afbernhardi">verst: Pr. Bernhardi</persName>
+               über Sprache im Allgemeinen, nicht wieder auffinden kann, denn <persName ref="jgfichte">Pr. Fichte</persName> ließ mir damahls durch meine Schwester sagen:
+               er habe meinen Brief an <persName ref="afbernhardi">Bernhardi</persName> gelesen, u.
+               es verstehe sich, daß er über die Sätze, die ich darin aufstellte, mit mir völlig
+               zusammenstimme. Ich erinnere mich, daß ich an <persName ref="afbernhardi">B.</persName> schrieb: Sie stehen, wenn ich freimüthig seyn soll, in ihrer
+               Untersuchung über die Sprache, gerade auf dem Punkt, wo <persName ref="fwjschelling">Schelling</persName> steht, mit seiner Naturphilosophie. Sie tragen von Außen
+               hinein, indem Sie gleich den Satz feststellen, es gibt eine menschliche Sprache
+                  <foreign sameAs="grc">ἀνθρωπίνως λαλεῖν</foreign>, und deduciren nicht von Innen
+               heraus, u. s. w. – Ich setze heute hinzu, <hi rend="underline">dieser</hi>, einzig
+               daher <pb n="68v"/> rühren alle jetzt beinah verschollenen Hypothesen über einen
+               göttlichen, und menschlichen Ursprung der Sprache, die jetzt lächerlich erscheinen,
+               weil man sich denn endlich über das Wort <hi rend="underline">Entstehung</hi> mehr
+               verständigt hat. Daß Entstehung nicht historisch, d.h. als ein faktisch
+               nachweißliches Entstandenseyn erscheint, ist an sich klar, alle Fragen über die
+               Entstehung wollen also weiter nichts bedeuten, als wie muß<note type="footnote" resp="editor">Mit Bleistift unterstrichen.</note> dies und dies entstanden seyn,
+                  <hi rend="underline">nicht</hi>, wie ist<note type="footnote" resp="editor">Mit
+                  Bleistift unterstrichen.</note> es entstanden? Es gibt ja nichts Inneres, als die
+               eine und allgemeine Freiheit, also erheischt die Beantwortung solcher aufgeworfener
+               Fragen eine Construktion <hi rend="antiqua">a priori</hi>.</p>
+            <p>Sonach gibt, und muß es geben, eine natürliche Sprache aller gebildeten <hi rend="underline">zuvor</hi>, obschon die natürliche u. gebildete Sprache immer
+               noch mit einander vermengt zu werden pflegen, weil unsere heutigen Gelehrten ohne
+               Wissenschaftslehre etwas seyn wollen, was sie ohne dieselbe durchaus nicht seyn
+               können, d. h. <hi rend="underline">gründliche</hi> Gelehrte. – Also die natürliche
+               Sprache von der gebildeten unterschieden, was ist die <hi rend="underline">natürliche</hi>?</p>
+            <p>a) Die natürliche Sprache ist entstanden, oder wir können uns ihre Entstehung nicht
+               anders denken, als auf die eine Weise; daß Bild und <sic>Begrif</sic> beisammen
+                  sind<note type="footnote" resp="editor">Ab "Bild" mit Bleistift
+                  unterstrichen.</note>, mit einander synthetisch <pb n="69r"/> eins. Anschauung und
+               Freiheit, Totalität u. Unendlichkeit sind eins. Angesehn durch die Freiheit ist die
+               Sprache <hi rend="underline">Begrif</hi>, angesehn durch die Anschauung ist die
+               Sprache <hi rend="underline">Bild</hi>. Da aber unsere ganze Deduktion sich hier auf
+               ein apriorisches gründet, in Folge einer Construktion <hi rend="antiqua">a
+                  priori</hi>, so sind Handlungen auch blos ihr Gegenstand, und ich muß bitten,
+               alles Materielle vorerst auszuschließen. Bild u. Begrif sind beisammen, sich
+               vorzustellen etwa wie Seele, und das reine Ich, das Ich als sittliches Princip, wo
+               der Leib, in der Verbindung des organisirten sittlichen Ich, die eigentliche Seele
+               ist. Wir bleiben also bei unserer Deduktion der natürlichen Sprache stets auf dem
+               Gebiet der Handlung, oder des Apriorischen, indem ja <hi rend="underline">organisch</hi> weiter nichts heißt, als die Beweglichkeit der Materie durch den
+               bloßen Begrif. Die Materie, die <sic>hinzukomt</sic> ZB. bei der Bildung des <hi rend="underline">hörbaren</hi> Lauts: R um den Laut R hörbar zu machen, ist gar
+               nicht Folge der Handlung, des construirten Zusammenseins<note type="footnote" resp="editor">Mit Bleistift unterstrichen.</note> des Begrifs mit dem Bilde, nicht
+               Wirkung des Ich, oder des individuellen Lebens, sondern gehört vielmehr dem Nicht-Ich
+               an, dem Widerstande der Natur. Das apriorische <sic>R R</sic>, als Handlung ist ganz
+               verschieden von dem hörbaren Laut R. <pb n="69v"/> Das apriorische R, nur Handlung,
+               in der Synthese, Begrif u Bild, muß also in allen Sprachen <hi rend="underline">dasselbe</hi> bedeuten, ZB. den Begrif der Bewegung ausdrücken. Ueber die
+               Abweichungen mehr! – Der hörbare Laut R /: Und diese Bemerkung mache ich zu Gunsten
+               der Naturforscher, die man deshalb wohl Materialisten schilt, weil sie Sprache von
+               dem Klima u. andern physischen Einflüßen anhängig machen :/ das Materielle gehört dem
+               Widerstande, der Natur, an. Beiläufig gesagt, läßt sich auch hieraus die <hi rend="underline">Verschiedenheit</hi> der Zungen und Dialekte erklären, obschon
+               eine apriorische Grundlage<note type="footnote" resp="editor">Mit Bleistift
+                  unterstrichen.</note> bleibt; die <hi rend="underline">Eine natürliche
+                  Sprache</hi>, in welchem Ausdruck das Beiwort natürlich <hi rend="underline">synthetisch</hi> bedeutet, denn von der Synthesis als einem Trennen und einem
+               Verbinden gingen wir ja aus. <hi rend="underline">Getrennt</hi>, Begrif u Bild, von
+               dem Nicht-Ich, dem Widerstande der Natur, <hi rend="underline">Verbunden</hi>, in der
+               Materie, mit Eintritt der Materie, in der <hi rend="underline">Qualität</hi>, damit
+               Quantität möglich werde.</p>
+            <p>
+               <note type="footnote" resp="editor">Links am Rand bis zum Seitenende mit Bleistift
+                  angestrichen.</note>Ich will hier gleich, als an dem schicklichsten Ort eine
+               Bemerkung einstreuen, die für den Sprachforscher im Großen, wie Eu Excellenz,
+               vielleicht nicht ohne Nutzen seyn dürfte. Die Mitlauter bezeichnen eigentlich nur die
+               Qualität, nämlich die Qualität des Begrifs, die Selbstlauter aber Quantität. Jeder
+               besondre Mitlauter bezeichnet <pb n="70r"/> eine sich mittelst des Bildes äußernden
+               Begrif. In der vollständig aufgestellten Reihe der Mitlauter einer Sprache würde also
+               ein System von einzelnen Begriffen liegen, in der natürlichen Sprache durch die
+               Mitlauter eben so abgesetzt, objektivirt, wie in der gebildeten Sprache durch die
+               heraustretenden gramatikalischen Formen. <note type="footnote" resp="editor">Am Rand
+                  mit einem Fragezeichen markiert.</note>Es ist eine für einen so gelehrten
+               Sprachkundigen, als Eu Excellenz, würdige Aufgabe, die durchgehende Bedeutung der
+               gleichen Mitlauter in allen uns <sic>bekanten</sic> Sprachstämmen auf zu suchen, weil
+               die Abweichungen in dem Bezeichneten für die frühere Kultur-Geschichte der Völker
+               nicht ohne Interesse seyn dürften.</p>
+            <p>Als Beispiele will ich anführen, die Mitlauter R. L. D. blos um mich verständlich zu
+               machen, dahingestellt seyn lassend, ob gelehrtere Sprachforscher die durchgehende
+               Bedeutung dieser Mitlauter nicht anders angeben dürften. R. bezeichne nur Bewegung,
+               will ich setzen, in den mehrsten Sprachen, worüber nur die ebräischen, griechischen
+               u. lateinischen Wörterbücher unter diese Buchstaben nachzuschlagen sind, so müßte
+               nun, wo von dieser Bedeutung eine Abweichung vorkäme, <pb n="70v"/> die Ursache davon
+                  <hi rend="underline">geschichtlich</hi> nachgewiesen werden. Auf diese Weise
+               bezöge sich die Kulturgeschichte eines Volks auf die Sprache, und die Sprache zeugte
+               wieder von der zeitigen Bildung des Volks, Sprache und geistige Entwickelung der
+               Nation gingen geschichtlich zusammen, Hand in Hand. Die Abweichungen in der Bedeutung
+               der Zeichen wäre geschichtlich eben so zu verfolgen, wie die Geschichte eines Begrifs
+               als Vorstellung, durch Verwechselung der Zeichen. Ich erkläre mich. <add>Mächtiger
+                  Held</add> אֵדן – Macht, Gewalt, אֵן – Gott, das Abstrakte von dem Concreten, wie
+               <persName ref="hfwgesenius">Gesenius</persName> will. Macher <hi rend="antiqua">Elohim</hi> des Pluralis /: worin <persName ref="jhmichaelis">J. H. Michälis</persName> die Dreieinigkeit ahnden möchte :/
+               Jehovah Elohim – Das letzte Wort, äußere Anschauung in der natürlichen Reflexion. Das
+               erste, <hi rend="antiqua">Adonai</hi> gleichbedeutend mit Jehovah, die durch das
+               objektivirende Denken hingestellte Anschauung als Seynsbegrif, eingeführt in die Welt
+               der stehende Begrife. Das Griechische <foreign sameAs="grc">θεός</foreign> von
+                  <foreign sameAs="grc">θέω</foreign>
+               <hi rend="antiqua">
+                  <foreign sameAs="la">curro</foreign>
+               </hi>, unser Deutsches Gott
+               von Gehen /: nicht wie <persName ref="mluther">Luther</persName> etymologisirt von
+               Gut. Vielmehr möchte Gut von Gehen kommen. Denn eigentlich <hi rend="antiqua">geht</hi> nur das Gute, es ist eine Position. Das Schlechte ist lediglich
+               Negation, es geschieht nichts :/ deuten auf Thätigkeit, Lebendigkeit, Leben. Also der
+                  <pb n="71r"/> intelligirte Begrif, Gott. Endlich nach der gegenwärtigen
+               philosophischen <sic>Erkentnis</sic> durch die W. L. im transcendentalen Wissen,
+               Gott, als sittliche Weltordnung, in der reinen, unveränderlichen Anschauung, als
+               Guttun, das absolute Seyn. Dies ist die Geschichte des einen Gedankens, Gott, der
+               sich bei allen Völkern unter verschiedenen Bildungen wiederfindet. Die Pohlen, als
+               ein Theil des großen slavischen Völkerstamms, nennen Gott <hi rend="antiqua">
+                  <foreign sameAs="pl">Bog</foreign>
+               </hi>, u. <hi rend="antiqua">
+                  <foreign sameAs="pl">bogaty</foreign>
+               </hi> heißt reich, folglich ist die Vorbildung Gottes bei
+               ihnen der Gaben-Spender, der einwirkt auf das Sinnliche; dieselbe Vorbildung, als wie
+               in dem Worte <hi rend="antiqua">Adonai</hi>, welches <persName ref="hfwgesenius">Gesenius</persName> von <foreign sameAs="hbo">דון</foreign> richten, gleichbedeutend mit herrschen, aus dem
+               Phönicischen herstammen läßt. Die slavische Sprache stände also der Kultur und dem
+               Alter nach auf dem Punkt, wo die Ebräische stand zur Zeit der <hi rend="underline">zweiten</hi> Mythe in der Genesis.</p>
+            <p>Gleichwie nun, um zum Schluß zu kommen, der eine u selbe Gedanke, Gott, in allen
+               seinen Bildungen durch alle Sprachen philosophisch<note type="footnote" resp="editor">Das Wort wurde auf Rasur eingefügt.</note> verfolgt werden kann, so müßte auch
+               die eine und selbe Bedeutung eines Radicalen durch alle bekantgewordenen Sprachen
+               versucht werden, und, wo möglich, jede Abweichung davon in der Bedeutung,
+               geschichtlich nachgewiesen.</p>
+            <p>b) Die <hi rend="underline">gebildete</hi> Sprache. Diese ist nun im äußern u. innern
+               Bau von <pb n="71v"/> der natürlichen ganz verschieden. Wenn die natürliche aus ganz
+               einfachen Lauten bestehend, nicht syllabisch ist, aus Lauten, die sich folgend, nur
+               mittelst ihrer Stellung zu einander, einen Sinn verrathen, bei welchem die volle
+               Verständlichkeit nur grade zu dieser Zeit, bei dieser begleitenden Handlung, von
+               diesem Individuum, in dieser Nation zu erwarten steht; so strebt im Gegentheil die
+               gebildete Sprache allem Individuellen in jeder Beziehung entgegen, durch wissentliche
+               Entäußerung des Individuellen, das deshalb eben als ein rein Aeußeres heraustritt, u.
+               sich abbildet in der Sprache – spricht ein lebendes Geschlecht der Menschen zu einem
+               folgenden u. künftigen seine Gedanken, und das Denken in diesem Gedachten ist nicht
+               in der Realität, sondern nur in der äußern Form, sich sichtbar, beschränkt. Sobald
+               eine natürliche Sprache geschrieben wird, in todte Zeichen niedergelegt werden soll,
+               geht sie über, schneller oder langsamer, je nachdem äußre Umstände es begünstigen, in
+               die gebildete. Sie wird syllabisch, die Quantität des Wirklichen drückt sich
+               besonders aus, neben u. gleich der Qualität des Begrifbildes, es entsteht das <hi rend="underline">Wort</hi>, das objektivirte, als ein steter Gegenstand für den
+               Verstand, ein Haltbares, an dem er sich übend selbst abprägt, Interpunktion,
+               Orthographie, Etymologie, u.s.w, was Eu Excellenz, wie mir sehr passend scheint,
+               unter dem Ausdruck, <hi rend="underline">gramaticalische Cathegorien</hi>, verstehen.
+               Dem Cathegorischen <pb n="72r"/> sind allgemeine Vorstellungsarten von Vorstellungen,
+               welche als durchgehende Formen in allen Sprachen der Gebildeten sich zu erkennen
+               geben, sobald <hi rend="underline">sich</hi> die natürliche Reflexion zur freien sich
+               erhebt, und der Verstand, als ein Denken des Gedachten, sein Werk an der
+               Sprachbildung vollendet. Zum Schluß noch eine Bemerkung, nützlich vielleicht für
+               Solche, die an einer Classification, gleichsam an einer Naturgeschichte aller uns
+               bekantgewordenen Sprachen arbeiten! Die <hi rend="antiqua">Ratio grammatica</hi>, wie
+                  <persName ref="awschlegel">Prf. W. Schlegel</persName> den Ausdruck braucht, ist
+               zu ein schwankender Begrif, der sich vielfach deuten läßt, aber gewisse Grundzüge in
+               der <sic>Vortreflichkeit</sic> einer besondern Sprache sind unverkennbar. – </p>
+            <p>So scheint es mir, eine große Mannigfaltigkeit in den Abbeugungen der Fälle bei dem
+               Nennwort gibt weiter nichts zu erkennen, als daß eine Sprache viel im täglichen Leben
+               gehandhabt worden ist, viel unter Menschen gewesen ist, möchte ich sagen. Die
+               Substanz ist nichts, als das Eine und allgemeine Denken, das die Accidenzen trägt,
+               wer nun die Substanzen in sich, vermehrt, dessen Horizont kann sich nicht über das
+               tägliche Leben erstrecken, in welchem sie sich vielfach berühren. Sprachen, beinah
+               ohne Declination, wo nur der <hi rend="antiqua">Status absolutus</hi>, <hi rend="antiqua">constructus</hi> u. etwa <hi rend="antiqua">emphaticus</hi>
+               besteht, zeugen von einem kleinen, isolirtlebenden Volk, das sich ihrer bediente,
+               oder wenigstens die Isolirung.</p>
+            <p>Ein anderer Grundzug! Bei der Flexion berühren sich Wörter nur von außen, <pb n="72v"/> bei der Conjugation ist aber ein innrer Zusammenhang, wie denn die Zeit überhaupt
+               die Form der Freiheit, an sich trägt, mehr als der Raum. Wo daher die <hi rend="antiqua">modi</hi>, <hi rend="antiqua">tempora</hi>, u. <hi rend="antiqua">personae</hi> in der Conjugation des Zeitworts <sic>bestimt</sic>
+               auseinandergesetzt, u. ausgedrückt sind, wo man die unendliche Zeit, ohne eine
+               herausgehobene zu seyn, anzudeuten vermag in dem <hi rend="antiqua">Aoristus</hi>
+               dergestalt, daß man Gal. V. 24. <foreign sameAs="grc">τὴν σάρκα ἐταύρωσαν</foreign>
+               von der vergangenen als der gegenwärtigen Zeit verstehen kann, wie <persName ref="jhmichaelis">Michälis</persName> anführt, zeugt eine Sprache von <hi rend="underline">Wissenschaftlichkeit</hi>.</p>
+            <p>Drittens. Wenn eine Sprache, außer u. neben den beyden vorhergehenden Ausbildungen,
+               wodurch sie geschickt wird, die einzelnen Sätze in einander zu schieben, und das
+               Ganze zu Vermehrung des Eindrucks auf einen Punkt zusammenzudrängen, noch überdies
+               die größte Freiheit der Construktion hat, wodurch die Bedeutsamkeit des Einzelnen
+               gewinnt, wie ZB im <sic>
+                  <persName ref="Thukydides">Thucicides</persName>
+               </sic> so oft
+               der Fall ist, so thut sie der Beredsamkeit Vorschub, und ist im eigentlichsten Sinne
+                  <hi rend="antiqua">rhetorisch</hi>. Ich kenne zu wenig Sprachen, aber diesen
+               Vorzug scheinen mir blos die römische, und ganz vorzüglich die griechische zu haben.
+               –</p>
+            <p>Alles bisher Gesagte unterwerfe ich gern der <hi rend="underline">gelehrten</hi>
+               Beurtheilung von Eu Excellenz. Was den Gang des Denkens und des eigentlich
+               Philosophischen <sic>betrift</sic> in dem gegenwärtigen Schreiben, so ist es zu sehr
+               mein Angehöriges, um mich nicht des Lobes sowohl, als des Tadels zu überheben.</p>
+            <closer>
+               <salute>Mit der vollkommensten Hochachtung<lb/>Eu Excellenz<lb/>ganz
+                  gehorsamster
+                  Diener</salute>
+               <signed>GvKalckreuth</signed>
+               <lb/>
+               <dateline>Siegersdorf<lb/>d. 25.
+                  Nov. 1827</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 16.06.1829<idno type="BBAW">1104</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 23</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 221–241</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8046</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bgbabington">
+                  <persName>Babington, Benjamin Guy</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="wcarey">
+                  <persName>Carey, William</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion, Jean-François</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="jgmdursch">
+                  <persName>Dursch, Johann Georg Martin</persName>
+               </person>
+               <person corresp="hpforster">
+                  <persName>Forster, Henry Pitts</persName>
+               </person>
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+               <person corresp="panini">
+                  <persName>Pāṇini</persName>
+               </person>
+               <person corresp="fwreitz">
+                  <persName>Reitz, Friedrich Wolfgang</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="sequoyah">
+                  <persName>Sequoyah (oder Georges Guess, oder George Gist)</persName>
+               </person>
+               <person corresp="cfcbvolney">
+                  <persName>Volney, Constantin-François Chassebœuf de La Giraudais,
+                    Comte de</persName>
+               </person>
+               <person corresp="vopadeva">
+                  <persName>Vopadeva</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="1082">Allgemeine Preußische Staatszeitung (Berlin 1819–1843)</bibl>
+               <bibl corresp="34">Asiatic Researches; Or, Transactions of the Society, Instituted in Bengal, for inquiring
+                    into the history and antiquities, the arts, sciences, and literature of Asia, Calcutta/London
+                    1788–1839</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache, 2.
+                    Aufl. (Berlin: Dümmler 1827)</bibl>
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae sanscritae (Berlin
+                    1829–32)</bibl>
+               <bibl corresp="569">Carey, William: A Grammar of the Sungskrit language, composed from
+                    the works of the most esteemd Grammarians, to which are added examples for the
+                    exercise of the student, and a complete list of the Dhattoos or Roots
+                    (Serampore: Mission Press 1806).</bibl>
+               <bibl corresp="135">Forster, Henry Pitts: An Essay on the Principles of Sanskrit
+                    Grammar (Calcutta: Ferris 1810)</bibl>
+               <bibl corresp="204">Humboldt, Wilhelm von: Mémoire sur la séparation des mots dans les
+                    textes samscrits, in: Journal Asiatique 11, September 1827, S. 163–172</bibl>
+               <bibl corresp="667">Humboldt, Wilhelm von: Anhang zu Rückerts Recension von Durschs
+                    Ghatakarparam, in: Jahrbücher für wissenschaftliche Kritik, Nr. 73–76, April
+                    1829, S. 579–595</bibl>
+               <bibl corresp="664">Humboldt, Wilhelm von: An Essay on the best Means of ascertaining
+                    the Affinities of Oriental Languages, In: Transactions of the Royal Asiatic
+                    Society of Great Britain and Ireland Volume II, (London: J. L. Cox 1830), S.
+                    213–221.</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu
+                    [u.a.] 1822–heute)</bibl>
+               <bibl corresp="644">Lassen, Christian (1830): Ueber Herrn Bopps grammatisches System der Sanskrit-Sprache [Rez.
+                    von Franz Bopps Ausführliches Lehrgebäude der Sanskrita-Sprache, Berlin 1827]. In: Indische
+                    Bibliothek 3, Heft 1, S. 1–113</bibl>
+               <bibl corresp="579">Pāṇini: Grammatik des Sanskrit</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn 1823)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek [eine
+                    Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Vol. 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+               <bibl corresp="665">Schlegel, August Wilhelm von / Lassen, Christian: Hitopadesas id
+                    est Institutio Salutaris, Pars I (Bonn: Weber 1829)</bibl>
+               <bibl corresp="481">Sequoyah: Cherokee-Alphabet</bibl>
+               <bibl corresp="437">Tsa-la-gi tsu-le-hi-sa-no-hi. A Cherokee Phoenix. Edited by Elias
+                    Boudinot for the Cherokee Nation (1828–1834)</bibl>
+               <bibl corresp="445">Veda</bibl>
+               <bibl corresp="1083">Vopadeva: Mugdhabodha : a Sanscrit grammar. Published for the use
+                    of the Sanscrit College, under the authority of the committee of public
+                    instruction (Calcutta: Education Press 1826)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London
+                    1808)</bibl>
+               <bibl corresp="539">Wilkins, Charles: The Radicals of the Sanskrita language (London:
+                    Cox and Baylis 1815)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Hochwohlgebohren haben mich durch Ihren ausführlichen,
+                        inhaltreichen und vertraulichen Brief vom 20ten v. Mts aufs höchste erfreut.
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-06-16"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1082" type="next">23.06.1829</ref>
+               <ref target="1121" type="prev">20.05.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Korrekturen Humboldts sowie
+                    eigenhändiger Unterschrift und Nachtrag</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">20. Dezember 2013</item>
+            <item n="status">in Bearbeitung, gegengelesen von AD 4. März 2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_04.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_05.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_06.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_07.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_08.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_09.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_10.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_11.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_12.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_13.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_14.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_15.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1829-06-16/WvH-Schlegel_1829_06_16_Seite_16.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Oben rechts in das Handschrift
+                        Schlegels: vom 16<hi rend="superscript">ten</hi> Jun. 29.</note> Ew
+                    Hochwohlgebohren haben mich durch Ihren ausführlichen, inhaltreichen und
+                    vertraulichen Brief vom <date when="1829-05-20">20<hi rend="superscript">ten</hi> v. Mts</date> aufs höchste erfreut. Wenn ich lange schwieg, so
+                    geschah es nur, weil ich Ihre Zeit und Ihre Arbeiten ehrte, und weil es mir oft
+                    an Muße gebricht, was dem, der nicht weiß, daß ich sehr langsam arbeite,
+                    unbegreiflich scheinen muß. </p>
+            <p>
+               <bibl sameAs="634">Ihren <hi rend="antiqua">Ramayana</hi>
+               </bibl> habe ich noch
+                    ebensowenig als <bibl sameAs="665">Ihren <hi rend="antiqua">Hitopadesa</hi>
+               </bibl>. Ich statte Ihnen aber im Voraus meinen
+                    herzlichsten Dank dafür ab. Auch wissen Sie schon, wie ich über den ersteren
+                    urtheile, und ich bin überzeugt, daß ich den letzteren mit gleich dankbarer
+                    Bewunderung studiren werde. Nach <subst>
+                  <del>Herer</del>
+                  <add>
+                     <handShift scribe="wvh"/> Ihrer</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    Schilderung in den <hi rend="antiqua">Prolegomenen</hi> ist freilich der Zustand
+                    der Handschriften des <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> so, daß er es dem Herausgeber
+                    unmöglich macht, nicht eine gewisse Willkühr auszuüben. Bei den Griechischen und
+                    Römischen Handschriften ist man in diesem Punkte besser daran. Eine solche
+                    Willkühr werden manche in der Aufnahme der schlüpfrigen Scenen finden. Ich
+                    vertraue aber dem kritischen Alterthumsgefühl Ew Hochwohlgebohren. Sie erwerben
+                    sich ein unsterbliches Verdienst durch diese Ausgabe, und gewiß werden wir Ihnen
+                    noch andere künftig verdanken. Dabei fällt mir die <bibl sameAs="1082">Staatszeitung</bibl> ein. Ich kannte den Artikel nicht, von dem Ew
+                    Hochwohlgebohren reden. Ich muß mich doch nach dem Verfasser erkundigen. Auch
+                    neulich hatte sie einen wunderbaren Artikel, den mir der
+                    Herausgeber<!--  Dr. Karl Ernst John?, Chefredakteur der Preuß. Staatszeitung ab 1823 -->
+                    eigen zuschickte, von <persName ref="jhklaproth">
+                  <hi rend="antiqua">Klaproth</hi>
+               </persName> gegen <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>. Es ist wunderbar genug, ein
+                    solches <hi rend="antiqua">Cartel</hi> in einer deutschen politischen Zeitung
+                    seinem französischen Gegner übers Meer nach Aegypten nachzuschicken. </p>
+            <p>Daß Ew Hochwohlgebohren, mit <bibl sameAs="664">meinem Englischen Aufsatz</bibl>
+                    (der aber übrigens nicht mein Englischer, sondern eine von <persName ref="bgbabington">
+                  <hi rend="antiqua">Babington</hi>
+               </persName> gemachte Uebersetzung meines
+                    Französischen ist) nicht unzufrieden sind, ist mir sehr angenehm gewesen.
+                    Besonders aber freut es mich, daß ich, nach Ihrem Zeugniß, nun annehmen kann,
+                    daß sich nur Ein Angelsächsisches Wort unter die von mir als Romanisch
+                    aufgeführten eingeschlichen hat. Ich hatte, als ich diese Wörter in <pb n="2*"/>
+                    diesem sehr eilig und ohne alle Bücher gemachten Aufsatz niederschrieb, die
+                    Angst, daß ich in mehreren Unrecht haben könnte. <add>
+                  <handShift scribe="wvh"/> <hi rend="antiqua">
+                     <hi rend="underline">timme</hi>
+                  </hi>
+               </add> <handShift scribe="Schreiber"/> war mir wirklich
+                    unbekannt. Mir fiel nur auf, daß <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="en">
+                     <hi rend="antiqua">
+                        <hi rend="underline">time</hi>
+                     </hi>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> und
+                            <add>
+                  <handShift scribe="wvh"/> <hi rend="underline">Zeit</hi>
+               </add> <handShift scribe="Schreiber"/> nicht zusammenhängen, aber
+                    ich hätte bedenken sollen, daß eine Ableitung von <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="la">
+                     <hi rend="antiqua">
+                        <hi rend="underline">tempus</hi>
+                     </hi>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> fast noch unmöglicher ist. Sollten Sie aber glauben, daß der ehrwürdige
+                        <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> aus Güte für mich die
+                    Correctur übernommen, und <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> davon zurückgehalten, und nun
+                    geduldet hat, daß die einzigen zwei <hi rend="antiqua">Sanskrit</hi>-Wörter so
+                    gräßlich verdruckt worden sind. Ich <subst>
+                  <del>begreife</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        begriff</add>
+               </subst> <handShift scribe="Schreiber"/> nicht, daß mich alle
+                    schützenden <hi rend="antiqua">Sanskrit</hi>geister auch bei dem flüchtigsten
+                    Schreiben sollten bis auf diesen Grad haben verlassen können. Die Unschuld
+                    meiner Urschrift ist aber ganz diplomatisch constatirt worden.</p>
+            <p>Eine so wichtige Autorität, als Sie sind, für meine Behauptung über die <bibl sameAs="204">Worttrennung im <hi rend="antiqua">Sanskrit</hi>
+               </bibl> zu
+                    entbehren, thut mir ungemein leid, allein ich sah es voraus, und nenne Sie darum
+                    gewiß nicht eigensinnig. Eine Beruhigung gewährt es mir indeß, daß unter den
+                    Einwendungen, die Ihr Brief aufstellt, keine ist, die ich nicht mir selbst
+                    gemacht, und mit in meine Berechnung aufgenommen hätte. Da ich niemals die
+                    Schranken meiner Kenntnisse aus den Augen verliere, so schreckt mich immer am
+                    meisten der Gedanke, daß ein gar nicht von mir geahndetes Moment mir
+                    entgegentreten könnte. Bedauert aber habe ich, daß Sie in Ihrem Briefe gar nicht
+                    auf diejenigen Gründe eingehen, auf die ich sichtbar mich am meisten stütze, und
+                    über einiges Factische, worüber mir Ihr Urtheil so höchst wichtig wäre, Ihre
+                    Meinung gar nicht äußern namentlich nicht über den Unterschied der Behandlung
+                    der dumpfen Consonanten vor Vocalen in der Mitte und am Ende der Wörter, und
+                    über die syllabische Natur des <hi rend="antiqua">Devanagari</hi> Alphabets und
+                    die Bestimmung der sogenannten Mittelvocale. Erlauben mir jetzt Ew
+                    Hochwohlgebohren einige Bemerkungen zu den in <sic>Ihren</sic> Briefe
+                    enthaltenen Einwendungen.</p>
+            <p>Sie werfen mir vor, daß mein Vorschlag das uralte, zum Theil vorhistorische
+                    Herkommen ummodelt, und tadeln dies. Dagegen möchte ich zweierlei erinnern.</p>
+            <p>1. Das uralte Herkommen der <hi rend="antiqua">Sanskrit</hi>-Schreibung,
+                    wenigstens das älteste uns bekannte, ist die durchgängige Theilung aller Sylben
+                    ohne alle Zusammenziehung inniger Art. So druckt man, soviel <pb n="3*"/> ich
+                    weiß, jetzt nirgends. <subst>
+                  <del>Allen</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        Alle</add>
+               </subst> <handShift scribe="Schreiber"/> jetzigen Schreibungen
+                    trifft also derselbe Vorwurf, den Sie mir machen. Die Schreibung, der Sie noch
+                    in der <bibl sameAs="53">
+                  <hi rend="antiqua">Bhagavad Gita</hi>
+               </bibl> folgten, ist ja gar nicht
+                    Indisch, sondern Englisch, und erreicht höchstens ein Alter von 50 Jahren. Die,
+                    welche Sie jetzt annehmen, ist sogar neuer, als meine Neuerung, und entfernt
+                    sich eben so weit vom uralten Herkommen. Denn nichts kann diesem mehr entgegen
+                    seyn, als, wie in <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">tān<graphic url="Schlegel/WvH-Schlegel_1829_06_16/156.svg"/>
+                  </foreign> <foreign sameAs="sa" n="transEd">api<graphic url="Schlegel/WvH-Schlegel_1829_06_16/157.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> z. B., den Vocal von dem
+                    vor ihm unmittelbar vorhergehenden Consonanten zu trennen. Der Unterschied liegt
+                    freylich nur, wie Ew Hochwohlgebohren scherzhaft sagen, in etwas weißem Papier.
+                    Aber dieselbe Rechtfertigung kann auch ich brauchen, wenn Sie mir nur etwas mehr
+                    dieses Materials zugestehen. Da wir uns mithin alle von jenem Herkommen
+                    entfernen, so ist die <hi rend="antiqua">Discussion</hi> immer nur, was man thun
+                    muß, um nicht diesseits des Nothwendigen stehen zu bleiben, oder über das
+                    Erlaubte hinauszugehen? und diese <hi rend="antiqua">Discussion</hi> habe ich
+                    versuchen wollen.</p>
+            <p>2., Es ist eine ausgemachte Thatsache, daß die Griechen noch sehr spät hin im
+                    Schreiben die Wörter nicht getrennt haben: interessant, aber schwierig zu
+                    bestimmen <sic>mögte</sic> es dagegen sein, die wahren Epochen genau zu fixiren,
+                    und aufzufinden, warum es bisweilen geschehen und nicht geschehen ist? Denn auf
+                    Großgriechischen Vasen ist <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="grc">ὁ παῖς καλὸς</foreign>
+               </add> <handShift scribe="Schreiber"/> bald fortlaufend geschrieben, bald nicht. Ich habe in
+                        <bibl sameAs="667">meinem Aufsatz</bibl> im <bibl sameAs="773">
+                  <hi rend="antiqua">Journal Asiatique</hi>
+               </bibl> die ersten Herausgeber der
+                    Griechen darum gelobt, daß sie von dieser Sitte der Handschriften abgegangen
+                    sind. Wollten Sie im Ernst Ihnen dies Lob entziehen? Wollten Sie zum alten
+                    Herkommen zurückkehren, ja nur wünschen man hätte es dabei gelassen? </p>
+            <p>
+               <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">V</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <hi rend="antiqua">
+                        <persName ref="cfcbvolney">Volney</persName>’s</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> Methode kann hier gar nicht in Vergleichung kommen. Sie
+                    greift <subst>
+                  <del>im Innersten</del>
+                  <add>
+                     <handShift scribe="wvh"/> ins
+                            Innerste</add>
+               </subst> <handShift scribe="Schreiber"/> der Sprache ein,
+                    was das Zusammenschreiben oder Trennen der Wörter gar nicht thut. Jene Methode
+                    ist für praktische Zwecke, wo man nur mit einer Sprache zu thun hat, und es auf
+                    keine wissenschaftliche <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="grc">ἀκρίβεια</foreign>
+               </add> <handShift scribe="Schreiber"/> ankommt, gewiß
+                    sehr brauchbar. Als philologisches Mittel hat sie, außer einer Schaar andrer
+                    Gründe, das gegen sich, daß jeder Buchstabe zwar zu einer Klasse gehört, aber
+                    selbst ein Individuum ist, und wieder nur durch ein Individuum bezeichnet werden
+                    kann, es auch so viele Individuen dieser Art giebt, daß ein irgend allgemeines
+                    Alphabet, womit ich mich oft <pb n="4*"/> beschäftigt, Hunderte von Buchstaben
+                    brauchen würde. Ein eingeborner <persName ref="sequoyah">
+                  <hi rend="antiqua">Cherokee</hi>
+               </persName> hat daher mit vollem Recht vor
+                    einiger Zeit, mit Wegwerfung unsrer Buchstaben, ein <bibl sameAs="481">eigenes
+                        Alphabet</bibl> erfunden, und seine ganze Nation ist ihm so einstimmig
+                    beigefallen, daß die Missionarien selbst genöthigt worden sind, dies (übrigens
+                    zum Theil syllabische) Alphabet anzunehmen. Man hat jetzt eine mit demselben
+                    gedruckte <bibl sameAs="437">Zeitung</bibl>.</p>
+            <p>Von allem diesem findet, wie Ew Hochwohlgebohren mir gewiß Recht geben werden,
+                    gar nichts auf die Worttrennung Anwendung.</p>
+            <p>Ew Hochwohlgebohren sagen ferner: Ist es wirklich eine allgemeine historische
+                    Thatsache, daß in allen gebildeten Sprachen eine große Sorgfalt auf die <hi rend="underline">Worttrennung</hi> gewendet worden sei? und da Sie nun von
+                    der Worttrennung im Schreiben reden, so scheint es, als habe ich irgendwo
+                    behauptet, alle gebildeten Nationen hätten im Schreiben die Wörter getrennt.</p>
+            <p>Dies aber habe ich nie gethan, da mir sehr wohl, wie namentlich die vorhin
+                    berührte Stelle <bibl sameAs="667">meines Aufsatzes</bibl> im <bibl sameAs="773">
+                  <hi rend="antiqua">Journal Asiatique</hi>
+               </bibl> <sic>beweißt</sic>, die
+                    Unrichtigkeit einer solchen Behauptung in solcher Allgemeinheit bekannt war. </p>
+            <p>Vermuthlich haben Ew Hochwohlgebohren <bibl sameAs="667">S. 582 meines
+                        Aufsatzes</bibl> von den Worten <hi rend="underline">Obgleich die
+                            Rede</hi> <add>
+                  <handShift scribe="wvh"/> bis</add> <handShift scribe="Schreiber"/> <hi rend="underline">um so nothwendiger</hi>, vor Augen
+                    gehabt. Ich bedaure, daß Sie gerade diese Stelle nicht mehr
+                            <subst>
+                  <del>betrachtet</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            beachtet</add>
+               </subst> <handShift scribe="Schreiber"/> haben, da sie
+                    meiner Ansicht nach, etwas Wichtiges und vielleicht neues enthält. </p>
+            <p>Ich rede in dieser Stelle gar nicht vom Schreiben, auf das ich erst später
+                    übergehe, sondern von dem ersten <hi rend="antiqua">Requisit</hi> aller
+                    regelmäßigen <hi rend="antiqua">Grammatik</hi>, der Worttrennung durch
+                    grammatische Mittel. Ich sage darum: „das Wort auch <hi rend="underline">im
+                        Laute</hi> sorgfältig zu umgränzen und mit Zeichen seiner Individualität zu
+                    versehen.“ Ich meinte damit im <hi rend="antiqua">Sanskrit</hi> namentlich den
+                    Umstand, daß nur gewisse Consonanten ein Wort beschließen können, <subst>
+                  <del>denn</del>
+                  <add>
+                     <handShift scribe="wvh"/> dann</add>
+               </subst> <handShift scribe="Schreiber"/> den Unterschied der <hi rend="antiqua">
+                  <term type="phon" ref="005">Sandhi</term>
+               </hi>-Regeln für getrennte Wörter und
+                    für Verbindungen von <sic>
+                  <hi rend="antiqua">Afficen</hi>
+               </sic> mit dem Grundwort, endlich die
+                            <subst>
+                  <del>Beformung</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            Betonung</add>
+               </subst>
+               <handShift scribe="Schreiber"/>, aber auch da
+                    nicht das geschriebene <hi rend="antiqua">Accent</hi>zeichen. </p>
+            <p>Ich sprach ferner nicht von allen gebildeten Nationen, sondern <pb n="5*"/> von
+                    denjenigen, „von welchen vollkommen organisirte Sprachen ausgegangen sind“ so
+                    daß ich an dieser Stelle nicht mit den Aegyptiern zu thun zu haben glaubte. </p>
+            <p>Das uralte Herkommen im Schreiben war, wie ich glaube, allgemein gegen die
+                    Worttrennung. Aber ich halte es in unsrer Zeit und für uns, und besonders in
+                    einer Sprache, deren Studium man Grund hat, eng an das
+                                <subst>
+                  <del>unsren</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        unsrer</add>
+               </subst> <handShift scribe="Schreiber"/> bisherigen classischen
+                    Sprachen anzuschließen, für vernünftig und heilsam, von
+                                <subst>
+                  <del>diesen</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        diesem</add>
+               </subst> <handShift scribe="Schreiber"/> uralten Herkommen
+                    abzugehen.</p>
+            <p>Ew Hochwohlgebohren erklären sich zwar gegen alle unsre kleinen philologischen
+                    Hülfsmittel, als nur der analytischen Periode der Sprachen, nicht der
+                    schöpferischen angehörend. Gewiß setze auch ich sie nur in die erstere, halte
+                    sie aber darum nicht für weniger heilsam und nützlich, und da wir, wenn wir sie
+                    plötzlich wegwerfen, darum doch nicht schöpferischer werden würden, für ganz
+                    unschädlich. Wenn es mir erlaubt ist zu sagen, so scheinen mir diese
+                    Einwendungen zu allgemein zu seyn, und zu viel zu beweisen. Die Alten, sagen
+                    Sie, haben, ohne jene Hülfsmittel, vortrefflich recitirt u. s. f. <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst> haben aber auch ohne Glasscheiben studirt und gemalt. Wollen wir darum
+                    unsere Glasscheiben entzwei schlagen? </p>
+            <p>Ich sage dies Alles nur vorzüglich, weil ich wünschte Ew Hochwohlgebohren
+                    Aufmerksamkeit auf das wahre <hi rend="antiqua">Fundament</hi> meiner Theorie
+                    und meine eigentlichen Argumente zu richten. Sie stehen <add>
+                  <handShift scribe="wvh"/> S.</add> <handShift scribe="Schreiber"/> <bibl sameAs="667">582.–584</bibl>. dann in unmittelbarer Anwendung auf das <hi rend="antiqua">Sanskrit</hi> <add>
+                  <handShift scribe="wvh"/>
+                        S.</add> <handShift scribe="Schreiber"/> <bibl sameAs="667">586–589</bibl>.</p>
+            <p>Die <persName ref="fawolf">
+                  <hi rend="antiqua">Wolf</hi>
+               </persName>
+               <hi rend="antiqua">ischen</hi>
+                    Worttrennungen sind Ew Hochwohlgebohren widerwärtig. Aber <persName ref="fawolf">
+                  <hi rend="antiqua">Wolf</hi>
+               </persName> und der ihm hierin vorangegangene,
+                    so vorsichtige <subst>
+                  <del>
+                     <hi rend="antiqua">Ruz</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <persName ref="fwreitz">
+                        <hi rend="antiqua">Reiz</hi>
+                     </persName>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/>
+                    sind große Autoritäten. Ueber die Einwendung, daß nur <hi rend="antiqua">Consonanten</hi>, die nicht <subst>
+                  <del>Findbuchstaben</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            Finalbuchstaben</add>
+               </subst> <handShift scribe="Schreiber"/> sind,
+                    Wörter beschließen, werde ich mich gleich erklären.</p>
+            <p>Wahre <hi rend="antiqua">particulas</hi> <subst>
+                  <del>
+                     <hi rend="antiqua">enditicas</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <hi rend="antiqua">encliticas</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> hört man auch im Abendlande auf den <placeName ref="London">London</placeName>er Straßen, wenn das Volk ein Pronomen nach
+                    dem Verbum ausspricht. Leute, die nicht an <subst>
+                  <del>wissenschaftlicher</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            wissenschaftliche</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    Orthographie gewöhnt sind, schreiben auch bei uns: <hi rend="antiqua">
+                  <hi rend="underline">bistu</hi>
+               </hi>.</p>
+            <p>Die Erleichterung für die Schüler (so sehr ich auch selbst Erleichterung bedarf)
+                    habe ich <sic>warlich</sic> nicht im Auge gehabt. Ich habe es im <bibl sameAs="773">
+                  <hi rend="antiqua">Journ: Asiatique</hi>
+               </bibl> ausdrücklich gesagt. Aber
+                    auch Ew Hochwohlgebohren <pb n="6*"/> glauben meiner Versicherung nicht, und
+                    bekämpfen dies Argument noch. Was ich wirklich im Auge habe, steht deutlich
+                        <bibl sameAs="667">S. 583</bibl>. <subst>
+                  <del>Einen</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        Einem</add>
+               </subst> <handShift scribe="Schreiber"/> Schüler <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi>, selbst wenn er, wie doch
+                    schwerlich der Fall sein wird, bloß <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>
+               <hi rend="antiqua">ische</hi>
+                    Ausgaben und nur nach der Neuerung läse, wird es, kommt er an Handschriften,
+                    nicht anders <subst>
+                  <del>ergeben</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            ergehen</add>
+               </subst>
+               <handShift scribe="Schreiber"/>, als einem
+                    Griechischen <hi rend="antiqua">Philologen</hi> im gleichen Fall. Seine gut
+                    erlernten <hi rend="antiqua">Sandhi</hi>regeln werden ihn durchbringen.</p>
+            <p>Das Bedürfniß einer Interpunction (denn jetzt giebt es in Gedichten nur mittelbar
+                    und einigermaßen eine durch die Versabtheilung) möchte ich doch nicht ganz
+                    wegläugnen. Es giebt doch auch längere Sätze, das Ende des <hi rend="antiqua">Slokas</hi> ist nicht immer das Ende des Satzes. Fragen irren auch oft.
+                    Alles das sind bei einer zweiten Lesung keine Hindernisse, aber man wünscht doch
+                    auch bei einer ersten nicht aufgehalten zu werden. Wären indeß die Vortheile der
+                    Trennung auch nicht so groß, so scheint mir das, was man dabei aufgiebt, immer
+                    noch weniger bedeutend. </p>
+            <p>Ich bin Ew Hochwohlgebohren sehr dankbar, mir Ihr jetziges neues System
+                    auseinandergesetzt zu haben. Wenn ich von Mangel an Consequenz sprach, so war es
+                    nur, weil ich nicht wußte, daß Sie jetzt <subst>
+                  <del>einen</del>
+                  <add>
+                     <handShift scribe="wvh"/> einem</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    ganz andern Grundsatz, nämlich dem der Endbuchstaben, folgen.</p>
+            <p>Allein ich gestehe, daß es mir nicht einleuchten will, daß dies ein angemessener
+                    leitender Grundsatz für das <subst>
+                  <del>Zusammenreiben</del>
+                  <add>
+                     <handShift scribe="wvh"/> Zusammenschreiben</add>
+               </subst> <handShift scribe="Schreiber"/> oder Trennen der Wörter ist. Die in der Sprache
+                    liegende Regel, daß nur gewisse Buchstaben ein Wort beschließen können, gilt
+                    doch nur vom isolirt betrachteten Worte, und enthält die nothwendige,
+                    stillschweigende Einschränkung, wenn der Endbuchstabe des Wortes nicht durch
+                    einen folgenden Anfangsbuchstaben eines andren afficirt wird. Man verletzt diese
+                    Regel daher gar nicht, wenn man den geschriebenen Wörtern Endbuchstaben <hi rend="underline">im</hi> Zusammenhange der Rede giebt, die sie <hi rend="underline">außer</hi> <subst>
+                  <del>denselben</del>
+                  <add>
+                     <handShift scribe="wvh"/> demselben</add>
+               </subst> <handShift scribe="Schreiber"/> nicht haben können. Aus diesem Grunde haben vermuthlich auch <subst>
+                  <del>
+                     <hi rend="antiqua">Ruz</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <persName ref="fwreitz">
+                        <hi rend="antiqua">Reiz</hi>
+                     </persName>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> und
+                        <persName ref="fawolf">
+                  <hi rend="antiqua">Wolf</hi>
+               </persName> an einem schließenden <foreign sameAs="grc">δ</foreign> und <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="grc">μ</foreign>
+               </add> <handShift scribe="Schreiber"/> keinen
+                    Anstoß genommen, da ihnen doch die Unfähigkeit dieser Buchstaben, Wörter zu
+                    beschließen, nicht unbekannt sein konnte. </p>
+            <p>Sie sagen ferner, Ihr System vertheidigend: denn mit solchen Buchstaben <hi rend="underline">kann</hi> ein Wort ohne Hülfe des folgenden ausgesprochen
+                    werden. Sollte es aber bei der Schrift nicht darauf ankommen, wie es, unabhängig
+                    vom <hi rend="underline">Können</hi>, in der That ausgesprochen <hi rend="underline">werde</hi>? und dies, so wie, ob es, mit andren
+                    Endbuchstaben, gleich mit dem folgenden Worte zu Einem zusam-<pb n="7*"/>menschmelze? übergehen Sie.</p>
+            <p>Ich kann mir beim Schreiben einer Sprache in Absicht der Worttrennung nur einen
+                    von folgenden zwey Zwecken denken: entweder den der Darstellung der
+                    Lautauffassung für den Verstand, oder den der Darstellung der Lautauffassung für
+                    das Ohr (die Nachahmung des mündlichen Vortrags)</p>
+            <p>Ew Hochwohlgebohren bisheriges System genügte dem letzteren. Ihr jetziges
+                    begünstigt in verschiedenen Punkten den einen und den andren, ohne Einen ganz zu
+                    erreichen. So werden beide zugleich verletzt; wo Sie zusammenziehen, die
+                    intellectuelle Darstellung, wo Sie trennen, wie beim schließenden
+                            <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/158.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> und
+                            <subst>
+                  <del>nachfolgenden</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            nachfolgendem</add>
+               </subst> <handShift scribe="Schreiber"/> <hi rend="antiqua">Vocal</hi>, die <hi rend="antiqua">phonetische</hi>. Denn die
+                    ganze hier sichtbar werdende <hi rend="antiqua">Analogie</hi> zeigt, daß man den
+                        <hi rend="antiqua">Vocal</hi> hier in der Aussprache ebensowenig von
+                            <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/159.svg"/>
+                  </foreign>
+               </add>
+               <handShift scribe="Schreiber"/>, als von einem
+                    vorhergehenden <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">d<graphic url="Schlegel/WvH-Schlegel_1829_06_16/160.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> trennte. Aus diesem
+                    beständigen Zusammennehmen des Anfangsvocals mit dem vorhergehenden End<hi rend="antiqua">Consonanten</hi> kann ja überhaupt nur die Verwandlung der
+                    dumpfen End-<hi rend="antiqua">Consonanten</hi> in tönende vor Vocalen erklärt
+                    werden. Ich läugne daher nicht, daß ich gewünscht hätte Sie wären lieber bei
+                    Ihrer Schreibung in der <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">Bhag</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <bibl sameAs="53">
+                        <hi rend="antiqua">Bhagávad</hi>
+                     </bibl>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> <bibl sameAs="53">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> geblieben, die ich für richtiger halte.
+                    Ich nahm mir die Freiheit, Ihnen das schon in Absicht des End-<add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/161.svg"/>
+                  </foreign>
+               </add>
+               <handShift scribe="Schreiber"/>, als Sie in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> waren, zu sagen. </p>
+            <p>Ihrem Grundsatz, daß die legitimen Endbuchstaben getrennt bleiben, folgen Sie
+                    allerdings mit voller Consequenz. Aber ich kann weder seine Geltung, noch seine
+                    Fruchtbarkeit in dieser Anwendung einsehen. </p>
+            <p>Wenn man mit der Feinheit unterscheidet, welche diese Gegenstände, wie klein sie
+                    auch sind, nun einmal fordern, so giebt es, meines Erachtens, einen dreifachen,
+                    hier in Betrachtung kommenden Zustand der Wörter: </p>
+            <p>1., den, wo sie, mit unafficirten Endbuchstaben, getrennt stehen bleiben,</p>
+            <p>2., den, wo sie zwar getrennt bleiben, d. h. nicht mit dem folgenden Wort zu
+                    Einem werden, wo aber das folgende Wort ihre Endbuchstaben afficirt,</p>
+            <p>3., den, wo sie mit dem folgenden Wort wirklich zu Einem werden.</p>
+            <p>Für die Bezeichnung des mittleren Zustandes eignet sich nun sehr gut das
+                    Alleinstehen mit illegitimen Endbuchstaben, wie <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="grc">καδ δε</foreign>
+               </add>
+               <handShift scribe="Schreiber"/>.</p>
+            <p>Sie läugnen vermuthlich jenen mittleren Zustand gänzlich ab, und <pb n="8*"/>
+                    nehmen überall Zusammenfließen in Ein Wort an, wo sich die Grenzbuchstaben
+                    afficiren. Sie mögen darin vollkommen Recht haben, die Sache ist doch aber einer
+                    Erwägung werth, und diese einzuleiten, habe ich S. 586. versucht.</p>
+            <p>Es thut mir leid, über diesen Gegenstand so weitläuftig gewesen zu sein. Es war
+                    mir aber wichtig, Ihnen meine Ideen vollständig darzulegen. Irre ich, so seyn Ew
+                    Hochwohlgebohren wenigstens überzeugt, daß es nicht aus dem Eigensinn herrührt,
+                    eine einmal gemachte Behauptung nicht aufgeben zu wollen. Nichts kann weniger
+                    anmaßend <add>
+                  <handShift scribe="wvh"/> seyn,</add> <handShift scribe="Schreiber"/> als <bibl sameAs="667">mein Aufsatz im <hi rend="antiqua">Journ: Asiatique</hi>
+               </bibl> war. Nur das vornehm thuende Absprechen
+                    des <persName ref="jgmdursch">Herrn</persName> <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">D</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <persName ref="jgmdursch">
+                        <hi rend="antiqua">Dursch</hi>
+                     </persName>
+                  </add>
+               </subst>
+               <handShift scribe="Schreiber"/>, was
+                    von gar keiner eigentlichen Untersuchung der Sache begleitet war, hat mich
+                    veranlaßt, den Gegenstand nun bestimmt <subst>
+                  <del>anzuführen</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        auszuführen</add>
+               </subst>
+               <handShift scribe="Schreiber"/>, und so gründlich
+                    zu untersuchen, als es meine Kräfte erlaubten. Diese Untersuchung hat denn
+                    freylich meine Ueberzeugung befestigt, neuen überwiegenden Gründen aber würde
+                    ich ohne Bedenken nachgeben.</p>
+            <p>Das zweite Hauptthema des Briefes Ew Hochwohlgebohren ist <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> und seine Arbeiten, und hier bitte
+                    ich Sie, was ich Ihnen darüber sagen werde, recht freundschaftlich
+                    aufzunehmen.</p>
+            <p>Ew Hochwohlgebohren erinnern Sich, daß ich, als ich Ihnen rieth, Ihre kostbare
+                    Zeit lieber kritischen Ausgaben, als einer neuen <hi rend="antiqua">Grammatik</hi> zu widmen, gleich wünschte, Sie schrieben Bemerkungen über
+                        <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi>
+               <bibl sameAs="570">Grammatik</bibl>. Dieser Meinung bin ich noch heute, und sehe
+                    dem Heft der <bibl sameAs="396">Indischen Bibliothek</bibl>, zu dem Sie Hoffnung
+                    machen, mit Verlangen entgegen.<note type="footnote" resp="editor">Autor der
+                        Rezension war schließlich <persName ref="classen">Christian
+                            Lassen</persName> (1830): <bibl sameAs="644">
+                            Ueber Herrn Professor Bopps grammatisches System der
+                                Sanskrit-Sprache. In: <hi rend="italic">Indische Bibliothek</hi> 3, Heft 1, S.
+                            1–113</bibl>.</note>
+            </p>
+            <p>Von Ihren Distichen lasse ich mir daher Ihr erstes gefallen für den Preis der
+                    Belehrung; die daraus entstehen muß. Mit dem von <persName ref="classen">Herrn
+                            <hi rend="antiqua">Lassen</hi>
+               </persName> kann ich ganz einverstanden
+                    sein. Es soll Ihnen alles Gute und Ehrenvolle gebühren. Den ersten Vers kann ich
+                    mit einem versteckten <hi rend="underline">wenn</hi> verstehen. Daß der
+                    Strafwürdige, wenn er es ist, gestraft werde, ist auch meine Meinung, und das
+                            <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">paratra<graphic url="Schlegel/WvH-Schlegel_1829_06_16/162.svg"/>
+                  </foreign> <foreign sameAs="sa" n="transEd">ca<graphic url="Schlegel/WvH-Schlegel_1829_06_16/163.svg"/>
+                  </foreign>
+               </add>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 231 gibt
+                        für die Devanagari-Stelle nur Auslassungspunkte.</note>
+               <handShift scribe="Schreiber"/> setzt mich noch mehr <hi rend="antiqua">à mon
+                        aise</hi>. Ihr zweites aber muß ich in der Allgemeinheit, in der es sich
+                    ausspricht, durchaus von mir ablehnen.</p>
+            <p>Aus diesen, wenn gleich nur scherzhaften Distichen, dem Ueberdruß an den
+                    Episoden, die wenigstens das Verdienstliche haben, wenn man ihnen, wie ich nicht
+                    weiß, auch sonst viel Vorwürfe machen könnte, daß sie Dinge ans Licht bringen,
+                    die bisher unzugänglich waren, und <subst>
+                  <del>den</del>
+                  <add>
+                     <handShift scribe="wvh"/> dem</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    ganzen Ton Ihres Briefes sehe ich, oder glaube ich wenigstens eine gewisse
+                    Bitterkeit zu sehen, die ich recht wahrhaft bedaure. Ich bin überzeugt daß Ew
+                    Hochwohlgebohren keine Eifersucht haben, allein wenn, was Sie über <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> schreiben wollen, nur <pb n="9*"/> halb die Farbe Ihres Briefes trägt, so werden Sie auch bei den am
+                    billigsten Urtheilenden <subst>
+                  <del>diesen</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            diesem</add>
+               </subst> <handShift scribe="Schreiber"/> Verdacht nicht
+                    entgehen. Daß Sie der Sache gar nichts vergeben, ist meine volle Meinung, aber
+                    schon des Studiums des <hi rend="antiqua">Sanskrits</hi> und seiner Beförderung
+                    willen, sollten Sie Ihren Erinnerungen mehr die Form eines gemeinschaftlichen
+                    Strebens nach dem gleichen Ziel, als einer Gegenschrift geben. Sie erreichen
+                    auch dadurch eine viel größere Wirkung.</p>
+            <p>Ich stehe ganz unpartheiisch zwischen Ihnen beiden. Ich kann mich, soviel
+                    Belehrung ich auch Ihnen <add>
+                  <handShift scribe="wvh"/> beiden</add> <handShift scribe="Schreiber"/> schuldig bin, einen Schüler von keinem von Ihnen
+                    nennen, Sie haben beide selbst meine Irrthümer und Unkenntnisse mit
+                            <subst>
+                  <del>faßt</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        fast</add>
+               </subst> <handShift scribe="Schreiber"/> überhöflicher Schonung
+                    behandelt, meine langjährige Freundschaft mit Ew Hochwohlgebohren, meine
+                    lebhafte Zuneigung und Theilnahme an <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, stellt mich Ihnen beiden nahe, mir kann keine
+                    Eifersucht beiwohnen, da ich Sie beide in diesen Studien weit über mir erkenne.
+                    Mein Zeugniß kann mithin von keiner Seite der Partheilichkeit verdächtig
+                    seyn.</p>
+            <p>Mein Urtheil über <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>
+                    ist nun bestimmt folgendes. </p>
+            <p>Ich gebe vollkommen zu, daß <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> die indischen Grammatiker nicht selbst studirt hat,
+                    und ob ich gleich, wie ich augenblicklich sagen werde, dies in ihm
+                    gerechtfertigt finde, so billige ich nicht, daß er oft zu sehr dies Studium
+                    überhaupt für nicht nothwendig erklärt. Ich thäte das schon nicht, weil grade
+                    ein solches Urtheil mit vielem Studium verbunden sein müßte, es ist aber auch
+                    gegen meine Ueberzeugung, wiewohl ich, was hier zu lang zu rechtfertigen wäre,
+                    keine so vortheilhafte Meinung von den eingeborenen Grammatikern und ihrem
+                    Formelwesen habe, als Ew Hochwohlgebohren, und die guten Griechischen für weit
+                    vorzüglicher halte.</p>
+            <p>
+               <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> hat sich aber über
+                    seine Methode in der Vorrede <bibl sameAs="570">seiner Grammatik</bibl>
+                    ausführlich, und freimüthig ausgesprochen, ohne daß ich darum diese Vorrede der
+                    anmaßenden Verschmähung der Grammatiker bezichtigen kann, welche Sie darin
+                    finden. Die Englischen Grammatiker hatten den Weg eingeschlagen, das Material
+                    der <hi rend="antiqua">Sanskrit</hi>-Grammatik aus den eingeborenen Grammatiken
+                    zu entnehmen, und mehr oder minder von der ihm in ihnen anklebenden Form
+                    befreit, in mehr oder minder selbständiger Anordnung wiederzugeben. Sie haben
+                    dies gewiß im Ganzen in großer Vollständigkeit <pb n="10*"/> und<note type="footnote" resp="editor">Ergänzt aus der Kustode.</note> Richtigkeit
+                    ausgeführt, und wenn <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> nicht dieselbe Arbeit noch einmal thun will, so ehrt
+                    er mehr ihr Verdienst, als er die Eingeborenen verschmäht. </p>
+            <p>Die Aufgabe aber, die er nach dem Eingange der Vorrede nun sich selbst stellt,
+                    ist wirklich die, welche man sich beim Schreiben einer Grammatik wirklich
+                    stellen muß, und die für das <hi rend="antiqua">Sanskrit</hi> vorzugsweise
+                    nöthig war, besonders wenn man den höheren Zweck hatte, <subst>
+                  <del>in
+                                dem</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        indem</add>
+               </subst> <handShift scribe="Schreiber"/> man das <hi rend="antiqua">Sanskrit</hi> lehrte, es zugleich so darzustellen, daß die
+                    Vergleichung mit den verwandten Sprachen und dem Sprachtypus überhaupt dadurch
+                    möglich und fruchtbar gemacht wurde. </p>
+            <p>Diese Aufgabe nun hat <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, meinem Urtheile nach, in einem
+                    solchen Grade <sic>gelößt</sic>, daß es meine vollkommen ernstliche Meinung ist,
+                    daß <bibl sameAs="570">seine Grammatik</bibl> nicht nur die beste unter den
+                    vorhandnen <hi rend="antiqua">Sanskrit</hi>-Grammatiken ist, sondern daß ich
+                    auch keine einer alten Sprache kenne, die ich mit ihr vergleichen möchte. Er hat
+                    überall die in der Sprache liegende <hi rend="antiqua">Analogie</hi>, die
+                    Bildungsgesetze und Lautgewohnheiten aufgesucht, und Fäden angeknüpft, die oft
+                    durch viele, bisweilen durch alle Theile der Sprache fortlaufen. Sollte er daher
+                    auch in Einzelnem aus <bibl sameAs="579">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl>
+                    berichtigt werden können, sollte er selbst, was aber sehr selten der Fall sein
+                    wird, einzelne falsche <hi rend="antiqua">Analogien</hi> aufgestellt haben, so
+                    wird dies immer mein Urtheil über das Verdienst <bibl sameAs="570">seiner
+                        Grammatik</bibl> nicht wankend machen, weil dies in der Anlage liegt, in
+                    der <subst>
+                  <del>daran</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        dann</add>
+               </subst> <handShift scribe="Schreiber"/> einzelne Berichtigungen
+                    leicht <subst>
+                  <del>einzuhalten</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                            einzuschalten</add>
+               </subst> <handShift scribe="Schreiber"/> sind.</p>
+            <p>Wie Ew Hochwohlgebohren von <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> in Absicht <bibl sameAs="570">seiner
+                        Grammatik</bibl> sagen können, daß er in Klarheit und <hi rend="antiqua">Eleganz</hi> lange nicht <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> erreicht habe, begreife ich
+                    nicht. Vergleichen Sie doch nur das einzige <hi rend="antiqua">Capitel</hi> vom
+                        <hi rend="antiqua">Sandhi</hi>. Wie ganz unvollständig <add>
+                  <handShift scribe="wvh"/> ist</add> <handShift scribe="Schreiber"/> da <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl>, wie hat er selbst das,
+                    was er anführt, so auseinandergerissen, daß alle <hi rend="antiqua">Analogie</hi> unkenntlich wird, wie wirft er um sich mit <hi rend="antiqua">
+                  <hi rend="underline">occasionally</hi>
+               </hi> und <hi rend="antiqua">
+                  <hi rend="underline">generally</hi>
+               </hi>, wo man ganz anders bestimmen kann.
+                    Ich lasse darum <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> nicht minder volle Gerechtigkeit
+                    wiederfahren. Ich habe mein <hi rend="antiqua">Sanskrit</hi> ganz eigentlich
+                            <add>
+                  <handShift scribe="wvh"/> zuerst aus ihm</add> <handShift scribe="Schreiber"/> gelernt. Er ist der <add>
+                  <handShift scribe="wvh"/>
+                        lichtvollste</add> <handShift scribe="Schreiber"/> unter den Engländern, hat
+                    viele und leicht zugängliche <hi rend="antiqua">Paradigmen</hi>, und enthält
+                    großes Detail. Noch kürzlich, da ich versuchte, die Theorie der reduplicirenden
+                    Form des 3<hi rend="superscript">t</hi> <hi rend="antiqua">Praet.</hi> (die auch
+                    bei <bibl sameAs="570">
+                  <hi rend="antiqua">Bopp</hi>
+               </bibl> weder vollständig noch ganz richtig
+                    ist) dergestalt aus der Sprache selbst zusammenzustellen, daß ich in <bibl sameAs="135">
+                  <hi rend="antiqua">Forster</hi>
+               </bibl> dies <hi rend="antiqua">Praet.</hi> <pb n="11*"/> in allen Wurzeln durchging, und daraus, mit
+                    Bemerkung der Ausnahmen, die Regeln abstrahirte, habe ich gesehen, wie wenig
+                    übersichtlich z. B. auch dies <hi rend="antiqua">Capitel</hi>, bei aller
+                    Ausführlichkeit, ausgearbeitet ist. Es leuchtet in die Augen, daß <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> die einfachen Gesetze dieser nur
+                    verwickelt scheinenden Bildung gar nicht eingesehen hat. </p>
+            <p>Darin, die <hi rend="antiqua">Analogie</hi> der Sprachen, aufzufassen,
+                        <sic>ihren</sic> Bildungsgange nachzugehen, die gleichen Fälle in
+                    verschiedenen zu erkennen, die nur gleich scheinenden abzusondern, besitzt
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>, meiner Ueberzeugung nach, ein
+                    Talent und einen Blick, in denen ich ihm jetzt niemanden, als höchstens
+                        <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName>, an die Seite zu setzen wüßte. Die
+                    Sprachzergliederung und die Vorarbeiten zu einer Geschichte der edelsten uns
+                    bekannten Sprachen sind durch ihn wesentlich gefördert worden. Daß dies auch
+                        <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimms</hi>
+               </persName> Urtheil über ihn ist, beweisen
+                    dessen öffentliche Aeußerungen über <subst>
+                  <del>ihm</del>
+                  <add>
+                     <handShift scribe="wvh"/> ihn</add>
+               </subst>
+               <handShift scribe="Schreiber"/>, so wie das, was er mir noch im vorigen Jahre
+                    mündlich sagte. Was ich hier ausspreche, beziehe, ich auf alle Arbeiten
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopps</hi>
+               </persName>, nicht blos auf seine <bibl sameAs="570">Grammatik</bibl>.</p>
+            <p>Darum bin ich bei weitem nicht in allen Punkten einerlei Meinung mit <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName>. Ich weiche vielmehr in manchen
+                    bedeutend ab, und finde, daß er in der Erklärung der <hi rend="antiqua">Affixa</hi> viel weiter geht, nicht blos als ich thun würde, sondern als
+                    man überhaupt gehen sollte. Allein auch hier ist die Bahn die er einschlägt,
+                    auch meiner Ueberzeugung nach, die richtige, und das Anhalten am rechten Punkt
+                    ist leichter, als das Eröffnen der Bahn.</p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi> Tendenz, <hi rend="antiqua">Grammatik</hi> und <hi rend="antiqua">Lexicon</hi> auf die wirklich
+                    vorhandenen Texte zu gründen, da die Englischen Grammatiker und <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> nur Grammatiker und <hi rend="antiqua">Lexicographen</hi> zu Quellen haben, muß ich auch billigen.
+                    Es wäre doch die wahre Methode, wie auch <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> zugesteht, wenn man mehr und ganz
+                    berichtigte Texte hätte, deren Mangel man allein dieser Methode zum Vorwurf
+                    machen kann. Soll man aber darum die ganze Methode aufgeben? oder ihre Anwendung
+                    ins Unbestimmte hin aufschieben? <sic>man</sic> besitzt doch schon viel, und
+                    alles ist doch nicht kritisch ungenau. Auch ergiebt sich aus dem von <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> ziemlich zuerst versuchten Verfahren
+                    das sehr merkwürdige <hi rend="antiqua">Factum</hi>, daß die Grammatiker eine
+                    große Zahl Wurzeln und Formen mehr haben, als die uns jetzt am meisten bekannten
+                    Texte. </p>
+            <p>
+               <pb n="12*"/> Indeß würde <hi rend="underline">ich</hi> niemals dafür sein, dies
+                    zu weit zu treiben, und den überschießenden Theil nicht gleich gründlich zu
+                    studiren. Wie Sie aus meinem <ref type="link" target="347">Briefe</ref> an
+                        <persName ref="classen">Herrn <hi rend="antiqua">Lassen</hi>
+               </persName>
+                    gesehen haben werden, hat es <subst>
+                  <del>immer</del>
+                  <add>
+                     <handShift scribe="wvh"/> mir</add>
+               </subst> <handShift scribe="Schreiber"/> nur
+                    geschienen, daß man daran Epochen in der Sprache erkennen könne. Wenn ich in
+                        <ref type="link" target="347">jenem Briefe</ref> den <hi rend="antiqua">Veda
+                        Dialect</hi> als <subst>
+                  <del>vorgeschossen</del>
+                  <add>
+                     <handShift scribe="wvh"/> ausgeschlossen</add>
+               </subst> <handShift scribe="Schreiber"/> von <hi rend="antiqua">
+                  <persName ref="panini">Panini</persName>s</hi> Gebiet ansah, so verkannte
+                    ich darum nicht, daß er hier und da seiner Erwähnung thut. Ich meinte nur, daß
+                    er doch die <hi rend="antiqua">Veda</hi>-Eigenthümlichkeiten (wie z. B. das
+                    tempus <hi rend="antiqua">let</hi>) nicht vollständig giebt. </p>
+            <p>Beim Studium <hi rend="antiqua">
+                  <persName ref="panini">Panini</persName>s</hi> darf man auch wohl nicht
+                    vergessen, daß man in ihm nur Eine, wenn gleich die berühmteste Schule hat. Man
+                    müßte die andern doch auch studiren. Nach den Beispielen, die in <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">C</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <bibl sameAs="569">
+                        <hi rend="antiqua">Carey</hi>
+                     </bibl>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/>
+                    zerstreut liegen, scheint zwar der Unterschied zwischen <bibl sameAs="1083">
+                  <hi rend="antiqua">Vopadesa</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 236: <persName ref="vopadeva">Vopadeva</persName>.</note>
+               <!-- KS: Vopadeva wäre richtig, ich kann das in der Handschrift auch sehen. -->
+                    und <bibl sameAs="579">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl> hauptsächlich nur in der <hi rend="antiqua">Terminologie</hi> zu bestehen.</p>
+            <p>Ew Hochwohlgebohren reden von <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi> Künsteleien mit den
+                    Personalendungen. Ich weiß nicht, worauf Sie das beziehen. <hi rend="antiqua">Regel</hi> 299. der <bibl sameAs="570">
+                  <hi rend="antiqua">Gramm:</hi>
+               </bibl> giebt er die einfache Tafel. Seine
+                    Ableitungen schiebt er wirklich <hi rend="antiqua">r.</hi> 298. in eine
+                    Anmerkung, und <subst>
+                  <del type="fragment">wer</del>
+                  <add>
+                     <handShift scribe="wvh"/> wer</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    diese ganze Regel überschlagen will, kann es ja ohne Umstände thun. Meine
+                    Meinung ist übrigens, daß allerdings <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> Recht hat, daß <hi rend="antiqua">Pronomina</hi> unter den <hi rend="antiqua">Personalendungen</hi> stecken,
+                    daß sich aber nur wenige aufzeigen lassen, und daß in dem Zustand, wie wir die
+                    Sprache überliefert erhalten haben, keine <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">En</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <hi rend="antiqua">Endung</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> die ist, welche <add>
+                  <handShift scribe="wvh"/>
+                        sie</add> <handShift scribe="Schreiber"/> ist, weil sie dieses oder jenes
+                    Pronomen enthält, sondern weil sie <subst>
+                  <del>ein</del>
+                  <add>
+                     <handShift scribe="wvh"/> im</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    Schema aller Personen auf eine, mit keiner andern zu verwechselnde Weise, die
+                    ihr angewiesene bestimmte Stelle einnimmt. Dadurch ist hauptsächlich das <hi rend="antiqua">Sanskrit</hi> (mit den verwandten, wie ich glaube, einzig
+                    unter allen Sprachen) eine durchaus flectirte, ganz von Form durchdrungene.</p>
+            <p>Das Schreiben aller Wurzeln mit <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/164.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> billige ich auch nicht,
+                    und hatte eben, ehe ich Ihren Brief erhielt, <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> darüber bei Gelegenheit seiner
+                        <bibl sameAs="580">lateinischen Grammatik</bibl> geschrieben, ohne bis jetzt
+                    Antwort zu haben. Wenn, wie er annimmt, die Grammatiker bei dem Schreiben mit
+                            <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">ṇ<graphic url="Schlegel/WvH-Schlegel_1829_06_16/165.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> bloß den Grund gehabt
+                    hätten, bemerklich zu machen, daß das <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/166.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> in den bekannten Fällen
+                    verwandelt wird, so würde ich <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> beipflichten. Das ist aber nicht
+                    allein zweifelhaft, sondern erwiesen unrichtig. Denn man schreibt, nach
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> selbst, <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">praṇudati<graphic url="Schlegel/WvH-Schlegel_1829_06_16/167.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> und <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">praṇedus<graphic url="Schlegel/WvH-Schlegel_1829_06_16/168.svg"/>
+                  </foreign>
+                        und</add> <handShift scribe="Schreiber"/> doch steht, nach den Grammatikern,
+                    in <bibl sameAs="569">
+                  <hi rend="antiqua">Carey’s</hi>
+               </bibl> und <bibl sameAs="539">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> Wurzeln <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">ṇud<graphic url="Schlegel/WvH-Schlegel_1829_06_16/169.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> und <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">nad<graphic url="Schlegel/WvH-Schlegel_1829_06_16/170.svg"/>
+                  </foreign>
+               </add>
+               <handShift scribe="Schreiber"/>. Es muß also einen andern
+                    Grund gehabt haben, und dann geht <pb n="13*"/> durch die allgemeine Schreibung
+                    mit <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/171.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> eine, wenn gleich dunkle
+                    Thatsache verloren, was nicht sein darf. </p>
+            <p>Liegt aber die Sache vielleicht noch anders? Ew Hochwohlgebohren nennen es einen
+                    Irrthum, daß das <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/172.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> zu Anfange der
+                    Wurzeln durchgehends verwandelbar sey. Meinen Sie damit, daß die Regel der
+                    Verwandlung des dentalen nasalen in den cerebralen nach <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">pra<graphic url="Schlegel/WvH-Schlegel_1829_06_16/173.svg"/>
+                  </foreign>
+               </add>
+               <handShift scribe="Schreiber"/>, <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">pari<graphic url="Schlegel/WvH-Schlegel_1829_06_16/174.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> und <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">parā<graphic url="Schlegel/WvH-Schlegel_1829_06_16/175.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> nicht allgemein sey, und
+                    ist es falsch, daß bei <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> im <bibl sameAs="559">Nalus</bibl> <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">nad<graphic url="Schlegel/WvH-Schlegel_1829_06_16/176.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> wie oben geschrieben
+                    ist, dann werden die Folgerungen allerdings verschieden. Dann wäre der
+                    Wurzelanlaut bei den Grammatikern doch nur zum Zweck, diese Ausnahmen anzuzeigen
+                    da, und daß man die Wurzeln rein <subst>
+                  <del>an</del>
+                  <add>
+                     <handShift scribe="wvh"/> von</add>
+               </subst> <handShift scribe="Schreiber"/>
+                    allen Anzeige-Buchstaben gebe, daß man nicht einen Buchstaben, der nur unter
+                    gewissen Umständen eintritt, der Wurzel selbst gebe, und dadurch die
+                    Nothwendigkeit einer neuen Regel herbeiführe, ist vollkommen auch meine Meinung.
+                    Dann aber wäre <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi> <bibl sameAs="570">
+                  <hi rend="antiqua">r 94<hi rend="superscript">b</hi>
+                  </hi>
+               </bibl> wieder
+                    sehr zu tadeln.</p>
+            <p>In etwas, das bei <bibl sameAs="570">
+                  <hi rend="antiqua">Bopp</hi>
+               </bibl> hier noch zum Grunde liegt, bin ich mit
+                    ihm verschiedener Meinung. Er betrachtet, wozu freilich auch <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> Anlaß giebt, die Wurzeln als
+                    grammatische <hi rend="antiqua">Abstracta</hi>. Ich hingegen halte sie für
+                    uralte Grundwörter, die aber in der ganz flectirten Sprache, als solche,
+                    verschwinden. Höchstens möchte ich zugeben, daß die Grammatiker, welche sie
+                    (wenige Fälle ausgenommen) allerdings blos als wissenschaftliche Hülfsmittel
+                    brauchten, <subst>
+                  <del>die</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        sie</add>
+               </subst> <handShift scribe="Schreiber"/> von gewissen Nebenlauten
+                    befreiten oder sonst Lautveränderungen mit ihnen vornahmen, um sie zu durchaus
+                    lauteren Quellen aller aus ihnen entspringenden Formen zu machen. Ich suche
+                    daher immer nach dem Erscheinen dieser Wurzeln in nicht-<hi rend="antiqua">Sanskritischen Asiatischen</hi> Sprachen, und habe wohl Einiges, aber nicht
+                    Vieles bisher gefunden.</p>
+            <p>Wie aber Ew Hochwohlgebohren sagen können, daß <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> schon über den Punkt des <foreign sameAs="sa">
+                  <hi rend="antiqua">n</hi>
+               </foreign>, was wahr und vernünftig sei, genügend
+                    enthalte, begreife ich nicht, ich müßte denn eine Stelle bei ihm ganz übersehen
+                    haben. <hi rend="antiqua">p. 130. r. 160</hi> <add>
+                  <handShift scribe="wvh"/>
+                        sagt er bloß</add> <handShift scribe="Schreiber"/> was ganz unvermeidlich
+                    ist, wenn man Wurzeln mit <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">ṇ<graphic url="Schlegel/WvH-Schlegel_1829_06_16/177.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> beginnen läßt, und
+                        <hi rend="antiqua">p. 35. r. 60.</hi> scheint er ganz vergessen zu haben,
+                    daß er <hi rend="antiqua">p. 29. r. 35.<hi rend="superscript">b.</hi>
+               </hi> viel
+                    bestimmter schon dasselbe festgesetzt hatte. Die Regel von der Verwandlung des
+                    Anfangs <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">n<graphic url="Schlegel/WvH-Schlegel_1829_06_16/178.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> der Wurzeln kann ich,
+                    aller angewandten Mühe ungeachtet, gar nicht bei ihm finden. Vergleichen Sie
+                    damit nur <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi> <bibl sameAs="570">
+                  <hi rend="antiqua">r. 94.<hi rend="superscript">a.b.</hi> S.
+                    62</hi>
+               </bibl>.</p>
+            <p>
+               <pb n="14*"/> Schwerlich kann man glauben, daß <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> die hier zur Sprache kommenden
+                    Regeln klar vor sich hatte, wenn man sein <hi rend="antiqua">Motto</hi> auf dem
+                    Titelblatt liest, wo man doch nicht gleich mit Druckfehlern anhebt. Oder irre
+                    ich mich, daß man <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">bhrameṇa<graphic url="Schlegel/WvH-Schlegel_1829_06_16/179.svg"/>
+                  </foreign>
+               </add> <handShift scribe="Schreiber"/> schreiben müßte? Er
+                    erwähnt, zwar <hi rend="antiqua">r. 35<hi rend="superscript">b</hi>
+               </hi> nicht,
+                    daß auch ein dazwischen tretender Lippenlaut die Verwandlung nicht aufhebt,
+                    allein <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">C</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <persName ref="wcarey">
+                        <hi rend="antiqua">Carey</hi>
+                     </persName>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> sagt es ausdrücklich, und <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> druckt selbst <hi rend="antiqua">p. 643. r. 1297.</hi> <add>
+                  <handShift scribe="wvh"/> <foreign sameAs="sa" n="transEd">rāmeṇa<graphic url="Schlegel/WvH-Schlegel_1829_06_16/180.svg"/>
+                  </foreign>
+               </add>
+               <handShift scribe="Schreiber"/>. So bleibt also der auf
+                        <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> allein reducirte Schüler, wenn er
+                            <subst>
+                  <del>Regeln</del>
+                  <add>
+                     <handShift scribe="wvh"/> Regel</add>
+               </subst> <handShift scribe="Schreiber"/> und Beispiele seines Führers
+                    vergleicht, gleich ungewiß über das was eigentlich richtig ist. Solcher Fälle
+                    giebt es viele in <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl>, ich hebe nur diesen heraus, weil Ew
+                    Hochwohlgebohren ihn grade hier loben. Ich ehre gewiß <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> Verdienste. <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> konnte ja systematischer sein, da er
+                    ihn vor sich hatte. Aber <hi rend="antiqua">
+                  <persName ref="bopp">Bopp</persName>s</hi> <bibl sameAs="570">Grammatik</bibl> gegen <bibl sameAs="455">die von <hi rend="antiqua">Wilkins</hi>
+               </bibl> herabzusetzen, kann ich nicht für frei von
+                    Partheilichkeit halten.</p>
+            <p>Die Umstellung der Personen scheint mir eine höchst gleichgültige Sache.
+                        <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> hat keinen andern Grund dazu gehabt,
+                    als die <hi rend="antiqua">Sanskrit</hi>-Grammatik der Griechischen gleich zu
+                    machen, was mir wenn man einmal über diese Kleinigkeit sprechen will,
+                    beifallswerth scheint. Die Thatsache, daß die Indischen Grammatiker es anders
+                    machten, läßt sich durch eine allgemeine Anmerkung erhalten.</p>
+            <p>Den Gründen, die Ew Hochwohlgebohren für die Indische Stellung <subst>
+                  <del>einführen</del>
+                  <add>
+                     <handShift scribe="wvh"/> anführen</add>
+               </subst>
+               <handShift scribe="Schreiber"/>, kann ich nicht beistimmen. Es ist allerdings
+                    so, wenn man in der Sprachphilosophie nur Logik sieht, im Verbum nur eine <hi rend="antiqua">Copula</hi>. Dies ist aber nun lange genug geschehen. In der
+                    Philosophie, welche die Eigenthümlichkeit des Unterschiedes zwischen Logik und
+                    aus der lebendigen, schöpferischen und begeisterten Natur der Sprache
+                    geschöpfter Theorie unterscheidet, steht grade das <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">colloqu</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <hi rend="antiqua">colloquiale</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> Verhältniß oben an. Davon liegt auch
+                    eine Andeutung im Pronomen aller Sprachen. Der Takt der Griechischen Grammatiker
+                    scheint mir also hier tiefer eingegangen zu seyn. Doch läßt sich in diesen
+                    allgemeinen Gründen ewig hin und her streiten, weshalb ich in solchen Dingen
+                    nicht viel auf sie gebe.</p>
+            <p>Ich möchte aber glauben, daß die Indischen Grammatiker einen andern spezielleren
+                    Grund gehabt hätten. Sie stellten die Person im Schema zuerst, die sie überhaupt
+                    und oft allein anführen wollten, um die Flexionsart des Verbum zu zeigen. Dazu
+                    taugt aber die 3. <hi rend="antiqua">sing.</hi> im <hi rend="antiqua">Sanskrit</hi> mehr, als die erste, theils weil diese oft Vocalverlängerung
+                    hat, die in der Mehrzahl der Beugungen nicht ist, theils weil die unmittelbare
+                    Anschließung des dumpfen Zahnlauts an den Wurzelconsonanten mehr und
+                    schwierigere Verwandlungen <pb n="15*"/> hervorbringt. Darum billige ich <hi rend="antiqua">
+                  <persName ref="farosen">Rosen</persName>s</hi> beständige Anführung der 1.
+                        <hi rend="antiqua">pers. sing.</hi> gar nicht. Die Stellung im Schema hängt
+                    damit nicht nothwendig zusammen. </p>
+            <p>Ew Hochwohlgebohren anhaltendes Studium des <bibl sameAs="579">
+                  <hi rend="antiqua">Panini</hi>
+               </bibl> freut mich ungemein. Wäre es nicht <subst>
+                  <del>wohl</del>
+                  <add>
+                     <handShift scribe="wvh"/>sehr</add>
+               </subst> <handShift scribe="Schreiber"/> schön, wenn Sie alle Stellen anmerkten
+                    die vom Sprachgebrauch der <bibl sameAs="445">
+                  <hi rend="antiqua">Vedas</hi>
+               </bibl> handeln? Man könnte sie dann in <subst>
+                  <del>ein</del>
+                  <add>
+                     <handShift scribe="wvh"/> Ein</add>
+               </subst> <handShift scribe="Schreiber"/> Corpus vereinigen. </p>
+            <p>
+               <subst>
+                  <del>Ein</del>
+                  <add>
+                     <handShift scribe="wvh"/> Eine</add>
+               </subst> <handShift scribe="Schreiber"/> höchst merkwürdige Stelle in Ihrem
+                    Briefe ist mir die gewesen, wo Sie sagen, daß aus den Grammatikern
+                    unwidersprechlich erhelle, daß in ihrem Lande und zu ihrer Zeit das <hi rend="antiqua">Sanskrit</hi> selbst von den untersten Volksklassen correct
+                    gesprochen worden. Hierüber sollten Sie vor Allem einmal etwas schreiben. Die
+                    Engländer nahmen, wie man aus den <bibl sameAs="34">Asiat.
+                    Untersuchungen</bibl> sieht, an, daß
+                    das <hi rend="antiqua">Sanskrit</hi> nur bis zu den drei ersten Kasten
+                    hinunterging, und scheinen in den untersten das <hi rend="antiqua">Pracrit</hi>
+                    zu finden, was die <hi rend="antiqua">Sanskrit</hi>-Schriftsteller einmischen.
+                    Dies kam mir wahrscheinlich vor, weil die mehrsten Sprachen <hi rend="antiqua">Süd-Asiens</hi> einen höheren, gebildeten Dialect neben <sic>einen</sic> <subst>
+                  <del>V<gap quantity="4" unit="chars"/>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> Volks</add>
+               </subst>
+               <handShift scribe="Schreiber"/> Dialect haben. Vielleicht gelten aber diese
+                    Annahmen der Engländer nur von einer späteren Zeit, als die von <persName ref="panini">
+                  <hi rend="antiqua">Panini</hi>
+               </persName> oder von den Grammatikern war,
+                    welche <persName ref="panini">
+                  <hi rend="antiqua">Panini</hi>
+               </persName>
+               <!-- AD: Hier eher Werk? -->
+                    benutzte. </p>
+            <p>
+               <handShift scribe="wvh"/> Ich kann diesen langen Brief nicht abgehen lassen,
+                    ohne einige Worte noch selbst hinzuzufügen. Ich bin von Ew. Hochwohlgebornen
+                    Theilnahme an dem unglücklichen Ereigniß überzeugt, das mich betroffen hat. Es
+                    hat mich nicht allein tief erschüttert, sondern mich in eine Stimmung versetzt,
+                    die mich nur zurückgezogene Einsamkeit suchen läßt. Es giebt kaum irgend etwas
+                    im inneren Leben, das nicht durch ein so gewaltsames Zerreißen eines
+                    langjährigen beständigen Zusammenlebens auf das schmerzlichste in jedem
+                    Augenblick berührt würde. – Ich freue mich unendlich Ew. Hochwohlgebornen
+                    dauerhafter Gesundheit und rüstiger Arbeitslust. Möge Ihnen beides noch recht
+                    viele Jahre ungeschwächt und ungestört bleiben! </p>
+            <closer>
+               <salute>Mit der herzlichsten und ausgezeichnetesten Hochachtung ganz der
+                        Ihrige</salute>
+               <signed>H.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 16. <hi rend="antiqua">Junius</hi>,
+                        1829.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="16* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

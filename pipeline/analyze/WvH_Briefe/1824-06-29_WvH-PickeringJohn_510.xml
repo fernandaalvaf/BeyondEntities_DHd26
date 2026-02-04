@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 29.06.1824<idno type="BBAW">510</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q. 1900,
+                            No. 12, Courtesy of the Trustees of the Boston Public Library/Rare
+                            Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 296–302</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7409</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fadelius">
+                  <persName>Delius, Friedrich Adolf</persName>
+               </person>
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="eeverett">
+                  <persName>Everett, Edward</persName>
+               </person>
+               <person corresp="jgeheckewelder">
+                  <persName>Heckewelder, Johann Gottlieb Ernst</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="lalahontan">
+                  <persName>Lahontan, Louis-Armand de Lom d’Arce de</persName>
+               </person>
+               <person corresp="jmorse">
+                  <persName>Morse, Jedidiah</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="10">Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften
+                    zu Berlin (1804–1900)</bibl>
+               <bibl corresp="26">Archaeologia Americana. Transactions and Collections of The American
+                    Antiquarian Society, Volume 1–7, 1820–1885</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="209">Humboldt, Wilhelm von: Über das vergleichende Sprachstudium in
+                    Beziehung auf die verschiedenen Epochen der Sprachentwicklung. In: Abhandlungen
+                    der königlich preußischen Akademie der Wissenschaften aus den Jahren 1820–1821,
+                    Historisch-philologische Klasse (Berlin: Reimer 1822), S. 239–260</bibl>
+               <bibl corresp="231">Humboldt, Wilhelm von: Ueber die Aufgabe des Geschichtschreibers.
+                    In: Abhandlungen der königlichen preußischen Akademie der Wissenschaften aus den
+                    Jahren 1820–1821, Historisch-philologische Klasse (Berlin: Reimer 1822), S.
+                    305–322</bibl>
+               <bibl corresp="305">Morse, Jedidiah: A report to the Secretary of War of the United
+                    States, on Indian affairs, comprising a narrative of a tour (New Haven: Converse
+                    1822)</bibl>
+               <bibl corresp="333">Pickering, John: An essay on a uniform orthography for the Indian
+                    languages of North America, as published in the Memoirs of the American Academy
+                    of Arts and Sciences (Cambridge: University Press, Hilliard and Metcalf
+                    1820)</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je ne sai vraiment pas, comment excuser le long
+                        silence …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-06-29"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="447" type="next">27.11.1827</ref>
+               <ref target="446" type="prev">14.02.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="egy">Ägyptisch</language>
+            <language ident="grc">Altgriechisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="crn">Cora</language>
+            <language ident="">Indianische Sprachen</language>
+            <language ident="cop">Koptisch</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">03. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>Je ne sai vraiment pas, comment excuser le long silence que j’ai observé depuis
+                    que j’ai reçu, Monsieur, <ref type="link" target="446">Votre lettre</ref> du
+                        <date when="1823-02-14">14. Février de l’année
+                    dernière</date>
+               <!-- Anmerkung bei KMV 1976: "Pickerings Brief vom 14. Februar 1823 überschnitt sich mit Humboldts Schreiben vom 9. April des gleichen Jahres, das Pickering am 12. Juni 1823 erhielt." -->.
+                    Je ne puis en effèt qu’implorer Votre indulgence. Il y a cependant eû deux
+                    causes qu’il ne dépendoit point de moi d’éloigner, qui ont si prodigieusement
+                    retardé ma réponse.</p>
+            <p>J’ai souffert pendant presqu’ huit mois d’un mal des yeux qui m’a forcé de les
+                    ménager beaucoup. Je n’ai pû écrire &amp; lire que de jour, &amp; comme ce mal
+                    m’est venû en hiver j’ai perdû par là la plus grande partie de mon tems. Mes
+                    études &amp; ma correspondance littéraire en ont infiniment souffert, &amp; dans
+                    ce tems-là il ne tenoit vraîment pas à moi, si je laissois à mon très-grand
+                    regret, même une lettre aussi intéressante que Votre dernière, sans réponse.
+                    Depuis quelques mois mes yeux vont mieux, mais je fais encore des remèdes, &amp;
+                    je suis forcé à ménager mes yeux &amp; d’user de beaucoup de précautions pour ne
+                    pas trop les fatiguer. Je crains surtout qu’ils n’opposent encore cet hiver un
+                    grand obstacle à mes occupations littéraires.</p>
+            <p>Ce qui me fit en second lieu retarder ma réponse à <ref type="link" target="446">Votre lettre</ref>, c’est que je ne voulois pas paroître devant Vous sans
+                    pouvoir Vous offrir <bibl sameAs="222">le mémoire</bibl>
+               <!-- vgl. #840 --> dont
+                    je Vous avois parlé <pb n="2"/> dans <ref type="link" target="508">ma dernière
+                        lettre</ref>
+               <!-- Humboldt sprach nicht im letzten (#509, 9.4.1823), sondern im vorletzten Brief! (#508, 9.10.1822) von der Abhandlung -->
+                    &amp; l’impression en a été tellement retardée sans que j’aye pû l’empêcher
+                    qu’elle vient premièrement d’être achevée depuis peu de semaines.</p>
+            <p>Je prends la liberté de Vous envoyer, Monsieur, avec ces lignes les derniers
+                    volumes des <bibl sameAs="10">Mémoires</bibl> de la Classe de l’<orgName ref="3">Académie des sciences</orgName> dont je suis membre. Je préfère de Vous
+                    faire tenir les <bibl sameAs="10">mémoires</bibl> de la Classe en entier plutôt
+                    que de Vous présenter des exemplaires de mes mémoires seulement pour compenser
+                    ce cette manière par le travail de mes Collègues ce qui, comme je le sens
+                    très-bien, manque à mes mémoires.</p>
+            <p>Vous en trouverez trois dans les Volumes ci-joints, dont deux ont rapport à
+                    l’étude des langues. Un troisième est déstiné à développer <bibl sameAs="231">quelques idées sur la manière d’écrire l’histoire</bibl>. Je les
+                    recommande tous les trois à Votre indulgence, Monsieur, &amp; je sens qu’ils en
+                    ont grand besoin.<note type="footnote" resp="editor">Es handelt sich hier um die
+                        folgenden drei Abhandlungen: <bibl sameAs="209">
+                     <hi rend="italic">Über das vergleichende Sprachstudium...</hi>
+                  </bibl>
+                        (1820), <bibl sameAs="231">
+                     <hi rend="italic">Über die Aufgabe des Geschichtschreibers</hi>
+                  </bibl>
+                        (1821) und <bibl sameAs="222">
+                     <hi rend="italic">Über das Entstehen der grammatischen
+                            Formen...</hi>
+                  </bibl> (1822).</note>
+            </p>
+            <p>Vous verrez que j’ai tâché de considérer les langues &amp; leur diversité sous un
+                    point de vue général et philosophique. Je suis sûr que je n’ai point à craindre
+                    de Votre part le reproche de m’être égaré dans des idées chimeriques en traitant
+                    ces matières d’une manière trop abstraite. Il est essentiellement propre à Votre
+                    nation d’approfondir chaque idée jusqu’aux bases sur lesquelles elle repose;
+                    Vous, Monsieur, en particulier regardez, ainsi que le preuvent Vos écrits &amp;
+                    tant de passages intéressans de Vos lettres, les langues d’un oeil si
+                    philosophique je suis sûr d’avance que Vous ne blamerez point les efforts
+                    d’arriver aux idées premières, &amp; de <del>
+                  <gap quantity="3" unit="chars"/>
+               </del> trouver des idées directrices,
+                    capables de conduire à travers le labyrinthe des recherches de fait sur une si
+                    grande multiplicité de langues &amp; d’<pb n="3"/>idiômes différens. Rien en
+                    effèt ne m’a parû plus nécessaire. Le dernier des mémoires que je prends la
+                    liberté de Vous faire parvenir ci-joint entre davantage dans des questions de
+                    fait, &amp; Vous y trouverez quelques détails sur quelques idiômes Américains.
+                    Mais les exemples que j’en ai tirés, ne sont pris que des idiômes de l’Amérique
+                    méridionale. J’avoue qu’avant que de connoître <bibl sameAs="473">la
+                        grammaire</bibl> de <persName ref="dzeisberger">Zeisberger</persName>, je
+                    n’ose rien avancer sur les idiômes de la partie septentrionale. Ils me
+                    paroissent d’après les notions que j’en ai acquises principalement par Vos
+                    bontés, extrêmement intéressans, d’une structure plus artificielle que presque
+                    tous les autres, &amp; peut-être aussi plus énergiques et plus propres encore à
+                    exprimer les idées &amp; les sentimens de ceux qui les parlent. Mais quelque
+                    précieux que soyent les renseignemens que j’ai recueilli des ouvrages que Vous
+                    avez eû la bonté, Monsieur, de me communiquer, et des observations judicieuses
+                    &amp; vraîment précieuses dont Vous avez eû la bonté d’accompagner dans Vos
+                    lettres ces écrits, l’exposé complet de la forme grammaticale de la langue
+                    principale de ces pais peut seul mettre en étât de porter un jugement solide
+                    &amp; détaillé <del>dans</del> sur cet idiôme, que sur ceux qui ont de
+                    l’affinité avec lui. Quoiqu’il paroisse encore fort douteux, si la civilisation
+                    Mexicaine tire son origine des pais situés au Nord Est de l’Amérique, il m’a
+                    semblé pourtant que précisement ces pais-là sont pârvenus dans des tems
+                    extrêmement reculés à un degré vraiment étonnant de culture. Ce que j’ai trouvé
+                    là-dessus dans l’<bibl sameAs="26">Archaeologia</bibl> <subst>
+                  <del>Britannica</del>
+                  <add>
+                     <bibl sameAs="26">Americana</bibl>
+                  </add>
+               </subst>,
+                    &amp; dans d’autres ouvrages que Vous avez eû la bonté de m’envoyer, m’a on ne
+                    peut pas plus, frappé. D’un autre côté les <pb n="4"/> discours des Chefs des
+                    soi-disant sauvages que <persName ref="jmorse">M.<hi rend="superscript">r</hi>
+                        Morse</persName> rapporte dans <bibl sameAs="305">son intéressant exposé sur
+                        l’étât de ces peuplades</bibl>, prouvent que leur langue est capable de
+                    devenir l’organe des sentimens les plus forts &amp; les plus analogues à la
+                    nature humaine dans sa simplicité et sa pureté primitives. Ces discours seront
+                    sans doute un peu altérés par la traduction dans une des plus belles langues de
+                    l’Europe, mais ils portent néanmoins une teinte originale à laquelle il est
+                    presque impossible de se méconnoître, et ce qu’on y admire n’appartient pas aux
+                    qualités que l’homme de nature peut acquérir par le commerce avec des nations
+                    déjà civilisées, mais plutôt à celles qui perdent et s’anéantissent
+                    insensiblement par ce commerce. Vous m’obligériez néanmoins infiniment,
+                    Monsieur, si Vous vouliez me dire autant que cela Vous est connû à Vous même, en
+                    combien on peut regarder les traductions de ces discours comme fidèles, &amp; de
+                    quelle manière ces discours sont recueillis &amp; traduits. Ce qui seroit
+                    infiniment précieux seroit si l’on pouvoit obtenir un de ces discours réellement
+                    tenû dans une assemblée publique en original avec une tradition littérale. Je
+                    crois avoir vû de ces discours imprimés, mais la traduction y manquoit. Cet
+                    objèt me conduit à une autre, mais sur lequel je ne sai si Vous pourrez me
+                    donner des renseignemens. Les nations indigènes de l’Amérique septentrionale ou
+                    plutôt quelques unes d’entr’ elles ont la coutûme de se servir d’hieroglyphes ou
+                    du moins de tableaux historiques pour se communiquer ce qui s’est passé. Les
+                    voyageurs p. e. <persName ref="lalahontan">Lahonte</persName>
+               <note type="footnote" resp="editor">Gemeint ist der Franzose <persName ref="lalahontan">Louis-Armand de Lom d’Arce de Lahontan [Baron
+                            de]</persName> (1666 – etwa 1716), hauptsächlich bekannt durch sein
+                        Reisewerk <hi rend="italic">Voyages du Baron de la Hontan dans l'Amérique
+                            septentrionale qui contiennent une Rélation des différens Peuples qui y
+                            habitent; la nature de leur Gouvernement; leur Commerce, leurs Coûtumes,
+                            leur Religion, et leur manière de faire la Guerre</hi> (Amsterdam:
+                        L'Honoré 1705).</note> si je ne me trompe, racontent qu’ils tracent des
+                    figures d’hommes &amp; d’animaux dans l’écorce des arbres pour apprendre aux
+                    passans le résultat de leurs guerres ou de leurs chasses. Je desirerois vivement
+                    d’apprendre, si cet usage <pb n="5"/> existe encore de nos jours et quelle est à
+                    peu près la méthode de cette écriture, s’il est permis de la nommer ainsi. Il
+                    seroit très-intéressant d’obtenir un catalogue de mots avec leurs signes au tant
+                    que ces signes ne sont pas uniquement l’image des objèts mêmes. Il seroit encore
+                    important de savoir: s’ils expriment par ces signes jamais des idées qui ne
+                    tombent pas sous les yeux? s’ils altèrent la forme des objèts visibles, comme
+                    font p. e. les Mexicains en peignant le feu, l’eau cet. s’ils dénotent un corps
+                    entier par une de ses parties, un homme p. e. par sa tête seulement? de quelle
+                    manière ils expriment les nombres? s’ils ont des moyens pour peindre des noms
+                    propres ainsi que le faisoient les Mexicains? &amp; cet.</p>
+            <p>Pour en revenir après cette digression à <bibl sameAs="222">mon mémoire</bibl>,
+                    Vous verrez, Monsieur, que la seule chose que je conteste à ceux des idiômes
+                    Américains que j’ai été à même d’approfondir davantage, c’est la qualité
+                    d’exprimer &amp; de cultiver même dans l’esprit de la nation ce qu’on peut
+                    nommer la forme de l’idée. Quant à la faculté de rendre les idées mêmes, ainsi
+                    que les sentimens &amp; toutes leurs nuances, <del>il</del> on est même forcé à
+                    leur accorder même dans un dégré supérieur à nos langues cultivées. Une des
+                    grandes différences entre ces langues &amp; les nôtres est celle que nous
+                    brisons pour ainsi dire, ce qu’on peut appeller la matière première des langues,
+                    dans de plus petits morceaux pour les composer entièrement à notre guise,
+                    tandisque ces nations conservent dans le même mot un plus grand nombre de
+                    nuances, y entassent plus de modifications, construisent pour ainsi dire la
+                    charpente de leurs discours avec des élemens plus grandement &amp; plus
+                    hardiment taillés. Une sévère logique, une dialectique fine &amp; déliée doit
+                    gagner <del>surtout</del> naturellement en adoptant notre méthode, mais ces
+                    langues diffé-<pb n="6"/>remment organisées doivent étonner &amp; frapper
+                    davantage. Je dirai même qu’en elles-mêmes elles sont plus intéressantes à
+                    étudier, mais que les nôtres ne brillent que dans leurs productions. Ayant
+                    déstiné <bibl sameAs="222">mon mémoire</bibl> à être lû dans une séance publique
+                    de l’<orgName ref="3">Académie</orgName>, j’ai dû me prescrire des bornes en le
+                    composant &amp; n’ai pas pû lui donner toute l’étendue que j’aurois désiré de
+                    faire. J’ose cependant me flatter d’avoir exposé mon idée principale avec clarté
+                    &amp; précision, mais j’aurois voulû pouvoir m’étendre davantage sur les idiômes
+                    que j’y déclare moins propres au développement de la pensée. En parlant ici
+                    principalement de ce qui leur manque et remplissant ainsi la tâche que l’ordre
+                    de mes idées m’imposoit impérieusement, je pourrai sembler méconnoître leurs
+                    avantages &amp; leurs beautés ce qui pourtant n’est certainement pas mon cas. Ce
+                    ne sont du reste pas seulement les langues Américaines <del type="fragment">seule</del> à qui l’on peut faire les reproches que j’expose dans mon
+                    mémoire. Vous y trouverez, Monsieur, que je les addresse également aux idiômes
+                    de deux nations célèbres par leur culture &amp; par leurs efforts scientifiques
+                    je veux dire des anciens Egyptiens &amp; des Chinois. La langue Copte qui est la
+                    langue de l’antique Egypte, est à mon égard bien plus imparfaite que p. e. la
+                    langue Mexicaine.</p>
+            <p>Vous direz, Monsieur, &amp; jusqu’à un certain dégré avec raison, que tout ce
+                    dont je viens de parler, tient à la culture des Nations qui ne fait que des
+                    progrès insensibles, &amp; que dire qu’une langue a ces imperfections là, c’est
+                    uniquement avancer que la nation qui la parle, n’a pas atteint tel ou tel dégré
+                    de civilisation. Mais j’avoue que je ne puis pas entièrement adopter ce
+                    raisonnement. C’est même ici le point, sur lequel je crois <pb n="7"/> avoir des
+                    apperçus qui, si on les a eûs réellement, n’ont pas été mis dans leur véritable
+                    jour jusqu’ici. Je crois que les facultés intellectuelles portées vers
+                    l’invention &amp; le perfectionnement du langage sont très-différentes dans les
+                    différentes nations, <del>dans</del> &amp; l’ont été dans tous les tems. Je
+                    crois que c’est de là qu’il vient en plus grande partie que certaines langues
+                    ont une structure plus parfaite que d’autres, ou du moins telle ou telle
+                    direction, tels ou tels avantages par lesquels elles se distinguent. Quelque
+                    grande que soit l’influence de la culture &amp; de la civilisation sur ces
+                    langues après, elle ne sauroit plus en changer ni la charpente, ni la teinte
+                    originales. Les Grecs p. e. les anciens Indiens ont eû, selon moi, ce don de
+                    créer des langues qui réunissent <del type="fragment">ap</del> à peu près tous
+                    les genres de perfection que l’esprit humain peut desirer de trouver dans un
+                    idiôme quelconque. Ce même don a manqué aux Chinois, aux Egyptiens. La
+                    civilisation aura poli &amp; perfectionné ensuite naturellement également les
+                    langues de ces dernières nations, mais la différence n’en restera pas moins
+                    sensible, car lorsqu’une langue est arrivée à un certain point d’organisation,
+                    lorsque <subst>
+                  <del>ses</del>
+                  <add>les</add>
+               </subst> élémens de sa grammaire sont formés, il me semble très-difficile
+                    qu’elle subisse encore des changemens <sic>considérable</sic> dans cette même
+                    organisation. Or si une nation est ou n’est pas <sic>doué</sic> de ce tact fin
+                    &amp; délicat, de cet instinct intellectuel, si l’expression m’est permise, de
+                    ce concours heureux de l’esprit, de l’imagination &amp; de l’oreille portée vers
+                    l’harmonie des sons articulés, voilà ce qui dépend entièrement de son
+                    organisation particulière, de même à peu près qu’évidemment quelques nations
+                    possèdent plus de génie que d’autres pour la peinture, pour la musique et cet.
+                    Les nations auxquelles on ne sauroit accorder un grand talent dans ce genre,
+                    peuvent néanmoins avoir beaucoup d’aptitude pour d’autres genres de culture
+                    &amp; de civilisation, étonner même soit par leurs découvertes &amp; leur
+                    industrie, soit par la forme de leur gouvernement &amp; l’empreinte de leurs
+                    moeurs, elles peuvent même ac-<pb n="8"/>quérir dans leurs langues un dégré de
+                    perfectionnement auquel ces dernières ne sembloient point être destinées
+                    originairement, mais ce ne sera pour lors que par de véritables révolutions, par
+                    le mélange de leurs idiômes avec d’autres plus parfaits, par une véritable
+                    réorganisation. C’est cette dernière, selon moi, qui a contribué puissamment au
+                    perfectionnement des langues de l’Europe moderne, &amp; les migrations des
+                    peuples, si funestes pour le moment pour le bonheur &amp; même pour la
+                    civilisation des nations, ont eû par là des suites fort importantes &amp;
+                    infiniment heureuses. J’ai besoin de toute Votre indulgence, Monsieur, pour que
+                    Vous excusiez une aussi longue digression sur des idées que Vous trouverez en
+                    grande partie développées dans les mémoires ci-joints; mais il m’importe
+                    tellement que ce que j’ai osé &lt;y&gt; avancer sur les causes de l’organisation
+                    différente des divers idiômes se présente sous son vrai jour à Vos yeux que je
+                    n’ai pû me défendre de m’étendre encore sur cet objet. Je joins aux mémoires de
+                    notre <orgName ref="3">Académie</orgName> trois exemplaires <del type="fragment">isol</del> séparés de <bibl sameAs="222">mon dernier mémoire</bibl> en Vous
+                    priant, Monsieur, d’en communiquer un à <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Du Ponceau</persName>, le second à <persName ref="eeverett">M.<hi rend="superscript">r</hi> Everett</persName>, &amp; de
+                    disposer à Votre gré du troisième. Je ne possède malheureusement plus
+                    d’exemplaires de mes autres mémoires. Il est infiniment précieux pour un auteur
+                    Allemand qu’en prenant la liberté de Vous présenter de ses productions
+                    littéraires, il soit sûr d’être lû &amp; compris dans son idiôme maternel. C’est
+                    rarement le cas en France, &amp; plus rarement encore en Angleterre, &amp;
+                    j’avoue ingénument qu’il m’est impossible de me résoudre à écrire dans une
+                    langue étrangère. On fait par là un sacrifice qui coute autant aux lecteurs qu’à
+                    soi même. Car quand même ce qui est déjà fort difficile on parviendroit à
+                    exprimer son idée tout aussi correctement &amp; nettement que dans sa propre
+                    langue, on ne la rend jamais aussi pleinement, on <pb n="9"/> est entrainé et
+                    arrêté en même tems par l’instrument dont on se sert.</p>
+            <p>Je compte au très-peu de tems àprésent commencer à travailler réellement à
+                    l’ouvrage que depuis longtems je prépare sur les langues du nouveau continent.
+                    J’ai à peu près recueilli àprésent les matériaux nécessaires pour cette
+                    entreprise. J’avoue cependant que je me déciderois avec regret à y mettre la
+                    main sans posséder <bibl sameAs="473">la grammaire</bibl> de <persName ref="dzeisberger">Zeisberger</persName>. Je regarde en effet cet ouvrage
+                    comme la clef <del type="fragment">p</del> des idiômes d’une vaste partie de
+                    Votre Continent, &amp; je ne puis assez Vous recommander d’accélérer sa
+                    publication.</p>
+            <p>Les observations judicieuses que renferme <ref type="link" target="446">la
+                        lettre</ref> que Vous m’avez fait l’honneur de m’addresser m’ont vivement
+                    intéressé. La méthode que Vous adoptez, de chercher les regles du langage dans
+                    les ouvrages mêmes des premiers Missionnaires, &amp; de tâcher de consulter en
+                    même tems l’usage des Indiens actuels, est excellente &amp; a été si rarement
+                    employée dans les recherches sur ces idiômes. J’ai exactement noté tous les
+                    précieux renseignemens que j’ai recueilli ainsi par Vos bontés, &amp; je ne puis
+                    assez Vous <sic>témoignez</sic> ma vive <del type="fragment">remerc</del>
+                    reconnoissance de ce que Vous ayez bien voulû au milieu des occupations
+                    auxquelles Vous Vous vouez pour le bien de Vos concitoyens me consacrer une
+                    aussi grande partie de Votre tems.</p>
+            <p>Ce que Vous me dites, Monsieur, sur <bibl sameAs="333">l’introduction d’une
+                        orthographe uniforme pour les idiômes Américains</bibl> m’a àprésent
+                    entièrement satisfait, &amp; je vois qu’en plusieurs endroits je n’avois pas
+                    d’abord bien saisi Votre idée. Je Vous prie d’en agréer mes excuses bien
+                    sincères. Il est cependant vivement à regretter qu’on ne pourra jamais mettre
+                    que quelques bornes à l’embarras qui nait naturellement de l’orthographe
+                    différente des auteurs des diverses nations qui ont écrit sur les langues
+                    Américaines, &amp; je ne vois pas d’autre moyen d’obvier à une confusion fort
+                    nuisible que d’observer toujours exactement la prononciation de quelle langue
+                    c’est qu’on suit en traitant de chacune des <del type="fragment">divers</del>
+                    langues différentes. Car Vous dites avec raison, Monsieur, qu’on ne sauroit <pb n="10"/> transcrire sans donner bien à un grand nombre d’erreurs, dans une
+                    nouvelle orthographe ce qui par des Espagnols &amp; des Portugais a été
+                    recueilli avant des siècles de la bouche des indigènes, &amp; Vous limitez Vous
+                    même, Monsieur, Votre nouvelle méthode aux idiomes des nations qui Vous
+                    avoisinent. Ce qui m’a le plus étonné, et ce que je ne puis expliquer encore
+                    àprésent c’est que je me suis assuré par les témoignages d’indigènes que le tl
+                    Mexicain, comme <foreign sameAs="nah">
+                  <hi rend="underline">coatl</hi>
+               </foreign>, serpent, ne se prononce pas,
+                    comme les lettres sont écrites, mais <hi rend="underline">cl</hi>, <foreign sameAs="nah">
+                  <hi rend="underline">coacl</hi>
+               </foreign>. Cela est d’autant plus étonnant
+                    que la langue Cora qui ou dérive de la langue Mexicaine, ou en a emprunté du
+                    moins un grand nombre de mots, mais qui manque de la lettre <hi rend="underline">l</hi> place aussi souvent <del>que <gap quantity="6" unit="chars"/>
+               </del>
+                    que le son <hi rend="underline">tl</hi> d’un mot Mexicain passe dans un de ses
+                    mots, un <hi rend="underline">t</hi> et non pas un <hi rend="underline">c</hi>
+                    au lieu de la réunion des deux consonnes.</p>
+            <p>Vous me demandez, Monsieur, si j’ai reçu les livres que <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Duponceau</persName> a eû
+                    la bonté de m’envoyer. Ils me sont parvenûs à la vérité, mais extrêmement tard,
+                    &amp; par la voye de <placeName ref="Paris">Paris</placeName> où ils étoient
+                    venûs à <persName ref="avh">mon frère</persName> sans qu’il sçut d’abord qu’ils
+                    me furent déstinés. Je Vous prie d’en offrir mes vifs remercîmens à <persName ref="psduponceau">M.<hi rend="superscript">r</hi> Duponceau</persName>.
+                    Quant à une lettre de sa part, je n’en ai pas reçu à cette occasion, &amp; je
+                    n’en ai aucune à <del>qui</del> laquelle je lui doive une réponse.</p>
+            <p>La mort du digne et respectable <persName ref="jgeheckewelder">Heckewelder</persName> m’a beaucoup attristé.<note type="footnote" resp="editor">
+                  <persName ref="jgeheckewelder">Heckewelder</persName> war am <date when="1823-01-31">31. Januar 1823</date> in <placeName ref="Bethlehem, PA">Bethlehem</placeName>, Pennsylvania,
+                        gestorben.</note> C’est une perte réelle pour la connoissance &amp; l’étude
+                    des langues Américaines qu’il avoit été à portée de se rendre familières, &amp;
+                    c’en est certainement une également grande pour toutes les autres occupations
+                    plus importantes encore, auxquelles il vouoit son activité, et particulièrement
+                    une grande perte pour ses amis &amp; tous ceux qui l’estimoient, comme moi, sans
+                    le connoître autrement que de réputation &amp; par les résultats de ses
+                    travaux.</p>
+            <p>
+               <pb n="11"/> J’expédie cette lettre par <persName ref="fadelius">M.<hi rend="superscript">r</hi> Delius</persName> à <placeName ref="Bremen">Bremen</placeName>, &amp; je lui marquerai de la faire partir même avant le
+                    paquet des livres que j’y joins, s’il ne se présente pas tout de suite une
+                    occasion favorable pour ce dernier, puisqu’il me tarde de Vous faire parvenir
+                    mes excuses de mon long silence auquel pourtant, comme j’ai eû l’honneur de Vous
+                    le dire, j’ai été forcé malgré moi.</p>
+            <closer>
+               <salute>Veuillez me continuer, Monsieur, Vos bienveillantes bontés, &amp; agréez
+                        l’assurance réitérée de la considération très-distinguée avec laquelle j’ai
+                        l’honneur d’être, <lb/>Monsieur, <lb/>Votre très-humble et très obéissant
+                        serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>à Tegel, près de <placeName ref="Berlin">Berlin</placeName>, ce 29.
+                        Juin, 1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

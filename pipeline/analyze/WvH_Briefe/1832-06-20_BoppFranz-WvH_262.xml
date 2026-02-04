@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 20.06.1832<idno type="BBAW">262</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                        Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 12 E, Mappe 6</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 144</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="becker">
+                  <persName>Becker, Dr., Arzt aus Hildesheim</persName>
+               </person>
+               <person corresp="flieber">
+                  <persName>Lieber, Franz</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae 1
+                        (Berlin: Dümmler 1829)</bibl>
+               <bibl corresp="590">Rosen, Friedrich August: Radices Sanscritae (Berlin: Dümmler
+                        1827)</bibl>
+               <bibl corresp="459">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                        translated, amended, and enlarged from an original compilation (Calcutta:
+                        Educ. Press 1832)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew Excellenz Sage ich meinen innigsten Dank für die gütige
+                    Übersendung Ihres Briefes an Dr Lieber, der gewiss Hrn Becker sehr große Freude
+                    machen wird und für ihn sehr ehrenvoll ist …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1832-06-20"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="189" type="prev">14.06.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="arb">Arabisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">18. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 29. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1832_06_20/Coll.ling.fol.12E_174.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1832_06_20/Coll.ling.fol.12E_175.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1832_06_20/Coll.ling.fol.12E_176.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1832_06_20/Coll.ling.fol.12E_177.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <salute>Ew Excellenz</salute>
+            </opener>
+            <p>sage ich meinen innigsten Dank für die gütige Uebersendung Ihres <ref type="link" target="875">Briefes</ref> an <persName ref="flieber">Dr Lieber</persName>,
+                    der gewiß <persName ref="becker">Hrn Becker</persName> sehr große Freude machen
+                    wird und für ihn sehr ehrenvoll ist. Um zu den übrigen Gegenständen Ihres
+                    geehrten Schreibens überzugehen, so bin ich mit Ew Excellenz vollkommen
+                    einverstanden, daß man <foreign sameAs="fa" n="transEd">
+                  <graphic url="Bopp/Bopp-WvH_1832_06_20/g02.png"/>
+               </foreign> als ein nicht
+                    persisches nicht arabisches Wort, aus einer Sanskritischen Wurzel womöglich
+                    erklären müsse. Es bietet sich in formeller Beziehung nichts besseres als
+                        <foreign sameAs="sa" n="transEd">tajjñ<graphic url="Bopp/Bopp-WvH_1832_06_20/0357a.svg"/>
+               </foreign> dar, denn die
+                    Nasale vor einem <pb n="2*"/> schließenden Consonanten machen niemals einen sehr
+                    wesentlichen Bestandtheil einer Wurzel aus. Ich möchte aber <del>das</del> das
+                        <hi rend="antiqua">inî</hi> in <foreign sameAs="kaw">
+                  <hi rend="antiqua">tadschinî</hi>
+                  <!-- Kawi? -->
+               </foreign> nicht mit dem <hi rend="antiqua">inî</hi> von
+                        <foreign sameAs="sa">
+                  <hi rend="antiqua">padminî</hi>
+                  <!-- Sanskrit? -->
+               </foreign> zusammenstellen und als eine Fülle andeutend
+                    ansehen. Ueber <foreign sameAs="sa">
+                  <hi rend="antiqua">padminî</hi>
+               </foreign> erlaube ich mir mich auf Seite 271
+                    der <bibl sameAs="580">lateinischen Ausgabe meiner Grammatik</bibl> zu berufen;
+                    dagegen würde ich <foreign sameAs="kaw">
+                  <hi rend="antiqua">tadschinî</hi>
+                  <!-- Kawi? -->
+               </foreign> als das Fem. eines <term type="morph" ref="010">
+                  <hi rend="antiqua">Kridanta</hi>
+               </term>-Wortes ansehen, weil <hi rend="antiqua">
+                  <hi rend="underline">in</hi>
+               </hi> an die Wurzel selbst getreten ist, wie in
+                        <foreign sameAs="sa" n="transEd">
+                  <hi rend="antiqua">cārin</hi>
+                  <graphic url="Bopp/Bopp-WvH_1832_06_20/0357.svg"/>
+               </foreign> gehend. Freilich
+                    kommen diese Wörter wovon ich <bibl sameAs="580">l. c. S. 260. 61.</bibl>
+                    handele vorzüglich nur am Ende von Compositen vor<supplied cert="high">.</supplied> Die Bedeutung der Wurzel <foreign sameAs="sa" n="transEd">tañj<graphic url="Bopp/Bopp-WvH_1832_06_20/0358.svg"/>
+               </foreign> stimmt
+                    ebenfalls gut, besonders wenn man aus den englischen Uebersetzungen die
+                    Bedeutung <hi rend="underline">zuschnüren</hi> folgert, die jedoch nicht ganz
+                    sicher darin liegt<supplied cert="high">.</supplied> <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> scheint sich an der Sanskr.
+                    Erklärung <foreign sameAs="sa" n="transEd">saṅkoce<graphic url="Bopp/Bopp-WvH_1832_06_20/0359.svg"/>
+               </foreign> gehalten zu haben. –
+                    Doch sehe <add>ich</add> erst eben, daß <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> diesen Ausdruck durch <sic>
+                  <hi rend="antiqua">
+                     <foreign sameAs="en">schutting</foreign>
+                  </hi>
+               </sic>, <hi rend="antiqua">
+                  <foreign sameAs="en">closing</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="en">contracting</foreign>
+               </hi> übersetzt; was in besonderer
+                    Anwendung allerdings ein Zuschnüren ist.</p>
+            <p>
+               <pb n="3*"/> Die Ableitung von <hi rend="antiqua">
+                  <foreign sameAs="la">tigris</foreign>
+               </hi>
+               <!-- Latein?--> aus <foreign sameAs="sa" n="transEd">tig<graphic url="Bopp/Bopp-WvH_1832_06_20/0360.svg"/>
+               </foreign> scheint mir ganz
+                    zuläßig. Man müßte wenn <foreign sameAs="sa" n="transEd">vyāghra<graphic url="Bopp/Bopp-WvH_1832_06_20/0361.svg"/>
+               </foreign> mit <hi rend="antiqua">
+                  <foreign sameAs="la">tigris</foreign>
+               </hi>
+               <!-- Latein? --> verwandt ist eine Entstellung des Indischen Wortes annehmen.
+                        <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> erklärt <foreign sameAs="sa" n="transEd">vyāghra<graphic url="Bopp/Bopp-WvH_1832_06_20/0361.svg"/>
+               </foreign> aus <foreign sameAs="sa" n="transEd">ghrā<graphic url="Bopp/Bopp-WvH_1832_06_20/0363.svg"/>
+               </foreign> reichen; man könnte
+                    aber, wenn <foreign sameAs="sa">
+                  <hi rend="antiqua">vyâghra</hi>
+               </foreign> seinen Anfang nicht entstellt hat,
+                    auch an die Wurzel <foreign sameAs="sa" n="transEd">han<graphic url="Bopp/Bopp-WvH_1832_06_20/0364.svg"/>
+               </foreign> denken, die ihr
+                        <foreign sameAs="sa" n="transEd">h<graphic url="Bopp/Bopp-WvH_1832_06_20/0365.svg"/>
+               </foreign> häufig in <foreign sameAs="sa" n="transEd">gh<graphic url="Bopp/Bopp-WvH_1832_06_20/0366.svg"/>
+               </foreign> umwandelt.</p>
+            <closer>
+               <salute>In tiefster Ehrerbietung <lb/>Ew Excellenz <lb/>ganz gehorsamster </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <dateline>Berlin den 20. Juni 1832.</dateline>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <add>P.S.</add> Wollte man <foreign sameAs="sa" n="transEd">tājinī<graphic url="Bopp/Bopp-WvH_1832_06_20/0366a.svg"/>
+                  </foreign> als Derivativum
+                        ansehen, aus einem primitiven Substantiv <foreign sameAs="sa" n="transEd">tāj<graphic url="Bopp/Bopp-WvH_1832_06_20/0366b.svg"/>
+                  </foreign>
+                        was etwa Falte bedeuten möchte, so würde es „die Falten habende“
+                        bedeuten.</p>
+            </postscript>
+            <pb n="4*, Anschrift"/>
+            <closer>
+               <address>
+                  <addrLine>Sr Excellenz</addrLine>
+                  <addrLine>Herrn Geheimen Staats-Minister</addrLine>
+                  <addrLine>Freiherrn <hi rend="antiqua">W. von Humboldt</hi>
+                  </addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <placeName ref="Tegel">Tegel</placeName>
+                     </hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="Darunter Siegel"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

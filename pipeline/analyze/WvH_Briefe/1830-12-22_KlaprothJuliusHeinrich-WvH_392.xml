@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Heinrich Julius Klaproth an Wilhelm von Humboldt, 22.12.1830<idno type="BBAW">392</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 49, Bl. 125–126</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 202</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="rmorrison">
+                  <persName>Morrison, Robert</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1063">Morrison, Robert (1815–1818): A dictionary of the Chinese
+                    language, Vol. 1, Part 1–3, Macao: P. Thoms</bibl>
+               <bibl corresp="1303">Shūjīng (alt: Shu-king; Buch der Urkunden)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Um Ew. Exzellenz geehrtes Schreiben vom vergangenen
+                        September gründlich zu beantworten habe ich mir die Mühe genommen, alle
+                        Stellen des Schu king von neuem durchzusehen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+               <date type="author" when="1830-12-22"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="356" type="prev">[9.] September 1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jhklaproth">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">25. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Klaproth/Klaproth-WvH_1830-12-22/Coll.ling.fol.49_262.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-12-22/Coll.ling.fol.49_263.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-12-22/Coll.ling.fol.49_264.jpg"/>
+      <graphic url="Klaproth/Klaproth-WvH_1830-12-22/Coll.ling.fol.49_265.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="125r"/>
+               <dateline>Paris d. 22 Dec 1830<lb/>5 Rue d’Amboise</dateline>
+               <lb/>
+            </opener>
+            <p>Um Ew. Excellenz <ref type="link" target="356">geehrtes Schreiben vom vergangenen
+                        September</ref> gründlich zu beantworten habe ich mir die Mühe genommen <hi rend="underline2">alle</hi> Stellen des <bibl sameAs="1303">Schu king</bibl> von
+                    neuem durchzusehen, in denen <subst>
+                  <del>die</del>
+                  <add>das</add>
+               </subst> Wort <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign>
+                    vorkömmt. Und ich kann jetzt mit Bestimmtheit auf die drei Fragepunkte Ihres
+                    Briefes antworten.</p>
+            <p>Was den ersten betrifft so ist es nur ein Lapsus calami wenn ich gesagt habe daß
+                        <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> nie ein
+                    Pronomen sei; ich wollte sagen es sei nie ein anderes als das der zweiten
+                    Person. <add>2)</add> Ich habe <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> für eine Conjunction und Disjunction erklärt;
+                    ungefähr wie eine Mauer zwei Häuser verbindet und zugleich trennt, eben so
+                    verbindet oder trennt <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> zwei Phrasen, wenn es <hi rend="underline">noch</hi>,
+                        <hi rend="underline">also auch</hi> bedeutet. Das <bibl sameAs="1303">Schu-king</bibl> spricht z. B. von einem Gesange den der Kaiser gesungen,
+                    und sagt darauf, <hi rend="underline">noch</hi> sang er folgenden, oder er sang
+                        <hi rend="underline">aber auch</hi> folgenden. Es liegt gewiß hier in dem
+                        <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign>, oder <hi rend="underline">noch</hi>, ein verbindender und trennender Sinn.</p>
+            <p>3. Ob wirklich ein etymologischer Zusammenhang zwischen <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> dem Pronomen <add>
+                  <hi rend="underline">du</hi>
+               </add> und <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> der Partikel <hi rend="underline">noch</hi> vorhanden sei, ist eine Frage die ich verneinen muß, weil ich
+                    durchaus <sic>keinen</sic> Beispiel dazu finde; eben so wenig wie man im
+                    Deutschen einen zwischen <hi rend="underline">du</hi> und <hi rend="underline">dann</hi>
+               <add>einen Zusammenhang</add> finden dürfte. <foreign sameAs="zh">
+                  <hi rend="underline">Nai</hi>
+               </foreign> als Pronomen wird nur sehr selten
+                    gebraucht, und fast nur in <bibl sameAs="1303">Shuking</bibl>; doch ist dort seine
+                    Partikelbedeutung bei weitem die vorherrschendste. Ich für mein Theil glaube daß
+                    das <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> dort als
+                    Pronomen <pb n="125v"/> der zweiten Person schlechtweg für <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-12-22/018.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">ni</hi>
+               </foreign> du steht, und
+                    vielleicht ehemals eben so ausgesprochen wurde.</p>
+            <p>Keine <sic>einzigen</sic> der vielen Stellen des <bibl sameAs="1303">Schu king</bibl>
+                    die ich nachgelesen habe giebt nur die entfernteste Idée daß <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> Ortspartikel seyn
+                    könnte. Ich habe die Ehre Ew. <sic>Excellen</sic> beiliegend einige Beweise zu
+                    übersenden daß es nur <hi rend="underline">noch</hi> oder <hi rend="underline">du</hi> bedeute.</p>
+            <p>Was nun <sic>nun</sic> das Bild des schwer hervorgehenden Athems anbetrifft so
+                    beruht diese Erklärung auf <sic>eine</sic> von den vielen tausend falschen
+                    Erklärungen in <persName ref="rmorrison">Herrn Morrison</persName>s <bibl sameAs="1063">Wörterbuche</bibl>. Die Chinesischen Lexicographen erklären
+                    unter andern <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-12-22/019.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">naï</hi>
+               </foreign> durch <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-12-22/020.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">Thsü tschi nán</hi>
+               </foreign> d. i.
+                    Zusammenhängung (oder Conjunction) der Phrasen oder der Rede. Das Wort <foreign sameAs="zh">
+                  <hi rend="underline">nan</hi>
+               </foreign> bedeutet <hi rend="underline">Schwierigkeit</hi>, aber auch <hi rend="underline">eins mit
+                        dem anderen verbinden</hi>; diesen letzten Sinn hat <persName ref="rmorrison">Morrison</persName> übersehen, daher seine Schwierigkeit im
+                    Sprechen oder des Athems. Das Wörterbuch Schue wen, das die alten Schriftzeichen
+                        erklärt<note type="footnote" resp="editor">Das <hi rend="italic">Shuowen
+                            Jiezi</hi>, das erste Zeichenlexikon der chinesischen Schrift (d.h. der
+                        kleinen Siegelschrift), wurde im frühen 2. Jahrhundert n. Chr.
+                        zusammengestellt. [FZ]</note> sagt <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-12-22/021.svg"/>
+               </foreign> die alte Form
+                    von <foreign sameAs="zh">
+                  <graphic url="Klaproth/Klaproth-WvH_1830-12-22/022.svg"/>
+               </foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">nai</hi>
+               </foreign> stelle den
+                    Zusammenhängenden Athem, mit dem die Rede ausgesprochen wird vor; aber von
+                    Schwierigkeit ist gar nicht die Rede.</p>
+            <p>Es würde mir angenehm seyn wenn ich durch die hier gegebenen Data dazu
+                    beigetragen hätte die fraglichen Punkte aufzuklären, und Ihrem
+                        <sic>Wünschen</sic> einigermaßen entsprochen <pb n="126r"/> zu haben mich
+                    schmeicheln dürfte.</p>
+            <closer>
+               <salute>Ich ergreife die Gelegenheit um Ew. Excellenz meine stete
+                        Bereitwilligkeit zu Ihrem Dienste zu bezeugen und verharre mit vorzüglicher
+                        Hochachtung und Ergebenheit Ihr<lb/>gehorsamster
+                        Diener</salute>
+               <signed>JHKlaproth</signed>
+               <lb/>
+               <lb/>
+               <pb n="126v"/>
+               <address>
+                  <addrLine>A Son Excellence</addrLine>
+                  <addrLine>Monsieur le Baron Guillaume</addrLine>
+                  <addrLine>de Humboldt</addrLine>
+                  <addrLine>Ministre d’Etat etc. etc. <sic>ect.</sic>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">Berlin</placeName>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <pb n="127r; Beilage I und II: Mandshu- und chines. Text mit                             Wiedergabe der Aussprache sowie lat. Übersetzung"/>
+               <lb/>
+               <pb n="127v/128r vacat"/>
+               <lb/>
+               <pb n="128v/129r; Beilage III–V: Mandshu- und chines. Text mit                                 Wiedergabe der Aussprache sowie lat. Übersetzung"/>
+               <lb/>
+               <pb n="129v vacat"/>
+               <lb/>
+               <pb n="130r; Beilage VI und VII: Mandshu- und chines. Text mit                                     Wiedergabe der Aussprache sowie lat. Übersetzung"/>
+               <lb/>
+               <pb n="130v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

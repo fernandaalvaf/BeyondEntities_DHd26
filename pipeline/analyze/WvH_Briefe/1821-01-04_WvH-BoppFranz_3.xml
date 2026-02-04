@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 04.01.1821<idno type="BBAW">3</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 3. – Konzept: ehem. Berlin, AST;
+                            Druckkoll.: Jena, ThULB, Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Harnack 1896, S. 65f.; Lefmann 1897, S. 11–17</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7080</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="afbernhardi">
+                  <persName>Bernhardi, August Ferdinand</persName>
+               </person>
+               <person corresp="ghbernstein">
+                  <persName>Bernstein, Georg Heinrich</persName>
+               </person>
+               <person corresp="abopp">
+                  <persName>Bopp, Andreas</persName>
+               </person>
+               <person corresp="hflink">
+                  <persName>Link, Heinrich Friedrich</persName>
+               </person>
+               <person corresp="aisacy">
+                  <persName>Sacy, Antoine Isaac, Baron Silvestre de</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich</persName>
+               </person>
+               <person corresp="jsvater">
+                  <persName>Vater, Johann Severin</persName>
+               </person>
+               <person corresp="fwilken">
+                  <persName>Wilken, Friedrich</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="640">Bernhardi, August Ferdinand: Sprachlehre (Berlin: Heinrich
+                        Frölich 1801/1803)</bibl>
+               <bibl corresp="559">Boppa, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato;
+                        edidit, latine vertit et adnotationibus illustravit Franciscus Bopp (London
+                        u.a.: Cox and Baylis 1819)</bibl>
+               <bibl corresp="560">Boppb, Franz: Analytical Comparison of the Sanskrit, Greek,
+                        Latin and Teutonic Languages. In: Annals of Oriental Literature (London: T.
+                        Rutt and Son 1820)</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="619">Sacy, A. I. Sylvestre de: Principes de Grammaire générale,
+                        mis à la portée des enfans, et propres à servir d’introduction à l’étude de
+                        toutes les langues. Seconde édition (Paris: Delance et Lesueur 1803)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language
+                        (London: Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                        translated, amended, and enlarged from an original compilation by learned
+                        natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin wahrhaft beschämt, Ihren so gütigen und ausführlichen
+                    Brief vom 20. Jun …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-01-04"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1" type="prev">20.06.1820</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Ergänzungen Humboldts</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="nah">Mexicanisch (Aztekisch, Nahuatl)</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="gsw">Schweizerdeutsch</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 3. Februar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0274.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0275.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0276.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0277.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0278.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0279.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0280.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1821_01_04/NDIGRKP004565_0281.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1" type="letter">
+            <p>
+               <pb n="1*"/> Ich bin wahrhaft beschämt, Ew Wohlgeboren so gütigen und
+                    ausführlichen <ref type="link" target="1">Brief</ref> vom <date when="1820-06-20">20. <hi rend="antiqua">Jun.</hi> v. J.</date> erst heute
+                    zu beantworten. Ich erhielt ihn aber erst spät, und als ich <placeName ref="Tegel">auf dem Lande</placeName> war. Das Lesen Ihrer interessanten
+                        <bibl sameAs="560">Schrift</bibl> zog mich dergestalt an, daß ich den
+                    Vorsatz faßte, nunmehr einen ernstlichen Versuch mit der Erlernung des Sanskrit
+                    zu machen. Dennoch konnte ich hierzu erst in der Mitte <hi rend="antiqua">Novembers</hi>, wo ich zu meinen Büchern in die <placeName ref="Berlin">Stadt</placeName> zurückkehrte, kommen. Nachdem ich nun einige, wenn auch
+                    noch sehr geringe <add>
+                  <handShift scribe="WvH"/> Kenntniß</add> <handShift scribe="Schreiber"/>
+                    erlangt habe, bin ich zu einer neuen Lesung <bibl sameAs="560">Ihrer
+                        Abhandlung</bibl> geschritten, und kann Ew. Wohlgeboren nicht sagen, wieviel
+                    Nutzen und Vergnügen ich daraus geschöpft habe.</p>
+            <p>Sie ist gewiß der erste so ausgezeichnet gelungene Versuch einer vergleichenden
+                    Analyse mehrerer Sprachen, und über die Richtigkeit der aufgestellten Hauptsätze
+                    kann, meines Erachtens, kein Zweifel obwalten. Sie haben vollkommen bewiesen,
+                    daß auch das <hi rend="antiqua">Sanskrit</hi> nur durch <hi rend="antiqua">Agglutination</hi> seine grammatischen Formen bildet, und daß der von
+                        <persName ref="fschlegel">
+                  <hi rend="antiqua">Fr. Schlegel</hi>
+               </persName> gemachte Unterschied
+                    zwischen Sprachen, welche diese und anderen, welche die <hi rend="antiqua">Inflexion</hi> anwendeten, so wie ich immer geglaubt, ein aus mangelhafter
+                    Sprachkenntniß entstandener Irrthum ist. Es ist ungemein zu wünschen, daß Ew
+                    Wohlgeboren diese Arbeit fortsetzen, und auch die <hi rend="antiqua">Declinationen</hi>, und dann die Wortbildung <pb n="2*"/> selbst abhandeln
+                    mögen.</p>
+            <p>Gegen einiges Einzelne aber hätte ich allerdings Bedenken, ob ich gleich selbst
+                    noch sehr zweifelhaft bin, ob Ew Wohlgeboren Meynung nicht die richtigere seyn
+                    möchte. Ich gestehe aber, daß ich mich noch nicht davon überzeugen kann, daß das
+                        <hi rend="antiqua">Futurum</hi> der Griechischen <hi rend="antiqua">Conjugation</hi>, sammt der davon abgeleiteten Zeiten, aus einer Verbindung
+                    der Stammsilbe mit dem <hi rend="antiqua">auxiliare</hi> entstanden seyn soll.
+                    Schlagende Beweisgründe, daß dies geradezu unmöglich sey, wüßte ich allerdings
+                    nicht anzugeben. Allein die Behauptung selbst scheint mir auch nicht solche zu
+                    haben, welche die Ueberzeugung abnöthigten. Daß der Gebrauch dieser Verbindung
+                    gerade die Bedeutung des <hi rend="antiqua">Futuri</hi> gegeben habe (S. 45.)
+                    kann doch einer willkührlichen und nicht ganz natürlichen Annahme ähnlich
+                    scheinen. Ew. Wohlgeboren führen zwar das <hi rend="antiqua">Französische</hi> <foreign sameAs="fr">
+                  <hi rend="antiqua">j’aimer-ai</hi>
+               </foreign> an, und so wie man <hi rend="underline">ich werde lieben</hi> durch <hi rend="underline">ich habe
+                        zu lieben</hi> umschreiben kann, so könnte man es wohl auch durch <hi rend="underline">ich bin da, um zu lieben</hi>. Allein geradezu erlaubt das
+                    Griechische doch wohl nicht die Zusammenstellung mit dem Französischen. Dieses
+                    ist eine aus wirklicher <hi rend="antiqua">Corruption</hi> einer vorhandenen
+                    gebildeten Sprache entstandne, und diese <hi rend="antiqua">Conjugations</hi>-Form gehört gerade dieser <hi rend="antiqua">Corruption</hi>
+                    an. In solchem Verhältniß stand, wie ihr ganzer Bau beweist, die Griechische
+                    Sprache offenbar nicht. In den Französischen und in ähnlichen Spanischen Phrasen
+                    findet man auch, wie Sie selbst bemer-<pb n="3*"/>ken, das <hi rend="antiqua">Pronomen</hi> zwischen beide <hi rend="antiqua">Verben</hi> eingeschoben.
+                    Auch dies fehlt hier. Daß Sprachen für die Haupt<hi rend="antiqua">tempora</hi>
+                    eine Bezeichnung haben, ist in sich natürlich und gewöhnlich, und es ist mir
+                    nicht glaublich, daß dem Griechischen eine solche, für das <hi rend="antiqua">Futurum</hi> ganz eigentliche gefehlt haben sollte. Im <hi rend="antiqua">Fut.</hi> 2. ist die Verkürzung (<hi rend="antiqua">Elision</hi> des
+                        Doppel<hi rend="antiqua">Consonanten</hi>) Zusammenziehung, und in einigen
+                    Verben die Buchstabenveränderung sehr merkwürdig. Wäre das <hi rend="antiqua">Fut.</hi> 2 immer Verbindung mit dem <hi rend="antiqua">Auxiliar</hi>, nur
+                    mit weggeworfenem <foreign sameAs="grc">σ</foreign> (so wie das fut. 1. oft in
+                    dieser Annahme <foreign sameAs="grc">ε</foreign> wegwirft) so ließe sich, dünkt
+                    mich, nicht erklären, warum <foreign sameAs="grc">στέλλω</foreign> in <foreign sameAs="grc">σταλῶ</foreign> verwandelt wird. Diese Veränderungen scheinen
+                    mir wahre <hi rend="antiqua">Inflection</hi>, Absicht des Redenden, dadurch daß
+                    er das Wort für das Ohr auffallend macht, die Aufmerksamkeit auf eine andere
+                    Zeit, als die gegenwärtige zu richten. Eine ähnliche Beschaffenheit kann es mit
+                    dem <foreign sameAs="grc">σ</foreign> <hi rend="antiqua">fut.</hi> 1. haben, und
+                    die Wahl dieses Buchstabens ist nicht unnatürlich, da er kein wahrer Buchstabe,
+                    sondern mehr ein verstärkter Hauch, ein Zischlaut ist.</p>
+            <p>Indeß sind dies mehr Einfälle, als Wiederlegungen, und ich setze selbst auf dies
+                    Raisonnement um so weniger Werth, als ich doch auch glaube, daß in der
+                    Griechischen <hi rend="antiqua">Conjugation</hi> sehr leicht eine mit dem <hi rend="antiqua">auxiliare</hi> stecken kann. Der <hi rend="antiqua">aor. 1.
+                        pass.</hi>, ja die ganze <hi rend="antiqua">Conjugation</hi> in <foreign sameAs="grc">ω</foreign> sieht allerdings völlig so aus.</p>
+            <p>Ein andres Bedenken habe ich gegen die Vergleichung des Augments mit dem <foreign sameAs="grc">α</foreign> <hi rend="antiqua">privatiuum</hi>. Die Annahme
+                    scheint mir zu <pb n="4*"/> künstlich. Ich stimme zwar auch Ew Wohlgeboren
+                    Meynung bei, daß es nicht wahrscheinlich ist, daß der das <hi rend="antiqua">Augment</hi> bildende <hi rend="antiqua">Vocal</hi> gerade <hi rend="underline">Vergangenheit</hi> bedeutet habe, und nun aus ihm und dem
+                        <hi rend="antiqua">verbum</hi> ein zusammengesetztes Wort gemacht sey. Aber
+                    die Sprache will in vielen Fällen mit der Beschaffenheit der Töne eines Worts
+                    den Begriff nachahmen, und es scheint mir eben so natürlich, daß sie daher dem
+                    Ausdruck der Vergangenheit Silben, <subst>
+                  <del>vorgänglich</del>
+                  <add>
+                     <handShift scribe="wvh"/> vorzüglich</add>
+               </subst> <handShift scribe="Schreiber"/> tönende Vocale voranschickt, um dadurch die
+                    Vergangenheit gleichsam zu mahlen, als daß sie dem <hi rend="antiqua">futurum</hi> durch <hi rend="antiqua">Accentuirung</hi> oder sonst mehr
+                    Raschheit, oder Stärke giebt, um die Kraft des Entschlusses und Willens, dessen
+                    Begriff sich immer an die Zukunft knüpft, auszudrücken. Ew. Wohlgeboren erwähnen
+                    gegen Ihre eigne Behauptung, daß dann auch die <hi rend="antiqua">futura
+                        augmente</hi> haben müßten. Hierbei muß ich bemerken, daß ich nicht
+                    begreife, wie <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> in <bibl sameAs="455">seiner <hi rend="antiqua">Grammatik</hi>
+               </bibl> § 157 das 7. <hi rend="antiqua">tempus</hi>, welches nach § 154. 155. eben dies <hi rend="antiqua">fut.</hi> 2. ist, zu denen rechnen kann, welche <hi rend="antiqua">a</hi>
+                    vor der Wurzel annehmen. Nach der Stelle in <bibl sameAs="560">Ew Wohlgeboren
+                        Schrift</bibl> scheint dies nicht der Fall zu seyn, und die § 350 u. f.
+                    gegebnen Beispiele haben auch kein <hi rend="antiqua">augment</hi>.</p>
+            <p>Eine zugleich sehr scharfsinnige und richtige Bemerkung ist es, wo Ew.
+                    Wohlgeboren S. 38 sagen, daß die Sprachen oft einen ganz umgekehrten Gang
+                    genommen haben, als der ist, welchen ihnen die Grammatiker anweisen. Sie
+                    erwähnen dies bei Ge-<pb n="5*"/>legenheit der Ableitung der <hi rend="antiqua">tempora</hi> vom <hi rend="antiqua">Participium</hi>. Gewiß haben Sie sehr
+                    recht, daß die <hi rend="antiqua">Participien</hi> der Bildung der <hi rend="antiqua">Conjugation</hi> vorausgehen, nicht aber nachfolgen, obgleich
+                    auch dies mit Unterschied verstanden seyn will. Das <hi rend="antiqua">Participium</hi> ist der <hi rend="antiqua">constitutive</hi> Begriff des
+                        <hi rend="antiqua">Verbi</hi>, welches nichts anders ist, als die
+                    Zusammenfassung eines <hi rend="antiqua">Subjects</hi> mit einem <hi rend="antiqua">Participium</hi>. Ich kann bei dieser Gelegenheit die
+                    Bemerkung nicht unterdrücken, daß Ew Wohlgeboren wo Sie S. 13 vom <hi rend="antiqua">Verbum</hi> sprechen, mir die von <persName ref="aisacy">
+                  <hi rend="antiqua">Silvestre de Sacy</hi>
+               </persName> in <bibl sameAs="619">seiner allgemeinen Grammatik</bibl> vorgetragenen Ideen im Sinn gehabt zu
+                    haben scheinen. In demjenigen, was Sie gerade berühren, ist auch nichts, das ich
+                    nicht <sic>unterschieben</sic>
+               <note type="footnote" resp="editor">Korrektur
+                        (Buschmanns?) mit Bleistift: "unterschreiben"</note> möchte. Allein sonst
+                    läugne ich nicht, daß ich, nach genauem <hi rend="antiqua">Studium</hi> der
+                        <persName ref="aisacy">
+                  <hi rend="antiqua">Sacy</hi>
+               </persName>’schen Schriften hierüber, mich
+                    überzeugt habe, daß <bibl sameAs="619">seine allgemeine Grammatik</bibl>
+                    wirklich ein höchst schwaches Buch ist, was auch viel Irriges enthält. Dagegen
+                    scheint mir <persName ref="afbernhardi">
+                  <hi rend="antiqua">Bernhardi</hi>
+               </persName> in seiner kurzen <bibl sameAs="640">Sprachlehre</bibl> ungemein geistvoll und im Einzelnen richtig.
+                    Es giebt auch in diesem Buch Kapitel, die ich nicht für gelungen halte, allein
+                    die Entwicklungen der Grammatischen Urbegriffe scheinen mir vollkommen
+                    erschöpfend. Vergleichen nur Ew Wohlgeboren in beiden Büchern einmal die Lehre
+                    der <hi rend="antiqua">tempora</hi>, wie <hi rend="antiqua">consequent</hi> und
+                    philosophisch sie in <bibl sameAs="492">
+                  <hi rend="antiqua">Bernhardi</hi>
+               </bibl> ist, und gerade diese gründet sich
+                    auf die richtigen Begriffe vom <hi rend="antiqua">Participium</hi> und ist nur
+                    durch sie möglich. Bei dieser Gelegenheit wünschte ich wohl <pb n="6*"/> von
+                    Ihnen zu hören, ob das <hi rend="antiqua">Sanscrit</hi> auch alle 12 <hi rend="antiqua">tempora</hi> so vollständig, sey es auch durch Umschreibung <add>
+                  <handShift scribe="wvh"/> bildet</add>
+               <handShift scribe="Schreiber"/>, als das Griechische durch seine <hi rend="antiqua">Conjugation</hi>, durch <subst>
+                  <del>
+                     <foreign sameAs="grc">τυγάνω</foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="grc">τυγχάνω</foreign>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> und
+                        <foreign sameAs="grc">μέλλω</foreign>. Merkwürdig ist es, daß das <hi rend="antiqua">Mexicani</hi>sche hierin ausgezeichnet vollständig ist.
+                        <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> scheint mir von keinem festen
+                    Begriff von der Zahl der möglichen und nothwendigen <hi rend="antiqua">tempora</hi> ausgegangen zu seyn, wie doch jeder <hi rend="antiqua">Grammatiker</hi> sollte, um beurtheilen zu können, wie die von ihm
+                    bearbeitete <sic>Sprachen</sic> hierin die Forderungen des Denkens erfüllt. Um
+                    aber auf das <hi rend="antiqua">Participium</hi> zurückzukommen, so geht
+                    dasselbe, als durch den Begriff und seinen Inhalt gegeben, gewiß der Bildung der
+                        <hi rend="antiqua">Conjugation</hi> voraus, aber als wirklich mit bestimmter
+                    Endung versehene grammatische Form mag es doch in manchen Sprachen, und Fällen
+                    wohl erst nach der <hi rend="antiqua">Conjugation</hi> und durch sie selbst
+                    gemacht werden.</p>
+            <p>Außer dem ungemein großen Interesse, welches mir der Hauptinhalt <bibl sameAs="560">Ihrer Schrift</bibl> eingeflößt hat, ist sie mir auch in vielen <subst>
+                  <del>Nebenquellen</del>
+                  <add>
+                     <handShift scribe="wvh"/> Nebenpunkten</add>
+               </subst> <handShift scribe="Schreiber"/> überaus lehrreich gewesen. Mehreres habe ich darin
+                    gefunden, was entweder in <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> nicht steht, oder was wenigstens mir
+                    darin entgangen war, so zB. die Verwandlung des <foreign sameAs="sa">
+                  <hi rend="antiqua">ś</hi>
+               </foreign> in <hi rend="antiqua">k</hi>.</p>
+            <p>Ew Wohlgeboren <ref type="link" target="1">Brief</ref>, dessen Ausführlichkeit
+                    mich sehr gefreut hat, ergänzt zum Theil <subst>
+                  <del>ihre</del>
+                  <add>
+                     <handShift scribe="wvh"/> Ihre</add>
+               </subst> <handShift scribe="Schreiber"/> <bibl sameAs="560">Schrift</bibl>, da er sich über die
+                        <hi rend="antiqua">Declination</hi> erklärt, über welche jene nichts
+                    enthält. Es ist mir neu gewesen, <pb n="7*"/> daß die <hi rend="antiqua">Declination</hi> durch die <hi rend="antiqua">Pronomina</hi> entstehen
+                    solle. Von Einer Seite erscheint mir die Sache auf den ersten Anblick sehr
+                    einleuchtend. Es ist ein scharfsinniger Gedanke, daß die <hi rend="antiqua">Pronomina</hi> an die <hi rend="antiqua">Substantiua</hi> gehängt werden,
+                    um ihnen Leben zu geben, und in der That ist es in allem Reden des gemeinen <del type="fragment">g</del> Volks auffallend, wie dasselbe sehr oft das <hi rend="antiqua">Subject</hi> nicht eher auf das <hi rend="antiqua">Verbum</hi> bezieht, als bis es ein <hi rend="antiqua">Pronomen</hi>
+                    dazwischen geschoben hat, wie wenn man sagt, <hi rend="underline">der Mann, der
+                        geht dort</hi>. So würde ich also ohne Bedenken die Endungen der 2. <hi rend="antiqua">Declin.</hi> im Griechischen für das den Endungen
+                    nachgesetzte <hi rend="antiqua">Pronomen</hi> halten. Die andren mag man
+                        <del>es</del> auf ähnliche Weise erklären können. Allein woher stammt nun
+                    die <hi rend="antiqua">Declination</hi> der <hi rend="antiqua">Pronomina</hi>
+                    selbst? Diese Frage scheint mir eine eigne Beantwortung zu erfordern.</p>
+            <p>Ich möchte überhaupt glauben, daß sich das Entstehen der <hi rend="antiqua">Declination</hi> nicht auf Eine Art allein erklären lasse.</p>
+            <p>Oft entstehen gewiß die <hi rend="antiqua">Casus</hi> aus wirklichen <hi rend="antiqua">Praepositionen</hi>. An einigen <hi rend="antiqua">Americani</hi>schen, den <hi rend="antiqua">Vaskischen</hi> und andren ist
+                    dies unverkennbar. Ich habe mir auf diese Weise auch <subst>
+                  <del type="fragment">immer</del>
+                  <add>
+                     <handShift scribe="wvh"/> immer</add>
+               </subst> <handShift scribe="Schreiber"/> unsern <hi rend="antiqua">Genitiv</hi> <hi rend="antiqua">
+                  <hi rend="underline">s</hi>
+               </hi>
+               <!-- AD: wollte ich noch mit foreign "de" taggen, aber dann wird das <s> auf der Webseite
+                        gar nicht mehr dargestellt-->
+                    des <foreign sameAs="de">
+                  <hi rend="underline">Manne-s</hi>
+               </foreign> erklärt, und diesen End<hi rend="antiqua">consonanten</hi> als den Ueberrest von <foreign sameAs="de">
+                  <hi rend="underline">aus</hi>
+               </foreign> angesehen. Im Griechischen und
+                    Lateinischen aber möchte ich nicht behaupten, daß sich nur Ein einziger <hi rend="antiqua">Casus</hi> so ableiten ließe.</p>
+            <p>Eine andre Entstehungsweise scheint mir in dem zusammen-<pb n="8*"/>schmelzen
+                    mehrerer Dialecte in Eine allgemeine Sprache zu liegen. Es ist auch sonst
+                    bekannt, daß mehrere grammatische sogenannte Flexionen nur daher kommen, daß man
+                    in einer Periode der Bildung vielen an sich gleichbedeutenden Formen einen
+                    bestimmten Unterschied anwieß. So müßte ich mich sehr irren, wenn nicht <foreign sameAs="de">
+                  <hi rend="underline">de-r</hi>
+               </foreign> und <foreign sameAs="de">
+                  <hi rend="underline">de-n</hi>
+               </foreign> bloßer Dialect Unterschied wäre,
+                    und in einem deutschen Dialect (ich denke im Schweizerischen) <foreign sameAs="gsw">
+                  <hi rend="underline">den</hi>
+               </foreign> auch als <hi rend="antiqua">Nomitatiuus</hi> <sic>zälte</sic>.</p>
+            <p>Eine dritte Art fügen nun Ew Wohlgeboren sehr scharfsinnig durch die Verbindung
+                    gleichbedeutender, aber verschiedener <hi rend="antiqua">Pronomina</hi> mit den
+                    Stammsilben hinzu. Allgemein, glaube ich, läßt sich hierüber nichts entscheiden,
+                    sondern man muß in jeder <add>einzelnen</add> Sprache ihre Eigenthümlichkeit
+                    auffassen.</p>
+            <p>Ew. Wohlgeboren haben gewünscht, daß ich Ihnen über <bibl sameAs="560">Ihre
+                        Schrift</bibl> und die Grundideen derselben meine Meynung umständlich sagte,
+                    und dies wird mir für die Weitläuftigkeit dieses Briefes zur Entschuldigung
+                    dienen. Ich muß Sie dessen ungeachtet um Erlaubniß bitten, noch über <subst>
+                  <del>meine</del>
+                  <add>
+                     <handShift scribe="wvh"/> mein</add>
+               </subst> <handShift scribe="Schreiber"/> eigenes <hi rend="antiqua">Sanskrit</hi>studium Einiges
+                    hinzusetzen zu dürfen, und Sie um die Ertheilung Ihres einsichtsvollen Rathes zu
+                    ersuchen.</p>
+            <p>Ihre Abschrift einiger Seiten des <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> hat es mir allein möglich gemacht,
+                    nur das Lesen anfangen zu können. Ich kann jetzt Alles lesen, ohne weiter
+                    nachzusehen, wenn gleich die eigentliche Geläufigkeit nur mit der Zeit kommen
+                    kann.</p>
+            <p>Damit Ew. Wohlgeboren den Standpunkt meiner Kenntniß oder <pb n="9*"/> vielmehr
+                    Unkenntniß beurtheilen können, so schicke ich Ihnen eine Abschrift dessen, was
+                    ich mir über die ersten Verse <bibl sameAs="559">Ihres <hi rend="antiqua">Nalus</hi>
+               </bibl> für mich angemerkt habe. Ich lerne ohne alle
+                    mündliche Hülfe. <persName ref="fwilken">
+                  <hi rend="antiqua">Wilken</hi>
+               </persName>, der <hi rend="antiqua">Sanscrit</hi> getrieben hat, ist lange wieder davon abgekommen; <persName ref="hflink">
+                  <hi rend="antiqua">Link</hi>
+               </persName> macht nicht eigentlich <hi rend="antiqua">fait</hi> davon; <persName ref="ghbernstein">
+                  <hi rend="antiqua">Bernstein</hi>
+               </persName> sehe ich nicht, und außer
+                    diesen dreien und mir mag niemand hier nur lesen können. Ich habe zuerst
+                        <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> <bibl sameAs="455">Grammatik</bibl> theilweise genau gelesen, theilweise eben nur
+                    durchgesehen. Dann habe ich die mir von Ew Wohlgeboren geschickten einzelnen
+                    Bogen über den <subst>
+                  <del>
+                     <hi rend="antiqua">Hitopadesan</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <bibl sameAs="181">
+                        <hi rend="antiqua">Hitopadesa</hi>
+                     </bibl>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> stellenweise gelesen, endlich mich, auch mit Hülfe des
+                        <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl>, den leider noch nicht ich selbst
+                    besitze, den aber die <orgName ref="1">Bibliothek</orgName> hat, an <bibl sameAs="559">Ihren <hi rend="antiqua">Nalus</hi>
+               </bibl> gemacht. Dies zieht
+                    mich am meisten an, allein ich halte es für gut, mit diesen drei Arten des
+                    Studiums abzuwechslen.</p>
+            <p>Das <hi rend="antiqua">Alphabet</hi> habe ich so gründlich, wie möglich, studirt.
+                    Es ist von einer wunderbaren Regelmäßigkeit und Vollständigkeit. Allein was mich
+                    darin immer hindert und stört, ist, daß es für mich wenigstens völlig todt ist.
+                    Ich kann mir durchaus keinen Begriff machen über sehr viele Punkte: über die <hi rend="antiqua">cerebralen Consonanten</hi>, die Verschiedenheiten der
+                    Nasenlaute, wenigstens in den ersten vier Classen, den Unterschied der
+                    Aussprache des <term type="phon" ref="001">
+                  <hi rend="antiqua">anuswāra</hi>
+               </term> und entweder des <foreign sameAs="sa">
+                  <hi rend="antiqua">m</hi>
+               </foreign> oder eines der verschiedenen <foreign sameAs="sa">
+                  <hi rend="antiqua">n</hi>
+               </foreign>, über die des <term type="phon" ref="002">
+                  <hi rend="antiqua">visarga</hi>
+               </term>, das ja nicht bloß ein <hi rend="antiqua">h</hi>, sondern immer ein <hi rend="antiqua">ah</hi> zu seyn
+                    scheint, auch wenn ein <hi rend="antiqua">i</hi> vorausgeht. Ich wage daher
+                    nicht laut zu lesen, und möchte wissen wie Ew Wohlgeboren es machen um im Laut
+                        <pb n="10*"/> zB. <foreign sameAs="sa" n="transEd">ṭa<graphic url="Bopp/WvH-Bopp_1821_01_04/0443.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">ta<graphic url="Bopp/WvH-Bopp_1821_01_04/0444.svg"/>
+               </foreign> zu unterscheiden.</p>
+            <p>Ueberhaupt möchte ich das <hi rend="antiqua">Sanskrit</hi> die todteste aller
+                    todten Sprachen nennen. Denn ich habe in der dicken <bibl sameAs="455">
+                  <hi rend="antiqua">Grammatik</hi>
+               </bibl> von <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> auch nicht eine Zeile über den
+                        <hi rend="antiqua">Accent</hi> gefunden, auf dem doch in der Sprache alles
+                    Leben, ja selbst alle Unterscheidung der Wörter, den Individuen der Sprachen,
+                    beruht. Was davon vorkommt ist nur immer Quantität. Drum gestehe ich, kann ich
+                    Ew Wohlgeboren nicht ganz darin beitreten, daß Sie die langen <hi rend="antiqua">Vocale</hi> mit einem <hi rend="antiqua">Accent</hi>, und nicht mit einem
+                    Längezeichen bezeichnen. Es kann den Leser misleiten, und ihm eine falsche
+                    Vorstellung geben.</p>
+            <p>Noch unbegreiflicher wird mir die Materie des <hi rend="antiqua">Accents</hi> im
+                        <hi rend="antiqua">Sanscrit</hi>, wenn ich an das häufige <subst>
+                  <del>
+                     <hi rend="antiqua">Coel<gap quantity="3" unit="chars"/>iren</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <hi rend="antiqua"> Coalesciren</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> zweier Wörter in Eins denke, was die Schwierigkeiten
+                    des Verstehens so sehr vermehrt. Manchmal ist allerdings dies <subst>
+                  <del>
+                     <hi rend="antiqua">Coelesciren</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <hi rend="antiqua">Coalesciren</hi>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> nur Sache
+                    der Rechtschreibung und der Sitte, so wie auch Ew Wohlgeboren in der Vorrede des
+                        <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> Sich so darüber auslassen, daß man
+                    sieht, daß eine gewisse Willkühr darin liegt. Wenn zB. ein Wort mit einem
+                    schweigenden <hi rend="antiqua">Consonanten</hi> schließt, und das andre mit
+                    einem <hi rend="antiqua">Vocal</hi> anfängt, so wäre es zwar eine große
+                    Erleichterung, wenn man, wie man nicht thut, die <hi rend="antiqua">reell</hi>
+                    getrennten Wörter auch im Schreiben trennte, allein man begreift doch, daß dies
+                    im <hi rend="antiqua">Accent</hi> nichts ändern kann, sondern daß jedes Wort den
+                    seinigen behält. Allein wie mag es da gewesen seyn, wo End- und
+                    Anfangsbuchstaben zusammen in einen dritten übergehen, oder sich auch sonst nur
+                        ver-<pb n="11*"/>ändern? Sind da beide Worte unter Einem <hi rend="antiqua">Accent</hi> gekommen, wie Ein Wort eigentlich immer nur Einen hat, oder
+                    nicht? Eine <hi rend="antiqua">accent</hi>lose Sprache läßt sich nicht denken.
+                    Ist aber die <hi rend="antiqua">Accent</hi>lehre im <hi rend="antiqua">Sanskrit</hi> ganz untergegangen, oder <hi rend="antiqua">existirt</hi> sie
+                    in Unterweisungen, und wird nun, da sie zum Verständniß nicht hilft, übergangen?
+                    Hierüber wünschte ich sehr durch Ew Wohlgeboren Aufklärung zu erhalten.</p>
+            <p>Eine sonderbare Sitte ist es auch, das kurze <foreign sameAs="sa">
+                  <hi rend="antiqua">i</hi>
+               </foreign>, und allein dieses unter allen <hi rend="antiqua">Vocalen</hi>, vor den <hi rend="antiqua">Consonanten</hi> zu
+                    schreiben, nach dem man es ausspricht.</p>
+            <p>Das ganze Kapitel des <term type="phon" ref="005">
+                  <hi rend="antiqua">sandʿi</hi>
+               </term> habe ich mit so vieler Genauigkeit als
+                    möglich studirt. In <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> sind aber die Regeln wenig geordnet,
+                    ich möchte sie beinahe verwirrt nennen. Ich habe mir zu meinem Gebrauch sie ganz
+                    umgearbeitet. Auch ist das Kapitel, wie man sieht, nicht recht vollständig.
+                    Ueberhaupt wäre eine andre <hi rend="antiqua">Grammatik</hi> ein großes
+                    Bedürfniß. <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> scheint mir unschätzbar, als ein
+                    großes <hi rend="antiqua">Repertorium</hi> von Wörtern und <hi rend="antiqua">Paradigmen</hi>, allein die Leichtigkeit der Uebersicht, die Aufstellung
+                    viele Fälle umfassender Regeln u. so. f. fehlt ganz. Die <hi rend="antiqua">Declinationen</hi> sind unendlich leichter, als sie bei ihm scheinen. Die
+                    von ihm verschmähte Tafel der Endungen (§ 69.) dient doch zu einer viel
+                    faßlicheren Grundlage, als seine zahlreichen <hi rend="antiqua">Paradigmen</hi>.
+                    Ich komme durch die <hi rend="antiqua">Declinationen</hi> viel besser durch,
+                    wenn ich erstlich immer genau trenne, was wirklich veränderte Endung, und was
+                    nur innerhalb des Wortes selbst vorgehende Umwandlung ist, und zweitens immer
+                    mir anmerke, wo die Endung von jenem Grund<hi rend="antiqua">schema</hi>
+                    abweicht. Die <hi rend="antiqua">Casus</hi>Endung, welche mit <pb n="12*"/> <hi rend="antiqua">Consonanten</hi> beginnt <foreign sameAs="sa" n="transEd">bha<graphic url="Bopp/WvH-Bopp_1821_01_04/0445.svg"/>
+               </foreign> und
+                        <foreign sameAs="sa" n="transEd">sa<graphic url="Bopp/WvH-Bopp_1821_01_04/0446.svg"/>
+               </foreign>, ist mir, auch wegen
+                    ihrer Regelmäßigkeit sehr aufgefallen. Sollte sie nicht aus <hi rend="antiqua">Praepositionen</hi> entstanden seyn? Sehr wunderbar und abweichend von
+                    andern Sprachen ist auch der sogenannte <hi rend="antiqua">crude state</hi> der
+                    Wörter, von welchen der <hi rend="antiqua">Nominatiuus</hi> hernach wieder
+                    abweicht. In der 8 <hi rend="antiqua">decl.</hi> ist dies vorzüglich häufig.
+                    Sind diese Formen, als selbstständig, bloß <hi rend="antiqua">abstrahirt</hi>
+                    von den Fällen, wo sie, wie in einigen Gattungen der <hi rend="antiqua">Composita</hi>, in <hi rend="antiqua">undeclinirtem</hi> Zustand vorkommen,
+                    oder haben sie einmal zur wirklichen Sprache gehört, so daß sie in ihrem rohem
+                    Zustande mit in die Rede <subst>
+                  <del>eintreten?</del>
+                  <add>
+                     <handShift scribe="wvh"/> eintraten?</add>
+               </subst>
+            </p>
+            <p>
+               <handShift scribe="Schreiber"/> Sehr angezogen haben mich die Kapitel über die
+                    Bildung der <hi rend="antiqua">Derivativa</hi>. Aber ich dächte, daß auch diese
+                    müßten befriedigender und systematischer gefaßt werden können.</p>
+            <p>Ich studire, bis jetzt wenigstens, das <hi rend="antiqua">Sanskrit</hi> bloß der
+                    Sprache, nicht der Literatur wegen, aber ich bin vollkommen überzeugt, daß es
+                    für jeden, der Sprachstudium treibt, ein unerläßliches Bedürfniß ist, es so
+                    tief, als nur immer die Umstände erlauben, zu kennen. Können mir daher Ew
+                    Wohlgeboren aus Ihrer eigenen Erfahrung Rathschläge geben, wie ich vielleicht
+                    mein Lernen noch zweckmäßiger einrichten kann, so werden Sie mich ungemein
+                    verbinden.</p>
+            <p>Den Brief an <persName ref="jsvater">Herrn <hi rend="antiqua">Vater</hi>
+               </persName> habe ich besorgt. Den gegenwärtigen <hi rend="antiqua">addressire</hi> ich an <persName ref="abopp">Ihren Herrn
+                        Vater</persName> nach <placeName ref="Aschaffenburg">
+                  <hi rend="antiqua">Aschaffenburg</hi>
+               </placeName>.</p>
+            <p>Ich wünsche von Herzen, daß es Ihnen recht bald gelingen, oder vielmehr schon
+                    gelungen seyn möge, eine vortheilhafte Anstellung zu erhalten. Ich kann mir
+                    nicht denken, daß nach demjenigen, was Sie bereits geleistet haben, man Ihnen
+                    nicht damit entgegenkommen, und die Art selbst Ihrer Wahl überlassen sollte. Es
+                    wird mich sehr freuen, wenn Sie mir erlauben wollen, Ihnen manchmal zu
+                    schreiben, und wenn ich, wie bisher, auf Ihre gütigen und ausführlichen
+                    Antworten rechnen darf.</p>
+            <closer>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 4ten <hi rend="antiqua">Januar</hi>,
+                        1821.</dateline>
+            </closer>
+         </div>
+         <div n="2" type="appendix">
+            <p>
+               <handShift scribe="wvh"/> Verzeihen Ew. Wohlgeb. daß ich nicht eigenhändig
+                    geschrieben habe. Ich schreibe aber so schneller, u. dachte mir auch, daß es
+                    Ihnen lästig seyn müßte, einen so langen Brief <subst>
+                  <del>in</del>
+                  <add>von</add>
+               </subst> einer so undeutlichen Hand, als die
+                    meinige ist, zu lesen. </p>
+            <closer>
+               <salute>Mit der herzlichsten Hochachtung Ihr</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

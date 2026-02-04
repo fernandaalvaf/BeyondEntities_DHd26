@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  in Bearbeitung KF-->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 25.11.1834<idno type="BBAW">211</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 92. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 100f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8603</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="afpott">
+                  <persName>Pott, August Friedrich</persName>
+               </person>
+               <person corresp="eroediger">
+                  <persName>Rödiger, Emil</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="jkhschulze">
+                  <persName>Schulze, Johannes Karl Hartwig</persName>
+               </person>
+               <person corresp="wyates">
+                  <persName>Yates, William</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="558">Bopp, Franz: Vergleichende Grammatik des Sanskrit, Zend,
+                    Griechischen, Lateinischen, Litthauischen, Gothischen und Deutschen (Berlin:
+                    Dümmler 1833)</bibl>
+               <bibl corresp="597">Bopp, Franz: Über die Zahlwörter im Sanskrit, Griechischen,
+                    Lateinischen, Litthauischen, Gothischen und Altslawischen. In: Abhandlungen der
+                    Königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1833 (Berlin:
+                    Königliche Akademie der Wissenschaften 1835), S. 163–170</bibl>
+               <bibl corresp="598">Bopp, Franz: Über die Zahlwörter der Zendsprache. In: Abhandlungen
+                    der Königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1833
+                    (Berlin: Königliche Akademie der Wissenschaften 1835), S. 171–180</bibl>
+               <bibl corresp="585">Pott, August Friedrich: Etymologische Forschungen auf dem Gebiete
+                    der indogermanischen Sprachen mit besond. Bezug auf die Lautumwandlung im
+                    Sanskrit, Griechischen, Lateinischen, Littauischen u. Gothischen (Lemgo: Meyer
+                    1833)</bibl>
+               <bibl corresp="600">Yates, William: A Sunscrit Vocabulary; containing the nouns,
+                    adjectives, verbs and indeclinable particles, most frequently occurring in the
+                    Sunscrit language, arranged in a grammatical order; with an explanation in
+                    Bengalee and English (Calcutta: Baptist Mission Press 1820)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen sehr, theuerster Freund, für die gütige
+                        Mittheilung des Rosen’schen Briefes und der Anzeige der Grammatik …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1834-11-25"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger
+                    Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="ae">Avestisch (Zend)</language>
+            <language ident="la">Latein</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KF</item>
+            <item n="date">25. Juli 2013</item>
+            <item n="status">in Bearbeitung von AD 28. 8. 2013, an neue Vereinbarungen angepasst
+                    von AD 5. Dezember 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1834_11_25/NDIGRKP004565_0537.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1834_11_25/NDIGRKP004565_0538.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1834_11_25/NDIGRKP004565_0539.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ihnen sehr, theuerster Freund, für die gütige Mittheilung
+                    des <hi rend="antiqua">
+                  <persName ref="farosen">Rosen</persName>schen</hi>
+                    Briefes und der Anzeige<!--AD: title? Rosens Rezension zu Bopp --> der <bibl sameAs="558">Grammatik</bibl>
+               <!-- oder ID 722 gemeint? -->. Es hat mich sehr
+                    gefreut, zu hören, daß es ihm wohl geht, und daß <add>er</add> auch ohne Sorgen
+                    für sein Auskommen ist. Mit seiner
+                    Anzeige<!-- title? Rezension Rosens zu Bopp --> bin ich, wenn ich offenherzig
+                    gestehen soll, nicht ganz zufrieden. Sie enthält zwar einige hübsche
+                    Bemerkungen, wie mir wenigstens die über <foreign sameAs="la">
+                  <hi rend="antiqua">crepusculum</hi>
+               </foreign> und über die Verwandtschaft
+                    des Genitifs und Adjectifs geschienen hat. Er hebt aber gar nicht genug Ihr
+                    großes Verdienst, und das <bibl sameAs="558">in dem Werke</bibl> von Ihnen
+                    bewiesene Talent, die Verbindungen von Tönen und Formen aufzufinden, die auf den
+                    ersten Anblick sehr entfernt liegen. Nicht einmal das sagt er gehörig, was dazu
+                    erforderlich war, die <bibl sameAs="558">Zend-Grammatik</bibl>, ohne alle andere
+                    Hülfe, aus einem bloßen Texte herauszuziehen, obgleich dies die Englischen Leser
+                    gewiß mehr interessirt hätte, als die Aufzählung der Vokale und Consonanten. Das
+                    Ende habe ich gar nicht recht verstanden. Warum will <pb n="2*"/> er Ihnen <hi rend="antiqua">do better justice</hi> bei der Fortsetzung <bibl sameAs="558">Ihres Werks</bibl>? und was soll die feierliche Lobpreisung der Indischen
+                    Grammatiker? Ich kann mir kaum vorstellen, daß hierin ein Vorwurf für Sie liegen
+                    soll, sie nicht gehörig geachtet zu haben, und doch wird die Bemerkung mit der
+                    Durchlesung <bibl sameAs="558">Ihres Buches</bibl> in so nahe Verbindung
+                    gebracht. Mit der <placeName ref="Halle">
+                  <hi rend="antiqua">Hallischen</hi>
+               </placeName> Stelle scheint es für ihn nichts zu sein. Es
+                    wäre daher wohl gut jetzt auf eine Verbesserung der Lage des armen <persName ref="afpott">
+                  <hi rend="antiqua">Pott</hi>
+               </persName> zu denken. Wenn Sie
+                    glaubten, daß es gut sei <persName ref="jkhschulze">
+                  <hi rend="antiqua">Schulzen</hi>
+               </persName> zu schreiben, daß <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> jetzt vorziehen werde in England zu
+                    bleiben und ihm den Vorschlag wegen <persName ref="eroediger">
+                  <hi rend="antiqua">Rodiger</hi>
+               </persName> und <persName ref="afpott">
+                  <hi rend="antiqua">Pott</hi>
+               </persName> zu machen, so bin ich recht gerne bereit dazu.
+                    Vielleicht halten Sie es aber doch für besser den Antrag an <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> wirklich geschehen zu
+                    lassen. Es ist sonderbar, und macht <hi rend="antiqua">
+                  <persName ref="eburnouf">Burnouf</persName>s</hi> Urtheilsvermögen keine Ehre, daß er, wie mir
+                        <persName ref="jhklaproth">
+                  <hi rend="antiqua">Klaproth</hi>
+               </persName>
+                    erzählt, <hi rend="antiqua">
+                  <persName ref="afpott">Pott</persName>s</hi> <bibl sameAs="585">Buch</bibl> nicht nur gar nicht den verdienten Beifall schenkt,
+                    sondern es durchaus tadelt und misbilligt. <persName ref="jhklaproth">
+                  <hi rend="antiqua">Klaproth</hi>
+               </persName>, der dies Urtheil gar nicht zu
+                    theilen versichert, war dreimal hier bei mir, und zweimal war ich ganz allein
+                    mit ihm. Er ist doch in dem, was er treibt, ungemein bewandert und zu Hause und
+                    scheint mir <pb n="3*"/> der erste Europäische Gelehrte, der die <hi rend="antiqua">Chinesische</hi> Litteratur systematisch zu historischen
+                    Untersuchungen benutzt. Auch die Sprache scheint er mir sehr gut zu kennen, und
+                    die Gespräche mit ihm darüber sind mir sehr lehrreich gewesen. Da Sie doch
+                    vermutlich bald an <persName ref="farosen">
+                  <hi rend="antiqua">Rosen</hi>
+               </persName> schreiben, so haben Sie die Güte ihm zu sagen, daß
+                    ich auf meinen letzten, schon vor langer Zeit an ihn abgegangenen Brief noch
+                    ohne Antwort geblieben bin. Ich hatte ihn darin gefragt, ob das von <placeName ref="Singapur">
+                  <hi rend="antiqua">Singapore</hi>
+               </placeName> für <persName ref="cfneumann">
+                  <hi rend="antiqua">Neumann</hi>
+               </persName> angekommene Paket schon direkt an
+                    ihn abgegangen sei, und hatte ihn gebeten, im entgegengesetzten Fall es mir zu
+                    schicken. Ich warte jetzt schon lange mit meiner Antwort an <persName ref="cfneumann">
+                  <hi rend="antiqua">Neumann</hi>
+               </persName> darauf. Auch hätte ich gern
+                        <persName ref="wyates">
+                  <hi rend="antiqua">Yates</hi>
+               </persName> <bibl sameAs="600">Sanskrit-<hi rend="antiqua">Bengalisch</hi>-Englisches Wörterbuch</bibl>, das er
+                    wohl die Güte hätte mir durch unsere Gesandtschaft zu schicken. Leben Sie recht
+                    wohl und theilen Sie mir ja recht bald <bibl sameAs="597">Ihre neue Abhandlung über
+                        die Zahlwörter</bibl>
+               <!-- AD: title 597 oder 598 --> mit.</p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Freundschaft, der Ihrige,</salute>
+               <signed>
+                  <handShift scribe="wvh"/> Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 25<hi rend="superscript">t</hi> <hi rend="antiqua">November</hi>
+                        1834.</dateline>
+               <lb/>
+               <pb n="4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

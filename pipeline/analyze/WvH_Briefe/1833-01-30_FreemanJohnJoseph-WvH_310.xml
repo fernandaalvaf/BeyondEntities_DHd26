@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joseph John Freeman an Wilhelm von Humboldt, 30.01.1833<idno type="BBAW">310</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Coll. ling. fol.
+                            153, acc. 11070, Bl. 132–135</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 345</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12400</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cbchallan">
+                  <persName>Challan, Claude Bernard</persName>
+               </person>
+               <person corresp="rdrury">
+                  <persName>Drury, Robert</persName>
+               </person>
+               <person corresp="eflacourt">
+                  <persName>Flacourt, Étienne de</persName>
+               </person>
+               <person corresp="jfoberlin">
+                  <persName>Oberlin, Johann Friedrich</persName>
+               </person>
+               <person corresp="amrochon">
+                  <persName>Rochon, Alexis-Marie de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="912">Challan, Claude Bernard: Vocabulaire Malgache (Ile de France
+                    [Mauritius]: L’Imprimerie Royale 1773)</bibl>
+               <bibl corresp="920">Drury, Robert: Madagascar: or, Robert Drury’s Journal during
+                    fifteen years captivity on that island (London: Meadows u.a. 1729)</bibl>
+               <bibl corresp="928">Fihirana, natao ny Hihira’ny ny Abaniandro, hiderana an’
+                    andriamanitra (Antananarivo: Mission Press 1833)</bibl>
+               <bibl corresp="914">Flacourt, Étienne de: Dictionnaire de la langue de Madagascar avec
+                    un petit recueil de noms &amp; dictions propres des choses qui sont d’une mesme
+                    espèce. Plus quelques mot du langage des sauvages de la baye de Saldagne au Cap
+                    de Bonne Espérance. Un petit catéchisme &amp; des prières du matin &amp; du soir
+                    que les missionaires font &amp; enseignent aux néophytes &amp; catéchumènes de
+                    cette isle, le tout en françois &amp; en cette langue (Paris: Jossé
+                    1658)</bibl>
+               <bibl corresp="922">Flacourt, Étienne de: Histoire de la Grande Isle de Madagascar
+                    (Paris: Gervais Clouzier 1661)</bibl>
+               <bibl corresp="925">Ny taratasy voalohany atao oe, Jenesisy (Antananarivo: Missionary
+                    Press 1831)</bibl>
+               <bibl corresp="907">Ny teny n’andriamanitra, atao hoe, testamenta ’ny Jesosy Kraisty
+                    (An-Tananarivo 1830)</bibl>
+               <bibl corresp="923">Rochon, Alexis-Marie de: Voyages à Madagascar, à Maroc, et aux
+                    Indes orientales: ouvrage en trois volumes, accompagné … d’un vocabulaire
+                    madégasse, de tables astronomiques, et d’une table générale des matières (Paris:
+                    Prault 1791)</bibl>
+               <bibl corresp="926">Taranta ’ny Obelina (Antananarivo: Mission Press 1831)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, I extremely regret that it has not been in
+                        my power to forward, at a much earlier period, for your personal use, the
+                        accompanying documents …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jjfreeman">Freeman, Joseph John</persName>
+               <date type="author" when="1833-01-30"/>
+               <placeName key="Antananarivo">Antananarivo</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="311" type="prev">September 1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jjfreeman">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="ms">Malaiisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">13. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="132r"/>
+               <dateline>Antananarivo<lb/>30 Jan<supplied cert="high">uar</supplied>y 1833</dateline>
+               <address>
+                  <addrLine>To Baron Will.<hi rend="superscript">m</hi> Humbolt</addrLine>
+                  <addrLine>&amp;<hi rend="superscript">c</hi> &amp;<hi rend="superscript">c</hi> &amp;<hi rend="superscript">c</hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <salute>Sir,</salute>
+            </opener>
+            <p>I extremely regret that it has not been in my power to forward, at <add>a</add>
+                    much earlier period for your perusal &amp; use, the accompanying documents.</p>
+            <p>I have copied the principal part of the Gram.<hi rend="superscript">r</hi> I drew
+                    up some time ago on the Malagasy language. I need not say, it is <hi rend="underline">far</hi> from being perfect. It was drawn up with a vein of
+                    condensing &amp; embodying the various rules &amp; illustrations I had collected
+                    from time to time, – some of which were scattered about or fragments of paper as
+                    they occurred at the moment – and a great part was entrusted to my own memory
+                    with the intention of supplying illustrations whereever a convenient opportunity
+                    should present itself. I regard the Grammar at present as an outline – to be
+                    corrected confirmed, – illustrated or altered as may seem requisite, from future
+                    investigations. Such as it is, however, it may possibly afford some guidance
+                    &amp; aid in your important &amp; highly <add>valuable</add> theories on the
+                    comparison of the Malay languages or Dialects. I am not with<supplied cert="high">ou</supplied>
+               <hi rend="superscript">t</hi> the hope, that you
+                    will find further confirmation of the vein you have entertained of the relative
+                        <unclear>subsistence</unclear> between the Malagasy language &amp; the
+                    original Malay. It is a point I am most anxious to see illustrated and I shall
+                    eagerly avail myself of the publication you refer to on the subject – &amp;
+                    which I trust is by this time, issuing from the press, as I judge it to have
+                    been in a considerable state of forwardness at the time of the date of
+                        y<supplied cert="high">ou</supplied>
+               <hi rend="superscript">r</hi> last
+                    favor, Sep.<hi rend="superscript">r</hi> 1830.</p>
+            <p>
+               <pb n="132v"/> You have most diligently availed yourself Sir of the few means
+                    which you <sic>posessed</sic> for the Study of the Malagasy. You had not I
+                    suppose seen <bibl sameAs="920">a narrative of a fourteen years
+                            <unclear>residence</unclear> on the Island</bibl> by <persName ref="rdrury">Drury</persName>, a shipwrecked mariner. It was written several
+                    years ago, – but I think it bears internal marks of authenticity. It has no
+                    pretensions to science or to any value as a Literary Composition, but you would
+                    have found there also another Vocabulary which would have <del type="fragment">as</del> assisted a <unclear>little</unclear> – with those you have named.
+                        <persName ref="rdrury">Drury</persName> was a shipwrecked on the S. W. coast
+                    of <placeName ref="Madagaskar">Madagascar</placeName> &amp; his vocabulary
+                    relates principally to words used in that part of the Islands.</p>
+            <p>I have prepared to forward with this communication the Grammar as already
+                    mentioned – from the Verbs to the End – not however containing Syntax – for two
+                    reasons first, that various remarks occur on the course of the parts now sent
+                    illustrative of the leading principles on the Syntax of the language; – but
+                    secondly – I have not yet drawn out the Rules systematically. I have preferred
+                    making a pretty extensive collection of native compositions examining these
+                    &amp; drawing up the rules – of I may be allowed the term, by induction, from
+                    those facts. <placeName ref="Madagaskar">Madagascar</placeName> has been, ’till
+                    within the past four years without a written language. The few words who have
+                    written occasionally in the Malagasy <del type="fragment">ch</del> language with
+                    the Arabic character, have been too few and I apprehend too unimportant to be
+                    considered exceptions to the remark. At any rate they could not be entitled to
+                    the phrase "Native compositions". – But <placeName ref="Madagaskar">Madagascar</placeName> cannot be considered wholly destitute of materials.
+                    Its language is rich, extensive &amp; philosophical, – and there around are the
+                    language innumerable native compositions – tho’ <pb n="133r"/> not hitherto
+                    reduced to writing; – they are traditional; – consisting of Legendary Rules, –
+                    historical reminiscences – Songs, – Proverbs – Repartees, – Salutations – Modes
+                    of addressing the Sovereign, – Solemn Oaths – &amp;c &amp;c These form the
+                    Stock, the material of the National unwritten literature. To rescue a portion of
+                    this, permits present fallacious &amp; fugutive modes of perpetuation, is, I
+                    think a "pretium operis." Much that is more trash, – in an intellectual &amp;
+                    moral view, – <del>but</del> may thus be <unclear>amassed</unclear>, – but some
+                    literary curiosities may be found also – &amp; as the natives themselves say on
+                    such occasions, when a selection is made, – what pleases cannot you keep – &amp;
+                    what displeases cannot you reject? At any rate, it is not to bring the native
+                    compositions to a Literary, so much as to a Grammatical test, that I collect and
+                        <unclear>examine</unclear> them. They are the people’s own mode of thinking,
+                    and of expressing themselves – &amp; from <sic>therefor</sic>, good criteria, on
+                    the case requiring their assistance. Should I be able to reduce the rules to
+                    Syntax within a reasonable time – so as to be likely to afford you any further
+                    aid on the prosecution of your Studies, it will afford me pleasure to transmit a
+                    copy of it, to place by the side of the Grammar.</p>
+            <p>I have endeavoured also to answer the various questions you were free enough to
+                    propose for Solution. Some of the answers are less fully illustrate than they
+                    might have been, had I not been aware at the time, that the Grammar would
+                    supersede such additional illustrating. The same remark may apply to the
+                    Observations made of the Analysis of a few verses from Matthew &amp; a passage
+                    from <persName ref="eflacourt">Flacourt</persName>. <persName ref="eflacourt">Flacourt</persName>s <bibl sameAs="922">"Voyage"</bibl> I have by me – with
+                        <bibl sameAs="923">Rochon</bibl>
+               <note type="footnote" resp="editor">
+                  <persName ref="amrochon">Rochons</persName> Werk, 1791 erschienen, wurde bereits
+                        1792 ins Englische und Deutsche übersetzt – und erschien um
+                        einen Reisebericht nach Marokko ergänzt als dreibändiges Werk: Alexis Rochon
+                        (1801): <hi rend="italic">Voyages à Madagascar, à Maroc, et aux Indes Orientales. Ouvrage en
+                        trois volumes, accompagné d’une Carte géographique de Madagascar, d’une
+                        Carte de l'Inde orientale, d’un Vocabulaire Madégasse, de Tables
+                        astronomiques, et d’une Table générale des matières</hi>, Paris: Prault,
+                        Levrault. [FZ]</note>.</p>
+            <p>
+               <pb n="133v"/> I copied off for your amusement one or two pages of Native
+                    compositions. I think you will be able to construe them without difficulty.</p>
+            <p>With regard to the publication of a reimpression of <bibl sameAs="914">Flacourts</bibl> &amp; <bibl sameAs="912">Challans Vocabularies</bibl>, it
+                    strikes me, with all reference to your own judgement, Sir, that such a work
+                    could be regarded only as a Literary curiosity – or may I say – Illustration of
+                    the <hi rend="underline">Past</hi> state of <add>the</add> Malagasy language. I
+                    do not think it exists now, as in the time of <persName ref="eflacourt">Flacourt</persName>. The lapse of 150 or 180 yrs is very considerable in
+                    the progress of a language – the changes incidentally &amp; unintentionally
+                    introduced are numerous; – still more <unclear>so</unclear> where the custom has
+                    prevailed – &amp; it has done in <placeName ref="Madagaskar">Madagascar</placeName> and still does in some of its
+                        <unclear>provinces</unclear> – of changing names – of places – persons &amp;
+                    things on great &amp; special occasions. I rely on your kindness &amp; candour
+                        <sic>therefor</sic> to forgive me on suggesting – &amp; I do not for a
+                    moment presume to do more than suggest, – that the publication of the above
+                    named vocabularies would <unclear>but</unclear> be of extensive practical
+                    utility in assisting any person to allow a knowledge of the language now
+                    existing, I will not say only on Imerena<note type="footnote" resp="editor">Imerina, die zentrale Hochlandregion Madagaskars. [FZ]</note> but
+                    prevailing extensively through the Island, &amp; likely to become the one
+                    metropolitan language of <placeName ref="Madagaskar">Madagascar</placeName>. The
+                    above vocabularies bear no comparison (I have examined them in <placeName ref="Mauritius">Mauritius</placeName>,) with the collection we have made, –
+                    and which may lay the foundation of a Dictionary at some, <unclear>not</unclear>
+                    very distant period.</p>
+            <p>I purpose forwarding with this, a copy of all that we have issued from our Press
+                    since my last communication. Of the Scriptures – you will find <bibl sameAs="907">All the New Testament</bibl> &amp; <bibl sameAs="925">a part of the Old – up
+                        to 1 Samuel</bibl> – a few new Tracts and a <sic>
+                  <bibl sameAs="928">hymnBk</bibl>
+               </sic>
+               <note type="footnote" resp="editor">D.h. "hymn book".</note> – which we use in the Native Congregation – who
+                    now assemble for Christian worship. Of <persName ref="jfoberlin">the excellent
+                        "Oberlin" of the Ban de la Roche</persName> I presume you may have heard –
+                    it may interest you to see a Sketch of him which I drew up in this language,
+                    &amp; is now circulated <add>here</add> as <bibl sameAs="926">a Tract</bibl>. So
+                    eminent a character I <unclear>see</unclear>
+               <add>him</add> a fair specimen of the Religion we wish to teach this people.</p>
+            <closer>
+               <pb n="134r"/>
+               <salute>I have the honor to remain <lb/>Sir <lb/>Your most obliged &amp;
+                        faithful Ser.<hi rend="superscript">t</hi>
+               </salute>
+               <signed>J. J.
+                        Freeman</signed>
+               <lb/>
+               <pb n="134v und 135r vacat"/>
+               <lb/>
+               <pb n="135v"/>
+               <address>
+                  <addrLine>To Baron William Humbolt |<hi rend="italic">sic</hi>| –</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">Berlin</placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

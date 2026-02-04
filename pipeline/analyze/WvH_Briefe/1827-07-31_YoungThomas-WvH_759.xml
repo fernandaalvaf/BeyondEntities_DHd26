@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Young an Wilhelm von Humboldt, vor August 1827<idno type="BBAW">759</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                  Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Young 1827, S. 92–100; Young 1855, S.
+                     433–441</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12010</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="apollonius">
+                  <persName>Apollonios Dyskolos (Grammatiker)</persName>
+               </person>
+               <person corresp="wblackstone">
+                  <persName>Blackstone, Sir William</persName>
+               </person>
+               <person corresp="jburton">
+                  <persName>Burton, James</persName>
+               </person>
+               <person corresp="wcobbett">
+                  <persName>Cobbett, William</persName>
+               </person>
+               <person corresp="georgkve">
+                  <persName>Georg IV., König von England</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="jmilton">
+                  <persName>Milton, John</persName>
+               </person>
+               <person corresp="muhammadali">
+                  <persName>Muhammad Ali Pascha</persName>
+               </person>
+               <person corresp="htattam">
+                  <persName>Tattam, Henry</persName>
+               </person>
+               <person corresp="jhtooke">
+                  <persName>Tooke, John Horne</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1355">Burton, James (1825–1829): Excerpta hieroglyphica: or exact
+                  copies of various hieroglyphical inscriptions and sculptured monuments still
+                  existing in Egypt and Nubia, and at Mount Sinai, Kairo: Privatdruck</bibl>
+               <bibl corresp="1356">Cobbett, William (1818): A Grammar of the English Language, in a
+                  Series of Letters. Intended for the Use of Schools and of Young Persons in
+                  General; But, More Especially for the Use of Soldiers, Sailors, Apprentices, and
+                  Plough-Boys, New York: Printed for the author by Clayton and Kingsland</bibl>
+               <bibl corresp="202">Humboldt, Wilhelm von (1827): Lettre à Monsieur Abel Rémusat, sur
+                  la nature des formes grammaticales en général, et sur le génie de la langue
+                  Chinoise en particulier, Paris: Dondey-Dupré</bibl>
+               <bibl corresp="701">Tattam, Henry (1830): A compendious Grammar of the Egyptian
+                  language as contained in the Coptic and Sahidic dialects; with observations on the
+                  Bashmuric: together with alphabets and numerals in the Hieroglyphic and Enchorial
+                  characters; and a few explanTattamatory observations: by the Rev. Henry Tattam,
+                  M.A. F.R.S.L. &amp;c. &amp;c. Rector of St. Cuthbert’s, Bedford. With an Appendix,
+                  consisting of the Rudiments of a Dictionary of the Ancient Egyptian language in
+                  the Enchorial character: by Thomas Young, M.D. F.R.S. H.M.R.S.L. Foreign associate
+                  of the Royal Institute of Paris, London: Arch</bibl>
+               <bibl corresp="1357">Tooke, John Horne (1786): Ἐπεα πτεροεντα. Or, the Diversions of
+                  Purley, London: J. Johnson [Erstausgabe]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Sir, I am happy to tell you that our prospects of new
+               documents from Egypt …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="tyoung">Young, Thomas</persName>
+               <date type="editor" when="1827-07-31"/>
+               <placeName key="Ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="cop">Koptisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Juni 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>My dear Sir,</salute>
+            </opener>
+            <p>I AM happy to tell you that our prospects of new documents from Egypt are very
+               rapidly increasing: <persName ref="jburton">Mr. Burton</persName> has had the good
+               fortune to discover at length, in a mosque, the triple inscription for which he has
+               been some years in search; and he has been negotiating with the <persName ref="muhammadali">Pacha</persName> for its removal. From its magnitude and state
+               of preservation, there is every reason to believe that it will rival the pillar of
+               Rosetta in its importance; and I sincerely hope that it will tend to check the
+               wildness of conjecture, which has been rioting without bounds in the regions of
+               Egyptian literature. <persName ref="htattam">Mr. Tattam</persName> is printing <bibl sameAs="701">a Coptic grammar</bibl>, and I am preparing an Appendix, which is to
+               contain the rudiments of an Enchorial Lexicon: I ardently wish that <persName ref="jburton">Mr. Burton</persName>’s <bibl sameAs="1355">inscriptions</bibl> may
+               come to my assistance before I complete it. I have received nothing from France or
+               from Germany for these four years past: even what is published seems by some fatality
+               to have been withheld from me; and the booksellers send no answers to my commissions.
+               I trust <persName ref="avh">your brother</persName> will not forget his kind promise
+               to think of me at <placeName ref="Berlin">Berlin</placeName>.</p>
+            <p>I have to thank him and you for your obliging present of your <bibl sameAs="202">
+                  <hi rend="italic">Letter to Abel Remusat on the Genius of the Chinese
+                  Language</hi>
+               </bibl>, which has greatly interested me: the best return that I can
+               make will be to give you some remarks which have occurred to me on the language of
+               hieroglyphics in general, and on the character of the English language, which seems
+               to approach, in its simplicity, as you have yourself observed, to the natural
+               structure of the oldest languages, immediately related to the hieroglyphical form of
+               representation. I fear, however, that I must apologize to you for the want of method
+               with which I shall be obliged at present to throw my fragments together: but it may
+               be allowable to make some difference between a letter and a finished essay. </p>
+            <p>Hieroglyphics, in their primitive form, are scarcely to be considered in any case as
+               simply a mode of expressing an oral language: they may be a direct and independent
+               representation of our thoughts, that is, of recollections, or sentiments, or
+               intentions, collateral to the representation of the same thoughts by the language of
+               sounds. We find, in many of the Egyptian monuments, a double expression of the same
+               sense: first, a simple picture, for instance, of a votary presenting a vase to a
+               sitting deity; each characterized by some peculiarity of form, and each distinguished
+               also by a name written over him; and this may be called a pure hieroglyphical
+               representation, though it scarcely amounts to a language, any more than the look of
+               love is the language of a lover. But we universally find that the tablet is
+               accompanied by a greater variety of characters which certainly do constitute a
+               language, although we know little or nothing of the sounds of that language; but its
+               import is, that "such a king offers a vase to the deity;" and on the other side, that
+               "the deity grants to the king health and strength, and beauty and riches, and
+               dominion and power." It is common to see, in these inscriptions, a number of
+               characters introduced, which are evidently identical with some of those in the
+               tablets: and however some of them may occasionally have been employed phonetically,
+               there can be no question of the nature of the changes which their employment must
+               have gone through before they assumed the character of sounds: but this is altogether
+               a separate consideration, and foreign to the present purpose. </p>
+            <p>Now it is obvious that objects, delineated with the intention of representing the
+               originals to the eye by their form, must necessarily be nouns substantive; and that
+               the picture, containing no verb whatever, can scarcely be said to constitute either a
+               positive or a negative assertion. At the same time, it I must be allowed that a
+               picture of <persName ref="georgkve">King George the Fourth</persName>’s coronation,
+               with the date 19 July, 1821, could scarcely be considered otherwise than as asserting
+               a historical truth; and if any emblem of Truth were attached to it, or if it were
+               deposited among the records of other historical facts, it would be equivalent to the
+               expression, <persName ref="georgkve">"George IV.</persName> crowned in July, 1821,"
+               which <hi rend="italic">scarcely</hi> wants the verb <hi rend="italic">was</hi> to
+               convert it into a positive assertion of a fact. </p>
+            <p>Strictly speaking, however, there seems to be no direct mode of supplying the want of
+               the verb <hi rend="italic">is</hi> or <hi rend="italic">was</hi> in pure
+               hieroglyphical writing; and if any such sign was employed in the Egyptian or the old
+               Chinese hieroglyphics, its introduction must have been arbitrary or conventional;
+               like the employment of a postulate in mathematics. Every other part of a language
+               appears capable of being reduced, with more or less circumlocution, to the form of a
+               noun substantive; and the English language appears to approach to the Chinese in the
+               facility with which all the forms of grammar may be shaken off. </p>
+            <p>There is, however, often occasion, in such cases, for a certain degree of metaphor
+               approaching to poetical latitude; and hence it may happen that the least literary
+               nations are sometimes the most poetical. It is, in fact, impossible to exclude
+               metaphor altogether from the most prosaic language; and it is frequently difficult to
+               say where metaphor ends and strict logical prose begins; but by degrees the metaphor
+               drops, and the simple figurative sense is retained. Thus we may say <hi rend="italic">liquid ruby</hi> with the same exact meaning as <hi rend="italic">crimson
+                  wine</hi>; and yet <hi rend="italic">ruby</hi> would never be called an adjective,
+               though employed merely to express the colour: in <hi rend="italic">coral lips</hi>,
+               however, the <hi rend="italic">coral</hi>, first used metaphorically, is converted by
+               habit into an adjective, and the expression is considered as synonymous with <hi rend="italic">labri corallini</hi>. </p>
+            <p>The general custom in English is to place the figurative substantive, used as an
+               adjective by comparison, or by abstraction, before the name which retains its proper
+               sense: thus a chesnut horse is a chesnut like or chesnut coloured horse; a horse
+               chesnut is a coarse kind of chesnut: and in this manner we are enabled to use almost
+               every English noun substantive as an adjective, by an ellipsis of the word <hi rend="italic">like</hi>, which, if inserted entire or abridged, would make a real
+               adjective of the word, as war<hi rend="italic">like</hi>, friend<hi rend="italic">ly</hi>. But this omission of the termination, like other figures of speech, is
+               easily forgotten in the ordinary forms of language; and the Germans, as well as the
+               English, make use of almost all their substantives in the place of adjectives, though
+               they are more in the habit of continuing them into single long words. When, however,
+               the substantives are so used, they generally become by abstraction real adjectives:
+               for we seldom think of a <hi rend="italic">chesnut</hi>, in speaking of the colour of
+               a horse; but the idea of a light brown coat, with an ugly pale-red mane and tail, and
+               a fidgety temper, is very likely to occur to us: and in a horse chesnut the idea of a
+               horse is out of the question; we only think of a coarse fruit which a man cannot eat:
+               so that the true sense, in both these instances, is that of a quality; but <hi rend="italic">coral lips</hi> and <hi rend="italic">ivory hands</hi> are rather
+               elliptical expressions, composed of two substantives, which might fairly be
+               represented hieroglyphically by the assistance of a branch of coral and an elephant’s
+               tusk. But to describe an abstract quality by any hieroglyphic character,
+               representative of form only, would be generally impossible: colours might be
+               imitated, if we supposed coloured figures to be employed; but other simple ideas,
+               such as those of sound or touch, could never be immediately presented to the eye; and
+               some circuitous invention would always be required for their representation. </p>
+            <p>
+               <persName ref="jhtooke">Horne Tooke</persName> has shewn,<note type="footnote" resp="editor">Gemeint ist wohl Horne Tookes <bibl sameAs="1357">Ἐπεα πτεροεντα. <hi rend="italic">Or, the Diversions of
+               Purley</hi>
+                  </bibl>, zuerst erschienen in <placeName ref="London">London</placeName> im Jahr 1786. [FZ]</note> with considerable felicity
+               of illustration, that all the parts of speech may be resolved into the noun and the
+               verb; but he has not pointed out so clearly that every verb may be resolved into a
+               noun and the single primitive verb is or was, which, in this sense, may be said to be
+               the only essential verb in any language; as we find, indeed, in the Coptic, that
+               almost every noun becomes a verb, either by the addition of PE, or sometimes even
+               without it. Thus, <hi rend="italic">the morning</hi> BLUSHES is synonymous with <hi rend="italic">the morning</hi> IS <hi rend="italic">red</hi>; <hi rend="italic">he
+                  loves justice</hi>, with <hi rend="italic">he</hi> IS <hi rend="italic">a lover of
+                  justice</hi>; and <hi rend="italic">I</hi> AM <hi rend="italic">an
+               Englishman</hi>, with the <hi rend="italic">person now speaking</hi> IS <hi rend="italic">an Englishman</hi>. But this must be understood of is, was, or will
+               be, in all its tenses; the idea of time, if expressed, being an essential part of the
+               verbal sense. </p>
+            <p>I confess that some of these reflections have occurred to me in looking over a very
+               singular work, which I had the curiosity to take up, in order to see what kind of
+               information could be possessed by a person notoriously and professedly ignorant of
+               the origin and relations of the language which he attempts to teach; and, in short,
+               what kind of light could be diffused by an apostle of darkness. Blunders, and some of
+               them ridiculous enough, must, of course, be found in the works of such a person, but
+               most of them are such as every schoolboy might correct; and there really is so much
+               of sagacity in some of <persName ref="wcobbett">Mr. Cobbett</persName>’s remarks on
+               the errors of others, that they well deserve the attention of such as are ambitious
+               to write or speak with perfect accuracy. </p>
+            <p>I shall not attempt to enter into a regular criticism of <bibl sameAs="1356">this <hi rend="italic">Grammar</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Siehe zu
+                  Cobbett und seinen Sprachstudien: F. Aarts (1994): William Cobbett’s Grammar of
+                  the English Language. In: <hi rend="italic">Neuphilologische Mitteilungen</hi> 95,
+                  Nr. 3, S. 319–332. [FZ]</note>; I shall merely make a few miscellaneous
+               observations, as they have occurred to me in reading it, several of which would be
+               equally applicable to the best of the existing works of a similar nature. </p>
+            <p>In <bibl sameAs="1356">Letter III.</bibl> we are told that <hi rend="italic">long and
+                  short</hi>, though adjectives, do not express <hi rend="italic">qualities</hi>,
+               but merely dimension or duration; from a singular misconception of the proper sense
+               of the word <hi rend="italic">quality</hi>. We find, in <bibl sameAs="1356">Letter
+                  IV.</bibl>, the rule given by most grammarians, though not by all, that the
+               article A becomes AN, when it is followed by any word beginning with a vowel; but it
+               is surely more natural to follow the sound than the spelling, and, as we should never
+               think of saying an <hi rend="italic">youthful</hi> bride, it seems equally incorrect
+               to say an <hi rend="italic">useful</hi> piece of furniture; for the initial sound is
+               precisely the same. In the same manner A <hi rend="italic">unit</hi> and A <hi rend="italic">European</hi>, seems to sound more agreeable than AN; and the best
+               speakers appear to adopt this custom. </p>
+            <p>
+               <bibl sameAs="1356">Letter VIII.</bibl> gives us a rule for doubling the last letter
+               of a verb in the participle if an accent is on the last syllable; but it should be
+               observed that the L is doubled, whether accented or not, as in <hi rend="italic">caballing</hi>, <hi rend="italic">travelled</hi>, <hi rend="italic">levelled</hi>, <hi rend="italic">cavilled</hi>, <hi rend="italic">controlled</hi>.
+               The same letter contains a "List of verbs, which, by some persons, are erroneously
+               deemed irregular,"<note type="footnote" resp="editor">Horne 1818, S. 60. [FZ]</note>
+               and which have been so deemed from the time of our German and Saxon ancestors, though
+                  <persName ref="wcobbett">Mr. Cobbett</persName> thinks it would be more
+               philosophical to conjugate them regularly. Thus we may see at once that <hi rend="italic">freeze</hi> may as well give us <hi rend="italic">frozen</hi>, as
+                  <hi rend="italic">frieren</hi> gives the Germans <hi rend="italic">gefroren</hi>;
+               that <hi rend="italic">hang</hi> may make <hi rend="italic">hung</hi> or <hi rend="italic">hanged</hi>, according to its sense, as in German we have <hi rend="italic">hienge</hi> from <hi rend="italic">hangen</hi>, and <hi rend="italic">hängte</hi> from <hi rend="italic">hängen</hi>, to execute. For <hi rend="italic">sling</hi> and <hi rend="italic">slung</hi>, we have authority in
+                  <hi rend="italic">schlingen</hi>, <hi rend="italic">geschlungen</hi>, for <hi rend="italic">spring</hi> and <hi rend="italic">sprung</hi> in <hi rend="italic">springen</hi> and <hi rend="italic">gesprungen</hi>; for <hi rend="italic">swollen</hi>, <hi rend="italic">swam</hi>, or <hi rend="italic">swum</hi>, and
+                  <hi rend="italic">swung</hi>, in <hi rend="italic">geschwollen</hi>, <hi rend="italic">geschwommen</hi>, and <hi rend="italic">geschwungen</hi>. And it is
+               quite clear from these examples that "the bad practice of abbreviating, or
+               shortening," has nothing to do with the matter. </p>
+            <p>In <bibl sameAs="1356">Letter XIV.</bibl> we have a very distinct examination of a
+               rule in punctuation which has been commonly adopted by good printers, without so
+               distinct a description of its foundation. "Commas are made use of, when phrases, that
+               is to say, 'portions' of words, are 'throw<hi rend="italic">ed</hi>' into a sentence,
+               and which are not absolutely necessary to assist in its grammatical
+                  construction."<note type="footnote" resp="editor">Horne 1818, S. 78. [FZ]</note>
+               In a word, two commas are very nearly equivalent to the old fashioned parenthesis.
+               Again, "the apostrophe ought to be called the mark not of elision, but of <hi rend="italic">laziness</hi> and <hi rend="italic">vulgarity</hi>;"<note type="footnote" resp="editor">Horne 1818, S. 81. [FZ]</note> a remark made in
+               truly classical taste, which might have been extended with perfect propriety to the
+               subject of the next paragraph, the <hi rend="italic">Hyphen</hi>, the insertion of
+               which is, to make it uncertain whether the words united by it are one word or two. He
+               goes on admirably in the next page. "<hi rend="italic">Notes</hi>, like parentheses,
+               are <hi rend="italic">interrupters</hi>, and much more troublesome interrupters,
+               because they generally tell a much longer story. The employing of them arises, in
+               almost all cases, from confusion in the mind of the writer. He finds the matter <hi rend="italic">too much for him</hi>. He has not the talent to work it all up into
+               one lucid whole; and, therefore, he puts part of it into <hi rend="italic">Notes</hi>."<note type="footnote" resp="editor">Horne 1818, S. 83. [FZ]</note>
+               ..... "Instead of the word <hi rend="italic">and</hi>, you often see people put <hi rend="italic">&amp;</hi>. For what reason I should like to know. But to this <hi rend="italic">&amp;</hi> is sometimes added a <hi rend="italic">c</hi>; thus, <hi rend="italic">&amp;c</hi>. <hi rend="italic">And</hi> is, in Latin, <hi rend="italic">et</hi>, and <hi rend="italic">c</hi> is the first letter of the
+               Latin word <hi rend="italic">caetera</hi>
+               <note type="footnote" resp="editor">Bei
+                  Horne 1818, S. 83 steht korrekt: <hi rend="italic">cetera</hi>. [FZ]</note>, which
+               means <hi rend="italic">the like</hi>, or <hi rend="italic">so on</hi>. This
+               abbreviation of a foreign word is a most convenient thing for such writers as have
+               too much indolence or too little sense to say fully and clearly what they ought to
+               say. If you <hi rend="italic">mean</hi> to say and the like, or, <hi rend="italic">and so on</hi>, why not say it? ... The abbreviation is very frequently made use
+               of <hi rend="italic">without the writer having</hi> any idea of its import."<note type="footnote" resp="editor">Horne 1818, S. 83f. [FZ]</note> But it is surely a
+               mischievous maxim, never to "think of <hi rend="italic">mending</hi> what you write.
+               Let it <hi rend="italic">go</hi>. No patching; no <hi rend="italic">after
+                  painting</hi>."<note type="footnote" resp="editor">Horne 1818, S. 85. [FZ]</note>
+               On the other hand he is right in protesting "against the use of what, by some, is
+               called the <hi rend="italic">dash</hi>. Who is to know what is intended by the use of
+               these <hi rend="italic">dashes?</hi> .... It is a cover for ignorance as to the use
+               of points; and it can answer no other purpose."<note type="footnote" resp="editor">Horne 1818, S. 85. [FZ]</note>
+            </p>
+            <p>In <bibl sameAs="1356">Letter XV.</bibl> there is a singular conceit with regard to
+               the keeping up a distinction between <hi rend="italic">a</hi> and <hi rend="italic">an</hi>, where it is insisted that we must not say "<hi rend="italic">a</hi> dog,
+               cat, owl, and sparrow," because owl requires <hi rend="italic">an</hi>; "and that it
+               should be a dog, a cat, an owl, and a sparrow;"<note type="footnote" resp="editor">Horne 1818, S. 87. [FZ]</note> which is certainly better, and would be so, even
+               if there were no owl in the question. </p>
+            <p>
+               <bibl sameAs="1356">Letter XVII.</bibl> The criticism on <persName ref="jmilton">Milton</persName>’s "than <hi rend="italic">whom</hi> none higher sat,"<note type="footnote" resp="editor">Horne 1818, S. 106. [FZ]</note> is perfectly
+               correct. <hi rend="italic">Than</hi> is never a preposition, and is simply a
+               variation from the older <hi rend="italic">then</hi>, both in English and in German.
+                  <hi rend="italic">John is better than James</hi> means simply John is good first,
+               then James: <hi rend="italic">er</hi> is <hi rend="italic">eher</hi> or <hi rend="italic">e’er</hi>. <hi rend="italic">Who</hi> would sound awkwardly, but
+               would be more grammatical. </p>
+            <p>
+               <bibl sameAs="1356">Letter XIX.</bibl> gives a definition of the ellipsis, which
+               would be a lesson to <persName ref="apollonius">Apollonius</persName> himself: the
+               compasses, it seems, "do not take their sweep all round, but leave out parts of the
+               area or surface." The objection to <persName ref="wblackstone">Blackstone</persName>’s language is very questionable. "The very <hi rend="italic">scheme and model</hi> WAS settled,"<note type="footnote" resp="editor">Horne
+                  1818, S. 123. [FZ]</note> may, perhaps, be defended, because scheme and model are
+               considered as one thing, the words being intended to illustrate each other, but not
+               to point out different attributes of the administration of justice; and both words
+               may be admitted, as a collective term, to govern a singular rather than a plural
+               verb. It seems also to be an error to make <hi rend="italic">with</hi> a conjunction
+               rather than a preposition, and to say, "The bag, with the guineas and dollars in it,
+                  <hi rend="italic">were</hi> stolen,"<note type="footnote" resp="editor">Horne
+                  1818, S. 129. [FZ]</note> or "zeal, with discretion, <hi rend="italic">do</hi>
+                  much."<note type="footnote" resp="editor">Horne 1818, S. 129. [FZ]</note> "I
+               expected to have seen," is justly noticed as a common error for "I expected to
+                  see."<note type="footnote" resp="editor">Horne 1818, S. 136. [FZ]</note> The
+               meaning of an active verb is erroneously confounded with that of a <hi rend="italic">transitive</hi> verb, in the remarks on the word <hi rend="italic">elope</hi>,
+               which means to go off, or to run off, and we should naturally say was gone off, but
+                  <hi rend="italic">had</hi> run off. </p>
+            <p>The nature of the subjunctive mood is dismissed in the same Letter without better
+               success than has been obtained by former grammarians. An essay was published about
+               thirty years ago in a periodical work,<note type="footnote" resp="editor">Diese
+                  Quelle ließ sich nicht ermitteln. [FZ]</note> which brings the subject into a
+               small compass; suggesting that the subjunctive mood ought always to be considered as
+               a <hi rend="italic">conditional future</hi>. The examples given are, "If the Elbe <hi rend="italic">is now</hi> open, we shall soon have the mails, and <hi rend="italic">then</hi>, if there <hi rend="italic">be</hi> any news from the
+               army, I will send it you immediately." "If Catiline <hi rend="italic">was</hi>
+               generous, it was in order to serve his ambition." The subjunctive past, if I <hi rend="italic">were</hi>, becomes present, by being the future of the past; going
+               back to the time when the present was future, and therefore contingent; and this
+               conditional sense involves no difficulty, except when a mistaken adherence to the
+               fancied rules of grammar forces it in where it has no business: thus the rules of
+               some grammarians would lead us to say, if Catiline <hi rend="italic">were</hi>
+               ambitious; which is totally contrary to the true sense of the subjunctive. <persName ref="wcobbett">Mr. Cobbett</persName> seems to have some such distinctions in view
+               when he says that "<hi rend="italic">if</hi> has nothing at all to do with the
+               government of the verb. It is the sense which governs." By this he means that if does
+               not require a subjunctive unless it relates to a <hi rend="italic">future
+                  contingency</hi>. He is right in saying "Though her chastity is becoming, it gives
+               her no claim to praise:" but most decidedly wrong in adding "she would be criminal if
+               she <hi rend="italic">was</hi> not chaste;" for <hi rend="italic">was</hi> is here
+               used as relating to the present circumstances, which are the future of the past, and
+               therefore require the subjunctive <hi rend="italic">were</hi> to denote the condition
+               intended. He has, however, done signal justice to the cause of this injured verb, by
+               introducing it for <hi rend="italic">was</hi>, in his sixth lesson, where he says it
+               should have been "Your lordship <hi rend="italic">were</hi> apprized of every
+               important circumstance." </p>
+            <p>Such errors as this, however, are easily corrected, and many of the acute remarks
+               which have been here copied are well worthy the attention of practical grammarians;
+               at the same time enough has been said, without any disparagement of <persName ref="wcobbett">Cobbett</persName>’s talents, to show that a man cannot be well
+               qualified to teach that which he has not had the means of properly learning. For
+               although the English language appears at first sight to be extremely simple and
+               philosophical in its structure, it has in fact been derived from a variety of
+               heterogeneous sources; it has undergone a variety of vicissitudes, and has served for
+               the expression of a multiplicity of discussions on the most refined subjects in
+               literature and history and science, for the feelings of oratory, and the passions of
+               poetry, and it has been worn away by degrees, as the crystal in the stream is worn to
+               a pebble, till it has returned to a simplicity which wears the aspect of the
+               immediate offspring of the Chinese or Egyptian or Mexican Hieroglyphics. But with all
+               this, it has still some spots, some idioms, which invariable custom obliges us to
+               retain; and which can only be distinguished from corruptions and vulgarisms by
+               tracing their history through the different stages of its progress, including, of
+               necessity, the corresponding idioms in the parent languages out of which it has
+               arisen.</p>
+            <closer>
+               <salute>Believe me always, my dear Sir,<lb/>Your’s very sincerely,</salute>
+               <signed>* * * *</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

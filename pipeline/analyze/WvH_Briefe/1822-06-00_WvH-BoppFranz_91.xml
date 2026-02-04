@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 00.06.1822 (Datierung unklar)<idno type="BBAW">91</idno>
+               <!-- evtl. 21.06.1822 zu datieren; vgl. hier die Angabe in Humboldts Brief #252 (29.6.1822) -->
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 11. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 22–24</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7224</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen, Indische Bibliothek 1, 1823, S.
+                    433–473; 2, 1824, S. 71–134</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="615">Schlegel, August Wilhelm von: VIII. Wilsons Wörterbuch, in:
+                    Indische Bibliothek. Ersten Bandes Drittes Heft, 1822, S. 295–364</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich sage Ew. Wohlgeboren meinen aufrichtigsten
+                        u. lebhaftesten Dank für Ihr gütiges Schreiben vom 13. v. M. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-06"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="252" type="next">29.06.1822</ref>
+               <ref target="251" type="prev">13.05.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 30. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1822_06_XX/NDIGRKP004565_0300.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_06_XX/NDIGRKP004565_0301.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_06_XX/NDIGRKP004565_0302.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich sage Ew. Wohlgebohren meinen aufrichtigsten u. lebhaftesten Dank
+                    für Ihr gütiges <ref type="link" target="251">Schreiben</ref> vom <date when="1822-05-13">13. v. M.</date> Ich beantworte es heute nur mit einigen
+                    Worten, die ich indeß vor einer längeren Antwort vorausgehen lassen möchte.</p>
+            <p>Ich habe nemlich, durch Ihre Güte aufgemuntert, einen <bibl sameAs="212">Aufsatz</bibl> über die Formen in <foreign sameAs="sa" n="transEd">tvā<graphic url="Bopp/WvH-Bopp_1822_06_XX/0505.svg"/>
+               </foreign> u.
+                        <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/WvH-Bopp_1822_06_XX/0506.svg"/>
+               </foreign> angefangen, u.
+                    beinahe beendigt. Im Laufe des nächsten Monats hoffe ich eine Gelegenheit zu
+                    finden, ihn Ihnen zuzusenden. Das Resultat ist, wie ich es vorher ahndete, daß
+                    ich auch diese Formen für <hi rend="antiqua">Gerundivformen</hi> halte. Was die
+                    Erklärung derselben für einen Instrum. betrifft, so halte ich dies eher für eine
+                    Behauptung, für die sich viel sagen läßt, aber die es doch vielleicht kaum
+                    möglich seyn wird, ganz zu beweisen. Die Form in <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/WvH-Bopp_1822_06_XX/0506.svg"/>
+               </foreign>
+                    tritt sehr in den Weg. Es ist erstlich da zu erwägen, daß es doch eine zweite
+                    Hypothese ist, daß hier der <hi rend="antiqua">Vocal</hi> verkürzt worden ist.
+                    Dann kommt die Aehnlichkeit dieser Form mit der des sogenannten <hi rend="antiqua">part. fut. pass.</hi> (was auch ein <hi rend="antiqua">Gerundium</hi> ist) dazu. Endlich warum sollten die mit <hi rend="antiqua">Praepositionen</hi> verbundenen Wurzeln gerade <hi rend="antiqua">Verbalia</hi> in <foreign sameAs="sa" n="transEd">i<graphic url="Bopp/WvH-Bopp_1822_06_XX/0507.svg"/>
+               </foreign> bilden, u. warum ist
+                    nun nicht derselbe Unterschied beim <hi rend="antiqua">Infinitivus</hi>?</p>
+            <p>Wüßten Ew. Wohlgeb. überhaupt gar keine Art von Wahrscheinlichkeit anzugeben,
+                    warum die mit <hi rend="antiqua">Praepositionen</hi> verbundenen Wurzeln eine
+                    andere Behandlung erfahren? Bei der Bildung des <hi rend="antiqua">part. fut.
+                        pass.</hi> kommt dieser Unterschied, jedoch auf keine hierher <pb n="2*"/> passende Weise zur Sprache. Dann noch hie u. da, wo es auf Buchstabenänderungen
+                    ankommt? Aber einen andern so wichtigen analogischen Fall erinnere ich mich
+                    sonst in der Sprache nicht.</p>
+            <p>In der Bestimmung der Natur der Formen ist der wichtigste Punkt, ob man kann
+                    dieselben bald <hi rend="antiqua">passiv</hi>, bald <hi rend="antiqua">activ</hi> nehmen. Ich glaube das nicht, u. trete ganz Ew. Wohlgeb. Meinung
+                    hierin bei. Um aber hierin ganz sicher seyn zu können, wäre es ungemein wichtig,
+                    eine Stelle wie die <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl>.
+                    B. 1. Abschnitt 1. sl. 61. <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_06_XX/0508.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">māyāvinā<graphic url="Bopp/WvH-Bopp_1822_06_XX/0509.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">dūramapavāhya<graphic url="Bopp/WvH-Bopp_1822_06_XX/0510.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nṛpātmajau<graphic url="Bopp/WvH-Bopp_1822_06_XX/0511.svg"/>
+               </foreign> zu finden, wo das
+                    regierte Wort bestimmt <del type="fragment">N</del> nur <hi rend="antiqua">Nominat.</hi> oder <hi rend="antiqua">Accusat.</hi> seyn könnte. Eine, in
+                    der es <hi rend="antiqua">Nominat.</hi> wäre, glaube ich, kann es nicht geben.
+                    Aber eine, wo es gewiß <hi rend="antiqua">Accus.</hi> wäre, würde überzeugend
+                    seyn.</p>
+            <p>Bei der Schwierigkeit, mit der ich noch lese, darf ich nicht hoffen, solche
+                    Entdeckung zu machen. Aber sehr wünschenswerth wäre es, wenn Ew. Wohlgeb. einmal
+                    eine Nachsuchung nach solcher Stelle anstellten.</p>
+            <p>Von <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> habe
+                    ich neuerlich einen langen <ref type="link" target="1073">Brief</ref>. Ich griff
+                    ihn darüber an, daß er die abgesonderten <hi rend="antiqua">Präpositionen</hi> <bibl sameAs="615">
+                  <hi rend="antiqua">p.</hi> 332.
+                        seiner Bibliothek 3. Heft</bibl> wegläugnet. Er sagt, er habe dies nur als
+                    Regel gesagt, und sich auf die Ausnahmen nicht einlassen wollen. Indeß will er
+                    auch jetzt nur gelten lassen solche, die sonst <hi rend="antiqua">inseparable</hi> sind <foreign sameAs="sa" n="transEd">prati<graphic url="Bopp/WvH-Bopp_1822_06_XX/0512.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">ā<graphic url="Bopp/WvH-Bopp_1822_06_XX/0513.svg"/>
+               </foreign> u. s. f. Die <hi rend="antiqua">Adverbia</hi> oder wie man sie
+                    nennen will, erklärt er anders. <foreign sameAs="sa" n="transEd">saha<graphic url="Bopp/WvH-Bopp_1822_06_XX/0514.svg"/>
+               </foreign> z. B. etwa <foreign sameAs="sa" n="transEd">kṛte<graphic url="Bopp/WvH-Bopp_1822_06_XX/0515.svg"/>
+               </foreign> u. andere. Bei
+                    Gelegenheit von <foreign sameAs="sa" n="transEd">ṛte<graphic url="Bopp/WvH-Bopp_1822_06_XX/0516.svg"/>
+               </foreign> sagt er: <foreign sameAs="sa" n="transEd">ṛte<graphic url="Bopp/WvH-Bopp_1822_06_XX/0516.svg"/>
+               </foreign>
+               <note type="footnote" resp="editor">Humboldt schreibt wohl versehentlich <foreign sameAs="">
+                     <graphic url="Bopp/WvH-Bopp_1822_06_XX/0516a.svg"/>
+                  </foreign>.</note> <foreign sameAs="sa" n="transEd">tāṃ<graphic url="Bopp/WvH-Bopp_1822_06_XX/0517.svg"/>
+               </foreign> fasse ich wie: diese
+                    ausgenommen, <hi rend="antiqua">hanc excipiendo</hi>. Hier ist ihm also das <hi rend="antiqua">Part. praet.</hi> od. <hi rend="antiqua">pass. activ</hi>.
+                    Denn er giebt <foreign sameAs="sa" n="transEd">ṛ<graphic url="Bopp/WvH-Bopp_1822_06_XX/0518.svg"/>
+               </foreign> hier eine <hi rend="antiqua">active</hi> Bedeutung, die es auch <pb n="3*"/> wohl
+                    bisweilen hat. Es ist daher u. in vieler andren Rücksicht sehr wichtig, wohl
+                    festzustellen, welches eigentlich die Bedeutung dieser <hi rend="antiqua">participien</hi> ist? <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> 690. u. 735. widerspricht sich beinahe. Allein ich
+                    erkläre die letzte Stelle nach der ersten u. nehme diese, als seine wahre
+                    Meynung an, so daß diese <hi rend="antiqua">participien</hi> bei <hi rend="antiqua">Verbis activis</hi> immer <hi rend="antiqua">passiv</hi>
+                    sind, dagegen bei <hi rend="antiqua">intransitiven Verben</hi>, trotz ihrer
+                    passiven Form, oft <hi rend="antiqua">activ</hi>. Allein ich fürchte immer, daß
+                    andere, mehr Belesenere, mir Stellen, wie ein Medusenhaupt, entgegenhalten.
+                    Sollte es nun wohl Stellen geben, wo <foreign sameAs="sa" n="transEd">dṛṣṭa<graphic url="Bopp/WvH-Bopp_1822_06_XX/0519.svg"/>
+               </foreign>,
+                        <foreign sameAs="sa" n="transEd">ṛta<graphic url="Bopp/WvH-Bopp_1822_06_XX/0520.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">hata<graphic url="Bopp/WvH-Bopp_1822_06_XX/0521.svg"/>
+               </foreign>, sehend, raubend
+                    oder nehmend, schlagend od. tödtend heißen? Hiernach nun kann ich <hi rend="antiqua">
+                  <persName ref="awschlegel">Schlegels</persName>
+               </hi> <bibl sameAs="615">Erklärung</bibl> nicht
+                    beistimmen. Indeß ist unläugbar der <hi rend="antiqua">Accus.</hi> hier
+                    wunderbar. Natürlich wäre entweder Verbindung des Worts im <hi rend="antiqua">stat. absol.</hi> mit <foreign sameAs="sa" n="transEd">ṛte<graphic url="Bopp/WvH-Bopp_1822_06_XX/0516.svg"/>
+               </foreign> oder Stellung des
+                    Worts in den <hi rend="antiqua">Locativus</hi>, oder in den <hi rend="antiqua">Genitivus</hi>. Wie erklären Ew. Wohlgeb. diesen <hi rend="antiqua">Accusativus</hi>? Mir scheinen diese <hi rend="antiqua">Adverbia</hi> oder
+                        <hi rend="antiqua">Substantivirten Adjectiva</hi> eigentlich die Uebergänge
+                    zu den eigentlichen <hi rend="antiqua">Praepositionen</hi>?</p>
+            <p>Endlich muß ich Ew. Wohlgeb. noch um eine Auskunft bitten, die gewiß große
+                    Unwissenheit von mir verräth, aber ich bin gewohnt, Ihnen einmal solche
+                    Geständnisse zu machen. <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl>.
+                    XII. 18 a. kommt <foreign sameAs="sa" n="transEd">maṃgrāmajidvidvān<graphic url="Bopp/WvH-Bopp_1822_06_XX/0522.svg"/>
+               </foreign>
+               <subst>
+                  <del>an</del>
+                  <add>vor</add>
+               </subst>, wo das
+                    erste Wort doch <foreign sameAs="sa" n="transEd">maṃgrāmajit<graphic url="Bopp/WvH-Bopp_1822_06_XX/0523.svg"/>
+               </foreign> im <hi rend="antiqua">stat. absolut.</hi> heißen muß. Ferner XII. 93. <foreign sameAs="sa" n="transEd">dharmma<graphic url="Bopp/WvH-Bopp_1822_06_XX/0524.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">bhṛtāṃ<graphic url="Bopp/WvH-Bopp_1822_06_XX/0525.svg"/>
+               </foreign>, das ein <hi rend="antiqua">Gen. plur.</hi> ist, u. also auch auf einen <hi rend="antiqua">Nominat.</hi> in <foreign sameAs="sa" n="transEd">t<graphic url="Bopp/WvH-Bopp_1822_06_XX/0526.svg"/>
+               </foreign> hindeutet. Nur finde
+                    ich solche Formen von diesen Wörtern in <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl> gar nicht, u. auch in <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> keine <term type="morph" ref="010">
+                  <hi rend="antiqua">kridhanta</hi>
+               </term> <hi rend="antiqua">Suff.</hi> in <foreign sameAs="sa" n="transEd">t<graphic url="Bopp/WvH-Bopp_1822_06_XX/0526.svg"/>
+               </foreign>. Beide Wörter haben
+                    eine <hi rend="antiqua">active</hi> Bedeutung, Sieger im Krieg, Stützer des
+                    Rechts. Haben Sie doch die Güte mir zu sagen, wie ich diese Formen aufsuchen u.
+                    bilden muß.</p>
+            <closer>
+               <salute>Nun leben Sie herzlich wohl. Verzeihen Sie mein flüchtiges
+                        Schreiben, u. antworten Sie mir recht bald. Mit der herzlichsten
+                        Freundschaft Ihr</salute>
+               <signed>H.<note type="footnote" resp="editor">Lefmann 1897: Juni (?) 1822.</note>
+               </signed>
+               <lb/>
+               <pb n="4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

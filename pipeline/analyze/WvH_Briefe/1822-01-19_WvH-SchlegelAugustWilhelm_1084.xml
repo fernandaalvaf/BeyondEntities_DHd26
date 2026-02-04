@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 19.01.1822<idno type="BBAW">1084</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 3</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 47f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7162</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="726">Schlegel, August Wilhelm von: Specimen novae typographiae Indicae,
+                    iussu ministrorum regis Borrusiae, serenissimi principis ab Hardenberg,
+                    cancellarii status, et illustrissimi dynastae ab Altenstein, rerum
+                    ecclesiasticarum et eruditionis praesidis, publicis sumtibus concinnatae.
+                    Litterarum figuras ad elegantissimorum codicum Bibliothecae Regiae Parisiensis
+                    exemplaria delineavit, caelandas feriundas, flandas curavit (Paris: Crapelet
+                    1821)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Schon längst wollte ich Ew. Hochwohlgebohrnen
+                        für Ihren gütigen Brief vom 25. Nov. meinen herzlichen Dank abstatten,
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-01-19"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1072" type="prev">25.11.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">31. Oktober 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1822-01-19/WvH-Schlegel_1822_01_19_Seite_1.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1822-01-19/WvH-Schlegel_1822_01_19_Seite_2.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Am rechten oberen Rand Notiz von
+                        Schlegel: <subst>
+                     <del>vom 19. Jan. 22.</del>
+                     <add>vom 19. Januar
+                                22.</add>
+                  </subst>
+               </note> Schon längst wollte ich Ew.
+                    Hochwohlgebohrnen für <ref type="link" target="1072">Ihren gütigen Brief</ref>
+                    vom <date when="1821-11-25">25. Nov.</date> meinen herzlichen Dank abstatten, so
+                    wie für die gütige Aufnahme, welche <ref type="link" target="608">mein
+                        Brief</ref>, der wirklich der Entschuldigung bedurfte, bei Ihnen gefunden
+                    hat; aber ich hoffte Ihnen etwas mittheilen zu können, das ich Ihnen
+                    mitzutheilen wünschte, u. dies hat sich noch immer nicht thun lassen.</p>
+            <p>Die neue Schriftprobe<note type="footnote" resp="editor">Die zweite Druckprobe
+                        ist nicht auffindbar.</note> hat mir ungemein gut gefallen. In einigen
+                    Buchstaben finde ich sie <bibl sameAs="726">der früheren</bibl> vorzuziehen,
+                    namentlich in dem <hi rend="antiqua">N</hi>. Ich hätte sie indeß ein klein wenig
+                    größer gewünscht. Die Striche mit welchen das <hi rend="antiqua">i</hi> über der
+                    Linie hervorgeht, scheinen mir, da wo sie die Linie berühren, ein wenig zu fein.
+                    Da sie die Fortsetzung des Körpers des Buchstabens sind, so würde ihr
+                    Zusammenhang mit diesem besser ins Auge fallen, wenn sie gleiche Dicke mit ihm
+                    hätten. Die Manuscripte mögen wohl so seyn. Allein die von der Hand geführte
+                    Feder, die oft einen Buchstaben durch zweimaliges Ansetzen macht, hat andre
+                    Gesetze, als der Druck. Die Verbindung des <foreign sameAs="sa" n="transEd">da<graphic url="Schlegel/WvH-Schlegel_1822_01_19/021.svg"/>
+               </foreign>
+                    und <foreign sameAs="sa" n="transEd">ra<graphic url="Schlegel/WvH-Schlegel_1822_01_19/022.svg"/>
+               </foreign> scheint mir
+                    auch nicht recht deutlich. Besonders fällt dies auf, wo sich ein <foreign sameAs="sa" n="transEd">ū<graphic url="Schlegel/WvH-Schlegel_1822_01_19/023.svg"/>
+               </foreign> daran
+                    anschließt. Der Strich des <foreign sameAs="sa" n="transEd">ra<graphic url="Schlegel/WvH-Schlegel_1822_01_19/024.svg"/>
+               </foreign> scheint mir
+                    zu sehr herunter <pb n="2*"/> zu gehen, u. das <foreign sameAs="sa" n="transEd">da<graphic url="Schlegel/WvH-Schlegel_1822_01_19/025.svg"/>
+               </foreign> nicht genug seinen natürlichen Endstrich zu behalten. Außer
+                    diesen wahren Kleinigkeiten aber, über die man auch noch sehr leicht
+                    verschiedene Ansicht haben könnte, wüßte ich nichts zu erinnern. Werden denn nun
+                    die Buchstaben bald hier ankommen? Es wäre sehr zu wünschen, daß Ew.
+                    Hochwohlgebohrnen bald in <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName> davon Gebrauch machen könnten, u. daß auch <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> hier dazu in Stand
+                    gesetzt würde. </p>
+            <closer>
+               <salute>Indem ich Ew. Hochwohlgeb. meinen Dank für die gütige Mittheilung
+                        wiederhole, verbleibe ich mit den hochachtungsvollsten u.
+                        freundschaftlichsten Gesinnungen <lb/>Ew. Hochwohlgeb.
+                        <lb/>ergebenster,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 19. <hi rend="antiqua">Jan.</hi>
+                        1822.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An Herrn <hi rend="antiqua">Professor</hi> u. Ritter von <hi rend="antiqua">Schlegel</hi>, Hochwohlgeb. in <placeName ref="Bonn">
+                        <hi rend="antiqua">Bonn</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

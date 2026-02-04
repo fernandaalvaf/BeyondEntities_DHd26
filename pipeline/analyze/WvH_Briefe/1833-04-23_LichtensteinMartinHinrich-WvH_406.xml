@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 09.02.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Martin Hinrich Lichtenstein an Wilhelm von Humboldt, 23.04.1833<idno type="BBAW">406</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 106–107</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 219</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ejvogt">
+                  <persName>Vogt, Ernst Jacob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="10">Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften
+                    zu Berlin (1804–1900)</bibl>
+               <bibl corresp="213">Humboldt, Wilhelm von: Über die unter dem Namen Bhàgavad-Gítá
+                    bekannte Episode des Mahá-Bhárata I–II. In: Abhandlungen der Königlichen
+                    Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 1–65</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel Java,
+                    nebst einer Einleitung über die Verschiedenheit des menschlichen Sprachbaues und
+                    ihren Einfluss auf die geistige Entwicklung des Menschengeschlechts. In:
+                    Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften zu Berlin
+                    aus dem Jahre 1832, Zweiter Theil (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1836)</bibl>
+               <bibl corresp="52">Bhagavad-Gîta</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz / geneigter Mittheilung kann ich,
+                        ohne sie bei der Akademie zur Sprache gebracht zu haben, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="mhclichtenstein">Lichtenstein, Martin Hinrich</persName>
+               <date type="author" when="1833-04-23"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="349" type="prev">22.04.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="mhclichtenstein">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">09. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Lichtenstein/Lichtenstein-WvH_1833-04-23/Coll.ling.fol.53_217.jpg"/>
+      <graphic url="Lichtenstein/Lichtenstein-WvH_1833-04-23/Coll.ling.fol.53_218.jpg"/>
+      <graphic url="Lichtenstein/Lichtenstein-WvH_1833-04-23/Coll.ling.fol.53_219.jpg"/>
+      <graphic url="Lichtenstein/Lichtenstein-WvH_1833-04-23/Coll.ling.fol.53_220.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="106r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>geneigter <ref target="349" type="link">Mittheilung</ref> kann ich, ohne sie bei
+                    der <orgName ref="3">Akademie</orgName> zur Sprache gebracht zu haben, sogleich
+                    erwiedern, daß sie auf das Dankbarste angenommen werden wird. Denn an demselben
+                    Tage, wo jener beschränkende Beschluß wegen der Zahl der Exemplare gefaßt wurde,
+                    ist auch festgesetzt, daß jedes Mitglied, welches eine größere Zahl begehre,
+                    dann die Kosten für das Ganze selbst übernehmen könne.</p>
+            <p>Einer besondern Verfügung an die Druckerei bedarf es deshalb nicht, da <persName ref="ejvogt">Vogt</persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="ejvogt">Ernst Jacob Vogt</persName> (1772–1854), Leiter der
+                        Druckerei der <orgName ref="3">Akademie der Wissenschaften</orgName> zu
+                            <placeName ref="Berlin">Berlin</placeName>.</note> bereits angewiesen
+                    ist, gleich nach Empfang des Mscpts zu beginnen. Bei der Correctur des ersten
+                    Bogens wäre die Zahl der Exemplare zu bestimmen und wieviel etwa auf
+                    vorzüglicherem Papier abgezogen werden sollen.</p>
+            <p>Da ich vermuthe, daß es Ew. Excellenz zur Bestimmung der Auflage conveniren
+                    könnte, einen unge-<pb n="106v"/>fähren Ueberschlag der Kosten machen zu können,
+                    so verfehle ich nicht, hier hinzuzufügen, daß, da die <bibl sameAs="227">Abhandlung</bibl> auf Kosten der <orgName ref="3">Akademie</orgName> <hi rend="underline">gesetzt</hi> wird und ein
+                    Umbrechen und neues Paginiren hier nicht nöthig ist, nur für den <hi rend="underline">Druck</hi> zu zahlen sein würde, nemlich etwa 20 Silbergr.
+                    p. Bogen bei einer Auflage von 2 bis 300 Exempl. also für 40 Bogen 26 2/3 Thlr.
+                    Ebenso liefern wir von dem Papier auf welchem <bibl sameAs="10">unsre
+                        Abhandlungen</bibl> gedruckt werden zum Einkaufspreis, den Ballen zu 36 rt.
+                    Bei einer Stärke von 40 Bogen würde also die <bibl sameAs="227">Abhandlung</bibl>
+                    in einer Auflage von 200 Exempl. für 57 rt 18 sgr an Papier erfordern, mithin
+                    sämtliche Kosten 84 rt 8 sgr betragen, und so nach Verhältniß. Der Ladenpreis
+                        <hi rend="underline">könnte</hi> also auf Einen Thaler gestellt werden und
+                    brächte noch 15 % Ueberschuß. Indessen wäre er in Betracht der Stärke der <bibl sameAs="227">Abhandlung</bibl> sicher zu niedrig, nach den bestehenden
+                    Buchhändler-Sätzen.</p>
+            <p>Hiebei muß ich bemerken, daß Ew. Excellenz <bibl sameAs="213">Abhandlung über die
+                        Bhàgavad Gitá</bibl>, die zu 20 sgr (bei einer Stärke von 9 Bogen) verkauft
+                    wird, doch keinen Vortheil bringen wird, weil sie auf Ihren Befehl ganz <hi rend="underline">neu gesetzt</hi> werden <pb n="107r"/>
+               <hi rend="underline">müßte</hi>,<note type="footnote" resp="editor">Eingefügt aus der
+                        Kustode.</note> und die Auslagen der <orgName ref="3">Akademie</orgName> für
+                    den Druck (ohne das Papier) sich bei ihr auf 53 1/3 rt belaufen. Diese Kosten
+                    werden im nächsten Jahr zur Abrechnung kommen, indem gegen Neujahr
+                            <subst>
+                  <del>die</del>
+                  <add>das</add>
+               </subst> Quinquennium
+                    abgelaufen sein wird.</p>
+            <closer>
+               <salute>In wahrhafter Verehrung <lb/>Ew. Excellenz <lb/>ganz
+                        gehorsamer</salute>
+               <signed>H. Lichtenstein</signed>
+               <lb/>
+               <dateline>Berlin am
+                            23<hi rend="superscript">st</hi> Apr. 1833.</dateline>
+               <lb/>
+               <pb n="107v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

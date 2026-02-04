@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Heinrich Toelken an Wilhelm von Humboldt, 10.02.1824<idno type="BBAW">477</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 26, Bl. 23–24</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 172</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jdakerblad">
+                  <persName>Åkerblad, Johan David</persName>
+               </person>
+               <person corresp="wjbankes">
+                  <persName>Bankes, William John</persName>
+               </person>
+               <person corresp="slowrycorry">
+                  <persName>Belmore, Somerset Lowry-Corry, 2nd Earl of</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="gfcreuzer">
+                  <persName>Creuzer, Georg Friedrich</persName>
+               </person>
+               <person corresp="jhammer">
+                  <persName>Hammer-Purgstall, Joseph von</persName>
+               </person>
+               <person corresp="efjomard">
+                  <persName>Jomard, Edme François</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="rrichardson">
+                  <persName>Richardson, Robert</persName>
+               </person>
+               <person corresp="hsalt">
+                  <persName>Salt, Henry</persName>
+               </person>
+               <person corresp="tyoung">
+                  <persName>Young, Thomas</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="479">Åkerblad, Johan David (1802): Lettre sur l’inscription Égyptienne
+                    de Rosette: adressée au C.en Silvestre de Sacy, Paris: De L’Imprimérie de la
+                    République</bibl>
+               <bibl corresp="1324">Anonym [Young, Thomas] (1819): Egypt. In: Supplement to the
+                    Fourth, Fifth, and Sixth Editions of the Encyclopædia Britannica, Vol. IV, Part
+                    I, Edinburgh: Constable &amp; Co., S. 38–74</bibl>
+               <bibl corresp="1323">Barrow, John / Salt, Henry (1818): Travels in Egypt, Nubia, Holy
+                    Land, Mount Libanon, and Cyprus, in the Year 1814. By Henry Light, Captain in
+                    the Royal Artillery. 4to. London. 1818. In: Quarterly Review 19, No. 37, April,
+                    S. 178–204</bibl>
+               <bibl corresp="1322">Barrow, John / Young, Thomas / Salt, Henry (1818): Observations
+                    relating to some of the Antiquities of Egypt, from the Papers of the late Mr.
+                    Davison. Published in Walpole’s Memoirs. 1817. In: Quarterly Review 19, No. 38,
+                    July, S. 391–424</bibl>
+               <bibl corresp="527">Barrow, John (1823): Champollion’s Hieroglyphical Alphabet. [Rez.]
+                    Jean-François Champollion: Lettre à M. Dacier, Secrétaire perpétuel de
+                    l’Académie Royale des Inscriptions et Belles Lettres, relative à l’Alphabet des
+                    Hiéroglyphes Phonétiques (Paris: Didot Pére et Fils 1822). In: Quarterly Review
+                    28, No. 55, Febuar, S. 188–196</bibl>
+               <bibl corresp="76">Champollion, Jean-François (1822): Lettre à M. Dacier relative à
+                    l’alphabet des hiéroglyphes phonétiques, Paris: Firmin Didot Père et
+                    Fils</bibl>
+               <bibl corresp="516">Hammer v. Purgstall, Joseph Freiherr / Fontana, Carlo d’Ottavio
+                    (1822): Copie figurée d’un rouleau de papyrus trouvé en Egypte, Wien: De
+                    l’imprimérie d’Antoine Strauss</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte
+                    ou recueil des observations et des recherches qui ont été faites en Égypte
+                    pendant l’expédition de l’Armée Française publié par les ordres de Sa Majesté
+                    l’empéreur Napoléon le Grand, 20 Bände, Paris: L’Imprimérie Impériale</bibl>
+               <bibl corresp="1317">Jomard, Edme François (1819): D’une Notice sur les signes
+                    numériques des anciens Égyptiens, précédée du plan d’un ouvrage ayant pour
+                    titre: Observations et Recherches nouvelles sur les Hiéroglyphes; accompagnées
+                    d’un Tableau méthodique des signes. Lue à l’Académie des Inscriptions et
+                    Belles-Lettres, et à l’Académie des Sciences, les 3 et 6 septembre 1819. In:
+                    Revue encyclopédique, ou Analyse raisonnée, Band 4, S. 337–344</bibl>
+               <bibl corresp="1325">Minutoli, Heinrich Freiherr von (1824): Reise zum Tempel des
+                    Jupiter Ammon in der Libyschen Wüste und nach Ober-Ägypten in den Jahren 1820
+                    und 1821. Nach den Tagebüchern Sr. Excellenz herausgegeben und mit Beilagen
+                    begleitet von Dr. E. H. Toelken, Berlin: August Rücker</bibl>
+               <bibl corresp="360">Richardson, Robert (1822): Travels along the Mediterranean and
+                    parts adjacent; in company with the Earl of Belmore, during the years
+                    1816–17–18, London: T. Cadell</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz beehre ich gehorsamst die verlangte Auskunft
+                        zu geben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ehtoelken">Toelken, Ernst Heinrich</persName>
+               <date type="author" when="1824-02-10"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ehtoelken">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Februar 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Toelken/Toelken-WvH_1824-02-10/Coll.ling.fol.26_051.jpg"/>
+      <graphic url="Toelken/Toelken-WvH_1824-02-10/Coll.ling.fol.26_052.jpg"/>
+      <graphic url="Toelken/Toelken-WvH_1824-02-10/Coll.ling.fol.26_053.jpg"/>
+      <graphic url="Toelken/Toelken-WvH_1824-02-10/Coll.ling.fol.26_054.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="23r"/> Ew. Excellenz</opener>
+            <p>beehre ich mich gehorsamst die verlangte Auskunft zu geben.</p>
+            <p>Die erste mir bekannt gewordene Persiflage <bibl sameAs="106">des großen
+                        französischen Werkes</bibl> findet sich im <bibl sameAs="527">
+                  <hi rend="underline">Januar</hi>stück des <hi rend="antiqua">Quarterly
+                            Review</hi> von 1819</bibl>
+               <note type="footnote" resp="editor">Hier
+                        irrt Toelken: Die <bibl sameAs="1322">genannte Rezension</bibl> befindet sich
+                        im Juli-Band des Jahres 1818! Vgl. zur Autorschaft der Rezension den <ref type="linkExt"
+                       target="https://romantic-circles.org/reference/qr/index/38.html">
+                     <hi rend="italic">Quarterly Review Index</hi> Nr. 486 zu Article
+                        8</ref>. [FZ]</note>. Sie wird aber dort mit den Worten: <hi rend="antiqua">We cannot avoid reverting to <persName ref="efjomard">Mr.
+                        Jomard</persName>
+               </hi>
+               <note type="footnote" resp="editor">Das Zitat findet
+                        sich auf S. 419 der <bibl sameAs="1322">genannten Rezension</bibl>.
+                        [FZ]</note>, eingeführt, ist also nicht die früheste. Citirt wird das
+                    Decemberstück von 1818<note type="footnote" resp="editor">Auch hier irrt
+                        Toelken: Zitiert wird die <bibl sameAs="1323">Rezension</bibl> zu <persName ref="hlight">Henry Light</persName>s <hi rend="italic">Travels in
+                            Egypt</hi> im April-Heft des Jahres 1818; auf S. 193–195 findet sich
+                        eine kritische Charakterisierung <persName ref="efjomard">Jomard</persName>s. Vgl. zur Autorschaft der Rezension den <ref type="linkExt"
+                       target="https://romantic-circles.org/reference/qr/index/37.html">
+                     <hi rend="italic">Quarterly Review Index</hi> Nr. 472 zu Article
+                        6</ref>. [FZ]</note>. Nachher ist dieses <hi rend="antiqua">Journal</hi>
+                    immer von Zeit zu Zeit auf diesen Gegenstand, als einen <hi rend="antiqua">leading Article</hi>, zurückgekommen; häufig, wie es scheint, nach Briefen
+                    von <persName ref="hsalt">
+                  <hi rend="antiqua">
+                     <hi rend="underline">Salt</hi>
+                  </hi>
+               </persName>, der die <bibl sameAs="106">
+                  <hi rend="antiqua">Description</hi>
+               </bibl> mit den Originalen verglichen hat. Es scheint,
+                    daß die Franzosen kleinen flüchtigen Zeichnungen erst in <placeName ref="Paris">Paris</placeName> die nöthige Größe und <hi rend="antiqua">
+                  <hi rend="underline">Exactitude</hi>
+               </hi> gegeben haben; vielleicht dürften
+                    manchen scheinbar höchst ausgeführten Darstellungen blos <hi rend="underline">schriftliche Notizen</hi> zum Grunde liegen. Einen seltsamen
+                        <sic>Irthum</sic>, wodurch Ochsenköpfe in geflügelte Cherubim und diese
+                    durch <persName ref="efjomard">
+                  <hi rend="antiqua">Jomard</hi>
+               </persName> in <pb n="23v"/> selige Geister, worüber der gute <persName ref="gfcreuzer">Creuzer</persName> fromme Betrachtungen anstellt, verwandelt worden sind,
+                    habe ich selbst verificirt, und einen solchen Kopf abbilden lassen, ohne jedoch
+                    dieses <hi rend="antiqua">qui pro quo</hi> den Franzosen vorzurücken. Die <bibl sameAs="527">Recension</bibl> von <hi rend="antiqua">
+                  <persName ref="jfchampollion">Champollion</persName>’s <bibl sameAs="76">lettre à M.
+                            Dacier</bibl>
+               </hi> steht im <hi rend="underline">Februar</hi>heft
+                    1823., wo auch <persName ref="efjomard">Herr <hi rend="antiqua">Jomard</hi>
+               </persName> wieder sehr bitter durchgenommen wird, wegen der
+                    gerühmten <hi rend="antiqua">Exactitude</hi>, womit er die Dessins <hi rend="underline">dressire</hi>. Außerdem hat <persName ref="rrichardson">Herr <hi rend="antiqua">Richardson</hi>
+               </persName> in seinen langweiligen
+                        <bibl sameAs="360">
+                  <hi rend="antiqua">travels <hi rend="underline">along</hi>
+                            the Mediterranean</hi>
+               </bibl> (das heißt <hi rend="antiqua">Aegypten</hi>, <hi rend="antiqua">Nubien</hi> und <hi rend="antiqua">Syrien</hi>) 1822. 2 dicke <hi rend="antiqua">Voll</hi>., es sich zum
+                    Geschäft gemacht, den Franzosen ihre <hi rend="antiqua">bevues</hi> vorzuhalten.
+                        <persName ref="rrichardson">
+                  <hi rend="antiqua">R</hi>.</persName> begleitete
+                    nemlich den <persName ref="slowrycorry">
+                  <hi rend="antiqua">Lord
+                        Belmore</hi>
+               </persName> als Familienarzt, und dieser scheint das große
+                    französische Werk mit sich geführt zu haben. Ich könnte indeß <persName ref="rrichardson">Herrn <hi rend="antiqua">R</hi>.</persName>, der sehr
+                    fromm, aber sehr unwissend ist, wo möglich noch ärgere Fehler nachweisen, als er
+                    den atheistischen heidnischen <hi rend="antiqua">Savans</hi> aufrückt. Auch
+                        <persName ref="wjbankes">Herr <hi rend="antiqua">Bankes</hi>
+               </persName>
+                    giebt Beiträge zu den Beschämungen der <hi rend="antiqua">Savans</hi> im <hi rend="antiqua">Quarterly Review</hi>. Die Entdeckung der Zahlenhieroglyphen
+                    gehört wahrscheinlich <persName ref="efjomard">Herrn <hi rend="antiqua">Jomard</hi>
+               </persName>; <bibl sameAs="1317">sein Aufsatz darüber steht in
+                        der <hi rend="antiqua">Revue Encyclopedique</hi> 1819. <hi rend="antiqua">Vol</hi>. <hi rend="antiqua">IV</hi>. <hi rend="antiqua">p</hi>.
+                        337.</bibl>
+               <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>
+                    behauptet in seiner <bibl sameAs="76">
+                  <hi rend="antiqua">lettre à
+                        Dacier</hi>
+               </bibl>
+               <add>
+                  <hi rend="antiqua">p</hi>. 16.</add>, <hi rend="antiqua">
+                  <persName ref="tyoung">Young</persName>’s</hi>
+               <bibl sameAs="1324">Aufsatz</bibl> sey erst im <hi rend="underline">December</hi>
+                    1819 erschienen. Der Zwist wird wahrscheinlich sehr komisch werden. </p>
+            <p>
+               <pb n="24r"/> Ich wage es, Ew. Excellenz gehorsamst um gefällige Mittheilung
+                        von<lb/>
+               <persName ref="jhammer">Hammer</persName>’s <bibl sameAs="516">
+                  <hi rend="antiqua">Rouleau de papyrus</hi>
+               </bibl>,<lb/>
+               <hi rend="antiqua">
+                  <persName ref="jdakerblad">Ackerblad</persName>s <bibl sameAs="479">lettre a Silvestre de Sacy</bibl>
+               </hi>
+               <lb/>und der drei Aushängebögen
+                    der <persName ref="jhminutoli">Minutoli</persName>schen <bibl sameAs="1325">Reise</bibl>, welche die Wörterverzeichnisse enthalten und die ich die
+                    Ehre hatte Ew. Excellenz mitzutheilen, zu bitten, indem ich dieselben auf einige
+                    Tage nicht wol entbehren kann, da ein Register verfertigt werden soll.</p>
+            <closer>
+               <salute>In tiefster Hochachtung<lb/>Ew.
+                            Excellenz<lb/>ergebenster</salute>
+               <signed>
+                  <hi rend="antiqua">E. H.
+                            Toelken</hi>
+               </signed>
+               <lb/>
+               <dateline>d. 10<hi rend="superscript">t</hi>
+                  <hi rend="antiqua">Febr</hi>. 1824.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="24r"/>
+               <address>
+                  <addrLine>Sr. Excellenz</addrLine>
+                  <addrLine>dem Herr Staatsminister</addrLine>
+                  <addrLine>Freiherrn <hi rend="antiqua">von Humboldt</hi>
+                  </addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <pb n="Anschließend folgt ein vierseitiger Text Toelkens mit dem                         Titel „Der Widder als Symbol der Minerva“, Bl. 25–26"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

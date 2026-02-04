@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Sir Alexander Johnston, 15. Juli – 31. August 1831<idno type="BBAW">345</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            160–161</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 2017, S. 607–610</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 222</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von</persName>
+               </person>
+               <person corresp="ccolville">
+                  <persName>Colville, Sir Charles</persName>
+               </person>
+               <person corresp="rtfarquhar">
+                  <persName>Farquhar, Sir Robert Townsend</persName>
+               </person>
+               <person corresp="thfarquhar">
+                  <persName>Farquhar, Sir Thomas Harvie</persName>
+               </person>
+               <person corresp="jjfreeman">
+                  <persName>Freeman, John Joseph</persName>
+               </person>
+               <person corresp="jhenderson">
+                  <persName>Henderson, John</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="jjeffreys">
+                  <persName>Jeffreys, Rev. John</persName>
+               </person>
+               <person corresp="ljohnston">
+                  <persName>Johnston, Lady Louisa</persName>
+               </person>
+               <person corresp="tlawrence">
+                  <persName>Lawrence, Sir Thomas</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+               <person corresp="weparry">
+                  <persName>Parry, Sir William Edward</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="lethrelkeld">
+                  <persName>Threlkeld, Lancelot Edward</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="238">Jeffreys, John: Madecassische Grammatik (Manuskript)</bibl>
+               <bibl corresp="913">Chapelier, Louis Armand: Grammaire de la langue madégasse, par feu
+                    M. Chapelier, naturaliste du gouvernement, à Madagascar, publiée par René
+                    Primevère Lesson. In: Annales maritimes et coloniales, ou recueil des lois et
+                    ordonnances 2, 1827, S. 90–121</bibl>
+               <bibl corresp="707">Threlkeld, Lancelot Edward (1827): Specimens of a Dialect, of the
+                    Aborigines of New South Wales; being the First Attempt to Form their Speech into
+                    a Written Language, Sydney: Hill</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mon cher Monsieur et ami, Vous avez eu la complaisance de
+                        m’écrire avec Votre bonté accoutumée en date du 5 Mai …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" from="1831-07-18" to="1831-08-20"/>
+               <placeName key="Norderney?">Ohne Ort (Norderney?)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ajohnston">Johnston, Sir Alexander</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="387" type="prev">05.05.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Entwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="en">Englisch</language>
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="">New South Wales, Sprache von</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Johnston/WvH-Johnston_1831-07-15_1831-08-31/Coll.ling.fol.53_323.jpg"/>
+      <graphic url="Johnston/WvH-Johnston_1831-07-15_1831-08-31/Coll.ling.fol.53_324.jpg"/>
+      <graphic url="Johnston/WvH-Johnston_1831-07-15_1831-08-31/Coll.ling.fol.53_325.jpg"/>
+      <graphic url="Johnston/WvH-Johnston_1831-07-15_1831-08-31/Coll.ling.fol.53_326.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="160r"/>
+               <address>
+                  <addrLine>Sir Alexander Johnston.</addrLine>
+               </address>
+               <lb/>
+               <salute>Mon cher Monsieur et ami,</salute>
+            </opener>
+            <p>Vous avez eû la <subst>
+                  <del>bonté</del>
+                  <add>complaisance</add>
+               </subst> de m’écrire avec Votre bonté accoutumée en date du <date when="1831-05-05">5. Mai</date>, et je Vous prie de vouloir bien m’excuser
+                    de ne Vous en présenter qu’aujourd’hui mes sincères et vifs remercimens. Vos
+                    bontés m’ont muni de si beaux matériaux pour mes études que je ne saurois assez,
+                        <add>Monsieur,</add> Vous en exprimer ma reconnoisance.</p>
+            <p>J’ai fait prendre une copie exacte de la Grammaire du <persName ref="jjeffreys">Missoinaire Jeffreys</persName> et j’ai completté mes Vocabulaires de la
+                    langue de Madagascar par celui que <persName ref="metcalfe">M<hi rend="superscript">e</hi>. Metcalf</persName> m’a envoyé par Votre
+                    entremise. Mon premier soin à mon retour à <placeName ref="Berlin">Berlin</placeName> sera de <add>Vous</add> renvoyer <del>à cette Dame</del>
+                    à Vous ou à <persName ref="farosen">M<hi rend="superscript">r</hi>.
+                        Rosen</persName> les 9 cahiers manuscrits qu’elle m’a fait passer. J’ai prié
+                        <persName ref="farosen">M<hi rend="superscript">r</hi>. Rosen</persName> de
+                    prendre en mon nom un certain nombre d’exemplaires du petit ouvrage que
+                        <persName ref="metcalfe">M<hi rend="superscript">e</hi>. Metcalf</persName>
+                    vend au profit de ses enfans. Je crois lui avoir témoigné par là ma gratitude de
+                    sa complaisance. Je dois au reste Vous dire, M<hi rend="superscript">r</hi>. <subst>
+                  <del>en confiance</del>
+                  <add>entre nous</add>
+               </subst> que ce Manuscrit de feu <persName ref="jjeffreys">M<hi rend="superscript">r</hi>. Jeffreys</persName> n’est pas d’un aussi
+                    grand intérêt que je l’avais espéré. Le Vocabulaire paroit une première ebauche
+                    et renforme trop peu de mots, et la Grammaire est trop courte et donne une idée
+                    trop peu détaillée des formes grammaticales de la langue. Au lieu de cela les
+                    pages sont remplies de longs Paradigmes dont on se passeroit facilement
+                    connoissant une fois les regles d’après lesquelles ils sont formés. Malgré ce
+                    jugement que la vérité me force de former de ce Manuscrit <del>je <gap quantity="1" unit="chars"/>
+               </del>, j’avoue volontiers que j’y ai puisé
+                    des notions extrémement intéressantes et qui me servissent jointes à la
+                    Grammaire imprimée dans les Annales maritimes, aux notes que Vous m’avez fait
+                        <unclear>tenir</unclear> de <placeName ref="Mauritius">St.
+                        Mauritius</placeName> et aux recherches que j’ai faites moi-même en
+                    analysant les vocabulaires qui m’ont été communiquées de <orgName ref="7">la
+                        Bibliotheque de Paris</orgName>, à développer le systeme grammatical de
+                    cette langue d’une manière plus complette et plus satisfaisante. Ce que je veux
+                    dire est seulement que, s’il ne falloit parler que dans l’intérêt de la science,
+                    je ne con-<pb n="160v"/>seillerois pas d’imprimer précisément cette Grammaire de
+                        <persName ref="jjeffreys">M<hi rend="superscript">r</hi>.
+                        Jeffreys</persName>, <del>mais</del> puisque je suis sûr, d’après les notes
+                    de <persName ref="jjfreeman">M<hi rend="superscript">r</hi>. Freeman</persName>,
+                    que les Missionaires actuels, s’ils n’en <del>possèdent</del> possèdent pas déja
+                    une plus complette, sont en étât d’en faire une.</p>
+            <p>Vous me demandez, M<hi rend="superscript">r</hi>. si <persName ref="metcalfe">M<hi rend="superscript">e</hi>. Metcalf</persName> et <persName ref="thfarquhar">M<hi rend="superscript">r</hi>. Farquhar</persName>
+                    pourroient espérer de retirer quelque bénéfice de la publication de leurs
+                    manuscrits en Allemagne Je regrette vivement de devoir dire que cela seroit
+                    absolument impossible. On trouveroit, même en renonçant à toute idée d’intérêt,
+                    difficilement un libraire pour les imprimer. <subst>
+                  <del>Je me trouverai</del>
+                  <add>J’éprouverai</add>
+               </subst> probablement <del>dans</del> cet embaras à la publication de mon
+                    ouvrage sur les langues Malaies et serai obligé <subst>
+                  <del>d’y <gap quantity="3" unit="chars"/>
+                     <gap quantity="3" unit="chars"/>
+                  </del>
+                  <add>d’en fournir moi-même</add>
+               </subst> une partie des fraix.</p>
+            <p>La publication du Dictionnaire de <persName ref="rtfarquhar">M<hi rend="superscript">r</hi>. Farquhar</persName> seroit pourtant une
+                    véritable acquisition pour l’étude des langues. Autant que je puis juger de cet
+                    ouvrage, il est plus complet et mieux rédigé que tout ce que j’ai vû jusqu’ici
+                    en fait de vocabulaires de la langue de Madagascar. Si malheureusement aucun
+                    libraire à <placeName ref="London">Londres</placeName> ne veut se charger de
+                    cette publication, il faudroit au moins tâcher de le vendre à une des grandes
+                    Bibliothèques de l’Angleterre pour empêcher qu’il ne passe d’héritier en
+                    héritier et reste enseveli dans des papiers de famille de sorte que personne ne
+                    puisse en faire un usage scientifique. Vous me parlez dans Votre lettre du 7.
+                    Mai, M<hi rend="superscript">r</hi>. aussi d’une Grammaire <del>de <gap quantity="1" unit="chars"/>
+               </del> en possession de <persName ref="thfarquhar">M<hi rend="superscript">r</hi>.</persName> <sic>
+                  <persName ref="thfarquhar">Farquhare</persName>
+               </sic>. J’ignorois jusqu’ici
+                    qu’il y en eût une, et ni Vous, ni <persName ref="farosen">M<hi rend="superscript">r</hi>. Rosen</persName> n’en ont fait mention
+                    jusqu’ici. Si elle est du même mérite que le Dictionnaire, je suis sûr pourtant
+                    qu’un libraire de <placeName ref="London">Londres</placeName> <del>se</del>
+                    l’imprimeroit facilement. Les fraix ne sauroient <del>être</del> être
+                    considérables, et les Grammaires trouvent <del type="fragment">p</del> toujours
+                    un plus grand nombre d’acheteurs.</p>
+            <p>Les bonnes dispositions de <subst>
+                  <del>M<hi rend="superscript">r</hi>.</del>
+                  <add>
+                     <persName ref="ccolville">Sir Charles</persName>
+                  </add>
+               </subst> <persName ref="ccolville">Colville</persName> pour mes études dont Vous avez la bonté de me parler
+                    dans Votre lettre, M<hi rend="superscript">r</hi>. me font espérer une prompte
+                    réponse à mes questions sur le <sic>
+                  <hi rend="underline">Malagazy</hi>
+               </sic>. Je
+                    m’en promets de grands éclairissemens sur cette langue et suis vraîment
+                    impatient de les obtenir.</p>
+            <p>Je profite avec le plus grand plaisir et avec la plus vive <pb n="161r"/>
+                    reconnoissance des nouvelles offres obligentes que Vous me faites touchant
+                        <persName ref="weparry">Sir Edouard Parry</persName>. Une connoissance plus
+                    approfondie des <subst>
+                  <del>peuple</del>
+                  <add>langues</add>
+               </subst> de <hi rend="underline">New South Wales</hi> et du païs de van
+                        Diemen<note type="footnote" resp="editor">Van Diemen’s Land, das heutige
+                        Tasmanien.</note> seroit du plus grand intérêt pour moi. Elle serviroit à
+                    résoudre la question, si les habitans noirs et à poil crêpû qui se trouvent
+                    encore dans l’intérieur des îles Philippines et de quelques autres voisines,
+                    ainsi que ceux de la Nouvelle Guinée, appartiennent à la même race d’hommes que
+                    ceux de la Nouvelle Hollande et des païs que <persName ref="weparry">Sir Edouard
+                        Parry</persName> visite dans ce moment. Si ces derniers offroient quelques
+                    notices déjà rédigées sur une ou autre des langues qui y sont parlées, il me
+                    seroit très précieux d’en obtenir une copie. S’il n’existoit encore rien dans ce
+                    genre, je prierois <persName ref="weparry">Sir Edouard</persName> de recueillir
+                    lui-même de la bouche des habitans des Vocabulaires, et s’il étoit possible des
+                    dialogues disposés de manière à faire connoître les Pronoms, la Déclinaison des
+                    noms et la Conjugaison des Verbes. <bibl sameAs="707">Le petit ouvrage</bibl> du
+                    Missionnaire <sic>
+                  <persName ref="lethrelkeld">Threlked</persName>
+               </sic>
+               <note type="footnote" resp="editor">Zu Lancelot Edward Threlkeld siehe Niel Gunson
+                        (1967): Threlkeld, Lancelot Edward (1788–1859). In: <hi rend="italic">Australian Dictionary of Biography</hi>, Vol. 2, Melbourne: University
+                        Press, S. 528–530. [FZ]</note> que Vous avez eû la bonté de m’envoyer il y a
+                    quelque temps, pourroit servir de modèle pour cela.<note type="footnote" resp="editor">Siehe Schwarz 1993, S. 58 Nr. 448. [FZ]</note>
+            </p>
+            <p>Je Vous prie, Mr. de présenter mes hommages à <persName ref="ljohnston">Lady
+                        Johnston</persName> et à Mesdemoiselles Vos filles. <persName ref="cvh2">Ma
+                        fille ainée</persName> me charge également de la <del>rappeller à</del>
+                    rappeller à leur souvenir amical, ainsi qu’au Vôtre, M<hi rend="superscript">r</hi>. Elle étudie l’Anglois avec grand empressement et y a fait des <del type="fragment">pro</del> progrès considérables. Elle s’est rendue avec moi
+                    ici pour <del>se servir</del> faire usage des bains de mer<note type="footnote" resp="editor">Diese Aussage spricht dafür, dass Humboldt sich auf Norderney
+                        aufhielt, als er diesen Brief verfasste. Die Briefauflistung bei Mattson
+                        1980, Nr. 8380–8390 zeigt, dass Humboldt von 18. Juli bis 20. August
+                        1831 auf der Insel war. [FZ]</note>; mais nous serons de retour à <placeName ref="Berlin">Berlin</placeName> à la fin du mois prochain.</p>
+            <p>Je vois par Votre lettre, M<hi rend="superscript">r</hi>. que mon portrait fait
+                    par <persName ref="tlawrence">Lawrence</persName>, a obtenû l’honneur d’être
+                    placé dans Buckingham Palace.<note type="footnote" resp="editor">Zum Porträt Humboldts s. Gustav Friedrich Waagen (1837):
+                        <hi rend="italic">Kunstwerke und Künstler in England und Paris.
+                            Erster Theil</hi>, Berlin: Nicolaische Buchhandlung, S. 167f. [FZ]</note> Je conçois <del>
+                  <gap quantity="1" unit="chars"/> <gap quantity="2" unit="chars"/>r</del> que
+                    le corps <subst>
+                  <del>et la taille y sont moins réussi que le visage.</del>
+                  <add>ne me
+                            ressemble pas. Le fait est que le corps ne m’appartient pas.</add>
+               </subst> <persName ref="tlawrence">Lawrence</persName> avoit eû la singulière
+                    idée de me peindre sur une toile sur laquelle il existoit déjà un autre
+                    portrait, celui d’un Ecossois beaucoup plus gros et fort que moi. <subst>
+                  <del>Lawrence n’a terminé que la tête, et son s<gap quantity="7" unit="chars"/> ne m’ayant probablement
+                            jamais vû n’aura pas [assez] [d<gap quantity="5" unit="chars"/>é] l’encolure de mon prédécesseur
+                            sur la toile.</del>
+                  <add>Il n’avoit effacé que la tête de mon
+                            prédécesseur sur la toile et cette réunion bizarre de la tête et du
+                            corps de deux personnes différentes semble <del>encore</del> subsister
+                            encore.</add>
+               </subst> On a fait de moi à <placeName ref="Berlin">Berlin</placeName> un
+                    portrait lithographié <del>de</del> <pb n="161v"/> <del>moi</del> que Vous
+                    pouvez avoir <del>vû <gap quantity="1" unit="chars"/>
+               </del> vû chez <persName ref="gbuelow">ma fille</persName> à <placeName ref="London">Londres</placeName>. Si Vous le trouviez ressemblant, je serois très-flatté
+                    de Vous en offrir un exemplaire.</p>
+            <p>
+               <add>J’ai lû quelquepart qu’un Anglois nommé <persName ref="jhenderson">Henderson</persName> doit avoir découvert les ruines d’un temple Hindou
+                        dans la Nouvelle Hollande.<note type="footnote" resp="editor">Siehe John
+                            Henderson (1832): <hi rend="italic">Observations on the colonies of New
+                                South Wales and Van Diemen’s Land</hi>, Calcutta: The Baptist
+                            Mission Press, S. 145f. [FZ]</note> Ce fait seroit fort important.
+                        Veuillez me dire, M<hi rend="superscript">r</hi>. ce que l’on en pense à
+                            <placeName ref="London">Londres</placeName>?</add>
+            </p>
+            <closer>
+               <salute>C’est avec les sentimens de la considération la plus distinguée que j’ai
+                        l’honneur d’être, <lb/>Monsieur,</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

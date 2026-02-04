@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 12.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Carl Eduard Meinicke, 14.12.1832<idno type="BBAW">913</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Ruge 1878, S. 78f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8469 </bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tforrest">
+                  <persName>Forrest, Thomas</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="apigafetta">
+                  <persName>Pigafetta, Antonio</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="720">Forrest, Thomas: A voyage to New Guinea, and the Mollucas, from
+                    Balambangan: including on account of Magindano, Sooolos and other islands, and
+                    illustrated with thirty copperplates. Performed during the years 1774, 1775 and
+                    1776. To which is added a vocabulary of the Magindano tongue (London: Scott
+                    1779)</bibl>
+               <bibl corresp="290">Marsden, William: The History of Sumatra (London: J. M’Creery
+                    1811)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich kann nicht unterlassen Ew. Wohlgeboren den
+                        richtigen Empfang des mir mit Ihrem gütigen Schreiben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1832-12-14"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="910" type="prev">09.12.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="paz">
+            <language ident="">Mahomedanisch</language>
+            <!-- ??? -->
+            <!-- <language ident="mdh">Maguindanao</language>  ? -->
+            <language ident="ms">Malayisch</language>
+            <language ident="paa">Papua-Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">12. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Ich kann nicht unterlassen Ew. Wohlgeboren den richtigen Empfang des mir mit
+                    Ihrem gütigen <ref type="link" target="910">Schreiben</ref> vom <date when="1832-12-09">9. hujs.</date> überschickten <bibl sameAs="290">Marsden</bibl> anzuzeigen und Ihnen meinen Dank dafür abzustatten.</p>
+            <p>Was Sie mir über <foreign sameAs="paa">wat</foreign>
+               <!-- Papua-Sprache? --> und
+                        <foreign sameAs="paa">papua</foreign>
+               <!-- Papua-Sprache? --> sagen, habe
+                    ich mit grossem Interesse gelesen. Ich glaubte nicht zuerst auf den Gedanken
+                    gekommen zu sein, <foreign sameAs="paa">wat</foreign>
+               <!-- Papua-Sprache? -->
+                    von <foreign sameAs="ms">avatâram</foreign>
+               <!-- Malaiisch? --> abzuleiten und
+                    mir ist noch jetzt, als hätte ich es irgendwo gelesen. Um diese Ableitung nicht
+                    ganz unwahrscheinlich zu finden, muss man auf <foreign sameAs="ms">bataria</foreign>
+               <!-- Malaiisch? --> zurückgehen. Gegen die Ableitung von
+                        <foreign sameAs="ms">dêvatâ</foreign>
+               <!-- Malaiisch? --> habe ich, dass
+                    mir der Verlust des in der Aussprache so volltönenden Anfangsconsonanten nicht
+                    wahrscheinlich ist. Auch behalten alle übrigen von <persName ref="wmarsden">Marsden</persName> aufgeführten Veränderungen dieses Worts diesen
+                    Consonanten und grösstentheils die ganze erste Silbe bei: Nun sagen zwar Ew.
+                    Wohlgeboren, dass <persName ref="tforrest">Forrest</persName> das Wort <foreign sameAs="">dwat</foreign>
+               <!-- Sprache? Maguindanao (mdh)? --> schreibt.
+                    Diese Stelle muss ich aber gänzlich übersehen haben und kann sie auch jetzt
+                    nicht finden. Wenn Sie sich die Stelle angemerkt hätten, so bitte ich Sie
+                    inständigst, mir das Citat mitzutheilen. In dem papua Wortverzeichniss (<bibl sameAs="720">Reise nach Neu-Guinea</bibl>. Anh. S. 12) steht deutlich bloss
+                        <foreign sameAs="">wat</foreign>
+               <!-- Sprache? Maguindanao (mdh)?-->.
+                    Schreibt <persName ref="tforrest">Forrest</persName> das Wort auch mit einem
+                    Anfangs d, so fällt aller Zweifel von selbst hinweg. <persName ref="tforrest">Forrest</persName> Wortverzeichniss möchte auch ich nicht eben verbürgen.
+                    Allein <foreign sameAs="">sytan</foreign>
+               <!-- Sprache? Mohammedanisch / Mahomedanisch ?--> würde mir
+                    keinen Verdacht erregen. Dies sichtbar Mahomedanische Wort ist zuerst ins
+                    Malayische eingedrungen und dadurch auf die Inseln gekommen. Ich habe es auch
+                    auf andren gefunden. </p>
+            <p>Von <foreign sameAs="paa">papua</foreign>
+               <!-- Papua-Sprache? --> genügt es mir
+                    jetzt schon zu erfahren, dass es in Ew. Wohlgeboren Sprachverzeichnissen nicht
+                    vorkommt. Reduplicirt ist das Wort gewiss und bezieht sich unstreitig auf die
+                    buschige Art die Haare zu tragen. Von Haar allein möchte ich es weniger gern
+                    ableiten. Die Hauptsache wäre nur zu wissen, ob sich der Stamm selbst so
+                    genannt, oder den Nahmen aus der Fremde empfangen hat. Die Nachricht bei
+                        <persName ref="apigafetta">Pigafetta</persName> ist gewiss sehr
+                    beachtungswerth. Ich glaube aber ältere Zeugnisse von dem allgemeinen Gebrauch
+                    des Nahmens gefunden zu haben. </p>
+            <closer>
+               <salute>Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten
+                        Hochachtung.</salute>
+               <lb/>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Tegel,
+                        den 14. Dezember 1832.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Rector Dr. Meinicke </addrLine>
+                  <addrLine>Wohlgeboren in <placeName ref="Prenzlau">Prenzlau</placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

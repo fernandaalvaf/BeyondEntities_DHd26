@@ -1,0 +1,188 @@
+{
+  "entities": {
+    "E1": {
+      "label": "Humboldt",
+      "typ": "Person"
+    },
+    "E2": {
+      "label": "Beer",
+      "typ": "Person"
+    },
+    "E3": {
+      "label": "Mendelssohn",
+      "typ": "Person"
+    },
+    "E4": {
+      "label": "Morgenstunden",
+      "typ": "Werk"
+    },
+    "E5": {
+      "label": "Intellektueller_Austausch",
+      "typ": "Konzept"
+    },
+    "E6": {
+      "label": "Möglichkeit",
+      "typ": "Konzept"
+    },
+    "E7": {
+      "label": "Wirklichkeit",
+      "typ": "Konzept"
+    },
+    "E8": {
+      "label": "Denkendes_Wesen",
+      "typ": "Konzept"
+    },
+    "E9": {
+      "label": "Widerspruchsfreiheit",
+      "typ": "Konzept"
+    },
+    "E10": {
+      "label": "Zweifel",
+      "typ": "Konzept"
+    },
+    "E11": {
+      "label": "Positives_Prädikat",
+      "typ": "Konzept"
+    },
+    "E12": {
+      "label": "Negatives_Prädikat",
+      "typ": "Konzept"
+    }
+  },
+  "praedikate": {
+    "P1": {
+      "label": "rahmt",
+      "normalisiert_von": [
+        "bestimmt den Kontext",
+        "umfasst"
+      ]
+    },
+    "P2": {
+      "label": "bezieht_sich_auf",
+      "normalisiert_von": [
+        "diskutiert",
+        "referenziert"
+      ]
+    },
+    "P3": {
+      "label": "postuliert",
+      "normalisiert_von": [
+        "behauptet",
+        "stellt auf"
+      ]
+    },
+    "P4": {
+      "label": "interpretiert_als",
+      "normalisiert_von": [
+        "deutet als",
+        "versteht unter"
+      ]
+    },
+    "P5": {
+      "label": "hinterfragt",
+      "normalisiert_von": [
+        "zweifelt an",
+        "kritisiert"
+      ]
+    },
+    "P6": {
+      "label": "erfordert",
+      "normalisiert_von": [
+        "benötigt",
+        "setzt voraus"
+      ]
+    },
+    "P7": {
+      "label": "ist_unabhängig_von",
+      "normalisiert_von": [
+        "bedarf nicht",
+        "existiert ohne"
+      ]
+    },
+    "P8": {
+      "label": "charakterisiert",
+      "normalisiert_von": [
+        "beschreibt den Zustand",
+        "prägt"
+      ]
+    },
+    "P9": {
+      "label": "ist_Subkonzept_von",
+      "normalisiert_von": [
+        "gehört zu",
+        "ist Teil von"
+      ]
+    }
+  },
+  "triples": [
+    {
+      "subjekt": "E5",
+      "praedikat": "P1",
+      "objekt": "E1"
+    },
+    {
+      "subjekt": "E5",
+      "praedikat": "P2",
+      "objekt": "E4"
+    },
+    {
+      "subjekt": "E3",
+      "praedikat": "P3",
+      "objekt": "E11"
+    },
+    {
+      "subjekt": "E11",
+      "praedikat": "P6",
+      "objekt": "E8"
+    },
+    {
+      "subjekt": "E1",
+      "praedikat": "P5",
+      "objekt": "E3"
+    },
+    {
+      "subjekt": "E1",
+      "praedikat": "P4",
+      "objekt": "E12"
+    },
+    {
+      "subjekt": "E12",
+      "praedikat": "P4",
+      "objekt": "E9"
+    },
+    {
+      "subjekt": "E9",
+      "praedikat": "P7",
+      "objekt": "E8"
+    },
+    {
+      "subjekt": "E1",
+      "praedikat": "P3",
+      "objekt": "E7"
+    },
+    {
+      "subjekt": "E7",
+      "praedikat": "P7",
+      "objekt": "E8"
+    },
+    {
+      "subjekt": "E10",
+      "praedikat": "P8",
+      "objekt": "E1"
+    }
+  ],
+  "parameter": {
+    "granularitaet": 3,
+    "anzahl_triples": 11
+  },
+  "plantuml": "@startuml\n\nskinparam defaultTextAlignment center\nskinparam objectBorderColor #333333\nskinparam objectBackgroundColor #FEFECE\nskinparam arrowColor #333333\n\nobject \"Humboldt\" as E1 #ADD8E6\nobject \"Beer\" as E2 #ADD8E6\nobject \"Mendelssohn\" as E3 #ADD8E6\nobject \"Morgenstunden\" as E4 #FFB6C1\nobject \"Intellektueller_Austausch\" as E5 #E6E6FA\nobject \"Möglichkeit\" as E6 #E6E6FA\nobject \"Wirklichkeit\" as E7 #E6E6FA\nobject \"Denkendes_Wesen\" as E8 #E6E6FA\nobject \"Widerspruchsfreiheit\" as E9 #E6E6FA\nobject \"Zweifel\" as E10 #E6E6FA\nobject \"Positives_Prädikat\" as E11 #E6E6FA\nobject \"Negatives_Prädikat\" as E12 #E6E6FA\n\nE5 --> E1 : \"rahmt\"\nE5 --> E4 : \"bezieht_sich_auf\"\nE3 --> E11 : \"postuliert\"\nE11 --> E8 : \"erfordert\"\nE1 --> E3 : \"hinterfragt\"\nE1 --> E12 : \"interpretiert_als\"\nE12 --> E9 : \"interpretiert_als\"\nE9 --> E8 : \"ist_unabhängig_von\"\nE1 --> E7 : \"postuliert\"\nE7 --> E8 : \"ist_unabhängig_von\"\nE10 --> E1 : \"charakterisiert\"\n\n@enduml",
+  "quelle": {
+    "datei": "1787-09-30_WvH-BeerEphraim_621",
+    "verarbeitet": "2026-02-04T15:18:00.738618",
+    "ausfuehrungszeit_sekunden": 51.4,
+    "modell": "gemini-3-pro-preview",
+    "api_provider": "gemini",
+    "zeichenanzahl": 13105,
+    "original_text": "TITEL: Wilhelm von Humboldt an Ephraim Beer, vor 01.10.\nABSENDER: Humboldt, Wilhelm von\nORT: Berlin\nDATUM: 1787-09-30\nEMPFÄNGER: Beer, Ephraim\n\nBRIEFTEXT:\nBei Tage, sehe ich wohl, liebster Freund, find’ ich kein Stündchen Muße Ihnen zu antworten; eine Arbeit, eine Beschäftigung folgt immer der andern.\nEs sei Ihnen also immerhin ein Theil der Nacht gewidmet.\nGern möchte ich Ihnen das recht hoch anrechnen, gern es als eine recht große Aufopferung in Ihren Augen gelten lassen; aber umsonst.\nIch empfinde zu sehr, daß diese Paar Stunden, die ich jetzt dem Schlaf entziehe, mir mehr Vergnügen gewähren werden, als ich alle die langen Tage der vorigen Woche hindurch genossen habe.\nUntersuchungen von der Art, als Ihr Aufsaz enthält, haben schon an sich selbst soviel Reiz; und sie mit Ihnen gemeinschaftlich anzustellen, dieß ist ein Vergnügen, dem in meinen Augen nur sehr wenig andre gleich kommen.\nWie gut mir Ihr Aufsaz im Ganzen gefallen hat, was ich überhaupt genommen davon denke, das erfahren Sie nicht.\nAuch die strengste Wahrheit wird so leicht für Schmeichelei gehalten, und am leichtesten von den besten Menschen.\nDarum hievon kein Wort; nur noch meinen herzlichen Dank für das Vergnügen, das Sie mir verschafft haben, und die eben so herzliche Bitte, mir doch recht oft, so oft Sie können, ein Ähnliches zu verschaffen.\nIch glaube mit Ihnen, mein Bester, daß jede Möglichkeit von dem Wesen, in dessen Wirklichkeit sie gegründet ist, gedacht werden muß.\nWie kann ich meine Hand aufheben, ohne daß die Möglichkeit dieses Handaufhebens, wie gehen, ohne daß die Möglichkeit dieses Gehens von meiner Seele vorher gedacht wird.\nIch glaube daher auch, daß Ihr Beweis nicht bloß sehr scharfsinnig – denn diese Eigenschaft spricht ihm gewiß niemand ab – sondern daß, was noch mehr ist, Scharfsinn bei weitem nicht sein einziges Verdienst ist, daß sich seine Richtigkeit auf eine völlig befriedigende Art zeigen läßt.\nZwar sehe ich wohl einige Einwürfe, die man ihm machen könnte, aber ich glaube auch im Stande zu sein, diese Einwürfe zu widerlegen.\nWie ist es denn, könnte man einwenden, mit den unwillkürlichen, uns oft unbemerkbaren Veränderungen, die jeglichen Augenblick in unsrem Körper vorgehn?\nWie kann ihre Möglichkeit schon vorher von der Seele gedacht werden, wenn ihre Wirklichkeit selbst nicht einmal von ihr empfunden wird?\nAllein hier ist der Ausweg leicht.\nMan muß das Wort: denken, wie Sie und Mendelssohn es hier brauchen, nicht in jenem strengen, logischen Sinne nehmen, wo man bloß deutliche Vorstellungen damit bezeichnet.\nHier soll es, dünkt mich, nur soviel als vorstellen überhaupt heißen.\nOb die Vorstellung dunkel sei, oder klar, oder deutlich, gilt hier gleich viel.\nNun aber ist es ein in der neueren Seelenlehre nicht mehr unbekannter Saz, daß sich unsre Seele immerfort den ganzen Zustand ihres Körpers vorstellt, daß aber diese Vorstellungen s nur selten zum Bewußtsein gelangen.\nAlso kann sich ja die Seele auch die Möglichkeit jener unwillkürlichen Bewegungen vorher vorstellen, und doch diese Veränderungen selbst in der Folge vielleicht nicht bemerken?\nEinen stärkeren Einwurf könnte man von den Veränderungen hernehmen, die in den leblosen Körpern vorgehn.\nDiesen pflegt man gewöhnlich keine Vorstellungskräfte zuzuschreiben.\nWer denkt also bei ihnen die Möglichkeit der Veränderungen?\nAllein auch hiegegen, sehen Sie leicht, könnte man sich mit Hülfe des Idealism oder der Monadenlehre vertheidigen.\nSo, glaube ich daher, ist Ihr Beweis gegen alle Angriffe gesichert.\nDennoch aber, gesteh’ ich Ihnen, bleiben mir noch Zweifel übrig, die ich auf keine Weise zu lösen vermag.\nEs scheint mir noch immer, als wäre der Mendelssohnsche Saz doch nicht ganz richtig, als könnte es doch noch Möglichkeiten geben, vielmehr aber noch Wirklichkeiten, die auch von keinem Wesen gedacht würden.\nIch will Ihnen, wenn Sie erlauben, meine Gedanken nach der Reihe vorlegen.\nIhr Urtheil darüber soll mir sagen; ob ich sie für wahr, oder für falsch halten darf.\nDenn noch bin ich völlig zweifelhaft.\nSo richtig mir auch, wie ich schon oben gesagt habe, Ihr Beweis dünkt, so ist es mir doch – verzeihen Sie mir, liebster Freund, vielleicht habe ich Sie nur nicht recht verstanden – aber es ist mir, sag’ ich, als wenn er doch nicht allgemein genug wäre, als wenn er den Mendelssohnschen Saz nicht in seiner ganzen Ausdehnung bewiese.\nEr erstreckt sich, soviel ich sehe, nur auf die Möglichkeit der Veränderungen, die mit schon vorhandenen wirklichen Wesen vorgehn.\nNur auf diese, dünkt mich, paßt der Schluß: ihre Möglichkeit muß doch wenigstens von dem Wesen gedacht werden, in dem sie liegt.\nDieß aber ist nur eine einzelne Gattung der Möglichkeiten.\nEs giebt noch eine unendliche Menge andrer.\nIch kann mir z.\nB.\nvöllig eigne, für sich bestehende, und doch bloß mögliche Wesen denken.\nUnd wenn ich nun dieß thue, wird Ihr Beweis dann auch für diesen Fall noch gelten?\nUnd wenn er gilt, wie werd’ ich ihn führen müssen?\nWo werd’ ich das Wesen finden, in dessen Wirklichkeit diese Möglichkeiten gegründet sein, von dem sie vorher gedacht werden müssen?\nEin Beispiel wird mich verständlicher machen.\nEin geflügeltes Pferd ist eine Möglichkeit.\nDenn ich sehe weder einen inneren, noch einen äußeren Widerspruch, der mich hinderte, die Ideen Pferd und Flügel mit einander zu verbinden.\nMuß nun aber auch diese Möglichkeit gedacht werden?\nUnd wenn sie es muß, läßt sich diese Nothwendigkeit auf die obige Art darthun.\nIch sehe hier nicht das Wesen, in welchem die Möglichkeit des geflügelten Pferdes liegen, und von dem sie folglich gedacht werden müßte.\n– – –.\nAber, hör’ ich Sie sagen, sollte auch die obige Beweisart nicht für diesen Fall gelten; so finden Sie ja den Beweis, den Sie suchen, im Mendelssohn selbst.\nFreilich wohl, mein Bester, allein so ungern ich mich von diesem wahrhaftig großen Weltweisen entferne, so sehr ich meine Uebereinstimmung mit seinen Meinungen für den richtigen Maßstab meiner eigenen Fortschritte in der Philosophie halte; so habe ich mich dennoch nie von der Richtigkeit der Säze überzeugen können, die er in den letzten Kapiteln seiner Morgenstunden vorträgt.\nSie sollen meine Gründe, oder besser meine Zweifel – denn Gründe darf ich es wohl nicht nennen – dagegen hö hören.\nSehen Sie zu, was Sie damit anfangen können.\nJede Wirklichkeit, sagt Mendelssohn, muß, als wirklich, gedacht werden.\nDenn jede Wirklichkeit kann gedacht werden.\nDieß Können ist nichts weiter, als eine Möglichkeit.\nNun aber muß jede Möglichkeit gedacht werden.\nFolglich u.s.w.\nGegen diese Schlußfolge, dünkt mich, läßt sich nichts einwenden, sobald nur der Saz richtig bewiesen ist, daß jede Möglichkeit gedacht werden muß.\nAber hier, glaub ich, liegt der Knoten: Mendelssohn führt seinen Beweis auf folgende Art.\nDie Möglichkeit, sagt er, kann kein objektives Prädikat sein.\nDenn sonst entstünde die Ungereimtheit, daß etwas zu gleicher Zeit bloß möglich, und doch auch wirklich wäre.\nSie ist also nur der Gedanke, daß irgend ein Ding bei veränderter Beschaffenheit, auch anders modifizirt sein könnte; folglich nur etwas Subjektives.\nHier, dünkt mich, liegt die Idee zum Grunde, daß die Möglichkeit ein positives Prädikat ist.\nNehme ich dieß an; so ist der Beweis völlig richtig.\nDenn alsdann muß dieß positive Prädikat entweder etwas Objektives sein, oder etwas Subjektives.\nDas erstere ist unmöglich; folglich ist es das letztere.\nMir aber scheint, gerade umgekehrt die Möglichkeit kein positives Prädikat zu sein, sondern ein negatives.\nDenn was heißt es anders: ein Ding ist möglich, als: es enthält keinen Widerspruch.\nDie Möglichkeit an sich ist also etwas negatives, wenn gleich der Gedanke der Möglichkeit eines Dinges, als Modifikation eines denkenden Wesens, etwas positives ist.\nFolge ich nun dieser Idee, so heißt die Frage: Giebt es eine Möglichkeit, die von keinem Wesen gedacht wird?\nnicht mehr als: Liegt in irgend einer Sache kein Widerspruch, und wird das, daß kein Widerspruch darin liegt, doch von keinem Wesen gedacht?\nUnd diese Frage kann, glaub’ ich, mit Recht bejaht werden.\nDenn, da ich einmal annehme, daß Möglichkeit nichts Positives, sondern etwas ganz negatives ist; so kann ich auf keine Weise in die Absurdität verfallen, die Möglichkeit zu einem wirklichen Prädikate zu machen; und hierin bestand doch die ganze Stärke des Mendelssohnschen Beweises.\nWenn ich also z.\nB.\ndie Möglichkeit nehme, daß ein sizender Mensch aufsteht; so ist diese Möglichkeit nichts positives, sondern besteht nur darin, daß die Organisation seines Körpers der Bewegung des Aufstehens nicht widerspricht.\nFragt man sich nun, ob es nothwendig sei, daß irgend ein Wesen sich das denke, daß hierin kein Widerspruch liegt?\nso antworte ich: nein, und fürchte nicht in die Absurdität zu verfallen, die Möglichkeit zu einem wirklichen Prädikate zu machen, da ich mich schon erklärt habe, daß diese Möglichkeit ganz und gar nicht einmal etwas positives ist.\nFragt man mich aber weiter: was ist sie denn nun aber eigentlich?\netwas Objektives?\noder etwas Subjektives?\nso antworte ich: die Möglichkeit an sich selbst kann weder eins noch das andre sein, denn an sich selbst ist sie ja ganz und gar nichts Positives.\nInsofern sie aber von einem denkenden Wesen vorgestellt wird, ist sie etwas Subjektives.\nJedoch dieß, daß sie vorgestellt werde, ist nicht absolut nothwendig.\nMich dünkt, unsre Einbildungskraft, und die Begierde, uns alles, auch das Abstrakteste zu versinnlichen, schadet uns hier am meisten.\nWir wollen uns die Möglichkeit unter irgend einem Bilde, auf irgend eine Art sinnlich vorstellen.\nNun aber können wir uns das Nichts, die bloß negative Idee: Hier liegt kein Widerspruch, ohnmöglich sinnlich vorstellen.\nWir denken uns also die Möglichkeit als etwas Positives, und nun gerathen wir in Verlegenheit, wohin wir sie setzen sollen?\nwenn sie weder etwas Objektives sein kann, noch auch von irgend einem Wesen gedacht werden, und also auch nichts Subjektives sein soll.\nUnd da wir uns hier nicht zu helfen wissen; so nehmen wir lieber an, daß eine von keinem Wesen gedachte Möglichkeit keine Möglichkeit ist.\nDarum verschwindet schon zum Theil die Schwierigkeit dieser Untersuchung, wenn man nur die Frage etwas anders faßt.\nFrage ich: Giebt es eine Möglichkeit u.s.w., so verführt mich das schon zu sehr, die Möglichkeit für etwas Positives anzusehn.\nFrage ich hingegen: Kann es wohl zwei Ideen geben, die noch von keinem denkenden Wesen mit einander verbunden worden sind?\nso dünkt mich, wird sich niemand weigern, dieß zu bejahen, und thut man dies, so giebt es doch Möglichkeiten, die nicht gedacht werden.\nDenn die Verbindung zweier Ideen, die keinen Widerspruch enthalten, ist doch offenbar eine Möglichkeit.\nIst es aber nicht nothwendig, daß jede Möglichkeit gedacht werde, so braucht auch nicht jede Wirklichkeit gedacht zu werden.\nDenn dieses wurde nur durch jenes bewiesen.\nUnd das scheint mir nun auch noch offenbarer.\nWarum sollte nicht ein Wesen existieren können, ohne daß es von irgend jemand gedacht würde.\nWäre denn die Existenz dieses Wesens nicht Warheit, wenn gleich niemand diese Warheit dächte?\nMendelssohn sagt es freilich.\nAber ich sehe doch den Grund, die Nothwendigkeit davon nicht ein!\n– – – – Dieß ist es, was mir für jetzt über diese Stelle der Morgenstunden einfällt.\nGlauben Sie nicht, daß ich es niedergeschrieben habe, weil ich es für richtig hielte.\nEs sind nur Zweifel, und Zweifel, die mich zwar hindern, den Mendelssohnischen Saz anzunehmen, mir aber doch nicht hinreichend scheinen, ihn gänzlich zu läugnen.\nDas einzige, was mich tröstet, ist, daß, wie Sie Sich erinnern werden, der Hofrath mir auch schon einmal sagte: Mendelssohn hätte den Fehler begangen, die Möglichkeit für etwas positives anzusehn.\nAber die Anwendung, die er hievon machte, war doch, dünkt mich, anders.\nDer Zustand des Zweifels, sagt Cartes, ist ein unbehaglicher Zustand.\nIch befinde mich jetzt darin.\nHelfen Sie mir heraus, liebster Freund; Sie können es ja vielleicht.\nSollte ich selbst über kurz oder lang durch eignes Nachdenken, oder durch Unterredungen mit andern besser über diese Materie belehrt werden; so verspreche ich Ihnen, sollen Sie es erfahren; müßte ich gleich alles das wieder zurücknehmen, was ich hier gesagt habe.\nEs ist schon sehr spät, mein Bester.\nSie werden doch nicht böse, wenn ich die Beantwortung der übrigen Punkte Ihres Briefes mir für ein andermal vorbehalte?\nEs würde mir heute in der That zu viel werden.\nLeben Sie also nun wohl, liebster Freund, und verzeihen Sie, ich bitte Sie recht sehr darum, alles das Unbestimmte, Halbichte und Falsche, was auf diesem Blatte stehen mag.\nBitten Sie auch Ihre vortreffliche Freundin, dieß zu thun.\nSie will sich ja einmal durch alle meine Warnungen nicht abschrecken lassen, diese Zeilen zu lesen, und in der That, wenn sie eben so streng richtet, als sie gut richten kann; so zittre ich.\nBitten Sie ja für mich.\nUnd dann schreiben Sie mir recht bald wieder, lassen Sie aber ja wieder etwas von dem Briefe abschneiden, wenn Sie auch ein wenig böse werden sollten.\nIch will Sie gewiß wieder gut machen.\nNun leben Sie wohl, und bleiben Sie mein Freund.Ganzder Ihrige, Wilhelm."
+  }
+}

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- in Bearbeitung von CL, 23. Febr. 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 07.06.1831<idno type="BBAW">279</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 12 E, Mappe 7, Teil 5, ohne Blattzählung</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 149</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cbchallan">
+                  <persName>Challan, Claude Bernard</persName>
+               </person>
+               <person corresp="eflacourt">
+                  <persName>Flacourt, Étienne de</persName>
+               </person>
+               <person corresp="jjeffreys">
+                  <persName>Jeffreys, Rev. John</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="912">Challan, Claude Bernard: Vocabulaire Malgache (Ile de France
+                    [Mauritius]: L’Imprimerie Royale 1773)</bibl>
+               <bibl corresp="914">Flacourt, Étienne de: Dictionnaire de la langue de Madagascar avec
+                    un petit recueil de noms &amp; dictions propres des choses qui sont d’une mesme
+                    espèce. Plus quelques mot du langage des sauvages de la baye de Saldagne au Cap
+                    de Bonne Espérance. Un petit catéchisme &amp; des prières du matin &amp; du soir
+                    que les missionaires font &amp; enseignent aux néophytes &amp; catéchumènes de
+                    cette isle, le tout en françois &amp; en cette langue (Paris 1658)</bibl>
+               <bibl corresp="522">Jeffreys, John: Madagassisches Wörterbuch [Manuskript]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz habe ich die Ehre hier das madagascarische
+                        Wörterbuch, in das ich Ihrem Bestellen gemäss das Jeffreys’sche Manuskript
+                        eingetragen habe, zu überschicken …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1831-06-07"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcebuschmann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="mg">Madegassisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">23. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1831-06-07/Coll.ling.fol.12E_508.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1831-06-07/Coll.ling.fol.12E_509.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1831-06-07/Coll.ling.fol.12E_510.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1831-06-07/Coll.ling.fol.12E_511.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre hier das madagascarische Wörterbuch<note type="footnote" resp="editor">Zum madegassischen Wörterbuch, dessen Manuskript sich im
+                        Nachlass von <persName ref="jcebuschmann">Buschmann</persName> erhalten hat,
+                        siehe auch die Anmerkungen von Kurt Mueller-Vollmer (1993): <hi rend="italic">Wilhelm von Humboldts Sprachwissenschaft</hi>, Paderborn:
+                        F. Schöningh, S. 25. [FZ]</note>, in das ich Ihren Befehlen gemäß das <hi rend="antiqua">
+                  <persName ref="jjeffreys">Jeffreys</persName>
+               </hi>’sche <bibl sameAs="522">Manuscript</bibl>
+               <!-- vmtl. Jeffreys Wörterbuch gemeint!? --> eingetragen
+                    habe, zu überschicken; das Manuscript habe ich Ew. Excellenz Anweisung nach noch
+                    zurückbehalten.</p>
+            <p>Ew. Excellenz befahlen mir, wenn ich Ihnen irgend etwas auf die Arbeit
+                    bezügliches mitzutheilen hätte, Ihnen zu schreiben; ich fand aber so etwas nicht
+                    vor, und hielt es daher für besser, die Arbeit nicht zu unterbrechen; sie
+                    kostete nicht viel Zeit, und ich habe Ew. Excellenz nur 6 unsrer Arbeitstage
+                    dafür berechnet, bitte hochdieselben sehr um Verzeihung einer Zögerung. Ich habe
+                        <hi rend="antiqua">
+                  <persName ref="jjeffreys">Jeffreys</persName>
+               </hi>’ <hi rend="antiqua">
+                  <hi rend="underline">k</hi>
+               </hi> mit <hi rend="antiqua">c</hi>, vor <hi rend="antiqua">e</hi> und <hi rend="antiqua">i</hi> mit <hi rend="antiqua">qu</hi> geschrieben, wie <hi rend="antiqua">
+                  <bibl sameAs="912">Challan</bibl>
+               </hi> und <bibl sameAs="914">
+                  <hi rend="antiqua">Fla</hi>-</bibl>
+               <pb n="2"/>
+               <hi rend="antiqua">
+                  <bibl sameAs="914">court</bibl>
+               </hi> gethan, und wenn Ew. Excellenz auch beym
+                    lesen dieses es mißbilligen sollten, so werden Sie ohne Zweifel bey Ansicht des
+                    Wörterbuchs sich überzeugen, daß es nöthig war. Das <hi rend="antiqua">y</hi> am
+                    Ende der Wörter habe ich auch <hi rend="underline">
+                  <hi rend="antiqua">i</hi>
+               </hi> geschrieben, da es bloß englische Manier ist. Die Seiten 59 und
+                    60. habe ich neu abgeschrieben, da sie zu bunt geworden waren.</p>
+            <p>In dem Verzeichniß der grammatischen Formen ist in <hi rend="antiqua">
+                  <foreign sameAs="mg">afatáraoi</foreign>
+               </hi> mir das <hi rend="antiqua">oi</hi> nicht gewiß, in <hi rend="antiqua">
+                  <foreign sameAs="mg">ancourintsánou</foreign>
+               </hi> das <hi rend="antiqua">to rig</hi> nicht, in <hi rend="antiqua">
+                  <foreign sameAs="mg">asaovi</foreign>
+               </hi> das <hi rend="antiqua">o</hi>
+                    nicht; in <hi rend="antiqua">
+                  <foreign sameAs="mg">éntou</foreign>
+               </hi> verstehe ich das beygefügte
+                    englisch nicht. – Von den in das Wörterbuch aufgenommenen Wörtern verstehe ich
+                    bey <hi rend="antiqua">
+                  <foreign sameAs="mg">ana</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="en">there. about</foreign>
+               </hi> den Punct nicht, bey <hi rend="antiqua">
+                  <foreign sameAs="mg">eni</foreign>
+               </hi> ist mir das <hi rend="antiqua">n</hi> nicht deutlich, bey <hi rend="antiqua">
+                  <foreign sameAs="mg">erina</foreign>
+               </hi> weiß ich nicht, ob mein englisch
+                    recht ist; <hi rend="antiqua">
+                  <foreign sameAs="mg">fana</foreign>
+               </hi>, <hi rend="antiqua">gidy</hi>,
+                    soll wahrscheinlich <hi rend="antiqua">
+                  <foreign sameAs="en">giddy</foreign>
+               </hi> seyn. – In der frühern Arbeit
+                    ist mir das Wort <hi rend="antiqua">
+                  <foreign sameAs="mg">manatti</foreign>
+               </hi> aufgefallen, welches nach <hi rend="antiqua">
+                  <foreign sameAs="mg">manacalou</foreign>
+               </hi> steht; ich glaube daß ich da
+                    irgend einen Fehler gemacht habe.</p>
+            <p>
+               <pb n="3"/> Wegen Undeutlichkeit des englischen habe ich folgende Wörter des
+                    Manuscripts nicht aufgenommen: <hi rend="antiqua">
+                  <foreign sameAs="mg">bangou</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">halana</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">mandou</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">manjoula</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">mitouni</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">tsilou</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">vacana</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">velouna</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="mg">vouhahanga</foreign>
+               </hi>.</p>
+            <closer>
+               <salute>Genehmigen Ew. Excellenz schließlich die Gefühle tiefster Ehrfurcht und
+                        Ergebenheit, unter denen ich verharre</salute>
+               <lb/>
+               <salute>Ew. Excellenz</salute>
+               <lb/>
+               <salute>unterthänigster Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">E. Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 7 Juny 1831.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

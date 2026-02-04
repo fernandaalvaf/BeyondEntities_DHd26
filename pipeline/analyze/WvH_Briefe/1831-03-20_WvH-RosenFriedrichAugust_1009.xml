@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich August Rosen, 20.03.1831<idno type="BBAW">1009</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv,
+                            62.192</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8344</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tcockburn">
+                  <persName>Cockburn, Thomas</persName>
+               </person>
+               <person corresp="jjeffreys">
+                  <persName>Jeffreys, Rev. John</persName>
+               </person>
+               <person corresp="ajohnston">
+                  <persName>Johnston, Sir Alexander</persName>
+               </person>
+               <person corresp="jlow">
+                  <persName>Low, James</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="445">Veda</bibl>
+               <bibl corresp="270">Low, James: A grammar of the Thai, or, Siamese Language (London
+                    1828)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich habe nur Ihren Brief, theuerster Freund,
+                        abgewartet, um Ihnen für Ihre reichen und erfreulichen Sendungen aufs
+                        herzlichste zu dancken. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-03-20"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift; Korrekturen und Unterschrift von
+                    Humboldt</handNote>
+         </handNotes>
+         <langUsage n="ind paz">
+            <language ident="fr">Französisch</language>
+            <language ident="mg">Malagasy</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="th">Thai (Siamesisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich habe nur Ihren Brief, theuerster Freund, abgewartet, um Ihnen
+                    für Ihre reichen und erfreulichen Sendungen aufs herzlichste zu dancken. Sie
+                    haben mich mit sehr wichtigen Sachen beschenckt, und mein<add>
+                  <handShift scribe="wvh"/>en</add>
+               <handShift scribe="Schreiber"/> Studien dadurch
+                    eine große Förderung verschafft. Seit gestern bin ich nunmehr in Besitz Ihres
+                    freundschaftlichen Schreibens vom <date when="1831-03-02">2<hi rend="superscript">te</hi> <hi rend="antiqua">huj.</hi>
+               </date> Mit
+                    dem größesten Vergnügen sehe ich daraus, daß Sie wohl und wie immer emsig und
+                    nützlich beschäftigt sind. Mit <hi rend="antiqua">
+                  <persName ref="jlow">Low</persName>s</hi> <bibl sameAs="270">Grammatik</bibl> haben Sie
+                    mir ein sehr angenehmes Geschenck gemacht, und ich bitte Sie Herrn <persName ref="tcockburn">
+                  <hi rend="antiqua">Cockburn</hi>
+               </persName> meinen
+                    lebhaftesten Danck dafür zu sagen. Diese Sprachen sind von der größesten
+                    Wichtigkeit. Das von Ihnen vortrefflich gemachte <hi rend="antiqua">fac-simile</hi> hat mir zur größesten Freude gedient, da ich mich daraus
+                    überzeugt habe, daß ich die ganze Handschrift mit Leichtigkeit würde lesen,
+                    nicht aber ebenso auch verstehen können. <pb n="2*"/> Mit dem, was ich von der
+                    Frau <persName ref="metcalfe">
+                  <hi rend="antiqua">Metcalfe</hi>
+               </persName>
+                    wünschte, haben Sie mich, liebster Freund, entweder mißverstanden, oder ich habe
+                    mich verschrieben. Sie reden in Ihrem Briefe von einem Wörterbuche. Dies war
+                    aber gerade das, was ich nicht von ihr verlangte. Sie hat von <persName ref="jjeffreys">ihrem verstorbenen Mann</persName> her eine <hi rend="underline">Grammatik</hi> der Sprache von <hi rend="antiqua">Madagascar</hi>. Von dieser Grammatik, welche unmöglich lang sein kann,
+                    wünschte ich eine Abschrift, und an dieser ist mir wirklich recht sehr gelegen.
+                    Ich schrieb dies, wie ich aus meinem Concept sehe, <persName ref="ajohnston">
+                  <hi rend="antiqua">Sir Alexander Johnston</hi>
+               </persName> bestimmt und
+                    deutlich, und wenn Sie mir dies verschaffen können, wird es mir sehr angenehm
+                    sein. An weiteren Auszügen des großen, und wie es scheint vortrefflichen
+                    Wörterbuches ist mir nicht gelegen. Was Sie mir davon mitgetheilt haben, reicht
+                    mir vollkommen hin. Könnten Sie aber, ohne zu große Weitläuftigkeit einzelne
+                    Artikel nachschlagen, und abschreiben, so wünschte ich sehr folgende zu haben
+                        <foreign sameAs="mg">
+                  <hi rend="antiqua">no</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">ho mangue</hi>
+               </foreign> (viel <pb n="3*"/>
+               <sic>vielleicht</sic> auch <foreign sameAs="mg">
+                  <hi rend="antiqua">manghe</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">manhe</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">magne</hi>
+               </foreign> geschrieben) <foreign sameAs="mg">
+                  <hi rend="antiqua">toumangue</hi>
+               </foreign> (oder <foreign sameAs="mg">
+                  <hi rend="antiqua">toumanghe</hi>
+               </foreign>) <foreign sameAs="mg">
+                  <hi rend="antiqua">tangue</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">toumouhere</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">touhere fitouhere</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">toumoutte</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">houman</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">homehe</hi>
+               </foreign> (oder <foreign sameAs="mg">
+                  <hi rend="antiqua">houmehe</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">homehy</hi>
+               </foreign>) <foreign sameAs="mg">
+                  <hi rend="antiqua">hehe</hi>
+               </foreign>, <foreign sameAs="mg">
+                  <hi rend="antiqua">oumale</hi>
+               </foreign>. Wenn Sie einige dieser Wörter
+                    nicht finden sollten, so fänden Sie dieselben vielleicht mit einem
+                    vorschlagenden <foreign sameAs="mg">
+                  <hi rend="antiqua">mi</hi>
+               </foreign>. Wenn
+                    ich in den obigen Wörtern <foreign sameAs="mg">
+                  <hi rend="antiqua">oum</hi>
+               </foreign> schreibe so hat vielleicht das dortige Wörterbuch statt
+                    dessen, <foreign sameAs="mg">
+                  <hi rend="antiqua">um</hi>
+               </foreign> oder
+                        <foreign sameAs="mg">
+                  <hi rend="antiqua">om</hi>
+               </foreign>. Im
+                    Französischen Theil wünschte ich die Artikel <foreign sameAs="fr">
+                  <hi rend="antiqua">être</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="antiqua">devenir</hi>
+               </foreign> und die Wörter der drei
+                    persönlichen Pronomina. Sie müßten aber dann die Güte haben, mir auch wieder aus
+                    dem andern Theil des Wörterbuches die Artikel der unter den Französischen
+                    aufgeführten einheimischen Wörter mitzutheilen. So weit meine heutigen Bitten,
+                    deren Belästigung Sie mir schon zu Gute halten müssen. Es thut mir sehr leid daß
+                    Ihre <bibl sameAs="445">
+                  <hi rend="antiqua">Veda</hi>
+               </bibl> Studien bei Ihren
+                    übrigen Beschäftigungen nur langsam fortschreiten. Es wäre sehr zu wünschen, daß
+                    Sie sich denselben ganz widmen könnten.</p>
+            <closer>
+               <salute>Erhalten Sie mir theuerster Freund Ihr wohlwollendes Andenken und
+                            <pb n="4*"/> nehmen Sie die erneuerte Versicherung meiner herzlichsten
+                        und hochachtungsvollen Freundschaft an. </salute>
+               <signed>
+                  <handShift scribe="wvh"/> Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 20<hi rend="superscript">t</hi> <hi rend="antiqua">Maerz</hi>
+                        1831.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

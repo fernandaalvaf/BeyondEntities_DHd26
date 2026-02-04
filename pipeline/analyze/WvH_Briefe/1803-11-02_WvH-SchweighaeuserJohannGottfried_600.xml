@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Gottfried Schweighäuser, 02.11.1803<idno type="BBAW">600</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Nancy, BM, Ms. 839, t. 4, G. de
+                            Humboldt, fol. 58</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1934, S. 25–27 Nr. 15</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 955</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="kbhase">
+                  <persName>Hase, Karl Benedikt</persName>
+               </person>
+               <person corresp="thumboldt">
+                  <persName>Humboldt, Theodor von</persName>
+               </person>
+               <person corresp="wvh2">
+                  <persName>Humboldt, Wilhelm von (Sohn von Wilhelm u. Caroline)</persName>
+               </person>
+               <person corresp="gstcroix">
+                  <persName>Sainte-Croix, Guillaume-Emmanuel-Joseph de Guilhem de
+                            Clermont-Lodève de</persName>
+               </person>
+               <person corresp="jschweighaeuser">
+                  <persName>Schweighäuser, Johannes</persName>
+               </person>
+               <person corresp="fclsickler">
+                  <persName>Sickler, Friedrich Carl Ludwig</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="35">Astarloa y Aguirre, Pablo Pedro de (1803): Apologia de la
+                        lengua Bascongada ò ensayo critico filosofico de su perfeccion y antiguedad,
+                        Madrid: Ortega</bibl>
+               <bibl corresp="746">Humboldt, Wilhelm von (1812): Ankündigung einer Schrift über
+                        die Vaskische Sprache und Nation, nebst Angabe des Gesichtspunctes und
+                        Inhalts derselben. In: Königsberger Archiv für Philosophie, Theologie,
+                        Sprachkunde und Geschichte 1, 3. Stück (Beilage), S. 1–7</bibl>
+               <bibl corresp="209">Humboldt, Wilhelm von (1822): Über das vergleichende
+                        Sprachstudium in Beziehung auf die verschiedenen Epochen der
+                        Sprachentwicklung. Vorgelesen den 29. Junius 1820. In: Abhandlungen der
+                        königlich preußischen Akademie der Wissenschaften aus den Jahren 1820–1821,
+                        Historisch-philologische Klasse, S. 239–260. – Vgl. GS IV, S. 1–34</bibl>
+               <bibl corresp="1192">Humboldt, Wilhelm von (1920): Die Vasken, oder Bemerkungen
+                        auf einer Reise durch Biscaya und das französische Basquenland im Frühling
+                        des Jahres 1801, nebst Untersuchungen über die Vaskische Sprache und Nation,
+                        und einer kurzen Darstellung ihrer Grammatik und ihres Wörtervorraths. In:
+                        GS XIII, S. 3–196</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen herzlich, mein theurer Freund, für Ihren gütigen
+                    Brief vom 1. pr., Ihre fortdauernde freundschaftliche Güte, und Ihre Theilnahme
+                    an unserm nur zu unersetzlichen Verlust. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1803-11-02"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgschweighaeuser">Schweighäuser, Johann Gottfried</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="">01.10.1803</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="ett">Etruskisch</language>
+            <language ident="mt">Maltesisch</language>
+            <language ident="osc">Oskisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">23. Januar 2019</item>
+            <item n="status"/>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="58r"/>
+               <dateline>
+                  <hi rend="antiqua">Rom</hi>, den 2. <hi rend="antiqua">November</hi>,
+                        1803.</dateline>
+            </opener>
+            <p>Ich danke Ihnen herzlich, mein theurer Freund, für Ihren gütigen Brief vom <date when="1803-10-01">1. pr.</date> Ihre fortdauernde freundschaftliche Güte, u.
+                    Ihre Theilnahme an unserm nur zu unersetzlichen Verlust.<note type="footnote" resp="editor">Der plötzliche Tod des ältesten Sohnes, <persName ref="wvh2">Wilhelm</persName>, am 15. August 1803.</note> Es geht jetzt alles
+                    recht leidlich bei uns; <persName ref="thumboldt">
+                  <hi rend="antiqua">Theodor</hi>
+               </persName> ist vollkommen hergestellt, u.
+                    wir übrigen sind wohl u. munter.</p>
+            <p>Für Ihr Anerbieten wegen H. <persName ref="kbhase">
+                  <hi rend="antiqua">Hase</hi>
+               </persName> u. <persName ref="fclsickler">
+                  <hi rend="antiqua">Sickler</hi>
+               </persName> bin ich Ihnen herzlich verbunden.
+                    Wir müssen uns aber gegenseitig misverstanden haben. Ich habe beide, wie Sie mir
+                    schreiben, mit einander verwechselt, u. auf der andren Seite glaubte ich Ihnen
+                    bestimmt gesagt zu haben, daß ich jetzt leider keinen von beiden zu meinem
+                    ehemaligen Zweck brauchen könnte. Da Sie aber doch eine fernere Antwort von mir
+                    erwarten, so muß etwas Unentschiednes in meiner Antwort gelegen haben. Sie
+                    wissen, daß mir jetzt nur <persName ref="thumboldt">
+                  <hi rend="antiqua">Theodor</hi>
+               </persName> übrigbleibt; für ihn aber bedarf
+                    es eines andren Subjects als für <persName ref="wvh2">
+                  <hi rend="antiqua">Wilhelm</hi>
+               </persName> u. beide der Fall war, seine
+                    letzte Krankheit hat überdies gemacht, daß er noch mehrere Monate mit aller
+                    Anstrengung verschont bleiben muß, u. über dies alles werde ich im künftigen
+                    Sommer eine sehr günstige Gelegenheit haben, den jungen Menschen, der sich
+                    endlich zu mir zu kommen entschließt, auf eine uns beiden angenehme Weise
+                    herreisen zu lassen. Ich darf also jetzt bestimmt kein Verhältniß eingehn, ich
+                    habe meine Freunde in Deutschland gebeten, sich nach jemand umzusehn u. habe nun
+                    Zeit u. freie Wahl. Sagen Sie indeß H. <persName ref="kbhase">Hase</persName> u.
+                        <persName ref="fclsickler">Sickler</persName> wie gern ihnen auch mein Haus
+                    offen stehn würde, wenn <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst> sich sonst eine Reise hieher zu machen entschließen
+                    sollten.</p>
+            <p>Ueber Ihre literärische Thätigkeit u. die Theilnahme an zwei Journalen freue ich
+                    mich sehr. Aber auch ich, mein Bester, bin erstaunlich (soviel man es nemlich in
+                    der Ferne seyn kann) <persName ref="gstcroix">
+                  <hi rend="antiqua">St. Croix</hi>
+               </persName> u. <persName ref="jschweighaeuser">Ihres Vaters</persName> Meynung, daß Sie durchführen,
+                    was Sie angefangen haben. Einmal der äußren Vortheile wegen, dann aber, weil Sie
+                    dann das Bewußtseyn haben werden, etwas gethan zu haben, die Erziehung eines
+                    jungen Menschen vollendet zu haben. Glauben Sie mir, wenn es Ihnen auch viel
+                    Zeit nimmt, es bildet wiederum mehr, als jede andre Beschäftigung, u. wie Sie es
+                    thun, belohnt es sich durch sich selbst.</p>
+            <p>Herzlich danke ich Ihnen für Ihr Anerbieten wegen meiner Vasken. Sie verzeihen
+                    mir aber wohl, wenn ich mich nicht zu einer Mittheilung in einem Jour-<pb n="58v"/>nal entschließen kann. Ich würde der Sache u. mir gleichviel
+                    dadurch schaden. Ich habe noch nichts bekannt gemacht, aber meine Arbeit ist
+                    großentheils fertig. Was den Druck aufhalten wird, ist, daß jetzt in Spanien
+                        <bibl sameAs="35">eine Spanische Schrift</bibl> über diese Sprache
+                    erschienen ist, die ich in meine verwandeln muß, u. nun gehen mehrere Wochen
+                    hin, <del>ich</del> ehe ich sie nur bekomme. Mein Werk wird wohl zwei Bände
+                    ausmachen. Ich nenne es: die <hi rend="antiqua">Vasken</hi> u. es enthält:<note type="footnote" resp="editor">Das Basken-Werk wurde nicht fertiggestellt und
+                        erschien letztendlich nur in Teilen; siehe dazu unten. Als Erstes erschien
+                        1812 die <bibl sameAs="746">Ankündigung einer Schrift über die Vaskische
+                            Sprache und Nation, nebst Angabe des Gesichtspunctes und Inhalts
+                            derselben</bibl>. <lb/>Die in der zweiten Abteilung der Edition "Wilhelm
+                        von Humboldt: Schriften zur Sprachwissenschaft" erschienenen Bände
+                        (herausgegeben von Bernhard Hurch: <hi rend="italic">Schriften zur
+                            Anthropologie der Basken</hi>, <hi rend="italic">Baskische Wortstudien
+                            und Grammatik</hi> sowie der noch ausstehende dritte Band)
+                        rekonstruieren Humboldts Arbeiten zum Baskischen. [FZ]</note> 1., einen
+                    Abriß des Landes, u. des Volks in Form einer Reise;<note type="footnote" resp="editor">Erstmals 1920 nach dem Manuskript von Albert Leitzmann in den
+                            <bibl sameAs="1192">Gesammelten Schriften</bibl> publiziert; zuletzt
+                        siehe die historisch-kritische Ausgabe in Wilhelm von Humboldt (2010): <hi rend="italic">Schriften zur Anthropologie der Basken</hi>, hg. von
+                        Bernhard Hurch, Paderborn: Schöningh (= Schriften zur Sprachwissenschaft, 2.
+                        Abt.: Die baskischen Schriften, 1. Bd.), S. 103–264. [FZ]</note> 2., die
+                    Grammatik; 3., <del type="fragment">d</del> ein nach einem eignen System
+                    abgekürztes Wörterbuch;<note type="footnote" resp="editor">Zu Grammatik und
+                        Wörterbuch siehe Wilhelm von Humboldt (2010): <hi rend="italic">Baskische
+                            Wortstudien und Grammatik</hi>, hg. von Bernhard Hurch, Paderborn:
+                        Schöningh (= Schriften zur Sprachwissenschaft, 2. Abt.: Die baskischen
+                        Schriften, 2. Bd.). [FZ]</note> 4., eine Untersuchung über die Abkunft der
+                    Nation. Aber dies fodert noch, sehn Sie, viel Studium, soviel ich auch schon
+                    gemacht habe. Die Reise ist so gut als fertig, von der Grammatik viel, zum
+                    Uebrigen sind alle Materialien beisammen. Hier habe ich meinen Aufenthalt schon
+                    sehr benutzt. Man glaubte das <hi rend="antiqua">Vaski</hi>sche mit dem <hi rend="antiqua">Maltesischen</hi> verwandt. Allein dies letztere ist ganz <hi rend="antiqua">orientalisch</hi>. Jetzt studire ich die Bruchstücke des <hi rend="antiqua">Etruri</hi>schen u. <hi rend="antiqua">Osci</hi>schen. Denn
+                    das ist für das <hi rend="antiqua">Baskische</hi> sehr merkwürdig .</p>
+            <p>Ueberhaupt sitze ich durchaus im Sprachstudium, u. denke <del>eine</del>
+                    wenigstens eine Abhandlung über die wahre Methode u. den wahren Nutzen desselben
+                    gleich nach den <hi rend="antiqua">Vasken</hi> drucken zu lassen.<note type="footnote" resp="editor">
+                  <bibl sameAs="209">Diese Abhandlung</bibl> wurde erst viel später
+                        fertiggestellt und 1820 an der Akademie in Berlin vorgetragen; im Druck
+                        erschien sie im Jahr 1822. [FZ]</note> Ich glaube darin neue Ansichten zu
+                    haben. Ich glaube zeigen zu können, daß es da ein bisher ganz vernachlässigtes
+                    Studium giebt, was eine reiche u. fruchtbare Quelle von Ideen u. ein wichtiges
+                    Bildungsmittel werden kann. Ich glaube zu zeigen, daß wenn man es nur irgend
+                    recht anfienge, jeder Mensch in seiner Sprache täglich finden <add>würde</add>,
+                    was er jetzt nie ahndet. Fänden diese Ideen Eingang, dann würde ich suchen eine
+                    Encyclopädie des Sprachstudiums zu Stande zu bringen, wie ich es mir denke, ein
+                    mühsames u. schwieriges Werk, das noch viele Jahre angestrengten Studiums
+                    fodert, aber auch ein nothwendiges, wenn nicht alles in diesem Fach Stückwerk
+                    bleiben, u. nicht jeder immer wieder von vorn anfangen soll. <placeName ref="Rom">
+                  <hi rend="antiqua">Rom</hi>
+               </placeName> bietet mir einige äußerst seltene
+                    Hülfsmittel für diese Arbeiten dar, aber vor allem die Stimmung, die ich nie
+                    vielleicht so gut u. so glücklich hatte. Wirklich arbeite ich mitten unter sehr
+                    zahlreichen Geschäften, bei einer sehr ausgedehnten <hi rend="antiqua">Correspondenz</hi>, ohne alle fremde Hülfe, selbst nur des Abschreibens,
+                    ungleich mehr als wie Sie mich durchaus frei in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> kannten, u. wie viele Stunden
+                    nimmt noch diese einzige Stadt, das Besuchen der Reste des Alterthums u. s. f.
+                    hinweg.</p>
+            <closer>Adieu, mein theurer Freund. Leben Sie wohl, u. gedenken Sie immer mit Liebe
+                    u. Freundschaft Ihres <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

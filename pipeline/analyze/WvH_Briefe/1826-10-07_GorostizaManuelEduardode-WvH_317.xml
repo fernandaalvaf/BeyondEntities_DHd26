@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 03. Juni 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuel Eduardo de Gorostiza an Wilhelm von Humboldt, 07.10.1826<idno type="BBAW">317</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 103–105</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 211</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="rctorres">
+                  <persName>Casaús y Torres, Ramón</persName>
+               </person>
+               <person corresp="mefabres">
+                  <persName>Egaña Fabres, Mariano</persName>
+               </person>
+               <person corresp="jcfoncerrada">
+                  <persName>Foncerrada, Jose Cayetano de</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="leonpinelo">
+                  <persName>León Pinelo, Antonio de</persName>
+               </person>
+               <person corresp="jjolmedo">
+                  <persName>Olmedo, José Joaquín de</persName>
+               </person>
+               <person corresp="fpvasquez">
+                  <persName>Vasquez y Sánchez Vizcaíno, Francisco Pablo</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="781">León Pinelo, Antonio de: Epitome de la Biblioteca oriental y
+                    occidental, nautica y geografica (Madrid: por Iuan Gonzalez 1629)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron Tres flatté de pouvoir faire quelque
+                        chose qui puisse vous etre agréable, je me suis empressé à faire ecrire ...
+                        à l’Archeveque de Goatemala au sujet des livres sur la langue Maya …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="megorostiza">Gorostiza, Manuel Eduardo de</persName>
+               <date type="author" when="1826-10-07"/>
+               <placeName key="Brüssel">Brüssel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="megorostiza">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="myn">Maya-Sprachen</language>
+            <language ident="tsz">Tarasca</language>
+            <language ident="al">Südamerikanische Sprachen</language>
+            <!-- = Amerikanische Sprachen? -->
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">21. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_217.jpg"/>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_218.jpg"/>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_219.jpg"/>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_220.jpg"/>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_221.jpg"/>
+      <graphic url="Gorostiza/Gorostiza-WvH_1826_10_07/Coll.ling.fol.52_222.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="103r"/>
+               <salute>Monsieur le Baron</salute>
+            </opener>
+            <p>Très flatté de pouvoir faire quelque chose qui puisse vous être agréable, je me
+                    suis empressé <sic>a</sic> faire écrire par l’entremise de <persName ref="fpvasquez">Mr. le Chanoine Vazquez</persName> notre Ministre près de la
+                    Cour de <placeName ref="Rom">Rome</placeName>, à son ami <sic>
+                  <persName ref="rctorres">Mgr. l’Archêveque de Goatemala</persName>
+               </sic> au sujet
+                    des livres sur la langue <hi rend="underline">Maya</hi> que vous citez dans
+                    votre note. Ce Prélar est très instruit à ce qu’on m’assure, et comme il
+                    affectionne beaucoup l’étude des langues indigènes, il pourra nous être d’une
+                    grande utilité.</p>
+            <p>J’en ai fait autant à l’égard de la langue <hi rend="underline">Tarasca</hi> (qui
+                    se parle encore <pb n="103v"/> dans la province de Valladolid) en m’adressant à l’éffet à <persName ref="jcfoncerrada">Mr. le Chanoine de Mexico</persName>, <placeName ref="Techaluta de Montenegro">Montenegro</placeName>.</p>
+            <p>Quant aux autres livres appartenaire tous aux langues indigènes de l’Amérique du
+                    Sud, je ne puis rien faire encore, mais comme je me propose incéssament de faire
+                    une pétite <sic>éxcursion</sic> à <placeName ref="London">Londres</placeName>,
+                    j’en <sic>proffiterai</sic> pour en parler à <persName ref="jjolmedo">Mr. Olmedo</persName> Ministre du Perou près de la Cour d’Angleterre et
+                    litérateur très distingué; ainsi qu’a l’envoyé Chilien <persName ref="mefabres">Mr. Egaña</persName>, ex-Ministre des Affaires Etrangères de
+                    cette République.</p>
+            <p>Je fais, Monsieur le Baron, des voeux bien sincères pour la reussite de quelques
+                    unes de ces démarches, et je ne regrette que de ne pas me trouver moi-<pb n="104r"/>même dans le cas de les faire personellement.</p>
+            <p>Agréez, Monsieur, l’assurance de la haute considération avec laquelle j’ai
+                    l’honneur d’être</p>
+            <closer>
+               <salute>Monsieur le Baron <lb/>Votre très humble et <lb/>très obéissant
+                        Serviteur.</salute>
+               <signed>
+                  <unclear>M.</unclear> E. de Gorostiza</signed>
+               <lb/>
+               <dateline>Bruxelles le 7. octobre 1826.</dateline>
+               <lb/>
+               <lb/>
+               <address>
+                  <addrLine>à S. E. Monsieur le Baron</addrLine>
+                  <addrLine>Guillaume de Humboldt.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <pb n="104v vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="105r"/>
+               <handShift scribe="AvHumboldt"/> Langues americaines <lb/>Autores que han escrito en
+                    lenguas de Indias (seulement les titres, mais 20. pages <del type="fragment">av</del> pres de 230 numeros de traductions tautologiques et
+                    grammaires americaines (tres peu des <sic>dernieres</sic>) dans <lb/>
+               <bibl sameAs="781">Epitome de la Bibliotheca oriental <lb/>y occidental</bibl>
+                    por <lb/>
+               <persName ref="leonpinelo">Dn Antonio de <lb/>Leon Pinelo</persName> 1738
+                    <lb/>fol T II p 719–738 <lb/>p 918–920 <lb/>je l’ai vu a <orgName ref="23">la
+                        Bibliotheque de l’Insitut</orgName>
+               <signed>
+                  <persName ref="avh">A Humboldt</persName>
+               </signed>
+               <lb/>
+               <pb n="105v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

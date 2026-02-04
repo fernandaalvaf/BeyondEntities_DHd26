@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 30.03.1824<idno type="BBAW">133</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 19. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 37</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7385</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="54">Bopp, Franz: Rezension zu August Wilhelm von Schlegel:
+                    Bhagavad-Gita, id est Θεσπέσιον μελος, sive almi Krishnae et Arjunae colloquium
+                    de rebus divinis, Bharateae episodium (Bonn 1823). In: Göttingische Gelehrte
+                    Anzeigen 37., 38. Stück, 4. März 1824, S. 361–372</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ew. Wohlgeboren herzlich für das Vergnügen, das
+                        mir Ihre Recension des Bhagavad-Gîta gemacht hat …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-03-30"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 28. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1824_03_30/NDIGRKP004565_0324.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1824_03_30/NDIGRKP004565_0325.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1824_03_30/NDIGRKP004565_0326.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ew. Wohlgeboren herzlich für das Vergnügen, das mir
+                        <bibl sameAs="54">Ihre Recension</bibl> des <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">Bhg</hi>
+                  </del>
+                  <add>
+                     <bibl sameAs="53">
+                        <hi rend="antiqua">Bhagavad</hi>
+                     </bibl>
+                  </add>
+               </subst> <bibl sameAs="53">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> gemacht hat. Ich dächte, <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> müßte sehr zufrieden damit
+                    seyn.</p>
+            <p>Von den drei Stellen, in welchen Sie seine Uebersetzung berichtigen, haben zwei,
+                    die letzten, mir von Ihnen sehr richtig erklärt geschienen. In der ersten aber
+                    würde ich in <hi rend="antiqua">
+                  <persName ref="awschlegel">Schlegel</persName>s</hi> Uebersetzung nichts
+                    ändern. Es mag wohl seyn, daß das <hi rend="antiqua">praes.</hi> auch statt des
+                        <hi rend="antiqua">potentialis</hi> steht, allein einmal ist dies hier immer
+                    wenig natürlich, da ein zweites <hi rend="antiqua">Verbum</hi> wirklich im <hi rend="antiqua">potentialis</hi> folgt, u. dann gewinnt hier offenbar der
+                    Sinn, wenn der Satz: daß die Menschen dem Beispiele des Gottes folgen, <hi rend="antiqua">absolut</hi> u. im <hi rend="antiqua">praesens</hi>, steht.
+                    Warum aber <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> <hi rend="antiqua">mortales</hi> statt <hi rend="antiqua">lôkâ</hi> gesetzt hat, begreife ich nicht.</p>
+            <p>In der zweiten Stelle ist der Sinn offenbar der von Ew. Wohlgeboren angegebene.
+                    Wenn aber <foreign sameAs="sa" n="transEd">sakhaṃ bhavaḥ<graphic url="Bopp/WvH-Bopp_1823_10_30/0696.svg"/>
+               </foreign> ein Wort wirklich
+                    ist, so möchte ich es grammatisch nicht mit <foreign sameAs="sa" n="transEd">araṃdamaḥ<graphic url="Bopp/WvH-Bopp_1823_10_30/0697.svg"/>
+               </foreign>
+                    vergleichen. In diesem ist ein <hi rend="antiqua">Verb. act. transit.</hi> mit
+                    einem <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">accis</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">accusativ</hi>
+                  </add>
+               </subst> verbunden, obgleich gerade diese Zusammensetzung, scheinbar die
+                    natürlichste aller, dem <hi rend="antiqua">Sanskrit</hi> fremd ist. Diese
+                    Verbindung kann <foreign sameAs="sa" n="transEd">bhū<graphic url="Bopp/WvH-Bopp_1823_10_30/0698.svg"/>
+               </foreign> nicht haben. Ich
+                    würde also hier <foreign sameAs="sa" n="transEd">sakhaṃ<graphic url="Bopp/WvH-Bopp_1823_10_30/0699.svg"/>
+               </foreign> für ein <hi rend="antiqua">Adverbium</hi> halten, wie es so oft ist.</p>
+            <p>
+               <pb n="2*"/> Dann ist grammatisch Alles richtig, u. es fragt sich nur, in wie
+                    weit der Gebrauch solcher Verbindungen legitimirt. So nehme ich auch <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkin’s</hi>
+               </bibl> Beispiel. Denn daß er die
+                    Einschiebung des <term type="phon" ref="001">
+                  <hi rend="antiqua">anuswara</hi>
+               </term> für bloß <hi rend="antiqua">euphonisch</hi> hält, ist doch wohl falsch, da keine allgemeine Regel vor
+                        <foreign sameAs="sa" n="transEd">bha<graphic url="Bopp/WvH-Bopp_1823_10_30/0700.svg"/>
+               </foreign> die Einschiebung
+                    eines Nasalen fordert.</p>
+            <p>Die 3<hi rend="superscript">te</hi> Stelle ist offenbar, wie Sie sagen. Nur weiß
+                    ich nicht, ob man <foreign sameAs="sa">
+                  <hi rend="antiqua">pâtrê</hi>
+               </foreign> nothwendig für die Person u. einen
+                        <hi rend="antiqua">dativ</hi> nehmen muß. Auch im wahren Sinne als <hi rend="antiqua">Locativus</hi> u. als <hi rend="antiqua">Abstractum</hi> „in
+                    der Ordnung“, „Würdigkeit“ bildet es den Gegensatz des Wortes <hi rend="antiqua">sl.</hi> 22.</p>
+            <p>Ich schicke das <bibl sameAs="54">Stück der Zeitung</bibl> zurück, weil ich nicht
+                    weiß, ob Sie zwei Exemplare besitzen u. die Güte hatten, mir eines zu bestimmen.
+                    Sonst würde ich es mit großem Vergnügen aufbewahrt haben.</p>
+            <closer>
+               <salute>Mit hochachtungsvollster Freundschaft <lb/>der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>30.<note type="footnote" resp="editor">Lefmann 1897: [? 1823]. – Da
+                            die <bibl sameAs="54">Rezension</bibl> Bopps zu <persName ref="awschlegel">Schlegel</persName>s <bibl sameAs="53">Bhagavad-Gita</bibl> in den <hi rend="italic">Göttingischen
+                                Gelehrten Anzeigen</hi> erst am <date when="1824-03-04">4. März
+                                1824</date> erschienen ist und Humboldt offensichtlich ein
+                            gedrucktes Exemplar von Bopp zugeschickt bekommen hat, kann der Brief
+                            frühestens vom <date when="1824-03-30">30. März 1824</date> stammen; so
+                            auch Mattson 1980, 7385. [FZ]</note>
+               </dateline>
+               <lb/>
+               <pb n="3*–4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

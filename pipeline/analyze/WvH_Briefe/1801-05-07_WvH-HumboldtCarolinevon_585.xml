@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 07.05.1801<idno type="BBAW">585</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">H (alt): Berlin, A.v.Sydow (laut Hurch verschollen)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1916, Bd. 2, S. 91–94. – Gárate 1933, 85–91 (span. Übersetzung); Humboldt 2010, S.
+                            379–381 (B. Hurch)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 660</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gwbokelmann">
+                  <persName>Bokelmann, Georg Wilhelm</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="ludwigvetrurien">
+                  <persName>Ludwig, Herzog von Parma, König von Etrurien</persName>
+               </person>
+               <person corresp="ammunibe">
+                  <persName>Munibe Aréizaga, Antonio María de, 11. Graf von
+                            Peñaflorida</persName>
+               </person>
+               <person corresp="jmmurga">
+                  <persName>Murga y la Barrera, José Maria de</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1801-05-07"/>
+               <placeName key="Vitoria">Vitoria</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">7. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Vitoria, 7. Mai 1801</dateline>
+            </opener>
+            <p>Du wirst Dich wundern, meine liebe Li, daß ich Dir schon von hier aus schreibe.
+                    Aber wir haben unsern Reiseplan ein wenig abgeändert, und statt zuerst nach
+                        <placeName ref="Bilbao">Bilbao</placeName> zu gehen, sind wir vorher hierher
+                    gekommen. Ich schrieb Dir zuletzt aus <placeName ref="Getaria">Guetaria</placeName>. Von <placeName ref="Getaria">Guetaria</placeName> aus
+                    gingen wir an der Küste weiter fort, über <placeName ref="Deba">Deba</placeName>, <placeName ref="Mutriku">Motrico</placeName> und <placeName ref="Ondarroa">Ondarroa</placeName>. Wir genossen noch sehr schöne Gegenden,
+                    herrliche Meeresansichten und den Anblick eines so schön kultivierten, so gut
+                    bevölkerten Landes, als es uns noch nirgends vorgekommen war. Von <placeName ref="Ondarroa">Ondarroa</placeName> aus verließen wir die Küste, um
+                    landeinwärts einen kleinen Flecken, <placeName ref="Markina">Marquina</placeName>, aufzusuchen, in dem ein paar Leute gerade sein
+                    sollten, an die ich gute Empfehlungen hatte. Der Weg war auch dahin sehr schön,
+                    ein ziemlich enges Tal an einem kleinen Fluß, mit lauter einzelnen Bauerhäusern
+                    und sogenannten Ritterschlössern und vielen Eisenhämmern, bei deren Schleusen
+                    der Bach hübsche Wasserfälle bildete. In <placeName ref="Markina">Marquina</placeName> hatte uns der <persName ref="ammunibe">Graf
+                        Peñaflorida</persName>
+               <note type="footnote" resp="editor">Humboldt 2010, S.
+                        424: Munibe y Areizaga, Antonio María de, Conde de Peñaflorida.</note> in
+                        <placeName ref="San Sebastiano">San Sebastiano</placeName> an sein Palacio
+                    (wie man es hier nennt) gewiesen, um dort, weil die Posada schlecht sei, zu
+                    wohnen, und wir zogen also wirklich um achte auf dem gräflichen Palacio sehr Don
+                    Quixotemäßig ein. An der Tür empfing uns der alte Verwalter des Grafen, der ihn
+                    und seinen Bruder ehemals ans Reisen geführt hatte, in <placeName ref="Paris">Paris</placeName> gewesen war und uns, ehe er nur unsre Pferde in den Stall
+                    bringen ließ, auf dem Flur seine ganze Lebensgeschichte erzählte. Dieser
+                    Administrador schien dem armen <persName ref="gwbokelmann">Bokelmann</persName>
+                    in die Glieder zu schlagen. Denn als ich den Abend ein wenig ausgewesen war und
+                    zurückkam, fand ich ihn mit entsetzlichen Kopfschmerzen, und die Nacht nahm es
+                    so zu, daß es mir in der Tat bange wurde. Ich verordnete ihm aber ein
+                    Brechpulver, und dadurch brachte ich ihn doch in den Stand, daß er am
+                    überfolgenden Tage weiterreiten konnte und er nun wieder ganz wohl ist. Mir sind
+                    die zwei Tage, die wir da zugebracht haben, sehr merkwürdig gewesen. Du kennst
+                    die Art der spanischen Häuser, die Leere an Möbeln und Menschen, die da
+                    herrscht, und wenn Du Dir nun dazu denkst, daß dieses Schloß von dem Ort eine
+                    viertel Stunde entfernt allein in Wald und Bergen lag, so hast Du ein Bild der
+                    melancholischen Stille, die da herrschte. Ich leistete teils <persName ref="gwbokelmann">Bokelmann</persName> Gesellschaft, teils besuchte ich
+                    Leute in der Stadt. Dieser Ort, der im tiefsten Innern der Provinz liegt, ist
+                    gerade der, wo am besten Baskisch gesprochen wird, wo die Menschen am meisten
+                    Nationalstolz haben, und da ich gleich mit allen bekannt wurde, so kam ich
+                    dadurch ins Innerste der Nationaleigenheiten. Auch ging ich viel im Felde
+                    spazieren, und da die Leute, die dort arbeiteten, und die so außerordentlich
+                    gutmütig sind, sahen, daß ich auf ihre Arbeit und ihre Ackerwerkzeuge acht gab,
+                    daß ich etwas Baskisch verstand und sprach, so waren sie von einer ordentlich
+                    merkwürdigen Freude darüber und riefen mich schon von fern heran. Außerdem war
+                    der Generaldeputierte von <placeName ref="Bilbao">Bilbao</placeName>
+               <note type="footnote" resp="editor">Humboldt 2010, S. 380 Anm. a: <persName ref="jmmurga">Josef Maria Murga</persName>; dort S. 424: Murga de la
+                        Barrera, Jose(ph) María de (1770–1834); Bürgermeister von Marquina/Markina
+                        und Generaldeputierter von Vizcaya/Biskaia 1800–1802.</note> dort, an den
+                    mich Esquia<note type="footnote" resp="editor">Humboldt 2010, S. 380 Anm. b:
+                        Vermutlich Joaquin Maria de Eguia, den Humboldt in Vitoria getroffen
+                        hatte.</note> empfohlen hatte, ein sehr aufgeklärter, unterrichteter,
+                    denkender und höchst liebenswürdiger Mensch. Im Schloß ging es indes auch so
+                    ziemlich. Freilich fehlte es an vielerlei. Aber die Betten waren doch gut, das
+                    Essen ohne Öl und der Salat sogar mit sehr gutem, und die Leute so willig und
+                    gutmütig, daß wir wenigstens Herren im Hause waren. Von <placeName ref="Markina">Marquina</placeName> aus war eigentlich unser Plan, wieder rückwärts nach
+                    <placeName ref="Hernani">Hernani</placeName>, wo wir durchgekommen sind, zu gehen,
+                    um den <persName ref="ludwigvetrurien">König von Toskana</persName> dort
+                    durchreisen zu sehen. Man gab ihm dort ein Fest mit einem sehr sonderbaren alten
+                    Nationaltanz, dem Degentanz, und ich hätte sehr viel darum gegeben, dies
+                    Schauspiel zu genießen. Aber so mußten wir wegen <persName ref="gwbokelmann">Bokelmann</persName>s Krankheit liegen bleiben, und ich mochte ihn
+                    natürlich nicht mitten in <placeName ref="Markina">Marquina</placeName>, da er
+                    fast noch gar nicht Spanisch spricht, unter den Urgestalten der Öde die einzig
+                    redende Brust, allein lassen.</p>
+            <p> Auf dem Wege hierher kamen wir durch <placeName ref="Bergara">Bergara</placeName>. Da
+                    versammelten sich meine alten Freunde um mich, und da ein Brief <persName ref="avh">meines Bruders</persName> in den <hi rend="antiqua">Anales de historia natural</hi>
+                    gestanden hat<note type="footnote" resp="editor">
+                  <hi rend="italic">Anales de historia natural</hi>, Oktober 1800, Nr. 6, Band 2, S. 251–268. [FZ]</note>, so war der Baron de Humboldt so bei allen Seminaristen bekannt,
+                    daß <persName ref="gwbokelmann">Bokelmann</persName> versicherte, er habe unsern
+                    Namen nie so klar aussprechen hören. Hier hat mich der alte Prestuano<note type="footnote" resp="editor">Humboldt 2010, S. 380: Prestamero; dort S.
+                        425: Prestamero y Sodupe, Diego Lorenzo de (1733–1817; bask. Gelehrter und
+                        Priester, wichtiger Informant Humboldt in Vitoria/Gasteiz).</note>, dessen
+                    Du Dich wohl noch erinnerst, mit der größten Herzlichkeit aufgenommen, mich
+                    gleich zu einer <hi rend="antiqua">amiga</hi> geführt, wo sie mich mit Konfitüren
+                    und <hi rend="antiqua">chiocolata</hi> traktiert haben, hat mir einen kleinen
+                    Garten gezeigt, den er jetzt bearbeitet, und mir gewiesen, daß er schon ein Bett
+                    für mich zurecht gestellt hatte. Er hat auch nach Dir und den Kindern sehr viel
+                    gefragt und ist wirklich ein sehr liebenswürdiger alter Mann. Ich werde noch
+                    heute und vielleicht noch morgen hier bleiben, dann ziehen wir weiter nach
+                    <placeName ref="Bilbao">Bilbao</placeName> zu. </p>
+            <p>Ich bin wohl, meine teure, gute Li, und wäre ganz glücklich, wenn ich mich
+                    weniger nach Dir und den Kindern zurücksehnte. Ich glaube nicht, daß ich mich
+                    wieder ohne Not entschließen werde. Euch alle zu verlassen. Hätte ich nur eins
+                    der Kleinen bei mir, so wäre es mir schon ein anschauliches Bild Deiner selbst.
+                    Verzeih, daß ich nicht mehr schreibe, meine teure, gute Li, aber ich habe viel
+                    zu tun und möchte gern, da ich einmal hier bin, die Zeit ganz benutzen. </p>
+            <closer>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

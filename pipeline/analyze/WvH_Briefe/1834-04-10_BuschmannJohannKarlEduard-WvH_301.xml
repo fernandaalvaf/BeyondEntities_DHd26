@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 17. Februar 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 10.04.1834<idno type="BBAW">301</idno>
+               <!-- Zwei Briefe an einem Datum - wie unterscheiden? -->
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 99</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 218</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="hjdomis">
+                  <persName>Domis, Hendrik Jacob</persName>
+               </person>
+               <person corresp="shspiker">
+                  <persName>Spiker, Samuel Heinrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="959">Domis, Hendrik Jacob: Aanteekeningen over het gebergte
+                        Tinger. In: Verhandelingen van het Bataviaasch Genootschap van Kunsten en
+                        Wetenschappen, Bd. 13, S. 323–356 (Batavia: Lands Drukkerij 1832)</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel
+                        Java, nebst einer Einleitung über die Verschiedenheit des menschlichen
+                        Sprachbaues und ihren Einfluss auf die geistige Entwicklung des
+                        Menschengeschlechts. In: Abhandlungen der Königlichen Preußischen Akademie
+                        der Wissenschaften zu Berlin aus dem Jahre 1832, Zweiter Theil (Berlin:
+                        Druckerei der Königlichen Akademie der Wissenschaften 1836)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz verzeihen eine Nachschrift zu den Bemerkungen vom
+                    Bogen Ll., indem ich eben auf der Bibliothek Herrn Professor Bopp’s Bemerkungen
+                    erhalte …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1834-04-10"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcebuschmann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="kaw">Kawi</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">17. Februar 2015</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1834-04-10/Coll.ling.fol.53_203.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1834-04-10/Coll.ling.fol.53_204.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="99r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>verzeihen eine Nachschrift zu den Bemerkungen zum <bibl sameAs="227">Bogen
+                        Ll.</bibl>
+               <note type="footnote" resp="editor">Das entspricht den Seiten 265
+                        bis 272.</note>, indem ich eben auf der <orgName ref="1">Bibliothek</orgName> <persName ref="bopp">Hrn. Prof. <hi rend="antiqua">Bopp’s</hi>
+               </persName> Bemerkungen erhalte.</p>
+            <p>
+               <bibl sameAs="227">S. 265. Anm. 1. Z. 6.</bibl> das punctirte <hi rend="antiqua">ṇ</hi> in <hi rend="antiqua">
+                  <foreign sameAs="sa">saṇsâra</foreign>
+               </hi> hält <persName ref="bopp">Hr.
+                        Bopp</persName> für richtig und sagt: „<term ref="001" type="phon">
+                  <hi rend="antiqua">Anuswâra</hi>
+               </term> sei, so viel er sich erinnere,
+                    überall mit punctirtem <hi rend="antiqua">ṇ</hi> geschrieben.</p>
+            <p>
+               <pb n="99v"/>
+               <bibl sameAs="227"> S. 266. Text Z. 4. v. u., Anm. 4. Z. 1. und 2.</bibl> ist
+                        <foreign sameAs="sa">
+                  <hi rend="antiqua">
+                     <hi rend="underline">manyu</hi>
+                  </hi>
+               </foreign> (<hi rend="antiqua">
+                  <hi rend="underline">n</hi>
+               </hi> ohne Punct, und statt <hi rend="antiqua">j</hi>: <hi rend="antiqua">y</hi>) zu schreiben; <persName ref="bopp">Hr.
+                        Prof. <hi rend="antiqua">Bopp</hi>
+               </persName> hat nämlich meine deßfalsige
+                    Anfrage bestätigt, daß das Sanskritwort <foreign sameAs="sa" n="transEd">manyu<graphic url="Buschmann/Buschmann-WvH_1834_04_10/001.svg"/>
+               </foreign> gemeint ist.</p>
+            <p>
+               <bibl sameAs="227">S. 268. Z. 2.</bibl> verbessert <persName ref="bopp">Hr. <hi rend="antiqua">Bopp</hi>
+               </persName> <foreign sameAs="sa">
+                  <hi rend="antiqua">Laṇkâwatâra</hi>
+               </foreign>, das zweite <hi rend="antiqua">
+                  <hi rend="underline">a</hi>
+               </hi> mit dem Längezeichen.</p>
+            <p>Die Nachricht über <persName ref="hjdomis">
+                  <hi rend="antiqua">Domis</hi>
+               </persName> neuste Schrift hat <persName ref="shspiker">Hr. <hi rend="antiqua">Dr. Spiker</hi>
+               </persName> aus dem <hi rend="antiqua">Asiatick journal</hi>
+               <note type="footnote" resp="editor">Bei
+                        dem genannten Artikel wird es sich um einen <bibl sameAs="959">Aufsatz aus
+                            dem Jahr 1832</bibl> handeln. Im <hi rend="italic">Asiatic Journal and
+                            Monthly Register for British and foreign India, China and
+                            Australasia</hi>, Vol. XIII, New Series, January – April 1834, S. 211
+                        findet sich folgende Nachricht: "15th of February. The Right Hon. Sir A.
+                        Johnston, V.P., took the chair at the meeting this day; various donations
+                        were laid upon the table, among them were the following: […] From H. J.
+                        Domis, Esq., his Notes on Java, printed at Sourabaya, parts 4, 5, 6, and 7;
+                        and a Sourabaya Almanack […]". Gleichlautende bzw. zusammenfassende
+                        Meldungen finden sich auch im <hi rend="italic">Journal of the Royal Asiatic
+                            Society of Great Britain and Ireland</hi>, Band 1, S. 152 und im <hi rend="italic">Athenaeum Journal</hi> 1834, S. 145. [FZ]</note>.</p>
+            <closer>
+               <salute>Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                        womit ich verharre <lb/>Ew. Excellenz <lb/>unterthänigster Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 10 Apr. 1834.</dateline>
+               <lb/>
+               <hi rend="underline">Zu Eile.</hi>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

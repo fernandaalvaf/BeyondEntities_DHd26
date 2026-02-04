@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 29. Juni 2017 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Gottlieb Welcker an Wilhelm von Humboldt, 30.12.1821<idno type="BBAW">1113</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Kekulé 1880, S. 189–193 (Auszug); Leitzmann 1911, S. 141f. (Auszug,
+                            ergänzt Kekulé)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11671</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ahedemann">
+                  <persName>Hedemann, Adelheid von</persName>
+               </person>
+               <person corresp="agfhedemann">
+                  <persName>Hedemann, August Georg Friedrich von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cschwenck">
+                  <persName>Schwenck, Conrad</persName>
+               </person>
+               <person corresp="jjwinckelmann">
+                  <persName>Winckelmann, Johann Joachim</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+               <person corresp="gzoega">
+                  <persName>Zoëga, Georg</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="209">Humboldt, Wilhelm von (1822): Über das vergleichende Sprachstudium
+                    in Beziehung auf die verschiedenen Epochen der Sprachentwicklung. In:
+                    Abhandlungen der königlich preußischen Akademie der Wissenschaften aus den
+                    Jahren 1820–1821, Historisch-philologische Klasse, S. 239–260</bibl>
+               <bibl corresp="1328">Zoëga, Georg (1797): De origine et usu obeliscorum ad Pium Sextum pontificem maximum
+                    auctore Georgio Zoega Dano, Rom: Lazzarini</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz danke ich vielmal für die etymologische
+                        Abhandlung …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+               <date type="author" when="1821-12-30"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1063" type="prev">06.11.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe=""/>
+         </handNotes>
+         <langUsage n="am ind">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">29. Juni 2017</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>[Bonn] den 30. Dec. 1821.</dateline>
+            </opener>
+            <p>Ew. Excellenz danke ich vielmal für die <bibl sameAs="209">etymologische
+                        Abhandlung</bibl> und den bald darauf eingetroffenen Brief vom <date when="1821-11-06">6. Nov.</date> Was Sie von der Gesundheit <persName ref="cvh1">Ihrer Frau Gemalin</persName> sagen, war mir in so fern
+                    beruhigend, als ich kurz vorher über ihr Befinden minder gute Nachrichten von
+                    andern Seiten erfahren hatte – und ich will hoffen, daß die große Freude, welche
+                    sie vielleicht heute schon erfüllt und gesichert sieht, und woran auch ich den
+                    innigsten Antheil nehme<note type="footnote" resp="editor">Die bevorstehende
+                        Geburt einer Tochter von Gabriele von Bülow.</note>, ihr auch körperlich
+                    recht wohlthätig seyn möge. Viel vermag doch oft die tiefste und mächtigste
+                    Seelenstimmung über die Gesundheitsumstände. – Sie verlieren <persName ref="ahedemann">Ihre Frau Tochter Adelheid</persName> aus der Nähe – aber
+                    ich höre, daß ein Regiment zu haben <persName ref="agfhedemann">Herrn von
+                        Hedemann</persName> angenehm seyn werde – und bey der Leichtigkeit, sich auf
+                    längere Zeit häufig wiederzuvereinigen, welche Ihre Lage währt, hoffe ich, daß
+                    bey der Trennung das Schmerzliche nicht zu vorherrschend seyn wird.<note type="footnote" resp="editor">Der erste und der letzte Absatz des hier
+                        Wiedergebenen wurden von Leitzmann 1911 ediert, der für den umfangreichen
+                        mittleren Teil auf die Edition von Kekulé 1880 verweist. [FZ]</note>
+            </p>
+            <p>[Kékule 1880, S. 189–193] Die Arbeiten, von denen Ew. Excellenz mir schreiben,
+                    nicht minder die, welche in dem Brief an <persName ref="awschlegel">Schlegel</persName> berührt sind, haben für uns beide etwas erfreuliches.
+                    Ihr Urtheil über das Sanskrit und die Stelle die es einnimmt war mir auffallend
+                    und einleuchtend, so weit man nach einem aufgestellten Verhältniss von Merkmalen
+                    unter sich urtheilen kann; noch mehr aber als diese Stufe in der
+                    Entwicklungsreihe interessirt mich die untere, worauf sich die Amerikanischen
+                    Sprachen nach Ihren Untersuchungen befinden. Diese Analyse, wenn sie jene
+                    einfache Ansicht vollständig ausdrückt, wird dem Sprachstudium seine höchste
+                    Richtung vorzeichnen und scheint mir eine der gehaltreichsten Entdeckungen. Ich
+                    weiss nicht, ob es der grossen Erweiterung der Naturstudien bedurfte, die in
+                    unsern Tagen mehr und mehr nach der Herrschaft reichen, um unter ähnlichen
+                    Gesichtspunkten die Sprachen zu erforschen, als Ew. Excellenz zu thun allein
+                    begonnen und in der That, soviel mir bekannt, allein seit einer Reihe von Jahren
+                    fortgesetzt haben, so fortgesetzt, dass nunmehr das Ziel und die Bahn, welche
+                    hinführt, bereits jedermann deutlich genug ist. Ich muss mit aller Offenheit und
+                    Wahrheit sagen, dass eine grössere Klarheit und Bestimmtheit eines
+                    wissenschaftlichen Grundrisses mir nicht möglich scheint, als welche die
+                    Vorlesung auszeichnen. Man sieht an jedem Zuge, dass die Idee aus der schon
+                    erschöpften Erfahrung abgeleitet ist, dass es nicht gilt Untersuchungen
+                    vorzuzeichnen und anzukündigen, denen das wirkliche Studium leicht eine ganz
+                    andre, als die in der Idee Gefasste Gestalt geben könnte. Eine solche Forschung
+                    muss auch ausser dem Resultat an sich wohlthätig wirken in einer Zeit, wo noch
+                    immer viele Starrheit der Schule, besonders der philologischen, mit dem losesten
+                    Sophistengeschwätz und einem eitlen Dreyfussreden, auch über historische Dinge,
+                    Urzeit, Ursprachen u. dergl. neben einander sich breit machen und Umfang im
+                    Bunde mit Gründlichkeit so wenig von den Peinlichen wie von den Geistreichen
+                    gesucht und geschätzt wird. Als ich die Abhandlung über Sprachvergleichung las,
+                    giengen mir die Begriffe, wovon sie handelt, unvermerkt ins Wesenhafte,
+                    Anschauliche über; Wort, Rede u.s.w. schienen mir wie Gespenster hervorcitirt.
+                    Die Entwicklung ist reich an Ideen und Bemerkungen, die mir bey der Reflexion
+                    sogleich als völlig neu erschienen, und von Anfang wirken sie fast wie bekannt,
+                    wenn man mit den früheren Gedanken vertraut ist, woraus sie erwachsen sind. So
+                    natürlich ist die Entwicklung und so innig die Ideenverbindung. Vorzüglich hat
+                    die Ansicht von der organischen Einheit und Gleichzeitigkeit der Sprache mir
+                    eine wahre Freude gemacht. Ideen aus Natur oder Geschichte herorgezaubert und
+                    einfach hingestellt vermögen eben so wohl ein eigentliches Vergnügen zu erwecken
+                    als ästhetische Vorstellungen. Die mechanische Erklärung der Sprachbildung darf
+                    indessen am wenigsten verwundern, da sie in andern Bezirken so stetig und
+                    mühselig erfolgt und ausgebildet worden ist, wo es ungleich leichter scheint,
+                    die wahre Natur des Entwicklungsgesetzes zu erblicken. Am grellsten vielleicht
+                    erscheint dieser Irrthum, und mir, muss ich gestehn, bis zum Komischen, in Bezug
+                    auf die Entstehung der bildenden Kunst, wo man seit <persName ref="jjwinckelmann">Winckelmann</persName> her sich vorgesagt hat, wie aus Säule, Kopf, Armen,
+                    Beinen nach und nach eine menschliche Figur zu bilden sey entdeckt worden,
+                    während alle Nachahmung doch offenbar mit dem Ganzen anfängt. Interessanter ist
+                    es die mechanische Erklärung aus der Geschichte der Poesie zu vertreiben,
+                    besonders aus der Griechischen Litteraturgeschichte, wo das Successive der
+                    Arten, in der Weise wie es gewöhnlich angenommen, gewiss nicht minder falsch
+                    ist.</p>
+            <p>Ich bin diessmal so frey, Ew. Excellenz einen kleinen Aufsatz
+                        beyzuschliessen,<note type="footnote" resp="editor">Es handelt sich hierbei
+                        um einen Aufsatz, der während der nächsten beiden Jahre zu Welckers großem
+                        Prometheus-Werk (<bibl sameAs="759">
+                     <hi rend="italic">Die Aeschylische
+                                Trilogie Prometheus und die Kabirenweihe zu Lemnos, nebst Winken
+                                über die Trilogie des Aeschylus überhaupt</hi>
+                  </bibl>, Darmstadt:
+                        Leske 1824) erweitert werden sollte. Siehe hierzu die Anmerkung Welckers,
+                        zitiert bei Haym 1859, S. 55: "Ein auch in der
+                        Dedication der Trilogie Prometheus, Darmstadt 1824 an <persName ref="gldissen">Professor Dissen</persName> in <placeName ref="Göttingen">Göttingen</placeName> erwähnter handschriftlicher Aufsatz, der schon in
+                            <placeName ref="Gießen">Giessen</placeName> (wo auch die <bibl sameAs="1061">Uebersetzung der Wolken und der Frösche</bibl> aus zwei
+                        Vorlesungen hervorgegangen war) als Einleitung zu einer Vorlesung
+                        geschrieben worden war, und dessen zufällige Mittheilung von Bonn aus an
+                            <persName ref="gldissen">Dissen</persName> die Bekanntmachung, die er
+                        anrieht, veranlasst hat; unter dem Druck dehnte dann die Untersuchung sich
+                        auf die sämmtlichen Ueberreste des Aeschylus aus." [FZ]</note> der, wenn er
+                    auch Ihre gegenwärtigen, ohne Zweifel äusserst emsigen Studien ein Stündchen
+                    unterbricht, doch vielleicht an frühere Beschäftigungen Sie nicht unangenehm
+                    erinnert. Ich schrieb ihn vor zwey Jahren bey Gelegenheit einer Vorlesung, und
+                    habe ihm wenigstens für jetzt die etwas schwerfällige analytische oder
+                    demonstrirende Form gelassen. Auch <persName ref="cvh1">Ihre Frau
+                        Gemalin</persName> würde ich bitten die Blätter zu lesen, wenn sie sich vor
+                    der etwas dicken Schale, unter welcher diese Art Früchte erwachsen, nicht
+                    scheut. Sehr lieb würde es mir seyn, wenn Sie mir gelegentlich Ihre Ansicht über
+                    die Wahrheit oder Zweifelhaftigkeit der Hauptsache zu äussern die Güte haben
+                    wollten. Es beschäftigt mich diesen Winter über wieder, so viel es bey
+                    ungewöhnlich vielen und verschiedenartigen Abhaltungen möglich ist, die
+                    Geschichte der griechischen Poesie, bis hierher die vorhomerischen Sagen- und
+                    Dichtungskreise und Homer selbst. Was ich früher gegen Wolfische und verwandte
+                    Meynungen zusammengestellt hatte, hat sich mir nur bewährt, und es wäre mir sehr
+                    angenehm, wenn die Umstände mir gestatten wollten, diess alles dem Publicum
+                    vorzulegen, nicht um durch neue Ansichten Aufsehn zu erregen, da ich vielmehr
+                    durch Verketzerung und äusserliche Interessen eher fürchten darf verunglimpft zu
+                    werden als Dank und Lob zu erndten, sondern damit ich aus der Wirkung auf ein so
+                    vielfach <sic>gerrüstetes</sic> gelehrtes Publicum als man bei dieser Materie
+                    hat, so viel berichtigendes oder vervollständigendes abnehmen könnte, um einer
+                    Darstellung, die so sehr auf hypothetischen Vorstellungen mit beruht, eine
+                    bleibendere Haltbarkeit und eine gewisse Gediegenheit zu sichern. Ueber
+                    Religion, Posie und Kunst der Griechen in drey in einander greifenden Büchern zu
+                    schreiben, ist endlich zum festen Plan bey mir gediehen und die meisten Parthien
+                    von allen dreyen sind auch schon bearbeitet. Aber wie viel mehr bleibt übrig zu
+                    thun, wenn man sich auch nur aufgiebt, die Abschnitte, welche nach den
+                    Grundansichten am meisten ineinander gehn und am wichtigsten sind, mit gehöriger
+                    Sorgfalt und Ausführlichkeit zu behandeln. Die Kunst würde ich zuletzt
+                    vornehmen; auf die Religion war lange Zeit ausschliessend mein litterarischer
+                    Plan gerichtet. Theils die Vorlesungen aber, für die ich in späteren Jahren um
+                    so eifriger gearbeitet habe, als ich sie in den ersten weit zu leicht genommen
+                    hatte, theils die Natur der Sache, die innere Wechselabhängigkeit, welche bey
+                    der Ausführung immer stärker hervortrit, haben mich unvermerkt zu einem seines
+                    Umfangs wegen misslichen Unternehmen hingetrieben. Diesen Winter habe ich eine
+                    dritte Vorlesung, die als ein akademischer Luxus betrachtet werden kann und mir
+                    zeitspieliger geworden ist, als ich dachte: über Inschriften nehmlich, welche
+                    ich in engster Verbindung mit Paläographie, übrigens gleichsam zur Ergänzung der
+                    Litteraturgeschichte und mehr im umfassenden Grundriss, als nach der Methode der
+                    bisherigen unverhältnissmässigen Bearbeitung zu behandeln gedenke. Bey dieser
+                    Vorlesung wird mir die grosse Ehre zu Theil, <persName ref="awschlegel">Schlegel</persName> zum Zuhörer zu haben. Für die allgemeine Geschichte der
+                    Schrift ist mir die sprachliche Stellung, welche Sie den Turdetanern gegeben
+                    haben, von gutem Gebrauch gewesen.<note type="footnote" resp="editor">Dies
+                        bezieht sich wohl auf Humboldt Aussage in der <hi rend="italic">Prüfung der Untersuchungen
+                        über die Urbewohner Hispaniens vermittelst der Vaskischen Sprache</hi>, Berlin:
+                        Dümmler 1821, S. 132f. Anm. 103. [FZ]</note> Das Alterthum der Sprache beglaubigt die Nachricht von
+                    ihrer Litteratur und γραμματική. Wenn ohne Schrift nirgends eine eigentliche,
+                    bedeutende Poesie ist, so dürfen um so eher Iberische Runen angenommen werden,
+                    welche (für uns) in Reihe und Glied treten mit den Germanischen, mit der
+                    Aegyptischen und Phönikischen Schrift, und mit den
+                    Skythisch-Thrakisch-altgriechischen Runen, welche mit dieser nur vertauscht
+                    worden zu sein scheint. Die Gründe für das letztere habe ich mich begnügt
+                    zusammen zu ordnen, ohne zu entscheiden, wie man über viele Fragen in dieser
+                    Sache bis jetzt noch unentschieden bleiben darf. Die <persName ref="gzoega">Zoega</persName>schen <bibl sameAs="1328">Ansichten</bibl> erscheinen mir
+                    mehr als früher unrichtig; und besonders stören auch hier seine philosophischen
+                        Grundansichten.<note type="footnote" resp="editor">Welcker veröffentlichte
+                        eine Biographie Zoëgas: Friedrich Gottlieb Welcker (1819): <hi rend="italic">Zoega’s Leben. Sammlung seiner Briefe und Beurtheilung seiner
+                            Werke</hi>, Stuttgart/Tübingen: J. G. Cotta. [FZ]</note> Wenn Ausbildung
+                    des Denkens zur Entwicklung des Menschen gehört, wenn geordnetes und
+                    zusammenhängendes Denken ohne Befestigung des Wortes so wenig möglich ist, als
+                    einzelne Begriffe ohne Worte, so ist durch Instinct die Menschheit getrieben,
+                    Zeichen für Worte zu setzen – das Wort, gleichsam als Product und Wesen, wird in
+                    den allgemeinen Nachahmungstrieb aufgenommen. Keine Erfindung ist an sich
+                    staunenswerth, wenn die Natur auf sie hintreibt; die Mittel, die der Witz
+                    ausfindet, sind dann mittelbar doch eingeboren. Wenn also die Alphabete dahin
+                    führen, autochthonische Schriften anzunehmen, so finde ich nichts befremdliches
+                    darin, und der Uebergang von den Bildern ist nicht blos zweifelhaft, sondern
+                    auch unnöthig.</p>
+            <p>[Leitzmann] Für die Güte, welche Ew. Excellenz für <persName ref="cschwenck">meinen Freund Schwenck</persName> gehabt haben, bin ich Ihnen die größte
+                    Dankbarkeit schuldig.<note type="footnote" resp="editor">Siehe den <ref type="link" target="1063">Brief
+                        Humboldts</ref> vom <date when="1821-11-06">6. November 1821</date>. [FZ]</note> Das <orgName ref="15">Ministerium</orgName> hat seitdem Geneigtheit geäußert, ihn anzustellen,
+                    und mich zu einem Gutachten über ihn besonders veranlaßt. Diese Aussicht hat auf
+                    seine Gesundheit und Stimmung sehr gut gewirkt.</p>
+            <closer>
+               <salute>An die theuren Ihrigen bitte ich meine besten Empfehlungen und Grüße.
+                        Mit aufrichtigster Verehrung Ew. Excellenz<lb/>treu ergebenster</salute>
+               <signed>FGWelcker.</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>Auch dem <persName ref="fawolf">Geheimen Rath Wolf</persName> bitte ich meine
+                        Empfehlung zu sagen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

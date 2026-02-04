@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- in Bearbeitung von CL, 27. Febr. 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 02.11.1832<idno type="BBAW">281</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 50–53</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 216</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ccoleman">
+                  <persName>Coleman, Charles</persName>
+               </person>
+               <person corresp="jarbentrecasteaux">
+                  <persName>Entrecasteaux, Joseph-Antoine-Raymond Bruny
+                    d’</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="emoor">
+                  <persName>Moor, Edward</persName>
+               </person>
+               <person corresp="erenaudot">
+                  <persName>Renaudot, Eusèbe</persName>
+               </person>
+               <person corresp="eperossel">
+                  <persName>Rossel, Élisabeth-Paul-Édouard de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="34">Asiatic Researches; Or, Transactions of the Society, Instituted in
+                    Bengal, for inquiring into the history and antiquities, the arts, sciences, and
+                    literature of Asia (Calcutta / London: 1788–1839)</bibl>
+               <bibl corresp="91">Coleman, Charles: The Mythology of the Hindus, with Notices of
+                    various Mountain and Island Tribes, inhabiting the two Peninsulas of India and
+                    the neighbouring Islands (London: Parbury, Allen, and Co. 1832)</bibl>
+               <bibl corresp="105">Entrecasteaux, Antoine Raymond Joseph de Bruni d’ / Rossel,
+                    Elisabeth Paul Édouard: Voyage de Dentrecasteaux, envoyé à la recherche de la
+                    Pérouse, Vol. 1–2 (Paris: L'Impremerie Impériale 1807–1808)</bibl>
+               <bibl corresp="960">Moor, Edward: [Srı̄ Sarva dev samā] The Hindu pantheon (London: J.
+                    Johnson 1810)</bibl>
+               <bibl corresp="905">Renaudot, Eusèbe (Hrsg.): Anciennes Relations des Indes et de la
+                    Chine de deux voyageurs mahométans [Aḫbār al-Ṣīn wa-l-Hind] et [Sulaimān et Abū
+                    Zaid Ḥasan ibn Yazīd] qui y allèrent dans le neuvième siècle; traduites d'arabe:
+                    avec des Remarques sur les principaux endroits de ces relations (Paris: Coignard
+                    1718)</bibl>
+               <bibl corresp="963">Renaudot, Eusèbe (Hrsg.): Ancient Accounts of India and China by
+                    two Mohammedan travellers who went to those parts in the 9th century; translated
+                    from the Arabic (London: S. Harding 1733)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz beyde letzte gnädige Schreiben, vom 29ten
+                        v.M. und von gestern habe ich erst heute früh um 10 Uhr empfangen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcebuschmann">Buschmann, Johann Karl Eduard</persName>
+               <date type="author" when="1832-11-02"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcebuschmann">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">27. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_105.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_106.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_107.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_108.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_109.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_110.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_111.jpg"/>
+      <graphic url="Buschmann/Buschmann-WvH_1832-11-02/Coll.ling.fol.53_112.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="50r vacat"/>
+               <lb/>
+               <pb n="50v"/>
+               <address>
+                  <addrLine>Sr. Excellenz</addrLine>
+                  <addrLine>dem Herrn Geheimen Staatsminister</addrLine>
+                  <addrLine>Freyherrn von Humboldt</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Tegel">Tegel</placeName>.</addrLine>
+               </address>
+               <lb/>
+               <lb/>Anbey <lb/>drey Bücher.<lb/>
+               <lb/>
+               <pb n="51r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>beyde letzte gnädige Schreiben, vom <date when="1832-10-29">29<hi rend="superscript">
+                     <hi rend="underline2">ten</hi>
+                  </hi> v. M.</date> und von <date when="1832-11-01">gestern</date>, habe ich erst heute früh um 10 Uhr
+                    empfangen, nachdem ich schon die Ehre gehabt hatte, Ihnen heute ganz früh zu
+                    schreiben. Ew. Excellenz bescheinige ich den richtigen Empfang der Anweisung für
+                    den Monat November, und fühle mich gedrungen, Ihnen meinen tiefsten Dank dafür
+                    zu sagen.</p>
+            <p>Ew. Excellenz empfangen anbey den 15<hi rend="superscript">
+                  <hi rend="underline2">ten</hi>
+               </hi> Band der <hi rend="antiqua">
+                  <bibl sameAs="34">Asiatic researches</bibl>
+               </hi>, und den <hi rend="antiqua">
+                  <persName ref="erenaudot">Renaudot</persName>
+               </hi>; die <orgName ref="1">Bibl.</orgName> besitzt noch ein Exemplar dieser <bibl sameAs="905">französischen Ausgabe</bibl>, mit handschriftlichen Bemerkungen <hi rend="antiqua">
+                  <persName ref="jhklaproth">Klap</persName>
+               </hi>-<pb n="51v"/>
+               <hi rend="antiqua">
+                  <persName ref="jhklaproth">roth</persName>’s</hi>, nur
+                    habe ich es noch nicht finden können; die <bibl sameAs="963">englische
+                        Ausgabe</bibl> ist auch da.</p>
+            <p>Daß es auch von <persName ref="eperossel">Rossel</persName> Wörtersammlungen aus
+                    der Sprache der Austral-Neger gebe, möchte ein Irrthum seyn, der darauf beruht,
+                    daß <hi rend="antiqua">
+                  <persName ref="jarbentrecasteaux">Dentrecasteaux</persName>’s</hi> Werk von
+                        <hi rend="antiqua">
+                  <persName ref="eperossel">Rossel</persName>
+               </hi>
+                    herausgegeben ist. Der Titel ist nämlich: <hi rend="antiqua">
+                  <bibl sameAs="105">Voyage de Dentrecasteaux envoyé à la recherche de la
+                            Pérouse, rédigé par</bibl> <persName ref="eperossel">M. de
+                            Rossel</persName>, Tome 1. 2. Paris 1808. 4°.</hi> Etwas von <hi rend="antiqua">
+                  <persName ref="eperossel">Rossel</persName>
+               </hi> selbst ist wenigstens nicht auf der <orgName ref="1">Bibliothek</orgName>.</p>
+            <p>Ew. Excellenz wünschen die Seitenzahl der Stelle zu erfahren, wo in diesem <bibl sameAs="105">Reisewerke</bibl> eine Wörtersammlung aus der Sprache der Papua
+                    sich befindet. Ich finde diesen Namen selbst nicht im Buche. Im ersten Bande
+                    (der zweyte enthält nur astronomische Beobachtungen) befinden <pb n="52r"/> sich
+                    nur Hauptwortverzeichnisse; das französische, alphabetisch geordnet, voran:</p>
+            <p>1, Sprache der Völker von <placeName ref="Tasmanien">Van Diemensland</placeName>,
+                    Seite 552–556.</p>
+            <p>2, Sprache der <placeName ref="Tonga">Freundschafts-Inseln</placeName> S.
+                    557–572. – Auf S. 572. finden sich 7 Wörter der Fidgi-Sprache.</p>
+            <p>3, Sprache von <placeName ref="Neukaledonien">Neu-Caledonien</placeName> <subst>
+                  <del>573–584</del>
+                  <add>573–583</add>
+               </subst>. – Hierbey (S. 583.) heißt es: „von den Inseln <hi rend="antiqua">Hohona</hi>
+               <!-- Neuseeland? --> kamen einige Leute an Bord der <hi rend="antiqua">Recherche</hi>, während sie im Hafen von <hi rend="antiqua">
+                  <placeName ref="Balade">Balade</placeName>
+                  <!-- Neukaledonien! -->
+               </hi> lag; sie sprechen beynahe dieselbe Sprache als die Einwohner der
+                        <placeName ref="Tonga">Freundschafts-Inseln</placeName>.“ – S. 584. kommt
+                    dann ein Verzeichniß von 13 Wörtern aus der Sprache der Inseln <hi rend="antiqua">Hohona</hi>.</p>
+            <p>4, Sprache der Insel <hi rend="antiqua">
+                  <placeName ref="Waigeo">Waigiou</placeName>
+               </hi> S. 585–589. Nach dem Verzeichniß heißt es (S. 589.): „<hi rend="antiqua">Pendant</hi>
+               <pb n="52v"/>
+               <hi rend="antiqua">notre séjour dans le havre de <placeName ref="Boni (Waigeo)">Boni</placeName>, nous avons vu des étrangers qui parloient un langage
+                        différent de celui des habitans de <placeName ref="Waigeo">Waigiou</placeName>. … Nous avons jugé quils venoient de la
+                        Nouvelle-Guinée, ou de quelques-unes</hi> (pag. 590.) <hi rend="antiqua">des
+                        îles voisines.</hi>“ – S. 590. kommt nun ein Wortverzeichniß aus ihrer
+                    Sprache (das aber nicht über S. 590. hinausgeht). – Nirgends sonst in diesem
+                    Theile ist ein Wörterverzeichniß, und in den kurzen Erklärungen vor den
+                    Verzeichnissen habe ich den Namen <hi rend="antiqua">Papua</hi> noch nicht
+                    entdeckt; sollte es das obige <hi rend="antiqua">Hahona</hi> seyn? –</p>
+            <p>Der vollständige Titel des Buches von <hi rend="antiqua">
+                  <persName ref="ccoleman">Coleman</persName>
+               </hi> ist: <hi rend="antiqua">
+                  <bibl sameAs="91">The mythology of the Hindus, with notices of various
+                            mountain and island tribes, inhabiting the two peninsulas of
+                            India</bibl>
+               </hi>
+               <pb n="53r"/>
+               <hi rend="antiqua">
+                  <bibl sameAs="91">and the neighbouring islands; and an appendix comprising the
+                            minor Avatars, and the mythological and religious terms of the Hindus.
+                            With plates, illustrative of the principal Hindu Deities &amp;c.</bibl>
+                        By <persName ref="ccoleman">Charles Coleman</persName>. London 1832. 1 Vol.
+                        4°.</hi> – <hi rend="antiqua">Pag.</hi> 184–212 handelt von Buddha, von da
+                    bis <hi rend="antiqua">pag.</hi> 219 über den Buddha von Nepal und den von
+                        <placeName ref="Tibet">Tibet</placeName>; eine Platte ist dabey mit
+                    verschiedenen Formen buddhistischer Tempel. – <hi rend="antiqua">pag.</hi>
+                    343–346 handelt über die <hi rend="antiqua">Bugis</hi> und <hi rend="antiqua">Macassars</hi>, <hi rend="antiqua">pag.</hi> 348–349 über die <hi rend="antiqua">
+                  <placeName ref="Bali">Bali</placeName>nesen</hi>, <hi rend="antiqua">pag.</hi> 349–360 über <hi rend="antiqua">
+                  <placeName ref="Java">Java</placeName>
+               </hi>, <hi rend="antiqua">pag.</hi> 360–368 über <hi rend="antiqua">
+                  <placeName ref="Sumatra">Sumatra</placeName>
+               </hi>, die <hi rend="antiqua">Bataks</hi>. – Der im Titel erwähnte <hi rend="antiqua">Appendix</hi> ist ein alphabetisches Verzeichniß namentlich
+                    von Götternamen, von <hi rend="antiqua">pag.</hi> 373–401, zusammen etwa 600
+                    Artikel, mit kurzer Erklärung und oft Anzeige der Seite des Buchs.</p>
+            <p>
+               <pb n="53v"/> Das <hi rend="antiqua">
+                  <bibl sameAs="960">Pantheon</bibl>
+               </hi> von <hi rend="antiqua">
+                  <persName ref="emoor">Moor</persName>
+               </hi> empfangen Ew. Excellenz auch anbey. Hochdieselben werden aber wohl
+                    geneigte Nachsicht mit mir haben, daß ich, wegen dieser Nachsuchungen, mit der
+                    Durchsicht der holländischen Sachen heute nicht werde fertig werden. Leider ist
+                        <date when="1832-11-03">morgen</date>, wie alle Sonnabend, die <orgName ref="1">Bibliothek</orgName> am Nachmittag zu, und ich werde erst am <date when="1832-11-05">Montag</date> Nachmittag wieder zum arbeiten kommen.</p>
+            <closer>
+               <salute>Genehmigen Hochdieselben die Ausdrücke tiefster Ehrfurcht und
+                        Ergebenheit, womit ich verharre <lb/>Ew. Excellenz <lb/>unterthänigster
+                        Diener,</salute>
+               <signed>
+                  <hi rend="antiqua">Buschmann.</hi>
+               </signed>
+               <lb/>
+               <dateline>Berlin 2 Nov. 1832. <lb/>Nachmittags halb 4 Uhr.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

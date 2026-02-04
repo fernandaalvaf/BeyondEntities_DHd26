@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 11.03.1823<idno type="BBAW">94</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 15. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 28</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7276</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ghbernstein">
+                  <persName>Bernstein, Georg Heinrich</persName>
+               </person>
+               <person corresp="ahamilton">
+                  <persName>Hamilton, Alexander</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="572">Bernstein, Georg Heinrich: Hitopadaesi particula edidit et
+                    glossarium Sanscrito-Latinum (Breslau: Graß &amp; Barth 1823)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London
+                    1810)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bitte Ew. Wohlgebohren, Herrn Bernstein …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-03-11"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="95" type="next">16.03.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="en">Englisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 29. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1823_03_11/NDIGRKP004565_0312.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_03_11/NDIGRKP004565_0313.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1823_03_11/NDIGRKP004565_0314.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich bitte Ew. Wohlgebohren, <persName ref="ghbernstein">Herrn <hi rend="antiqua">Bernstein</hi>
+               </persName> meinen lebhaften Dank abzustatten, u. ihm zu sagen, wie sehr mich
+                    sein <bibl sameAs="572">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> gefreut hat. Das Aeußere könnte nicht angenehmer seyn. Es dürfte selbst
+                        <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegels</hi>
+               </persName> Neid erwecken.<note type="footnote" resp="editor">Zu Bernsteins und
+                        Schlegels Devanagari-Drucktypen vgl. den Brief Schlegels an Colebrooke vom
+                        1. Juli 1823: Rosane Rocher / Ludo Rocher (2013): <hi rend="italic">Founders
+                            of Western Indology. August Wilhelm von Schlegel and Henry Thomas
+                            Colebrooke in Correspondence 1820–1837</hi>, Wiesbaden: Harrassowitz, S.
+                        76f. mit Anm. 191. 192. [FZ]</note> Ich wünschte nur den Zeilen etwas mehr
+                    Abstand.</p>
+            <p>Auch die Wahl der Lesarten hat mir beim Durchblättern sehr verständig geschienen.
+                    Die eigenmächtige Aenderung Note 1. S. 8. halte ich für vollkommen richtig. Der
+                        <hi rend="antiqua">Locativus</hi> könnte nur füglich stehen, wenn das letzte
+                    Element des Worts ein <hi rend="antiqua">Substantivum</hi> wäre. So nimmt es
+                        <persName ref="ahamilton">
+                  <hi rend="antiqua">Hamilton</hi>
+               </persName>, indem er das <hi rend="antiqua">Compositum</hi> ein <term type="morph" ref="012">
+                  <hi rend="antiqua">tatpurusha</hi>
+               </term> nennt, übersetzt doch aber nicht <hi rend="antiqua">in the
+                        privation</hi>, sondern <hi rend="antiqua">in being deprived</hi>, u. giebt
+                    auch <foreign sameAs="sa" n="transEd">hīna<graphic url="Bopp/WvH-Bopp_1823_03_11/0635.svg"/>
+               </foreign> ganz richtig als <hi rend="antiqua">Participium</hi> an, wo nun aber
+                    ein Widerspruch mit seinem obigen Kunstausdruck entsteht. Das Wort ist offenbar
+                    ein <term type="morph" ref="007">
+                  <hi rend="antiqua">Bahuvrihi</hi>
+               </term>. Gewundert hat mich S. 3. die Schreibart <foreign sameAs="sa" n="transEd">hitopadeśoyaṃ<graphic url="Bopp/WvH-Bopp_1823_03_11/0636.svg"/>
+               </foreign>. Wollte er nicht mit der <bibl sameAs="610">
+                  <hi rend="antiqua">Londoner</hi> Ausgabe</bibl> – <foreign sameAs="sa" n="transEd">śāyaṃ<graphic url="Bopp/WvH-Bopp_1823_03_11/0637.svg"/>
+               </foreign> setzen, so mußte es – <foreign sameAs="sa" n="transEd">śo<graphic url="Bopp/WvH-Bopp_1823_03_11/0638.svg"/>
+               </foreign> = <foreign sameAs="sa" n="transEd">yaṃ<graphic url="Bopp/WvH-Bopp_1823_03_11/0639.svg"/>
+               </foreign> heißen, wie er auch sonst (S. 10. Z. 8.) schreibt. Die von ihm
+                    gewählte Schreibart findet sich freilich in gedruckten <pb n="2*"/> Büchern, hat
+                    doch aber wohl keine Regel für sich und taugt wenigstens für Anfänger nicht, die
+                    verleitet werden, eine Zusammensetzung von <foreign sameAs="sa" n="transEd">a<graphic url="Bopp/WvH-Bopp_1823_03_11/0640.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">u<graphic url="Bopp/WvH-Bopp_1823_03_11/0641.svg"/>
+               </foreign> zu suchen.</p>
+            <p>Es ist mir überaus lieb gewesen, nach langer Zeit einmal wieder einige <hi rend="antiqua">Sanskrit</hi>buchstaben mit Ew. Wohlgeb. zu wechslen. Ich
+                    hoffe gewiß, in Kurzem unsere Lesungen wieder anzufangen, wenn Sie Ihre
+                    freundschaftliche Güte fortsetzen wollen.</p>
+            <closer>
+               <salute>Mit herzlicher Hochachtung <lb/>der Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>11.<note type="footnote" resp="editor">Lefmann 1897: 11. März 1823.</note>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat"/>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor Bopp</hi>,</addrLine>
+                  <addrLine>Wohlgeb.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

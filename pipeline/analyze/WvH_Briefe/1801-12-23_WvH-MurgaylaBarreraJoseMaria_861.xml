@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an José María de Murga y la Barrera, 23.12.1801<idno type="BBAW">861</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Zuletzt im Archiv von Murga in Xemein in Markina (siehe
+                            Gárate 1934, S. 430)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Gárate 1934, S. 626–629</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8819</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aischylos">
+                  <persName>Aischylos</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="gkhecht">
+                  <persName>Hecht, Gottfried Konrad</persName>
+               </person>
+               <person corresp="karl4">
+                  <persName>Karl IV., König von Spanien</persName>
+               </person>
+               <person corresp="fmazarredo">
+                  <persName>Mazarredo, Francisco de</persName>
+               </person>
+               <person corresp="lgmazarredo">
+                  <persName>Mazarredo, Lope García de</persName>
+               </person>
+               <person corresp="jmazarredo">
+                  <persName>Mazarredo Salazar, José de</persName>
+               </person>
+               <person corresp="castruensee">
+                  <persName>Struensee, Carl August von</persName>
+               </person>
+               <person corresp="rurquijo">
+                  <persName>Urquijo, Rafael de</persName>
+               </person>
+               <person corresp="lvincke">
+                  <persName>Vincke, Ludwig Freiherr von</persName>
+               </person>
+               <person corresp="jjzalduaymurga">
+                  <persName>Zaldúa y Murga, Joaquina Josefa de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1195">Humboldt, Wilhelm von (1796 [1797]): Pindars neunte
+                        Pythische Ode. In: Die Horen, 2. Stück, 1797, S. 61–74 [= GS VIII, S.
+                        75–85]</bibl>
+               <bibl corresp="219">Humboldt, Wilhelm von (1799): Ästhetische Versuche. Erster
+                        Teil: Über Goethes Hermann und Dorothea, Braunschweig: Vieweg</bibl>
+               <bibl corresp="1438">Humbolt, Wilhelm von (1799): Rez.: Æsthétique. Wilhelm von
+                        Humboldt’s Aesthetische Versuche. Erster Band ueber Goethe’s Hermann und
+                        Dorothea. Braunschweig, bei Friedrich Vieweg dem aelteren, 1799. – Essais
+                        æthéstiques de M. Guillaume de Humboldt; première partie, sur l’Hermann et
+                        Dorothée de M. Goethe. A Brunswick, chez Frédéric Vieweg l’aîné, 1799;
+                        in-8.°. In: Magasin encyclopédique ou journal des sciences, des lettres et
+                        des arts 5, 5, S. 44–65. 214–238. (= „Selbstanzeige der Schrift über Hermann
+                        und Dorothea“)</bibl>
+               <bibl corresp="201">Humboldt, Wilhelm von (1816): Aeschylos Agamemnon metrisch
+                        übersetzt, Leipzig: Gerhard Fleischer d. J.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je prens la liberté, mon digne et respectable ami, de
+                    Vous adresser par ces ligne …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1801-12-23"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jmmurga">Murga y la Barrera, José María de</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="427">24.09.1801</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">12. März 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <address>
+                  <addrLine>A Monsieur,</addrLine>
+                  <addrLine>Monsieur Joseph Maria de Murga,</addrLine>
+                  <addrLine>Député Général de la Province de Biscaye,</addrLine>
+                  <addrLine>avec un paquet</addrLine>
+                  <addrLine>Bilbao</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je prens la liberté, mon digne et respectable ami, de Vous adresser par ces
+                    lignes <persName ref="lvincke">Mr. le Baron de <hi rend="italic">Vincke</hi>
+               </persName>, Conseiller au service du <persName ref="fw3">Roi</persName>, et <persName ref="gkhecht">Mr. Hecht</persName>, chargés
+                    par notre gouvernement d’aller en Espagne pour y faire l’acquisition d’un
+                    certain nombre de béliers que <persName ref="karl4">S. M. le Roi
+                        d’Espagne</persName> a permis à notre gouvernement d’exporter. <persName ref="lvincke">Mr. de Vincke</persName> est mon ami depuis plusieurs années,
+                    il possède d’excellentes connaissances d’économie rurale et a voyagé en France
+                    et en Angleterre pour les étendre et les rectifier. Il compte après s’être
+                    acquité de sa commision faire une tournée par Votre péninsule et je me flatte
+                    d’avancer que son voyage ne sera pas moins utile pour les lettres que pour
+                    l’amélioration de nos laines. <persName ref="gkhecht">Mr. Hecht</persName> est
+                    également un homme fort instruit et qui s’occupe surtout de Botanique.</p>
+            <p>Leur commision leur permettra de faire un assez long séjour dans Votre ville
+                    puisque c’est là qu’ils doivent embarquer les béliers qu’ils auront achetés et
+                    Vous sentez Monsieur, de combien d’utilité Votre protection et Vos bontés
+                    pourraient leur être non seulement relativement à leur satisfaction personnelle
+                    mais encore pour leur commision.</p>
+            <p>
+               <persName ref="castruensee">Le Ministre</persName> qui chez nous est chargé de la
+                    partie de manufactures et d’Agriculture m’a prié instamment de faciliter à ces
+                    Messieurs leur voyage par les différents connaissances que je pourrais avoir
+                    faites pendant mon séjour en Espagne et j’ose réclamer pour celà toute l’amitié
+                    que Vous m’avez si souvent prouvée.</p>
+            <p>Je ne crains point, mon respectable ami, que la commision de <persName ref="lvincke">Mr. de Vincke</persName> choque Votre patriotisme. Quelque
+                    zelé qu’il soit, il est certainement trop éclairé pour vouloir borner les
+                    avantages de troupeaux améliorés à Votre seule patrie. Malgré tous nos soins
+                    nous ne parviendrons jamais à avoir des laines qui égalent les Vôtres et Vous
+                    jouissez d’un sol trop riche et d’un climat trop heureux pour nous envier le
+                    triste avantage d’avoir des laines un peu moins grossières. Enfin il serait
+                    certainement à savoir si l’Espagne ne se trouverait pas plus heureuse si elle
+                    était forcée en quelque façon de s’adresser d’avantage à l’Agriculture que dans
+                    le moment actuel elle sacrifie presqu’aux troupeaux. Mais je ne veux point
+                    m’embarquer dans une discussion qui m’entrainerait trop loin. J’aime mieux
+                    m’adresser à Votre bonté et Votre amitié seules et je désirerais seulement de
+                    pouvoir accompagner mes amis moi-même.</p>
+            <p>Je tâcherai, s’il est possible de Vous faire parvenir, puisque Vous le désirez
+                    ainsi, par eux <bibl sameAs="1438">une <hi rend="italic">brochure sur la
+                            poésie</hi>
+               </bibl> que j’ai fait imprimer <hi rend="italic">en
+                        Français</hi> étant à <placeName ref="Paris">Paris</placeName> et <bibl sameAs="1195">une Ode traduite en Allemand de Pindare</bibl>. J’ai encore
+                    écrit <bibl sameAs="219">
+                  <sic>une</sic> ouvrage en prose <hi rend="italic">sur
+                            les beaux arts en Allemand</hi>
+               </bibl> mais il Vous serait inutile et
+                        <bibl sameAs="1438">la <hi rend="italic">brochure Française</hi>
+               </bibl> en
+                    contient les idées les plus importantes. Veuillez la parcourir avec indulgence
+                    surtout pour le style. Ce que j’ai publié d’ailleurs soit en prose, soit en
+                    vers, comme quelques traductions de poètes grecs se trouve dispersé dans
+                    plusieurs journaux. <bibl sameAs="201">La traduction de la tragédie
+                        d’Eschyle</bibl> dont Vous voulez bien faire mention n’est pas imprimée
+                    encore. J’y mets encore la dernière main.<note type="footnote" resp="editor">Die
+                            <bibl sameAs="201">
+                     <hi rend="italic">Agamemnon</hi>-Übersetzung</bibl>
+                        erschien erst 1816. [FZ]</note>
+            </p>
+            <p>Je ne Vous ai parlé aujourd’hui que de mes amis, Monsieur. Ils vont par
+                        <placeName ref="Paris">Paris</placeName> et n’arriveront guère qu’au
+                    printemps chez Vous. Je Vous écrirai beaucoup plutôt une seconde fois et c’est
+                    alors que je Vous parlerai de l’interessant envoi que Vous avez bien voulu me
+                    faire, que j’ai reçu il y a quatre semaines à peu près et que j’étudie durant ce
+                    tems-ci. Je ne Vous en dis aujourd’hui que mes sincères remercîments.</p>
+            <p>Je ne saurais Vous dire Monsieur, combien je suis sensible à l’amitié que Vous
+                    voulez bien me vouer. Je parle souvent de Vous avec <persName ref="rurquijo">Urquijo</persName>, mais que ne donnerais-je pas pour Vous engager à faire
+                    un voyage en France et nous faire une visite alors ici. Vous ne laisseriez pas
+                    de trouver ici des objets intéressants et du moins trouveriez Vous un ami qui
+                    ferait tout au monde pour Vous rendre Votre séjour plus intéressant et plus
+                    agréable.</p>
+            <p>Veuillez rappeler mon souvenir à Messieurs <persName ref="lgmazarredo">D.
+                        Lope</persName> et <persName ref="fmazarredo">D. Francisco de
+                        Mazarredo</persName> et à <persName ref="jmazarredo">leur digne Oncle
+                        l’Amiral</persName> que j’ai eu l’honneur de voir de tems en tems à
+                        <placeName ref="Paris">Paris</placeName> et présentez mes respects à
+                        <persName ref="jjzalduaymurga">Madame de Murga</persName>.</p>
+            <closer>
+               <salute>Agréez du reste mon cher ami, l’assurance des sentiments d’estime et
+                        d’amitié avec lesquels je serai toujours<lb/>Votre<lb/>très humble
+                    serviteur<lb/>et fidèle ami</salute>
+               <signed>de Humboldt.</signed>
+               <lb/>
+               <dateline>à Berlin<lb/>le 23 Déc.<lb/>1801</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

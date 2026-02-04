@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 23.06.1829<idno type="BBAW">1082</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1908, S. 242–246</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12168</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+               <person corresp="ludwig1">
+                  <persName>Ludwig I., König von Bayern</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="514">Bopp, Franz: Ardschuna’s Reise zu Indra’s Himmel, nebst anderen Episoden des
+                    Maha-Bharata (Berlin: Königliche Akademie der Wissenschaften 1824)</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit, latine vertit et
+                    adnotationibus illustravit Franciscus Bopp (London u.a.: Cox and Baylis 1819)</bibl>
+               <bibl corresp="737">Heidelberger Jahrbücher der Literatur (1807–1872)</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="665">Schlegel, August Wilhelm von / Lassen, Christian: Hitopadesas id est Institutio
+                    Salutaris, Pars I (Bonn: Weber 1829)</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Vol. 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+               <bibl corresp="635">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de Ramae rebus gestis
+                    poetae antiquissimi Valmicis opus, Volume 2 (Bonn: sumtibus editoris 1832)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz bitte ich um Erlaubniß, auf Ihr gestern
+                        empfangenes gehaltreiches Schreiben vorläufig nur einiges erwiedern zu
+                        dürfen. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+               <date type="author" when="1829-06-23"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1105" type="next">03.07.1829</ref>
+               <ref target="1104" type="prev">16.06.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="bn">Bengali</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">24. Januar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Bonn den 23sten Junius 1829.</dateline>
+            </opener>
+            <p>Ew. Excellenz bitte ich um Erlaubniß, auf Ihr gestern empfangenes gehaltreiches
+                    <ref type="link" target="1104">Schreiben</ref> vorläufig nur einiges erwiedern zu dürfen. Ich habe eben eine sehr
+                    dringende Arbeit vor, worüber die Beantwortung, wenn sie ausführlich seyn
+                    sollte, gar zu lange verschoben bleiben könnte. </p>
+            <p>Ich werde gewiß nicht unterlassen, die Gründe für die neue Schreibung von neuem
+                    sorgfältig zu erwägen. Wäre ich aber noch so sehr von deren Statthaftigkeit und
+                    Zweckmäßigkeit überzeugt, so stände es nicht mehr in meiner Gewalt, sie in
+                    Ausübung zu bringen. <bibl sameAs="665">Mein Hitôpadêsa</bibl> ist gedruckt; vom
+                    Râmâyana ist der <bibl sameAs="634">erste Band</bibl> gedruckt, und wenn ich
+                    nun in dem <bibl sameAs="635">zweiten</bibl> die Methode plötzlich wechselte, so könnten die Leser mit
+                    Recht klagen, während das Töpferrad herumläuft, sey aus der <hi rend="italic">amphora</hi> ein <hi rend="italic">urceus</hi> geworden. Ferner möchte ich
+                    auch dem <bibl sameAs="634">Râmâyana</bibl> gern Eingang verschaffen. Es ist
+                    vorauszusehen, daß die Gelehrten in <placeName ref="London">London</placeName>,
+                        <placeName ref="Paris">Paris</placeName> und <placeName ref="Calcutta">Calcutta</placeName> sich gegen die Neuerung erklären werden. Ich bedarf
+                    aber einiges Absatzes, nicht um Gewinn zu haben, sondern nur um einen Theil der
+                    Kosten zu decken. Wenn dieß nicht erfolgt, so könnten leicht meine geringen
+                    Mittel erschöpft seyn, ehe ich das Werk zu Ende gebracht hätte. Die Subscription
+                    ist noch sehr kümmerlich, und jeder Band des <bibl sameAs="634">Râmâyana</bibl>
+                    kostet mir wenigstens 1000 Thaler. Alles zusammengenommen, Anschaffung kostbarer
+                    Bücher und Kunstsachen, Reisen, Unterstützung und Entschädigung meines
+                    Mitarbeiters, habe ich, mäßig angeschlagen, auf die Sanskrit-Studien schon über
+                    5000 Thaler verwendet.</p>
+            <p>Da die festere Gränzbestimmung der Worttrennung Ew. Excellenz Beifall nicht
+                    gewonnen hat, so thut es mir nun wirklich leid, daß ich nicht alles ohne
+                    Zwischenräume gedruckt habe. Bei dem schließenden <hi rend="italic">n</hi> habe
+                    ich <persName ref="classen">Herrn Lassens</persName> Meynung nachgegeben. Solche
+                    unmerkliche Schritte ließen sich wohl wieder zurück thun. </p>
+            <p>Darüber, daß wir die Sylbentheilung nicht beobachten, können wir uns, glaube ich,
+                    beruhigen. In den alten Inschriften ist sie stark bezeichnet, in den Devanagari
+                    Manuscripten meistens weit weniger, und in den Bengalischen fließt alles in
+                    einander.</p>
+            <p>Ew. Excellenz glauben bei mir eine feindselige Gesinnung gegen <persName ref="bopp">Herrn Bopp</persName> wahrzunehmen. Folgendes sind die Thatsachen.</p>
+            <p>Ich habe ihn in sehr früher Zeit dem jetzt regierenden <persName ref="ludwig1">Könige von Baiern</persName> zur Unterstützung in England angelegentlich
+                    empfohlen, und mit <persName ref="avh">Ihrem Herrn Bruder</persName>
+                    gemeinschaftlich etwas für ihn ausgewirkt; ich habe ihn in den <bibl sameAs="737">Heidelberger Jahrbüchern</bibl> dem Deutschen Publicum angekündigt, da
+                    noch niemand von ihm wußte; ich habe seinen <bibl sameAs="559">Nalus</bibl> mit
+                    Wärme aufgenommen, mit Nachdruck gelobt, und die Mängel nur leise berührt; ich
+                    habe seine Geschmacklosigkeit, seine holperichten Deutschen Verse, seine
+                    schülerhafte Latinität mit dem Mantel der Liebe bedeckt; ich habe ihm die
+                    Emendationen zum <bibl sameAs="559">Nalus</bibl> mitgetheilt, und ihm sogar die
+                    Handschrift anvertraut; ich habe ihn in der Vorrede zum <bibl sameAs="634">Râmâyana</bibl> ehrenvoll erwähnt, und ihm das Werk selbst zeitig, ehe es
+                    in den Buchhandel kam, zugeschickt. Ich habe also vom Anfange an bis auf den
+                    heutigen Tag das zuvorkommendste Betragen gegen ihn beobachtet.</p>
+            <p>Dafür habe ich nun sehr schlechten Dank erlebt. Schon vor einer Anzahl Jahren hat
+                    er mir einen übeln Streich gespielt, den ich ihm, wie aus obigem genugsam
+                    erhellet, nicht nachgetragen. </p>
+            <p>Eine vertrauliche Mittheilung von Einwürfen, wenn sie auch ganz ungegründet
+                    wären, ist immer ein freundschaftliches Verfahren. Denn wäre die Absicht
+                    feindlich, so würde man mit dem Angriffe gleich öffentlich hervortreten, damit
+                    er den Gegner unvorbereitet träfe.</p>
+            <p>
+               <persName ref="bopp">Herr Bopp</persName> ist aber über die Nachweisung einiger
+                    Versehen in eine solche Entrüstung gerathen, er hat mir einen so ungehörigen
+                    Brief geschrieben, daß mir nichts übrig blieb, als die Fortsetzung des
+                    Briefwechsels höflich abzulehnen.</p>
+            <p>Jetzt da ich den vom <orgName ref="15">Ministerium</orgName> bewilligten Guß der
+                    kleinen Devanagari-Lettern verlange, bezeigt er sich äußerst ungefällig und legt
+                    mir Zögerungen und Hindernisse in den Weg.</p>
+            <p>Mein zweites Distichon besagt nichts weiter, als daß <persName ref="bopp">Herr Bopp</persName> einen ungültigen Sprachgebrauch zuweilen durch falsche
+                    Lesearten zu erweisen sucht. Davon liegen die Beispiele vor mir. Z. B. <bibl sameAs="514">Arjuna p <hi rend="italic">p.</hi> 77</bibl>. Übrigens sind wohl
+                    keine Epigramme unschuldiger als die in einer fremden Sprache, welche kaum ein
+                    Dutzend Menschen in Deutschland verstehen; vollends wenn sie nur vertraulich
+                    mitgetheilt werden. </p>
+            <p>
+               <persName ref="bopp">Herr Bopp</persName> hat allerdings grammatischen Sinn:
+                    wenn er nur die Indischen Grammatiker fleißiger studirt hätte, wenn er nicht
+                    immer Originalität anbringen wollte, wo sie nicht hingehört, so hätte er etwas
+                    recht gutes leisten mögen. Kritischer Sinn für die Unterscheidung des Ächten und
+                    Unächten oder Verfälschten mangelt ihm gänzlich. Deswegen macht er auch keinen
+                    Unterschied zwischen beglaubigten und unbeglaubigten Texten. In der
+                    Auslegungskunst ist er schwach. Z. B. in der Anmerkung über <foreign sameAs="sa">
+                  <hi rend="italic">ētāwat</hi>
+               </foreign> (<bibl sameAs="514">Arjun. <hi rend="italic">p.</hi> 109,
+                        110</bibl>.) thut er fast unglaubliche Fehlgriffe. Er will mit Unrecht <persName ref="cwilkins">Wilkins</persName> zurechtweisen, und entstellt ganz was
+                    dieser gesagt hatte. – Es wäre leicht, die Beispiele zu häufen.</p>
+            <p>Wenn mir wegen freimüthiger öffentlicher Äußerungen über das, was mir, in einem
+                    wissenschaftlichen Gebiet, irrig und verkehrt scheint, Eifersucht angeschuldigt
+                    wird, so muß ich es mir gefallen lassen. Mir ist schon manchmal schlimmeres
+                    begegnet. In diesem Falle wäre aber doch die Hypothese sehr unwahrscheinlich,
+                    theils wegen des oben angeführten, theils weil ich zur Ausführung meiner bösen
+                    Absichten fünf Jahre versäumt hätte. Ich hatte in der That wichtigeres zu
+                    thun.</p>
+            <p>Ich hoffe, Ew. Excellenz werden den unerfreulichen Inhalt dieses Briefes meinem
+                    lebhaften Wunsche, mich vor Ihnen zu rechtfertigen, zu gute halten. Es wäre
+                    freilich angenehmer, einem so überschauenden und tief eindringenden Geiste
+                    gegenüber sich mit würdigeren Gegenständen der Betrachtung zu beschäftigen.</p>
+            <p>Vielerlei Störungen lassen mich in meinen Arbeiten nicht so vorwärts kommen, wie
+                    ich wohl wünschte. Im Sommer strömen mir die Reisenden von allen Weltgegenden
+                    zu, und es wäre doch unfreundlich, sie an der Thür abzuweisen. Seit vier Jahren
+                    führe ich den Vorsitz in einem Verein für die Vergrößerung und Verschönerung der
+                    Stadt. Nun bin ich auch Mitglied des
+                    Municipal-Rathes geworden. Ich wollte es nicht ablehnen, in
+                    der Hoffnung, zuweilen etwas auch für die <orgName ref="12">Universität</orgName> ersprießliches zu fördern.</p>
+            <p>In den öffentlichen Blättern habe ich mich bisher vergeblich nach guten
+                    Nachrichten von <persName ref="avh">Ihrem Herrn Bruder</persName> umgesehen. </p>
+            <closer>
+               <salute>Ich schließe mit den herzlichsten Wünschen für die Fortdauer Ihrer
+                        Gesundheit, und bitte Ew. Excellenz den Ausdruck meiner unveränderlichen
+                        Gesinnungen zu genehmigen.</salute>
+               <lb/>Gehorsamst<signed>AWvSchlegel.</signed>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>Die Zeilen am Schlusse <ref type="link" target="1104">Ihres Briefes</ref> las ich mit inniger Rührung. Jedoch
+                        dünkt mich, bei dem Verluste des theuersten Gegenstandes liegt etwas
+                        tröstliches und linderndes in der Erinnerung der vollkommenen Harmonie,
+                        worin man gelebt hat. Wenn aber auf innige Gemeinschaft eine Trennung der
+                        Geister und Gemüther folgt, eine Spaltung, welche bis zum empörtesten
+                        Unwillen steigt, über die öffentliche Rolle, die der Andere spielt, über die
+                        Grundsätze, die er lehrt, über seine verwerflichen wiewohl ohnmächtigen
+                        Bestrebungen, Aberglauben und Geistesknechtschaft zu fördern; wenn in dieser
+                        Lage dann die letzte Trennung durch den Tod erfolgt: dann ist die Trauer
+                        zugleich unendlich schmerzlich und peinlich. Dieß war mein Fall mit <persName ref="fschlegel">meinem Bruder Friedrich</persName>. Verloren hatte ich
+                        ihn längst, und diese Wunde hat seit Jahren geblutet. So hat jeder seine
+                        eignen Leiden.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

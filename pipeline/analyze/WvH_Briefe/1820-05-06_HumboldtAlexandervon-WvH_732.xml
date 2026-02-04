@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 06. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 06.05.1820<idno type="BBAW">732</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S.
+                            77–79</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11602</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein zum</persName>
+               </person>
+               <person corresp="asouza">
+                  <persName>Asouza, Madame d’</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="drrochette">
+                  <persName>Rochette, Désiré Raoul</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="17">American Philosophical Society (Hrsg.): Transactions of the
+                        Historical and Literary Comittee of the American Philosophical Society held
+                        at Philadelphia, Volume 1 (Philadelphia: Abraham Small 1819)</bibl>
+               <bibl corresp="362">Rochette, Désiré-Raoul: Histoire critique de l'établissement
+                        des colonies grecques (Paris: Treuttel et Würtz 1815)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Je vois avec plaisir, mon très cher frère, que les Historical
+                    Transactions t’ont fait quelque plaisir …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1820-05-06"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="arb">Arabisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="gem">Germanische Sprachen</language>
+            <language ident="got">Gotisch</language>
+            <language ident="nah">Mexicanisch (Aztekisch, Nahuatl)</language>
+            <language ident="roa">Normand (frz. Dialekt)</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="sem">Semitische Sprachen</language>
+            <language ident="sla">Slawische Sprachen</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">06. Mai 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p> Je vois avec plaisir, mon très cher frère, que les <bibl sameAs="17">
+                  <hi rend="letterspace">Historical Transactions</hi>
+               </bibl> t’ont fait
+                    quelque plaisir. Le prétendu esprit philosophique du siècle rend malheureusement
+                    de tels ouvrages moins instructifs, qu’ils pourraient l’être. On cherche des
+                    bizarreries, on donne des résultats au lieu des matériaux solides bien plus
+                    dignes d’être publiés. Ce que tu dis de la régularité des langues, comme effet
+                    de la marche de l’esprit humain, est admirable. Je pense, qu’il y a deux genres
+                    d’influence d’une langue étrangère sur les <hi rend="letterspace">racines</hi>
+                    sans attaquer la structure ou sur la <hi rend="letterspace">structure</hi>, la
+                    flexion même. Le Persan est sur la limite du Sanscrit et des langues semitiques,
+                    comme l’anglais sur la limite des langues germaniques et du français (Roman).
+                    Comme le Sanscrit et le Semitique sont hétérogènes plus que l’eau et le feu, il
+                    n’y a qu’incorporation, mélange des racines. On ne donne pas de flexion (ou du
+                    moins dans des cas très rares) aux racines arabes. Au lieu de les terminer en
+                    idées, pour en faire des verbes on ajoute <foreign sameAs="fa">
+                  <hi rend="letterspace">sachten</hi>
+               </foreign>, <foreign sameAs="fa">
+                  <hi rend="letterspace">kerden</hi>
+               </foreign>, <foreign sameAs="fa">
+                  <hi rend="letterspace">rumuden</hi>
+               </foreign>, cette famille innombrable
+                    d’auxiliaires dont abonde le persan. Au lieu de ennuyiren, molestiren, on dit:
+                    ennuy <hi rend="antiqua">machen</hi>
+               <note type="footnote" resp="editor">In
+                        Fraktur.</note>, molestation <hi rend="antiqua">zeigen</hi>
+               <note type="footnote" resp="editor">In Fraktur.</note>. . . En anglais on fléchit
+                    les racines étrangères; et toutes celles qui ne tiennent pas au matériel de la
+                    vie, mais à un état de civilisation plus raffiné y sont dûes à l’Europe latine.
+                    L’influence étrangère a attaqué jusqu’à un certain point les formes
+                    grammaticales, mais aussi il y a moins loin du goth au français (normand) que du
+                    sanscrit aux langues semitiques. Il serait curieux d’analyser sous ce point de
+                    vue ce que les langues germaniques et slaves ont de commun, pourquoi les deux
+                    ressemblent au Sanscrit. L’influence des genres, ou plutôt de la vie, dans les
+                    formes du verbe. dont tu parles, est très curieuse. C’est une diablerie, ce me
+                    semble, des langues qui n’ont pas d’article et pas de genre. Tu sais qu’en
+                    Persan il y a un autre pluriel pour les choses <hi rend="letterspace">inanimées</hi>. Ce respect pour la vie est très remarquable. Je ne puis pas
+                    apprendre du sûr par <persName ref="asouza">Md. d'Asouza</persName>
+               <!-- nicht gefunden! ??? --> sur le x mexicain, p. e. <foreign sameAs="nah">xolitl</foreign> doit selon les Espagnols être prononcé comme jota. Si, dit
+                    on, les Espagnols n’avaient cru entendre ce son, pourquoi auraient-ils employé
+                    le x, qui si rarement en Espagnol est prononcé ks. J’ai oublié d’y penser dans
+                    le pays quand je me rappelle que les Espagnols ont fait de la province de
+                        <foreign sameAs="nah">Xoconochco</foreign>, <foreign sameAs="es">Soconusco</foreign>; <foreign sameAs="nah">Atlixco</foreign>, <foreign sameAs="es">Atlisco</foreign>; de <foreign sameAs="nah">Tlaxcallan</foreign>, <foreign sameAs="es">Tlascala</foreign>; <foreign sameAs="nah">Huaxtepec</foreign>, <foreign sameAs="es">Hustepec</foreign>;
+                    je commence à croire qu’il y a du s dans ce x.</p>
+            <p>D’un autre côté on dit <foreign sameAs="es">Chochimilco</foreign> et on a écrit
+                    de la conquête <foreign sameAs="nah">Xochimilco</foreign>, comme dès la conquête
+                    on a écrit <foreign sameAs="es">Cholula</foreign> et non <foreign sameAs="nah">Xolula</foreign>. Je crois, cher ami, qu’il serait bon que j’écrivisse
+                    moi-même au Mexique; cela ne doit pas t’arrêter à publier, mais il est toujours
+                    bon d’éclaircir cela et je voudrais que tu me misses par écrit en français <hi rend="letterspace">d’autres questions</hi> qui t’intéressent et que l’on
+                    peut résoudre sur les lieux. Les communications seront très faciles et promptes.
+                    Je te prie aussi de jeter les yeux sur <bibl sameAs="362">le mémoire</bibl>
+               <!-- evtl. "Mémoire sur les colonies grecques" gemeint; anschließend veröffentlicht unter dem Titel "Histoire critique..." (1815) [= ID 362]; oder doch anderes Werk gemeint?, passen würde hier z.B. auch "Mémoire sur une inscription grecque, trouvée près de Calamo, en Beotie : Lu le 6 juin 1817 [In: Mémoires de l'Institute Royal de France, Académie des inscriptiones et belles-lettres, Tome V, S. 337–385 (1821)]", online unter: http://babel.hathitrust.org/cgi/pt?id=nyp.33433009677521;view=1up;seq=18 -->
+                    de <persName ref="drrochette">M. Raoul Rochette</persName>, membre de <orgName ref="23">l’Institut</orgName> qui n’est pas sans intérêt. C’est la personne
+                    qui t’avait écrit une lettre très polie, pour te demander conseils sur son <bibl sameAs="362">livre sur les <hi rend="letterspace">Colonies
+                        grecques</hi>
+               </bibl>. C’était pendant la guerre. Tu ne lui as l’as répondu
+                    parce que tu n’as pas reçu la lettre. C’est un homme très vaniteux et je
+                    voudrais bien que quoiqu’il n’ait pas accompagné l’envoi cette fois-ci d’une
+                    lettre, que tu lui écrivisses, par amour pour moi, quelques lignes. Cela me
+                    serait très agréable si tu peux lui dire du bien de <bibl sameAs="362">son
+                        mémoire</bibl>
+               <!-- ID 362 oder anderes Werk? -->. Adieu cher cher ami. Mille tendres amitiés à
+                        <persName ref="cvh1">la mère</persName> et aux enfans.</p>
+            <closer>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Paris ce 6. Mai 1820. </dateline>
+            </closer>
+            <postscript>
+               <p>
+                  <persName ref="kskunth">Kunth</persName> est assez consolé si <persName ref="ksfaltenstein">Altenstein</persName> voulait seulement
+                        l’augmenter.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

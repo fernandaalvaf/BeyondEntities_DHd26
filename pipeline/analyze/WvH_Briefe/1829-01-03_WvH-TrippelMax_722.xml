@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Maximilian Trippel, 03.01.1829<idno type="BBAW">722</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Coll. ling. quart.
+                            30, "Vorsatzblatt" (eingelegter Bogen am Anfang des Bandes)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7964</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="mlacroze">
+                  <persName>Lacroze, Maturin Veyssière de</persName>
+               </person>
+               <person corresp="cscholz">
+                  <persName>Scholz, Christian</persName>
+               </person>
+               <person corresp="cgwoide">
+                  <persName>Woide, Charles Godfrey</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="448">Veyssière de la Croze, Mathurin (1775): Lexicon
+                        aegyptiaco-latinum ex veteribus illius linguae monumentis summo studio
+                        collectum et elaboratum a Maturino Veyssiere La Croze. Quod in compendium
+                        redegit, ita ut nullae voces aegytiacae, nullaeque earum significationes
+                        omitterentur, Christianus Scholtz. Notulas quasdam et indices adjecit
+                        Carolus Godofredus Woide, Oxford: Clarendon Press</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Die Handschrift welche Eu. die Güte gehabt haben mir zu schicken
+                    …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1829-01-03"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="mtrippel">Trippel, Maximilian</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="723" type="prev">30.12.1828</ref>
+               <ref type="next" target="724">10.01.1829</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Konzept in Schreiberschrift</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="">Ägyptisch</language>
+            <language ident="">Koptisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. November 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1; in der linken Spalte:"/>
+               <address>
+                  <addrLine>An Hr. <hi rend="antiqua">Max Trippel</hi> Wohl. in <hi rend="antiqua">Potsdam</hi>
+                  </addrLine>
+               </address>
+               <note type="footnote" resp="editor">Darunter unleserliche Zeichen in
+                        Kurzschrift(?).</note>
+               <lb/>
+               <dateline>Berlin. 3<hi rend="superscript">t</hi>
+                        Jan. 29</dateline>
+            </opener>
+            <p>Die Handschrift welche Eu. die Güte gehabt haben mir zu schicken scheint
+                    diejenige zu sein nach welcher <bibl sameAs="448">das gedruckte Koptische
+                        Lexikon</bibl> herausgegeben worden ist. Dies Lexikon ist nehmlich i. J.
+                    1775 in <placeName ref="Oxford">
+                  <sic>Oxfort</sic>
+               </placeName> herausgekommen und
+                    durch <persName ref="cscholz">Scholtz</persName> und <persName ref="cgwoide">Woide</persName> besorgt worden. Ursprünglich war es aber die Arbeit des
+                    damals längst verstorbenen <persName ref="mlacroze">La Croze</persName> der es
+                    schon im J. 1721. vollendet hatte. Die Jahrzahlen treffen genau überein. Denn
+                    die Handschrift ist von 1721. und in der gedruckten Ausgabe ist in der 1774.
+                    unterzeichneten Vorrede <pb n="2"/> gesagt, daß die <persName ref="mlacroze">La
+                        Croze</persName>sche Arbeit vor 53 Jahren gemacht worden sei. Die Vorrede
+                    der Handschrift Eu. p. ist in dem gedruckten Lexicon nicht abgedruckt, sie war
+                    aber schon viel länger ohne das Werk selbst in dem Brehmeschen Ephemeriden<note type="footnote" resp="editor">Gemeint ist damit die 1721 in Bremen
+                        erschienene <hi rend="italic">Bibliotheca
+                            Historico-Philologico-Theologica</hi>, Classis 5, Fasc. 4, Bremen: Typis
+                        Hermanni Braueri, <ref type="linkExt"
+                       target="https://brema.suub.uni-bremen.de/content/pageview/1492969">S.
+                            745–753</ref>; zu dem Begriff "Brehmesche Ephemeriden" vgl. die Angabe
+                        "Éphémérides de Brême" bei J.-M. Quérard (1830): <hi rend="italic">La France littéraire, ou Dictionnaire bibliographique</hi>, Tome 4, <ref type="linkExt"
+                       target="https://books.google.de/books?id=EAkJAAAAQAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q=Lacroze&amp;f=false">S. 381 s.v. Lacroze</ref> (dort ist als Erscheinungsjahr "1722" angegeben). [FZ]</note> erschienen.</p>
+            <p>Soviel ich Eu. Handschrift mit dem gedruckten Lexikon <subst>
+                  <del type="fragment">zur Vergleichun</del>
+                  <add>zu</add>
+               </subst> vergleichen Zeit gehabt habe, so ist zwischen beiden kein wesentlicher
+                        Unterschied<supplied cert="high">.</supplied> Ew. Wohlgeb. Handschrift hat
+                    bloß bei einigen Artikeln mehr Citate Biblischer Stellen. Auch sind diese
+                    Stellen inderselben meistentheils ganz abgedruckt, da <bibl sameAs="448">das
+                        gedruckte Lexikon</bibl>
+               <pb n="3"/> nur die Zahl <subst>
+                  <del>des Kapitels u. des Verses</del>
+                  <add>der Kapitel u. der Verse</add>
+               </subst> angiebt. Dagegen hat das gedruckte Lexikon die Zusätze von <persName ref="cscholz">Scholtz</persName> u. <persName ref="cgwoide">Woide</persName>
+                    u. die Griechischen Register. In der Anwendung ist insofern eine Verschiedenheit
+                    daß die Wörter des Saitischen Dialekts in Eu. Handschrift hinter jedem
+                    Buchstaben angefügt im gedruckten Lexicon aber sämmtlich besonders zusammen
+                    gestellt sind.</p>
+            <p>Aus dem Gesagten werden Sie selbst <del type="fragment">ber</del> beurtheilen daß
+                    Ihr Lexikon als Handschrift keine große Wichtigkeit besitzt, da man es gedruckt
+                    sehr leicht haben kann, und da <bibl sameAs="448">das gedruckte</bibl>
+               <pb n="4"/>
+               <bibl sameAs="448">Lexikon</bibl> noch den Vorzug der Bearbeitung seiner
+                    späteren Herausgeber hat. Indeß ist das Manuskript insofern immer interessant
+                    als es die eigenhändige Urschrift eines längst verstorbenen verdienstvollen
+                    Gelehrten zu sein scheint. Ich <del type="fragment">be</del>+ mag Ew. p.
+                    Handschrift nicht der Post anvertrauen. Ich hoffe aber Ihnen dieselbe durch
+                        <persName ref="avh">meinen Bruder</persName> der sehr oft nach <placeName ref="Potsdam">Potsdam</placeName> reiset zukommen lassen zu können.</p>
+            <closer>
+               <salute>Empf E W. * * voll.</salute>
+               <signed>H.</signed>
+               <lb/>
+               <pb n="Anmerkung von Buschmann:"/> (Brief von Wilh. v. Humboldt.) (von des
+                    Secretärs Hand.)</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

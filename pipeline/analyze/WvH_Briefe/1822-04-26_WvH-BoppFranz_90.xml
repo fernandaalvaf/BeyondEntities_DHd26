@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 26.04.1822<idno type="BBAW">90</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 10. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 20–22</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7211</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache
+                    (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="563">Carey, William / Marshman, Joshua: The Ramayuna of Valmeeki, in the
+                    original Sungskrit. With a prose translation, and explanatory notes, 3 Bände
+                    (Serampore: Mission Press 1806–1810)</bibl>
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin während des letzten Winters so gewohnt
+                        geworden …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-04-26"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">8. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 30. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1822_04_26/NDIGRKP004565_0297.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_04_26/NDIGRKP004565_0298.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1822_04_26/NDIGRKP004565_0299.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich bin während des letzten Winters so gewohnt geworden, mich mit
+                    Ew. Wohlgeb. über unsere gemeinschaftlichen Studien zu unterhalten, daß ich mir
+                    die Freude nicht versagen kann, es auch von hier aus zu thun, u. auf Ihre
+                    Nachsicht dabei rechnen zu können mir schmeichle.</p>
+            <p>Ich treibe das Sanskritstudium mit großem Eifer fort, u. es fällt nicht leicht
+                    ein Tag aus, an dem ich nicht lese. Es geht mit dem <bibl sameAs="352">Ramayana</bibl>, wie Sie mir voraus sagten, viel besser, als mit dem
+                    schwierigen <bibl sameAs="181">Hitopadesa</bibl>. Ich fühle mich wie in einem
+                    leichten Elemente dagegen. Sehr Vieles verstehe ich ohne die Uebersetzung, oft
+                    ganze Seiten, nach eingesehener Uebersetzung bleibt mir wenig dunkel, u.
+                    manchmal bilde ich mir ein, daß die Uebersetzung Unrecht hat. Ich mache beim
+                    Lesen immer selbst eine ins Deutsche, u. merke mir die Schwierigkeiten in Sinn
+                    u. Formenanalyse an. Dies hält mich zwar sehr auf, doch werde ich es wohl noch
+                    einige Zeit fortsetzen. Es nöthigt doch mehr, sich bestimmte Rechenschaft zu
+                    geben. Ich bin im 3. Abschnitt. Was ich bis jetzt gelesen habe, erreicht bei
+                    weitem die Schönheit des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl>
+                    nicht. Vorzüglich ist die Slokenerfindung bei den Kap. über die Reihen<note type="footnote" resp="editor">Lefmann ändert zu "Reihenfolge".</note> keine
+                    sehr sinnreiche Dichtung.</p>
+            <p>Zugleich lese ich den <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> ganz
+                    statarisch, was mir sehr wohl thut. Ew. Wohlgeb. haben wirklich mit dieser
+                        <bibl sameAs="559">Ausgabe</bibl> dem <pb n="2*"/> Sanskritstudium einen
+                    ungleich größeren Dienst erwiesen, als Sie vielleicht selbst glauben.</p>
+            <p>Da Sie mir erlauben, Ihnen Schwierigkeiten mitzutheilen, so nehme ich mir die
+                    Freiheit Ihnen einige Bemerkungen über Stellen vorzulegen, die wieder das <hi rend="antiqua">gerundium</hi>, oder sogenannte <hi rend="antiqua">part.
+                        indeclinabile</hi> betreffen.</p>
+            <p>Unsre bisherige Theorie über diese Form ist doch die, daß sich kein Subjekt auf
+                    sie bezieht, sondern daß sie zwischen zwei <hi rend="antiqua">Commata</hi>
+                    gestellt werden könnte, u. der <hi rend="antiqua">Nominat.</hi> oder <hi rend="antiqua">Instrum.</hi> (da es gewöhnlich diese beiden <hi rend="antiqua">Casus</hi> sind) der neben ihr steht, ein folgendes <hi rend="antiqua">Verbum</hi> findet, mit dem er zusammenhängt. Ich theilte Ew.
+                    Wohlgeb. zwei Stellen im <bibl sameAs="181">Hitopadesa</bibl> mit, in denen es
+                    mir anders schien. Allein die eine beruhte auf einer falschen Lesart, die andere
+                    ließ sich richtiger construiren, als ich gethan hatte. Jetzt finde ich zwei
+                    ähnliche Stellen, eine im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl>, u. die andre im <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl>.</p>
+            <p>Die im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> ist <hi rend="antiqua">V. sl.</hi> 34. das letzte Wort von 34. <hi rend="antiqua">a.</hi> <foreign sameAs="sa" n="transEd">kṛtāṃjaliḥ<graphic url="Bopp/WvH-Bopp_1822_04_26/0473.svg"/>
+               </foreign> kann hier nur mit
+                        <foreign sameAs="sa" n="transEd">abhinandya<graphic url="Bopp/WvH-Bopp_1822_04_26/0474.svg"/>
+               </foreign> zusammen construirt
+                    werden, denn der ganze Vers steht <hi rend="antiqua">absolut</hi>, da im
+                    folgenden ein <hi rend="antiqua">Dualis</hi>, mithin ein ganz anderes Subject
+                    folgt. Ew. Wohlgeb. übersetzen auch vollkommen so. Verhält sich das wirklich so,
+                    so ist die Erklärung durch eine <hi rend="antiqua">Gerundiv</hi>form in der That
+                    nicht zu machen. Da eben diese Stelle Ew. Wohlgeb. sehr bekannt seyn muß, so ist
+                    mir schon eingefallen, ob denn das oben erwähnte Wort wirklich das sogenannte
+                        <hi rend="antiqua">part. indeclin.</hi> ist? Zweifelsgründe habe ich
+                    allerdings. Die Wurzel ist <foreign sameAs="sa" n="transEd">nadi<graphic url="Bopp/WvH-Bopp_1822_04_26/0475.svg"/>
+               </foreign> u. das <foreign sameAs="sa" n="transEd">i<graphic url="Bopp/WvH-Bopp_1822_04_26/0476.svg"/>
+               </foreign> ist hier <hi rend="antiqua">radical</hi>. <add>Das <foreign sameAs="sa" n="transEd">i<graphic url="Bopp/WvH-Bopp_1822_04_26/0476.svg"/>
+                  </foreign> gehört doch wohl
+                        nur den Grammatikern an. Ueberhaupt ist <bibl sameAs="455">
+                     <hi rend="antiqua">Wilkins</hi>
+                  </bibl> bei Erklärung des <hi rend="antiqua">part.
+                            indeclin.</hi> <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/WvH-Bopp_1822_04_26/0477.svg"/>
+                  </foreign> sehr
+                        unvollständig. Man kann z. B. aus ihm nicht sagen, daß <foreign sameAs="sa" n="transEd">vas<graphic url="Bopp/WvH-Bopp_1822_04_26/0478.svg"/>
+                  </foreign> in diesem <hi rend="antiqua">part.</hi> <foreign sameAs="sa" n="transEd">uṣya<graphic url="Bopp/WvH-Bopp_1822_04_26/0479.svg"/>
+                  </foreign>
+                        macht. (<hi rend="antiqua">
+                     <bibl sameAs="559">Nalus.</bibl> V.</hi> 82. <hi rend="antiqua">
+                     <bibl sameAs="352">Ram.</bibl> l.</hi> 2. <hi rend="antiqua">S.</hi> 1. <hi rend="antiqua">sl.</hi> 83. <hi rend="antiqua">a.</hi>) Nach ihm schiene keine Wurzel eine Aenderung zu
+                        erleiden.</add> Der nasale Ton gehört nur den ersten 4 <hi rend="antiqua">tenses</hi> an, u. das <hi rend="antiqua">part. indecl.</hi> müßte, da die
+                    Wurzel in einen kurzen <hi rend="antiqua">Vocal</hi> endigt, <foreign sameAs="sa" n="transEd">naditya<graphic url="Bopp/WvH-Bopp_1822_04_26/0480.svg"/>
+               </foreign> nach der Regel
+                    heißen. Allein was in aller Welt könnte das Wort sonst für eine Form seyn? Dies
+                    u. Ew. Wohlgeb. Uebersetzung bestimmen mich, es danach für ein <hi rend="antiqua">part. in</hi>-<pb n="3*"/>
+               <hi rend="antiqua">declinabile</hi>
+                    zu halten. Dann aber befände sich die erwähnte sonderbare Construction in ihr,
+                    u. Ew. Wohlgeb. schrieben mir im Winter, Sie glaubten nicht, daß es Stellen mit
+                    solcher Construction gäbe. Wie hätte Ihnen diese entgehen können? – Helfen Sie
+                    mir aus diesen <hi rend="antiqua">dilemmen</hi>.</p>
+            <p>Die Stelle des <bibl sameAs="352">
+                  <hi rend="antiqua">Rāmāyana</hi>
+               </bibl> ist B.
+                    1. Abschn. 1. <hi rend="antiqua">sl.</hi> 61. <hi rend="antiqua">a.</hi> Ich
+                    schreibe aber die ganze Stelle ab, weil mir nicht erinnerlich ist, ob Sie einen
+                        <bibl sameAs="352">
+                  <hi rend="antiqua">Ramayana</hi>
+               </bibl> jetzt
+                    besitzen.</p>
+            <table rows="5" cols="2">
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">anādṛtya<graphic url="Bopp/WvH-Bopp_1822_04_26/0481.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tu<graphic url="Bopp/WvH-Bopp_1822_04_26/0482.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tadvākyaṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0483.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāvaṇaḥ<graphic url="Bopp/WvH-Bopp_1822_04_26/0484.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">kālacodita<graphic url="Bopp/WvH-Bopp_1822_04_26/0485.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">jagāma<graphic url="Bopp/WvH-Bopp_1822_04_26/0486.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sahamārīco<graphic url="Bopp/WvH-Bopp_1822_04_26/0487.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sāmāśramapadaṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0488.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">tataḥ<graphic url="Bopp/WvH-Bopp_1822_04_26/0489.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>60.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">teta<graphic url="Bopp/WvH-Bopp_1822_04_26/0490.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">māyāvinā<graphic url="Bopp/WvH-Bopp_1822_04_26/0491.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">dūramapavāhya<graphic url="Bopp/WvH-Bopp_1822_04_26/0492.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">nṛmātmajai<graphic url="Bopp/WvH-Bopp_1822_04_26/0493.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">rācaṇo<graphic url="Bopp/WvH-Bopp_1822_04_26/0494.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">ntaramāsādya<graphic url="Bopp/WvH-Bopp_1822_04_26/0495.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">sotāṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0496.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">surasutopamāṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0497.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell>61.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="sa" n="transEd">jahāra<graphic url="Bopp/WvH-Bopp_1822_04_26/0498.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">bhāryyāṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0499.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">rāmasya<graphic url="Bopp/WvH-Bopp_1822_04_26/0500.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">hatvā<graphic url="Bopp/WvH-Bopp_1822_04_26/0501.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">gṛdhraṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0502.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">jadāyuṣaṃ<graphic url="Bopp/WvH-Bopp_1822_04_26/0503.svg"/>
+                     </foreign>
+                  </cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>Hier weiß ich nicht anders zu construiren, als daß <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/WvH-Bopp_1822_04_26/0504.svg"/>
+               </foreign>
+                    u. das nachfolgende Wort auf das <hi rend="antiqua">part. indecl.</hi> gehen, da
+                    in der folgenden Zeile gleich ein <hi rend="antiqua">Nom.</hi> einen neuen Satz
+                    beginnt. Diese Stelle läßt sich indeß noch durch ein <hi rend="antiqua">Gerundium</hi> geben: nach dem mit Wegführen die Fürstenentsproßene durch
+                    den Zauberer. Es wird sogar hier die Erklärung durch ein <hi rend="antiqua">part.</hi> schwer, weil dies nur im <hi rend="antiqua">passiv</hi> stehen
+                    müßte, wie es auch die <bibl sameAs="563">Englische Uebersetzung</bibl> giebt.
+                        <hi rend="antiqua">Rama</hi> (sie übersieht, daß hier auch von seinem Bruder
+                    die Rede ist) <hi rend="antiqua">being drawn</hi> cet. Wenn aber dies sogenannte
+                        <hi rend="antiqua">part. passiv</hi> genommen wird, so müßte das darauf
+                    folgende Wort ein <hi rend="antiqua">Nominat.</hi> seyn. Dies könnte es nun
+                    förmlich seyn. Halten es Ew. Wohlgeb. aber nicht auch für einen <hi rend="antiqua">Accusativus</hi>?</p>
+            <p>Alle Übrigen Stellen, wo dies <hi rend="antiqua">part.</hi> vorkommt, lassen sich
+                    immer leicht u. gewöhnlich erklären, die beiden schwierigen <hi rend="antiqua">constructionen</hi> sind nur die, welche sich in diesen Beispielen
+                    finden.</p>
+            <p>Da ich die Stelle des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl>
+                    erwähnte, muß ich Sie um eine andere auf derselben S. 30 befragen. Ich gestehe,
+                    ich habe <hi rend="antiqua">sl. 26. a.</hi> <pb n="4*"/> das<note type="footnote" resp="editor">Ergänzt aus der Kustode.</note> <hi rend="antiqua">umbrâ sine secundo</hi> u. die ihm entsprechenden Worte des
+                    Textes nie verstanden, u. vermag auch jetzt sie mir nicht zu erklären. Das Wort
+                    des Textes ist ein <hi rend="antiqua">Compositum</hi>, wörtlich: der Schatten –
+                    unzweite. Was in aller Welt soll das heißen?</p>
+            <p>Wie geht es mit dem Druck <bibl sameAs="570">Ihrer Grammatik</bibl>? Ich freue
+                    mich sehr darauf, wenn ich nach <placeName ref="Berlin">Berlin</placeName>
+                    zurückkomme, vielleicht etwas davon zu sehen. Von <persName ref="awschlegel">Schlegel</persName> höre ich schlechterdings nichts. Ich vermuthe, daß er
+                    sehr fleißig arbeitet.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl. Mit der hochachtungsvollsten
+                        Freundschaft<lb/>Ew.
+                        Wohlgeb.<lb/>ergebenster,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Burgörner</hi> bei <placeName ref="Hettstedt">
+                     <hi rend="antiqua">Hettstädt</hi>
+                  </placeName>, den 26. <hi rend="antiqua">April</hi>, 1822. </dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

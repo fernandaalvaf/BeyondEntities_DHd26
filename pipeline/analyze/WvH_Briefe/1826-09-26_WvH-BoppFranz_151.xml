@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 26.09.1826<idno type="BBAW">151</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 36. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 49–53</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7664</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="mfcschmidt">
+                  <persName>Schmidt, Maximilian Friedrich Christian</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="627">Bopp, Franz: [Rezension] Deutsche Grammatik von Dr. Jacob Grimm.
+                    Zweite Aufl. Erster Theil 1822. Zweiter Theil 1826. In: Jahrbücher für
+                    wissenschaftliche Kritik, hrsg. v. der Societät für wissenschaftliche Kritik zu
+                    Berlin, Jg. 1827, Nr. 31/32 bis 37/38, S. 251–303; Nr. 92/93 bis 95/96, S.
+                    725–759</bibl>
+               <bibl corresp="657">Schmidt, Maximilian: Ueber den Infinitiv: Einladungsschrift zur
+                    öffentlichen Prüfung der Schüler des Königlichen Gymnasiums in Ratibor am 5., 6.
+                    und 7. April (Ratibor: Gustav Kupfer 1826)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihr anliegend zurückerfolgender Aufsatz …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-09-26"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="152" type="next">30.09.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="ger">Germanische Sprachen</language>
+            <language ident="inc">Indische Sprachen</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="hu">Ungarisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">13. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 22. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0377.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0378.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0379.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0380.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0381.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1826_09_26/NDIGRKP004565_0382.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ihr anliegend zurückerfolgender <bibl sameAs="627">Aufsatz</bibl>,
+                    theuerster Freund, hat mich, seitdem ich ihn empfieng, unablässig beschäftigt.
+                    Er ist unstreitig das Wichtigste, was Sie bis jetzt über Sprachvergleichung
+                    geschrieben haben, und was man überhaupt über dieselbe zu untersuchen vermag. Es
+                    ist kaum möglich auf factisch zergliederndem Wege dem Wesen der Sprachentstehung
+                    näher zu kommen. Der ganze <bibl sameAs="627">Aufsatz</bibl> ist voll der
+                    scharfsinnigsten Bemerkungen, der überraschendsten Zusammenstellungen, und
+                    spricht auf jeder Seite von einer vollendeten Kenntniß des ganzen
+                    Indisch-Germanischen Sprachstammes. Ich traue mir, ohne alle verstellte
+                    Bescheidenheit, weder genug Kenntniß des <hi rend="antiqua">Sanskrits</hi>, noch
+                    der Germanischen Sprachen zu, eine solche Arbeit eigentlich beurtheilen zu
+                    können. Ich will Ihnen indeß ganz offen, und so kurz ich kann sagen, was bei mir
+                    doch noch die volle Ueberzeugung hemmt. Vielleicht kann es Ihnen Gelegenheit
+                    geben, einigen Einwendungen im Voraus zu begegnen, oder einigen Stellen mehr
+                    Ausführung und Deutlichkeit zu geben.</p>
+            <p>Die Sätze, die Sie beweisen wollen, sind, wenn ich <bibl sameAs="627">Ihre
+                        Abhandlung</bibl> recht verstehe, folgende:</p>
+            <p>1., das Indische <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> ist eine durch den Einfluß der Endungen
+                    entstehende euphonische Umänderung des Wurzelvocals.</p>
+            <p>2., der Deutsche Ablaut ist, ob er sich gleich vom Indischen <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> durch die, wenn auch nicht
+                    ursprüngliche, Bedeutsamkeit, und den größeren Umfang des Vocalwechsels
+                    unterscheidet, demselben doch darin gleich, daß er dieselbe Entstehung hat.</p>
+            <p>3., es ist daher unrichtig, daß <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName> in dem Ablaut <pb n="2*"/> eine mit
+                    dem Alterthum und der ganzen Einrichtung unsrer Sprache tief verbundene
+                    Eigenschaft sieht, und ihn sogar der Reduplication vorangehen läßt; der Ablaut
+                    gehört vielmehr in die Periode der Sprache, wo die Beugungsendungen schon
+                    anfangen, Herrschaft über den nicht mehr in seiner ganzen Bedeutung aufgefaßten
+                    Wurzelvocal zu gewinnen.</p>
+            <p>Da der Ablaut das stärkste und scheinbar unwiderleglichste Beweis ursprünglicher
+                        <hi rend="antiqua">Flexion</hi> war, so entscheidet diese Untersuchung auch
+                    über diese Grundfrage der Sprachbildung.</p>
+            <p>Soll man nun diese Theorie prüfen, so kommt es auf die doppelte Frage an:</p>
+            <p>1., ist das Indische <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> wirklich der von Ihnen angegebenen
+                    Ursache zuzuschreiben?</p>
+            <p>2., ist nicht, wenn dies auch der Fall wäre, der deutsche Ablaut von demselben
+                    wesentlich verschieden?</p>
+            <p>Daß <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName> darin Unrecht hat, den Ablaut und
+                    das <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> immer in Eine Classe zu stellen, indem
+                    er doch jenen ganz in der grammatischen Bedeutsamkeit walten läßt, ist offenbar,
+                    u. rührt wohl von mangelhafter Kenntniß des Indischen her.</p>
+            <p>Sie suchen den Einfluß der Endungen auf das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> vorzüglich und man muß gestehen, allein
+                    aus dem Unterschiede herzuleiten, welchen die 2. <hi rend="antiqua">Conjugation</hi> im Annehmen und Nichtannehmen des <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> macht. Wäre dies aber wohl hinreichend?
+                    Muß <subst>
+                  <del type="fragment">ein Erklärungsver</del>
+                  <add>eine Erklärung</add>
+               </subst> des <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> nicht auf alle Fälle passen, wo es
+                    eintritt? Nun kann die Ihrige nicht bei der 1. <hi rend="antiqua">Conjugation</hi> angewendet werden. Denn die Endungen der 1. und 6. Classe
+                    sind dieselben, u. jene fordert immer, diese verwirft <pb n="3*"/> ganz das
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>. Bei der Ableitung der <hi rend="antiqua">nomina</hi> sagen Sie selbst, daß die Natur der Endungen ganz
+                    unwirksam ist. Sie führen zwar Gründe an, dies zu erklären, allein sie
+                    erscheinen mir nicht genügend. Es ließe sich wohl begreifen, daß <hi rend="antiqua">Nomina</hi> bald aus reinen, bald aus verstärkten <hi rend="antiqua">Verbalformen</hi> entstünden; dann müßte aber die Abänderung
+                    des <hi rend="antiqua">Vocals</hi> nicht <del>nicht</del> von der Natur des <hi rend="antiqua">Suffixes</hi> abhängen. Nun ist dies aber offenbar der Fall,
+                    u. mithin müßte auch, dünkt mich, wenn es auf die Kürze und das Gewicht der
+                    Endung ankäme, dies Gesetz gleichfalls bei der Ableitung gelten. Endlich aber
+                    sehe ich auch bei der 2. <hi rend="antiqua">Conjugation</hi> noch Zweifel zu
+                    heben. Denn auf der einen Seite giebt es in den ersten vier Zeiten Endungen ohne
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, die vollkommen gleich leicht, als die
+                    mit <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> sind. Erwägen Sie selbst <foreign sameAs="sa" n="transEd">tha<graphic url="Bopp/WvH-Bopp_1826_09_26/0729.svg"/>
+               </foreign> der 2. <hi rend="antiqua">plur praes</hi>, das <foreign sameAs="sa" n="transEd">hi<graphic url="Bopp/WvH-Bopp_1826_09_26/0730.svg"/>
+               </foreign> der 2.
+                        <hi rend="antiqua">sing. imper.</hi> das sich vollkommen mit <foreign sameAs="sa" n="transEd">mi<graphic url="Bopp/WvH-Bopp_1826_09_26/0731.svg"/>
+               </foreign> vergleicht, u. vor allen Dingen das <foreign sameAs="sa" n="transEd">i<graphic url="Bopp/WvH-Bopp_1826_09_26/0732.svg"/>
+               </foreign>
+                    der 1. <hi rend="antiqua">sing. praet. I. <term type="morph" ref="006">âtman.</term>
+               </hi> <del>und das <foreign sameAs="sa" n="transEd">a<graphic url="Bopp/WvH-Bopp_1826_09_26/0733.svg"/>
+                  </foreign>
+               </del> Auf der andern Seite haben gerade die langen und unbehülflichen Endungen
+                    der 1. <hi rend="antiqua">Imperat.</hi> alle ohne Ausnahme <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>. Waltete hier das von Ihnen behauptete
+                    euphonische Gesetz vor, wie ließen sich diese Ungleichheiten erklären?</p>
+            <p>Auf diese Einwendungen, liebster Freund, müssen Sie Sich gefaßt machen, denn ich
+                    gestehe, daß ich <del type="fragment">s</del> mir die daraus entstehenden
+                    Zweifel nicht zu lösen weiß. Ich habe oft darüber nachgedacht, woher gerade die
+                    bekannten <hi rend="antiqua">Verbal</hi>beugungen <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> haben, aber nie etwas Genügendes
+                    herausgebracht, und ich gestehe, daß mir, wie ich eben sagte, auch Ihre
+                    Erklärung nicht zu passen, oder wenigstens nicht auszureichen scheint. Das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> grammatisch zu nehmen ist kaum möglich,
+                    da man gar keinen grammatischen Grund eines theils gar nicht, theils so
+                    wunderbar charakteristischen <hi rend="antiqua">Vocalwechsels</hi> einsieht.
+                    Wäre er indeß bloß phonetisch, so müßte <pb n="4*"/> <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> überall erscheinen, wo das gleiche
+                    Lautverhältniß eintritt, was doch nicht der Fall ist. So ist mir oft
+                    aufgefallen, warum in der Declination kein <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> erscheint? Die Anfügung einer Endung
+                    könnte doch auch da auf den Stamm zurückwirken. Damit scheint zusammenzuhängen,
+                    daß auch die <term type="morph" ref="011">
+                  <hi rend="antiqua">taddhita</hi>
+               </term> <hi rend="antiqua">Suffixe</hi>
+                    keine <hi rend="antiqua">conversion</hi> haben, dagegen die <term type="morph" ref="010">
+                  <hi rend="antiqua">Kridanta</hi>
+               </term> und <term type="morph" ref="013">
+                  <hi rend="antiqua">Unadi</hi>
+               </term> häufig, weil sie Wurzeln zu <hi rend="antiqua">Primitiven</hi> haben. Das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> scheint an das Verbum gekettet, u. da
+                    alle <hi rend="antiqua">Substantiva</hi>, die durch <term type="morph" ref="013">
+                  <hi rend="antiqua">Unadi</hi>
+               </term> u. <term type="morph" ref="010">
+                  <hi rend="antiqua">Kridanta</hi>
+               </term>
+               <hi rend="antiqua">suffixe</hi> entstehen, von Wurzeln herkommen u. insofern <hi rend="antiqua">Verbal</hi> sind, erfahren sie auch das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, aber die aus andern <hi rend="antiqua">Substantiven</hi> <del type="fragment">geb</del> oder Adjectiven gebildeten
+                    nehmen nur <term type="morph" ref="003">
+                  <hi rend="antiqua">Wriddhi</hi>
+               </term> an, weil sie nicht unmittelbar von
+                    Wurzeln abstammen, sondern von Wörtern, die, selbst schon von Verben abgeleitet,
+                    schon <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> erfahren haben können. Insofern scheint
+                    also <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> doch dem <hi rend="antiqua">Verbum</hi>
+                    ausschließlich eigenthümlich u. insofern grammatisch. Es ließe sich indeß
+                    freilich sehr gut denken, wenn nur die obigen Zweifel gelöst wären, daß dasselbe
+                    wirklich eine phonetische aber nur innerhalb des <hi rend="antiqua">Verbums</hi>
+                    sich ereignende Erscheinung wäre.</p>
+            <p>Ich habe mich gewundert, daß Sie den Umstand, daß der End <hi rend="antiqua">Consonant</hi> einfach seyn muß, bloß bei der Verwandlung des <foreign sameAs="sa">
+                  <hi rend="antiqua">a</hi>
+               </foreign> in <foreign sameAs="sa">
+                  <hi rend="antiqua">e</hi>
+               </foreign> erwähnt haben. Sie hätten auch damit
+                    Ihre Theorie des <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> bestätigen können, da der doppelte <hi rend="antiqua">Consonant</hi> den Stamm <hi rend="antiqua">Vocal</hi> gegen
+                    den Einfluß der Endsylben auch da schützt. Es erklärt sich auch (wenn ich in
+                    Ihrem System reden soll) daraus recht gut, warum im Griechischen ein End
+                        <foreign sameAs="grc">α</foreign> zwar im <hi rend="antiqua">Perf.
+                        Med.</hi> was immer einen einfachen <hi rend="antiqua">Consonanten</hi> vor
+                    der Beugung hat, nicht aber im <hi rend="antiqua">Aor.</hi> 1. <hi rend="antiqua">act.</hi> in <foreign sameAs="grc">
+                  <hi rend="antiqua">o</hi>
+               </foreign> verwandelt, da der <hi rend="antiqua">Aorist</hi> meistentheils einen doppelten <hi rend="antiqua">Consonanten</hi> erhält. Wo dies nicht ist, tritt eine andre <hi rend="antiqua">Conjugationsart</hi> ein. Ich weiß aber nicht, ob <pb n="5*"/> man dies allgemeine Gesetz des <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> nicht auch so erklären kann, daß, so wie
+                    kein <add>von Natur</add> langer <hi rend="antiqua">Vocal</hi> in der Mitte
+                        <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> zuläßt, dies auch kein durch <hi rend="antiqua">position</hi> lang werdender thut.</p>
+            <p>Noch muß ich beim <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> eine Kleinigkeit erwähnen, die aber doch
+                    der Deutlichkeit schaden könnte. Wo Sie von der <hi rend="antiqua">Diphthongirung</hi> des <term type="morph" ref="009">
+                  <hi rend="antiqua">Guna</hi>
+               </term> sprechen, thäten Sie wohl gut,
+                    ausdrücklich daran zu erinnern, daß man Grund hat die <hi rend="antiqua">Sanskritischen</hi> Laute <foreign sameAs="sa">
+                  <hi rend="antiqua">ê</hi>
+               </foreign> u. <foreign sameAs="sa">
+                  <hi rend="antiqua">ô</hi>
+               </foreign>, wenn wir sie auch jetzt <del type="fragment">f</del> wie lange Vocale schreiben, für <hi rend="antiqua">Diphthongen</hi> zu halten. In der <bibl sameAs="627">Abhandlung</bibl> thun
+                    Sie es, allein anfangs kann es weniger kundige Leser irre führen. Selbst irre
+                    leiten kann, wie es mir scheint, die Vergleichung dieser beiden Laute mit den
+                    Französischen <foreign sameAs="fr">
+                  <hi rend="antiqua">ai</hi>
+               </foreign> und <foreign sameAs="fr">
+                  <hi rend="antiqua">au</hi>
+               </foreign>. Sie sind, so viel ich einsehen kann,
+                    nur <hi rend="antiqua">orthographisch diphthonge</hi>, an sich aber einfache
+                    Laute, wofür ich auch unsre <foreign sameAs="de">
+                  <hi rend="antiqua">ä</hi>
+               </foreign>, <foreign sameAs="de">
+                  <hi rend="antiqua">ö</hi>
+               </foreign>, <foreign sameAs="de">
+                  <hi rend="antiqua">ü</hi>
+               </foreign> halte.</p>
+            <p>
+               <foreign sameAs="grc">λείπω</foreign>, <foreign sameAs="grc">φεύγω</foreign>, als durch <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> entstanden anzusehen, war mir neu, und
+                    will mir noch nicht recht ein. Doch möchte ich es nicht bestreiten. Viel für
+                    sich hat es offenbar.</p>
+            <p>Komme ich nun zur zweiten Frage und zum Ablaut, so ist das Wichtigste zuerst zu
+                    sehen, ob die Anwendung Ihres Gesetzes des Einflusses der Endungen auch solche
+                    Zweifel läßt, als mir bei der Erklärung des <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> bleiben? Diese Prüfung anzustellen, aber
+                    bin ich nicht stark genug in der Germanischen Conjugation. Davon abgesehen ist
+                    nicht zu läugnen, daß der Ablaut bei weitem mehr grammatische Bedeutsamkeit
+                    besitzt, als das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, da er einen bestimmten Unterschied
+                    zwischen dem <hi rend="antiqua">Praesens</hi> u. <hi rend="antiqua">Perfectum</hi> bewirkt, den <hi rend="antiqua">Imperativ</hi> aus dem Spiel
+                    läßt, <del>und</del> dagegen oft auf das <hi rend="antiqua">Participium</hi>
+                    einwirkt. Sollte dies, was so durchaus wie ein organisches Gesetz aussieht, nun
+                    zufällig, u. einem Einfluß von Endungen zuzuschreiben seyn? <pb n="6*"/> Es ist
+                    sehr wahr, daß die reinen Formen des <hi rend="antiqua">Plurals</hi> des <hi rend="antiqua">Praet.</hi> für Ihre Meinung sprechen. Allein die ganze
+                    Erscheinung des Ablauts führt doch eine Bedeutsamkeit mit sich, deren Gefühl
+                    sich unwillkürlich aufdrängt, u. welche den Ablaut in eine ganz andere Klasse,
+                    als das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, setzt. Das lateinische <foreign sameAs="la">
+                  <hi rend="antiqua">ago</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">egi</hi>
+               </foreign> macht denselben Eindruck auf mich, u.
+                    es wäre freilich sonderbar, wenn die Germanische u. die Lateinische Sprache in
+                    einem so wichtigen Punkt etwas besäßen, was der Griechischen u. Indischen
+                    fehlte. Denn der von <persName ref="jgrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName> aus dem Griechischen angeführte <hi rend="antiqua">Vocal</hi>wechsel <del>ist</del> hat auch nicht den
+                    grammatischen Charakter des Ablauts.</p>
+            <p>Absichtlich grammatisch ist gewiß kein <hi rend="antiqua">Vocal</hi>wechsel.
+                    Aller in Ableitung u. <hi rend="antiqua">Conjugation</hi> rührt, dünkt mich,
+                    immer entweder von der Natur der Buchstaben od. ihrem Einfluß auf einander, oder
+                    vom <hi rend="antiqua">Accent</hi> her. In mehreren Sprachen, namentlich im <hi rend="antiqua">Ungri</hi>schen verlangen sich od. bilden sich starke u.
+                    schwache <hi rend="antiqua">Vocale</hi> regelmäßig an. Allein vorzüglich wichtig
+                    ist der <hi rend="antiqua">Accent</hi>, u. es ist offenbar, daß er oft die
+                    Beschaffenheit der ihm unterworfenen Laute verändert. So erkläre ich <foreign sameAs="la">
+                  <hi rend="antiqua">condemno</hi>
+               </foreign> u. <foreign sameAs="la">
+                  <hi rend="antiqua">damno</hi>
+               </foreign>. Daß ein Wort seine <hi rend="antiqua">Vocal</hi>geltung abändert, wenn es eine Sylbe mehr erhält,
+                    oder eine verliert, ist sehr begreiflich u. durch viele Beispiele zu erweisen.
+                    So meine ich nun, läßt sich vielleicht die Sache auf eine Weise erklären, in der
+                    sich Ihre Meinung mit der <persName ref="jegrimm">
+                  <hi rend="antiqua">Grimm</hi>
+               </persName>ischen, die auch die bisher
+                    angenommene war, vereinigt. Aus einem wirklichen grammatischen Instinct formten
+                    die Germanischen Nationen das <hi rend="antiqua">Praeteritum</hi> anders, als
+                    das <hi rend="antiqua">Praesens</hi>. Sie gaben ihm bald durch Einsylbigkeit,
+                    bald bloß durch den Accent mehr Nachdruck. Dies erscheint um so weniger
+                    unnatürlich, als der minder gebildete <pb n="7*"/> Mensch gewiß weit eher
+                    geneigt ist, zwei verschiedene Zustände eines Begriffs, wie <hi rend="antiqua">Praesens</hi> u. <hi rend="antiqua">Praeteritum</hi>, als zwei ganz
+                    verschiedene Dinge anzusehen, als beide aus einem Gemeinsamen abzuleiten. Bei
+                    dieser Abänderung der Form des Worts behaupteten nun die von Ihnen entwickelten
+                    phonetischen Gesetze ihr Recht. So konnte der <hi rend="antiqua">Vocal</hi>wechsel aus der Einsylbigkeit oder der schwachen Endsylbe, aber die
+                    Einsylbigkeit oder der starke <hi rend="antiqua">Accent</hi> der ersten Sylbe
+                    aus dem grammatischen Gefühl entspringen. Auf diese Weise zeigte sich nun eine
+                    Verschiedenheit der <hi rend="antiqua">Vocale</hi> des <hi rend="antiqua">Praesens</hi>, <hi rend="antiqua">Praeteritum</hi> u. <hi rend="antiqua">Participium</hi>. Denn um die Erscheinung vollständig vor sich zu haben,
+                    muß man gleich auch dies hinzunehmen. Wurde aber einmal dieser vom Ohr bemerkt,
+                    so wurde er fortgebildet. Denn aus der Analogie der bloßen Klangfülle muß gewiß
+                    in allen Sprachen Vieles erklärt werden.</p>
+            <p>Auf diese Weise könnte man sich vielleicht die Sache vorstellen. Doch möchte ich
+                    nicht gerade darauf bestehen, daß dies die richtige Erklärungsart sey. Nur
+                    davon, gestehe ich, kann ich, ohne andere überzeugendere Gründe für jetzt nicht
+                    abgehen, daß der Ablaut im Deutschen u. Lateinischen eine wirklich ursprünglich
+                    grammatische Erscheinung ist, und daß er daher ganz u. gar nicht mit dem <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> <del type="fragment">veru</del>
+                    verglichen werden kann, da bei dem <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, wie man es nehmen mag, gar keine
+                    grammatische Absicht zu erkennen ist. Eher indeß möchte ich zugeben, daß auch
+                    das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term> grammatisch ist oder war, ohne daß nur
+                    einer es recht erkenne, als das Grammatische im Ablaut abläugnen.</p>
+            <p>Ich fühle selbst, daß es sonderbar ist, daß dem Deutschen u. Lateinischen etwas
+                    so tief in das Wesen der Sprache eingreifendes eigen seyn soll, was dem <hi rend="antiqua">Sanskrit</hi> fehlt, u. daß es zu den von mir selbst oft
+                    entwickelten Ideen mehr paßt, daß der Ablaut zuerst eine absichtlos, phonetische
+                        <hi rend="antiqua">Vocal</hi>umänderung war, und dann grammatisch gebraucht
+                    wurde. Aber der ausschließlich grammatische Charakter des Deutschen Ablauts
+                    steht, wie eine Thatsache vor mir, u. wenn man auch annehmen wollte, daß die
+                    Germanischen Stämme ursprünglich das <term type="morph" ref="009">
+                  <hi rend="antiqua">guna</hi>
+               </term>, wie es im Indischen ist, besitzen, es
+                    aber zu dieser grammatischen Bezeichnung <pb n="8*"/> verwendeten, u. sich
+                    hierin von den zurückbleibenden Stammverwandten unterschieden; so weiß ich
+                    nicht, ob es nicht noch schwerer ist, zu begreifen, wie ein Volk, eine auf eine
+                    andere Weise in seiner Sprache existirende Lautbeschaffenheit plötzlich so
+                    umbeugt, als daß es ursprünglich eine eigenthümliche aufnimmt.</p>
+            <p>Dies, liebster Freund, ist es, was ich Ihnen jetzt über <bibl sameAs="627">Ihren
+                        Aufsatz</bibl> zu sagen weiß. Ich werde ihn gewiß, so wie er gedruckt ist,
+                    von neuem studieren, u. dann vielleicht eine andere u. richtigere Ansicht
+                    gewinnen. Es schien mir aber doch gut, Ihnen offen auch meine jetzige zu
+                    sagen.</p>
+            <p>Ich füge diesem Briefe den Entwurf eines Briefes<note type="footnote" resp="editor">Siehe das <ref type="link" target="367">Briefkonzept</ref> vom
+                            <date when="1826-10-28">28. Oktober 1826</date> (Coll. ling. fol. 55,
+                        Mappe 4, Bl. 60–69, Krakau). Humboldts Brief an <persName ref="mfcschmidt">Maximilian Schmidt</persName> wurde erst postum unter dem Titel <bibl sameAs="200">
+                     <hi rend="italic">Ueber den Infinitiv</hi>
+                  </bibl> in der <hi rend="italic">Zeitschrift für vergleichende Sprachforschung</hi> 2,
+                        1853, S. 241–251, veröffentlicht.</note> über die <bibl sameAs="657">Schrift</bibl> des <persName ref="mfcschmidt">Oberlehrers <hi rend="antiqua">Schmidt</hi>
+               </persName> an denselben hinzu. Ich wünschte,
+                    daß Sie ihn, ehe ich ihn abschicke, lesen möchten, um so mehr, als Ihnen sein
+                    Ausdruck eines <hi rend="underline">momentanen Merkmals</hi> nicht zu misfallen
+                    schien, u. ich diesen gerade besonders geprüft habe. Ich bin weit entfernt,
+                    Ihnen zuzumuthen, eigentlich auch einmal in diese unbedeutende Streitfrage
+                    einzugehen, aber wenn Ihnen etwas in meinem Raisonnement als unrichtig, oder
+                    partheiisch auffiele, würden Sie mich sehr verbinden, mir es anzuzeigen.</p>
+            <p>Sehr muß ich Sie um Entschuldigung bitten, <bibl sameAs="627">Ihren Aufsatz</bibl>
+                    so lange behalten zu haben. Allein die Rückkunft <persName ref="cvh1">meiner
+                        Frau</persName> aus <placeName ref="Bad Gastein">dem Bade</placeName>, das
+                    ihr Gottlob! eine recht heilsame Wirkung gemacht hat, ist mir, als eine
+                    aufhaltende Störung zwischen die Beschäftigung damit gekommen, u. so muß ich um
+                    Ihre gütige und freundschaftliche Nachsicht bitten.</p>
+            <closer>
+               <salute>Mit der herzlichsten und hochachtungsvollsten Anhänglichkeit <lb/>der
+                        Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 26. <hi rend="antiqua">September</hi>,
+                        1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

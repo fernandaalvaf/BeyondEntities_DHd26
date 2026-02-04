@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 15.12.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, 26.03.1831<idno type="BBAW">485</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            236–239</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 225</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12358</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bhfroberville">
+                  <persName>Froberville, Barthelemy Huet, Chevalier de</persName>
+               </person>
+               <person corresp="ajohnston">
+                  <persName>Johnston, Sir Alexander</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="545">Froberville, Barthelemy Huet, Chevalier de: Dictionnaire Français
+                    et Madecasse (Port Louis, Mauritius: 1816)</bibl>
+               <bibl corresp="522">Jeffreys, John: Madagassisches Wörterbuch [Manuskript]</bibl>
+               <bibl corresp="238">Jeffreys, John: Madagassische Grammatik (1825) [Manuskript]</bibl>
+               <bibl corresp="889">Jeffreys, Keturah: The widowed missionary’s journal: containing
+                    some account of Madagascar; and also, a narrative of the missionary career of
+                    the Rev. J. Jeffreys; who died on a passage from Madagascar to the Isle of
+                    France, July 4, 1825, aged 31 years (Southampton: Printed for the Author
+                    1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz nehme ich mir die Freiheit, hiebei
+                        das Original des so lange erwarteten handschriftlichen Werkes über die
+                        Madagascarische Sprache zu übersenden …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1831-03-26"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1011" type="next">18.04.1831</ref>
+               <ref target="1008" type="prev">01.12.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändig</handNote>
+            <!-- überprüfen! -->
+         </handNotes>
+         <langUsage n="ind paz">
+            <language ident="mg">Madegassisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">15. Dezember 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_473.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_474.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_475.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_476.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_477.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_478.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_479.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1831-03-26/Coll.ling.fol.53_480.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="236r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>nehme ich mir die Freiheit, hiebei das Original des so lange erwarteten
+                    handschriftlichen Werkes über die Madagascarische
+                    Sprache<!-- = Grammatik (ID 238) oder Grammatik + Wörterverzeichnis (ID 522) gemeint? wie taggen? -->
+                    zu übersenden, welches hier so eben angelangt ist, begleitet von einem Schreiben
+                    der <hi rend="antiqua">
+                  <persName ref="metcalfe">Mrs Metcalfe</persName>
+               </hi> an
+                        <persName ref="ajohnston">Sir A. Johnston</persName> und an mich, worin sie
+                    sich, mit einer hier gewiß seltenen Uneigennützigkeit, erbietet, Ihnen das
+                    Manuscript zu jedem Gebrauche, den Sie davon zu machen für gut finden werden, zu
+                    leihen. Eine langwierige Krankheit hatte sie daran verhindert, meinen früheren
+                    Brief zu beantworten, oder den darin geäußerten Wunsch zu erfüllen. – Außer dem
+                    Manuscripte<!-- = ID238 + ID522 ? -->, bittet mich <hi rend="antiqua">
+                  <persName ref="metcalfe">Mrs. Metcalfe</persName>
+               </hi> auch noch, Ew. Excellenz
+                    ein Exemplar von dem <bibl sameAs="889">Bericht über ihre und ihres verstorbenen
+                        Mannes Reise nach Madagascar</bibl>, welche sie bald nach ihrer Rückkehr
+                    zum Besten ihrer Kinder herausgegeben hat, zu übersenden. Sie äußert dabei einen
+                    Wunsch, welchen Ew. Excellenz aus ihren eignen Worten in dem beiliegenden
+                    Auszuge aus ihrem Briefe <pb n="236v"/> an mich entnehmen wollen. –</p>
+            <p>So weit ich selbst nach flüchtiger Durchsicht über das <bibl sameAs="522">Madegascarische Wörterbuch</bibl> urtheilen darf, steht dasselbe
+                    allerdings weit hinter der Arbeit des <hi rend="antiqua">
+                  <persName ref="bhfroberville">Chev. de Froberville</persName>
+               </hi> zurück. Doch
+                    wird dasselbe immer Berücksichtigung verdienen. Gern werde ich stets bereit
+                    seyn, das <bibl sameAs="545">Frobervillesche Werk</bibl> nachzusehen, und Auszüge
+                    daraus zu machen, wenn Ew. Excellenz mich mit einigen Worten über die Art und
+                    Weise unterrichten wollen, wie diese für Ihre Sprachstudien am zweckmäßigsten
+                    geschehen dürfte.</p>
+            <closer>
+               <salute>Mit der innigsten Ehrerbietung empfehle ich mich der Fortdauer Ihres
+                        gütigen Wohlwollens, <lb/>Ew. Excellenz <lb/>gehorsamster
+                            Diener</salute>
+               <signed>
+                  <hi rend="antiqua">F.
+                        Rosen.</hi>
+               </signed>
+               <lb/>
+               <dateline>London, den 26. März.
+                    1831.</dateline>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="237r"/> Auszug</p>
+            <p>aus dem Briefe der <hi rend="antiqua">
+                  <persName ref="metcalfe">Mrs.
+                            Metcalfe</persName>
+               </hi>, (datirt <hi rend="antiqua">
+                  <placeName ref="Bath">Bath</placeName>
+               </hi>, d. <date when="1831-03-17">17.
+                        März</date>.)</p>
+            <p>– – <hi rend="antiqua">I have taken the liberty of enclosing a copy of a small
+                            <bibl sameAs="889">work</bibl> I published soon after my return to
+                        England for the good of my dear children to <persName ref="wvh">Baron
+                            Humboldt</persName> and one to yourself; and if amongst your friends it
+                        should be in your power give <bibl sameAs="889">the little volume</bibl>
+                        circulation, you will be conferring a great kindness on my dear children, to
+                        whose interests every farthing thus obtained is strictly devoted.</hi>
+                    –</p>
+            <p>
+               <pb n="237v–238v vacat"/>
+            </p>
+            <p>
+               <pb n="239r"/>
+               <handShift scribe="Schreiber"/> Mit diesem Briefe habe ich im
+                    Anfang April 1831. neun dünne handschriftliche Hefte in Quart bekommen von
+                    <sic>welchem</sic> fünf die <bibl sameAs="238">Grammatik</bibl> vier das <bibl sameAs="522">Wortverzeichniß</bibl> enthalten<note type="footnote" resp="editor">Anmerkung Humboldts in Schreiberschrift.</note>
+            </p>
+            <!-- MS-title-tag!? -->
+            <p>
+               <pb n="239v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

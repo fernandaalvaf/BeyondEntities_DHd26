@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 21.10.1821<idno type="BBAW">797</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 86–90</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">11662 (dat. 02.10.1821)</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="wjbankes">
+                  <persName>Bankes, William John</persName>
+               </person>
+               <person corresp="pbarante">
+                  <persName>Barante, Amable-Guillaume-Prosper Brugière, Baron
+                    de</persName>
+               </person>
+               <person corresp="mjbarante">
+                  <persName>Barante, Marie Joséphine Césarine d'Houdetot, Baronne
+                    de</persName>
+               </person>
+               <person corresp="clbuch">
+                  <persName>Buch, Christian Leopold von</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="lfvhbuelow">
+                  <persName>Bülow, Ludwig Friedrich Victor Hans Graf von</persName>
+               </person>
+               <person corresp="dcustine">
+                  <persName>Custine, Delphine de Sabran, Marquise de</persName>
+               </person>
+               <person corresp="jfadflemming">
+                  <persName>Flemming, Johann Friedrich August Detloff Graf
+                    von</persName>
+               </person>
+               <person corresp="fcgau">
+                  <persName>Gau, Franz Christian</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="johann6">
+                  <persName>Johann VI. von Portugal</persName>
+               </person>
+               <person corresp="dfkoreff">
+                  <persName>Koreff, David Ferdinand</persName>
+               </person>
+               <person corresp="gjckunth">
+                  <persName>Kunth, Gottlob Johann Christian</persName>
+               </person>
+               <person corresp="kmannert">
+                  <persName>Mannert, Konrad</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="wouseley">
+                  <persName>Ouseley, Sir William</persName>
+               </person>
+               <person corresp="ppalmela">
+                  <persName>Palmela, Pedro de Sousa Holstein Conde de</persName>
+               </person>
+               <person corresp="rkporter">
+                  <persName>Porter, Sir Robert Ker</persName>
+               </person>
+               <person corresp="acquincy">
+                  <persName>Quatremère de Quincy, Antoine Chrysostome</persName>
+               </person>
+               <person corresp="cgreichard">
+                  <persName>Reichard, Christian Gottlieb</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="msfschoell">
+                  <persName>Schöll, Maximilian Samson Friedrich</persName>
+               </person>
+               <person corresp="jmascholz">
+                  <persName>Scholz, Johann Martin Augustin</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="27">Archaeologia Americana. Transactions and Collections of the American
+                    Antiquarian Society, Volume 1, 1820</bibl>
+               <bibl corresp="44">Barante, Prosper de (1821): Œuvres dramatiques de F. Schiller,
+                    traduites de l’Allemand, précédées d’une Notice, 6 Bände, Paris:
+                    Ladvocat</bibl>
+               <bibl corresp="193">Bonpland, Aimé / Humboldt, Alexander von (1815–1825): Nova genera
+                    et species plantarum: Quas in peregrinatione ad plagam aequinoctialem orbis novi
+                    collegerunt descripserunt, partim adumbraverunt, 7 Bände, Paris: Librairie
+                    Grecque-Latine-Allemande</bibl>
+               <bibl corresp="64">Buch, Leopold von (1825): Physicalische Beschreibung der Canarischen
+                    Inseln, Berlin: Druckerei der Königlichen Akademie der Wissenschaften</bibl>
+               <bibl corresp="138">Gau, Franz Christian (1822): Antiquités de la Nubie ou Monumens
+                    inédits des bords du Nil, situés entre la première et deuxième cataracte,
+                    Stuttgart: J. G. Cotta</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von (1821): Prüfung der Untersuchungen über die
+                    Urbewohner Hispaniens vermittelst der Vaskischen Sprache, Berlin: Ferdinand
+                    Dümmler</bibl>
+               <bibl corresp="106">Jomard, Edme François (Hrsg.) (1809–1828): Description de l’Égypte
+                    ou recueil des observations et des recherches qui ont été faites en Égypte
+                    pendant l’expédition de l’Armée Française publié par les ordres de Sa Majesté
+                    l’empéreur Napoléon le Grand, 20 Bände, Paris: L’Imprimérie Impériale</bibl>
+               <bibl corresp="247">Porter, Robert Ker (1821): Travels in Georgia, Persia, Armenia,
+                    ancient Babylonia, &amp;c. &amp;c.: during the years 1817, 1818, 1819, and 1820,
+                    London: Longman, Hurst, Rees, Orme, and Brown</bibl>
+               <bibl corresp="324">Ouseley, William (1819–1823): Travels in Various Countries of the
+                    East: More Particularly Persia, 3 Bände, London: Rodwell and Martin</bibl>
+               <bibl corresp="349">Quatremère de Quincy, Antoine Chrysostôme (1821): Sur la statue
+                    antique de Vénus, découverte dans l’île de Milo, Paris: Debure frères</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Si je réponds si tard, mon cher Guillaume, à ton aimable
+                        lettre de Burgoerner, c'est que …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1821-10-21"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ar">Arabisch</language>
+            <language ident="br">Bretonisch</language>
+            <language ident="da">Dänisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="nl">Niederländisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sv">Schwedisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">26. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>Si je réponds si tard, mon cher cher Guillaume, à ton aimable lettre de
+                        <placeName ref="Burgörner">Burgoerner</placeName>, c’est que j’ai été un peu
+                    indisposé et que j’ai même eu à garder la chambre. C’était un peu de fièvre de
+                    rhume à laquelle tu sais que je suis souvent exposé. Je me trouve beaucoup mieux
+                    et je suis comme à l’ordinaire. Ce que tu me dis de la santé de <persName ref="cvh2">Caroline</persName> me ravit plus que tu pourrais croire.
+                    Qu’elles ont été longues les souffrances de cette pauvre personne. Dis moi, je
+                    t’en prie bien loyalement, si tu crois qu’elle doit sa guérison au magnétisme.
+                    Je ne sais ce que je dois en croire moi même et d’après les expériences que je
+                    vois ici, il me reste, je te l’avoue, une forte dose d’incrédulité. Mais je me
+                    rends à l’évidence des faits, lorsqu’un homme comme toi me dit: „il m’est plus
+                    que probable que la guérison est due au magnétisme.“ Ce mot tu ne me l’as pas
+                    dit encore. Je te prie aussi de m’initier de nouveau dans les mystères du
+                    Gynécée! Y-a-t-il cette année quelque espoir de multiplication chez 3 de tes
+                    enfans mariés? Je demande un aperçu exact des espérances éloignées ou prochaines
+                    sans cependant promettre de m’en mêler de mon côté si tu persistes à ne pas
+                    avoir des petits-fils. C’est peut être moins féodal que de ne pas les avoir.
+                    Dis, je t’en supplie, mille et mille choses de ma part à <persName ref="cvh1">la
+                        bonne Li</persName>. J’entends de toutes parts que <placeName ref="Teplitz">Töplitz</placeName> lui a fait beaucoup de bien. Ce qui lui fera le plus de
+                    bien est le rétablissement de <persName ref="cvh2">Caroline</persName>. L’ami de
+                        <persName ref="dfkoreff">Koreff</persName>, <persName ref="jfadflemming">Flemming le Brasilien</persName>
+               <note type="footnote" resp="editor">Graf
+                        Friedrich August von Flemming, preußischer Gesandter in Rio de Janiero.
+                        [FZ]</note>, a été quelques jours ici. Il venait, comme tu peux le deviner,
+                    de Normandie de la famille de <persName ref="dcustine">Mad. de
+                        Custine</persName>. Il est très aimable, très spirituel, et je l’ai beaucoup
+                    vu. Il sait des anecdotes charmantes sur ces révolutions de <placeName ref="Rio de Janeiro">Rio Janeiro</placeName>, sur la difficulté que l’on a
+                    eu de se former un <hi rend="letterspace">peuple</hi> (de 200 personnes) qui pût
+                    paraître en tems et lieu sur la grande place. Les Brasiliens n’aiment pas le
+                    grand air et le soleil. C’est cependant ce peuple qui a tout demandé.
+                            <sic>
+                  <persName ref="ppalmela">Pamela</persName>
+               </sic> a donné peu de
+                    marques de talent là bas, il assistait à toutes les revues en grand uniforme de
+                    Lieutenant général, ce qui fit rire le peuple et même <persName ref="johann6">le
+                        Roi de Portugal</persName>. Ce dernier marqué une extrême allégresse d’abord
+                    après que l’opération lui a été faite: il était si en train de prêter serment
+                    qu’il demandait sans cesse s’il restait quelque chose pour jurer. Les cortes de
+                        <placeName ref="Lissabon">Lisbonne</placeName> se comportent de la manière
+                    la plus absurde et la plus blâmable, ne laissant aucune force au pouvoir
+                    exécutif. Je conçois très bien ce que tu dis de l’impossibilité d’écrire sur
+                        <persName ref="fschiller">Schiller</persName> pour un livre français.
+                    Heureusement cette vie et <bibl sameAs="44">ce livre</bibl> de <persName ref="pbarante">Barante</persName> ont déjà paru. Je ne l’ai pas encore vu.
+                    Tu as bien raison qu’il est impossible de se faire entendre lorsque tout est
+                    étranger au mode de sentir et d’exprimer ses sentiments. J’expliquerai à la
+                    belle <persName ref="mjbarante">Madame de Barante</persName> qu’il n’y a rien
+                    d’hostile dans ton refus, cher ami. Pardonne moi de t’avoir pressuré à ce sujet.
+                        <persName ref="msfschoell">Schöll</persName> fait une superbe affaire: il ne
+                    rend pas seulement les 15000 fr. (que je lui avais avancés de la part du
+                    Gouvernement) en exemplaires des <bibl sameAs="193">Spécies</bibl>, mais il me
+                    force encore de lui céder ce que doivent les autres livres et d’y ajouter argent
+                    comptant pour s’emparer des 24000 fr. que Bülow<note type="footnote" resp="editor">Damit ist wohl der preußische Finanz- (1813–1818) und
+                        Handelsminister (1818–1825) <persName ref="lfvhbuelow">Hans von
+                            Bülow</persName> gemeint und nicht Wilhelm von Humboldts Schwiegersohn
+                            <persName ref="hbuelow">Heinrich von Bülow</persName>. [FZ]</note>
+                    m’avait donnés. Il a arrangé tout cela sans seulement se donner la peine de me
+                    consulter, si cela m’arrangeait. Je ne m’opposerai pas, mais je lui ai fait
+                    sentir l’insolente indélicatesse de ce procédé. Il fait peindre des exemplaires
+                    noirs (Schmiererei!)<note type="footnote" resp="editor">In Frakturdruck
+                        wiedergegeben.</note> et vend pour des bibliothèques de <placeName ref="Greifswald">Greifswalde</placeName>, <placeName ref="Breslau">Breslau</placeName>... 5 exemplaires des <bibl sameAs="193">Nova
+                        Genera</bibl> qu’il évalue ensemble 24000 Francs. J’attends la réponse
+                    officielle et je me bornerai à en exprimer bien clairement dans cette réponse,
+                    que quoique très reconnaissant de cette somme qu’on m’avait prétée, pas un sol
+                    m’en est revenu à moi, mais que l’affaire des exempl. a été imaginée par les
+                    libraires sans ma participation. Je ne veux pas entraver le commerce qu’on fait
+                    avec mes ouvrages, mais je veux que l’on sache que je n’y ai rien gagné. Je
+                    possède les cartes de <persName ref="cgreichard">Reichard</persName>, elles sont
+                    assez bonnes. Dis moi ce que tu sais de <persName ref="clbuch">Buch</persName>,
+                    où il est, pourquoi il ne publie pas <bibl sameAs="64">ses Canaries</bibl>? Je
+                    t’envoye dans un paquet séparément <bibl sameAs="349">la belle
+                        dissertation</bibl> de <persName ref="acquincy">Quatremère</persName> sur
+                    la Vénus de Milo et un livre <bibl sameAs="27">Archaeologia Americana</bibl>
+                    qu’on m’a donné et qui est mieux entre tes mains. Dis moi quand je pourrai
+                    acheter le Mannert<note type="footnote" resp="editor">Es ist unklar, welches
+                        Kartenwerk von <persName ref="kmannert">Konrad Mannert</persName> hier
+                        gemeint ist. [FZ]</note>? Je te conseille d’étudier <placeName ref="Persepolis">Persepolis</placeName> dans les superbes ouvrages de
+                        <persName ref="rkporter">Sir Richard Ker Porter</persName>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="247">Porter, Robert Ker (1821):
+                            Travels in Georgia, Persia, Armenia, ancient Babylonia, &amp;c.
+                            &amp;c.</bibl>: during the years 1817, 1818, 1819, and 1820, London:
+                        Longman, Hurst, Rees, Orme, and Brown. [FZ]</note> et de <persName ref="wouseley">S. William Ouseley</persName>
+               <note type="footnote" resp="editor">
+                  <bibl sameAs="324">Ouseley, William (1819–1823): Travels in
+                            Various Countries of the East: More Particularly Persia</bibl>, 3
+                        Bände, London: Rodwell and Martin. [FZ]</note>. Cela est très instructif.
+                    J’avance à présent très bien dans le Persan: je le lis assez facilement dans les
+                    ouvrages <hi rend="letterspace">imprimés</hi> et je le parle. J’ai 3 leçons par
+                    semaine et je veux cet hiver me fortifier dans l’Arabe. Mille grâces, cher
+                    frère, pour le nouveau cadeau de <bibl sameAs="206">ton Espagne</bibl>. Tout le
+                    monde en est ravi ici. C’est un modèle de critique et les notes renferment
+                    beaucoup de choses curieuses. Tu as donné tes idées su le <hi rend="letterspace">gôle</hi>. Je m’étonne que tu appelles cela 3 langues. Cependant dans le
+                    sens que le danois est une autre langue que le suédois et l’allemand. Qu’est ce
+                    qu’une langue? Le Hollandais en est-il une? Crois-tu que le Bas-Breton soit <hi rend="letterspace">Cimbrisch</hi>-gôlisch ou est-ce un conte bleu? <bibl sameAs="138">L’ouvrage</bibl> de <persName ref="fcgau">Gau</persName> sur la
+                    Nubie est vrayement très beau. Cela fait restauration de <bibl sameAs="106">l’Egypte</bibl> et on ne me le donnera pas. Je suis trop pauvre pour te
+                    l’offrir. Ne voudrais-tu pas l’acheter en français ici? Un cahier 18 fr., il y
+                    aura je crois 12 cahiers. C’est beau et plus beau que <bibl sameAs="106">l’Egypte</bibl> et bien bon marché. Tu sais que le Vandalisme français a
+                    fait arracher le Zodiaque de Dendera. Il est à <placeName ref="Marseille">Marseille</placeName>. Le placera-t-on à la Sorbonne? On dit que <persName ref="jhminutoli">Menu Minutoli</persName> est à <placeName ref="Marseille">Marseille</placeName>, aussi. Je t’envoye une lettre d’un petit M.
+                        Scholtz<note type="footnote" resp="editor">Wahrscheinlich ist damit der
+                        Orientalist und Theologe <persName ref="jmascholz">Johann Martin Augustin
+                            Scholz</persName> gemeint, der Minutoli auf seiner Reise nach Ägypten
+                        1820/1821 bis Kairo begleitete. [FZ] </note> personnage hébraïzant qui tient
+                    avec lui<note type="footnote" resp="editor">Im Druck von 1880 heißt es: "Dieser
+                        Brief hat sich unter den Papieren Alexanders erhalten." Der Brief ist jedoch
+                        nicht zu identifizieren. [FZ]</note>. Cela te fera rire.</p>
+            <closer>
+               <salute>Mille tendres
+                        amitiés.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Paris le 21.
+                        Oct.<lb/>1821.</dateline>
+            </closer>
+            <postscript>
+               <p>Mon portrait est-il arrivé, cher ami? Je te prie de faire mille excuses à
+                            <persName ref="gjckunth">M. Kunth</persName> de ce que je ne le remercie
+                        pas aujourd’hui de son aimable lettre.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

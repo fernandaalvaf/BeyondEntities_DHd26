@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 1. Juli 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Lieber an Wilhelm von Humboldt, 15.03.1832<idno type="BBAW">410</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 123–124</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1998, S. 7f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="jlannes">
+                  <persName>Lannes, Jean, Duc de Montebello</persName>
+               </person>
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+               <person corresp="rcrask">
+                  <persName>Rask, Rasmus Christian</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="126">Encyclopaedia Americana, seit 1829</bibl>
+               <bibl corresp="385">Humboldt, Wilhelm Freiherr von / Schiller, Friedrich: Briefwechsel
+                    zwischen Schiller und Wilhelm v. Humboldt (Stuttgart und Tübingen: J. G. Cotta
+                    1830)</bibl>
+               <bibl corresp="18">North American Review, 1815-1940</bibl>
+               <bibl corresp="811">Pickering, John: Appendix: Indian Languages of America. In: Lieber,
+                    Franz (Hrsg.): Encyclopædia Americana, Vol. 6, S. 581-600 (Philadelphia: Thomas,
+                    Cowperthwait &amp; Co. 1840)</bibl>
+               <bibl corresp="462">Wolzogen, Caroline von: Schillers Leben. Verfasst aus Erinnerungen
+                    der Familie, seinen eigenen Briefen und den Nachrichten seines Freundes Körner
+                    (Stuttgart: J. G. Cotta 1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Euer Exzellenz geehrtes Schreiben von Bremen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="flieber">Lieber, Franz</persName>
+               <date type="author" when="1832-03-15"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="875" type="next">14.06.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="flieber">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">1. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Lieber/Lieber-WvH_1832_03_15/Coll.ling.fol.52_257.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1832_03_15/Coll.ling.fol.52_258.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1832_03_15/Coll.ling.fol.52_259.jpg"/>
+      <graphic url="Lieber/Lieber-WvH_1832_03_15/Coll.ling.fol.52_260.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="123r"/> <salute>Euer Excellenz</salute>
+            </opener>
+            <p>Geehrtestes Schreiben von <placeName ref="Bremen">Bremen</placeName> habe ich
+                    richtig mit den beifolgenden Büchern vor einigen Tagen erhalten. Ich sage Ihnen
+                    noch einmal meinen aufrichtigsten Dank dafür. Ich denke etwas über die beiden
+                    Werke – der <bibl sameAs="385">Correspondenz</bibl> und <bibl sameAs="462">
+                        Schiller’s Leben</bibl> – in der <bibl sameAs="18">
+                  <hi rend="antiqua">American Review</hi>
+               </bibl> zu sagen, aber ich fürchte
+                    sehr, ja ich kann sagen, ich weiß daß es nichts genügendes wird; denn selbst
+                    wenn ich fähig wäre etwas Tüchtiges über diese intressanten Werke zu schreiben,
+                    so würde es immer eine schwierige Aufgabe in einem so fernen Lande
+                        <add>sein</add>, wo also das Publikum nicht schon mit vielen Details, und
+                    namentlich nicht mit <persName ref="fschiller">Schiller</persName>s Werken genau
+                    bekannt ist, etwas was in einem kurzen Aufsaze, wie der einer <hi rend="antiqua">Review</hi>, vorausgesezt werden sollte, wenn man wie ich es wünsche mit
+                    Freuden über die Correspondenz zweier so großer Männer, über den Austausch ihrer
+                    Ideen – über einen so schönen geistigen Verkehr reden will. Dazu kömmt daß ich
+                    im eigentlichsten Sinne des Worts ein Sklave meines <pb n="123v"/> <bibl sameAs="126">Werkes</bibl> bin, was <del>ich</del> in jeder Lage eine
+                                <subst>
+                  <del>
+                     <gap quantity="3" unit="chars"/>
+                  </del>
+                  <add>beschwerliche</add>
+               </subst> Arbeit gewesen wäre, aber bei
+                    mir noch durch die fremde Sprache in der ich es schreibe, vermehrt würde. Für
+                    gewöhnliche Gegenstände <del>habe</del> bin ich freilich so ziemlich des
+                    Englischen Meister, aber wenn es an gewisse abstracte Gegenstände geht, so wird
+                    es zuweilen beschwerlich; und da ich nun doch einmal davon <add>rede</add>, eine
+                    größere Qual kann es nicht geben, als wenn man deutlich genug fühlt, daß man
+                    einen Gedanken nicht precis und klar <del>genug</del> gegeben hat, und doch
+                    nicht gleich fähig ist, es zu verbessern. Es ist nicht gut seiner Zunge beraubt
+                    zu sein.</p>
+            <p>Ich habe vor kurzem Euer Excellenz <sic>mehre</sic> Indianische Schriften
+                    gesandt, und hoffe, daß sie glücklich angekommen sind.<note type="footnote" resp="editor">Vgl. hier Liebers <ref type="link" target="408">Brief</ref>
+                        vom <date when="1830-12-20">20.12.1830</date>.</note>
+            </p>
+            <p>
+               <persName ref="jpickering">Herr Pickering</persName> zeigte mir vor einigen
+                    Tagen einen <ref type="link" target="359">Brief von Ihnen</ref> über den Artikel
+                        <bibl sameAs="811">
+                  <hi rend="antiqua">Indian Languages</hi>
+               </bibl> den er für <bibl sameAs="126">mein Werk</bibl> schrieb. Sie haben ihm eine sehr große Freude bereitet.
+                        <persName ref="rcrask">Herr <hi rend="antiqua">Rask</hi>
+               </persName> hatte
+                    über denselben Gegenstand kurz vorher an ihn geschrieben. Es giebt in allen
+                    Zeiten und allen Ländern Leute die da nicht hingehören, wo das Geschick sie
+                        <sic>hingestelt</sic> hat. Vielleicht ist in <placeName ref="Zwickau">Zwickau</placeName> oder <placeName ref="Vaduz">Vaduz</placeName> ein
+                    Demosthenes untergegangen, in <placeName ref="Philadelphia">Philadelphia</placeName> unter den Quäkern oder in <placeName ref="Herrnhut">Herrnhut</placeName> ein <persName ref="jlannes">Lannes</persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="jlannes">Jean Lannes</persName>, Prince de Sievers, Duc de
+                        Montebello (1769–1809), französischer General und Freund <persName ref="napoleon">Napoleon Bonapartes</persName>.</note>. So gehört
+                        <persName ref="jpickering">Herr Pickering</persName> nicht hieher. Hätte er
+                    in Europa irgend eine Stelle finden können, die ihn, gegen Noth schüzend, doch
+                    Zeit zum Studium <subst>
+                  <del>ließe</del>
+                  <add>gelassen hätte</add>
+               </subst>, so
+                    wäre sein Name nicht unbekannt geblieben.</p>
+            <p>Ich möchte hier noch etwas zufügen, was wenn es für <persName ref="avh">Herrn
+                        Alexander von Humboldt</persName> neu ist, ihm intressant sein, wird, was
+                    aber freilich, ist es nicht neu, sehr an das Lächerliche gränzt. Ich habe es
+                    nirgend erwähnt gefunden, und will es deswegen herzuschreiben wagen. Die Fülle
+                    der Electricität in der hiesigen Atmosphäre ist auffallend groß. Ich will
+                            <subst>
+                  <del>von</del>
+                  <add>nur</add>
+               </subst> <sic>Beispielen</sic> des
+                    gemeinsten Lebens geben. Fast immer wenn <pb n="124r"/> ich meine Haare mit dem
+                    Kamme theile höre ich das Knittern der Funken nach allen Seiten, und im Finstern
+                    vor dem Spiegel sah ich sie nach allen Seiten sprühen. Des Morgens nach dem
+                    Aufstehen, wird es mir sehr schwer, die Haare an den Kopf anliegen zu machen.
+                    Sie streben, noch warm vom Bett, nach allen Seiten. Leute die wollne Westen
+                        <del>auf dem Leibe</del> tragen, und sie des Abends ausziehen, sehen dann
+                    die Funken ebenfalls nach allen Seiten sprühen. Ich hörte eine Dame einst in
+                    großer Angst <subst>
+                  <del>nach</del>
+                  <add>um</add>
+               </subst> Beistand
+                            <subst>
+                  <del>von</del>
+                  <add>nach</add>
+               </subst> ihrem Kammermädchen rufen,
+                    weil sie vor dem zu Bette gehen plözlich aus dem wollnen Unterrocke <add>eine
+                        Fülle von</add> Funken sprühen sah. <del type="fragment">We</del> Sonderbar
+                    dabei ist, daß diese electrischen Erscheinungen sehr häufig bei feuchtem
+                    Ostwinde statt finden, am stärksten jedoch wenn wir den kalten trocknen
+                    Nordwestwind von Canada her haben.</p>
+            <p>Ist der Grund der ganzen Erscheinung nur die groß<supplied cert="high">e</supplied>
+               <note type="footnote" resp="editor">Hier und an den drei
+                        folgenden Zeilenenden leichter Textverlust durch Schnittstelle.</note>
+                    Trockenheit hiesiger Luft <add>u der Haut</add>, da die Erscheinungen <supplied cert="high">im</supplied> <del type="fragment">he</del> Sommer nachlassen,
+                    wenn die Haut perspirirt? Ich ha<supplied cert="high">be</supplied> nie mehr
+                    Electricität spüren können, wenn <supplied cert="high">wir</supplied> eine
+                    brillante Aurora Borealis hatten.</p>
+            <p>Entschuldigen Sie diese Episode und genehmigen Sie die Versichrung meiner
+                    vorzüglichsten Hochachtung. Ich bin</p>
+            <closer>
+               <salute>Euer Excellenz <lb/>ganz ergebenster Diener</salute>
+               <signed>Franz Lieber</signed>
+               <lb/>
+               <dateline>Boston den 15<hi rend="superscript">
+                     <hi rend="underline">ten</hi>
+                  </hi> <sic>Marz</sic>
+                  <lb/>1832.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="124v"/>
+               <lb/>
+               <pb n="auf der Vorderseite des gefalteten Briefes:"/>
+               <address>
+                  <addrLine>Via <placeName ref="Bremen">Bremen</placeName>
+                  </addrLine>
+                  <addrLine>Seiner Excellenz</addrLine>
+                  <addrLine>Herrn Freiherr <hi rend="antiqua">Wilhelm</hi> von <hi rend="antiqua">Humboldt</hi>
+                  </addrLine>
+                  <addrLine>Königl. Preuß. Staats- und Cabinetsminister</addrLine>
+                  <addrLine>Ritter mehrer hoher Orden</addrLine>
+                  <addrLine>&amp; &amp; &amp;</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">Berlin</placeName>
+                  </addrLine>
+               </address>
+               <note type="footnote" resp="editor">Stempel: "<placeName ref="Bremen">Bremen</placeName> 28/4"</note>
+               <note type="footnote" resp="editor">Zwei Stempel auf der Rückseite des
+                        gefalteten Briefes: <lb/>"Forwarded by H. H. Meier &amp; Co. <placeName ref="Bremen">Bremen</placeName>"; "N 225"</note>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

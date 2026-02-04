@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>José María de Murga y la Barrera an Wilhelm von Humboldt, 24.09.1801<idno type="BBAW">427</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu
+                     Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 74,
+                     S. 537 (a–i)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Gárate 1934, S. 622–626</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 264f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8819</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ppastarloa">
+                  <persName>Astarloa y Aguirre, Pedro Pablo de</persName>
+               </person>
+               <person corresp="jdbarbie">
+                  <persName>Barbié du Bocage, Jean-Denis</persName>
+               </person>
+               <person corresp="cicero">
+                  <persName>Cicero</persName>
+               </person>
+               <person corresp="fcorral">
+                  <persName>Corral y Eguía, Fausto Antonio José de</persName>
+               </person>
+               <person corresp="qcurtius">
+                  <persName>Curtius Rufus, Quintus</persName>
+               </person>
+               <person corresp="jmeguia">
+                  <persName>Eguía y Aguirre, Joaquín María de, 3. Marqués de Narros</persName>
+               </person>
+               <person corresp="fjmeguia">
+                  <persName>Eguía y del Corral, Francisco Javier María de (4. Marqués de
+                     Narros)</persName>
+               </person>
+               <person corresp="hmhusson">
+                  <persName>Husson, Henri-Marie</persName>
+               </person>
+               <person corresp="aiturriaga">
+                  <persName>Iturriaga y Emparán, Agustín de</persName>
+               </person>
+               <person corresp="karl4">
+                  <persName>Karl IV., König von Spanien</persName>
+               </person>
+               <person corresp="mlarramendi">
+                  <persName>Larramendi, Manuel de</persName>
+               </person>
+               <person corresp="livius">
+                  <persName>Livius</persName>
+               </person>
+               <person corresp="lgmazarredo">
+                  <persName>Mazarredo, Lope García de</persName>
+               </person>
+               <person corresp="jmazarredo">
+                  <persName>Mazarredo Salazar, José de</persName>
+               </person>
+               <person corresp="jamoguel">
+                  <persName>Moguel Urquiza, Juan Antonio</persName>
+               </person>
+               <person corresp="crollin">
+                  <persName>Rollin, Charles</persName>
+               </person>
+               <person corresp="ffenelon">
+                  <persName>Salignac de La Mothe-Fénelon, François de</persName>
+               </person>
+               <person corresp="sallust">
+                  <persName>Sallust</persName>
+               </person>
+               <person corresp="sophokles">
+                  <persName>Sophokles</persName>
+               </person>
+               <person corresp="rurquijo">
+                  <persName>Urquijo, Rafael de</persName>
+               </person>
+               <person corresp="jjzalduaymurga">
+                  <persName>Zaldúa y Murga, Joaquina Josefa de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1432">Barthélemy, Jean Jacques (1788): Voyage du jeune Anacharsis en
+                  Grèce, dans le milieu du quatrième siècle avant l’ère vulgaire, 4 Bände und ein
+                  Kartenband, Paris: De Bure</bibl>
+               <bibl corresp="1437">Husson, Henri Marie (1801): Recherches historiques et medicales
+                  sur la vaccine, Paris: Gabon et Cie.</bibl>
+               <bibl corresp="501">Larramendi, Manuel de (1745): Diccionario trilingüe del
+                  Castallano, Bascuence y Latin, San Sebastian: B. Riesgo y Montero</bibl>
+               <bibl corresp="1435">Rollin, Charles (1726–1728): Traité des études ou De la manière
+                  d’enseigner et d’étudier les belles lettres. Par rapport à l’esprit &amp; au
+                  coeur, Paris: Jacques Estienne</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mi estimado amigo y Senor …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jmmurga">Murga y la Barrera, José María de</persName>
+               <date type="author" when="1801-09-24"/>
+               <placeName key="Bilbao">Bilbao</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="598" type="prev">20.07.1801</ref>
+               <ref type="next" target="861">23.12.1801</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">10. März 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="537a"/> Mi estimado amigo y Señor: Si Vm̃<note type="footnote" resp="editor">Abkürzung für 'Vuesamerced' (Euer Gnaden).</note> hubiese creido mas bien en
+               quanto á mi inteligencia en el Bascuence á lo que pudo juzgar por sí mismo durante
+               los pocos dias que pasamos juntos, que á lo que le dijeron personas demasiadamente
+               empeñadas en favorecerme, no me hubiera Vm̃ puesto en la empresa pa mí
+               dificultosisima de traducir á aquella lengua algun pasage de qualqu.ra buen Autor
+               latino, y yo hubiera tenido antes el gusto de responder á su estimada carta de 22 de
+                  Julio<note type="footnote" resp="editor">Bei Gárate 1934, S. 437 bzw. 444 ist für
+                  den vorausgehenden Brief das Datum "20 de Julio de 1801" bzw. "20. d. Juillet
+                  1801" angegeben. [FZ]</note>. Pero el mal está hecho, y todo se reduce á que yo no
+               pida á Vm̃ perdon de mi largo silencio, y á que acompañe mi ensayo de traduccion con
+               una especie de Prologo tan largo ó mas que ella.</p>
+            <p>Para dar á Vm̃ razon delos papeles que le envio, debo empezar p.<hi rend="superscript">r</hi> decir que no habiendo podido sus atentas expres.<hi rend="superscript">nes</hi> hacerme desconocer mi insuficiencia, recurrí desde
+               luego al <persName ref="jamoguel">Sr. Moguel</persName> p.<hi rend="superscript">a</hi> que traduxese los retazos q.<hi rend="superscript">e</hi> le pareciese de
+                  <persName ref="sallust">Salustio</persName>, <persName ref="livius">T.
+                  Livio</persName>, <persName ref="tacitus">Tá</persName>-<pb n="537b"/>cito y
+                  <persName ref="cicero">Cicerón</persName>, y yo por decir que hacía algo pensaba
+               poner algunas notas, que era oficio mas proprio de mi pereza. Hizo <persName ref="jamoguel">aquel amigo</persName> con la mejor voluntad lo que se le pedia y
+               añadió un trozo de <persName ref="qcurtius">Q. Curcio</persName>, pero por razones
+               que hubo p.<hi rend="superscript">a</hi> ello, usó del Dialecto guipuzcoano <hi rend="underline">que yo apenas entiendo</hi>
+               <note type="footnote" resp="editor">Mit rotbraunem Stift unterstrichen, wahrscheinlich durch Humboldt. [FZ]</note>; y
+               fuera de esto eligió en todos los Autores citados arengas, que es donde la
+                  traduccion<note type="footnote" resp="editor">Im Jahr 1802 erschienen Moguels <hi rend="italic">
+                     <bibl sameAs="1434">Versiones bascongadas de varias arengas, y
+                        oraciones selectas de los mejores Autores latinos, o Demonstración práctica
+                        de la pureza, fecundidad y eloquencias del idioma bascuence</bibl>
+                  </hi>,
+                  Tolosa: Francisco de la Lama. [FZ]</note>, que Vm̃ quería literal q.<hi rend="superscript">to</hi> fuera posible, exige mayor libertad; y de esta se tomó
+               tanta, que á veces pareció á mi escrupulosa conciencia q.<hi rend="superscript">e</hi> no solam.<hi rend="superscript">te</hi> ponía unas figuras por otras, sino
+               aun que se apartaba del sentido. Así me hallé con que su trabajo aunque mui
+               apreciable, y digno de remitir á Vm̃ con elogio como lo hago, no era proprio p.<hi rend="superscript">a</hi> los fines que Vm̃ deseaba, y hube de cansar de nuevo al
+               mismo amigo, rogandole que me traduxera en ambos Dialectos Vizcaino, y Guipuzcoano, y
+               con la mayor <pb n="537c"/> exactitud que permitiera el genio de ellos, las dos
+               historias de Damocles el favorito de Dionisio de Siracusa, y del Maestro delos niños
+               Faliscos, q.<hi rend="superscript">e</hi> por su sencillez recomienda y copia
+                  <persName ref="crollin">Rollin</persName> en <bibl sameAs="1435">el Trat.<hi rend="superscript">o</hi> delos Estudios</bibl>
+               <note type="footnote" resp="editor">Rollins <hi rend="italic">Traité des études</hi> erschien 1755 in
+                     <bibl sameAs="1736">der spanischen Übersetzung</bibl> von <persName ref="mccaso">María Catalina de Caso</persName>; siehe Encarnación Medina Arjona
+                  (1999): Las traducciones de Charles Rollin y su lugar en la bibliografía
+                  pedagógica española del siglo XVIII. In: Francisco Lafarga (Hrsg.): <hi rend="italic">La traducción en España, 1750–1830: Lengua, Literatura,
+                     Cultura</hi>, Lleida: Edicions de la Universitat de Lleida, S. 235–237.
+                  [FZ]</note>. Entretanto, yo el recomendado á Vm̃ por mi pureza Bascongada, adquirí
+                  <bibl sameAs="501">el Diccion.<hi rend="superscript">o</hi>
+               </bibl> de <persName ref="mlarramendi">Larramendi</persName>, y me hallé en un mundo enteram.<hi rend="superscript">te</hi> nuevo, porq.<hi rend="superscript">e</hi> si antes
+               podia tener alguna duda, entonces me convenzí de que no sabía palabra. Sin embargo
+               quando <persName ref="jamoguel">el am.<hi rend="superscript">o</hi>
+               Moguel</persName>, s.<hi rend="superscript">pre</hi> igualmente bondadoso, me envió
+               estas nuevas traducciones que tamb.<hi rend="superscript">n</hi> incluyo porque
+               tienen mucho mérito, ayudado de ellas y del <persName ref="mlarramendi">Larramendi</persName> quise probar mis fuerzas, y hice dela historia de Damocles
+               esa traduccion con tanto trabajo que no me quedó gana de continuarle en la delos
+               Faliscos. Pero esto fué nada p.<hi rend="superscript">a</hi> lo que hube de sudar
+               quando quise representar mi traduccion por otra traducc.<hi rend="superscript">n</hi>
+               interlinear Francesa que fuese á lo menos <pb n="537d"/> comprehensible. Crea Vm̃,
+               amigo mio, que solamente el aprecio q.<hi rend="superscript">e</hi> hago de su
+               persona, y de su amor á las Buenas letras, de que yo siento tamb.<hi rend="superscript">n</hi> de tarde en tarde alguna débil chispa, pudo haberme
+               sujetado á tan desabrida tarea; p.<hi rend="superscript">o</hi> al cabo molestado del
+               temor de que mis notas fuesen ininteligibles, aburrido de conciliar lenguas de indole
+               tan <sic>opuesto</sic> como la Francesa y la Bascongada, horrorizado enfin si es
+               permitido decirlo así de estropear con barbarie Vandálica el estilo de <persName ref="cicero">Ciceron</persName> y el idioma de <persName ref="ffenelon">Fenel<supplied cert="high">on</supplied>
+               </persName> ni he tenido valor de
+               concluir mi trabajo, ni aun de poner en limpio lo que yá tenia hecho, y así se lo
+               envio á Vm̃ con borrones, con enmiendas, apenas legible, p.<hi rend="superscript">a</hi> que se asegure de que no me faltó deseo sino capacidad de servirle
+               completamente.</p>
+            <p>Desp.<hi rend="superscript">s</hi> de esta necesaria apología paso á manifestar á Vm̃
+               lo mucho que apreciamos la honra q.<hi rend="superscript">e</hi> espera á este Pais
+               de <pb n="537e"/> darse á conocer en el Norte de Alemania su idioma y sus costumbres
+               por una pluma tan respetable, y tan propensa á favorecernos. Los elogios que hace Vm̃
+               de estas Provincias en su apreciable carta y que de Vm̃ á mí no pueden menos de ser
+               sinceros, han contentado en extremo á quantos los han oido; y á los que trataron á
+               Vm̃, solamente les ha quedado el sentimiento de no haber obsequiado mas, y mas á
+               quien sabe tan bien expresar su gratitud, y de no haberle tenido por acá mas
+               despacio. Yo aseguro á Vm̃ que leyendolos me admiraba de tener por acá tanto de bueno
+               sin advertirlo; pero volviendolos á leer, no podia señalar precisam.<hi rend="superscript">te</hi> en qual estaba la ponderacion: efecto que si no
+               queremos atribuirle á amor á la patria por respeto á un nombre tan sobresaliente, se
+               le atribuirémos á los hábitos adquiridos desde la niñez, y al agradecimiento q.<hi rend="superscript">e</hi> debo á mis paisanos, y quedará bastantemente
+               cansado.</p>
+            <p>
+               <pb n="537f"/> Habrá como un mes q.<hi rend="superscript">e</hi> estube en Vita y ví
+               allí al <persName ref="fjmeguia">amigo Eguia</persName>, con quien como puede Vm̃
+               suponer, hablé mil veces de Vm̃. Le pedí la musica y letras Bascongadas, y le he
+               vuelto á escribir sobre ello, pero Vm̃ y yo sabemos que la actividad no es la mejor
+               de sus prendas, y ademas de eso ha estado un poco indispuesto. <persName ref="jmeguia">Su padre</persName>, y <persName ref="fcorral">el Sr.
+                  Corral</persName> están en <placeName ref="Bayonne">Bayona</placeName> por
+               temporadas. </p>
+            <p>Doy á Vm̃ infinitas gracias por sus diligencias con <persName ref="jdbarbie">M.
+                  Barbié du Bocage</persName> para agenciarme el Mapa que falta al Atlas dela ultima
+                  <bibl sameAs="1432">edicion de Anacharsis</bibl>
+               <note type="footnote" resp="editor">Welche der zahlreichen Ausgaben des <hi rend="italic">Anacharsis</hi> gemeint ist, lässt sich nicht eruieren. [FZ]</note>, y por las
+               noticias de política, literatura, y artes que me comunicaba. No esperará Vm̃ que yo,
+               y escribiendo de <placeName ref="Bilbao">Bilbao</placeName>, se las pague á Vm̃, y
+               escribiendome de <placeName ref="Paris">Paris</placeName> ó de <placeName ref="Berlin">Berlin</placeName>, pero sí qe le ruegue me las continúe.</p>
+            <p>La única novedad que puedo avisar á Vm̃ es la introduccion dela vaccina<note type="footnote" resp="editor">D.i. die durch den Briten <persName ref="eajenner">Edward Jenner</persName> entwickelte Pockenimpfung. [FZ]</note>, á merced
+               delos eficaces esfuerzos del <persName ref="lgmazarredo">am.<hi rend="superscript">o</hi> Mazarredo</persName>
+               <note type="footnote" resp="editor">Siehe hierzu
+                  José Tuells / José Luis Duro Torrijos (2017): Propagación de la vacuna contra la
+                  viruela en Bilbao (1801–1802), el papel de Lope de Mazarredo (1769–1820) / Spread
+                  of the smallpox vaccine in Bilbao (1801–1802), the role of Lope de Mazarredo
+                  (1769–1820). In: <hi rend="italic">Vacunas</hi> 18, issue 2, July – December 2017,
+                  S. 79–84 (<ref type="linkExt"
+                       target="https://www.researchgate.net/publication/321648595_Spread_of_the_smallpox_vaccine_in_Bilbao_1801-1802_the_role_of_Lope_de_Mazarredo_1769-1820">engl. Version hier</ref>). [FZ]</note>
+               <pb n="537g"/> que aun ha dado á luz un extracto<note type="footnote" resp="editor">Laut Tuells / Duro 2017 erschien diese anonyme Publikation in nur geringer
+                  Auflage. [FZ]</note> dela <bibl sameAs="1437">obra publicada</bibl> en <placeName ref="Paris">Paris</placeName> por <persName ref="hmhusson">Husson</persName>
+               <note type="footnote" resp="editor">Henri-Marie Husson war Sekretär des <hi rend="italic">Comité de vaccine</hi> in <placeName ref="Paris">Paris</placeName>, das für die Pockenimpfung in Frankreich zuständig war.
+                  [FZ]</note> sobre ese asunto. Está vaccinada, ó <hi rend="underline">invacunada</hi> como aquí decimos su niña, y la de n͠ro<note type="footnote" resp="editor">D.h. "nuestro".</note>
+               <persName ref="aiturriaga">am.<hi rend="superscript">o</hi> Iturriaga</persName> en
+                  <placeName ref="Azpeita">Azpeitia</placeName>; mis niños creo que lo estén en toda
+               esta semana: en <placeName ref="Madrid">Madrid</placeName> se ha recibido con el
+               mayor enthusiasmo esta invencion. Segun veo por las Gacetas Francesas, los Médicos
+               Prusianos se quieren tomar aun mas tiempo p.<hi rend="superscript">a</hi> juzgarla. </p>
+            <p>Yá sabrá Vm̃ la indisposicion de <persName ref="karl4">nr͠o Rey</persName> y las
+               demás novedades políticas que yo pudiera contarle. <persName ref="jmazarredo">El
+                  General Mazarredo</persName> ha elegido este Pueblo patria suya, para su
+               retiro.</p>
+            <p>No sé si me disculpe con Vm̃ de no responderle en Frances, y si es necesario, valgame
+               decir que basta p.<hi rend="superscript">a</hi> solecismos con los de mi traduccion
+               Galo-Cantabra. Vm̃ sabe el Castellano mejor que yo el Frances, y esta es mas
+               justificada disculpa sin entrar ahora en cotejos de lenguas que son tan sabrosos á
+               los Doctores de <pb n="537h"/> la literatura Bascongada. Ego me illorum dederim
+               quibus esse magistros, Excerpam numero, y no crea Vm̃ que por encaxar aquí un pasaje
+               de Horacio, me tengo por tan superior á <persName ref="jamoguel">Moguel</persName> ó
+               á <persName ref="ppastarloa">Astarloa</persName> como él á Lucilio, pero sin una cita
+               en latin, ¿qué se diría de una carta escrita enviando una Traduccion de <persName ref="Cicero">Ciceron</persName>?</p>
+            <p>Doy por supuesto que escribirá Vm̃ en Frances su visita á n.<hi rend="superscript">ros</hi> andurriales, p.<hi rend="superscript">s</hi> si lo hiciese Vm̃ en
+               Aleman, no le sabemos, y andariamos perdidos. Si Vm̃ me quisiese remitir sus trabajos
+               literarios, entre los quales me acuerdo haberle oido nombrar una traduccion <add>de
+                     alg.<hi rend="superscript">a</hi> trag.<hi rend="superscript">a</hi>
+               </add> de
+                  <persName ref="sophokles">Sofocles</persName>, tendré mucho gusto en recibirlos,
+               aunq.e estén en lengua que por mi desgracia yo no entienda, como testimonio dela
+               fineza con que corresponde Vm̃ á un amigo iliterato, p.<hi rend="superscript">o</hi>
+               que deveras le estima.</p>
+            <p>Si vé Vm̃ á mi am.<hi rend="superscript">o</hi>
+               <persName ref="rurquijo">Rafael de Urquijo</persName> hagame Vm̃ el gusto de
+               saludarle afectuosam.<hi rend="superscript">te</hi> en mi nombre, y de decirle que
+                  <pb n="537i"/> sé que lo luce en esa Corte con su guitarra, y cantares Españoles. </p>
+            <closer>
+               <salute>Reciba Vm̃ finas expresiones de <persName ref="jjzalduaymurga">mi
+                     muger</persName>, y pongame á los piés dela suya á quien sin tener la fortuna
+                  de conocerla, venero por las noticias que me tiene Vm̃ dadas de su aplicacion y
+                  talento, y crea Vm̃ que se precia de serle mui apas.do su af.<hi rend="superscript">mo</hi> am.<hi rend="superscript">o</hi> y seg.<hi rend="superscript">o</hi> serv.<hi rend="superscript">or</hi> q.<hi rend="superscript">e</hi> s. m. b.</salute>
+               <signed>Joseph Maria de
+                  Murga</signed>
+               <lb/>
+               <dateline>Bilbao 24 de Sept.<hi rend="superscript">bre</hi> de
+                  1801.</dateline>
+               <lb/>
+               <address>
+                  <addrLine/>
+               </address>Sr. Baron D. Guill.<hi rend="superscript">mo</hi> de Humboldt.<lb/>
+               <pb n="537k–m vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

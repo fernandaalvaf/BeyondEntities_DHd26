@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Alexandre de Fauris de St. Vincens, 22.09.1800<idno type="BBAW">1028</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Washington, DC, Smithsonian
+                            Institution, Burndy Collection</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 644</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="schardon">
+                  <persName>Chardon de La Rochette, Simon</persName>
+               </person>
+               <person corresp="jfpfauris">
+                  <persName>Fauris de St. Vincens, Jules-François-Paul de</persName>
+               </person>
+               <person corresp="pgodolin">
+                  <persName>Godolin, Pèire</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="269">Astros, Jean Guillem d’ (1643): Lou Trimfe de la Lengovo
+                        Gascovo, Toulouse: Ian Boudo</bibl>
+               <bibl corresp="1200">Goudelin, Pierre [Pèire Godolin] (1700): Las obras,
+                        augmentados de forço péssos, é le dictiounari sus la lengo moundino,
+                        Amsterdam: D. Pain</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, / Monsieur Chardon la Rochette, notre ami commun, vient
+                    de me communiquer, Monsieur, les différentes pièces en langage Provençal …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1800-09-22"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ajafauris">Fauris de Saint-Vincens, Alexandre Jules Antoine
+                        de</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig, lateinische Schrift</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="oc">Okzitanisch (Provenzalisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">5. Februar 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/> Monsieur,</opener>
+            <p>
+               <persName ref="schardon">Monsieur Chardon la Rochette</persName>, notre ami
+                    commun, vient de me communiquer, Monsieur, les différentes pièces en langage
+                    Provençal que Vous avez bien voulû lui envoyer pour moi<note type="footnote" resp="editor">Ein Brief von Fauris de St. Vincens an Chardon de La Rochette
+                        (ohne Datum), der den Materialien für Humboldt beilag, befindet sich in
+                        Berlin, AST, Archivmappe 75, Bl. 325. [FZ]</note>. J’ai été confondu en
+                    vérité des bontés dont Vous m’avez comblé, et sachant que je ne puis posséder
+                    aucun titre pour m’y attendre, je les regarde d’autant plus comme un pur effèt
+                    de la complaisance généreuse de Votre caractere et en conserve une
+                    reconnoissance d’autant plus vive et plus sincère. En m’adressant à <persName ref="schardon">notre ami la Rochette</persName> je tachai uniquement de me
+                    procurer quelques échantillons de l’idiôme de Votre province et je me vois
+                    enrichi par Vos soins de tout ce qu’il est possible à peu près de posséder dans
+                    ce genre.</p>
+            <p>Il n’appartenait en effèt qu’à un savant aussi zêlé que Vous, Monsieur, à
+                    contribuer par tout à étendre les sciences de venir au devant, comme Vous venez
+                    de le faire, un desir d’un litérateur étranger, et si j’ai été charmé de voir
+                    d’enrichir ma petite bibliothèque par des morceaux aussi intéressans et rares en
+                    partie, j’ai ressenti une joie bien plus sensible encore de trouver par là
+                    l’occasion d’entrer en liaison directe avec une personne de Vos lumières et de
+                    Votre caractère, Monsieur. J’ai lû avec le plus grand intérèt la notice sur les
+                    travaux et la vie de Votre illustre père, que Vous avez bien voulû joindre aux
+                    pièces provençales, et il serait impossible certainement de trouver une image
+                    plus touchante que celle <pb n="2*"/> qu’offrent les études réunis d’un père
+                    &amp; d’un fils animés d’un zèle egal pour les progrès des sciences et des mots,
+                    et dorées des mêmes talens pour briller dans une carrière aussi difficile à
+                    fournir. Mais quels regrets Vous préparez à Vos lecteurs, Monsieur, en leur
+                    disant que les mémoires intéressans que conjointement avec <persName ref="jfpfauris">Mr. Votre père</persName> Vous avez rédigés sur les points
+                    les plus intéressans de l’histoire de Votre patrie ne peuvent pas encore être
+                    donnés au Public.<note type="footnote" resp="editor">Vater und Sohn Fauris de
+                        St. Vincens begründeten eine Antikensammlung, die 1821 zum Grundstock des
+                        heutigen Musée Granet in Aix-en-Provence wurde.</note> Je ne sais point de
+                    quelle nature peuvent être les raisons qui Vous en empêchent dans ce moment,
+                    mais je <unclear>croirais</unclear> faire tort aux sciences si je ne tachais pas
+                    aussi de mon côté à Vous engager d’éloigner, s’il est possible, les difficultés
+                    qui s’y trouvent, et de publier cet ouvrage ainsi que l’autre dont Vous parlez
+                    sur les recensemens de la Provence, qui me parait plus intéressant encore
+                    puisqu’il Vous donnait plus d’occasion de répondre du jour sur des objèts qui
+                    malgré tous les soins que l’on y a mis, sont <del>encore</del> toujours encore
+                    trop peu connus ou approfondis.</p>
+            <p>Je tacherai de trouver avec le tems, s’il est possible les deux ouvrages in 4.
+                    dont Vous parlez dans Votre lettre à <persName ref="schardon">Mr. Chardon la
+                        Rochette</persName> et qui à ce que Vous dites sont fort rares. Quant à
+                        Goudilin<note type="footnote" resp="editor">Gemeint ist eine <bibl sameAs="1200">Ausgabe des Werkes (von 1700) von Pierre Goudelin</bibl>
+                        (eig. auf Occitanisch: <persName ref="pgodolin">Pèire Godolin</persName>),
+                        eines occitanischen Dichters (1580–1649); s. Schwarz 1993, S. 20 Nr.
+                        74.</note> je le possedais déjà aussi qu’un autre ouvrage, dont Vous ne
+                    faites pas mention, dans le langage Gascon: <bibl sameAs="269">
+                  <hi rend="underline">Lou Trimfe de la Lengòvo Gascovò</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Siehe Schwarz 1993, S. 20 Nr. 75.</note>.
+                    Occupé depuis longtems de l’étude des langues, et recherchant surtout dans ce
+                    moment l’histoire des langues provenantes de la latine, je ne saurois Vous dire
+                    quel cadeau précieux Vous m’avez fait en m’envoyant ce qu’il y a de plus
+                    intéressant et de plus rare dans l’idiôme le plus intéressant à cet égard.</p>
+            <p>J’avais l’espérance il y a six mois, de faire, Monsieur, Votre connaissance
+                    personnelle à <placeName ref="Aix-en-Provence">Aix</placeName>. Mais
+                    malheureusement des obstacles que je ne pouvais point lever, s’opposèrent
+                        <del>que</del> à ce que je prisse cette route à mon retour de l’Espagne en
+                    France. Je l’ai vivement regretté, mais <unclear>nourrissant</unclear> un grand
+                    gout pour les voyages, je ne renonce pas encore à l’espoir de voir se réaliser
+                    ce projet. </p>
+            <closer>Veuillez en attendant, Monsieur, agréer encore <pb n="3*"/> une fois
+                    l’expression de ma plus vive reconnaissance, et l’assurance sincère des
+                    sentimens d’estime et d’attachement avec lesquels je serai toujours<lb/>
+               <salute>Monsieur,<lb/>Votre très-humble &amp; très-obéissant serviteur,</salute>
+               <lb/>
+               <signed>de Humboldt.</signed>
+               <lb/>à Paris, (rue Honoré, nr. 88.)<lb/>
+               <dateline>ce 5. jour complément.</dateline>
+               <lb/>
+               <dateline>an 8.<note type="footnote" resp="editor">D.h. der 22. September
+                            1800.</note>
+               </dateline>
+               <lb/>
+               <pb n="4*"/>
+               <address>
+                  <addrLine>A</addrLine>
+                  <addrLine>Monsieur Fauris de Saint Vincens,</addrLine>
+                  <addrLine>à</addrLine>
+                  <addrLine>Aix.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

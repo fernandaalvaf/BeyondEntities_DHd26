@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Christian Lassen, 10.11.1830<idno type="BBAW">815</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Nachlass Lassen, S
+                            860</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8301</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="kwlheyse">
+                  <persName>Heyse, Karl Wilhelm Ludwig</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="580">Bopp, Franz: Grammatica critica linguae Sanscritae 1 (Berlin: Dümmler 1829)</bibl>
+               <bibl corresp="65">Burnouf, Eugène / Lassen, Christian: Essai sur le Pali, ou langue sacrée de la
+                    presqu’ile au-dela du Gange (Paris: Dondey-Dupré père et fils 1826)</bibl>
+               <bibl corresp="669">Heyse, Carl Wilhelm: Rezension zu Dr. Karl Friedrich Becker: Organism der Sprache als
+                    Einleitung zur Deutschen Grammatik, 3 Theile. In: Jahrbücher für wissenschaftliche
+                    Kritik Nr. 16, Nr. 17 &amp; 18, Nr. 19 &amp; 20, Januar 1829</bibl>
+               <bibl corresp="644">Lassen, Christian: Ueber Herrn Bopps grammatisches System der
+                    Sanskrit-Sprache [Rezension von Franz Bopps Ausführliches Lehrgebäude der
+                    Sanskrita-Sprache, Berlin 1827]. In: Indische Bibliothek, Band 3, 1, 1830, S.
+                    1–113</bibl>
+               <bibl corresp="445">Veda</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Wohlgeboren haben mir durch Ihren gütigen Brief von 4.t
+                        huj. eine recht große Freude gemacht, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-11-10"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="classen">Lassen, Christian</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="813" type="next">11.12.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger
+                    Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="ind">Indo-Malaiisch</language>
+            <!-- = Indonesisch / Bahasa Indonesia (ind)!? -->
+            <language ident="kaw">Kawi</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1"/> Ew. Wohlgeboren haben mir durch Ihren gütigen Brief von <date when="1830-11-04">4.<hi rend="superscript">t</hi> <hi rend="antiqua">huj.</hi>
+               </date> eine recht große Freude gemacht, und ich benutze sogleich die
+                    Gelegenheit, welcher er mir verschafft, Ihnen noch einmal unmittelbar selbst zu
+                    sagen, wie wichtig ich die Aufschlüsse halte, welche <bibl sameAs="644">Ihre
+                        Abhandlung</bibl> in sich faßt und welche Hoffnungen zu noch bedeutenderen
+                    Aufklärungen ich auf dieselbe gründe. Was Ew: Wohlgeboren von dem
+                    Misverhältnisse des Umfangs der speciellen Kenntnisse zu dem Aussprechen
+                    allgemeiner Behauptungen sagen, ist mir wie aus der Seele geschrieben. Man muß
+                    freilich sich vorläufig gewisse Punkte bestimmen, um nicht bey dem Speciellen
+                    sich, wie in einem Irrgarten, zu verlieren. Ich habe dies früh sogar öffentlich
+                    gethan, und es reut mich noch jetzt nicht. Allein nun bleibe ich noch eine gute
+                    Zeitlang beym Speciellen, und habe mir wenigstens einen bestimmten Kreis
+                    vorgeschrieben, vor dessen Ausfüllung ich nichts Allgemeines wagen werde. Mein
+                    Weg geht seit länger als einem Jahre vom Chinesischen durch die Indo-Chi-<pb n="2"/>
+               <sic>Chinesischen</sic> und Malayischen Sprachen zum Sanskrit. Ich sehe dies
+                    nicht als eine historische Folge an, allein es ist eine offenbare Steigerung von
+                    dem einfachsten zum reichsten grammatischen Bau, und dies ist wichtig zu
+                    verfolgen. Ueberhaupt bin ich überzeugt, daß es durchaus unstatthaft ist, mit
+                    bloßer Kenntniß des Sanskrits und der Semitischen Sprachen über die Sprachen
+                    auch nur des mittägigen Asiens urtheilen zu wollen. Wir behandeln bisher das
+                    Sanskrit viel zu sehr, als eine Europäische Sprache und vernachläßigen seine
+                    Asiatischen <subst>
+                  <del>Sprachen.</del>
+                  <add>Verzweigungen</add>
+               </subst>
+            </p>
+            <p>Was Ew: Wohlgeboren mir über das Anfügungs <sic>Sistem</sic> schreiben, kommt mit
+                    einer Meinung überein, die <persName ref="kwlheyse">Herr 
+                        <hi rend="antiqua">Heyse</hi>
+               </persName>, welcher die Sprachen fast nur <hi rend="antiqua">a priori</hi>
+                    behandelt, vor länger als einem Jahre in <bibl sameAs="669">den hiesigen
+                        Jahrbüchern</bibl> aufgestellt hat, nemlich daß die Verbalendungen nicht
+                    von dem <hi rend="antiqua">Pronomen</hi>, sondern umgekehrt herkommen. Ich
+                    gestehe daß ich mich in dieser Ansicht nicht finden kann, wenn man <pb n="3"/> sie nicht ganz besonders modificirt. Auf keinen Fall läßt sie sich allgemein
+                    anwenden. Denn es giebt ja viele Sprachen, die gar keine Verbalendungen kennen,
+                    und andere, welche nur das regierte <hi rend="antiqua">Pronomen</hi> anhängen,
+                    das regierende aber immer allein stehen lassen. Indeß nähern sich Ew:
+                    Wohlgeboren schon sehr dem Anfügungssistem, wenn Sie doch überhaupt <hi rend="antiqua">Pronominal</hi>laute in den Verbalendungen anerkennen.</p>
+            <p>In einigen Punkten <bibl sameAs="644">Ihrer Abhandlung</bibl>, besonders in
+                    einigen geäußerten Vermuthungen, habe ich Ihrer Meinung nicht beistimmen können.
+                    Es ist nur so schwer, sich über so etwas schriftlich zu verständigen. Haben wir
+                    denn nicht einmal die Hoffnung, Sie auf einige Zeit bey uns zu sehen?</p>
+            <p>Es ist mir sehr angenehm gewesen, von Ihnen selbst zu hören, daß <bibl sameAs="644">Ihre Abhandlung</bibl> nicht hat feindselig gegen <persName ref="bopp">Herrn 
+                        <hi rend="antiqua">Bopp</hi>
+               </persName> sein sollen. In der That ist sie das auch nicht. Da aber Ew:
+                    Wohlgeboren <pb n="4"/> einmal dieses Punktes erwähnen, so kann ich nicht umhin,
+                    Ihnen freimüthig zu sagen, daß ich sehr bedauert habe, darin einige beißend
+                    scherzhafte, ja eigentlich spöttische Aeußerungen gefunden zu haben. Ich führe
+                    die über die Latinitaet und über die Bemühung, überall das Verbum <hi rend="underline">seyn</hi> zu suchen, als Beispiele an. Ich kann diesen Ton
+                    nicht billigen, und er hat in <bibl sameAs="644">Ihrer Abhandlung</bibl> ein um
+                        <sic>somehr</sic> sonderbares Ansehen, als Ew: Wohlgeboren in den
+                    Hauptansichten der <bibl sameAs="580">
+                  <hi rend="antiqua">Bopp</hi>ischen Grammatik</bibl>, und gerade in denen, auf welchem
+                    der hohe Werth, welcher dem Werke wird nie bestritten werden können, vorzüglich
+                    beruht, einverstanden sind. Sie sind das in einigen, die mir noch gar nicht, so
+                    ausgemacht erscheinen. Bey dieser Uebereinstimmung, bey dieser wirklichen
+                    Anerkennung des persönlichen Verdienstes des Verfassers erwartet man nun nicht,
+                    bey den weniger bedeutenden Punkten einen Ton, der doch auch mich, so wenig
+                    übelnehmerisch ich doch auch von Natur bin, verletzt haben würde.</p>
+            <p>
+               <pb n="5"/> Eben so wenig kann ich die <sic>Schlusäußerung</sic> billigen, daß
+                    <persName ref="bopp">Herr 
+                        <hi rend="antiqua">Bopp</hi>
+               </persName> nicht gehörig zu seinem Werke ausgerüstet gewesen sey. In dem
+                    höchsten Sinne ist es allerdings wahr; wer aber von uns ist es in diesem Sinne!
+                    wer dagegen diese Aeußerung abgerissen und ohne Sachkenntniß hört, nimmt
+                    dieselbe so als wenn man im gewöhnlichen Sinne jemanden für unreif erklärt. Nun
+                    aber, wenn Ew: Wohlgeboren sich aufrichtig fragen, würden Sie gewiß selbst nicht
+                    wünschen, daß <persName ref="bopp">Herr 
+                        <hi rend="antiqua">Bopp</hi>
+               </persName> das Schreiben <bibl sameAs="580">seiner Grammatik</bibl> um soviele
+                    Jahre, als er bedurft hätte, ganz ausgerüstet zu sein, aufgeschoben, oder wenn
+                    ihm jenes Studium nicht zusagte, ganz aufgegeben hätte.</p>
+            <p>Da Ew: Wohlgeboren ausdrücklich in Ihrem Briefe an mich <persName ref="bopp">Herrn 
+                        <hi rend="antiqua">Bopps</hi>
+               </persName> gedenken, so müssen Sie auch mir zu gute halten, wenn ich denselben
+                    nicht unberührt lassen konnte. Ich wollte eigentlich dadurch auf etwas
+                    Wichtigeres kommen, Ew: Wohlgeboren und <persName ref="bopp">Herr 
+                        <hi rend="antiqua">Bopp</hi>
+               </persName> sind offenbar durch Ihre Anlagen und Ihre Studien im Stande von dem
+                        <sic>Punkten</sic> aus, welche Sie <pb n="6"/> beide beschäftigen, eine
+                    wahre <hi rend="antiqua">Reform</hi> in dem Sprachstudium hervor zu bringen und
+                    dessen Grenzen ungewöhnlich zu erweitern. Sie haben sich jetzt durch <bibl sameAs="644">Ihre Abhandlung</bibl> so gestellt, daß Ihre beiderseitigen
+                    Arbeiten gerade indem Sie verschiedene Wege gehen, ineinander eingreifen können.
+                    Lassen Sie also von jetzt an, ich sage nicht alles feindselige, aber auch alles
+                    herausfordernde gänzlich fahren, und verfolgen Sie den Weg, durch factische
+                    Untersuchung des früheren Zustandes der Sprache die ohne solche Untersuchung
+                    gemachten Erklärungen zu <sic>wiederlegen</sic> oder zu bestätigen, und
+                    besonders, wie schon <bibl sameAs="644">Ihre Abhandlung</bibl> vielfach thut,
+                    Neues und Eigenes ans Licht zu fördern. Sehr wünschenswerth wäre es, etwas
+                    Zusammenhängendes über die Grammatik der <bibl sameAs="445">Vedas</bibl> zusammen zu stellen.</p>
+            <p>Ich hege um somehr diesen Wunsch, als ich mich gerade in diesen Tagen sehr viel
+                    mit <bibl sameAs="65">Ihrer Schrift über das Pali</bibl> beschäftigt habe. Ich
+                    will nehmlich, <pb n="7"/> da ich in der <orgName ref="3">Akademie</orgName>
+                    lesen muß, über die <hi rend="antiqua">Kavi</hi>-Sprache schreiben, zu welcher
+                    mich mein seit lange fortgesetztes Studium aller Malayischen Sprachen geführt
+                    hat.</p>
+            <closer>
+               <salute>Verzeihen Ew: Wohlgeboren die Länge dieses Briefes und empfangen Sie die
+                        Versicherung meiner herzlichen und ausgezeichneten Hochachtung. 
+                    </salute>
+               <signed>
+                  <handShift scribe="wvh"/> Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 10.<hi rend="superscript">t</hi> <hi rend="antiqua">November</hi> 1830.</dateline>
+               <address>
+                  <addrLine>An Herrn Dr. <hi rend="antiqua">Lassen</hi> Wohlgeboren
+                    <lb/>in <placeName ref="Bonn">
+                        <hi rend="antiqua">Bonn</hi>
+                     </placeName>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

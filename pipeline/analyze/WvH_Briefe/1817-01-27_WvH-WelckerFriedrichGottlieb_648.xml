@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 27.01.1817<idno type="BBAW">648</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 23</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 34f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 6217</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cpconz">
+                  <persName>Conz, Carl Philipp</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="fwriemer">
+                  <persName>Riemer, Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="hvoss">
+                  <persName>Voß, Heinrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1006">Anonymus: Rezension zu Aeschylus Agamemnon, metrisch übersetzt von
+                    Wilhelm von Humboldt. In: Göttingische gelehrte Anzeigen, 45. und 46. Stück, den
+                    20. März 1817, S. 452–455</bibl>
+               <bibl corresp="1007">Conz, Carl Philipp: Die Eumeniden, ein Trauerspiel von Aeschylus.
+                    In der Versart der Urschrift verdeutscht (Tübingen: Christian Friedrich Osiander
+                    1816)</bibl>
+               <bibl corresp="1009">Goethe, Johann Wolfgang von: West-östlicher Divan (Stuttgart:
+                    Cotta 1819)</bibl>
+               <bibl corresp="201">Humboldt, Wilhelm von: Aeschylos Agamemnon metrisch übersetzt
+                    (Leipzig: Gerhard Fleischer d. J. 1816)</bibl>
+               <bibl corresp="747">Humboldt, Wilhelm von: Berichtigungen und Zusätze zum ersten
+                    Abschnitt des zweyten Bandes des Mithridates über die Cantabrische oder
+                    Baskische Sprache. In: Adelung/Vater: Mithridates, 1806–1817 (1817), Band 4, S.
+                    275–360; ebenso als Separatdruck (Berlin: Vossische Buchhandlung 1817)</bibl>
+               <bibl corresp="518">Kunstblatt [Beilage zum Morgenblatt für gebildete Stände],
+                    1816–1849</bibl>
+               <bibl corresp="1035">Riemer, Friedrich Wilhelm (1815/1816): Kleines
+                    Griechisch-Deutsches Hand-Wörterbuch: Zum Besten der Anfänger ausgearbeitet. Ein
+                    Auszug aus J. G. Schneider’s kritischem griechisch-deutschen Wörterbuche. Zweyte
+                    neu bearbeitete und sehr vermehrte Auflage, Jena/Leipzig: Frommann</bibl>
+               <bibl corresp="451">Voß, Heinrich d.J.: Rezension zu Die Eumeniden, ein Trauerspiel von
+                    Aeschylos, in der Versart der Urschrift verdeutscht von Carl Philipp Conz, Prof.
+                    zu Tübingen. In: Heidelbergische Jahrbücher der Litteratur, 9. Jahrgang, Nr. 62,
+                    1816, S. 977–990</bibl>
+               <bibl corresp="1008">Zeitschrift für Geschichte und Auslegung der alten Kunst.
+                    Herausgegeben von Friedrich Gottlieb Welcker (Göttingen: Vandenhoeck &amp;
+                    Ruprecht 1818)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihr lieber Brief, theurer Freund, hat mir sehr
+                        viel Freude gemacht, und ich danke Ihnen herzlich dafür. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1817-01-27"/>
+               <placeName key="Hettstedt">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eus">Baskisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">2. April 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Welcker/WvH-Welcker_1817-01-27/0066.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Burgörner bei Eisleben</hi>, den
+                        27. <hi rend="antiqua">Januar</hi>, 1817.</dateline>
+            </opener>
+            <p>Ihr lieber Brief, theurer Freund, hat mir sehr viel Freude gemacht, u. ich danke
+                    Ihnen herzlich dafür. Ich habe mit Vergnügen gesehen, daß <bibl sameAs="747">meine
+                        kleine <hi rend="antiqua">Basqui</hi>sche Schrift</bibl> Sie nicht ohne
+                    Interesse gelassen hat. Ich lebe u. webe jetzt in dem Griechischen, u. meine
+                    heutige Ansicht, die ich nun auch wohl beibehalten werde, ist, von dieser, als
+                    dem Ideal aller Sprachen, wie aus einem Mittelpunkt, das Gebiet aller, an deren
+                    äußersten Gränzen die uncultivirten stehen, zu übersehen, u. dadurch zu einer
+                    lebendigen Anschauung des Sprachvermögens des Menschen, als einer seiner durch
+                    die Natur gegebenen Kunstfertigkeiten, zu gelangen. – Für die Nachrichten über
+                    die <bibl sameAs="1006">Recension</bibl> <bibl sameAs="201">meines <hi rend="antiqua">Agamemnon</hi>
+               </bibl> meinen herzlichen Dank. Es thut
+                    mir leid, daß sie nicht in Ihre Hände gekommen ist. <persName ref="hvoss">Der
+                        jüngere <hi rend="antiqua">Voß</hi>
+               </persName> hat meiner, jedoch wie um
+                    Mehreres zu umgehen, in der <bibl sameAs="451">Recension</bibl> der <bibl sameAs="1007">
+                  <hi rend="antiqua">Conzi</hi>schen <hi rend="antiqua">Eumeniden</hi>
+               </bibl> erwähnt. – Das <bibl sameAs="518">Kunstblatt</bibl> <hi rend="antiqua">nr.</hi> 19. habe ich leider in
+                        <placeName ref="Weimar">
+                  <hi rend="antiqua">Weimar</hi>
+               </placeName> vergebens
+                    gesucht. Ich werde es nun wohl erst im <hi rend="antiqua">März</hi> in
+                        <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> sehen. –
+                    An <bibl sameAs="1008">Ihrer neuen Zeitschrift</bibl> nehme Ich den lebhaftesten
+                    Antheil. Sollte ich Ihnen etwas dazu mittheilen können, werde ich es mit großer
+                    Freude thun. Allein Sie kennen meine Unfruchtbarkeit. <persName ref="jwgoethe">
+                  <hi rend="antiqua">Göthe</hi>
+               </persName> konnte die Grazienzeichnung
+                    nicht gleich auffinden. Er versprach mir aber, sie Ihnen zu schicken. Ob er Wort
+                    halten wird? – Wir fanden ihn gesund, aber gar nicht gut gestimmt. Doch heiterte
+                    er sich auf. Er las uns <bibl sameAs="1009">den Orientalischen nachgebildete
+                        Gedichte</bibl> vor, die seinen besten früheren gleichkommen, wunderschön
+                    zum Theil. – <persName ref="fwriemer">
+                  <hi rend="antiqua">Riemer</hi>
+               </persName>
+                    interessirte mich wieder durch seine wirklich glückliche Behandlung der Analogie
+                    der Griechischen Sprache, die auch <bibl sameAs="1035">seinem Wörterbuch</bibl>
+                    für mich soviel Werth giebt, daß ich es nicht leicht fern von mir lasse.<note type="footnote" resp="editor">Die zweite Auflage befand sich laut
+                        "Verzeichniss der zum Sprachstudium gehörenden Bücher" in der Bibliothek
+                        Humboldts: Mueller-Vollmer 1993, S. 425 Nr. 163. [FZ]</note> – Wir leben
+                    hier in göttlicher Einsamkeit. Blieben wir, wie nicht seyn wird, bis Ostern,
+                    schlüge ich Ihnen vor, liebster Freund, herzukommen. Nur so auf dem Lande
+                    genießt man sich u. andere. <persName ref="cvh1">Meine Frau</persName> u.
+                    Töchter grüßen Sie herzlich. </p>
+            <closer>
+               <salute>Mit inniger Freundschaft <lb/>der
+                        Ihrige,</salute>
+               <signed>Humboldt.</signed>
+               <address>
+                  <addrLine>An H. <sic>
+                        <hi rend="antiqua">Prof. Welker</hi>
+                     </sic>,
+                            <lb/>Wohlgeb. in <placeName ref="Göttingen">
+                        <hi rend="antiqua">Göttingen.</hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

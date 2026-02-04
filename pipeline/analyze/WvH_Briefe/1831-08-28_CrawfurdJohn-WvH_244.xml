@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 05.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Crawfurd an Wilhelm von Humboldt, 28.08.1831<idno type="BBAW">244</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53,
+                            Bl.129–130</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 221</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="cvidua">
+                  <persName>Vidua, Carlo</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="99">Crawfurd, John: Drei Wörterbücher des Javanischen: Englisch –
+                    Javanisch, Javanisch – Englisch, Javanisch – Javanisch [Manuskript]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">I am truly gratified by the receipt of your Excellency’s
+                        letter of the 5th of August …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jcrawfurd">Crawfurd, John</persName>
+               <date type="author" when="1831-08-28"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="337" type="next">September bis Dezember 1831</ref>
+               <ref target="336" type="prev">05.08.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jcrawfurd">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">05. Januar 2015</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Crawfurd/Crawfurd-WvH_1831-08-28/Coll.ling.fol.53_263.jpg"/>
+      <graphic url="Crawfurd/Crawfurd-WvH_1831-08-28/Coll.ling.fol.53_264.jpg"/>
+      <graphic url="Crawfurd/Crawfurd-WvH_1831-08-28/Coll.ling.fol.53_265.jpg"/>
+      <graphic url="Crawfurd/Crawfurd-WvH_1831-08-28/Coll.ling.fol.53_266.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="129r"/>
+               <address>
+                  <addrLine>Athenaeum Club. Pall Mall.</addrLine>
+               </address>
+               <dateline>London August 28<hi rend="superscript">
+                     <hi rend="underline">th</hi>
+                  </hi> 1831.</dateline>
+            </opener>
+            <p>I am truly gratified by the receipt of <ref type="link" target="336">your Excellency’s
+                    letter</ref> of the <date when="1831-08-05">5<hi rend="superscript">
+                     <hi rend="underline">th</hi>
+                  </hi> of August</date> which <persName ref="hbuelow">Baron de
+                        Bulow</persName> did me the honor to transmit a few days ago. I lost no time
+                    in sending to my residence in the country for the two <bibl sameAs="99">Dictionaries</bibl> which you wish &amp; have now the pleasure to forward
+                    them. The Javanese and English work is my own composition and was prepared
+                    between the years 1811 and 1814 when I filled <subst>
+                  <del>seemed</del>
+                  <add>some</add>
+               </subst> official situations in Jawa and enjoyed tolerable opportunities of
+                    study. Your Excellency will observe some words marked in pencil with a cross.
+                    The marks were affixed by a young Javanese
+                    <unclear>Chief</unclear>
+               <!-- persName? --> who studied the English language at
+                        <placeName ref="Calcutta">Calcutta</placeName> and may be considered <pb n="129v"/> as verifying the explanations which I have given. The
+                    Dictionary<!-- Habe die einzelnen Dictionaries nicht noch einmal extra ausgezeichnet, da es nur Manuskripte sind -->,
+                    however contains many words of Kawi with which he did not pretend to be
+                    acquainted. The Alphabetical arrangement it will be seen is preserved only as
+                    far as regards the first two letters or rather the first two consonants of each
+                    word.</p>
+            <p>The Javanese Dictionary, explained in Javanese, was prepared with my instructions
+                    by my Javanese instructors. The alphabetical order is here also in some measure
+                    preserved, but the explanations will be found in general to consist rather of a
+                    series of <sic>synonimes</sic> than definitions. I trust, notwithstanding that
+                    your Excellency will find it of some use in your pursuits. As I did in respect
+                    to the former communications, I do now with respect to these, entreat your
+                    Excellency to use every <pb n="130r"/> freedom with them and to keep them as
+                    long as they can be serviceable to you. – My oriental manuscripts<!-- Auszeichnen? Ist vielleicht zu weit gefasst? --> are in a
+                    distant part of the country, but when <del>when</del> I have collected them in
+                        <placeName ref="London">London</placeName> to which I move for a permanent
+                    residence in October, I shall have the satisfaction of fulfilling my pledge by
+                    making a selection for <sic>Excellency</sic>.</p>
+            <p>Is your Excellency aware that an Italian nobleman whose name, if I remember well,
+                    is <persName ref="cvidua">Count Vidua</persName> has lately
+                    visited, indeed resided for some years in, the Philippine islands and Java, and
+                    composed a valuable statistic
+                    work on the
+                    Eastern islands embracing as I understand the question of language? A friend of
+                    mine brought home the manuscript for him which I am told is to be published.
+                    This work I have no doubt will furnish valuable matter for your comprehensive <subst>
+                  <del>work</del>
+                  <add>undertaking</add>
+               </subst>, and it is for <pb n="130v"/> this reason that I bring it under your
+                    notice. I beg your Excellency to command my further services, and to accept the
+                    assurance of my great respect.</p>
+            <closer>
+               <salute>
+                        I remain, your Excellencys faithful &amp; obedient
+                        servt.</salute>
+               <signed>JCrawfurd.</signed>
+               <address>
+                  <addrLine>His Excellency</addrLine>
+                  <addrLine>Baron Humboldt</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

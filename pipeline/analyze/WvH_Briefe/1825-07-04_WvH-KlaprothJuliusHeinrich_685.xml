@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Julius Klaproth, 04.07.1825<idno type="BBAW">685</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: St. Petersburg, Russische Akademie
+                            der Wissenschaften, Archiv, F. 783, Op. 2, Nr. 34, fol. 8–9</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7488</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jfchampollion">
+                  <persName>Champollion, Jean-François</persName>
+               </person>
+               <person corresp="cgazzera">
+                  <persName>Gazzera, Costanzo</persName>
+               </person>
+               <person corresp="fw4">
+                  <persName>Kronprinz Friedrich Wilhelm (später Friedrich Wilhelm IV., König
+                    von Preußen)</persName>
+               </person>
+               <person corresp="alanglois">
+                  <persName>Langlois, Alexandre</persName>
+               </person>
+               <person corresp="hsalt">
+                  <persName>Salt, Henry</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="gseyffarth">
+                  <persName>Seyffarth, Gustav</persName>
+               </person>
+               <person corresp="fawspohn">
+                  <persName>Spohn, Friedrich August Wilhelm</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1299">Klaproth, Heinrich Julius (Hrsg.): Magasin asiatique, ou Revue
+                    géographique et historique de l’Asie centrale et septentrionale, Paris:
+                    Librairie orientale de Dondey-Dupré père et fils 1825–1826 </bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique, Paris: Ponthieu
+                    u.a. 1822–heute</bibl>
+               <bibl corresp="620">Langlois, Alexandre (1824–1825): Critique littéraire.
+                    Bhagavad-Gitâ, id est, Θεσπέσιον μελος, etc., traduit par M. A.-G. de Schlégel.
+                    In: Journal Asiatique 4, 1824, S. 105–116; 236–256; 5, 1824, S. 240–252; 6,
+                    1825, S. 232–250</bibl>
+               <bibl corresp="297">Mithridates. Geplante Neuauflage durch Klaproth</bibl>
+               <bibl corresp="382">Salt, Henry (1825): Essay on Dr. Young’s and M. Champollion’s
+                    phonetic system of Hieroglyphics, London: Longman</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von (1823): Bhagavad-Gita, id est Θεσπέσιον
+                    μελος, sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae
+                    episodium. Textum recensuit, annotationes criticas et interpretationem latinam
+                    adjecit Aug. Guil. a Schlegel, Bonn: Weber</bibl>
+               <bibl corresp="413">Spohn, Friedrich August Wilhelm / Seyffarth, Gustav (1825): De
+                    lingua et literis veterum Aegyptiorum cum permultis tabulis lithographicis
+                    literas Aegyptiorum tum vulgari tum sacerdotali ratione scriptas explicantibus
+                    atque interpretationem Rosettanae aliarumque inscriptionum et aliquot voluminum
+                    papyraceorum in sepulcris repertorum exhibentibus. Accedunt Grammatica atque
+                    Glossarium Aegyptiacum, Pars 1, Leipzig: Weidmann / G. Reimer</bibl>
+               <bibl corresp="1987">Spohn, Friedrich August Wilhelm / Seyffarth, Gustav (1831): De
+                    lingua et literis veterum Aegyptiorum: cum permultis tabulis lithographicis
+                    literas Aegyptiorum tum vulgari tum sacerdotali ratione scriptas explicantibus
+                    atque interpretationem Rosettanae aliarumque inscriptionum et aliquot voluminum
+                    papyraceorum in sepuloris repertorum exhibentibus. Accedunt Grammatica atque
+                    Glossarium Aegyptiacum Pars 2, Leipzig: Weidmann</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich sage Ew. Hochwohlgebornen meinen lebhaftesten Dank für
+                        Ihr gütiges Schreiben vom 13. v. M. und für das Geschenk …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1825-07-04"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="8r"/> Ich sage Ew. Hochwohlgebornen meinen lebhaftesten Dank für Ihr
+                    gütiges Schreiben vom <date when="1825-06-13">13. v. M.</date>
+               <note type="footnote" resp="editor">Der Brief scheint nicht erhalten zu
+                        sein.</note> und für das Geschenk, das Sie mir mit <hi rend="antiqua">
+                  <persName ref="hsalt">Salt</persName>’s <bibl sameAs="382">Essai</bibl>
+               </hi> gemacht haben. Es ist mir überaus angenehm gewesen. Es
+                    freut mich, aus Ihrem Briefe zu sehen, daß ich mich über <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> nicht
+                    geirrt habe. Auch mir scheinen seine Erklärungen und Entzifferungen richtig,
+                    aber nicht von der Art, daß man hoffen darf, leicht ganze Texte damit zu lesen.
+                    Ueber die Schwierigkeiten dies zu thun, hat sich auch schon <persName ref="cgazzera">Herr <hi rend="antiqua">Gazzera</hi>
+               </persName> in <placeName ref="Turin">
+                  <hi rend="antiqua">Turin</hi>
+               </placeName>, der es offenbar von
+                        <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName>
+                    selbst hat, gedrukt ohne Hehl ausgelassen. Ich glaube, daß man jetzt von den
+                        <persName ref="fawspohn">
+                  <hi rend="antiqua">Spohn</hi>
+               </persName>schen
+                    Entzifferungen eine Art Revolution in diesem System der Entzifferung zu erwarten
+                    hat. Da er vom Alphabetischen ausgegangen ist, so tritt er der Sprache näher, u.
+                    man muß auf diesem Wege tiefer in sie eindringen. Dies eben bleibt dann doch die
+                    Hauptsache. In den Hieroglyphen, wie <persName ref="jfchampollion">
+                  <hi rend="antiqua">Champollion</hi>
+               </persName> sie erklärt, bleibt einem
+                    Vieles, wenn man nur den Sinn, nicht eben das AltAegyptische Wort erfährt, das,
+                    wenn man es kennte, wieder zum Verständniß von Andrem dienen würde. Der
+                        <persName ref="gseyffarth">Professor <hi rend="antiqua">Seyffarth</hi>
+               </persName>, welcher der Herausgeber des <persName ref="fawspohn">
+                  <hi rend="antiqua">Spohn</hi>
+               </persName>ischen Nachlasses
+                        ist<note type="footnote" resp="editor">Der <bibl sameAs="413">erste Teil des
+                            von Seyffarth herausgebenen Nachlasses von Spohn</bibl> erschien noch
+                        1825; der <bibl sameAs="1087">zweite Teil</bibl> folgte erst
+                    1831.[FZ]</note>, scheint sich mit Glück mit diesen Unter-<pb n="8v"/>suchungen
+                    zu beschäftigen. Er wird in Kurzem eigne Entzifferungen einiger Papyrus <orgName ref="1">unsrer Bibliothek</orgName> herausgeben.</p>
+            <p>Es hat mich sehr gefreut zu sehen, daß Ew. Hochwohlgebornen mit Ihrem Aufenthalt
+                    in <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> zufrieden
+                    gewesen sind. Mit lebhaftem Interesse sehe ich den Früchten Ihrer neuen
+                    Untersuchungen entgegen. Das neue Werk, von dem Sie mir reden<note type="footnote" resp="editor">Meint Humboldt damit Klaproths Plan, den
+                            <bibl sameAs="297">
+                     <hi rend="italic">Mithridates</hi> neu</bibl>
+                        herauszugeben, oder etwa die von Klaproth herausgegebene Zeitschrift <bibl sameAs="1299">
+                     <hi rend="italic">Magasin asiatique</hi>
+                  </bibl>, die 1825
+                        und 1826 erschien, danach aber eingestellt wurde? [FZ]</note>, ist ein wahres
+                    Bedürfniß der Wissenschaft, da es eine Menge von Dingen zur allgemeinen Kenntniß
+                    bringen wird, die fast so gut als verborgen bleiben.</p>
+            <p>Daß der <persName ref="fw4">Kronprinz</persName> Ew. Hochwohlgeboren nicht
+                    geantwortet hat, thut mir leid, aber Sie müssen nicht die mindeste Folge daraus
+                    ziehen. Es ist eine bloße Nachlässigkeit, oder Vergessenheit. Ich habe den
+                        <persName ref="fw4">Kronprinzen</persName>, seitdem ich Ihren Brief
+                    empfangen habe, nicht gesehen u. jetzt ist er verreist. Ich bin indeß gewiß, daß
+                    wenn ich, wie ich gewiß thun werde, ihm von Ew. Hochwohlgeboren Werk rede, er
+                    gewiß sich selbst anklagen wird, Ihnen noch nicht geantwortet zu haben. Es ist
+                    mir schon mit andren so gegangen, und auch mir hat er bei solchen Gelegenheiten
+                    nicht geantwortet. Ich erzähle das Ew. Hochwohlgeboren ausdrücklich, weil es
+                    scheint, als glaubten Sie, daß diesem Stillschweigen ungünstige Meinungen zum
+                    Grunde liegen, die man dem <persName ref="fw4">Kronprinzen</persName> von Ihnen
+                    beigebracht haben könnte. Das <pb n="9r"/> ist aber gewiß durchaus nicht der
+                    Fall.</p>
+            <p>Ew. Hochwohlgeboren werden im <bibl sameAs="773">
+                  <hi rend="antiqua">Journal
+                            Asiatique</hi>
+               </bibl>
+               <bibl sameAs="620">eine Recension</bibl> der <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName>schen <bibl sameAs="53">
+                  <hi rend="antiqua">Bhagavad-Gita</hi>
+               </bibl> von <persName ref="alanglois">
+                  <hi rend="antiqua">Langlois</hi>
+               </persName> gefunden haben. Der Name
+                    war mir bisher unbekannt. Sie würden mich sehr verbinden, wenn Sie mir
+                    gelegentlich sagten, was man von den Kenntnissen u. der Arbeit <persName ref="alanglois">dieses Mannes</persName> urtheilt. Auch wüßte ich gern ob
+                    man ihn <hi rend="antiqua">Langlais</hi> (wie <hi rend="antiqua">Anglais</hi>)
+                    oder <hi rend="antiqua">Langlois</hi>, (wie <hi rend="antiqua">François</hi>,
+                    Franz) ausspricht.</p>
+            <closer>
+               <salute>Empfangen Ew. Hochwohlgeboren die erneute Versicherung meiner
+                        ausgezeichneten
+                        Hochachtung.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>den 4. Julius,
+                        1825.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="9v; Anschrift"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn <hi rend="antiqua">Professor v. Klaproth</hi>,</addrLine>
+                  <addrLine>Hochwohlgeboren,</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">Paris</hi>.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

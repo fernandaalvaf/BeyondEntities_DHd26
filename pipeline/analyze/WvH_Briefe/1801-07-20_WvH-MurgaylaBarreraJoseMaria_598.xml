@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an José María de Murga y la Barrera, 20.07.1801<idno type="BBAW">598</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                  Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                  Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">H (alt): Torre-Vidarte, D. José Maria Murga y Arana</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Gárate 1934, S. 437–444</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 671</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jdbarbie">
+                  <persName>Barbié du Bocage, Jean-Denis</persName>
+               </person>
+               <person corresp="mbardewisch">
+                  <persName>Bardewisch, Martin</persName>
+               </person>
+               <person corresp="fcorral">
+                  <persName>Corral y Eguía, Fausto Antonio José de</persName>
+               </person>
+               <person corresp="jldavid">
+                  <persName>David, Jacques-Louis</persName>
+               </person>
+               <person corresp="pnfdidot">
+                  <persName>Didot, Pierre-Nicolas-Firmin, le jeune</persName>
+               </person>
+               <person corresp="fjmeguia">
+                  <persName>Eguía y del Corral, Francisco Javier María de (4. Marqués de
+                     Narros)</persName>
+               </person>
+               <person corresp="aiturriaga">
+                  <persName>Iturriaga y Emparán, Agustín de</persName>
+               </person>
+               <person corresp="ikant">
+                  <persName>Kant, Immanuel</persName>
+               </person>
+               <person corresp="livius">
+                  <persName>Livius</persName>
+               </person>
+               <person corresp="lgmazarredo">
+                  <persName>Mazarredo, Lope García de</persName>
+               </person>
+               <person corresp="jmugartegui">
+                  <persName>Mugartegui y Elio, Javiera</persName>
+               </person>
+               <person corresp="pmugartegui">
+                  <persName>Mugartegui Ormaza Torrezar, Pedro Valentín de</persName>
+               </person>
+               <person corresp="mamurga">
+                  <persName>Murga y Andoneagui, Miguel Antonio</persName>
+               </person>
+               <person corresp="napoleon">
+                  <persName>Napoleon Bonaparte</persName>
+               </person>
+               <person corresp="fsdesmarais">
+                  <persName>Regnier-Desmarais, François-Séraphin</persName>
+               </person>
+               <person corresp="sallust">
+                  <persName>Sallust</persName>
+               </person>
+               <person corresp="tacitus">
+                  <persName>Tacitus</persName>
+               </person>
+               <person corresp="cvillers">
+                  <persName>Villers, Charles François Dominique de</persName>
+               </person>
+               <person corresp="jjzalduaymurga">
+                  <persName>Zaldúa y Murga, Joaquina Josefa de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1432">Barthélemy, Jean Jacques (1788): Voyage du jeune Anacharsis en
+                  Grèce, dans le milieu du quatrième siècle avant l’ère vulgaire, 4 Bände und ein
+                  Kartenband, Paris: De Bure</bibl>
+               <bibl corresp="1433">Villers, Charles (1801): Philosophie de Kant, ou principes
+                  fondamentaux de la philosophie transcendentale, Metz: Collignon</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Comment me pardonnerez Vous, mon digne et respectable ami,
+               d’avoir tardé jusqu’à présent de Vous écrire? …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1801-07-20"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jmmurga">Murga y la Barrera, José María de</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="427" type="next">24.09.1801</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="xtg">Gallisch, transalpin</language>
+            <language ident="ga">Irisches Gälisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">4. März 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Comment me pardonnerez Vous, mon digne et respectable ami, d’avoir tardé jusqu’à
+               présent de Vous écrire? Mais je m’étais proposé de ne le faire qu’après être revenu
+               ici à <placeName ref="Paris">Paris</placeName>, et en arrivant ici je voulais Vous
+               donner réponse en même temps sur la carte de la Grèce qui manque à Votre <bibl sameAs="1432">Voyage d’Anacharsis</bibl>. <persName ref="jdbarbie">Mr. Barbié du
+                  Bocage</persName> que je devais voir pour cet effet était allé pour quelques
+               semaines à la campagne, il n’est revenu que depuis très peu de jours et ce n’est
+               qu’aujourd’hui que je puis satisfaire un désir que j’avais depuis tout le tems que je
+               Vous ai quitté à <placeName ref="Bilbao">Bilbao</placeName>.</p>
+            <p>Vous savez déjà par Vos amis à <placeName ref="Gernika">Guernica</placeName> et
+                  <placeName ref="Azpeitia">Azpeitia</placeName> que mon retour de <placeName ref="Bilbao">Bilbao</placeName> n’a pas été aussi agréable que le fût mon premier
+               voyage. Une pluie presque continuelle m’a persecuté depuis <placeName ref="Portugalete">Portugalete</placeName> jusqu’à <placeName ref="Bayonne">Bayonne</placeName>, et un débordement dont <placeName ref="Bilbao">Bilbao</placeName> doit avoir beaucoup souffert aussi m’a tenu presque deux jours
+               à <placeName ref="Gernika">Guernica</placeName>.</p>
+            <p>Cependant j’ai eu de beaux lumières pour jouir de la belle situation de <placeName ref="Bermeo">Bermeo</placeName>, du joli port de <placeName ref="Lekeitio">Lequeitio</placeName> et de quelques autres points de vue pittoresques et étant
+               très peu sensible aux injures du tems je ne me suis pas occupé avec moins d’intérêt
+               du pays que je parcourais.</p>
+            <p>Je ne saurais vous dire avec quelle bonté et quelle amitié <persName ref="aiturriaga">Monsieur d’Iturriaga</persName> m’a accueilli chez lui, quelle soirée agréable
+               j’y ai passé et avec quel regret j’ai résisté à son invitation amicale d’y rester
+               encore la journée suivante. Malheureusement le jour de mon arrivée à <placeName ref="Bayonne">Bayonne</placeName> était impérieusement fixé et il me fallut partir
+               malgré le tems horrible qu’il faisait.</p>
+            <p>Nous avons beaucoup parlé de Vous, Monsieur, avec Mr. et <persName ref="jmugartegui">Mme. Iturriaga</persName>, l’oncle <hi rend="italic">D. Ramón</hi> m’a conté
+               quelques contes basques et je me suis trouvé dans cette famille respectable traité le
+               premier jour comme si j’y avais déjà passé des semaines entières, fruit précieux de
+               cette hospitalité généreuse, de cette candeur et franchise de caractère que l’on
+               trouve si rarement dans d’autres païs et qu’on ne trouve nulle part ainsi que dans
+               quelques familles de la Biscaye, ornées de toutes les graces de l’esprit. <persName ref="jmugartegui">Madame d’Iturriaga</persName> m’a raconté qu’étant encore dans
+               la maison de <persName ref="pmugartegui">son père, Mr. de Mugartegui</persName>, elle
+               a passé une portion de son enfance avec Vous, Monsieur, elle m’a beaucoup parlé de
+                  <persName ref="mamurga">Monsieur Votre père</persName> pour qui, d’après tout ce
+               que les personnes les plus diffèrentes m’ont dit de lui, j’ai conçu la plus grande
+               estime et un vif regret de ne pas l’avoir vu davantage.</p>
+            <p>Qu’est-ce en général qu’un voyage fait rapidement! Celui de Biscaye m’a laissé des
+               souvenirs bien doux, des souvenirs qui m’occuperont encore longtemps et que je ne
+               perdrai jamais, mais combien aussi ne m’est-il pas resté de regrets de n’avoir pas pu
+               séjourner plus longtemps dans un païs qui m’attachait par tant d’attraits, d’avoir
+               quitté si promptement des personnes qvec qui j’aurais au moins voulu passer plusieurs
+               mois. </p>
+            <p>Revenu à <placeName ref="Bayonne">Bayonne</placeName> j’ai encore parcouru le païs
+               Basque Français. Ce voyage n’a pas été sans intérêt pour moi mais quelle difference
+               cependant entre ce païs et la Biscaye. Les habitants en ont peut-être une certaine
+               légèreté et une certaine grace qui en résulte de plus que les Biscayens, leur langage
+               surtout (je puis le dire devant Vous Monsieur, qui êtes un connaisseur éclairé et non
+               pas un partisan aveugle de Votre dialecte) me parait bien plus doux que celui des
+               habitants du Señorío et j’y commençais un peu à comprendre ce qu’ils disaient et
+               balbutier moi-même quelques phrases. Mais ils manquent des qualités solides et
+               essentielles des Biscayens. </p>
+            <p>Au lieu que ces derniers sont la portion la plus éclairée des Espagnols, les Basques
+               sont superstitieux et pleins de préjugés au milieu des <unclear>Français</unclear>.
+               Ils sentent qu’ils ne forment point, comme les Biscayens, un corps politique
+               respectable et distingué et n’ont point le caractère qui résulte nécessairement de ce
+               sentiment. Ils sont une peuplade jettée par le hasard au milieu d’une nation
+               puissante et éclairée et par là ils ont dans leur caractère quelques uns des traits
+               que l’on retrouve dans toutes les peuplades ou isolées ou opprimées.</p>
+            <p>Car il me parait incontestable que quelque soit le sort qu’aient éprouvé les
+               privilèges des Provinces Basques de l’Espagne, tous les heureux effets que produit le
+               sentiment d’une liberté bien ordonnée et d’une égalité parfaite de droits, se
+               trouvent evidemment exprimées dans le caractère de la nation Biscayenne. La Biscaye
+               est le seul païs que j’ai jamais vu où la culture intellectuelle et morale soit
+               vraîment populaire, où les premières et les dernières classes de la société ne soient
+               pas séparées par une distance pour ainsi dire immense, où l’instruction et les
+               lumières des premières ont pénétré au moins jusqu’à un certain point jusqu’aux
+               dernières et où la bonhomie, la franchise, l’innocente candeur de celles-ci n’est pas
+               devenue étrangère aux premières. C’est là surtout le grand attrait qu’a eu ce païs-là
+               pour moi. On voit là véritablement une nation, la force, le mouvement, même la forme
+               générale du caractère vient de la masse et n’est que cultivé et raffiné par les
+               individus que leur situation personnelle a mis en état de faire des progrès plus
+               rapides. Dans presque tous les autres païs le peuple n’est qu’une masse inerte.</p>
+            <p>C’est surtout le cas en France et si la nation française a toujours manqué d’esprit
+               public, si on a vu régner tour à tour dans ce païs ou une superstition affreuse ou un
+               libertinage d’esprit également pernicieux aux moeurs, si même la plus haute poésie
+               des Français manque souvent de vigueur et de naturel c’est, ce me semble, que c’est
+                  <sic>pas</sic> le génie et l’esprit de la masse nationale qui domine en France
+               mais plutôt les opinions de quelques classes qui en donnant le ton, n’excitent que de
+               faibles imitations dans les autres. </p>
+            <p>Je n’ai pas cessé de m’occuper de la Biscaye pendant les quatre semaines que je suis
+               de retour <placeName ref="Paris">ici</placeName>. J’ai beaucoup étudié la langue,
+               j’ai copié un dictionnaire basque manuscrit<note type="footnote" resp="editor">In der
+                  Bibliothèque Nationale de France gibt es heute <ref type="linkExt"
+                       target="https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&amp;version=1.2&amp;query=%28dc.title%20all%20%22Dictionnaire%20basque-français%2C%20par%20Silvain%20Pouvreau%22%29%20and%20dc.type%20all%20%22manuscrit%22&amp;keywords=Dictionnaire%20basque-français,%20par%20Silvain%20Pouvreau&amp;suggest=1#resultat-id-1">zwei Exemplare</ref> des <hi rend="italic">Dictionnaire basque-français, par
+                        <persName ref="spouvreau">Silvain Pouvreau</persName>, prêtre du diocèse de
+                     Bourges</hi> aus dem 17. Jahrhundert. [FZ]</note> que j’ai trouvé à la <orgName ref="7">Bibliothèque Nationale</orgName>, j’ai étudié la langue ancienne des
+               Irlandais et du païs de Galles et les ouvrages que l’on a écrit sur cet idiome. J’ai
+               preparé en un mot autant que j’ai pu le petit travail que je compte faire cet hiver
+               sur la langue et la nation Basques<note type="footnote" resp="editor">Die <hi rend="italic">
+                     <bibl sameAs="746">Ankündigung einer Schrift über die Vaskische
+                        Sprache und Nation</bibl>
+                  </hi> erschien im Jahr 1812, die Monographie <hi rend="italic">
+                     <bibl sameAs="206">Prüfung der Untersuchungen über die Urbewohner
+                        Hispaniens vermittelst der Vaskischen Sprache</bibl>
+                  </hi> erst 1821.
+                  [FZ]</note> qui donnera, au moins, j’espère, une idée plus juste et plus
+               raisonnable sur l’un et l’autre objet.</p>
+            <p>Vous, Monsieur, Vous occupez trop peu de Votre langue nationale à ce qu’il m’a paru
+               pour que j’aye pu oser demander quelques secours pour cette entreprise toujours assez
+               difficile pour un étranger. Vous avez certainement des occupations plus importantes à
+               suivre; cependant Vous m’obligeriez infiniment si Vous vouliez vouer quelques instans
+               seulement à un petit travail qui néanmoins me serais bien précieux. Je désirerais
+               donner un petit échantillon de la langue elle-même. Comme on n’a que des livres de
+               dévotion je ne pourrais le choisir que de là ou du Nouveau Testament. J’ai même déjà
+               fait pour cet effet une version exacte, verbale et interlinéaire dans le genre dont
+                  <persName ref="fsdesmarais">Des Marais</persName> les dresse des auteurs anciens
+               de quelques morceaux de ces livres. Mais de quel prix il serait d’avoir un seul
+               chapitre ou de <persName ref="tacitus">Tacite</persName> ou de <persName ref="sallust">Salluste</persName> ou de <persName ref="livius">Tite-Live</persName> rendus dans Votre langue? Ne pourrais je point obtenir ce
+               présent de Vous, Monsieur? N’allez pas me dire que Vous n’avez pas assez étudié Votre
+               langue pour cela. Je sais par bien des personnes, qui me l’ont assuré souvent, que
+               Vous la parlez aussi correctement qu’élégamment. Ne me renvoyez pas à quelques autres
+               personnes que je consultais sur Votre idiome en Biscaye. Vous m’avez permis de Vous
+               parler sincèrement, je puis donc Vous dire avec franchise que quelques respectables
+               que soient ces personnes, quelque profonde leur connaissance de Votre langue, il est
+               impossible qu’elles fassent une traduction avec la même énergie et la même élégance
+               qu’un homme nourri de la littérature ancienne et de la plus belle des nations
+               modernes ainsi que Vous, Monsieur. Même le châpitre le plus court me serait
+               extrêmement précieux et il serait un monument durable de Vos bontés pour moi.</p>
+            <p>Notre ami Eguía<note type="footnote" resp="editor">Bei dem genannten Eguía dürfte es
+                  sich um den Sohn des <persName ref="jmeguia">Joaquín María de Eguía y Aguirre, 3.
+                     Marqués de Narros</persName> (1733–1803), namens <persName ref="fjmeguia">Francisco Javier María de Eguía y del Corral</persName> (1760–1830) handeln.
+                  Denn Humboldt schreibt in den <hi rend="italic">
+                     <bibl sameAs="1192">Vasken</bibl>
+                  </hi>: "Daher haben viele Familien doppelte Namen, und da einer
+                  derselben dem Titel, der andre der Familie angehört, der Titel aber, streng
+                  genommen, nur Einem, dem Erstgebohrenen zukommen kann, so führt manchmal der Sohn
+                  einen andern, als der Vater. So z.B. heisst der Sohn des Marques de Narros, einer
+                  sehr bekannten Familie, nur Eguia." (Humboldt 2010, S. 175). Der Vater, Joaquín
+                  María de Eguía, war ein bedeutender Informant Humboldts im Baskenland (Humboldt
+                  2010, S. 355f. und 359 sowie Index S. 421 [dort eigenartigerweise "José María"!]).
+                  [FZ]</note> vous aura dit que j’ai eu le plaisir de le rencontrer dans la route de
+                  <placeName ref="Bayonne">Bayonne</placeName> à <placeName ref="Paris">Paris</placeName>, mais que j’ai eu le regret de le quitter presqu’aussi-tôt. Je
+               Vous prie bien instamment Monsieur, de lui dire mille choses amicales de ma part et
+               de lui rappeler ses promesses de me faire avoir de la musique Basque ou par lui-même
+               ou par son ami <persName ref="fcorral">Monsieur de Corral</persName> à <placeName ref="Zarautz">Zarauz</placeName>
+               <hi rend="italic">qui m’en avait promis</hi> mais qui doit l’avoir oublié. Tous les
+               paquets qu’il voudra adresser à <persName ref="mbardewisch">Monsieur
+                  Bardewisch</persName>, Commisaire des relations commerciales de la Prusse à
+                  <placeName ref="Bayonne">Bayonne</placeName> me parviendront sans faute. Une
+               simple lettre me trouvera plus vite par la poste sous l’adresse directe à Mr. de
+               Humboldt, l’aîné à <placeName ref="Berlin">Berlin</placeName> et c’est sous cette
+               adresse que je Vous prierais, Monsieur, de vouloir bien me donner de Vos
+               nouvelles.</p>
+            <p>Quand aux grandes nouvelles politiques, je ne saurais rien Vous en dire du tout,
+               Monsieur. Tous les points sur lesquels la curiosité du public était fixée il y a
+               quatre mois et davantage ne sont pas encore decidés dans ce moment et on n’a
+               peut-être jamais observé un silence aussi parfait sur des choses aussi importantes.
+               La santé de <persName ref="napoleon">Buonaparte</persName>, puisque Vous avez sans
+               doute entendu parler de son indisposition est entiérement rétablie et la France n’a
+               rien à craindre à cet égard. </p>
+            <p>
+               <persName ref="jldavid">David</persName> vient de finir son portrait de <persName ref="napoleon">Bonaparte</persName>. Le héros passe, monté sur un cheval blanc, le
+               mont St. Bernard et montre à ses troupes la cime de la montagne qu’ils doivent encore
+                  atteindre<note type="footnote" resp="editor">Siehe den <ref type="linkExt"
+                       target="https://fr.wikipedia.org/wiki/Bonaparte_franchissant_le_Grand-Saint-Bernard">ausführlichen Artikel in der französischen Wikipedia</ref>. [FZ]</note>. La
+               vigueur du cheval, la physiognomie du guerrier, son grand manteau soulevé par le vent
+               et le païsage sauvage et solitaire concourent à faire une très forte impression sur
+               l’âme du spectateur. On pourrait cependant trouver à redire contre plusieurs petites
+               choses et je crains que le portrait surtout de <persName ref="napoleon">Bonaparte</persName> ne sera pas trouvé assez ressemblant.</p>
+            <p>
+               <persName ref="cvillers">Un Français nommé Villers</persName>, qui a habité
+               l’Allemagne pendant plusieurs années, vient de donner <bibl sameAs="1433">en français
+                  une exposition</bibl> de la Philosophie de <persName ref="ikant">Kant</persName>
+               dont Vous avez certainement ouï parler. Il fait une attaque formelle contre la
+               philosophie des Français qu’il trouve trop superficielle et cet ouvrage ne laisse pas
+               d’être un phénomène assez intéressant. Je ne l’ai cependant pas encore assez lu pour
+               le juger entièrement. Je suis très faché, Monsieur, que les nouvelles que je Vous
+               donne de la carte de la Grèce qui Vous manque ne soient pas plus favorables. Le
+               dessin en est dans le portefeuille de <persName ref="jdbarbie">Barbié de
+                  Bocage</persName> mais puisque <persName ref="pnfdidot">Didot le jeune</persName>
+               qui a imprimé <bibl sameAs="1432">cette édition</bibl> a fait banqueroute et qu’il
+               doit encore des sommes considérables à <persName ref="jdbarbie">Barbié de
+                  Bocage</persName> celui-ci ne veut pas les faire graver avant qu’il ne se soit
+               arrangé avec <persName ref="pnfdidot">Didot</persName> ce qui pourra encore durer
+               fort longtems.</p>
+            <p>Je vais finir cette lettre. Pardonnez-en la longueur, mon respectable ami, faites moi
+               le plaisir de présenter mes respects à <persName ref="jjzalduaymurga">Madame
+                  Murga</persName> et de me rappeler au souvenir de <persName ref="lgmazarredo">Mrs.
+                  de Mazarredo</persName>, <persName ref="aiturriaga">Iturriaga</persName> et tous
+               ceux qui voudront bien se souvenir encore de moi. Je ne pourrais jamais oublier leurs
+               bontés pour moi, l’amitié dont ils m’ont comblé et je m’estimerai infiniment heureux
+               si Vous voudriez bien me donner bientôt de Vos nouvelles et des leurs.</p>
+            <closer>
+               <salute>Agréez en attendant l’assurance des sentiments d’estime, d’attachement
+                  et d’amitié avec lesquels je suis toujours.<lb/>Monsieur<lb/>Votre<lb/>très humble
+                  et très
+                  obéissant<lb/>serviteur,</salute>
+               <signed>HUMBOLDT.</signed>
+               <lb/>
+               <dateline>à
+                  Paris<lb/>le 20. d. Juillet<lb/>1801</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bergholz an Wilhelm von Humboldt, 20.06.1831<idno type="BBAW">234</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 14–15</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 214</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="hgaewald">
+                  <persName>Ewald, Heinrich Georg August</persName>
+               </person>
+               <person corresp="pindar">
+                  <persName>Pindar</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="668">Colebrooke, Henry Thomas: On Sanscrĭt and Prácrĭt Poetry. In:
+                    Asiatic Researches 10, 1808, S. 389–474</bibl>
+               <bibl corresp="128">Ewald, Georg Heinrich: Über einige ältere Sanskrit-Metra
+                    (Göttingen: Rudolph Deuerlich 1827)</bibl>
+               <bibl corresp="351">Raffles, Thomas Stamford: The History of Java. In two Volumes
+                    (London: Black, Parbury, and Allen 1817)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Hochwohlgeborener Herr, Höchstverehrter Herr Staatsminister
+                        ... habe ich die Ehre anliegend die Javanische Geschichte von Raffles, den X
+                        Tom. der Asiatischen Untersuchungen und Ewald über Sanscritmetra zu
+                        übersenden …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bergholz">Bergholz</persName>
+               <date type="author" when="1831-06-20"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bergholz">Eigenhändig?</handNote>
+         </handNotes>
+         <langUsage n="ind paz">
+            <language ident="kaw">Kawi</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bergholz/Bergholz-WvH_1831-06-20/Coll.ling.fol.53_033.jpg"/>
+      <graphic url="Bergholz/Bergholz-WvH_1831-06-20/Coll.ling.fol.53_034.jpg"/>
+      <graphic url="Bergholz/Bergholz-WvH_1831-06-20/Coll.ling.fol.53_035.jpg"/>
+      <graphic url="Bergholz/Bergholz-WvH_1831-06-20/Coll.ling.fol.53_036.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="14r"/> <salute>Hochwohlgeborener Herr, <lb/>Höchstverehrter Herr
+                        Staatsminister, <lb/>Gnädigster Herr, <lb/>Ew. Hochfreiherrliche
+                        Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre anliegend die <bibl sameAs="351">Javanische Geschichte</bibl>
+                    von <persName ref="tsraffles">
+                  <hi rend="antiqua">Raffles</hi>
+               </persName>, den <bibl sameAs="668">
+                  <hi rend="antiqua">X Tom.</hi> der Asiatischen Untersuchungen</bibl> und
+                        <persName ref="hgaewald">
+                  <hi rend="antiqua">Ewald</hi>
+               </persName> über <bibl sameAs="128">Sanscritmetra</bibl> zu übersenden. Ich sage Ew. Excellenz für die
+                    gnädigste Mittheilung derselben meinen unterthänigsten und innigsten Dank. Unter
+                    den mir von Ew. Excellenz bemerkten Metren bei <bibl sameAs="351">
+                  <hi rend="antiqua">Raffles</hi>
+               </bibl> habe ich nur drei in dem <bibl sameAs="668">Memoire</bibl> von <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> gefunden; nämlich das Metrum
+                        <hi rend="antiqua">Suvandaná</hi>, <hi rend="antiqua">Sragdhará</hi> und <hi rend="antiqua">Vasantatilaka</hi>. Die übrigen habe ich nicht angetroffen,
+                    weder dem Namen noch der Bezeichnung der <sic>Bezeichnung</sic> nach.</p>
+            <p>
+               <pb n="14v"/> Schon <persName ref="awschlegel">Herr <hi rend="antiqua">von
+                            Schlegel</hi>
+               </persName> und <persName ref="hgaewald">
+                  <hi rend="antiqua">Ewald</hi>
+               </persName> klagen über die Undeutlichkeit der
+                        <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrook</hi>
+               </persName>’schen <bibl sameAs="668">Abhandlung</bibl>; ich glaube, daß diese Schrift ganz entbehrlich sey, bis
+                    auf einiges Material, welches vom <persName ref="htcolebrooke">Verfasser</persName> dargeboten wird. Die Kenntniß des todten Systems der
+                    Indischen Grammatiker scheint mir für die Wissenschaft höchst nutzlos. Ja es
+                    dünkte mich eine betrübende Erscheinung, als <del>sich</del> neulich Gelehrte
+                    von Ruf und Verdienst, eigenes Denken abweisend, zu litterärischen Handlangern
+                    sich stempelten, durch Hervorbringung ähnlicher Werke wie das von <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName>. Was so eigentlich das Wesen
+                    einer Versart sey, darüber sucht man vergeblich etwas zu erfahren; alle
+                    Veränderungen eines Metrum’s werden angeführt, ohne ihren Grund und Zweck, als
+                    in der Natur jedes Maaßes begründet nachzuweisen. Welches Glied aber eines
+                    Verses, gleichsam das Herz desselben, auch nicht eine leise Berührung ertrage,
+                    ohne daß des Rhythmus und der ganze <sic>Organism</sic> desselben gestört werde
+                    – daß dieß nachgewiesen werde, glaube ich, wäre eine billige
+                    <sic>Foderung</sic>, die wir an die Darstellung der Metren einer Sprache zu
+                    machen berechtigt sind. Wenigstens sollte ich denken, daß wir an einen Deutschen
+                    dieselbe in ihrem ganzen Umfange geltend machen sollten, wenn man
+                        <add>auch</add> dem grundgelehrten und überaus verdienstvollen Engländer
+                    seine Unwissenschaftlichkeit verzeiht. Nur die abstruse Manier seiner
+                    Darstellung, und die Undeutlichkeit derselben, welche alle seine Schriften
+                    bezeichnet, kann man ihm nicht hingehen lassen.</p>
+            <p>
+               <pb n="15r"/> <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> beschreibt das Metrum <hi rend="antiqua">Vasanta tilaka</hi> (<bibl sameAs="668">
+                  <hi rend="antiqua">Asiatic Res. X</hi>, 437</bibl> – <bibl sameAs="351">
+                  <hi rend="antiqua">Raffles p</hi> 424</bibl>) als bestehend aus folgenden
+                    Füßen: – –, ⏑ –, ⏑ ⏑ ⏑, – ⏑ ⏑, – ⏑, – – ; dieß ist die erste Hälfte eines
+                    Halb-Sloca. Das Beispiel, welches er angiebt, läßt sich schwer erkennen. Mir war
+                    diese Versart, welche auch <bibl sameAs="128">
+                  <hi rend="antiqua">Ewald p</hi> 22</bibl> anführt in dem <hi rend="antiqua">Devi-mahátmyam</hi> vorgekommen; nämlich im Vierten Gesange, auf der 24<hi rend="superscript">t</hi> Seite des <hi rend="antiqua">Calcuttaer</hi>
+                    Textes, nicht wie bey <bibl sameAs="128">
+                  <hi rend="antiqua">Ewald</hi>
+               </bibl> steht <hi rend="antiqua">p</hi> 14.
+                    Der erste Vers lautet so:</p>
+            <p>
+               <foreign sameAs="sa" n="transEd">devyā<graphic url="Bergholz/Bergholz-WvH_1831_06_20/01.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">yayā<graphic url="Bergholz/Bergholz-WvH_1831_06_20/02.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tatam<graphic url="Bergholz/Bergholz-WvH_1831_06_20/03.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">idaṃ<graphic url="Bergholz/Bergholz-WvH_1831_06_20/04.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">jagad<graphic url="Bergholz/Bergholz-WvH_1831_06_20/05.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ātmaśattyā<graphic url="Bergholz/Bergholz-WvH_1831_06_20/06.svg"/>
+               </foreign>
+            </p>
+            <p>
+               <foreign sameAs="sa" n="transEd">niḥśeṣadevagaṇaśakttisamūhabhūrtyā<graphic url="Bergholz/Bergholz-WvH_1831_06_20/07.svg"/>
+               </foreign> &amp;c –</p>
+            <p>Ich möchte dieses lyrische Versmaaß <sic>lagooedisch</sic> so auffaßen:</p>
+            <p>
+               <foreign sameAs="">
+                  <graphic rend="big" url="Bergholz/Bergholz-WvH_1831_06_20/g001.png"/>
+               </foreign>
+            </p>
+            <p>Solche Reihen mit catalectischer und acatalectischer Basis sind nicht selten bei
+                        <persName ref="pindar">
+                  <hi rend="antiqua">Pindar</hi>
+               </persName>. <persName ref="hgaewald">
+                  <hi rend="antiqua">Ewald</hi>
+               </persName> theilt in <bibl sameAs="128">seiner
+                        Schrift</bibl> anders ab. Mit dieser Reihe nun stimmt der erste Halbvers
+                    bey <bibl sameAs="351">
+                  <hi rend="antiqua">Raffles p</hi> 424</bibl> genau überein.</p>
+            <p>
+               <hi rend="antiqua">Tang’eh ya din kawuning’an rarafing maninjo.</hi>
+            </p>
+            <p>
+               <foreign sameAs="">
+                  <graphic url="Bergholz/Bergholz-WvH_1831_06_20/g002.png"/>
+               </foreign>
+            </p>
+            <p>Die folgenden aber laßen kaum das ursprüngliche Maaß erkennen. Ich darf ohne
+                    Kenntniß der Sprache keine Vermuthungen hierüber wagen, besonders da mir die
+                    Quantitäts-Bezeichnung von <persName ref="tsraffles">Raffles</persName> nicht
+                    recht genau erscheint. <pb n="15v"/> Was die andere Gestalt dieses Silbenmaaßes
+                    betrifft, so habe ich keine dem ähnliche im Sanscrit gefunden. Der gänzliche
+                    Mangel der Quantitätsbezeichnung war mir sehr fühlbar.</p>
+            <p>Von dem Metrum <hi rend="antiqua">
+                  <hi rend="underline">Suvandaná</hi>
+               </hi> sagt <bibl sameAs="668">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </bibl> (<bibl sameAs="668">
+                  <hi rend="antiqua">l. c p</hi> 436</bibl>. – <bibl sameAs="351">
+                  <hi rend="antiqua">Raffles p</hi> 421. 439.</bibl>) daß der Vers aus 20
+                    Sylben bestehe, welche in drei Abtheilungen gebracht würden. Also so:</p>
+            <p>– –, – –, ⏑ – – | ⏑ ⏑ ⏑ ⏑, ⏑ ⏑ – | – –, ⏑ ⏑, ⏑ – ||</p>
+            <p>Hiervon unterscheide sich das Metrum <hi rend="antiqua">
+                  <hi rend="underline">Sragdhará</hi>
+               </hi> <bibl sameAs="668">
+                  <hi rend="antiqua">l. c p</hi>
+                        437.</bibl> nur im dritten Fuße, als welcher zusammengesetzt sey aus einem
+                    Trocheus, Spondeus und Bacchius, so daß die Silbenzahl der Füße gleich werde.
+                    Weitere Belehrung ertheilt der Verfasser nicht, er versäumt sogar eine Probe
+                    mitzutheilen, so daß es naiv erscheinen möchte, wenn er namentlich vom <hi rend="antiqua">
+                  <hi rend="underline">Sragdhará</hi>
+               </hi> sagt, es sey <hi rend="antiqua">a
+                        very common metre</hi>. Mir sind beide Arten noch nicht vorgekommen, so daß
+                    ich mir kein Urtheil über dieselben erlauben möchte. Mit beiden Silbenmaaßen <subst>
+                  <del>scheint</del>
+                  <add>scheinen</add>
+               </subst> in der Kawisprache wesentliche Veränderungen vorgegangen zu seyn.</p>
+            <p>Indem ich Ew. Excellenz nochmal meinen ergebensten Dank sage, erlaube ich mir zu
+                    bemerken, daß <subst>
+                  <del>eine</del>
+                  <add>ein</add>
+               </subst> sehr kränklicher Zustand mich verhindert hat, Ew. Excellenz schon vor
+                    längerer Zeit diese Zeilen zu überreichen.</p>
+            <closer>
+               <salute>Mit der tiefsten Verehrung zeichne ich mich <lb/>Ew. Excellenz
+                        <lb/>unterthänigster Diener</salute>
+               <signed>Bergholz<note type="footnote" resp="editor">Leider ist es nicht gelungen, den Absender des Briefes identifizieren. [FZ]</note>
+               </signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi> 20 <hi rend="antiqua">Juni</hi>
+                        1831.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

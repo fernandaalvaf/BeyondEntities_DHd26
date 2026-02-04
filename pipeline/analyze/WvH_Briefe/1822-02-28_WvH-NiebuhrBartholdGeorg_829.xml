@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Barthold Georg Niebuhr, 28.02.1822<idno type="BBAW">829</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, Archiv der BBAW, NL B. G. Niebuhr, Nr. 163, Brief-Nr. 6</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7171</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="alschoultz">
+                  <persName>Schoultz von Ascheraden, August Ludwig</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="209">Humboldt, Wilhelm von (1822): Über das vergleichende Sprachstudium
+                    in Beziehung auf die verschiedenen Epochen der Sprachentwicklung. Vorgelesen den
+                    29. Junius 1820. In: Abhandlungen der königlich preußischen Akademie der
+                    Wissenschaften aus den Jahren 1820–1821, Historisch-philologische Klasse, S.
+                    239–260. – Vgl. GS IV, S. 1–34</bibl>
+               <bibl corresp="231">Humboldt, Wilhelm von (1822): Ueber die Aufgabe des
+                    Geschichtschreibers. Vorgelesen den 12. April 1821. In: Abhandlungen der
+                    königlichen preußischen Akademie der Wissenschaften aus den Jahren 1820–1821,
+                    Historisch-philologische Klasse, S. 305–322. – Vgl. GS IV, S. 35–56</bibl>
+               <bibl corresp="508">San Buenaventura, Gabriel de: Arte de la lengua Maya (Mexiko-Stadt:
+                    Viuda de B. Calderón 1684)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit"/>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1822-02-28"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bgniebuhr">Niebuhr, Barthold Georg</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="126" type="next">13.04.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am, ind">
+            <language ident="myn">Maya</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">30. Januar 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Niebuhr/WvH-Niebuhr_1822-02-28/Brief 6_1822.2.28 Bl 1r.jpg"/>
+      <graphic url="Niebuhr/WvH-Niebuhr_1822-02-28/Brief 6_1822.2.28 Bl 1v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1r"/> Ich habe die Abreise d. <persName ref="alschoultz">
+                  <add>H.</add>
+                  <hi rend="antiqua">Schultz</hi> von <hi rend="antiqua">Ascherade</hi>
+               </persName>
+               <note type="footnote" resp="editor">August Ludwig
+                        Schoultz von Ascheraden war am <date when="1822-02-22">22. Februar
+                            1822</date> zum Legationssekretär in Neapel ernannt worden; siehe Johann
+                        Caspar Struckmann (2003): <hi rend="italic">Preußische Diplomaten im 19.
+                            Jahrhundert. Biographien und Stellenbesetzungen der Auslandsposten
+                            1815–1870</hi>, Berlin: trafo Verlag, S. 229. [FZ]</note> so spät
+                    erfahren, daß mir nur für wenige Zeilen an Sie, verehrtester Freund, Zeit
+                    übrigbleibt. Ich kann mir indeß doch nicht die Freude versagen, Ihnen die
+                    einzelnen Abdrücke zweier Abhandlungen zuzusenden, die Ihnen in den dicken
+                    Bänden der <orgName ref="3">Akademie</orgName> später zu Gesichte kommen
+                        würden<note type="footnote" resp="editor">Dabei wird es sich um die beiden
+                        in den <hi rend="italic">Abhandlungen der historisch-philologischen Klasse
+                            der königlich preußischen Akademie der Wissenschaften aus den Jahren
+                            1820–1821</hi> erschienenen Abhandlungen "<bibl sameAs="209">Über das
+                            vergleichende Sprachstudium</bibl>" und "<bibl sameAs="231">Über die
+                            Aufgabe des Geschichtschreibers</bibl>" handeln, die im Herbst 1821
+                        bzw. im Frühjahr 1822 gedruckt wurden; siehe Leitzmann in GS IV, S. 437f.
+                        [FZ]</note>. Die Gegenstände beider dürfen Anspruch darauf machen, Ihr
+                    Interesse zu erwecken, ich wünsche nur, daß Sie auch mit der Ausführung nicht
+                    unzufrieden seyn mögen. Wenn die Ideen richtig sind, die ich über die Behandlung
+                    der Geschichte zu entwickeln versucht habe, so müssen eben dieselben auch das
+                    Handeln im Großen, das thätige Eingreifen in die Geschichte bestimmen, und ich
+                    gestehe, daß ich dies vorzüglich im Auge gehabt habe. Je schwerer es wird,
+                    diesen Gesichtspunkt bei der Betrachtung der Zeit um sich her festzuhalten,
+                    desto lieber verweilt man in abgezognem Nachdenken.</p>
+            <p>Ich statte Ew. Hochwohlgebohren noch meinen herzlichsten Dank für die
+                    Nachsuchungen auf dem <orgName ref="27">Collegio Romano</orgName> ab. Es ist
+                    wohl mit Gewißheit anzunehmen, daß <bibl sameAs="508">das Buch, das ich zu haben
+                        wünschte</bibl>, von da entwendet worden ist.<note type="footnote" resp="editor">Vgl. den <ref type="link" target="572">Brief Humboldts an
+                            Niebuhr</ref> vom 8. Juli 1820. Im Sommer 1826 <ref type="link" target="8">kontaktiert Humboldt</ref> den Nachfolger Niebuhrs als
+                        preußischer Geschäftsträger, <persName ref="ckjbunsen">Christian Karl Josias
+                            Bunsen</persName>, und bittet ihn nochmals um die Suche nach der <bibl sameAs="508">Maya-Grammatik Bonaventuras</bibl>! [FZ]</note>
+            </p>
+            <p>Sehr angenehm würde es mir seyn zu erfahren, ob bei <pb n="1v"/> der <orgName ref="56">
+                  <hi rend="antiqua">Propaganda</hi>
+               </orgName>, oder in einer andren
+                    Römischen Büchersammlung Sanskritschriften in <hi rend="antiqua">Devanagari</hi>, oder Bengalischer Schrift vorhanden seyn mögen. Ich habe mich
+                    mit dieser Sprache seit einiger Zeit beschäftigt, u. obgleich ich anfangs nur
+                    die Absicht hatte, den grammatischen Bau derselben im Ganzen kennen zu lernen,
+                    hat mich das Studium zu sehr angezogen, um nicht weiter zu gehen. Bei der
+                    Vergleichung der Sprachen ist es in der That von unentbehrlicher
+                    Nothwendigkeit.</p>
+            <p>Ich möchte Ew. Hochwohlgeb. oft um Ihren Aufenthalt in Italien beneiden, u. ich
+                   fasse ebenso oft den Vorsatz, mich selbst wieder dahin zu versetzen. Allein man
+                    wurzelt nach u. nach so an, daß diese Entwürfe nicht zur Ausführung gedeihen.
+                    Uns halten indeß jetzt doch eigentlich unsre Kinder zurück.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, u. erhalten Sie mir Ihre gütigen und
+                        wohlwollenden Gesinnungen. Mit der aufrichtigsten u. hochachtungsvollsten
+                        Freundschaft der Ihrige</salute>
+               <signed>H.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 28. <hi rend="antiqua">Februar</hi>, 1822.</dateline>
+               <lb/>
+               <pb n="2r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

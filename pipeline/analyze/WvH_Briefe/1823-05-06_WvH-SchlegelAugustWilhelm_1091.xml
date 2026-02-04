@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 06.05.1823<idno type="BBAW">1091</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 11</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 147–152</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7298</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ghbernstein">
+                  <persName>Bernstein, Georg Heinrich</persName>
+               </person>
+               <person corresp="ahamilton">
+                  <persName>Hamilton, Alexander</persName>
+               </person>
+               <person corresp="critter">
+                  <persName>Ritter, Carl</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="572">Bernstein, Georg Heinrich: Hitopadaesi particula edidit et
+                    glossarium Sanscrito-Latinum (Breslau: Graß &amp; Barth 1823)</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="179">Colebrooke, Henry Thomas: Hitópadéśa, or salutary instruction; in
+                    the original Sanscrit (Serampore: 1804)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London:
+                    Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="212">Humboldt, Wilhelm von: Ueber die in der Sanskrit-Sprache durch die
+                    Suffixa twâ und ya gebildeten Verbalformen. In: Indische Bibliothek 1, Heft 4,
+                    1823, S. 432–473; Band 2, Heft 1, 1824, S. 71–134</bibl>
+               <bibl corresp="645">Ritter, Carl: Die Vorhalle europäischer Völkergeschichten vor
+                    Herodotus, um den Kaukasus und an den Gestaden des Pontus (Berlin: G. Reimer
+                    1820)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="732">Schlegel, August Wilhelm von: Java und Bali. In: Indische
+                    Bibliothek 1, Heft 4, 1823, S. 400–424</bibl>
+               <bibl corresp="733">Schlegel, August Wilhelm von: Geographie. In: Indische Bibliothek
+                    1, Heft 4, 1823, S. 372–390</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a series of
+                    connected Fables interspersed with Moral, Prudential &amp; Political Maxims,
+                    translated from an ancient manuscript in the Sanskreet Language with Explanatory
+                    Notes (Bath: R. Cruttwell 1787)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich würde Ew. Hochwohlgebornen schon viel früher für Ihren
+                        gütigen Brief vom 14. v. M. gedankt haben, wenn mir nicht das Heft der
+                        Indischen Bibliothek …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-05-06"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1078" type="next">19.05.1823</ref>
+               <ref target="1077" type="prev">14.04.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">22. November 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1823-05-06/WvH-Schlegel_1823_05_06_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-05-06/WvH-Schlegel_1823_05_06_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-05-06/WvH-Schlegel_1823_05_06_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1823-05-06/WvH-Schlegel_1823_05_06_Seite_04.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 6. <hi rend="antiqua">Mai</hi>,
+                        1823.</dateline>
+            </opener>
+            <p>Ich würde Ew. Hochwohlgebornen schon viel früher für Ihren gütigen <ref type="link" target="1077">Brief</ref> vom <date when="1823-04-14">14. v.
+                        M.</date> gedankt haben, wenn mir nicht das Heft der <bibl sameAs="396">Indischen Bibliothek</bibl> viel später, und erst vor wenigen Tagen
+                    zugekommen wäre. Mein Dank ist aber freilich jetzt doppelt und dreifach. Sie
+                    beschämen mich wirklich durch die Güte und Aufmerksamkeit, mit der Sie <bibl sameAs="212">meinen Aufsatz</bibl>, der nur zu sehr die Spuren meiner noch
+                    schwachen Kenntniß des Sanskrit an sich trägt, behandelt haben. So sehr ich
+                    fühle, daß ich die schmeichelhafte Vorerinnerung nur Ihrer nachsichtsvollen
+                    Freundschaft verdanke, so wird sie mich doch mehr anreizen, auf dem einmal
+                    betretenen Wege, für den Sie eine so aufmunternde Theilnahme anregen, u. immer
+                    mit festeren Schritten fortzugehen. Ich würde es schneller können, wenn ich
+                    nicht einen großen Theil meiner Zeit dem bloßen Studiren, d. i. wirklichem
+                    Lernen widmete, der alsdann natürlich dem Ausarbeiten entzogen bleibt. Aber wenn
+                    man sich einmal, wie mein Zweck es unerläßlich erfordert, auf mehrere Sprachen
+                    ausbreiten muß, so ist es mir ein wahrer Gräuel dies nur so obenhin u. mit
+                    Durchlesen einer Grammatik und Blättern in einem Wörterbuch zu thun. Wie man
+                    aber gründlicher eingehen will, wächst auch der Zeitaufwand ins Unendliche. So
+                    angenehm die schön gedruckten Sanskritstellen in <bibl sameAs="212">meiner
+                        Abhandlung</bibl> schon beim ersten Anblick mich überrascht haben, so hat
+                    mir die Häufigkeit derselben ordentlich Gewissensbisse bei dem Gedanken erregt,
+                    daß Ew. Hochwohlgebornen Selbst sie gesetzt haben. Freilich aber wäre auch sonst
+                    nicht die ungemeine Correctheit zu erwarten gewesen. Ich habe durchaus keinen
+                    einzigen, noch so kleinen Druckfehler entdecken können. Denn ein anscheinendes
+                        <term ref="001" type="phon">
+                  <hi rend="antiqua">anuswara</hi>
+               </term>, wo es nicht hingehört, in der
+                    Stelle <bibl sameAs="212">Beisp. 5.</bibl>
+               <note type="footnote" resp="editor">Auf
+                        S. 440.</note> kann sehr füglich nur ein Fleck im Papier in meinem Exemplar
+                    seyn. <pb n="2*"/> Auch für diese Sorgfalt bin ich Ew. Hochwohlgebornen überaus
+                    verpflichtet, u. sehe mit einiger Beruhigung auf den Ueberrest der <bibl sameAs="212">Abhandlung</bibl> hin, da dieser glücklicherweise weniger
+                    Sanskritstellen enthält. </p>
+            <p>Ew. Hochwohlgebornen eigne Abhandlung hat mir das größeste Vergnügen gewährt. Es
+                    ist wirklich Ihnen ausschließlich eigen, tiefe Untersuchungen in ein so leichtes
+                    u. gefälliges Gewand zu hüllen; man kann nichts Anziehenderes lesen, als die
+                        <bibl sameAs="733">Nachrichten</bibl>, die Sie, nach Englischen Quellen über
+                    den Ursprung der bedeutendsten Indischen Flüsse mittheilen, u. die <bibl sameAs="732">Untersuchungen über Java</bibl> sind ebenso wichtig u.
+                    scharfsinnig geführt in sich, als reich an fruchtbaren Winken über die
+                    Behandlung ähnlicher Punkte in der Völkergeschichte. Auf die noch ausführlichere
+                    Prüfung der bisherigen Meinungen über Buddha bin ich ungemein begierig. <!-- KS: alles im ersten Band der Indischen Bibliothek, genaue Titel noch nachtragen -->
+                    <persName ref="critter">Ritter</persName> ist in der <bibl sameAs="645">Vorhalle</bibl> wohl überhaupt nicht vorsichtig genug gewesen, u. mag es
+                    jetzt bereuen. Da ihm auch die Kenntniß des Alt-Indischen ganz abgeht, so ist
+                    eigentlich von ihm keine neue Entdeckung über diesen Punkt zu erwarten, so sehr
+                    er sonst die Wissenschaft wahrhaft erweitert hat. Auch mir ist der Gegensatz der
+                    Brahmanen u. Buddhisten nie vollkommen klar geworden, u. das Lesen der <persName ref="critter">Ritter</persName>schen Schriften, da, wo sie diesen Gegensatz
+                    berühren, ist mir dadurch immer ordentlich peinlich gewesen. Ihr Geständniß S.
+                    214.<note type="footnote" resp="editor">Leitzmann 1908, S. 149 korrigiert zu 414.
+                        Schlegel schreibt in der <bibl sameAs="396">Indischen Bibliothek</bibl> 1,
+                        Heft 4, S. 414: "Ich will es nur bei dieser Gelegenheit gestehen, es hat mir
+                        noch nie gelingen wollen, mir von der Lehre des Buddhas, von ihrem innern
+                        Zusammenhange, und ihrem Gegensatze mit dem Brahmanismus einen deutlichen
+                        Begriff zu machen."</note> hat mir daher wahre Erleichterung gewährt. Wie
+                    ich mir aber den Buddha vorstellen mag, so kann ich die Idee, die ich noch von
+                    ihm habe, immer nur mit der eines Reformators vereinigen, u. mithin ihn nicht
+                    als <del type="fragment">A</del> Vor Brahmanisch setzen. Niemand ist aber über
+                    diesen Gegenstand in dem Grade Belehrung zu gewähren fähig, als Ew.
+                    Hochwohlgebornen. Denn gewiß verbindet niemand jetzt soviel wahrhaft
+                    kritisch-philosophischen Geist mit so großer alter u. neuer Belesenheit u. so
+                    gründlicher Sprachkenntniß. Es wäre daher <pb n="3*"/> doppelt zu wünschen, daß
+                    Sie, sobald Sie mit dem <bibl sameAs="53">
+                  <hi rend="antiqua">Bhagavad-Gita</hi>
+               </bibl> fertig seyn werden, an diese
+                    Arbeiten kommen möchten. </p>
+            <p>Ihre Anmerkungen zu <bibl sameAs="212">meinem Aufsatz</bibl> habe ich aufs neue,
+                    da mir die meisten aus Ihren Briefen bekannt waren, genau geprüft, die
+                    vielfältigste Belehrung daraus geschöpft, u. sie als wahre Berichtigungen des
+                    Textes anerkannt. Diese Bemerkungen u. die, zu welchen Sie noch Hoffnung machen,
+                    hervorgelockt, u. so viele einzelne wichtige Punkte über Indische Grammatik u.
+                    Kritik zur Sprache gebracht zu haben, wird das größte Verdienst meiner Arbeit
+                    bleiben. Sie erlauben mir über einige dieser Anmerkungen wohl aber noch ein Paar
+                    Worte.</p>
+            <p>Sollte in der Stelle, von der Ew. Hochwohlgebornen <bibl sameAs="212">S.
+                        447</bibl>. reden, der <hi rend="antiqua">Genitiv</hi> gerade ein <hi rend="antiqua">Genit. commodi</hi> seyn müssen? Um so, wie Sie thun, zu
+                    erklären, braucht man nur das <hi rend="antiqua">Substantiv</hi> im <hi rend="antiqua">Activum</hi> zu nehmen. <hi rend="underline">Das Sehen
+                        meiner</hi> oder <hi rend="underline">mein Sehen</hi> kann ebensowohl
+                    heißen, daß ich sehe, als gesehen werde. In der von E. Hochwohlgebornen <bibl sameAs="212">S. 447.<hi rend="superscript">b.</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Die Seiten 445 bis 450 sind im vierten Heft des ersten Bandes
+                        der <bibl sameAs="396">Indischen Bibliothek</bibl> doppelt vorhanden. Die
+                        Seiten mit den ein zweites Mal verwendeten Seitenzahlen hat Humboldt durch
+                        ein hochgestelltes "b." markiert.</note> berichtigten Stelle ist ein ganz
+                    ähnlicher Fall. <foreign sameAs="sa" n="transEd">rakśā<graphic url="Schlegel/WvH-Schlegel_1823_05_06/113.svg"/>
+               </foreign> <foreign sameAs="sa" n="transEd">me<graphic url="Schlegel/WvH-Schlegel_1823_05_06/114.svg"/>
+               </foreign> ist dort <hi rend="underline">meine Rettung</hi> d. h. die von mir bewirkte. Eine
+                    Parallelstelle, u. in welcher die <hi rend="antiqua">Pronominal</hi>form keine
+                    Zweideutigkeit zuläßt, ist <bibl sameAs="559">
+                  <hi rend="antiqua">Nalas</hi>
+               </bibl> IX. 8. In der Stelle Anm. <bibl sameAs="212">S. 447.</bibl> möchte ich Sie aber doch noch darauf aufmerksam
+                    machen, daß im <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl> im frühern Theil der Erzählung
+                    wirklich der Stein den Löwen zu sehen wünscht. Dies spricht dafür anzunehmen,
+                    daß der Löwe gleichsam gezeigt wird. Warum ich aber auch die <hi rend="antiqua">
+                  <placeName ref="Paris">Paris</placeName>er</hi> Lesart<note type="footnote" resp="editor">Gemeint sind die <bibl sameAs="181">Hitopadeśa</bibl>-Manuskripte der <orgName ref="7">Bibliothèque
+                            Royale</orgName>.</note> für die richtigste halte, ist daß sie
+                        <del>allein</del> das <hi rend="antiqua">participium</hi> geradezu auf das
+                        <hi rend="antiqua">Substantivum</hi> bezieht. In der <bibl sameAs="179">
+                  <hi rend="antiqua">Serampore</hi>
+               </bibl> ist, wenn auch <foreign sameAs="sa" n="transEd">ānīya<graphic url="Schlegel/WvH-Schlegel_1823_05_06/115.svg"/>
+               </foreign> gar nicht da
+                    stünde, <foreign sameAs="sa" n="transEd">saṃjīvaka<graphic url="Schlegel/WvH-Schlegel_1823_05_06/116.svg"/>
+               </foreign> <sic>
+                  <foreign sameAs="sa" n="transEd">darśanaṃ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/117.svg"/>
+                  </foreign>
+               </sic> <foreign sameAs="sa" n="transEd">kārita<graphic url="Schlegel/WvH-Schlegel_1823_05_06/118.svg"/>
+               </foreign> eine höchst
+                    wunderbare Construction. Die von Ihnen <bibl sameAs="212">S. 448. 449.
+                        457.</bibl> vorgeschlagenen Veränderungen der Lesart sind in die Augen
+                    fallend richtige Verbesserungen. Die Anmerkung <bibl sameAs="212">S. 445.<hi rend="superscript">b.</hi>
+               </bibl> läßt mich noch einigermaßen
+                    zweifelhaft. Ew. Hochwohlgebornen Erklärung giebt offenbar einen sehr passenden
+                    Sinn. Allein ich weiß nicht, ob sie nothwendig ist, u. meiner, freilich sehr
+                    beschränkten Erfahrung nach, folgt, wo Worte, oder Gedanken ange-<pb n="4*"/>führt werden, immer <foreign sameAs="sa" n="transEd">iti<graphic url="Schlegel/WvH-Schlegel_1823_05_06/119.svg"/>
+               </foreign> nach. In der
+                    Stelle (<bibl sameAs="212">Beisp. 21.</bibl>
+               <note type="footnote" resp="editor">Auf S. 445.</note>) läßt sich <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> <bibl sameAs="564">Uebersetzung</bibl>, die mir nicht erinnerlich war mit der von mir
+                    gegebnen sehr wohl vereinigen. Sie haben in die Ihrige eine Nuance gelegt, die
+                    mir sehr treffend geschienen hat. Sie erklären nemlich <foreign sameAs="sa" n="transEd">parijñāya<graphic url="Schlegel/WvH-Schlegel_1823_05_06/120.svg"/>
+               </foreign> nicht, wie ich that, so, daß die Kupplerin den Buhlen erkannt,
+                    erfahren habe, daß einer da sey u. wer, sondern daß sie erkannt habe, daß er
+                    Schuld an jener plötzlichen Umarmung des Ehemannes war. Nur setzt das voraus,
+                    daß die Kupplerin bei der Scene zugegen war, worauf sonst nichts in der
+                    Erzählung führt. Auf alle Fälle aber ist diese lückenhaft. Vergleicht man Alles,
+                    was Ew. Hochwohlgebornen so sehr richtig über die von mir angeführten Stellen
+                    bemerken, so sieht man, daß es eigentlich noch ein voreiliges Unternehmen ist,
+                    feinere Punkte der Syntaxis des Sanskrit aus den Schriftstellern entwickeln zu
+                    wollen. Dies setzt erst berichtigte Texte voraus, an denen es jetzt noch so gut,
+                    als gänzlich mangelt. </p>
+            <p>
+               <persName ref="ghbernstein">
+                  <hi rend="antiqua">Bernstein</hi>
+               </persName> hat in <bibl sameAs="572">seiner
+                        Ausgabe des <hi rend="antiqua">Hitopad.</hi>
+               </bibl> eine Stelle ohne
+                    Anmerkung gelassen, in der ich, bei der jetzigen Lesart durchaus keinen Ausweg
+                    weiß. Es ist S. 7. Z. 4. (<bibl sameAs="610">
+                  <hi rend="antiqua">Ed. Lond.</hi>
+               </bibl> S. 5. Z. 2.) <foreign sameAs="sa" n="transEd">paṇḍitāḥ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/121.svg"/>
+               </foreign> <foreign sameAs="sa" n="transEd">śrūyantāṃ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/122.svg"/>
+               </foreign> <foreign sameAs="sa" n="transEd">mama<graphic url="Schlegel/WvH-Schlegel_1823_05_06/123.svg"/>
+               </foreign> <foreign sameAs="sa" n="transEd">vacanaṃ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/124.svg"/>
+               </foreign>. <persName ref="ahamilton">
+                  <hi rend="antiqua">Hamilton</hi>
+               </persName> erklärt das <hi rend="antiqua">Verbum</hi> als die 1.<note type="footnote" resp="editor">Leitzmann 1908, S. 152:
+                        3.</note> <hi rend="antiqua">plur. imperat. med.</hi> Aber da <foreign sameAs="sa" n="transEd">śru<graphic url="Schlegel/WvH-Schlegel_1823_05_06/125.svg"/>
+               </foreign> nach der 5.
+                        <hi rend="antiqua">Conjug.</hi> <subst>
+                  <del>hat</del>
+                  <add>geht</add>
+               </subst>, so kann es kein <foreign sameAs="sa" n="transEd">ya<graphic url="Schlegel/WvH-Schlegel_1823_05_06/126.svg"/>
+               </foreign> im <hi rend="antiqua">medium</hi> haben. Es kann, soviel ich begreife, nur die
+                    angegebne Person im <hi rend="antiqua">pass.</hi> seyn, u. dann paßt die <hi rend="antiqua">Construction</hi> nicht. Man muß also wohl, trotz der
+                    Uebereinstimmung der <bibl sameAs="610">
+                  <hi rend="antiqua">Lond.</hi>
+               </bibl> u. <bibl sameAs="179">
+                  <hi rend="antiqua">Seramporer</hi> Ausgabe</bibl>, <foreign sameAs="sa" n="transEd">paṇḍitāḥ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/127.svg"/>
+               </foreign> für den <hi rend="antiqua">Vocativ</hi> nehmen, <foreign sameAs="sa" n="transEd">śrūyatāṃ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/128.svg"/>
+               </foreign> lesen u.
+                        <foreign sameAs="sa" n="transEd">vacanaṃ<graphic url="Schlegel/WvH-Schlegel_1823_05_06/129.svg"/>
+               </foreign> das bei
+                        <persName ref="ahamilton">
+                  <hi rend="antiqua">Hamilton</hi>
+               </persName> der 2. <hi rend="antiqua">Casus</hi> seyn soll, als den ersten ansehen. </p>
+            <closer>
+               <salute>Ich will aber Ew. Hochwohlgebornen heute in der That nicht mit einem
+                        zweiten Bogen ermüden, sondern hier mit dem herzlichen Wunsche schließen,
+                        daß Sie mögen in vollkommner Gesundheit u. Heiterkeit Ihre so treflichen
+                        Arbeiten u. Studien fortsetzen können, u. nur die Bitte um die Fortdauer
+                        Ihres gütigen u. freundschaftlichen Wohlwollens hinzufügen. Mit der
+                        hochachtungsvollsten Ergebenheit<lb/>der Ihrige,</salute>
+               <signed>Humboldt</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

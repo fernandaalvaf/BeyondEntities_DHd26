@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 21. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Andreas Daniel Berthold von Schepeler an Wilhelm von Humboldt, 03.02.1823<idno type="BBAW">470</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 57, Bl. 53a–e</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 239f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jaaldamayguevara">
+                  <persName>Aldama y Guevara, José Agustín</persName>
+               </person>
+               <person corresp="hocarochi">
+                  <persName>Carochi, Horacio</persName>
+               </person>
+               <person corresp="dgaldoguzman">
+                  <persName>Galdo Guzman, Diego de</persName>
+               </person>
+               <person corresp="dgonzalezholguin">
+                  <persName>Holguín, Diego Gonzalez</persName>
+               </person>
+               <person corresp="fdelacarrera">
+                  <persName>La Carrera, Fernando de</persName>
+               </person>
+               <person corresp="adelamagdalena">
+                  <persName>Magdalena, Agustín de la</persName>
+               </person>
+               <person corresp="adementrida">
+                  <persName>Mentrida, Alonso de</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="tortiz">
+                  <persName>Ortiz, Thomas</persName>
+               </person>
+               <person corresp="moyanguren">
+                  <persName>Oyanguren de Santa Inés, Melchior</persName>
+               </person>
+               <person corresp="aruizdemontoya">
+                  <persName>Ruiz de Montoya, Antonio</persName>
+               </person>
+               <person corresp="ddesantotomas">
+                  <persName>Santo Tomás, Domingo de</persName>
+               </person>
+               <person corresp="ldevaldivia">
+                  <persName>Valdivia, Luis de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="13">Aldáma y Guevára, José Augustin de: Arte de la lengua Mexicana
+                    (Mexiko: En la Imprenta nueva de la Bibliotheca Mexicana 1754)</bibl>
+               <bibl corresp="72">Carochi, Horacio: Arte de la Lengua mexicana con la declaración de
+                    todos sus adverbios (Mexiko: Juan Ruyz 1645)</bibl>
+               <bibl corresp="767">Galdo Guzman, Diego de: Arte mexicano (Mexico: por la Viuda de
+                    Bernardo Caldero[n], en la calle de S. Augustin 1642)</bibl>
+               <bibl corresp="154">Gramatica de los Pueblos de America (Santa Cruz 1770)</bibl>
+               <bibl corresp="182">Holguín, Diego Gonzalez: Gramatica y arte nueua de la lengua
+                    general de todo el Peru, Ilmada lengua Quichua, o lengua del Inca (Los Reyes del
+                    Peru: Francisco del Canto 1608)</bibl>
+               <bibl corresp="259">La Carrera, Fernando de: Arte de la lengua Yunga de los valles del
+                    obispado de Trujillo, con un confesonario y todas las oraciones cristianas y
+                    otras cosas (Lima: Reimpr. en la Imp. Liberal 1644)</bibl>
+               <bibl corresp="766">Magdalena, Agustín de la: Arte de la lengua tagala, sacado de
+                    diversos artes (Mexico: por Francisco Rodriguez Lupercio 1679)</bibl>
+               <bibl corresp="291">Mentrida, Alonso de: Diccionario de la lengua Bisaya Hiligueina y
+                    Haraya de la Isla de Panay (Manila: D. Manuel y de D. Felis S. Dayot
+                    1841)</bibl>
+               <bibl corresp="770">Molina, Alonso de: Arte de la lengua mexicana y castellana (Mexico:
+                    Pedro Ocharte 1571)</bibl>
+               <bibl corresp="323">Ortiz, Thomas: Arte y reglas de la lengua tagala (Sampaloc, Manila:
+                    Convento de Nra. Señora de Loreto 1740)</bibl>
+               <bibl corresp="771">Oyanguren de Santa Inés, Melchior: Arte de la lengua japona
+                    (Mexico: José Bernardo de Hogal 1738)</bibl>
+               <bibl corresp="303">Ruiz de Montoya, Antonio: Arte y vocabulario de la lengua Guarani
+                    (Madrid: Imp. Iuan Sanchez 1640)</bibl>
+               <bibl corresp="304">Ruiz de Montoya, Antonio: Tesoro de la lengua Guarani (Madrid: Imp.
+                    Iuan Sanchez 1639)</bibl>
+               <bibl corresp="764">Santo Tomás, Domingo de: Grammatica ó arte de la lengua general de
+                    los Indios de los Reynos del Perú (Valladolid: por Francisco Fernandez de
+                    Cordoua 1560)</bibl>
+               <bibl corresp="768">Valdivia, Luis de: Arte y gramatica general de la lengua que corre
+                    en todo el Reyno de Chile: con un vocabulario, y confessionario (Lima: Francisco
+                    del Canto, 1606)</bibl>
+               <bibl corresp="769">Valdivia, Luis de: Doctrina christiana, catecismo y confesonario en
+                    las dos lenguas mas generales, Millcayac y allentiac, que corren en la provincia
+                    del Cuyo en el Reino de Chile (Lima: Francisco del Canto, 1607)</bibl>
+               <bibl corresp="765">Valdivia, Luis de: Doctrina christiana en lengua allentiac, que
+                    corre en la Ciudad de San Juan de la Frontera, con un confesonario, arte y
+                    vocabulario breves (Lima: Francisco del Canto, 1607)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Troz allen Bemühungen ist es …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="adbschepeler">Schepeler, Andreas Daniel Berthold von</persName>
+               <date type="author" when="1823-02-03"/>
+               <placeName key="Bayonne">Bayonne</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="adbschepeler">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="qbt">Alyentiyak</language>
+            <language ident="ceb">Cebuano (Bisaya)</language>
+            <language ident="gn">Guarani</language>
+            <language ident="hil">Hiligaynon (Hiligueyna)</language>
+            <language ident="ja">Japanisch</language>
+            <language ident="arn">Mapuche</language>
+            <language ident="qgb">Milykayak</language>
+            <language ident="omc">Mochica (Yunga)</language>
+            <language ident="nah">Nahuatl</language>
+            <language ident="qu">Quechua</language>
+            <language ident="tl">Tagalog</language>
+            <language ident="war">Waray-Waray (Haraia)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">21. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_112.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_113.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_114.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_115.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_116.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_117.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_118.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_119.jpg"/>
+      <graphic url="Schepeler/Schepeler-WvH_1823-02-03/Coll.ling.fol.57_120.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="53b r"/> <salute>Hochwohlgebohrner Herr Baron<lb/>Hochzuverehrendster
+                        Herr StaatsMinister!</salute>
+            </opener>
+            <p>Troz allen Bemühungen ist es bis zu meiner Abreise von <placeName ref="Madrid">Madrid</placeName> noch <sic>keinen</sic> Buchhändler gelungen die von Ew
+                    Excellenz gewünschten Bücher aufzufinden. Ich habe aber den Auftrag hinterlassen
+                    die Nachforschungen fortzusetzen, und Ew Excellenz die aufgefundenen Bücher zu
+                    senden.</p>
+            <p>In der <orgName ref="24">Königlichen Bibliothek</orgName> habe ich bis zum Monath
+                    November nichts thun können, denn da das neue Lokal so eng ist, und die
+                    Bibliothekare so faul sind, so war alles, und ist noch vieles ungeordnet, und
+                    liegt in unordentlichen Haufen. Ich übersende Ew Excellenz anliegend die Liste
+                    der Bücher welche sich, außer denen die Ew Excellenz schon besitzen, auf der
+                        <orgName ref="24">Bibliothek</orgName> befinden. Das Abschreiben einiger
+                    derselben ist beynahe ohnmöglich wenn man die Correktheit mit zur Absicht hat,
+                    oder man muß beständig gegenwärtig seyn, damit der <pb n="53b v"/> Abschreiber
+                    keinen Accent und kein Zeichen ausläßt. Aus dieser Ursache, und weil die meisten
+                    dieser Bücher ziemlich dik sind, habe ich es nicht gewagt einige derselben
+                    abschreiben zu lassen. Aber die Liste, welche ich hie beylege, habe ich den
+                    Buchhändlern gegeben, um die Bücher aufzusuchen, und man wird sie Ew Excellenz
+                    übersenden, wenn sie sich finden. Auch in <placeName ref="Bordeaux">Bordeaux</placeName> werde ich ähnlichen Auftrag geben.</p>
+            <closer>
+               <salute>Mit Verehrung und ausgezeichnetester Hochachtung habe ich die Ehre zu
+                        verharren <lb/>Ew Excellenz <lb/>unterthänigster Diener</salute>
+               <signed>ASchepeler</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Bayonne</hi> <subst>
+                     <del>
+                        <hi rend="antiqua">le</hi>
+                     </del>
+                     <add>den</add>
+                  </subst> 3<hi rend="superscript">ten</hi> <hi rend="antiqua">Februar</hi>
+                        1823.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="Unten auf 53b r:"/>
+               <address>
+                  <addrLine>Sr Excellenz</addrLine>
+                  <addrLine>Dem Herrn Baron von <sic>Humbold</sic>
+                  </addrLine>
+                  <addrLine>Königlich Preußischen StaatsMinister und StaatsRath, </addrLine>
+                  <addrLine>Groß Kreuz sämtlicher <sic>Königlich</sic> Orden</addrLine>
+                  <addrLine>etc: etc: etc:</addrLine>
+                  <addrLine>zu <placeName ref="Berlin">Berlin</placeName>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="53e r/v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="Bücherliste. Von fremder Hand. Mit Ergänzungen Humboldts"/>
+            </p>
+            <p>
+               <pb n="53a r"/> In der <orgName ref="24">Königl.
+                            Bibliothek</orgName> <add>
+                  <handShift scribe="wvh"/> zu <placeName ref="Madrid">Madrid</placeName>
+               </add> <handShift scribe="Schreiber"/>
+                    sind vorhanden, laut dem Katalog:</p>
+            <p>1., <hi rend="antiqua">
+                  <bibl sameAs="303">Arte y vocabulario de la lengua Guarani</bibl>, por el
+                        Padre Fr: <persName ref="aruizdemontoya">Antonio Ruiz de Montoya</persName>.
+                        Madrid 1640.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <foreign sameAs="es">Algunas palabras en la lengua
+                        Guaraní</foreign>
+               </hi>.<note type="footnote" resp="editor">Der Text steht
+                        links am Rand um 90 Grad gedreht, und eine Klammer verbindet die folgenden
+                        sieben Zeilen mit Sprachbeispielen.</note>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">Esposa</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Cheñoquȃm bǐcį̌bae</foreign>
+               </hi>, auch <hi rend="antiqua">
+                  <foreign sameAs="gn">Mȏnȏquambǐŭpĩrá</foreign>
+               </hi>.</p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">fabricar casa propia</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Ay Cogboñǎ Ayoquylaãrámȏ!</foreign>
+               </hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">Horno de pan</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Mbuyapé mboyĭpába</foreign>
+               </hi>.</p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">Hospederia</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Mõmbítáhába pĭtánába</foreign>
+               </hi>.</p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">Sema de huebos</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Vrugua çío rupiàpĭtépĭtȃ</foreign>
+               </hi>.</p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">Lengua vuoz</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Cȗpỹrūrỹngatĩ</foreign>
+               </hi>.</p>
+            <p>
+               <hi rend="antiqua">
+                  <hi rend="underline">
+                     <foreign sameAs="es">libre nacen</foreign>
+                  </hi>
+               </hi>. <hi rend="antiqua">
+                  <foreign sameAs="gn">Na tembia ihúrȃmȏcheruóñanȏnde
+                        rȗgȗȃîaá˜</foreign>
+               </hi>.</p>
+            <p>—————————</p>
+            <p>2., <hi rend="antiqua">
+                  <bibl sameAs="182">Gramatica y Vocabulario en la lengua del Peru llamada
+                            Quichua</bibl> por</hi> <add>
+                  <handShift scribe="wvh"/> <hi rend="antiqua">
+                     <persName ref="dgonzalezholguin">Diego</persName>
+                  </hi>
+               </add> <handShift scribe="Schreiber"/> <persName ref="dgonzalezholguin">
+                  <hi rend="antiqua">Gonzalez Holguin</hi>
+               </persName> <del>
+                  <hi rend="antiqua">Diego</hi>
+               </del>
+               <note type="footnote" resp="editor">Streichung von Humboldt.</note>. Dieses Werk fand der Bibliothekär wegen
+                    der bestehenden Unordnung nicht vor.</p>
+            <p>3., <hi rend="antiqua">
+                  <bibl sameAs="154">Gramatica de los Pueblos de America</bibl>. S<hi rend="superscript">ta</hi> Cruz 8<hi rend="superscript">vo</hi>
+                        1770.</hi>
+               <!-- unbekannter Titel! siehe ID 154 -->
+            </p>
+            <p>4., <hi rend="antiqua">
+                  <bibl sameAs="259">Gramatica Iunga</bibl> de <persName ref="fdelacarrera">D<hi rend="superscript">n</hi> Fernando la
+                    Carrera</persName>
+               </hi>.</p>
+            <p>5., <hi rend="antiqua">
+                  <bibl sameAs="291">Vocabulario de la Lengua Bisaia Hiligueyna y
+                            Haraia.</bibl> de la Isla de Panai y Sugbu y para las demas Islas. por
+                        el <persName ref="adementrida">Padre Fray Alonso de
+                    Mentrida</persName>
+               </hi>.</p>
+            <p>
+               <pb n="53a v vacat"/>
+            </p>
+            <p>
+               <pb n="53c r"/> <hi rend="antiqua">
+                  <persName ref="jaaldamayguevara">Aldama y Guevara (d.<hi rend="superscript">n</hi> José Agustin de)</persName> <bibl sameAs="13">Arte de la
+                            lengua mejicana</bibl>. 4.° imprenta nueva de la Biblioteca mejicana.
+                        Año 1754.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="ldevaldivia">Valdivia (P. Luis de)</persName> <bibl sameAs="765">Doctrina christiana en lengua allentiac, que corre en la
+                            Ciudad de San Juan de la Frontera, con un confesonario, arte y
+                            vocabulario breves</bibl>. <!-- Titel überprüfen! --> 8.° Lima por
+                        Francisco del Canzo. 1607.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="ddesantotomas">Tomas (Fr. Domingo de Santo)</persName> <bibl sameAs="764">Gramatica ó arte de la lengua general de los Indios de los
+                            Reinos del Perú</bibl>. 8.° Valladolid por Francisco Fernandez de
+                        Cordova. 1560.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="hocarochi">Carochi (P. Oracio)</persName> <bibl sameAs="72">Arte de la lengua mejicana</bibl>. 4.° Mejico por Juan Ruiz.
+                        1645.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="fdelacarrera">Carrera (d.<hi rend="superscript">n</hi>
+                            Fernando de la)</persName> <bibl sameAs="259">Arte</bibl>
+               </hi> <add>
+                  <handShift scribe="wvh"/> <hi rend="antiqua">
+                     <bibl sameAs="259">de</bibl>
+                  </hi>
+               </add> <handShift scribe="Schreiber"/> <hi rend="antiqua">
+                  <bibl sameAs="259">la lengua yunga de los Valles del Obispado de Trujillo del
+                            Perú</bibl>. 8.° Lima por José de Contreras. 1644.</hi>
+            </p>
+            <p>
+               <pb n="53c v"/> <hi rend="antiqua">
+                  <persName ref="adelamagdalena">Magdalena (Fr Agustin de
+                            la)</persName> <bibl sameAs="766">Arte de la lengua tagala</bibl>. 8.°
+                        Mejico por Francisco Rodriguez Lupercio 1679.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="dgaldoguzman">Galdo Guzman (Fr Diego)</persName> <bibl sameAs="767">Arte de la lengua Mejicana</bibl>. 8.° Mejico 1641.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="ldevaldivia">Valdivia (P. Luis de)</persName> <bibl sameAs="769">Doctrina christiana, catecismo y confesonario en las dos
+                            lenguas mas generales, Millcayac y allentiac, que corren en la provincia
+                            del Cuyo en el Reino de Chile</bibl>
+                  <!-- Titel zu überprüfen -->. 8.°
+                        Lima por Francisco del Canto 1607.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="ldevaldivia">Valdivia (P. Luis de)</persName> <bibl sameAs="768">Arte y gramatica general de la lengua que corre en todo el
+                            Reino de Chile</bibl>, con la doctrina christiana y catecismo del
+                        Concilio de Lima, en español. 8.° Lima por Francisco del Canto
+                    1606.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="ademolina">Molina (Fr Alonso)</persName> <bibl sameAs="770">Arte de la lengua mejicana y castellana</bibl>. 8.° Mejico en casa de
+                        Pedro Ocharte. 1571.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="tortiz">Ortiz (Fr Tomas)</persName> <bibl sameAs="323">Arte y
+                            reglas de la lengua tagala</bibl>. 4.° en el Convento de Nuestra Señora
+                        de Loreto en el pueblo de Sampaloc. 1740.</hi>
+            </p>
+            <p>
+               <pb n="53d r"/> <hi rend="antiqua">
+                  <persName ref="moyanguren">Oyanguren de S.<hi rend="superscript">ta</hi>
+                            Ines (Fr Melchor)</persName> <bibl sameAs="771">Arte de la lengua
+                            japona</bibl>. 4.° Mejico por José Bernardo de Hogal. 1738.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="aruizdemontoya">Ruiz (P. Antonio)</persName> <bibl sameAs="303">Arte y vocabulario de la lengua guarani</bibl>. 4.° Madrid por Juan
+                        Sanchez 1640.</hi>
+            </p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="aruizdemontoya">El mismo</persName>… <bibl sameAs="304">1639.</bibl>
+               </hi>
+            </p>
+            <p>
+               <pb n="53d v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

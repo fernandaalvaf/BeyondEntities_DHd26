@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 08.12.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Godert Baron van der Capellen, nach dem 3. März 1831<idno type="BBAW">328</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 116</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 220</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eaxclandresse">
+                  <persName>Landresse, Ernest Augustin Xavier Clerc de</persName>
+               </person>
+               <person corresp="napoleon">
+                  <persName>Napoleon Bonaparte</persName>
+               </person>
+               <person corresp="jrodrigues">
+                  <persName>Rodriguez, Joâo</persName>
+               </person>
+               <person corresp="pproorda">
+                  <persName>Roorda van Eysinga, Philippus Pieter</persName>
+               </person>
+               <person corresp="pfbsiebold">
+                  <persName>Siebold, Philipp Franz Balthasar von</persName>
+               </person>
+               <person corresp="wilhelm1nl">
+                  <persName>Wilhelm I., König der Niederlande</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="10">Abhandlungen der Königlichen Preußischen Akademie der Wissenschaften
+                    zu Berlin (1804–1900)</bibl>
+               <bibl corresp="140">Gericke, Johann Friedrich Carl: Eerste Gronden der Javaansche Taal,
+                    benevens Javaansch Leer- en Leesboek, met eene Woordenlÿst ten gebruike bÿ
+                    hetzelve (Batavia: Lands-Drukkerij 1831)</bibl>
+               <bibl corresp="228">Humboldt, Wilhelm von: Über die Verwandtschaft der Ortsadverbien
+                    mit dem Pronomen in einigen Sprachen. Gelesen in der Akademie der Wissenschaften
+                    am 17. December 1829. In: Abhandlungen der historisch-philologischen Klasse der
+                    Königlichen Preußischen Akademie der Wissenschaften zu Berlin aus dem Jahre 1829
+                    (Berlin: Königliche Akademie der Wissenschaften 1832), S. 1–26</bibl>
+               <bibl corresp="871">Rodrigues, João: Arte Da Lingoa De Iapam (Nagasaki: Collegio de
+                    Iapão da Companhia de IESV 1604)</bibl>
+               <bibl corresp="880">Santa Inés, Melchor Oyanguren de / Landresse,
+                    Ernest-Augustin-Xavier Clerc de / Humboldt, Wilhelm von / Rodrigues, João /
+                    Société asiatique: Supplément à la grammaire japonaise du P. Rodriguez, ou,
+                    Remarques additionnelles sur quelques points du système grammatical des Japonais
+                    (Paris: Dondey-Dupré Père et Fils 1826)</bibl>
+               <bibl corresp="877">Siebold, Philipp Franz Balthasar von: Nippon. Archiv zur
+                    Beschreibung von Japan und dessen Neben- und Schutzländern jezo mit den
+                    südlichen Kurilen, Krafto, Kooraï und den Liukiu-Inseln, nach japanischen und
+                    europäischen Schriften und eigenen Beobachtungen (Leiden: Selbstverl. u.a.
+                    1832–1851)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron, Ce n’est que la juste crainte
+                        d’importuner trop souvent V. E. de mes lettres …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1831-03-04"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gagpcapellen">Capellen, Godert Baron van der</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="238" type="prev">15.02.1831</ref>
+               <ref target="239" type="prev">03.03.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Entwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="ja">Japanisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="ms">Malayisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">08. Dezember 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Capellen/WvH-Capellen_1831-03-04/Coll.ling.fol.53_241.jpg"/>
+      <graphic url="Capellen/WvH-Capellen_1831-03-04/Coll.ling.fol.53_242.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="116r"/> à M<hi rend="superscript">r</hi>. de Capellen. <lb/>
+               <lb/>
+               <salute>Monsieur le Baron,</salute>
+            </opener>
+            <p>Ce n’est que la juste crainte d’importuner trop souvent V. E. de mes lettres qui
+                    m’a fait différer, M<hi rend="superscript">r</hi>. le Baron, ma réponse à <ref type="link" target="238">la Vôtre</ref> du <date when="1831-02-15">15.
+                        Février</date>. J’ai reçu depuis <ref type="link" target="239">celle</ref>
+                    du <date when="1831-03-03">3. Mars</date>, et je Vous prie d’agréer l’expression
+                    de ma vive et sincère reconnoissance de la manière bienveillante dont Vous avez
+                    bien voulû acceuillir <del>ma <del type="fragment">d</del>
+               </del> mes demandes.</p>
+            <p>Il m’a été surtout infiniment flatteur de voir que VE. a <del type="fragment">b</del> eû la bonté de me conserver Son souvenir et qu’Elle se rappelle les
+                    entretiens que nous avons eûs à <placeName ref="Wien">Vienne</placeName> du
+                    temps du Congrès. Je partage entièrement Vos sentimens, M<hi rend="superscript">r</hi>. le Baron, sur la crise politique dans laquelle nous nous trouvons
+                    depuis l’Automne dernier. Elle est plus forte, elle sera plus longue, elle aura
+                    des suites plus graves que celle de la suprématie de <persName ref="napoleon">Napoleon</persName> et de la révolution de 1789. La prévoyance humaine ne
+                    suffit pas pour juger, si cette crise <del>aura un jour du <del type="fragment">s</del>
+               </del> conduira un jour au bien-être général, mais ce qui est certain, c’est
+                    qu’il nous faudra passer par bien des malheurs avant d’atteindre ce but, auquel
+                    les personnes de mon age ne peuvent guères se flatter de parvenir. J’ai été
+                    surtout douloureusement affecté des malheurs qui ont frappé la Hollande. J’avois
+                    toujours pris la part la plus vive et la plus intime aux déstinés de ce païs, au
+                    succès et au bonheur de <persName ref="wilhelm1nl">Votre Monarque</persName>
+                    auquel je <del>porte</del> conserverai <subst>
+                  <del>[toujours] <add>éternellem+</add>
+                  </del>
+                  <add>toujours</add>
+               </subst> un attachement également respectueux et invariable. Il est affligeant
+                    et décourageant à la fois de voir que ni la <subst>
+                  <del>sagesse</del>
+                  <add>sage</add>
+               </subst> fermeté, ni la modération extrême dont <persName ref="wilhelm1nl">Sa
+                        Majesté</persName> a fait preuve, n’ont pû <del>en rien</del> altérer le
+                    cours d’événemens aussi imprévûs qu’impérieux. Il me paroit évident que la
+                    grande masse de la population de la Belgique desire le retour à l’ancien ordre
+                    des choses, mais ce desir est <del>en</del> trop impuissant, et en attendant le
+                    systeme <del type="fragment">contrai</del> contraire continue <del type="fragment">touj</del> à se développer toujours d’avantage. Voilà ce qui
+                    doit désoler toutes les personnes bien pensantes.</p>
+            <p>VE. a rendû un service extrême à mes études en <del>m’</del>
+               <pb n="116v"/> me fournissant l’occasion d’entrer en correspondance avec
+                        <persName ref="pproorda">M<hi rend="superscript">r</hi>. Roordá</persName>.
+                    Je La supplie seulement de <del>permettre</del> permettre que nos lettres
+                    passent aussi dans la suite par Ses mains. Cela les fera parvenir
+                        <del>d’en</del> plus sûrement et plus <subst>
+                  <del>promptement à la fin.</del>
+                  <add>promptement.</add>
+               </subst> Je prends la liberté de Lui en envoyer <del>un</del> une aujourd’hui. </p>
+            <p>
+               <bibl sameAs="140">Le petit livre Javanois</bibl> est
+                    encore hérissé de trop de difficultés pour moi, mais il me servira plus tard. Je
+                    Vous <del>
+                  <gap quantity="4" unit="chars"/>
+               </del> remercie, M<hi rend="superscript">r</hi>. le Baron, de m’avoir indiqué mon nom dans l’épigraphe Malaie. Etant
+                    mis ainsi sur la voye j’ai pû passablement bien la déchiffrer. J’en ai mis une
+                    traduction littérale au bas des questions que je prends la liberté d’adresser à
+                        <persName ref="pproorda">M<hi rend="superscript">r</hi>.
+                    Roorda</persName>.</p>
+            <p>La Mission de <persName ref="pfbsiebold">M<hi rend="superscript">r</hi>. de
+                        Siebold</persName> est un monument durable que VE. s’est érigé. On
+                    n’oubliera jamais ce noble zèle de protéger les <del>sciences</del> sciences et
+                    de contribuer à en étendre les limites. Mais Vos <sic>veus</sic> généreuses et
+                    bienfaisantes n’auroient jamais pû être mieux secondées que par <persName ref="pfbsiebold">M<hi rend="superscript">r</hi>. de Siebold</persName>. J’ai
+                    suivi avec le plus grand intérêt tout ce que les feuilles publiques
+                        <add>nous</add> ont communiqué dans le temps sur son séjour au Japon, et je
+                    suis charmé d’apprendre <del>que</del> qu’il est occupé dans ce moment à
+                        <placeName ref="Leiden">Leiden</placeName> de la rédaction de <bibl sameAs="877">son voyage</bibl>. J’ai parcourû avec grand plaisir les deux
+                    tableaux<!-- title? --> que VE. m’a transmis. Je Lui en suis infiniment obligé.
+                    Je prendroi peut-être la liberté de m’addresser à <persName ref="pfbsiebold">M<hi rend="superscript">r</hi>. de Siebold</persName> dont je connois
+                    la famille, <del>pour<gap unit="chars" quantity="3"/>objet</del> concernant un
+                    point de grammaire. Il regne dans les grammaires Japonoises que nous possédons
+                    en Europe, une confusion extrême sur le chapitre des Pronoms, et j’ai eû
+                    occasion d’écrire deux fois sur cet objèt, <subst>
+                  <del>d’abord</del>
+                  <add>d’abord</add>
+               </subst> dans un <bibl sameAs="880">Supplément</bibl> à <bibl sameAs="871">la
+                        grammaire</bibl> de <persName ref="jrodrigues">P. Rodriguez</persName>
+                    publiée par <persName ref="eaxclandresse">M<hi rend="superscript">r</hi>.
+                        Landresse</persName> à <placeName ref="Paris">Paris</placeName>, et tout
+                        <del type="fragment">réc</del> récemment dans un <bibl sameAs="228">mémoire
+                        sur l’affinité des Pronoms avec les Adverbes de lieu inséré</bibl> dans
+                        <bibl sameAs="10">les Mémoires</bibl> de <orgName ref="3">notre
+                        Académie</orgName>.</p>
+            <p>VE. sera étonnée de voir que je ne Lui écris pas de ma propre main. Mais ma main
+                    droite est affectée depuis quelque temps d’une foiblesse qui rend mon écriture
+                    presqu’ illisible pour ceux qui n’y sont pas habitués. </p>
+            <closer>
+               <salute>
+                  <add>Je Vous supplie, M<hi rend="superscript">r</hi>. le Baron, d’agréer
+                            l’assurance renouvellée de la haute considération avec laquelle j’ai
+                            l’honneur d’être, <lb/>
+                     <lb/>M<hi rend="superscript">r</hi>. le Baron <lb/>de VE. <lb/>
+                     <lb/>le <lb/>très-humble &amp; très obéissant serviteur,</add>
+               </salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

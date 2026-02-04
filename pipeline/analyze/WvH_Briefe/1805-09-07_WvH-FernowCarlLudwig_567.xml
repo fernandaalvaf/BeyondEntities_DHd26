@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Carl Ludwig Fernow, 07.09.1805<idno type="BBAW">567</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Autogr. I/135, Bl.
+                            1r–3r, Nachl. 141 (Slg. Adam)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Fa. J.A. Stargardt (Eutin), Kat. 479 (1949), Nr. 46
+                            (Ausz.); Fa. J.A. Stargardt (Eutin), Kat. 560 (1962), Nr. 1046
+                            (Ausz.)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 1413</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="cfdacheroeden">
+                  <persName>Dacheröden, Carl Friedrich von</persName>
+               </person>
+               <person corresp="mfriedlaender">
+                  <persName>Friedländer, Moses</persName>
+               </person>
+               <person corresp="pgiuntotardi">
+                  <persName>Giuntotardi, Pietro</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="jcgottsched">
+                  <persName>Gottsched, Johann Christoph</persName>
+               </person>
+               <person corresp="sawherder">
+                  <persName>Herder, Sigismund August Wolfgang von</persName>
+               </person>
+               <person corresp="ssherder">
+                  <persName>Herder, Susanne Sophie von, geb. Hähnel, verw.
+                    Berger</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="kgknorring">
+                  <persName>Knorring, Karl Georg von</persName>
+               </person>
+               <person corresp="akotzebue">
+                  <persName>Kotzebue, August von</persName>
+               </person>
+               <person corresp="jjoberlin">
+                  <persName>Oberlin, Jeremias Jacobus</persName>
+               </person>
+               <person corresp="mpasqualino">
+                  <persName>Pasqualino, Michele</persName>
+               </person>
+               <person corresp="friepenhausen">
+                  <persName>Riepenhausen, Franz</persName>
+               </person>
+               <person corresp="jriepenhausen">
+                  <persName>Riepenhausen, Johannes</persName>
+               </person>
+               <person corresp="cfrumohr">
+                  <persName>Rumohr, Carl Friedrich von</persName>
+               </person>
+               <person corresp="fdesanctis">
+                  <persName>Sanctis, Francesco de (Spediteur)</persName>
+               </person>
+               <person corresp="cschiller">
+                  <persName>Schiller, Charlotte, geb. von Lengefeld</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="tacitus">
+                  <persName>Tacitus</persName>
+               </person>
+               <person corresp="cftieck">
+                  <persName>Tieck, Christian Friedrich</persName>
+               </person>
+               <person corresp="ltieck">
+                  <persName>Tieck, Ludwig</persName>
+               </person>
+               <person corresp="stieck">
+                  <persName>Tieck, Sophie, gesch. Bernhardi, verh. von
+                    Knorring</persName>
+               </person>
+               <person corresp="lvaleriani">
+                  <persName>Valeriani, Lodovico</persName>
+               </person>
+               <person corresp="favisconti">
+                  <persName>Visconti, Filippo Aurelio</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+               <person corresp="cvwolzogen">
+                  <persName>Wolzogen, Caroline von, geb. von Lengefeld, gesch. von
+                    Beulwitz</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1319">Kotzebue, August von (1805): Erinnerungen von einer Reise aus
+                    Liefland nach Rom und Neapel, 3 Theile, Berlin: ohne Verlag</bibl>
+               <bibl corresp="1320">Oberlin, Jeremias Jacob (Hrsg.) (1801): C. Cornelii Taciti Opera.
+                    Ex Recensione Ioh. Augusti Ernesti Denuo Curavit Ier. Iac. Oberlinus, Leipzig:
+                    Weidmann</bibl>
+               <bibl corresp="1321">Pasqualino, Michele (1785–1795): Vocabolario siciliano
+                    etimonlogico, italiano e latino, 5 Bände, Palermo: Reale Stamperia</bibl>
+               <bibl corresp="1318">Tieck, Ludwig (1799/1800): Romantische Dichtungen, 2 Bände, Jena:
+                    Frommann</bibl>
+               <bibl corresp="432">Tieck, Ludwig (1804): Kaiser Octavianus, Jena: Frommann</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihr ausführlicher Brief, den ich erst erhielt, nachdem ich
+                        bereits auf den späteren, der mir die unglückliche Nachricht von Schillers
+                        Tod …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1805-09-07"/>
+               <placeName key="Rom">Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="clfernow">Fernow, Carl Ludwig</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="ar">Arabisch</language>
+            <language ident="da">Dänisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="nl">Niederländisch</language>
+            <language ident="pl">Polnisch</language>
+            <language ident="ru">Russisch</language>
+            <language ident="sv">Schwedisch</language>
+            <language ident="scn">Sizilianisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. Februar 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1r"/>
+               <dateline>
+                  <hi rend="antiqua">Rom</hi>, den <subst>
+                     <del>5</del>
+                     <add>7</add>
+                  </subst>. <hi rend="antiqua">September</hi>, 1805.</dateline>
+            </opener>
+            <p>Ihr ausführlicher Brief, den ich erst erhielt, nachdem ich bereits auf den
+                    späteren, der mir die unglückliche Nachricht von <hi rend="antiqua">
+                  <persName ref="fschiller">Schiller</persName>s</hi> Tode <subst>
+                  <del>gebracht hatte,</del>
+                  <add>brachte,</add>
+               </subst> geantwortet hatte, hat mir eine ausnehmende Freude gemacht, und ich
+                    würde die Antwort darauf nicht erst bis auf heute aufgeschoben haben, wenn mich
+                    nicht die Versendung der von Ihnen gewünschten Bücher aufgehalten hätte. Gleich
+                    nach Empfang Ihres Auftrags nahm ich zwar von <hi rend="antiqua">
+                  <persName ref="favisconti">Visconti</persName>
+               </hi> das, was hier zu haben war, allein das <hi rend="antiqua">Siciliani</hi>sche
+                        Wörterbuch<note type="footnote" resp="editor">Eventuell ist damit das <bibl sameAs="1321">Vocabolario siciliano</bibl> von <persName ref="mpasqualino">Michele Pasqualino</persName> gemeint, das zwischen 1785 und 1795 in
+                        fünf Bänden erschien. Humboldt besaß das Werk selbst: siehe Schwartz 1993,
+                        S. 24 Nr. 129. Das Wörterbuch wurde in einer Rezension zu "Sicilianischer
+                        Literatur und Kunst" im <hi rend="italic">Intelligenzblatt der Jenaischen
+                            Allgemeinen Literatur-Zeitung</hi> vom <date when="1805-02-20">20.
+                            Februar 1805</date>, Sp. 166f. erwähnt. [FZ]</note> verursachte mir
+                    einen Aufenthalt einiger Wochen, und dann übergab ich alles dem <hi rend="antiqua">
+                  <persName ref="fdesanctis">de Sanctis</persName>
+               </hi> (sogenannten <hi rend="antiqua">Checo de Volpati</hi>) den
+                    Sie kennen. Durch ihn ist die Kiste nun schon vor 14 Tagen abgegangen; er hat
+                    mich aber erst vorgestern davon benachrichtigt. Wie er mir sagt, hat er Ihnen
+                    selbst geschrieben, und Sie werden daher in seinem Briefe gefunden haben, von
+                    welchem Kaufmann in <placeName ref="Augsburg">
+                  <hi rend="antiqua">Augsburg</hi>
+               </placeName> Ihnen die
+                    Sachen werden zugeschickt werden. Ich habe Ihnen daher nur noch die Rechnung
+                        <hi rend="antiqua">
+                  <persName ref="favisconti">Visconti</persName>s quittirt</hi> zu übermachen, zu
+                    welcher ich meine zweite Auslage für das <bibl sameAs="1321">Wörterbuch</bibl>
+                    hinzugefügt <subst>
+                  <del>habe,</del>
+                  <add>habe.</add>
+               </subst> Das Ganze beträgt auf diese Weise 42. <hi rend="antiqua">Sc.</hi> 80. <hi rend="antiqua">Baj.</hi> und da ich bei dem
+                    jetzigen theuren <hi rend="antiqua">Cours</hi> den <hi rend="antiqua">Scudo</hi> zu 1. r. 13 g. 6 pf. in Preuss. <hi rend="antiqua">Courant</hi> (das
+                    Ihnen von <placeName ref="Erfurt">
+                  <hi rend="antiqua">Erfurt</hi>
+               </placeName> aus wohl bekannt seyn wird)
+                    rechnen muß, so macht diese Summe in Preuss. <hi rend="antiqua">Courant</hi> 66. r. 21. g. Diese nun
+                    ersuche ich Sie, je nachdem es Ihnen bequemer ist, entweder in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> an die <hi rend="antiqua">Banquiers <persName ref="mfriedlaender">M. Friedländer</persName> &amp; Comp.</hi> oder an <persName ref="cfdacheroeden">meinen Schwiegervater</persName> in <placeName ref="Erfurt">
+                  <hi rend="antiqua">Erfurt</hi>
+               </placeName> zu bezahlen, und nur dabei zu bemerken, daß
+                    die Zahlung auf meinen Auftrag geschieht u. ich bitte das gezahlte Geld bis auf
+                    weitere Anweisung an sich zu behalten. Könnte die Zahlung in <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> geschehen wäre es mir angenehmer.</p>
+            <p>Was Sie über <hi rend="antiqua">Deutschland</hi>, oder vielmehr über die Verpflegung eines an Italien
+                    Gewöhnten dorthin sagen, fühle ich vollkommen. Auch reift in mir mit jedem Tage
+                    der Entschluß der 27. Jahre i.e. an Lebenszeit immer mehr. Ich hüte mich auch
+                    nur bei Spatziergängen über <hi rend="antiqua">Ponte Molle</hi> zu gehen, und Gottlob ist es, solange ich
+                        <placeName ref="Rom">
+                  <hi rend="antiqua">Rom</hi>
+               </placeName> bewohne, nur Einmal geschehen, und so
+                    sehe ich Deutschland wirklich, wie ich mit Freuden gestehe, liebe und ehre, so
+                    glaube ich doch kaum, daß ich es je wiedersehen werde. Meine Freunde sterben
+                    immer mehr dort ab, und sie zu beweinen ist hier ein schönrer Platz u. ein
+                    sanftrer Himmel. Die Lebenden, hoffe ich, <pb n="1v"/> machen noch einmal u.
+                    mehr als einmal eine Wallfarth hieher, und hier gewährt Ein Monat mit Ihnen mehr
+                    Genuß, als dort ein rollendes Jahr. Mit Deutschland geht es mir oft, wie mit
+                    einem Walde, dessen Anblick man besser genießt, wenn man ihn von außen ansieht,
+                    als wenn man sich mitten unter den Bäumen befindet. Auch ist die Deutsche
+                    Individualität mehr, als die irgend einer andren Nation, etwas intellektuelles
+                    u. Moralisches, von dem jeder einzelne immer nur etwas u. Viele wenig an sich
+                    tragen. So uralt sie ist, so kann man sagen, daß sie in der Wirklichkeit der
+                    Menschen, wie sie dort auf Straßen und Feldern umhergehen, oft verschwindet. In
+                    jedem Fall, wenn man doch nun einmal nur in Deutschland oder in <hi rend="antiqua">Italien</hi> wohnen
+                    kann, und sich (wie es mir in der That vorkommt) immer nach dem einen oder dem
+                    andern sehnen muß, scheint mir Deutschland für die Sehnsucht und <hi rend="antiqua">Italien</hi> für das
+                    Wohnen bequemer.</p>
+            <p>Soviel sich von Deutschland lebendig hier haben läßt, haben wir wirklich jetzt
+                    hier, die beiden <hi rend="antiqua">Riepenhausens</hi>
+               <note type="footnote" resp="editor">Das sind
+                            <persName ref="friepenhausen">Franz (1786–1831)</persName> und <persName ref="jriepenhausen">Johannes Riepenhausen (1787–1860)</persName>; beide
+                        Brüder waren als Maler und Kupferstecher tätig. [FZ]</note>, einen <persName ref="cfrumohr">H. <hi rend="antiqua">v. Rumor</hi>
+               </persName> u. alle <hi rend="antiqua">Tieks</hi>
+               <note type="footnote" resp="editor">Dies sind der Schriftsteller <persName ref="ltieck">Ludwig
+                            (1773–1853)</persName> und der Bildhauer <persName ref="cftieck">Christian Friedrich Tieck (1776–1851)</persName>. [FZ]</note> mit
+                        <persName ref="stieck">der Schwester</persName> u. <persName ref="kgknorring">H. <hi rend="antiqua">v. Knorring</hi>
+               </persName>
+               <note type="footnote" resp="editor">Sophie Tieck (1775–1833) war in zweiter Ehe ab 1810 mit Karl
+                        Georg von Knorring (1769–1837) verheiratet; die erste Ehe mit <persName ref="afbernhardi">August Ferdinand Bernhardi</persName> wurde 1807
+                        geschieden. [FZ]</note>. <hi rend="antiqua">Riepenhausens</hi> sind trefliche junge Leute zugleich
+                    von Kenntnissen, Fleiß u. Talent; mit dem <persName ref="ltieck">ältesten
+                        <hi rend="antiqua">Tiek</hi>
+               </persName> würde ich, glaube ich, viel umgehen, aber seine Umgebungen
+                    sind ungemein störend. <persName ref="stieck">Die Schwester</persName> ist rein
+                    weg für mich ein unangenehmes u. langweiliges Geschöpf, und <persName ref="cftieck">der Bildhauer</persName> so absprechend u. so eingenommen von
+                    sich, daß man kaum nur einsieht, wie man ihn nehmen soll. <persName ref="ltieck">Der älteste</persName> ist jetzt noch immer krank, und kann wenig gehen. Er
+                    arbeitet aber auf der <orgName ref="51">
+                  <hi rend="antiqua">Vaticani</hi>schen Bibliothek</orgName> u. es
+                    ist in der That wünschenswürdig, daß er die dort vorhandnen Deutschen
+                    Manuscripte ordentlich brauche. Von <bibl sameAs="432">seinem <hi rend="antiqua">Octavian</hi>
+               </bibl>
+                    habe ich bessere Erwartungen gehabt. Er hat mir eigentlich recht wenig gefallen.
+                    Einige Scenen mit den Weibern ausgenommen, ist kaum nur etwas Lesbares darin;
+                    eine wilde Confusion im Ganzen, die doch darum nichts weniger als reich ist, und
+                    im Einzelnen kein Gehalt nicht an Ideen u. nicht an Empfindung. Das Komische, ob
+                    es gleich manchmal ungeheuer und unerlaubt gemein ist, macht noch die beste
+                    Wirkung darin. Mit der <hi rend="antiqua">Genoveva</hi>
+               <note type="footnote" resp="editor">Das
+                        Trauerspiel <hi rend="italic">Leben und Tod der heiligen Genoveva</hi>
+                        erschien 1799/1800 in den zweibändigen <bibl sameAs="1318">Romantischen
+                            Dichtungen</bibl>. [FZ]</note> ist wirklich dies Produkt nicht zu
+                    vergleichen, und ich glaube immer, jetzt wie bisher, daß Tieks ganzes Talent
+                    sich allein im Lyrischen ausspricht. Daß es mit der Deutschen schönen Literatur
+                    bedenklich aussieht, ist gewiß sehr wahr. Es wäre sonderbar genug, wenn wir den
+                    Zenith erreicht hätten, u. nun, wie andre Nationen, herabsinken. So wie es bei
+                    andern geschehen ist, ist es indeß bei uns nicht möglich. Die
+                        <del>Spanier,</del> Italiäner u. Franzosen haben ihre klassischen Werke
+                    gehabt, u. haben <pb n="2r"/> aufgehört produktiv zu seyn, weil sie diese,
+                    wenigstens in der Form nicht mehr übertreffen konnten, u. sie also nur noch bloß
+                    nachahmten. Die Spanier u. Engländer sind in dasselbe Unglück gerathen, aber
+                    indem sie die vaterländische Spur verlassen, u. Fremde nachgebildet haben. Wir
+                    würden immer auf eine andre Weise gesunken seyn; dadurch nemlich, daß wir so
+                    sehr <del type="fragment">alle For</del> das ganze Gebiet der Formen u. des
+                    Stoffs durchwandert wären, daß nun kein Fußpfad mehr neu u. unbetreten bliebe.
+                    Indeß ist dabei doch noch eher Rettung zu hoffen. Ueberhaupt ist der <hi rend="antiqua">deus ex
+                    machina</hi> nirgends so sehr zu <del type="fragment">hoff</del> erwarten, als im
+                    Reich des Genius. Es steht da, ohne daß man es ahndet. Mit <persName ref="jwgoethe">Göthe</persName>’s Gesundheit scheint es ja ganz neuerlich
+                    wieder minder gut zu gehen. <persName ref="cvwolzogen">Fr. <hi rend="antiqua">v.
+                        Wollzogen</hi>
+               </persName> schreibt zwar, wie gewöhnlich über alle Fakte, nur sehr
+                    fragmentarisch darüber, doch sind einige Worte in Ihrem Briefe, die es uns
+                    fürchten lassen, und ebenso einige in den öffentlichen Blättern. Wenn Sie ihn
+                    doch bereden könnten, hieher zu kommen. Ich bin überzeugt, daß ihm dieser Himmel
+                    u. diese Umgebungen wohlthätig seyn würden. Grüßen Sie ihn herzlich von mir.
+                    Meinen Brief hat er hoffentlich empfangen<note type="footnote" resp="editor">Damit ist wohl der Brief Humboldts vom <date when="1805-06-05">5. Juni
+                            1805</date> gemeint; siehe Mandelkow 1965–1969, Band 1, S. 427–430 Nr.
+                        296. [FZ]</note>.</p>
+            <p>Ihr Projekt eines <hi rend="antiqua">Lexicons</hi> hat meinen vollkommensten Beifall. Nur durch solche
+                    Arbeiten kann das Sprachstudium wahrhaft weiter gebracht werden. Es läßt sich im
+                    Grunde über eine Sprache nur dann urtheilen, wenn man alle ihre <hi rend="antiqua">primitiva</hi>
+                    einzeln durchgegangen ist<add>,</add> u. partheilos geprüft hat, ob u. welcher
+                    andern Sprache sie zugehören, <del>und</del> oder wieviele darunter ihr durchaus
+                    eigenthümlich zukommen. Dennoch ist dies eigentlich noch nie von einer einzigen
+                    Sprache geschehen, u. fast über alle u. aller Abkunft hat man geurtheilt. Hätte
+                    man mehrere Sprachen dergestalt bearbeitet, so käme man endlich auf ein
+                    allgemeines Wurzellexicon. Damit gleichsam <hi rend="antiqua">a priori</hi> anzufangen, ist eine <del type="fragment">blo</del> bloße u. recht eigentliche Raserei. Es wird Ihnen
+                    aber, wie es immer bei allem Etymologisirn ist, sehr schwer werden, die Gränzen
+                    gehörig abzustechen. Denn es ist unglaublich, wie tief auch das Deutsche in dem
+                    Italiänischen verwebt ist. Dann ist es auch Schade, bloß beim Lateinischen stehn
+                    zu bleiben, da es nur ein so kleiner Schritt von da bis zum Griechischen ist,
+                    und man mit diesem auf den Standpunkt kommt, der wenigstens in dieser Reihe der
+                    letzte ist, und von dem aus sich sehr oft auch die Verwandtschaft mit dem
+                    Deutschen leicht übersehen läßt. Ihre Grammatik brauche ich sehr häufig, und
+                    bewundere ihre Vollständigkeit u. Genauigkeit. Daß <persName ref="pgiuntotardi">
+                  <hi rend="antiqua">Giuntotardi</hi>
+               </persName> je eine
+                    Italienische ausarbeite, daran ist wohl schwerlich zu denken; <subst>
+                  <del>schade</del>
+                  <add>Schade</add>
+               </subst> aber ist es recht sehr, daß die Ihrige <pb n="2v"/> Italienern durchaus
+                    unzugänglich ist. Wenn es nicht so schwierig wäre, hier etwas zum Druck zu
+                    befördern, so würde ich Ihnen sehr rathen, <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst> selbst zu übersetzen. </p>
+            <p>Ich kann diesen Brief nicht schließen, ohne <bibl sameAs="1319">der schändlichen
+                        Reisebeschreibung</bibl>
+               <hi rend="antiqua">
+                  <persName ref="akotzebue">Kotzebue</persName>s</hi> zu erwähnen. Wird denn niemand
+                    diese erbärmliche Sudelei, u. besonders diese Insolenz, über Kunst, von der er
+                    gar nichts versteht, u. über <placeName ref="Rom">Rom</placeName>, wo er kaum
+                    einige Wochen gewesen ist, zu schreiben, rügen. Durchaus unverschämt sind seine
+                    Antheile über die hier lebenden Künstler. Wäre er in Person hier, könnte er sich
+                    immer einige Leibtrabanten halten, um sich vor der <hi rend="antiqua">Germani</hi>schen Rache zu
+                    schützen. Ich bitte Sie recht ernstlich, darauf zu denken, daß er wenigstens in
+                    Recensionen so arg zu Schande gemacht werde, als es bei einem schon einmal so
+                    schamlosen Menschen möglich ist. Zu sagen, daß man <placeName ref="Rom">Rom</placeName> mit leichtem Herzen verläßt! daß es höchstens ein Duzendmal
+                    freut, das <hi rend="antiqua">Colosseum</hi> zu sehen! Für solche Dinge ist keine Strafe zu arg.</p>
+            <p>Jetzt erlauben Sie mir, liebster Freund, noch einige Bitten, die ich an niemand
+                    so gut, als Sie, zu richten weiß, und bei deren Erfüllung ich auf Ihre gütige
+                    Freundschaft rechne<note type="footnote" resp="editor">Zu diesen Aufgaben
+                        vergleiche den undatierten Brief Fernows an <persName ref="kaboettiger">Karl
+                            August Böttiger</persName> in <placeName ref="Dresden">Dresden</placeName> (<hi rend="italic">Carl Ludwig Fernow »Rom ist eine
+                            Welt in sich«. Briefe 1789–1808</hi>, hrsg. von Margit Glaser und Harald
+                        Tausch, Band 1, Göttingen: Wallstein, S. 519f. Nr. 274.): "Der Minister
+                        Humboldt in Rom wünscht von mir zu erfahren, ob seit der neuesten durch
+                        Oberlin besorgten Ausgabe des Tacitus, zu der Wolf das erste Buch gemacht
+                        hat, eine neue erschienen sei, die durch neue Lesarten oder Erklärungen auch
+                        nur etwas vor der Oberlinschen voraus habe? – Niemand kann dies besser und
+                        bestimmter wissen als Sie. Sie würden mich also sehr verbinden, wenn Sie mir
+                        darüber Auskunft gäben. Ferner, kennen Sie ein <hi rend="underline">Reim
+                            Lexicon</hi> das neuer ist, als das <hi rend="underline">Gottschedische</hi>? u. wie heißt ein solches? Ferner, welches ist
+                        gegenwärtig das beste u vollständigste Arabische Wörterbuch? / Welches ist
+                        die beste Arabische Grammatik? / Welches ist die beste arabische
+                        Chrestomathie? auch dies sind Humboldtsche Fragen, die ich nur durch fremde
+                        Zusage beantworten kann. Können Sie mir auch dazu helfen? Verzeihung für das
+                        viele Gefrage! / Fernow." (Germanisches Nationalmuseum Nürnberg, Archiv,
+                        Sign.: Autographen Böttiger K. 7). [FZ]</note>:</p>
+            <p>1., ist seit der neuesten durch <persName ref="jjoberlin">
+                  <hi rend="antiqua">Oberlin</hi>
+               </persName>
+                    besorgten <bibl sameAs="1320">Ausgabe des <hi rend="antiqua">Tacitus</hi>
+               </bibl> (zu der <persName ref="fawolf">
+                  <hi rend="antiqua">Wolf</hi>
+               </persName> das erste Buch gemacht hat) eine neue
+                    erschienen, u. hat sie durch neue Lesarten oder Erklärungen auch nur etwas vor
+                    der <hi rend="antiqua">Oberlin</hi>schen voraus? In diesem Fall bitte ich Sie, solche zu kaufen, u.
+                    sogleich durch Frachtgelegenheit an den Ihnen ja wohl bekannten <persName ref="lvaleriani">
+                  <hi rend="antiqua">Valeriani</hi>
+               </persName>, Professor der politischen
+                    Wissenschaften in <placeName ref="Mailand">
+                  <hi rend="antiqua">Mailand</hi>
+               </placeName>, zu schicken.</p>
+            <p>2., wünschte ich außerordentlich, sobald als möglich, <hi rend="antiqua">
+                  <persName ref="jcgottsched">Gottsched</persName>s</hi> Reim<hi rend="antiqua">lexicon</hi>
+               <note type="footnote" resp="editor">In
+                        Humboldts Bücherverzeichnis findet sich ein Eintrag für "Gottscheds
+                        Reimregister. 8." (AST, Archivmappe 75, M. 4, Bl. 6r, Nr. 96). Worum es sich
+                        dabei handelt, ist unklar. Bekannt ist das in mehreren Auflagen zwischen
+                        1696 und 1743 erschienene <hi rend="italic">Poetische Handbuch</hi> von
+                        Johann Hübner (1668–1731), das ein Reimregister enthielt. Im Vorwort des
+                        1826 erschienenen <hi rend="italic">Allgemeinen deutschen Reimlexikons</hi>,
+                        das sich ausgiebig mit diesem Genre befasst, wird eine entsprechende Arbeit
+                        Gottscheds nicht erwähnt. [FZ]</note> (wenn nemlich seitdem kein besseres
+                    erschienen ist) zu erhalten. Sie thäten mir daher einen großen Gefallen, wenn
+                    Sie es aufzutreiben suchten, und mir, wenn es nicht anders wäre, auch mit der
+                    Post zuschickten.</p>
+            <p>3., bäte ich Sie, mir Titel u. Preise der besten Dänischen, Schwedischen,
+                    Polnischen u. Russischen Wörterbücher, u. besten Holländischen, Schwedischen u.
+                    Russischen Grammatik anzuzeigen. Nur müßten dieselben nicht bloß die Wörter in
+                    derselben, sondern einer andern Sprache, am besten der Deutschen, erklären, und
+                    immer würde ich die <del type="fragment">vor</del> vorziehen, die, beides die
+                    fremden Wörter in der bekannten Sprache, u. die der bekannten Sprache in den
+                    fremden erklärten, so daß man beide nach Gefallen aufschlagen kann. Das Dänische
+                    könnte auch <pb n="3r"/>
+               <note type="footnote" resp="editor">Oberer Teil des
+                        zerschnittenen Blattes.</note> bloß Dänisch seyn, da ich Dänisch fertig
+                    läse. Eben so wüßte ich gern Titel u. Preis des besten u. vollständigsten
+                    Arabischen Wörterbuchs, u. außerdem der brauchbarsten Grammatik u. Chrestomathie
+                    für den Anfang.</p>
+            <p>Ihre Auslagen für den Auftrag <hi rend="antiqua">ad</hi> 1., &amp; 2., bitte ich Sie von den meinigen
+                    für Sie abzuziehen.</p>
+            <closer>
+               <salute>Und nun tausend Entschuldigungen für die Länge dieses Briefes, die
+                        herzlichsten Grüße von <persName ref="cvh1">meiner Frau</persName>, und sehr
+                        viele Empfehlungen an <persName ref="jwgoethe">Göthe</persName>, <persName ref="cvwolzogen">Fr. <hi rend="antiqua">v. Wollzogen</hi>
+                  </persName> u. <persName ref="cschiller">
+                     <hi rend="antiqua">Schiller</hi>
+                  </persName>. <hi rend="antiqua">Herder’s</hi> sind in <placeName ref="Neapel">
+                     <hi rend="antiqua">Neapel</hi>
+                  </placeName>
+                  <note type="footnote" resp="editor">Eventuell sind damit der zweite Sohn <persName ref="jgherder">Johann
+                                Gottlieb von Herder</persName>s, der Geologe <persName ref="sawherder">Sigismund August Wolfgang von Herder</persName>
+                            (1776–1838), und dessen Frau <persName ref="ssherder">Susanne
+                                Sophie</persName> (1781–1848) gemeint, die im Juni 1805 geheiratet
+                            hatten. [FZ]</note>. Mit innigster u. unwandelbarster Freundschaft u.
+                        Anhänglichkeit<lb/>Ihr</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

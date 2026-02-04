@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ, 20. Juli 2017 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 25.09.1823<idno type="BBAW">1114</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, S 689, Nr. 35</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1859, S. 107–112 Nr. XXXII</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7332</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aischylos">
+                  <persName>Aischylos</persName>
+               </person>
+               <person corresp="jwealton">
+                  <persName>Alton, Joseph Wilhelm Eduard d’</persName>
+               </person>
+               <person corresp="aristophanes">
+                  <persName>Aristophanes</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="philostrat">
+                  <persName>Philostratus, Flavius</persName>
+               </person>
+               <person corresp="polygnot">
+                  <persName>Polygnot von Thasos</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cschwenck">
+                  <persName>Schwenck, Conrad</persName>
+               </person>
+               <person corresp="jhvoss">
+                  <persName>Voß, Johann Heinrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1106">Anonymus (1823): [Rez.] Aristofanes von Joh. Heinrich Voß,
+                        mit erläuternden Anmerkungen von Heinr. Voß. Drei Bände. In: Hermes oder
+                        kritisches Jahrbuch der Literatur, Erstes Stück für das Jahr 1823, Nr. XVII
+                        der ganzen Folge, S. 1–7</bibl>
+               <bibl corresp="1107">Anonymus (1823): Ueber die Komik des Aristophanes. In:
+                        Hermes oder kritisches Jahrbuch der Literatur, Erstes Stück für das Jahr
+                        1823, Nr. XVII der ganzen Folge, S. 7–60</bibl>
+               <bibl corresp="52">Bhagavad Gita</bibl>
+               <bibl corresp="1104">Hermes oder Kritisches Jahrbuch der Literatur, 1819–1831,
+                        hrsg. von Friedrich Arnold Brockhaus und Karl Ernst Schmid</bibl>
+               <bibl corresp="975">Jacobs, Friedrich / Welcker, Friedrich Gottlieb (Hrsg.)
+                        (1825): Philostratorum imagines et Callistrati Statuae. Textum ad fidem
+                        veterum librorum recensuit et commentarium adiecit Fridericus Iacobs.
+                        Observationes, Archaeologici praesertim argumenti, addidit Fridericus
+                        Theophilus Welcker, Leipzig: Libraria Dyckiana</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.) (1820–1830): Indische
+                        Bibliothek. Eine Zeitschrift, Bonn: [Weber]</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von (1823): Bhagavad-Gita, id est
+                        Θεσπέσιον μελος, sive almi Krishnae et Arjunae colloquium de rebus divinis,
+                        Bharateae episodium. Textum recensuit, annotationes criticas et
+                        interpretationem latinam adjecit Aug. Guil. a Schlegel, Bonn: Weber</bibl>
+               <bibl corresp="1105">Schwenck, Conrad (1823): Ueber E.T.W. [sic] Hoffmann’s
+                        Schriften. In: Hermes oder kritisches Jahrbuch der Literatur, Dittes Stück
+                        für das Jahr 1823, Nr. XIX der ganzen Folge, S. 80–143</bibl>
+               <bibl corresp="1103">Voß, Johann Heirich (1821): Aristofanes, mit erläuternden
+                        Anmerkungen von Heirich Voß, in drei Bänden, Braunschweig: Friedrich
+                        Vieweg</bibl>
+               <bibl corresp="759">Welcker, Friedrich Gottlieb (1824): Die Aeschylische
+                        Trilogie Prometheus und die Kabirenweihe zu Lemnos, nebst Winken über die
+                        Trilogie des Aeschylus überhaupt, Darmstadt: Leske</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ihre beiden gütigen Briefe, liebster Freund, vom 26. v. M. und
+                    den kleinen, besonders …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-09-25"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="120" type="next">24.12.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">20. Juli 2017</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, 25. <hi rend="antiqua">September</hi>
+                        1823.</dateline>
+            </opener>
+            <p>
+               <pb n="1*"/> Ihre beiden gütigen Briefe, liebster Freund, vom <date when="1823-08-26">26. v. M.</date>
+               <note type="footnote" resp="editor">Der
+                        Brief ist offenbar nicht erhalten. [FZ]</note> u. den kleineren, besonders
+                    für <persName ref="jwealton">Herrn <hi rend="antiqua">Professor
+                        d’Alton</hi>
+               </persName>
+               <note type="footnote" resp="editor">Joseph Wilhelm
+                        Eduard d’Alton (1772–1840), Anatom, Archäologe, Kupferstecher und
+                        Kunstkritiker. Seit 1818 außerordentlicher Professor für (antike)
+                        Kunstgeschichte an der Universität Bonn.</note> bestimmten, habe ich
+                    erhalten u. sage Ihnen in meinem u. <persName ref="cvh1">meiner Frau</persName>
+                    Namen meinen herzlichsten Dank für alles Liebe u. Freundschaftliche, was beide
+                    für uns enthalten. <persName ref="jwealton">Herrn <hi rend="antiqua">Prof.
+                            d’Alton</hi>
+               </persName> habe ich leider nicht gesehen. Er hat
+                    vermuthlich nicht Zeit gehabt, mich hier auf dem Lande aufzusuchen. Wenn ich
+                    mich nicht irre, ist er derselbe, der mir schon aus ziemlich frühen Jahren als
+                    ein überaus geistvoller Mann bekannt ist. Ich habe desto mehr bedauert, seine
+                    Bekanntschaft nicht gemacht zu haben, denn ich habe ihn auch früher nie selbst
+                    gesehen. – Ich muß zwar fürchten, daß diese Zeilen Sie nicht in <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName> finden, da Sie, wie Sie mir
+                    schrieben, einige Reisen zu machen gedachten, ich möchte aber doch auf keinen
+                    Fall meine Antwort noch länger verzögern. <persName ref="awschlegel">
+                  <hi rend="antiqua">Schlegel</hi>
+               </persName> habe ich auf seinen letzten
+                    Brief nicht mehr geantwortet, da ich überzeugt war, daß er schon abgegangen seyn
+                    mußte, u. er wohl längere Zeit ausbleibt, obgleich er mir nie bestimmt
+                    geschrieben hat, wie lange er sich in <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> aufhalten wird. Ich bin
+                    überzeugt, daß seine Reise seinen Studien sehr beförderlich seyn wird. Ich weiß
+                    nicht, ob seine letzten Aufsätze in der <bibl sameAs="396">Indischen
+                        Bibliothek</bibl> Ihnen auch so sehr gefallen haben; uns außerordentlich.
+                    Sie scheinen zwar keines sehr wichtigen, noch weniger tiefen Inhalts, aber sie
+                    sind doch so geistvoll verfaßt, u. so hübsch geschrieben, daß <subst>
+                  <del>Sie</del>
+                  <add>sie</add>
+               </subst>, dächte ich, jedem Leser sehr viel Interesse
+                    einflößen müssen. Ich kann es mir denken, daß meine Begeisterung über den <bibl sameAs="53">Bhagavad Gita</bibl>, wie Sie es mit Recht nennen, Ihnen hat
+                    befremdend vorkommen müssen. Es giebt zwar einige Stellen, die auch in der
+                    Uebersetzung frappiren u. erhaben u. tief erscheinen müssen. Auch ist die ganze
+                    Scene, im Angesicht zweier feindlichen Heere zu philosophiren, u. viele Gesänge
+                    hindurch die Waffen ruhen zu lassen, im höchsten Grade wunderbar, aber
+                    großartig. Endlich wird diese Großartigkeit dadurch gesteigert, daß der Krieger
+                    u. Held sich scheut, das Blut so verwandter Geschlechter zu vergießen, u. der
+                    zum Menschen gewordene Gott diese Schwachheit bekämpft, u. ihm zeigt, daß doch
+                    Alles Lebendige nur diesen großen Kreisgang <pb n="2*"/> durch den Tod zu neuem
+                    Leben gehen muß. Allein Alles dies ist sehr weit entfernt, das, was ich
+                        <persName ref="awschlegel">Schlegel</persName> schrieb, vor den Augen dessen
+                    zu rechtfertigen, der nur die Uebersetzung, wie gut sie selbst sey, liest. Das
+                    Eigentliche, was doch keine Uebersetzung nachbilden kann, liegt in dem Ton, dem
+                    Zusammendrängen u. Auseinanderlegen der Gedanken in die einzelnen Worte, der
+                    Folge der Gedanken u. Bilder, der Art der Metaphern, u. in dem Unbegreiflichen,
+                    was sich, weil es unzertrennlich der Sprache anklebt, nicht analysiren u.
+                    angeben, aber doch darum nicht wegläugnen läßt. Ich habe noch nicht Gelegenheit
+                    gehabt, historisch je das Alter dieser Indischen Gedichte zu untersuchen, u.
+                    weiß also nicht, ob sie in ein so sehr hohes über <persName ref="homer">Homer</persName> hinausgehen mögen. Es scheint mir aber darin auch Vieles
+                    nur relativ zu seyn. Denn selbst das uns näher Stehende, u. mithin Jüngere kann
+                    ja durch die Abgeschiedenheit, in der es entstanden ist, dem Urzustande der
+                    Menschheit näher liegen, als das in der That bei weitem Aeltere. Das aber nun
+                    ist mir eine unumstößliche Ueberzeugung, daß diese Indischen Gedichte eine Farbe
+                    des Alterthums an sich tragen, gegen die <persName ref="homer">Homer</persName>
+                    gewissermaßen jung erscheint. Hierzu tritt nun die Eigenthümlichkeit hinzu, daß
+                    sich dieses Alterthum gerade in philosophischer u. theosophischer Tiefe, aber
+                    verbunden mit jugendlich scheinenden u. reizenden Bildern ausspricht. Ich
+                    glaube, daß man ohne Vorurtheil sagen kann, daß man eigentlich immer nur in der
+                    Ursprache eine Nation selbst in ihrer Individualität reden hört, in der
+                    Uebersetzung kommt <del>immer</del> nur das Material der Gedanken zurück, u. das
+                    wenige, was die beste auch von der Form beibehält, wird in der Wirkung wahrer
+                    Aehnlichkeit wieder durch die Veränderung geschwächt, die selbst das Material in
+                    der neuen Form erleidet. Dies gerade, daß man die Nation selber hört, halte ich
+                    für den höchsten, vielleicht einzigen Nutzen u. Reiz des Studiums von Sprachen,
+                    unabhängig von den Zwecken dadurch sonst <del>nicht</del> zu erlangender
+                    Einsichten oder Notizen, <unclear>
+                  <del>u. erhalten,</del>
+               </unclear> u. je älter eine Nation ist, desto mehr steht sie gerade in einer
+                    solchen Verbindung mit ihrer Sprache, als nöthig ist, das Studium dieser
+                    wahrhaft anziehend zu machen. Alles wahre Erkennen u. Wissen muß doch am Ende
+                    darauf hinausgehen, das zu erreichen, was der Mensch, seinem Vermögen, das
+                    Universum zu erfassen u. selbst mit umzuschaffen, nach, wirklich <hi rend="underline">ist</hi>, die Kraft u. die Begeisterung des Seyns werden
+                    aber nicht eigentlich verstärkt u. entzündet durch etwas, was sich bloß erkennen
+                    u. begreifen läßt, sondern nur durch die Anschauung dessen, was der Mensch schon
+                    einmal <hi rend="underline">gewesen ist</hi>, u. das Erahnden dessen, was er <hi rend="underline">seyn kann</hi>. Darum ist, wenn man alle Mittelzwecke
+                    vergißt, u. nur auf das Letzte u. Wesentlichste geht, wahre Erweiterung der
+                    Erkenntniß nur wahre Erweiterung des Daseyns, u. diese ist auf histori<pb n="3*"/>schem Wege nur durch Anschauen gewesenen Daseyns möglich. Insofern nun das
+                    Studium einer wichtigen Originalsprache allein dies Anschauen in einiger
+                    Vollständigkeit gewähren kann, nenne ich eine darin gemachte größere Erfahrung,
+                    wie z. B. das Lesen des <bibl sameAs="52">
+                  <hi rend="antiqua">Bhagavad Gita</hi>
+               </bibl>, ein so wichtiges Lebensmoment,
+                    daß man sich Glück wünschen kann, das noch, ehe man hinweggeht, erlangt zu
+                    haben. Insofern man immer eine stille Sehnsucht in der Seele nährt, die
+                    verschiedenen Arten, in welchen sich der menschliche Geist <del>groß</del> u.
+                    das menschliche Gemüth groß zeigen, selbst angeschaut u. gefühlt zu haben, so
+                    ist ein Theil dieser Sehnsucht gestillt, u. eine Beruhigung für das Hinaustreten
+                    erlangt. Denn wenn ich mir denke, wie man wohl, ohne ekle u. mir sehr fremde
+                    Sattheit am Leben, auf eine edle u. würdige Art den Kreislauf hier so vollendet
+                    zu haben denken kann, daß man nicht voraussieht, daß leicht etwas hinzukommen
+                    könnte, so ist es nicht durch Vollendung einer Reihe von Thaten, noch einer
+                    Masse von Richtungen, nicht durch ein Erschöpfen eines Kreises des Wissens, denn
+                    das Thun u. das Wissen sind nie aufhörende Reihen von Einzelheiten, durch die
+                    man doch nie zur Unendlichkeit gelangt, aber wohl dadurch, daß jedes Vermögen,
+                    das man in sich spürt, einmal einen Gegenstand in sich gefunden hat, in dem es
+                    ganz aufgegangen ist, wo nun jede neue Beschäftigung gleichsam nur eine
+                    Wiederholung seyn würde. Nur also, was im Stande ist, ein Geistes- oder
+                    Gemüthsvermögen so zu beschäftigen u. zu bewegen, kann für den Menschen eine
+                    absolute Wichtigkeit haben, eine solche, bei der Leben u. Tod in Betrachtung
+                    kommt; alles Uebrige fällt in den Kreis des Zufälligen u. Außerwesentlichen, u.
+                    wird, wie man den ernsten Gedanken des Todes faßt, so bis zur Gleichgültigkeit
+                    entfärbt, wie Kohlen ihren Schimmer verlieren, wenn daneben eine Flamme
+                    auflodert. Sie müssen mir verzeihen, liebster Freund, daß ich hierüber so
+                    weitläuftig geworden bin. Allein ich möchte sehr ungern bei Ihnen in den
+                    Verdacht kommen, Schriften, die, aus zufälligen Umständen, jetzt von Wenigen in
+                    der Ursprache gelesen werden, darum zu überschätzen, u. einer Kenntniß, die
+                    jetzt nicht häufig seyn kann, einen zu hohen Werth beizulegen; ich mußte Ihnen
+                    daher weitläuftiger auseinandersetzen, wie ich in meiner individuellen Ansicht
+                    eine Aeußerung genommen hatte, die wirklich aus einem momentanen u.
+                    individuellen Gefühl floß, die aber darum nicht weniger in mir wahr u. dauernd
+                    ist, u. seyn wird. – Bei <hi rend="antiqua">
+                  <persName ref="cschwenck">Schwenck</persName>s</hi> Recension im <bibl sameAs="1105">Hermes</bibl>, die ich zu lesen suchen werde<note type="footnote" resp="editor">Wahrscheinlich ist damit die Rezension
+                        Schwencks zum Werk E.T.A. Hoffmanns gemeint, mit dem Titel: Ueber E.T.W.
+                        [sic] Hoffmann’s Schriften. In: <hi rend="italic">Hermes oder kritisches
+                            Jahrbuch der Literatur</hi>, Erstes Stück für das Jahr 1823, Nr. XVII
+                        der ganzen Folge, S. 80–143. Dort ist der Beitrag namentlich nicht
+                        gekennzeichnet, sondern trägt lediglich die Signatur "38.". Die Rezension
+                        wird Schwenck zugeschrieben: Detlef Kremer (Hrsg.) (2010): <hi rend="italic">E.T.A. Hoffmann. Leben – Werk – Wirkung</hi>. 2., erweiterte Auflage,
+                        Berlin: DeGruyter, S. 148. [FZ] </note>, fällt mir <bibl sameAs="1006">eine</bibl> von <persName ref="jhvoss">Voß</persName>
+               <bibl sameAs="1103">
+                  <hi rend="antiqua">Aristophanes</hi>
+               </bibl>, oder vielmehr <bibl sameAs="1107">ein philosophischer Aufsatz über <hi rend="antiqua">Aristophanes</hi> selbst</bibl> ein. Da Sie sie mir nicht nennen,
+                    glaube ich nicht, daß <bibl sameAs="1006">diese Recension</bibl> auch von
+                        <persName ref="cschwenck">
+                  <hi rend="antiqua">Schwenck</hi>
+               </persName> herrührt.<note type="footnote" resp="editor">Die Rezension ist am Ende mit "11." gekennzeichnet, daher ist
+                        es unwahrscheinlich, dass sie von Schwenck stammt, der mit "38." zeichnete.
+                        [FZ]</note> Es war sehr gut u. nöthig, <persName ref="jhvoss">Vossen</persName> einmal zu sagen, daß er wirklich, u. ordentlich
+                    absichtlich untreu übersetzt, nur hätte ich gewünscht, daß es mit noch mehreren
+                    Beispielen geschehen wäre. Ueber die Natur des <pb n="4*"/> Komischen an sich u.
+                    im <persName ref="aristophanes">Aristophanes</persName> war viel Gutes gesagt,
+                    allein das wahre Wesen der Sache doch, wie es mir schien, nicht erreicht. – Die
+                        <placeName ref="Bonn">
+                  <hi rend="antiqua">Bonn</hi>
+               </placeName>ische Gypssammlung muß ja sehr
+                    hübsch u. ansehnlich seyn, u. wo nun einmal ein Grund vorhanden ist, wird das
+                    Vermehren leicht. – Auf <del>die</del> den <bibl sameAs="975">
+                  <hi rend="antiqua">Philostrat</hi>
+               </bibl>, den ich bisher so gut, als gar
+                    nicht kannte, bin ich ungemein begierig. Er wird doch nunmehr, hoffe ich,
+                    unverzüglich erscheinen. Die Bearbeitung konnte gewiß nur dem gelingen, der, wie
+                    Sie, mit lebendiger Phantasie eine so sehr ausgebreitete Kenntniß der
+                    vorhandenen Kunstwerke besitzt. Denn gewiß haben Sie Recht zu sagen, daß diese
+                    durchaus nöthig ist, um sich in den Gemälden zurecht zu finden. Es muß Sie auch
+                    diese Beschäftigung zu schönen Bemerkungen über die verschieden- und
+                    gleichartige Composition der Alten in Gemälden u. Basreliefs geführt haben. –
+                    Ihre Darstellung der <persName ref="polygnot">
+                  <hi rend="antiqua">Polygnot</hi>
+               </persName>ischen Gemälde werde ich mit
+                    großer Freude empfangen.<note type="footnote" resp="editor">Die Abhandlung über
+                        die "Die Composition der Polygnotischen Gemälde in der Lesche zu Delphi"
+                        erschien erst 1849 in den <hi rend="italic">Abhandlungen der Königlichen
+                            Akademie der Wissenschaften zu Berlin</hi>, 1847, S. 81–151. Ein
+                        Sonderdruck erschien bereits 1848. Der Text entstand gleichzeitig mit der
+                        Beschäftigung an den Gemälden des <persName ref="philostrat">Philostratos</persName>; siehe Welcker a. O., S. 84. [FZ]</note> – Ich
+                    wünsche von Herzen, daß Sie recht bald Muße zur Ausarbeitung <bibl sameAs="759">Ihrer Aeschyleischen Ideen</bibl> finden mögen. Ich bin sehr ungeduldig,
+                    sie zu sehen. Gewiß ist <persName ref="aischylos">Aeschylus</persName> auch
+                    schon im Alterthum nicht so gewürdigt u. gefaßt worden, wie er eigentlich
+                    verdient hätte. Die Versuche, die Titel u. Fragmente der verloren gegangenen
+                    Stücke nach Trilogien zu ordnen, müssen eine sehr unterhaltende Arbeit gewähren,
+                    u. zugleich auf feine u. für die Dramatik der Alten wichtige Bemerkungen zu
+                    führen. – Sehr schmeichelhaft ist es mir, daß Sie sagen, Gelegenheit gefunden zu
+                    haben, auch von meinen Bemerkungen Gebrauch gemacht zu haben. Ich wünschte aber
+                    nicht, daß Sie ihnen zu viel Gewicht beilegten, u. am wenigsten möchte ich die
+                    Vergleichung der Sagen verschiedener Völker gewissermaßen ganz verwerfen. Meine
+                    Meinung war nur, zu warnen, daß man nicht aus zu wenigen Zügen der Aehnlichkeit
+                    gleich auf Identität, noch weniger aber, auch bei größter Aehnlichkeit, auf
+                    Verwandtschaft schließen möchte. Ganz gleiche Mythen können sehr füglich, jede
+                    selbständig, an verschiednen Orten emporkommen. – <persName ref="cvh1">Meine
+                        Frau</persName> hat mit wirklich recht glücklichem Erfolg die <hi rend="antiqua">Böhm</hi>ischen Bäder gebraucht, u. grüßt Sie auf das
+                    freundschaftlichste. Wir sind jetzt <placeName ref="Tegel">hier</placeName> fast
+                    alle vereinigt, gehen aber <del type="fragment">ba</del> in wenigen Tagen nach
+                        <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName>.</p>
+            <closer>Leben Sie recht herzlich wohl u. schreiben Sie mir recht bald wieder. Mit
+                    der hochachtungsvollsten Freundschaft der Ihrige <lb/>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

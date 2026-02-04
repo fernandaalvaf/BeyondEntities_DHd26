@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Kurz, 04.12.1830<idno type="BBAW">357</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 49, Bl. 117–121</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 202</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8312</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="famgirardin">
+                  <persName>Girardin, François Auguste Marc</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+               <person corresp="jhmpremare">
+                  <persName>Prémare, Joseph Henri Marie de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="5">Abel-Rémusat, Jean-Pierre (1822): Eléments de la grammaire chinoise
+                    ou principes généraux du Kou-Wen, ou style antique, et du Kouan-Hoa,
+                    c’est-à-dire de la langue commune généralement usitée dans l’empire chinois,
+                    Paris: Imprimérie Royale</bibl>
+               <bibl corresp="375">Abel-Rémusat, Jean-Pierre (1833): Extrait d’une lettre de M. Abel
+                    Rémusat adressée à M. le baron G. de Humbolt [sic]. In: Nouveau Journal
+                    Asiatique 11, Mars, S. 273–282</bibl>
+               <bibl corresp="228">Humboldt, Wilhelm von (1832): Über die Verwandtschaft der
+                    Ortsadverbien mit dem Pronomen in einigen Sprachen. Gelesen in der Akademie der
+                    Wissenschaften am 17. December 1829. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Preußischen Akademie der
+                    Wissenschaften zu Berlin aus dem Jahre 1829, S. 1–26. – Vgl. GS VI, S.
+                    304–330</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Herr Professor Bopp hat mir, auf meine Bitte, einen Brief
+                        mitgetheilt, welchen Ew. ihm unterm 1. Julius e. geschrieben haben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-12-04"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="hkurz">Kurz, Heinrich</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Konzept in Schreiberschrift mit Ergänzungen von
+                    Humboldts Hand</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">22. Januar 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_245.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_246.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_247.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_248.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_249.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_250.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_251.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_252.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_253.jpg"/>
+      <graphic url="Kurz/WvH-Kurz_1830-12-04/Coll.ling.fol.49_254.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="117r"/>
+               <address>
+                  <addrLine>An H. Dr. Kurz. Wohlgeb. in Paris</addrLine>
+               </address>
+               <lb/>
+               <dateline>Tegel den 4.<hi rend="superscript">ten</hi> December
+                        1830.</dateline>
+            </opener>
+            <p>
+               <persName ref="bopp">H. Professor <hi rend="antiqua">Bopp</hi>
+               </persName> hat
+                    mir, auf meine Bitte, <ref type="link" target="400">einen Brief</ref>
+                    mitgetheilt, welchen <subst>
+                  <del>Sie</del>
+                  <add>
+                     <handShift scribe="wvh"/> Ew,</add>
+               </subst>
+               <handShift scribe="Schreiber"/> ihm unterm <date when="1830-07-01">1<hi rend="superscript">t</hi>. Julius e.</date> geschrieben haben, und den
+                    ich mit großem Interesse gelesen habe. Ich <sic>dancke</sic> Ew. zuvörderst
+                    recht lebhaft für die mir in demselben geäußerten Gesinnungen, Sie brauchen aber
+                    durchaus nicht zu besorgen, daß mir Ihre Bemerkungen über <persName ref="cfneumann">Herrn <hi rend="antiqua">Neumanns</hi>
+               </persName> Stelle in
+                        <bibl sameAs="228">meiner letzten Abhandlung</bibl> unangenehm sein könnten.
+                    Da <persName ref="cfneumann">H.</persName>
+               <pb n="117v"/>
+               <persName ref="cfneumann">
+                  <hi rend="antiqua">Neumann</hi>
+               </persName>
+                    scharfsinnige und interessante Behauptungen aufstellte, so schien es mir besser,
+                    Gefahr zu laufen, daß dieselben <del>aus</del>
+               <sic>wiederlegt</sic> würden als sie auf bloßes Mistrauen hin zu unterdrücken.
+                    Ein gänzliches Vertrauen hatte ich allerdings selbst nicht dazu, und ich bin
+                    Veranlassung gewesen, daß <persName ref="cfneumann">H. <hi rend="antiqua">Neumann</hi>
+               </persName> seine zuerst weiter gefundne Behauptungen
+                    beschränkt hat.</p>
+            <p>Gänzlich Unrecht glaube ich aber noch heute, <pb n="118r"/>
+               <add>
+                  <handShift scribe="wvh"/> hat er</add>
+               <handShift scribe="Schreiber"/> doch nicht gehabt. Ich bin zwar vollkommen
+                    überzeugt, daß Ew. und <persName ref="jhklaproth">H. <hi rend="antiqua">Klaproth</hi>
+               </persName> Recht haben in demjenigen was sie gegen seine
+                    Uebersetzung der einzelnen Stellen erinnern. Aber die Hauptfrage, ja sogar die
+                    einzige, die mich hierin interessiert, ist ob <foreign sameAs="zh">
+                  <hi rend="antiqua">nai</hi>
+               </foreign> zugleich Pronomen und <subst>
+                  <del>Particel</del>
+                  <add>
+                     <handShift scribe="wvh"/> Partikel</add>
+               </subst>
+               <handShift scribe="Schreiber"/> ist, und ob sich ein <sic>zusammenhang</sic>
+                    zwischen dieser doppelten Bedeutung in ihm annehmen läßt? Ich hatte durchaus
+                    keinen <sic>zweifel</sic>, daß <foreign sameAs="zh">
+                  <hi rend="antiqua">nai</hi>
+               </foreign> auch Pronomen ehemals gewesen sey, und wunderte mich
+                    daher sehr, als <persName ref="jhklaproth">H. <hi rend="antiqua">Klaproth</hi>
+               </persName> mir neulich <pb n="118v"/> dies durchaus
+                        verneinte<note type="footnote" resp="editor">Siehe <ref type="link" target="390">Klaproths Brief an Humboldt</ref> vom <date when="1830-07-01">1. Juli 1830</date> sowie <ref type="link" target="356">dessen Antwort</ref> vom <date when="1830-09-09">9.
+                            September 1830</date>. [FZ]</note>. Ich glaubte sogar, <subst>
+                  <del>aber</del>
+                  <add>
+                     <handShift scribe="wvh"/> es</add>
+               </subst>
+               <handShift scribe="Schreiber"/> könne dies nur so zu verstehen sein, daß es
+                    nicht Pronomen dritter Person sey. Durch Ew. Schreiben wird mir nun aber dies
+                    alles klar und darum bin ich Ihnen so sehr dafür <add>
+                  <handShift scribe="wvh"/>
+                        dessen</add>
+               <handShift scribe="Schreiber"/> dankbar verpflichtet. Wenn ich aber zusammen
+                    nehme, <subst>
+                  <del>waß</del>
+                  <add>
+                     <handShift scribe="wvh"/> was</add>
+               </subst>
+               <handShift scribe="Schreiber"/> Ew. über die Sache sagen, so kommt doch nur
+                    immer soviel heraus, daß einige <hi rend="antiqua">Commentatoren</hi> diese
+                    Eigenschaft von <foreign sameAs="zh">
+                  <hi rend="antiqua">nai</hi>
+               </foreign>
+                    geleugnet haben, und daß <persName ref="jhmpremare">
+                  <hi rend="antiqua">Premare</hi>
+               </persName>
+               <note type="footnote" resp="editor">Joseph Henri
+                        Marie de Prémare (1666–1736), jesuitischer Missionar in China. Autor der
+                            <bibl sameAs="340">
+                     <hi rend="antiqua">Notitia linguae
+                        sinicae</hi>
+                  </bibl>.</note> die Sache zweifelhaft stellt. Alles <pb n="119r"/> dies wird nun, gestehe ich Ihnen, für mich durch die <hi rend="antiqua">Autoritaet</hi> des <persName ref="jpabel">H. <hi rend="antiqua">Abel-Remusat</hi>
+               </persName> vollkommen aufgewogen. Er
+                    stellt die Behauptung ohne den mindesten Zweifel auf. Ew. sagen zwar, daß er nur
+                    in einem Elementarbuche die Zweifel weggelassen habe. Sie verzeihen mir aber,
+                    wenn ich gerade in einem Elementarbuche dies Verfahren so sonderbar und
+                    unzweckmäßig finden würde, daß ich es <persName ref="jpabel">H. <hi rend="antiqua">Remusat</hi>
+               </persName> unmöglich beimessen kann. Man <pb n="119v"/> würde ja offenbar den Anfänger irre führen, wenn man das
+                        <sic>zweifelhafte</sic>, um kurz zu sein, als gewiß darstellte. <subst>
+                  <del>Daß</del>
+                  <add>
+                     <handShift scribe="wvh"/> Das</add>
+               </subst>
+               <handShift scribe="Schreiber"/> Natürliche in solchem Fall ist, die zweifelhafte
+                    Sache ganz zu übergehen. Es kostete übrigens auch nur zwey Worte mehr, <subst>
+                  <del>
+                     <hi rend="antiqua">premare’s</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <hi rend="antiqua">Premare’s</hi>
+                  </add>
+               </subst>: <handShift scribe="Schreiber"/>
+               <hi rend="antiqua">alii volunt cet.</hi> ebenso zu übersetzen<note type="footnote" resp="editor">Dies bezieht sich wohl auf die <bibl sameAs="340">
+                     <hi rend="antiqua">Notitia linguae sinicae</hi>
+                  </bibl>, S.
+                        180. [FZ]</note>.</p>
+            <p>Es ist <add>
+                  <handShift scribe="wvh"/> für mich</add>
+               <handShift scribe="Schreiber"/> daher eine entschiedene Thatsache, daß H. <subst>
+                  <del>
+                     <hi rend="antiqua">Abel-Remüsat</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <persName ref="jpabel">
+                        <hi rend="antiqua">Abel-Remusat</hi>
+                     </persName>
+                  </add>
+               </subst>
+               <handShift scribe="Schreiber"/> als er <bibl sameAs="5">seine Grammatik</bibl>
+                    schrieb, von <hi rend="antiqua">
+                  <persName ref="jhmpremare">Premare</persName>’s</hi> Meinung abging und es als gewiß ansah, daß in
+                    alter Zeit <foreign sameAs="zh">
+                  <hi rend="antiqua">nai</hi>
+               </foreign> als <pb n="120r"/> Pronomen gedient hat. Davon ist <persName ref="cfneumann">H. <hi rend="antiqua">Neumann</hi>
+               </persName>, und davon bin ich ausgegangen.
+                    Ohne diese <subst>
+                  <del>Thatsächliche</del>
+                  <add>
+                     <handShift scribe="wvh"/> thatsächliche</add>
+               </subst>
+               <handShift scribe="Schreiber"/> Grundlage würde ich <persName ref="cfneumann">H.
+                            <hi rend="antiqua">Neumanns</hi>
+               </persName> Stelle nie aufgenommen
+                    haben. <del>Wäre</del> Würde also die Eigenschaft des <hi rend="antiqua">Pronomen</hi> dem Worte <foreign sameAs="zh">
+                  <hi rend="antiqua">nai</hi>
+               </foreign> fälschlich zugeschrieben so hätte mich H. <subst>
+                  <del>
+                     <hi rend="antiqua">Abel-Remüsat</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <hi rend="antiqua">
+                        <persName ref="jpabel">Abel-Remusat</persName>
+                     </hi>
+                  </add>
+               </subst>
+               <handShift scribe="Schreiber"/> irre geführt nicht aber <persName ref="cfneumann">H. <hi rend="antiqua">Neumann</hi>
+               </persName>. Eine
+                    Möglichkeit bleibt indeß allerdings, nehmlich die daß H. <subst>
+                  <del>
+                     <hi rend="antiqua">Remüsat</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <persName ref="jpabel">
+                        <hi rend="antiqua">Remusat</hi>
+                     </persName>
+                  </add>
+               </subst>
+               <handShift scribe="Schreiber"/> seine Meinung später verändert und <pb n="120v"/> berichtigt<note type="footnote" resp="editor">Ergänzt aus der Kustode.</note>
+                    habe. Um hierüber nun zur Gewißheit zu kommen, habe ich H. <subst>
+                  <del>
+                     <hi rend="antiqua">Remüsat</hi>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                     <persName ref="jpabel">
+                        <hi rend="antiqua">Remusat</hi>
+                     </persName>
+                  </add>
+               </subst>
+               <handShift scribe="Schreiber"/> selbst geschrieben, und ihm <subst>
+                  <del>waß</del>
+                  <add>
+                     <handShift scribe="wvh"/> was</add>
+               </subst>
+               <handShift scribe="Schreiber"/>
+               <persName ref="jhklaproth">H. <hi rend="antiqua">Klaproths</hi>
+               </persName> und
+                    Ew. Brief darüber enthält, vorgelegt<note type="footnote" resp="editor">Damit
+                        meint Humboldt wohl <ref type="link" target="361">seinen Brief an
+                            Abel-Rémusat</ref> vom <date when="1830-12-09">9. Dezember 1830</date>.
+                        Den Entwurf hatte er anscheinend vor dem 4. Dezember verfasst, der dann aber
+                        erst am 9. Dezember ins Reine geschrieben wurde. [FZ]</note>. Ich sehe
+                    seiner Antwort jetzt um so mehr mit Verlangen entgegen, als ich in dem noch
+                    nicht ausgegebenen Theile der Abhandlungen <orgName ref="3">unserer
+                        Akademie</orgName>, zu welchem <bibl sameAs="228">meine letzte</bibl> gehört,
+                    mich über die Sache der jetzigen Aeußerung <persName ref="jpabel">H. <hi rend="antiqua">Remusats</hi>
+               </persName> gemäß äußern möchte<note type="footnote" resp="editor">Humboldt hatte keine Gelegenheit mehr, seine
+                        Abhandlung zu verändern. Jedoch sorgte er dafür, dass ein <bibl sameAs="375">Auszug der Antwort von Abel-Rémusat im <hi rend="italic">Nouveau Journal Asiatique</hi>
+                            1833</bibl> erschien. [FZ]</note>. Wenn Ew. noch bisweilen <persName ref="famgirardin">H.</persName>
+               <pb n="121r"/>
+               <persName ref="famgirardin">
+                  <hi rend="antiqua">Marc-Girardin</hi>
+               </persName>
+                    sehen, so bitte ich Sie mein Andenken bey ihm zu <del type="fragment">z</del>
+                    erneuern.</p>
+            <closer>
+               <salute>Empfangen Ew. die Versicherung meiner ausgezeichneten
+                        Hochachtung</salute>
+               <lb/>
+               <pb n="121v + 122r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 14.01.1828<idno type="BBAW">449</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 37–40. – Kopie: Boston, Public Library, MS q. 1900, No. 17,
+                            Courtesy of the Trustees of the Boston Public Library/Rare Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Pickering 1887, S. 356f. (gekürzt); Mueller-Vollmer 1976, S. 325f. (Ausz.)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 208</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12036</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eboudinot">
+                  <persName>Boudinot, Elias</persName>
+               </person>
+               <person corresp="wellis">
+                  <persName>Ellis, William</persName>
+               </person>
+               <person corresp="jfevarts">
+                  <persName>Evarts, Jeremiah F.</persName>
+               </person>
+               <person corresp="lniederstetter">
+                  <persName>Niederstetter, Ludwig</persName>
+               </person>
+               <person corresp="sequoyah">
+                  <persName>Sequoyah (oder Georges Guess, oder George Gist)</persName>
+               </person>
+               <person corresp="dzeisberger">
+                  <persName>Zeisberger, David</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="829">Davies, John: A grammar of the Tahitian dialect of the Polynesian
+                    language (Tahiti: Mission Press 1823)</bibl>
+               <bibl corresp="296">Ellis, William: A journal of a tour around Hawaii, the largest of
+                    the Sandwich Islands (Boston: Crocker &amp; Brewster 1825)</bibl>
+               <bibl corresp="830">[Evarts, Jeremiah:] American Missionaries at the Sandwich Islands.
+                    In: North American Review 26, 1828, S. 59–111</bibl>
+               <bibl corresp="202">Humboldt, Wilhelm von: Lettre à Monsieur Abel Rémusat, sur la
+                    nature des formes grammaticales en général, et sur le génie de la langue
+                    Chinoise en particulier (Paris: Dondé &amp; Dupré 1827)</bibl>
+               <bibl corresp="268">Sandwich Islanders. In: The Quarterly Review (London), Vol. XXXV,
+                    No. LXX, March 1827, S. 419–445; Note on the Article on the Sandwich Islanders
+                    (p. 419). In: Ebenda, S. 609</bibl>
+               <bibl corresp="437">Tsa-la-gi tsu-le-hi-sa-no-hi. A Cherokee Phoenix. Edited by Elias
+                    Boudinot for the Cherokee Nation (1828–1834)</bibl>
+               <bibl corresp="463">[Wright, Alfred:] A Spelling Book Written in the Chahta Language,
+                    with an English Translation, Second Edition, revised (Cincinnati: Morgan, Lodge,
+                    and Fisher 1827)</bibl>
+               <bibl corresp="464">[Wright, Alfred / Byington, Cyrus:] Chahta holisso a tukla, or the
+                    second chahta book, containing translations of portions of the Scriptures,
+                    biographical notices of Henry Obokiah and Catherine Brown, a catechism, and
+                    dissertations on religious subjects (Cincinnati: Morgan 1827)</bibl>
+               <bibl corresp="473">Zeisberger, David: Grammar of the Language of the Lenni Lenape or
+                    Delaware Indians. Translated from the German Manuscript of the Author by Peter
+                    Stephen du Ponceau. With a Preface and Notes by the Translator (Philadelphia:
+                    James Kay, Junior 1827)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, I did myself the honour to address a letter to you
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1828-01-14"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="513" type="next">15.11.1828</ref>
+               <ref target="511" type="prev">22.09.1827</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="cho">Chocktaw</language>
+            <language ident="fj">Fidschi</language>
+            <language ident="haw">Hawaiianisch</language>
+            <language ident="ty">Tahitisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">10. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_081.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_082.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_083.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_084.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_085.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_086.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_087.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1828-01-14/Coll.ling.fol.52_088.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="37r"/> <salute>Sir,</salute>
+            </opener>
+            <p>I did myself the honour to address a letter to you on the <date when="1827-11-27">27.<hi rend="superscript">th</hi> of November last</date>, accompanied
+                    with a copy of <persName ref="dzeisberger">Zeisberger</persName>’s <bibl sameAs="473">Grammar</bibl>; &amp; on the <date when="1827-12-28">28.<hi rend="superscript">th</hi> of December</date> I wrote to you again<note type="footnote" resp="editor">Der an Humboldt abgeschickte Brief ist auf den
+                        <date when="1827-12-29">29. Dezember 1827</date> datiert (Krakau, Coll. ling. fol. 52, Bl. 35–36), während
+                        Pickerings eigenhändige Kopie des Briefes das Datum vom <date when="1827-12-28">28. Dezember 1827</date>
+                        trägt (Boston, Public Library, MS q. 1900, No. 14). [FZ]</note>, &amp; sent you
+                    two recent publications in the Chahta language, commonly, but incorrectly,
+                    called the Choctaw<note type="footnote" resp="editor">Bei den beiden genannten
+                        Büchern handelt es sich um: <bibl sameAs="463">
+                     <hi rend="italic">A Spelling Book Written in the Chahta
+                            Language</hi>
+                  </bibl> und <bibl sameAs="464">
+                     <hi rend="italic">Chahta holisso a tukla</hi>
+                  </bibl>. [FZ]</note>. I hope
+                    these two letters have reached you in safety.</p>
+            <p>The very day after I had written the last of those letters, I had the pleasure to
+                    receive yours of the <date when="1827-09-22">22.<hi rend="superscript">d</hi> of
+                        September last</date>, which I read with much interest; as well on account
+                    of the philological information communicated in it, as for the expressions of
+                    personal regard which you are pleased to use in respect to myself.</p>
+            <p>
+               <bibl sameAs="202">Your Dissertation on the Chinese Language</bibl>, mentioned in
+                    that letter, did not however arrive till last night; but, by sitting up till a
+                    late hour, I read it once, though in too rapid a manner to enable me to give you
+                    any reflections upon it, if I were capable of doing it. Indeed I read it as I do
+                    every thing from your pen with the feelings of a pupil, who is listening to the
+                    instruction of his teacher. <pb n="37v"/> I could have wished to read it again
+                    before writing to you; but having an opportunity, which I was unwilling to lose,
+                    of acknowledging the receipt of your last letter, I am obliged to defer the
+                    farther perusal &amp; study of it at this time.</p>
+            <p>It gives me great satisfaction to learn that you are studying the languages of
+                    the Islands in the Pacific Ocean, as I flatter myself that I may be able to
+                    furnish you with some materials for that study by means of the <orgName ref="45">Missionary Society</orgName> which is established in this city, &amp; which
+                    has a regular correspondence with the Sandwich Islands. <orgName ref="45">This
+                        Society</orgName> receives copies of all the little publications made at
+                    Hawaii (Owhyhee); and I have just requested <persName ref="jfevarts">their
+                        Secretary</persName> to give me one copy of them all for you. In my own
+                    collection I have a manuscript <hi rend="underline">Grammar</hi> of the Language
+                    of Hawaii and a very copious <hi rend="underline">Vocabulary</hi> of the
+                    language, neither of which have been printed.</p>
+            <p>I have also a copy of a <bibl sameAs="829">
+                  <hi rend="underline">Tahitian Grammar</hi>, which was printed at Tahiti a
+                        few years ago</bibl> &amp; which you have probably seen.<note type="footnote" resp="editor">Die Tahiti-Grammtik von Davies lag in
+                        Humboldts Bibliothek in zwei Exemplaren vor; Schwarz 1993, Nr. 449 und Nr.
+                        450, 1. [FZ]</note> I have, too, a MS. Vocabulary of the language of the <hi rend="underline">Feejee</hi> (Fidschi) Islands, which is the only specimen I
+                    have ever seen, &amp; which I obtained from an intelligent supercargo of an
+                    American ship that visited those islands in the year 1811.</p>
+            <p>A small portion of these two MS Vocabularies was published, from my copies, in a
+                    little work <pb n="38r"/> (which I now send you) entitled "<bibl sameAs="296">
+                  <hi rend="underline">A Journal of a Tour</hi> round Hawaii</bibl>"
+                        &amp;.<hi rend="superscript">c</hi> printed by our <orgName ref="45">Missionary Society</orgName> in 1825. You will find the words in the
+                    Appendix of the volume, p. 244 and 254. You will see (by the preface, p. IV, and
+                    the Appendix, p. 243) that our Missionaries have adopted the systematic
+                    Orthography which I recommended for our American Languages; &amp; the
+                    missionaries have remarked, that the native children, by means of this
+                    orthography, learn to read their language in a much shorter time than our
+                    children in the United States learn to read English. <bibl sameAs="296">This <hi rend="underline">Journal</hi>
+               </bibl>, I would observe, has been
+                    republished in England, &amp; you may perhaps have seen it. The author, the
+                        <persName ref="wellis">Reverend William Ellis</persName>, is now in England,
+                    his native country.</p>
+            <p>As connected with this subject I send you also a <bibl sameAs="830">Reply</bibl>
+                    to the <bibl sameAs="268">London Quarterly Review, N.<hi rend="superscript">o</hi>
+                        LXX</bibl>, which had made some scandalous &amp; unfounded charges against
+                    our Missionaries in the Sandwich Islands. This <bibl sameAs="830">Reply</bibl> is
+                    written by <persName ref="jfevarts">M.<hi rend="superscript">r</hi>
+                        Evarts</persName>, who is the Secretary of the <orgName ref="45">American
+                        Board of Foreign Missions</orgName> in <placeName ref="Boston">this
+                        place</placeName>; &amp; it has fully &amp; ably exposed the calumnies &amp;
+                    unfairness of that English Journal; particularly in regard to a <hi rend="underline">forged</hi> letter, published by that journal as a <hi rend="underline">genuine</hi> letter from a native of the Islands.<note type="footnote" resp="editor">Evarts setzt sich in seinem Artikel auf S.
+                        107–111 mit dem angeblich von dem Hawaiianer Boki stammenden Brief
+                        auseinander. [FZ]</note> This <bibl sameAs="830">Reply</bibl> will be reprinted in
+                        <placeName ref="London">London</placeName>, where I think the public voice
+                    will compel the Editor of <pb n="38v"/> the Quarterly Review (if he has any
+                    regard to his own reputation) to produce the author of the forgery, or take the
+                    responsibility of it upon himself.<note type="footnote" resp="editor">Der
+                        Aufsatz aus dem <hi rend="italic">North American Review</hi> wurde 1828 auch
+                        als Monographie unter dem Titel <hi rend="italic">American Missionaries at
+                            the Sandwich Islands</hi> bei F. T. Gray in Boston verlegt. [FZ]</note>
+            </p>
+            <p>I hope, too, that the <bibl sameAs="830">Reply</bibl> will be published in
+                    Germany, so that the antidote to the poison may follow as soon as possible, and
+                    justice be done to the American character, so far as respects this
+                    transaction.</p>
+            <p>You will be pleased to hear, that a line of regular packet ships is to be
+                    established, by the merchants in <placeName ref="New York">New York</placeName>,
+                    between that city &amp; <placeName ref="Hamburg">Hamburgh</placeName>, which
+                    will greatly facilitate your communication with this country. The first ship is
+                    announced to sail on the <date when="1828-02-15">15.<hi rend="superscript">th</hi> of February</date>. I hope the projectors of it will meet with
+                    success; but whether the <hi rend="underline">commercial</hi> gain shall be on
+                    our side or not, I am sure we shall derive much <hi rend="underline">intellectual</hi> profit from this intercourse. If, too, this facility of
+                    travelling should induce you to honour our country with a visit, we should feel
+                    under additional obligations to the enterprizing spirit of our commercial
+                    citizens.</p>
+            <p>I send this letter to the care of <persName ref="lniederstetter">M.<hi rend="superscript">r</hi> Niederstetter</persName> with whom I have had
+                    the pleasure to become acquainted, as you have been informed.</p>
+            <p>I send you the new Cherokee Alphabet (mentioned in my last letter) from the types
+                    intended for <bibl sameAs="437">their newspaper</bibl>. I have given the powers
+                    of all the characters as correctly <pb n="39r"/> as I am able at this time; but
+                    I shall be able to give you a more full account of them at a future day. In the
+                    course of two or three months, they will begin to publish their newspaper, which
+                    I shall not fail to send to you.</p>
+            <closer>
+               <salute>I have the honour to be <lb/>Sir, <lb/>your most obedient <lb/>&amp;
+                        faithful servant</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Boston, Massachusetts, <lb/>January 14. 1828.</dateline>
+            </closer>
+            <postscript>
+               <p>
+                  <pb n="39v"/> P.S. I open my letter again, in order to send you the
+                        Prospectus of the <bibl sameAs="437">Cherokee Newspaper</bibl>, which I have
+                        this moment received from the Editor, a native Indian, by the name of
+                            <persName ref="eboudinot">Elias Boudinott</persName> (a name assumed
+                        from the English, as is very common) who is personally known to me.</p>
+               <p>On the second leaf of the Prospectus you will see an <hi rend="underline">original letter</hi> from the Editor addressed to me, which I am sure
+                        will be a great curiosity in Europe. You will perceive that his <hi rend="underline">English</hi> style is perfectly correct. If you would
+                        permit me, I shall put your name down as a subscriber; which would be
+                        esteemed a great honour; but whether you would allow this or not, I shall
+                        send you some of the newspapers.</p>
+            </postscript>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="40r"/> The Cherokee Syllabic Alphabet; <lb/>Invented by <persName ref="sequoyah">
+                  <hi rend="underline">Guest</hi>
+               </persName>, a native Cherokee.</p>
+            <p>
+               <pb n="Die 84 Buchstaben sind gedruckt in zwei Reihen (Nr. 1–41 und Nr. 42–84) angeordnet"/>
+            </p>
+            <table cols="21" rows="8">
+               <row>
+                  <cell>1</cell>
+                  <cell>2</cell>
+                  <cell>3</cell>
+                  <cell>4</cell>
+                  <cell>5</cell>
+                  <cell>6</cell>
+                  <cell>7</cell>
+                  <cell>8</cell>
+                  <cell>9</cell>
+                  <cell>10</cell>
+                  <cell>11</cell>
+                  <cell>12</cell>
+                  <cell>13</cell>
+                  <cell>14</cell>
+                  <cell>15</cell>
+                  <cell>16</cell>
+                  <cell>17</cell>
+                  <cell>18</cell>
+                  <cell>19</cell>
+                  <cell>20</cell>
+                  <cell>21</cell>
+               </row>
+               <row>
+                  <cell>Ꭱ</cell>
+                  <cell>Ꭰ</cell>
+                  <cell>Ꮃ</cell>
+                  <cell>Ꮵ</cell>
+                  <cell>Ꮐ</cell>
+                  <cell>Ꮽ</cell>
+                  <cell>Ꮺ</cell>
+                  <cell>Ꮅ</cell>
+                  <cell>Ꮑ</cell>
+                  <cell>Ꮌ</cell>
+                  <cell>Ꭹ</cell>
+                  <cell>Ᏹ</cell>
+                  <cell>Ꮟ</cell>
+                  <cell>Ꮲ</cell>
+                  <cell>Ꭳ</cell>
+                  <cell>Ꮇ</cell>
+                  <cell>Ꮄ</cell>
+                  <cell>Ꭽ</cell>
+                  <cell>Ꮼ</cell>
+                  <cell>Ꮰ</cell>
+                  <cell>Ꮤ</cell>
+               </row>
+               <row>
+                  <cell>22</cell>
+                  <cell>23</cell>
+                  <cell>24</cell>
+                  <cell>25</cell>
+                  <cell>26</cell>
+                  <cell>27</cell>
+                  <cell>28</cell>
+                  <cell>29</cell>
+                  <cell>30</cell>
+                  <cell>31</cell>
+                  <cell>32</cell>
+                  <cell>33</cell>
+                  <cell>34</cell>
+                  <cell>35</cell>
+                  <cell>36</cell>
+                  <cell>37</cell>
+                  <cell>38</cell>
+                  <cell>39</cell>
+                  <cell>40</cell>
+                  <cell>41</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>Ꮈ</cell>
+                  <cell>Ᏼ</cell>
+                  <cell>Ꭿ</cell>
+                  <cell>Ꮝ</cell>
+                  <cell>Ᏺ</cell>
+                  <cell>Ꮁ</cell>
+                  <cell>Ꭺ</cell>
+                  <cell>Ꮷ</cell>
+                  <cell>Ꭹ</cell>
+                  <cell>Ꮞ</cell>
+                  <cell>Ꮠ</cell>
+                  <cell>Ꮯ</cell>
+                  <cell>Ꮘ</cell>
+                  <cell>Ꮗ</cell>
+                  <cell>Ꮜ</cell>
+                  <cell>Ꮖ</cell>
+                  <cell>Ꮓ</cell>
+                  <cell>Ꭷ</cell>
+                  <cell>Ꮸ</cell>
+                  <cell>Ꮢ</cell>
+                  <cell>Ꮒ</cell>
+               </row>
+               <row>
+                  <cell>43</cell>
+                  <cell>44</cell>
+                  <cell>45</cell>
+                  <cell>46</cell>
+                  <cell>47</cell>
+                  <cell>48</cell>
+                  <cell>49</cell>
+                  <cell>50</cell>
+                  <cell>51</cell>
+                  <cell>52</cell>
+                  <cell>53</cell>
+                  <cell>54</cell>
+                  <cell>55</cell>
+                  <cell>56</cell>
+                  <cell>57</cell>
+                  <cell>58</cell>
+                  <cell>59</cell>
+                  <cell>60</cell>
+                  <cell>61</cell>
+                  <cell>62</cell>
+                  <cell>63</cell>
+               </row>
+               <row>
+                  <cell>Ꮩ</cell>
+                  <cell>Ꭸ</cell>
+                  <cell>Ꮣ</cell>
+                  <cell>Ꭼ</cell>
+                  <cell>Ꮻ</cell>
+                  <cell>Ꭲ</cell>
+                  <cell>Ꭴ</cell>
+                  <cell>Ᏸ</cell>
+                  <cell>Ꮂ</cell>
+                  <cell>Ꮫ</cell>
+                  <cell>Ꭻ</cell>
+                  <cell>Ꮶ</cell>
+                  <cell>Ꮙ</cell>
+                  <cell>Ꮔ</cell>
+                  <cell>Ꮎ</cell>
+                  <cell>Ꮆ</cell>
+                  <cell>Ᏻ</cell>
+                  <cell>Ꮴ</cell>
+                  <cell>Ꮧ</cell>
+                  <cell>Ꮾ</cell>
+                  <cell>Ꮪ</cell>
+               </row>
+               <row>
+                  <cell>64</cell>
+                  <cell>65</cell>
+                  <cell>66</cell>
+                  <cell>67</cell>
+                  <cell>68</cell>
+                  <cell>69</cell>
+                  <cell>70</cell>
+                  <cell>71</cell>
+                  <cell>72</cell>
+                  <cell>73</cell>
+                  <cell>74</cell>
+                  <cell>75</cell>
+                  <cell>76</cell>
+                  <cell>77</cell>
+                  <cell>78</cell>
+                  <cell>79</cell>
+                  <cell>80</cell>
+                  <cell>81</cell>
+                  <cell>82</cell>
+                  <cell>83</cell>
+                  <cell>84</cell>
+               </row>
+               <row>
+                  <cell>Ꮥ</cell>
+                  <cell>Ꮳ</cell>
+                  <cell>Ꭵ</cell>
+                  <cell>Ꮕ</cell>
+                  <cell>Ꮦ</cell>
+                  <cell>Ꮉ</cell>
+                  <cell>Ꮡ</cell>
+                  <cell>Ꮱ</cell>
+                  <cell>Ꭾ</cell>
+                  <cell>Ꮀ</cell>
+                  <cell>Ꮋ</cell>
+                  <cell>Ꮭ</cell>
+                  <cell>Ꮿ</cell>
+                  <cell>Ꮹ</cell>
+                  <cell>Ꮨ</cell>
+                  <cell>Ꮮ</cell>
+                  <cell>Ꮏ</cell>
+                  <cell>Ꮗ</cell>
+                  <cell>Ꮬ</cell>
+                  <cell>Ꮊ</cell>
+                  <cell>Ꮛ</cell>
+               </row>
+            </table>
+            <p/>
+            <p>
+               <pb n="Die folgende Auflistung verteilt sich auf drei Spalten (Nr. 1–28, Nr. 29–56, Nr. 57–84)"/>
+               <!-- eventuell in Tabelle umarbeiten! -->
+            </p>
+            <p>N.° 1 = a <lb/>2 – aw <lb/>3 – la <lb/>4 – tsi <lb/>5 – na <lb/>6 – wu <lb/>7 –
+                    wĕ <lb/>8 – li <lb/>9 – nĕ <lb/>10 – mu <lb/>11 – gi <hi rend="underline">or</hi> ki <lb/>12 – yi <lb/>13 – si <lb/>14 – klunh <lb/>15 – ah <lb/>16 –
+                    lŭ (as in <hi rend="underline">bŭt</hi>, English) <lb/>17 – lĕ <lb/>18 – ha
+                    <lb/>19 – wŏ (as in <hi rend="underline">nŏt</hi>, Engl.) <lb/>20 – klŏ (–––– "
+                    –––––) <lb/>21 – ta <lb/>22 – lŭn (as in <hi rend="underline">bŭt</hi>, Engl.)
+                    <lb/>23 – yŭn (–––– " –––––) <lb/>24 – hi <lb/>25 – ss (sibilant) <lb/>26 – yŏ
+                    (as in <hi rend="underline">nŏt</hi>, Engl.) <lb/>27 – hu <lb/>28 – gŏ (–––– "
+                    –––––) <lb/>29 – tsu <lb/>30 – mugh <lb/>31 – sĕ <lb/>32 – saw <lb/>33 – kli
+                    <lb/>34 – kwi <lb/>35 – kwĕ <lb/>36 – sa <lb/>37 – kwa <lb/>38 – nŏ (as in <hi rend="underline">nŏt</hi>, Engl. and nasal) <lb/>39 – ka <lb/>40 – tsŭn
+                    <lb/>41 – sŭn <lb/>42 – ni <lb/>43 – tŏ <hi rend="underline">or</hi> dŏ (as in
+                        <hi rend="underline">nŏt</hi> Engl.) <lb/>44 – kĕ <hi rend="underline">or</hi> gĕ <lb/>45 – ta <lb/>46 – kŭn <lb/>47 – wi <lb/>48 – i <lb/>49 – u
+                    (something like the French <hi rend="underline">u</hi>) <lb/>50 – yĕ <lb/>51 –
+                    kŭn <lb/>52 – tŭn <lb/>53 – ku <lb/>54 – tsŏ <lb/>55 – kwŭ <lb/>56 – nu <lb/>57
+                    – na <lb/>58 – lŏ <lb/>59 – yu <lb/>60 – tsĕ <lb/>61 – ti <lb/>62 – wŭn <lb/>63
+                    – tu <hi rend="underline">or</hi> du <lb/>64 – tĕ <lb/>65 – tsa <lb/>66 – u̧
+                    (nasal) <lb/>67 – nŭ̧ (nasal) <lb/>68 – ta <lb/>69 – su <lb/>70 – ma <lb/>71 –
+                    tlu <hi rend="underline">or</hi> dlu <lb/>72 – ha <lb/>73 – hŏ <lb/>74 – mi
+                    <lb/>75 – tlah <lb/>76 – ya <lb/>77 – wa <lb/>78 – ti <lb/>79 – tlĕ <lb/>80 –
+                    hna (HNA) <lb/>81 – kwu (something like French <hi rend="underline">u</hi>)
+                    <lb/>82 – dlah <lb/>83 – mĕ <lb/>84 – kwŭn <hi rend="underline">or</hi> kwŭ̧. </p>
+            <postscript>
+               <p>NB. The vowels &amp; consonants here all have the Continental sounds, except
+                        where they are said to be English; the cedilla under a vowel denotes that
+                        the vowel sound is nasalized.</p>
+               <p>
+                  <pb n="40v vacat"/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

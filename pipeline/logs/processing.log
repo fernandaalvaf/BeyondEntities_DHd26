@@ -1,0 +1,137 @@
+2026-02-04 15:12:46,196 - __main__ - INFO - ============================================================
+2026-02-04 15:12:46,196 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:12:46,196 - __main__ - INFO - ============================================================
+2026-02-04 15:12:46,196 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:12:46,199 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:12:46,199 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:12:46,199 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:12:46,199 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:12:46,199 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:12:46,199 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:12:46,199 - processor - ERROR - Kritischer Fehler während der Verarbeitung: Datei nicht gefunden: analyze/WvH_Briefe/1787-09-30-WvH-BeerEphraim_621.xml
+2026-02-04 15:12:46,199 - __main__ - ERROR - Datei nicht gefunden: Datei nicht gefunden: analyze/WvH_Briefe/1787-09-30-WvH-BeerEphraim_621.xml
+2026-02-04 15:13:34,519 - __main__ - INFO - ============================================================
+2026-02-04 15:13:34,520 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:13:34,520 - __main__ - INFO - ============================================================
+2026-02-04 15:13:34,520 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:13:34,522 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:13:34,522 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:13:34,522 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:13:34,523 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:13:34,523 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:13:34,523 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:13:34,523 - processor - ERROR - Kritischer Fehler während der Verarbeitung: Datei nicht gefunden: analyze/WvH_briege/1787-09-30-WvH-BeerEphraim_621.xml
+2026-02-04 15:13:34,523 - __main__ - ERROR - Datei nicht gefunden: Datei nicht gefunden: analyze/WvH_briege/1787-09-30-WvH-BeerEphraim_621.xml
+2026-02-04 15:14:27,060 - __main__ - INFO - ============================================================
+2026-02-04 15:14:27,060 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:14:27,060 - __main__ - INFO - ============================================================
+2026-02-04 15:14:27,060 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:14:27,063 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:14:27,063 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:14:27,063 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:14:27,063 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:14:27,063 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:14:27,063 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:14:27,065 - file_client - INFO - XML optimiert: 1787-09-30_WvH-BeerEphraim_621.xml - 48.4% Token-Ersparnis (25417 → 13105 Zeichen)
+2026-02-04 15:14:27,065 - file_client - INFO - Datei geladen: WvH_Briefe/1787-09-30_WvH-BeerEphraim_621.xml
+2026-02-04 15:14:27,065 - processor - INFO - Gefundene Datensätze: 1
+2026-02-04 15:14:27,065 - processor - INFO - Verarbeite Datensatz 1/1
+2026-02-04 15:14:27,065 - processor - INFO - Starte Verarbeitung für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:14:27,065 - openwebui_client - INFO - API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 1/3
+2026-02-04 15:14:27,230 - openwebui_client - WARNING - Netzwerkfehler bei ID 1787-09-30_WvH-BeerEphraim_621, Versuch 1: 401 Client Error: Unauthorized for url: https://chat-ai.academiccloud.de/v1/chat/completions
+2026-02-04 15:14:27,230 - openwebui_client - INFO - Warte 3.0 Sekunden vor erneutem Versuch...
+2026-02-04 15:14:30,233 - openwebui_client - INFO - API-Aufruf #2 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 2/3
+2026-02-04 15:14:30,368 - openwebui_client - WARNING - Netzwerkfehler bei ID 1787-09-30_WvH-BeerEphraim_621, Versuch 2: 401 Client Error: Unauthorized for url: https://chat-ai.academiccloud.de/v1/chat/completions
+2026-02-04 15:14:30,368 - openwebui_client - INFO - Warte 6.0 Sekunden vor erneutem Versuch...
+2026-02-04 15:14:36,374 - openwebui_client - INFO - API-Aufruf #3 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 3/3
+2026-02-04 15:14:36,508 - openwebui_client - WARNING - Netzwerkfehler bei ID 1787-09-30_WvH-BeerEphraim_621, Versuch 3: 401 Client Error: Unauthorized for url: https://chat-ai.academiccloud.de/v1/chat/completions
+2026-02-04 15:14:36,508 - openwebui_client - ERROR - Maximale Anzahl Wiederholungen erreicht für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:14:36,508 - processor - ERROR - Fehler bei Verarbeitung von ID 1787-09-30_WvH-BeerEphraim_621: 401 Client Error: Unauthorized for url: https://chat-ai.academiccloud.de/v1/chat/completions
+2026-02-04 15:14:36,508 - processor - INFO - Verarbeitung abgeschlossen. Gesamt: 1, Erfolgreich: 0, Übersprungen: 0, Fehlgeschlagen: 1
+2026-02-04 15:14:36,508 - processor - ERROR - ============================================================
+2026-02-04 15:14:36,508 - processor - ERROR - FEHLGESCHLAGENE RECORDS:
+2026-02-04 15:14:36,508 - processor - ERROR - Anzahl: 1
+2026-02-04 15:14:36,508 - processor - ERROR - IDs: 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:14:36,508 - processor - ERROR - ============================================================
+2026-02-04 15:14:36,508 - __main__ - INFO - ============================================================
+2026-02-04 15:14:36,508 - __main__ - INFO - Verarbeitung abgeschlossen
+2026-02-04 15:14:36,508 - __main__ - INFO - Gesamt: 1
+2026-02-04 15:14:36,508 - __main__ - INFO - Erfolgreich: 0
+2026-02-04 15:14:36,508 - __main__ - INFO - Übersprungen: 0
+2026-02-04 15:14:36,508 - __main__ - INFO - Fehlgeschlagen: 1
+2026-02-04 15:14:36,508 - __main__ - INFO - ============================================================
+2026-02-04 15:14:36,508 - __main__ - WARNING - 1 Datensätze konnten nicht verarbeitet werden
+2026-02-04 15:17:30,000 - __main__ - INFO - ============================================================
+2026-02-04 15:17:30,000 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:17:30,000 - __main__ - INFO - ============================================================
+2026-02-04 15:17:30,000 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:17:30,003 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:17:30,003 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:17:30,003 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:17:30,003 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:17:30,003 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:17:30,003 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:17:30,005 - file_client - INFO - XML optimiert: 1787-09-30_WvH-BeerEphraim_621.xml - 48.4% Token-Ersparnis (25417 → 13105 Zeichen)
+2026-02-04 15:17:30,005 - file_client - INFO - Datei geladen: WvH_Briefe/1787-09-30_WvH-BeerEphraim_621.xml
+2026-02-04 15:17:30,005 - processor - INFO - Gefundene Datensätze: 1
+2026-02-04 15:17:30,005 - processor - INFO - Verarbeite Datensatz 1/1
+2026-02-04 15:17:30,005 - processor - INFO - Starte Verarbeitung für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:17:30,005 - openwebui_client - INFO - API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 1/3
+2026-02-04 15:17:51,074 - openwebui_client - INFO - Erfolgreicher API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:17:51,084 - processor - INFO - Ergebnis gespeichert: output_json/WvH_Briefe/20260204-151730_1787-09-30_WvH-BeerEphraim_621.json
+2026-02-04 15:17:51,084 - processor - INFO - PlantUML-Diagramm gespeichert: output_json/WvH_Briefe/20260204-151730_1787-09-30_WvH-BeerEphraim_621.puml
+2026-02-04 15:17:51,306 - processor - INFO - Interaktiver Graph gespeichert: output_json/WvH_Briefe/20260204-151730_1787-09-30_WvH-BeerEphraim_621.html
+2026-02-04 15:17:51,306 - processor - INFO - Verarbeitung erfolgreich für ID 1787-09-30_WvH-BeerEphraim_621 (21.07s)
+2026-02-04 15:17:51,306 - processor - INFO - Verarbeitung abgeschlossen. Gesamt: 1, Erfolgreich: 1, Übersprungen: 0, Fehlgeschlagen: 0
+2026-02-04 15:17:51,306 - __main__ - INFO - ============================================================
+2026-02-04 15:17:51,306 - __main__ - INFO - Verarbeitung abgeschlossen
+2026-02-04 15:17:51,306 - __main__ - INFO - Gesamt: 1
+2026-02-04 15:17:51,306 - __main__ - INFO - Erfolgreich: 1
+2026-02-04 15:17:51,306 - __main__ - INFO - Übersprungen: 0
+2026-02-04 15:17:51,306 - __main__ - INFO - Fehlgeschlagen: 0
+2026-02-04 15:17:51,307 - __main__ - INFO - ============================================================
+2026-02-04 15:17:53,675 - __main__ - INFO - ============================================================
+2026-02-04 15:17:53,675 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:17:53,675 - __main__ - INFO - ============================================================
+2026-02-04 15:17:53,675 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:17:53,678 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:17:53,678 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:17:53,678 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:17:53,678 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:17:53,678 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:17:53,678 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:17:53,680 - file_client - INFO - XML optimiert: 1787-09-30_WvH-BeerEphraim_621.xml - 48.4% Token-Ersparnis (25417 → 13105 Zeichen)
+2026-02-04 15:17:53,680 - file_client - INFO - Datei geladen: WvH_Briefe/1787-09-30_WvH-BeerEphraim_621.xml
+2026-02-04 15:17:53,680 - processor - INFO - Gefundene Datensätze: 1
+2026-02-04 15:17:53,680 - processor - INFO - Verarbeite Datensatz 1/1
+2026-02-04 15:17:53,680 - processor - INFO - Starte Verarbeitung für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:17:53,680 - openwebui_client - INFO - API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 1/3
+2026-02-04 15:18:00,733 - __main__ - INFO - ============================================================
+2026-02-04 15:18:00,733 - __main__ - INFO - Starte Beschreibungsverarbeitung
+2026-02-04 15:18:00,733 - __main__ - INFO - ============================================================
+2026-02-04 15:18:00,733 - __main__ - INFO - Lade Konfiguration aus: config.yaml
+2026-02-04 15:18:00,736 - __main__ - INFO - Lade Prompt aus: prompt.txt
+2026-02-04 15:18:00,736 - __main__ - INFO - Initialisiere File-Client
+2026-02-04 15:18:00,736 - __main__ - INFO - Initialisiere OpenWebUI-Client
+2026-02-04 15:18:00,736 - __main__ - INFO - Initialisiere Processor
+2026-02-04 15:18:00,736 - processor - INFO - Output-Verzeichnis bereit: output_json
+2026-02-04 15:18:00,736 - processor - INFO - Starte Verarbeitungspipeline
+2026-02-04 15:18:00,738 - file_client - INFO - XML optimiert: 1787-09-30_WvH-BeerEphraim_621.xml - 48.4% Token-Ersparnis (25417 → 13105 Zeichen)
+2026-02-04 15:18:00,738 - file_client - INFO - Datei geladen: WvH_Briefe/1787-09-30_WvH-BeerEphraim_621.xml
+2026-02-04 15:18:00,738 - processor - INFO - Gefundene Datensätze: 1
+2026-02-04 15:18:00,738 - processor - INFO - Verarbeite Datensatz 1/1
+2026-02-04 15:18:00,738 - processor - INFO - Starte Verarbeitung für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:18:00,738 - openwebui_client - INFO - API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621, Versuch 1/3
+2026-02-04 15:18:52,133 - openwebui_client - INFO - Erfolgreicher API-Aufruf #1 für ID 1787-09-30_WvH-BeerEphraim_621
+2026-02-04 15:18:52,134 - processor - INFO - Ergebnis gespeichert: output_json/WvH_Briefe/20260204-151800_1787-09-30_WvH-BeerEphraim_621.json
+2026-02-04 15:18:52,134 - processor - INFO - PlantUML-Diagramm gespeichert: output_json/WvH_Briefe/20260204-151800_1787-09-30_WvH-BeerEphraim_621.puml
+2026-02-04 15:18:52,312 - processor - INFO - Interaktiver Graph gespeichert: output_json/WvH_Briefe/20260204-151800_1787-09-30_WvH-BeerEphraim_621.html
+2026-02-04 15:18:52,312 - processor - INFO - Verarbeitung erfolgreich für ID 1787-09-30_WvH-BeerEphraim_621 (51.40s)
+2026-02-04 15:18:52,312 - processor - INFO - Verarbeitung abgeschlossen. Gesamt: 1, Erfolgreich: 1, Übersprungen: 0, Fehlgeschlagen: 0
+2026-02-04 15:18:52,312 - __main__ - INFO - ============================================================
+2026-02-04 15:18:52,312 - __main__ - INFO - Verarbeitung abgeschlossen
+2026-02-04 15:18:52,312 - __main__ - INFO - Gesamt: 1
+2026-02-04 15:18:52,312 - __main__ - INFO - Erfolgreich: 1
+2026-02-04 15:18:52,312 - __main__ - INFO - Übersprungen: 0
+2026-02-04 15:18:52,312 - __main__ - INFO - Fehlgeschlagen: 0
+2026-02-04 15:18:52,312 - __main__ - INFO - ============================================================

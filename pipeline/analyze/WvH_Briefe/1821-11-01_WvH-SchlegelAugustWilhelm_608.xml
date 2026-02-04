@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 01.11.1821<idno type="BBAW">608</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 2</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 28–45</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7144</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="afbernhardi">
+                  <persName>Bernhardi, August Ferdinand</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="pkbuttmann">
+                  <persName>Buttmann, Philipp Karl</persName>
+               </person>
+               <person corresp="cicero">
+                  <persName>Cicero</persName>
+               </person>
+               <person corresp="euripides">
+                  <persName>Euripides</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="mlumsden">
+                  <persName>Lumsden, Matthew</persName>
+               </person>
+               <person corresp="bgniebuhr">
+                  <persName>Niebuhr, Barthold Georg</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="terenz">
+                  <persName>Terentius, Komödiendichter</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="181">Hitopadeśa</bibl>
+               <bibl corresp="640">Bernhardi, August Ferdinand: Sprachlehre (Berlin: Heinrich Frölich
+                    1801/1803)</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="636">Buttmann, Philipp: Ausführliche griechische Sprachlehre (Berlin:
+                    Mylius 1819)</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von: Prüfung der Untersuchungen über die
+                    Urbewohner Hispaniens vermittelst der Vaskischen Sprache (Berlin: Ferdinand
+                    Dümmler 1821)</bibl>
+               <bibl corresp="209">Humboldt, Wilhelm von: Ueber das vergleichende Sprachstudium in
+                    Beziehung auf die verschiedenen Epochen der Sprachentwicklung. In: Abhandlungen
+                    der königlich preußischen Akademie der Wissenschaften aus den Jahren 1820–1821,
+                    Historisch-philologische Klasse (Berlin: Reimer 1822), S. 239–260</bibl>
+               <bibl corresp="273">Lumsden, Matthew: A Grammar of the Persian Language, 2 Bände
+                    (Calcutta: 1810)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek
+                    [Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="726">Schlegel, August Wilhelm von: Specimen novae typographiae Indicae,
+                    iussu ministrorum regis Borrusiae, serenissimi principis ab Hardenberg,
+                    cancellarii status, et illustrissimi dynastae ab Altenstein, rerum
+                    ecclesiasticarum et eruditionis praesidis, publicis sumtibus concinnatae.
+                    Litterarum figuras ad elegantissimorum codicum Bibliothecae Regiae Parisiensis
+                    exemplaria delineavit, caelandas feriundas, flandas curavit (Paris: Crapelet
+                    1821)</bibl>
+               <bibl corresp="638">Terenz: Eunuchus (161 n. Chr.)</bibl>
+               <bibl corresp="455">Wilkins, Charles: A Grammar of the Sanskrita Language (London:
+                    Bulmer, Black, Parry and Kingsbury 1808)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Hochwohlgeboren haben mir durch Ihren ausführlichen und
+                        lehrreichen Brief vom 23t Julius eine Freude gemacht, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-11-01"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1072" type="next">25.11.1821</ref>
+               <ref target="607" type="prev">23.–30.07.1821</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Schreiberschrift mit Korrekturen Humboldts sowie
+                    eigenhändigem Schluss und Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="got">Gotisch</language>
+            <language ident="cel">Keltisch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="nah">Nahuatl</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS/FZ</item>
+            <item n="date">07. Februar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_1.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_2.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_3.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_4.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_5.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_6.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_7.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_8.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_9.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_10.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_11.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_12.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_13.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_14.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_15.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_16.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_17.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_18.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_19.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_20.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_21.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_22.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_23.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1821-11-01/WvH-Schlegel_1821_11_01_Seite_24.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <dateline>Berlin, den 1<hi rend="superscript">t</hi> <hi rend="antiqua">Novbr.</hi> 1821.</dateline>
+            </opener>
+            <p>Ew. Hochwohlgeboren haben mir durch Ihren ausführlichen und lehrreichen <ref type="link" target="607">Brief</ref> vom <date when="1821-07-23">23<hi rend="superscript">t</hi> <hi rend="antiqua">Julius</hi>
+               </date> eine
+                    Freude gemacht, für die ich Ihnen nicht genug danken kann. Ich bin dadurch an
+                    die Zeit erinnert worden, in der wir uns so oft über wissenschaftliche
+                    Gegenstände zu unterhalten pflegten, und in die ich mich immer so gern
+                    zurückversetze. Damals geschah es freilich mündlich. Allein bis ich vielleicht
+                    wieder einmal das Vergnügen habe, in Ihrer Nähe zu seyn, erlauben Sie wohl, daß
+                    ich mir schriftlichen Ersatz verschaffe. Ich bitte Sie, an die Beantwortung
+                    meiner Briefe immer nur dann zu denken, wenn es Sie von gar nichts anderem
+                    wichtigeren zurückhält. </p>
+            <p>Ich danke Ihnen vor Allem für Ihre Beantwortung meiner Fragen über das <hi rend="antiqua">Sanscrit</hi>. Ich habe den ganzen Sommer nichts Anderes
+                    getrieben, und daher wenigstens mehr Fortschritte gemacht, als im vergangenen
+                    Winter. Es schien mir nöthig, einmal eine große Zeit dem Studium zu widmen, um
+                    mich wenigstens in den Anfangsgründen fester zu setzen. <bibl sameAs="726">Ihr <hi rend="antiqua">Specimen</hi>
+               </bibl> sah ich im Frühjahr nur einige
+                    Augenblicke, und konnte es mithin mit keinem andern Druck vergleichen. Der
+                    Totaleindruck der Schrift schien <pb n="2*"/> mir aber sehr gefällig. Ich kann
+                    zwar nicht sagen, daß ich in den Typen, die <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> gebraucht, etwas vermisse. Wer
+                    sich aber so genau, wie Ew. Hochwohlgeboren, gerade mit diesem Gegenstand zu
+                    beschäftigen Veranlassung hat, dem mag doch vielleicht manches der Umänderung
+                    bedürftig scheinen. Der <placeName ref="Calcutta">
+                  <hi rend="antiqua">Calcutter</hi>
+               </placeName> Druck <bibl sameAs="616">im <hi rend="antiqua">Wilson</hi>
+               </bibl> ist freilich schwieriger, und man hat
+                    anfangs Mühe, einige Zusammenziehungen zu erkennen. Doch überwindet man diese
+                    Schwierigkeit bald, und die Schönheit und Deutlichkeit des <hi rend="antiqua">Devanagari</hi> Alphabets ist wirklich ein rechter Trost bei den mancherlei
+                    Mühseligkeiten des <hi rend="antiqua">Sanscrit</hi>studiums. Einige
+                    orthographische Punkte scheinen mir erheblicher. So zB. denke ich, werden Sie,
+                    so wie <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> thut, die Nasalbuchstaben, da wo
+                    sie durch <term type="phon" ref="001">
+                  <hi rend="antiqua">anusvārah</hi>
+               </term> ausgedrückt werden können, mit
+                    einem solchen schreiben. In <bibl sameAs="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl> steht das <foreign sameAs="sa">∸</foreign> nur vor der Classe der Consonanten, die keine eigene
+                    Nasalbuchstaben haben. Vor den übrigen aber braucht er den ihnen eigenthümlichen
+                    Nasalbuchstaben. Dies giebt aber höchst unangenehme Figuren und
+                    Consonantengruppen, und ist auch insofern nicht gut, daß, da doch nicht jeder
+                    Nasalbuchstabe in dieser Stellung in <term type="phon" ref="001">
+                  <hi rend="antiqua">anusvārah</hi>
+               </term> verwandelt werden kann, man hierin
+                    ungewiß bleibt. Manchmal ist er sich selbst hierin ungleich. So schreibt er
+                        <foreign sameAs="sa" n="transEd">saṅgraha<graphic url="Schlegel/WvH-Schlegel_1821_11_01/004.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">saṃgrahaṇo<graphic url="Schlegel/WvH-Schlegel_1821_11_01/005.svg"/>
+               </foreign> obgleich das
+                    eine und <pb n="3*"/> andre Wort mit der gleichen Präposition zusammengesetzt
+                    ist.</p>
+            <p>In solchen Dingen, wo verschiedene Herausgeber verschiedene Methoden befolgen,
+                    ist eigne vernünftige Wahl nothwendig. Wo aber die angenommene Methode <hi rend="antiqua">constant</hi> ist, da halte ich es auch für besser, ihr zu
+                    folgen, wie sonderbar, und für den Anfänger verwirrend sie auch seyn mag. So in
+                    der wunderbaren Stellung des Mittel-<hi rend="antiqua">r</hi>, zB <foreign sameAs="sa" n="transEd">nirghoṣaḥ<graphic url="Schlegel/WvH-Schlegel_1821_11_01/006.svg"/>
+               </foreign> (oder wie man
+                    auch findet <foreign sameAs="sa" n="transEd">nirghoṣaḥ<graphic url="Schlegel/WvH-Schlegel_1821_11_01/007.svg"/>
+               </foreign> wo die
+                    natürliche Art zu schreiben <foreign sameAs="sa" n="transEd">nirghoṣaḥ<graphic url="Schlegel/WvH-Schlegel_1821_11_01/008.svg"/>
+               </foreign> wäre, in der
+                    ganz grundlosen Vorsetzung des kurzen <hi rend="antiqua">i</hi>, in der
+                    Unterbrechung der oberen Linie in der Mitte des Worts, wenn ein <term ref="002" type="phon">
+                  <hi rend="antiqua">visarga</hi>
+               </term> (durch Verwandlung eines End-<hi rend="antiqua">r</hi>) in dasselbe tritt, zB. <foreign sameAs="sa" n="transEd">duḥkha<graphic url="Schlegel/WvH-Schlegel_1821_11_01/009.svg"/>
+               </foreign> (doch wohl zusammengesetzt aus <foreign sameAs="sa" n="transEd">dur<graphic url="Schlegel/WvH-Schlegel_1821_11_01/010.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">khai<graphic url="Schlegel/WvH-Schlegel_1821_11_01/011.svg"/>
+               </foreign>)<note type="footnote" resp="editor">Schließende Klammer ergänzt.</note>, und
+                    andrer offenbarer <hi rend="antiqua">Composita</hi> aus <foreign sameAs="sa" n="transEd">dur<graphic url="Schlegel/WvH-Schlegel_1821_11_01/012.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">nir<graphic url="Schlegel/WvH-Schlegel_1821_11_01/013.svg"/>
+               </foreign>, endlich in
+                    denjenigen Wortzusammenziehungen, die, ohne alle Lautveränderung, nur
+                    orthographisch sind, wie wenn auf ein Wort, das in einem <hi rend="antiqua">Consonanten</hi> endigt, der gar nicht verändert wird, ein mit einem <hi rend="antiqua">Vocal</hi> anfangendes folgt. Ob man Wortabtheilungspunkte in
+                    gedruckten Büchern, ausgenommen in Elementarwerken, machen sollte? darüber bin
+                    ich auch sehr zweifelhaft. <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> hat die Güte gehabt, mir einen Theil
+                    meines Exemplars des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> so zu bezeichnen, und es hat mir
+                    allerdings zu einer ungemeinen Erleichterung gedient. Allein in einigen Fällen
+                        <pb n="4*"/> wird das Anbringen der Punkte sehr schwer, und beim Lesen
+                    verwirren sie manchmal doch. Der Sprung im Uebergang zu den Manuscripten wäre
+                    auch davon zu groß. Wirklich gehört die Schwierigkeit, die richtige Abtheilung
+                    der Wörter zu treffen, auch nicht zu den größesten im <hi rend="antiqua">Sanskrit</hi>. Ich lese jetzt, und ohne Hülfe einer Uebersetzung, den
+                        <bibl sameAs="181">
+                  <hi rend="antiqua">Hitopadesa</hi>
+               </bibl>, und verstehe natürlich für mich
+                    allein, bis ich <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> fragen kann, vieles nicht. Aber in
+                    der Wortabtheilung irre ich sehr selten. </p>
+            <p>Ich stimme ganz mit Ihnen darin überein, daß sowohl der <hi rend="antiqua">Nominativus sing.</hi> als die 1. <hi rend="antiqua">p. s. pr.</hi> in
+                    mehreren Sprachen Beugungsbuchstaben haben, und vielleicht in allen haben
+                    sollten, und daß daher die <hi rend="antiqua">Sanscrit</hi>sprache mit ihren
+                    Wurzeln von dieser Seite so abweichend nicht ist. Eigenthümlich aber ist ihr
+                    immer, daß diese Erscheinung in ihr so <hi rend="antiqua">constant</hi> ist,
+                    wie, meines Wissens, keine andre Sprache sie zeigt, und daß auch die reinen
+                    Wurzeln doch die vollständige Form von Wörtern haben. Wo die grammatische
+                    Ausbildung nicht nothwendig durch den Sinn gefordert wird, wie dies zB. beim <hi rend="antiqua">Nominat. sing.</hi> der Fall ist, für den es hinlängliches
+                    Unterscheidungszeichen wäre, daß er keinen Flexionsbuchstaben hätte, und der,
+                    wenn man die Flexion meistentheils aus Agglutination erklärt, nicht <subst>
+                  <del>wir</del>
+                  <add>
+                     <handShift scribe="wvh"/> wie</add>
+               </subst> <handShift scribe="Schreiber"/> die andren <hi rend="antiqua">Casus</hi>, eine <pb n="5*"/> Präposition zur Beugungssilbe haben könnte,
+                    sondern nichts als den <hi rend="antiqua">Nom.</hi> des <hi rend="antiqua">pron.
+                        demonstr.</hi> oder den Artikel (wie denn das <hi rend="antiqua">Sanscrit</hi> auf den <hi rend="antiqua">Nominativus</hi> sehr oft noch
+                        <foreign sameAs="sa" n="transEd">saḥ<graphic url="Schlegel/WvH-Schlegel_1821_11_01/014.svg"/>
+               </foreign> folgen läßt)
+                    da muß man wohl annehmen, daß diese grammatische Ausbildung einer späteren Zeit
+                    angehört. So hat es mir daher schon längst geschienen, daß jede Sprache aus
+                    einem ungeformt gebliebenen, und einem durchaus geformten Theile zusammengesetzt
+                    ist. Im Griechischen zB. gehören die 1<hi rend="superscript">t</hi> u 2<hi rend="superscript">t</hi> decl. ganz dem geformten, die 3<hi rend="superscript">t</hi> nur zum Theil an. Im <hi rend="antiqua">Sanscrit</hi> ist der ungeformte, wie es mir scheint, ganz neben dem
+                    geformten in <subst>
+                  <del>der</del>
+                  <add>den</add>
+               </subst> Wurzelwörtern aufbewahrt worden, der ungeformte ist aber in vielen
+                    Fällen in die <hi rend="antiqua">Neutra</hi> übergegangen. Im <hi rend="antiqua">Sanskrit</hi> steht der sogenannte <hi rend="antiqua">crude state</hi> im
+                    genauesten Zusammenhange mit dem grammatischen System der Zusammensetzung, und
+                    dies mag auch ein Grund seyn, daß jener <hi rend="antiqua">crude state</hi> sich
+                    so vollständig erhalten hat. Im Griechischen ist es allerdings auch der Fall,
+                    daß die <hi rend="antiqua">composita</hi> nur die Wurzel des Worts aufnehmen,
+                    wie <foreign sameAs="grc">οἰκο-νόμος</foreign>, im Deutschen ist darin eine
+                    wunderliche Inconsequenz. Aber im Griechischen ist, und ich glaube zu gutem
+                    Glück, nur ein kleiner Theil der <hi rend="antiqua">Sanskrit</hi>
+                    Zusammensetzungen geblieben. Diese sind oft nur am <hi rend="antiqua">crude
+                        state</hi> der <subst>
+                  <del>Väter</del>
+                  <add>
+                     <handShift scribe="wvh"/> Wörter</add>
+               </subst> <handShift scribe="Schreiber"/> kenntlich.</p>
+            <p>Ich erwähnte erst der Flexion und Agglutination. Ich gestehe <pb n="6*"/> daß ich
+                    niemals habe <persName ref="fschlegel">Ihres Bruders</persName> Meinung theilen
+                    können, der durch dieselben zwei Gattungen von Sprachen feststellen wollte. Mir
+                    ist bis jetzt wenigstens noch keine Sprache ohne Agglutination vorgekommen. Ich
+                    glaube jedoch, daß es in einigen Sprachen auch (wenn gleich in wenigen Fällen)
+                    wahre Flexion geben mag, unter der ich eine durch den Sprachinstinct getroffene
+                    Wahl eines Buchstaben verstehe, der durch seine materielle Natur dem durch das
+                    zu bezeichnende grammatische Verhältniß <sic>ausgedrücket</sic> Begriff
+                    entspricht. So hat der Dativ in mehreren Sprachen einen sich bestimmt
+                    auszeichnenden, die Aufmerksamkeit an sich reißenden Ton (<hi rend="antiqua">i</hi> im Griechischen und Lateinischen, <hi rend="antiqua">m</hi> im
+                    Deutschen, <foreign sameAs="sa" n="transEd">e<graphic url="Schlegel/WvH-Schlegel_1821_11_01/014a.svg"/>
+               </foreign> in der
+                    allgemeinen Declinationsform des <hi rend="antiqua">Sanskrit</hi>) ferner der
+                        <hi rend="antiqua">Conjunctiv</hi> und <hi rend="antiqua">Optativ</hi>, die
+                    etwas noch Ungewisses andeuten, im Griechischen und Deutschen meist dunkle,
+                    schwebende Diphthongen. An Flexion dagegen in dem Sinne, daß man grammatischen
+                    Verhältnissen willkührlich unterscheidende Zeichen gegeben habe, glaube ich
+                    nicht. In <hi rend="antiqua">
+                  <persName ref="mlumsden">Lumsden</persName>’s</hi> <bibl sameAs="273">Persischer Grammatik</bibl>, der sonst über die allgemeine Grammatik
+                    Einiges bisher wenig <subst>
+                  <del>Erkanntes</del>
+                  <add>Erkannte</add>
+               </subst> hat, kann ich den dahin einschlagenden Behauptungen nicht beistimmen.
+                    Etwas so Absichtliches könnte nur von Grammatikern herrühren, die ihre <hi rend="antiqua">Commenta</hi> hernach allgemein zu machen gewußt hätten.
+                    Solche Fälle können aber nur selten gewesen <pb n="7*"/> seyn, da die Sprache,
+                    ihrer Natur nach, vom Volke ausgeht. </p>
+            <p>Die sichtbare Ableitung so vieler Wörter aus ganz einfachen Wurzeln, worin die
+                    meisten <hi rend="antiqua">Substantiva</hi> als Anwendungen von <hi rend="antiqua">Adjectiven</hi> auf bestimmte Fälle erscheinen, macht das
+                    Studium des <hi rend="antiqua">Sanskrit</hi> unendlich interessant und wichtig.
+                    Was in andern Sprachen schon größtentheils verdunkelt ist, ist hier noch
+                    sichtbar. Wenn man aber annehmen muß, daß die Nation, solange das <hi rend="antiqua">Sanskrit</hi> noch eine lebende Sprache war, diesen
+                    Zusammenhang fühlte, und die <hi rend="antiqua">Substantiva</hi> sehr häufig nur
+                    als <hi rend="antiqua">Epitheta perpetua</hi> behandelte, so ist die Frage, ob
+                    dies dem Gebrauch der Sprache zur Ideenentwicklung heilsam war. Es bereichert
+                    und belebt zwar von der einen Seite, aber kann auch verwirren. Denn das Denken
+                    ist bestimmter, wenn das Wort, ohne Nebenbegriff, nur als Zeichen der Sache
+                    erscheint. </p>
+            <p>Ueber die <hi rend="antiqua">tempora</hi> bin ich sehr begierig auf Ew.
+                    Hochwohlgeboren Entwicklung und Bestimmung. <bibl sameAs="455">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> klagt <hi rend="antiqua">p.</hi>
+                    649. daß die 3. praet. und 2. fut.<note type="footnote" resp="editor">Leitzmann
+                        schreibt: […] die 3 Praeterita und 2 Futura […]</note> ohne Unterschied
+                    gebraucht werden, und <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> sagte mir dasselbe. Sie scheinen
+                    aber in <subst>
+                  <del>ihrem</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        ihnen</add>
+               </subst> <handShift scribe="Schreiber"/> ein fest bestimmtes <hi rend="antiqua">Imperfectum perfectum</hi> und <hi rend="antiqua">Aorist</hi>
+                    zu finden. Ich vermuthe, daß Ihnen das 1<hi rend="superscript">t</hi> <hi rend="antiqua">praet.</hi> der <hi rend="antiqua">Aorist</hi> ist. So
+                    wenigstens steht es im Anfang des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> im ersten Vers. Dann aber bin ich in
+                    Verlegenheit, ob das 2. das <hi rend="antiqua">Imperfectum</hi> und das 3. das
+                        <hi rend="antiqua">Perfectum</hi>, oder umgekehrt ist. Allein selbst <pb n="8*"/> ob das 1. Praet. gerade immer <hi rend="antiqua">Aorist</hi>bedeutung hat, ist mir sehr zweifelhaft, wenn ich auf die Stellen
+                    Acht gebe, wo bald dies, bald das zweite gebraucht wird. So kommen beide hinter
+                    einander im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 166. <hi rend="antiqua">sl.</hi> 6. 7. und zwar von demselben <hi rend="antiqua">Verbum</hi> vor, wo der Sinn nur <subst>
+                  <del>
+                     <hi rend="antiqua">Aoristus</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Aoristen</hi>
+                  </add>
+               </subst> fordert, und wo es sehr gekünstelt seyn würde, etwa das 2. <hi rend="antiqua">praet.</hi> dem Sinn nach, für ein <hi rend="antiqua">Imperfectum</hi>, oder das erste für ein <hi rend="antiqua">Perfectum</hi>
+                    auszugeben. Zwischen den ewig vorkommenden <foreign sameAs="sa" n="transEd">uvāca<graphic url="Schlegel/WvH-Schlegel_1821_11_01/015.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">abravīt<graphic url="Schlegel/WvH-Schlegel_1821_11_01/016.svg"/>
+               </foreign> kann ich
+                    keinen Unterschied des Sinns einsehen, der in fast allen Fällen, wo beide
+                    gebraucht werden, der des <hi rend="antiqua">Aorists</hi> ist. Von <foreign sameAs="sa" n="transEd">brū<graphic url="Schlegel/WvH-Schlegel_1821_11_01/017.svg"/>
+               </foreign> giebt es
+                    freilich kein 2. <hi rend="antiqua">praet.</hi> allein doch ein erstes von
+                        <foreign sameAs="sa" n="transEd">vac<graphic url="Schlegel/WvH-Schlegel_1821_11_01/018.svg"/>
+               </foreign>. Es hat mir
+                    schon geschienen, obgleich ich zu wenig gelesen habe, dies beurtheilen zu
+                    können, daß es <hi rend="antiqua">Verba</hi> giebt, bei denen mehr das erste,
+                    und andre, bei denen mehr das 2.<hi rend="superscript">t</hi> <hi rend="antiqua">Praet.</hi> im Gebrauch ist. Wenn ich ganze Stellen, wo die <hi rend="antiqua">Praeterita</hi> wechseln, vergleiche, finde ich mich auch
+                    nicht heraus. ZB. mag die Rede der <hi rend="antiqua">Damayantia</hi> im 21. B.
+                    des <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> dienen. Hier scheinen wohl die <hi rend="antiqua">Verba sl.</hi> 16. <hi rend="antiqua">Imperfecta</hi> seyn zu
+                    können, weil die Handlungen des Wehklagens, des Besteigens des Wagens und des
+                    Sehens einander begleiten, und noch fortwährende, unvollendete scheinen. Liest
+                    man aber weiter, wird man wieder irre. Denn <foreign sameAs="sa" n="transEd">pratijagrāha<graphic url="Schlegel/WvH-Schlegel_1821_11_01/019.svg"/>
+               </foreign> <hi rend="antiqua">sl.</hi> 20. steht nicht in solcher
+                    Verbindung, sondern ist, dem Sinne nach, ein <hi rend="antiqua">Aorist</hi>. In
+                        <hi rend="antiqua">sl.</hi> 23. hat <pb n="9*"/> jedoch das 2. <hi rend="antiqua">Praet.</hi> den Sinn des <hi rend="antiqua">Imperfectum</hi>,
+                    er wußte es noch fortwährend nicht, dagegen steht <hi rend="antiqua">sl.</hi>
+                    26. dasselbe <hi rend="antiqua">tempus</hi> wieder als <hi rend="antiqua">Aorist</hi>. Hierin gestehe ich, sehe ich noch wenig klar. Bei den <hi rend="antiqua">fut.</hi> unterscheiden Sie, wie ich sehe, ein <hi rend="antiqua">remotum</hi> und <hi rend="antiqua">proximum</hi>, wie auch
+                        <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> thut. Diese gehören dann wohl dem
+                        <hi rend="antiqua">Aorist</hi> und der währenden Handlung an, und die <hi rend="antiqua">futura</hi> der vollendeten, und künftigen werden vermuthlich
+                    nur durch Zusammensetzungen angedeutet. Ich habe bemerkt, daß die sogenannten
+                    wilden Sprachen sehr genaue Unterschiede der <hi rend="antiqua">tempora</hi>
+                    haben. In der <hi rend="antiqua">Mexicani</hi>schen Sprache findet man sehr
+                    bestimmt bald einfache, bald zusammengesetzte Formen für alle 12 <hi rend="antiqua">tempora</hi> des <hi rend="antiqua">Indicativus</hi>.</p>
+            <p>Die mehreren Imperative des Griechischen scheinen Ihnen ein Luxus zu seyn. Dies
+                    möchte ich nicht zugeben. Zwar stimme ich Ew. <subst>
+                  <del>Wohlgeboren</del>
+                  <add>Hochwohlgeboren</add>
+               </subst> ganz darin bei, daß es vom Imperativus nicht alle <hi rend="antiqua">tempora</hi> geben kann, allein mehr, wie Einen, müßte eigentlich jede
+                    vollständig organisirte Sprache haben. In den Grammatiken, auch den so genannten
+                    allgemeinen, finde ich allerdings darüber nichts. Allein der Natur der Sache
+                    nach, ist ein Imperativus weder von der vergangenen Zeit (für die das Befehlen
+                    nicht mehr <sic>nutzen</sic> haben kann) noch von der künftigen (denn der ganze
+                    Imperativ ist schon auf die Zukunft berechnet) <add>
+                  <handShift scribe="wvh"/>
+                        nothwendig.</add> <handShift scribe="Schreiber"/> Er beschränkt sich also
+                    auf die gegenwärtige; kann aber <pb n="10*"/> auch in dieser soviel <subst>
+                  <del>
+                     <hi rend="antiqua">tempora</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Tempora</hi>
+                  </add>
+               </subst> haben, als es <hi rend="antiqua">tempora</hi> <del type="fragment">g</del> der gegenwärtigen Zeit giebt. Dies nun sind vier, und es giebt
+                    mithin Imperative der gegenwärtigen Zeit 1, der währenden Handlung, die man
+                    gewöhnlich Imp. <hi rend="antiqua">praes.</hi> nennt, <foreign sameAs="grc">τύπτε</foreign>, 2, der vollendeten Handlung, <foreign sameAs="grc">τέτυφε</foreign>, habe das Schlagen vollendet, habe deine Lection heute
+                    Abend fertig gelernt, 3., der noch anzufangenden Handlung, <foreign sameAs="grc">µέλε τύπτειν</foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">facturus es</hi>
+               </foreign>, obgleich im Lateinischen
+                    diese Zusammenstellung nicht üblich ist, 4., einer Handlung überhaupt, ohne daß
+                    darauf gesehen wird, ob man ihren Anfangs: Mittel: oder Endpunkt meint, (Aorist
+                    der Gegenwart) <foreign sameAs="grc">τύψον</foreign>. N.° 2. und 3.
+                    unterscheiden sich so bestimmt durch ihre Bedeutung von N.° 1. daß über sie kein
+                    Zweifel seyn kann. Allein auch zwischen N.° 1. und 4. ist der Unterschied nicht
+                    chimärisch. Bei N.° 1. wird bestimmt auf den Zeitraum der Handlung, und die Zeit
+                    gesehen, in N.° 4. waltet der Begriff der Handlung (unabhängig von dem Punkt, in
+                    dem sie steht) und die Idee des Müssens vor. Sie sagen, die Lateiner hätten nur
+                    Einen Imperativ. Zwei Formen aber haben sie offenbar, <foreign sameAs="la">
+                  <hi rend="antiqua">ama</hi>
+               </foreign> und <foreign sameAs="la">
+                  <hi rend="antiqua">amato</hi>
+               </foreign>. Sie nehmen vermuthlich diese beiden
+                    für Imperat <hi rend="antiqua">praes.</hi> Allein in den gewöhnlichen
+                    Grammatiken heißt <foreign sameAs="la">
+                  <hi rend="antiqua">amato</hi>
+               </foreign> <hi rend="antiqua">Imperat.
+                        fut.</hi> Hiergegen spricht schon die Etymologie. Indeß können doch
+                    schwerlich <foreign sameAs="la">
+                  <hi rend="antiqua">ama</hi>
+               </foreign> und <foreign sameAs="la">
+                  <hi rend="antiqua">amato</hi>
+               </foreign> gleichgültig gebraucht werden.
+                    Lassen Sie uns die <pb n="11*"/> Stelle des <bibl sameAs="638">
+                  <hi rend="antiqua">Terenz Eun.</hi>
+               </bibl> III. 5, 48. nehmen: <foreign sameAs="la">
+                  <hi rend="antiqua">ubi nos laverimus, si voles, lavato</hi>
+               </foreign>. Im
+                    Deutschen könnten wir nur sagen: so bade dich. Allein ob an dieser Stelle
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">lava</hi>
+               </foreign> gleich lateinisch wäre, zweifle ich,
+                    obgleich allerdings im Vers vorher <foreign sameAs="la">
+                  <hi rend="antiqua">facito</hi>
+               </foreign> auf derselben Linie mit <foreign sameAs="la">
+                  <hi rend="antiqua">cape</hi>
+               </foreign> steht. Einen Unterschied zwischen
+                    beiden Imperativen nehmen alle Grammatiker an, ob er gleich nicht an jeder
+                    Stelle beobachtet seyn mag, und beide auch mögen verwechselt werden. Die
+                    eigenthümliche Bedeutung des sogenannten <hi rend="antiqua">Imper. fut.</hi>
+                    scheint mir die zu seyn, daß er mehr Gewicht auf das Müssen, oder Mögen, als auf
+                    die unmittelbar zu vollstreckende Handlung legt, und daher auch von allem
+                    gebraucht wird, was eine ganze Dauer hindurch beobachtet werden soll. Daher ist
+                    er die gewöhnliche Gesetzessprache im Lateinischen, (wo die Griechen aber den
+                        <hi rend="antiqua">Imper. praes.</hi> brauchen) und drückt auch das Mögen
+                    aus, wie bei <persName ref="cicero">
+                  <hi rend="antiqua">Cicero</hi>
+               </persName>: <foreign sameAs="la">
+                  <hi rend="antiqua">sexcentas mihi scribito dicas, nihil do</hi>
+               </foreign>.
+                    Damit setze ich in Verbindung, daß nur er, nicht aber der eigentliche <hi rend="antiqua">Imper. Praes.</hi> eine dritte Person hat. Denn im wahren <hi rend="antiqua">Imperativ</hi> ist, wie auch <persName ref="afbernhardi">
+                  <hi rend="antiqua">Bernhardi</hi>
+               </persName> in seiner <bibl sameAs="640">allgemeinen Sprachlehre</bibl> auseinandersetzt, die 3. Person nur durch
+                    einen Umweg zu erklären. Der <subst>
+                  <del>Umweg</del>
+                  <add>Umstand</add>
+               </subst>,
+                    daß dieser Imperat. eine, sich in die Zukunft erstreckende, währende Handlung
+                    andeutet, und Stellen, wie die des <bibl sameAs="638">
+                  <hi rend="antiqua">Terenz</hi>
+               </bibl>, mögen die Veranlassung zu der
+                    Benennung des <hi rend="antiqua">Imper. fut.</hi> gegeben haben. Er folgt dort
+                    auf ein <hi rend="antiqua">Fut.</hi> und es geht <pb n="12*"/> ihm sogar ein <hi rend="antiqua">Perfectum</hi> vorher. Ich würde ihn aber einen <hi rend="antiqua">Imper. Praes.</hi> nennen, der aber meistentheils in
+                    Bedeutung eines Aorists, nemlich eines Aorists der Gegenwart, gebraucht wird.
+                    Daß die Nüance dem lateinischen Ausdruck eine Schönheit mehr giebt, die wir,
+                    ohne schleppend zu werden, nicht nachahmen können, ist gewiß. Im Griechischen
+                    sind bestimmt drei einfache <hi rend="antiqua">Imperat.</hi>, des <hi rend="antiqua">Praesens</hi>, des <hi rend="antiqua">Perfect</hi>, des <hi rend="antiqua">Aorists</hi>. Ob es von einigen Verben noch einen des <hi rend="antiqua">Fut.</hi> giebt, <hi rend="antiqua">discutirt</hi> <persName ref="pkbuttmann">
+                  <hi rend="antiqua">Buttmann</hi>
+               </persName> in seiner <bibl sameAs="636">ausführlichen Sprachlehre</bibl> <hi rend="antiqua">p.</hi> 418–420. Der
+                    Bedeutung nach, können nun, meiner Meinung nach, diese alle vorkommen. Allein
+                    die Schwierigkeit ist, daß der <hi rend="antiqua">Aorist</hi>, welcher einen <subst>
+                  <del type="fragment">
+                     <hi rend="antiqua">A</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">Imperativ</hi>
+                  </add>
+               </subst> hat, im Griechischen eine vergangene Zeit anzeigt, die beim <hi rend="antiqua">Imperat.</hi> viel weniger denkbar ist, als die zukünftige.
+                    Ist ein künftiger Imperativ auch nicht nothwendig, so ist er doch möglich, und
+                    die wirklichen Sprachen können vieles haben, was allgemeinen Begriffen nach,
+                    nicht gerade erfordert wird. So könnte eine Sprache einen <hi rend="antiqua">Imperat. Praes.</hi> haben für die gleich auszuführenden Befehle, und einen
+                        <hi rend="antiqua">Fut.</hi> für die Fälle, wo, wie in jener Stelle des
+                        <bibl sameAs="638">
+                  <hi rend="antiqua">Terenz</hi>
+               </bibl>, die Phrase selbst angiebt, daß der
+                    Befehl nur <supplied cert="high">für</supplied> die Zukunft gilt, und von
+                    Bedingungen abhängig ist. <foreign sameAs="la">
+                  <hi rend="antiqua">Lavato</hi>
+               </foreign>, als <hi rend="antiqua">Imper.
+                        fut.</hi> (wenn es einen solchen gäbe) würde doch in jener Stelle nicht
+                    durch <foreign sameAs="la">
+                  <hi rend="antiqua">lavaturus es</hi>
+               </foreign> zu ersetzen seyn. Auch <pb n="13*"/> <hi rend="antiqua">fut. prox.</hi> und <hi rend="antiqua">rem.</hi> kennt die allgemeine Grammatik nicht in der aus reinen und
+                    nothwendigen Begriffen fließenden Eintheilung der <hi rend="antiqua">tempora</hi>. Dennoch giebt es beide in mehreren Sprachen. Aber für die
+                    Vergangenheit ist ein Imperat. mir nicht denkbar. Soviel ich aus den Beispielen
+                    sehen kann, wird der <hi rend="antiqua">Imperat. Aoristi</hi> im Griechischen
+                    sehr oft wirklich mit dem <hi rend="antiqua">Imperat. Praes.</hi> als ganz
+                    gleichbedeutend gebraucht. So die epischen <hi rend="antiqua">Imperative</hi> <foreign sameAs="grc">ὄρσέο</foreign>, <foreign sameAs="grc">οἶσε</foreign>. Allein oft auch ist gewiß ein bestimmter
+                    Unterschied zwischen dem <hi rend="antiqua">Imperat. Aoristi</hi> und dem des
+                        <hi rend="antiqua">Praes.</hi> Jener hat nemlich wirklich die Bedeutung des
+                        <hi rend="antiqua">Aorists</hi>, daß bei ihm auf keinen Punkt des Zeitraums
+                    gesehen wird, welchen die Handlung einnimmt, sondern nur darauf, daß sie
+                    geschehen muß, und vorzüglich dann, daß sie dauernd, fortwährend geschehen soll.
+                    Am offenbarsten ist dieser Sinn in der eigenen Art, den Imperativ auf abhängige
+                    Weise zu stellen, wie <foreign sameAs="grc">οἶσθ’ ὡς ποίησον</foreign>. Da
+                    hier der Befehl nicht auf absolute Weise, wie im Indicativus, sondern auf
+                    relative, wie im Conjunctivus, steht, so könnte wohl hier der wahre <hi rend="antiqua">Imper. Praes.</hi> nicht statt finden, der immer das
+                    wirkliche Thun zum Augenmerk hat, wogegen in dieser Redensart nur auf das Müssen
+                    überhaupt, nicht auf den Zeitpunkt der Vollstreckung gesehen wird. Den <hi rend="antiqua">Imperat. Perf.</hi> will <bibl sameAs="pkbuttmann">
+                  <hi rend="antiqua">Buttmann</hi>
+               </bibl> nur in der 2. <hi rend="antiqua">Person</hi> und nur in dem einzigen <foreign sameAs="grc">γέγονε</foreign> <pb n="14*"/> bei <persName ref="euripides">
+                  <hi rend="antiqua">Euripides</hi>
+               </persName> gefunden haben, wo <subst>
+                  <del>es</del>
+                  <add>
+                     <handShift scribe="wvh"/> er</add>
+               </subst> <handShift scribe="Schreiber"/> den Sinn eines <hi rend="antiqua">Praesens</hi> hat,
+                    und offenbar auch <hi rend="antiqua">Praes.</hi> einer eignen Form <subst>
+                  <del>
+                     <foreign sameAs="grc">γεγευνω</foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="grc">γεγώνω</foreign>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> ist. Auch
+                    von der 3. Person kennt er keine Beispiele im wahrhaft prägnanten Sinn des <hi rend="antiqua">Perfect</hi>. Doch kann dies bloß daher kommen, daß sich in
+                    den uns gebliebenen Schriftstellern nicht der an sich seltnere Fall findet, der
+                    diesen Sinn mit sich bringt. </p>
+            <p>Ich habe dies mehr ausgeführt, um die Sprachen zu rechtfertigen, die mehrere
+                    Imperative haben, als um das <hi rend="antiqua">Sanscrit</hi> wegen seines
+                    einfachen zu tadeln. Denn wenn es gleich hier einige <hi rend="antiqua">tempora</hi> zu wenig hat, so sind dieselben auch in der That entbehrlich.
+                    Auf der andren Seite aber hat es gerade im Imperativ einen Luxus, wie Sie es
+                    nennen, der mir minder verzeihlich scheint, nemlich eine 1. Pers. des
+                    Singularis. Diese gehört wirklich zu den Unmöglichkeiten, <subst>
+                  <del>uns</del>
+                  <add>und</add>
+               </subst> ist auch wohl nur ein Werk der Grammatiker. Auch die Imperativform der
+                    1. Person des Pluralis läßt sich nur darum eher vertheidigen, weil man sie, wenn
+                    auch nicht der Form, doch dem Sinn nach, wenigstens für die mit dem Ich
+                    verbundenen Personen, als eine zweite, ansehen kann. Unser: gehen wir, liebe ich
+                    auch nicht; doch kann man dies auch für einen Conjunctiv, wie <foreign sameAs="la">
+                  <hi rend="antiqua">eamus</hi>
+               </foreign>, nehmen.</p>
+            <p>
+               <pb n="15*"/> Die Nachricht über die <hi rend="antiqua">Sanskrit</hi>
+                    Manuscripte der <orgName ref="56">
+                  <hi rend="antiqua">Propaganda</hi>
+               </orgName> hoffe ich Ihnen gewiß durch
+                        <persName ref="bgniebuhr">
+                  <hi rend="antiqua">Niebuhr</hi>
+               </persName> zu erhalten. Wir schreiben uns
+                    zwar selten, er ist aber in regelmäßigerem Briefwechsel mit <persName ref="cvh1">meiner Frau</persName>, und ich werde die Gelegenheit des ersten Briefes an
+                    ihn benutzen.</p>
+            <p>Ich danke Ew. Hochwohlgeboren ausnehmend für Ihre Bemerkungen über das Vaskische,
+                    die sehr vielen Werth für mich gehabt haben. Es war in <bibl sameAs="206">dieser
+                        Schrift</bibl> nicht meine Absicht, den Ursprung der Sprache selbst zu
+                    entwickeln, oder nur etwas eigentlich Haltbares darüber zu sagen. Ich habe bloß
+                    angedeutet, inwiefern dies mit meinem Gegenstand zusammenhängt, habe es aber
+                    künftiger Untersuchung vorbehalten. Nur zwei Punkte erlauben Sie mir hier zu
+                    berühren.</p>
+            <p>1., Das Vaskische ist wirklich eine eigne Sprache, und zwar eine ältere als die
+                    Griechische und Lateinische in der uns bekannten Form. Sollte dies bloß aus den
+                    Wörtern bewiesen werden, so würde ich <supplied cert="high">es</supplied> nicht
+                    so entschieden behaupten. So eigenthümlich auch die Masse der Wörter im Ganzen
+                    klingt, und ist, so muß man immer in solchen Aeußerungen behutsam seyn. Da man
+                    nicht alle Sprachen kennt, nur wenige gleich genau, und da ja viele Wörter der
+                    bekannten, und ganze Sprachen untergegangen seyn können, so ist es unendlich
+                    schwierig, alle andre Möglichkeiten abzuschneiden, und zu sagen: <pb n="16*"/>
+                    so ist es. Allein der grammatische Bau kann nicht trügen. Er ist über allen
+                    Zweifel hinaus original, und so alterthümlich, so sehr den Sprachen, die noch
+                    wenig Veränderungen erlitten haben, ähnlich, daß dies allein entscheidet. Da nun
+                    die Wortformation diesem Bau entspricht, so beweist dies schon indirect auch für
+                    die Wörter, und man hat nunmehr doppelten Grund die wahrhaft eigenthümlichen
+                    dieser für ursprünglich Vaskisch zu nehmen.</p>
+            <p>2. Es ist keinem Zweifel unterworfen, daß es im Vaskischen Griechische,
+                    Lateinische, Deutsche und vermuthlich noch Wörter andrer Sprachen giebt. Ist man
+                    aber einmal überzeugt, daß die Sprache keine bloße Mengsprache, wie etwa das
+                    Romanische und Wallachische <!-- hier noch Sprachen angeben? --> ist, sondern
+                    eine eigenthümliche, so kann die Frage nur die seyn, ob alle Wörter solcher Art
+                    nur in die Sprache als fremde aufgenommen worden sind, oder ob einige, und
+                    mehrere wirklich ursprünglich beiden Sprachen angehört haben, und daher eine
+                    Verwandtschaft beider beweisen. </p>
+            <p>Der erste Fall findet offenbar bei mehreren dieser Wörter Statt. <foreign sameAs="eu">
+                  <hi rend="antiqua">Zamaria</hi>
+               </foreign>, Pferd, ist nichts, als das
+                        <foreign sameAs="la">
+                  <hi rend="antiqua">Saumarius</hi>
+               </foreign> des Mittelalters. Dahin möchte
+                    ich auch <foreign sameAs="eu">
+                  <hi rend="antiqua">tala</hi>
+               </foreign> in einigen Ortnamen <foreign sameAs="eu">
+                  <hi rend="antiqua">Talori</hi>
+               </foreign>, <foreign sameAs="eu">
+                  <hi rend="antiqua">Talamina</hi>
+               </foreign>, <foreign sameAs="eu">
+                  <hi rend="antiqua">Talabriga</hi>
+               </foreign> <subst>
+                  <del>(m.
+                                Schrift)</del>
+                  <add>(<bibl sameAs="206">m. Schrift</bibl> 53.)</add>
+               </subst> von <foreign sameAs="la">
+                  <hi rend="antiqua">talare</hi>
+               </foreign>,
+                    schneiden verwüsten, rechnen, und es thut mir leid, dies nicht, als ich die
+                    Schrift <pb n="17*"/> drucken ließ, bedacht zu haben. Allein alle mehreren
+                    Sprachen gemeinschaftliche Wörter sind nicht von dieser Art. Das Urtheil über
+                    ein einzelnes kann sehr zweifelhaft seyn. Ein sichres Kennzeichen scheint es mir
+                    aber, wenn das Wort im Vaskischen eine ausgebreitete Familie ausmacht. Denn dies
+                    ist der Fall niemals bei bloß aus einer andren Sprache adoptirten Wörtern. Dies
+                    nun ist der Fall bei der Wurzel <foreign sameAs="eu">
+                  <hi rend="antiqua">men</hi>
+               </foreign>- <foreign sameAs="eu">
+                  <hi rend="antiqua">mon</hi>
+               </foreign>- die ich mit <foreign sameAs="la">
+                  <hi rend="antiqua">mons</hi>
+               </foreign> verglichen habe. Daß das Vaskische <subst>
+                  <del>
+                     <foreign sameAs="eu">
+                        <hi rend="antiqua">mons</hi>
+                     </foreign> und <foreign sameAs="eu">
+                        <hi rend="antiqua">mendia</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="eu">
+                        <hi rend="antiqua">mendia</hi>
+                     </foreign> und <foreign sameAs="eu">
+                        <hi rend="antiqua">mons</hi> </foreign>
+                        eine</add>
+               </subst> <handShift scribe="Schreiber"/> innere (d. h. dem
+                    Nebeneinanderwohnen von Vasken und Römischen Provincialen längst
+                    vorhergegangene) Verwandtschaft beweist, halte ich für gewiß. <foreign sameAs="la">
+                  <hi rend="antiqua">Mons</hi>
+               </foreign> von <foreign sameAs="la">
+                  <hi rend="antiqua">movere</hi>
+               </foreign> abzuleiten, gestehe ich, würde mir
+                    nie einleuchten. Ein Berg ist, wie das Sanskritische <foreign sameAs="sa" n="transEd">naga<graphic url="Schlegel/WvH-Schlegel_1821_11_01/020.svg"/>
+               </foreign> bezeugt, sehr wenig beweglich, und wenn Sie an <hi rend="underline">Empor</hi>streben erinnern, so legen Sie das
+                    Charakterisirende erst in <foreign sameAs="la">
+                  <hi rend="antiqua">movere</hi>
+               </foreign> hinein, welches es an sich nicht
+                    hat. Ueberhaupt würde ich solchen Etymologieen nie Raum geben. Es mögen
+                    allerdings einige und viele Wörter wirklich so entstanden seyn, wenn man aber
+                    ihnen auf diesem Wege nachgehen will, so erhält die Phantasie ungeheuren
+                    Spielraum, und den ihr abzuschneiden, muß gerade der Zweck des etymologischen
+                    Studiums seyn. Wollte man <subst>
+                  <del>damals</del>
+                  <add>
+                     <handShift scribe="wvh"/>
+                        dennoch</add>
+               </subst> <handShift scribe="Schreiber"/> eine solche Ableitung
+                    annehmen, so würde mir <foreign sameAs="la">
+                  <hi rend="antiqua">mons</hi>
+               </foreign> eher <hi rend="antiqua">a</hi> <pb n="18*"/> <foreign sameAs="la">
+                  <hi rend="antiqua">manendo</hi>
+               </foreign> herzukommen scheinen. Das <hi rend="antiqua">o</hi> ist darin kein bedeutendes Hinderniß, da von <foreign sameAs="grc">µένω</foreign> <foreign sameAs="grc">µέµoνa</foreign>
+                    gebildet wird. Ob nun aber die Vaskische Sprache diese Berg-bedeutende Wurzel
+                    der Lateinischen oder umgekehrt dankt, ist noch immer eine zweite Frage. Nur
+                    weil die grammatische Structur des Vaskischen alterthümlicher als die des
+                    Lateinischen ist, und weil die Iberer, meiner Meinung nach, einmal Urbewohner
+                    Italiens waren, glaube ich freilich das Letztere. Ueber <foreign sameAs="eu">
+                  <hi rend="antiqua">campoan</hi>
+               </foreign> und <foreign sameAs="la">
+                  <hi rend="antiqua">campus</hi>
+               </foreign> möchte ich nicht so entschieden
+                    sprechen. Nur fiel mir auf, daß gerade die Bedeutung Feld im Vaskischen wenig,
+                    oder nicht vorkommt, aber viel mehr die weitere von <hi rend="underline">draußen</hi>, und daß fremde Wörter weniger einheimische Suffixa erhalten.
+                    Die von Ihnen angeführten Beispiele sind aus Töchtersprachen hergenommen, in
+                    diesen sind sie natürlich häufig. Allein da verändert sich auch der Begriff des
+                    Fremden gänzlich, und eine Lateinische Tochtersprache kann man doch die
+                    Vaskische auf keinen Fall nennen. Bei <foreign sameAs="la">
+                  <hi rend="antiqua">murus</hi>
+               </foreign> hat man die Wahl zwischen dem
+                    Grundbegriff von <foreign sameAs="grc">μείρειν</foreign> (schneiden, trennen,
+                    den aber das Verbum nur noch in der Ableitung theilen hat) und dem vom
+                    Vaskischen <foreign sameAs="eu">
+                  <hi rend="antiqua">murua</hi>
+               </foreign>, Haufe, <hi rend="antiqua">pile</hi>. Mir scheint der letztere natürlicher auf Mauer zu leiten, allein
+                    bestehen möchte ich nicht darauf. Ist ein Wort nicht bloß in einer <pb n="19*"/>
+                    sondern in mehreren Sprachen vorhanden, so kann auch dies ein Moment zur
+                    Beurtheilung an die Hand geben. So würde ich nicht bestreiten, daß <foreign sameAs="eu">
+                  <hi rend="antiqua">landa</hi>
+               </foreign>, (verm. die Französischen <foreign sameAs="fr">
+                  <hi rend="antiqua">Landes</hi>
+               </foreign>), vom deutschen <hi rend="underline">Land</hi>, im Vaskischen wohl <hi rend="antiqua">Gothi</hi>schen Ursprungs seyn könne. Aber von <foreign sameAs="eu">
+                  <hi rend="antiqua">erria</hi>
+               </foreign>, Erde, würde ich dies, nicht leicht
+                    zugeben, da die Wurzel sich auch im Griechischen findet. Die Aehnlichkeit von
+                    Silber und <foreign sameAs="eu">
+                  <hi rend="antiqua">cillarra</hi>
+               </foreign> ist auch mir oft aufgefallen.
+                    Aber was für den Vaskischen Ursprung zeugt, ist die Vaskische Etymologie selbst.
+                        <foreign sameAs="eu">
+                  <hi rend="antiqua">Ciloa</hi>
+               </foreign>, auch <foreign sameAs="eu">
+                  <hi rend="antiqua">zuloa</hi>
+               </foreign> (wovon viel abgeleitete Wörter
+                    kommen) heißt <hi rend="antiqua">Loch</hi>, <hi rend="antiqua">Grube</hi>, <hi rend="antiqua">arra</hi> ist die gewöhnliche Adjectivendung, also das, was
+                    aus der Grube kommt, der allgemeine Begriff der Metalle auf ein einzelnes
+                    angewandt. <foreign sameAs="eu">
+                  <hi rend="antiqua">Ciloa</hi>
+               </foreign> und <foreign sameAs="eu">
+                  <hi rend="antiqua">zuloa</hi>
+               </foreign> erinnern wieder an Siehl, Canal,
+                    andre Ableitungen und Umänderungen von Sahl und das lateinische <foreign sameAs="la">
+                  <hi rend="antiqua">Sulcus</hi>
+               </foreign>, wenn dies nicht von <foreign sameAs="grc">ἕλκω</foreign> kommt. Kurz man stößt so oft auf
+                    gemeinschaftliche Urwörter, daß man auf eine sehr tief im Alterthum verborgen
+                    liegende Verwandtschaft dieser Sprachen geführt wird. Ob <foreign sameAs="eu">
+                  <hi rend="antiqua">urrea</hi>
+               </foreign> ein einheimisches Wort, oder das
+                    lateinische aus dem Griechischen (wie es scheint) herkommende <foreign sameAs="la">
+                  <hi rend="antiqua">aurum</hi>
+               </foreign> ist, läßt mich zweifelhafter.
+                        <foreign sameAs="eu">
+                  <hi rend="antiqua">Oritu</hi>
+               </foreign>, heißt blaß werden, <foreign sameAs="eu">
+                  <hi rend="antiqua">oria</hi>
+               </foreign>, gelb, <foreign sameAs="eu">
+                  <hi rend="antiqua">gorra</hi>
+               </foreign>, roth. Eisen, um dies hier mit zu
+                    erwähnen, hat einen ganz Vaskischen Namen <pb n="20*"/> <foreign sameAs="eu">
+                  <hi rend="antiqua">burnia</hi>
+               </foreign>, <foreign sameAs="eu">
+                  <hi rend="antiqua">burdina</hi>
+               </foreign>, eben so Blei, <foreign sameAs="eu">
+                  <hi rend="antiqua">beruna</hi>
+               </foreign>, Kupfer nur einen abgeleiteten,
+                        <foreign sameAs="eu">
+                  <hi rend="antiqua">urraida</hi>
+               </foreign>, goldähnlich. Metall heißt
+                        <foreign sameAs="eu">
+                  <hi rend="antiqua">menasta</hi>
+               </foreign> von den engen Gängen der Gruben. </p>
+            <p>Nach Anführung dieser einzelnen Beispiele gestehe ich Ew. Hochwohlgeboren daß ich
+                    über diese ganze Materie der Verwandtschaft der WestEuropäischen Sprachen noch
+                    keine bestimmte Meinung definitiv gefaßt habe. Meine Ueberzeugung ist vielmehr,
+                    daß man noch gar nicht einmal die <hi rend="antiqua">Data</hi> darüber urtheilen
+                    zu können, besitzt. Wer aber etwas wahrhaft Erschöpfendes darüber unternehmen
+                    will, muß nachdem er sich sichre Grundsätze gebildet hat, außer dem Deutschen,
+                    Griechischen und Lateinischen Sprachstamm die Celtischen Sprachen und das
+                    Vaskische, und beide letztere bis auf einen gewissen Grad gründlich kennen, und
+                    dann nach einander jede dieser Sprachen durcharbeiten. Bis jetzt giebt es noch
+                    keine einzige wahrhaft genügende etymologische Bearbeitung nur Einer Sprache.
+                    Alles geht auf einzelne Beispiele hinaus, und ist auch da höchst unbestimmt,
+                    weil selten einer nur alle diejenigen Sprachen hinlänglich kennt, die wirklich
+                    zusammengehören. Wenn ich etymologischer Bearbeitungen erwähne, so meine ich
+                    solche, wie Sie in Ihrem Briefe vom Spanischen anführen, daß man prüfte, wieviel
+                        Vas-<pb n="21*"/>kische, Lateinische, Arabische, Gothische endlich
+                    zweifelhafte Wörter die Sprache besitzt. Auf diese Weise hat man das Griechische
+                    und Lateinische noch nicht bearbeitet, und dies ist doch das erste und
+                    wichtigste Erforderniß. Die große Menge von <hi rend="antiqua">Sanskrit</hi>
+                    Wurzeln und Wörtern im Griechischen, Lateinischen (vorzüglich, wie Sie sehr
+                    richtig sagen, auch von unmittelbar empfangenen) und Deutschen leidet keinen
+                    Zweifel. Jetzt wäre vor Allem zu untersuchen, ob die Celtischen Sprachen und das
+                    Vaskische auch gleich viele Sanskritwurzeln enthalten, oder nicht, und ob also
+                    vielleicht zB. das Lateinische zwei verschiedene Stämme, den Sanskritischen und
+                    den WestEuropäischen in sich vereinigt. Ich kenne bis jetzt kaum zwei bis drei
+                    Sankritwörter im Vaskischen. Aber ich tauge zu solcher Arbeit nicht sonderlich,
+                    auch wenn ich mehr Sanskrit wissen werde. Selbst nicht abzuläugnende
+                    Aehnlichkeiten entgehen mir zu leicht.</p>
+            <p>Die <hi rend="antiqua">origines Italiennes</hi> sollten Ew. Hochwohlgeboren nicht
+                    aus den Augen lassen. Es ist das wichtigste, und auch am schwierigsten zu
+                    behandelnde Land. Aber ich stimme Ihnen ganz bei, daß die Theilung des
+                    Griechischen vom Lateinischen eine alte, vermuthlich in Asien geschehene ist.
+                    Nichts ist so unrichtig, als die gewöhnliche Vorstellung mehrerer Philologen,
+                    die ich lange getheilt habe, daß das Lateinische gleichsam ein Dialect des
+                    Griechischen sey. <pb n="22*"/> Es hat ursprünglich und unmittelbar aus dem
+                    Sankrit geschöpft, und im Abendlande auch neue Zusätze erhalten. Ob es nun, ehe
+                    es aus dem Sanskrit schöpfte, oder vielmehr in dem Zustande seiner Einerleiheit
+                    oder Verwandtschaft mit ihm, auch schon noch frühere ältere Wurzeln besaß, die
+                    sich sonst nirgend finden, und nur ihm angehören, ist eine zu erörternde Frage.
+                    Vom Griechischen ist dies offenbar, so wie das Sanskrit wieder eine ganze Masse
+                    von Wörtern besitzt, die nicht in das Griechische, Lateinische oder Deutsche
+                    übergegangen sind. </p>
+            <p>Ihre Einladung Ihnen etwas für <bibl sameAs="396">Ihre Zeitschrift</bibl> zu
+                    schicken, ist mir sehr schmeichelhaft gewesen, und ich werde mich gewiß bemühen,
+                    Ihren Wunsch, der vielmehr noch der meinige ist, zu erfüllen. Ich bin nur nicht
+                    sehr fruchtbar in eignen Arbeiten, und habe noch weniger das Talent, von
+                    allgemeinen Untersuchungen einen Punkt gehörig abzusondern und einzeln zu
+                    behandeln. Doch werde ich gewiß diese Schwierigkeiten zu überwinden suchen. Bis
+                    dahin bin ich so frei, Ihnen <bibl sameAs="209">eine schon gedruckte
+                        Abhandlung</bibl> zu übersenden<note type="footnote" resp="editor">Siehe
+                        dazu GS IV, S. 437 die Bemerkungen von Leitzmann zur Entstehungsgeschichte
+                        des Aufsatzes <bibl sameAs="209">"Ueber das vergleichende Sprachstudium in
+                            Beziehung auf die verschiedenen Epochen der
+                        Sprachentwicklung"</bibl>.</note>, da Ihnen die dicken Bände der <orgName ref="3">Academie</orgName> vielleicht nicht so bald zu Gesicht kommen. Ich
+                    erbitte mir für die Arbeit Ihre nachsichtsvolle Beurtheilung.</p>
+            <p>
+               <pb n="23*"/> Daß Ew. Hochwohlgeboren der Rhein fesselt, begreife ich sehr wohl.
+                    Darum schmerzt es mich indeß nicht weniger, daß wir Sie <placeName ref="Berlin">hier</placeName> entbehren. Ein, doch kleiner Trost dabei für mich ist nur
+                    der, daß ich selbst sehr wenig hier bin. Denn sogar im Winter gehe ich oft auf
+                    ganze Wochen <placeName ref="Tegel">aufs Land</placeName>. </p>
+            <p>
+               <handShift scribe="wvh"/> Ew. Hochwohlgeb. werden eine Scheu vor meinen Briefen
+                    bekommen, u. es gefährlich finden jemandem zu schreiben, der eine so freie Muße
+                    hat, als ich. Ich verspreche Ihnen aber, nie wieder so weitläuftig zu werden.
+                    Ihr Brief war aber so reichhaltig, u. berührte so viele meinen jetzigen
+                    Beschäftigungen so nahe liegende Materien, daß mich dies gegen meine Absicht
+                    verführt hat. </p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, u. erhalten Sie mir Ihr gütiges Andenken. Mit
+                        der hochachtungsvollsten Ergebenheit <lb/> der Ihrige,</salute>
+               <lb/>
+               <signed>Humboldt</signed>
+               <lb/>
+               <pb n="24* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

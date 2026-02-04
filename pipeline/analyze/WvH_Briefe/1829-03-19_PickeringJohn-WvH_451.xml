@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 19.03.1829<idno type="BBAW">451</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 45–46</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 208</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12132</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="lniederstetter">
+                  <persName>Niederstetter, Ludwig</persName>
+               </person>
+               <person corresp="jeliot">
+                  <persName>Eliot, John</persName>
+               </person>
+               <person corresp="eeverett">
+                  <persName>Everett, Edward</persName>
+               </person>
+               <person corresp="psduponceau">
+                  <persName>Duponceau, Peter Stephen</persName>
+               </person>
+               <person corresp="flcfpassow">
+                  <persName>Passow, Franz Ludwig Carl Friedrich</persName>
+               </person>
+               <person corresp="jgschneider">
+                  <persName>Schneider, Johann Gottlob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="123">Eliot, John / Pickering, John / Du Ponceau, Peter Stephen / Davis,
+                    John: A Grammar of the Massachusetts Indian Language (Boston: Phelps and Farnham
+                    1822)</bibl>
+               <bibl corresp="206">Humboldt, Wilhelm von: Prüfung der Untersuchungen über die
+                    Urbewohner Hispaniens vermittelst der Vaskischen Sprache (Berlin: Ferdinand
+                    Dümmler 1821)</bibl>
+               <bibl corresp="210">Humboldt, Wilhelm von: Ueber den Dualis. Gelesen in der Akademie
+                    der Wissenschaften am 26. April 1827. In: Abhandlungen der königlichen Akademie
+                    der Wissenschaften zu Berlin aus dem Jahre 1827, Historisch-philologische Klasse
+                    (Berlin: Druckerei der Königlichen Akademie der Wissenschaften 1830), S.
+                    161–188</bibl>
+               <bibl corresp="211">Humboldt, Wilhelm von: Ueber die Sprachen der Südseeinseln. In:
+                    Leitzmann, Albert (Hrsg.): Wilhelm von Humboldts Gesammelte Schriften, 6. Band (Berlin:
+                    Behr’s Verlag 1907), S. 37–51</bibl>
+               <bibl corresp="293">Missionary Herald 24, 1828</bibl>
+               <bibl corresp="329">Passow, Franz Ludwig Carl Friedrich: Handwörterbuch der
+                    griechischen Sprache (1. Aufl., Berlin 1819/1823; 2. Aufl., Berlin 1825; 3.
+                    Aufl., Berlin 1828; 4. Aufl., Berlin 1831)</bibl>
+               <bibl corresp="332">Pickering, John: A Comprehensive Lexicon of the Greek Language,
+                    Adapted to the Use of Colleges and Schools in the United States (Boston
+                    1823)</bibl>
+               <bibl corresp="831">Pickering, John: A Comprehensive Lexicon of the Greek Language,
+                    Adapted to the Use of Colleges and Schools in the United States, 2. Aufl.
+                    (Boston 1826)</bibl>
+               <bibl corresp="816">Pickering, John: Grammar of the Cherokee Language (Boston: Mission
+                    Press 1830)</bibl>
+               <bibl corresp="832">Schneider, Johann Gottlob: Kritisches griechisch-deutsches
+                    Handwörterbuch, 2 Bände (Züllichau 1797–1798)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, I have lately had the pleasure of receiving …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1829-03-19"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="512" type="prev">12.07.1828</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="map">Austronesische Sprachen</language>
+            <language ident="chr">Cherokee</language>
+            <language ident="wam">Massachusett</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1829_03_19/Coll.ling.fol.52_097.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1829_03_19/Coll.ling.fol.52_098.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1829_03_19/Coll.ling.fol.52_099.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1829_03_19/Coll.ling.fol.52_100.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="45r"/> <salute>Sir,</salute>
+            </opener>
+            <p>I have lately had the pleasure of receiving, through <persName ref="lniederstetter">M.<hi rend="superscript">r</hi>
+                        Niederstetter</persName>, a copy of your erudite and interesting <bibl sameAs="206">
+                  <hi rend="underline">Prüfung etc. der Vaskischen Sprache</hi>
+               </bibl> (which I had borrowed of my friend <persName ref="eeverett">M.<hi rend="superscript">r</hi> Everett</persName>, some years ago) and <bibl sameAs="210">your new Memoir <hi rend="underline">Ueber den Dualis</hi>
+               </bibl>, which I have read with much interest. I perceive<note type="footnote" resp="editor">Textabschnitt von "from a Note, at p. 13 …" bis zum Absatzende
+                        ("… Oriental languages.") am linken Rand mit Bleistift angestrichen.</note>
+                    from a Note, at <bibl sameAs="210">p. 13</bibl>, that you speak with some
+                    hesitation of the existence of a dual number in the Cherokee language. But,
+                    though I had not ascertained its existence at the time when I wrote the letter
+                    to <persName ref="psduponceau">M.<hi rend="superscript">r</hi>
+                        DuPonceau</persName>, which you cite from <bibl sameAs="123">our edition of
+                        Eliot’s Indian Grammar</bibl>, yet I soon afterwards obtained positive
+                    information of it. You will accordingly find a dual in the paradigms of nouns
+                    &amp; pronouns in the sheets of <bibl sameAs="816">our Cherokee Grammar</bibl>
+                    which I sent you in the year 1824; and you will find the dual of the verb in a
+                    MS. conjugation of one which I also formerly sent you. It is now as well known
+                    to exist in the Cherokee and some other dialects of our aborigines, as it is in
+                    the Greek or Oriental languages.</p>
+            <p>I perceive you have been studying the Languages of the South Sea Islands, upon
+                    which you read a <bibl sameAs="211">Memoir to the Berlin Academy in Jan<hi rend="superscript">y</hi>. 1828</bibl>, as I learn by the German
+                    Journals. I shall be happy if I can give you any aid in your researches. By the
+                    assistance of our <orgName ref="45">Missionary Society</orgName>, whose officers
+                    reside in this<note type="footnote" resp="editor">Textabschnitt von "city, I may
+                        …" bis "… &amp; some other information" am linken Rand mit Bleistift
+                        angestrichen.</note> <pb n="45v"/> city, I may possibly facilitate your inquiries.</p>
+            <p>I beg leave to send you, on the present occasion, <bibl sameAs="293">four Numbers
+                        of the Missionary Herald</bibl>, in which you will find a particular
+                    account of the Cherokee Syllabic Alphabet – &amp; some other information
+                    respecting that language &amp; the people, as well as respecting some other
+                    Indian Tribes. I will ask leave to<note type="footnote" resp="editor">Textabschnitt von "direct your attention …" bis zum Absatzende ("… to your
+                        present collection") am linken Rand mit Bleistift angestrichen.</note>
+                    direct your attention to the <bibl sameAs="293">N.<hi rend="superscript">o</hi>
+                        for April 1828, p. 134</bibl>, where you will find the mode of reasoning
+                    which led the native Cherokee to invent his syllabic alphabet. See also the
+                        <bibl sameAs="293">N.<hi rend="superscript">o</hi> for May, p. 162.</bibl> In
+                    this last mentioned N.<hi rend="superscript">o</hi> you will also find some
+                    account of what our Missionaries have done towards making Dictionaries &amp;.<hi rend="superscript">c</hi> of the South Sea Languages. In the <bibl sameAs="293">N.<hi rend="superscript">o</hi> for October, p. 331</bibl>, you
+                    will find the Pater Noster in Cherokee, which will make an addition to your
+                    present collection.</p>
+            <p>I find since my residence in <placeName ref="Boston">Boston</placeName>, that I
+                        have<note type="footnote" resp="editor">Textabschnitt von "really no time …"
+                        bis "… advancement in learning" am linken Rand mit Bleistift
+                        angestrichen.</note> really no time to devote to our <hi rend="underline">Indian</hi> studies; and the only literary labour which I have done for a
+                    long time has been to finish off a <bibl sameAs="332">Greek &amp; English
+                        Lexicon</bibl>, a mere school book, which I began at <placeName ref="Salem, MA">Salem</placeName>, my former residence, many years ago,
+                    because I thought it necessary to our advancement in learning and because I
+                    found nobody else in our country disposed to perform such a piece of drudgery. I
+                    have now<note type="footnote" resp="editor">Textabschnitt von "just finished …"
+                        bis "… German scholars from this" am linken Rand mit Bleistift
+                        angestrichen.</note> just finished <bibl sameAs="831">the second
+                        edition</bibl>, in which I have made as much use, as a School book would
+                    admit, of your <bibl sameAs="832">Schneider</bibl>’s &amp; <bibl sameAs="329">Passow’s Lexicons</bibl>. We shall for a long time look to German scholars
+                    for this sort of learning (as well as most other kinds) and I hope we shall at
+                    some future day be able to make them some return. If <bibl sameAs="831">my
+                        Lexicon</bibl> were not quite <pb n="46r"/>
+               <note type="footnote" resp="editor">Textabschnitt von "unworthy of your notice
+                        …" bis "… labour, I have written" am linken Rand mit Bleistift
+                        angestrichen.</note> unworthy of your notice I would send you one at this
+                    time. In addition to this labour, I have written two or three articles for our
+                        Reviews<note type="footnote" resp="editor">Gemeint ist wohl der <hi rend="italic">North American Review</hi>.</note>, merely to oblige my
+                    friends. I beg leave to enclose one of them for you, not because I think it of
+                    any value to you (being upon the <hi rend="underline">English</hi> language) but
+                    as a small testimonial of my respect, and because I should be happy to know from
+                    you how far you approve of some of the general observations in it. I will not
+                    task you to read<note type="footnote" resp="editor">Textabschnitt von "the whole
+                        of it; …" bis zum Ende des Absatzes ("… problems in philology.") am linken
+                        Rand mit Bleistift angestrichen.</note> the whole of it; and I have
+                    therefore marked, in pencil, those observations to which I refer, particularly
+                    those at pp. 7–8; 14–15 (in which last place you will find an etymology that, I
+                    am sure, will amuse you) and p. 16, where I have taken the liberty to call upon
+                    you to give us a solution of one of the great problems in philology.</p>
+            <p>I hope, when I write again to you, I shall be able to send you something more
+                    valuable than I can now do. But when I observe the profound researches made by
+                    you, &amp; perceive how much I have yet to learn, I fall into despair, &amp; am
+                    almost ready to abandon literature forever. But I console myself with the
+                    reflection, that I may possibly be able to furnish you with some <hi rend="underline">materials</hi>, which can be found only in this country,
+                    and that I shall then have the pleasure and advantage of the results which your
+                    comprehensive mind will draw from them.</p>
+            <p>
+               <pb n="46v"/> I ought to acknowledge the receipt of your letter of the 12.<hi rend="superscript">th</hi> of July last, from <placeName ref="London">London</placeName> for which I thank you. I shall be impatient to see the
+                        <hi rend="underline">General Introduction</hi> to your great work on <hi rend="underline">American Languages</hi>, which I hope you will soon be able
+                    to complete.</p>
+            <closer>
+               <salute>I have the honour to be, <lb/>Sir, <lb/>with the highest consideration,
+                        <lb/>your very obedient &amp; humble <lb/>servant,</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Boston, March 19<hi rend="superscript">th</hi>, 1829.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

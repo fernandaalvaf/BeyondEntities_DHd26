@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jacob Grimm, 28.06.1824<idno type="BBAW">541</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Nachlass Grimm,
+                            1165, Nr. 3</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1929, S. 201–203</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7408</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="156">Grimm, Jacob (1819): Deutsche Grammatik, Göttingen:
+                    Dieterich</bibl>
+               <bibl corresp="1261">Grimm, Jacob (1822–1837): Deutsche Grammatik, 2. Aufl., 4 Bände,
+                    Göttingen: Dieterich</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von (1825): Über das Entstehen der grammatischen
+                    Formen und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823, S. 401–430 (Separatdruck 1823). – Vgl. GS
+                    IV, S. 285–313</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich hatte mir schon längst eine Gelegenheit gewünscht
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1824-06-28"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgrimm">Grimm, Jacob</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="11" type="next">08.08.1824</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="de">Deutsch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. März 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1"/> Ich hatte mir schon längst eine Gelegenheit gewünscht, Ew.
+                    Wohlgebornen die wahre und herzliche Verehrung auszudrücken, die mir Ihre
+                    Schriften, vorzüglich die eben so geistvolle, als gründliche Behandlung der
+                    Deutschen Sprache in beiden Ausgaben Ihrer Grammatik<note type="footnote" resp="editor">Die <bibl sameAs="156">erste Auflage</bibl> der <hi rend="italic">Deutschen Grammatik</hi> erschien 1819, der erste Teil der
+                        vierbändigen <bibl sameAs="1261">zweiten Auflage</bibl> im Jahr 1822.
+                        [FZ]</note> eingeflößt haben. Ich las die gehaltreiche Vorrede <bibl sameAs="156">der ersten Ausgabe</bibl> unmittelbar nach dem Erscheinen
+                    derselben, bei meinem damaligen Aufenthalt in <placeName ref="Frankfurt am Main">Frankfurt</placeName>, und ich kann mit Wahrheit sagen, daß mich nie etwas
+                    über Sprache Geschriebenes so durch die Wahrheit der Behauptungen und die
+                    Schönheit des Ausdrucks angezogen hat. Ich habe daher mit Bedauern gesehen, daß
+                    diese Vorrede in der zweiten Ausgabe nicht mit abgedruckt ist, und dies um so
+                    mehr, als ich mich überzeugt, daß darum sogar einige für jedes Fach der
+                    Literatur bedeutende Männer, namentlich <persName ref="awschlegel">Schlegel</persName> in <placeName ref="Bonn">Bonn</placeName>, sie nicht
+                    gelesen haben. Die Grundidee des Werkes Ew. Wohlgebornen, eine Sprache
+                    geschichtlich und parallellaufend in allen <sic>Ihren</sic> Hauptdialecten in
+                    dem Detail ihrer Flexionen dazustellen, ist, auch noch ohne der treflichen
+                    Ausführung zu erwähnen, so neu, u. so auf das wahre Bedürfniß eines wirklich
+                    tief eingehenden Sprachstudiums berechnet, daß Ihre Bemühungen schon darum den
+                    lebhaftesten Dank verdienen. </p>
+            <p>
+               <bibl sameAs="1261">Die anliegende Abhandlung</bibl> empfehle ich Ew. Wohlgebornen
+                    gütiger Nachsicht. Sie bedarf ihrer um so mehr, als ihre Bestimmung zu einer
+                    akademischen Vorlesung mir nicht erlaubte, ihr eine größere Ausdehnung zu geben,
+                    und mithin jetzt <pb n="2"/> manche Einwendung unbeantwortet bleibt, die man
+                    vielleicht gegen eine oder die andere ihrer Behauptungen erheben könnte. Von der
+                    Wahrheit der Grundidee halte ich mich überzeugt. Ich glaube nicht, daß man eine
+                    Eintheilung der Sprachen in Agglutinations- u. Flexionssprachen<note type="footnote" resp="editor">„Agglutinations-„ sowie „Flexionssprachen“
+                        sind unterstrichen, wahrscheinlich von Grimm.</note> machen kann, sondern
+                    daß beide Arten der Wortumbildung in jeder Sprache zusammenkommen; daß die
+                    Flexion selten ursprünglich<note type="footnote" resp="editor">„Flexion selten
+                        ursprünglich“ ist unterstrichen. Links am Rand wurden vier Zeilen
+                        angestrichen und von Grimm mit der Anm. „Abh. p. 14“ versehen.</note> ist,
+                    obgleich es unstreitig auch einige, wahrhaft ursprüngliche giebt; daß daher als
+                    Bemühen nicht verwerflich ist, den Ursprung der Flexion aus Agglutination
+                    herzuleiten, obgleich ein solches Geschick viel Behutsamkeit u. kritischen Takt
+                    voraussetzt, u. daß die Anlage einer Nation zu feinerer u. bessrer Sprachbildung
+                    zwar ebensowenig die Agglutination ganz zurückstößt, allein nicht bloß ihre
+                    Spuren leichter verwischt, sondern auch wirklich bald auf Erfindung eigentlicher
+                    Flexion kommt. Daß von dieser Anlage die Vorzüge oder Mängel der Sprache
+                    herrühren, versteht sich von selbst. Auf das Herabsteigen der Sprachen von einem
+                    bildungsreichen Zustande konnte ich in <bibl sameAs="1261">dieser
+                        Abhandlung</bibl> nicht eingehen. Es gewährt aber Erscheinungen, die gerade
+                    denen des Aufsteigens zu demselben ähnlich sind. Denn wenn sich beim Aufsteigen
+                    oft die Spur der Agglutination verwischt, u. sie zur Flexion werden läßt; so
+                    verwischt sich beim Aufsteigen auch die Flexion, u. insofern dann nicht selten
+                    die grammatische Bildung durch ein hinzutretendes Wort vor sich geht
+                    (Hülfsverbum, Artikel u. s. f.) ist zwar nicht wirkliche Agglutination, aber ein
+                    Analogon derselben vorhanden.</p>
+            <p>Daß Ew. Wohlgebornen den Umlaut, in vielen Fällen wenigstens, auch durchaus
+                    phonetisch erklären, u. daß Sie ihn als unwesentlich zur Declination erklären
+                    (S. 596.)<note type="footnote" resp="editor">Diese Seitenzahl bezieht sich auf
+                        den <bibl sameAs="1261">ersten Band der zweiten Auflage der <hi rend="italic">Deutschen Grammatik</hi>
+                  </bibl> von 1822. – Einfügung Grimms:
+                        „auch pag. 835.“. Links am Rand die Bemerkung: „vid. Abhandl. p. 15“</note>
+                    darin habe ich eine mir sehr erfreuliche Uebereinstimmung mit meiner Ansicht,
+                    die ich über den gleichen Punkt im Sanskrit hege, gefunden. </p>
+            <closer>
+               <salute>Aber ich fühle, daß es unbescheiden seyn würde, in noch
+                        ausführlichere Erörterungen in diesem Briefe einzugehen, u. bitte Ew.
+                        Wohlgebornen nur noch, die Versicherung meiner herzlichsten u.
+                        ausgezeichnetesten Hochachtung
+                        anzunehmen.</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 28. <hi rend="antiqua">Junius</hi>,
+                        1824.</dateline>
+               <lb/>
+               <pb n="3/4 vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 26. Januar 2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eugène Vincent Stanislas Jacquet an Wilhelm von Humboldt, 06.05.1832<idno type="BBAW">378</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 55, Bl. 43–44</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 228, 229f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="achamisso">
+                  <persName>Chamisso, Adelbert von</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="jhklaproth">
+                  <persName>Klaproth, Heinrich Julius</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="10">Abhandlungen der Königlichen Preußischen Akademie der
+                        Wissenschaften zu Berlin (1804–1900)</bibl>
+               <bibl corresp="203">Humboldt, Wilhelm von: Extrait d’une lettre de M. le baron
+                        G. de Humboldt à M. E. Jacquet sur les alphabets de la Polynésie asiatique.
+                        In: Nouveau Journal Asiatique 9, 1832, S. 481–511</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von: Über die Kawi-Sprache auf der Insel
+                        Java, nebst einer Einleitung über die Verschiedenheit des menschlichen
+                        Sprachbaues und ihren Einfluss auf die geistige Entwicklung des
+                        Menschengeschlechts. In: Abhandlungen der Königlichen Preußischen Akademie
+                        der Wissenschaften zu Berlin aus dem Jahre 1832, Zweiter Theil (Berlin:
+                        Druckerei der Königlichen Akademie der Wissenschaften 1836)</bibl>
+               <bibl corresp="235">Jacquet, Eugène: Mélanges Malays, Javanais et Polynésiens,
+                        No. II. Bibliothèque Malaye. In: Nouveau Journal Asiatique 9, Février 1832,
+                        S. 97–132</bibl>
+               <bibl corresp="929">Kotzebue, Otto von / Chamisso, Adelbert von (1821):
+                        Bemerkungen und Ansichten auf einer Entdeckungs-Reise. Unternommen in den
+                        Jahren 1815–1818, Weimar: Gebrüder Hoffmann</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris:
+                        Ponthieu u.a. 1822–heute)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur le Baron. J’ai l’honneur de vous envoyer cijoint la mise
+                    en pages de la lettre que vous avez bien voulu m’adresser au commencement de
+                    Janvier. Personne plus que moi ne regrette le retard qu’a eprouvé la publication
+                    de cet interessant article …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="evsjacquet">Jacquet, Eugène Vincent Stanislas</persName>
+               <date type="author" when="1832-05-06"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="evsjacquet">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="bsb">Bisayisch</language>
+            <language ident="bug">Buginesisch</language>
+            <language ident="poz">Malayo-polynesische Sprachen (Polynesische
+                    Sprachen)</language>
+            <language ident="sa">Sanskrit </language>
+            <language ident="tl">Tagalisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">27. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Jacquet/Jacquet-WvH_1832-05-06/Coll.ling.fol.55_093.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1832-05-06/Coll.ling.fol.55_094.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1832-05-06/Coll.ling.fol.55_095.jpg"/>
+      <graphic url="Jacquet/Jacquet-WvH_1832-05-06/Coll.ling.fol.55_096.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="43r"/> <salute>Monsieur le Baron</salute>
+            </opener>
+            <p>J’ai l’honneur de vous envoyer ci-joint la <hi rend="underline">mise en
+                        pages</hi> de la lettre que vous avez bien voulu m’adresser au commencement
+                    de Janvier. Personne plus que moi ne regrette le retard qu’a eprouvé la
+                    publication de <bibl sameAs="203">cet interessant article</bibl>, j’en ai hâté
+                    l’impression avec les plus vives instances; mais les difficultés de l’execution
+                    materielle jointes au <hi rend="underline">trop plein</hi> du <bibl sameAs="773">Journal</bibl> (qui a presque toujours de la matiere <hi rend="underline">composée</hi> pour quatre mois en avance) n’ont pas permis de placer votre
+                    lettre avant le mois de Juin. Je dois, Monsieur, vous rendre compte des
+                    difficultés que je signale: celles qui ont le plus entravé la composition, sont
+                    la gravure et le clichâge de caracteres Boughis et de caracteres Tagalo-Bissays,
+                    conformes aux specimens qui accompagnent votre memoire; ç’a été pour <orgName ref="4">la Societé asiatique</orgName> l’occasion d’assurer deux
+                    corps-de-caracteres de plus à l’erudition orientale. J’ai lieu d’esperer,
+                    Monsieur le Baron, que vous serez satisfait de la fidelité et de la <pb n="43v"/> netteté de ces deux <hi rend="underline">corps</hi> ; il y a bien quelques
+                    lettres (dans le <sic>Bonghi</sic>)<note type="footnote" resp="editor">Gemeint
+                        ist Bugis bzw. Buginesisch.</note> qui pourraient être l’objet de critiques
+                    severes, le <hi rend="underline">w</hi> le <hi rend="underline">p</hi> et le <hi rend="underline">dj</hi> particulierement; aussi seront elles regravées;
+                    mais j’ai pensé que cette nouvelle operation pourrait apporter de nouveaux
+                    retards, et consultant notre impatience commune de voir publier ce memoire, j’ai
+                    fait employer à l’impression les lettres un peu fautives que j’ai eu l’honneur
+                    de vous indiquer. Vous remarquerez, Monsieur le Baron, sur l’epreuve que j’ai
+                    jointe à cette lettre, un petit nombre de fautes qui auront disparu de la 4<hi rend="superscript">e</hi> et definitive epreuve; j’ai indiqué les plus
+                    importantes. Je n’ose croire que le <hi rend="underline">tirage à part</hi> vous
+                    parvienne avant le mois d’août: l’imprimerie royale est une administration et ce
+                    dernier mot en France implicite toujours l’idée de lenteur. Sans ces
+                    inexplicables retards, j’aurais deja depuis longtemps eu l’honneur de vous
+                    adresser à vous, Monsieur le Baron, et à Monsieur <persName ref="avh">votre
+                        frere</persName> des exemplaires d’une brochure intitulée <bibl sameAs="235">
+                  <hi rend="underline">Bibliotheque Malaye</hi>
+               </bibl>.</p>
+            <p>Je m’occupe toujours activement de rassembler des materiaux pour la redaction des
+                    observations que vous m’avez permis de faire <pb n="44r"/> sur quelques unes des
+                    opinions enoncées dans votre lettre et à cette occasion, Monsieur le Baron, je
+                    solliciterai quelques secours de votre complaisance. Vous avez trouvé, m’écrit
+                        <persName ref="jhklaproth">M<hi rend="superscript">r</hi> le C.<hi rend="superscript">ller</hi> Klaproth</persName>, dans <bibl sameAs="929">le 3<hi rend="superscript">e</hi> vol. des voyages de
+                        Ramisso</bibl>
+               <note type="footnote" resp="editor">Gemeint ist <persName ref="achamisso">Adelbert von Chamisso</persName> bzw. dessen zusammen
+                        mit <persName ref="ovkotzebue">Otto von Kotzebue</persName> herausgegebener
+                            Reisebericht. [FZ]</note> un très bel alphabet
+                    Tagala; j’attache, je l’avoue, une très grande importance aux formes de ces
+                    caracteres; ne serait-ce pas abuser de votre bonté, Monsieur, que de vous prier
+                    de m’envoyer le calque de cet alphabet, <bibl sameAs="929">le voyage de
+                        Ramisso</bibl> m’etant tout à fait inconnu, même de nom.</p>
+            <p>C’est avec la plus vive impatience, Monsieur, que j’attends la <bibl sameAs="227">publication de votre memoire sur le <hi rend="underline">Kawi</hi>
+               </bibl>
+                    dans le <bibl sameAs="10">Recueil</bibl> de <orgName ref="3">l’academie</orgName> <add>de</add> <placeName ref="Berlin">Berlin</placeName>: l’immense question que vous avez traitée doit exciter
+                    l’interet de tous les savans, de ceux mêmes qui ne se sont pas occupés de
+                    l’etude des langues Polynesiennes; je ne doute point que votre savant memoire ne
+                    fasse traverser la mer des Calingas à quelques Indianistes, qui voudront visiter
+                    à Java les ruines de la langue Samskrite</p>
+            <p>Je crois prevenir vos desirs, Monsieur le Baron, en vous <pb n="44v"/>
+                    communiquant des nouvelles de la santé de <persName ref="jpabel">M<hi rend="superscript">r</hi> a. Remusat</persName> que Monsieur <persName ref="avh">votre frere</persName> avait laissé gravement indisposé. Une
+                    fievre assez violente s’est declarée, elle a été suivie d’une grande faiblesse;
+                    on pense qu’il n’y a lieu à concevoir aucune inquietude, mais le retablissement
+                    paraît devoir être bien long et bien penible.</p>
+            <p>Je vous prie, Monsieur le Baron, de vouloir bien être mon interprete auprès de
+                        <persName ref="avh">Monsieur a. de humboldt</persName> et recevoir
+                    l’assurance de ma consideration la plus distinguée et la mieux sentie</p>
+            <closer>
+               <dateline>Paris ce 6 mai</dateline>
+               <signed>E. Jacquet</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 05.12.1827<idno type="BBAW">260</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 56, Bl. 41–42</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 232, 234</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="627">Bopp, Franz: [Rezension] Deutsche Grammatik von Dr. Jacob Grimm.
+                    Zweite Aufl. Erster Theil 1822. Zweiter Theil 1826. In: Jahrbücher für
+                    wissenschaftliche Kritik, hrsg. v. der Societät für wissenschaftliche Kritik zu
+                    Berlin, Jg. 1827, Nr. 31/32 bis 37/38, S. 251–303; Nr. 92/93 bis 95/96, S.
+                    725–759</bibl>
+               <bibl corresp="57">Bopp, Franz: Über das Conjugationssystem der Sanskritsprache in
+                    Vergleichung mit jenem der griechischen, lateinischen, persischen und
+                    germanischen Sprache (Frankfurt/Main: Andreä 1816)</bibl>
+               <bibl corresp="156">Grimm, Jacob: Deutsche Grammatik (Göttingen: Dieterich
+                    1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Excellenz Ich kann mich von meiner Ansicht das germanische
+                        schwache Praet …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1827-12-05"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="gem">Germanische Sprachen</language>
+            <language ident="got">Gotisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">16. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 28. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1827_12_05/Coll.ling.fol.56_091.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1827_12_05/Coll.ling.fol.56_092.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1827_12_05/Coll.ling.fol.56_093.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1827_12_05/Coll.ling.fol.56_094.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="41r"/> <salute>Excellenz</salute>
+            </opener>
+            <p>Ich kann mich von der Ansicht das germanische schwache Praet als eine Verbindung
+                    mit <hi rend="underline">thun</hi> <subst>
+                  <del>darzuzustellen</del>
+                  <add>darzustellen</add>
+               </subst> nicht lossagen. In <bibl sameAs="57">meinem Conjugations System</bibl>
+                    wo ich zuerst diesen Gegenstand in Anregung gebracht habe, erkannte ich blos in
+                    dem Goth. Plur. wie <foreign sameAs="got">
+                  <hi rend="antiqua">sokidêdum</hi>
+               </foreign> das Hülfszeitwort, seit der
+                    Erscheinung von <bibl sameAs="156">Grimms Gramm.</bibl> stimme ich diesem gerne
+                    bei, auch den Singular und das Praet der übrigen Dialekte aus gleicher
+                    Verbindung in verstümmelter Gestalt, entspringen zu lassen<supplied cert="high">.</supplied> Von <persName ref="jgrimm">Grimm</persName> aber muß ich jetzt
+                    in so fern abweichen als ich <add>in <bibl sameAs="627">meiner
+                        Recension</bibl>
+               </add> das <hi rend="antiqua">Partic. pass.</hi> wie
+                        <foreign sameAs="got">
+                  <hi rend="antiqua">sokiths</hi>
+               </foreign> von dem Praet. ganz unabhängig
+                    mache. Die scheinbare Aehnlichkeit des letzteren mit dem Persischen <subst>
+                  <del>einfacher</del>
+                  <add>einfach</add>
+               </subst> scheinenden Praet. halte ich für zufällig. Denn wenn man auch das
+                    germanische schwache Praet. von dem <hi rend="antiqua">Part. pass</hi>
+                    ableitete, welches wie im Sanskrit <pb n="41v"/> nur bei <hi rend="antiqua">Verb. neut.</hi> aktive Bedeutung hat: so würde es doch dem Persischen
+                    nicht ganz gleich gebildet seyn wenn ich darin Recht habe, was Ew Excellenz mir
+                    zugeben, daß z.B. <subst>
+                  <del>
+                     <foreign sameAs="fa">
+                        <hi rend="antiqua">berdeh
+                            em</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="fa">
+                        <hi rend="antiqua">berdem</hi>
+                     </foreign>
+                  </add>
+               </subst> durch Zusammenziehung von <foreign sameAs="fa">
+                  <hi rend="antiqua">berdeh em</hi>
+               </foreign> <hi rend="underline">ich bin
+                        getragen habend</hi> entstanden. In dem germanischen Praet. kann man auf
+                    keine Weise das <add>
+                  <hi rend="antiqua">Praes</hi> des</add> <hi rend="antiqua">verb. substant.</hi> erkennen. Es hat in der ersten u. 3. Person die Endung
+                        <foreign sameAs="gem">
+                  <hi rend="antiqua">a</hi>
+               </foreign> wie das Indische reduplic. Praet. Die
+                    Aehnlichkeit <del>des <gap quantity="1" unit="chars"/>
+               </del> unseres schwachen
+                    und des persischen Praet gründe ich blos darauf daß die Zuthat beider mit einem
+                    T-Laut anfängt, dies hindert aber nicht wie mir scheint, daß der deutsche T-Laut
+                    einem Hülfsverbum, der persische einem Participialsuffix <subst>
+                  <del>angehört</del>
+                  <add>angehören</add>
+               </subst> könne. Die Suffixe <foreign sameAs="sa" n="transEd">tum<graphic url="Bopp/Bopp-WvH_1827_12_05/0302.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">ta<graphic url="Bopp/Bopp-WvH_1827_12_05/0303.svg"/>
+               </foreign> haben <subst>
+                  <del>vielleicht</del>
+                  <add>schwerlich</add>
+               </subst> im Sanskrit <subst>
+                  <del>keinen</del>
+                  <add>einen</add>
+               </subst> etymolog. Zusammenhang, wenigstens läßt sich keiner nachweisen; dem
+                    ohngeachtet gründet sich auf den gleichen Anfangsbuchstaben, womit die
+                    ensprechenden Suffixe auch im Persischen anfangen, die Erscheinung, daß hier
+                    Infinitiv, Partic. und Praet. äußerlich in der strengsten Analogie zusammen
+                    stehen, so daß man von einem mit Sicherheit auf das andere schließen kann wie
+                    man in der gothischen schwachen Conj. vom <hi rend="antiqua">Part. pass.</hi>
+                    auf das <hi rend="antiqua">Praet. act</hi> schließen kann, und umgekehrt.</p>
+            <p>
+               <pb n="42r"/> Zu der Ansicht, welche <add>ich</add> hier auszusprechen mir
+                    erlaubt habe, habe ich mich auch <del type="fragment">im Verban</del> bei der
+                    weiteren Entwickelung in <bibl sameAs="627">meiner</bibl> <sic>
+                  <bibl sameAs="627">
+                     <hi rend="antiqua">Reens.</hi>
+                  </bibl>
+               </sic> entschieden. Der Zweifel, welchen Ew Excellenz dagegen erheben, und der
+                    für mich von größtem Gewicht ist, wird mich jedoch veranlassen, nach meinen
+                    Kräften diesem Gegenstand in der Folge noch reiflicher zu erwägen. Ich kann in
+                    sprachwissenschaftlichen Gegenständen nicht anders als das größte Mißtrauen
+                    gegen die Resultate meiner Untersuchungen hegen wenn sie dem besonnenen und
+                    tiefeindringenden Urtheil Ew Excellenz nicht Genüge leisten.</p>
+            <p>Von <term type="morph" ref="009">Guna</term> oder ähnlichem Vocalwechsel habe ich
+                    im Persischen keine Spur gefunden.</p>
+            <closer>
+               <salute>In tiefster Ehrerbietung <lb/>Ew Excellenz <lb/>ganz gehorsamster </salute>
+               <signed>Bopp.</signed>
+               <lb/>
+               <dateline>5 Dec. 27</dateline>
+               <lb/>
+               <pb n="42v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

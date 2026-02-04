@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Caroline von Humboldt, 21.11.1823<idno type="BBAW">1137</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Sydow 1906–1906, Bd. 7, S.
+                            190–193</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">7350</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aavrudolstadt">
+                  <persName>Amalie Auguste, Fürstin von Schwarzburg-Rudolstadt, geb.
+                            Prinzessin von Anhalt-Dessau</persName>
+               </person>
+               <person corresp="gbuelow">
+                  <persName>Bülow, Gabriele von, geb. von Humboldt</persName>
+               </person>
+               <person corresp="cavonsachsen">
+                  <persName>Carl August, Großherzog von Sachsen-Weimar-Eisenach</persName>
+               </person>
+               <person corresp="carolinevonrudolstadt">
+                  <persName>Caroline, Fürstin von Schwarzburg-Rudolstadt, geb. Prinzessin von
+                            Hessen-Homburg</persName>
+               </person>
+               <person corresp="cimabue">
+                  <persName>Cimabue (eig. Cenni di Pepo)</persName>
+               </person>
+               <person corresp="giotto">
+                  <persName>Giotto di Bondone</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                            Humboldt</persName>
+               </person>
+               <person corresp="karlguenther">
+                  <persName>Karl Günther, Prinz von Schwarzburg-Rudolstadt</persName>
+               </person>
+               <person corresp="ljeflengefeld">
+                  <persName>Lengefeld, Louise Juliane Eleonore Friederike von, geb. von
+                            Wurmb</persName>
+               </person>
+               <person corresp="luiseweimar">
+                  <persName>Luise, Großherzogin von Sachsen-Weimar-Eisenach, geb. Prinzessin
+                            von Hessen-Darmstadt</persName>
+               </person>
+               <person corresp="luiseulrike">
+                  <persName>Luise Ulrike, Prinzessin von Schwarzburg-Rudolstadt, geb.
+                            Prinzessin von Hessen-Homburg</persName>
+               </person>
+               <person corresp="mariapawlowna">
+                  <persName>Maria Pawlowna, Großfürstin von Russland, Erbprinzessin von
+                            Sachsen-Weimar-Eisenach</persName>
+               </person>
+               <person corresp="raffaelsanti">
+                  <persName>Raffaello Santi</persName>
+               </person>
+               <person corresp="fwschadow">
+                  <persName>Schadow, Friedrich Wilhelm von</persName>
+               </person>
+               <person corresp="janvaneyck">
+                  <persName>van Eyck, Jan</persName>
+               </person>
+               <person corresp="cvwolzogen">
+                  <persName>Wolzogen, Caroline von, geb. von Lengefeld, gesch. von
+                            Beulwitz</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Goethen fand ich gestern morgen sehr schwach. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-11-21"/>
+               <placeName key="Rudolstadt">Rudolstadt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cvh1">Humboldt, Caroline von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind, am">
+            <language ident="al">Amerikanische Sprachen (allgemein)</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. Oktober 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Rudolstadt, 21. November 1823</dateline>
+            </opener>
+            <p>
+               <persName ref="jwgoethe">Goethen</persName> fand ich gestern morgen sehr schwach.
+                    Er hatte die Nacht wieder nur im Lehnstuhl zugebracht, und die Augen fielen ihm
+                    alle fünf Minuten zu, wobei dann sein Kopf gleich auf seine Brust sank. Dann hob
+                    er ihn wieder und öffnete die Augen, und so ging es die ganzen Stunden, die ich
+                    da war. Dazwischen sprach er aber wieder mit Lebendigkeit. Er sagte mir auch
+                    einiges über seine Lage, wovon mündlich. Er braucht eine außerordentliche
+                    Erheiterung, glaube ich, in dieser Einförmigkeit seines Lebens. Eine solche
+                    würde, meiner Meinung nach, einen sehr glücklichen Einfluß haben. Ich habe ihm
+                    allerlei Vorschläge gemacht, allein es wird wohl beim alten demungachtet
+                    bleiben. Die Ärzte behaupten, daß es mit seiner Krankheit nichts zu sagen habe.
+                    Ich kann leider diese Meinung nicht teilen. Sein Leib ist offenbar geschwollen.
+                    Er nimmt fast lauter flüssige Nahrung zu sich. Die schlaflosen Nächte und der
+                    Husten matten ihn außerordentlich ab. Man erwartet jetzt sehr gute Wirkung von
+                    Blutegeln, die man ihm in der Nierengegend gesetzt hat. Ich konnte ihn deshalb
+                    gestern nachmittag nicht mehr sehen und habe nicht von ihm Abschied genommen.
+                    Ich werde aber, wenn ich übermorgen von hier abreise, wieder über Weimar gehen,
+                    weil der Weg über <placeName ref="Jena">Jena</placeName> gar zu schlecht sein
+                    soll, und dann nur <persName ref="jwgoethe">Goethen</persName> und <persName ref="cvwolzogen">Carolinen</persName> besuchen.</p>
+            <p>
+               <persName ref="mariapawlowna">Die Großfürstin</persName>, <persName ref="luiseweimar">die Großherzogin</persName> und <persName ref="cavonsachsen">der Großherzog</persName> lassen Dich sehr grüßen und
+                    haben es mir ganz besonders aufgetragen, mit dem Zusatz, daß Du doch ja einmal
+                    selbst mitkommen möchtest. Der Erbgroßherzog hat das noch mit den schönsten
+                    Phrasen ausgeschmückt. Die Höflichkeit gegen mich hat sich bis zuletzt erhalten.
+                        <persName ref="mariapawlowna">Die Großfürstin</persName> hat wirklich alles
+                    hervorgesucht, um ihre Aufmerksamkeit zu beweisen, und <persName ref="cavonsachsen">der Großherzog</persName> hat mir so für mein Kommen
+                    gedankt, daß man sah, daß es ihm sehr lieb gewesen war. Er hat mich gestern noch
+                    bis Mitternacht bei sich behalten.</p>
+            <p>Hier ist es mir heute sehr gut gegangen. <persName ref="carolinevonrudolstadt">Die verwitwete Fürstin</persName> ist jetzt gerade wohl, sehr heiter und
+                    gut mit mir und hat nach allem gefragt. Alles, was man ihr je gesagt hat, weiß
+                    sie noch und muß vieles mehr gehört haben. So sagte sie vom <placeName ref="Tegel">Tegel</placeName>schen Bau<note type="footnote" resp="editor">Das von <persName ref="kfschinkel">Karl Friedrich Schinkel</persName>
+                        umgebaute Schloss Tegel. [FZ]</note>. Auch von den amerikanischen Sprachen
+                    und dem Sanskrit weiß sie, und ich habe ihr Sanskritbuchstaben vormalen müssen.
+                    Es ist nichts zwischen Himmel und Erde, wonach sie nicht fragt. Dabei aber hat
+                    sie immer zugleich den wahren Ton der guten Gesellschaft, macht schnelle und
+                    hübsche Übergänge, appesantiert sich auf nichts und ist bei dieser Leichtigkeit
+                    doch in den wichtigen Dingen recht tief eingehend. Im Äußeren möchte ich sagen,
+                    daß sie gewonnen hat, sie ist magerer geworden, was ihr sehr gut steht. Dabei
+                    ist sie ganz einfach schwarz angezogen.</p>
+            <p>Die regierende Fürstin<note type="footnote" resp="editor">Sydow 1906–1916, Bd. 7,
+                        S. 191: <persName ref="aavrudolstadt">Amalie Auguste</persName>, geb. 1793,
+                        † 1854, Tochter des Erbprinzen von Anhalt-Dessau, vermählt seit 1816 mit dem
+                        Fürsten Friedrich Günther.</note> habe ich ganz verändert gefunden. Sie
+                    spricht viel, von selbst und sehr angenehm. Sie ist wirklich eine sehr
+                    liebenswürdige Frau. Ihr Äußeres hat freilich verloren, doch ist ihr Wuchs sehr
+                    schön und das Gesicht von bedeutenden Zügen.</p>
+            <p>Prinzessin Karl<note type="footnote" resp="editor">Sydow 1906–1916, Bd. 7, S.
+                        191: <persName ref="luiseulrike">Luise Ulrike</persName>, geborene
+                        Prinzessin von Hessen-Homburg, Schwester der <persName ref="carolinevonrudolstadt">verwitweten Fürstin</persName>. <persName ref="karlguenther">Prinz Karl</persName> war der Bruder des <persName ref="ludwigfriedrich2">verstorbenen Fürsten</persName>.</note> und
+                        <persName ref="karlguenther">ihr Mann</persName> sind wie immer. Bei der
+                        <persName ref="ljeflengefeld">chère mère</persName> habe ich nach der Tafel
+                    Kaffee getrunken. Die <persName ref="ljeflengefeld">chère mère</persName> ist im
+                    80. Jahre aber noch rüstig im Gehen und Sprechen. Sie steigt sogar noch die hohe
+                    Schloßtreppe. Sie hatte eine kindische Freude, mich zu sehen, und sagt Dir und
+                        <persName ref="cvh2">Carolinen</persName> und <persName ref="gbuelow">Gabrielen</persName> tausend Liebes. Die Lebensgeschichte und Verheiratung
+                    der Kinder habe ich heute unendlich oft erzählen müssen.</p>
+            <p>Ich sagte Dir, glaube ich, noch nichts von <persName ref="fwschadow">Schadow</persName>s Madonna. <persName ref="cavonsachsen">Der
+                        Großherzog</persName>, der sie gekauft, liebt sie sehr. Sie stand einige
+                    Tage auf einer Staffelei im Versammlungssaal des Schlosses, und alle waren damit
+                    zufrieden. Auch <persName ref="jwgoethe">Goethen</persName> wurde sie geschickt.
+                    Öffentlich und gegen <persName ref="cavonsachsen">den Großherzog</persName> lobt
+                    er sie sehr: „Artig, reinlich, nett, sauber, lieblich, anmutig," und wie alle
+                    seine „Artigkeitswörter" heißen. Unter vier Augen hat er mir aber seine Theorie
+                    über diese Art Bilder auseinandergesetzt. Er teilt alle Bilder in die ein, die
+                    zur Bilderwelt, und die, welche zur Natur gehören. Bei den ersten hat der Maler
+                    nur andere Bilder vor Augen gehabt, bei den letzten die wahre, volle und doch
+                    idealische Natur. Dies Bild rechnet er zu den ersten. Die Madonna sei keine
+                    Mutter, keine Amme, keine Wärterin, sondern eben eine Madonna, wie man sie so
+                    gemalt zu finden pflege usf. <persName ref="giotto">Giotto</persName> und
+                        <persName ref="cimabue">Cimabue</persName> hätten wirklich die Natur
+                    ergriffen, da ihre Vorgänger nur Byzantinische Bilder nachgemacht hätten. Unter
+                    ihren Nachfolgern sei wieder viel von dieser Malerei nach Bildern gewesen.
+                        <persName ref="raffaelsanti">Rafael</persName> habe zuerst wieder die Natur
+                    ergriffen, darum müsse man aber nun nicht die vor ihm, sondern ihn nachahmende
+                    zum Muster nehmen.</p>
+            <p>
+               <persName ref="janvaneyck">Van Eyck</persName> ist ihm auch einer, der bloß nach
+                    Bildern gemalt hat. Es scheint mir darin viel Vorurteil zu sein, und ein Teil
+                    davon liegt auch darin, daß er eigentlich Haß auf alle christlichen Sujets,
+                    besonders auf Madonnen hat. Über diese seine Ansicht des Christentums schreibe
+                    ich Dir ein andermal mehr. Heute ist es mir zu spät, da ich um 5 ausgefahren
+                    bin. Dein spanisches Manuskript habe ich wieder, sehr schön
+                    in roten Cordouan eingebunden<note type="footnote" resp="editor">D.h. Caroline von Humboldts Manuskript der systematischen
+                        Beschreibung der Gemälde im Escorial, das sie nach der Rückkehr aus Spanien
+                        von Paris aus zur Veröffentlichung an <persName ref="jwgoethe">Goethe</persName> geschickt hatte;
+                        siehe dazu Osterkamp, Ernst (2017): <hi rend="italic">Caroline von Humboldt
+                            und die Kunst</hi>, Berlin: Deutscher Kunstverlag, S. 17, 19. Die Handschrift blieb mit Ausnahme eines kurzen Auszugs unpubliziert
+                        und gilt seit dem Zweiten Weltkrieg als verschollen. [FZ]</note>. Die Grammatik einer amerikanischen Sprache, die
+                    ich hier auch in einer Handschrift aufgefunden, ist höchst wichtig und ein
+                    wahrer Fund, ich bringe sie mit<note type="footnote" resp="editor">Dabei dürfte
+                        es sich um die <ref type="link" target="1047">in dem Brief</ref> an
+                            <persName ref="jwgoethe">Goethe</persName> vom <date when="1823-11-20">20. November 1823</date>
+                  <ref type="linkExt"
+                       target="https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00077883">genannten Sammelband</ref> mit Grammatiken zum Arawakischen, Chiquitano
+                        und Guarani handeln (Jena, ThULB, Inv. Ms. Prov. q. 330a; freundlicher
+                        Hinweis von Joachim Ott, ThULB). Erst 1826, drei Jahre später, konnte
+                        Humboldt diesen Band in Augenschein nehmen; vgl. dazu die Briefe vom <ref type="link" target="1131">13. Februar 1826</ref>, <ref type="link" target="1132">20. Dezember 1826</ref> und <ref type="link" target="1133">23. Januar 1827</ref>. [FZ]</note>.</p>
+            <closer>
+               <salute>Nun lebe wohl, innigstgeliebtes Kind. Ewig Dein</salute>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

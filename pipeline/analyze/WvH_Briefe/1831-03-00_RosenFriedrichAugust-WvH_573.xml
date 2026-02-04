@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 15.12.2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, März 1831<idno type="BBAW">573</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Marbach, Deutsches Literaturarchiv,
+                            62.193</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12358</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tcockburn">
+                  <persName>Cockburn, Thomas</persName>
+               </person>
+               <person corresp="jadroop">
+                  <persName>Droop, Johann Abraham</persName>
+               </person>
+               <person corresp="rtfarquhar">
+                  <persName>Farquhar, Sir Robert Townsend</persName>
+               </person>
+               <person corresp="thfarquhar">
+                  <persName>Farquhar, Sir Thomas Harvie</persName>
+               </person>
+               <person corresp="bhfroberville">
+                  <persName>Froberville, Barthelemy Huet, Chevalier de</persName>
+               </person>
+               <person corresp="whuttmann">
+                  <persName>Huttmann, William</persName>
+               </person>
+               <person corresp="ajohnston">
+                  <persName>Johnston, Sir Alexander</persName>
+               </person>
+               <person corresp="jlow">
+                  <persName>Low, James</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+               <person corresp="lmuehlenfels">
+                  <persName>Mühlenfels, Ludwig von</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="545">Froberville, Barthelemy Huet, Chevalier de: Dictionnaire Français
+                    et Madecasse (Port Louis, Mauritius: 1816)</bibl>
+               <bibl corresp="522">Jeffreys, John: Madagassisches Wörterbuch (1825?)
+                    [Manuskript]</bibl>
+               <bibl corresp="270">Low, James: A grammar of the Thai, or, Siamese Language (Calcutta:
+                    Baptist Mission Press 1828)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">E. E. muß ich vor allem wegen der langen Verzögerung meiner
+                        Antwort auf Ihr gütiges Schreiben …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1831-03-01"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1008" type="prev">01.12.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändiges Konzept</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="mg">Madegassisch</language>
+            <language ident="th">Thai (Siamesisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">15. Dezember 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> E. E. muß ich vor allem wegen der langen Verzögerung meiner Antwort
+                    auf <ref type="link" target="1008">Ihr gütiges Schreiben</ref> vom <date when="1830-12-01">1. Dec.</date> (welches jedoch erst zu Anfang des vorigen
+                    Monats in meine Hände gelegt) um Verzeihung bitten. Gleich nach dem Empfang
+                    desselben erbat ich mir <persName ref="ajohnston">
+                  <hi rend="antiqua">Sir A. J.</hi>
+               </persName>’s Rath <del>wegen der <gap quantity="8" unit="chars"/>igsten Bewerkstelligung</del> zu der
+                    Ausführung <del>Ihres Wunsches</del> des von E. E. geäußerten Wunsches in
+                    Betreff des <bibl sameAs="522">Madagascarischen Wörterbuches</bibl>, und schrieb
+                    an die Besitzerin desselben, <persName ref="metcalfe">
+                  <hi rend="antiqua">Mrs Metcalfe</hi>
+               </persName>, in <placeName ref="Bath">
+                  <hi rend="antiqua">Bath</hi>
+               </placeName>, um sie um die
+                        <del>Uebersendung</del> Mittheilung desselben, entweder an <persName ref="ajohnston">
+                  <hi rend="antiqua">Sir A. J.</hi>
+               </persName> selbst, oder an den <persName ref="whuttmann">Sekretär</persName> der <orgName ref="14">Asiatischen
+                        Gesellschaft</orgName> zu ersuchen. Von Woche zu Woche habe ich aber
+                    vergebens der Ankunft des Manuscripts sowohl, als einer Antwort auf meinen Brief
+                    entgegengesehen. <del>[<persName ref="ajohnston">Sir A. J.</persName>’s ist
+                        [einige Wochen von hier] [so eben aus <placeName ref="Brighton">Brighton</placeName> zurückgekehrt] war mehrere Wochen in <placeName ref="Brighton">Brighton</placeName>, ist aber jetzt] [Rath]</del> Ich
+                    habe <add>aber</add> jetzt einen <ref type="link" target="1023">zweiten
+                        Brief</ref> an <persName ref="metcalfe">
+                  <hi rend="antiqua">M.<hi rend="superscript">rs</hi> Metcalfe</hi>
+               </persName>
+                    geschrieben, welchen ich <del>[vor seinen] <add>vor <gap quantity="2" unit="chars"/>
+                  </add>
+               </del> <persName ref="ajohnston">
+                  <hi rend="antiqua">Sir A. J.</hi>
+               </persName> vorlegen will, ehe ich ihn
+                    absende. Sobald <subst>
+                  <del>[ich] eine</del>
+                  <add>eine</add>
+               </subst> Antwort darauf, oder das
+                    Manuscript selbst erfolgt <subst>
+                  <del>seyn wird</del>
+                  <add>ist</add>
+               </subst>, werde ich <del>sogleich</del>
+                    Ew. E. sogleich davon benachrichtigen, und in letztrem Falle <del>dafür</del>
+                    Sorge tragen, daß die von Ihnen gewünschte Abschrift <subst>
+                  <del type="fragment">in möglichster K</del>
+                  <add>nun</add>
+               </subst> mit aller
+                    Schnelligkeit, die sich mit Genauigkeit u. Sorgfalt vereinigen läßt, verfertigt
+                    werde. –</p>
+            <p>
+               <persName ref="ajohnston">Sir A.</persName> <subst>
+                  <del>Johnston, der</del>
+                  <add>
+                     <persName ref="ajohnston">Johnston</persName>’s
+                                <del>Aufmerksamkeit</del>
+                  </add>
+               </subst> Güte hat mir inzwischen
+                    Gelegenheit verschafft, eine andre, <del>sehr</del> so weit ich urtheilen kann,
+                    sehr reichhaltige lexicalische Arbeit <pb n="2*"/> über die Madagascarische
+                    Sprache durchzublicken <add>die sich im Besitz des <persName ref="rtfarquhar">
+                     <hi rend="antiqua">Sir Robert Farquhar</hi>
+                  </persName> befindet</add>.
+                    Es ist ein <bibl sameAs="545">
+                  <add>handschriftliches</add> Madagaskarisch-Französisches Wörterbuch in 5.
+                            <del>Folio-Bänden</del>, und ein Französisch-Madagascarisches in 3 Folio
+                            <del>Bänden, [ver+] dessen Verfasser sich auf dem
+                            Titel</del>
+                  <add>Bänden.</add>
+               </bibl> Auf dem Titel erscheint der Name
+                    des Verfassers <persName ref="bhfroberville">
+                  <hi rend="antiqua">Barthelmy Huet Chevalier de Froberville</hi>
+               </persName>,
+                    u. die Jahreszahl 1816. – Der Madagascarisch französische Thl
+                        <unclear>begreift</unclear> etwa 1400 Blätter, deren jedes <subst>
+                  <del>etwa</del>
+                  <add>ungefähr</add>
+               </subst> 20 <subst>
+                  <del>Wörter</del>
+                  <add>Artikel</add>
+               </subst> enthält. Die Wörter sind streng
+                    alphabetisch geordnet, und sehr deutlich u. groß <subst>
+                  <del>geschrieben. Vor
+                            jeden</del>
+                  <add>geschrieben:</add>
+               </subst> ein vorgesetztes <hi rend="antiqua">N</hi>. oder <hi rend="antiqua">S.</hi> unterscheidet
+                        <del>alle</del> darin nördlichen u. südlichen Dialekt der Sprache: <add>(in
+                        dem französ. Mad. Theil sind diese in besondre Colum getrennt)</add>
+                    vertikale Striche trennen die etymologischen Bestandtheile der Wörter. Die
+                    Französische Erklärung ist kurz und gedrängt. Ausführliche Erörterungen,
+                    besonders über naturhistorische oder geographische Erörterungen sind in eine
+                    besondre Columne verwiesen. Ein breiter Rand <del>ist zu</del> und der weite
+                    Zwischenraum zwischen den einzelnen Artikeln ist häufig zum Nachtragen von <del type="fragment">Red</del> Phrasen oder Zusammengesetzte Ausdrücke benutzt.
+                    Ew. E. werden eine kleine Partie von dem Anfange des Werkes erhalten haben, die
+                    ich aus demselben excerpirte. Als ich dieselbe <add>neulich</add>, (wegen
+                        <del>Kürze der Zeit ohne</del> einer unvorhergesehenen Störung ohne
+                        <add>Begleitung</add>
+               <sic>ein</sic> sie erläuterndes Schreiben!) absandte, hoffte ich diese Auszüge
+                    bald fortsetzen zu können. Man hat aber seitdem diese und mehrere andre Papiere
+                    aus <del type="fragment">dem Bes</del> dem Nachlaß von <persName ref="rtfarquhar">
+                  <hi rend="antiqua">Sir Robert Farquhars</hi>
+               </persName>
+                    verstorbenem <persName ref="thfarquhar">Bruder</persName> <del>zusammen</del> in
+                    Kisten verpackt<note type="footnote" resp="editor">Hier hat Rosen offensichtlich
+                        die Brüder Farquhar verwechselt, denn <persName ref="thfarquhar">Sir Thomas
+                            Farquhar</persName> war der Nachlassverwalter des 1830 verstorbenen,
+                        ehemaligen Gouverneurs von Mauritius, <persName ref="rtfarquhar">Sir Robert
+                            Farquhar</persName>. [FZ]</note>, und bei Seite gestellt, sodaß der
+                    Zugang dazu nun <del>[etwas] wieder</del> eine
+                            <subst>
+                  <del>Bitte</del>
+                  <add>nochmalige</add>
+               </subst> Verwendung bei
+                        <persName ref="rtfarquhar">
+                  <hi rend="antiqua">Sir Rob. Farq.</hi>
+               </persName> selbst nöthig machen
+                    würde. Diese wünschte ich zu verschieben, bis entweder das Manuscript <pb n="3*"/> der <persName ref="metcalfe">
+                  <hi rend="antiqua">M.<hi rend="superscript">rs</hi> Metcalf</hi>
+               </persName>
+                    angelangt, oder <subst>
+                  <del>ich von</del>
+                  <add>Ew. E.</add>
+               </subst> mir <add>etwa</add> selbst einige <unclear>Gesichtspunkte</unclear>
+                    bezeichnen wollen, nach denen ich die <bibl sameAs="545">Frobervillesche
+                        Arbeit</bibl> für Sie benutzen könnte. –</p>
+            <p>
+               <del type="fragment">D</del> Unter dem in<note type="footnote" resp="editor">Irrtümlich von Rosen gestrichen.</note> <del>der Bibliothek des</del> dem
+                    jetzt in der Bibl. der <orgName ref="14">As. Ges.</orgName> niedergelegten
+                    Nachlaß von <persName ref="tsraffles">
+                  <hi rend="antiqua">Sir St. Raffles</hi>
+               </persName> befindet sich Nichts von
+                        <persName ref="tsraffles">
+                  <hi rend="antiqua">Raffles</hi>
+               </persName> eignen Papieren über das Kavi
+                    Gedicht <hi rend="antiqua">Brata Yudha</hi>. Ein Fac Simile
+                            <subst>
+                  <del>des</del>
+                  <add>von dem</add>
+               </subst> Anfang desselben habe
+                    ich selbst so gut es mir gelingen wollte, verfertigt, und dasselbe, sammt einem
+                    Verzeichniß der sämmtlichen <persName ref="tsraffles">Raffles</persName>schen
+                    Javanischen u. Kavi Manuscripte an Ew. E. abgesandt.</p>
+            <p>Nach langen vergeblichen Erkundigungen
+                        <subst>
+                  <del>war</del>
+                  <add>hatte</add>
+               </subst> ich auch endlich erfahren,
+                    daß hier, in dem <hi rend="antiqua">Carnetic Office</hi>, eine Anzahl für d.
+                    Buchhandel bestimmter Exemplare v. <hi rend="antiqua">
+                  <persName ref="jlow">Low</persName>’s Siames</hi>ischer <bibl sameAs="270">Grammatik</bibl> angelangt sei, und wandte mich an den dortigen Sekretär,
+                        <persName ref="tcockburn">Herrn <hi rend="antiqua">Cockburn</hi>
+               </persName>
+                    mit der Bitte, mir wo möglich eines davon <del>für</del> zu verschaffen. Als ich
+                    erwähnte, daß <del>ich von Ihnen zum Ankauf des Werkes beauftragt sei, u.
+                        daß</del> dasselbe für Sie bestimmt sei, u. daß ich schon lange d. Auftrag
+                    dazu gehabt habe, <subst>
+                  <del>erbat er sich</del>
+                  <add>gab er mir</add>
+               </subst>
+                    sogleich sein eignes, ihm vom <persName ref="jlow">Vf.</persName> selbst
+                    geschenktes Ex. für Sie, um <del>den</del> so den Zeitverlust <pb n="hier bricht der Text ab"/>
+            </p>
+         </div>
+         <div type="letter">
+            <p>
+               <pb n="Auf demselben Bogen folgender Brief von Johann Abraham Droop an Friedrich August Rosen:"/>
+            </p>
+            <p>
+               <handShift scribe="jadroop"/> Ich erhalte so eben die Inlage für <persName ref="lmuehlenfels">Hn Dr Muhlenfels</persName> von Schweden<note type="footnote" resp="editor">Der Jurist <persName ref="lmuehlenfels">Ludwig
+                            von Mühlenfels</persName> (1793–1861), geboren in Schwedisch-Pommern,
+                        floh im Rahmen der Demagogenverfolgungen 1821 aus <placeName ref="Berlin">Berlin</placeName> nach Schweden, ging 1828 nach <placeName ref="London">London</placeName> an die dortige <orgName ref="65">Universität</orgName>; er erwirkte seine Rehabilitierung in Jahr 1829,
+                        behielt seine Professur in <placeName ref="London">London</placeName> aber
+                        nominell bis August 1831 und wurde in dieser Zeit durch Friedrich August
+                        Rosen in seinen Lehrverpflichtungen vertreten. [FZ]</note> und bemühe Sie,
+                    werther Herr Dr damit: Sollten Sie glauben daß unser Freund noch in <placeName ref="Berlin">Berlin</placeName> ist so erbitte ich sie mir zurück und ich
+                    schicke sie ihm morgen per Dampfboot</p>
+            <p>Seine Addr. in <placeName ref="Berlin">Berlin</placeName> ist</p>
+            <p>Wilhelms Straße N 73.</p>
+            <p>Ich danke Ihnen für Ihre Zusicherung Ihrer Gesellschaft am <sic>Sontag</sic>.</p>
+            <closer>
+               <salute>Mit frdsch Empfehlung von meiner Frau <lb/>Aufrichtigst d
+                        Ihrige</salute>
+               <signed>JaDroop<note type="footnote" resp="editor">Im <hi rend="italic">Fourth
+                                Biennial Report, containing the Thirty-third &amp; Thirty-fourth
+                                Annual Medical Reports, &amp;c. &amp;c. &amp;c. of the Royal London
+                                Ophthalmic Hospital …</hi>, London 1839, wird auf S. 21 als einer
+                            der „Governors“ für das Jahr 1828 genannt: „Droop, J. A. 9, Love-lane,
+                            Eastcheap“. Im National Archive findet sich ein Versicherungsvertrag für
+                            den Kaufmann <persName ref="jadroop">John Abraham Droop</persName> vom
+                            25. April 1816; in den <hi rend="italic">Statutes of the United Kingdom
+                                of Great Britain and Ireland</hi>, Bd. 1, 1804, findet sich für
+                        <ref type="linkExt"
+                          target="https://archive.org/details/np212725_0001/page/n305">1802 auf S. XXXVI unter der Nr. 115</ref> ein „Act of naturalizing“ für John
+                            Abraham Droop. <persName ref="jadroop">Johann Abraham Droop</persName>
+                            war Sohn des <persName ref="hdroop">Henrich Droop</persName> (1743–1793)
+                            und der <persName ref="arretberg">Anna Regina Retberg</persName>
+                            (1746–1825), beide aus <placeName ref="Bremen">Bremen</placeName>.
+                            Letztere war eine Tochter des Kaufmanns <persName ref="jaretberg">Johann
+                                Abraham Retberg</persName>. – Im selben Gebäude (9, Love Lane, East
+                            Cheap) befand sich 1794 die Handelsfirma „Retberg &amp; Co.“, mit
+                            Wurzeln in <placeName ref="Bremen">Bremen</placeName>; zum Handelshaus
+                            Retberg s. M. Schulte Beerbühl (2007): <hi rend="italic">Deutsche
+                                Kaufleute in <placeName ref="London">London</placeName>: Welthandel
+                                und Einbürgerung (1660–1818)</hi>, München: Oldenbourg, S. 186 ff.;
+                            ebenda S. 213 Erwähnung des Handelshauses Albers &amp; Droop. [FZ]</note>
+               </signed>
+               <address>
+                  <addrLine>9 Lovelane Eastcheap</addrLine>
+               </address>
+               <lb/>
+               <dateline>
+                  <gap quantity="1" unit="chars"/> Marz 1831.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

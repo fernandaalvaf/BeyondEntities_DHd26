@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Wolfgang von Goethe an Wilhelm von Humboldt, 08.02.1813<idno type="BBAW">678</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+                        Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Weimar, GSA: Konzept, Bestand: 29
+                            Goethe Ausgegangene Briefe, Sig: 29/8, Bl. 23v–25r. – Abschrift von
+                            Schreiberhand: Weimar, GSA, Bestand: 68 Müller, Friedrich von, Sig: 69/757</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Greizer Zeitung, 28. Mai 1873, Nr. 121; Bratranek 1876, S. 248ff.; Goethe 1887–1919, Abt. IV/Bd. 23, S. 278ff.; Gräf 1901–1914, Th. 3/Bd. 1, S. 578; 
+                            von der Hellen 1901–1918, Bd. 5, S. 146ff.; Stein 1902–1905, Bd. 5, S. 246f.; Geiger 1909, S. 229ff.; 
+                            Bab 1929–1930, Bd. 2, S. 258f.; Grumach 1949, Bd. 1, S. 247; Bach/Borcherdt 1958, S. 688f.; Holtzhauer 1970, Bd. 2, S. 273f.
+                        </bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 9576</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aristophanes">
+                  <persName>Aristophanes</persName>
+               </person>
+               <person corresp="fjbertuch">
+                  <persName>Bertuch, Friedrich Justin</persName>
+               </person>
+               <person corresp="awiffland">
+                  <persName>Iffland, August Wilhelm</persName>
+               </person>
+               <person corresp="jhmeyer">
+                  <persName>Meyer, Johann Heinrich</persName>
+               </person>
+               <person corresp="asvoss">
+                  <persName>Voß, Abraham Sophus</persName>
+               </person>
+               <person corresp="hvoss">
+                  <persName>Voß, Heinrich</persName>
+               </person>
+               <person corresp="jhvoss">
+                  <persName>Voß, Johann Heinrich</persName>
+               </person>
+               <person corresp="cmwieland">
+                  <persName>Wieland, Christoph Martin</persName>
+               </person>
+               <person corresp="fawolf">
+                  <persName>Wolf, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1377">Anonym [Wolf, Friedrich August] (1811): Aristophanes’
+                        Wolken. Eine Komödie, griechisch und deutsch, Berlin: Nauck</bibl>
+               <bibl corresp="1378">Anonym [Wolf, Friedrich August] (1812): Aus Aristofanes’
+                        Acharnern, griechisch und deutsch, mit einigen Scholien, Berlin:
+                        Nauck</bibl>
+               <bibl corresp="201">Humboldt, Wilhelm von (1816): Aeschylos Agamemnon metrisch
+                        übersetzt, Leipzig: Gerhard Fleischer d. J.</bibl>
+               <bibl corresp="1379">Meyer, Heinrich (1824–1825): Heinrich Meyer’s Geschichte
+                        der bildenden Künste bei den Griechen von ihrem Ursprunge bis zum höchsten
+                        Flor, 5 Lieferungen, Dresden: Walthersche Hofbuchhandlung</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mit aufrichtigem Danke erkenn ich, daß Sie Ihre freundschaftliche
+                    Zusage so bald und so vollkommen erfüllen mögen. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jwgoethe">Goethe, Johann Wolfgang von</persName>
+               <date type="author" when="1813-02-08"/>
+               <placeName key="Weimar">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="632" type="prev">15.11.1812</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jwgoethe">Konzept von Schreiberhand</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Juli 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="23v"/>
+               <address>
+                  <addrLine>Herrn Gesandten von Humboldt nach <placeName ref="Wien">Wien</placeName>.</addrLine>
+               </address>
+            </opener>
+            <p>Mit aufrichtigem Danke erkenn ich, daß Sie Ihre freundschaftliche Zusage so bald
+                    und so vollkommen erfüllen mögen. Ihr schöner <del type="fragment">Entt</del>
+                    Entwurf<note type="footnote" resp="editor">D.h. für die Sprachkarte. Siehe Jürgen Trabant
+                        (2020): Wilhelm von Humboldts "Anleitung zu Entwerfung einer allgemeinen
+                        Sprach Karte" von 1812. In: <hi rend="italic">Goethe-Jahrbuch</hi> 137, S. 149–167. [FZ]</note> hat mir einen ganz neuen Anstoß zu allerley Studien gegeben. Es ist mir
+                    nicht mehr möglich Materialien zu sammeln, aber wenn sie mir <add>so</add>
+                    concentrirt gebracht werden, so freu ich mich gar sehr, die Lücken meines
+                    Wissens schnell zu complettiren u. zu dem was ich schon besitze, tausend
+                    Beziehungen zu finden.</p>
+            <p>Sobald ich im Monat März einige ruhige Wochen in <placeName ref="Jena">Jena</placeName> verbringen kann, so soll es
+                    an die Arbeit gehn, die nach Ihrer Vorarbeit eigentlich nur ein Spiel ist.
+                    <persName ref="fjbertuch">Bertuch</persName> hat mir einige Europa’s bräunlich abdrucken laßen, davon soll eins auf
+                    ein großes Reißbrett aufgezogen u. die Grenzen illuminirt werden. Alsdann will
+                    ich mit kleinen aufgeklebten Zeddeln die HauptSprachen u. in so fern es möglich
+                    ist, auch die Dialecte bemerken <pb n="24r"/> und <persName ref="fjbertuch">Bertuch</persName> hat nicht übel Lust, alsdann eine solche Charte stechen
+                    zu lassen, welches, bey seiner großen mit allerley Künstlern versehenen Anstalt
+                    leicht ist. Haben Sie daher ja die Güte fortzufahren und mir baldmöglichst das
+                    Weitere zu senden<note type="footnote" resp="editor">Weitere Zusendungen für die Sprachkarte sind nicht bekannt. [FZ]</note>. Eine Charte der beyden Hemisphären liegt auch schon da u
+                    erwartet, auf gleiche Weise bespracht zu werden.</p>
+            <p>Zu <bibl sameAs="201">Ihrer immer mehr ausgearbeiteten Uebersetzung des
+                        Aeschylus</bibl> wünsche ich von Herzen Glück u ich freue mich, daß Sie Sich
+                    durch die Drohungen des Heidelberger Cyclopen<note type="footnote" resp="editor">D.i. <persName ref="jhvoss">Johann Heinrich Voß</persName> (1751–1826), 
+                        berühmt durch seine Übersetzungen der Werke Homers. [FZ]</note> u Familie<note type="footnote" resp="editor">Dies bezieht sich auf <persName ref="hvoss">Heinrich Voß</persName> (1779–1822), den Sohn des Vorgenannten und wie
+                        dieser Klassischer Philologe und Übersetzer, und wohl auch auf den jüngsten
+                        Sohn, <persName ref="asvoss">Abraham Sophus Voß</persName> (1785–1847).
+                        [FZ]</note> von diesem guten Werke nicht abschrecken lassen. Jene bedräuen
+                    gegenwärtig unsern <persName ref="fawolf">Wolf</persName>, der doch auch keine
+                    Katze ist, mit schmählicher Hinrichtung, weil er es gewagt, auf der
+                    Uebersetzungsinsel, die sie vom Vater Neptun privative zu Lehn erhalten,
+                    gleichfalls zu landen u einen lesbaren <persName ref="aristophanes">Aristophanes</persName> mitzubringen<note type="footnote" resp="editor">Dies bezieht sich auf zwei anonym erschienene Übersetzungen von der Hand
+                        Wolfs: <bibl sameAs="1377">
+                     <hi rend="italic">Aristophanes’ Wolken. Eine
+                                Komödie</hi>
+                  </bibl> (1811) und <bibl sameAs="1378">
+                     <hi rend="italic">Aus Aristofanes’ Acharnern</hi>
+                  </bibl> (1812); vgl. dazu den Brief
+                        Humboldts an Wolf vom <date when="1812-07-03">3. Juli 1812</date> (Mattson
+                        1990, S. 307–309 Nr. 127 mit Anm. auf S. 558). [FZ]</note>. Es steht
+                    geschrieben, selig sind die im Herrn entschlafen, aber noch seliger sind die,
+                    welche über irgendeinen Dünkel toll geworden.</p>
+            <p>
+               <pb n="24v"/> Selig im ersten Sinne ist nun <persName ref="cmwieland">unser
+                        Wieland</persName>, er ist in seinem Herrn entschlafen<note type="footnote" resp="editor">Wieland war am <date when="1813-01-20">20. Januar 1813</date>
+                        im Alter von 79 Jahren in Weimar gestorben. [FZ]</note> u ohne sonderliches
+                    Leiden zu seinen Göttern u Heroen hinübergegangen. Was Talent und Geist,
+                    Studium, Menschenverstand, Empfänglichkeit und Beweglichkeit, verbunden mit
+                    Fleiß u Ausdauer, vermögen <subst>
+                  <del>
+                     <hi rend="antiqua">utique</hi>
+                  </del>
+                  <add>
+                     <hi rend="antiqua">utile</hi>
+                  </add>
+               </subst>
+               <hi rend="antiqua">nobis proposuit exempla</hi>. Wenn jeder seine Gaben u seine
+                    Zeit so anwenden wollte, was müßten für Wunder geschehn!</p>
+            <p>Dieser Winter ist mir, wie gewöhnlich, sehr zerstreut, aber doch, bey leidlicher
+                    Gesundheit, schnell u nicht ungenutzt vorübergegangen. Theatralische
+                    Vorbereitungen auf den lang erwarteten <persName ref="awiffland">Iffland</persName>, welcher erst gegen Ende des Jahrs ankam, so wie auf
+                    seine Gegenwart, die <subst>
+                  <del>hier</del>
+                  <add>mir</add>
+               </subst> viel Vergnügen gewährte, brachten mich November u December aus dem
+                    Geschicke. In den Januar u Februar fallen vier Geburtstäge, wo man entweder
+                    unsere Einfindung oder unsere Mitwirkung anspricht<note type="footnote" resp="editor">Goethe bezieht sich wohl vier Geburtstage im Weimarer
+                        Herzogshaus: <persName ref="luiseweimar">Herzogin Luise</persName> (30.
+                        Januar), <persName ref="cfvonsachsen">Erbprinz Carl Friedrich</persName> (2.
+                        Februar) und seine Frau <persName ref="mariapawlowna">Maria
+                            Pawlowna</persName> (16. Februar) sowie deren älteste Tochter <persName ref="mlavonsachsen">Prinzessin Marie</persName> (3. Februar).
+                        [FZ])</note>, u so wird manches, zwar mit gutem Willen, aber ohne Frucht
+                    verzettelt.</p>
+            <p>Was ich mit <subst>
+                  <del type="fragment">Vergnüge</del>
+                  <add>Vergnügen</add>
+               </subst> und wahrem Antheil dazwischen getrieben <pb n="25r"/> habe, war ein
+                    erneuter Versuch, von alten Monumenten, deren Beschreibung auf uns gekommen ist,
+                    die Spuhr unter den vorhandenen Bildwerken zu finden. Die Philostrate<note type="footnote" resp="editor">Gemeint sind die Εἰκόνες (<ref type="linkExt"
+                       target="https://archive.org/stream/imagines00philuoft#page/n9/mode/2up">Bildbeschreibungen</ref>), zwei griechische Werke von zwei
+                        verschiedenen Autoren mit dem Namen Philostratos, in denen Gemälde meist
+                        mythologischen Inhalts beschrieben werden. [FZ]</note> waren wieder an der
+                    Tagesordnung, u was die Statuen betrift, so glaube ich dem Olympischen Jupiter,
+                    über den schon manches vorgearbeitet ist, hernach aber der Juno von Samos, dem
+                    Doryphorus des Polyclet, besonders aber der Kuh Myrons u dem Stier, der die
+                    Europa trug, auf die Spur gekommen zu seyn. <persName ref="jhmeyer">Meyer</persName>, durch dessen alte Kunstgeschichte, die nunmehr ins Reine
+                    geschrieben ist<note type="footnote" resp="editor">Meyers <bibl sameAs="1379">
+                     <hi rend="italic">Geschichte der bildenden Künste bei den
+                                Griechen von ihrem Ursprunge bis zum höchsten Flor</hi>
+                  </bibl>
+                        erschien erst 1824 und 1825 in Dresden. [FZ]</note>, die Hauptanregung geschehn,
+                    nimmt lebendigen Antheil, da seine Zweifel so wie seine Beystimmung immer
+                    gegründet sind.</p>
+            <closer>
+               <salute>Und so will ich denn für dießmal schließen, in Hoffnung bald wieder
+                        etwas von Ihrer lieben Hand zu sehn.</salute>
+               <lb/>
+               <dateline>Weimar den 8<hi rend="underline">
+                     <hi rend="superscript">t</hi>
+                  </hi> Februar
+                        1813.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

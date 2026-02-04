@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Julius Klaproth, [9.] September 1830
+                        (Konzept)<idno type="BBAW">356</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, SBBPK, Coll. ling. fol. 49,
+                            Bl. 112–115 (datiert auf August); Abschrift: Jena, ThULB, Nachlass
+                            Leitzmann, Inv.-Nr. 190. – Ausfertigung: St. Petersburg, Russische
+                            Akademie der Wissenschaften, Archiv, F. 783, Op. 2, Nr. 34, fol. 11–12
+                            (datiert auf September)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 201</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8265</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="cljguignes">
+                  <persName>Guignes, Chrétien Louis Joseph de</persName>
+               </person>
+               <person corresp="rmorrison">
+                  <persName>Morrison, Robert</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="5">Abel-Rémusat, Jean-Pierre (1822): Eléments de la grammaire
+                        chinoise ou principes généraux du Kou-Wen, ou style antique, et du
+                        Kouan-Hoa, c’est-à-dire de la langue commune généralement usitée dans
+                        l’empire chinois, Paris: Imprimérie Royale</bibl>
+               <bibl corresp="499">Guignes, Chrétien Louis Joseph de (1813): Dictionnaire
+                        chinois, français et latin, publié d’après l’ordre de sa Majesté l’empereur
+                        et roi Napoléon le Grand, Paris: L’Imprimérie impériale</bibl>
+               <bibl corresp="228">Humboldt, Wilhelm von (1832): Über die Verwandtschaft der
+                        Ortsadverbien mit dem Pronomen in einigen Sprachen. Gelesen in der Akademie
+                        der Wissenschaften am 17. December 1829. In: Abhandlungen der
+                        historisch-philologischen Klasse der Königlichen Preußischen Akademie der
+                        Wissenschaften zu Berlin aus dem Jahre 1829, S. 1–26. – Vgl. GS VI, S.
+                        304–330</bibl>
+               <bibl corresp="227">Humboldt, Wilhelm von (1836): Über die Kawi-Sprache auf der
+                        Insel Java, nebst einer Einleitung über die Verschiedenheit des menschlichen
+                        Sprachbaues und ihren Einfluss auf die geistige Entwicklung des
+                        Menschengeschlechts. In: Abhandlungen der Königlichen Preußischen Akademie
+                        der Wissenschaften zu Berlin aus dem Jahre 1832, Zweiter Theil</bibl>
+               <bibl corresp="1063">Morrison, Robert (1815–1818): A dictionary of the Chinese
+                        language, Vol. 1, Part 1–3, Macao: P. Thoms</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew, haben mich durch Ihren gütigen Brief von 1.v.M. sehr angenehm
+                    überrascht. Es ist von hohem Werthe für mich, dass Ihnen meine letzte Abhandlung
+                    einiges Interesse eingeflösst hat, und dass Sie den Hauptideen Ihre Zustimmung
+                    ertheilen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" when="1830-09-09"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jhklaproth">Klaproth, Heinrich Julius</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="390" type="prev">01.07.1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig in Antiqua bis Bl. 113v, ab dort Schreiberhand in
+                    Kurrentschrift mit Korrekturen Humboldts</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="hy">Armenisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="mg">Malagasy (Madegassisch)</language>
+            <language ident="ms">Malaiisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. November 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="112r"/>
+               <address>
+                  <addrLine>An Herrn <add>Hofrath und</add> Professor von Klaproth,
+                            Hochwohlgeboren, in Paris.</addrLine>
+               </address>
+               <lb/>
+               <dateline>Tegel, den       August, 1830.<note type="footnote" resp="editor">Links Notiz in fremder Schrift: "mund. den <date when="1830-09-09">9
+                                September 1830</date>."</note>
+               </dateline>
+            </opener>
+            <p>Ew, haben mich durch <ref type="link" target="390">Ihren gütigen Brief</ref> vom
+                        <date when="1830-07-01">1. v. M.</date> sehr angenehm überrascht. Es ist von
+                    hohem Werthe für mich, daß Ihnen <bibl sameAs="228">meine letzte
+                        Abhandlung</bibl> einiges Interesse eingeflößt hat, u. daß Sie den
+                    Hauptideen Ihre Zustimmung ertheilen. Ew, wissen aus eigner Erfahrung, daß
+                        <del>es</del> man bei <subst>
+                  <del>Arbeiten</del>
+                  <add>allgemeinen Arbeiten</add>
+               </subst> über das Sprachstudium nicht selten
+                    in den Fall kommt, auch über Sprachen reden zu müssen, die man nicht selbst
+                        <add>genau</add> kennt, u. daß man alsdann von seinen Quellen abhängt. So
+                    ist es mir in <bibl sameAs="228">meiner <add>eben erwähnten</add>
+                        Abhandlung</bibl>
+               <del type="fragment">über das A</del> gegangen. Mit dem Armenischen bin ich,
+                    ohne selbst <add>gerade</add> viel Armenisch zu wissen, meiner Behauptungen,
+                    wenn auch in Nebensachen Irrthümer seyn sollten, gewiß, weil die Sache zu klar
+                    in der Sprache daliegt. Von den polynesischen Dialecten habe ich durch eignes
+                    Lesen von Texten sichere Kunde, vom Japanischen glaube ich Alles zu Rathe
+                    gezogen zu haben, was man in Europa gedruckt besitzt. Nur beim Chinesischen
+                    mußte ich mich auf die einzige lebende Quelle beziehen, die ich nahe hatte. Es
+                    ist mir daher sehr angenehm gewesen, mich aus Ew, Briefe über einige irrige
+                    Behauptungen <persName ref="cfneumann">Hrn. Neumann</persName>s<note type="footnote" resp="editor">Carl Friedrich Neumann (1793–1870),
+                        Orientalist.</note> belehren zu können. Ich begreife, wie <persName ref="cfneumann">Hr. Neumann</persName>, indem er einige wirklich
+                    scharfsinnige Conjecturen machte, geglaubt haben kann, Beweise dafür bei <bibl sameAs="499">De Guignes</bibl> u. <bibl sameAs="1063">Morrison</bibl> zu
+                    finden. So sagen beide bei <hi rend="underline">ta</hi>, magnus, grand, great,
+                    bei <hi rend="underline">tai</hi>, summum, très-grand, very great. Ich halte
+                    mich aber dabei <del>nicht <gap quantity="1" unit="chars"/>
+               </del> nicht auf. Die Frage, die mich interessirt, ist: ob die Chinesische
+                    Sprache einen Fall enthält, aus dem es wahrscheinlich wird, daß ein Ortsbegriff
+                        <pb n="112v"/> die etymologische Grundlage eines Pronomen 1. oder 2. Person
+                    gewesen ist? In diese Frage geht leider Ew, Brief gar nicht ein. Sie ist aber
+                    die Hauptfrage bei <bibl sameAs="228">meiner Abhandlung</bibl>. Denn wenn sich
+                    dieselbe bejahen ließe, so wäre ich doch <persName ref="cfneumann">Hrn.
+                        Neumann</persName>, ungeachtet seiner übrigen irrigen Behauptungen <add>u.
+                        Uebersetzungen,</add> für die Mittheilung Dank schuldig, u. so hätte er doch
+                    im Chinesischen etwas Scharfsinniges aufgefunden. Ich muß nun gestehen, daß es
+                    mir noch heute scheint, als sey dieser Fall bei <foreign sameAs="zh">乃</foreign>
+               <foreign sameAs="zh">
+                  <hi rend="underline">nài</hi>
+               </foreign>
+               <add>vorhanden</add>. Denn dieser Charakter u. diese Sylbe bedeutet zugleich das
+                    Pronomen 2. Person u. ist eine Conjunction, in der mir der Begriff von <hi rend="underline">außerhalb</hi>, also ein Ortsbegriff zu liegen scheint. Da
+                    ich mich aber doch in dieser Ansicht irren könnte, so <subst>
+                  <del>läge mir außerordentlich daran,</del>
+                  <add>wäre es mir sehr wichtig,</add>
+               </subst> hierüber durch <del>Hrn.</del>
+                    Ew, u. <persName ref="jpabel">Hrn. Abel-Remusat</persName> belehrt zu werden, u.
+                    ich bitte Sie recht dringend darum. Ich würde dann wünschen, daß Ew, bestimmt
+                    auf folgende <subst>
+                  <del>zwei</del>
+                  <add>drei</add>
+               </subst> Punkte einzugehen die Güte hätten.</p>
+            <p>1. Ew, sagen: <hi rend="underline">nài ist</hi>
+               <hi rend="underline2">niemals</hi>
+               <hi rend="underline">etwas andres, als eine Conjunction oder</hi>
+               <hi rend="underline">
+                  <del type="fragment">Disjunc</del>
+               </hi>
+               <hi rend="underline">Disjunction</hi>, u. nennen es eine paradoxe Meinung, daß
+                    es zuweilen Pronomen sey. Haben Sie dies wirklich in dieser Allgemeinheit
+                    behaupten wollen? oder haben Sie nur die nothwendige Beschränkung <del type="fragment">ve</del> hinzuzufügen vergessen? Ich muß das Letztere
+                    glauben. Denn sonst würden Sie nicht nur <persName ref="cljguignes">De
+                        Guignes</persName> u. <persName ref="rmorrison">Morrison</persName>, sondern
+                    auch <persName ref="jpabel">Hrn. Remusat</persName> (<bibl sameAs="5">Gr. nr.
+                        262.</bibl>) <add>widersprechen,</add> die alle einstimmig <hi rend="underline">nài</hi> als ein Pronomen 2. Personae angeben. Dies genügt
+                    aber, das Wort braucht nicht auch ein Pron. 3. personae zu seyn. In meiner
+                    Abhandlung rede ich sogar immer nur von dem Prono-<pb n="113r"/>men 1. od. 2.
+                    Person.</p>
+            <p>2. Ew, sagen: <hi rend="underline">nài</hi> sey eine Conjunction oder
+                    Disjunction. Bei so genauen Sprachzergliederungen, als von welchen hier die Rede
+                    ist, genügt dies aber nicht. Ich hätte gewünscht, Ew, wären in den speciellen
+                    Sinn dieser Conjunction eingegangen. Ew, übersetzen es <hi rend="underline">also
+                        auch</hi>, Sie nennen es aber auch disjunctiv. Um dies zu vereinigen, möchte
+                    ich an den ursprünglichen Sinn von <hi rend="underline">außerhalb</hi>, <hi rend="underline">draußen</hi> glauben. Denn was man hinzunimmt, <hi rend="underline">auch</hi>, u. was man trennt, <hi rend="underline">aber</hi>, liegt draußen u. abgesondert. Dazu kommt nun noch, was man von
+                    dem Bilde des schwer hervorgehenden Odems sagt. Die Partikel braucht gar nicht
+                    mehr jetzt: <hi rend="underline">außerhalb</hi> zu heißen, und kann doch <del type="fragment">ursp</del> ursprünglich den Sinn gehabt haben.</p>
+            <p>3. Die letzte Frage ist nun: existirt ein wirklicher etymologischer Zusammenhang
+                    zwischen der pronominalen u. der partikelartigen Bedeutung von <hi rend="underline">nài</hi>? Ich kann mich noch jetzt nicht erwehren, an
+                        <add>einen</add> solchen Zusammenhang zu glauben. Ein <hi rend="underline">du</hi> od. <hi rend="underline">ihr</hi>, ist ein Etwas, das man von sich
+                    trennt, oder mit sich verbindet, ein <hi rend="underline">aber</hi>, oder <hi rend="underline">auch</hi>. Schon daß derselbe Laut u. dasselbe
+                    Schriftzeichen diese beiden Bedeutungen hat, ist höchst merkwürdig, u. deutet
+                    auf einen Bedeutungszusammenhang hin. <del>Es scheint mir nicht so
+                        unverdienstlich von <persName ref="cfneumann">Hrn. Neumann</persName>,
+                        darauf aufmerksam gemacht u. eine Erklärung versucht zu haben.</del> Ich
+                    bitte <del>aber</del> Ew, wohl zu bemerken, daß <hi rend="underline">ich</hi>
+                    gar nicht auf die von <persName ref="cfneumann">Hrn. Neumann</persName>
+                    übersetzten Stellen, sondern nur auf die Thatsache gehe, daß <foreign sameAs="zh">乃</foreign>, <foreign sameAs="zh">
+                  <hi rend="underline">nài</hi>
+               </foreign>, zugleich <hi rend="underline">du</hi>, <hi rend="underline">aber</hi>, <hi rend="underline">auch</hi>
+                    heißt.</p>
+            <p>
+               <pb n="113v"/>
+               <note type="footnote" resp="editor">Ab hier Schreiberschrift in
+                        Kurrent.</note>
+               <handShift scribe="Schreiber"/> Was übrigens den <hi rend="antiqua">
+                  <persName ref="cfneumann">Professor Neumann</persName>
+               </hi> selbst betrifft,
+                    so stehe ich mit ihm durchaus in keiner näheren Verbindung<add>,</add> achte ihn
+                    aber sehr als einen Mann von glücklichen Geistes Gaben<add>,</add> schätzbaren
+                    Kenntnissen und <subst>
+                  <del>einen</del>
+                  <add>
+                     <handShift scribe="wvh"/> einem</add>
+               </subst>
+               <handShift scribe="Schreiber"/> aufopfernden Eifer<add>,</add> den Kreis
+                    derselben zu erweitern. In <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> hat er durch<add>
+                  <handShift scribe="wvh"/> aus</add>
+               <handShift scribe="Schreiber"/> nicht <persName ref="jpabel">Herrn <hi rend="antiqua">Abel-Remusats</hi>
+               </persName> Verdienste zu schmälern
+                        gesucht<add>,</add> sondern von diesem trefflichen Manne gegen mich und
+                    andere mit gebührender Achtung gesprochen. Wieviel <hi rend="antiqua">Chinesisch</hi> er weiß<add>,</add> kann ich nicht beurtheilen. <hi rend="antiqua">Armenisch</hi> mag er nicht genau genug kennen<add>,</add> um
+                    ohne fremden Rath<add>,</add> in der Sprache drucken zu lassen<add>,</add>
+                        wozu<add>,</add> namentlich zur Worttheilung mit <hi rend="antiqua">philologischer</hi> Genauigkeit in allen Sprachen viel gehört; daß er aber
+                    eine gute Kenntniß der Sprache besitzt<add>,</add> habe ich daraus
+                        gesehen<add>,</add> daß er in <hi rend="antiqua">Armenischen</hi>
+                        Büchern<add>,</add> welche keine Übersetzung bei sich haben<add>,</add> mit
+                    Geläufigkeit die Stellen<add>,</add> worauf es ankommt<add>,</add> auffindet und
+                    übersetzt. Man hat ihn seit seinem Weggehen von hier <subst>
+                  <del>wirklich</del>
+                  <add>
+                     <handShift scribe="wvh"/> beinahe</add>
+               </subst>
+               <handShift scribe="Schreiber"/> verfolgt. Ich nenne <pb n="114r"/> dies darum
+                        so<add>,</add> weil man sich nicht begnügt hat von ihm begangene
+                    wissenschaftliche Irrthümer zu berichtigen<add>,</add> sondern mehr oder weniger
+                    persönliche Angriffe auf ihn gemacht hat. <persName ref="cfneumann">Herr <hi rend="antiqua">Neumann</hi>
+               </persName> hat sich geraume Zeit in <hi rend="antiqua">
+                  <placeName ref="Venedig">Venedig</placeName>
+               </hi> aufgehalten um <hi rend="antiqua">Armenisch</hi> zu lernen und macht jetzt für das <hi rend="antiqua">Chinesische</hi> und andere <hi rend="antiqua">Asiatische</hi> Sprachen eine mühselige Reise<note type="footnote" resp="editor">Neumann reiste 1830/31 nach China, wo es ihm gelang, ca.
+                        12.000 chinesische Bücher zu erwerben und diese (deklariert als "Papier")
+                        mit nach Europa zu bringen. Siehe u.a. Hartmut Walravens (1999): Zur
+                        Geschichte der Ostasienwissenschaften in Europa, Wiesbaden: Harrassowitz, S.
+                        176f. (Nachruf der Tochter, Emma Neumann, in der <hi rend="italic">Allgemeinen Zeitung</hi>, Beilage März 1870, 111/112, S. 1737–1739,
+                        1754–1756.). [FZ]</note>. Daß dies keine Brotstudien sind, weiß Jedermann.
+                    Anstatt ihm aber dies als Verdienst anzurechnen<add>,</add> hat man ihn ohne
+                    allen Grund absichtlicher Verfälschungen beschuldigt, von seiner Eitelkeit und
+                    seinen Anmaßungen gesprochen und <subst>
+                  <del>bei mehreren Gelegenheiten</del>
+                  <add>
+                     <handShift scribe="wvh"/> sogar hier und dann</add>
+               </subst>
+               <handShift scribe="Schreiber"/> seines Jüdischen Ursprungs erwähnt. Dies
+                    letztere hat man nicht gethan<add>,</add> um es ihm zum Verdienste zu schätzen
+                    daß er sich in einer Nation<add>,</add> welcher es die Christen schwer machen
+                    sich hervorzuthun<add>,</add> durch vorzüglichere Kenntnisse ausgezeichnet
+                        hat<add>,</add> sondern gerade um ihn auf eine Weise<add>,</add> über die
+                    man doch endlich in unserer Zeit hinweg sein sollte<add>,</add> herabzusetzen. <subst>
+                  <del>Alle diese</del>
+                  <add>Diese</add>
+               </subst> Angriffe sind gegen ihn erst zu einer Zeit
+                    gerichtet worden<add>,</add> wo <pb n="114v"/>
+               <sic>wo</sic> er abwesend war und sich nicht selbst vertheidigen konnte. Diese
+                        <del>beiden letzteren</del> Umstände <del>vorzüglich</del> haben allen
+                    billigen u partheilosen Urtheilern mißfallen müssen<add>,</add> und daher ist es
+                    denn gekommen, daß auch diejenigen auf <persName ref="cfneumann">Herrn <hi rend="antiqua">Neumanns</hi>
+               </persName> Seite getreten sind<add>,</add>
+                    welche übrigens Irrthümer <subst>
+                  <del>hier</del>
+                  <add>die er</add>
+               </subst> begangen haben kann<add>,</add> nicht in Schutz
+                    nehmen. Ich namentlich habe längst vor allen diesen Angriffen die Meinung
+                        gesagt<add>,</add> daß er sich im <hi rend="antiqua">Chinesischen</hi> nicht
+                    immer auf ganz sicherem Grunde befände u habe ihn veranlaßt<add>,</add> auch in <subst>
+                  <del>seinen Behauptungen</del>
+                  <add>seiner Arbeit</add>
+               </subst> über den Gegenstand <bibl sameAs="228">meiner Abhandlung</bibl> von einigen mir zu gewagt scheinenden Behauptungen
+                    zurückzugehen.</p>
+            <p>Ich bin gegenwärtig wieder ganz mit Untersuchungen über den <hi rend="antiqua">Malayischen</hi> Sprachstamm beschäftigt<note type="footnote" resp="editor">D.h. den Vorarbeiten zum <bibl sameAs="227">Kawi-Werk</bibl>. [FZ]</note>,
+                    und habe besonders über die Sprache <hi rend="antiqua">Madagascars</hi> vieles
+                    aufgefunden, was durchaus neu erscheinen wird.</p>
+            <closer>
+               <salute>Empfangen Euer Hochwohlgeboren die Versicherung meiner ausgezeichneten
+                        Hochachtung.</salute>
+               <lb/>
+               <pb n="115r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

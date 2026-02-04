@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 24.11.1824<idno type="BBAW">741</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 138–140</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11823</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="maberenger">
+                  <persName>Béranger, Marie-Anne Comtesse de, geb. Comtesse de
+                    Lannoy, verw. Duchesse de Châtillon</persName>
+               </person>
+               <person corresp="plblacasdaulps">
+                  <persName>Blacas d’Aulps, Pierre Louis Jean Casimir Duc
+                    de</persName>
+               </person>
+               <person corresp="clbuch">
+                  <persName>Buch, Christian Leopold von</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="frchateaubriand">
+                  <persName>Chateaubriand, François-René de</persName>
+               </person>
+               <person corresp="jfcotta">
+                  <persName>Cotta von Cottendorf, Johann Friedrich Freiherr</persName>
+               </person>
+               <person corresp="vcousin">
+                  <persName>Cousin, Victor</persName>
+               </person>
+               <person corresp="cduras">
+                  <persName>Duras, Claire Duchesse de</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="kbhase">
+                  <persName>Hase, Karl Benedikt</persName>
+               </person>
+               <person corresp="sawherder">
+                  <persName>Herder, Sigismund August Wolfgang von</persName>
+               </person>
+               <person corresp="fjmraynouard">
+                  <persName>Raynouard, François-Juste-Marie</persName>
+               </person>
+               <person corresp="eflrobert">
+                  <persName>Robert, Ernst Friedrich Ludwig</persName>
+               </person>
+               <person corresp="frobert">
+                  <persName>Robert, Friederike, geb. Braun</persName>
+               </person>
+               <person corresp="gschlabrendorf">
+                  <persName>Schlabrendorf, Gustav Graf von</persName>
+               </person>
+               <person corresp="jcspurzheim">
+                  <persName>Spurzheim, Johann Caspar</persName>
+               </person>
+               <person corresp="astich">
+                  <persName>Stich, Auguste</persName>
+               </person>
+               <person corresp="wstich">
+                  <persName>Stich, Wilhelm</persName>
+               </person>
+               <person corresp="cmtalleyrand">
+                  <persName>Talleyrand-Périgord, Charles-Maurice de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1270">Humboldt, Alexander von (1807): Ideen zu einer Geographie der
+                    Pflanzen nebst einem Naturgemälde der Tropenländer: auf Beobachtungen und
+                    Messungen gegründet, welche vom 10ten Grade nördlicher bis zum 10ten Grade
+                    südlicher Breite, in den Jahren 1799, 1800, 1801, 1802 und 1803 angestellt
+                    worden sind, Tübingen: Cotta</bibl>
+               <bibl corresp="1268">Raynouard, François-Juste-Marie (1816–1821): Choix de poésies
+                    originales des troubadours, 6 Bände, Paris: Didot</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Je t’écris ces lignes, contre ma coutume, avec la poste,
+                        cher ami, pour effacer la mauvaise impression …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1824-11-24"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="oc">Okzitanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p> Je t’écris ces lignes, contre ma coutume, avec la poste, cher ami, pour effacer
+                    la mauvaise impression que pourraient te laisser les mensonges des gazettes. Le
+                        <persName ref="sawherder">Berghauptmann Herder</persName> a passé par
+                        <placeName ref="Lüttich">Liège</placeName> pour venir ici, on l’a pris pour
+                    moi et les journaux de la Belgique ont dit que j’avais assisté à un cours de
+                    minéralogie à <placeName ref="Lüttich">Liège</placeName>. Le Journal des Débats
+                    a relevé le mensonge et ajouté que j’ai si peu voyagé, que je suis heureusement
+                    guéri depuis peu d’une indisposition assez grave. Je n’ai jamais été malade,
+                    j’ai eu un gros rhume avec un peu de Schnupfenfieber, effet d’un refroidissement
+                    nocturne pour aller en diligence, à 18 lieues d’ici, voir <persName ref="maberanger">Madame de Béranger, l’ancienne Duchesse de
+                        Chatillon</persName>, à sa campagne près Mondidier, femme spirituelle, avec
+                    laquelle je suis très lié. J’ai été alité deux jours et pour me délivrer de
+                    l’importunité des invitations qui me tuent ici, j’ai refusé pendant 15 jours
+                    sous le prétexte d’indisposition. Voilà le vrai de l’histoire et cela ne devrait
+                    pas occuper le public dans un moment où tout <placeName ref="Paris">Paris</placeName> n’est occupé que du mariage de <persName ref="fw3">notre
+                        Roi</persName> et l’arrestation de <persName ref="vcousin">M.
+                        Cousin</persName>. J’ai cru devoir me hâter de t’écrire, pour que tu ne
+                    penses pas que ma santé commence à se délabrer. Je suis au contraire très fort
+                    et très bien portant, aux éternelles indigestions près. <persName ref="clbuch">Buch</persName> est arrivé ici de <placeName ref="Genua">Gènes</placeName>
+                    et de <placeName ref="Nizza">Nice</placeName>, plus intolérant et bizarre que
+                    jamais: mais comme c’est un puits de science, je profite beaucoup de lui pour la
+                    nouvelle édition de <bibl sameAs="1270">ma Géografie</bibl>, que je voudrais
+                    vendre pour 40,000 francs les deux volumes.<note type="footnote" resp="editor">Siehe die <ref type="linkExt"
+                       target="https://edition-humboldt.de/themen/detail.xql?id=H0016428&amp;l=de">deutsche Ankündigung der „Geographie der Pflanzen nach der
+                        Vergleichung der Erscheinungen, welche die Vegetation der beiden Festlande
+                        darbietet“</ref> aus dem Jahr 1826. Dieses Projekt wurde nicht realisiert: siehe den Artikel von
+                        Ulrich Päßler (2018) in: <ref type="linkExt"
+                       target="http://www.hin-online.de/index.php/hin/article/view/269/495">HiN
+                            Bd. 19, Nr. 36</ref>. [FZ]</note> Je tâche de faire cette affaire avec
+                        <persName ref="jfcotta">Cotta</persName>, qui cependant ne m’a pas encore
+                    donné une réponse positive. Cela relèverait mes finances: les libraires d’ici
+                    sont misérables. <persName ref="clbuch">Buch</persName> est sans doute un grand
+                    observateur, mais c’est un grand mal qu’il ne fait plus de collections, de sorte
+                    qu’il ne peut rien montrer aux autres, pour les convaincre, ni comparer lui même
+                    ce qu’il a eu anciennement. Je t’enverrai par lui (si je ne trouve pas une autre
+                    occasion) la première lettre de <persName ref="jfchampollion">Champollion</persName> à <persName ref="plblacasdaulps">M. de
+                        Blacas</persName>. Ce dernier a mis 100,000 francs à la disposition de
+                        <persName ref="jfchampollion">Champollion</persName> pour acheter des
+                    manuscrits et monumens égyptiens qui peuvent avancer les recherches et dont la
+                    propriété sera à la fin à <persName ref="plblacasdaulps">M. de
+                    Blacas</persName>. Cela est assez grandiose, il a donné aussi 40,000 frcs. à
+                        <persName ref="fjmraynouard">Raynouard</persName> pour <bibl sameAs="1268">l’édition des Troubadours</bibl>. <persName ref="kbhase">Hase</persName> a
+                    enfin grand espoir d’être nommé à <orgName ref="26">l’Académie des
+                        inscriptions</orgName>: il est très savant et complaisant, mais l’imbécilité
+                    de son extérieur augmente beaucoup. Nous avon eu ici <persName ref="eflrobert">Robert</persName> et <persName ref="frobert">sa femme</persName> dont on a
+                    beaucoup admiré le talent musical. La mort de <persName ref="wstich">M.
+                        Stich</persName> a fait beaucoup de sensation ici, <persName ref="cmtalleyrand">M. de Talleyrand</persName> ayant comblé de politesse
+                        <persName ref="astich">la femme</persName> et le mari. Je t’avoue aussi que
+                        <persName ref="astich">la femme</persName> a eu un grand charme pour moi: je
+                    l’ai vue souvent. <persName ref="frchateaubriand">L’homme de
+                        Jérusalem</persName> est toujours dans son incarnation libérale, il fait des
+                    gestes énormes pour rentrer: je crois que cela ne réussira pas.</p>
+            <p>Adieu, cher cher ami: J’espère pouvoir procurer à <persName ref="cvh1">la
+                        Li</persName> le buste de ce bon <persName ref="gschlabrendorf">Schlabrendorf</persName> qui est mort pendant une absence que j’avais faite
+                    chez <persName ref="cduras">Mad. de Duras</persName> à la campagne. <persName ref="jcspurzheim">Spurzheimer</persName> l’a très bien soigné: er ist
+                    eigentlich im Schmutz verkommen. Il n’ouvrait pas de fenêtre, ne sortait pas à
+                    la rue depuis 9 ans, gardait ses excrémens 2 jours dans sa chambre, ne mangeait
+                    par bizarrerie que de fruits, ne portait pas de chemise depuis trois ans et ne
+                    se lavait jamais. <persName ref="jcspurzheim">Spurzheimer</persName> l’avait
+                    pour cela conduit dans une maison de santé (proprement chez un médecin qui vit
+                    près des barrières) il l’avait baigné et lui avait fait faire des chemises – ce
+                    qui lui avait fait du bien: mais trop tard. Il a peu souffert et ne se croyait
+                    pas très mal.</p>
+            <closer>
+               <salute>Mille tendres amitiés.</salute>
+               <signed>A.
+                        Humboldt.</signed>
+               <lb/>
+               <dateline>Paris ce 24.
+                    Nov.<lb/>1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

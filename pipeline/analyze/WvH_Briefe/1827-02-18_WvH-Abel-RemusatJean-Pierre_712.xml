@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Jean-Pierre Abel-Rémusat, 18.02.1827<idno type="BBAW">712</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Mantes-la-Jolie, Archives
+                            Communales, Sous-série 3 S, Collection Clerc de Landresse, Inv.-Nr.
+                            1904</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Rousseau/Thouard 1999, S. 241f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="202">Humboldt, Wilhelm von (1827): Lettre à Monsieur Abel Rémusat, sur
+                    la nature des formes grammaticales en général, et sur le génie de la langue
+                    Chinoise en particulier, Paris: Dondey-Dupré</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, A, / Mon frère m’a envoyé les feuilles qui sont
+                        imprimées jusqu’àprésent de ma lettre sur la langue Chinoise, mais je ne
+                        puis attendre la fin de l’ouvrage, … </ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1827-02-18"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpabel">Abel-Rémusat, Jean-Pierre</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="zh">Chinesisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. Januar 2020</item>
+            <item n="status"/>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>
+               <persName ref="avh">Mon frère</persName> m’a envoyé les feuilles qui sont
+                        imprimées<note type="footnote" resp="editor">Vgl. den <ref type="link" target="857">Brief von Abel-Rémusat
+                        an Alexander von Humboldt vom 19. Januar 1827</ref>. [FZ]</note> jusqu’àprésent de
+                    <bibl sameAs="202">ma lettre sur la langue Chinoise</bibl>, mais je ne puis attendre la fin de l’ouvrage,
+                    avant de Vous présenter, Monsieur, mes vifs et sincères remercîmens des soins
+                    que Vous avez bien voulû lui vouer. Vous lui avez rendû un double service. Vous
+                    avez corrigé, dans un très-grand nombre d’endroits, le style &amp; avez redressé
+                    des phrases incomplettes, louches, &amp; mal tournées, &amp; Vous avez ajouté à
+                    mon texte des notes d’un mérite inappréciable pour la science. J’ai examiné avec
+                    soin tous les changemens que Vous avez faits à mon manuscrit, et ce travail a
+                    été, on ne peut pas plus, instructif pour moi. J’ai vû avec le plus grand
+                    intérêt, de quelle manière Vous avez sû donner, en ne corrigeant pour la plûpart
+                    que deux ou trois mots seulement, ou plus de clarté ou plus de précision à mes
+                    phrases, &amp; j’ai fait des observations extrêmement utiles sur le degré &amp;
+                    l’espèce même de clarté qu’on exige <pb n="2*"/> dans les deux langues l’Allemande &amp; la
+                    Françoise. Car il ne faut point se faire illusion. Même en pensant, lorsqu’on
+                    écrit dans une langue étrangère, dans cette langue seulement, on ne se défait
+                    jamais entièrement des habitudes de sa langue maternelle sans un exercice
+                    continuel. J’ai eû réellement de la difficulté à exprimer en Français quelques
+                    unes des idées de ma lettre, et si le lecteur se ressent moins de l’embaras que
+                    cela m’a causé, ce n’est qu’à Vous, Monsieur, qu’il en sera redevable. Quant à
+                    Vos notes je les ai lues &amp; relues, &amp; j’en ferai une étude particulière,
+                    lorsque je les posséderai en entier. La fin de la 8<hi rend="superscript">me</hi> feuille me laisse au
+                    milieu d’une des discussions les plus intéressantes. Je continue toujours à me
+                    convaincre de plus en plus, que l’étude du Chinois &amp; du Sanscrit, c’est à
+                    dire des deux langues qui forment, pour ainsi dire, les Colonnes d’Hercule ou
+                    vers les deux poles du langage, est ce qu’il y a de plus important pour la
+                    comparaison philosophique des langues, et Vos notes jointes à ma lettre
+                    contribueront puissamment à fixer les différens points de vue desquels on peut
+                    envisager la différence &amp; je dirai même le contraste de <pb n="3*"/> ces deux langues. J’aurois gagné
+                    en ne présentant au Public que des idées rectifiées, &amp; il auroit sous ce
+                    rapport mieux valû que j’eusse pû réfondre mon petit ouvrage sur Vos notes avant
+                    l’impression tout en indiquant la source à laquelle j’aurois puisé. Mais j’avoue
+                    que mon amour propre attache plus de prix à l’avantage de <del>p<gap quantity="2" unit="chars"/>
+               </del> voir, comme
+                    cela est le cas àprésent, mon nom associé au Vôtre. Je crois aussi que les
+                    lecteurs et l’intérêt de la discussion gagnent plus par la rédaction actuelle.
+                    Partout où il existe une certaine divergence d’opinions il vaut infiniment mieux
+                    de voir les deux opinions exposées dans toute leur force &amp; toute leur
+                    rigueur que d’en venir d’abord à un terme moyen. Je ne fais pas difficulté
+                    d’avouer, que si je n’avois pas eû l’intention de provoquer la discussion,
+                    j’aurois énoncé mon jugement sur le Chinois d’une manière moins tranchée &amp;
+                    moins décisive. Je suis au reste après avoir lû Vos 20. premières notes,
+                    persuadé que la cause de la différence de nos sentimens, Monsieur, ne se trouve
+                    pas tant dans notre manière de regar-<pb n="4*"/>der le Chinois que dans les idées générales sur la
+                    perfection du langage et qu’il ne seroit pas aussi difficile qu’il paroit au
+                    premier abord, de nous réunir aussi sur ce point. </p>
+            <closer>
+               <salute>Veuillez en tout cas,
+                    Monsieur, agréer mes remercîmens réitérés des peines que Vous avez voulû prendre
+                    pour mon opuscule ainsi que l’assurance bien sincère de ma considération la plus
+                    distinguée.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Berlin, ce 18. Février, 1827.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>à Mr. Abel-Rémusat à Paris.</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

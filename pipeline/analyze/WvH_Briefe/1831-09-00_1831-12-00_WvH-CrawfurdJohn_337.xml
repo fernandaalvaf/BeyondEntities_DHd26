@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 11. Dezember 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Crawfurd, September bis Dezember 1831, Datierung
+                        unklar<idno type="BBAW">337</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 131</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Humboldt 2017, S. 605f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 220</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="cvidua">
+                  <persName>Vidua, Carlo</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="58">Brata Yudha</bibl>
+               <bibl corresp="99">Crawfurd, John: Drei Wörterbücher des Javanischen: Englisch –
+                    Javanisch, Javanisch – Englisch, Javanisch – Javanisch [Manuskript]</bibl>
+               <bibl corresp="850">Vidua, Carlo: Inscriptiones antiquae a comite Carolo Vidua in
+                    Turcico itinere collectae (Paris: Dondey-Dupré 1826)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Votre lettre du 28. Aout, accompagnée de deux
+                        Dictionnaires Javonois manuscrits m’est parvenue presqu’ immédiatement après
+                        mon séjour des bains de mer de Norderney …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="editor" from="1831-09-01" to="1831-12-31"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jcrawfurd">Crawfurd, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="244" type="prev">28.08.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändiger Briefentwurf</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="en">Englisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">11. Dezember 2014</item>
+            <item n="status">In Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-09-00_1831-12-00/Coll.ling.fol.53_267.jpg"/>
+      <graphic url="Crawfurd/WvH-Crawfurd_1831-09-00_1831-12-00/Coll.ling.fol.53_268.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="131r"/>
+               <address>
+                  <addrLine>M<hi rend="superscript">r</hi>. Crawfurd.</addrLine>
+               </address>
+               <lb/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>
+               <ref type="link" target="244">Votre lettre</ref> du <date when="1831-08-28">28. Aout</date>, accompagnée des deux
+                    Dictionnaires Javanois manuscrits<note type="footnote" resp="editor">Humboldt
+                        spricht selbst in der <hi rend="italic">Wortvergleichung der malayischen
+                            Sprachen</hi> in <hi rend="italic">Über die Kawi-Sprache auf der Insel
+                            Java</hi> (Seite 231) von drei handgeschriebenen Wörtbüchern zum
+                        Javanischen und zu den Kawi-Wörtern, die Crawfurd Humboldt zur Verfügung
+                        gestellt hatte.</note> m’est parvenue presqu’immédiatement après mon retour
+                    des bains de mer de <placeName ref="Norderney">Norderney</placeName>, et je suis
+                    pénétré de reconnoissance de la bonté et de la promptitude avec laquelle Vous
+                    continuez, Monsieur, à fournir des secours aussi précieux à mes recherches.</p>
+            <p>Votre <bibl sameAs="99">dictionnaire</bibl> <subst>
+                  <del>Javanois-<gap quantity="2" unit="chars"/>
+                  </del>
+                  <add>Javanois-Anglois</add>
+               </subst> forme la base de mon
+                    travail. Il me met en possession d’un grand nombre de mots, je l’ai
+                    journellement entre les mains et je commence à comprendre le <bibl sameAs="58">Brata Yudha</bibl> depuis que je le consulte. Il est infiniment à plaindre
+                    que dans beaucoup d’endroits l’encre rouge s’est effacée de maniere que
+                    l’écriture malgré l’usage de lunettes et de loupes en reste presqu’ ou
+                    entièrement illisible. Je me sers moins du Dict. purement Javanois, il y a
+                    cependant des cas douteux dans lesquels il me sert également. Je ne manque pas
+                    de faire attention aux marques de croix du jeune Javanois, mais ce que Vous en
+                    dites, Monsieur, est parfaitement vrai; j’ai rencontré des mots marqués par lui
+                    dont on ne peut pas douter qu’ils ont eû en Kavi la signification que Vous leur
+                    assignez.</p>
+            <p>Mon travail avance, mais lentement, la vérification d’un seul mot exige
+                    quelquefois une heure de recherches. Le texte du <bibl sameAs="58">B. Y.</bibl> donné par <persName ref="tsraffles">M<hi rend="superscript">r</hi>. Raffles</persName> est
+                    certainement incorrect en plus d’un endroit, la <del type="fragment">divi</del>
+                    séparation des mots est très souvent fautive et l’orthographe n’indique pas avec
+                    précision les caractères Javanois de l’Original. Je serois donc infiniment
+                    heureux de pouvoir obtenir par Vos bontés un Manuscrit du <bibl sameAs="58">Brata
+                        Yudha</bibl>.</p>
+            <p>Je dirigerai mon attention sur l’ouvrage Italien dont <pb n="131v"/> Vous me
+                    parlez. Si je Vous comprends bien, c’est à <placeName ref="London">Londres</placeName> qu’il va être publié. <persName ref="cvidua">Le Comte
+                        Vidua</persName> est peut-être le même qui a publié en 1826. à <placeName ref="Paris">Paris</placeName> un <bibl sameAs="850">volume d’Inscriptions
+                        receuillies pendant un voyage en Turquie</bibl>.<note type="footnote" resp="editor">Da Vidua bereist 1830 starb, kam es wahrscheinlich nicht mehr
+                        zu einer Veröffentlichung des in Crawfurds Brief genannten Textes. Die
+                        Beschreibung einer Reise Viduas nach Neu-Guinea wurde erst im Jahr 2003
+                        veröffentlicht: Marisa Viaggi Bonisoli (Hrsg.): <hi rend="italic">Carlo
+                            Vidua. Narrazione viaggio alla Nuova Guinea 1830; Vidua’s travel tale to
+                            New Guinea 1830</hi>, Turin: Manzoni 2003. [FZ]</note>
+            </p>
+            <p>Veuillez me permettre, Monsieur, de Vous <del type="fragment">réitér</del>
+                    exprimer encore une fois ma vive et sincère reconnoissance. Je crois Vous avoir
+                    témoigné déjà lors de mon séjour à <placeName ref="London">Londres</placeName>,
+                    combien je savois apprécier l’avantage de Vous être connû; mais je n’aurois
+                    jamais espéré alors d’être honoré par Vous de preuves aussi marquantes de bonté
+                    et d’intérêt.</p>
+            <closer>
+               <salute>J’ai l’honneur d’être avec la considération la plus distinguée,
+                        <lb/>Monsieur, <lb/>Votre</salute>
+               <lb/>très-humble et très-obéissant
+                    serviteur,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

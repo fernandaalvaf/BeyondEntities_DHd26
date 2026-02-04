@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 30. April 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 01.04.1820<idno type="BBAW">731</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S.
+                            72–75</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11599</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="abasmirza">
+                  <persName>Abbas Mirsa, Iran, Kronprinz</persName>
+               </person>
+               <person corresp="asouza">
+                  <persName>Asouza, Madame d’</persName>
+               </person>
+               <person corresp="clbuch">
+                  <persName>Buch, Christian Leopold von</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="kfhgoltz">
+                  <persName>Goltz, Karl Friedrich Heinrich Graf von der</persName>
+               </person>
+               <person corresp="hrahim">
+                  <persName>Hadji Rahim</persName>
+               </person>
+               <person corresp="phumblot">
+                  <persName>Humblot, Peter</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="dfkoreff">
+                  <persName>Koreff, David Ferdinand</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="jhminutoli">
+                  <persName>Minutoli, Johann Heinrich Menu von</persName>
+               </person>
+               <person corresp="joltmanns">
+                  <persName>Oltmanns, Jabbo</persName>
+               </person>
+               <person corresp="aisacy">
+                  <persName>Sacy, Antoine Isaac, Baron Silvestre de</persName>
+               </person>
+               <person corresp="msfschoell">
+                  <persName>Schöll, Maximilian Samson Friedrich</persName>
+               </person>
+               <person corresp="csteuben">
+                  <persName>Steuben, Carl von</persName>
+               </person>
+               <person corresp="bfetauentzien">
+                  <persName>Tauentzien, Bogislav Friedrich Emanuel von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="64">Buch, Leopold von: Physicalische Beschreibung der Canarischen
+                        Inseln (Berlin: Akademie der Wissenschaften 1825)</bibl>
+               <bibl corresp="856">Journal des débats [frz. Zeitung] (Paris: 1789–1944)</bibl>
+               <bibl corresp="380">Sacy, Antoine Isaac Silvestre de: Chrestomathie arabe, ou
+                        Extraits des divers écrivains arabes tant en prose qu’en vers (Paris:
+                        L’Imprimerie Impériale 1806)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Mille remercîmens, cher ami, de tes deux aimables lettres …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1820-04-01"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="nah">Aztekisch (Mexicanisch, Nahuatl)</language>
+            <language ident="oto">Otomi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">30. April 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p> Mille remercîmens, cher ami, de tes deux aimables lettres. J’ai beaucoup ri du
+                    dîner et je ne le crois pas accidental. Ce n’est qu’avec un changement total
+                    dans la marche des affaires qu’un nouveau Ministère pourrait aller de toute
+                    autre manière, ce ne serait qu’augmenter les entraves. L’expression dont tu te
+                    sers, cher ami, qu’il y avait moins de disharmonie dans les <hi rend="letterspace">principes</hi> que dans la marche de l’administration,
+                    m’a presque fait de la peine. Depuis les eaux de <placeName ref="Karlsbad">Carlsbad</placeName> ce sont justement ces principes que l’on fuit presque
+                    dans la totalité de l’Europe et qui commencent à ôter même à ce pays la
+                    tranquillité dont on jouissait, que je déplore. On agite à force de dire qu’on
+                    est agité. Cela me rappelle ces médecins qui, après avoir donné force d’exciter,
+                    s’étonnent que le malade a le sang enflammé. Je n’ai point oublié ta question
+                    sur le <hi rend="italic">x</hi> mexicain: comme les Indiens prononcent les noms
+                    des villes à peu près comme les blancs et que ceux-ci ont cru peindre la
+                    prononciation mexicaine non par ks mais par un jota ou <hi rend="italic">x</hi>,
+                    je penserais que les Aztèques auraient dit Mejico, si le mot avait existé de
+                    leur tems. J’avoue que malheureusement je n’y ai pas réfléchie dans le pays,
+                    mais avec le courrier prochain je te donnerai quelque notion plus exacte. Je
+                    vais consulter <persName ref="asouza">Mad. d’Asouza</persName>
+               <!-- nicht gefunden! ??? --> qui est Mexicaine et doit avoir eu des domestiques
+                    Indiens. Que Dieu veuille qu’ils n’ayent pas été Otomits. Avec le courrier
+                    prochain tu auras aussi ce précieux <bibl sameAs="17">livre sur les langues de
+                        l’Amérique sept.</bibl>. le meilleur qu’on ait fait et dont j’ai tant de
+                    peine à me séparer. Aujourd’hui je t’envoye un livre très curieux que j’ai
+                    acheté d’après tes ordres pour 24. fr. (Tu m’as écrit d’acheter tout ce qui a
+                    rapport aux langues.) C’est un des livres les plus savans et des plus sûrs qui
+                    aient paru depuis 30 ans. Il est judicieusement fait et prouve qu’outre les
+                    langues il n’y a pas grand chose à récolter sur ce prétendu plateau. Je t’ai
+                    placé des signes et quoique les idées générales soyent peu philosophiques
+                    (beaucoup de <hi rend="letterspace">conventionel</hi>) je pense que ce livre
+                    feuilleté par toi, te fera naître beaucoup d’idées. Tu ne me parles pas de la
+                    santé de la chère <persName ref="cvh1">Li</persName>, ce qui me fait penser que
+                    cela va un peu mieux. Comme j’ai gagné un peu d’argent je fais en ce moment
+                    achever pour toi mon grand portrait en pié.<note type="footnote" resp="editor">Gemeint ist das von <persName ref="csteuben">Carl von Steuben</persName> im
+                        Jahr 1812 begonnene und erst 1820 fertiggestellte Gemälde; siehe Halina
+                        Nelken (1980): <hi rend="italic">Alexander von Humboldt. Bildnisse und
+                            Künstler. Eine dokumentierte Ikonographie</hi>, Berlin: Riemer, S.
+                        80–83, mit Abb. auf S. 82. Das Bildnis ist wohl 1945 verbrannt. [FZ]</note>
+                    Il partira je pense dans un mois et j’espère que ce petit cadeau Vous fera
+                    plaisir. Le tableau me représente en 1803 et la ressemblance est de cette
+                    époque. A présent les neiges du fond du tableau commencent à couvrir le devant.
+                    Je grisonne, je blanchis, pour le dire plus directement. Ecris-moi quelque chose
+                    sur <persName ref="clbuch">Buch</persName> (pourquoi son <bibl sameAs="753">livre des Canaries</bibl>, que j’attends comme le Messie, ne paraît pas?)
+                    Ecris-moi sur le voyage du <persName ref="jhminutoli">G<hi rend="superscript">l</hi> Menu</persName> en Egypte. Ce général va te donner 36 francs
+                    pour une <bibl sameAs="380">Chrestomathie Arabe</bibl> que je lui ai envoyée et
+                    que je te mettrai ici en compte. Je te jure que cela sera la <hi rend="letterspace">dernière fois</hi> que je t’incommoderai ainsi. J’ai
+                    chargé <persName ref="phumblot">M. Humblot</persName> de quelques livres, que tu
+                    voudras bien m’envoyer par le courrier de <persName ref="kfhgoltz">Goltz</persName> par petits paquets. J’ai vu hier le <persName ref="bfetauentzien">G<hi rend="superscript">l</hi> Tauentzien</persName> qui
+                    revenait tout effrayé d’une Séance de la Chambre des Députés. Il en avait le mal
+                    de mer comme les Ministres et tous ceux qui voyent pour la première fois cette
+                    mer et ces orages politiques. Cette arrivée du Général ruine ce pauvre <persName ref="kfhgoltz">Goltz</persName>, il en est au second dîner. C’est le cas de
+                    dire comme le Conservateur qui répète sans cesse: "où allons-nous?". Je fais des
+                    démarches pour faire nommer <persName ref="kskunth">Kunth</persName> de <orgName ref="3">l’Académie de Berlin</orgName>, membre, non correspondant. Tu
+                    m’avais fait nommer <persName ref="joltmanns">Oltmanns</persName>, tout ce que
+                    j’ai eu de bien dans ce monde, je l’ai par toi. Tâche de nous aider un peu cette
+                    fois-ci. Nous avons eu ici (hier) un nouvel échantillon de l’éloquence française
+                    de <persName ref="msfschoell">M. Schöll</persName>, une lettre dans <bibl sameAs="856">le journal des Débats</bibl> sur une nouvelle absurde qu’on a
+                    oublié il y a 3 mois<!-- lettre nicht gefunden -->. On a ri de l’àpropos et du
+                    style de marais. <persName ref="msfschoell">M. S.</persName> engage sa parole
+                    pour prouver que c’est une <hi rend="letterspace">historiette</hi>. Comme j’ai
+                    été dans cette lettre moins prudent qu’à l’ordinaire je vais ajouter encore la
+                    question de savoir si <persName ref="msfschoell">Schöll</persName> et <persName ref="dfkoreff">Koref</persName> (Dii minorum gentium) vivent très éloignés
+                    de ta famille? Mes assertions doivent se mesurer sur les tiennes. Dis-moi
+                    comment ils ont été pour toi. Dis-moi aussi si <persName ref="hbuelow">Bülow</persName> viendra encore au comble de son désir, de s’approcher de
+                    toi. Dis-moi tout cela si tu le crois convenable. Mille tendres et tendres
+                    amitiés.</p>
+            <closer>
+               <signed>A. Humboldt.</signed>
+               <lb/>
+               <dateline>Paris ce 1. Avril 1820.</dateline>
+            </closer>
+            <postscript>
+               <p>Un Persan doit être facile à trouver à <placeName ref="Berlin">Berlin</placeName>. Je te prie de faire donner cette lettre à <persName ref="hrahim">Hadji Rahim</persName>
+                  <!-- Person? --> qui viendra à <placeName ref="Berlin">Berlin</placeName>,
+                        de <placeName ref="Wien">Vienne</placeName> avec des Shawls. Peut-être n’est
+                        il point encore arrivé. Un agent du <persName ref="abasmirza">Prince
+                            Impérial Abas Mirza</persName> (agent que nous avons ici et qui m’est
+                        très utile) m’a donné cette lettre. </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

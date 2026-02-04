@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 30.05.1830<idno type="BBAW">175</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 57. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 73f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8235</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="asjulien">
+                  <persName>Julien, Aignan Stanislas</persName>
+               </person>
+               <person corresp="hkurz">
+                  <persName>Kurz, Heinrich</persName>
+               </person>
+               <person corresp="cfneumann">
+                  <persName>Neumann, Carl Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="5">Abel-Rémusat, Jean-Pierre: Eléments de la grammaire chinoise ou
+                    principes généraux du Kou-Wen, ou style antique, et du Kouan-Hoa, c’est-à-dire
+                    de la langue commune généralement usitée dans l’empire chinois (Paris:
+                    Imprimérie Royale 1822)</bibl>
+               <bibl corresp="583">Kurz, Heinrich: Berichtigung [des von Karl Friedrich Neumann
+                    verfassten Verzeichnisses der von Humboldt der Königlichen Bibliothek
+                    geschenkten armenischen und chinesischen Zeitungen und Bücher]. In: Anzeigeblatt
+                    zu den Jahrbüchern für wissenschaftliche Kritik, Nr. 3, März 1830, S. 5–7</bibl>
+               <bibl corresp="582">Sozietät für wissenschaftliche Kritik (Hg.): Jahrbücher für
+                    wissenschaftliche Kritik (Berlin u.a.: 1827–1846)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich schicke Ihnen bester Freund einen Brief und ein
+                        Manuscript des Herrn Heinrich Kurz in Paris …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-05-30"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="176" type="next">15.06.1830 (?)</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Korrekturen Humboldts sowie
+                    eigenhändiger Schlussformel und Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">1. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 7. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1830_05_30/NDIGRKP004565_0441.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_05_30/NDIGRKP004565_0442.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1830_05_30/NDIGRKP004565_0443.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich schicke Ihnen bester Freund einen Brief und ein <hi rend="antiqua">Manuscript</hi> des <persName ref="hkurz">Herrn <hi rend="antiqua">Heinrich Kurz</hi>
+               </persName> in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> und Sie werden aus Beidem den Wunsch desselben ersehen, das <hi rend="antiqua">Manuscript</hi> in die <bibl sameAs="582">Jahrbücher für
+                        wissenschaftliche Kritik</bibl> aufzunehmen. Sie würden mich sehr
+                    verbinden, wenn Sie die Sache bei der <hi rend="antiqua">Redaction</hi> in
+                    Vorschlag bringen und von dem Erfolg <persName ref="hkurz">Herrn <hi rend="antiqua">Kurz</hi>
+               </persName> Nachricht geben wollten. Ginge das Verlangen nicht durch, so wählen
+                    Sie wohl in Ihrer Antwort solche Motive, welche nicht verletzen können. Das <hi rend="antiqua">Manuscript</hi> bliebe in diesem Fall wohl zurück, bis
+                        <persName ref="hkurz">Herr <hi rend="antiqua">Kurz</hi>
+               </persName> wieder geschrieben hätte, was geschehen solle. Den Brief könnten Sie
+                    an <sic>
+                  <persName ref="jpabel">Herrn <hi rend="antiqua">Abel-Remüsat</hi>
+                  </persName>
+               </sic> auf der <orgName ref="7">Königlichen Bibliothek</orgName>
+                    addressiren. Ueber die Frage: ob man gut thun würde, die <bibl sameAs="583">Recension</bibl> aufzunehmen, oder nicht? kann ich, nach sehr flüchtiger
+                    Lesung und einer gewissen Furchtsamkeit über <pb n="2*"/> Chinesische Dinge zu
+                    urtheilen, nur folgendes sagen. Die <bibl sameAs="583">Recension</bibl> beweist
+                    allerdings ein freieres und allgemeineres Nachdenken über die chinesische
+                    Grammatik, als man gemeinhin findet, allein die Begriffe des Verfassers davon
+                    sind bei weitem nicht gereift genug, und im <subst>
+                  <del>Styhl</del>
+                  <add>
+                     <handShift scribe="wvh"/> Styl</add>
+               </subst> <handShift scribe="Schreiber"/> ist eine sonderbare
+                    Unbehülflichkeit. In der Sache gegen <hi rend="antiqua">
+                  <persName ref="asjulien">Julien</persName>
+               </hi> theile ich zwar vollkommen seine Meinung, aber
+                    in den allgemeinen Begriffen setzt <hi rend="antiqua">
+                  <persName ref="hkurz">Kurz</persName>
+               </hi> eine ganz unnatürliche Verschiedenheit der
+                    Schriftsprache von der gesprochenen voraus. Er bedenkt gar nicht, daß, was er
+                    gesprochene Sprache nennt, eine ganz unvollkommene, größtentheils von Fremden
+                    gemachte Aufzeichnung der Laute ist, in der gewiß viele <hi rend="antiqua">Nuancen</hi> der wahren Aussprache übergegangen sind. Merkwürdig in der
+                        <bibl sameAs="583">Recension</bibl> ist die <subst>
+                  <del>Abweichung</del>
+                  <add>
+                     <handShift scribe="wvh"/> Abschweifung</add>
+               </subst> <handShift scribe="Schreiber"/> zur Vertheidigung <hi rend="antiqua">
+                  <persName ref="jpabel">Remüsat</persName>’s</hi>.<note type="footnote" resp="editor">Vgl. hierzu auch <persName ref="hkurz">Heinrich Kurz</persName>: <bibl sameAs="584">
+                     <hi rend="italic">Über einige
+                        der neuesten Leistungen in der chinesischen Litteratur. Sendschreiben an
+                        Herrn Professor Ewald in Göttingen</hi>
+                  </bibl> (Paris: Königliche Druckerei / Leipzig: Vogel 1830).</note>
+                    Offenbar ist hier <hi rend="antiqua">
+                  <persName ref="cfneumann">Neumann</persName>
+               </hi> gemeint. Es scheint mir aber bloß ein falsches
+                    Gerücht zum Grunde zu liegen. <hi rend="antiqua">
+                  <persName ref="cfneumann">Neumann</persName>
+               </hi> hat mir nie so etwas geäußert. <pb n="3*"/> Hätte er es gegen andere gethan, so wäre es sehr ungerecht. Denn <hi rend="antiqua">
+                  <persName ref="jpabel">Remüsat</persName>’s</hi> <bibl sameAs="5">Grammatik</bibl> trägt offenbar das Gepräge einer ganz eigenen
+                    Auffassung, wenn auch der Stoff derselben in einem früheren Werke liegen sollte.
+                    Gerade dieser Stelle wegen wünschte ich indeß die Aufnahme der <bibl sameAs="583">Recension</bibl>, da <hi rend="antiqua">
+                  <persName ref="jpabel">Remüsat</persName>
+               </hi> und seine Anhänger gewiß glauben, man habe die
+                        <bibl sameAs="583">Recension</bibl> deshalb nicht aufnehmen wollen. <hi rend="antiqua">
+                  <persName ref="cfneumann">Neumann</persName>
+               </hi> aber kann
+                    die Stelle nicht verletzen, wenn er solche Aeußerung nie gemacht hat. Um alles
+                    vorzubereiten werde ich <persName ref="hkurz">Herrn <hi rend="antiqua">Kurz</hi>
+               </persName> schreiben, wie ich glaubte, daß man, den Gesetzen der <bibl sameAs="582">Jahrbücher</bibl> nach, nur von schon wirklichen aufgenommenen
+                    Mitgliedern des Instituts<!-- = Sozietät für wissenschaftliche Kritik? -->
+                    Recensionen annähme.</p>
+            <closer>
+               <salute>
+                  <handShift scribe="wvh"/>Mit herzlicher Freundschaft Ihr</salute>
+               <signed>H.</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> Tegel den 30<hi rend="superscript">ten</hi> Mai 1830.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>.</addrLine>
+                  <addrLine>Wohlgebohren</addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine>
+                     <placeName ref="Berlin">
+                        <hi rend="antiqua">Berlin</hi>
+                     </placeName>
+                  </addrLine>
+               </address>
+               <lb/>
+               <pb n="4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an John Pickering, 09.04.1823<idno type="BBAW">509</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q. 1900,
+                            No. 9, Courtesy of the Trustees of the Boston Public Library/Rare
+                            Books</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Mueller-Vollmer 1976, S. 295f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7291</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fadelius">
+                  <persName>Delius, Friedrich Adolf</persName>
+               </person>
+               <person corresp="jmorse">
+                  <persName>Morse, Jedidiah</persName>
+               </person>
+               <person corresp="jedwards">
+                  <persName>Edwards, Jonathan</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="117">Edwards, Jonathan / Pickering, John: Observations on the Language
+                    of the Muhhekaneew Indians (Boston: Phelps and Farnham 1823)</bibl>
+               <bibl corresp="305">Morse, Jedidiah: A report to the Secretary of War of the United
+                    States, on Indian affairs, comprising a narrative of a tour (New Haven: Converse
+                    1822)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je viens de recevoir avant peu de jours la lettre
+                        obligeante …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1823-04-09"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jpickering">Pickering, John</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="445" type="prev">18.01.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="">Indianische Sprachen</language>
+            <language ident="mjy">Mahican (Muhhekanew)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">03. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1"/> <salute>Monsieur,</salute>
+            </opener>
+            <p>Je viens de recevoir avant peu de jours la lettre obligeante que Vous m’avez fait
+                    l’honneur de m’adresser en date du <date when="1823-01-18">18. Janvier</date>,
+                    &amp; m’empresse d’y répondre sur le champ, &amp; de Vous en exprimer ma sincère
+                    &amp; vive reconnoissance.</p>
+            <p>
+               <bibl sameAs="305">L’ouvrage</bibl> de <persName ref="jmorse">M.<hi rend="superscript">r</hi> le D.<hi rend="superscript">r</hi>
+                        Morse</persName> m’a beaucoup intéressé, je l’ai d’abord lû d’un bout à
+                    l’autre, &amp; serai dans le cas d’y recourir souvent. Il ne renferme, comme
+                    Vous dites très-bien, Monsieur, guères beaucoup de données sur les langues
+                    Indiennes, mais d’une manière indirecte je l’ai trouvé sous un double point de
+                    vue extrêmement intéressant et même essentiel pour l’étude à laquelle je me suis
+                    voué. D’un côté il donne des détails très-précieux sur le nombre, les
+                    différentes dénominations, et la force des différentes nations dans une
+                    très-grande partie de l’Amérique Septentrionale, et désigne avec beaucoup plus
+                    d’exactitude &amp; d’authenticité les différens districts qu’elles occupent, que
+                    cela ne se trouve dans aucun autre ouvrage; de l’autre côté les étrangers
+                    trouvent seulement dans son ouvrage des notions exactes &amp; sûres sur les
+                    rapports entre ces nations sauvages et le Gouvernement <pb n="2"/> des Etâts
+                    unis sur le degré de civilisation auquel les premières sont déjà parvenues &amp;
+                    sur celui que Votre gouvernement, egalement sage &amp; humain, désire leur faire
+                    atteindre. Les détails géographiques sont tout à fait indispensables, si l’on
+                    veut se former une idée claire sur la distribution des différens idiômes sur un
+                    si vaste territoire, &amp; il seroit impossible de connoître, même jusqu’au
+                    point où cela est possible sans s’abandonner à des conjectures, souvent
+                    erronées, les migrations, l’affinité &amp; l’embranchement de ces diverses
+                    peuplades sans ce secours essentiel. Quant à l’étât moral &amp; intellectuel il
+                    est extrêmement curieux de distinguer ce que ces sauvages doivent pour ainsi
+                    dire à la nature, &amp; ce <sic>qu’elles</sic> ont par conséquent déjà possédé,
+                    &amp; peut-être a un dégré beaucoup plus supérieur, avant d’avoir connû les
+                    Européens, de ce qu’ils ont acquis depuis. J’ai été étonné de voir par leurs
+                    discours, leurs reparties &amp; même de légers échantillons de poésie, de quel
+                    talent la nature même les a doués. Rien ne seroit si intéressant que si
+                        <persName ref="jmorse">M.<hi rend="superscript">r</hi> Morse</persName>
+                    pouvoit nous communiquer quelques vers des discours qu’il rapporte, dans
+                    l’idiôme original. Il s’en trouve dans d’autres ouvrages d’imprimés, mais il
+                    seroit très-utile d’en augmenter le nombre. Je Vous prie, Monsieur, de remercier
+                    vivement <persName ref="jomrse">M.<hi rend="superscript">r</hi> Morse</persName>
+                    du plaisir qu’il m’a causé par l’envoi de <bibl sameAs="305">son ouvrage</bibl>,
+                    &amp; de le prier instamment, aussi en mon nom, de publier bientôt les
+                    matériaux, qu’il dit posséder sur les idiômes de ces nations Indiennes qui ont
+                    fait l’objèt de ses recherches. </p>
+            <p>
+               <pb n="3"/> Je me rejouis d’avance de recevoir bientôt moyennant Vos bontés, la
+                        <bibl sameAs="117">nouvelle édition du mémoire d’Edwards sur l’Idiôme
+                        Mohegan</bibl>. Vous irez acquérir par là, Monsieur, de nouveaux titres à
+                    la reconnoissance de tous ceux qui s’intéressent à ces objets.</p>
+            <closer>
+               <salute>J’ai l’honneur d’être avec la considération la plus distinguée,
+                        <lb/>Monsieur, <lb/>Votre, <lb/>très-humble et très-obéissant
+                        <lb/>Serviteur,</salute>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>à Berlin, ce 9. Avril, 1823.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="4"/>
+               <address>
+                  <addrLine>To John Pickering, Esquire, <lb/>
+                     <placeName ref="Salem, MA">Salem</placeName> near Boston, <lb/>in Massachusetts, <lb/>United
+                            States of America.</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <lb/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <handShift scribe="Fremde Hand"/> Forwarded by Your Most ob<hi rend="superscript">d</hi> serv<hi rend="superscript">t</hi>
+               <lb/>
+               <unclear>FredAdolph</unclear> <persName ref="fadelius">Delius</persName>
+               <lb/>
+               <placeName ref="Bremen">Bremen</placeName> <date when="1823-04-24">24<hi rend="superscript">th</hi> April 1823</date>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

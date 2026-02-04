@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 28. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl von Gerolt an Carl Wilhelm Koppe, 20.11.1830<idno type="BBAW">866</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Berlin, AST, Inv.-Nr. 1061, Bl.
+                            53–54</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="farroyo">
+                  <persName>Arroyo de la Cuesta, Felipe</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich beehre mich, Ew. x. so viel als es nur möglich war,
+                        umstehend über die hiesigen vorhandnen Indischen Sprachen mitzutheilen
+                        …</ab>
+            <p>Aus Santa Clara. Bücher über die hiesigen Sprachen gibt es keine. Gerolt schickt
+                    aber eine Liste mit Wörtern der "Hauptsprachen" zwischen <placeName ref="San Francisco">San Francisco</placeName> und <placeName ref="San Diego">San Diego</placeName>, die er von einem <persName ref="farroyo">Pater</persName> erhalten hat, der seit langem in der Gegend lebt. </p>
+            <p>Dem Brief beigefügte Liste der Wörter aus der Mission von <placeName ref="San Francisco">San Francisco</placeName> und <placeName ref="San Diego">San Diego</placeName>:</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fgerolt">Gerolt, Friedrich Carl Joseph von</persName>
+               <date type="author" when="1830-11-20"/>
+               <placeName key="Santa Clara">Santa Clara</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="cwkoppe">Koppe, Carl Wilhelm</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Abschrift von Schreiberhand</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="">Cacundo</language>
+            <!-- ??? -->
+            <language ident="pwi">Patwin (Suisun)</language>
+            <language ident="csi">Coast Miwok (Huimen / Uimen)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">28. Mai 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter"/>
+         <div type="appendix">
+            <p>
+               <pb n="53v"/> <hi rend="underline">Lengua Cacundo.</hi>
+               <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>
+            </p>
+            <p>Mision de <placeName ref="San Francisco">S<hi rend="superscript">n</hi>
+                        Francisco</placeName> 67 Grados 56 minutos latitud. llega hasta la mision de
+                    la <placeName ref="Soledad, CA">Soledad</placeName> 36 gr. 38 m. con distintos
+                    dialectos y muchas veces primo diversas<note type="footnote" resp="editor">In
+                        den folgenden Tabellen werden alle Sprachbeispiele, die im originalen
+                        Manuskript kursiv ausgezeichnet wurden, in Antiqua gesetzt. In der
+                        originalen Handschrift sind sämtliche Wörter der Tabelle in lateinischer Schrift
+                        geschrieben.</note>
+            </p>
+            <table cols="4" rows="25">
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Coronilla</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">Conojoths</foreign>
+                     </hi>
+                     <!-- foreign lang-Kürzel f. Cacundo??? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">Agua</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">si chintertheh</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Cabeza</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">tacalat</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">mar</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">amanuth</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Pelo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">Uthrunuths</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">palo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">yujunath</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Orejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">tujtun</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">hombre</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">junathramué</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">frente</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">oliths</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">muger</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">runathramué</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">cejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">tutuper</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">esposa</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">hauaj</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">pestañas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">huintrahs</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">esposo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">hauatamusch</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">ojos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">jinléths</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">ven</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">haiju</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">nariz</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">utéths</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vete</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">othro</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">carillos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">pujtehét</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">si</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">É</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">barba</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">heyékét</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">no</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">ami</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">barbas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">huthuruth</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">piedra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">ircaths</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">boca</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">huehueletrith</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">en la piedra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">ircanti</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">muelas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">carschan</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">canac</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">dientes</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">citétehrit</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">tu</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">menma</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>1.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">nitshan</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aquel</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">nuc</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>2.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">oshin</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">nosotros</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">manac</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>3.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">cabjan</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vosotros</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">macamá</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>4.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">cathruach</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aquellos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">nucurmac</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>5.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">mischuruh</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">negro</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">munket</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>6.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">toneposch</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">espera</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">yaukojuyu</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>7.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">kenetis</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">ya esta</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">sepesit</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+               </row>
+               <row>
+                  <cell>8.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">othronacantumasch</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>9.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">talao</foreign>
+                     </hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>10.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="">tajteithruh</foreign>.</hi>
+                     <!-- Kürzel f. Cacundo? -->
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+            <p>El modo de contar del idioma <hi rend="underline">cacundo</hi> y acaso de todos
+                    los idiomas de la alta California es desde uno hasta dieza. <hi rend="underline">veinte</hi>, es dos diezes &amp;ca, para dicer <hi rend="underline">catorce</hi>, diez y mas cuatro. 21 – dos diezes y uno mas. &amp;ca</p>
+            <p>
+               <pb n="54r"/> <hi rend="underline">Idioma Suisun</hi>
+               <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>
+            </p>
+            <p>de la Mision de <placeName ref="San Francisco">San Francisco</placeName>.</p>
+            <table rows="29" cols="4">
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Cabeza</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">Bue</foreign>
+                     </hi>
+                     <!-- foreign lang-Kürzel f. Suisun = Pstwin (pwi)! -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">Muger</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">okitia</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">pelo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">ti</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">negro</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">huitia</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">orejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">oli</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">marido</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chuyuvi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">frente</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tier</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">esposa</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chionoe</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">cejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">sineheke</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vete</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">eru</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">nariz</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">sonom</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">si</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">u</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">pestañas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tiunsupui</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">no</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">elle</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">ojos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tiu</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">piedra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">conoi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">carillos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tiopu</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">pon</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">glei</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">barbas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tscheseki</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">voy contigo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">alei mi da</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">labio inferior</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">lemur</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">ven comigo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">eruchuti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">lengua</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tiajal</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">comer</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">ma</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">boca</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">col</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo como</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chumavoti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">dientes</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">sii</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo comí</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chumasavoti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">étié</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo comeré</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chumaleina</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">papatia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aguarda</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">gellero</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>3.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">ponoltia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">tien</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">taluti</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>4.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">emutia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vengo á verte</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">Gueti chu mit huimi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>5.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">etiecem</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vengo á llorar</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">hueti chu guati</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>6.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">jalchotia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vengo á comer</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">hueti chu ma</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>7.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">calapatia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">Padre</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">Tia</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>8.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">panamuya</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">madre</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">na</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>9.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">kenetitlan</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">hijo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">chuimulé</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>10.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">papasem</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">abuelo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">apu</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Agua</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">mem</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">abuela</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">ama</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">mar</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">volés</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">padre mio</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tiachu</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">palo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">ok</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">madre mia</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">nenchu</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">hombre</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">silia</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">perdoname</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">yunukmi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <foreign sameAs="es">se acabo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="pwi">tioyuti</foreign>.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>|unten rechts: Kürzel von <persName ref="cwkoppe">Koppe</persName>|</p>
+            <p>
+               <pb n="54v"/> <hi rend="underline">Idioma Uimen</hi>
+               <note type="footnote" resp="editor">Unterstreichung in roter Tinte</note>
+            </p>
+            <p>de la Mision de <placeName ref="San Francisco">San Francisco</placeName>.</p>
+            <table cols="4" rows="33">
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Cabeza</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">mola</foreign>
+                     </hi>
+                     <!-- foreign lang-Kürzel f. Uimen = csi (Coast Miwok) -->
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">esposa</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cacules</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">pelo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">molu</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vete</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">oki</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">coronilla</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">lacalá</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">ven</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">huila</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">orejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">alóc</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">si</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">ú</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">frente</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">sutú</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">no</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">jumá</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">cejas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">pueculas</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">pon</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">joién</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">nariz</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">tuuc</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">piedra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">luppú</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">pestañas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">sutpacá</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">pon la piedra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">hoiélupputó</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">ojos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">suut</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">voy contigo</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unacoyomi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">cachetes</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">onnni</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">ven conmigo</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">huilasoyocaní</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">barba</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">jehué</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">canni</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">barbas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">uthrú</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">tu</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">mi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">labios</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cepelée</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aquel</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">nothrú</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">boca</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">lacun</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">nosotros</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">macú</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">lengua</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">lentip</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vosotros</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">nicó</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">dientes</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cut</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aquellos</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">noccó</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">muelas</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cutaki</foreign>.</hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">yo como</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">canintsyolum</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">kiné</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">tu comes</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">mintsiyolu</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">osá</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aquel come</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">nothrumthryolum</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>3.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">teleca</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">nosotros comemos</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">Namacumthryolum</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>4.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">juya</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">mañana comerás</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">Auéinyolum</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>5.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">kenekus</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">mañana comeré</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">Auéunthruédylum</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>6.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">patithrak</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">voy a cagar</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unac cun usi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>7.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">semlahui</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">voy á mear</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unac okenthri</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>8.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">oshuya</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">voy á comer</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unac yolumthri</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>9.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unutrash</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">aguarda</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unna</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>10.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">kithris</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vengo á verte</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cailumthrinmi</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">Agua</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">kik</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">vengo á llorar</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">ca olac sini</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">mar</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">ligua</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">padre</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">api</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">palo</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">tumai</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">madre</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">unnú</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">hombre negro</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">tais muluta</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">hijo</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">cai</foreign>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">muger negra</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">culeis muluta</foreign>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <foreign sameAs="es">abuelo</foreign>.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">papa</foreign>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <foreign sameAs="es">marido</foreign>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <foreign sameAs="csi">amthrá</foreign>.</hi>
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+</TEI>

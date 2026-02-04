@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- In Bearbeitung von FS am 24. November 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benjamin Guy Babington an Wilhelm von Humboldt, 27.07.1828<idno type="BBAW">225</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 56, Bl. 47–50</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 232, 235 </bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fwellis">
+                  <persName>Ellis, Francis Whyte</persName>
+               </person>
+               <person corresp="cmwhish">
+                  <persName>Whish, Charles Matthew</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="936">Ellis, Francis Whyte: Dissertation the second on the Malayálma
+                    language (Madras: College Press o.J.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Dr Benjamin Babington is extremely sorry that he was not at
+                        home when Baron Humboldt did him the honor of calling. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bgbabington">Babington, Benjamin Guy</persName>
+               <date type="author" when="1828-07-27"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bgbabington">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="ta">Tamulisch (Tamil)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">26. November 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_103.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_104.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_105.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_106.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_107.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_108.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_109.jpg"/>
+      <graphic url="Babington/Babington-WvH_1828-07-27/Coll.ling.fol.56_110.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="47r"/> D<hi rend="superscript">r</hi> Benjamin Babington is extremely
+                    sorry that he was not at home when Baron Humboldt did him the honor of calling.
+                    The <bibl sameAs="936">dissertation</bibl> which the Baron left for the Doctor’s
+                    examination he has attentively read and has no hesitation in bearing testimony
+                    to the general correctness of the observations which it contains.</p>
+            <p>The relation which the Tamil bears to the coquate languages of the South of
+                    India, its independent origin as respects the Sanscrit, and <pb n="47v"/> its
+                    connection with the languages of Ceylon, Birma, of Java and
+                    Sumatra<!-- alle Sprachen und Akzente, die benannt werden, mit in den Header aufnehmen? (siehe auch Alphabete weiter unten) -->
+                    are subjects hitherto scarcely known and of very high interest. The Baron would
+                    therefore, in the Doctor’s opinion, be doing an important service, in
+                    translating into the Continental languages the valuable <bibl sameAs="936">essay</bibl>
+                    of <persName ref="fwellis">M<hi rend="superscript">r</hi>. Ellis</persName>. Few
+                    persons will understand it throughout, because it requires for this purpose a
+                    previous acquaintance with both dialects of the Tamil. In order however to
+                    render it as intelligible as possible, it should be accompanied by an
+                    explanation of <persName ref="fwellis">M<hi rend="superscript">r</hi>.
+                        Ellis’s</persName> system of Tamil orthography in the Roman character. It
+                    could <pb n="48r"/> also be well that the original Alphabets of the Tamil,
+                    Āriyam, Colezhutta, Vattezhutta, Cingalese, Birmese, Javanese and Sumatra <del type="fragment">Alph</del> <subst>
+                  <del>languages</del>
+                  <add>species</add>
+               </subst> should be added.</p>
+            <p>D<hi rend="superscript">r</hi>. B. Babington has no doubt that the <bibl sameAs="936">Dissertation</bibl> was printed at the press of the Government
+                    College at Madras; but he has written to a friend to make further enquiries as
+                    to the period and immediate object of its publication. The letter press is
+                    extremely incorrect, and it should be carefully revised before a translation is
+                    undertaken.</p>
+            <p>
+               <pb n="48v"/> When D<hi rend="superscript">r</hi>. B. Babington testifies to the
+                    general correctness of M<hi rend="superscript">r</hi>. Ellis’s conclusions, he
+                    would not be understood as placing unlimeted confidence in every assertion.
+                        <persName ref="fwellis">M<hi rend="superscript">r</hi>. Ellis</persName> was
+                    not a profound <sic>Malayalma</sic> Scholar, and it would therefore be
+                    satisfactory to have what he has advanced verified by the examinations of a
+                    competent judge. Of all the individuals of D<hi rend="superscript">r</hi>. B.
+                    Babington’s acquaintance, <persName ref="cmwhish">M<hi rend="superscript">r</hi>. Charles Matthew Whish</persName>, of the Madras Civil Service, is
+                    best able to undertake this tasks, being without doubt the most learned
+                        <sic>Malayalma</sic> Scholar in India. Should Baron Humboldt feel any wish
+                    to correspond with that Gentleman <pb n="49r"/> D<hi rend="superscript">r</hi>.
+                    B. Babington will, with pleasure address a letter of introduction to <persName ref="cmwhish">M<hi rend="superscript">r</hi>. W</persName> who will
+                    doubtless consider it a high honor to be able to furnish any information to so
+                    distinguished a Philologist.</p>
+            <p>D<hi rend="superscript">r</hi>. B. Babington encloses a Tamil Alphabet with
+                        <persName ref="fwellis">M<hi rend="superscript">r</hi>. Ellis’s</persName>
+                    orthography as deduced from the <bibl sameAs="936">Dissertation</bibl>. The
+                    Doctor has in his possession the Indian alphabets to which he has alluded, and
+                    his copies of the Colezhutta and Vattezhutta are, he believes, the only copies
+                    in Europe. If Baron <pb n="49v"/> Humboldt would desire facsimiles and will send
+                    any competent artist to D<hi rend="superscript">r</hi>. B. B., he will with the
+                    greatest pleasure superintend his labours.</p>
+            <closer>
+               <address>
+                  <addrLine>48. Finsbury Square.</addrLine>
+               </address>
+               <lb/>
+               <dateline>July 27. 1828</dateline>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="50r"/>
+            </p>
+            <p>
+               <table rows="13" cols="2"><!-- Darstellung im Browser seltsam: Spalten stehen nicht direkt untereinander -->
+                  <row>
+                     <cell>vowels.</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>அ</cell>
+                     <cell>a</cell>
+                  </row>
+                  <row>
+                     <cell>ஆ</cell>
+                     <cell>á</cell>
+                  </row>
+                  <row>
+                     <cell>இ</cell>
+                     <cell>i</cell>
+                  </row>
+                  <row>
+                     <cell>ஈ</cell>
+                     <cell>í</cell>
+                  </row>
+                  <row>
+                     <cell>உ</cell>
+                     <cell>u</cell>
+                  </row>
+                  <row>
+                     <cell>ஊ</cell>
+                     <cell>ú</cell>
+                  </row>
+                  <row>
+                     <cell>எ</cell>
+                     <cell>e</cell>
+                  </row>
+                  <row>
+                     <cell>ஏ</cell>
+                     <cell>é</cell>
+                  </row>
+                  <row>
+                     <cell>ஐ</cell>
+                     <cell>ei</cell>
+                  </row>
+                  <row>
+                     <cell>ஒ</cell>
+                     <cell>o</cell>
+                  </row>
+                  <row>
+                     <cell>ஓ</cell>
+                     <cell>ó</cell>
+                  </row>
+                  <row>
+                     <cell>ஔ</cell>
+                     <cell>au</cell>
+                  </row>
+               </table>
+               <lb/>
+               <table rows="19" cols="2">
+                  <row>
+                     <cell>consonants.</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>க</cell>
+                     <cell>c</cell>
+                  </row>
+                  <row>
+                     <cell>ங</cell>
+                     <cell>ng</cell>
+                  </row>
+                  <row>
+                     <cell>ச</cell>
+                     <cell>s</cell>
+                  </row>
+                  <row>
+                     <cell>ஞ</cell>
+                     <cell>n</cell>
+                  </row>
+                  <row>
+                     <cell>ட</cell>
+                     <cell>ť–ď</cell>
+                  </row>
+                  <row>
+                     <cell>ண</cell>
+                     <cell>ń</cell>
+                  </row>
+                  <row>
+                     <cell>த</cell>
+                     <cell>t–d</cell>
+                  </row>
+                  <row>
+                     <cell>ந</cell>
+                     <cell>n</cell>
+                  </row>
+                  <row>
+                     <cell>ப</cell>
+                     <cell>p–b</cell>
+                  </row>
+                  <row>
+                     <cell>ம</cell>
+                     <cell>m</cell>
+                  </row>
+                  <row>
+                     <cell>ய</cell>
+                     <cell>y</cell>
+                  </row>
+                  <row>
+                     <cell>ர</cell>
+                     <cell>r</cell>
+                  </row>
+                  <row>
+                     <cell>ல</cell>
+                     <cell>l</cell>
+                  </row>
+                  <row>
+                     <cell>வ</cell>
+                     <cell>v</cell>
+                  </row>
+                  <row>
+                     <cell>ழ</cell>
+                     <cell>zh</cell>
+                  </row>
+                  <row>
+                     <cell>ள</cell>
+                     <cell>ľ</cell>
+                  </row>
+                  <row>
+                     <cell>ற</cell>
+                     <cell>r̄</cell>
+                  </row>
+                  <row>
+                     <cell>ன</cell>
+                     <cell>n marked n̄ when preceeding ற .</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <persName ref="fwellis">Mr. Ellis</persName>’s orthography as deduced from his
+                        <bibl sameAs="936">dissertation</bibl>. This system though adequate to
+                    elucidate the paper is not complete. The letters க , ச and ற as well as ட , த
+                    and ப have more than one sound.</p>
+            <p>
+               <pb n="50v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

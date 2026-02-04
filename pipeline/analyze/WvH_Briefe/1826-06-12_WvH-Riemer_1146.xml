@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Wilhelm Riemer, 12.06.1826<idno type="BBAW">1146</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Berlin, Preußische Staatsbibliothek, acc. ms. 1933.8; heute Krakau,
+                            BJ, Ms. Berol. Autographen Sammlung, Humboldt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="cavsachsen">
+                  <persName>Carl August, Großherzog von Sachsen-Weimar-Eisenach</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="gsagard">
+                  <persName>Sagard-Théodat, Gabriel</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1089">Humboldt, Wilhelm von (1826): Sur le génie grammatical de
+                        la langue Chinoise, comparé à celui des autres langues. In: Journal
+                        Asiatique 9, August, S. 115–129</bibl>
+               <bibl corresp="676">Riemer, Friedrich Wilhelm (1823–1825): Griechisch-Deutsches
+                        Wörterbuch für Anfänger und Freunde der griechischen Sprache. Vierte
+                        rechtmäßige, vermehrte und verbesserte Auflage, Jena: Frommann und
+                        Wesselhöft</bibl>
+               <bibl corresp="1395">Sagard Theodat, Gabriel (1632): Le grand voyage du pays des
+                        Hurons, situe en l’Amerique vers la mer douce, es derniers confins de la
+                        nouvelle France, dite Canada ou il est amplement traite de tout ce qui est
+                        du pays, des moeurs &amp; du naturel des sauvages, de leur gouvernement
+                        &amp; facon de faire…, Paris: Denys Moreau</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich hätte Ihnen schon längst, theuerster Freund, für die gütige
+                    Uebersendung der vierten Ausgabe …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-06-12"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fwriemer">Riemer, Friedrich Wilhelm</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="al">Amerikanische Sprachen (allgemein)</language>
+            <language ident="zh">Chinesisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">24. November 2020</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1r"/>
+               <dateline>
+                  <hi rend="antiqua">Tegel</hi>, den 12. <hi rend="antiqua">Junius</hi>,
+                        1826.</dateline>
+            </opener>
+            <p>Ich hätte Ihnen schon längst, theuerster Freund, für die gütige Uebersendung
+                        <bibl sameAs="676">der vierten Ausgabe Ihres treflichen Wörterbuchs</bibl>
+                    danken sollen. Ich hatte es sehr oft im Sinne, es kam aber immer bald dies, bald
+                    jenes dazwischen. Ich habe indeß Ihr Wörterbuch fleißig und mit großer Belehrung
+                    und wahrem Vergnügen gebraucht, und auch öfter die verwandten Artikel im
+                    Zusammenhange durchgelesen. Denn bei einem denkenden Lexikographen muß man die
+                    Verbindung der Materien, welche das Alphabet <unclear>zerreißt</unclear>, um
+                    sein System zu übersehen, auf irgend eine Weise wiederherstellen. Ich bin
+                    durchaus Ihrer Meinung, daß der Wörtervorrath einer Sprache sich, wenn man einen
+                    so großen Theil von ihr besitzt, als wie vom Griechischen, <del>sich</del>
+                    systematisch behandeln heißt, u. daß man sogar bei jeder Sprache das zu thun
+                    versuchen muß, und jeden Faden so weit verfolgen, als er führt. Zu vermeiden hat
+                    man nun die Fäden auch da nach spüren zu wollen, wo es keine mehr giebt, oder
+                    sie gewaltsam u. eigenmächtig zusammenzuknüpfen, wie die spätren Holländer
+                    freilich oft gethan haben. Es hat mich nach dieser Ansicht betrübt zu sehen, daß
+                    Sie in der Vorrede zum 2. Theil so wenig Hoffnung zum 3<hi rend="superscript">t</hi> machen, den Sie doch in der zum 1<hi rend="superscript">sten</hi>
+                    versprachen. Ein systematisches Zusammenstellen der Formen u. hauptsächlichsten
+                    Wörter würde, wieviel auch schon bei den einzelnen Artikeln dafür geschehen ist,
+                    doch erst ein wahres Licht über das Ganze verbreiten. Ich hoffe daher immer, Sie
+                        ent-<pb n="1v"/>schließen Sich doch noch zur Herausgabe dieser Arbeit, die
+                    in Ihnen u. Ihren Papieren gewiß schon sehr weit vorgerückt ist, und wenn meine
+                    Ermunterung und Bitte dazu beitragen kann, so können Sie meines Wunsches und
+                    meines Antheils versichert seyn. Je weniger noch bis jetzt die wahre Lehre der
+                    Lexicographie bei den Philologen durchdringt, desto mehr ist man es der
+                    Wissenschaft schuldig, sie so vollendet, als man kann, hinzustellen, und es
+                    müßte Ihnen doch, dünkt mich, selbst eine Genugthuung seyn, nicht auf halbem
+                    Wege stehen zu bleiben, sondern Ihr Werk in jeder Art zu Ende zu bringen.</p>
+            <p>Ich bin mehr, als je, mit Sprachuntersuchungen, die sich aber jetzt freilich sehr
+                    von den klassischen Sprachen entfernen, beschäftigt, allein jetzt noch mehr mit
+                    dem Grammatischen, als Lexicalischen. Je mehr ich neue einzelne Sprachen in den
+                    Kreis meiner Forschungen aufnehme, desto mehr, kann ich wohl sagen, erweitern
+                    und berichtigen sich meine Ansichten, und ob ich gleichwohl einsehe, daß ich in
+                    den 6 Jahren, die ich nun eine volle Muße genieße, hätte mehr u. viel mehr
+                    finden können, so ist es mir doch sehr lieb, den bedeutendsten Theil dieser Zeit
+                    nun dem Lernen gewidmet zu haben. Meine Ideen sind auf diese Weise reifer u.
+                    minder einseitig geworden. Jetzt bin ich nun aber sehr ernstlich bei der
+                    Ausarbeitung meines Werks über die Amerikanischen Sprachen. Ich habe den Plan
+                    dazu vollständig angelegt, besitze höchst bedeutende eben in diesen 6 Jahren
+                    gemachte Vorarbeiten, und hoffe nun so fortgehen zu können, daß, ohne Gefahr,
+                    wieder das Gemachte umarbeiten zu müssen, jeder Tag mich dem Ende näher bringt.
+                    Der Haupttheil diese <pb n="2r"/> Werks wird eine vergleichende Grammatik aller
+                    Amerikanischen Sprachen, über die man vollständigere <hi rend="antiqua">data</hi> hat, etwa 40 bis 50, seyn.<note type="footnote" resp="editor">Zu
+                        Humboldts Amerika-Werk siehe stellvertredend für die 3. (Amerikanische) Abteilung des
+                        Editionsprojekts "Wilhelm von Humboldt: Schriften zur Sprachwissenschaft"
+                        den im Jahr 2016 von Manfred Ringmacher herausgegebenen Einleitungsband
+                        (Humboldt 2016). [FZ]</note> Ich halte eine solche parallelisirend
+                    fortgehende Schilderung des Baues aller dieser Sprachen zu einer klaren Einsicht
+                    ihrer gemeinsamen Eigenthümlichkeiten für nothwendig. Auf wieder folgende
+                    Beschreibungen jeder einzelnen hätten nie zum Ziele geführt, obgleich man
+                    allerdings, nach jener gemeinsamen Schilderung, auch die Grammatiken jeder
+                    einzelnen zusammenstellen muß, wobei man sich, um Wiederholungen zu vermeiden
+                    bald bei den besondern auf das Allgemeine, bald umgekehrt beziehen kann. Zu
+                    dieser Arbeit wäre mir die Benutzung eines Buches wichtig, das <orgName ref="1">die hiesige Bibliothek</orgName> nicht besitzt. Es ist <hi rend="antiqua">
+                  <persName ref="gsagard">Sagard</persName>’s <bibl sameAs="1395">grand
+                            voyage du païs des Hurons</bibl>. Paris.</hi> 1631.<note type="footnote" resp="editor">Korrekt ist "1632".</note> 8. Ich habe mir aus der Durchsicht
+                    des Katalogs der <orgName ref="71">Großherzoglichen Bibliothek</orgName> in
+                        <placeName ref="Weimar">
+                  <hi rend="antiqua">Weimar</hi>
+               </placeName> gemerkt,
+                    daß es sich dort befindet, und da <persName ref="cavsachsen">der Großherzog</persName>
+                    immer soviel Gnade für mich hat, würden Sie mir ja wohl, theuerster Freund,
+                    leicht die Erlaubniß auswirken können, es zu erhalten. In wenig Wochen wird der
+                        <persName ref="kskunth">Geheimrath <hi rend="antiqua">Kunth</hi>
+               </persName>
+                    auf seiner Rückreise nach <placeName ref="Berlin">
+                  <hi rend="antiqua">Berlin</hi>
+               </placeName> durch <placeName ref="Weimar">
+                  <hi rend="antiqua">Weimar</hi>
+               </placeName> kommen, u. wird so frei seyn, Sie um das Buch
+                    zu bitten. Wollten Sie es ihm alsdann für mich auf einige Zeit mitgeben, so
+                    würden Sie mir dadurch einen sehr wesentlichen Dienst erzeigen.</p>
+            <p>Empfehlen Sie mich <persName ref="jwgoethe">
+                  <hi rend="antiqua">Göthe’n</hi>
+               </persName> auf das innigste, so auch <persName ref="cvh1">meine Frau</persName>, die mir die freundschaftlichsten Empfehlungen für
+                    Sie aufträgt. Sie ist leider recht krank in gichtischen Beschwerden, u. wenn
+                    auch jetzt weniger leidend, doch überaus schwach.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl, erhalten Sie mir Ihr gütiges Andenken u.
+                        nehmen Sie die Versicherung meiner hochachtungsvollsten u. lebhaftesten
+                        Freundschaft an.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <lb/>
+               <pb n="Links am Rand:"/> Sie werden in Kürze in dem <hi rend="antiqua">Journal
+                        Asiatique</hi>
+               <bibl sameAs="1826">einen langen französisch geschriebenen Brief von mir</bibl>
+                    an <persName ref="jpabel">
+                  <hi rend="antiqua">Remusat</hi>
+               </persName> über die
+                    Grammatik des Chinesischen finden<note type="footnote" resp="editor">Nach dem
+                        genannten Auszug des Briefes im <hi rend="italic">Journal Asiatique</hi>
+                        erschien die umfangreiche <bibl sameAs="202">Lettre à Monsieur Rémusat</bibl> im Jahr
+                        1827 als Monographie; siehe auch die hier <ref type="link" target="791">den eigenhändigen Brief-Entwurf Humboldts</ref> vom <date when="1826-03-07">7. März 1826</date>. [FZ]</note>. Soviel eine Sprache alle
+                    Grammatik entbehren kann, thut es diese, schon dadurch unendlich
+                        merkwürdige.<lb/>
+               <pb n="2v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

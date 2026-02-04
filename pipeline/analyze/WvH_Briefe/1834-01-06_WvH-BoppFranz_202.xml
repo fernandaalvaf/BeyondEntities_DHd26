@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 06.01.1834<idno type="BBAW">202</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 82. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 93f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8541</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="afpott">
+                  <persName>Pott, August Friedrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="585">Pott, August Friedrich: Etymologische Forschungen auf dem Gebiete
+                    der indogermanischen Sprachen mit besond. Bezug auf die Lautumwandlung im
+                    Sanskrit, Griechischen, Lateinischen, Littauischen u. Gothischen (Lemgo:
+                    Meyersche Hof-Buchhandlung 1833)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen herzlich, liebster Freund, für Ihre gütigen
+                        neulichen Zeilen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1834-01-06"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="272" type="next">10.01.1834</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit Anmerkungen Humboldts sowie
+                    eigenhändiger Schlussformel und Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind am">
+            <language ident="ae">Avestisch (Zend)</language>
+            <language ident="my">Birmanisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="la">Latein</language>
+            <language ident="nah">Nahuatl</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="th">Thai (Siamesisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">10. September 2013</item>
+            <item n="status">in Bearbeitung, grob gegengelesen von AD, an neue Vereinbarungen
+                    angepasst von AD 10. Dezember 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1834_01_06/NDIGRKP004565_0507.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1834_01_06/NDIGRKP004565_0508.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1834_01_06/NDIGRKP004565_0509.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ihnen herzlich, liebster Freund, für Ihre gütigen
+                    neulichen Zeilen, und für die Auskunft über <foreign sameAs="fa">
+                  <hi rend="antiqua">
+                     <foreign sameAs="fa">shah</foreign>
+                  </hi>
+               </foreign> und
+                        <foreign sameAs="fa">
+                  <hi rend="antiqua">padishah</hi>
+               </foreign>. Die
+                    Herleitung aus dem Zend in das Persische ist unleugbar richtig. Allein glauben
+                    Sie nicht, daß das Zendwort wieder aus dem Sanskrit stammt? <hi rend="antiqua">
+                  <persName ref="afpott">Pott</persName>
+               </hi> in seinen <bibl sameAs="585">Wurzeln</bibl> leitet das <hi rend="antiqua">Persische</hi> Wort vom <hi rend="antiqua">Sanskritischen</hi> <subst>
+                  <del>
+                     <foreign sameAs="sa">
+                        <hi rend="antiqua">shus</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="sa">
+                        <hi rend="antiqua">s̓ûs</hi>
+                     </foreign>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> ab und bringt dieses als eine reduplicirte Wurzel auch
+                    mit <subst>
+                  <del>
+                     <foreign sameAs="sa">
+                        <hi rend="antiqua">is</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="sa">
+                        <hi rend="antiqua">îs</hi>
+                     </foreign>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/> in Verbindung. Wie steht es aber mit dem <hi rend="antiqua">k</hi> des Zend-Wortes, das eher auf den Nahmen der
+                    Kriegerkaste hindeutet?</p>
+            <p>Noch bitte ich Sie, meiner Unwissenheit in einem andern Punkte, an dem mir gerade
+                    viel liegt, zu Hülfe zu kommen. Im <hi rend="antiqua">Chinesischen</hi>, <hi rend="antiqua">Barmanischen</hi> und <hi rend="antiqua">Siamesischen</hi>,
+                    ebenso im <hi rend="antiqua">Mexicanischen</hi>, werden Zahlen nicht anders mit
+                    concreten Substantiven verbunden als indem man noch ein vermittelndes
+                    Gattungs-Substantivum hinzusetzt. Eine Spur davon ist in einigen <hi rend="antiqua">Sanskritischen</hi> Sprachen, wie wenn wir: vier Stück
+                    Pferde, die Römer <foreign sameAs="la">
+                  <hi rend="antiqua">tria capita</hi>
+               </foreign>
+               <subst>
+                  <del>
+                     <foreign sameAs="la">
+                        <hi rend="antiqua">bosum</hi>
+                     </foreign>
+                  </del>
+                  <add>
+                     <handShift scribe="wvh"/> <foreign sameAs="la">
+                        <hi rend="antiqua">boum</hi>
+                     </foreign>
+                  </add>
+               </subst> <handShift scribe="Schreiber"/>
+                    sagen. Ich wünschte aber zu wissen, ob im <hi rend="antiqua">Sanskrit</hi>
+                    selbst dergleichen vorkommt? Es liegt in der Natur der Sache, daß in allen
+                    Sprachen diese Art zu reden vorkommt, nicht gerade nothwendiger aber
+                    natürlicherweise. Die Eigenheit der oben genannten Sprachen ist nur das
+                    Durchführen dieser Idee durch zahllose Klassen auf eine Art, die auf die
+                        Wort-<pb n="2*"/>bildung zurück wirkt.</p>
+            <p>Ich habe seit meinem letzten Schreiben an Sie trotz des engen Drucks das ganze
+                        <hi rend="antiqua">Capitel</hi> über die Wurzeln (nämlich die Einleitung zu
+                    dem Verzeichniß) in <hi rend="antiqua">
+                  <bibl sameAs="585">Pott</bibl>
+               </hi>
+                    gelesen, und zu meiner sehr großen Befriedigung. Daß man unter einer solchen
+                    großen Menge von Ableitungen nicht in jede einstimmen kann, versteht sich
+                    freilich von selbst.</p>
+            <closer>
+               <salute>Mit der hochachtungsvollsten Freundschaft <lb/>
+                  <handShift scribe="wvh"/> der Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Berlin</hi> den 6<hi rend="superscript">t</hi>. <hi rend="antiqua">Januar</hi>
+                        1834.</dateline>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi> Wohlgeboren in
+                            allhier</addrLine>
+               </address>
+               <lb/>
+               <lb/>
+               <pb n="3* vacat"/>
+               <lb/>
+               <lb/>
+               <pb n="4*; Adressierung"/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor <hi rend="antiqua">Bopp</hi>
+                  </addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>allhier</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

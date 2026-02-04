@@ -1,0 +1,31 @@
+@startuml
+
+skinparam defaultTextAlignment center
+skinparam objectBorderColor #333333
+skinparam objectBackgroundColor #FEFECE
+skinparam arrowColor #333333
+
+object "Wilhelm von Humboldt" as E1 #ADD8E6
+object "Ephraim Beer" as E2 #ADD8E6
+object "Berlin" as E3 #90EE90
+object "Mendelssohn" as E4 #ADD8E6
+object "Morgenstunden" as E5 #FFB6C1
+object "Möglichkeit" as E6 #E6E6FA
+object "Wirklichkeit" as E7 #E6E6FA
+object "Philosophie" as E8 #E6E6FA
+object "Idealismus" as E9 #E6E6FA
+object "Monadenlehre" as E10 #E6E6FA
+
+E6 --> E8 : "ist_Subkonzept_von"
+E7 --> E8 : "ist_Subkonzept_von"
+E1 --> E6 : "betrifft"
+E1 --> E7 : "betrifft"
+E4 --> E6 : "beeinflusst"
+E9 --> E6 : "verschärft"
+E10 --> E6 : "verschärft"
+E5 --> E4 : "ist_ausgelöst_durch"
+E1 --> E5 : "betrifft"
+E8 --> E9 : "ist_Subkonzept_von"
+E8 --> E10 : "ist_Subkonzept_von"
+
+@enduml

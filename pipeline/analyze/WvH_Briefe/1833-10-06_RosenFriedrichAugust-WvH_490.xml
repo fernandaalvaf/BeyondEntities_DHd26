@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, 06.10.1833<idno type="BBAW">490</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 258–262</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 225</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ferosen">
+                  <persName>Ballhorn-Rosen, Friedrich Ernst</persName>
+               </person>
+               <person corresp="pbohlen">
+                  <persName>Bohlen, Peter von</persName>
+               </person>
+               <person corresp="jjcbuch">
+                  <persName>Buch, Johann Jacob Casimir</persName>
+               </person>
+               <person corresp="hbuelow">
+                  <persName>Bülow, Heinrich von</persName>
+               </person>
+               <person corresp="jcochran">
+                  <persName>Cochran, John</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="gfwrosen">
+                  <persName>Rosen, Georg Friedrich Wilhelm</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="713">Malayan Miscellanies, Vol. 1–2 (Bencoolen: Sumatran Mission Press
+                    1820–1822) [Zeitschrift]</bibl>
+               <bibl corresp="459">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation (Calcutta: Educ.
+                    Press 1832)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz haben schon so oft meine
+                        Nachsichtigkeit im Beantworten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1833-10-06"/>
+               <placeName key="Detmold">Detmold</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1016" type="prev">11.05.1833</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="ms">Malayisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">16. Januar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_517.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_518.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_519.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_520.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_521.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_522.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_523.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_524.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_525.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-10-06/Coll.ling.fol.53_526.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="258r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>haben schon so oft meine Nachlässigkeit im Beantworten Ihrer gütigen Briefe und
+                    in dem Besorgen Ihrer Aufträge nachsichtsvoll entschuldigt, daß ich auch in dem
+                    gegenwärtigen Falle auf Ihre Verzeihung rechnen zu dürfen hoffe. Ein
+                    Augen-Uebel, und der dringende Rath meines vielleicht allzuängstlichen Arztes,
+                    nöthigte mich mehrere Monate lang mein Lesen und Schreiben auf das
+                    Unvermeidliche zu beschränken: dieß war die Veranlassung weshalb ich die
+                    Collation des Verzeichnisses der Malayischen Handschriften von einer Woche zur
+                    andern verschob, und dieselbe endlich erst kurz vor meiner Abreise von
+                        <placeName ref="London">London</placeName>, wo ich von andern Arbeiten frei
+                    war, vornahm. In diesem Augenblicke habe ich nun zwar die Aussicht, bald selbst
+                    nach <placeName ref="Berlin">Berlin</placeName> zu kommen, indem ich auf den
+                    Wunsch <persName ref="ferosen">meines Vaters</persName> einen <persName ref="gfwrosen">jüngeren eben zur Universität abgehenden Bruder</persName>
+                    dorthin begleiten werde; da jedoch die Einrichtung und die Dauer der Reise nicht
+                    ganz von mir selbst abhängt, ziehe ich es vor, die mit den Berichtigungen
+                    versehene Abschrift des <pb n="258v"/> Verzeichnisses der Handschriften noch von
+                    hier aus unmittelbar an Ew. Excellenz abzusenden.</p>
+            <p>Wegen der von Ihnen gewünschten Bibel-Uebersetzungen habe ich sowohl in dem Hause
+                    der <orgName ref="17">Bibel-Gesellschaft</orgName> als auch bei der <orgName ref="16">Missions-Anstalt</orgName> in <hi rend="antiqua">Austin
+                        Friars’</hi> erkundigt: man versicherte mich aber, daß bis jetzt keine
+                    Exemplare der bezeichneten Uebersetzungen nach England eingeschickt worden
+                    wären. Nach <hi rend="antiqua">
+                  <persName ref="tsraffles">Raffles</persName>
+               </hi>’ <hi rend="antiqua">Malayan Researches</hi>
+               <note type="footnote" resp="editor">Dies ist wohl ein Schreibfehler Rosens, da
+                        Humboldt nach den <bibl sameAs="713">
+                     <hi rend="italic">Malayan
+                                Miscellanies</hi>
+                  </bibl> gefragt hat. [FZ]</note> habe ich bei
+                    mehreren Buchhändlern Nachfrage gethan; es ist mir aber bis jetzt nicht gelungen
+                    dieses Werkes auch nur ansichtig zu werden. Dasselbe ist, wie man mich
+                    versichert, überaus selten. Ich habe vor meiner Abreise noch dem Buchhändler <hi rend="antiqua">
+                  <persName ref="jcochran">John Cochran</persName>
+               </hi>, dessen
+                    Gefälligkeit ich schon mehrmals zu erproben Gelegenheit fand, den Auftrag
+                    hinterlassen, bei etwanigen Auctionen von Büchern auf das Werk zu achten, und
+                    dasselbe wenn es irgend möglich ist aufzutreiben.</p>
+            <p>Einem früheren Auftrage gemäß, habe ich von der kürzlich in <placeName ref="London">London</placeName> angelangten neuen Ausgabe von <persName ref="hhwilson">Wilson</persName>’s <bibl sameAs="459">Sanskrit
+                        Wörterbuch</bibl> ein Exemplar für <persName ref="pbohlen">Hrn. Professor
+                        von Bohlen</persName> gekauft, und mir die Auslage dafür (3 Pf. 18 Shill.,
+                    wenn ich nicht irre) von <persName ref="hbuelow">Herrn von Bülow</persName>
+                    wieder erstatten lassen. Gewiß sind jetzt auch längst die von dem Herausgeber zu
+                    Geschenken bestimmten Exemplare nach <placeName ref="Berlin">Berlin</placeName>
+                    gelangt. Das Werk hat sichtlich an Reichthum, sowohl durch neue
+                            <subst>
+                  <del>einzelnen Artikeln</del>
+                  <add>einzelne
+                        Artikel</add>
+               </subst>, als durch neue Bedeutungen der schon früher
+                    aufgeführten <pb n="261r"/> Wörter, aber leider nicht an kritischer Genauigkeit
+                    und zweckmäßiger Anordnung der Bedeutungen gewonnen.</p>
+            <p>Mit inniger Freude habe ich bereits durch einen Reisenden, <persName ref="jjcbuch">Herrn D.<hi rend="superscript">r</hi> Buch</persName> aus
+                        <placeName ref="Frankfurt am Main">Frankfurt</placeName>, erfahren, daß auch
+                    dieß Mal das Seebad zu <placeName ref="Norderney">Norderney</placeName> seine
+                    stärkende Kraft bei Ihnen bewährt hat. Möchte ich, wenn ich mich nun wieder wie
+                    früherhin persönlich bei Ihnen einstellen darf, so glücklich seyn, Sie in dem
+                    Besitz aller der Heiterkeit und Kraft anzutreffen, ohne deren Genuß auch die
+                    geliebtesten und belebendsten Studien an Reiz verlieren müssen. Ich selbst würde
+                    bei dem Rückblick auf das Wenige, was ich bis jetzt in <placeName ref="London">London</placeName> erarbeitet habe, nicht ohne Beschämung vor Ew. Excellenz
+                    erscheinen können, wenn ich nicht mit größerer Zuversicht auf freiere
+                    wissenschaftliche Thätigkeit in den nächsten Jahren rechnen dürfte.</p>
+            <closer>
+               <salute>Mit aufrichtiger Ehrerbietung empfehle ich mich der Fortdauer Ihres
+                        gütigen Wohlwollens <lb/>Ew. Excellenz <lb/>gehorsamster</salute>
+               <signed>F.
+                        Rosen.</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Detmold</hi>, den 6<hi rend="superscript">ten</hi>
+                  <hi rend="antiqua">October.</hi> 1833.</dateline>
+               <lb/>
+               <pb n="261v–262v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="259r"/> Malayische Handschriften der Asiatischen Gesellschaft zu
+                    London.</p>
+            <table cols="2" rows="1">
+               <row>
+                  <cell>
+                     <hi rend="underline">Abweichungen der Titel in den MSS.
+                            selbst:</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">Das übersandte Verzeichniß:</hi>
+                  </cell>
+               </row>
+            </table>
+            <table cols="4" rows="80">
+               <row>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>1.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Hangtuah.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>2.</cell>
+                  <cell>
+                     <hi rend="antiqua">Pandawa Jaya.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">nastapa</hi>
+                  </cell>
+                  <cell>3.</cell>
+                  <cell>
+                     <hi rend="antiqua">Rangga Aria Kuda <hi rend="underline">nastepo</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>4.</cell>
+                  <cell>
+                     <hi rend="antiqua">Bayan budiman.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>5.</cell>
+                  <cell>
+                     <hi rend="antiqua">Damar Wulan.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>6.</cell>
+                  <cell>
+                     <hi rend="antiqua">Sha-arul kamar.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="antiqua">Sha-ir Bida sari</hi>
+                     <lb/>
+                     <hi rend="antiqua">Sha-ir
+                                Kintambuhan</hi>
+                     <lb/>
+                     <hi rend="antiqua">Sha-ir Endong
+                                Dalima</hi>
+                     <lb/>
+                     <hi rend="antiqua">Sha-ir Ikan Tambra</hi>
+                  </cell>
+                  <cell>7.</cell>
+                  <cell>
+                     <hi rend="antiqua">Sha-ir Bida sari Hintambuhan Endong dalima
+                                Ikantambra.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>8.</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan Salatin.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>9.</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Putra.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> * <hi rend="antiqua">Perjanjian Karaying</hi>
+                     <lb/>† <hi rend="antiqua">Balanda</hi>
+                  </cell>
+                  <cell>10.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Serjanjian Keraying</hi>
+                     </hi>*
+                                <hi rend="antiqua">Gua, dangan Kumpni <hi rend="underline">Balandan</hi>.</hi>†</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>11.</cell>
+                  <cell>
+                     <hi rend="antiqua">Damar Wulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>12.</cell>
+                  <cell>
+                     <hi rend="antiqua">Maha Raja Brama Shahedan.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>13.</cell>
+                  <cell>
+                     <hi rend="antiqua">Endang Malat rasmi.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>14.</cell>
+                  <cell>
+                     <hi rend="antiqua">Charang kurina.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>15.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Buma.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>16.</cell>
+                  <cell>
+                     <hi rend="antiqua">Asma Yatin.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>17.</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan Salatin.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Chireta Asal Raja Raja</hi>
+                  </cell>
+                  <cell>18</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Charita Rajaraja</hi>
+                     </hi>*
+                                <hi rend="antiqua">or</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="259v"/>
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <hi rend="antiqua">Salasela Malayir</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* 1. <hi rend="antiqua">Dalang [Pamuda]</hi> (durchgestrichen)
+                                      <hi rend="antiqua">Asmara.</hi>
+                     <lb/>  2. <hi rend="antiqua">Dalang Panguda
+                                Asmara.</hi>
+                  </cell>
+                  <cell>19 &amp; 20.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Dalang pangada Asmana 2 vols.
+                                    folio</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>21.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Pandawa Lima</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>22.</cell>
+                  <cell>
+                     <hi rend="antiqua">Sri Rama</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>23.</cell>
+                  <cell>
+                     <hi rend="antiqua">Chikel waning Pati</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>*24. <hi rend="antiqua">Sálaséla Rája rája di tánah Jawa, 1.<hi rend="superscript">st</hi>
+                     </hi>
+                     <lb/> 25. <hi rend="antiqua">Sálaséla Rája rája di tánah Jawa, 2.<hi rend="superscript">d</hi>
+                     </hi>
+                  </cell>
+                  <cell>24. 25.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Salasela Rajaraja di Janah
+                                    Jawa. 2 vols. folio</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Hikáyat</hi>
+                  </cell>
+                  <cell>26.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Hikayet</hi>
+                     </hi>* <hi rend="antiqua">Panjiwila Kesuma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> † <hi rend="antiqua">Hikáyat Dálang</hi>
+                     <lb/>‡ <hi rend="antiqua">Kesúma</hi>
+                  </cell>
+                  <cell>27. 28.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Hikayat Dalang</hi>
+                     </hi>† <hi rend="antiqua">Indra <hi rend="underline">Kesuma</hi>
+                     </hi>‡ <hi rend="antiqua">2 vols. folio.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>29.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Naga Bersru.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Sajarah Salah sila Nabi Muhamed.</hi>
+                  </cell>
+                  <cell>30.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Salasela
+                            Chinchon</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>31.</cell>
+                  <cell>
+                     <hi rend="antiqua">Shah Khobet.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>32–34.</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang. 3 vols. folio.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>35.</cell>
+                  <cell>
+                     <hi rend="antiqua">Sajara Malayu, or Hikayat Malayu.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Sha-ir</hi>
+                  </cell>
+                  <cell>36.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Shair</hi>
+                     </hi>* <hi rend="antiqua">Bida sari.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>37.</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Putra.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>38.</cell>
+                  <cell>
+                     <hi rend="antiqua">Kalila dan Damina.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>39.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Malayu.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Radin</hi>     **<hi rend="antiqua">kasuma</hi>
+                  </cell>
+                  <cell>40.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Raden</hi>
+                     </hi>* <hi rend="antiqua">misa lara <hi rend="underline">kesuma</hi>.</hi>**</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">bahasa Malayu.</hi>
+                  </cell>
+                  <cell>41.</cell>
+                  <cell>Wukon Jawa di pindah pada <hi rend="antiqua">basa Malaya</hi>.*</cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="260r"/>
+                  </cell>
+                  <cell/>
+                  <cell>42.</cell>
+                  <cell>
+                     <hi rend="antiqua">Makuta sagala Rajaraja.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>43.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Pangeran kesuma Agung.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>44.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Chabut Tunggul.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>45.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Chikel waning Pati.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Mendu.</hi>
+                  </cell>
+                  <cell>46.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Dewa <hi rend="underline">Mandu</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">diwa Kasuma.</hi>
+                  </cell>
+                  <cell>47.</cell>
+                  <cell>
+                     <hi rend="antiqua">Mas Indra <hi rend="underline">dina
+                                Kesuma</hi>.</hi>†</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>48.</cell>
+                  <cell>
+                     <hi rend="antiqua">Makhtasar Altauhed</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Banten.</hi>
+                  </cell>
+                  <cell>49.</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair karangan <hi rend="underline">Bantan</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">Tamim</hi>
+                  </cell>
+                  <cell>50.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat <hi rend="underline">Tamin</hi>
+                     </hi>† <hi rend="antiqua">Aledri.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>‡ <hi rend="antiqua">Pudak Asmara</hi>
+                  </cell>
+                  <cell>51.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Dalang <hi rend="underline">pudah
+                                    Asmana</hi>.</hi>‡</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>52.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Raja Babi</hi>.</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">and Shair</hi>
+                  </cell>
+                  <cell>53.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Angkasa Diwa, Shair Ajar Anak <hi rend="underline">Shair</hi>
+                     </hi>* <hi rend="antiqua">Ikan.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">Ahamad</hi>
+                  </cell>
+                  <cell>54.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat <hi rend="underline">Aharnut</hi>
+                     </hi>† <hi rend="antiqua">bisnu.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Hikayat Indra Putra.</hi>
+                  </cell>
+                  <cell>55.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Indra Putra</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>56.</cell>
+                  <cell>
+                     <hi rend="antiqua">Baliul Zaman Anak Hamza.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Layangán.</hi>
+                  </cell>
+                  <cell>57.</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra <hi rend="underline">Layangan</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">Hikáyat Rája sha Juhan &amp; Johar
+                            manikem.</hi>
+                  </cell>
+                  <cell>58.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Hikayat Rajah Shah johan and
+                                    Johar manteem</hi>.</hi>†</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>59.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Kalila dan Damina.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>60.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Indra Jaya.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Barian</hi>
+                  </cell>
+                  <cell>61.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Shams <hi rend="underline">Burian</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> † <hi rend="antiqua">Esma</hi>    ‡ <hi rend="antiqua">Nabi</hi>
+                     <lb/>* <hi rend="antiqua">chukur</hi>
+                  </cell>
+                  <cell>62.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat <hi rend="underline">Asma</hi>
+                     </hi>† <hi rend="antiqua">yatim and <hi rend="underline">Nobi</hi>
+                     </hi>‡ ber
+                                <hi rend="antiqua">
+                        <hi rend="underline">chukor</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="260v"/>
+                  </cell>
+                  <cell/>
+                  <cell>63.</cell>
+                  <cell>
+                     <hi rend="antiqua">Raja Adil.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">salátin.</hi>
+                  </cell>
+                  <cell>64.</cell>
+                  <cell>
+                     <hi rend="antiqua">Kitab Tajul <hi rend="underline">salatin</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">Sha-ir</hi>
+                  </cell>
+                  <cell>65.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Shair</hi>
+                     </hi>† <hi rend="antiqua">Angreni.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>** <hi rend="antiqua">Muden</hi>
+                  </cell>
+                  <cell>66.</cell>
+                  <cell>
+                     <hi rend="antiqua">Raja Shah <hi rend="underline">Mudin</hi>
+                     </hi>**</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>67.</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Raja Pasai</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>68.</cell>
+                  <cell>
+                     <hi rend="antiqua">Sajara Malayu.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>69.</cell>
+                  <cell>
+                     <hi rend="antiqua">Akal Kepada Orang besar besar.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Arifin</hi>
+                  </cell>
+                  <cell>70.</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan <hi rend="underline">Aripin</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>† <hi rend="antiqua">Kulila Demna</hi>
+                  </cell>
+                  <cell>71.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Gelila
+                            Demina</hi>.</hi>†</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>72.</cell>
+                  <cell>
+                     <hi rend="antiqua">Kitab Trasul.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">Bayen Budimen.</hi>
+                  </cell>
+                  <cell>73.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Bayan
+                            budiman</hi>.</hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>74. 75.</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>* <hi rend="antiqua">silasila</hi>
+                  </cell>
+                  <cell>76.</cell>
+                  <cell>
+                     <hi rend="antiqua">Cherita <hi rend="underline">salasela</hi>
+                     </hi>*</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>77.</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>78.</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair Prang Batawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>*79. <hi rend="antiqua">Kitab Tefsir.</hi>
+                     <lb/> 80. <hi rend="antiqua">Sajarah Malayu.</hi>
+                  </cell>
+                  <cell>79.</cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Sajarah
+                            Malayu</hi>.</hi>*</cell>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuel José de Zavala y Acedo, Conde de Villafuertes an Wilhelm von Humboldt,
+                        14.09.1826<idno type="BBAW">493</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 54, Bl. 53–55</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Gárate 1934, S. 639 (Reg.)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 228</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11939</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="mapalbeniz">
+                  <persName>Albéniz, Mateo Antonio Pérez de</persName>
+               </person>
+               <person corresp="abrongniart">
+                  <persName>Brongniart, Alexandre</persName>
+               </person>
+               <person corresp="mlarramendi">
+                  <persName>Larramendi, Manuel de</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="519">Larramendi, Manuel de (1729): El impossible vencido. Arte de
+                        la Lengua Bascongada, Salamanca: A. J. Villargordo Alcaráz</bibl>
+               <bibl corresp="501">Larramendi, Manuel de (1745): Diccionario trilingüe del
+                        Castallano, Bascuence y Latin, San Sebastian: B. Riesgo y Montero</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Muy respetable y muy apreciado Sr. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="mjzavala">Zavala y Acedo, Manuel José de, Conde de
+                        Villafuertes</persName>
+               <date type="author" when="1826-09-14"/>
+               <placeName key="Tolosa">Tolosa</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="eu">Baskisch</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">15. Juli 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="53r"/>
+               <address>
+                  <addrLine>S.<hi rend="superscript">r</hi> Baron de Humbolt</addrLine>
+               </address>
+               <lb/>
+               <dateline>Tolosa 14 de Septiembre de 1826</dateline>
+            </opener>
+            <p>Mi respetable y muy apreciado S.<hi rend="superscript">r</hi> no tengo en olbido
+                    el encargo q.<hi rend="superscript">e</hi> se sirbio vm̃d.<note type="footnote" resp="editor">vuestra merced.</note> hacerme al despedirnos de vm̃d. mis
+                    Hijos y yo de esa p.<hi rend="superscript">a</hi> nuestro Pays, respectibo á las
+                    noticias q.<hi rend="superscript">e</hi> deseaba vm̃d. adquirir de nuestra
+                    ynteresante lengua bascongada. He puesto algunos medios p.<hi rend="superscript">a</hi> ver de dar con algunos manuscritos antiguos, escritos, poesia,
+                    musica, ú otros documentos referentes á esta lengua; p.<hi rend="superscript">o</hi> hasta ahora no tengo mucha esperanza de conseguir cosa ynteresante.
+                    Es lengua q.<hi rend="superscript">e</hi> sin duda no ha sido escrita en su
+                    antiguedad, si se esceptuan las ynscripciones enla antigua España q.<hi rend="superscript">e</hi> se pretenden ser bascongadas; y aun en tiempos mas
+                    modernos mui poco, algun libro q.<hi rend="superscript">e</hi> otro traducido
+                    del español al bascuence, (en este Pays). De monedas e ynscripciones no hai
+                    tampoco noticia de q.<hi rend="superscript">e</hi> de hayan hallado pr estas
+                    Probincias bascongadas, q.<hi rend="superscript">do</hi> en barias delas otras
+                    del ynterior de España se han encontrado, y ha ocupado su esplicacion é
+                    ynteligencia á barios sabios q.<hi rend="superscript">e</hi> se han dedicado á
+                    esta materia. En q.<hi rend="superscript">to</hi> á monedas las unicas halladas
+                    en el Pays, segun noticias, son una ó dos del tiempo de Cesar Augusto en una
+                    Mina, q.<hi rend="superscript">e</hi> se <sic>cre</sic> fue trabajada p.<hi rend="superscript">r</hi> los Romanos. — Ha llebado la atencion de algunos
+                    anticuarios una ynscripcion q.<hi rend="superscript">e</hi> se halla en uno de
+                    los caserios (casa de labradores colonos, donde viben, y cultiban las tierras
+                        q.<hi rend="superscript">e</hi> tienen al rededor) de las ymediaciones de
+                    este Pueblo, y no han podido esplicarla. Remito á vm̃d. adjunta una copia de
+                        esta<note type="footnote" resp="editor">Siehe die Beilage.</note>, p.<hi rend="superscript">r</hi> lo q.<hi rend="superscript">e</hi> pueda ynteresar
+                    ó descubrirse. Muchos de sus caracteres y signos, no <pb n="53v"/> parecen ser
+                    alfabeticos, y decontado no se asemejan en nada, á escepcion de alguno q.<hi rend="superscript">e</hi> otro, á los delas ynscripciones q.<hi rend="superscript">e</hi> se han encontrado en España, anteriores al tiempo
+                    de los Romanos, ni á las arabes. Mucho celebraria q.<hi rend="superscript">e</hi> hallase vm̃d. algo referente al bascuence. Esta ynscripcion está en
+                    una piedra, en la portada del d.<hi rend="superscript">ho</hi> Caserio. No
+                    dexare de continuar en recoger noticias, ó desengañarme de lo q.<hi rend="superscript">e</hi> pueda adquirirse en la materia. Podria ser util
+                    acaso p.<hi rend="superscript">a</hi> el obgeto, el q.<hi rend="superscript">e</hi> vm̃d. pudiese yndicarme q.<hi rend="superscript">e</hi> clase de
+                    estas serian apreciadas, ó las mas ynteresantes. Y yo tendria mucho gusto de
+                    ocuparme en adquirirlas, y q.<hi rend="superscript">e</hi> pudiesen interesar á
+                    vmd y á su hermano. — Es regular q.<hi rend="superscript">e</hi> conozca vm̃d.
+                        <bibl sameAs="519">la Gramatica, ó Arte dela lengua bascongada</bibl>
+                    escrita p.<hi rend="superscript">r</hi> el <persName ref="mlarramendi">Padre
+                        Larramendi</persName>, Jesuita bascongado. Me parece confusa, y q.<hi rend="superscript">e</hi> presenta de dificil esplicacion esta parte dela
+                    lengua, ó su arte de hablar y escribirla. Si vm̃d. no la tubiese, y le
+                    interesase veria de encontrar un exemplar, q.<hi rend="superscript">e</hi>
+                    tampoco lo tengo, y son raros los q.<hi rend="superscript">e</hi> se hallan. Ha
+                    escrito tambien <bibl sameAs="501">un Diccionario</bibl>. </p>
+            <p>No he sabido todabia del <persName ref="mapalbeniz">S.<hi rend="superscript">r</hi> Albeniz</persName> si entrego á vm̃d. el exemplar dela coleccion
+                    de canciones, musica, etc.<hi rend="superscript">a</hi> q.<hi rend="superscript">e</hi> estaba ymprimiendose los mismos dias q.<hi rend="superscript">e</hi>
+                    le hable á vm̃d. en esa de esta publicacion, y q.<hi rend="superscript">e</hi>
+                    combine con <persName ref="mapalbeniz">el mismo Albeniz</persName> se lo
+                    entregaria á vm̃d. Puede ser q.<hi rend="superscript">e</hi> no haya encontrado
+                    vm̃d. en ella mucho q.<hi rend="superscript">e</hi> le ynterese.</p>
+            <p>En uno delos dos cajones q.<hi rend="superscript">e</hi> embio á <sic>
+                  <hi rend="underline">
+                     <persName ref="abrongniart">M<hi rend="superscript">r</hi>. Alexandre Brogniart</persName>
+                  </hi>
+               </sic>
+               <note type="footnote" resp="editor">Dieser Hinweis auf den Mineralogen und
+                        Chemiker Brongniart lässt den Verdacht aufkommen, dass der Brief an
+                            <persName ref="avh">Alexander von Humboldt</persName> gerichtet gewesen
+                        sein könnte; vgl. den Eintrag in der <ref type="linkExt"
+                       target="https://edition-humboldt.de/register/personen/detail.xql?id=H0003680">edition humboldt digital</ref>. [FZ]</note> con fosiles, y
+                    petrificaciones de este Pays, remito p.<hi rend="superscript">a</hi> vm̃d. unos
+                    pedazos del basalto (segun mi juicio) de q.<hi rend="superscript">e</hi> hable á
+                    vm̃d. en esa, y le ofreci embiar, q.<hi rend="superscript">e</hi> se encuentra
+                    en pedruscos sueltos esparcidos, y q.<hi rend="superscript">e</hi> han sido
+                    rodados, en las ymediaciones de Az-<pb n="55r"/>coytia y Azpeytia de esta
+                    Probincia de Guipuzcoa. Su origen no he podido verlo hasta ahora. Tambien embio
+                    con ellos otros pedazos de basalto, unos de la Montaña de Ascasua, y algunos de
+                    la de Muzquirichu, entre los quales creo q.<hi rend="superscript">e</hi> hai
+                    otros productos bolcanicos; ambas Montañas en la jurisdicion de Vergara de esta
+                    Probincia, á dos á tres leguas del sitio donde se encuentran los de Azcoytia, y
+                    Azpeytia. Estos me los ha embiado uno de Vergara, aficionado á Mineralogia, y
+                    Geognosia; y hasta ahora no tenia yo noticia de ellos. Dice este q.<hi rend="superscript">e</hi> el terreno basaltico se estiende mucho p.<hi rend="superscript">r</hi> los terrenos de Muzquirichu, Elosua, Plasencia,
+                    Azcoytia, Azcarate, Elgoybar, Arrate, y Eybar, (q.<hi rend="superscript">e</hi>
+                    acaso podra vm̃d. ver en la carta,) ademas de los de Ascasua, y Anguba en
+                    Vergara. Deseo mucho verlos. En las ymediaciones del basalto de acia Azcoytia,
+                    Azpeytia, y Cestona se encuentran aguas termanes en la jurisdicion de esta
+                    ultima Villa, cuya temperatura es de 27 y 29 grados <hi rend="underline">Reaumur</hi>. </p>
+            <closer>
+               <salute>Reciba vm̃d. espresibas memorias de mis dos Hijos; y disimulando
+                        vm̃d. el tiempo q.<hi rend="superscript">e</hi> le he robado con esta larga
+                        carta, vea vm̃d. de disponer si en algo puede serle util su mui atento, y
+                        delos mas adictos serbidor q.b.s.m.</salute>
+               <signed>El Conde de
+                        Villafuertes</signed>
+               <lb/>
+               <pb n="54r/v = Beilage: Zeichnung einer »Inschrift«?"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

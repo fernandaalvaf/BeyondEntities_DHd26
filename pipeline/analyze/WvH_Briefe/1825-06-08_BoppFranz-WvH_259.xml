@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 08.06.1825<idno type="BBAW">259</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 215–218</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 164</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ksfaltenstein">
+                  <persName>Altenstein, Karl Sigmund Franz, Freiherr vom Stein
+                    zum</persName>
+               </person>
+               <person corresp="hpforster">
+                  <persName>Forster, Henry Pitts</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="570">Bopp, Franz: Bopp, Franz: Ausführliches Lehrgebäude der
+                    Sanskrita-Sprache (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="135">Forster, Henry Pitts: An Essay on the Principles of Sanskrit
+                    Grammar (Calcutta: Ferris 1810)</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Excellenz ... Ich bin von innigstem Dankgefühl durchdrungen
+                        für den neuen Beweis Ihrer huldvollen Gewogenheit ...</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1825-06-08"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="144" type="next">20.06.1825 (Mattson)</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">15. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 27. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_291.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_292.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_293.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_294.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_295.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_296.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_297.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1825_06_08/Coll.ling.fol.21_298.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="215r"/> <salute>Excellenz</salute>
+            </opener>
+            <p>Ich bin von dem innigsten Dankgefühl durchdrungen für den neuen Beweis Ihrer
+                    huldvollen Gewogenheit, welche sich mir aus Ihrem hochgeehrtesten Schreiben zu
+                    erkennen gibt. Wenn es nur irgend möglich ist neben der von der <orgName ref="3">Akademie</orgName> mir bewilligten und nun dem <orgName ref="15">Ministerium</orgName> zur Genehmigung vorgelegten Unterstützung eine
+                    Unterstützung von Seiten des <orgName ref="15">Ministeriums</orgName> zu
+                    erlangen, so bin ich fest überzeugt, daß dieses nur durch die wirksame und für
+                    mich äußerst ehrenvolle Verwendung Ew Excellenz geschehen kann, ohne welche <pb n="215v"/> ich nicht die <subst>
+                  <del>entfernste</del>
+                  <add>entfernteste</add>
+               </subst> Hoffnung hierzu hegen dürfte. In der Uberzeugung, daß bei dieser, wie
+                    in ähnlichen <subst>
+                  <del type="fragment">Verl</del>
+                  <add>Veranlassungen,</add>
+               </subst> sowohl bei der <orgName ref="3">Akademie</orgName> wie bei <persName ref="ksfaltenstein">Hr Minister Altenstein</persName> Alles auf Ihr
+                    geneigtes Urtheil über meine litterarischen Bemühungen ankömmt, ersuche ich
+                    ehrerbietigst Ew Excellenz, dieser Angelegenheit ferner Ihre gnädige Mitwirkung
+                    zu schenken. Ich werde, auch wenn meine wohlbegründete Hoffnung fehlschlagen
+                    sollte, stets eine gleiche Dankbarkeit für Ihr vielfältig mir bewiesenes
+                    unendlich <sic>schätzbare</sic> Wohlwollen im Herzen tragen.</p>
+            <p>In Betreff der in beifolgendem Blatte berührten Punkte erlaube ich mir folgende
+                    Bemerkungen.</p>
+            <p>1) <foreign sameAs="sa" n="transEd">kṣema<graphic url="Bopp/Bopp-WvH_1825_06_08/0154.svg"/>
+               </foreign> möchte ich nicht von
+                        <foreign sameAs="sa" n="transEd">kṣi<graphic url="Bopp/Bopp-WvH_1825_06_08/0155.svg"/>
+               </foreign> ableiten, auch wage
+                    ich keine <del type="fragment">A</del> andere Ableitung mit Sicherheit <subst>
+                  <del>aufstellen.</del>
+                  <add>aufzustellen.</add>
+               </subst> Ihre Vermuthung daß es von <foreign sameAs="sa" n="transEd">kṣam<graphic url="Bopp/Bopp-WvH_1825_06_08/0156.svg"/>
+               </foreign> kommen
+                    könnte läßt sich aber dadurch unterstützen, daß es unregelmäßige Verwandlungen
+                        <pb n="216r"/> von <foreign sameAs="sa" n="transEd">a<graphic url="Bopp/Bopp-WvH_1825_06_08/0157.svg"/>
+               </foreign> in <foreign sameAs="sa" n="transEd">e<graphic url="Bopp/Bopp-WvH_1825_06_08/0158.svg"/>
+               </foreign> gibt, z.B. <foreign sameAs="sa" n="transEd">naś<graphic url="Bopp/Bopp-WvH_1825_06_08/0159.svg"/>
+               </foreign> bildet <foreign sameAs="sa" n="transEd">aneśaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0160.svg"/>
+               </foreign> (<bibl sameAs="135">Forster</bibl> p. 350) und <foreign sameAs="sa" n="transEd">as<graphic url="Bopp/Bopp-WvH_1825_06_08/0161.svg"/>
+               </foreign> seyn bildet <foreign sameAs="sa" n="transEd">edhi<graphic url="Bopp/Bopp-WvH_1825_06_08/0162.svg"/>
+               </foreign> sey für <foreign sameAs="sa" n="transEd">addhi<graphic url="Bopp/Bopp-WvH_1825_06_08/0163.svg"/>
+               </foreign> oder <foreign sameAs="sa" n="transEd">adhi<graphic url="Bopp/Bopp-WvH_1825_06_08/0164.svg"/>
+               </foreign> (<bibl sameAs="570">meine Gramm.</bibl> S. 66). Ich ziehe also die Ableitung aus <foreign sameAs="sa" n="transEd">kṣam<graphic url="Bopp/Bopp-WvH_1825_06_08/0165.svg"/>
+               </foreign> vor.</p>
+            <p>2. <persName ref="awschlegel">Schlegel</persName> scheint mir mit Recht <foreign sameAs="sa" n="transEd">sāṃkhya<graphic url="Bopp/Bopp-WvH_1825_06_08/0166.svg"/>
+               </foreign> an beiden Stellen
+                    als Adjectiv zu nehmen, obwohl <persName ref="hhwilson">
+                  <hi rend="antiqua">Wilson</hi>
+               </persName> dieses Wort nicht als Adj.
+                    anführt. Früher hatte ich dieses nicht so genau erwogen und ich glaubte den
+                    Tadel Ew Excellenz ganz gegründet. Als Substantiv würde <add>es</add> der
+                    Dichter wahrscheinlich mit <foreign sameAs="sa" n="transEd">yoga<graphic url="Bopp/Bopp-WvH_1825_06_08/0167.svg"/>
+               </foreign> verbunden haben,
+                        <foreign sameAs="sa" n="transEd">sāṃkhyayogena<graphic url="Bopp/Bopp-WvH_1825_06_08/0168.svg"/>
+               </foreign>, wie das folgende
+                        <foreign sameAs="sa" n="transEd">karmayogena<graphic url="Bopp/Bopp-WvH_1825_06_08/0169.svg"/>
+               </foreign>; auch erklärt es der
+                    Scholiast durch ein <hi rend="antiqua">Compositum</hi> (<foreign sameAs="sa" n="transEd">sāṃkhyayogamārgena<graphic url="Bopp/Bopp-WvH_1825_06_08/0170.svg"/>
+               </foreign>) Es ist ein
+                    Druckfehler daß bei <bibl sameAs="53">Schl.</bibl> das (<foreign sameAs="sa" n="transEd">ṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0171.svg"/>
+               </foreign>)
+                    über dem <foreign sameAs="sa" n="transEd">s<graphic url="Bopp/Bopp-WvH_1825_06_08/0172.svg"/>
+               </foreign> steht. <foreign sameAs="sa">
+                  <term type="phon">
+                     <hi rend="antiqua">Anuswara</hi>
+                  </term>
+               </foreign> kann nur vor Consonanten stehen.</p>
+            <p>3 Der Scholiast nimmt <foreign sameAs="sa" n="transEd">nimittāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0173.svg"/>
+               </foreign> in dem Sinne von
+                    Vorbedeutungen Auspizien: "<foreign sameAs="sa" n="transEd">api<graphic url="Bopp/Bopp-WvH_1825_06_08/0174.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ca<graphic url="Bopp/Bopp-WvH_1826_07/0281.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">viparītāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0176.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nimittāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0177.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">aniṣṭasūcakāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0178.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">śakunāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0179.svg"/>
+               </foreign>
+               <add>
+                  <foreign sameAs="sa" n="transEd">paśyāmi<graphic url="Bopp/Bopp-WvH_1825_06_08/0180.svg"/>
+                  </foreign>
+               </add>. Mir
+                    scheint diese Erklärung befriedigend.</p>
+            <p>4 <foreign sameAs="sa" n="transEd">pratyakṣāvagama<graphic url="Bopp/Bopp-WvH_1825_06_08/0181.svg"/>
+               </foreign> ist zusammenges. aus
+                        <foreign sameAs="sa" n="transEd">pratyakṣa<graphic url="Bopp/Bopp-WvH_1825_06_08/0182.svg"/>
+               </foreign> u. <foreign sameAs="sa" n="transEd">avagama<graphic url="Bopp/Bopp-WvH_1825_06_08/0183.svg"/>
+               </foreign> und heißt <hi rend="underline">klares Verstandniß habend</hi> (<bibl sameAs="570">meine
+                        Gramm.</bibl> S. 112 und <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl> <foreign sameAs="sa" n="transEd">avagani<graphic url="Bopp/Bopp-WvH_1825_06_08/0184.svg"/>
+               </foreign>,
+                        <foreign sameAs="sa" n="transEd">avagana<graphic url="Bopp/Bopp-WvH_1825_06_08/0185.svg"/>
+               </foreign>) Der Scholiast
+                    erklärt <pb n="216v"/> <add>
+                  <foreign sameAs="sa" n="transEd">pratyakṣa<graphic url="Bopp/Bopp-WvH_1825_06_08/0186.svg"/>
+                  </foreign>
+               </add> durch
+                        <foreign sameAs="sa" n="transEd">spaṣṭa<graphic url="Bopp/Bopp-WvH_1825_06_08/0187.svg"/>
+               </foreign> sein
+                        <sic>Syonym</sic> für <foreign sameAs="sa" n="transEd">avagama<graphic url="Bopp/Bopp-WvH_1825_06_08/0188.svg"/>
+               </foreign> ist mir nicht
+                    deutlich und wahrscheinlich in unserer Handschrift ein Schreibfehler. Ich habe
+                    aber keine Zweifel über <foreign sameAs="sa" n="transEd">avagama<graphic url="Bopp/Bopp-WvH_1825_06_08/0188.svg"/>
+               </foreign>. <persName ref="awschlegel">Schl.</persName> nimmt, wie mir scheint mit Unrecht,
+                        <foreign sameAs="sa" n="transEd">pavitra<graphic url="Bopp/Bopp-WvH_1825_06_08/0189.svg"/>
+               </foreign> als Substantiv; der
+                    Scholiast erklärt es durch <foreign sameAs="sa" n="transEd">patra<graphic url="Bopp/Bopp-WvH_1825_06_08/0190.svg"/>
+               </foreign>, offenbar ein
+                    Schreibfehler für <foreign sameAs="sa" n="transEd">pavitra<graphic url="Bopp/Bopp-WvH_1825_06_08/0191.svg"/>
+               </foreign>, er sagt:
+                                <subst>
+                  <del>
+                     <foreign sameAs="sa" n="transEd">punātiti<graphic url="Bopp/Bopp-WvH_1825_06_08/0192.svg"/>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">punātīti<graphic url="Bopp/Bopp-WvH_1825_06_08/0193.svg"/>
+                     </foreign>
+                     <foreign sameAs="sa" n="transEd">pavitraṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0194.svg"/>
+                     </foreign>
+                  </add>
+               </subst> reinigt, ist also <foreign sameAs="sa" n="transEd">pavitraṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0195.svg"/>
+               </foreign> reinigend.</p>
+            <p>5 Muß allerdings heißen <foreign sameAs="sa" n="transEd">avāptavyaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0196.svg"/>
+               </foreign>
+            </p>
+            <p>6. <foreign sameAs="sa" n="transEd">pada<graphic url="Bopp/Bopp-WvH_1825_06_08/0197.svg"/>
+               </foreign> möchte ich nicht
+                    durch Wort übersetzen, sondern lieber durch <hi rend="underline">Ding</hi>, <hi rend="underline">Wesen</hi>; es konnte in der Uebersetzung füglich
+                    ausgelassen werden, der Comment. läßt es unerklärt, die Erläuterung des Ganzen
+                    läßt aber ebenfalls die Bedeutung <hi rend="underline">Wort</hi> nicht zu.</p>
+            <p>7 <foreign sameAs="sa" n="transEd">mūrddhan<graphic url="Bopp/Bopp-WvH_1825_06_08/0198.svg"/>
+               </foreign> wegen der nach
+                        <foreign sameAs="sa" n="transEd">r<graphic url="Bopp/Bopp-WvH_1825_06_08/0199.svg"/>
+               </foreign> üblichen
+                    Verdoppelung.</p>
+            <p>8 <del>Man</del> <foreign sameAs="sa" n="transEd">sadasattatparaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0200.svg"/>
+               </foreign>. – Man nimmt
+                    gewöhnlich an daß die Pronom. keinen Vocativ haben. Die Vocative hören also nach
+                        <foreign sameAs="sa" n="transEd">jagannivāsa<graphic url="Bopp/Bopp-WvH_1825_06_08/0201.svg"/>
+               </foreign>
+               <add>auf</add> und <foreign sameAs="sa" n="transEd">tvamakṣaraṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0202.svg"/>
+               </foreign> u.s.w. ist <pb n="217r"/> <surplus>ist</surplus> so zu nehmen wie im folgenden Sl. <foreign sameAs="sa" n="transEd">tvamādidevaḥ<graphic url="Bopp/Bopp-WvH_1825_06_08/0203.svg"/>
+               </foreign> Die Wörter <subst>
+                  <del type="fragment">
+                     <foreign sameAs="sa" n="transEd">sata+<graphic url="Bopp/Bopp-WvH_1825_06_08/0204.svg"/>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">sadasattatparaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0205.svg"/>
+                     </foreign>
+                  </add>
+               </subst> ist man allerdings, grammatisch genommen nicht gezwungen als ein <hi rend="antiqua">Compositum</hi> anzusehen und man kann in Uebereinstimmung
+                    mit Ew Excellenz übersetzen: Du bist das Seyende und nicht Seyende und das was
+                    das Höchste oder, du bist jenes Seyende und nicht Seyende welches das Höchste.
+                    Ich kann diese Auslegung nicht verwerfen, da sie, wie Ew Excellenz ganz richtig
+                    bemerken durch IX. 19 <del type="fragment">begünst</del> unterstützt wird. Der
+                    Scholiast und <persName ref="awschlegel">Schlegel</persName> sehen die genannten
+                    Wörter als eine <hi rend="antiqua">Comp</hi>. an. <persName ref="awschlegel">Schl.</persName> würde sonst abgetheilt haben, da er in der Abtheilung
+                    dieselben Grundsätze befolgt, welche ich im <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> angeführt habe. Der Scholiast erklärt
+                        <foreign sameAs="sa" n="transEd">sadasattatparaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0206.svg"/>
+               </foreign>
+               <add>
+                  <foreign sameAs="sa" n="transEd">yat<graphic url="Bopp/Bopp-WvH_1825_06_08/0207.svg"/>
+                  </foreign>
+               </add> durch „das
+                    was über das Seyende <subst>
+                  <del>oder</del>
+                  <add>d.h.</add>
+               </subst> Sichtbare und das Nichtseyende d.h. Unsichtbare erhaben ist, höher ist
+                    als diese beiden, oder die erste Ursache davon ist, seine Worte sind: <foreign sameAs="sa" n="transEd">sahyaktaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0208.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">asadavyaktaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0209.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nābhyāṃparaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0210.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">bhūlakāraṇaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0211.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">yat<graphic url="Bopp/Bopp-WvH_1825_06_08/0212.svg"/>
+               </foreign>. Der Scholiast nimmt
+                    also dieses <hi rend="antiqua">Comp</hi>. für ein <term type="morph">
+                  <hi rend="antiqua">Tatpuruscha</hi>
+               </term>. <foreign sameAs="sa" n="transEd">tatpara<graphic url="Bopp/Bopp-WvH_1825_06_08/0213.svg"/>
+               </foreign> gilt hier für Ein Wort, es findet sich bei <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi>
+               </bibl>, doch nicht in einer hier brauchbaren
+                    Bedeutung, es ist mir aber schon in anderen Stellen, so viel ich <pb n="217v"/>
+                    mich erinnere, als letztes Glied eines Compos. vorgekommen, und ich gestehe daß
+                    ich <subst>
+                  <del type="fragment">
+                     <foreign sameAs="sa" n="transEd">sadasapa<graphic url="Bopp/Bopp-WvH_1825_06_08/0214.svg"/>
+                     </foreign>
+                  </del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">sadasattatparaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0215.svg"/>
+                     </foreign>
+                  </add>
+               </subst> gerne mit <persName ref="awschlegel">Schl.</persName> und dem
+                    Scholiasten als <hi rend="antiqua">Comp</hi>. ansehe – Ich habe noch zu bemerken
+                    daß <foreign sameAs="sa" n="transEd">tvam<graphic url="Bopp/Bopp-WvH_1825_06_08/0216.svg"/>
+               </foreign>
+               <del>
+                  <add>
+                     <foreign sameAs="sa" n="transEd">kṣara<graphic url="Bopp/Bopp-WvH_1825_06_08/0217.svg"/>
+                     </foreign>
+                  </add>
+               </del> auch deswegen kein <hi rend="antiqua">Vocat</hi>. seyn kann, weil
+                        <foreign sameAs="sa" n="transEd">akṣaraṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0218.svg"/>
+               </foreign> im Nominativ daneben
+                    steht.</p>
+            <p>9 Ueber die Auslegung dieses <hi rend="antiqua">Scholion</hi> zum <hi rend="antiqua">Manu</hi>
+               <!-- AD: title? --> bin ich mit Ew
+                        <del>einverstanden</del> Excellenz einverstanden, <foreign sameAs="sa" n="transEd">satsvabhāvaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0219.svg"/>
+               </foreign> ist das <surplus>das</surplus> Wesen, die Natur, des Seyenden
+                    habende u.s.w. Nur den Schluß erkläre ich anders. Der Scholiast erklärt hier,
+                    nach meiner Ansicht, die Ausdrücke <foreign sameAs="sa" n="transEd">sat<graphic url="Bopp/Bopp-WvH_1825_06_08/0220.svg"/>
+               </foreign> und
+                        <foreign sameAs="sa" n="transEd">asat<graphic url="Bopp/Bopp-WvH_1825_06_08/0221.svg"/>
+               </foreign> noch einmal, und
+                    erläutert sodann das Wort <foreign sameAs="sa" n="transEd">ātmakaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0222.svg"/>
+               </foreign>: „<del>Oer</del>
+                    Oder <foreign sameAs="sa" n="transEd">sat<graphic url="Bopp/Bopp-WvH_1825_06_08/0220.svg"/>
+               </foreign> ist soviel als
+                        <foreign sameAs="sa" n="transEd">bhāvajānaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0223.svg"/>
+               </foreign> was durch
+                        <add>das</add> Seyn geworden, zum Seyn gelangt ist, und <foreign sameAs="sa" n="transEd">asat<graphic url="Bopp/Bopp-WvH_1825_06_08/0221.svg"/>
+               </foreign> heißt soviel als
+                        <foreign sameAs="sa" n="transEd">abhāvaḥ<graphic url="Bopp/Bopp-WvH_1825_06_08/0224.svg"/>
+               </foreign>
+               <del type="fragment">w</del> (gewiß ein Druckfehler für <foreign sameAs="sa" n="transEd">abhāvaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0225.svg"/>
+               </foreign>, wie <foreign sameAs="sa" n="transEd">jātaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0226.svg"/>
+               </foreign> ein Neutrum) <del type="fragment">d</del> was ohne Seyn ist; was die Seele oder das Prinzip
+                    dieser beiden, des Seyenden und Nicht-Seyenden ist (<foreign sameAs="sa" n="transEd">tayorātmabhūtaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0227.svg"/>
+               </foreign>) wird im Texte <foreign sameAs="sa" n="transEd">sadasadātmakaṃ<graphic url="Bopp/Bopp-WvH_1825_06_08/0228.svg"/>
+               </foreign> genannt.“ Diesen Ausdruck nehmen wohl Ew Excellenz auch als ein
+                        <hi rend="antiqua">Compositum</hi>?</p>
+            <p>10 <foreign sameAs="sa" n="transEd">bhutāni<graphic url="Bopp/Bopp-WvH_1825_06_08/0229.svg"/>
+               </foreign> ein Druckfehler</p>
+            <p>
+               <pb n="218r"/> Ew Excellenz habe ich die Ehre hierbei den 20. und 21<hi rend="superscript">ten</hi> Bogen <bibl sameAs="558">meiner Grammatik</bibl>
+                    zu überschicken, und verharre in tiefster Ehrerbietung</p>
+            <closer>
+               <salute>Ew Excellenz <lb/>
+                  <sic>Unterthanig</sic> gehorsamster </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <dateline>Berlin den 8. Juni 1825</dateline>
+               <lb/>
+               <pb n="218v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

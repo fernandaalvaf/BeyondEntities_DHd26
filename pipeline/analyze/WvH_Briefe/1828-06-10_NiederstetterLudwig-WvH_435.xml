@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ludwig Niederstetter an Wilhelm von Humboldt, 10.06.1828<idno type="BBAW">435</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 137–139</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jaaldamayguevara">
+                  <persName>Aldama y Guevara, José Agustín</persName>
+               </person>
+               <person corresp="favila">
+                  <persName>Avila, Francisco de</persName>
+               </person>
+               <person corresp="lbertonio">
+                  <persName>Bertonio, Ludovico</persName>
+               </person>
+               <person corresp="afebres">
+                  <persName>Febrés, Andrés</persName>
+               </person>
+               <person corresp="ademolina">
+                  <persName>Molina, Alfonso de</persName>
+               </person>
+               <person corresp="orich">
+                  <persName>Rich, Obadiah</persName>
+               </person>
+               <person corresp="cdetapia">
+                  <persName>Tapia Zenteno, Carlos de</persName>
+               </person>
+               <person corresp="dtorres">
+                  <persName>Torres Rubio, Diego de</persName>
+               </person>
+               <person corresp="cvidua">
+                  <persName>Vidua, Carlo</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="13">Aldáma y Guevára, José Augustin de: Arte de la lengua Mexicana
+                    (Mexiko: En la Imprenta nueva de la Bibliotheca Mexicana 1754)</bibl>
+               <bibl corresp="39">Avila, Francisco de: Arte de la lengua mexicana (Mexiko: Ribera
+                    Calderõ 1717)</bibl>
+               <bibl corresp="491">Bárenca, Alfonso / Bertonio, Ludovico / del Canto, Francisco / de
+                    Santo Tomás, Domingo / Holguín, Diego Gonzáles / de Torres Rubio, Diego: Arte, y
+                    Vocabulario en la lengua general del Peru, llamada Quichua, y en la lengua
+                    Española. El mas coposio y elegante, que hasta agora se ha impresso (Lima:
+                    Francisco del Canto 1614)</bibl>
+               <bibl corresp="50">Bertonio, Ludovico: Vocabulario de la lengua Aymara (Chucuyto:
+                    Francisco del Canto 1612)</bibl>
+               <bibl corresp="132">Febrés, Andres: Arte de la lengua general del reyno de Chile (Lima:
+                    Calle de la Encarnación 1765)</bibl>
+               <bibl corresp="302">Molina, Alonso de: Vocabulario en lengua Castellana y Mexicana
+                    (Mexiko: Antonio de Spinosa 1571)</bibl>
+               <bibl corresp="418">Tapia Zenteno, Carlos de: Arte novissima de lengua mexicana que
+                    dictó (Mexiko: Vinda de D. Joseph Bernardo de Hogal 1753)</bibl>
+               <bibl corresp="434">Torres Rubio, Diego: Arte, y Vocabulario de la lengua quichua
+                    general de los indios de el Peru (Lima: Plazuela de San Christoval 1754)</bibl>
+               <bibl corresp="850">Vidua, Carlo: Inscriptiones antiquae a comite Carolo Vidua in
+                    Turcico itinere collectae (Paris: Dondey-Dupré 1826)</bibl>
+               <bibl corresp="490">Yangues, Manuel de (1683): Principios y reglas de la lengua
+                    Cumanagota, general en varias naciones, que habitan en la
+                    Provincia de Cummana en las Indias Occidentales. Compuesto por
+                    el R. P. Predicador Fr. Manuel de Yangues. Sacados a luz aora
+                    nuevamente, corregidos, y reducidos a mayor claridad y brevedad,
+                    junto con un Diccionario que ha compuesto el R. P. Fr. Mathias
+                    Blanco, Burgos: Por Iuan de Viar</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz bitte ich um die Erlaubniss,
+                        demselben eine kleine Schrift überreichen zu dürfen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="lniederstetter">Niederstetter, Ludwig</persName>
+               <date type="author" when="1828-06-10"/>
+               <placeName key="Philadelphia">Philadelphia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="lniederstetter">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FS</item>
+            <item n="date">17. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_284.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_285.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_286.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_287.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_288.jpg"/>
+      <graphic url="Niederstetter/Niederstetter-WvH_1828_06_10/Coll.ling.fol.52_289.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="137r"/> <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>bitte ich um die Erlaubniß, denselben eine kleine <bibl sameAs="850">Schrift</bibl> überreichen zu dürfen, die mir vor Kurzem von einem Freund
+                    von mir, dem Grafen <persName ref="cvidua">
+                  <hi rend="antiqua">Charles de
+                            Vidua</hi>
+               </persName> von <placeName ref="Turin">
+                  <hi rend="antiqua">Turin</hi>
+               </placeName>, mit dem Wunsche zugekommen ist, einige
+                    Exemplare davon an meine gelehrten Landsleute zu vertheilen. Ich machte <hi rend="antiqua">
+                  <persName ref="cvidua">Vidua</persName>s</hi> Bekanntschaft,
+                    nachdem er seine Asiatische Reise zurückgelegt hatte, bei seinem Besuche der
+                    Verein. Staaten im Jahr 1825, auf einer gemeinschaftlichen Reise durch den
+                    nördlichen Theil der Union, und fand ihn einen eben so liebenswürdigen als
+                    achtbaren Mann, der, was unermüdliches Forschen und Sammeln von Materialien
+                    betrift, unter seinen reisenden Collegen gewiß seines Gleichen sucht, die der
+                    beigehenden Schrift angehängten Sammlung von Inschriften hat daher <pb n="137v"/> mindestens den Werth der Accurateße gewiß.</p>
+            <closer>
+               <salute>Genehmigen Ew. Excellenz die erneuerte Darbringung meines tiefsten
+                        Respekts, und meiner unbegrenzten Ergebenheit, mit welcher ich die Ehre
+                        habe, zu seÿn <lb/>Ew. Excellenz <lb/>ganz gehorsamster
+                        Diener</salute>
+               <signed>Niederstetter</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Philadelphia</hi>
+                  <lb/> den 10 Junÿ
+                        1828.</dateline>
+               <lb/>
+               <pb n="138r/v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="139r"/>
+               <note type="footnote" resp="editor">Die folgende Bücherliste
+                        entspricht in Handschrift und Umfang (abgesehen von dem Schreibfehler unter
+                        Nr. 2) einer Liste, die einem <ref target="463" type="link">Schreiben von
+                            Obadiah Rich an Humboldt vom 31. Oktober 1828</ref> beiliegt (Coll.
+                        ling. fol. 52, Bl. 150r).</note> 1. <hi rend="antiqua">
+                  <persName ref="ademolina">Molina</persName>. <bibl sameAs="302">Vocabulario
+                            Castellano y Mexicano</bibl>. fol. Mexico 1571.</hi>
+            </p>
+            <p>2. <hi rend="antiqua">
+                  <del>Figueroa</del> <bibl sameAs="50"> Vocabulario de la
+                            lengua Aymara</bibl> 4. Tuli.<note type="footnote" resp="editor">Korrekt muss es heißen: "Juli"; die Stadt liegt am Titicaca-See in
+                            Peru.</note> 1612.</hi>
+            </p>
+            <p>3. <hi rend="antiqua">
+                  <bibl sameAs="491">Arte y Vocabulario de la lengua
+                            Quichua</bibl> 8. Lima. 1614</hi>
+            </p>
+            <p>4. <hi rend="antiqua">
+                  <bibl sameAs="490">Arte y Vocabulario de la lengua
+                            Cumanagota</bibl> 4. Burgos 1683.</hi>
+            </p>
+            <p>5. <hi rend="antiqua">
+                  <bibl sameAs="39">Arte de la lengua Mexicana</bibl> 8.
+                        Mexico 1717</hi>
+            </p>
+            <p>6. <hi rend="antiqua">
+                  <bibl sameAs="418">Arte novissima de la lengua
+                            Mexicana</bibl> 4 dto. 1753.</hi>
+            </p>
+            <p>7 <hi rend="antiqua">
+                  <persName ref="jaaldamayguevara">Aldama</persName>. <bibl sameAs="13">arte de la lengua Mexicana</bibl> 8. dto. 1754</hi>
+            </p>
+            <p>8. <hi rend="antiqua">
+                  <bibl sameAs="434">Arte y Vocabulario de la lengua
+                            Quichua</bibl> 8. Lima 1754</hi>
+            </p>
+            <p>9. <hi rend="antiqua">
+                  <bibl sameAs="132">Arte de la lengua de Chile</bibl>. 8.
+                        dto. 1765.</hi>
+               <lb/>
+               <handShift scribe="wvh"/>Bücher, die <persName ref="orich">Herr Rich</persName> in <placeName ref="Madrid">Madrid</placeName> oder <placeName ref="London">London</placeName> besitzt.
+                        <lb/>
+               <pb n="139v vacat"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

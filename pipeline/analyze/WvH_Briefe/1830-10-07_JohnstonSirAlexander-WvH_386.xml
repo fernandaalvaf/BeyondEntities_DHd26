@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sir Alexander Johnston an Wilhelm von Humboldt, 07.10.1830<idno type="BBAW">386</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek zu Berlin, gegenwärtig
+                            in der Jagiellonen-Bibliothek Krakau, Coll. ling. fol. 53, Bl.
+                            151–152</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 222</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ccolville">
+                  <persName>Colville, Sir Charles</persName>
+               </person>
+               <person corresp="jjfreeman">
+                  <persName>Freeman, Joseph John</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von
+                    Humboldt</persName>
+               </person>
+               <person corresp="jjeffreys">
+                  <persName>Jeffreys, Rev. John</persName>
+               </person>
+               <person corresp="ljohnston">
+                  <persName>Johnston, Lady Louisa</persName>
+               </person>
+               <person corresp="metcalfe">
+                  <persName>Metcalfe, Keturah (Witwe des Rev. John Jeffreys)</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">My dear Baron, I have to thank you for a kind
+                        letter which Baron Bulow sent me from you …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="ajohnston">Johnston, Sir Alexander</persName>
+               <date type="author" when="1830-10-07"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="343" type="prev">September 1830</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="ajohnston">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="mg">Malagasy (Madegassisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">9. Februar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Johnston/Johnston-WvH_1830-10-07/Coll.ling.fol.53_307.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1830-10-07/Coll.ling.fol.53_308.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1830-10-07/Coll.ling.fol.53_309.jpg"/>
+      <graphic url="Johnston/Johnston-WvH_1830-10-07/Coll.ling.fol.53_310.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="151r"/>
+               <dateline>London <lb/>19. Great Cumberland Place <lb/>7.<hi rend="superscript">th</hi> October 1830</dateline>
+               <lb/>
+               <lb/>
+               <salute>My
+                        dear Baron.</salute>
+            </opener>
+            <p>I have to thank you for a kind letter which <persName ref="hbuelow">Baron
+                        Bulow</persName> sent me from you the other day covering one for <persName ref="ccolville">Sir Charles Colville</persName> &amp; another for <persName ref="jjfreeman">M<hi rend="superscript">r</hi>. Freeman</persName>. I have
+                    perused both as you desired me &amp; have been much gratified with the contents
+                    of them. Both <persName ref="ccolville">Sir Charles Colville</persName> &amp;
+                        <persName ref="jjfreeman">M<hi rend="superscript">r</hi>. Freeman</persName>
+                    will be urged to the greatest exertions by the flattering manner in which you
+                    have expressed yourself in your letter to them relative to the Zeal &amp;
+                    activity which they have already arrived in collecting different specimens of
+                    the various languages or rather idioms of languages which <pb n="151v"/> perril
+                    in <placeName ref="Madagaskar">Madagascar</placeName>. Your instructions &amp;
+                    the manner in what you have analysed the specimens what <persName ref="jjfreeman">M<hi rend="superscript">r</hi> Freeman</persName> has sent
+                    you will put <subst>
+                  <del>me</del>
+                  <add>him</add>
+               </subst> to the way of
+                    making the further collections which you want &amp; will ultimately be of the
+                    greatest use in enabling all those who are employed on the same pursuits to
+                        <placeName ref="Madagaskar">Madagascar</placeName> to procure &amp; arrange
+                    for your inquiries a vast &amp; useful mass of information.</p>
+            <p>I have by no means been able in endearing to procure from <persName ref="metcalfe">Mr<hi rend="superscript">s</hi> Metcalf</persName> the widow
+                    of <persName ref="jjeffreys">the Missionary</persName> <pb n="152r"/> to
+                    whom you allude an account of what <persName ref="jjeffreys">Her
+                        Husband</persName> did relative to his work on the Madagacar language as
+                    well as of what she wishes to accomplish relative to it now that he is dead. I
+                    wrote to her upon the subject &amp; received an answer of which the enclosed
+                        <gap quantity="4" unit="chars"/> copy. I would have sent you this copy a
+                    long time ago had not <persName ref="farosen">Rosen</persName> to whom I gave it
+                    to read told me that you had written to him relative to the work that I would
+                    immediately let you know all that had passed between <persName ref="metcalfe">Mr<hi rend="superscript">s</hi>. Metcalf</persName> &amp; me about it
+                        <pb n="152v"/> Let me know if you wish me to take any steps about the work
+                    with <persName ref="metcalfe">Mr<hi rend="superscript">s</hi>.
+                        Metcalf</persName> &amp; I shall be most happy to execute your commands.</p>
+            <p>I have today sent off for the <placeName ref="Mauritius">Isle of
+                        France</placeName> your letters to <persName ref="ccolville">Sir Charles
+                        Colville</persName> &amp; <persName ref="jjfreeman">M<hi rend="superscript">r</hi> Freeman</persName> &amp; they will I dare say receive them in
+                    three months or perhaps <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> less from
+                    the present date</p>
+            <p>
+               <persName ref="ljohnston">Lady Johnston</persName> &amp; my daughters are
+                    delighted to hear such good accounts of <persName ref="cvh2">Miss
+                        Humboldt</persName> to whom both they &amp; I beg to be most kindly
+                    remembered &amp;</p>
+            <closer>
+               <salute>I am with great esteem &amp; regard My dear Baron <lb/>Most truly
+                        yours</salute>
+               <signed>Alex.<hi rend="superscript">r</hi>
+                    Johnston</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

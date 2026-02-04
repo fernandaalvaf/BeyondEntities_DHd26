@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Franz Bopp, 10.11.1828<idno type="BBAW">161</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Krakau, Biblioteka Jagiellońska, 94
+                            Briefe von H. v. Humboldt an F. Bopp, Autographen-Sammlung, Humboldt,
+                            aus der ehem. Preußischen Staatsbibliothek zu Berlin, gegenwärtig in der
+                            Jagiellonen-Bibliothek Krakau, Nr. 45. – Druckkoll.: Jena, ThULB,
+                            Nachlass Leitzmann, Inv.-Nr. 92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Lefmann 1897, S. 62f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7936</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eforcellini">
+                  <persName>Forcellini, Egidio</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="570">Bopp, Franz (1824): Ausführliches Lehrgebäude der Sanskrita-Sprache, Berlin:
+                    Dümmler</bibl>
+               <bibl corresp="580">Bopp, Franz (1829): Grammatica critica linguae Sanscritae, Berlin:
+                    Dümmler</bibl>
+               <bibl corresp="1263">Forcellini, Egidio (1771): Totius Latinitatis lexicon, consilio et
+                    cura Jacobi Facciolati opera et studio Aegidii Forcellini, lucubratum, 4 Bände,
+                    Padua: Typis Seminarii</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich danke Ihnen herzlich, liebster Freund, für die gütige
+                        Mittheilung u. die noch gütigere Erwähnung meines Aufsatzes. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1828-11-10"/>
+               <placeName key="ohne Ort">ohne Ort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="bopp">Bopp, Franz</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="la">Lateinisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. November 2013</item>
+            <item n="status">in Bearbeitung, an neue Vereinbarungen angepasst von AD 16. Januar
+                    2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/WvH-Bopp_1828_11_10/NDIGRKP004565_0406.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1828_11_10/NDIGRKP004565_0407.jpg"/>
+      <graphic url="Bopp/WvH-Bopp_1828_11_10/NDIGRKP004565_0408.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ich danke Ihnen herzlich, liebster Freund, für die gütige
+                    Mittheilung<!-- title? --> u. die noch gütigere Erwähnung meines
+                    Aufsatzes<!-- AD: wissen wir, welcher Aufsatz? -->.</p>
+            <p>Ich finde Ihre Darstellung sehr gut. Sie sagen den Hauptgrund deutlich, daß
+                        <del>das</del> der Verstand durch das Auge gleich das Sprachelement sehen,
+                    die Abtheilungen nach dem festen Gesetz der Sprachabtheilung gemacht wissen
+                    will, u. sich dagegen sträubt bald in einer Zeile lauter einzeln stehende
+                    Wörter, u. bald in einer nur scheinbar Eines zu finden. Hernach haben Sie die
+                    Einwürfe sehr gut widerlegt.</p>
+            <p>Wollten Sie aber nicht die Stelle ein wenig modificiren, wo Sie sagen, daß alle
+                    Chinesische Wörter einsylbig sind? Das ist doch genau genommen nicht der
+                    Fall.</p>
+            <p>Mir scheint <foreign sameAs="la">
+                  <hi rend="antiqua">
+                     <hi rend="underline">raucus</hi>
+                  </hi>
+               </foreign> kein guter Ausdruck für
+                        <hi rend="antiqua">dumpf</hi>. Ich würde <hi rend="antiqua">litterae
+                        surdae</hi> u. <hi rend="antiqua">sonantes</hi> sagen.<note type="footnote" resp="editor">Anscheinend diskutiert Humboldt hier eine Stelle (S. 36) der
+                        lateinischen Übersetzung des <bibl sameAs="570">
+                     <hi rend="italic">Lehrgebäudes</hi>
+                  </bibl>, das 1829
+                        unter dem Titel <bibl sameAs="580">
+                     <hi rend="italic">Grammatica critica
+                                linguae Sanscritae</hi>
+                  </bibl> erscheinen sollte. [FZ]</note>
+               <hi rend="antiqua">Sonus surdus</hi> wird in <bibl sameAs="1263">
+                  <hi rend="antiqua">Forcellini</hi>
+               </bibl>
+               <note type="footnote" resp="editor">Damit ist die Erstauflage von <persName ref="eforcellini">Egidio Forcinelli</persName> (1771): <hi rend="italic">Totius
+                            Latinitatis lexicon, consilio et cura Jacobi Facciolati opera et studio
+                            Aegidii Forcellini, lucubratum</hi>, Padua: Typis Seminarii (4 Bände)
+                        gemeint, die Humboldt selbst besaß: siehe Bücherverzeichnis in Tegel (AST,
+                        Archivmappe 75, M. 4, Bl. 15r, Nr. 220). [FZ]</note> durch <hi rend="antiqua">sonus mutus, durus et insuavis</hi> erklärt. <foreign sameAs="la">
+                  <hi rend="antiqua">
+                     <hi rend="underline">Sonans</hi>
+                  </hi>
+               </foreign> ist <hi rend="underline">hell</hi>, dem entgegengesetzt. Vielleicht wäre <foreign sameAs="la">
+                  <hi rend="antiqua">
+                     <hi rend="underline">sonax</hi>
+                  </hi>
+               </foreign> noch besser, doch scheint
+                    es mir affectirt.</p>
+            <p>
+               <pb n="2*"/> Es geht mit der Wortabtheilung gewiß durch, da Sie, bester Freund,
+                    dabei beharren. Einige werden sehr scheuen, aber die meisten der jüngeren
+                    wenigstens u. der <del>an</del> neu <unclear>an</unclear> Kommenden folgen.</p>
+            <p>Gegen das Ende sagen Sie: der Grund der Verbindung da, wo <hi rend="antiqua">Vocale</hi> zusammenfließen, läge <hi rend="antiqua">in linguae
+                        ingenio</hi>, u. die Theilung sey da schwierig. Ich finde das nicht.
+                    Allerdings gehen für den <hi rend="underline">Ton</hi> die Wörter zusammen. Das
+                    thun sie aber auch in den andern Fällen. Man soll aber <sic>aber</sic> nicht die
+                    Abtheilung im Schreiben für den Ton, sondern für den <hi rend="underline">Verstand</hi> machen. Dem Zusammenfließen kommt die Elision sehr nahe, u.
+                    da schiebt man in Lateinischer u. Französischer Poesie nur die Wörter
+                    zusammen.</p>
+            <closer>
+               <salute>Leben Sie herzlich wohl! Ihr</salute>
+               <signed>H.</signed>
+               <lb/>
+               <dateline>10. <hi rend="antiqua">Nov.</hi> 1828.</dateline>
+               <lb/>
+               <pb n="3*–4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

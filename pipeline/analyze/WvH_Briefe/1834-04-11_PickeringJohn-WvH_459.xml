@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 11.04.1834<idno type="BBAW">459</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 52, Bl. 63–64</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 209</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 12426</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="catwater">
+                  <persName>Atwater, Caleb</persName>
+               </person>
+               <person corresp="hawk">
+                  <persName>Black Hawk</persName>
+               </person>
+               <person corresp="jcotton">
+                  <persName>Cotton, Josiah</persName>
+               </person>
+               <person corresp="jmarsh">
+                  <persName>Marsh, John</persName>
+               </person>
+               <person corresp="srasles">
+                  <persName>Rasles, Sébastien</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="38">Atwater, Caleb: Remarks made on a Tour to Prairie Du Chien: Thence
+                    to Washington City, in 1829 (Columbus: Isaac N. Whiting 1831)</bibl>
+               <bibl corresp="55">Black Hawk: Life of Ma-ka-tai-me-she-kia-kiak or Black Hawk
+                    (Cincinnati: J. B. Patterson 1833)</bibl>
+               <bibl corresp="449">Cotton, Josiah / Pickering, John: Vocabulary of the Massachussets
+                    (or Natick) Indian language (Cambridge: E. W. Metcalf and Company 1829)</bibl>
+               <bibl corresp="507">Davies, John: Ka Euanelio a Mataio: oia ka moo olelo hemolele no ko
+                    kakou haku e ola'i no Iesu Kristo: i laweia i olelo Hawaii. Ka Euanelio a
+                    Marako: oia ka moo olelo hemolele no ko kakou haku e ola'i no Iesu Kristo: i
+                    laweia i olelo Hawaii. Ka Euanelio a Ioane: oia ka olelo hemolele a ko kakou
+                    haku, a Iesu Kristo: i laweia i olelo Hawaii (Rochester, NY: Paha ma ka Mea Pai
+                    Palapala a Lumiki 1828)</bibl>
+               <bibl corresp="425">Harris, Thompson S.: Ne hoiwiyosdosheh noyohdadogehdih ne Saint
+                    Luke. The Gospel According to Saint Luke, Translated into the Seneca Tongue (New
+                    York: American Bible Society 1829)</bibl>
+               <bibl corresp="353">Rasles, Sebastian / Pickering, John: A Dictionary of the Abnaki
+                    Language, in North America; by Father Sebastian Rasles. With an Introductory
+                    Memoir and Notes by John Pickering. In: American Academy of Arts and Sciences,
+                    Memoirs, N.S. 1, 1833, S. 370–574</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, on the 15.th of
+                        October last I did myself pleasure of addressing a letter to you
+                    …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1834-04-11"/>
+               <placeName key="Boston">Boston</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="515" type="next">20.07.1834</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="">Abnaki</language>
+            <language ident="">Dakota</language>
+            <language ident="del">Delaware (Lenni Lenape)</language>
+            <language ident="cai">Indianische Sprachen</language>
+            <language ident="">Sioux</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">18. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1834_04_11/Coll.ling.fol.52_133.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1834_04_11/Coll.ling.fol.52_134.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1834_04_11/Coll.ling.fol.52_135.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1834_04_11/Coll.ling.fol.52_136.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="63r"/>
+               <salute>Sir,</salute>
+            </opener>
+            <p>On the <date when="1833-10-15">15.<hi rend="superscript">th</hi> of October
+                        last</date> I did myself the pleasure of addressing a letter to you
+                    accompanied with the following books, viz: <add>1.</add> <persName ref="srasles">Father Rãle</persName>’s <bibl sameAs="353">Dictionary of the
+                            <hi rend="underline">Abnaki</hi> Language</bibl>, lately printed, under
+                    my direction, by our <orgName ref="39">Boston Academy of Arts and
+                        Sciences</orgName> – 2. A copy of <persName ref="jcotton">Cotton</persName>’s <bibl sameAs="449">Vocabulary of the ancient Massachusetts
+                        Dialect</bibl> – 3. <bibl sameAs="425">The Gospel of S.<hi rend="superscript">t</hi> Luke, in the Seneka Language</bibl> – 4. <bibl sameAs="507">The
+                        Gospels of Matthew, Mark &amp; John, in the language of Owhyhee</bibl>, now
+                    written by our Missionaries, <hi rend="underline">Hawaii</hi>. I hope all these
+                    have reached you in safety.</p>
+            <p>I have now the pleasure to send you two other works relating to the aboriginals
+                    of North America – 1. <bibl sameAs="38">Remarks made on a Tour to Prairie du Chien
+                            &amp;.<hi rend="superscript">c</hi>
+               </bibl> by <persName ref="catwater">Caleb Atwater</persName>, a Commissioner of the United States to negotiate
+                    with the Indians of the Upper Missisippi &amp;.<hi rend="superscript">c</hi>
+                    This work is valuable only for the specimen of the Dacota or Sioux language (at
+                        <bibl sameAs="38">p. 149</bibl>) which was furnished to the author by
+                        <persName ref="jmarsh">M.<hi rend="superscript">r</hi> John
+                    Marsh</persName>, with whom I am personally acquainted. The rest of the book,
+                    especially the attempt at philological learning (see <bibl sameAs="38">p. 75 et
+                        seqq.</bibl>) is quite superficial, and only betrays the writer’s ignorance
+                    of well known facts and of philological science.</p>
+            <p>2. The other work is a great curiosity: the <pb n="63v"/>
+               <bibl sameAs="55">life of
+                        a celebrated Indian Chief, now living, who is called in English, Black
+                        Hawk</bibl> – with his reflections upon the people of the United States and
+                    their manners &amp; customs &amp;.<hi rend="superscript">c</hi>; all <hi rend="underline">dictated by himself</hi> to his interpreter. It has a
+                    Dedication in his native language, which is of the Lenapé stock. The portrait of
+                    the Chief is said to be a tolerable likeness.</p>
+            <p>If these little works shall possess any value in your collection, it will give me
+                    much pleasure.</p>
+            <p>It is a very long time since I had the pleasure of hearing from you. I hope your
+                    health continues good, and that you will soon favour the public with your great
+                    work on the American Languages.</p>
+            <closer>
+               <salute>I am, Sir, <lb/>with the highest respect <lb/>your obedient
+                        servant</salute>
+               <signed>Jn<hi rend="superscript">o</hi>Pickering</signed>
+               <lb/>
+               <dateline>Boston, United States <lb/>April 11<hi rend="superscript">th</hi>, 1834.</dateline>
+               <lb/>
+               <pb n="64r/v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

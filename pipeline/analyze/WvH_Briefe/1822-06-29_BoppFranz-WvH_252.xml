@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von AD -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 29.06.1822<idno type="BBAW">252</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 21, Bl. 272–275</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 165f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm von</persName>
+               </person>
+               <person corresp="cwilkins">
+                  <persName>Wilkins, Sir Charles</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache
+                    (Berlin: Dümmler 1824)</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="656">Bopp, Franz: Rezension zu Indische Bibliothek. Eine Zeitschrift von
+                    August Wilhelm von Schlegel. Ersten Bandes zweytes und drittes Heft. 8. In:
+                    Göttingische Gelehrte Anzeigen 109. 110. Stück, Den 11. Julius 1822, S.
+                    1081–1096; 111. Stück, Den 13. Julius 1822, S. 1097–1101</bibl>
+               <bibl corresp="179">Colebrooke, Henry Thomas: Hitópadéśa or salutary instruction: in
+                    the original Sanscrit (Serampore: 1804)</bibl>
+               <bibl corresp="610">Hamilton, Alexander: Hitopadesa in the Sanskrita language (London:
+                    Cox, son, and Raylis 1810)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek [eine
+                    Zeitschrift] (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="564">Wilkins, Charles: The Heetopades of Veeshnoo-Śarma, in a series of
+                    connected Fables interspersed with Moral, Prudential &amp; Political Maxims,
+                    translated from an ancient manuscript in the Sanskreet Language with Explanatory
+                    Notes (London, Bath: R. Cruttwell 1787)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Eurer Excellenz gnädiges Zuschreiben welches ich vor 8
+                        Tagen erhalten, würde ich sogleich beantwortet haben, wenn ich mich nicht
+                        vorher nach neuen Beispielen hätte umsehen wollen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1822-06-29"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="93" type="next">04.07.1822</ref>
+               <ref target="91" type="prev">00.06.1822</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="bopp">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="prg">Altpreußisch</language>
+            <language ident="la">Latein</language>
+            <language ident="lv">Lettisch</language>
+            <language ident="lt">Litauisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">1. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 26. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_408.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_409.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_410.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_411.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_412.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_413.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_414.jpg"/>
+      <graphic url="Bopp/Bopp-WvH_1822_06_29/Coll.ling.fol.21_415.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="272r"/> <salute>Eurer Excellenz</salute>
+            </opener>
+            <p>gnädiges <ref type="link" target="91">Zuschreiben</ref> welches ich <date when="1822-06-21">vor 8
+                    Tagen</date>
+               <!-- AD: kann dies das Datum vom Brief 1822-06-00_WvH-BoppFranz sein? -->
+                    erhalten, <del type="fragment">ha</del> würde ich sogleich beantwortet haben,
+                    wenn ich mich nicht vorher nach einigen neuen Beispielen hätte umsehen wollen,
+                    in welchen das <hi rend="antiqua">Gerundium</hi> auf <foreign sameAs="sa" n="transEd">tvā<graphic url="Bopp/Bopp-WvH_1822_06_29/0097.svg"/>
+               </foreign>,
+                    als betrachtet passivische Bedeutung haben müßte. Sie sind nicht sehr häufig,
+                    aber um so mehr muß man sich Glück wünschen wenn man eines findet, weil sie zum
+                    Beweise der Sache von großer Wichtigkeit sind. Es freut mich recht sehr zu
+                    erfahren daß Ew Excellenz eine Bearbeitung dieses Gegenstandes bald vollendet
+                    haben, und ich wünschte daß Hochdieselben <pb n="272v"/> deren Beförderung zum
+                    Drucke nicht lange verschieben möchten, um dieselbe gemeinnützig zu machen.</p>
+            <p>Ich glaube selbst daß man den Ursprung der Form auf <foreign sameAs="sa">
+                  <hi rend="antiqua">tvâ</hi>
+               </foreign> nicht vollkommen beweisen könne, es
+                    gibt überhaupt in der Grammatik manche Gegenstände worüber man eine Ansicht
+                    hegen kann, die <add>man</add> niemals <del>
+                  <gap quantity="2" unit="chars"/>
+               </del> mit unumstößlichen Gründen darzuthun im Stande ist. Vieles spricht
+                    dafür daß <foreign sameAs="sa">
+                  <hi rend="antiqua">tvâ</hi>
+               </foreign> eine Instrumental-Endung sey, die Form
+                    auf <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/Bopp-WvH_1822_06_29/0098.svg"/>
+               </foreign> ist aber freylich
+                    geeignet um eine durch viele Gründe gewonnene Ueberzeugung etwas zu erschüttern.
+                    Es besteht allerdings einige Analogie zwischen dem <hi rend="antiqua">Gerundium</hi> auf <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/Bopp-WvH_1822_06_29/0098.svg"/>
+               </foreign> und dem <hi rend="antiqua">participium</hi> auf <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/Bopp-WvH_1822_06_29/0098.svg"/>
+               </foreign>, in
+                    Bedeutung dem Lateinischen auf <foreign sameAs="la">
+                  <hi rend="antiqua">ndus</hi>
+               </foreign> entsprechend. Die Analogie ist jedoch
+                    nicht durchgreifend, <foreign sameAs="sa" n="transEd">kṛ<graphic url="Bopp/Bopp-WvH_1822_06_29/0099.svg"/>
+               </foreign> z B hat im <hi rend="antiqua">Gerundium</hi> <del>
+                  <gap quantity="1" unit="chars"/>
+               </del> <foreign sameAs="sa" n="transEd">kṛtya<graphic url="Bopp/Bopp-WvH_1822_06_29/0100.svg"/>
+               </foreign> und ebenso in
+                    besagtem <hi rend="antiqua">part.</hi> oder auch <foreign sameAs="sa" n="transEd">kārya<graphic url="Bopp/Bopp-WvH_1822_06_29/0101.svg"/>
+               </foreign>, aber <foreign sameAs="sa" n="transEd">ci<graphic url="Bopp/Bopp-WvH_1822_06_29/0102.svg"/>
+               </foreign> hat im <hi rend="antiqua">Gerund.</hi> <foreign sameAs="sa" n="transEd">citya<graphic url="Bopp/Bopp-WvH_1822_06_29/0103.svg"/>
+               </foreign> und im <hi rend="antiqua">part.</hi> <foreign sameAs="sa" n="transEd">caya<graphic url="Bopp/Bopp-WvH_1822_06_29/0104.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">dā<graphic url="Bopp/Bopp-WvH_1822_06_29/0105.svg"/>
+               </foreign> hat im <hi rend="antiqua">Ger.</hi> <foreign sameAs="sa" n="transEd">dāya<graphic url="Bopp/Bopp-WvH_1822_06_29/0106.svg"/>
+               </foreign>
+                    und im <hi rend="antiqua">part.</hi> <foreign sameAs="sa" n="transEd">deya<graphic url="Bopp/Bopp-WvH_1822_06_29/0107.svg"/>
+               </foreign>,
+                        <foreign sameAs="sa" n="transEd">bhū<graphic url="Bopp/Bopp-WvH_1822_06_29/0108.svg"/>
+               </foreign> hat <foreign sameAs="sa" n="transEd">bhūya<graphic url="Bopp/Bopp-WvH_1822_06_29/0109.svg"/>
+               </foreign> und im <hi rend="antiqua">part.</hi> <foreign sameAs="sa" n="transEd">bhavya<graphic url="Bopp/Bopp-WvH_1822_06_29/0110.svg"/>
+               </foreign> etc – Man könnte die
+                        <hi rend="antiqua">gerundia</hi> eintheilen <pb n="273r"/> in solche woran <add>
+                  <gap quantity="1" unit="chars"/>
+               </add> die CasusEndungen zu erkennen sind
+                    deren Verhältnisse sie ausdrücken, wie im Lateinischen <foreign sameAs="la">
+                  <hi rend="antiqua">di</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">do</hi>
+               </foreign>, <foreign sameAs="la">
+                  <hi rend="antiqua">dum</hi>
+               </foreign> und wahrscheinlich im Sanskrit
+                        <foreign sameAs="sa" n="transEd">tvā<graphic url="Bopp/Bopp-WvH_1822_06_29/0097.svg"/>
+               </foreign>, und in solche die
+                    ein Casusverhältniß ausdrücken ohne daß man die entsprechende Endung erkennen
+                    kann. Hierzu wäre die Form auf <foreign sameAs="sa" n="transEd">ya<graphic url="Bopp/Bopp-WvH_1822_06_29/0098.svg"/>
+               </foreign> zu nehmen, im
+                    Latein. der Infinitiv (Ew Excellenz halten nach meiner Ueberzeugung mit Recht
+                    das <hi rend="antiqua">Gerund.</hi> und <hi rend="antiqua">Supin.</hi> für eine
+                    Art von Infinitiv), welcher meistens ein <hi rend="antiqua">Accusativ</hi>Verhältniß ausdrückt, zuweilen auch <sic>denn</sic> Nom. aber
+                    niemals den <hi rend="antiqua">Genitiv</hi>, denn hier tritt das <hi rend="antiqua">Gerund.</hi> auf <foreign sameAs="la">
+                  <hi rend="antiqua">di</hi>
+               </foreign> ein – und doch ist weder ein <hi rend="antiqua">Accusat.</hi> Charakter noch das Nomin. Zeichen am Infinitiv
+                    zu erkennen. Auf dieselbe Weise ist an Adverbien zum Theil <subst>
+                  <del>eine</del>
+                  <add>die</add>
+               </subst> Casusendung zu erkennen dessen Verhältniß sie ausdrücken, zum Theil
+                    nicht</p>
+            <p>Es könnte lange dauern biß wir ein 2tes Beispiel wie <foreign sameAs="sa" n="transEd">dūramapavāhya<graphic url="Bopp/Bopp-WvH_1822_06_29/0111.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">nṛpātmajau<graphic url="Bopp/Bopp-WvH_1822_06_29/0112.svg"/>
+               </foreign> finden, in welchem
+                    aber das regierte Wort der Form nach nicht auch <pb n="273v"/> der Nominativ
+                    seyn <add>könnte</add>. Ich habe das 2te und einen großen Theil des 3ten Buchs
+                    des <bibl sameAs="179">
+                  <hi rend="antiqua">Hitopa.</hi>
+               </bibl> in dieser Absicht durchlesen und
+                    kein passendes Beispiel gefunden, doch traf ich ein Beispiel wo das <hi rend="antiqua">Geru.</hi> als Partizip betrachtet passivirte Bedeutung haben
+                    müßte. Leider haben mir <orgName ref="10">Treuttel u Würz</orgName> statt der
+                        <bibl sameAs="610">Londoner Ausgabe des Hito.</bibl> die <bibl sameAs="179">
+                  <hi rend="antiqua">Colebrook</hi>ische</bibl> geschickt, welche ich jetzt
+                    doppelt besitze, ich kann nun Ew Excellenz die Seite nicht angeben. Es befindet
+                    sich in der 5ten Fabel des 2ten Buches, in der <bibl sameAs="179">Serampurer
+                        Ausgabe</bibl> auf der 20ten Seite vom Anfange des 2ten Buchs an gerechnet,
+                    in einem großen Stück Prosa welches mit den Worten anfängt <foreign sameAs="sa" n="transEd">rājāha<graphic url="Bopp/Bopp-WvH_1822_06_29/0113.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kathametat<graphic url="Bopp/Bopp-WvH_1822_06_29/0114.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">damanakaḥ<graphic url="Bopp/Bopp-WvH_1822_06_29/0115.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kathayati<graphic url="Bopp/Bopp-WvH_1822_06_29/0116.svg"/>
+               </foreign>. Das Beispiel
+                    heißt:</p>
+            <p>
+               <foreign sameAs="sa" n="transEd">tataḥ<graphic url="Bopp/Bopp-WvH_1822_06_29/0117.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">saṃjīvaka<graphic url="Bopp/Bopp-WvH_1822_06_29/0118.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">ānīya<graphic url="Bopp/Bopp-WvH_1822_06_29/0119.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">darśanaṃ<graphic url="Bopp/Bopp-WvH_1822_06_29/0120.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">kāritaḥ<graphic url="Bopp/Bopp-WvH_1822_06_29/0121.svg"/>
+               </foreign>
+            </p>
+            <p>Hierauf wurde <hi rend="antiqua">Sanjivaka</hi>, nach Herbeyführung <add>zu</add>
+                    sehen veranlaßt (<foreign sameAs="la">
+                  <hi rend="antiqua">actionem videndi
+                            facere factus est</hi>
+               </foreign>) dh er wurde dem König vorgestellt, es
+                    wurde ihm der Anblick des Königs vergönnt. Als Partizip müßte man <pb n="274r"/>
+                    übersetzen: hierauf wurde <hi rend="antiqua">Sanjîvaka</hi>, herbey geführt, zu
+                    sehen veranlaßt. <persName ref="cwilkins">
+                  <hi rend="antiqua">Wilkins</hi>
+               </persName> übersetzt umschreibend: <hi rend="antiqua">Damanaka and Karâttaka brought Sanjîvaka and introduced him
+                        to the lion</hi> – <sic>Vielleich</sic> las er <foreign sameAs="sa" n="transEd">saṃjīvakaṃ<graphic url="Bopp/Bopp-WvH_1822_06_29/0122.svg"/>
+               </foreign>.</p>
+            <p>
+               <foreign sameAs="sa" n="transEd">saṃgrāmajidvidvān<graphic url="Bopp/Bopp-WvH_1822_06_29/0123.svg"/>
+               </foreign> sind 2 Nominative.
+                        <foreign sameAs="sa" n="transEd">saṃgrāmajit<graphic url="Bopp/Bopp-WvH_1822_06_29/0124.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">dharmmabhat<graphic url="Bopp/Bopp-WvH_1822_06_29/0125.svg"/>
+               </foreign> sind durch das
+                    sogenannte Suffix <foreign sameAs="sa">
+                  <hi rend="antiqua">kvip</hi>
+               </foreign> gebildet (<bibl sameAs="564">
+                  <hi rend="antiqua">Wilkins</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 458 Reg.
+                    805).</p>
+            <p>Ich fühle mich fest überzeugt daß das Partizip. auf <foreign sameAs="sa" n="transEd">ta<graphic url="Bopp/Bopp-WvH_1822_06_29/0126.svg"/>
+               </foreign>
+                    bloß bey <hi rend="antiqua">verbis neutris</hi> aktivirte Bedeutung
+                        <add>habe</add>, diese <hi rend="antiqua">verba</hi> haben aber zuweilen das
+                    Ansehen von eigentlichen aktiven z B <bibl sameAs="559">
+                  <hi rend="antiqua">Nalus</hi>
+               </bibl> <hi rend="antiqua">p.</hi> 102. <hi rend="antiqua">sl.</hi> 74</p>
+            <p>
+               <foreign sameAs="sa" n="transEd">tulyatāṃ<graphic url="Bopp/Bopp-WvH_1822_06_29/0127.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">prāptā<graphic url="Bopp/Bopp-WvH_1822_06_29/0128.svg"/>
+               </foreign> Gleichheit erlangt
+                    habend – eigentlich in Gleichheit gegangen <subst>
+                  <del>seind</del>
+                  <add>seyend</add>
+               </subst>. <hi rend="antiqua">p.</hi> 126 <hi rend="antiqua">sl</hi> 28 <foreign sameAs="sa" n="transEd">vyuṣṭā<graphic url="Bopp/Bopp-WvH_1822_06_29/0129.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">rajanī<graphic url="Bopp/Bopp-WvH_1822_06_29/0130.svg"/>
+               </foreign> die Nacht zugebracht
+                    habend – eigentlich gewohnt habend. Die Art wie <persName ref="awschlegel">Schlegel</persName> <foreign sameAs="sa" n="transEd">ṛte<graphic url="Bopp/Bopp-WvH_1822_06_29/0131.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">tāṃ<graphic url="Bopp/Bopp-WvH_1822_06_29/0132.svg"/>
+               </foreign> erklären will
+                    scheint mir sehr gezwungen und unbegreiflich. Ich kann nicht glauben daß <del>
+                  <foreign sameAs="sa" n="transEd">i<graphic url="Bopp/Bopp-WvH_1822_06_29/0133.svg"/>
+                  </foreign>
+               </del> <foreign sameAs="sa" n="transEd">iṣṭa<graphic url="Bopp/Bopp-WvH_1822_06_29/0134.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">hata<graphic url="Bopp/Bopp-WvH_1822_06_29/0135.svg"/>
+               </foreign>, <foreign sameAs="sa" n="transEd">ṛta<graphic url="Bopp/Bopp-WvH_1822_06_29/0136.svg"/>
+               </foreign> jemals sehend,
+                    tödtend, nehmend <pb n="274v"/> bedeuten könne. Es gibt Präpositionen welche den
+                        <hi rend="antiqua">accusat.</hi> regieren, wie es deren gibt die den
+                    Instrument. regieren, z B <foreign sameAs="sa" n="transEd">vinā<graphic url="Bopp/Bopp-WvH_1822_06_29/0137.svg"/>
+               </foreign> ohne, z B <foreign sameAs="sa" n="transEd">tena<graphic url="Bopp/Bopp-WvH_1822_06_29/0138.svg"/>
+               </foreign>
+               <foreign sameAs="sa" n="transEd">vinā<graphic url="Bopp/Bopp-WvH_1822_06_29/0139.svg"/>
+               </foreign> ohne diesen. Ich
+                    wünschte daß <persName ref="awschlegel">Schlegel</persName> im <subst>
+                  <del>3</del>
+                  <add>4ten</add>
+               </subst> Heft seine Ansicht über die Präpositionen etwas ausführlicher
+                    entwickeln möchte. Er ist sehr kühn und voll Zuversicht in seinen Behauptungen,
+                    ich sah mich daher <subst>
+                  <del type="fragment">verl</del>
+                  <add>veranlaßt</add>
+               </subst> in einer <bibl sameAs="656">Rezension</bibl> des 2ten und 3ten Heftes
+                        <bibl sameAs="396">seiner Bibliothek</bibl> ihm manches zu widersprechen was
+                    ich aber mit Anführung vieler Gründe gethan habe. Ich hoffe daß diese <bibl sameAs="656">Rec.</bibl> jetzt in <placeName ref="Göttingen">Göttingen</placeName> unter der Presse ist, und ich bin auf das
+                    einsichtvolle Urtheil Eurer Excellenz sehr begierig, in Bezug auf die Fälle wo
+                        <add>ich</add> anderer Meinung als <persName ref="awschlegel">Schlegel</persName> bin.</p>
+            <p>Ich arbeite jetzt fleißig an einer <bibl sameAs="570">SanskritGrammatik</bibl> und
+                    werde mir die Freyheit nehmen vor meiner FerienReise Eurer Excellenz einige
+                    Kapitel zu zu schicken, da Ew Excellenz die Gnade hatten <pb n="275r"/> mich
+                    Ihrer wohlwollenden Theilnahme an <bibl sameAs="570">dieser Arbeit</bibl> zu
+                    versichern und da ich ein großes Gewicht auf den Rath lege, womit Hochdieselben
+                    mich bey <bibl sameAs="570">diesen Untersuchungen</bibl> unterstützen könnten.
+                    Ich habe die Casuslehre ganz in allgemeinen Regeln durchgeführt, ehe ich zu der
+                    besonderen Deklinations-Eintheilung geschritten, in den bestehenden Grammatiken
+                    hat man wie mir scheint zu sehr vernachläßigt auf die Bande aufmerksam zu
+                    machen, was das anfänglich verschieden scheinende an einander knüpft.</p>
+            <p>Der Apparat für die Sanskrit Typen ist seit geraumer Zeit hier angekommen</p>
+            <p>An meiner Wahl zum Mitglied der
+                    <orgName>Akademie</orgName>
+               <!--AD: welche? orgName --> haben Ihre Excellenz
+                    wahrscheinlich noch Theil genommen. Ueberhaupt glaube ich daß ich in dieser
+                    Beziehung Eurer Excellenz besonderen Dank schuldig bin. Die Nachricht über eine
+                    so ausgezeichnete mir zu Theil gewordene Ehre war mir recht erfreulich. Ich
+                    hoffe daß es mir in dem weiten Gebiete der Sprachforschung an interessantem
+                    Stoff zu Abhandlungen nicht fehlen werde. <pb n="275v"/> Die Littauische
+                    Lettische und Altpreußische Sprache haben mich seit einiger Zeit besonders in
+                    Anspruch genommen, und ich denke es zu versuchen in einer Abhandlung deren
+                    Verwandschaft zu dem Sanskrit auseinander zu setzen.</p>
+            <closer>
+               <salute>In tiefster Ehrerbietung <lb/>Ew Excellenz <lb/>Unterthäniger </salute>
+               <signed>Bopp</signed>
+               <lb/>
+               <dateline>Berlin den 29<hi rend="superscript">ten</hi> Juni 1822</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

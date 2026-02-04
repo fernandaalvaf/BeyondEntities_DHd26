@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Bopp an Wilhelm von Humboldt, 24.07.1826<idno type="BBAW">149</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Lefmann 1897, S. 48</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11923</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="570">Bopp, Franz: Ausführliches Lehrgebäude der Sanskrita-Sprache (Berlin: Dümmler
+                    1824)</bibl>
+               <bibl corresp="576">Burnouf, Eugène: Mémoire sur quelques noms de l’île de Ceylan, et particulièrement
+                    sur celui de Taprobane, sous lequel elle était connue des anciens. In: Journal Asiatique
+                    9, 1826, S. 129–149</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu u.a.
+                    1822–heute)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Excellenz habe ich die Ehre einige bemerkungen über das
+                        Wisarga zu geneigter Prüfung vorzulegen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bopp">Bopp, Franz</persName>
+               <date type="author" when="1826-07-24"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="148" type="prev">17.07.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">AD</item>
+            <item n="date">16. Juli 2013</item>
+            <item n="status">in Bearbeitung, einmal selbst gegengelesen 27. November 2013</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>habe ich die Ehre einige Bemerkungen über das <term type="phon" ref="002">Wisarga</term> zu geneigter Prüfung vorzulegen. Es ist mir nicht möglich
+                    von der in <bibl sameAs="570">meiner Grammatik</bibl> hierüber ausgesprochenen
+                    Ansicht abzugehen, obwohl es mir vielleicht nicht gelingen wird diesen
+                    Gegenstand vollkommen ins Klare zu setzen. <foreign sameAs="sa" n="transEd">h<graphic url="Bopp/Bopp-WvH_1826_07_24/0269.svg"/>
+               </foreign> und <foreign sameAs="sa" n="transEd">ḥ<graphic url="Bopp/Bopp-WvH_1826_07_24/0270.svg"/>
+               </foreign> scheinen allerdings eine verschiedene Aussprache zu haben, <foreign sameAs="sa" n="transEd">h<graphic url="Bopp/Bopp-WvH_1826_07_24/0269.svg"/>
+               </foreign> wird wahrscheinlich wie im Persischen, stärker aspirirt werden
+                    ungefähr wie χ oder <hi rend="italic">ch</hi>, auch findet man, daß es im
+                    Griechischen mit <foreign sameAs="grc">χ</foreign> geschrieben wird, wie
+                        <foreign sameAs="grc">
+                  <hi rend="italic">Βραχμανοι</hi>
+               </foreign>, <foreign sameAs="grc">
+                  <hi rend="italic">Αμιτροχατης</hi>
+               </foreign> aus <foreign sameAs="sa">
+                  <hi rend="italic">amitrahata</hi>
+               </foreign>, <foreign sameAs="grc">
+                  <hi rend="italic">ομιχεω</hi>
+               </foreign>, <foreign sameAs="grc">
+                  <hi rend="italic">μιχω</hi>
+               </foreign> von <foreign sameAs="sa">
+                  <hi rend="italic">mih</hi>
+               </foreign>. Daß das <term type="phon" ref="002">Wisarga</term> kein
+                    ursprünglicher Buchstabe sondern blos eine euphonische Veränderung sei, scheint
+                    mir dadurch bewiesen zu werden, daß es blos am Ende steht, wo die Buchstaben
+                    euphonischen Einflüssen ausgesetzt sind oder in Folge solcher Einflüsse gesetzt
+                    werden; ein jeder selbstständige Consonante kann am Anfange eines Wortes stehen,
+                    nur am Ende werden viele Buchstaben nicht geduldet. Daß <foreign sameAs="sa">
+                  <hi rend="italic">s</hi>
+               </foreign> und <foreign sameAs="sa">
+                  <hi rend="italic">r</hi>
+               </foreign> auch vor Pausen in <foreign sameAs="sa" n="transEd">ḥ<graphic url="Bopp/Bopp-WvH_1826_07_24/0270.svg"/>
+               </foreign> übergehen und daß sie eigentlich nur unter dem Schutze eines zu ihnen
+                    stimmenden folgenden Buchstaben stehn können, scheint mir nicht gegen ihre
+                    Ursprünglichkeit in grammatischen Formen zu beweisen, denn eine ganze Reihe von
+                    Consonanten, nämlich die Tönenden, sind, wenn sie entsprechende Dumpfe haben,
+                    vom Ende der Wörter ausgeschlossen. Man sagt <foreign sameAs="sa">
+                  <hi rend="italic">asti puṇya:</hi>
+               </foreign>
+               <note type="footnote" resp="editor">Zu lesen als: <foreign sameAs="sa">puṇyaḥ</foreign>
+               </note> wie man sagt <foreign sameAs="sa">
+                  <hi rend="italic">asti vêdavit</hi>
+               </foreign>, nämlich weil <foreign sameAs="sa">
+                  <hi rend="italic">s</hi>
+               </foreign> und <foreign sameAs="sa">
+                  <hi rend="italic">d</hi>
+               </foreign> am Ende nur unter gewissen Bedingungen geduldet werden. Wäre <term type="phon" ref="002">Wisarga</term> ein primitiver Buchstabe, der
+                    euphonisch verändert würde, so müßten <foreign sameAs="sa">
+                  <hi rend="italic">pita:</hi>
+               </foreign>
+               <note type="footnote" resp="editor">Zu lesen als: <foreign sameAs="sa">pitaḥ</foreign>
+               </note> Vater! und <foreign sameAs="sa">
+                  <hi rend="italic">râma:</hi>
+               </foreign>
+               <note type="footnote" resp="editor">Zu lesen als: <foreign sameAs="sa">rāmaḥ</foreign>
+               </note> gleiche Veränderungen haben, man müßte <foreign sameAs="sa">
+                  <hi rend="italic">râmarêti</hi>
+               </foreign> (nicht <foreign sameAs="sa">
+                  <hi rend="italic">râma êti</hi>
+               </foreign>) sagen, wie man sagt <foreign sameAs="sa">
+                  <hi rend="italic">pitarêhi</hi>
+               </foreign> … – Ich glaube, daß die Indischen Grammatiker mit Recht sagen, daß
+                        <foreign sameAs="sa">
+                  <hi rend="italic">s</hi>
+               </foreign> in <foreign sameAs="sa">
+                  <hi rend="italic">u</hi>
+               </foreign> übergehe, daher <foreign sameAs="sa">
+                  <hi rend="italic">râmô</hi>
+               </foreign> aus <foreign sameAs="sa">
+                  <hi rend="italic">rama-u</hi>
+               </foreign>, denn auch <hi rend="italic">l</hi> geht im Italiänischen und Franz.
+                    in <hi rend="italic">i</hi> und <hi rend="italic">u</hi> über, so erklärt sich
+                    die Deklination des Artikels <foreign sameAs="fr">
+                  <hi rend="italic">du</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="italic">au</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="italic">aux</hi>
+               </foreign> aus <foreign sameAs="fr">
+                  <hi rend="italic">d’(i)l</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="italic">a(i)l</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="italic">a(i)ls</hi>
+               </foreign>, <foreign sameAs="fr">
+                  <hi rend="italic">chevaux</hi>
+               </foreign> aus <foreign sameAs="fr">
+                  <hi rend="italic">chevals</hi>
+               </foreign>
+               <!-- AD: ältere frz. Sprachstufe? d'il, ail, ails, chevals? -->. Die
+                    Erweichung eines Consonanten in einen Vokal scheint überhaupt etwas sehr
+                    natürliches.</p>
+            <p>Das letzte Heft des <bibl sameAs="773">Journal Asiat.</bibl> ist das 45., welches
+                    mir heute <persName ref="farosen">Hr. Rosen</persName> mitgetheilt hat; es
+                    enthält einen <bibl sameAs="576">Artikel</bibl> von <persName ref="eburnouf">Burnouf</persName> über <placeName ref="Ceylon">Ceylon</placeName>.</p>
+            <closer>
+               <salute>In tiefster Ehrerbietung <lb/>Ew. Excellenz <lb/>Ganz gehorsamster </salute>
+               <signed>Bopp.</signed>
+               <lb/>
+               <dateline>Berlin, den 24. Juli 1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

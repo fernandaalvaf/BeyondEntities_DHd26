@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Heinrich Jacobi, 21.11.1808<idno type="BBAW">565</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST; 1945 verbrannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1892, S. 75–79</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 1959</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="alexander1">
+                  <persName>Alexander I., Kaiser von Russland</persName>
+               </person>
+               <person corresp="bbrentano">
+                  <persName>Brentano, Bettina, verh. von Arnim</persName>
+               </person>
+               <person corresp="pbarca">
+                  <persName>Calderón de la Barca, Pedro</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="khgros">
+                  <persName>Gros, Karl Heinrich</persName>
+               </person>
+               <person corresp="akotzebue">
+                  <persName>Kotzebue, August von</persName>
+               </person>
+               <person corresp="luiseweimar">
+                  <persName>Luise, Herzogin von Sachsen-Weimar-Eisenach, Prinzessin
+                    von Hessen-Darmstadt</persName>
+               </person>
+               <person corresp="napoleon">
+                  <persName>Napoleon Bonaparte</persName>
+               </person>
+               <person corresp="hegpaulus">
+                  <persName>Paulus, Heinrich Eberhard Gottlob</persName>
+               </person>
+               <person corresp="awrehberg">
+                  <persName>Rehberg, August Wilhelm</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="awschlegel">
+                  <persName>Schlegel, August Wilhelm</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1186">Hallesche Allgemeine Literatur-Zeitung, 1803–1849</bibl>
+               <bibl corresp="142">Goethe, Johann Wolfgang von (1774): Die Leiden des jungen Werther,
+                    Leipzig: Weygand</bibl>
+               <bibl corresp="143">Goethe, Johann Wolfgang von (1788): Egmont, o. O.</bibl>
+               <bibl corresp="1211">Rehberg, August Wilhelm (1808): Werke der schönen Künste. Poesie.
+                    Rez. zu: Comparaison entre la Phèdre de Racine et celle d’Euripide, par A. W.
+                    Schlegel. 1807. In: Hallesche Allgemeine Literaturzeitung, Band 1, Nr. 94, Sp.
+                    745–752; Nr. 95, Sp. 753–758</bibl>
+               <bibl corresp="1214">Schiller, Friedrich (1801): Macbeth. Ein Trauerspiel v.
+                    Shakespear. Zur Vorstellg auf dem Hof-Theater zu Weimar eingerichtet v.
+                    Schiller, Tübingen: J. G. Cottaʹsche Buchh.</bibl>
+               <bibl corresp="1213">Schiller, Friedrich (1802): Die Jungfrau von Orleans, eine
+                    romantische Tragödie, Berlin: Johann Friedrich Unger</bibl>
+               <bibl corresp="386">Schiller, Friedrich (1803): Die Braut von Messina, Tübingen: J. G.
+                    Cotta</bibl>
+               <bibl corresp="1212">Schlegel, August Wilhelm (1807): Comparaison entre la Phèdre de
+                    Racine et celle d’Euripide, Paris: Chez Tourneisen fils</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">In diesem Augenblick, theurer Jacobi …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1808-11-21"/>
+               <placeName key="Erfurt">Erfurt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fhjacobi">Jacobi, Friedrich Heinrich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">26. Februar 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Erfurt, den 21. November, 1808.</dateline>
+            </opener>
+            <p>In diesem Augenblick, theurer Jacobi, erhalte ich Ihren Brief vom <date when="1808-11-12">12.</date> unbegreiflich spät, wie Sie sehen, u. eile
+                    sogleich Ihnen aus vollem Herzen für dies neue Zeichen Ihrer Liebe zu danken.
+                    Der meinige wird Ihnen auch zugekommen seyn, und Sie werden also gesehen haben,
+                    dass wir diesmal beide zuerst schrieben. Ich hoffe, wir werden jetzt auch beide
+                    immer pünktlich antworten, u. freue mich herzlich auf den lang entbehrten Genuss
+                    Ihrer Briefe. Fahren Sie aber ja fort zu dictiren u. schonen Sie Ihrer
+                    Augen.</p>
+            <p>Von <placeName ref="Erfurt">Erfurt</placeName> werden Sie nicht erwarten, dass
+                    ich Ihnen etwas sage. Nicht leicht mag es in Deutschland eine zweite solche
+                    Gedankenöde, einen solchen Todesschlummer aller geistigen Kraft geben. Aber ich
+                    war in <placeName ref="Weimar">Weimar</placeName>, u. sah <persName ref="jwgoethe">Göthe</persName> zwei Tage lang, sprach viel von Ihnen mit
+                    ihm, u. soll Sie herzlich von ihm grüssen. Ich fand ihn wohl, u. wie Sie ihn
+                    kennen, beschäftigt, indess ziemlich zornig über so manches literarische Unwesen
+                    in Deutschland. Er klagt so ernstlich über Anarchie, Formlosigkeit, u. Mangel an
+                    Technik in den neuen Poeten u. Autoren, dass es ihn doppelt verdriesst, so viel
+                    wahres Talent in ihnen zu finden, und zu Grabe gehen zu sehn, und dass er nah
+                    daran ist, mancherlei Beschränkungen, die jenseits des Rheins Mode sind,
+                    wenigstens nicht sonderlich zu tadeln. Uebrigens fährt er fort, um sich her,
+                    soviel er kann, zu wirken, u. liest z. B. alle Mittwoch Vormittag einem
+                    ausgewählten Cirkel, unter dem sich auch <persName ref="luiseweimar">die
+                        Herzogin</persName> befindet, die Niebelungen vor. Mit dem <persName ref="napoleon">Kaiser Nap.</persName> hat er eine lange Unterredung gehabt,
+                    über <bibl sameAs="142">seinen Werther</bibl> u. das Französische Theater. Ueber
+                    den ersteren versichert er, habe <persName ref="napoleon">der Kaiser</persName>
+                    sehr wahre, frappante, u. ihm sonst nie vorgekommene Bemerkungen gemacht; das
+                    letztere kenne er bis zur Bewunderung genau, u. habe alle historische u.
+                    poetische Motive der bekanntesten Stücke bis in ein ungeheures Détail hinein
+                    verfolgt. Sehr viel haben wir auch <persName ref="bbrentano">Bettina</persName>s
+                    erwähnt, die er nach Würden, wie wir, schätzt. Sagen Sie ihr das, liebster
+                    Jacobi, u. erhalten Sie mein Andenken bei ihr, wenn in diesen ewigen Wellen
+                    irgend etwas zu erhalten ist.</p>
+            <p>Von der Zusammenkunft der Kaiser hat man hier eine Menge, aber grösstentheils
+                    unmerkwürdige Anekdoten.<note type="footnote" resp="editor">Beim Erfurter
+                        Fürstenkongress trafen <persName ref="napoleon">Napoleon I.</persName> und
+                            <persName ref="alexander1">Alexander I. von Russland</persName> vom 27.
+                        September bis 14. Oktober 1808 im französisch besetzten <placeName ref="Erfurt">Erfurt</placeName> zu Verhandlungen aufeinander.
+                        [FZ]</note> Eine interessante ist mir die gewesen, dass <persName ref="napoleon">der Kaiser</persName> das Schlachtfeld von <placeName ref="Jena">Jena</placeName> nicht gleich wiedererkannt, u. sich mit Mühe
+                    darauf orientirt hat. Den Moment zu benutzen, u. den vorhergehenden immer im
+                    gegenwärtigen untergehen zu lassen, habe ich immer für das ächte Gepräge des
+                    praktischen Genies gehalten.</p>
+            <p>
+               <persName ref="hegpaulus">Paulus</persName> in <placeName ref="Nürnberg">Nurnberg</placeName> habe ich mit grossem Vergnügen wiedergesehen. Ich habe
+                    ihm von der guten Meynung gesprochen, die Sie, mein Lieber, von ihm haben, u. er
+                    war sehr gerührt davon. Er ist begierig in die ganze Thätigkeit seiner Stelle zu
+                    kommen, und Ihre Regierung kann gewiss darauf rechnen, in ihm einen treflichen
+                    Arbeiter zu besitzen. In <placeName ref="Erlangen">Erlangen</placeName> ist auch
+                    eine Art von moralischem Tod. Ein Jurist, <persName ref="khgros">Gros</persName>, indess verdient eine ehrenvolle Ausnahme. Er ist einer der
+                    hellsten Köpfe, die sein Fach in Deutschland aufzuweisen hat. Uebrigens ist es
+                    nicht wahr, dass die Professoren in <placeName ref="Erlangen">Erlangen</placeName> ihre Collegia eingestellt hätten. Sie lesen ohne
+                    Gehalt, u. für wenige Zuhörer, aber ununterbrochen fort.</p>
+            <p>Sehr leid thut es mir, liebster Jacobi, dass Ihnen die Nummern der <bibl sameAs="1186">Hallischen Literatur Zeitung</bibl> fehlen, die Sie mir
+                    anzeigen. Ich habe sie nicht in <placeName ref="München">München</placeName>
+                    lesen können, u. da sie noch am letzten Abend unter meinen Sachen lagen, u. mein
+                    Begleiter ohne mich einpackte, hat er das Heft mit in den Koffer gelegt, so dass
+                    ich es erst jetzt auf angestellte Nachsuchung wiedergefunden habe. Es soll aber
+                    nun, wohl eingepackt, mit der ersten fahrenden Post abgehen.</p>
+            <p>Ehe ich es aber abgehen liess, habe ich <bibl sameAs="1211">die Recension</bibl>
+                        gelesen,<note type="footnote" resp="editor">Siehe <ref type="linkExt"
+                       target="https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00031608">das Digitalisat der Rezension</ref>. [FZ]</note> u. wie Sie es mir
+                    voraussagten, mit Vergnügen. Sie rührt offenbar von einem äusserst guten Kopfe
+                    her, der sich mit Leichtigkeit u. Kraft in seiner Materie herumbewegt. Da ich
+                        <bibl sameAs="1212">Schl. Schrift</bibl> nicht kenne, so weiss ich nicht, ob
+                        <persName ref="awrehberg">der Rec.</persName> seine Meynungen treu
+                    darstellt. So, wie er es thut, muss nothwendig jeder ihm Recht geben. Die dort
+                    geschilderte Idee einer religiösen Tragödie, das unbedingte Erheben <persName ref="pbarca">Calderon</persName>s, u. die Maxime, dass das Trauerspiel ein
+                    Ausdruck der Idee der göttlichen Vorsehung seyn müsse, – alles das ist geradezu
+                    abgeschmackt nach meiner Ansicht der Sache. Allein mit dem, was <persName ref="awrehberg">der Recensent</persName> als seine eigne Vorstellung der
+                    Tragödie, zu erkennen giebt, könnte ich leicht noch mehr hadern, ohngefähr eben
+                    so, wie mir ein Schwärmer doch am Ende noch lieber ist, als ein reiner
+                    Materialist, der, wie ein sehr berühmter Mann (aber kein gekröntes Haupt) vor
+                    Kurzem hier bei Gelegenheit der Französischen Tragödie sagte, Hass u. Liebe nur
+                    für einen choc des sensations hält. Aus seiner Schilderung der Tragödie (<bibl sameAs="1211">p. 750.</bibl> col. 6. unten) fällt alles Idealische heraus, u.
+                    eine <persName ref="akotzebue">Kotzebui</persName>sche kann am Ende auch eine
+                    seyn; wie denn auch <persName ref="aristoteles">Aristoteles</persName> wohl
+                    leicht mit der Bemerkung einkommen möchte, dass er eine andre Furcht u. ein
+                    andres Mitleid, als das dort angegebene rein egoistische gemeynt habe. Daher
+                    kommt es nun auch, dass <persName ref="awrehberg">Rec.</persName> alle
+                    idealistische Tragödien zusammenschmeisst, wie uneins sie auch unter sich seyn
+                    mögen, die <bibl sameAs="1213">Jungfrau von Orleans</bibl>, die auch der
+                        <persName ref="awschlegel">Schlegel</persName>schen Parthei ein Gräuel ist,
+                    verdammt, selbst <bibl sameAs="1214">Macbeth</bibl> doch nicht oft haben will, u.
+                    bloss – man weiss, besonders wenn man an das religiöse Ende <bibl sameAs="143">Egmont</bibl>s denkt, nicht warum – <persName ref="jwgoethe">Göthe</persName> auszunehmen scheint.</p>
+            <p>
+               <persName ref="awschlegel">Schl.</persName> mag das Symbolische wohl
+                    misverstanden haben, allein meiner Ansicht nach, bleibt das Symbolische immer
+                    das Charakteristische alles Grossen in Wissenschaft u. Kunst, u. also das
+                    Tragisch-Symbolische auch der Tragödie. Allein das Symbol ist kein Satz, keine
+                    Idee einmal, die sich in Worten ausdrücken lässt, u. noch weniger kann zum
+                    Symbol (wie zur Moral einer Fabel) ein konkreter Fall erfunden werden. Der Gang
+                    aller Symbolik ist vielmehr umgekehrt immer vom gegebenen Endlichen zum nie ganz
+                    erkannten Unendlichen. Dem Inhalte nach ist mir das Symbol Eins mit den
+                        <persName ref="platon">Platon</persName>ischen Ideen – das Höchste, das
+                    Unendliche, Ursprüngliche; allein nicht allgemein, sondern auf diejenige
+                    bestimmte Weise, zu der ein im glücklichen Moment aufgefasster Gegenstand der
+                    Wirklichkeit führt. Wenn es daher nur Eine Idee – die Gottheit – geben kann, so
+                    giebt es so viele mögliche Symbole, als es wirkliche, u. mit göttlichem Samen
+                    begabte Individuelle Gegenstände giebt. Die im Symbol vorgehende Verschmelzung
+                    des Endlichen u. Unendlichen ist objectiv unmöglich; aber subjectiv in erhöheter
+                    u. begeisterter Stimmung des Gemüths ist sie es Gottlob! ebenso wenig als reine
+                    Liebe in dem an sich fleischlichen u. sinnlichen, sittliche Freiheit in dem an
+                    sich naturbedingten, oder Tugend in dem an sich eigennützigen Menschen, u. es
+                    ist allerdings, dünkt mich, ein Prüfstein der wahren Tragödie, ob sie ihre
+                    Personen dahin bringt, symbolische Gestalten zu werden. Ja, da am Ende jede
+                    grosse Tragödie doch auch eine Einheit hat, die man Einheit der Idee nennen
+                    kann, so lässt sich wirklich behaupten, dass sich jede zuletzt in Ein Symbol
+                    zusammendrängt, nemlich in die Idee der bestimmten Art des Kampfes, welchen die
+                    Menschheit darin gegen das Schicksal besteht. Ich weiss nicht, mein Bester, ob
+                    Sie Sich der Vorrede zu <persName ref="fschiller">Schiller</persName>s <bibl sameAs="386">Braut von Messina</bibl> erinnern. Sie entwickelt, wie es mir
+                    scheint, das was in diesen Ideen wahr seyn kann, vortreflich, u. gehört auch für
+                    den Styl zu dem Schönsten, was <persName ref="fschiller">Schiller</persName> je
+                    geschrieben hat. Dem Tadel des <bibl sameAs="1213">Mädchens von Orleans</bibl> in
+                    der <bibl sameAs="1211">Rec.</bibl> werden auch Sie, mein Lieber, wie Sie auch
+                    über das Stück denken mögen, schwerlich so beistimmen. Denn bei aller
+                    Gerechtigkeit, die man scheinbar dem <persName ref="fschiller">Schiller</persName>schen Genie wiederfahren lässt, wird das Stück selbst
+                    doch zu einem unzusammenhängenden Mischmasch herabgewürdigt.</p>
+            <p>Aber ich sehe, dass ich in das Unglück der langen Briefe verfalle. Zürnen Sie mir
+                    nicht, theurer Jacobi, u. lassen Sie Sich nicht von baldiger Antwort
+                    abschrecken. Sehe ich, dass Sie zögern, so schreibe ich unmittelbar einen
+                    zweiten kurzen. Denn den Genuss Ihres Briefwechsels lasse ich mir nun nicht
+                    ferner rauben. Tausend Empfehlungen an alle die Ihrigen.</p>
+            <closer>
+               <salute>Mit inniger Liebe<lb/>Ihr</salute>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

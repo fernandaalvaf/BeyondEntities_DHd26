@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 24.10.1830<idno type="BBAW">1107</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 26</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 253–254</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8292</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+               <person corresp="fschiller">
+                  <persName>Schiller, Friedrich</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+               <person corresp="fgwelcker">
+                  <persName>Welcker, Friedrich Gottlieb</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="721">Berliner Kalender (Berlin: Königlich Preußische Kalender-Deputation
+                    1825–1849)</bibl>
+               <bibl corresp="208">Humboldt, Wilhelm von: Rezension von Goethes Zweiten römischen
+                    Aufenthalt. In: Jahrbücher für wissenschaftliche Kritik 1830, Thl. II. Nr.
+                    45–47, S. 353–374</bibl>
+               <bibl corresp="220">Humboldt, Wilhelm von: Vorerinnerung. Über Schiller und den Gang
+                    seiner Geistesentwicklung. In: Briefwechsel zwischen Schiller und W. v. Humboldt
+                    (Stuttgart/Tübingen: J. G. Cotta 1830)</bibl>
+               <bibl corresp="644">Lassen, Christian: Ueber Herrn Bopps grammatisches System der
+                    Sanskrit-Sprache [Rezension von Franz Bopps Ausführliches Lehrgebäude der
+                    Sanskrita-Sprache, Berlin 1827]. In: Indische Bibliothek, Band 3, 1, 1830, S.
+                    1–113</bibl>
+               <bibl corresp="385">Humboldt, Wilhelm Freiherr von / Schiller, Friedrich: Briefwechsel
+                    zwischen Schiller und Wilhelm v. Humboldt (Stuttgart und Tübingen: J. G. Cotta
+                    1830)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="706">Schlegel, August Wilhelm von: Indien in seinen Hauptbeziehungen.
+                    Ueber die Zunahme und den gegenwärtigen Stand unserer Kenntnisse von Indien,
+                    Erste Abtheilung bis auf Vasco da Gama. In: Berliner Kalender auf das
+                    Gemein-Jahr 1829, S. 3–86</bibl>
+               <bibl corresp="1094">Schlegel, August Wilhelm von: Indien in seinen Hauptbeziehungen.
+                    Ueber die Zunahme und den gegenwärtigen Stand unserer Kenntnisse von Indien,
+                    Zweite Abtheilung. Von Vasco da Gama bis auf die neueste Zeit. In: Berliner
+                    Kalender auf das Gemein-Jahr 1831, S. 3–160</bibl>
+               <bibl corresp="397">Schlegel, August Wilhelm von: Réflexions sur l’étude des langues
+                    asiatiques adressées à Sir James Mackintosh, suivies d’une lettre à M. Horace
+                    Hayman Wilson (Bonn: E. Weber 1832)</bibl>
+               <bibl corresp="582">Sozietät für wissenschaftliche Kritik (Hg.): Jahrbücher für
+                    wissenschaftliche Kritik (Berlin u.a.: 1827–1846)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew: Hochwohlgeboren kann ich nicht lebhaft genug
+                        für die Uebersendung des neuesten Stücks der Indischen Bibliothek danken,
+                        welches ich sehr bald nach Ihrem gütigen Schreiben vom 21sten v. M.
+                        empfangen habe. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1830-10-24"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Schreiberschrift mit eigenhändiger Schlussformel und
+                    Unterschrift</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">30. Januar 2014</item>
+            <item n="status">in Bearbeitung, gegengelesen von AD 27. Februar 2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1830-10-24/WvH-Schlegel_1830_10_24_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1830-10-24/WvH-Schlegel_1830_10_24_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1830-10-24/WvH-Schlegel_1830_10_24_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1830-10-24/WvH-Schlegel_1830_10_24_Seite_04.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Ew: Hochwohlgeboren kann ich nicht lebhaft genug für die
+                    Uebersendung des neuesten Stücks der <bibl sameAs="396">Indischen
+                        Bibliothek</bibl> danken, welches ich sehr bald nach Ihrem gütigen
+                    Schreiben vom <date when="1830-09-21">21<hi rend="superscript">sten</hi> v.
+                        M.</date> empfangen habe. Ich bitte Sie, auch <persName ref="classen">Herrn
+                            <hi rend="antiqua">Dr: Lassen</hi>
+               </persName> zu sagen, wie sehr ich ihm
+                    für die vielfache Belehrung verpflichtet bin, die ich schon jetzt nach
+                    zweimaligem Durchlesen der so gehaltvollen <bibl sameAs="644">Abhandlung</bibl>
+                    daraus geschöpft habe. Sehr oft werde ich noch <add>zu</add> einzelnen Stellen
+                    zurückkehren und das Ganze <sic>intereßirt</sic> mich um so mehr, als ich schon
+                    seit zwey Jahren eine ausführliche Abhandlung über den <hi rend="antiqua">Sanskriti</hi>schen Formenbau<!-- title? --> liegen habe. Ich habe da
+                    natürlich auf mehrere Punkte stoßen müssen, welche <persName ref="classen">Herr
+                            <hi rend="antiqua">Lassen</hi>
+               </persName> berührt. <bibl sameAs="644">Seine Arbeit</bibl> ist eine wahre Bereicherung dieses ganzen
+                    Studiums.</p>
+            <p>Auf Ew: Hochwohlgeboren jetzt in England herauszugebende Schrift<note type="footnote" resp="editor">Die hier erwähnte Übersetzung der <bibl sameAs="397">
+                     <hi rend="italic">Réflexions sur l'étude des langues
+                                asiatiques</hi>
+                  </bibl> ist vermutlich nie erschienen.</note> bin
+                    ich doppelt begierig, da ich sehe, daß Sie darin so wichtige grammatische
+                    Untersuchungen berühren wollen, als die über die Agglutina-<pb n="2*"/> <sic>Agglutination</sic> ist. Ich bin darin nie, soviel es das <hi rend="antiqua">Sanskrit</hi> betrifft, mit den gewöhnlichen Ansichten einig
+                    gewesen, noch weniger mit denen <persName ref="fschlegel">Ihres verstorbenen
+                        Bruders</persName>. Wie die Sache jetzt gewöhnlich gefaßt wird, ist meiner
+                    Meinung nach, nicht einmal die Frage richtig gestellt. </p>
+            <p>Daß Ew: Hochwohlgeboren Ihre Aufsätze aus dem <bibl sameAs="721">
+                  <hi rend="antiqua">Berliner</hi> Kalender</bibl> Französisch wollen zusammen drucken
+                    lassen, ist ein höchst glücklicher Gedanke.<note type="footnote" resp="editor">Dabei handelt es sich um die beiden in den Jahrgängen <bibl sameAs="706">1829</bibl> und <bibl sameAs="1094">1831</bibl> des <hi rend="italic">Berliner Kalenders</hi> unter dem Titel "Ueber die Zunahme und den
+                        gegenwärtigen Stand unserer Kenntnisse von Indien" publizierten Aufsätze,
+                        die anscheinend aber doch nicht ins Französische übersetzt wurden; vgl. die
+                        Kritik von <persName ref="abenary">Agathon Benary</persName>, Jahrbücher für
+                        wissenschaftliche Kritik 1831, Nr. 94–97, S. 748–772.</note> So in
+                    verschiedene Jahrgänge zerstückt, wird eine wichtige Arbeit weder richtig
+                    beurtheilt, noch vollkommen genossen. </p>
+            <p>Ich bin so frey, Ew: Hochwohlgeboren die <bibl sameAs="220">Vorerinnerung</bibl>
+                    zu <bibl sameAs="385">meinem Briefwechsel mit <hi rend="antiqua">Schiller</hi>
+               </bibl> zuzuschicken. Da ich kein anderes Exemplar disponibel
+                    habe, darf ich Sie wohl um die Gefälligkeit bitten, dieses auch <persName ref="fgwelcker">Herrn Professor <hi rend="antiqua">Welcker</hi>
+               </persName>
+                    zum Lesen mitzutheilen. <bibl sameAs="385">Den Briefwechsel selbst</bibl> habe
+                    ich noch <pb n="3*"/> nicht erhalten. Eine <bibl sameAs="208">Recension von <hi rend="antiqua">Göthes</hi> zweitem Römischem Aufenthalte</bibl> haben
+                    Sie wohl in den <bibl sameAs="582">
+                  <hi rend="antiqua">Berliner</hi>
+                        Jahrbüchern</bibl> gelesen. Es sollte mich sehr freuen, wenn diese Arbeiten
+                    Ihre Zustimmung erhielten. Sie haben für mich schon den Werth, daß sie mich
+                    Wochen und Monate lang in eine glücklichere und genußvollere Zeit zurückversetzt
+                    haben, als mein Leben jetzt noch sein kann. </p>
+            <closer>
+               <salute>Mit der herzlichsten und ausgezeichnetesten
+                            Hochachtung<lb/>
+                  <handShift scribe="wvh"/> der
+                        Ihrige,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <handShift scribe="Schreiber"/> <hi rend="antiqua">Tegel</hi> den 24<hi rend="superscript">t</hi> <hi rend="antiqua">October</hi>
+                        1830.</dateline>
+               <lb/>
+               <address>
+                  <addrLine>An</addrLine>
+                  <addrLine>Herrn Professor und Ritter <hi rend="antiqua">von
+                            Schlegel</hi>
+                  </addrLine>
+                  <addrLine>Hochwohlgeboren in <placeName ref="Bonn">
+                        <hi rend="antiqua">Bonn</hi>
+                     </placeName>.</addrLine>
+               </address>
+               <lb/>
+               <pb n="4* vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

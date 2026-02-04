@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 29.10.–12.11.1826<idno type="BBAW">1081</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1908, S. 212–218</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11945</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="ofrank">
+                  <persName>Frank, Othmar</persName>
+               </person>
+               <person corresp="jgrimm">
+                  <persName>Grimm, Jacob</persName>
+               </person>
+               <person corresp="ahlheeren">
+                  <persName>Heeren, Arnold Hermann Ludwig</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="alanglois">
+                  <persName>Langlois, Alexandre</persName>
+               </person>
+               <person corresp="classen">
+                  <persName>Lassen, Christian</persName>
+               </person>
+               <person corresp="ifwmolfers">
+                  <persName>Olfers, Ignaz Franz Werner Maria von</persName>
+               </person>
+               <person corresp="farosen">
+                  <persName>Rosen, Friedrich August</persName>
+               </person>
+               <person corresp="fgwelcker">
+                  <persName>Welcker, Friedrich Gottlieb</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="14">Amara Sinha: Amara Kosha</bibl>
+               <bibl corresp="34">Asiatic Researches; Or, Transactions of the Society, Instituted in
+                    Bengal, for inquiring into the history and antiquities, the arts, sciences, and
+                    literature of Asia (Calcutta / London: 1788–1839)</bibl>
+               <bibl corresp="559">Bopp, Franz: Nalus, Carmen sanscritum, e Mahàbhàrato; edidit,
+                    latine vertit et adnotationibus illustravit Franciscus Bopp (London u.a.: Cox
+                    and Baylis 1819)</bibl>
+               <bibl corresp="65">Burnouf, Eugène / Lassen, Christian: Essai sur le Pali, ou langue
+                    sacrée de la presqu’ile au-dela du Gange (Paris: Dondey-Dupré père et fils
+                    1826)</bibl>
+               <bibl corresp="554">Colebrooke, Henry Thomas: Cósha, or Dictionary of the Sanskrit
+                    Language (Serampore: Carey 1808)</bibl>
+               <bibl corresp="199">Humboldt, Wilhelm von: Ueber die Bhagavad Gitâ. Bemerkungen über
+                    die Langloissche Recension der Schlegelschen Bhagavad-Gitâ. An Schlegel nach
+                    Bonn am 17. Junius 1825. geschickt. In: Indische Bibliothek 2, Heft 2, 1826, S.
+                    218–258; Heft 3, 1826, S. 328–372</bibl>
+               <bibl corresp="213">Humboldt, Wilhelm von: Über die unter dem Namen Bhagavad-Gítá
+                    bekannte Episode des Mahá-Bhárata I–II. In: Abhandlungen der Königlichen
+                    Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 1–64</bibl>
+               <bibl corresp="702">Langlois, Alexandre: Lettre adressée à M. le président du Conseil
+                    de la Société Asiatique. In: Journal Asiatique 9, 1826, S. 185–189</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique (Paris: Ponthieu
+                    u.a. 1822–heute)</bibl>
+               <bibl corresp="703">Lassen, Christian: Commentatio geographica atque historica de
+                    Pentapotamia Indica (Bonn: Eduard Weber 1827)</bibl>
+               <bibl corresp="308">Nalus</bibl>
+               <bibl corresp="352">Rāmāyana</bibl>
+               <bibl corresp="590">Rosen, Friedrich August: Radices Sanscritae (Berlin: Dümmler
+                    1827)</bibl>
+               <bibl corresp="1081">Schlegel, August Wilhelm von: An Herrn Professor Herren in
+                    Göttingen. Ueber die Abtheilung von den Indern in dessen Ideen über die Politik,
+                    den Verkehr und den Handel der vornehmsten Völker der alten Welt. In: Indische
+                    Bibliothek 2 (1827), Heft 4, S. 373–473</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="691">Schlegel, August Wilhelm von: Observations sur la critique du
+                    Bhagavad-ghita, insérée dans le Journal Asiatique. In: Journal Asiatique 9,
+                    1826, S. 3–27</bibl>
+               <bibl corresp="634">Schlegel, August Wilhelm von: Ramayana id est carmen epicum de
+                    Ramae rebus gestis poetae antiquissimi Valmicis opus, Volume 1 (Bonn: sumtibus
+                    editoris 1829)</bibl>
+               <bibl corresp="575">Schlegel, August Wilhelm von: Rezension zu Franz Bopp: Nalus,
+                    carmen sanscritum e Mahàbhàrato (London, Paris, Straßburg: Treuttel und Würtz
+                    1819). In: Indische Bibliothek 1, Heft 1, 1820, S. 97–128</bibl>
+               <bibl corresp="1075">Transactions of the Royal Asiatic Society of Great Britain and
+                    Ireland (London: Royal Asiatic Society 1824–1834)</bibl>
+               <bibl corresp="1090">Vrihatkathâ</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich war sehr erfreut, in einem früheren Briefe von Ew.
+                        Excellenz einigermaßen günstige Nachrichten von dem Befinden Ihrer Frau
+                        Gemahlin zu finden, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+               <date type="author" when="1826-10-29"/>
+               <placeName key="Bonn">Bonn</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1098" type="prev">04.09.1826</ref>
+               <ref target="1099" type="prev">18.09.1826</ref>
+               <ref target="1100" type="prev">10.10.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="arb">Arabisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="got">Gotisch</language>
+            <language ident="pi">Pali</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">19. Dezember 2013</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Bonn den 29sten October 26.</dateline>
+            </opener>
+            <p>Ich war sehr erfreut, in einem <ref type="link" target="1098">früheren
+                        Briefe</ref> von Ew. Excellenz einigermaßen günstige Nachrichten von dem
+                    Befinden Ihrer <persName ref="cvh1">Frau Gemahlin</persName> zu finden, und
+                    diese vor kurzem durch einen <ref type="link" target="1065">späteren
+                    Brief</ref> an meinen Freund
+                        <persName ref="fgwelcker">Welcker</persName> bestätigt zu hören. Ich bitte
+                    Sie, mich ihr angelegentlich zu empfehlen, und ihr meine lebhaften Wünsche für
+                    ihre vollkommne Herstellung zu bezeugen.</p>
+            <p>Ihr <persName ref="avh">Herr Bruder</persName> muß jetzt bei Ihnen seyn.
+                        <persName ref="kskunth">Herr Kunth</persName> hatte uns einige Hoffnung
+                    gemacht, wir würden ihn auf der Durchreise sehen: aber er hat auch dießmal
+                        <placeName ref="Bonn">Bonn</placeName> nicht berührt, worüber ich recht
+                    betrübt gewesen bin. Ich hoffe, er wird noch vor seiner Abreise von <placeName ref="Paris">Paris</placeName> meine Sendung der <bibl sameAs="396">Indischen
+                        Bibliothek</bibl> empfangen haben, welche <persName ref="ifwmolfers">Herr
+                        von Olfers</persName> mitzunehmen die Güte hatte. Das ganze Packet an die
+                    französischen
+                    Gelehrten<!-- KS: Hier könnte man evtl. eine Fußnote schreiben, wer das genau ist -->
+                    war unter seiner Adresse. </p>
+            <p>Daß Ew. Excellenz mit meiner Sorgfalt für den Abdruck <bibl sameAs="199">Ihres
+                        Aufsatzes</bibl> zufrieden waren, ist mir eine große Beruhigung. Nichts
+                    kann aber aufmunternder und anregender für mich seyn, als Ihre Urtheile und
+                    Bemerkungen über meine Aufsätze. Wenn ich viel solche Leser hoffen dürfte, so
+                    würde ich Lust haben, die Feder gar nicht aus der Hand zu legen, und immerfort
+                    für den Druck zu schreiben. An Stoff sollte es wohl nicht fehlen. In nicht gar
+                    langer Zeit denke ich ein <bibl sameAs="396">neues Heft</bibl> ans Licht fördern
+                    zu können. Es ist mir sehr lieb, daß Ew. Excellenz meine etwas <bibl sameAs="691">schärfere Polemik</bibl> nicht misbilligen. Sie scheint mir wirklich
+                    nothwendig, um die gründliche Forschung in ihren Rechten zu behaupten, und es
+                    werden noch einige strenge Gerichte gehalten werden müssen. Ich bekomme die
+                    Nummern des <bibl sameAs="773">
+                  <hi rend="italic">Journal Asiatique</hi>
+               </bibl> so unordentlich, daß ich
+                    meinen <bibl sameAs="691">Anti-Langlois</bibl> noch nicht gesehen habe, eben so
+                    wenig den <bibl sameAs="702">neuen Anti-Schlegel</bibl>; der dem Vernehmen nach
+                    grob und geistlos seyn soll. </p>
+            <p>
+               <hi rend="italic">
+                  <foreign sameAs="sa">lāngulākhyō mahāmūrkaḥ
+                            paṇḍitāiśshchāwahāsitaḥ</foreign>,</hi>
+               <lb/>
+               <hi rend="italic">
+                  <foreign sameAs="sa">udwamati wishaṃ ghōraṃ saṃkruddhaḥ ślāghalaṃ
+                            prati</foreign>.</hi>
+            </p>
+            <p>Die Namen haben mit einiger Willkühr behandelt werden müssen, um ihnen einen
+                    classischen Anklang zu geben. </p>
+            <p/>
+            <p>
+               <hi rend="letterspace">den <date when="1826-11-10">10ten November</date>
+               </hi>.
+                    Ich lasse das obige nur stehen, um zu zeigen, daß ich schon früher den guten
+                    Willen hatte, von meiner dreifachen und vierfachen Schuld etwas abzutragen.
+                    Zwischen jenen Zeilen und diesen liegt die Eröffnung dreier Vorlesungen, und ich
+                    weiß nicht, was alles sonst. So geht es mir immer. Ich kann sowohl zu den
+                    nothwendigsten, als zu den einladendsten Briefen keine Zeit finden. </p>
+            <p>Seitdem habe ich nun <bibl sameAs="213">Ew. Excellenz Abhandlung</bibl> empfangen.
+                    Ich habe sie erst Einmal gelesen, und schon viel daraus gelernt; ich werde sie
+                    oft lesen und immer daraus lernen. Eigentlich sollte ich wohl nicht urtheilen,
+                    ich bin durch die gütige Erwähnung <bibl sameAs="53">meiner Arbeit</bibl> allzu
+                    sehr bestochen. Die Darlegung des Inhalts scheint mir ganz vollkommen. Eine
+                    metrische Übersetzung schien mir äußerst schwer, ja fast unmöglich. Auch hierin
+                    ist außerordentlich viel geleistet. Wie wäre es, wenn Ew. Excellenz sich mit mir
+                    zur Übertragung des Ganzen vereinigten? Die metaphysischen Stellen blieben Ihnen
+                    vorbehalten, die mehr epischen könnte ich übernehmen. </p>
+            <p>„In Kuru-Land, des Rechts Wohnsitz, Kampfbegierig hinabgerückt, <lb/>„Unsre, samt
+                    dem Geschlecht Pânḍu’s, was nun thaten sie, Sanjayas?“ – <lb/>Als des
+                    Pânḍu-Geschlechts Heerschaar aufgestellt sah Duryôdhanas,<lb/> Zu seinem Meister
+                    hintretend, redet’ er ihn, der König, an. u. s. w. </p>
+            <p>Ich könnte vielleicht einige fast mechanische Handgriffe der Versification
+                    angeben. Z. B. in den freigelassnen Stellen des Slokas sind doch manche Rhythmen
+                    zu vermeiden, namentlich der jambische, weil sonst das zweite Hemistichium,
+                    dessen letzte Hälfte ein zweiter Päon oder Dijambus seyn muß, ⏑ ‒ ⏑ ⏒, völlig in
+                    einen vierfüßigen Jamben ausartet. Dieß kann nun auch dem ersten Hemistichium
+                    begegnen, wenn man es mit dem ersten Epitrit schließt, aber in die vorletzte
+                    Sylbe eine tieftonige Länge, hingegen in die drittletzte und letzte eine
+                    hochtonige setzt: ⏑ –́ –̀ –́. Dann wird der Fuß schon einem Dijambus ähnlich.
+                    Vermieden wird dieß durch den Antispast oder folgenden Epitrit: ⏑ –́ –́ –̀. Ich
+                    glaube meinen Gedanken am deutlichsten zu machen, wenn ich den Slokas <hi rend="italic">p.</hi> 48 als einen ganz vollkommen versificirten anführe.
+                    Manchmal ließe sich der Rhythmus durch eine ganz leichte Umstellung verändern.
+                    ZB. <hi rend="italic">p.</hi> 38 würde ich versuchen:</p>
+            <p>Wann zu jeglichem Thor einzieht, hell durchleuchtend, in diesen Leib<lb/>Die
+                    Erkenntniß, sodann, wisse, kommt zur Reife die Wesenheit. </p>
+            <p>Nur um zu beweisen, daß ich mit Aufmerksamkeit gelesen habe, erlaube ich mir
+                    folgende kleine Bemerkungen. <hi rend="italic">P.</hi> 4 und 55. Cap. II, 29
+                    würde ich anders fassen. Ich nehme <foreign sameAs="sa">
+                  <hi rend="italic">ēnam</hi>
+               </foreign> nicht als ein unbestimmtes Pronomen,
+                    sondern beziehe es auf <foreign sameAs="sa">
+                  <hi rend="italic">ātmānam</hi>
+               </foreign>. So auch der
+                    Scholiast<!-- KS: Der schon wieder ... -->, in dessen Anmerkung nur Ein Wort
+                    nicht klar ist. Der Geist kann nur in seinen Wirkungen wahrgenommen werden,
+                    diese sind aber von allen Erfahrungen, die man in der Körperwelt machen kann, so
+                    verschieden, daß sie dem sinnlichen Menschen als ein Wunder erscheinen müssen.
+                    Der Scholiast vergleicht den Geist mit einem Gaukler, dem man auch nicht auf die
+                    Spur kommt, wie er seine Kunststücke zu Stande bringt.</p>
+            <p>VIII, 16. Die Stelle ist grammatisch zweideutig, wenn dieser Zweideutigkeit nicht
+                    schon durch eine anderweitig festgestellte Lehre abgeholfen ist. Dieses kommt
+                    von dem Gebrauch der Praeposition <foreign sameAs="sa">
+                  <hi rend="italic">ā</hi>
+               </foreign> mit dem Ablativ her. Sie bedeutet sowohl
+                    den <hi rend="italic">terminus a quo</hi> als den <hi rend="italic">terminus ad
+                        quem</hi>, entweder mit Einschluß oder mit Ausschließung der Gränze. Alles
+                    dieß liegt in den beiden Definitionen des <bibl sameAs="554">Amara
+                        Kosha</bibl> <foreign sameAs="sa">
+                  <hi rend="italic">abhiwyāptāu sīmārthē</hi>
+               </foreign>. <persName ref="htcolebrooke">Colebrooke</persName> erklärt: <hi rend="italic">until-including the limit, or exclusive of the bound or limit</hi>. Im
+                        <bibl sameAs="554">Amara
+                    Kosha</bibl>
+               <!-- Korpus allgemein (ID14) oder Colebrook? --> selbst finden sich
+                    Beispiele, wo das als Gränze mit begriffen ist. Von den Zahlen heißt es:
+                        <foreign sameAs="sa">
+                  <hi rend="italic">tāsu (saṃkhyāsu) chānawatēḥ striyaḥ</hi>
+               </foreign>. Unter
+                    ihnen sind die bis 90, von 20 an, Feminina. Nun ist aber <foreign sameAs="sa">
+                  <hi rend="italic">nawati</hi>
+               </foreign> ein Femininum, darauf folgt das
+                    erste Neutrum <foreign sameAs="sa">
+                  <hi rend="italic">śatam</hi>
+               </foreign>. – Für obigen Slokas scheint mir die
+                    adversative Partikel <foreign sameAs="sa">
+                  <hi rend="italic">tu</hi>
+               </foreign> entscheidend. Es ist ein Gegensatz da.
+                    Aus der Welt des Brahma kehrt man noch zurück, nicht aber, wenn man zum Krishnas
+                    gelangt ist. Mit dem Begriffe des abstracten Brahma scheint es mir nicht
+                    verträglich, ihm eine eigne Welt als Wohnsitz zuzuschreiben. Was sagt der
+                    Scholiast? – Noch nicht ganz klar ist mir XIV, 27. <persName ref="htcolebrooke">Colebrooke</persName> übersetzt, wie mir <persName ref="classen">Herr
+                        Lassen</persName> versichert, <foreign sameAs="sa">
+                  <hi rend="italic">pratishṭhā</hi>
+               </foreign> in philosophischen Schriften
+                    immer durch <hi rend="italic">
+                  <foreign sameAs="en">basis</foreign>
+               </hi>. </p>
+            <p>
+               <persName ref="classen">Herr Lassen</persName> weiß die Ehre zu schätzen, die
+                    Ew. Excellenz ihm durch die Zusendung Ihrer <bibl sameAs="213">Abhandlung</bibl>
+                    erwiesen haben, und trägt mir auf, Ihnen seine Dankbarkeit ehrerbietigst zu
+                    bezeugen. Ich hoffe Ew. Excellenz haben <bibl sameAs="65">seine erste Arbeit über
+                        das Pali</bibl> mit dem zweiten Exemplar der <bibl sameAs="396">Indischen
+                        Bibliothek</bibl> richtig empfangen. Ich habe das ganze Packet unter der
+                    Adresse der <orgName ref="3">Königlichen Akademie</orgName> abgesendet. – Ew.
+                    Excellenz wollen mir erlauben, den ausgezeichneten jungen Mann Ihrer Gewogenheit
+                    zu empfehlen. Seine Förderung in der auf meinen Antrieb betretnen Laufbahn ist
+                    mir eine wichtige Angelegenheit. Ich habe an ihm einen vortrefflichen
+                    Mitarbeiter, und sehe in ihm den Fortsetzer der von mir begonnenen
+                    Unternehmungen, überhaupt eine Stütze der Indischen Philologie in Deutschland.
+                    Er wird nun nächstens promoviren: wir haben es um etwas hinausgeschoben, weil er
+                    sich auf meinen Rath zuvor des Arabischen in gewissem Grade zu bemeistern sucht.
+                        <bibl sameAs="703">Seine Abhandlung</bibl> ist aber lange fertig, und wird,
+                    hoffe ich, Ew. Excellenz Beifall erwerben. Sie handelt von der alten Geographie
+                    des Panjab, nach den Griechischen Zeugnissen, verglichen mit einheimischen
+                    Quellen.</p>
+            <p>
+               <bibl sameAs="634">Das erste Buch des Râmâyana</bibl>, der Text nämlich, ist
+                    beinahe fertig gedruckt. Schon im Frühling hatte ich eine artige Arbeit über
+                    Tausend und Eine Nacht in französischer Sprache
+                    angefangen<!-- title? evtl. der spätere Text "Les mille et une nuits, recueil de contes originairement indiens" (1842 im Sammelband "Essais littéraires et historiques par A. W. de Schlegel", Bonn: Weber, veröffentlicht) ?-->.
+                    Es ist ein kritischer Versuch das ursprünglich Indische darin von dem Persischen
+                    und von dem Arabischen zu sondern, und überhaupt, das beste in jener
+                    Mährchensammlung nicht nur, sondern ich möchte beinahe sagen, alle sinnreichen
+                    Mährchen in der Welt der Indischen Litteratur zu vindiciren.<note type="footnote" resp="editor">Vgl. hierzu "Les mille et une nuits, recueil
+                        de contes originairement indiens", in: <hi rend="italic">Essais littéraires
+                            et historiques par A. W. de Schlegel</hi> (Bonn: Weber
+                    1842).</note>
+               <!-- überprüfen! --> Freilich, um ganz auf den Grund zu kommen,
+                    müßte man die <bibl sameAs="1090">Vrihatkathâ</bibl> kennen. Ich bin dabei
+                    unterbrochen worden, eigentlich war der Aufsatz für ein Englisches
+                    Journal<!-- title? --> bestimmt und es ängstigt mich, daß ich mein Versprechen
+                    noch nicht habe halten können. – Eine <hi rend="italic">
+                  <bibl sameAs="1081">Epistola critica expostulatoria</bibl>
+               </hi> an <persName ref="ahlheeren">Herrn Heeren</persName>, für das nächste Heft
+                    der <bibl sameAs="396">Indischen Bibliothek</bibl>, ist auch halb fertig. Seine
+                    Göttingisch-professoralische <hi rend="italic">morgue</hi> bei einer solchen
+                    compilatorischen Faselei verdient eine ernste Rüge. – Eine freundschaftliche <hi rend="italic">epistola critica</hi> an <persName ref="bopp">Herrn
+                        Bopp</persName> über den <bibl sameAs="559">Nalus</bibl> ist nur noch in
+                    meinem Kopfe vorhanden: ich weiß nicht wie oft ich den <bibl sameAs="559">Nalus</bibl> darauf durchstudirt habe.<note type="footnote" resp="editor">Siehe u.a. die <bibl sameAs="575">Rezension</bibl> im ersten Heft der <hi rend="italic">Indischen Bibliothek</hi> (1820).</note> – Längst habe ich
+                    eine <hi rend="italic">epistola critica</hi> an <persName ref="jgrimm">Jakob
+                        Grimm</persName>
+               <!-- zustande gekommener Titel? --> vor: ich werde darin
+                    meine Bewunderung auf das nachdrücklichste aussprechen, dann auf theoretische
+                    Punkte, insbesondre aber auf die Vergleichung zwischen dem Sanskrit und dem
+                    Gothischen eingehn. Leider will die Feder mit den Gedanken nicht gleichen
+                    Schritt halten. – Asiatische Neuigkeiten sind nun auch angekommen: das zweite
+                        <bibl sameAs="1075">Londoner Heft</bibl> und der 15te <bibl sameAs="34">Band
+                        von
+                    Calcutta</bibl>.<!-- KS: wahrscheinlich Transactions of the Royal Asiatic Society of Great Britain and Ireland und Asiatick researches, bin mir aber bei beiden unsicher -->
+                    Das giebt wieder neuen Stoff. <persName ref="ofrank">Herr Othmar
+                        Frank</persName> hat mich angegriffen<!-- title? -->: er sieht nicht ein,
+                    daß ich ihn bisher geschont habe. </p>
+            <p>Mich wundert, daß <persName ref="farosen">Dr. Rosen</persName> nicht auf einige
+                    Zeit nach <placeName ref="Bonn">Bonn</placeName> gekommen ist. Er hätte bei mir
+                    manche Hülfsmittel gefunden, die ihm vermuthlich in <placeName ref="Berlin">Berlin</placeName> fehlen, und wäre der bereitwilligsten Mittheilungen von
+                    mir versichert gewesen. Ich habe ihm gerathen, <bibl sameAs="590">sein
+                        Wurzelwörterbuch</bibl> nicht zu übereilen, aber die Ungeduld eines
+                    talentvollen jungen Mannes, in der gelehrten Welt aufzutreten, ist ganz
+                    natürlich. </p>
+            <closer>
+               <salute>Ich wünsche Ew. Excellenz von ganzem Herzen fortdauernde Gesundheit und
+                        heitre Stimmung zur Fortsetzung Ihrer unermeßlichen Forschungen und
+                        besonders zur Mittheilung aus dem reichen Vorrathe. Ich bitte Sie, die
+                        Versicherung meiner innigsten Verehrung und Bewunderung zu
+                        genehmigen.<lb/>Ew. Excellenz<lb/>gehorsamster</salute>
+               <signed>AWvSchlegel.</signed>
+               <lb/>
+               <dateline>den 12ten November 26.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

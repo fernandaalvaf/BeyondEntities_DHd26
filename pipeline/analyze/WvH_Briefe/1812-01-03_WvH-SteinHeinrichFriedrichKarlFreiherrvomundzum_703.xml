@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 06. Mai 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Heinrich Friedrich Karl Freiherr vom und zum Stein,
+                        03.01.1812<idno type="BBAW">703</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Schloss Cappenberg b. Lünen
+                            (Westf.), Archiv Graf von Kanitz, Nachlass Stein S1137,04</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Pertz 1851, Bd. 3, S. 594ff.; Botzenhart 1932, Bd. 3, S. 478ff.; GS, Bd. 16, S. 323–326; Rößle 1952, S. 330–332; 
+                      Freese 1955, S. 676–679; Hubatsch 1961, Bd. 3, S. 607–610</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 2954</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fvgentz">
+                  <persName>Gentz, Friedrich von</persName>
+               </person>
+               <person corresp="kahardenberg">
+                  <persName>Hardenberg, Karl August Fürst von</persName>
+               </person>
+               <person corresp="sawherder">
+                  <persName>Herder, Sigismund August Wolfgang von</persName>
+               </person>
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="762">Humboldt, Alexander von: Essai politique sur le royaume de la
+                    Nouvelle-Espagne (Paris: Schoell 1811)</bibl>
+               <bibl corresp="196">Humboldt, Alexander von: Relation historique du Voyage aux Régions
+                    équinoxiales du Nouveau Continent fait en 1799, 1800, 1801, 1802, 1803, et 1804
+                    par Al. de Humboldt et A. Bonpland rédigé par Alexandre de Humboldt, 3 Bände
+                    (Paris: Schoell 1814–1825)</bibl>
+               <bibl corresp="749">Humboldt, Wilhelm von: Essai sur les langues du nouveau continent
+                    [Manuskript, Archiv Tegel]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich benutze die Gelegenheit, welche mir die Abreise des
+                        Grafen von Herder darbietet, um Ew. Exzellenz einige Worte zu sagen.
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1812-01-03"/>
+               <placeName key="Wien">Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="hfkstein">Stein, Heinrich Friedrich Karl Freiherr vom und
+                  zum</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="nah">Nahuatl (Mexicanisch)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">06. Mai 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Stein/WvH-Stein_1812-01-03/S1137-04_1.jpg"/>
+      <graphic url="Stein/WvH-Stein_1812-01-03/S1137-04_2.jpg"/>
+      <graphic url="Stein/WvH-Stein_1812-01-03/S1137-04_3.jpg"/>
+      <graphic url="Stein/WvH-Stein_1812-01-03/S1137-04_4.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="32r"/>
+               <dateline>
+                  <hi rend="antiqua">Wien</hi>, den 3. <hi rend="antiqua">Januar</hi>,
+                        1812.</dateline>
+            </opener>
+            <p>Ich benutze die Gelegenheit, welche mir die Abreise des <persName ref="sawherder">H. <hi rend="antiqua">v. Herder</hi>
+               </persName>
+               <note type="footnote" resp="editor">Wahrscheinlich ist <persName ref="sawherder">Sigismund August
+                            Wolfgang von Herder</persName> (1776–1838) gemeint, zweiter Sohn von
+                            <persName ref="jgherder">Johann Gottfried Herder</persName>. [FZ]</note>
+                    darbietet, um Ew. Excellenz einige Worte zu sagen. Es ist freilich sehr wenig,
+                    was man sich auf diese Weise schriftlich sagen kann, indeß ist es mir immer
+                    wichtig von Zeit zu Zeit mein Andenken bei Ihnen zu erneuern, und Ihnen die
+                    Versicherung meiner herzlichen Verehrung zu wiederholen. – Ich sage Ihnen nichts
+                    über die großen öffentlichen Angelegenheiten, und wüßte kaum, was ich darüber
+                    sagen sollte, wenn ich Ew. Excellenz selbst spräche. Es ist gerade der
+                    Augenblick der Krise, in welchem die Dinge am wenigsten und am schlimmsten zu
+                    übersehen sind. Sie muß sich, wenn mich nicht Alles trügt, sehr bald
+                    entscheiden, wie aber die Sachen stehen, ist es mir noch zweifelhaft, ob es zu
+                    einer Explosion kommen wird, so drohend auch die Aspecten sind. Von uns und
+                    unsrem Zustande habe ich nur dunkle u. unvollständige Nachrichten. Ew. Excellenz
+                    wissen, daß man bei uns nicht die Gewohnheit hat, über Dinge zu unterrichten,
+                    die nicht gerade den Ort angehen, an dem man sich aufhält, was, im Ganzen
+                    genommen, auch zweckmäßig ist. Aber die Lage bei uns fordert große Klugheit, und
+                    noch außerdem nicht wenig Glück. Ich wünsche, daß es auch an dem letzteren nicht
+                    mangeln möge. Im Innern scheint es mir immer schon viel, daß es nicht noch
+                    schlimmer geht. Es beweist mir augenscheinlich, daß die vom <persName ref="kahardenberg">StaatsKanzler</persName> genommenen Maßreglen im <pb n="32v"/> Ganzen zweckmäßig waren, und daß dasjenige, was man vielleicht
+                    noch hätte daran verbessern können, sich selbst durch die Festigkeit u.
+                    Stätigkeit in der Ausführung abgeschliffen, und ins Gleiche gebracht hat.
+                    Ueberhaupt ist dies letztere etwas, worauf man bei uns in der letzten Zeit nicht
+                    genug gerechnet hat. Fast nie ist es bei praktisch administrativen Gegenständen
+                    möglich, das eigentlich Beste zu wählen; allein Zeit u. Gewohnheit machen eine
+                    auch nur mittelmäßig zweckmäßige, aber mit Beharrlichkeit ausgeführte
+                        <add>Maßregel</add>, bald den übrigen Staatselementen so homogen, daß das
+                    Resultat weit günstiger ausfällt, als man erwarten konnte. Hier freilich scheint
+                    in Rücksicht des neuen Finanzsystems dies nicht ganz zuzutreffen. Indeß kann ich
+                    doch Ew. Excellenz versichern, daß, wie manchem gerechten Tadel auch dies System
+                    ausgesetzt seyn mag, die wirkliche Ausführung auch hier Vieles ins Gleiche
+                    gesetzt haben würde, wenn nicht neue Misgriffe auch diese fehlerhaft gemacht
+                    hätten. Man vermuthet, daß in wenigen Tagen die Kaiserliche Entschließung auf
+                    die Vorstellung der Ungarischen Stände vom 17<hi rend="superscript">t</hi>
+                    einlaufen wird. Vermuthlich wird sich der Hof darauf beschränken, die bisher
+                    verlangten 12. Millionen Einlösungsscheine zu fordern. Allein auch da dürften
+                    sich bei den Ständen noch Schwierigkeiten vorfinden.</p>
+            <p>Ich habe die Freude gehabt, <persName ref="avh">meinen Bruder</persName> einige
+                    Wochen hier zu besitzen. Ich hatte ihn in langer Zeit nicht gesehen, und wenn
+                    uns gleich die Gesellschaft, die nicht ganz zu vermeiden war, einigermaßen
+                    gestört hat, so sind wir doch sehr angenehm mit einander gewesen. Der erste
+                    Theil seiner eigentlichen <bibl sameAs="196">Reisebeschreibung</bibl> wird in
+                    sehr kurzer Zeit erscheinen; allein die folgenden auszuarbeiten, wird <pb n="33r"/> er sicherlich noch 1 ½ bis 2 Jahre brauchen, und dann erst seine
+                    Reise nach <placeName ref="Tibet">Tibet</placeName> antreten. Ich weiß nicht, ob
+                    Ew. Excellenz <bibl sameAs="762">das statistisch-politische Gemälde von
+                        NeuSpanien</bibl> gelesen haben. Die Kapitel über die Masse des in Europa
+                    vorhandenen Goldes und Silbers u. über den Handel würde gewiß Interesse für Sie
+                    gehabt haben. Da die kleine Ausgabe in 8. jetzt erschienen ist, so hoffe ich,
+                    wird das Werk nunmehr bekannter werden, als es bis jetzt war. – Ich bin seit der
+                    Abreise <persName ref="avh">meines Bruders</persName>, soviel es meine Geschäfte
+                    erlauben, sehr anhaltend mit den Amerikanischen Sprachen beschäftigt. Er
+                    wünschte, daß ich ihm eine <bibl sameAs="749">Abhandlung</bibl> für <bibl sameAs="196">seine
+                        Reise</bibl> dazu machte. Es ist eine interessante Arbeit, die es aber noch
+                    viel mehr seyn würde, wenn man hoffen dürfte, auf sicherere Resultate in Absicht
+                    der Abstammung der Völker zu stoßen. Allein leider bleibt darin immer ein großes
+                    Dunkel übrig. Indeß ist es nicht zu läugnen, daß der grammatikalische Bau der
+                        <hi rend="antiqua">Mexicani</hi>schen Sprache auch auf den <hi rend="antiqua">Asiati</hi>schen Ursprung dieser Nation hindeutet, so wie so
+                    viele andere Spuren auf denselben Weg führen. Nun wird man auch darin wieder
+                    sehr erinnert, wenn man sieht, daß Sprachen, wie z. B. die Vaskische, dieselbe
+                    grammatikalische Verwandtschaft zu haben scheinen, ohne daß die <del type="fragment">d</del> etymologische der Wörter, u. historische Traditionen
+                        <del type="fragment">sie beg</del> diese Vermuthung begünstigen. Ueberhaupt
+                    ist die Art, wie sich aus der Beschaffenheit der Sprachen auf die frühesten
+                    Schicksale und Wanderungen der <sic>Volker</sic> schließen läßt, noch lange
+                    nicht vollkommen ins Reine gebracht, und die Sache wird auch nicht wenig dadurch
+                    schwierig, daß es oft fast unmöglich zu entscheiden ist, ob nicht verschiedene
+                    Völker, ohne die mindeste Verbindung mit einander, auf gleiche
+                    Eigenthümlichkeiten bei der Erfindung oder Ausbildung ihrer Sprache gekommen
+                    seyn können. Dadurch bin ich über-<pb n="33v"/>zeugt, ließe sich die Sache auf
+                    festere u. vollständigere Grundsätze zurückbringen, als man gegenwärtig darüber
+                    hat, u. es käme nur auf eine gehörige Zusammenstellung aller faktischen <hi rend="antiqua">daten</hi>, welche man hierüber besitzt, an, um darin zu
+                    gelingen. Immer aber würden die philosophischen, bei einer solchen Arbeit zum
+                    Grunde zu legenden Ansichten die Hauptsache dabei ausmachen. – Was Ew. Excellenz
+                    mir in Ihrem letzten Briefe über die Schädlichkeit der Sucht der Gelehrten sich
+                    in die vornehme Gesellschaft einzumischen, sagen, ist mir wie aus der Seele
+                    gesprochen gewesen. Es wird Ihnen daher Freude machen, zu hören, daß <persName ref="fvgentz">H. <hi rend="antiqua">v. G.</hi>
+               </persName>
+               <note type="footnote" resp="editor">
+                  <persName ref="fvgentz">Friedrich
+                            von Gentz</persName> (1764–1832). [FZ]</note> der bisher vielleicht mehr
+                    als Andre in dieser Hinsicht gemisbilligt werden konnte, diesen Winter fast
+                    nicht seinen Schreibtisch verläßt. Er ist mit einem großen Werke über
+                    Papiergeld, oder eigentlicher über eine Prüfung der in dem <hi rend="antiqua">rapport</hi> der sogenannten <hi rend="antiqua">Bullion Comité</hi> in
+                        <placeName ref="London">
+                  <hi rend="antiqua">London</hi>
+               </placeName> aufgestellten Grundsätze,
+                    beschäftigt. Es freut mich sehr ihn auf diese Weise zu eigentlich litterarischer
+                    Thätigkeit zurückkehren zu sehen.<note type="footnote" resp="editor">Laut dem
+                        Tagebuch von <persName ref="fvgentz">Friedrich von Gentz</persName> für das
+                        Jahr 1812 (<hi rend="italic">Aus dem Nachlaß Varnhagen’s von Ense.
+                            Tagebücher von Friedrich von Gentz</hi>, Leipzig: Brockhaus 1861, S.
+                        265) ist dieses Werk nicht zum Druck gekommen. [FZ]</note>
+            </p>
+            <closer>
+               <salute>Ich bitte Ew. Excellenz mir auch in diesem Jahre Ihre gütige Gewogenheit
+                        zu erhalten, u. die Versicherung meiner ausgezeichnetesten Verehrung
+                        anzunehmen.</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

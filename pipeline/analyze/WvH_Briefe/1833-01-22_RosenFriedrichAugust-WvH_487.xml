@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich August Rosen an Wilhelm von Humboldt, 22.01.1833<idno type="BBAW">487</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 244–251</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 225</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="fchambers">
+                  <persName>Chambers, Lady Frances</persName>
+               </person>
+               <person corresp="bclough">
+                  <persName>Clough, Benjamin</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="jhowse">
+                  <persName>Howse, Joseph</persName>
+               </person>
+               <person corresp="evsjacquet">
+                  <persName>Jacquet, Eugène Vincent Stanislas</persName>
+               </person>
+               <person corresp="sraffles">
+                  <persName>Raffles, Lady Sophia</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+               <person corresp="afstenzler">
+                  <persName>Stenzler, Adolf Friedrich</persName>
+               </person>
+               <person corresp="hhwilson">
+                  <persName>Wilson, Horace Hayman</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="89">Clough, Benjamin: A Compendious Pali Grammar: with a copious
+                    Vocabulary in the same language (Columbo: Wesleyan Mission Press 1824)</bibl>
+               <bibl corresp="554">Colebrooke, Henry Thomas: Cósha, or Dictionary of the Sanskrit
+                    Language (Serampore 1808)</bibl>
+               <bibl corresp="711">Howse, Joseph: A Grammar of the Cree language; with which is
+                    combined an analysis of the Chippeway dialect (London: J. G. F. and J. Rivington
+                    1844)</bibl>
+               <bibl corresp="203">Humboldt, Wilhelm von: Extrait d’une lettre de M. le baron G. de
+                    Humboldt à M. E. Jacquet sur les alphabets de la Polynésie asiatique. In:
+                    Nouveau Journal Asiatique 9, 1832, S. 481–511</bibl>
+               <bibl corresp="709">Jacquet, Eugène: Mélanges malays, javanais et polynésiens. Appendix
+                    I: Copie de la liste des manuscrits javanais donnés à la Société royale
+                    asiatique de Londres par lady Raffles. In: Nouveau Journal Asiatique 9, 1832, S.
+                    253–257</bibl>
+               <bibl corresp="1070">Report of the directors of the London Missionary Society (London:
+                    Missionary Society 1795–1965)</bibl>
+               <bibl corresp="357">Rigveda</bibl>
+               <bibl corresp="616">Wilson, Horace Hayman: A Dictionary in Sanscrit and English:
+                    translated, amended, and enlarged from an original compilation by learned
+                    natives (Calcutta: Philip Pereira 1819)</bibl>
+               <bibl corresp="466">Yadschur-Veda</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz kann ich in der That nicht genug um
+                        Verzeihung bitten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="farosen">Rosen, Friedrich August</persName>
+               <date type="author" when="1833-01-22"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1015" type="next">16.02.1833</ref>
+               <ref target="1013" type="prev">01.08.1832</ref>
+               <ref target="1014" type="prev">25.11.1832</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="farosen">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind am">
+            <language ident="cr">Cree</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">07. Januar 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_489.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_490.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_491.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_492.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_493.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_494.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_495.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_496.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_497.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_498.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_499.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_500.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_507.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_502.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_503.jpg"/>
+      <graphic url="Rosen/Rosen-WvH_1833-01-22/Coll.ling.fol.53_504.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="244r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>kann ich in der That nicht genug um Verzeihung bitten wegen des langen Verzugs
+                    dessen ich mich in der Beantwortung Ihrer beiden so überaus gütigen Briefe
+                    schuldig gemacht habe. Ich wage es nicht, denselben zu rechtfertigen. Etwas
+                    vermehrte Nebenarbeiten, und zuweilen eine an sich geringe Unpäßlichkeit, haben
+                    mich während der letzten Monate mehr als sonst in dem Verfolg meiner Studien,
+                    und so leider auch in der Erfüllung wichtiger und theurer Pflichten gegen die
+                    mir Wohlwollenden im Vaterland gestört. Ich erwähne dieß nur weil eine
+                    Nachlässigkeit, die ich auf keine Weise zu rechtfertigen vermag, und die ich
+                    selbst früherhin für unmöglich gehalten haben würde, dadurch vielleicht in einem
+                    etwas milderen Lichte erscheint.</p>
+            <p>Von dem mir mitgetheilten Verzeichniß Javanischer Manuscripte nehme ich mir die
+                    Freiheit, Ew. Excellenz hiebei eine Abschrift mit einigen Randbemerkungen
+                    zurückzusenden. Dieselben bestehen theils aus Berichtigungen der Titel, aus
+                    einer <pb n="244v"/> sorgfältigen Vergleichung der in den Manuscripten selbst
+                    angegebenen geschöpft, theils aus wenigen kurzen Notizen in Englischer oder
+                    Holländischer Sprache, die in einigen Handschriften der Angabe des Titels
+                    beigefügt sind. Sowohl die Titel selbst als diese Bemerkungen sind meistentheils
+                    ziemlich flüchtig geschrieben, und es kann, namentlich was die ersteren
+                    betrifft, wohl in einigen Fällen zweifelhaft seyn, wie gelesen werden muß. Ich
+                    habe überall diejenige Lesart am Rande meiner Abschrift angegeben, die mir die
+                    wahrscheinlichste schien. – Die von <persName ref="evsjacquet">Herrn <hi rend="antiqua">Jacquet</hi>
+               </persName> im <bibl sameAs="709">
+                  <hi rend="antiqua">Nouveau Journal Asiatique</hi>, <hi rend="antiqua">T.</hi> IX. <hi rend="antiqua">p.</hi> 257</bibl> geäußerte
+                    Vermuthung, daß vielleicht in einigen der Bände mehrere Werke enthalten seien
+                    als das Verzeichniß anführt, wird durch meine Durchsicht der Manuscripte nicht
+                    bestätigt. Die Bände sind im Ganzen nicht stark, und ein Werk wie z. B. eine
+                    Uebersetzung der Gesetze des Manu, würde sich gewiß schon durch seinen Umfang
+                    bemerklich machen.</p>
+            <p>Es ist mir leider bis jetzt nicht möglich gewesen, auch das Verzeichniß der
+                    Malayischen Manuscripte durchzugehen. Doch rechne ich zuversichtlich darauf,
+                    dasselbe in wenigen Tagen gleichfalls an Ew. Excellenz zurücksenden zu
+                    können.</p>
+            <p>
+               <bibl sameAs="203">Ihre Bemerkungen über die Alphabete des Indischen
+                        Archipelagus</bibl> habe ich mit großem Interesse gelesen. Ich sehe <pb n="249r"/> mit lebhaftem Verlangen einer Zeit entgegen, wo es mir vergönnt
+                    seyn wird, Untersuchungen dieser Art mit ungetheilterer Aufmerksamkeit zu
+                    folgen. Werde ich es wagen dürfen, gegen eine gelegentlich von Ew. Excellenz
+                    ausgesprochene Bemerkung (<bibl sameAs="203">
+                  <hi rend="antiqua">Nouveau Journal
+                            Asiat. T.</hi> IX. <hi rend="antiqua">p.</hi> 486</bibl>) schon jetzt
+                    etwas zu erinnern? Es scheint daß sich im Sanskrit allerdings einige Wörter
+                    finden, in welchen zwei Vocale unmittelbar auf einander folgen: mir sind deren
+                    bis jetzt zwei bekannt geworden, nämlich <foreign sameAs="sa" n="transEd">tita-u<graphic url="Rosen/Rosen-WvH_1833_01_22/0887.svg"/>
+               </foreign>,
+                        <hi rend="antiqua">
+                  <foreign sameAs="sa">tita-u</foreign>
+               </hi>, ein
+                    Korn-Sieb, (s. <bibl sameAs="616">
+                  <hi rend="antiqua">Wilson</hi> s. v.</bibl> und <bibl sameAs="554">
+                  <hi rend="antiqua">Amara Kosha pag.</hi> 218. <hi rend="antiqua">sloc.</hi>
+                        26.</bibl>), und <foreign sameAs="sa" n="transEd">pra-ugadevatā<graphic url="Rosen/Rosen-WvH_1833_01_22/0888.svg"/>
+               </foreign>, <hi rend="antiqua">
+                  <foreign sameAs="sa">pra-ugadévatá</foreign>
+               </hi>, die Bezeichnung einer
+                    gewissen Classe von Gottheiten, welche in den Scholien zum <bibl sameAs="357">Rig
+                        Veda</bibl> mehrmals vorkommt, über deren eigentliche Bedeutung ich aber
+                    noch nichts Befriedigendes habe auffinden können. – In Bezug auf eine andre
+                    Bemerkung (<bibl sameAs="203">a. a. O. <hi rend="antiqua">p.</hi> 497</bibl>)
+                    erlaube ich mir darauf aufmerksam zu machen, daß im Falle wo ein mit <foreign sameAs="sa" n="transEd">ṛ<graphic url="Rosen/Rosen-WvH_1833_01_22/0889.svg"/>
+               </foreign>
+               <hi rend="antiqua">rĭ</hi> anfangendes Wort auf ein mit <foreign sameAs="sa" n="transEd">r<graphic url="Rosen/Rosen-WvH_1833_01_22/0890.svg"/>
+               </foreign>
+               <hi rend="antiqua">r</hi> schließendes folgt, letzteres gewöhnlich (vielleicht
+                    immer – wenigstens erinnere ich mich keines Beispiels vom Gegentheil) dem
+                        <foreign sameAs="sa" n="transEd">ṛ<graphic url="Rosen/Rosen-WvH_1833_01_22/0889.svg"/>
+               </foreign> übergeschrieben
+                    wird, grade als ob dieser Vocal ein Consonant wäre, <foreign sameAs="sa" n="transEd">rṛ<graphic url="Rosen/Rosen-WvH_1833_01_22/0891.svg"/>
+               </foreign>. Der Grund hiervon ist wahr-<pb n="249v"/>scheinlich ein bloß
+                    kalligraphischer. Die Gestalt des Consonanten <foreign sameAs="sa" n="transEd">ra<graphic url="Rosen/Rosen-WvH_1833_01_22/0892.svg"/>
+               </foreign> bietet
+                    keinen passenden Punkt dar, wo sich das verkürzte <foreign sameAs="sa" n="transEd">ṛ<graphic url="Rosen/Rosen-WvH_1833_01_22/0893.svg"/>
+               </foreign>
+               <hi rend="antiqua">rĭ</hi> an ihn anschließen könnte: auch muß sich ja dieselbe
+                    schon gewissen Veränderungen unterwerfen um eine Verbindung mit dem kurzen oder
+                    langen <hi rend="antiqua">u</hi> einzugehen.</p>
+            <p>Die Hymnen-Sammlung des <bibl sameAs="357">Rig Veda</bibl> nimmt fortwährend meine
+                    Aufmerksamkeit vorzugsweise in Anspruch. Ich werde beim Studium derselben jetzt
+                    durch eine vortreffliche Handschrift aus der Sammlung der <persName ref="fchambers">Lady Chambers</persName> unterstützt. Wann ich es werde
+                    wagen dürfen, mit einer Herausgabe eines Theiles dieser Hymnen ans Licht zu
+                    treten, weiß ich freilich noch nicht. Doch hat die hiesige <orgName ref="18">
+                  <hi rend="antiqua">Oriental Translation Committee</hi>
+               </orgName> sich willig
+                    erklärt, die Kosten des Drucks einer Ausgabe des ersten Buches mit Uebersetzung
+                    und ausgewählten Scholien zu übernehmen. Ich möchte mich bei dieser Arbeit nicht
+                    gern übereilen. Die Sanskritische Litteratur hat jetzt so viele tüchtige
+                    Bearbeiter gewonnen, daß es in der That nur ein geringes und schnell
+                    vorübergehendes Verdienst ist, zufällig der erste gewesen zu seyn, der ein bis
+                    dahin ungedrucktes Werk ans Licht stellte. Man darf mit Recht schon
+                    beträchtliche Forderungen von Seiten der Kritik und der sorgfältigen Auslegung
+                    an jede neue Erscheinung auf diesem Gebiete machen.</p>
+            <p>
+               <pb n="250r"/> Mein Freund <persName ref="afstenzler">Stenzler</persName>,
+                    welcher sich Ew. Excellenz auf das Ehrerbietigste empfiehlt, ist mit der
+                    Bearbeitung des <hi rend="antiqua">Vrihad-Aranyaka</hi>, eines für die
+                    Vedanta-Lehre wichtigen Abschnittes des <bibl sameAs="466">Yadschur-Veda</bibl>,
+                        beschäftigt.<note type="footnote" resp="editor">Diese Übersetzung scheint
+                        nicht publiziert worden zu sein, obwohl sie in mehreren wissenschaftlichen
+                        Zeitschriften als in Vorbereitung genannt wurde; z.B. in <bibl sameAs="1069">
+                     <hi rend="italic">Micellaneous Translations from Oriental
+                                languages</hi>, Vol. 1, 1831, London: Printed for the Oriental Translation
+                            Fund</bibl>, S. 6 im Anhang. Wahrscheinlich kam <persName ref="afstenzler">Stenzler</persName> nach dem Wechsel nach <placeName ref="Breslau">Breslau</placeName> aufgrund seiner wirtschaftlich
+                        schwierigen Lage (s. <ref type="linkExt" target="http://www.deutsche-biographie.de/sfz34636.html">ADB 36,
+                            1893</ref>) nicht mehr zu einer Fertigstellung.</note> Er hat so eben
+                    die Nachricht von seiner Ernennung zum Professor bei der <orgName ref="66">Universität</orgName> zu <placeName ref="Breslau">Breslau</placeName>
+                    erhalten. Meine innige Freude über diese ehrenvolle Wahl, die keinem Tüchtigeren
+                    hätte zu Theil werden können, wird nur durch die Aussicht gemäßigt, nun bald
+                    einen so theilnehmenden Freund und einen so aufmunternden Gefährten meiner
+                    Studien verlieren zu müssen. –</p>
+            <p>Beachtenswerthe neue Werke über den Asiatischen Archipel oder die Inseln des
+                    Stillen Meeres sind mir nicht bekannt geworden. Ich habe mich ganz kürzlich bei
+                    einigen der hiesigen Missionare und Bibel-Gesellschaften nach etwanigen
+                    Fortschritten in der Sprachen-Kunde jener Inseln erkundigt. Aber neue
+                    Uebersetzungen der Bibel oder neue Vocabularien u. dgl. wenigstens wußte man mir
+                    nicht anzugeben. Ein Exemplar von dem letzten <bibl sameAs="1070">Jahresberichte</bibl> der <orgName ref="16">
+                  <hi rend="antiqua">London Mission Society</hi>
+               </orgName> sende ich
+                    gleichzeitig mit diesem Schreiben an Ew. Excellenz ab. Der
+                    Secretär<!-- = Rev. Andrew Brandram oder Rev. Joseph Hughes?; vgl. Report von 1833-->
+                    der <orgName ref="17">
+                  <hi rend="antiqua">British and Foreign Bible Society</hi>
+               </orgName> hat mir
+                    versprochen, mich davon zu unterrichten, wenn ihm irgend etwas Neues über die
+                    Sprachen der Südsee-Inseln bekannt wird. – <sic>
+                  <persName ref="jhowse">Herr <hi rend="antiqua">House</hi>
+                  </persName>
+               </sic>, der wenn ich <pb n="250v"/> nicht irre Ew. Excellenz persönlich bekannt
+                    ist, hat so eben eine allem Anschein nach gründliche <bibl sameAs="711">Arbeit
+                        über die <hi rend="antiqua">Kri</hi> Sprache</bibl> handschriftlich der
+                        <orgName ref="59">philologischen Gesellschaft</orgName> der hiesigen
+                        <orgName ref="65">Universität</orgName>, deren Mitglied ich noch bin,
+                    vorgelegt. Ich hoffe recht bald im Stande zu seyn, einen detaillirten Bericht
+                    über diese Arbeit verfertigen und an Ew. Excellenz einsenden zu können.</p>
+            <p>Der Missionar <persName ref="bclough">
+                  <hi rend="antiqua">Clough</hi>
+               </persName> aus <placeName ref="Ceylon">Ceylon</placeName> ist gegenwärtig hier. Er sagte mir schon vor mehreren
+                    Wochen, daß er willens sei, einige Exemplare seiner <bibl sameAs="89">Pali
+                        Grammatik</bibl> bei den Buchhändlern der <orgName ref="11">Ostindischen
+                        Compagnie</orgName> niederzulegen. Ich habe mich seitdem mehrmals danach
+                    erkundigt, aber noch kein Exemplar des Buches erhalten können. Bis jetzt war
+                    dasselbe nicht in den Buchhandel gekommen, weil <persName ref="bclough">H. <hi rend="antiqua">Clough</hi>
+               </persName> wegen einiger wesentlichen
+                    Irrthümer in dem Abschnitte vom Verbum die ganze Auflage zu vernichten
+                    beabsichtigte.</p>
+            <closer>
+               <salute>Mit der wiederholten Bitte um Ihre gütige Nachsicht wegen meines langen
+                        Schweigens, wage ich es mich der Fortdauer Ihrer wohlwollenden Theilnahme
+                        ehrerbietigst zu empfehlen, als <lb/>Ew. Excellenz <lb/>gehorsamster
+                        Diener</salute>
+               <signed>F. Rosen.</signed>
+               <lb/>
+               <dateline>London, den 22<hi rend="superscript">sten</hi> Januar.
+                        1833.</dateline>
+               <lb/>
+               <pb n="251r/v vacat"/>
+            </closer>
+         </div>
+         <div type="appendix">
+            <p>
+               <pb n="245r"/>
+               <handShift scribe="Schreiber1"/> Zweites verbessertes
+                    Verzeichniß</p>
+            <p>
+               <handShift scribe="farosen"/> <hi rend="antiqua">Javanische
+                    Handschriften.</hi>
+            </p>
+            <table cols="2" rows="47">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Die Titel nach dem überschickten
+                                    Verzeichniß.</hi>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">
+                        <hi rend="underline">Varianten und Zusätze aus den MSS.
+                                selbst</hi>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 1. <hi rend="antiqua">Urut kanda.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">„Historical account from the earliest times to the
+                                time of Panji and to the establishment of Matarem.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 2. <hi rend="antiqua">Jaya langkara Mendang Kamulan.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 3. <hi rend="antiqua">Watu gunung and Paja jaran.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 4. <hi rend="antiqua">Babad Mataram and Kurta sura.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 5. <hi rend="antiqua">Rama Kawi.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 6. <hi rend="antiqua">Niti sastra Kawi and Panji Angreni.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 7. <hi rend="antiqua">Prang China.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">„History of the war between the Chinese and Dutch on
+                                the Island of Java.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 8. <hi rend="antiqua">Babat Maja pait.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">„Historical account from the earliest times to the
+                                establishment of Matarem.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 9. <hi rend="antiqua">(Not delivered.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 10. <hi rend="antiqua">Panji Jaya Kesuma.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschrift hat: „Panji Joyo Kasumo from Buntum,
+                                imperfect.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 11. <hi rend="antiqua">Brata yudha, Niti sastra and <hi rend="underline">Yalak Budhakawi</hi>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr.: „Falak Budha, Kawi.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="245v"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 12. <hi rend="antiqua">
+                        <hi rend="underline">Iugul</hi> Muda.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „Jugul.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 13. <hi rend="antiqua">Panji Angreni.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 14. <hi rend="antiqua">Siwaka Niti <hi rend="underline">priya</hi>,
+                                and Surti.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „praja.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 15. <hi rend="antiqua">Brata yuda <hi rend="underline">Jawa</hi>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „Jarwa.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 16. <hi rend="antiqua">(See the end.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 17. <hi rend="antiqua">Rangganis or Iman Swangsa.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">„Historie der Oorlog van de Chinasche Punas togen
+                                Java, item van de Negory Madaying in de Mataram
+                            gelegen.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 18. <hi rend="antiqua">
+                        <hi rend="underline">Babud</hi> Paku Nagara.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr. „Babad.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 19. <hi rend="antiqua">Watu Gunung and Babad Mataram.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Auf dem Einbande mit der Ziffer I
+                            bezeichnet.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 20. <hi rend="antiqua">Babad Mataram.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Auf dem Einbande mit II bezeichnet.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 21. <hi rend="antiqua">Jaya lang kara</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „Jayo Langkoro.“ <lb/>„Written on the
+                                faith (?) &amp;c. of the Mohammedan religion.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 22. <hi rend="antiqua">
+                        <hi rend="underline">Rama</hi> Kawi.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">In der Handschr. „Romo.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 23. <hi rend="antiqua">Wayang Purwa</hi>.</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 24. <hi rend="antiqua">Dewa Mandu.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">In der Handschr. „Brama Raja, of Indrapura – Account
+                                of a war &lt;&amp;c.&gt; anterior to Rama.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 25. <hi rend="antiqua">Wayang Gedog.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 26. <hi rend="antiqua">Babat Mataram.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="246r"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 27. <hi rend="antiqua">
+                        <hi rend="underline">Niti Praja Kawi</hi>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „Niti Projo in Kawi.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 28. <hi rend="antiqua">Raja Sekandar.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 29. <hi rend="antiqua">
+                        <hi rend="underline">Patik</hi> Gajah Mada.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr: „Patih.“ Auf dem zweiten Blatte: „The
+                                Gaja Mada (Pepati of Majapahit) by Begavan Sukarti, a Pandit usually
+                                called Jogol Mudu.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 30. <hi rend="antiqua">Panji nara wangsa.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 31. <hi rend="antiqua">
+                        <hi rend="underline">Brata yuda Kawi</hi>.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschrift: „Brata Yuda in Kawi.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 32. <hi rend="antiqua">(See the end.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 33. <hi rend="antiqua">Suria Alam.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">In der Handschrift: „Soerio Allam Ton-Waereld of
+                                Versammeling van Wetten door differente Javasche Vorsten en andere
+                                Gevote gegeven.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 34. <hi rend="antiqua">Damar Wulan.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">In der Handschrift: „Damar Wulan Regent of
+                                Majapahit.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 35. <hi rend="antiqua">Mendang Kamulan.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">„Juya Lungkoro (of Mendang Kamulan) Institutions.“
+                                    <hi rend="underline">MS.</hi>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 36. <hi rend="antiqua">
+                        <hi rend="underline">Jugal</hi> Muda and Raja Kapa Kapa.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">In der Handschr. „Jugul“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 37. <hi rend="antiqua">Babad Pajeng or Mataram.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 38. <hi rend="antiqua">(See the end.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 39. <hi rend="antiqua">Jaya <hi rend="underline">lang kara.</hi>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschr. „langkara.“</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 40. <hi rend="antiqua">Repin Bramara.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="246v"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 41. <hi rend="antiqua">(See the end.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 42. <hi rend="antiqua">(See the end.)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 43. <hi rend="antiqua">Suria Alam.</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 44. <hi rend="antiqua">(See the end)</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 45. <hi rend="antiqua">Siwaka and Surti</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell> 46. <hi rend="antiqua">Sujara Sumenap</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Die Handschrift hat auf der ersten Seite: „Sejara
+                                Sumanap, down to Tumunjun Tirta Nagore.“ Auf dem zweiten Blatte:
+                                „Sajarah Sumenap.“</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <hi rend="antiqua">Vocabularies.</hi>
+            </p>
+            <table cols="2" rows="5">
+               <row>
+                  <cell> 16. </cell>
+                  <cell>
+                     <hi rend="antiqua">Vocabulary of the Sumenap and Bugis
+                            languages.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 32. </cell>
+                  <cell>
+                     <hi rend="antiqua">Dictionary of Malay English and Javanese.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 41. </cell>
+                  <cell>
+                     <hi rend="antiqua">Vocabulary of the Javanese and Sunda
+                            languages.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 42. </cell>
+                  <cell>
+                     <hi rend="antiqua">It. of Bali</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 44. </cell>
+                  <cell>
+                     <hi rend="antiqua">It. of Malay and Madurese.</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <pb n="247r"/>
+               <handShift scribe="Schreiber1"/> Zuerst überschicktes
+                    Verzeichniß</p>
+            <p>
+               <handShift scribe="Schreiber2"/> <hi rend="antiqua">A List of Malayan, Javanese
+                        and other Manuscripts, collected by the late <persName ref="tsraffles">Sir
+                            Thomas Stamford Raffles</persName>, Knt. F. R. S. &amp;c. and presented
+                        to the <orgName ref="14">Royal Asiatic Society</orgName> by his widow,
+                            <persName ref="sraffles">Lady Raffles</persName>.</hi>
+            </p>
+            <table cols="2" rows="75">
+               <row>
+                  <cell>
+                     <hi rend="antiqua">No.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Malayan:</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Hangtuah</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2</cell>
+                  <cell>
+                     <hi rend="antiqua">Pandawa Jaya</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>3</cell>
+                  <cell>
+                     <hi rend="antiqua">Rangga Aria Kuda nastep</hi>o</cell>
+               </row>
+               <row>
+                  <cell>4</cell>
+                  <cell>
+                     <hi rend="antiqua">Bayan budiman</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>5</cell>
+                  <cell>
+                     <hi rend="antiqua">Damar Wulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>6</cell>
+                  <cell>
+                     <hi rend="antiqua">Sha-arul kamar</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>7</cell>
+                  <cell>
+                     <hi rend="antiqua">Sha-ir Bida sari, Kintambuhan Endong dalima
+                                Ikantambra</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>8</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan Salatin</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>9</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Putra</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>10</cell>
+                  <cell>
+                     <hi rend="antiqua">Perjanjian Keraying Gua, dangan Kumpni
+                            Balandan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>11</cell>
+                  <cell>
+                     <hi rend="antiqua">Damar Wulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>12</cell>
+                  <cell>
+                     <hi rend="antiqua">Maha Raja Brama Shahedan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>13</cell>
+                  <cell>
+                     <hi rend="antiqua">Endang malat rasmi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>14</cell>
+                  <cell>
+                     <hi rend="antiqua">Charang kurina</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>15</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Buma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>16</cell>
+                  <cell>
+                     <hi rend="antiqua">Asma yatim</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>17</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan Salatin</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>18</cell>
+                  <cell>
+                     <hi rend="antiqua">Chaita Rajaraja or Salasela Malayir</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>19 &amp; 20</cell>
+                  <cell>
+                     <hi rend="antiqua">Dalang pangada Asmana 2 vols. folio.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>21</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Pandawa Lima</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>22</cell>
+                  <cell>
+                     <hi rend="antiqua">Sri Rama</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>23</cell>
+                  <cell>
+                     <hi rend="antiqua">Chikel waning Pati</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>24/25</cell>
+                  <cell>
+                     <hi rend="antiqua">Salasela Rajaraja di Tanah Jawa 2 vols.
+                            folio</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <subst>
+                        <del>25</del>
+                        <add>26</add>
+                     </subst>
+                  </cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayet Panjiwila Kesuma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>27/28</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Dalang Indra Kesuma 2 vols. folio</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>29</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Naga Bersru</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>30</cell>
+                  <cell>
+                     <hi rend="antiqua">Salasela Chinchon</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>31</cell>
+                  <cell>
+                     <hi rend="antiqua">Shah Khobe</hi>t</cell>
+               </row>
+               <row>
+                  <cell>32 @ 34</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang 3 vol folio</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>35</cell>
+                  <cell>
+                     <hi rend="antiqua">Sajara Malaya, or Hikayet Malaya</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>36</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair Bida sari</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>37</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Putra</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>38</cell>
+                  <cell>
+                     <hi rend="antiqua">Kalila dan Damin</hi>a</cell>
+               </row>
+               <row>
+                  <cell>39</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Malaya</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>40</cell>
+                  <cell>
+                     <hi rend="antiqua">Raden misa lara kesuma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>41</cell>
+                  <cell>
+                     <hi rend="antiqua">Wukon Jawa di pindah pada basa Malaya</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>42</cell>
+                  <cell>
+                     <hi rend="antiqua">Makuta sagala Rajaraja</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>43</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Pangeran kesuma Agung</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>44</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat chabut Tunggul</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>45</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat chikel waning Pati</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>46</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Dewa Mandu</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>47</cell>
+                  <cell>
+                     <hi rend="antiqua">Mas Indra dina kesuma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="247v"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell>48</cell>
+                  <cell>
+                     <hi rend="antiqua">Makhtasar Altauhed</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>49</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair karangan Bantan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>50</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Tamin Aledri</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>51</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Dalang pudah Asmana</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>52</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Raja Babi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>53</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Angkasa Diwa Shair Ajar Anak Shair
+                            Skan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>54</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Aharnut bisnu</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>55</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Putra</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>56</cell>
+                  <cell>
+                     <hi rend="antiqua">Badiul Laman Anak Hamza</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>57</cell>
+                  <cell>
+                     <hi rend="antiqua">Indra Layangan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>58</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Rajah Shahjohan and Johar manteem</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>59</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Kalila dan Damina</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>60</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Indra Jaya</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>61</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Shams Burian</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>62</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Asma yatim and Nobi ber chukor</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>63</cell>
+                  <cell>
+                     <hi rend="antiqua">Raja Adil</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>64</cell>
+                  <cell>
+                     <hi rend="antiqua">Kitab Tajul salatin</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>65</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair Angreni</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>66</cell>
+                  <cell>
+                     <hi rend="antiqua">Raja Shah Mudin</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>67</cell>
+                  <cell>
+                     <hi rend="antiqua">Hikayat Raja Pasai</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>68</cell>
+                  <cell>
+                     <hi rend="antiqua">Sajara Malayu</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>69</cell>
+                  <cell>
+                     <hi rend="antiqua">Akal Kepada Orang besar besar</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>70</cell>
+                  <cell>
+                     <hi rend="antiqua">Bustan Aripin</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>71</cell>
+                  <cell>
+                     <hi rend="antiqua">Gelila Demina</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>72</cell>
+                  <cell>
+                     <hi rend="antiqua">Gelila Demina</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>73</cell>
+                  <cell>
+                     <hi rend="antiqua">Bayan budiman</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>74 &amp; 75</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>76</cell>
+                  <cell>
+                     <hi rend="antiqua">Cherita salasela</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>77</cell>
+                  <cell>
+                     <hi rend="antiqua">Undang undang</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>78</cell>
+                  <cell>
+                     <hi rend="antiqua">Shair Prang Batawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>79</cell>
+                  <cell>
+                     <hi rend="antiqua">Sajarah Malayu</hi>
+                  </cell>
+               </row>
+            </table>
+            <table cols="2" rows="48">
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="antiqua">Javanese</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1</cell>
+                  <cell>
+                     <hi rend="antiqua">Urut kanda</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2</cell>
+                  <cell>
+                     <hi rend="antiqua">Jaya lang kara Mendang kamulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>3</cell>
+                  <cell>
+                     <hi rend="antiqua">Watu gunung and Paja jaran</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>4</cell>
+                  <cell>
+                     <hi rend="antiqua">Babad Mataram and Kurta sura</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>5</cell>
+                  <cell>
+                     <hi rend="antiqua">Rama Kawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>6</cell>
+                  <cell>
+                     <hi rend="antiqua">Niti Sastra kawi and Panji Angreni</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>7</cell>
+                  <cell>
+                     <hi rend="antiqua">Prang China</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>8</cell>
+                  <cell>
+                     <subst>
+                        <del>
+                           <hi rend="antiqua">Babit</hi>
+                        </del>
+                        <add>
+                           <hi rend="antiqua">Babat</hi>
+                        </add>
+                     </subst> <hi rend="antiqua">Maja pait</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>9</cell>
+                  <cell>
+                     <hi rend="antiqua">not del.<hi rend="superscript">d</hi>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>10</cell>
+                  <cell>
+                     <hi rend="antiqua">Panji Jaya kesuma</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>11</cell>
+                  <cell>
+                     <hi rend="antiqua">Brata yudha, Niti Sastra and Falak
+                            Budhakawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>12</cell>
+                  <cell>
+                     <hi rend="antiqua">Jugul Muda</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>13</cell>
+                  <cell>
+                     <hi rend="antiqua">Panji Angreni</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>14</cell>
+                  <cell>
+                     <hi rend="antiqua">Siwaka Niti priya, and Surti</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>15</cell>
+                  <cell>
+                     <hi rend="antiqua">Brata yuda Jawa</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>16</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>17</cell>
+                  <cell>
+                     <hi rend="antiqua">Rangganis or Iman Swangsa</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>18</cell>
+                  <cell>
+                     <hi rend="antiqua">Babud Paku Nagara</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>19</cell>
+                  <cell>
+                     <hi rend="antiqua">Watu Gunung and Babad Mataram</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>20</cell>
+                  <cell>
+                     <hi rend="antiqua">Babad Mataram</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>21</cell>
+                  <cell>
+                     <hi rend="antiqua">Jaya lang Kara</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>22</cell>
+                  <cell>
+                     <hi rend="antiqua">Rama Kawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <pb n="248r"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell>23</cell>
+                  <cell>
+                     <hi rend="antiqua">Wayang Purwa</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>24</cell>
+                  <cell>
+                     <hi rend="antiqua">Dewa Mandu</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>25</cell>
+                  <cell>
+                     <hi rend="antiqua">Wayang Gedog</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>26</cell>
+                  <cell>
+                     <hi rend="antiqua">Babat Mataram</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>27</cell>
+                  <cell>
+                     <hi rend="antiqua">Niti Praja Kawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>28</cell>
+                  <cell>
+                     <hi rend="antiqua">Raja Sekandar</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>29</cell>
+                  <cell>
+                     <hi rend="antiqua">Patik Gajah Mada</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>30</cell>
+                  <cell>
+                     <hi rend="antiqua">Panji nara wangsa</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>31</cell>
+                  <cell>
+                     <hi rend="antiqua">Brata yuda kawi</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>32</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>33</cell>
+                  <cell>
+                     <hi rend="antiqua">Suria Alam</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>34</cell>
+                  <cell>
+                     <hi rend="antiqua">Damar Wulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>35</cell>
+                  <cell>
+                     <hi rend="antiqua">Mendang kamulan</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>36</cell>
+                  <cell>
+                     <hi rend="antiqua">Jugal Muda and Raja kapa kapa</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>37</cell>
+                  <cell>
+                     <hi rend="antiqua">Babad Pajeng or Mataram</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>38</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>39</cell>
+                  <cell>
+                     <hi rend="antiqua">Jaya lang kara</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>40</cell>
+                  <cell>
+                     <hi rend="antiqua">Repin Bramara</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>41</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>42</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>43</cell>
+                  <cell>
+                     <hi rend="antiqua">Suria Alam</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>44</cell>
+                  <cell>
+                     <hi rend="antiqua">See the end</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>45</cell>
+                  <cell>
+                     <hi rend="antiqua">Srivaka and Surti</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>46</cell>
+                  <cell>
+                     <hi rend="antiqua">Sujara Sumenap</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <hi rend="antiqua">Vocabularies &amp;c.</hi>
+            </p>
+            <table cols="2" rows="5">
+               <row>
+                  <cell>16</cell>
+                  <cell>
+                     <hi rend="antiqua">Vocabulary ot the Sumenap and Bugis
+                            languages</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>32</cell>
+                  <cell>
+                     <hi rend="antiqua">Dictionary of Malay, English, and
+                            Javanese</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>41</cell>
+                  <cell>
+                     <hi rend="antiqua">Vocabulary of the Javanese and Sunda
+                            languages</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>42</cell>
+                  <cell>
+                     <hi rend="antiqua">It. of Bali</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>44</cell>
+                  <cell>
+                     <hi rend="antiqua">It. of Malay and Madurese</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>
+               <pb n="248v"/>
+               <hi rend="antiqua">List of <lb/>
+                  <persName ref="tsraffles">Sir T S Raffles</persName>’s <lb/>Collection of
+                        <lb/>Malayan and Javanese <lb/>Manuscripts and <lb/>Vocabularies, now
+                        <lb/>in the Library <lb/>of the <lb/>
+                  <orgName ref="14">Royal Asiatic Society</orgName>
+               </hi>
+            </p>
+            <closer>
+               <address>
+                  <addrLine>
+                     <hi rend="antiqua">H. E.</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">B.<hi rend="superscript">n</hi> W. de
+                            Humboldt</hi>
+                  </addrLine>
+                  <addrLine>&amp; &amp; &amp;</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

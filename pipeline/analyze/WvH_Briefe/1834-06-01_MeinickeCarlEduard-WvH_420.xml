@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von CL, 21.01.2015 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 01.06.1834<idno type="BBAW">420</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 190–191</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 223</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="buhari">
+                  <persName>Buḩāri di-Ǵûhur</persName>
+               </person>
+               <person corresp="wmarsden">
+                  <persName>Marsden, William</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1042">Buḩāri di-Ǵûhur: Bahwa ini kitab Tadjoe's Salatin, ja-itoe Makoeta
+                    sěgala radja-radja (Samarang: van Dorp 1866)</bibl>
+               <bibl corresp="715">Marsden, William: Miscellaneous works (London: Padbury, Allen &amp;
+                    Co. 1834)</bibl>
+               <bibl corresp="904">Meinicke, Carl Eduard: Memoirs of the life and public service of
+                    Sir Thom. Stamford Raffles particularly in the government of Java from 1811 to
+                    1816 and of Bencoolen and its dependencies from 1817 to 1824 with details of the
+                    commerce and ressources of the eastern archipelago and selections from his
+                    correspondence, by his Widow. London, 1830. 4. In: Jahrbücher für
+                    wissenschaftliche Kritik, Jahrgang 1834, 2. Band, Juli, S. 102–104 (Berlin:
+                    Duncker &amp; Humblot 1834)</bibl>
+               <bibl corresp="903">Meinicke, Carl Eduard: Miscellaneous works of Will. Marsden.
+                    London. 1934. 4. In: Jahrbücher für wissenschaftliche Kritik, Jahrgang 1834, 2.
+                    Band, Juli, S. 63 (Berlin: Duncker &amp; Humblot 1834)</bibl>
+               <bibl corresp="350">Raffles, Sophia: Memoir of the Life and Public Services of Sir
+                    Thomas Stamford Raffles (London: John Murray 1830)</bibl>
+               <bibl corresp="582">Sozietät für wissenschaftliche Kritik (Hg.): Jahrbücher für
+                    wissenschaftliche Kritik (Berlin [u.a.]: 1827–1846)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Exzellenz erlaube ich mir endlich, zugleich
+                        mit dem innigsten Danke das Werk von Marsden wieder zuzustellen …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cemeinicke">Meinicke, Carl Eduard</persName>
+               <date type="author" when="1834-06-01"/>
+               <placeName key="Prenzlau">Prenzlau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="917" type="next">04.06.1834</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="cemeinicke">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="ms">Malayisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">21. Januar 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Meinicke/Meinicke-WvH_1934-06-01/Coll.ling.fol.53_381.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1934-06-01/Coll.ling.fol.53_382.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1934-06-01/Coll.ling.fol.53_383.jpg"/>
+      <graphic url="Meinicke/Meinicke-WvH_1934-06-01/Coll.ling.fol.53_384.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="190r"/>
+               <salute>Ew. Excellenz</salute>
+            </opener>
+            <p>erlaube ich mir endlich, zugleich mit dem innigsten Danke das <bibl sameAs="715">Werk</bibl> von <hi rend="antiqua">Marsden</hi> wieder zuzustellen. Einen
+                        <bibl sameAs="903">Bericht</bibl> darüber für die <bibl sameAs="582">kritischen
+                        Jahrbücher</bibl> werde ich in wenigen Tagen nach <placeName ref="Berlin">Berlin</placeName> absenden. Leider kann ich nicht günstiger darüber
+                    urtheilen, <add>als</add> daß die ganze Arbeit mir verfehlt erscheint, denn nur
+                    so kann ich eine Untersuchung bezeichnen, die das, was am Ende bewiesen werden
+                    soll, bereits im Anfang voraussetzt. Interessant ist es, daß <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi>, noch viel
+                            <subst>
+                  <del>öfter,</del>
+                  <add>öfter</add>
+               </subst> als wo er es
+                    ausdrücklich sagt, Quellen besitzen muß, die, als ungedruckt, uns unzugänglich
+                    sind; (manches Gedruckte aber hat er übersehen,) allein selbst ausgerüstet mit
+                    allem, was das gesammte Europa darüber weiß, scheint es mir unmöglich, für jetzt
+                    zu unterscheiden, welche Sprache Malaiisch, welche Negrito sei, wenn dies
+                    überhaupt je möglich sein sollte. Ich bin nicht der Einzige, der mit großem
+                    Verlangen Ew. Excellenz Entscheidung darüber entgegensieht.</p>
+            <p>Außerdem werden Ew. Excellenz gleichzeitig in den <bibl sameAs="582">Jahrbüchern</bibl> eine kurze <bibl sameAs="904">Anzeige</bibl> von <hi rend="antiqua">
+                  <persName ref="tsraffles">Raffles</persName> <bibl sameAs="350">Memoirs</bibl>
+               </hi> finden, in der ich versucht habe, meine
+                    Ansicht über <persName ref="tsraffles">diesen Mann</persName> niederzulegen, so
+                    gut dies bei der mir auferlegten Beschränkung möglich war. Daher besorge ich,
+                    daß manches darin bloß Andeutung geblieben ist.</p>
+            <p>Ich werde mich jetzt zu der interessanten Untersuchung über das Malaiische <hi rend="antiqua">de</hi>, mit der Ew. Excellenz mich so gütig beehrt
+                        haben,<note type="footnote" resp="editor">Siehe Humboldts <ref type="link" target="914">Brief vom 16.02.1834.</ref>
+               </note> und der ich, wie ich
+                    schon früher mich äußerte, in aller Beziehung beipflichten muß. Ich selbst
+                    hatte, als ich zuerst die Entwickelung dieses Punctes versuchte, sehr
+                    fehlgegriffen, verführt durch die unläugbare Verbindung zwischen der
+                    Verbalpartikel und der Präposition; ich hatte aber, wahrscheinlich durch das
+                    französische <hi rend="antiqua">
+                  <foreign sameAs="fr">en</foreign>
+               </hi>
+                    verleitet, alles aus der letzten zu erklären versucht, und war darüber in
+                    unauflösbare Schwierigkeiten verwickelt worden. Dabei war mir <pb n="190v"/> das
+                    Verhältniß des possessiven <hi rend="antiqua">
+                  <foreign sameAs="ms">nia</foreign>
+               </hi>, zumal da <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi> jederzeit wie beiläufig vor der
+                    Verbindung zwischen den personalen und possessiven Pronominen endet, nicht klar
+                    hervorgetreten, und die Stelle <hi rend="antiqua">p</hi>. 100, die auf das
+                    richtige hinführen muß, hatte ich früher gar nicht beachtet.</p>
+            <p>Dennoch bleibt mir noch Einiges auffallend. Das Beispiel p 84 Z. 9 v. u. erklären
+                    Ew. Excellenz gewiß richtig so, daß <hi rend="antiqua">
+                  <foreign sameAs="ms">ōrang</foreign>
+               </hi> Genetiv sei, allein das diesem entsprechende p 60
+                    Z. 8. v. u. würde ich auch so erklären, daß von <hi rend="antiqua">
+                  <foreign sameAs="ms">terima</foreign>
+               </hi> zwei Genetiven in verschiedenem
+                    Grade <sic>abhangig</sic> gemacht seien; nämlich: Nicht ist Gottes Annahme
+                    seiner Fasten. Denn zwischen dem <hi rend="antiqua">
+                  <foreign sameAs="ms">nia</foreign>
+               </hi> in <hi rend="antiqua">
+                  <foreign sameAs="ms">tañgkap-nia</foreign>
+               </hi> und <hi rend="antiqua">
+                    allah</hi>
+               <!-- Sprache? --> im letzten Beispiel scheint mir kein syntaktischer
+                    Unterschied zu sein. Dann braucht man nicht anzunehmen, daß <hi rend="antiqua">
+                  <foreign sameAs="ms">puasa-nia</foreign>
+               </hi> Accusativ sei, und
+                    rettet die Consequenz der Malaiischen Grammatik. Daß man dafür auch eben so gut
+                        <hi rend="antiqua">
+                  <foreign sameAs="ms">puasa nia de terima
+                            allah</foreign>
+               </hi> sagen könnte, wäre möglich; allein ich finde bei
+                        <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi> zwar
+                    Beispiele, daß Pronomina als Subjecte (im Malaiischen Sinn) vor dem <hi rend="antiqua">de</hi> stehen, allein kein reines Nomen, außer solche, wie
+                    S. 60 Z. 5 v. u., wo <hi rend="antiqua">
+                  <foreign sameAs="ms">arta
+                            amba</foreign>
+               </hi> steht, und wo mir auch nur das Pronomen <hi rend="antiqua">
+                  <foreign sameAs="ms">amba</foreign>
+               </hi> diese Abweichung
+                    hervorgebracht zu haben scheint. Für diese Stellung ist das Beispiel S 84 Z. 6
+                    u. 7 v. u. sehr lehrreich. Daraus würde folgen, daß das Subject (nach
+                    malaiischer und auch nach europäischer, nämlich passiver, Construction), wenn es
+                    Pronomen ist, vor <hi rend="antiqua">de</hi> stehen kann, wenn es Nomen ist,
+                    hinten stehen muß (als Genetiv), mit Ausnahme solcher Nomina, die mit
+                    Possessivpronomen verbunden sind. Dies genauer zu untersuchen, habe ich jetzt
+                    einige Seiten in dem Werke des <hi rend="antiqua">
+                  <persName ref="buhari">Bochari</persName>
+               </hi>, <hi rend="antiqua">
+                  <bibl sameAs="1042">Makuta
+                            segala rajah rajah</bibl>
+               </hi>
+               <note type="footnote" resp="editor">Bei
+                        dem genannten Werk müsste es sich um die malaiisch-niederländische Ausgabe
+                        von Roorda van Eysinga aus dem Jahr 1827 handeln. Dieser Band befand sich auch im Besitz von
+                        Wilhelm von Humboldt: Schwarz 1993, S. 42. 44 Nr. 317, mit Abb. des
+                        Titelblattes auf S. 43. Siehe zum Überlieferungsstand Anfang der 1830er-Jahre
+                        den Artikel von Eugène Jacquet (1832): Mélanges Malays, Javanais et
+                        Polynésiens, No. II. Bibliothèque Malaye. In: <hi rend="italic">Nouveau
+                            Journal Asiatique</hi> 9, Février, S. 105f. Nr. 9. [FZ]</note>, das ich
+                    besitze, soweit es mir ohne Lexikon verständlich sein konnte, gelesen, allein zu
+                    meiner großen Verwunderung gefunden, daß darin jene Constructionsart nur sehr
+                    selten erscheint; nämlich auf 4 Quartseiten nur zweimal, und das stets in
+                    Versen, allein auch immer in Beispielen, die den bei <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>
+               </hi> ganz analog waren.</p>
+            <p>Ich muß besorgen, daß diese Bemerkungen Ew. Excellenz gar geringfügig erscheinen,
+                    dennoch sind sie für mich wichtig, da sie mit einem viel bedeutenderen Puncte
+                    genau zusammenhangen. Ew. Excellenz sagen nämlich, nachdem Sie bemerkt haben,
+                    daß <hi rend="antiqua">
+                  <foreign sameAs="">puasania</foreign>
+               </hi>
+               <!-- Sprache? --> im obigen Beispiele Accusativ sei:
+                    „Wenn Völker in ihren Sprachen den Weg der richtigen Formerfindung verfehlen, so
+                    leitet sie doch ein undeutliches Gefühl dahin, die von ihnen an die Stelle der
+                    wahren Formen gesetzten Surrogate den ersteren so nahe als möglich zu bringen.“
+                    Ich muß offenherzig gestehen, daß diese Worte, als eine Erklärung der
+                    Differenzen zwischen der malaiischen und etwa den europäischen Grammatiken,
+                        <add>mir</add> in hohem Maaße auffielen, ohne Zweifel deshalb, weil ich den
+                    Satz mit einer Reihe von Ansichten, an die ich mich bereits gewöhnt hatte, nicht
+                    zu vereinigen vermochte. Um kurz zu sein, so hat das Studium von <hi rend="antiqua">
+                  <persName ref="wmarsden">Marsden</persName>s</hi> <bibl sameAs="699">Grammatik</bibl> ein höchst trübes Gefühl in mir erregt; ich sehe
+                    im Malaiischen allenthalben eine Zerstörung und Vernichtung, wie ich nur eine
+                    entfernte Analogie davon im Wesen des Neugrie-<pb n="191r"/>chischen finde. Mir
+                    erscheint diese Sprache <del>als</del>, wie etwa eine elende Hütte erscheinen
+                    würde, welche schiffbrüchige Matrosen aus den Brettern ihres stattlichen
+                    Schiffes gebaut haben, sich vor Wind und Wetter zu schützen. Abweichungen also
+                    von Grundregeln einer allgemeinen Grammatik, wie dies <hi rend="antiqua">de</hi>
+                    vielleicht auch sein möchte, glaubte ich dabei erklären zu müssen, als schwache
+                    Versuche, zu denen die Noth das Volk trieb, genügendere Mittel, die im Sturme
+                    der Zeiten verloren gegangen seien, zu ersetzen. Und sollte ich mich daran
+                    irren, sollte dergleichen vielmehr in einem ursprünglichen Fehlgreifen des
+                    Volkes in der Bildung seiner Sprache seinen ersten Grund haben, so würde mich
+                    das gar sehr schmerzen. Ich habe nämlich aus jener Ansicht von der Malaiischen
+                    Sprache, und ich glaube mit Recht, weiter geschlossen auf ein sehr bewegtes
+                    Leben, welches das Volk durchlebt haben muß, ehe es zu der tiefsten Erniedrigung
+                    gekommen ist, in der es uns allein bekannt geworden ist; es konnte für mich
+                    keinen besseren Beweis geben, daß das Malaiische Volk viel älter und berühmter
+                    ist, als es jetzt selbst glaubt, und ich war manchmal nicht sehr fern davon,
+                    nach Analogie des
+                            <subst>
+                  <del>Neugriechischen,</del>
+                  <add>Neugriechischen</add>
+               </subst>
+                    auf einen Zustand zu schließen, der dem der alten Griechen unfern sein möchte,
+                    ein Schluß, der nach der Vergleichung
+                        <subst>
+                  <del>von</del>
+                  <add>des</add>
+               </subst> jetzigen Zustandes von
+                        <placeName ref="Java">Java</placeName> mit demjenigen, welchen die Sage uns
+                    dort kennen lehrt, nicht zu gewagt scheinen möchte.</p>
+            <p>Indem ich hier diese Bemerkungen abbreche, denen ich bei Ew. Excellenz wohl sehr
+                    ein geneigtes Gehör wünsche, nehme ich mir die Freiheit, Ew. Excellenz mit einer
+                    Anfrage zu behelligen, die mich allein betrifft. Privatangelegenheiten nöthigen
+                    mich, im Laufe dieses Jahres nach <placeName ref="Berlin">Berlin</placeName> zu
+                    kommen; ich werde dies aber jedenfalls so einrichten, daß ich zugleich
+                    Gelegenheit habe, Ew. Excellenz meine Aufwartung zu machen. Und deshalb bin ich
+                    so frei, Ew. Excellenz um gefällige Nachricht zu bitten, ob Sie vielleicht am
+                    Ende des Juli noch in <placeName ref="Tegel">Tegel</placeName> sich befinden
+                    sollten, oder etwa in ein Bad reisen würden. Im letzten Falle werde ich erst im
+                    Herbste nach <placeName ref="Berlin">Berlin</placeName> kommen.</p>
+            <closer>
+               <salute>Indem ich endlich noch die Versicherung meiner unveränderlichen
+                        Hochachtung und Verehrung hinzufüge, unterzeichne ich mich <lb/>Ew.
+                        Excellenz <lb/>ganz ergebenster</salute>
+               <signed>
+                  <hi rend="antiqua">Meinicke</hi>
+               </signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Prenzlau</hi>
+                        den 1sten Juni 1834.</dateline>
+               <lb/>
+               <lb/>
+               <pb n="191v"/>
+               <address>
+                  <addrLine>S. Excellenz</addrLine>
+                  <addrLine>dem Herrn Staatsminister Freiherrn <hi rend="antiqua">W. v.
+                                Humboldt</hi>
+                  </addrLine>
+                  <addrLine>
+                     <hi rend="antiqua">
+                        <placeName ref="Berlin">Berlin</placeName>
+                     </hi>
+                  </addrLine>
+               </address>
+            </closer>
+            <postscript>
+               <p>
+                  <lb/>
+                  <pb n="Nachtrag in fremder? Hand"/>
+                  <lb/>beiliegend ein <bibl sameAs="715">Buch</bibl> in gr. Leinwand <lb/>gez. K.
+                            B<!-- persName? -->
+                        <lb/>
+                  <placeName ref="Berlin">Berlin</placeName>.
+                            <lb/>
+                  <pb n="Poststempel Prenzlau vom 1. Juni"/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

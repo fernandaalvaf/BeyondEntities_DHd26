@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG C.L., 11. Juli 2014 -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Ignaz von Olfers, 13.08.1826<idno type="BBAW">882</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Jena, ThULB, Nachlass Leitzmann,
+                            Inv.-Nr. 251 (Abschrift)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7646</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="avh">
+                  <persName>Humboldt, Alexander von</persName>
+               </person>
+               <person corresp="gtmarliere">
+                  <persName>Marlière, Guido Thomas</persName>
+               </person>
+               <person corresp="mrouge">
+                  <persName>Rougé, Marquis de</persName>
+               </person>
+               <person corresp="jnrust">
+                  <persName>Rust, Johann Nepomuk</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="282">Mamiani, Luis Vincencio: Catecismo da Doutrina Christãa na
+                        lingua Brasilica da Nação Kiriri (Lissabon: Miguel Deslandes 1698)</bibl>
+               <bibl corresp="287">Marlière, Gui Thomas: Vocabulaire Français et Coroato, qui
+                        peut aussi servir pour entendre la Langue des Indiens Puri ou Topi. Ouvrage
+                        utile aux personnes qui entreprennent des voyages scientifiques dans
+                        l’Amérique Méridionale. Pour être imprimé à la suite du Précis Historique de
+                        ces Indiens et des Coropos et Puris... (1819) [Manuskript]</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ich bin so frei, Ew. Hochwohlgebornen noch mit einem Briefe und
+                    einer Bitte zu behelligen. Ich habe mich in diesen letzten Tagen sehr
+                    angelegentlich mit Herrn Marlières Coroatischem Wörterbuch beschäftigt, …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-08-13"/>
+               <placeName key="Tegel">Tegel</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ifwmolfers">Olfers, Ignaz Franz Werner Maria von</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="Schreiber">Abschrift von unbekannter Hand</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="prr">Coroado (Puri)</language>
+            <language ident="kzw">Kiriri</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">CL</item>
+            <item n="date">11. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="176r"/> An Olfers.<note type="footnote" resp="editor">Hinzufügung in
+                        Leitzmanns Hand. Abschrift insgesamt von anderer Hand.</note>
+            </opener>
+            <p>Ich bin so frei, Ew. Hochwohlgebornen noch mit einem Briefe und einer Bitte zu
+                    behelligen. Ich habe mich in diesen letzten Tagen sehr angelegentlich mit
+                        <persName ref="gtmarliere">
+                  <hi rend="antiqua">Herrn Marlières</hi>
+               </persName> <bibl sameAs="287">
+                  <hi rend="antiqua">Coroa</hi>tischem Wörterbuch</bibl>
+               <note type="footnote" resp="editor">Das <hi rend="italic">Vocabulaire Français et Coroato</hi> von
+                            <persName ref="gtmarliere">Marlière</persName> aus dem Jahr 1819
+                        befindet sich in Form eines Handschrift des Verfassers im Nachlass von
+                        Wilhelm von Humboldt (Coll. ling. fol. 35, SBBPK, Berlin). Aus einer Notiz
+                            <persName ref="avh">Alexander von Humboldt</persName>s auf der ersten
+                        Seite dieses Manuskriptes geht hervor, dass er dieses vom <persName ref="mrouge">Marquis de Rougé</persName> in <placeName ref="Paris">Paris</placeName> erhalten habe und dass es in <persName ref="cmaltebrun">Malte-Brun</persName>s <hi rend="italic">Nouvelles
+                            Annales des Voyages</hi> [Zeitschrift, Paris: 1819–1865] veröffentlicht
+                        werden sollte. Letzteres ist aber wohl nicht geschehen. [FZ]</note>
+                    beschäftigt, und es ist mir eingefallen, daß es doch gut wäre, ihm selbst zu
+                    schreiben, um ihn anzuregen, auch einige grammatische Notizen zu liefern, und
+                    ihm einige Fragen über die Aussprache vorzulegen. Ich bin daher so frei, Ew.
+                    Hochwohlgebornen ein offenes Schreiben an ihn zu überreichen, und Sie zu bitten,
+                    möglichst dahin zu wirken, daß <persName ref="gtmarliere">
+                  <hi rend="antiqua">Herr Marlière</hi>
+               </persName> meine Wünsche erfüllt.</p>
+            <p>Sie merken schon, daß ich den kitzlichen Punkt, daß sein <hi rend="antiqua">Original Mscpt.</hi> in meinem Besitz ist, umgangen habe. Ich habe dies
+                    bloß aus <hi rend="antiqua">delicatesse</hi> gethan. Ich besitze es auf die
+                    rechtmäßigste Weise von der Welt. Ich habe es von <persName ref="avh">meinem
+                        Bruder</persName>, u. <persName ref="avh">meinem Bruder</persName> hat es
+                    der <persName ref="mrouge">
+                  <hi rend="antiqua">Marquis Rongé</hi> (oder <hi rend="antiqua">Rougé</hi>)</persName>
+               <note type="footnote" resp="editor">Eventuell handelt
+                        es sich um Bonabes Louis Victurnien Alexis Marquis de Rougé (1778–1839),
+                        frz. Militäroffizier und Politiker.</note> mit der ausdrücklichen Erlaubniß,
+                    davon jeden beliebigen Gebrauch zu machen, gegeben. Dies hat <pb n="176v"/> <persName ref="avh">mein Bruder</persName> selbst auf der Handschrift
+                    bemerkt. Also bloß weil es möglich wäre, daß der <persName ref="mrouge">Marquis</persName> zu weit gegangen wäre, habe ich so geschrieben, wie Ew.
+                    Hochwohlgebornen finden werden.</p>
+            <p>Ich bin in jedem Augenblick bereit, das Mscpt wieder herauszugeben, da man mir
+                    wohl nicht versagen wird, Abschrift davon zu nehmen. Es soll mich auch sehr
+                    freuen, wenn es gleich gedruckt wird, was durch mich erst nach Jahren möglich
+                    ist.</p>
+            <p>Wenn also Ew. Hochwohlgebornen von <persName ref="gtmarliere">
+                  <hi rend="antiqua">Herrn Marlière</hi>
+               </persName> befragt werden sollten, ob
+                    ich das Mscpt noch habe, so würde es mir, um niemanden zu <hi rend="antiqua">compromittiren</hi>, am liebsten seyn, wenn Sie ihm antworten wollten, daß
+                    Sie das nicht genau wüßten, daß Sie ihm aber im Voraus versichern könnten, daß
+                    er mir nur zu schreiben brauche, es, im Fall ich es hätte, dem oder dem zu
+                    überschicken, um sicher zu seyn, daß dies sogleich geschehen würde. Zugleich
+                    aber glaube ich, daß Ew. Hochwohlgebornen ihm mit Grunde <pb n="177r"/> sagen
+                    können, daß, wenn er den Wunsch habe, seine Arbeit wirklich benutzt zu sehen,
+                    das von mir sicherer, als sonst von wem es sey, geschehen würde. Ich begreife
+                    nicht einmal, wie ein Buchhändler in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> ein so weitläuftiges Wörterbuch,
+                    das an allen sonst interessirenden Notizen leer ist, würde drucken, oder ein
+                    Herausgeber eines Journals es würde aufnehmen wollen. Solche Dinge haben nur
+                    Werth, wenn man sie anders bearbeitet und mit andern in belehrende Verbindung
+                    bringt, u. das kann in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName> niemand.</p>
+            <p>Seit meinem Gespräch bei <persName ref="jnrust">
+                  <hi rend="antiqua">Rust</hi>
+               </persName> mit Ew. Hochwohlgebornen über die
+                        <hi rend="antiqua">Amerikani</hi>sche Aussprache habe ich mich doch
+                    überzeugt, daß Sie vollkommen Recht haben, daß ich eine gleichmäßige Schreibung
+                    gebrauchen muß. Es wird sehr schwer seyn, eine leichte für das Auge u. den Druck
+                    auszufinden, aber es muß geschehen. Nur muß ich erst mit meiner ganzen
+                    Feststellung der Aussprache fertigseyn, um, wenn ich an Zeichen denke, alle <pb n="177v"/> zu bezeichnenden Laute vollständig vor mir zu haben.</p>
+            <closer>
+               <salute>Ich verzweifle noch immer nicht, noch vor Ew. Hochwohlgebornen Abreise
+                        das Vergnügen zu haben, Sie hier bei mir zu sehen, und bitte Sie indeß die
+                        Versicherung meiner ausgezeichneten Hochachtung anzunehmen.</salute>
+               <lb/>
+               <signed>Humboldt.</signed>
+               <lb/>
+               <dateline>Tegel, den 13. August, 1826.</dateline>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <persName ref="gtmarliere">
+                     <hi rend="antiqua">Herr Marlière</hi>
+                  </persName> schreibt sich <hi rend="antiqua">Gui Thomas</hi> – Ist das erste Wort ein eigener oder
+                        abgekürzter Name, etwa <hi rend="antiqua">Guido</hi>, oder bloß eine
+                        Abkürzung von <hi rend="antiqua">Guillaume</hi>, also fehlerhaft
+                        geschrieben?</p>
+               <p>Aus dem <bibl sameAs="282">
+                     <hi rend="antiqua">Katechismus</hi> des <hi rend="antiqua">Kipper-Dialects</hi> der <hi rend="antiqua">Kiriri</hi>
+                            Sprache</bibl> habe ich, wie ich später gefunden, durch Ew.
+                        Hochwohlgebornen Güte Abschriften einiger Stellen.<note type="footnote" resp="editor">Siehe dazu den in einem Schreiben an <persName ref="cvh1">Caroline von Humboldt</persName>
+                     <ref type="link" target="880">erwähnten Brief</ref> vom <date when="1822-04-03">3. April 1822</date>.
+                            [FZ]</note>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

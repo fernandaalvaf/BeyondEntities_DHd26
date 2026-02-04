@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an George Bancroft, 17.09.1821<idno type="BBAW">793</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Massachusetts Historical
+                            Society, Papers Msn 1795</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Rousseau 1985, S. 176 f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7134</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpickering">
+                  <persName>Pickering, John</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="333">Pickering, John: An essay on a uniform orthography for the Indian
+                    languages of North America, as published in the Memoirs of the American Academy
+                    of Arts and Sciences (Cambridge: University Press, Hilliard and Metcalf
+                    1820)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monsieur, Je dois Vous faire mille &amp; mille
+                        excuses de répondre si tard …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1821-09-17"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="gbancroft">Bancroft, George</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="al">Amerikanische Sprachen</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="fr">Französisch</language>
+            <language ident="es">Spanisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. Juni 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Bancroft/Bancroft_3.jpg"/>
+      <graphic url="Bancroft/Bancroft_4.jpg"/>
+      <graphic url="Bancroft/Bancroft_5.jpg"/>
+      <graphic url="Bancroft/Bancroft_6.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p>Je dois Vous faire mille &amp; mille excuses de répondre si tard à la lettre que
+                    Vous avez eû la bonté de m’addresser en date du <date when="1821-05-17">17
+                        Mai</date>. Mais ayant passé l’été entier dans différentes campagnes, toutes
+                    très-éloignées de <placeName ref="Berlin">Berlin</placeName>, elle ne m’est
+                    parvenue que très-tard, &amp; je n’ai pas eû le loisir d’y répondre plutôt.</p>
+            <p>J’ai été charmé de voir, Monsieur, que Vous voulez bien conserver mon souvenir,
+                    &amp; que je puis attendre de Vos bontés quelques secours pour mes études de
+                    langues Américaines. Vous m’obligerez infiniment par tous les envoys que Vous
+                    voudrez bien me faire, &amp; je tâcherai de faire de mon mieux pour que la peine
+                    que Vous prendrez ne soit pas perdûe pour cette branche de litérature. Je Vous
+                    prie aussi de me charger de Votre côté des commissions que Vous pourriez avoir
+                    pour <placeName ref="Berlin">Berlin</placeName>. Je ne manquerai pas de m’en
+                    acquitter toujours avec la plus grande exactitude.</p>
+            <p>J’ai lû avec un très-grand intérêt <bibl sameAs="333">le mémoire</bibl> de
+                        <persName ref="jpickering">M<hi rend="superscript">r</hi>.
+                        Pickering</persName> dont Vous avez bien voulû, Monsieur, m’envoyer une
+                    copie. J’y ai puisé des renseignemens extrême-<pb n="2*"/>ment précieux sur
+                    l’identité des idiômes de quelques peuplades, &amp; sur des ouvrages dont on
+                    peut espérer sous peu la publication. Comme une fois l’attention des savans de
+                    Votre patrie, Monsieur, s’est dirigée sur cet objet, je ne doute pas que
+                    l’Europe obtiendra par là les lumières dont elle a manqué depuis si
+                    longtems.</p>
+            <p>
+               <bibl sameAs="333">L’entreprise</bibl> de <persName ref="jpickering">M<hi rend="superscript">r</hi>. Pickering</persName> <bibl sameAs="333">de
+                        vouloir établir un <sic>Alphabete</sic> uniforme pour l’écriture des mots
+                        Américains</bibl> est certainement très-belle &amp; très-utile. Il faudra
+                    seulement un grand soin &amp; beaucoup d’exactitude dans l’exécution. Nous
+                    manquons encore d’un <sic>Alphabete</sic> que l’on pourroit nommer universel,
+                    &amp; il seroit peut-être impossible de le faire d’une manière qui ne laissât
+                    rien à désirer. Mais on devroit du moins s’y essayer. Il faudroit pour cela, par
+                    le moyen d’une connoissance intime des organes, fixer le point précis sur lequel
+                    se trouve chaque lettre dans l’echelle des sons organisés. Si ce travail étoit
+                    fait pour les langues les plus connues<supplied cert="high">,</supplied> il
+                    seroit moins difficile de classer dans ce même ordre les nouveaux sons qu’on
+                    entendroit dans des langues moins connues encore, &amp; de constater l’identité
+                    d’autres avec les nôtres. J’ai connû deux personnes qui avoient entrepris un
+                    semblable travail, mais l’une<!-- persName? --> l’a abandonné à ne plus le
+                    reprendre jamais, &amp; l’autre<!-- persName? --> est morte. En attendant il
+                    seroit fort utile de s’en tenir, ainsi que le propose <persName ref="jpickering">M<hi rend="superscript">r</hi>. Pickering</persName>, à une méthode
+                    plus aisée &amp; moins longue, &amp; il me paroît que les idées qu’il <pb n="3*"/> communique sur cet objet dans <bibl sameAs="333">son mémoire</bibl> sont aussi
+                    justes que faciles à exécuter. Je n’ai pas bien pû saisir cependant ce qu’il
+                    veut dire par les mots: The Germans only agreeing to give up their peculiar
+                    modification of the b, p, d, t, and w. Cette dernière lettre pourroit être omise
+                    certainement, si l’on employoit partout le f où le v peut avoir le son dur. Mais
+                    il seroit impossible, sans dénaturer les mots, &amp; altérer entièrement la
+                    prononciation, de confondre le b avec le p. &amp; le d avec le t. Vous,
+                    Monsieur, qui connoissez intimement notre langue, &amp; la parlez parfaitement,
+                    pourrez facilement donner sur notre prononciation toutes les lumières
+                    nécessaires. Mais je dois le répéter l’expédient que propose <persName ref="jpickering">M<hi rend="superscript">r</hi>. Pickering</persName>
+                    demande dans son application la plus grande précaution; d’ailleurs il peut
+                    produire des erreurs &amp; une confusion plus grande que celle qui existe
+                    àprésent. Actuellement il suffit de savoir de quelle nation est l’auteur qui
+                    nous transmet les mots des idiômes étrangers, &amp; de connoître la
+                    prononciation de sa langue maternelle. On peut dans ces deux suppositions être
+                    sûr de connoître le son qu’il a voulû désigner, &amp; qui est celui qu’il a
+                    entendû lui-même. Car comme il connoit certainement, sans se tromper, la
+                    prononciation &amp; l’orthographe de sa langue, l’erreur devient presqu’
+                    impossible. Il n’y a des incertitudes que là où une lettre peut dans la langue
+                    de l’Auteur qu’on consulte, être prononcée d’une double manière, &amp; où il n’a
+                    pas eû la précaution d’indiquer celle qu’il a voulû désigner. Cela peut arriver
+                    assez souvent aux auteurs François &amp; Anglois, aux Espagnols avec le x,
+                    qu’ils prononcent en Espagne aussi quelquefois comme ks, moins aux Allemands.
+                    Mais si l’on <pb n="4*"/> compose un nouvel Abécédaire en mêlant <del type="fragment">plu</del> la prononciation de plusieurs langues ensemble, il
+                    faut que celui qui se voue à cette entreprise, <del>&amp;</del> ainsi que celui
+                    qui veut exprimer un son quelconque d’une langue étrangère connoisse assez bien
+                    la prononciation des langues différentes desquelles on a composé l’Abécédaire
+                    pour ne pas se tromper. Ceci naturellement est plus difficile. C’est pour lui
+                    une traduction des sons étrangers dans ceux d’une autre qui n’est pas la langue
+                    maternelle du traducteur, &amp; par conséquent l’erreur pourra être plus
+                    fréquente. Voilà les reflexions auxquelles la proposition de <persName ref="jpickering">M<hi rend="superscript">r</hi>. Pickering</persName> m’a
+                    semblé donner lieu. J’ai crû qu’il Vous seroit intéressant, Monsieur, de les
+                    connoître.</p>
+            <p>Je me rapellerai toujours avec un plaisir bien vif le tems, <sic>ou</sic> j’eus
+                        <del type="fragment">le p</del> l’avantage de Vous voir de tems en tems à
+                        <placeName ref="Berlin">Berlin</placeName>, &amp; je désire que le séjour
+                    chez nous Vous ait parû assez agréable pour Vous résoudre en quelque tems de
+                    faire un second voyage. </p>
+            <closer>
+               <salute>En attendant je Vous prie de me croire avec la considération la plus
+                        distinguée,<lb/>Monsieur <lb/>Votre très-humble et très-obéissant
+                        serviteur,</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>à Berlin, ce 17.
+                        Septembre, 1821.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

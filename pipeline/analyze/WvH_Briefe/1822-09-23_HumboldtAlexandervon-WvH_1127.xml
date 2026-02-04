@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 23.09.1822<idno type="BBAW">1127</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 90–92</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">11705</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="dlalbrecht">
+                  <persName>Albrecht, Daniel Ludwig</persName>
+               </person>
+               <person corresp="fbubna">
+                  <persName>Bubna und Littitz, Ferdinand Graf von</persName>
+               </person>
+               <person corresp="jcharpentier">
+                  <persName>Charpentier, Johann von</persName>
+               </person>
+               <person corresp="fw3">
+                  <persName>Friedrich Wilhelm III., König von Preußen</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="awiffland">
+                  <persName>Iffland, August Wilhelm</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">L'arrivée inattendue d'un courrier de Londres accentue
+                        tellement le départ du courrier pour Berlin, que j'ai à peine le loisir,
+                        cher ami, de faire le paquet de l'invariable milieu (fruit dont la graine
+                        s'est perdue). …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1822-09-23"/>
+               <placeName key="Mailand">Mailand</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="eu">Baskisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">31. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Milan le 23. Sept. <sic>1825</sic>.<note type="footnote" resp="editor">Die Angabe "1825" muss ein Druckfehler sein, da sich
+                            Alexander von Humboldt in diesem Jahr in Paris aufhielt; korrekt ist die
+                            Jahresangabe "1822". [FZ]</note>
+               </dateline>
+            </opener>
+            <p>Me voici dans ce beau pays, mon cher Bill, dans ce pays où tout me rappelle notre
+                    première entrevue à mon retour de Mexique. Parti le <date when="1822-09-13">13.</date> de <placeName ref="Paris">Paris</placeName> j’ai voyagé jour et
+                    nuit et si bien profité de mon tems que j’ai pu donner 2 jours à <placeName ref="Genf">Genève</placeName> et à <placeName ref="Coppet">Coppet</placeName>, 1 jour aux mines de <placeName ref="Bex">Bex</placeName> et à <persName ref="jcharpentier">M.
+                    Charpentier</persName>, qui va t’envoyer sa grammaire manuscrite du dialecte
+                    Labordan … du Basque, deux jours au lac Maggiore aux iles Borromées, aux
+                    carrières de Baveno et à celles de Candoglio, dont est sorti le dome de
+                        <placeName ref="Mailand">Milan</placeName> et qui offrent dans leurs gradins
+                    taillés dans le roc vif et glissant de plus jolis casse-cou qu’on pourrait
+                    trouver dans les Cordillères. J’ai eu de grandes jouissances dans ce voyage; le
+                    tems a été magnifique et lorsqu’on a gémi si longtems dans cet ennuyeux et
+                    monotone <placeName ref="Paris">Paris</placeName>, on est heureux de voir des
+                    lacs, des glaciers, et des montagnes couvertes de neiges éternelles. Le voyage à
+                    travers le Valais et le Simplon à <placeName ref="Domodossola">Domo
+                        Dossola</placeName> est vrayement enchanteur. Dans le Valais les jésuites
+                    augmentent à mesure que les crétins diminuent. Ces derniers, assis devant leurs
+                    cabanes, le sourire sur les lèvres, offrent un spectacle bien curieux. Être à la
+                    fois stupide et honoré c’est un excellent métier dans tous les pays. J’ai passé
+                    un jour et demi à <placeName ref="Mailand">Milan</placeName> pour voir le Dome,
+                    la Specola, les desseins de la bibliothèque Ambrosienne et <persName ref="fbubna">Bubna</persName> qui m’a donné des lettres pour <placeName ref="Verona">Verone</placeName>. L’affluence est telle dans cette dernière
+                    ville, qu’il faut des précautions militaires pour se loger. J’ai appris ici que
+                    les Souverains passeront 3 jours à <placeName ref="Innsbruck">Inspruck</placeName> et qu’on les attend le 5–6. à <placeName ref="Verona">Verone</placeName>. Je pars pour cette même destination cette nuit même;
+                    j’aurai le tems d’aller encore voir la vallée de Fassa par Pergine et Predazzo;
+                    je voudrais être de retour à <placeName ref="Verona">Verone</placeName> le <date when="1822-10-02">2.</date> pour être au plus sûr. Le tout dépend si je
+                    pourrai être certain de ne pas manquer de chevaux sur cette route, si le flot
+                    diplomatique se fait sentir par là. Je ne risquerai rien et resterai
+                    tranquillement à <placeName ref="Verona">Verone</placeName> si je prévois de
+                    trop grandes difficultés. Je suppose simplement que <persName ref="fw3">notre
+                        Roi</persName> arrive en même tems, car je suis sans lettres d’<persName ref="dlalbrecht">Albrecht</persName> depuis le <date when="1822-08-24">24.
+                        Août</date>, ce qui est tout naturel. J’espère toujours, cher ami, que toi
+                    ou <persName ref="cvh1">la bonne Li</persName> vous m’écrirez bientôt quelques
+                    lignes à <placeName ref="Verona">Verone</placeName> poste restante, pour me dire
+                    quels sont les artistes allemands, les plus distingués à <placeName ref="Rom">Rome</placeName>. Je voudrais avoir une liste de noms avec un jugement sur
+                    leurs ouvrages. Cela ne servira qu’à moi, personne n’en saura rien. </p>
+            <closer>
+               <salute>Adieu, mon cher et tendre ami. J’embrasse <persName ref="cvh1">la
+                            chère Li</persName> et les
+                    enfans.</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>Ma santé est excellente et the open air me fait beaucoup de bien. J’ai
+                        sacrifié l’espagnol: c’en est fait! et je veux cette fois ci apprendre à
+                        parler couramment l’italien. Je sors du spectacle. On a imposé à ce pays
+                        jusqu’aux drames à mouchoirs et à sermons d’<persName ref="awiffland">Ifland</persName>.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

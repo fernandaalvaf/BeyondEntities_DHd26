@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philippus Pieter Roorda van Eysinga an Wilhelm von Humboldt, 27.05.1831<idno type="BBAW">461</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 53, Bl. 215–216</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 224</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="gagpcapellen">
+                  <persName>Capellen, Godert Alexander Gerard Philip Baron van
+                    der</persName>
+               </person>
+               <person corresp="tsraffles">
+                  <persName>Raffles, Sir Thomas Stamford</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1279">Roorda van Eysinga, Philippus Pieter (1822): Hhikajat Sulthan
+                    Ibrahiem, radja pada negrie Eirakh / Levensschets van Sulthan Ibrahiem, vorst
+                    van Eirakh, Batavia: Ter Lands Maleische Drukkerij</bibl>
+               <bibl corresp="1280">Roorda van Eysinga, Philippus Pieter (1822): Hikajat Isma Jatim:
+                    ia itoe sjarat segala radja2 dan menteri dan hoeloebalang dan sekaliannja /
+                    Ismael; adapoen diperiksai dan disahkan perkara jang salah dalamnja oleh Roorda
+                    van Eijsinga, Batavia: Ter Lands Maleische Drukkerij</bibl>
+               <bibl corresp="367">Roorda van Eysinga, Philippus Pieter (1824): Nederduitsch en
+                    Maleisch woordenboek, Batavia: Lands Drukkerij</bibl>
+               <bibl corresp="697">Roorda van Eysinga, Philippus Pieter (1825): Maleisch en
+                    nederduitsch woordenboek: onder goedkeuring en begunstiging der Hooge Regering
+                    van Nederlandsch Indië, vervaardigd en uitgegeven door P. P. Roorda van Eysinga,
+                    Batavia: Lands Drukkerij</bibl>
+               <bibl corresp="365">Roorda van Eysinga, Philippus Pieter (1834): Algemeen Nederduitsch en Javaansch
+                    Woordenboek, in de Kromo-, Ngoko-, Modjo- en Kawische taal, met geauthographieerde tafel, Kampen:
+                    Van Hulst</bibl>
+               <bibl corresp="366">Roorda van Eysinga, Philippus Pieter (1835): Javaansche Spraakkunst, of de wijze om op eene
+                    gemakkelijke manier de Javaansche taal te leeren schrijven, lezen en spreken, Amsterdam: J.
+                    Allart Rietberg</bibl>
+               <bibl corresp="1042">Buḩāri di-Ǵûhur / Roorda van Eysinga, Philippus Pieter (Hrsg.)
+                    (1827): Kitāb Tāǵ as-salāṭin jāitu Makuta sagala rāǵa rāǵa. De Kroon aller
+                    Koningen van Bechârie van Djôhor, naar een oud Maleisch Handschrift vertaald
+                    door P. P. Roorda van Eijsinga, Batavia: Lands Drukkerij</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Monseigneur! Son Excellence Mr. Le Baron de Capellen
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="pproorda">Roorda van Eysinga, Philippus Pieter</persName>
+               <date type="author" when="1831-05-27"/>
+               <placeName key="Kampen">Kampen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="362" type="prev">02.04.1831</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="pproorda">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="paz">
+            <language ident="map">Austronesische Sprachen (Sprachen der
+                    Südsee-Inseln)</language>
+            <language ident="jv">Javanisch</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="ms">Malaiisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="su">Sundanesisch (Sprache der Sunda-Inseln)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">17. September 2015</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Roorda/Roorda-WvH_1831-05-27/Coll.ling.fol.53_431.jpg"/>
+      <graphic url="Roorda/Roorda-WvH_1831-05-27/Coll.ling.fol.53_432.jpg"/>
+      <graphic url="Roorda/Roorda-WvH_1831-05-27/Coll.ling.fol.53_433.jpg"/>
+      <graphic url="Roorda/Roorda-WvH_1831-05-27/Coll.ling.fol.53_434.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="215r"/>
+               <address>
+                  <addrLine>À</addrLine>
+                  <addrLine>Son Excellence Le Baron <sic>Alexander</sic>
+                  </addrLine>
+                  <addrLine>von Humboldt, Ministre de Sa</addrLine>
+                  <addrLine>Majesté Le Roi de Prusse etc. etc.</addrLine>
+                  <addrLine>a</addrLine>
+                  <addrLine>Tegel près de Berlin</addrLine>
+               </address>
+               <lb/>
+               <dateline>Kampen le 27 Mai 1831.</dateline>
+               <salute>Monseigneur!</salute>
+            </opener>
+            <p>Son Excellence <persName ref="gagpcapellen">Mr. Le Baron de Capellen</persName> a
+                    eu la bonté de m’adresser <ref type="link" target="362">la missive de votre Excellence</ref> du <date when="1831-04-02">2. Avril passé</date>, laquelle m’a eté remise hier a mon
+                    retour d’un voyage dans les parties du sud et du nord du Royaume; ainsi mon
+                    Seigneur, ce n’est pas ma faute de n’y avoir pas répondu plutôt, mais je
+                    tacherai de redresser le delai, occasionné par mon absence.</p>
+            <p>Votre Excellence a bien voulu m’honorer de Sa correspondance particulière, que je
+                    saurai apprécier autant que possible, mais il sera très difficile pour moi de
+                    confirmer ou de rectifier toutes les conjectures, qu’elle a formées; mais études
+                    n’ont pas atteint le haut degré de perfection, qui n’est que trop familier à
+                    Votre Excellence, et il est un besoin pour moi d’implorer Son indulgence, afin
+                    que d’oser entamer une correspondance, laquelle ne sera très utile et très
+                    instructive pour moi.</p>
+            <p>Cette lettre servira donc comme une introduction de celle, que je me propose
+                    d’adresser sous peu à votre Excellence et laquelle sera beaucoup plus étendue
+                    que <pb n="215v"/> la présente, mais il me faut un peu de temps pour répondre
+                    aux questions et conjectures de votre Excellence concernant la langue Javanoise;
+                    je ferai autant que me permettront mes connoissances, mais je n’ose pas me
+                    flatter de répondre en tout au but que votre Excellence se propose et je demande
+                    bien humblement indulgence, si mes opinions diffèreront avec celles de votre
+                    Excellence.</p>
+            <p>J’ai projeté une Grammaire Javanaise<note type="footnote" resp="editor">Damit ist
+                        wohl die 1834 erscheinende <bibl sameAs="366">
+                     <hi rend="italic">Javaansche Spraakkunst, of de wijze om op eene
+                        gemakkelijke manier de Javaansche taal te leeren schrijven, lezen en
+                        spreken</hi>
+                  </bibl> gemeint. [FZ]</note>, deux dictionnaires<note type="footnote" resp="editor">1835 sollte das <bibl sameAs="365">
+                     <hi rend="italic">Algemeen Nederduitsch en Javaansch
+                            Woordenboek, in de Kromo-, Ngoko-, Modjo- en Kawische taal</hi>
+                  </bibl> erscheinen. [FZ]</note> et plusieurs dialogues dans cette langue,
+                    spécialement dans le Javanais moderne; pourtant s’y trouvent quantité de mots du
+                    Kavi et du Sanscrit.</p>
+            <p>Je ne trouvais aucune méthode de la langue Javanaise, ni Grammaire, ni
+                    dictionnaire, et j’étais obligé de m’approfondir dans la construction d’une
+                    langue tout a fait étrangère aux Européens et d’etudier parmi les Javanais et
+                    dans leurs manuscrits les régles pour l’énoncer clairement, travail, qui ‘a
+                    donné beaucoup de peine et plusieurs années de perquisition. <persName ref="tsraffles">Mr. Raffles</persName> ne connaissait pas, ni comprit le
+                    Javanais; il prêtait son nom au travail des individus qui mettaient trop de
+                    confidence dans les explications des javanais, qui n’etaient pas assez érudits
+                    pour entrer dans toutes les parties minutieuses, difficiles, mais pourtant
+                    nécessaires. Votre Excellence comprendra les difficultés, que j’avois à vaincre,
+                    et voudra bien se contenter <pb n="216r"/> avec les éclaircissemens que j’espère
+                    lui donner dans une lettre suivante. Votre Excellence a parfaitement bien écrit
+                    ou plutôt traduit le titre, placé à la tête du petit livre Javanais, que j’avais
+                    l’honneur de lui offrir. Le mot <foreign sameAs="jv">
+                  <hi rend="underline">bapersumbahkan</hi>
+               </foreign> signifie <hi rend="underline">offrir humblement</hi>. – D’après ce que j’apperçois, votre
+                    Excellence a déjà fait des grands progrés dans le Malais, Langue, que j’ai
+                    étudié longtemps et laquelle m’est aussi familiêre que ma langue maternelle, de
+                    sorte que j’ai publié en Malais cinq ouvrages, scavoir: deux dictionnaires<note type="footnote" resp="editor">
+                  <bibl sameAs="367">
+                     <hi rend="italic">Nederduitsch en Maleisch woordenboek</hi>
+                  </bibl> sowie <bibl sameAs="697">
+                     <hi rend="italic">Maleisch en nederduitsch
+                            woordenboek</hi>
+                  </bibl>. [FZ]</note>, <bibl sameAs="1042">la couronne des
+                        Rois</bibl>, <bibl sameAs="1280">Isma Jatiem</bibl>, &amp; <bibl sameAs="1279">Sulthan Ibrahim</bibl>: il pourrait arriver que Votre Excellence
+                    désererrait d’y puiser quelques instructions (tant soit peu) relatives aux
+                    langues Malaies en Général, dans ce cas je serais honoré de lui en présenter un
+                    exemplaire, si je pouvois scavoir la plus prompte maniêre de les dépêcher.</p>
+            <p>Le plan que votre Excellence s’est formé d’une histoire Générale des langues me
+                    parait si étendue et si immenses, que mes peu d’études se dissipent dans l’océan
+                    des connaissances, qui doivent y fournir matière et j’attends avec la plus vive
+                    impatience et le plus grand intérêt le heureux moment, que cette histoire sera
+                    publiée. – Je suis charmé que votre Excellence possède des matériaux pour
+                    l’étude de quelques unes des langues des iles de la mer du Sud, et Si elle
+                    manque peut être des pièces dans la langue de Sunda, de Macasar et des Alfoures,
+                    je pourrais lui envoyer ce que j’en possède, afin que votre Excellence en
+                    pourrait prendre lecture, pour en faire refuge, et me les renvoyer après. –</p>
+            <p>Jusque a présent il n’existe pas une traduction de la Bible, <pb n="216v"/> mais
+                    je crois que la société, qui analyse la Bible en plusieurs langues, a formé le
+                    projêt de la traduction en Javanais, qui exigera peut être dix ans avant que
+                    d’être achêvée.</p>
+            <p>En finissant la présente, je répête ma promesse, de me dépêcher à communiquer à
+                    votre Excellence dans une quinzaine de telles élucidations sur la langue
+                    Javanaise, que je possède, sous la simple conditionm que votre Excellence
+                    n’exigera pas de trop, si je ne peux pas résoudre toutes les questions
+                    nécessaires. –</p>
+            <p>Si mes communications satisfairont à l’attente de votre Excellence, la mention de
+                    mes travaux dans Son ouvrage <del>de mes travaux</del> ne serait que trop
+                    flatteur pour celui, qui est déjà trop honoré d’entrer en correspondance avec un
+                    des illustres, qui ornent notre Siècle.</p>
+            <closer>
+               <salute>Daignez Monseigneur d’agréer l’assurance de ma parfaite bienveillance et
+                        de mon affection la plus distinguée. –</salute>
+               <signed>P. P. Roorda van Eysinga.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

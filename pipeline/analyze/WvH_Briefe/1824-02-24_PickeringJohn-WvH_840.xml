@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN BEARBEITUNG von FZ -->
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Pickering an Wilhelm von Humboldt, 24.02.1824<idno type="BBAW">840</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Boston, Public Library, MS q. 1900,
+                            No. 11, Courtesy of the Trustees of the Boston Public Library/Rare Books
+                            (Kopie)</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11789</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jedwards">
+                  <persName>Edwards, Jonathan</persName>
+               </person>
+               <person corresp="trjenks">
+                  <persName>Jenks, Theodore R.</persName>
+               </person>
+               <person corresp="wjenks">
+                  <persName>Jenks, William</persName>
+               </person>
+               <person corresp="jmorse">
+                  <persName>Morse, Jedidiah</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="117">Edwards, Jonathan / Pickering, John: Observations on the Language
+                    of the Muhhekaneew Indians (Boston: Phelps and Farnham 1823)</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von: Über das Entstehen der grammatischen Formen
+                    und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823 (Berlin: Druckerei der Königlichen Akademie
+                    der Wissenschaften 1825), S. 401–430</bibl>
+               <bibl corresp="305">Morse, Jedidiah: A report to the Secretary of War of the United
+                    States, on Indian affairs, comprising a narrative of a tour (New Haven: Converse
+                    1822)</bibl>
+               <bibl corresp="816">Pickering, John: Grammar of the Cherokee Language (Boston: Mission
+                    Press 1830)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Sir, / I take the liberty to send you the present letter
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="jpickering">Pickering, John</persName>
+               <date type="author" when="1824-02-24"/>
+               <placeName key="Salem, MA">Salem</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="509" type="prev">09.04.1823</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="jpickering">Eigenhändige Kopie</handNote>
+         </handNotes>
+         <langUsage n="am">
+            <language ident="chr">Cherokee</language>
+            <language ident="mjy">Mahican (Muhhekanew)</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">03. Juli 2014</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Pickering/Pickering-WvH_1824-02-24/Pickering_Letters_Boston_Seite_096.jpg"/>
+      <graphic url="Pickering/Pickering-WvH_1824-02-24/Pickering_Letters_Boston_Seite_097.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <pb n="1*"/>
+               <address>
+                  <addrLine>To Baron Humboldt</addrLine>
+               </address>
+               <dateline>Feb. 24. 1824.</dateline>Sir,</opener>
+            <p>I take the liberty to send you the present letter by one of my young countrymen,
+                        <persName ref="trjenks">Mr. Theodore R. Jenks</persName>, a son of the
+                        <persName ref="wjenks">Rev.<hi rend="superscript">d</hi> William
+                        Jenks</persName>, of <placeName ref="Boston">Boston</placeName>; his father
+                    is one of our most profound philologists, particularly in the Oriental
+                    Languages, and is the same gentleman to whom I am indebted for one of the
+                    specimens of the Mohegan Language published in <bibl sameAs="117">my edition of
+                            <hi rend="underline">Edwards’s Observations</hi>
+               </bibl>. May I be
+                    permitted to have the honour of presenting <del>to you</del> <persName ref="trjenks">Mr. Jenks’s son</persName> to you, so far as I may be allowed
+                    to have any claim on your attention in this respect.</p>
+            <p>I wait with much impatience for <bibl sameAs="222">your Memoir on the Difference
+                        between the Grammatical Forms of the cultivated &amp; the barbarous
+                        Languages</bibl>. I am eagerly anticipating its arrival in the course of
+                    the present spring.</p>
+            <p>I avail myself of this opportunity to send you a few sheets of a <bibl sameAs="816">Grammar of the Cherokee (or, Tsullakée) Language</bibl>, which is now
+                    printing under my direction by the <orgName ref="45">American Board of
+                        Commissioners for Foreign Missions</orgName>. The work has cost me much
+                    labour (amidst the constant engagements of business) but it will be quite
+                    imperfect. Yet, imperfect as it may be found, it will, <del type="fragment">prese</del> if I am not mistaken, present several new &amp; striking facts
+                    in Indian Philology. I shall send you the remaining sheets of the work as fast
+                    as they are printed.<note type="footnote" resp="editor">Der Druck dieser
+                        Grammatik des Cherokee von Pickering blieb ein Fragment und wurde nach 48
+                        Seiten eingestellt; siehe Sylvain Auroux (Hrsg.) (2011): <hi rend="italic">Geschichte der Sprachwissenschaft</hi>, Berlin u. a.: De Gruyter,
+                        S. 1911. [FZ]</note>
+            </p>
+            <p>You will permit me to mention, that on the <date when="1823-02-14">14<hi rend="superscript">th</hi> of February 1823</date>, I did myself the
+                    pleasure to address a long <ref type="link" target="446">letter</ref> to you
+                    accompanied with a small packet of books &amp; <del>maps</del> papers relative
+                    to the Indian <pb n="2*"/> languages: I hope they were duly received.</p>
+            <p>Some months after I had sent mine, I was favoured with your <ref type="link" target="509">letter</ref> of the <sic>
+                  <date when="1823-04-09">9.<hi rend="superscript">th</hi> of april</date>
+               </sic>, in which you
+                    acknowledge the receipt of <persName ref="jmorse">D.<hi rend="superscript">r</hi> Morse</persName>’s <bibl sameAs="305">Report on Indian
+                        Affairs</bibl>. I am happy to learn, that this last work has been found
+                    useful in your researches.</p>
+            <closer>
+               <salute>I am &amp;.<hi rend="superscript">c</hi>
+               </salute>
+               <lb/>
+               <lb/>
+               <dateline>Salem, Massachusetts <lb/>Feb. 24, 1824.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

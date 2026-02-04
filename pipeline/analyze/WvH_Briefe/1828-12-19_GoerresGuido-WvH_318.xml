@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Guido Görres an Wilhelm von Humboldt, 19.12.1828<idno type="BBAW">318</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Ehem. Preußische Staatsbibliothek
+                            zu Berlin, gegenwärtig in der Jagiellonen-Bibliothek Krakau, Coll. ling.
+                            fol. 54, Bl. 56–59</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print"/>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 228</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ppastarloa">
+                  <persName>Astarloa y Aguirre, Pedro Pablo de</persName>
+               </person>
+               <person corresp="jjgoerres">
+                  <persName>Görres, Johann Joseph</persName>
+               </person>
+               <person corresp="mlarramendi">
+                  <persName>Larramendi, Manuel de</persName>
+               </person>
+               <person corresp="flecluse">
+                  <persName>Lécluse, Fleury de</persName>
+               </person>
+               <person corresp="gareimer">
+                  <persName>Reimer, Georg Andreas</persName>
+               </person>
+               <person corresp="fwjschelling">
+                  <persName>Schelling, Friedrich Wilhelm Joseph von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="35">Astarloa y Aguirre, Pablo Pedro de (1803): Apologia de la
+                        lengua Bascongada ò ensayo critico filosofico de su perfeccion y antiguedad,
+                        Madrid: Ortega</bibl>
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="747">Humboldt, Wilhelm von (1817): Berichtigungen und Zusätze zum
+                        ersten Abschnitt des zweyten Bandes des Mithridates über die Cantabrische
+                        oder Baskische Sprache. In: Johann Christoph Adelung / Johann Severin Vater
+                        (1817): Mithridates oder allgemeine Sprachenkunde mit dem Vater Unser als
+                        Sprachprobe, Band 4, Berlin: Vossische Buchhandlung, S. 275–360; ebenso als
+                        Separatdruck, Berlin: Vossische Buchhandlung 1817</bibl>
+               <bibl corresp="213">Humboldt, Wilhelm von (1828): Über die unter dem Namen
+                        Bhagavad-Gítá bekannte Episode des Mahá-Bhárata I–II. In: Abhandlungen der
+                        Königlichen Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                        Historisch-Philologische Klasse, S. 1–64. – Vgl. GS V, S. 190–232;
+                        325–344</bibl>
+               <bibl corresp="210">Humboldt, Wilhelm von (1830): Ueber den Dualis. Gelesen in
+                        der Akademie der Wissenschaften am 26. April 1827. In: Abhandlungen der
+                        königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1827,
+                        Historisch-philologische Klasse, S. 161–188. – Vgl. GS VI, S. 4–30</bibl>
+               <bibl corresp="519">Larramendi, Manuel de (1729): El impossible vencido. Arte de
+                        la Lengua Bascongada, Salamanca: A. J. Villargordo Alcaráz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Der Dank für das so gütige Schreiben Ew. Exzellenz hat sich etwas
+                    verzögert, weil es mich gerade bey der Beendigung meiner Arbeit über das
+                    baskische traf …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="gmgoerres">Görres, Guido Mori(t)z</persName>
+               <date type="author" when="1828-12-19"/>
+               <placeName key="München">München</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">14. April 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="56"/> Der Dank für das so gütige Schreiben Ew. Exellenz hat sich etwas
+                    verzögert, weil es mich gerade bey der beendigung meiner Arbeit über das
+                    baskische traf<note type="footnote" resp="editor">Görres nahm mit einer Arbeit
+                        mit dem Titel "Structura grammatica Linguae Hispanorum veterum indigenae id
+                        est: Vasconicae philosophice explicata nec non comparata variis tum Orientis
+                        tum Occidentis linguis" an dem 1829 von der <placeName ref="Paris">Paris</placeName>er <orgName ref="26">Akademie</orgName> aus
+                        geschriebenen Prix Volney zu dem Thema "Grammaire raisonnée de la langue
+                        basque" teil; siehe Bernhard Hurch (2018): Humboldts Gegenwart im 19.
+                        Jahrhundert. In: <hi rend="italic">Zeitschrift für Literaturwissenschaft und
+                            Linguistik</hi> 48, S. 625f. (<ref type="linkExt"
+                       target="https://link.springer.com/article/10.1007%2Fs41244-018-0111-9">Online-Link</ref>). [FZ]</note>; da Ich diese nun gestern auf die Post
+                    gegeben, so eile Ich für die versprochene Unterstützung und die gute Meinung,
+                    die Ew. Exellenz von dem Erfolg hegen zu danken, was die erstere betrifft, so
+                    war es mir leider nicht gestattet von ihr Gebrauch machen zu können, wie es
+                    scheint ist der literarische Verkehr zwischen <placeName ref="Berlin">berlin</placeName> und <placeName ref="München">München</placeName> sehr
+                    gering, denn Ich habe bis jetzt noch nichts von den an <persName ref="gareimer">Reimer</persName> abgegebenen bücher erhalten Obschon Ich mich nun sehr
+                    freue über einige Punkte Aufklärung und anderes von mir übersehenes darin
+                    berührt zu finden, so war der Schaden für meine Arbeit selbst doch nicht so
+                    groß, da Ich beynahe viel mehr Material gesammelt hatte, als mir die sehr kurz
+                    zu gemeßene Zeit zu verarbeiten erlaubte. Man hatte mir nämlich von <placeName ref="Wien">Wien</placeName> das <bibl sameAs="519">Larramendi arte
+                        ect</bibl> geschickt, ich habe vor dem Verfasser den größten Respekt, indem
+                    er von den Schulvorurtheilen ungeirrt immer seinem gesunden, beynahe stäts das
+                    Richtige treffenden, Verstande folgt, wäre es in einigen Punkten nicht so
+                    lückenhaft, besonders aber seine Ordnung der logischen Sprachentwicklung
+                    angemeßener, so möchte wenig erhebliches an dem buche auszusetzen seyn; auf
+                    jeden fall steht es weit über Lécluse, der wohl etwas andres aus ihm
+                        <add>hätte</add> herausbrauen können, als er gethan hat: denn sein buch hat
+                    sonderbarer Weise eine sehr compendiöse Weitläufigkeit durch die schlechte
+                    Anordnung. Es hat <pb n="56v"/> sich also mit dem <bibl sameAs="519">Larramendi</bibl> ganz glücklich getroffen, aber wenn auch nicht, so müßte
+                    ich auf jeden Fall gegen eine so anmaßende Unbescheidenheit protestiren, als
+                    könne Ich es Ew. Exellenz übel deuten, besonders da Ich nie eine solche bitte
+                    gewagt haben würde wäre Ich nicht schon anderswoher von Ihrer zuvorkommenden
+                    Güte, wo es nur immer möglich, überzeugt gewesen. Gern hätte ich eine Abschrift
+                    meiner Arbeit beygefügt, <del>aber</del> denn Ich bin nicht weniger auf Ihr
+                    Urtheil begierig als auf das der Pariser, aber die Zeit drängt mich so daß ich
+                    einen großen Theil sogleich rein niederschreiben mußte und also selbst keine
+                    Abschrift besitze. Sie zerfällt in sechs Abschnitte, wovon der erste sich mit
+                    dem Lautsystem beschäftigt abgesehen von der bedeutung, über die Sympathien u
+                    Apathien der einzelnen buchstaben, den Sylbenbau ect, ein sehr wichtiges
+                    Kapitel, welches aber wegen Mangel an durchaus nöthigen Vorarbeiten schrecklich
+                    mager ausgefallen; es folgt hierauf das 2<hi rend="superscript">te</hi> Kap.
+                    über die Wurzeln zuerst im allgemeinen, dann über die baskischen insbesondre,
+                    auf philosophische Entwicklung des begriffs der Wurzeln und ihres Verhältnißes
+                        <add>zu</add> grammatisch oder logisch gebildeten Worten, ein Gegenstand der
+                    mich lange beschäftigt, ist besonderer Fleiß verwandt, zugleich habe Ich
+                    nachzuweisen gesucht den engen Parallelismus zwischen <sic>zwischen</sic> Körper
+                    u Geist, (Ton u bedeutung) in der Wurzelbildung, gewiß ein sehr intereßanter
+                    aber noch wenig durch umfaßende historische Untersuchungen ins Klare gebrachter
+                    Punkt, Ich behaupte nämlich, werde es auch wohl später durch <add>eine</add> in
+                    einer oder mehreren Sprachen <add>gesuchte</add> Claßifizirung ausführlich zu
+                    belegen suchen, daß so wie die einzelnen Wurzeln die Archegeten großer von ihnen
+                    abgeleiteter Familien sind, sie selbst wieder sich in große beynahe die ganze
+                    Sprache durchrankende Wurzelgeschlechter ordnen, und zwar daß ihre Geschlechter
+                    ihre nähere oder fernere Verwandtschaft in der parallel sich modifizirenden
+                    bedeutung und <del type="fragment">Tonb</del> Lautbildung darstellen, so daß
+                    hierdurch der Reim eine viel tiefere <pb n="57r"/> bedeutung <add>erhält</add>
+                    als man ihm gewöhnlich zuschreiben möchte, daß diese Ansicht richtig davon bin
+                    Ich überzeugt denn die ganze Sprachentwicklung ruht auf ihr; da bekanntlich in
+                    einigen Sprachen die Modification des zur Wurzel gehörigen Vokals mehr die
+                    formelle als eigentlich eßentiëlle bedeutung derselben modifizirt, so wäre es
+                    auch intereßant zu untersuchen, ob in denselben Sprachen, wenn auch nicht ganz
+                    doch theilweise, das Verhältniß des anlautenden Consonanten zu dem des
+                    auslautenden daßelbe sey wie zwischen divisor &amp; dividend oder was sonst ihr
+                    Verhältniß zueinander in logischer beziehung sey, ich glaube nicht daß das
+                    gleiche überall stattfindet, doch möchte wohl ein bestimmter vorherrschen. Das
+                    hierauf folgende dritte Kap. stellt die Entwicklung der Wurzel in der
+                    derivation, mit Ausschluß der conjugat &amp; declination, die in einem weiteren
+                    Sinne eigentlich auch zur derivation gehören, dar. Auch dieser Abschnitt
+                    verlangt eigentlich große Vorarbeiten, Ich habe ihm anfangs auch nothgedrungen
+                    großen Fleiß gewidmet, weil ich das lexicon dieser Sprache vor der Grammatik
+                    hatte und also auf dieses beschränkt war, doch ist mein studium lange nicht
+                    hinreichend gewesen, indeßen habe ich vielleicht den Hauptpunkt getroffen in der
+                    behauptung daß die vielsylbigen derivations suffixa, eben so wie im Deutschen,
+                    composita aus einsylbigen sind, wodurch ihre Zahl sehr beschränkt wird auf
+                    bestimmte Elemente, deren combination freylich fast ins Unendliche geht, Ich
+                    glaube die Einsylbigkeit der (Stämme) Wurzeln auch für die suffixe in Anspruch
+                    nehmen zu müßen freilich findet hier mancherley Abwechsel statt so sind z b
+                    einige suffixa zusammengesetzt aus erkennbaren Stämmen mit einem wie es scheint
+                    eigentlichen suffix ect Ew. Excellenz Meinung hierüber zu wißen wäre mir sehr
+                    wichtig. Der vierte Abschnitt enthält eine ausführliche Darstellung des
+                    Conjugationsystems der fünfte die Deklination mit den postpositionen, der
+                    sechste endlich die construction. Dem ganzen geht eine Einleitung voraus über
+                    das Sprachstudium im Allgemeinen und die leitenden Ideen in der Abhandlung zur
+                    Orientirung. Dieses ist der freilich an sich noch mehr aber in der Ausführung
+                    lückenhafte Plan der Untersuchung. Sed ultra posse <pb n="57v"/> Nemo tenetur.
+                    Da Sie mir einmal die Erlaubniß ertheilt haben Sie mit solchen grammaticalien
+                    behelligen zu dürfen so will ich Ihnen noch einige Hypothesen mittheilen. Es ist
+                    sonderbar wie die baskische Sprache, da in ihrem lexicalischen Theil ihre
+                    Verwandtschaft mit den sogenannten indogermanischen Sprachen ziemlich tief
+                    verhüllt u nur in weiter Form nachklingen läßt, die <sic>auffallenste</sic>
+                    Übereinstimmung in einigen grammatischen Formen zeigt. So glaube Ich daß der
+                    Ursprung der griech. lateinischen ect Partizipien sich vielleicht aus ihr
+                    erklären läßt. Sie selbst haben <bibl sameAs="747">im Mithridat</bibl>, die wie
+                    mir scheint, ganz gegründete Vermuthung geäußert, daß die von <persName ref="mlarramendi">Larramendi</persName> sogenannten relativ Formen des
+                    Verbums zusammengesetzt seyen durch die affigirte postposition <hi rend="antiqua">
+                  <foreign sameAs="eu">an en</foreign>
+               </hi> (unsrem <hi rend="antiqua">in</hi>). Sie werden wohl nichts dagegen einwenden, wenn ich
+                    diese bemerkung auch auf die eigentlichen einfachen Participien
+                        <add>ausdehne</add>, deren ein Hauptausgang im praeterit. pass., neben <hi rend="antiqua">
+                  <foreign sameAs="eu">tu n</foreign>
+               </hi> ist <sic>ist</sic> Z
+                    b <hi rend="antiqua">
+                  <foreign sameAs="eu">eman</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">egon</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">gan</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">joan</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">jasan</foreign>
+               </hi> ect, und eben diese postpositio <hi rend="antiqua">
+                  <foreign sameAs="eu">en</foreign>
+               </hi> glaube. hat auch zu der bildung
+                    der griech. lat, indischen u s w Participien gedient, so scheint mir z b <hi rend="antiqua">
+                  <foreign sameAs="la">amans</foreign>
+               </hi> zusammengesetzt aus
+                        <hi rend="antiqua">am-a-en</hi>-(<hi rend="antiqua">i</hi>)-<hi rend="antiqua">s</hi>, das Schluß <hi rend="antiqua">s</hi> ist
+                    Charakterzeichen des pronomen 3<hi rend="superscript">tiae</hi> personae, das
+                    ganze würde also heißen „der im lieb(en) (lieb.en.der)<supplied cert="high">“</supplied> ebenso das griechische activ und passiv particip. Im
+                    imperfectum verwandelt sich jenes <hi rend="antiqua">n</hi> in das affigirte <hi rend="antiqua">ean</hi> z b <hi rend="antiqua">
+                  <foreign sameAs="eu">sorthu
+                            cenean</foreign>
+               </hi> heißt eigentlich: <hi rend="antiqua">gebohren er
+                        war als</hi>, dieses <hi rend="antiqua">
+                  <foreign sameAs="eu">ean</foreign>
+               </hi> (<hi rend="antiqua">als</hi>) abgeleitet aus <hi rend="antiqua">en an</hi>, entspricht mir auffallend dem griechischen
+                        <foreign sameAs="grc">ἐὰν</foreign>, ich vermuthe aber daß auch noch andere
+                    Formen dieser Sprachen ihre wahre Erklärung im baskischen finden, so scheint mir
+                    das suffix <hi rend="antiqua">
+                  <foreign sameAs="eu">co</foreign>
+               </hi> welches bey
+                    den Städtenamen die bewegung <hi rend="antiqua">von</hi> bezeichnet und zu
+                    nominibus gentilitiis damit gänzlich verwandt dem lat. <hi rend="antiqua">
+                  <foreign sameAs="la">cus</foreign>
+               </hi> (<foreign sameAs="grc">κος</foreign>) z b <hi rend="antiqua">
+                  <foreign sameAs="eu">Judea-co</foreign>
+               </hi> heißt <hi rend="antiqua">von Judaea</hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">Judea-co-a</foreign>
+               </hi>, <hi rend="antiqua">der von Judaea</hi>, also
+                        <hi rend="antiqua">
+                  <foreign sameAs="la">Judaïcus</foreign>
+               </hi>, wo das
+                    eingefügte <hi rend="antiqua">s</hi> gleichfalls der articel oder die
+                    Substanzbezeichnung ist, mit dem baskischen <hi rend="antiqua">
+                  <foreign sameAs="eu">co</foreign>
+               </hi> ist aber das gleichfalls baskische <hi rend="antiqua">
+                  <foreign sameAs="eu">ic</foreign>
+               </hi>, jener indefinite
+                    nominativ, der aber eigentlich wie aus den Städtenamen <pb n="58r"/> hervorgeht,
+                        <add>auch</add> die bewegung <hi rend="antiqua">von</hi> bezeichnet und
+                    daher auch zum genitiv partitivus dient, verwandt und hieraus ließe sich
+                    vielleicht das im griechischen und lateinischen dem <hi rend="antiqua">c</hi>
+                        (<foreign sameAs="grc">κ</foreign>) vorangehende <hi rend="antiqua">i</hi>
+                    erklären. Räthselhaft ist mir noch der Ursprung des so häufig vorkommenden
+                    suffix <hi rend="antiqua">
+                  <foreign sameAs="eu">la</foreign>
+               </hi>. <bibl sameAs="747">Zum Mithridat sagen Sie pag. 311</bibl> „Das Zusammenstoßen des
+                        <hi rend="antiqua">l</hi> mit einem anderen Consonanten kommt, soviel ich
+                    bemerkt habe, wirklich nie vor.<supplied cert="high">“</supplied> Ich glaube
+                    nicht daß sich diese behauptung durchführen läßt, denn es gibt z b eine Anzahl
+                    verba welche <del>gewißermaßen</del> als Auslaut der Wurzel ein <hi rend="antiqua">l</hi> haben und diesem nun die das particip. praet. pass.
+                    bildende Sylbe <hi rend="antiqua">tu</hi>, welches sich alsdann euphonisch in
+                        <hi rend="antiqua">du</hi> verwandelt, anfügen, wie <hi rend="antiqua">
+                  <foreign sameAs="eu">galdu</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">isildu</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">bildu</foreign>
+               </hi> ect. Ich weiß nicht ob Ihre Stelle
+                    vielleicht so zu verstehen, daß das Zusammenstoßen der Wurzel selbst angehören
+                    muß? Denn <del>es</del> sonst ließen sich gar zu viele (auch andrer Art)
+                    beyspiele des Gegentheiles anführen. Mit dem zusammenstoßen zweyer auslautenden
+                    Consonanten einer Wurzel ist es aber eine sehr schwierige u feine Sache zu
+                    bestimen was nun eigentlich der Wurzel und was der Ableitung angehört. – Es
+                    findet sich auch öfter im baskischen der Fall <add>daß</add> jene beyden
+                    participial Endungen <hi rend="antiqua">
+                  <foreign sameAs="eu">n</foreign>
+               </hi> u
+                        <hi rend="antiqua">
+                  <foreign sameAs="eu">tu</foreign>
+               </hi> zusammen u zwar
+                    hintereinander, mit einem gewißen Pleonasmus, einem verbum angefügt werden,
+                    ließen sich diese Formen nicht vielleicht mit dem Latein gerundium auf <hi rend="antiqua">
+                  <foreign sameAs="la">ndu-s</foreign>
+               </hi> vergleichen? Denn
+                    es scheint mir fast, daß dieses <hi rend="antiqua">d</hi> in <hi rend="antiqua">dus</hi>, <hi rend="antiqua">da</hi>, <hi rend="antiqua">dum</hi>
+                    gleichfalls ein aus dem <hi rend="antiqua">tus</hi>, <hi rend="antiqua">ta</hi>,
+                        <hi rend="antiqua">tum</hi> des partic. praet. pass. übergegangenes <hi rend="antiqua">d</hi> ist, des vorhergehenden <hi rend="antiqua">n</hi>
+                    wegen; im baskischen leidet dieser Übergang aus <hi rend="antiqua">t</hi> in <hi rend="antiqua">d</hi> nach <hi rend="antiqua">n</hi> keinen Zweifel; Formen
+                    obiger sind z b <hi rend="antiqua">
+                  <foreign sameAs="eu">ego-ndu</foreign>
+               </hi>,
+                        <hi rend="antiqua">
+                  <foreign sameAs="eu">izandu</foreign>
+               </hi>, <hi rend="antiqua">
+                  <foreign sameAs="eu">iguindu</foreign>
+               </hi>, die auch eine
+                    einfache Form auf <hi rend="antiqua">
+                  <foreign sameAs="eu">egon</foreign>
+               </hi>,
+                        <hi rend="antiqua">
+                  <foreign sameAs="eu">iguitu</foreign>
+               </hi> u <hi rend="antiqua">
+                  <foreign sameAs="eu">izan</foreign>
+               </hi> besitzen, die
+                    Lateinische Sprache hätte alsdann diese Form zu einer Modifizirung der bedeutung
+                    benützt, was das baskische hier, wie in mehrerem andren, unterlaßen.</p>
+            <p>Was Sie hinsichtlich der allgemeinen Grammatik bemerken, daß es arg sey wenn
+                    jeder einer so auf seine eigene Faust von vorne an, unbekümert um seine
+                    Vorgänger, den bau aufführen wolle; damit bin Ich ganz einverstanden, weiß mich
+                    aber selbst von dieser Schuld <pb n="58v"/> glücklicher Weise rein, ich habe
+                    mich einmal, was Ich auch noch nicht ganz aufgegeben, mit einer Geschichte des
+                    Sprachstudiums im Occident sowohl als im Orient beschäftigt, bey welcher
+                    Gelegenheit ich gezwungen war nicht allein die besten sondern auch die
+                        <sic>mittelmeßigen</sic> u schlechten Arbeiten durchzugehen. Die allgemeine
+                    Grammatik in unserer Zeit leidet noch gar zu sehr an jener zweifachen
+                    Einseitigkeit, indem nämlich die Einen, beschrenkt auf einen ziemlich engen
+                    Kreis von Sprachen, hieraus ihre universalia entlehnen; einseitig historisch
+                    verfahrend haben sie einen gewißen Horror vor der Philosophie; die andern wollen
+                    umgekehrt alles a priori aus den Nägel heraus kauen, den lebendigen Reichthum
+                    der Sprache nach ihrer philosophischen beschränktheit modelnd, halten sie die
+                    Grammatik für <sic>für</sic> ein Gesetz was jeden im Kopfe stecke und man also
+                    auch aus dem eigenen herausziehen könne, nur allzu oft sieht man sie aber doch
+                    nach dem historischen, dem <sic>gegeben</sic>, verstohlen hinschielen; der
+                    Grundirthum dieser Weise scheint mir daß man nicht einsieht, daß es in der
+                    Grammatik einen Theil gibt der produzirt werden muß, ein Produziren welches der
+                    einzelne aus seiner Kammer nicht so ohne weiteres nachmachen kann, sondern eine
+                    Frucht von Jahrhunderten, <add>eine Frucht</add> der Organisation und geistigen
+                    Willensbestimmung von Nationen ist. Übrigens bin Ich mit der damaligen schroffen
+                    Scheidung zwischen Grammatik und Lexicon durchaus nicht einverstanden, diese
+                    Scheidung ist, wie mir scheint eine blos äußerliche und doch auch nur als
+                    äußerlicher Zwecke willen angenommen, betrachtet worden, da die Sprache ja ein
+                    lebendig zusammenhangendes Ganze ist.</p>
+            <p>Noch vor beendigung meines Briefes sind Ihre Abhandlungen mit dem Astarlao<note type="footnote" resp="editor">Soll heißen: "Astarloa". Gemeint ist <persName ref="ppastarloa">Astarloa</persName>s 1803 erschienene <bibl sameAs="35">
+                     <hi rend="italic">Apologia de la lengua Bascongada ò ensayo critico
+                                filosofico de su perfeccion y antiguedad</hi>
+                  </bibl>. Diese ist in
+                        Humboldts Bibliothek nachgewiesen: Schwarz 1993, S. 17 Nr. 49. [FZ]</note>
+                    hier eingetroffen, die Einlage an <persName ref="fwjschelling">H v
+                        Schelling</persName> habe ich besorgt aber noch nicht mit Ihm darüber
+                    gesprochen. <persName ref="jjgoerres">Mein Vater</persName> läßt <add>sich</add>
+                    Ihnen herzlich empfehlen und dankt für <bibl sameAs="213">die Abhandlung über
+                        die Bhagavad Gítá</bibl>. Daß <bibl sameAs="210">Ihre Abhandlung über
+                        den</bibl>
+               <pb n="59r"/>
+               <bibl sameAs="210">Dualis</bibl>
+               <add>mir</add> sehr wohlgefallen, wird überflüßig seyn zu sagen Es hat mich
+                    besonders gefreut unter den allgemeinen Ideen einige zu finden denen ich selbst
+                    schon auf der Spur war. Daß Ihre Wahl auf den Dualis gefallen ist auch deswegen
+                    gut gewesen, weil dieser, neben dem genus, gerade eine solche Form ist welche
+                    apriori leicht verkannt wird, die man, weil man ihre tiefere bedeutung übersieht
+                    für überflüßig, unlogisch u.s.w. achtet. Es ist dies ein schönes aber leider
+                    auch nur ein Kapitel einer grammatica sermonis humani.</p>
+            <p>Ew. <sic>Exellenz</sic> werden mir verzeihen daß ich Sie so sehr mit meinen
+                    Geschichten behelligt, würden Sie mir über die allenfalsigen Irrthümer meiner
+                    behauptungen ihre Misbilligung zu erkennen geben, so würde dies hinreichen mich
+                    zu bewegen den Gründen des Irrthums nachzuforschen. Ich denke jetzt über die
+                    Gliederung der Sprache in ihre einzelnen Redetheile, ein Gegenstand der zu so
+                    ganz verschiedenen Resultaten Anlaß gegeben, zu arbeiten. besonders will Ich
+                    alsdann meine Ansicht über die bedeutung und den <unclear>Reim</unclear> des
+                    Verbums entwicklen. Die Resultate werde Ich alsdann so frei seyn Ihrer gütigen
+                    beurtheilung mitzutheilen. <bibl sameAs="35">Den Astarloa</bibl>, mit meinem
+                    besten Dank, erhalten Sie in drey oder vier Wochen zurück.</p>
+            <closer>
+               <salute>Mit vollkommenster Hochachtung<lb/>ergebenster</salute>
+               <signed>Guido
+                        Goerres</signed>
+               <lb/>
+               <dateline>München, den 19<hi rend="superscript">ten</hi> Dec. 1828.</dateline>
+               <lb/>
+               <pb n="59v vacat"/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

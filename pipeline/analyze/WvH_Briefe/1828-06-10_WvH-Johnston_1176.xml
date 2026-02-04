@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Sir Alexander Johnston, 10.06.1828 ("An Essay on the
+                    best Means of ascertaining the Affinities of Oriental Languages")<idno type="BBAW">1176</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Transactions of the Royal Asiatic
+                            Society of Great Britain and Ireland II, 1830, S. 213–221</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV">S. 212f.</bibl>
+               </witness>
+               <witness>
+                  <bibl type="Mattson"/>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="bgbabington">
+                  <persName>Babington, Benjamin Guy</persName>
+               </person>
+               <person corresp="eburnouf">
+                  <persName>Burnouf, Eugène</persName>
+               </person>
+               <person corresp="adcampbell">
+                  <persName>Campbell, Alexander Duncan</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="fwellis">
+                  <persName>Ellis, Francis Whyte</persName>
+               </person>
+               <person corresp="jmackintosh">
+                  <persName>Mackintosh, Sir James</persName>
+               </person>
+               <person corresp="cmwhish">
+                  <persName>Whish, Charles Matthew</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="870">Campbell, Alexander Duncan (1816): A grammar of the Teloogoo
+                        language, commonly termed the Gentoo, peculiar to the indoos inhabiting the
+                        north eastern provinces of the Indian peninsula, Madras: College
+                        Press</bibl>
+               <bibl corresp="936">Ellis, Francis Whyte (1810): Dissertation the second. On the
+                        Malayálma language, Madras: College Press</bibl>
+               <bibl corresp="1586">Mackintosh, Sir James (1806): Plan of a comparative
+                        vocabulary of Indian languages: Read at the Literary Society of Bombay, on
+                        the 26th May, 1806, Erstausgabe: Bombay; Reprint Calcutta: Hindoostanee
+                        Press, 1808</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">SIR: / I have the honour to return you Sir James Mackintosh’s
+                    interesting memoir …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1828-06-10"/>
+               <placeName key="London">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ajohnston">Johnston, Sir Alexander</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="sa">
+            <language ident="grc">Altgriechisch</language>
+            <language ident="al">Amerikanische Sprachen (allgemein)</language>
+            <language ident="map">Austronesische Sprachen (Südsee-Sprachen)</language>
+            <language ident="eu">Baskisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="en">Englisch</language>
+            <language ident="got">Gotisch</language>
+            <language ident="inc">Indische Sprachen</language>
+            <language ident="kaw">Kawi</language>
+            <language ident="la">Lateinisch</language>
+            <language ident="lt">Litauisch</language>
+            <language ident="ml">Malayalam</language>
+            <language ident="mnc">Mandschurisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+            <language ident="ta">Tamil</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">25. Oktober 2021</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>SIR:<note type="footnote" resp="editor">Betitelt: "<bibl sameAs="664">An Essay on the best
+                        Means of ascertaining the Affinities of Oriental Languages</bibl>, by Baron William
+                        Humboldt, For. M.R.A.S. Contained in a Letter addressed to Sir Alexander
+                        Johnston, Knt., V.P.R.A.S. Read June 14, 1828." – Der Brief, ursprünglich
+                        auf Französisch verfasst, wurde von <persName ref="bgbabington">Benjamin Guy Babington</persName> ins Englische
+                        übersetzt, und erschien unter dem englischen Titel in den <hi rend="italic">Transactions of
+                        the Royal Asiatic Society of Great Britain and Ireland</hi> des Jahres
+                        1830. [FZ]</note>
+            </opener>
+            <p>I have the honour to return you <persName ref="jmackintosh">Sir James
+                        Mackintosh</persName>’s <bibl sameAs="1586">interesting memoir</bibl>. It
+                    possesses (like every thing which comes from the pen of that gifted and
+                    ingenious writer) the highest interest; and the ideas which are so luminously
+                    developed in it have the more merit, if we consider, that, at the period when
+                        <bibl sameAs="1586">this memoir</bibl> was published, philosophical notions
+                    on the study and nature of languages were rarer and more novel than they are at
+                    present. </p>
+            <p>I would, in the first place, observe, that the <orgName ref="14">Royal Asiatic
+                        Society</orgName> could not direct its efforts to a point more important,
+                    and more intimately connected with the national glory, than that of endeavouring
+                    to throw further light on the relations which subsist among the different Indian
+                    dialects. Since we cannot doubt that this part of Asia was the cradle of the
+                    arts and sciences at an extremely remote period, it would be highly interesting
+                    to ascertain with greater certainty whether the Sanscrit be a primitive idiom
+                    belonging to those countries, or whether, on the contrary, as most of the
+                    learned are at present inclined to believe, it was introduced as a foreign
+                    language into India; and if so, the country whence it originated would naturally
+                    follow in the course of inquiry. It is equally curious to determine whether the
+                    primitive languages of India are to be traced over the Indian archipelago in
+                    dialects differing little from each other, and whether we are to assign their
+                    origin to these islands or to the continent. <persName ref="fwellis">Mr.
+                        Ellis</persName>’s <bibl sameAs="936">paper on the Malayálam
+                    language</bibl>, with which you were so good as to furnish me, contains
+                    assertions on the affinity of the Tamul language to the idioms of Java, which it
+                    would be very important to verify. </p>
+            <p> It must be confessed that these problems are extremely difficult to solve; and
+                    it is probable that we shall never arrive at results which are quite certain: we
+                    should, however, carry these researches as far as possible, and the difficulty
+                    of the undertaking ought not to deter, but rather to induce us to select the
+                    most solid and certain means of insuring success. This is more particularly the
+                    point to which I wish to direct your attention, since you have been pleased to
+                    ask my opinion respecting the methods proposed by <persName ref="jmackintosh">Sir James Mackintosh</persName>. It would assuredly have been very
+                    desirable to execute his plan, at the period when it was formed; we should then
+                    by this time have had more complete information regarding the languages of
+                    India; and should perhaps have been in the possession of dialects, of the
+                    existence of which we are now ignorant. There do exist, however, some works,
+                    such as <persName ref="jmackintosh">Sir James</persName> calls for. Not to
+                    mention printed books, I have myself seen in the library of the <orgName ref="11">East-India Company</orgName> a MS. collection of Sanscrit words,
+                    compared in great numbers with those of the other languages of India, made under
+                    the direction of <persName ref="htcolebrooke">Mr. Colebrooke</persName>.<note type="footnote" resp="editor">Anmerkung von Colebrooke (S. 221): "The work
+                        to which allusion is made by Baron William de Humboldt, in the passage where
+                        I am named, was undertaken by me in furtherance of the views developed by
+                        Sir James Mackintosh. I thought that a more copious comparative vocabulary
+                        than he had proposed, would be practically useful; and would be instructive
+                        in more points of view than he had contemplated. Accordingly, at my
+                        instance, a Sanscrit vocabulary and a Persian one were printed with blank
+                        half pages, and distributed among gentlemen, whose situations were
+                        considered to afford the opportunity of having the blank column filled up,
+                        by competent persons, with a vocabulary of a provincial language.
+                        Vocabularies of the same vernacular tongue by a Pandit and a Munshi, would
+                        serve to correct mutually, and complete the information sought from them.
+                        Very few answers, however, were received: indeed scarcely any, except from
+                            <persName ref="fbhamilton">Dr. Buchanan Hamilton</persName>. The
+                        compilation, to which Baron de Humboldt refers, comprises as many as I
+                        succeeded in collecting. H.T.C."</note> Some distinguished authors, as for
+                    instance <persName ref="adcampbell">Mr. Campbell</persName>, in <bibl sameAs="870">his Telugu Dictionary</bibl>, have been at pains to mark from
+                    what foreign idiom such words are derived, as are not proper to the language of
+                    which they form a part; and if these works do not embrace all the Indian idioms,
+                    they have, on the other hand, the advantage of comprehending entire languages,
+                    or at least of not being confined to a limited number of expressions. In the
+                    present state of our knowledge of the languages of India, which is very
+                    different from that of 1806, and possessing, as we now do, grammars and
+                    dictionaries of most of these idioms, I should not advise our confining
+                    ourselves to a plan which can only give a very imperfect idea of each of them.
+                    We can, and ought, to go farther at the present day. I confess that I am
+                    extremely averse to the system which proceeds on the supposition that we can
+                    judge of the affinity of languages merely by a certain number of ideas expressed
+                    in the different languages which we wish to compare. I beg you will not suppose,
+                    however, that I am insensible to the value and utility of these comparisons: on
+                    the contrary, when they are well executed, I appreciate all their importance;
+                    but I can never deem them sufficient to answer the end for which they have been
+                    undertaken; they certainly form a part of the data to be taken into account in
+                    deciding on the affinity of languages, but we should never be guided by them
+                    alone, if we wish to arrive at a solid, complete, and certain conclusion. If we
+                    would make ourselves acquainted with the relation which subsists between two
+                    languages, we ought to possess a thorough and profound knowledge of each of
+                    them. This is a principle dictated alike by common sense and by that precision
+                    acquired by the habit of scientific research. </p>
+            <p>I do not mean to say, that, if we are unable to attain a profound knowledge of
+                    each idiom, we should on this account entirely suspend our judgment: I only
+                    insist on it that we should not prescribe to ourselves arbitrary limits, and
+                    imagine that we are forming our judgment on a firm basis, while it is in reality
+                    insufficient. </p>
+            <p>The method of comparing a certain number of words of one existing language with
+                    those of several others, has always the two-fold inconvenience of neglecting
+                    entirely the grammatical relations, as if the grammar was not as essential a
+                    part of the language as the words; and of taking from the language which we wish
+                    to examine isolated words, selected, not according to their affinities and
+                    natural etymology, but according to the ideas which they express. <persName ref="jmackintosh">Sir James Mackintosh</persName> very justly observes, that
+                    the affinity of two languages is much better proved when whole families of words
+                    resemble each other, than when this is the case with single words only. But how
+                    shall we recognize families of words in foreign languages, if we only select
+                    from them two or three hundred isolated terms? There undoubtedly subsists among
+                    words of the same language an analogy of meanings and forms of combination easy
+                    to be perceived. It is from this analogy, considered in its whole extent, and
+                    compared with the analogy of the words of another language, that we discover the
+                    affinity of two idioms, as far as it is recognizable in their vocabularies. It
+                    is in this manner alone, that we recognize the roots and the methods by which
+                    each language forms its derivatives. The comparison of two languages requires,
+                    that we should examine whether, and in what degree, the roots and derivative
+                    terms are common to both. It is not, then, by terms expressive of general ideas;
+                    such as sun, moon, man, woman, &amp;c., that we must commence the comparison of
+                    two languages, but by their entire dictionary critically explained. The simple
+                    comparison of a certain number of words, by reducing the examination of
+                    languages too much to a mere mechanical labour, often leads us to omit examining
+                    sufficiently the words which form the subjects of our comparison: and to avoid
+                    this defect, we are forced to enter deeply into all the minutiæ of grammar,
+                    separating the words from their grammatical affixes, and comparing only what is
+                    really essential to the expression of the idea which they represent. The words,
+                    of which we seek a translation in different languages, often cannot be rendered
+                    except by a compound term. Thus the sun in some languages is called the father,
+                    the author, the star, &amp;c. of day. It is evident, that, in these cases, we no
+                    longer compare the same words, but words altogether different. To conclude: it
+                    is impossible to form a correct judgment on the resemblance of sounds without
+                    having carefully studied the system of sounds of each of the languages which we
+                    would compare. There occur often between different languages, and still more
+                    frequently between different dialects, regular transformations of letters, by
+                    which we can discover the identity of words that at first view seem to have but
+                    a very slight resemblance in sound. On the other hand, a great resemblance of
+                    sound in two words will sometimes prove nothing, or leave the judgment in great
+                    uncertainty, if it be not supported by a train of analogies for the permutation
+                    of the same letters. What I have remarked proves, as I think, that even if we
+                    confine ourselves to the comparison of a certain number of words in different
+                    languages, it is still necessary to enter more deeply into their structure, and
+                    to apply ourselves to the study of their grammar. But further, I am quite
+                    convinced that it is only by an accurate examination of the grammar of languages
+                    that we can pronounce a decisive judgment on their true affinities. </p>
+            <p>Languages are the true images of the modes in which nations think and combine
+                    their ideas. The manner of this combination represented by the grammar, is
+                    altogether as essential and characteristic as are the sounds applied to objects,
+                    that is to say, the words. The form of language being quite inherent in the
+                    intellectual faculties of nations, it is very natural that one generation should
+                    transmit theirs to that which follows it; while words, being simple signs of
+                    ideas, may be adopted by races altogether distinct. If I attach great
+                    importance, however, under this view, to the grammar of a language, I do not
+                    refer to the system of grammar in general, but to grammatical forms, considered
+                    with respect to their system and their sounds taken conjointly. </p>
+            <p>If two languages, such for instance as the Sanscrit and the Greek, exhibit
+                    grammatical forms which are identical in arrangement, and have a close analogy
+                    in their sounds, we have an incontestable proof that these two languages belong
+                    to the same family. </p>
+            <p>If, on the contrary, two languages do contain a great number of words in common,
+                    but have no grammatical identity, their affinity becomes a matter of great
+                    doubt; and if their grammars have, like those of the Basque and the Latin, an
+                    essentially different character, these two languages certainly do not belong to
+                    the same family. The words of the one have been merely transplanted into the
+                    other, which has nevertheless retained its primitive forms. </p>
+            <p>If I assert that, in order to prove the affinity of languages, we should pay
+                    attention to the employment of grammatical forms and to their sounds taken
+                    together, it is because I would affirm that they must be considered not only in
+                    the abstract but in the concrete. Some examples will render this clearer. </p>
+            <p>Several American languages have two plural forms in the first person, an
+                    exclusive and an inclusive form, according as we would include or exclude the
+                    person addressed. It has been thought that this peculiarity belonged exclusively
+                    to the American languages; but it is also found in the Mantchu, the Tamul, and
+                    in all the dialects of the South Sea Islands. All these languages have indeed
+                    this grammatical form in common; but it is only in the abstract. Each of them
+                    expresses it by a different sound: the identity of this form, therefore, does
+                    not furnish any proof of the affinity of these languages. </p>
+            <p>On the other hand, the Sanscrit infinitive, or rather the affixes <foreign sameAs="sa" n="transEd">tuṃ<graphic url="Rosen/Rosen-WvH_1829_01_09/0878.svg"/>
+               </foreign> and <foreign sameAs="sa" n="transEd">tu<graphic url="Rosen/Rosen-WvH_1829_01_09/0879.svg"/>
+               </foreign>, as in <foreign sameAs="sa" n="transEd">jetukāma<graphic url="Rosen/Rosen-WvH_1829_01_09/0880.svg"/>
+               </foreign>
+               <note type="footnote" resp="editor">Hier korrekt, im Sonderdruck von 1828 (und
+                        einem Teil der bereits gedruckten Auflage) als <graphic url="Johnston/06.svg"/>. Zur Korrektur siehe auch <ref type="link" target="55">den Brief</ref> von <persName ref="farosen">Friedrich August
+                            Rosen</persName> an Wilhelm von Humboldt vom <date when="1829-01-09">9.
+                            Januar 1829</date> und den Errata-Zusatz auf S. XII im 1830 vollständig
+                        gedruckt vorliegenden Band der <hi rend="italic">Transactions</hi>.
+                        [FZ]</note> „desirous of vanquishing,“ correspond as grammatical forms with
+                    the Latin <hi rend="italic">supines</hi>, and there is at the same time a
+                    perfect identity of sound in these forms in the two languages, as the Latin <hi rend="italic">supines</hi> terminate invariably in <hi rend="italic">tum</hi> and <hi rend="italic">tu</hi>. The striking conformity of the
+                    Sanscrit auxiliary verb to that of the Greek and Lithuanian languages, has been
+                    ingeniously developed by <persName ref="bopp">Professor Bopp</persName>. The
+                    Sanscrit <foreign n="transEd" sameAs="sa">veda<graphic url="Johnston/04.svg"/>
+               </foreign>, the Greek <foreign sameAs="grc">οἶδα</foreign>, and the Gothic
+                        <hi rend="italic">vait</hi>, are evidently of the same origin. In all these
+                    three words there is a conformity both of sound and signification: but further;
+                    all the three verbal forms have these two peculiarities in common, that though
+                    preterites, they are used in a present sense, and that in all three the <hi rend="italic">short</hi> radical vowel, which is retained in the plural, is
+                    changed to a <hi rend="italic">long</hi> vowel in the singular. The Lithuanian
+                        <hi rend="italic">weizdmi</hi>, <hi rend="italic">I know</hi> , and the
+                    Sanscrit <foreign n="transEd" sameAs="sa">veidma<graphic url="Johnston/05.svg"/>
+               </foreign>
+               <note type="footnote" resp="editor">Hier korrekt, im Sonderdruck
+                        von 1828 als <graphic url="Johnston/07.svg"/>.</note>, shew clearly at first
+                    view that this word is not only the same in the two languages (as <hi rend="italic">bos</hi> and <hi rend="italic">beef</hi> in Latin and
+                    English), but that the two languages have, in the termination <hi rend="italic">mi</hi>, modelled these words on the same grammatical form; for they not
+                    only mark the persons of the verb by inflexions added to the end of the root,
+                    but the affix of the first person singular is in both cases the syllable <hi rend="italic">mi</hi>. </p>
+            <p>There is then in the examples adduced a conformity in grammatical use, and at the
+                    same time in sound; and it is impossible to deny that the languages which
+                    possess these forms must be of the same family. </p>
+            <p>The difference between the real affinity of languages, which presumes a filiation
+                    as it were among the nations who speak them, and that degree of relation which
+                    is purely historical, and only indicates temporary and accidental connexions
+                    among nations, is, in my opinion, of the greatest importance. Now it appears to
+                    me impossible ever to ascertain that difference merely by the examination of
+                    words; especially, if we examine but a small number of them. </p>
+            <p>It is perhaps too much to assert, that words pass from age to age and from nation
+                    to nation; that they arise also from connexions (which though secret, are common
+                    to all men) between sounds and objects, and that they thus establish a certain
+                    identity between all languages; while the manner of casting and arranging these
+                    words, that is to say, the grammar, constitutes the particular differences of
+                    dialects. This assertion, I repeat, is perhaps too bold, when expressed in this
+                    general way; yet I am strongly inclined to consider it correct, provided the
+                    expression <hi rend="italic">grammar</hi> be not taken vaguely, but with a due
+                    regard to the sounds of grammatical forms. But whatever opinion may be
+                    entertained with respect to this manner of considering the difference of
+                    languages, it appears to me at all events demonstrated: </p>
+            <p>First, that all research into the affinity of languages, which does not enter
+                    quite as much into the examination of the grammatical system as into that of
+                    words, is faulty and imperfect; and, </p>
+            <p>Secondly, that the proofs of the real affinity of languages, that is to say, the
+                    question whether two languages belong to the same family, ought to be
+                    principally deduced from the grammatical system, and can be deduced from that
+                    alone; since the identity of words only proves a resemblance such as may be
+                    purely historical and accidental. </p>
+            <p>
+               <persName ref="jmackintosh">Sir James Mackintosh</persName> rejects the
+                    examination of grammar, for this reason, that languages which are evidently of
+                    the same stock have very different grammars. But we must not be misled by this
+                    phenomenon, although it is in itself quite true. The grammatical form of
+                    languages depends, on the one hand, it is true, upon the nature of these
+                    languages; but it also depends, on the other hand, upon the changes which they
+                    experience in the course of ages, and in consequence of historical revolutions.
+                    Out of these changes it has arisen, that languages of the same family have a
+                    different grammatical system, and that languages really distinct resemble each
+                    other in some degree. But the slightest examination will suffice to shew the
+                    real relations which subsist between those languages, especially if by following
+                    the plan above laid down we proceed to the examination of forms which are alike
+                    identical in their uses and in their sounds. It is thus that we discover without
+                    difficulty that the English language is of Germanic origin, and that the Persian
+                    belongs to the Sanscrit family of languages, notwithstanding the very great
+                    difference which exists between the grammars of these idioms. </p>
+            <p>It is generally believed, that the affinity of two languages is undeniably
+                    proved, if words that are applied to objects which must have been known to the
+                    natives ever since their existence, exhibit a great degree of resemblance, and
+                    to a certain extent this is correct. But, notwithstanding this, such a method of
+                    judging of the affinity of languages seems to me by no means infallible. It
+                    often happens, that even the objects of our earliest perceptions, or of the
+                    first necessity, are represented by words taken from foreign languages, and
+                    which belong to a different class. If we only examine the list furnished by
+                        <persName ref="jmackintosh">Sir James Mackintosh</persName>, we shall find
+                    there such words as <hi rend="italic">people</hi>, <hi rend="italic">countenance</hi>, <hi rend="italic">touch</hi>, <hi rend="italic">voice</hi>, <hi rend="italic">labour</hi>, <hi rend="italic">force</hi>,
+                        <hi rend="italic">power</hi>, <hi rend="italic">marriage</hi>, <hi rend="italic">spirit</hi>, <hi rend="italic">circle</hi>, <hi rend="italic">tempest</hi>, <hi rend="italic">autumn</hi>, <hi rend="italic">time</hi>,
+                        <hi rend="italic">mountain</hi>, <hi rend="italic">valley</hi>, <hi rend="italic">air</hi>, <hi rend="italic">vapour</hi>, <hi rend="italic">herb</hi>, <hi rend="italic">verdure</hi>, and others of the same kind. Now
+                    all these words being evidently derived from the Latin, as it was transformed
+                    after the fall of the Roman empire, we ought, judging from these words, rather
+                    to assign to the English an origin similar to that of the Roman languages than
+                    to that of the German. </p>
+            <p>If what I have here advanced be well founded, it appears to me easy to point out
+                    the system which the <orgName ref="14">Royal Asiatic Society</orgName> would do
+                    well to pursue, in order to complete our knowledge of the Indian languages, and
+                    to resolve the grand problem which they present to the minds of philologists who
+                    endeavour to discover the origin and the filiation of languages. </p>
+            <p>It would be proper to commence by examining the country geographically, taking a
+                    review of every part of India, in order to know exactly in what parts we are
+                    still in want of sufficient materials to determine the nature of their idioms.
+                    Where deficiencies are discovered, efforts should be used for their supply, by
+                    encouraging those persons who are already employed on those languages, or may
+                    intend studying them, to form grammars and dictionaries, and to publish the
+                    principal works existing in these languages, for which every facility should be
+                    afforded them. If materials to a certain extent were thus collected, we should
+                    unquestionably not want men who would be able to deduce from them conclusions
+                    from which to prepare a critical view of the affinity of the Indian languages,
+                    and to determine, as far as the data which we might possess would admit, the
+                    manner in which the Sanscrit and other languages of India and its islands have
+                    reciprocally acted upon each other. I assume that the learned of the Continent
+                    would take their share in this work, <persName ref="eburnouf">M. E.
+                        Burnouf</persName>, of <placeName ref="Paris">Paris</placeName>, having
+                    already commenced a series of papers on the subject in the <hi rend="italic">Nouveau Journal Asiatique</hi>. </p>
+            <p>There exists in England a vast quantity of manuscript materials relating to these
+                    languages. <persName ref="bgbabington">Dr. B. Babington</persName>, for
+                    instance, possesses alphabets altogether unknown in Europe up to the present
+                    time. In England, also, the great advantage is possessed of being able to direct
+                    works upon these languages to be undertaken in India itself, and to guide such
+                    labours by plans sent from this country. In India these are living languages,
+                    and literary men of the very nations in which they are spoken may be employed in
+                    the researches we wish to forward. No other nation possesses so valuable an
+                    advantage. It is important to profit by it. The deficiencies in our knowledge
+                    are numerous and evident. We possess scarcely any thing upon the Malayalim; and
+                    are in want of a printed dictionary of the Tamul. But while we keep this object
+                    strictly in view, and work upon a fixed plan, we shall insensibly fill up these
+                    vacancies. It is certainly difficult to find men who both can and will engage in
+                    a work like this, but they are undoubtedly to be found. Thus <persName ref="bgbabington">Dr. Babington</persName> has mentioned <persName ref="cmwhish">Mr. Whish</persName>
+               <note type="footnote" resp="editor">Charles Matthew Whish (1794–1833), englischer ziviler Angestellter in der
+                        Madras-Niederlassung der East India Company. [FZ]</note> to me, as being
+                    profoundly acquainted with the Malayalim, and as being already employed in
+                    making it better known in Europe. Solid labours upon languages are, in their
+                    nature, slow. In an enterprize so vast as that of examining to the utmost
+                    possible extent each of the numerous languages of India, progress can only be
+                    made insensibly and step by step. But learned societies afford this advantage,
+                    that the same labour can be continued through a long series of years; and
+                    complete and perfect works upon two or three idioms are certainly preferable to
+                    notions, more or less superficial, upon all the dialects of India, hastily put
+                    forth for the purpose of coming at once to a general conclusion. </p>
+            <p>These, Sir, are my ideas upon the subject, upon which you wished to have my
+                    opinion. It is only in compliance with your request, that I have ventured to lay
+                    them before you; for I am well aware how much better able the distinguished
+                    members of the <orgName ref="14">Royal Asiatic Society</orgName> are to form a
+                    judgment of, and give an opinion upon, this matter than I am. </p>
+            <closer>
+               <salute>I request you, Sir, to accept the assurance of my highest
+                        respect.</salute>
+               <signed>(Signed) Humboldt.</signed>
+               <lb/>
+               <dateline>London,
+                        June 10, 1828.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

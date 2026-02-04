@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 05.03.1826<idno type="BBAW">1097</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Bonn, ULB, Inv. S 507: 16</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Leitzmann 1908, S. 192–201</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 7580</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="kfbecker">
+                  <persName>Becker, Karl Ferdinand</persName>
+               </person>
+               <person corresp="jfblumenbach">
+                  <persName>Blumenbach, Johann Friedrich</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="alchezy">
+                  <persName>Chézy, Antoine-Léonard de</persName>
+               </person>
+               <person corresp="htcolebrooke">
+                  <persName>Colebrooke, Henry Thomas</persName>
+               </person>
+               <person corresp="alanglois">
+                  <persName>Langlois, Alexandre</persName>
+               </person>
+               <person corresp="fschlegel">
+                  <persName>Schlegel, Friedrich von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="52">Bhagavadgitā</bibl>
+               <bibl corresp="283">Manus Gesetzbuch</bibl>
+               <bibl corresp="690">Becker, Karl Ferdinand: Die Deutsche Wortbildung oder die
+                    organische Entwickelung der deutschen Sprache in der Ableitung (Frankfurt/Main:
+                    Verlag der Hermannschen Buchhandlung 1824)</bibl>
+               <bibl corresp="224">Humboldt, Wilhelm von: Ueber die Buchstabenschrift und ihren
+                    Zusammenhang mit dem Sprachbau. Gelesen in der Akademie der Wissenschaften am
+                    20. Mai 1824. In: Abhandlungen der Königlichen Akademie der Wissenschaften zu
+                    Berlin aus dem Jahre 1824 (Berlin: F. Dümmler 1826), S. 161–188</bibl>
+               <bibl corresp="213">Humboldt, Wilhelm von: Über die unter dem Namen Bhagavad-Gítá
+                    bekannte Episode des Mahá-Bhárata I–II. In: Abhandlungen der Königlichen
+                    Akademie der Wissenschaften in Berlin aus dem Jahre 1825,
+                    Historisch-Philologische Klasse (Berlin: Druckerei der Königlichen Akademie der
+                    Wissenschaften 1828), S. 1–64</bibl>
+               <bibl corresp="199">Humboldt, Wilhelm von: Ueber die Bhagavad Gitâ. Bemerkungen über
+                    die Langloissche Recension der Schlegelschen Bhagavad-Gitâ. An Schlegel nach
+                    Bonn am 17. Junius 1825. geschickt. In: Indische Bibliothek 2, Heft 2, 1826, S.
+                    218–258; Heft 3, 1826, S. 328–372</bibl>
+               <bibl corresp="620">Langlois, Alexandre: Critique littéraire. Bhagavad-Gitâ, id est,
+                    Θεσπέσιον μελος, etc., traduit par M. A.-G. de Schlégel. In: Journal Asiatique
+                    4, 1824, S. 105–116; 236–256; 5, 1824, S. 240–252; 6, 1825, S. 232–250</bibl>
+               <bibl corresp="53">Schlegel, August Wilhelm von: Bhagavad-Gita, id est Θεσπέσιον μελος,
+                    sive almi Krishnae et Arjunae colloquium de rebus divinis, Bharateae episodium.
+                    Textum recensuit, annotationes criticas et interpretationem latinam adjecit Aug.
+                    Guil. a Schlegel (Bonn: Weber 1823)</bibl>
+               <bibl corresp="396">Schlegel, August Wilhelm von (Hrsg.): Indische Bibliothek. Eine
+                    Zeitschrift (Bonn: [Weber] 1820–1830)</bibl>
+               <bibl corresp="691">Schlegel, August Wilhelm von: Observations sur la critique du
+                    Bhagavad-ghita, insérée dans le Journal Asiatique. In: Journal Asiatique 9,
+                    1826, S. 3–27</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Ew. Hochwohlgebornen gütiger und
+                        freundschaftlicher Brief hat mir eine ungemein große Freude gemacht, und ich
+                        statte Ihnen meinen herzlichsten Dank dafür ab. …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1826-03-05"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="awschlegel">Schlegel, August Wilhelm von</persName>
+            </correspAction>
+            <correspContext>
+               <ref target="1080" type="prev">21.02.1826</ref>
+            </correspContext>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="ind">
+            <language ident="zh">Chinesisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">KS</item>
+            <item n="date">12. Dezember 2013</item>
+            <item n="status">in Bearbeitung, gegengelesen von AD 6. März 2014</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_01.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_02.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_03.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_04.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_05.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_06.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_07.jpg"/>
+      <graphic url="Schlegel/WvH-Schlegel_1826-03-05/WvH-Schlegel_1826_03_05_Seite_08.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/>
+               <note type="footnote" resp="editor">Oben rechts in Schlegels
+                        Handschrift: d. 5<hi rend="superscript">ten</hi> März 26.</note> Ew.
+                    Hochwohlgebornen gütiger und freundschaftlicher <ref type="link" target="1080">Brief</ref> hat mir eine ungemein große Freude gemacht, und ich statte
+                    Ihnen meinen herzlichsten Dank dafür ab. Ich bitte Sie aber sehr auf keine Weise
+                    zu glauben, daß ich nur einen Augenblick hätte über Ihr Stillschweigen können
+                    empfindlich seyn. Es würde mich ängstigen und vom eigenen Schreiben abhalten,
+                    wenn ich mir dächte, daß Sie Sich in einer Art moralischer Verbindlichkeit
+                    hielten, um einer Antwort willen von andren Beschäftigungen abzugehen, u. ich
+                    bitte Sie recht herzlich auch künftig vollkommene Freiheit darin zu beobachten. </p>
+            <p>Ich hatte überdies in der Zwischenzeit Ihre lateinischen Schriften empfangen, und
+                    wirklich bewundert. Es ist eine beneidenswürdige Gabe, in jeder Sprache eines
+                    reinen, würdigen, reichen u. zierlichen Ausdrucks mächtig zu seyn, und eine um
+                    so edlere Gabe, als sie nicht durch Studium u. Uebung erworben wird. Sie setzt
+                    etwas in dem Geiste voraus, das der verschiedenartigen Natur des nationalen
+                    Gedankenausdrucks in der Auffassung einer darin liegenden Allgemeinheit
+                    entspricht, eine Kraft die innere Eigenthümlichkeit mitten in dem gewandten
+                    Anschmiegen an fremde Formen festzuhalten. Am meisten muß ich gestehen, hat mich
+                    das Gedicht in beiden Sprachen<note resp="editor" type="footnote">Anm. Leitzmann
+                        S. 285f.: Zur Feier der Dampferfahrt <persName ref="fw3">Friedrich Wilhelms
+                            III.</persName> auf dem Rhein bei <placeName ref="Bonn">Bonn</placeName>
+                        am <date when="1825-09-14">14. September 1825</date> hatte Schlegel ein
+                        deutsches und ein lateinisches Gedicht in Distichen verfaßt und bald darauf
+                        drucken lassen: "Die Huldigung des Rheins" und <hi rend="italic">"Fausta
+                            navigatio regis Friderici Guilelmi III., cum universo populo acclamante
+                            navi vaporibus acta Bonnam praeterveheretur"</hi>.</note> gefreut. Es
+                    ist in jeder Rücksicht vortreflich, und es lebt gewiß niemand, dem es auf diese
+                    Weise gelungen wäre. In dem Briefe an <persName ref="jfblumenbach">
+                  <hi rend="antiqua">Blumenbach</hi>
+               </persName>
+               <note type="footnote" resp="editor">Anm. Leitzmann 1908, S. 286: Im Namen der <orgName ref="12">Univeristät Bonn</orgName> hatte Schlegel zum silbernen
+                        Professorjubiläum des berühmten Naturforschers <persName ref="jfblumenbach">Blumenbach</persName> am <date when="1825-09-19">19. September
+                            1825</date> eine <hi rend="italic">epistula gratulatoria</hi> verfaßt. –
+                            <hi rend="italic">"Viro clarissimo, Ioanni Friderico Blumenbach,
+                            Medicinae Doctori, In Academia Georgia Augusta Gottingensi Professore
+                            Medicinae Primario ... S. P. D. Rector et Senatus Academiae Borussicae
+                            Rhenanae"</hi>, Bonn: Universität 1825.</note> hätte ich gewünscht, daß
+                        <sic>Ew.</sic> noch mehr versucht hätten, naturhistorisch philosophische
+                    Ideen wenn nicht auszuführen, doch anzuspielen. Niemand ist so sehr, als Sie, im
+                    Stande, eine alte Sprache mit dem Ausdruck neuer Ideen glücklich ringen zu
+                    lassen, und ein solcher Kampf der Sprache mit dem Begriff ist immer ein höchst
+                    anziehendes <del>
+                  <gap quantity="3" unit="chars"/>
+               </del> Schauspiel. </p>
+            <p>Es ist mir sehr schmeichelhaft, daß Ew. Hochwohlgebornen <pb n="2*"/> <bibl sameAs="199">meinen Bemerkungen</bibl> einen Platz in <bibl sameAs="396">Ihrer
+                        Bibliothek</bibl> gönnen wollen. Ich bin auch ganz der Meinung, daß
+                        <persName ref="alanglois">
+                  <hi rend="antiqua">Langlois</hi>
+               </persName> <bibl sameAs="620">Stellen</bibl> mit
+                    abgedruckt werden müssen, u. habe nichts dagegen, wenn Ew. Hochwohlgebornen
+                    neben meinen ruhigen und milden <bibl sameAs="199">Bemerkungen</bibl> (wie Sie
+                    dieselben nennen) ein schärferes Gericht halten. Mir kam kein andrer Ton zu, da
+                        <persName ref="alanglois">
+                  <hi rend="antiqua">Langlois</hi>
+               </persName> doch
+                    am Ende leicht noch mehr <hi rend="antiqua">Sanskrit</hi> weiß, als ich. Mit Ew.
+                    Hochwohlgebornen ist es anders. Wenn Sie mir aber erlauben, Ihnen offen meine
+                    Meinung zu sagen, so würde ich auch in Ihrer Stelle diesmal auf den Spott u.
+                    selbst das Spötteln
+                        <subst>
+                  <del>verzichteten</del>
+                  <add>verzichten</add>
+               </subst>, und einen
+                    ernsten Ton <add>annehmen</add>, in dem Sie aber deutlich äußerten, daß das
+                        <persName ref="alchezy">
+                  <hi rend="antiqua">Chezy</hi>
+               </persName>sche
+                    Betragen, sowie <persName ref="htcolebrooke">
+                  <hi rend="antiqua">Colebrooke</hi>
+               </persName> es sehr gut in seinem Briefe sagt, dem wahren
+                    Geist ächter Wissenschaft u. Wahrheitsliebe durchaus widerspricht.<note type="footnote" resp="editor">Siehe hierzu den zitierten Briefauszug in
+                        Schlegels <ref type="link" target="1080">vorherigem Brief</ref>.</note> Ich
+                    glaube, das wird in <hi rend="antiqua">Frankreich</hi> viel mehr Eindruck
+                    machen, u. den Gegner ganz in sein Unrecht stellen, da bei einer ironischen
+                    Behandlung doch immer eher der Bespöttelte in Schutz genommen wird, u.
+                        <del>man</del> doch vielleicht in der Ironie die Verletzung einer gewissen
+                        <hi rend="antiqua">Pietät</hi> gefunden werden könnte. Denn weil nun einmal
+                        <persName ref="alchezy">
+                  <hi rend="antiqua">Chezy</hi>
+               </persName> früher <hi rend="antiqua">Sanskrit</hi> gewußt hat, als Sie Sich damit beschäftigten,
+                    so fehlen doch die Anwendungen der Begriffe von Lehrern u. Schülern nicht, so
+                    thöricht ich sie auch halte, da z. B. weder <persName ref="bopp">
+                  <hi rend="antiqua">Bopp</hi>
+               </persName> noch Sie, soviel mehr Sie beide doch
+                    hier ein Recht dazu hätten, mich haben dies Lehrerverhältniß fühlen lassen.
+                        <persName ref="alchezy">
+                  <hi rend="antiqua">Chezy</hi>
+               </persName> arbeitet
+                    selbst nichts für das Publikum, aber ärgert sich, wenn andre es thun. Das ist
+                    die ganze kleinliche Erbärmlichkeit. Das fühlt man aber gewiß auch in <placeName ref="Paris">
+                  <hi rend="antiqua">Paris</hi>
+               </placeName>, wie bei uns. Ich
+                    finde es sehr natürlich, daß Sie <bibl sameAs="691">Ihre <hi rend="antiqua">Antikritik</hi>
+               </bibl> französisch schreiben. Ich habe aber noch
+                    keinen rechten Begriff, wie Ew. Hochwohlgebornen nun das Ganze einrichten, u.
+                    auch meinen Bemerkungen einen Platz vergönnen wollen. Vermuthlich u. das schiene
+                    auch mir, wenn ich mir ein Urtheil erlauben darf, das Angemessenste, trennen Sie
+                        <pb n="3*"/> <bibl sameAs="691">Ihre französische Schrift</bibl> von der
+                        <bibl sameAs="396">Bibliothek</bibl>, geben aber den wesentlichen Inhalt,
+                    vorzüglich das, was die <hi rend="antiqua">Interpretation</hi> der einzelnen
+                    Stellen betrift, in der <bibl sameAs="396">Bibliothek</bibl> in andrer Form. Den
+                    Wunsch, daß, wenn Ew. Hochwohlgebornen noch Gebrauch von <bibl sameAs="199">meinen
+                        Bemerkungen</bibl> zu machen die Güte hätten, diese doch spätestens zu
+                        <date when="1826-09-29">
+                  <hi rend="antiqua">Michaelis</hi> dieses
+                        Jahres</date> erschienen, werden Sie verzeihlich finden. Auf Ihre
+                    berichtigenden Anmerkungen freue ich mich sehr, und danke Ihnen herzlich dafür,
+                    daß Sie mir durch einiges früher Mitgetheilte Gelegenheit geben, schon jetzt
+                    einiges auszumärzen, und unnütze vermuthende Erklärungen abzuschneiden. Ich
+                    antworte auf diese Stellen auf einem eignen Blatt.</p>
+            <p>Daß es ursprünglich metaphysische Ausdrücke geben kann, möchte ich auf keine
+                    Weise bestreiten. Was Ew. Hochwohlgebornen über <foreign sameAs="sa" n="transEd">deha<graphic url="Schlegel/WvH-Schlegel_1826_03_05/152.svg"/>
+               </foreign> in dieser Beziehung sagen ist nicht nur höchst scharfsinnig,
+                    sondern auch so ansprechend, daß man auf den ersten Anblick gleich es für wahr
+                    zu halten geneigt ist. Andre Begriffe sind aber wohl offenbar erst nach u. nach
+                    übergetragene<note type="footnote" resp="editor">Leitzmann 1908, S. 195:
+                        übertragen.</note>, und dahin möchte <foreign sameAs="sa" n="transEd">yoga<graphic url="Schlegel/WvH-Schlegel_1826_03_05/153.svg"/>
+               </foreign>
+                    gehören. Das aber dürfte doch wohl immer wahr bleiben, was ich in meinen
+                    Bemerkungen sage, daß auch den ursprünglichst metaphysischen Begriffen eine
+                    sinnliche Anschauung zum Grunde liegt. Auch in dem von Ihnen angeführten
+                    Beispiel ist es nicht anders. Allein in Sprachen, wo die Speculation schon seit
+                    sehr frühen Zeiten gewaltet hat, ist dies bei weitem nicht immer nachzuweisen.
+                    Die Idee der drei Sprachgattungen sollten Sie doch einmal ausführen. Ich bin bis
+                    auf einen gewissen Grad über das Wirken der Urvölker auf die Sprachen ganz Ihrer
+                    Meinung, ich unterscheide ebenso Natur u. Erfahrung, glaube an das
+                    Divinatorische der noch kräftigen Natur, halte dafür, daß Vieles in den Sprachen
+                    kann durch einen glücklichen Wurf entstanden seyn, nehme auch ursprüngliche
+                    Flexion an; indeß halte ich mich immer innerhalb dessen, was wir gewissermaßen
+                    noch an Menschen sehen, oder wenigstens menschlich schließen können, u. lasse
+                    diese Dinge, als durch nichts <pb n="4*"/> Factisches geradezu beweisbar (oder
+                    besser insofern sie das nicht sind) als Möglichkeiten stehen, brauche sie nicht
+                    sowohl direct, als nur um nicht, indem ich sie abläugnete, Schranken zu ziehen,
+                    von denen die Wirklichkeit frei ist, u. welche die Untersuchung einengen. Nichts
+                    ist mir so widrig, als bloß mechanische Erklärung. Dagegen gehen Sie, soviel ich
+                    sehen kann, viel weiter, setzen Uebermenschliches, oder wenigstens Menschliches,
+                    wovon wir nirgends ein Analogon ahnden können, voraus, scheinen das Mechanische,
+                    auch wo es seyn kann u. ist, ganz verdrängen zu wollen, und sehen in einigen
+                    Sprachen nur jenen kühnen freien Gang einer schöpferisch bildenden Kraft, indeß
+                    <sic>sie</sic>
+               <note type="footnote" resp="editor">Leitzmann 1908, S. 196:
+                        Sie.</note> andre dem gebundnen u. mühseligen, der irdisch an einander
+                    knüpft, hingeben. Der Hauptunterschied zwischen uns aber möchte wohl darin
+                    liegen, daß ich furchtsamer historisch zu Werke gehe. Sie reden von den Urvätern
+                    des Menschengeschlechts. Bis dahin scheint mir keine Sprache zu führen. Ich
+                    befinde mich immer nur in einer Mitte der Bildung, wo von den Fortschritten mehr
+                    oder weniger sichtbar, aber der Anfang ganz dunkel ist. Daher ist mir auch keine
+                    Sprache rein, alle, die wir kennen, sind schon gemischt. Das Glück des
+                    Organismus der sehr gelungenen scheint mir nun darin zu liegen, daß da, wo ihre
+                    Eigenthümlichkeit aus schon vorhandnen Elementen entstand (denn einen
+                    Concretions- oder Congelations- oder Krystallisationspunkt muß es für jede
+                    Sprachindividualität geben) diese Sprachen glücklich u. rein organisirten
+                    Stämmen unter günstigen Umständen angehörten. Neben diesen glücklichen
+                    Ausnahmen, denn so kann man sie doch nennen, giebt es aber eine Anzahl weniger
+                    gerathener Bildungen, u. da Vieles doch allen Menschen gemeinsam ist, Vieles
+                    auch allen Völkern in den Lagen, wo die gesellschaftliche Verfassung noch auf
+                    niedrigen Stufen steht, so bieten auch die glücklichst organisirten Sprachen
+                    Unvollkommenheiten, u. die unvollkommenen einzeln<note type="footnote" resp="editor">Leitzmann 1908, S. 196: einzelne.</note> Erstaunen erregende Vorzüge
+                    dar. Man muß nur viele einzelne Sprachen untersuchen, die Zergliederung recht
+                    anstellen, überall das Gemeinsame sorgfältig vom Abweichenden u. Eigenthümlichen
+                    abscheiden, und eine jede Sprache aus dem Gesichtspunkt betrachten, aus dem sie
+                    der Nation <pb n="5*"/> erscheinen mußte, die sie sprach. Diesen Weg suche ich
+                    zu gehen, und habe diese Methode noch neulich am Chinesischen versucht, das wohl
+                    in grammatischer Hinsicht eine der aller merkwürdigsten Sprachen ist. Sie ist
+                    der wahre entgegengesetzte Pol des Sanskrits, diese beiden Sprachen sind
+                    gleichsam die vollkommne Grammatik u. die Grammatiklosigkeit. Zwischen beiden
+                    liegen dann die zahllosen Mundarten mit unvollkommneren Grammatiken. </p>
+            <p>Es ist wohl sehr schwer zu sagen, ob die Anomalieen die spätern oder frühern
+                    Bildungen sind. Ich glaube beides, allgemein läßt sich darin nichts entscheiden.
+                    Ich weiß nicht ob Ew. Hochwohlgebornen <hi rend="antiqua">
+                  <persName ref="kfbecker">Becker</persName>s</hi> <bibl sameAs="690">Deutsche
+                        Wortbildung</bibl> kennen. Es ist gewiß kein zu verschmähendes Buch. Er
+                    hält die Deutsche Abwandlung: binde, band, gebunden für die ältere, u. darin
+                    möchte ich ihm wohl beistimmen. Diese Vocalumlautung kann nur eine sehr frühe,
+                    gewissermaßen ursprüngliche seyn. Nachher können freilich einzelne Verba, die
+                    sie nicht hatten, so angeformt seyn. Daß die Gleichheit des <hi rend="antiqua">Nominat.</hi> u. <hi rend="antiqua">Accus.</hi> der <hi rend="antiqua">Neutra</hi> eine Schönheit sey, möchte ich doch bezweifeln. Sie
+                    verschwindet, wenn ich auch alles Uebrige annehme, schon dadurch wenigstens im
+                    spätern Griechischen u. Lat. weil ja viele unbelebte Dinge <hi rend="antiqua">Mascul.</hi> u. <hi rend="antiqua">Fem.</hi> u. einige <hi rend="antiqua">Neutra</hi> belebte sind. Sollte auch der Unterschied zwischen <hi rend="underline">handeln</hi> und <hi rend="underline">wirken</hi> so scharf
+                    aufgefaßt worden seyn? Was ich am meisten entgegensetzen möchte, ist, daß die
+                    ganze Sprache in ihrem tiefsten Wesen Eine große Prosopopöe ist, wo das logische
+                    Urtheil <hi rend="antiqua">a = b</hi> verwandelt wird in ein Vorstellen, daß <hi rend="antiqua">a</hi> handelt oder leidet u. in der einen oder andren
+                    Beziehung mit <hi rend="antiqua">b</hi> steht. Gerade der frischere Mensch mit
+                    noch einzeln mehr verständlicher Sprache mußte das viel lebendiger fühlen, als
+                    wir, die wir schon soviel allgemeine Verben haben, die den Begriff dem = der
+                    Mathematik so nahe, als möglich, bringen. Ohne Rücksicht auf die Bedeutung mußte
+                    also <hi rend="antiqua">Subject</hi> u. <hi rend="antiqua">Object</hi> scharf
+                    geschieden da stehen. Die Homonymie der <hi rend="antiqua">Neutra</hi> in diesem
+                    Fall scheint mir nur daher zu kommen, <pb n="6*"/> daß die <hi rend="antiqua">Declination</hi> der <hi rend="antiqua">Neutra</hi> überhaupt eine
+                    unvollkommnere ist. Dies zeigt das <hi rend="antiqua">Sanskrit</hi> deutlich, wo
+                        <hi rend="antiqua">Neutrum</hi> und Wurzelwort so oft durch nichts
+                    verschieden sind. Das <hi rend="antiqua">Neutrum</hi> ist also noch halb
+                    Wurzelwort. Daß dies aber so ist, wird durch Ew. Hochwohlgebornen Bemerkung sehr
+                    schön erklärt. Nur das so lebendig hervortretende, daß man Geschlecht daran
+                    unterscheiden zu müssen glaubte, wurde sorgfältiger organisirt. Daß <hi rend="antiqua">Dual</hi> u. <hi rend="antiqua">Plural</hi> mehr <hi rend="antiqua">homonyme Casus</hi> haben, als der <hi rend="antiqua">Singular</hi> läßt sich wohl daher ableiten, daß man diese Formen
+                    ursprünglich weniger brauchte, und daher auch sorgloser behandelte. </p>
+            <p>Daß Ew. Hochwohlgebornen meine <bibl sameAs="224">Abhandlung über die
+                        Buchstabenschrift</bibl> einer so verweilenden Aufmerksamkeit gewürdigt
+                    haben, ist mir unendlich schmeichelhaft gewesen, und noch mehr hat es mich
+                    gefreut zu sehen, daß meine Ideen mit den Ihrigen übereinstimmen. Denn die
+                    Verschiedenheit unsrer Ansicht scheint mir, wenn sie noch eine ist, eine höchst
+                    geringe. Sie sagen: die Buchstabenschrift wäre schon in den frühesten Zeiten <hi rend="antiqua">virtualiter</hi> vorhanden gewesen, wenn sie auch nicht in
+                    Ausübung gebracht wurde. Wenn Sie damit die Stelle meiner Abhandlung
+                    vergleichen, wo ich S. 14. vom geistigen Theile des Alphabets, noch ohne Zeichen
+                    fürs Auge, spreche, so werden Sie sehen, daß es im Grunde dasselbe ist. Ich
+                    glaube nur nicht, daß die Zeichen dann lange fehlen konnten. Dauernde<note type="footnote" resp="editor">Leitzmann 1908, S. 199: Daurende.</note> Stoffe
+                    waren dazu nicht nothwendig. Die Hauptsache war nur, daß man den Ton im Bild
+                    schuf. Denn es scheint mir im Menschen zu liegen, daß, was sein Geist sehr
+                    lebendig ergreift, ihn auch reizt, es sich durch alle Sinne anschaulich zu
+                    machen. Ein großer Zeitraum konnte also, meines Erachtens, nicht zwischen dem
+                    Aussprechen u. dem Bezeichnen <del type="fragment">d</del> eines abgesonderten
+                    Buchstabens, den man als Sylbenelement, nicht als ein eignes Wort, erkannte,
+                    liegen.</p>
+            <p>
+               <hi rend="antiqua">
+                  <persName ref="jpabel">Rémusat</persName>s</hi> Aufsatz<note type="footnote" resp="editor">Anm. Leitzmann 1908, S. 285: <hi rend="italic">"Sur
+                            un vocabulaire philosophique en cinq langues, imprimé à Peking" <bibl sameAs="376"> Mélanges asiatiques</bibl>
+                  </hi> 1, S. 153.</note>, wie
+                    ein Chinesischer <hi rend="antiqua">Autor</hi> die Buchstabenschrift schildert,
+                    ist mir leider nicht bekannt. Der Chinesischen Sprache die Buchstabenschrift,
+                    unsre oder die Indische, anzu-<pb n="7*"/>eignen, scheint mir auf keine Weise
+                    unmöglich, nicht einmal schwierig. Aber daß die Chinesen es schwerlich je thun
+                    werden, liegt, dünkt mich, darin, daß in ihrer Ansicht ihre Schrift wirklich ein
+                    Theil der Sprache ist. Sie muß also mit jedem irgend denkenden Chinesen wahrhaft
+                    verwachsen seyn. Dies liegt zum Theil in der Armuth der Sprache an Wörtern u.
+                    überhaupt an Lauten, u. zum Theil in andren Umständen. So drückt sich die
+                    Verwandtschaft der Begriffe im Chinesischen sehr stark in den Schriftzeichen u.
+                    soviel ich habe bemerken können, gar nicht in den Lautzeichen aus.</p>
+            <p>Des <hi rend="antiqua">index verborum</hi> zur <bibl sameAs="52">
+                  <hi rend="antiqua">Bh.-G.</hi>
+               </bibl> will ich Ew. Hochwohlgebornen auf keine Weise
+                    berauben. Ich habe freilich keinen über alle darin vorkommende Wörter, aber über
+                    die mich interessirenden habe ich mir einen genügenden gemacht, u. auch aus
+                    allen philosophischen Stellen des <bibl sameAs="283">
+                  <hi rend="antiqua">Manus</hi>
+               </bibl> die Wörter hinzugefügt, so daß ich ziemlich leicht in
+                    beiden Schriften die Stellen auffinden kann. Diesen ganzen Theil des <bibl sameAs="283">
+                  <hi rend="antiqua">Manus</hi>
+               </bibl> habe ich in diesem Sommer
+                    mir abgeschrieben u. wörtlich übersetzt, u. aus dieser Arbeit viel Nutzen
+                    gezogen. Auch habe ich immer den <hi rend="antiqua">Scholiasten</hi>
+               <!-- KS: Haben wir den? Kennen wir den? --> gelesen, u. auch
+                    viel aus ihm abgeschrieben – was ich nemlich verstand. Denn ihn ganz u. leicht
+                    zu verstehen, behaupte ich keinesweges.</p>
+            <p>Das <hi rend="underline">pantheistisch</hi> streichen Ew. Hochwohlgebornen ja
+                    aus, wo es sich betreten läßt. Es thut hier gar nichts zur Sache. In meiner
+                        <bibl sameAs="213">Abhandlung</bibl> über das Lehrsystem der <bibl sameAs="52">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> habe ich schon ausdrücklich
+                    gewarnt, nicht auf <hi rend="antiqua">Krischnas</hi> Lehren anzuwenden, was man
+                    gemeinhin vom <hi rend="antiqua">Pantheismus</hi>
+               <hi rend="antiqua">praedicirt</hi>. Auch freut es mich zu sehen, daß Ew. Hochwohlgebornen auch
+                    nicht mit den
+                        Ideen<!-- ="Über die Sprache und Weisheit der Inder" (ID 661)? --> <persName ref="fschlegel">Ihres Bruders</persName> über die <bibl sameAs="52">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> übereinstimmen, die ich gar nicht
+                    theilen kann. Indeß <hi rend="antiqua">Pantheismus</hi> muß man doch das System,
+                    meiner Meinung nach, nennen. Die Sache scheint mir darauf zu beruhen, daß das
+                    Kriterium des Theismus die Schöpfung aus Nichts ist. Gerade diese verwirft das
+                    Indische System gänzlich. Wo nun die Welt nicht geschaffen, sondern gleich ewig
+                    mit Gott ist, da ist Dualismus, wo eine selbständige u. unabhängige Welt Gott
+                        ent-<pb n="8*"/>gegensteht, oder Pantheismus, den ich aber bloß darein
+                    setze, daß die Welt immanent in Gott ist. Nicht einmal umkehren läßt sich der
+                    Satz schlechthin, wie deutliche Stellen der <bibl sameAs="52">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> beweisen. Dies schließt nun den <hi rend="antiqua">Spiritualismus</hi> nicht aus, der vielmehr so stark ist, daß Welt u.
+                    Materie ja fast zu durch Zauber hervorgebrachtem Schein werden, es schließt
+                    ebensowenig eine Absonderung des Menschen von der Gottheit aus. Diese letztere
+                    scheint mir aber auch in allem <hi rend="antiqua">Pantheismus</hi> statt finden
+                    zu können, da auch im strengsten der Mensch sich zu Gott doch immer wie Theil
+                    zum Ganzen verhielte. Ich könnte übrigens auch in meiner, Ihnen noch <bibl sameAs="213">unbekannten Abhandlung</bibl> ohne Anstand das <hi rend="underline">pantheistisch</hi> wegstreichen. Denn ich habe mich gar
+                    nicht darauf eingelassen über das System zu sprechen, es in die Reihe der andren
+                    bekannten zu <hi rend="antiqua">classificiren</hi>, oder sonst etwas darüber zu
+                    bestimmen. Ich habe bloß gesucht, die in der ganzen <bibl sameAs="52">
+                  <hi rend="antiqua">Gita</hi>
+               </bibl> zerstreuten Lehrsätze zu sammeln, u.
+                    mit den Beweisstellen zu ordnen. Meine ganze Abhandlung ist eigentlich nur ein
+                    ausführliches <hi rend="antiqua">Argumentum</hi>. Darauf allein habe ich mich
+                    beschränkt u. aus vielen Gründen. Auf diese Weise aber kann meine Arbeit dem,
+                    der nur das Gedicht selbst studiren will, nützlich seyn. Ich kann nicht läugnen,
+                    daß es mir viel Mühe gemacht hat, ehe ich mir das Ganze habe recht vor Augen
+                    stellen können, u. ich will mich glücklich schätzen, wenn Sie finden sollten,
+                    daß es mir gelungen ist.</p>
+            <closer>
+               <salute>Mein Brief ist aber von einer übermäßigen Länge geworden. Der Inhalt
+                        des Ihrigen hatte mich aber so angezogen, daß es mir unmöglich gewesen wäre,
+                        nicht auf jede einzelne Stelle desselben wieder einzugehen. Erhalten Sie mir
+                        Ihr wohlwollendes Andenken u. Ihre Freundschaft, und nehmen Sie die
+                        Versichrung meiner ausgezeichnetesten Hochachtung u. Ergebenheit
+                        an.</salute>
+               <signed>Humboldt</signed>
+               <lb/>
+               <dateline>
+                  <hi rend="antiqua">Berlin</hi>, den 5. <hi rend="antiqua">März</hi>,
+                    1826.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

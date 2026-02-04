@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Wilhelm von Humboldt, 13.09.1824<idno type="BBAW">739</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verschollen</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Familie von Humboldt 1880, S. 131–133</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 11815</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="jpabel">
+                  <persName>Abel-Rémusat, Jean-Pierre</persName>
+               </person>
+               <person corresp="plblacasdaulps">
+                  <persName>Blacas d’Aulps, Pierre Louis Jean Casimir Duc
+                    de</persName>
+               </person>
+               <person corresp="bopp">
+                  <persName>Bopp, Franz</persName>
+               </person>
+               <person corresp="jfchampollion">
+                  <persName>Champollion le jeune, Jean-François</persName>
+               </person>
+               <person corresp="jjchampollion">
+                  <persName>Champollion, Jacques-Joseph</persName>
+               </person>
+               <person corresp="alchezy">
+                  <persName>Chézy, Antoine-Léonard de</persName>
+               </person>
+               <person corresp="bmmdrovetti">
+                  <persName>Drovetti, Bernardino Michele Maria</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="karlfelix">
+                  <persName>Karl Felix I., König von Sardinien-Piemont</persName>
+               </person>
+               <person corresp="kskunth">
+                  <persName>Kunth, Karl Sigismund</persName>
+               </person>
+               <person corresp="lmlangles">
+                  <persName>Langlès, Louis-Mathieu</persName>
+               </person>
+               <person corresp="jaletronne">
+                  <persName>Letronne, Jean-Antoine</persName>
+               </person>
+               <person corresp="ludwig 18">
+                  <persName>Ludwig XVIII., König von Frankreich</persName>
+               </person>
+               <person corresp="drrochette">
+                  <persName>Rochette, Désiré Raoul</persName>
+               </person>
+               <person corresp="feschulz">
+                  <persName>Schulz, Friedrich Eduard</persName>
+               </person>
+               <person corresp="hwwerther">
+                  <persName>Werther, Heinrich August Alexander Wilhelm von</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="379">Abel-Rémusat, Jean-Pierre (1824): [Rez.] Wilhelm von Humboldt: Über
+                    das Entstehen der grammatischen Formen, und ihren Einfluss auf die
+                    Ideenentwicklung. In: Journal Asiatique 12, S. 51–61</bibl>
+               <bibl corresp="1272">Champollion, Jean-François (1824): Lettres à M. le duc de Blacas
+                    d’Aulps, relatives au Musée Royal Égyptien de Turin. Lettre 1: Monuments
+                    historiques, Paris: Didot</bibl>
+               <bibl corresp="222">Humboldt, Wilhelm von (1825): Über das Entstehen der grammatischen
+                    Formen und ihren Einfluß auf die Ideenentwicklung. Gelesen in der Akademie der
+                    Wissenschaften am 17. Januar 1822. In: Abhandlungen der
+                    historisch-philologischen Klasse der Königlichen Akademie der Wissenschaften in
+                    Berlin aus den Jahren 1822 und 1823, S. 401–430. – Vgl. GS IV, S.
+                    285–313</bibl>
+               <bibl corresp="224">Humboldt, Wilhelm von (1826): Ueber die Buchstabenschrift und ihren
+                    Zusammenhang mit dem Sprachbau. Gelesen in der Akademie der Wissenschaften am
+                    20. Mai 1824. In: Abhandlungen der Königlichen Akademie der Wissenschaften zu
+                    Berlin aus dem Jahre 1824, S. 161–188. – Vgl. GS V, S. 107–133</bibl>
+               <bibl corresp="234">Jacotin, Pierre (1818): Carte géographique de l’Egypte et des pays
+                    environnans. Réduite d’après la carte topographique levée pendant l’expédition
+                    de l’armée française. Gravée au dépot général de la Guerre. Publiée par ordre du
+                    Gouvernement, Paris: Impr. impériale</bibl>
+               <bibl corresp="773">La Société Asiatique (Hrsg.): Journal Asiatique, Paris: Ponthieu
+                    u.a. 1822–heute</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Le Roi de France est au plus mal, cher ami: on vient de lui
+                        donner les sacrémens …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="avh">Humboldt, Alexander von</persName>
+               <date type="author" when="1824-09-13"/>
+               <placeName key="Paris">Paris</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="ind">
+            <language ident="Egyd">Ägyptisch (Demotisch)</language>
+            <language ident="Egyp">Ägyptische Hieroglyphen</language>
+            <language ident="ar">Arabisch</language>
+            <language ident="zh">Chinesisch</language>
+            <language ident="fa">Persisch</language>
+            <language ident="sa">Sanskrit</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">11. Juli 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="1">
+            <opener>
+               <dateline>Paris le 13. Sept. 1824.</dateline>
+            </opener>
+            <p>
+               <persName ref="ludwig18">Le Roi de France</persName> est au plus mal, cher ami:
+                    on vient de lui donner les sacrémens en présence de toute la cour et comme
+                    probablement il mourra dans la nuit, il y aura des courriers. Je prépare cette
+                    lettre pour ne pas manquer l’occasion de répondre à ta lettre du <date when="1824-09-05">5. Sept.</date>, que je reçois en ce moment et qui
+                    m’apprend ton heureux retour de Silésie.<note type="footnote" resp="editor">D.h.
+                            <placeName ref="Ottmachau">Ottmachau</placeName>.</note> Je crains que
+                    tu auras beaucoup souffert de la chaleur pendant le voyage. Ma santé est tout à
+                    fait rétablie, mais je ne sais comment m’excuser de l’étourderie que je pourrais
+                    avoir fait rélativement à ton important mémoire sur les langues et le paquet
+                    pour <persName ref="jfchampollion">Champollion</persName>. Les deux envois ne
+                    sont effectivement venus qu’un courrier plus tard, mais je ne conçois pas
+                    comment je ne t’en avais pas parlé. <bibl sameAs="222">Le mémoire sur les formes
+                        grammaticales</bibl> a fait la plus grande sensation ici et je croyais
+                    t’avoir écrit que <persName ref="jpabel">Rémusat</persName> en a fait à ma
+                    prière <bibl sameAs="379">un extrait dans le Journal asiatique</bibl>. <persName ref="kskunth">Kunth</persName> était même chargé de te porter <bibl sameAs="379">cet extrait</bibl>. <bibl sameAs="224">Le manuscrit sur l’influence
+                        de l’écriture</bibl> également marquant est même encore entre les mains
+                    d’un <persName ref="feschulz">Professeur Schulz</persName> de <placeName ref="Darmstadt">Darmstadt</placeName>, que nous <sic>avous</sic>
+               <note type="footnote" resp="editor">Wohl ein Satzfehler.</note> ici et qui a une
+                    profonde érudition du persan, arabe et chinois. Tu vois même par la lettre
+                    incluse et les notes avec quelle importance nous avons traité ici ces derniers
+                    travaux, que nous voudrions (c’est un voeu général ici) voir réunis en un seul
+                    volume. Je répondrai à <persName ref="feschulz">Schulz</persName> de préparer
+                    l’extrait du <bibl sameAs="224">mémoire sur l’écriture</bibl>, mais de ne le
+                    donner au <bibl sameAs="773">Journal asiatique</bibl> que lorsque tu m’en auras
+                    donné la permission. Car le mémoire, n’étant pas encore imprimé à <placeName ref="Berlin">Berlin</placeName>, tu pourrais avoir quelque scrupule que l’on
+                    annonce sur une copie manuscrite. Pourquoi ne l’imprimerais-tu pas de suite. Ce
+                    sont des objets infiniment curieux et traités d’une manière entièrement neuve.
+                    Fais moi le plaisir d’écrire quelques lignes pour une entreprise au <persName ref="feschulz">Professeur Schultz</persName>, c’est un homme très spirituel
+                    et aimable, qui sera pour l’Allemagne en chinois ce que <persName ref="bopp">Bopp</persName> est en Sanscrit. Il se trouverait très flatté de ton
+                    souvenir, tu pourrais lui adresser des questions sur le chinois et dire dans
+                    cette lettre quelques mots pour <persName ref="jpabel">Abel Rémusat</persName>
+                    qui t’est très dévoué et qui t’a fait recevoir récemment (par acclamation)
+                    correspondant de la <orgName ref="4">Société Asiatique</orgName>. <persName ref="jpabel">Rémusat</persName>, qui tient un peu au système des ultras
+                    (avec <persName ref="jaletronne">Letronne</persName> et <persName ref="drrochette">Raoul Rochette</persName>) a gagné injustement sur
+                        <persName ref="alchezy">Chézy</persName>: il a eu la place de <persName ref="lmlangles">Langlès</persName>. La bibliothèque gagnera sans doute par
+                    son activité, mais il ne sait pas l’arabe et le persan, et quelque plainte qu’on
+                    puisse porter contre la négligence et paresse de <persName ref="alchezy">Chézy</persName>, il a été toujours dur pour lui de rester employé et voir
+                    appeller un homme plus jeune pour devenir son supérieur. Quant au manuscrit par
+                        <persName ref="jfchampollion">Champollion</persName> je l’ai lu en grande
+                    partie, cher ami, j’ai admiré le talent avec lequel déjà tu t’es rendu maître de
+                    ce genre d’interprétation. Le manuscrit a été envoyé par <persName ref="jjchampollion">le frère de Champollion</persName> à <placeName ref="Turin">Turin</placeName> où <persName ref="jfchampollion">le vrai
+                        Champollion</persName> travaille toujours à la collection de <persName ref="bmmdrovetti">Drovetti</persName>
+               <sic>te</sic> où il a découvert une copie de l’inscription de Rosette (du moins
+                    les mêmes formules) et deux manuscrits <hi rend="letterspace">phéniciens</hi>!
+                    Dis moi donc si <persName ref="jfchampollion">Champollion</persName> ne t’a
+                    jamais écrit ni sur les premières notes que tu m’avais confiées. Cela me
+                    confond, car il était plein de reconnaissance pour toi. Il paraît que <persName ref="karlfelix">le Roi de Sardaigne</persName> va charger <persName ref="jfchampollion">Champollion</persName> de publier et faire graver toute
+                    la collection de <persName ref="bmmdrovetti">Drovetti</persName>. C’est une
+                    honte qu’on ne l’ait pas achetée chez nous ou ici pour 300000 frcs., il y a tant
+                    de doubles que <persName ref="plblacasdaulps">
+                  <hi rend="letterspace">Blacas</hi>
+               </persName> (qui a eu le grand mérite d’avoir envoyé <persName ref="jfchampollion">Champollion</persName> à ses fraix à Turin) m’a dit
+                    qu’on pourrait revendre pour 400,000 francs d’objets doubles. <persName ref="jfchampollion">Champ.</persName> commence ici à imprimer <bibl sameAs="1272">une série de lettres</bibl> adressées au <persName ref="plblacasdaulps">Duc de Blacas</persName> sur la collection <persName ref="bmmdrovetti">Drovetti</persName>.<note type="footnote" resp="editor">Ein vom Autor gewidmetes Exemplar der ersten "Lettre" an Blacas befand sich in
+                        Humboldts Bibliothek: Schwarz 1993, S. 50 Nr. 368. [FZ]</note>
+               <persName ref="plblacasdaulps">Le Duc</persName> (et cela est grandiose) a mis
+                    100,000 frcs. à sa disposition pour lui acheter tout ce qu’en hiéroglyphes est à
+                    vendre en Italie. Incertain si une de mes lettres se serait perdue (car
+                    malheureusement je ne note jamais les dates de celles que j’écris) je te répète
+                    aussi, cher ami, que <bibl sameAs="234">la carte d’Egypte</bibl> ne fait pas
+                    partie de ce que l’on reçoit en cadeau parce qu’elle a paru dans un autre
+                    Ministère non au Ministère de l’Intérieur, mais en celui de la guerre. </p>
+         </div>
+         <div type="writingAct" n="2">
+            <p>à 5h du soir. </p>
+            <p>J’écris ces lignes chez <persName ref="hwwerther">M. de Werther</persName>. <persName ref="ludwig18">Le Roi</persName> n’est pas mort encore: mais il ne survivra
+                    pas la nuit. Le courrier ne porte une lettre que pour annoncer sa mort. Adieu,
+                    cher cher ami: j’espère que <persName ref="cvh1">la bonne Li</persName> se sera
+                    bien ressentie de ses bains. </p>
+            <closer>
+               <salute>Mille tendres amitiés</salute>
+               <signed>Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
