@@ -36,6 +36,37 @@ class FileClient:
         
         if not self.input_dir.is_dir():
             raise ValueError(f"Input-Pfad ist kein Verzeichnis: {input_dir}")
+        
+        # Tags aus ignore-Datei laden
+        self._load_ignore_tags()
+    
+    def _load_ignore_tags(self):
+        """Lädt Tags aus tags_ignore.txt Datei."""
+        self.exclude_tags = []
+        self.exclude_tag_attrs = []
+        
+        ignore_file = Path(__file__).parent.parent / "tags_ignore.txt"
+        if ignore_file.exists():
+            try:
+                with open(ignore_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith('#'):
+                            if ':' in line and '=' in line:
+                                # Format: tag:attr=value
+                                tag_part, attr_part = line.split(':', 1)
+                                if '=' in attr_part:
+                                    attr_name, attr_value = attr_part.split('=', 1)
+                                    self.exclude_tag_attrs.append((tag_part.strip(), attr_name.strip(), attr_value.strip()))
+                            else:
+                                # Einfacher Tag-Name
+                                self.exclude_tags.append(line)
+                
+                logger.info(f"Ignore-Tags geladen: {len(self.exclude_tags)} Tags, {len(self.exclude_tag_attrs)} Tag-Attribute")
+            except Exception as e:
+                logger.warning(f"Konnte tags_ignore.txt nicht laden: {e}")
+        else:
+            logger.info("Keine tags_ignore.txt gefunden - keine Tags werden ignoriert")
     
     def _read_file(self, file_path: Path) -> str:
         """
@@ -212,11 +243,9 @@ class FileClient:
         """
         Extrahiert den bereinigten Brieftext aus dem body-Element.
         
-        Entfernt:
-        - note-Elemente (Apparatnotizen)
-        - index-Elemente (Registereinträge)
-        - pagina-Anweisungen
-        - Übermäßige Whitespace
+        Entfernt Tags basierend auf tags_ignore.txt:
+        - Einfache Tags (mit Inhalt)
+        - Tags mit bestimmten Attributen (z.B. div[@type='comment'])
         
         Args:
             body: TEI body-Element
@@ -228,9 +257,36 @@ class FileClient:
         # Arbeite mit einer Kopie, um Original nicht zu verändern
         body_copy = copy.deepcopy(body)
         
-        # Entferne störende Elemente (Apparatnotizen, Registereinträge, Anker)
-        tags_to_remove = ['note', 'index', 'anchor', 'ref']
-        for tag in tags_to_remove:
+        # Entferne Tags mit bestimmten Attributen (z.B. div[@type='comment'])
+        for tag, attr_name, attr_value in self.exclude_tag_attrs:
+            # Mit TEI-Namespace
+            for elem in body_copy.findall(f'.//tei:{tag}[@{attr_name}]', ns):
+                if attr_value in elem.get(attr_name, ''):
+                    parent = self._find_parent(body_copy, elem)
+                    if parent is not None:
+                        # Tail-Text bewahren
+                        if elem.tail:
+                            prev = self._find_previous_sibling(parent, elem)
+                            if prev is not None:
+                                prev.tail = (prev.tail or '') + elem.tail
+                            else:
+                                parent.text = (parent.text or '') + elem.tail
+                        parent.remove(elem)
+            # Ohne Namespace
+            for elem in body_copy.findall(f'.//{tag}[@{attr_name}]'):
+                if attr_value in elem.get(attr_name, ''):
+                    parent = self._find_parent(body_copy, elem)
+                    if parent is not None:
+                        if elem.tail:
+                            prev = self._find_previous_sibling(parent, elem)
+                            if prev is not None:
+                                prev.tail = (prev.tail or '') + elem.tail
+                            else:
+                                parent.text = (parent.text or '') + elem.tail
+                        parent.remove(elem)
+        
+        # Entferne einfache Tags (mit Inhalt)
+        for tag in self.exclude_tags:
             # Mit TEI-Namespace
             for elem in body_copy.findall(f'.//tei:{tag}', ns):
                 parent = self._find_parent(body_copy, elem)
