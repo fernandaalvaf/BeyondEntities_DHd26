@@ -429,7 +429,7 @@ class Processor:
         output_data = {
             **result,
             "plantuml": plantuml_code,
-            "quelle": meta_info
+            "metadata": meta_info
         }
         
         try:
