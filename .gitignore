@@ -17,8 +17,10 @@ env/
 
 # Configuration (enthält API-Keys!)
 pipeline/config.yaml
+*.yaml
 
 # Output-Verzeichnisse (werden lokal generiert)
+output_json/*
 pipeline/output_json/*
 !pipeline/output_json/.gitkeep
 
@@ -27,6 +29,7 @@ pipeline/csv/*
 !pipeline/csv/.gitkeep
 
 # Logs
+logs/*
 pipeline/logs/*
 !pipeline/logs/.gitkeep
 
