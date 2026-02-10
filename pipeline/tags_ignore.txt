@@ -1,0 +1,14 @@
+# Tags die komplett entfernt werden sollen (mit Inhalt)
+# Ein Tag pro Zeile, Kommentare mit # möglich
+
+# Standard TEI-Tags für Apparate und Verweise
+note
+index
+anchor
+ref
+postscript
+
+# Tags mit bestimmten Attributen entfernen
+# Format: tag:attribut=wert
+div:type=comment
+div:type=apparatus

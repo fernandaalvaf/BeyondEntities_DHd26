@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Configuration (enthält API-Keys!)
+pipeline/config.yaml
+
+# Output-Verzeichnisse (werden lokal generiert)
+pipeline/output_json/*
+!pipeline/output_json/.gitkeep
+
+# CSV-Exports (werden lokal generiert)
+pipeline/csv/*
+!pipeline/csv/.gitkeep
+
+# Logs
+pipeline/logs/*
+!pipeline/logs/.gitkeep
+
+# Input-Daten (zu groß für Git)
+pipeline/analyze/*
+!pipeline/analyze/.gitkeep
+
+# Examples (optional, falls zu groß)
+pipeline/examples/*
+!pipeline/examples/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

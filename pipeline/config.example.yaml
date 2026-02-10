@@ -1,0 +1,71 @@
+database:
+  driver: "mysql+pymysql"    # oder "postgresql", "sqlite", etc.
+  host: "localhost"
+  port: 3306
+  user: "your_database_user"
+  password: "your_database_password"
+  name: "your_database_name"
+  # SQL-Query, die mindestens id und ein Textfeld (sourcetext) liefert
+  # Die Query muss das Textfeld als sourcetext zurückgeben (mit AS)
+  query: |
+    SELECT
+      id,
+      text_column AS sourcetext
+    FROM your_table_name
+    WHERE processed = FALSE
+    LIMIT 10;
+
+api:
+  active_profile: "chatai"  # Wähle: "chatai" oder "gemini"
+  
+  profiles:
+    chatai:
+      api_provider: "openai"
+      base_url: "https://chat-ai.academiccloud.de"
+      endpoint: "/v1/chat/completions"
+      api_key: "your-api-key-here"
+      model: "llama-3.3-70b-instruct"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+      exponential_backoff: true
+      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
+    
+    gemini:
+      api_provider: "gemini"
+      base_url: "https://generativelanguage.googleapis.com"
+      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
+      api_key: "YOUR_GEMINI_API_KEY"
+      model: "gemini-3-pro-preview"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+      exponential_backoff: true
+      temperature: 0.1  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
+
+processing:
+  output_dir: "output_json"
+  # Optional: erwartete Top-Level-Keys im JSON der KI
+  required_keys:
+    - "entities"
+    - "praedikate"
+    - "triples"
+
+extraction:
+  default_granularity: 3          # Abstraktionslevel 1-5 (1=Kernaussage, 5=Vollständig)
+  entity_types:                    # Erlaubte Entitäts-Typen
+    - Person
+    - Ort
+    - Werk
+    - Institution
+    - Ereignis
+    - Konzept
+    - Zeitpunkt
+    - Sonstiges
+  normalize_predicates: true       # Prädikate normalisieren
+
+files:
+  input_dir: "analyze"             # Verzeichnis für Textdateien (bei --source file)
+  output_dir: "output_json"        # Ausgabeverzeichnis für JSON-Dateien
+  filename_pattern: "{timestamp}_{source}.json"  # Pattern für Dateinamen (Unterverz. gespiegelt)
+  xml_text_xpath: ".//text"        # XPath-Ausdruck für Text-Extraktion aus XML
