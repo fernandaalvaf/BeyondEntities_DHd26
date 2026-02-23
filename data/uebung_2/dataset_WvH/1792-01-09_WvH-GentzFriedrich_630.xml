@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Friedrich Gentz, 09.01.1792<idno type="BBAW">630</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen
+                        Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de"> Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW) </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                        Commons Attribution 4.0 International (CC BY-NC-SA 4.0) </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ehem. Berlin, AST</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1935b, S. 52–89. –
+                            Mattson 2015, S. 34–45 Nr. 210</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 206</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="aristoteles">
+                  <persName>Aristoteles</persName>
+               </person>
+               <person corresp="pbayle">
+                  <persName>Bayle, Pierre</persName>
+               </person>
+               <person corresp="empedokles">
+                  <persName>Empedokles</persName>
+               </person>
+               <person corresp="hesiod">
+                  <persName>Hesiod</persName>
+               </person>
+               <person corresp="homer">
+                  <persName>Homer</persName>
+               </person>
+               <person corresp="ikant">
+                  <persName>Kant, Immanuel</persName>
+               </person>
+               <person corresp="livius">
+                  <persName>Livius</persName>
+               </person>
+               <person corresp="ludwig14">
+                  <persName>Ludwig XIV. von Frankreich</persName>
+               </person>
+               <person corresp="ludwig16">
+                  <persName>Ludwig XVI. von Frankreich</persName>
+               </person>
+               <person corresp="lykurg">
+                  <persName>Lykurg</persName>
+               </person>
+               <person corresp="clmontesquieu">
+                  <persName>Montesquieu, Charles-Louis de Secondat, Baron de</persName>
+               </person>
+               <person corresp="jfpilatre">
+                  <persName>Pilâtre de Rozier, Jean-François</persName>
+               </person>
+               <person corresp="platon">
+                  <persName>Platon</persName>
+               </person>
+               <person corresp="greni">
+                  <persName>Reni, Guido</persName>
+               </person>
+               <person corresp="paromain">
+                  <persName>Romain, Pierre-Ange</persName>
+               </person>
+               <person corresp="jjrousseau">
+                  <persName>Rousseau, Jean-Jacques</persName>
+               </person>
+               <person corresp="dtiedemann">
+                  <persName>Tiedemann, Dietrich</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1149">Aristoteles (1550): Ἀριστοτελουϛ ἁπαντα. Aristotelis opera
+                        quaecumque hactenus extiterunt omnia, quae quidem ut antea integris aliquot
+                        libris supra priores editiones omnes a nobis auctae prodierunt, ita nunc
+                        quoque, lucis et memoriae causa, in capita diligenter distincta in lucem
+                        emittimus, Basel: per Io. Beb. et Mich. Ising</bibl>
+               <bibl corresp="1148">Estienne, Henri (1781–1786): Platonis Philosophi quae
+                        extant, graece, ad editionem Henrici Stephani accurate expressa cum Mars.
+                        Finici interpreatione, 11 Bde., Zweibrücken: Ex Typographia
+                        Societatis</bibl>
+               <bibl corresp="1156">Humboldt, Wilhelm von (1792): Ideen über Staatsverfassung,
+                        durch die neue Französische Konstituzion veranlaßt. In: Berlinische
+                        Monatsschrift 19, Januarheft, S. 84–98 (= GS I, S. 77–85)</bibl>
+               <bibl corresp="370">Rousseau, Jean-Jacques (1762): Émile ou De l’éducation,
+                        Amsterdam: Jean Néaulme</bibl>
+               <bibl corresp="29">Aristoteles: Nikomachische Ethik</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Wenn ich neulich, lieber Gentz, die Französische Konstitution nur
+                    als eine Veranlassung brauchte, allgemeine Ideen über alle Staatsreformen
+                    überhaupt gelegentlich daran zu entwikkeln …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1792-01-09"/>
+               <placeName key="Burgörner">Burgörner</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="fgentz">Gentz, Friedrich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. Oktober 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p> Wenn ich neulich, lieber Gentz, die Französische Konstitution nur als eine
+                    Veranlassung brauchte,<note type="footnote" resp="editor">Der erwähnte Brief an
+                        Gentz wurde in leicht veränderter Version <bibl sameAs="1156">in der
+                            Berlinischen Monatsschrift, Januarheft 1792</bibl>, publiziert.</note>
+                    allgemeine Ideen über alle Staatsreformen überhaupt gelegentlich daran zu
+                    entwikkeln; so habe ich sie seitdem zu einem angelegentlicheren Gegenstande
+                    meines Nachdenkens gemacht, und da sind mir vorzüglich zwei Betrachtungen
+                    aufgestoßen, die, wie mich dünkt, diese Konstitution noch weit von dem Ruhme
+                    eines Vernunftideals entfernen, in dessen ruhigem Besiz mein voriger Brief sie
+                    ließ. Wenn ich aber meinen Ideen mistraue; so mistraue ich noch mehr meiner
+                    Sachkenntniß, und in dieser doppelten Rüksicht bitt’ ich Sie um Berichtigung
+                    meines Raisonnements.</p>
+            <p>Bei der Beurtheilung jeder Staatsverfassung muß man, dünkt mich, sorgfältig zwei
+                    zu oft verwechselte Dinge unterscheiden, den Zwek, den sich die ganze
+                    Staatsverfassung überhaupt zu erreichen vorsezt, und die Mittel, welche sie
+                    verwendet um sich selbst ihr Dasein und die Möglichkeit ihrer Thätigkeit zu
+                    erhalten. Von dem ersteren ist in vielen Verfassungen, und z.B. in den alten
+                    griechischen und Italischen gar die Frage nicht. Ob in <placeName ref="Sparta">Sparta</placeName>, <placeName ref="Athen">Athen</placeName>, und
+                        <placeName ref="Rom">Rom</placeName> bloß die Sicherheit abgezwekt wurde,
+                    oder auch das übrige Wohl der Menschen, ob in diesem Fall ihr moralisches, oder
+                    physisches? möchte nicht bloß eine schwer, sondern eine gar nicht zu
+                    entscheidende Frage sein. Sehr natürlich auch. Solange es die Menschen waren,
+                    die sich einen Herrscher gaben, so konnte es ihnen nicht einfallen zu fragen,
+                    was wollen wir nun anfangen, wenn wir frei und wenn wir sicher sind, aber wenn
+                    der Herrscher die Menschen unterwirft, dann ist es nicht befremdend, daß
+                    entweder die Menschlichkeit des Regenten sich selbst die Frage vorlegt, welche
+                    Gränzen er wohl seiner Wirksamkeit sezen darf? oder daß die Menschen selbst es
+                    wagen, ihn an diese Gränzen zu erinnern. Die Bereicherung des Staatsrechts mit
+                    dieser Frage dürfte daher in eben die Zeiten fallen, in welchen,
+                    statt daß ehemals die Freien einen Herrscher verlangten, der Herrscher Sklaven
+                    suchte, und in die Zeiten, wo aus den Bürgern Unterthanen wurden. Auf der andren
+                    Seite war in den älteren Staaten die Frage, wie man der Regierung Festigkeit und
+                    Gewalt zusichern wollte, noch ungleich interessanter, als jezt. Denn in einem
+                    Zeitalter, wo der geringere Grad der Kultur und die weniger ausgebreitete
+                    Kommunikation es noch weniger möglich macht der wirklichen Kraft nur Zeichen der
+                    Kraft, und dem gegenwärtigen Widerstande auf die Zukunft weisende Furcht und
+                    Hofnung entgegenzusezen, wo es gilt, was die Menschen sind, und nicht, was sie
+                    haben, da muß es, weil der höchst mögliche Unterschied der Kräfte gegen den
+                    höchst möglichen Unterschied der Güter natürlicherweise unendlich klein ist, da,
+                    sag’ ich, muß es bei weitem leichter sein, einen Thron umzustoßen, als zu
+                    behaupten. Wie nahe diese Verschiedenheit zweier Epochen sei, welche offenbar in
+                    der Geschichte der Staatsverfassungen, wenn gleich mit großen Verschiedenheiten
+                    des Orts und der Zeit, existirten, zeigt die Bemerkung, daß in beiden Epochen
+                    völlig gleiche Erscheinungen sich bloß durch diese zwiefache Quelle
+                    unterschieden. In den älteren und neueren Staaten wachte man über die
+                    Aufrechthaltung der hergebrachten Religionen, in beiden gab es öffentliche
+                    Erziehungsanstalten, in <persName ref="platon">Platon</persName>s <bibl sameAs="1148">Republik</bibl>
+               <note type="footnote" resp="editor">Wilhelm von
+                        Humboldt besaß die elfbändige Plato-Gesamtausgabe, die zwischen 1781 und
+                        1787 von der Societas Bipontiae in Zweibrücken gedruckt wurde und die auf
+                        den Arbeiten von Henri Estienne (1531–1598) beruhte (s. AST, Archivmappe 75,
+                        M. 4, Bl. 147v unter Nr. 186: "Plato. T. 1–11. Ed. Bip. 1781–1787. 8."). Die
+                        "Politeia" erschien als Band 6 und 7 (1785). [FZ]</note> und in mehr als
+                    Einem neueren Lande sucht man den Handel von der Nation an den Staat zu bringen,
+                    und allgemein in alten und neuen Staaten schränkt man die freie Willkühr des
+                    Menschenlebens ein, aber weder in den alten sagte man, daß dieß auf die
+                    Beförderung des physischen und moralischen Wohls der Bürger abzwekke, noch in
+                    den neueren, daß es die Vermeidung von Aufruhr zur Absicht habe. Der einzige
+                    Einwurf hiegegen möchte von dem „sagt man“ herzunehmen sein, allein den kann ich
+                    hier, wo es mir nicht auf historische, sondern politische Erörterung ankommt,
+                    leicht übergehen.</p>
+            <p>Ueberhaupt, wie auch überall mag gehandelt worden sein; so ist gewiß, daß die
+                    beiden gleich anfangs erwähnten Gesichtspunkte – der eine sowenig als der andre
+                    – vernachlässigt werden dürfen. Der ganze Unterschied besteht nur darin, daß der
+                    eine bloß einen positiven, der andre einen negativen Gebrauch hat. Die Menschen
+                    wollen in Gesellschaft leben. Dazu führt sie ihre Natur. In der Gesellschaft
+                    aber fühlen sie das Bedürfniß gemeinschaftlicher Führung. Nun entstehen
+                    natürlich die beiden obigen Fragen: 1., was verlangt man von der Regierung, und
+                    worauf schränkt man ihren Zwek ein? 2., wie bringt man es dahin, daß die
+                    Regierung nie mehr thun wolle, aber dieß immer thun könne? Ich fange zuerst bei
+                    der lezteren an, weil, wenn ich meine Data über die Französische Konstitution
+                    überschlage, mein Reichthum hier größer ist, und auch diese Frage – bei einer
+                    genaueren Abmarkung der Wissenschaften – wohl allein eigentlich in die Politik
+                    gehört, indem die andre, mehr aus der Moral oder dem Naturrecht geschöpft, der
+                    Politik nur die Gränze sezt.</p>
+            <p>
+               <persName ref="clmontesquieu">Montesquieu</persName>s <hi rend="italic">principes</hi> haben mir immer eine der genievollsten Ideen geschienen. Sie
+                    deuten gerade das an, was ich hier meine, die Nothwendigkeit gleichsam dem
+                    unkörperlichen Ideal einen Körper zu leihen, damit es den Menschen sichtbar
+                    werde. Unstreitig ist seine Aufzählung oberflächlich und unvollständig. Aber
+                    dieser einzige Mann sucht die Ideen nicht auf; sie begegnen ihm, und der
+                    geistvolle Leser schämt sich die Geburten seines Genies erst systematisch zu
+                    reihen. Sobald man das Band zwischen dem Staat und der Nation fest knüpfen will,
+                    sind zwei Klippen zu vermeiden, dem Staate nicht zu wenig <subst>
+                  <del>Macht</del>
+                  <add>Gewalt</add>
+               </subst> zu verleihen, damit er sicher wirken könne, und
+                    nicht zu viel einzuräumen, damit er die Gränzen nicht überschreite. Daher ist es
+                    nie weise, ein wirkliches Uebergewicht physischer Macht zu veranlassen, wie es
+                    in allen despotischen und selbst – durch die stehenden Armeen – in unsern
+                    monarchischen Staaten ist. Weni ger schlimme Folgen hat es schon, wenn die Macht
+                    nicht unmittelbare, sondern mittelbare durch Gewinnung der Nation, oder eines
+                    Theils derselben <subst>
+                  <del>wirkt</del>
+                  <add>ist</add>
+               </subst>. So bei der Ehre, dem <hi rend="italic">principe</hi>
+                    der Monarchie, nach <persName ref="clmontesquieu">Montesquieu</persName>. Denn
+                    dieselbe Ehre, welche die Nation an den Thron bindet, verhindert sie auch, sich
+                    als Sklavin behandeln zu lassen. Könnte diese Triebfeder ihrer Natur nach auf
+                    alle Mitglieder der Nation wirken; so möchte sie – insofern man nemlich bloß den
+                    politischen Gesichtspunkt der Festigkeit der Verfassung faßt – vielleicht die
+                    beste sein. Aber da sie allemal nur einen Theil der Nation umfaßt; so kann nur
+                    der sie billigen, dessen Sorgfalt um den Ueberrest ganz unbekümmert ist. Wie
+                    daher die lezte der noch übrigen <persName ref="clmontesquieu">Montesquieu</persName>schen Triebfedern die edelste im einzelnen Menschen
+                    ist; so ist sie auch die, welche allein zum wahren Ziel führt. Nur der reine
+                    Enthusiasmus für die Konstitution – wenn Sie mir erlauben, so <persName ref="clmontesquieu">M.</persName>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 54 ergänzt zu „Montesquieus“.</note>
+               <hi rend="italic">vertu</hi> zu übersezen – blüht immer in ungeschwächter Kraft
+                    und nur er vergißt nie seiner Schranken. Aber die Hofnung, dieser Triebfeder so
+                    leicht Meister zu werden, schwächt schon die warnende und belehrende Erfahrung,
+                    daß man ihn nur in den blühendsten Zeiten der alten Staaten, und bei uns nur in
+                    isolirten, oder noch unkultivirten Ländern findet. Für eine bloße Idee haben
+                    sich wohl Philosophen, aber nie Nationen erwärmt. Bei diesen entsteht
+                    Begeisterung für die Konstitution nur dann, wenn diese Konstitution aus ihrem
+                    Nationalcharakter gleichsam hervorgeht, wenn sie aufhören müßten die Menschen zu
+                    sein, die sie sind, wenn sie die Konstitution verlören. Dann entsteht sie nicht
+                    leicht anders als in einer Epoche, in welcher die Bedürfnisse der Menschen noch
+                    sehr einfach, und die Nothwendigkeit ihrer Verbindung sehr groß ist. Die
+                    Festigkeit einer Vereinigung Mehrerer steht allemal im umgekehrten Verhältniß zu
+                    der Mannigfaltigkeit der Bedürfnisse, und dem Gefühle der Kraft der Einzelnen.
+                    Diese Schwierigkeiten sahen die Alten wohl ein. Daher allein stammten <persName ref="lykurg">Lykurgus</persName> gemeinschaftliche Mahlzeiten, daher
+                        <persName ref="platon">Plato</persName>s Weibergemeinschaft, Verbannung
+                    vieler Gattungen der Dichtkunst u.s.f. Daher sogar <persName ref="aristoteles">Aristoteles</persName> grausamer Vorschlag, bei einer zu großen Bevölkerung
+                    die Geburten zu unterdrükken. Wie man über diese Projekte und Geseze urtheilen
+                    mag, so sahen diese zu oft verlachten, und zu selten verstandenen Weisen wohl
+                    ein, daß, sobald der Mensch ein doppeltes Dasein kennt, das Dasein des Menschen
+                    und das des Bürgers, der Staat aufgelöst sei, den nur Bürgertugend erhalten
+                    soll. In eben dem Verstande hatte auch, was immer der furchtsam fromme <persName ref="clmontesquieu">M.</persName>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 55 ergänzt zu „Montesquieu“.</note> einwenden mag,
+                        <persName ref="pbayle">Bayle</persName> recht zu behaupten, daß ein Staat
+                    von Christen nicht bestehen könne. Denn unstreitig ist eine der heilsamsten
+                    Folgen des Christenthums die größere Vereinigung der Menschen gewesen; und
+                    unläugbar trennen sich die Bande einer Gesellschaft in eben dem Grade, in
+                    welchem ihre Mitglieder sich andern, nicht zu ihnen gehörenden nähern. Alle
+                    alten Staaten, wenigstens gewisse Perioden hindurch, sind gleichsam einzelne
+                    kolossalische Menschengestalten. In jeder ein entschiedener Charakter,
+                    entschiedene Tugenden, entschiedene Fehler. Ueberall ist Einheit und wenn man
+                    mit andren vergleicht, überall unverkennbare Verschiedenheiten. Mit der Kultur,
+                    mit der größeren Gemeinschaft der Menschen, unter der Bildung einer
+                    gemeinschaftlichen Religion, und einer, nur in viele freilich oft weit
+                    abweichende Dialekte getheilten Sprache, muß das aufhören, und kann nicht
+                    zurükkehren. Es ist eine Erscheinung, die, einst wohlthätig, einer zum mindesten
+                    gleich wohlthätigen gewichen ist. Die nüchterne Weisheit belehrt sich an ihren
+                    Schatten, aber versucht, nicht, sie, gleich einem abgeschiedenen Geiste,
+                    zurükzuzaubern.</p>
+            <p>Außer diesen <persName ref="clmontesquieu">M.</persName>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 56 ergänzt zu „Montesquieuschen“.</note>
+               <hi rend="italic">principes</hi> giebt es noch ein oft und, weise angewandt,
+                    immer mit Glück versuchtes Mittel, die Staatsverfassung zu sichern, die
+                    Gegeneinanderstellung mehrerer, von einander unabhängiger Mächte. Dieß muß man
+                    mehr als irgendwo in dem römischen Staate studiren. Ueberhaupt kann ich mich
+                    nicht enthalten, es zu sagen, daß die Römische Geschichte das einzige wahre
+                    Lehrbuch der Politik ist, und mir ewig der der größeste Politiker bleiben wird,
+                    der dieß unablässig studirt hat. In Rom giebt kein vernünftlender, oder
+                    schwärmerischer Gesezgeber eine neue Konstitution, aber man sieht ein Volk, das,
+                    ohne vorher eine Nation ausgemacht zu haben, nur durch seine Verfassung gebildet
+                    ist, ein Volk, das ewig mit seinen Nachbarn und dem Schiksale kämpft, und, bei
+                    seiner unbegränzten Freiheitsliebe, daher ewig in dem Fall ist eines Herrschers
+                    zu bedürfen, und einen Unterdrükker zu fürchten, dessen wahrhaft praktischer
+                    Verstand allemal, durch die Gefahr begeistert, das beste Heilmittel findet, und
+                    dessen edler, und selbst in seinen Fehlern großer Charakter nie seine Würde
+                    vergißt. Man hat den <persName ref="livius">Livius</persName> verlacht, wenn er
+                    irgendeinmal sagt, die Römer hätten nie einen Krieg aus Eroberungssucht
+                    angefangen. Aber wenn sie Eroberungssucht besassen; so wars doch die edelste
+                    aller, und gewiß wären sie lieber die Schiedsrichter, als die <subst>
+                  <del>Herrscher</del>
+                  <add>Beherrscher</add>
+               </subst> der Nationen gewesen. Verzeihen Sie diese
+                    Ausschweifung, theurer Freund. Ich komme zurük. Die Römer wogen aufs genaueste
+                    die Gränzen der Macht gegeneinander ab. Sobald Ein Plebejer einen Kurulischen
+                    Stuhl einnahm, erschienen auf dem Marktplaz drei andre patrizische, ein
+                    Verhältniß, das, wer die Römische Verfassung wahrhaft studirt hat, nicht
+                    übertrieben finden wird. Dieß Mittel des Gleichgewichts – wenn ich so sagen darf
+                    – ist nur für alte Zeiten und alte Nationen. In jeder lassen sich verschiedne
+                    Stände, mit wohl abgewogener Macht, und mit gehörig gereizten Begierden einander
+                    entgegenstellen.</p>
+            <p>Welches von diesen Mitteln hat nun die konstituirende NV.<note type="footnote" resp="editor">Nationalversammlung.</note> gewählt? Wenn mich nicht alle
+                    meine Sachkenntniß trügt, keins. Nichts steht der jedesmaligen Legislatur
+                    entgegen. Der <persName ref="ludwig16">König</persName> und seine Minister sind
+                    ohne Macht. Die Römischen Tribunen waren es auch. Auch <hi rend="italic">sacrosancti</hi> wie der Französische <persName ref="ludwig16">König</persName> und<note type="footnote" resp="editor">Wohl Druckfehler
+                        für "sind".</note> nur mit einem <hi rend="italic">veto</hi> versehen. Aber
+                    das <hi rend="italic">veto</hi> der Tribunen unterstüzte das Volk. Wehe dem
+                    Zeitpunkt, wo je das Volk seis gegen die Legislatur oder gegen den <persName ref="ludwig16">König</persName> handelt. In jedem Fall ists ein Eingriff in
+                    die Konstitution, und in die Verfassung sind nun beide Mächte gesezt, daß sie
+                    auf das Mittel reduzirt werden, eine dritte ungesezmäßige zu Hülfe zu rufen.
+                    Aber eine solche Gegeneinanderstellung der Stände hat die NV. auch nicht
+                    einführen wollen. Sie <subst>
+                  <del>verließ sich auf</del>
+                  <add>fürchtete nur</add>
+               </subst> den <persName ref="ludwig16">König</persName>, und dem hat sie Fesseln angelegt. Für die Legislatur und
+                    die Nation bürgt ihr Enthusiasmus für die neu eingeführte Freiheit. Der
+                    Grundsaz, auf dem die ganze Konstitution aufgeführt ist, ist Gleichheit, aber –
+                    gewiß zum erstenmal in irgendeiner Nation – Gleichheit nicht der Bürger, sondern
+                    der Menschen. Es mag immerhin eine schwere Sache sein, zu bestimmen, ob die
+                    Rechte der Menschheit einem Gesezgeber diesen Grundsaz abnöthigen. Auf der einen
+                    Seite, dünkt mich, erfordern die Menschenrechte wohl, daß jeder frei sei, aber
+                    schlechterdings nicht, daß jeder herrsche; auf der andren indeß halte ich es
+                    gleichfalls unrichtig, sich auf alte Verträge und Rechte zu beziehen. Das Recht
+                    da anführen, wo die Sache ganz geändert ist, heißt offenbar um der Form willen
+                    die Sache vernichten. Allein die nähere Ausführung und die Anwendung beider
+                    Bemerkungen erregt noch eine Menge von Schwierigkeiten. Indeß kommt es auch hier
+                    auf diese Erörterung nicht an. Neben dem Grundsaz der allgemeinen
+                    Menschengleichheit wäre es immer Pflicht der NV. gewesen ihrer Verfassung eine
+                    Triebfeder <subst>
+                  <del>beizumischen</del>
+                  <add>beizugeben</add>
+               </subst>, welche ihr die Dauer gesichert hätte, und die
+                    Möglichkeit leidet keinen Zweifel. Daß das Prinzip der Menschengleichheit selbst
+                    keine solche ist, davon, mein Theurer, ersparen Sie mir gewiß den Beweis. Wo
+                    nicht so verweise ich Sie auf den Saz, daß alle Energie mit der Ausbreitung
+                    hinschwindet, auf meinen vorigen Brief überhaupt, und auf die Erfahrung, welche
+                    das Geschrei über die Freierklärung der Negersklaven unter Menschen giebt, die
+                    einem Könige kaum noch den Titel Majestät einräumen.</p>
+            <p>Ich darf es daher, denke ich, sagen, es fehlt der Französischen Konstitution an
+                    allen Triebfedern, dem <persName ref="ludwig16">Könige</persName> an aller
+                    Macht, der Legislatur an allem Zaum, und der Nation an allem Zunder des
+                    Enthusiasmus. Nur Ein Staat, in der mir bekannten Geschichte, hat sich – die
+                    übrigen ungeheuren Verschiedenheiten abgerechnet – ohngefehr in gleicher Lage
+                    befunden, <placeName ref="Athen">Athen</placeName>. Das wollüstige Athenische
+                    Volk hatte gewiß keine Tugend, in der ausgelassensten Demokratie war nicht an
+                    Ehre, im monarchischen Verstande, zu denken, Furcht traf nur die Guten und
+                    Edlen, und die Macht des Volks hatte keine Zügel, als seine eigne durch Geschwäz
+                    bestechbare Eitelkeit. Dennoch hat <placeName ref="Athen">Athen</placeName>
+                    geblüht, und seit den Pisistratiden keine einheimische Tyrannie in seinen Mauren
+                    entstehen sehen. Denn die 30 Tyrannen gab bekanntermaaßen <placeName ref="Sparta">Lacedämon</placeName>. Allein die Fehler der Athenischen
+                    Verfassung zeigt auch ihre Geschichte genug, und daß die Verfassung sich
+                    erhielt, war warlich nur Folge des Uebermaaßes der Demokratie, der mehr eiteln,
+                    als großen Freiheitsliebe des Volks, des Ostracismus und seiner übrigen
+                    Ungerechtigkeiten; lauter Heilmittel, welche warlich das Uebel selbst nicht sehr
+                    fürchterlich machen. Vielleicht möchten die Schriftsteller des Jahrhunderts
+                        <persName ref="ludwig14">Ludwigs XIV.</persName> mit ungünstiger
+                    Vorbedeutung so oft an die Aehnlichkeit von <placeName ref="Paris">Paris</placeName> und <placeName ref="Athen">Athen</placeName> erinnert
+                    haben.</p>
+            <p>Unausführbarer also, als jedes mir bisher bekannte Projekt, unausführbarer selbst
+                    als <persName ref="platon">Plato</persName>s <bibl sameAs="1148">Republik</bibl>
+                    wird mir <subst>
+                  <del>immer</del>
+                  <add>ewig</add>
+               </subst> die Französische Konstitution scheinen. Mag es
+                    immerhin unmöglich sein, <subst>
+                  <del type="fragment">die menschliche Unvollkomm</del>
+                  <add>in <persName ref="platon">Plato</persName>s Allegorie zu
+                        reden</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S.
+                        58 Anm. 2: Verbessert aus "die menschliche Unvollkomm[enheit]".</note>, das
+                    irdische, erdgebohrne Roß zu dem Wohnsiz der Urgestalten der Wesen über den
+                    Gestirnen zu lenken, näher scheint mir dem Ziele doch der, welcher kühn wagt,
+                    ihm mit Gebiß und Geißel zu gebieten, als der, welcher ihm ohnmächtig den Zügel
+                    überläßt.</p>
+            <p>2., Ich gehe zum zweiten nun über, <subst>
+                  <del>was</del>
+                  <add>welchen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 58 Anm. 4: Verbessert aus "was [für einen]".</note> Zwek muß die
+                    wahre Politik jeder Staatsverfassung vorschreiben, und welches sind daher die
+                    Schranken ihrer <sic>Wirksamkeit?.</sic> Sie werden es mir verzeihen, wenn ich
+                    hiebei noch weniger Rüksicht auf Frankreich nehme. Die Ideen sind mir an sich
+                    interessanter, und über Frankreichs jezige Verfassung fehlen mir viele Data.</p>
+            <p>Das physische und moralische Wohl der Nation, sagen fast alle unsre politischen
+                    Schriftsteller, ist der Zwek des Staats, und Religions und Polizeiedikte sagen
+                    es deutlich genug, daß die Ausführung hier der Theorie sehr nahebleibt.
+                    Vorzüglich häufig aber ist das Einmischen des Staats in die Betreibung aller
+                    Gewerbe. Akkerbau, <subst>
+                  <del>Gewerbe</del>
+                  <add>Handwerker</add>
+               </subst>, Handel, Künste und Wissenschaften selbst,
+                    alles erhält Leben und Lenkung vom Staat. Auf diesen Grundsäzen ist die seit
+                    einiger Zeit so gepriesene Polizeiwissenschaft erbaut, und vielen
+                    Schriftstellern nach, sollte man glauben, das einzige Verderben sei nur dieß,
+                    daß man nicht jeden einzelnen Unterthan, überall, und, wie <persName ref="jjrousseau">Rousseau</persName> seinen <bibl sameAs="370">Emil</bibl>,
+                    bis ins Ehbett hinein hofmeistern kann. Die Alten schränkten auch die Freiheit
+                    auf mancherlei Art ein, oft auf eine drükkendere. Aber der Unterschied ist und
+                    bleibt mächtig. Die Alten sorgten für die Kraft und Bildung des Menschen, als
+                    Menschen; die Neueren für seinen Besiz und seine Erwerbfähigkeit. Die Alten
+                    suchten Tugend, die Menschen<note type="footnote" resp="editor">Leitzmann 1935b,
+                        S. 59 korrigiert zu "Neueren" und verweist in Anm. 1 auf den verschriebenen
+                        Text. Die Korrektur basiert u.a. auf der Parallelstelle in dem 1851
+                        erschienenen Text "Ideen zu einem Versuch die Grenzen der Wirklichkeit des
+                        Staats zu bestimmen" (GS I, S. 103: "Die Alten suchten Tugend, die Neueren
+                        Glükseligkeit.").</note> Glückseligkeit. Ein Philosoph (Sie werden den
+                    Rakker hier nicht erkennen, es ist <persName ref="dtiedemann">Tiedemann</persName>) entblödet sich nicht zu sagen, daß, wenn den
+                    Gerechten alles Unglük immer nothwendig träfe, was <persName ref="platon">Plato</persName> einmal in seiner <bibl sameAs="1148">Republik</bibl>
+                    schildert, die Ungerechtigkeit Pflicht sein werde<note type="footnote" resp="editor">Leitzmann 1935b, S. 59 Anm. 3 verweist auf D. Tiedemann
+                        (1786): <hi rend="italic">Dialogorum Platonis argumenta eposita et
+                            illustrata</hi>, Zweibrücken: Ex Typographia Societatis, S. 179. Dazu GS
+                        I, S. 104 Anm.</note>; <persName ref="ikant">der selbst, welcher die
+                        Moralität in ihrer höchsten Reinheit sah und darstellte</persName>, glaubt
+                    durch ungeheuer künstliche Maschinerie seinem Ideal des Menschen die
+                    Glükseligkeit warlich mehr wie eine fremde Belohnung, als wie ein eigen
+                    errungenes Gut zuzuführen. Ich verliere kein Wort über diese Verschiedenheit.
+                    Ich schließe nur mit einer Stelle aus <persName ref="aristoteles">Aristoteles</persName> Ethik: <foreign sameAs="grc">Το οικειον ἑκαστῳ τῃ
+                        φυσει, κρατιστον καὶ ἡδιστον εσθ’ ἑκαστῳ καὶ ανθρωπῳ δη ὁ κατα τον νουν
+                        βιος, ειπερ μαλιστα τουτο τῳ ανθρωπος, οὑτος αρα και
+                        ευδαιμονεστατος.</foreign>
+               <note type="footnote" resp="editor">Aristoteles,
+                        Nikomachische Ethik 10, 7. Humboldt besaß laut dem Bücherverzeichnis in
+                        Tegel (AST, Archivmappe 75, M. 4, Bl. 148v) "Aristoteles. Basel. 1550.
+                        fol.", dabei handelt es sich um die elfbändige Ausgabe <bibl sameAs="1149">
+                     <hi rend="italic">Ἀριστοτελουϛ ἁπαντα. Aristotelis opera quaecumque
+                                hactenus extiterunt omnia, quae quidem ut antea integris aliquot
+                                libris supra priores editiones omnes a nobis auctae prodierunt, ita
+                                nunc quoque, lucis et memoriae causa, in capita diligenter distincta
+                                in lucem emittimus</hi>, Basel 1550: per Io. Beb. et Mich.
+                            Ising</bibl>. U.a. befand sich in Humboldts Bibliothek die fünfbändige,
+                        nicht zu Ende geführte Gesamtausgabe der Werke des Aristoteles von Johann
+                        Gottlieb Buhle aus den Jahren 1791–1800, die aber nicht die Nikomachische
+                        Ethik enthielt, sowie die erst 1820 erschienene zweibändige Ausgabe der
+                        Nikomachischen Ethik von Karl Zell. [FZ]</note>
+            </p>
+            <p>So allgemein indeß auch jenes angeführte Prinzip ist, so verdient es, dünkt mich,
+                    doch noch allerdings einer nähern Prüfung. Der wahre Zwek des Menschen – nicht
+                    der, den die wechselnde Neigung, sondern den die ewig unveränderliche Vernunft
+                    ihm vorschreibt – ist die höchste und proportionirlichste Bildung seiner Kräfte
+                    zu Einem Ganzen. Zu dieser Bildung ist Freiheit nicht bloß die erste, sondern
+                    die einzige Bedingung. Allein außer der Freiheit erfordert die menschliche
+                    Bildung noch etwas anders, das man aber freilich, als jedesmalige Folge der
+                    Freiheit mit in ihr antrift. Dieß ist Mannigfaltigkeit der Situationen. Auch der
+                    freiste und unabhängigste Mensch, in einförmige Lagen gesezt, bildet sich minder
+                    aus. Freilich giebt es nun auch eine Art der Unterdrükkung, die, statt den
+                    Menschen einzuschränken, den Dingen um ihn her eine beliebige Gestalt giebt,
+                    allein besser ists immer, diese beiden Dinge – so sehr sie auch gewissermaaßen
+                    Eins und dasselbe sind – noch von einander zu trennen.</p>
+            <p>Alles reduzirt sich im Menschen auf <del>die</del> Form und Materie. Die reinste
+                    Form mit der leichtesten Hülle nennen wir Idee, die am wenigsten mit Gestalt
+                    begabte Materie sinnliche Empfindung. Aus der Verbindung der Materie geht die
+                    Form hervor. Je größer die Fülle und Mannigfaltigkeit der Materie, je erhabner
+                    die Form. Ein Götterkind ist <subst>
+                  <del>die Frucht nur</del>
+                  <add>nur die Frucht</add>
+               </subst> unsterblicher Eltern. Die Form wird
+                    wiederum gleichsam Materie einer noch schönern Form. So wird die Blüthe zur
+                    Frucht, und aus dem Samenkorn der Frucht entspringt der neue, von neuem
+                    blüthenreiche Stamm. Je mehr die Mannigfaltigkeit zugleich mit der Feinheit der
+                    Materie zunimmt, desto höher die Kraft. Denn desto inniger deren Zusammenhang.
+                    Die Form scheint gleichsam in die Materie. die Materie in die Form verschmolzen,
+                    oder um ohne Bild zu reden, je <subst>
+                  <del>ideenvoller</del>
+                  <add>ideenreicher</add>
+               </subst> die Gefühle des Menschen, und je
+                    gefühlvoller seine Ideen, desto unerreichbarer seine Erhabenheit. Denn auf
+                    diesem ewigen Begatten der Form und der Materie, oder des Mannigfaltigen mit der
+                    Einheit beruht die Verschmelzung der beiden im Menschen vereinten Naturen, und
+                    auf dieser seine Größe. Aber die Stärke der Begattung hängt von der Stärke der
+                    Begattenden ab. Der höchste Moment des Menschen ist dieser Moment der Blüthe.
+                    Die minder reizende, einfache Gestalt der Frucht weist gleichsam selbst auf die
+                    Schönheit der Blüthe hin, die sich durch sie entfalten wird. Auch eilt nun alles
+                    zur Blüthe hin. Was zuerst dem Samenkorn entsprießt, ist noch fern von ihrem
+                    Reiz. Der volle dikke Stengel, die breiten auseinander fallenden Blätter
+                    bedürfen noch einer mehr vollendeten Bildung. Stufenweise steigt diese, wie das
+                    Auge sich am Stamm erhebt; zartere Blätter sehnen sich gleichsam sich zu
+                    vereinigen, und schließen sich enger und enger, bis gleichsam der Kelch das
+                    Verlangen stillt. Indeß ist das Geschlecht der Pflanzen nicht von <subst>
+                  <del>den Göttern</del>
+                  <add>dem Schiksal</add>
+               </subst> gesegnet. Die Blüthe fällt ab, und die
+                    Frucht bringt wieder den gleich rohen und gleich sich verfeinernden Stamm
+                    hervor. Wenn im Menschen die Blüthe welkt, so macht sie nur einer schönern Plaz,
+                    und den Zauber der schönsten verbirgt <subst>
+                  <del>dem</del>
+                  <add>unsrem</add>
+               </subst> Auge die ewig unerforschbare Unendlichkeit. Was
+                    der Mensch nun von außen empfängt, ist nur Samenkorn. Seine energische
+                    Thätigkeit muß es, seis auch das schönste, erst auch zum segenvollsten für ihn
+                    machen. Aber wohlthätiger ists ihm immer in dem Grade, in dem es kraftvoll und –
+                    so sehr auch dieß Eins ist – eigen in sich ist. Das höchste Ideal des
+                    Zusammenexistirens menschlicher Wesen wäre mir das, in dem jedes nur aus sich
+                    selbst und um seiner selbst sich entwikkelt. Physische und moralische Natur
+                    würden diese Menschen schon nah an einander führen, und wie die Kämpfe des
+                    Krieges ehrenvoller sind, als die der <hi rend="italic">arena</hi> , wie die
+                    Kämpfe erbitterter Bürger höhern Ruhm gewähren als die getriebner
+                    Miethssoldaten; so würde auch das Ringen der Kräfte dieser Menschen die höchste
+                    Energie zu gleich beweisen und erzeugen.</p>
+            <p>Gestehn Sie es mir, ist es nicht eben das, was uns an die Zeitalter Griechenlands
+                    und Roms, und jedes Zeitalter allgemein an ein entferntes hingeschwundnes so
+                    namenlos fesselt? Ist es nicht vorzüglich, <subst>
+                  <del>weil</del>
+                  <add>daß</add>
+               </subst> diese Menschen härtere Kämpfe mit dem Schiksal,
+                    härtere mit Menschen zu bestehn hatten? daß die größere ursprüngliche Kraft, und
+                    Eigenthümlichkeit einander begegnete, und neue wunderbare Gestalten schuf? Jedes
+                    folgende Zeitalter – und in wieviel schnellern Graden muß dieß Verhältniß von
+                    jezt an steigen – muß den vorigen an Mannigfaltigkeit nachstehen, an
+                    Mannigfaltigkeit der Natur, die ungeheuren Wälder sind ausgehauen, die Moräste
+                    getroknet u.s.f., der Menschen durch die immer größere Mittheilung und
+                    Vereinigung, der menschlichen Werke durch die beiden vorigen Gründe. Dieß ist
+                    einer der vorzüglichsten Gründe, welcher die Idee des Neuen, des Ungewöhnlichen,
+                    des Wunderbaren so viel seltner, das Staunen, Erschrekken beinahe zum Schemen,
+                    und die Erfindung neuer, noch unbekannter Hülfsmittel so selten nothwendig
+                    macht. Dagegen ist es unläugbar, daß, wenn <subst>
+                  <del>mit</del>
+                  <add>die</add>
+               </subst> physische Mannigfaltigkeit geringer wurde, eine weit
+                    befriedigendere intellektuelle und moralische an ihre Stelle trat, und daß unser
+                    mehr verfeinter Geist, und unser wenn auch gleich stark gebildeter, doch
+                    reizbarer kultivirter Verstand Gradationen und Verschiedenheiten bemerkt, und in
+                    das praktische Leben überträgt, die auch vielleicht den Weisen des Alterthums,
+                    oder doch wenigstens nur ihnen nicht entzogen sein würden. Es ist im ganzen
+                    Menschengeschlecht, wie im einzelnen Menschen gegangen. Das Gröbere ist
+                    abgefallen, das Feinere ist geblieben. Und so wäre es ohne allen Zweifel
+                    segenvoll, wenn das Menschengeschlecht Ein Mensch wäre, oder die Kraft eines
+                    Zeitalters eben so als <sic>ihre</sic>
+               <note type="footnote" resp="editor">Gemeint ist "seine".</note> Bücher oder Erfindungen auf das folgende
+                    übergienge. Allein das ist bei weitem der Fall nicht. Freilich besizt nun auch
+                    unsre Verfeinerung eine Kraft, und die vielleicht jene gerade um den Grad ihrer
+                    Feinheit an Stärke übertrift; aber es fragt sich ob nicht die frühere Bildung
+                    durch das Gröbere immer vorangehen muß? Ueberall keimt doch das Geistige erst
+                    aus dem Sinnlichen. Und – wenn es auch nicht hier der Ort ist, auch nur den
+                    Versuch dieser Erörterung zu wagen – so folgt doch gewiß soviel aus dem Vorigen,
+                    daß man wenigstens die Kraft, und die Nahrungsmittel, die wir besizen,
+                    sorgfältigst bewahren müsse.</p>
+            <p>Bewiesen halte ich demnach durch das Vorige, daß die wahre Vernunft den Menschen
+                    keinen andren Zustand als einen solchen wünschen kann, in welchem nicht nur
+                    jeder Mensch die ungebundenste Freiheit hat, sich aus sich selbst zu entwikkeln,
+                    sondern in dem auch die physische Natur keine andre Gestalt von Menschenhänden
+                    empfängt, als ihr jeder Mensch, nach dem Maaß seines Bedürfnisses und seiner
+                    Neigung, nur beschränkt durch seine Kraft und sein Recht, selbst giebt. Von
+                    diesem Grundsaz darf meines Erachtens die Vernunft nie mehr nachgeben, als nur
+                    soviel zu seiner Erhaltung selbst nothwendig ist. Er müßte daher auch jeder
+                    Politik und besonders. der Beantwortung der Frage, von der ich hier rede, immer
+                    zum Grunde liegen. Ich habe gesucht, ihn aus den höchsten Gesichtspunkten zu
+                    betrachten. Wenn das die Unbequemlichkeit hat, daß man dadurch die Wahrheiten
+                    von der Anwendung weiter entfernt, so hat es auch den Nuzen, daß ihre
+                    Richtigkeit evidenter ist, daß sie dem ganzen Gewebe der Säze des Aufstellenden
+                    oder des Prüfenden inniger einverleibt werden, und daß selbst die Entfernung von
+                    aller Anwendung gewisser eine unschikliche Anwendung verhindert.</p>
+            <p>Der Zwek einer Staatsverfassung kann positiv und negativ sein. Er kann Glük
+                    befördern oder nur Uebel verhindern wollen, und im leztern Fall Uebel der Natur
+                    oder Uebel der Menschen. Schränkt er sich auf das leztere ein, so sucht er nur
+                    Sicherheit und dieser Sicherheit lassen Sie mich einmal alle übrigen möglichen
+                    Zwekke vereint entgegensezen.</p>
+            <p> Die eben festgestellten Grundsäze verwerfen nun schon an sich jedes Bemühen des
+                    Staats, seine Sorgfalt an die Stelle der Sorgfalt der Nation wenigstens in allen
+                    Dingen zu sezen, die nicht unmittelbaren Bezug auf die Kränkung der Rechte des
+                    Einen durch den andren haben; und ich könnte mich insofern dabei begnügen. Indeß
+                    wird es doch sogar nothwendig sein, hier noch ein wenig mehr ins Détail zu
+                    gehen.</p>
+            <p>Der Staat sieht das Land und die Nation, als ein Ganzes an, und glaubt für die
+                    Erhaltung dieses Ganzen in seinem moralischen und physischen Wohlstande sorgen
+                    zu müssen. Daher die Beförderung des Akkerbaues, der Industrie und des Handels
+                    durch Geseze und Ermunterungen, daher, oder wenigstens oft daher alle Finanz und
+                    Münzoperationen, Ein und Ausfuhrverbote u.s.f. Denn ich bleibe mit Fleiß bei dem
+                    physischen Wohl hier stehn. Daher noch ferner alle Veranstaltungen zur Verhütung
+                    oder Herstellung von Beschädigungen durch die Natur, ferner alle Armenanstalten,
+                    kurz jede Einrichtung des Staats, welche das physische Wohl der Nation zu
+                    erhalten, oder zu befördern die Absicht hat. Alle diese, behaupte ich nun, sind
+                    schädlich, und einer wahren, von den höchsten, aber immer menschlichen
+                    Gesichtspunkten ausgehenden Politik unangemessen.</p>
+            <p>Der Geist der Regierung herrscht in einer jeden solchen Einrichtung, und wie
+                    weise und heilsam auch dieser Geist sei; so bringt er Einförmigkeit, und eine
+                    fremde Handlungsweise in der Nation hervor. Statt daß die Menschen in
+                    Gesellschaft treten, um ihre Kräfte zu schärfen, sollten sie auch dadurch an
+                    ausschließendem Besiz und Genuß verlieren, so erlangen sie Güter auf Kosten
+                    ihrer Kraft. Gerade die aus der Vereinigung Mehrerer entstehende
+                    Mannigfaltigkeit ist das höchste Gut, das die Gesellschaft giebt, und diese
+                    Mannigfaltigkeit geht doch gewiß immer in dem Grade der Einmischung des Staats
+                    verloren. Es sind nicht mehr eigentlich die Mitglieder einer Nation, die mit
+                    sich in Gemeinschaft leben, sondern einzelne Unterthanen, die mit dem Staat, d.
+                    h. dem Geist, der in seiner Regierung herrscht, in Verhältniß kommen, und zwar
+                    in ein Verhältniß, in welchem schon die Macht des Staats das freie Spiel der
+                    Kräfte aufhebt. Gleichförmige Ursachen haben gleichförmige Wirkungen. Je mehr
+                    also der Staat mitwirkt, desto ähnlicher ist nicht bloß alles Wirkende, sondern
+                    auch alles Gewirkte. Dieß ist auch gerade die Absicht der Staaten. Sie wollen
+                    Wohlstand und Ruhe. Beide aber erhält man immer in eben dem Grade, in dem das
+                    Einzelne weniger mit einander streitet. Allein was der Mensch beabsichtet und
+                    beabsichten muß, ist ganz etwas anders, es ist Mannigfaltigkeit und Thätigkeit.
+                    Nur das giebt vielseitige und kraftvolle Charaktere, und gewiß ist noch kein
+                    Mensch tief genug gesunken, um in sich für sich Wohlstand und Glük der Größe
+                    vorzuziehen. Wer aber für andre so raisonnirt, den hat man mit Grunde in
+                    Verdacht, daß er die Menschheit miskennt und aus Menschen Maschinen machen
+                    will.</p>
+            <p>Das wäre also die zweite schädliche Folge, daß diese Einrichtungen des Staats die
+                    Kraft der Nation schwächen. So wie durch die Form, die aus der selbstthätigen
+                    Materie hervorgeht, die Materie selbst mehr Fülle und Schönheit erhält. Denn was
+                    ist sie anders als die Verbindung dessen was erst stritt? eine Verbindung, zu
+                    der allemal die Auffindung neuer Vereinigungspunkte, folglich gleichsam eine
+                    Menge neuer Entdekkungen nöthig ist, die immer im Verhältniß mit der größern
+                    vorherigen Verschiedenheit steigt. Eben so wird die Materie vernichtet durch
+                    diejenige, die man ihr von außen giebt. Denn das Nichts unterdrükt da das Etwas.
+                    Alles im Menschen ist Organisation. Was in ihm gedeihen soll, muß in ihm gesäet
+                    werden. Alle Kraft sezt Enthusiasmus, und dieser allemal die Bedingung voraus,
+                    daß man den Gegenstand desselben als sein Eigenthum ansieht. Nun aber hält der,
+                    von seinen ersten Kräften nie ganz entartende Mensch das nie so sehr für sein,
+                    was er besizt, als was er <subst>
+                  <del>erzeugt hat</del>
+                  <add>thut</add>
+               </subst>, und der Arbeiter, der einen Garten bestellt, ist
+                    gewiß in einem wahreren Sinn Eigenthümer, als der Bettler, dem ein König eine
+                    halbe Provinz gäbe. Was würde man sagen, wenn ein Fürst nach <persName ref="platon">Plato</persName>s Vorschlage<note type="footnote" resp="editor">Leitzmann 1935b, S. 64 Anm. 2: Im fünften Buch des Staats (S. 459d).</note>
+                    Jungfrauen und Jünglinge ausläse, und nach seinen Principien vermählte? In den
+                    Extremen erschrekken wir vor den Dingen, aber die Elemente der Extreme übersehen
+                    wir, und wenn wir mit geringerem Irrthum den Schaden nicht achten, der von ihnen
+                    zu besorgen steht; so vergessen wir doch mit <subst>
+                  <del>Unrecht</del>
+                  <add>größerem</add>
+               </subst> die heilsamen Folgen, die aus ihnen zu ziehen
+                    wären. Mit hinreichender Sorgfalt – deren Versuche aber freilich alsdann am
+                    besten gelängen, wenn sie am müßigsten wären – ließen sich vielleicht aus allen
+                    Bauren und Handwerkern Künstler bilden, d.h. Menschen, welche ihr Gewerbe um
+                    ihres Gewerbes willen liebten, durch eigne Erfindsamkeit und eigengelenkte Kraft
+                    übten, und dadurch ihren Kopf, ihren Charakter, ihren Genuss erhöhten; und so
+                    würde die Menschheit durch eben die Dinge geadelt, die jezt so oft, wie schön
+                    sie auch an sich sind, nur dazu dienen, sie zu entehren. Sich selbst in allem
+                    Thun und Treiben überlassen, von jeder fremden Hülfe entblößt, die sie nicht
+                    selbst sich verschaften, würden die Menschen auch oft mit und ohne Schuld in
+                    Verlegenheit und Unglük gerathen. Aber das Glük, zu dem der Mensch bestimmt ist,
+                    ist auch kein andres, als das seine Kraft ihm verschaft. Und diese Lagen gerade
+                    sind es, welche den Verstand schärfen und den Charakter bilden. Wo der Staat die
+                    Selbstthätigkeit durch zu spezielles Einwirken verhindert, da – entstehen solche
+                    Uebel nicht? O! das wäre warlich ein unbedeutender Nachtheil, und der Anblik der
+                    genuß vollen Heiterkeit würde bald die Stirn auch des strengsten Stoikers
+                    entfalten. Aber sie entstehen auch da, und überlassen den einmal auf fremde
+                    Kraft zu lehnen gewohnten Menschen nun einem trostlosen Schiksal. Denn so wie
+                    das Ringen und thätige Arbeit das Unglük erleichtert, so und im zehnfach höhern
+                    Grade erschwert es hofnungslose, vielleicht getäuschte Erwartung. Selbst den
+                    besten Fall angenommen, gleichen die Staaten, von denen ich hier rede, nur zu
+                    oft den Aerzten, die die Krankheit nähren und den Tod entfernen. Ehe es Aerzte
+                    gab, kannte man nur Gesundheit oder Tod.</p>
+            <p>Eine fernere nachtheilige Folge dieser Art von Staatssystem rührt aus den
+                    Veranstaltungen her, die erfordert werden, um es in <subst>
+                  <del type="fragment">Wirklichk</del>
+                  <add>Ausübung</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 65 Anm. 1: Verbessert aus "Wirklichk[eit]".</note> zu bringen. Die
+                    Geschäfte des Staats erhalten dadurch eine Verflechtung, die, um nicht
+                    Verwirrung zu werden, einer unglaublichen Menge detaillirter Einrichtungen und
+                    Hände bedarf. Von diesen haben indeß doch die meisten gleichsam nur mit Zeichen
+                    und Formeln der Dinge zu thun. Möchte es hingehen, daß dadurch viele vielleicht
+                    trefliche Köpfe dem Denken, viele sonst nüzlicher beschäftigte Hände der reellen
+                    Arbeit entzogen werden, eben da diese Beschäftigungen, wie auch immer ihre
+                    Beschaffenheit sein mag, eine große Wichtigkeit erhalten, und allerdings, um
+                    konsequent zu sein, erhalten müssen, so werden dadurch überhaupt die
+                    Gesichtspunkte des Wichtigen und Unwichtigen, des Ehrenvollen und Verächtlichen,
+                    des lezten und der untergeordneten Endzwekke verrükt. Und da das eben Angführte,
+                    die Nothwendigkeit von Beschäftigungen dieser Art, aus mancherlei leicht in die
+                    Augen fallenden Gründen ein so großer Nachtheil nicht ist; so gehe ich zu diesem
+                    lezten, der Verrükkung der Gesichtspunkte über.</p>
+            <p>Die Menschen werden um der Sachen, die Kräfte um der Resultate willen
+                    vernachlässigt. Ein Staat gleicht, nach diesem System, mehr einer aufgehäuften
+                    Menge von leblosen und lebendigen <subst>
+                  <del type="fragment">Ins</del>
+                  <add>Werkzeugen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 66 Anm. 1: Verbessert aus "Ins[trumenten]".</note> der Wirksamkeit
+                    und des Genusses, als einer Menge thätiger und genießender Kräfte. Bei der
+                    Vernachlässigung der Selbstthätigkeit der handelnden Wesen scheint nur auf
+                    Glükseligkeit und Genuß gearbeitet zu sein. Allein wenn da über Glükseligkeit
+                    und Genuß nur die Empfindung des Genießenden richtig urtheilt – die Berechnung
+                    richtig wäre; so wäre sie doch immer weit von der Würde der Menschheit entfernt.
+                    Denn woher käme es sonst, daß eben dieses System auf den menschlich höchsten
+                    Genuß gleichsam aus Besorgniß vor seinem Gegentheil Verzicht thut? Der Mensch
+                    genießt am meisten in dem Moment, <subst>
+                  <del>wenn</del>
+                  <add>in welchem</add>
+               </subst> er sich in dem höchsten Grade seiner Kraft und
+                    seiner Einheit fühlt. Freilich ist er auch dann dem höchsten Elende nah. Denn
+                    auf den Moment der Spannung vermag nur eine gleiche Spannung zu folgen, und die
+                    Richtung – zum Genuß oder zum Entbehren – liegt in der Hand des unbesiegten
+                    Schiksals. Aber wenn das Gefühl des Höchsten im Menschen nur Glük zu heißen
+                    verdient, so gewinnt auch Schmerz und Leiden eine veränderte Gestalt. Der Mensch
+                    in seinem Innern wird der Siz des Glüks und des Unglüks, und er wechselt ja
+                    nicht mit der wallenden Flut, die ihn trägt. Jenes System führt, meiner
+                    Empfindung nach, auf ein fruchtloses Streben, dem Schmerz zu entrinnen. Wer sich
+                    wahrhaft auf Genuß versteht, erduldet den Schmerz, der doch den Flüchtigen
+                    ereilt, und freut sich der Stärke, die auch den Heftigsten unüberwunden läßt. Er
+                    freut sich unaufhörlich am ruhigen Gange des Schiksals, und der Anblik der Größe
+                    fesselt ihn süß, es mag entstehen, oder vernichtet werden. So kommt er selbst –
+                    doch freilich nur der Schwärmer in andren, als seltnen Momenten – zu dem Gefühl,
+                    daß auch der Moment des Gefühls der eignen Zerstörung ein <subst>
+                  <del>entzückender Moment</del>
+                  <add>Moment des Entzükkens</add>
+               </subst> ist.</p>
+            <p>Beschuldigen Sie mich nicht, lieber Freund, diese Nachtheile übertrieben zu
+                    haben. Ich mußte die volle Wirkung dieses Einmischens des Staats schildern, aber
+                    es versteht sich von selbst, daß sie, nach dem Grade und nach der Art des
+                    Einmischens selbst, sehr verschieden modifizirt sind. Überhaupt bitt’ ich Sie,
+                    bei allem, was dieser Brief Allgemeines enthält, von Vergleichungen mit der
+                    Wirklichkeit gänzlich zu abstrahiren. In dieser findet man selten einen Fall
+                    voll und rein, und selbst dann sieht man nicht abgeschnitten und für sich die
+                    einzelnen Wirkungen einzelner Dinge. Dann vergessen Sie nicht, daß, wenn einmal
+                    schädliche Einflüsse vorhanden sind, das Verderben mit sehr beschleunigten
+                    Schritten weiter eilt. Wie aus größerer Kraft, mit größerer vereint, doppelt
+                    größere entsteht, so artet geringere mit geringerer in doppelt geringere aus.
+                    Welcher Gedanke selbst wagt es der Schnelligkeit dieser Fortschritte zu <subst>
+                  <del type="fragment">bemer</del>
+                  <add>folgen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 67 Anm. 1: Verbessert aus "bemer[ken]".</note>? Sogar auch
+                    zugegeben, die Nachtheile wären minder groß, so, glaube ich, bestätigt sich
+                    meine Theorie doch noch bei weitem mehr durch den warlich namenlosen Segen, der
+                    aus ihrer Befolgung – wenn diese je ganz möglich wäre, wie ich selbst am meisten
+                    zweifle – entstehen müßte.</p>
+            <p>Ich könnte hier ein erfreuliches Gegenbild eines Volkes <sic>anstellen</sic>
+               <note type="footnote" resp="editor">Gemeint ist "aufstellen".</note>, das in der
+                    höchsten und ungebundensten Freiheit, und in der größesten Mannigfaltigkeit
+                    seiner eignen und der übrigen Verhältnisse um sich her existirte, ich könnte
+                    zeigen, wie hier noch in eben dem Grade schönere, höhere und wunderbarere
+                    Gestalten der Originalität und der Mannigfaltigkeit<note type="footnote" resp="editor">Leitzmann 1935b, S. 67 Anm. 3: Wohl verschrieben für
+                        "Eigenthümlichkeit".</note> erscheinen müßten, als in dem schon so unnennbar
+                    reizenden Alterthum, in welchem die Mannigfaltigkeit eines unkultivirten Volks
+                    allemal roher und gröber ist, in welchem mit der Freiheit auch allemal die
+                    Stärke und selbst der Reichthum der Sitten wächst, und in welchem, bei der fast
+                    gränzenlosen Verbindung aller Nationen und Welttheile mit einander, schon die
+                    Elemente gleichsam zahlreicher sind; zeigen, welche Stärke hervorblühen müßte,
+                    wenn jedes Wesen sich aus sich selbst organisirte, wenn es, ewig von den
+                    schönsten Gestalten umgeben, mit uneingeschränkter und ewig durch die Freiheit
+                    ermunterter Selbstthätigkeit diese Gestalten in sich verwandelte; zeigen, wie in
+                    diesem Volke keine Kraft und keine Hand für die Erhöhung und den Genuß des
+                    Menschendaseins verloren gienge, und endlich, wie schon dadurch ebenso auch die
+                    Gesichtspunkte aller nur dahin gerichtet, und von jedem andren falschen oder
+                    doch weniger der Menschheit würdigen Endzwek abgewandt werden würden. Ich könnte
+                    dann damit schließen, Sie aufmerksam darauf zu machen, wie diese wohlthätigen
+                    Folgen einer solchen Konstitution, unter einem Volke, welches es sei,
+                    ausgestreut, selbst dem freilich nie ganz tilgbaren Elende der Menschen, den
+                    Verheerungen der Natur, dem Verderben der feindseligen, Neigungen der Menschen
+                    und den Ausschweifungen einer zu üppigen Genussesfülle, einen unendlich großen
+                    Theil <subst>
+                  <del>seines Giftes</del>
+                  <add>seiner Schreklichkeit</add>
+               </subst> nehmen würden. Allein ich begnüge
+                    mich das Gegenbild gezeigt zu haben. Es ist mir genug Ideen hinzuwerfen, damit
+                    Ihr reiferes Urtheil sie prüfe.</p>
+            <p>Der erste Grundsaz dieses Theils meiner Politik wäre daher: der Staat gehe keinen
+                    Schritt weiter, als zur Sicherstellung der Bürger gegen sie selbst und gegen
+                    auswärtige Feinde nothwendig ist, zu keinem andren Zwekke beschränke er ihre
+                    Freiheit. Die nähere Anwendung übergehe ich. Ich bemerke nur, daß diese
+                    Beschränkungen auf mancherlei Weise geschehen; durch Geseze, Ermunterungen,
+                    Preise, dadurch, daß der Landesherr selbst der beträchtlichste Eigenthümer ist,
+                    und daß er einzelnen Bürgern überwiegende Rechte, Monopolien u.s.w. einräumt.
+                    Wenn man hier gegen das erste und lezte keinen Einwurf erregt, so scheint es
+                    doch sonderbar, dem Staat wehren zu wollen, was jeder Einzelne darf, Belohnungen
+                    aussezen, unterstüzen, Eigenthümer sein. Wäre es in der Ausübung möglich, daß
+                    der Staat eben so eine zwiefache Person ausmachte, als er es in der Abstraktion
+                    thut; so wäre hiegegen nichts zu erinnern. Es wäre dann nicht anders, als wenn
+                    eine Privatperson einen mächtigen Einfluß erhielte. Allein da, jenen Unterschied
+                    zwischen Praxis und Theorie nach abgerechnet, der Einfluß einer Privatperson
+                    durch Konkurrenz andrer, Versplitterung ihres Vermögens, selbst durch ihren Tod
+                    aufhören kann, lauter Dinge, die beim Staat nicht zutreffen; so steht noch immer
+                    der Grundsaz entgegen, daß der Staat sich in nichts mischen darf, als was die
+                    Sicherheit angeht. Auch handelt eine Privatperson aus andren Gründen als der
+                    Staat. Wie z.B. ein einzelner Bürger Prämien aussezt – die ich auch, wie es doch
+                    wohl nie ist, gleich wirksam mit denen des Staats annehmen will – so thut er das
+                    seines Vortheils halber. Sein Vortheil aber <subst>
+                  <del>ist</del>
+                  <add>steht</add>
+               </subst>, wegen des ewigen Verkehrs mit allen übrigen
+                    Bürgern, und wegen der Gleichheit <subst>
+                  <del>der</del>
+                  <add>seiner</add>
+               </subst> Lage und der ihrigen, mit dem Vortheile oder
+                    Nachtheile andrer, folglich mit ihrem Zustande, in genauem Verhältniß. Der Zwek,
+                    den er erreichen will, ist schon gewissermaaßen in der Gegenwart gegründet, und
+                    wirkt eben darum heilsam. Die Gründe des Staats hingegen sind Ideen und
+                    Grundsäze, bei denen auch die genaueste Berechnung oft täuscht, und sind es aus
+                    der Privatlage des Staats geschöpfte Gründe, so ist diese Lage der Lage der
+                    Bürger nie so gleich. Wäre sie dieß, nun so ists auch in der Wirklichkeit nicht
+                    der Staat mehr, der handelt, und die Natur dieses Raisonnements selbst verbietet
+                    dann seine Anwendung.</p>
+            <p>Eben dieß und das ganze vorige Raisonnement aber <subst>
+                  <del>war auf</del>
+                  <add>gieng</add>
+               </subst> allein aus Gesichtspunkten aus, welche bloß die
+                    Kraft des Menschen, als solche, seine innere Bildung zum Gegenstand hatten. Mit
+                    Recht würde man es der Einseitigkeit beschuldigen, wenn es die Resultate, deren
+                    Dasein so nothwendig ist, damit jene Kraft nur wirken kann, ganz
+                    vernachlässigte. Es entsteht also hier noch die Frage, ob eben diese Dinge, von
+                    denen ich die Sorge des Staats entferne, ohne ihn und für sich gedeihen können.
+                    Hier wäre es nun der Ort die einzelnen Arten der Gewerbe: Akkerbau, Industrie,
+                    Handel, und alles übrige, wovon ich hier zusammengenommen rede, einzeln
+                    durchzugehen, und mit Sachkenntniß auseinanderzusezen, welche Nachtheile und
+                    Vortheile Freiheit und Selbstüberlassung ihnen gewährt. Fürchten Sie Sich nicht,
+                    daß ich in diese Erörterung eingehen werde. Aufrichtig halte ich sie für
+                    unnöthig, weil die Wahrheit zu sehr am Tage liegt, allein gut und vorzüglich
+                    historisch ausgeführt, würde sie den sehr großen Nuzen gewähren, diese Ideen
+                    mehr zu empfehlen und zugleich die Möglichkeit <subst>
+                  <del>der</del>
+                  <add>einer</add>
+               </subst> sehr modifizirten Ausführung – da eine
+                    uneingeschränkte unstreitig Raserei sein würde – zu beurtheilen. Ich begnüge
+                    mich an einigen wenigen allgemeinen Bemerkungen. Jedes Geschäft – welcher Art es
+                    auch sei – wird besser betrieben, wenn man es um seiner selbst willen, als <subst>
+                  <del>um der</del>
+                  <add>den</add>
+               </subst> Folgen zu Liebe treibt. Dieß liegt so sehr in der
+                    Natur des Menschen, daß gewöhnlich, was man anfangs nur des Nuzens wegen wählt,
+                    zulezt für sich Reiz gewinnt. Nun aber rührt dieß nur daher, weil dem Menschen
+                    Thätigkeit lieber ist als Besiz, aber Thätigkeit nur, insofern sie
+                    Selbstthätigkeit ist. Gerade der rüstigste Mensch würde dem Zwange Müssiggang
+                    vorziehen. Auch wächst die Idee des Eigenthums nur mit der Idee der Freiheit,
+                    und gerade die energischste Thätigkeit dankt man dem Gefühle des Eigenthums.
+                    Jede Erreichung eines großen Endzweks erfordert Einheit der Anordnung. Das ist
+                    gewiß. Eben so auch jede Verhütung oder Abwehrung großer Unglüksfälle,
+                    Hungersnoth, Ueberschwemmungen u.s.f. Allein diese Einheit der Anordnung läßt
+                    sich durch Nationalanstalten eben so gut und besser als durch Staatsanstalten
+                    hervorbringen. Einzelne Theile der Nation und sie selbst im Ganzen muß nur
+                    Freiheit haben, sich durch Verträge zu verbinden. Es bleibt immer ein unläugbar
+                    wichtiger Unterschied zwischen einer Nationalanstalt und einer
+                    Staatseinrichtung. Jene hat nur eine mittelbare, diese eine unmittelbare Gewalt.
+                    Bei jener ist daher mehr Freiheit im Eingehen, Trennen, und Modifiziren der
+                    Verbindung. Anfangs sind gewiß alle Staatsverbindungen nichts als solche
+                    Nationenvereine gewesen. Aber das ist eben der Verderb, wenn die Absicht,
+                    Sicherheit zu erhalten und andre Zwekke zu erreichen, mit einander verbunden
+                    wird. <subst>
+                  <del>Eine solche Sorge</del>
+                  <add>Wer dieses Geschäft besorgen soll</add>
+               </subst>, muß um der Sicherheit
+                    willen absolute Gewalt besizen. Diese aber dehnt er nun auch auf das Uebrige
+                    aus, und je mehr sich die Einrichtung von ihrer Entstehung entfernt, desto mehr
+                    wächst die Macht, und desto mehr verschwindet die Erinnerung des Grundvertrags.
+                    Eine Anstalt im Staat aber hat nur Gewalt, insofern sie diesen Vertrag und sein
+                    Andenken erhält. Schon dieser Grund allein könnte hinreichend scheinen. Allein
+                    dann entstehen auch Vereinigungen freier Menschen in einer Nation mit größerer
+                    Schwierigkeit. Wenn nun dieß auf der einen Seite auch der Erreichung der
+                    Endzwekke schadet – wo gegen doch immer zu bedenken ist, daß allgemein was
+                    schwerer entsteht, weil gleichsam die lang geprüfte Kraft sich <subst>
+                  <del>vereint</del>
+                  <add>in einander fugt</add>
+               </subst>, auch fester besteht – so ist doch gewiß
+                    überhaupt jede große Vereinigung minder heilsam. Je mehr der Mensch für sich
+                    wirkt, desto mehr bildet er sich. In einer großen Vereinigung wird er zu leicht
+                    Werkzeug. Auch sind diese Vereinigungen Schuld, daß oft das Zeichen an die
+                    Stelle der Sache tritt, was der Bildung allemal hinderlich ist. Die todte
+                    Hieroglyphe begeistert nicht wie das Symbol der Natur. Ich erinnere nur, statt
+                    alles Beispiels, an Armenanstalten. Tödtet etwas anders so sehr alles wahre
+                    Mitleid, alle hoffende, aber anspruchlose Bitte, alles Vertrauen des Menschen
+                    auf Menschen? Verachten Sie nicht mit mir den Bettler, dem es lieber wäre ein
+                    Jahr im Hospital bequem ernährt zu werden, als nach mancher erduldeten Noth
+                    nicht auf eine hinwerfende Hand, aber auf ein theilnehmendes Herz zu stoßen? Ich
+                    gebe es also zu, wir hätten diese Riesenfortschritte ohne die großen Massen
+                    nicht gemacht, in welchen das Menschengeschlecht, wenn ich so sagen darf, in den
+                    lezten Jahrhunderten gewirkt hat, allein nur die schnellen nicht. Die Frucht
+                    wäre langsamer aber dennoch gereift. Und sollte sie nicht segenvoller gewesen
+                    sein? Ich glaube daher von diesem Einwurf zurükkehren zu können. Zwei andre
+                    bleiben der Folge zur Prüfung aufbewahrt, nemlich, ob auch bei der Sorglosigkeit
+                    des Staats, die ich ihm hier vorschreibe, die Erhaltung der Sicherheit möglich
+                    ist, und ob nicht wenigstens die Verschaffung der Mittel, welche dem Staate
+                    nothwendig eingeräumt werden muß, ein verwikkelteres Eingreifen der Räder der
+                    Staatsmaschine in die Verhältnisse der Bürger nothwendig macht?</p>
+            <p>Wäre es mit dem Uebel, das die Zwietracht, die <foreign sameAs="grc">πλεονεξια</foreign> der Menschen untereinander stiftet, wie mit den
+                    physischen Übeln der Natur, oder denjenigen moralischen – die ihnen wenigstens
+                    hierin gleich kommen – die durch Uebermaaß des Genusses oder des Entbehrens auf
+                    eigne Zerstörung hinauslaufen; so wäre gar keine Staatsvereinigung nöthig. Jenen
+                    würde der Muth, die Klugheit und Vorsicht der Menschen, diesen die durch
+                    Erfahrung belehrte Weisheit von selbst steuren, und mit dem gehobnen Uebel ist
+                    in beiden auch immer Ein Kampf geendigt. Allein bei der Uneinigkeit der Menschen
+                    entsteht Kampf aus Kampf. Die Beleidigung fordert Rache und die Rache ist eine
+                    neue Beleidigung. Hier muß man also auf eine Rache zurükkommen, die keine neue
+                    Rache erlaubt, und diese ist die Strafe des Staats; oder ein Streit auf eine
+                    Entscheidung, welche die lezte ist, die Entscheidung des Richters. Auch bedarf
+                    nichts so eines unterwerfenden Befehls, und eines unbedingten Gehorsams, als die
+                    Unternehmungen des Menschen gegen den Menschen, man mag an die Abtreibung eines
+                    auswärtigen Feindes, oder an Erhaltung der Sicherheit im Staate selbst denken.
+                    Dieß ist es also eigentlich, was den Zwek des Staats ausmacht, und die
+                    Geschichte bestätigt diese Behauptung so sehr, daß in allen frühern Nationen
+                    vorzüglich die Könige nichts anders waren als Anführer im Kriege, oder Richter
+                    im Frieden. Ich sage alle Könige. Denn, wenn Sie mir diese Abschweifung
+                    erlauben, so zeigt uns die Geschichte, wie sonderbar es auch scheint, gerade in
+                    der Epoche, wo dem Menschen, der, mit noch sehr wenigem Eigenthum versehen, nur
+                    persönliche Kraft kennt und schäzt, und in die <subst>
+                  <del>Freiheit</del>
+                  <add>ungestörteste Ausübung</add>
+               </subst> derselben den höchsten Genuß sezt,
+                    das Gefühl seiner Freiheit das theuerste ist, nichts als Könige und Monarchien.
+                    So alle Staatsverfassungen Asiens, so die ältesten Griechenlands, Italiens, und
+                    die freiheitsliebendsten Stämme, die Germanischen. Denkt man über die Gründe
+                    hievon nach; so wird man gleichsam von der Wahrheit überrascht, daß gerade die
+                    Wahl einer Monarchie ein Beweis der höchsten Freiheit der Wählenden ist. Der
+                    Gedanke eines Befehlshabers entsteht, wie eben gesagt, nur durch das Gefühl der
+                    Nothwendigkeit eines Anführers oder Schiedsrichters. Nun ist Ein Führer
+                    unstreitig das Einfachste und Zwekmäßigste. Die Besorgniß, daß der Eine aus
+                    einem Führer und Schiedsrichter ein Herrscher werden möchte, kennt der wahrhaft
+                    freie Mann, die Möglichkeit selbst ahndet er nicht, er traut keinem Menschen die
+                    Macht, seine Freiheit unterjochen zu können, und keinem Freien den Willen zu
+                    Herrscher zu sein – wie denn auch in der That der Herrschsüchtige, nicht
+                    empfänglich für die hohe Schönheit der Freiheit, die Sklaverei liebt, nur daß er
+                    nicht der Sklave sein will – und so ist, wie die Moral mit den Lastern, die
+                    Theologie mit der Kezerei, die Politik mit der Knechtschaft entstanden. Nur
+                    freilich führen unsre Monarchen nicht eine so honigsüße Sprache, als die Könige
+                    bei Homer und Hesiodus.</p>
+            <p>Von der Sicherheit gegen auswärtige Feinde brauchte ich – um zu meinem Vorhaben
+                    zurükzukehren – kaum ein Wort zu sagen, wenn es nicht die Klarheit der
+                    Hauptideen vermehrte, sie auf alle einzelne Gegenstände nach und nach
+                    anzuwenden. Ich komme hier auf etwas zurük, wovon wir schon einmal mit einander
+                    redeten. Der Krieg scheint mir eine der heilsamsten Erscheinungen zur Bildung
+                    des Menschengeschlechts, und ungern sehe ich ihn nach und nach immer mehr vom
+                    Schauplaz zurüktreten. Er ist das freilich furchtbare Extrem, wodurch jeder
+                    thätige Muth gegen Gefahr, Arbeit und Ungemach geprüft und gestählt wird, der
+                    sich nachher in so verschiedene Nüancen im Menschenleben modifizirt, und ohne
+                    den der ganzen Gestalt die Stärke und Mannigfaltigkeit fehlten, ohne welche
+                    Leichtigkeit Schwäche und Einheit Leere ist. Sie werden mir antworten, daß es
+                    neben dem Kriege andre Mittel dieser Art giebt, physische, gefahrvolle
+                    Beschäftigungen, und moralische von mancherlei Gattung, die den festen,
+                    unerschütterten Staatsmann im Kabinett, und den freimüthigen Denker in seiner
+                    einsamen Zelle treffen können. Allein ich kann mich von der Vorstellung nicht
+                    losreißen, daß wie alles Geistige nur eine feinere Blüthe des Körperlichen, so
+                    auch dieses es ist. Nun lebt zwar der Stamm, <subst>
+                  <del>der sie tragen</del>
+                  <add>auf dem sie hervorsprießen</add>
+               </subst> kann, in der Vergangenheit.
+                    Allein das Andenken der Vergangenheit tritt immer weiter zurük, die Zahl derer,
+                    auf welche es wirkt, vermindert sich immer in der Nation, und selbst auf diese
+                    wird die Wirkung schwächer. Andren oft gleich gefahrvollen Beschäftigungen,
+                    Seefahrten, dem Bergbau u.s.f. fehlt, wenn gleich mehr und minder, die Idee der
+                    Größe und des Ruhms, die mit dem Kriege so eng verbunden ist. Und diese Idee ist
+                    in der That nicht schimärisch. Sie beruht auf einer Vorstellung von
+                    überwiegender Macht. Den Elementen sucht man mehr zu entrinnen, ihre Gewalt mehr
+                    auszudauren, als sie zu besiegen. Mit Göttern Soll sich nicht messen Irgend ein
+                    Mensch. <del>Die</del> Rettung ist nicht Sieg. Was das Schiksal wohlthätig
+                    schenkt, und menschlicher Muth oder menschliche Erfindsamkeit nur benuzt, ist
+                    nicht Frucht und Beweis der Obergewalt. Dazu denkt auch jeder im Kriege, auf
+                    seiner Seite das Recht zu haben, jeder eine Beleidigung zu rächen. Nun aber
+                    achtet der natürliche Mensch es höher, seine Ehre zu reinigen, als <subst>
+                  <del>Erwerb</del>
+                  <add>Bedarf</add>
+               </subst> fürs Leben zu sammlen. Sie werden es mir nicht
+                    zutrauen, den Tod eines gefallnen Kriegers schöner zu nennen, als den Tod eines
+                    kühnen Empedokles, oder, um vielleicht nicht genug geehrte Männer zu nennen, den
+                    Tod von Robert<note type="footnote" resp="editor">Dies ist wahrscheinlich ein
+                        Schreibfehler: Gemeint ist wohl <persName ref="paromain">Pierre-Ange
+                            Romain</persName>, der zusammen mit Jean-François Pilâtre de Rozier am
+                        15. Juni 1785 mit einem von letzterem entwickelten Heißluft-Gas-Ballon
+                        anstürzte und dabei ums Leben kam.</note> und <persName ref="jfpilatre">Pilatre de Rozier</persName>. Allein diese Beispiele sind selten, und wer
+                    weiß, ob ohne jene sie überhaupt nur wären? Auch habe ich für den Krieg die
+                    ungünstigste Lage gewählt. Nehmen Sie die Spartaner bei Thermopylä. Ich frage
+                    Sie, was so ein Beispiel auf eine Nation wirkt? Wohl weiß ichs, derselbe Muth,
+                    dieselbe Selbstverläugnung kann sich in jeder Situation des Lebens zeigen, und
+                    zeigt sich in jeder in ihm. Aber wollen Sie es dem sinnlichen Menschen verargen,
+                    wenn das lebendigste Symbol ihn auch am meisten hinreisst, und können Sie
+                    läugnen, daß Symbole dieser Art wenigstens in der größten Allgemeinheit wirken
+                    und wieder die lebendigste Energie hervorbringen? Und bei allem dem, lieber
+                    Freund, was ich je von Uebeln hörte, die schreklicher waren, als der Tod, ich
+                    sah noch keinen Menschen, der das Leben in üppiger Fülle genoß, und der, ohne
+                    Schwärmer zu sein, den Tod verachtete. Am wenigsten aber existirten diese
+                    Menschen im Alterthum, wo man die Sache noch höher als das Zeichen, die
+                    Gegenwart noch höher als die Zukunft schäzte. Was ich daher hier von Kriegern
+                    sage, gilt auch nur von solchen, die – nicht gebildet, wie jene, in <persName ref="platon">Plato</persName>s <bibl sameAs="1148">Republik</bibl>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 73 Anm. 5: Im Anfang des
+                        dritten Buches (S. 386a).</note> – die Dinge, Leben und Tod, nehmen für das,
+                    was sie sind, für Krieger, die, das Höchste im Auge, das Höchste aufs Spiel
+                    sezen. Alle Situationen, in welchen sich die Extreme gleichsam an einander
+                    knüpfen, sind die interessantesten und bildendsten. Wo ist dieß aber mehr der
+                    Fall als im Kriege, wo Neigung und Pflicht, und Pflicht des Menschen und Bürgers
+                    im ewigen Streit ist? Schon der Gesichtspunkt, aus dem allein ich den Krieg für
+                    heilsam und nothwendig halte, sagt Ihnen, wie, meiner Meinung nach, im Staat
+                    davon Gebrauch gemacht werden müßte. Dem Geist, den er erwekt, muß Freiheit
+                    gewährt werden, durch alle Mitglieder der Nation sich zu ergießen. Schon dieß
+                    spricht gegen die stehenden Armeen. Ueberdieß sind sie und die neuere Art des
+                    Krieges freilich weit von dem Ideale entfernt, das für die Bildung des Menschen
+                    das nüzlichste wäre. Auch müßte ich sehr unglüklich in Auseinandersezung meiner
+                    Ideen gewesen sein, wenn Sie glaubten, der Staat sollte, meiner Meinung nach,
+                    von Zeit zu Zeit Kriege anrichten. Er gebe Freiheit und dieselbe Freiheit
+                    genieße ein benachbarter Staat. Die Menschen sind in jedem Zeitalter Menschen,
+                    und verlieren nie ihre ursprünglichen Leidenschaften. Es wird Krieg von selbst
+                    entstehen, und entsteht er nicht, nun so ist man wenigstens gewiß, daß der
+                    Friede weder durch Gewalt erzwungen, noch durch künstliche Lähmung
+                    hervorgebracht ist, und dann wird der Friede der Nation freilich ein eben so
+                    wohlthätigeres Geschenk sein, als der friedliche Pflüger ein holderes Bild ist,
+                    als der blutige Krieger. Und gewiß ist es, denkt man sich ein Fortschreiten der
+                    Menschen über mehr als eine Generation hinaus, so müßten die folgenden Zeiträume
+                    immer die friedlicheren sein. Aber dann ist der Friede aus den innern Kräften
+                    der Wesen hervorgegangen, dann sind die Menschen und zwar die freien Menschen
+                    friedlich geworden. Jezt – das beweist Ein Jahr der Europäischen Geschichte –
+                    genießen wir die Früchte des Friedens, aber nicht die der Friedlichkeit. Die
+                    menschlichen Kräfte, unaufhörlich nach einer gleichsam unendlichen Wirksamkeit
+                    strebend, wenn sie einander begegnen, vereinen <del>sich</del>, oder bekämpfen
+                    sich. Welche Gestalt der Kampf annehme, ob die des Krieges, des Wetteifers,
+                    welche Sie sonst nuanciren wollen, hängt vorzüglich von ihrer <subst>
+                  <del type="fragment">Feinh</del>
+                  <add>Verfeinerung</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 74 Anm. 2: Verbessert aus "Feinh[eit]".</note>
+               <sic>her</sic>.<note type="footnote" resp="editor">Gemeint ist "ab".</note>
+               <subst>
+                  <del>Hienach</del>
+                  <add>Wenn ich</add>
+               </subst> es daher wagen darf allein aus dem in diesem
+                    ganzen Briefe gewählten Gesichtspunkte die Skizze einer Staatsverfassung zu
+                    entwerfen, so müßte den Krieg und Frieden beschließen allemal die Nation. Im
+                    Kriege selbst müßte der Staat anführen, und der Krieger durch den unbedingtesten
+                    Gehorsam gebunden sein.</p>
+            <p> Einiger, als in diesem Punkt, in dem ich dennoch auch, was eigentlich zum
+                    Zusammenhang des ganzen Raisonnements dieses Briefes gehört, völlig gegen allen
+                    Einwurf gesichert halte, werden Sie mit mir über die Sorgfalt des Staats zur
+                    Erhaltung der innern Sicherheit sein. Schon ein oberflächliches Raisonnement und
+                    selbst eine sehr mangelhafte Erfahrung lehrt, daß diese Sorgfalt mehr oder
+                    minder weit ausgreifen kann, ihren Endzwek zu erreichen. Sie kann sich begnügen
+                    begangne Unordnungen beizulegen und zu bestrafen. Sie kann ihre Begehung an sich
+                    zu verhüten suchen, und sie kann endlich, zu diesem Endzwek, den Bürgern
+                    überhaupt, ihrem Charakter und ihrem Geist, eine Wendung zu ertheilen bemüht
+                    sein, die hiezu abzwekt. Auch gleichsam die Extension ist verschiedner Grade
+                    fähig. Es können bloß Beleidigungen der Rechte der Bürger oder unmittelbarer
+                    Rechte des Staats untersucht und gerügt werden, oder man kann, indem man den
+                    Bürger als ein Wesen ansieht, das dem Staat die Anwendung seiner Kräfte schuldig
+                    ist, auch auf Handlungen ein wachsames Auge haben, deren Folgen sich nur auf die
+                    Handlenden selbst erstrekken. Alles dieß fasse ich hier auf einmal zusammen, und
+                    rede daher allgemein von allen Einrichtungen des Staats, welche zwar in der
+                    Absicht der Beförderung der öffentlichen Sicherheit geschehen, allein sich nicht
+                    begnügen <subst>
+                  <del>unmittelbar gekränkte</del>
+                  <add>unmittelbare Kränkungen</add>
+               </subst> der Rechte der Bürger und des
+                    Staats zu <subst>
+                  <del>verhindern</del>
+                  <add>bestrafen</add>
+               </subst> oder, wenn man grade im Begriff ist, sie zu
+                    begehen, zu verhüten. Ich ziehe zugleich alle übrigen hieher, die zwar nicht
+                    Sicherheit allein, sondern das Wohl der Bürger überhaupt, indeß das moralische,
+                    nicht das physische zum Endzwek haben, weil diese mit den übrigen, von denen ich
+                    hier rede, in näherer Verwandtschaft stehen, als mit denen, von welchen ich im
+                    Vorigen sprach.</p>
+            <p>Die sinnlichen Empfindungen, Neigungen und Leidenschaften sind es, welche sich
+                    zuerst und in den heftigsten Aeußerungen an den Menschen zeigen. Wo sie, ehe
+                    noch Kultur sie verfeinert, oder der Energie der Seele eine andre Richtung
+                    gegeben hat, schweigen, da ist auch alle Kraft erstorben, und es kann nie etwas
+                    Gutes und Großes gedeihen. Sie sind es gleichsam, welche wenigstens zuerst eine
+                    belebende Wärme der Seele ertheilen, <subst>
+                  <del>welche</del>
+                  <add>zuerst</add>
+               </subst> zu einer regen Thätigkeit anspornen. Indeß ist ihr
+                    Einfluß in der Intension, wie in der Art des Wirkens unendlich verschieden. Dieß
+                    beruht theils auf ihrer Stärke, oder Schwäche, theils aber auch – wenn ich mich
+                    so ausdrükken darf – auf der mindern oder größern Leichtigkeit, sie von
+                    thierischen Genüssen zu menschlichen Freuden zu erheben. So <subst>
+                  <del>giebt</del>
+                  <add>leiht</add>
+               </subst> das Auge der Materie seiner Empfindung die für uns
+                    so genuß- und ideenreiche Form der Gestalt, so das Ohr die der proportionirten
+                    Zeitfolge der Eindrükke. Ueber die verschiedne Natur dieser Empfindungen, und
+                    die Art ihrer Wirkung ließe sich vielleicht viel Schönes und manches Neue sagen,
+                    wozu aber schon hier nicht der Ort ist. Nur Eine Bemerkung über ihren Nuzen zur
+                    Bildung der Seele. Das Auge, wenn ich so sagen soll, liefert gleichsam dem
+                    Verstande einen mehr vorbereiteten Stoff. Das Innre des Menschen wird ihm
+                    gleichsam mit seiner, und der übrigen immer von unsrer Phantasie auf ihn
+                    bezognen Dinge Gestalt gegeben. Das Ohr weniger. Sie erinnern sich, daß darum
+                        <persName ref="ikant">Kant</persName> die Musik den bildenden Künsten
+                    nachsezt. Allein er bemerkt sehr richtig, daß dieß auch zum Maaßstabe die Kultur
+                    voraussezt, welche die Künste dem Gemüth verschaffen. Es fragt sich indeß, ob
+                    dieß der richtige Maaßstab sei. Meiner Idee nach, ist Energie die erste und
+                    einzige Tugend des Menschen. Was seine Energie erhöht, ist mehr werth, als was
+                    ihm nur Stoff zur Energie an die Hand giebt. Wie nun aber der Mensch auf Einmal
+                    nur Eine Sache empfindet; so wirkt auch das am meisten, was nur Eine Sache
+                    zugleich ihm darstellt, und wie in einer Reihe auf einander folgender
+                    Empfindungen jede einen durch alle vorige gewirkten, und auf alle folgende
+                    wirkenden Grad hat, das, in welchem die einzelnen Bestandtheile in einem
+                    ähnlichen Verhältnisse stehen. Dieß alles aber ist der Fall der Musik. Ferner
+                    ist der Musik nur diese Zeitfolge eigen, nur diese ist in ihr bestimmt. Die
+                    Reihe, die sie darstellt, <subst>
+                  <del>ist</del>
+                  <add>nöthigt</add>
+               </subst> sehr wenig zu einer bestimmten Empfindung. Es ist
+                    gleichsam ein Thema, dem man unendlich viele Texte unterlegen kann. Was ihr also
+                    die Seele des, der sie hört, und nur überhaupt gleichsam der Gattung nach in <subst>
+                  <del>der</del>
+                  <add>einer</add>
+               </subst> verwandten Stimmung ist, wirklich unterlegt,
+                    entspringt völlig frei und ungebunden aus ihrer eignen Fülle, und so umfaßt sie
+                    es unstreitig wärmer, als was ihr gegeben wird, und was oft erst mehr
+                    beschäftigt, wahrgenommen als empfunden zu werden. Diese Art zu wirken ist nun
+                    nicht der Musik allein eigen. <persName ref="ikant">Kant</persName> bemerkt eben
+                    sie, als bei einer wechselnden Farbenmischung möglich, und in noch höherm Grade
+                    ist sies bei dem, was wir durch das Gefühl empfinden. Selbst beim Geschmak ist
+                    sie unverkennbar. Auch im Geschmak ist ein Steigen des Wohlgefallens, das sich
+                    gleichsam nach einer Auflösung sehnt, und nach der gefundnen Auflösung in
+                    schwächern Vibrationen nach und nach verschwindet. Am dunkelsten, und sogar,
+                    meinem Gefühl nach, gar nicht bemerkbar ist dieß beim Geruch. Wie nun im
+                    empfindenden Menschen der Gang der Empfindung, ihr Grad, ihr wechselndes Steigen
+                    und Fallen, ihre – wenn ich mich so ausdrükken darf – reine und volle Harmonie
+                    eigentlich das anziehendste, und anziehender ist, als der Stoff selbst, insofern
+                    man nemlich vergißt, daß die Natur des Stoffes vorzüglich den Grad und noch mehr
+                    die Harmonie jenes Ganges bestimmt, und wie der empfindende Mensch – gleichsam
+                    das Bild des blüthentreibenden Frühlings – gerade das anziehendste Schauspiel
+                    ist; so sucht auch der Mensch gleichsam dieß Bild seiner Empfindung vor allem
+                    andren in allen schönen Künsten. So macht die Mahlerei, selbst die Plastik es
+                    sich eigen, das Auge der <persName ref="greni">Guido Reni</persName>schen
+                    Madonna <subst>
+                  <del>zeigt den</del>
+                  <add>hält sich</add>
+               </subst> gleichsam nicht in den Schranken Eines
+                    flüchtigen Augenbliks. Die angespannte Muskel des Borghesischen Fechters
+                    verkündet den Stoß, den er zu vollführen bereit ist. Und in noch höherm Grade
+                    benuzt dieß die Dichtkunst. Ohne hier eigentlich von dem Range der schönen
+                    Künste reden zu wollen, erlauben Sie mir nur noch Folgendes, um meine Idee ganz
+                    deutlich zu machen, hinzuzusezen. Die schönen Künste wirken durch ein zwiefaches
+                    Mittel, durch Materie, und Ausdruck, die ich aber freilich hier in einem weitem
+                    und wieder auch geschiednern Sinn, als gewöhnlich nehme. Je mehr der Ausdruck
+                    die Materie, und je mehr die Materie den Ausdruck zu Hülfe nimmt, desto mehr
+                    schwächt jedes seine eigne Wirkung. Die Dichtkunst vereinigt am meisten und
+                    vollständigsten beides, und darum ist sie auf der einen Seite die vollkommenste
+                    aller schönen Künste, aber auf der andren Seite auch die schwächste. Weniger
+                    lebhaft mahlend als die Plastik, und deren Materie, drükt sie weniger treu
+                    nachahmend aus, als die Musik. Die energisch wirkenden sinnlichen Empfindungen
+                    aber – denn nur um diese zu erläutern, rede ich hier von Künsten – wirken
+                    wiederum verschieden, theils je nachdem ihr Gang wirklich die abgemessensten
+                    Proportionen hat, theils je nachdem die Bestandtheile selbst, gleichsam die
+                    Materie eindringender ist. So wirkt die gleich richtige und schöne
+                    Menschenstimme mehr als ein todtes Instrument. Nun aber ist nie etwas näher als
+                    das eigne körperliche Gefühl. Wo also dieses selbst mit im Spiele ist, da ist
+                    die Wirkung die höchste. Aber wie immer die unverhältnißmäßige Stärke der
+                    Materie gleichsam die zarte Form unterdrükt, so geschieht es auch hier oft, und
+                    es muß also zwischen beiden ein richtiges Verhältniß sein. Das Gleichgewicht bei
+                    einem unrichtigen Verhältnisse kann hergestellt werden durch Erhöhung der Kraft
+                    des einen, oder Schwächung der Kraft des andren. Allein es ist immer falsch,
+                    durch Schwächung zu bilden, oder die Stärke müßte denn nicht natürlich, sondern
+                    erkünstelt sein. Wo sie aber das nicht ist, da schränke man sie nie ein. Es ist
+                    besser, daß sie sich zerstöre, als daß sie aufhöre. Aber genug hievon. Ich
+                    hoffe, Sie werden mich verstehn, – obgleich ich gestehe, daß Sie das meiste
+                    Licht nun in der nicht eben zufälligen Dunkelheit suchen müssen.</p>
+            <p>Ich habe bis jezt – obgleich eine völlige Trennung nie möglich ist – von der
+                    sinnlichen Empfindung nur als sinnlicher Empfindung zu reden versucht. Aber
+                    Sinnlichkeit und Unsinnlichkeit verknüpft ein geheimnißvolles Band, und wenn es <subst>
+                  <del>uns</del>
+                  <add>unsrem Auge</add>
+               </subst> versagt ist, dieß Band zu sehen, so ahndet es
+                    unser Gefühl. Dieser zwiefachen Natur der sichtbaren und unsichtbaren Welt, dem
+                    angebornen Sehnen nach dieser, und dem Gefühl der gleichsam süßen
+                    Unentbehrlichkeit dieser<note type="footnote" resp="editor">Leitzmann 1935b, S.
+                        78 korrigiert zu "jener".</note> danken wir alle wahrhaft aus dem Wesen des
+                    Menschen entsprungne konsequente philosophische Systeme, so wie alle, auch die
+                    sinnlosesten Schwärmereien. Ewiges Streben beide so zu vereinen, daß <subst>
+                  <del>keine</del>
+                  <add>jede</add>
+               </subst> so wenig als möglich der andren raube, schien mir
+                    immer das <subst>
+                  <del>Eigentum</del>
+                  <add>Ziel</add>
+               </subst> des menschlichen Weisen. Unverkennbar ist überall
+                    dieß ästhetische Gefühl, mit dem uns die Sinnlichkeit Hülle des Geistigen und
+                    das Geistige belebendes Prinzip der Sinnenwelt ist. Das ewige Studium dieser
+                    Physiognomik der Natur bildet den eigentlichen Menschen. Und hier zeigt sich
+                    zugleich wieder der Unterschied der energisch wirkenden und der übrigen
+                    sinnlichen Empfindungen. Wenn das lezte Streben alles unsres menschlichsten
+                    Bemühens nur auf das Entdekken, Nähren und Erschaffen des Einzig wahrhaft
+                    Existirenden, obgleich in seiner Urgestalt ewig Unsichtbaren in uns und andren
+                    gerichtet ist, wenn es allein das ist, dessen Ahndung uns jedes seiner Symbole
+                    so theuer und gleichsam heilig macht, so treten wir ihm gleichsam einen Schritt
+                    näher, wenn wir das Bild seiner ewig regen Energie anschauen. Wir reden
+                    gleichsam mit ihm im schweren und oft unverstandnen, aber auch oft mit der
+                    gewissesten Wahrheitsahndung überraschenden Gefühl, indeß die Gestalt, wie
+                        <persName ref="platon">Plato</persName> einmal vom Dichter sagt, <subst>
+                  <del>glei+ <add>erst</add>
+                  </del>
+                  <add>um</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S.
+                        79 Anm. 2: Verbessert aus "erst" aus "glei[chsam].</note> die dritte Stelle
+                    von der Wahrheit entfernt ist. Auf diesem Boden zwar nicht allein, aber
+                    vorzüglich blüht auch das Schöne, und noch weit mehr das Erhabne auf, das
+                    gleichsam den Menschen der Gottheit noch näher bringt. Die Nothwendigkeit eines
+                    reinen, von allem Zwek entfernten Wohlgefallens an einem Gegenstande, ohne
+                    Begriff, bewährt ihm gleichsam seine Abstammung, seine Verwandtschaft mit dem
+                    Unsichtbaren, und das Gefühl seiner Unangemessenheit zu dem überschwenglichen
+                    Gegenstande verbindet auf die menschlich-göttlichste Weise unendliche Größe mit
+                    hingebender Niedrigkeit. Ohne das Schöne fehlte dem Menschen die Liebe der
+                    Dinge, um ihrer selbst willen, ohne das Erhabne der Gehorsam, der jede Belohnung
+                    verschmäht, und niedrige Furcht nicht kennt. Das <subst>
+                  <del type="fragment">Gef</del>
+                  <add>Studium</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 79 Anm. 3: Verbessert aus "Gef[ühl]".</note> des Schönen gewährt
+                    Geschmak, des Erhabnen, wenn es auch <subst>
+                  <del>für es</del>
+                  <add>hiefür</add>
+               </subst> ein Studium giebt und nicht Gefühl und Darstellung
+                    des Erhabnen allein Frucht des Genies ist, richtig abgewägte Größe. Der Geschmak
+                    allein aber, dem <del>sich</del> allemal Größe zum Grunde liegen muß, weil nur
+                    das Große des Maaßes und nur das Gewaltige der Haltung bedarf, vereint alle Töne
+                    des <subst>
+                  <del>erst <gap quantity="3" unit="chars"/>
+                  </del>
+                  <add>vollgestimmten</add>
+               </subst> Wesens in eine reizende Harmonie. Ohne ihn
+                    sind die Tiefen des Geistes, wie die Schäze des Wissens unfruchtbar, ohne ihn
+                    der Adel und die Stärke des moralischen Willens selbst rauh und ohne erwärmende
+                    Segenskraft.</p>
+            <p>Forschen und schaffen – darum drehen, und darauf beziehen sich wenigstens, wenn
+                    gleich mittelbarer oder unmittelbarer, alle Beschäftigungen des Menschen. Das
+                    Forschen, wenn es die Gründe der Dinge oder die Schranken der Vernunft erreichen
+                    soll, sezt außer der Tiefe einen mannigfaltigen Reichthum und innige Erwärmung
+                    des Geistes voraus. Nur der bloß analytische Philosoph kann vielleicht durch die
+                    simplen Operationen der nicht bloß ruhigen, sondern kalten Vernunft seinen
+                    Endzwek <sic>erreichen</sic>
+               <note type="footnote" resp="editor">Der den Satz
+                        abschließende Punkt fehlt.</note> Aber um das Band zu entdekken, das
+                    synthetische Säze verknüpft, ist eigentliche Tiefe und ein Geist erforderlich,
+                    der allen seinen Kräften gleiche Stärke zu verschaffen gewußt hat. So wird denn
+                    – man darf es wohl mit Wahrheit sagen – <subst>
+                  <del>ein</del>
+                  <add>
+                     <persName ref="ikant">Kant</persName>s</add>
+               </subst> nie übertroffner
+                    Tiefsinn in der Moral und Aesthetik noch oft der Schwärmerei beschuldigt werden,
+                    wie er es schon wurde, und wenn Sie mir das Geständniß erlauben – wenn mir
+                    selbst einige, obgleich seltne Stellen (ich erinnere Sie an die Deutung der
+                    Regenbogenfarben) darauf hinzuführen scheinen; so klage ich allein den Mangel
+                    der Tiefe meiner intellektuellen Kräfte an. Also auch um den ruhigsten Denker zu
+                    bilden, muß Genuß der Sinne und der Phantasie oft um die Seele spielen. Und wenn
+                    Sie von transcendentalen Untersuchungen auf psychologische übergehn, wenn der
+                    Mensch, wie er erscheint, Ihr Studium wird, wie wird da nicht der das
+                    gestaltenreiche Geschlecht am tiefsten erforschen, am lebendigsten darstellen,
+                    dessen eigner Empfindung selbst die wenigsten dieser Gestalten fremd sind?</p>
+            <p>Daher erscheint der also gebildete Mensch in <subst>
+                  <del type="fragment">seinem hellesten Lich</del>
+                  <add>seiner höchsten Schönheit</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 80 Anm. 3: Verbessert aus "seinem
+                        hellesten Lich[te]".</note>, wenn er ins praktische Leben tritt, wenn er, <subst>
+                  <del type="fragment">wovon er in sich glüht, außer sich zu schaffen
+                            bem</del>
+                  <add>was er in sich aufgenommen hat, zu neuen Schöpfungen in und außer sich
+                            fruchtbar macht</add>
+               </subst>. Die Analogie zwischen den <subst>
+                  <del type="fragment">Oper</del>
+                  <add>Gesezen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 80 Anm. 5: Verbessert aus "Oper[ationen]".</note> der Plastischen
+                    Natur und denen des geistigen Schaffens ist schon mit einem warlich genievollen
+                    Blikke beobachtet, und mit treffenden Bemerkungen bewährt worden. Doch
+                    vielleicht wäre eine anziehendere <subst>
+                  <del type="fragment">Be</del>
+                  <add>Ausführung</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 80 Anm. 7: Verbessert aus "Be[handlung ?]".</note> möglich
+                    gewesen; statt sich auf unerforschbare Geseze der Bildung des Keims einzulassen,
+                    hätte die Psychologie vielleicht eine <subst>
+                  <del type="fragment">frucht</del>
+                  <add>reichere</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 80 Anm. 8: Verbessert aus "frucht[barere]".</note> Belehrung
+                    erhalten; wenn das geistige Schaffen gleichsam als eine feinere Blüthe des
+                    körperlichen Erzeugens näher gezeigt worden wäre. Um auch in dem moralischen
+                    Leben von dem zuerst zu reden, was am meisten bloßes Werk der kalten Vernunft
+                    scheint, so <subst>
+                  <del>knüpft</del>
+                  <add>macht</add>
+               </subst> es die Idee des Erhabnen allein
+                    möglich dem unbedingt gebietenden Geseze zwar allerdings – durch das Medium (ein
+                    so unendlich glüklich von Ihnen gewählter Ausdruk) des Gefühls – auf eine
+                    menschliche und doch – durch den völligen Mangel der Rüksicht auf Glük oder
+                    Unglük – auf eine göttlich uneigennüzige Weise zu gehorchen. Das Gefühl der
+                    Unangemessenheit der menschlichen Kräfte zum moralischen Gesez, das innige
+                    Bewußtsein, daß der Tugendhafteste gleichsam nur der ist, der am tiefsten
+                    empfindet, <subst>
+                  <del type="fragment">die Höhe des Geseze</del>
+                  <add>wie hoch das Gesez über ihm erhaben ist</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann 1935b, S. 81 Anm. 2: Verbessert aus
+                        "die Höhe des Geseze[s]".</note>, <subst>
+                  <del type="fragment">gebie</del>
+                  <add>erzeugt</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 81 Anm. 3: Verbessert aus "gebie[rt]".</note> die Achtung – eine
+                    Empfindung, welche nicht mehr körperliche Hülle zu umgeben scheint, als nöthig
+                    ist, <subst>
+                  <del>sie sterblichen Augen sichtbar zu machen</del>
+                  <add>sterbliche Augen nicht durch den reinen Glanz zu
+                        verblenden</add>
+               </subst>. Wenn da das moralische Gesez jeden Menschen als
+                    einen Zwek in sich zu betrachten nöthigt; so vereint sich mit ihm das
+                    Schönheitsgefühl, das gern jedem Staube Leben einhauchte um auch in ihm an einer <subst>
+                  <del type="fragment">neu</del>
+                  <add>eignen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 81 Anm. 5: Verbessert aus "neu[en]".</note> Existenz sich zu
+                    freuen, und das um so viel voller und schöner den Menschen aufnimmt und umfaßt,
+                    als es, unabhängig vom Begriff, nicht auf die kleine Zahl der Merkmale
+                    beschränkt ist, welche der Begriff und noch dazu nur abgeschnitten und einzeln
+                    zu umfassen vermag. Die Beimischung des Schönheitsgefühls scheint der Reinheit
+                    des moralischen Willens Abbruch zu thun, und sie könnte es allerdings, und würde
+                    es auch, wenn <subst>
+                  <del>sie</del>
+                  <add>dieß Gefühl</add>
+               </subst> eigentlich dem Menschen Antrieb zur Moralität
+                    sein sollte. Allein es soll <del>ihr</del> bloß die Pflicht auf sich haben,
+                    gleichsam mannigfaltigere Anwendungen für das moralische Gesez aufzufinden, die
+                    dem kalten, und darum hier allemal unfeinern Verstande entgehen würden, und das
+                    Recht genießen, dem Menschen – dem es nicht verwehrt ist für die Tugend Lohn zu
+                    genießen, aber wohl die Tugend durch Lohn zu erkaufen – die süßesten Gefühle zu
+                    gewähren. <del>Wie strebend nach Genuß</del> Je mehr ich überhaupt über diesen
+                    Gegenstand nachdenken mag, desto weniger scheint mir der Unterschied, den ich
+                    eben <del>so wie ich</del> bemerkte, so bloß subtil und vielleicht schwärmerisch
+                    zu sein. Wie strebend der Mensch nach Genuß ist, wie sehr er sich
+                    Tugend und Glükseligkeit ewig auch unter den ungünstigsten äußern Umständen
+                    vereint denken möchte; so ist doch auch seine Seele für die Größe des
+                    moralischen Gesezes empfänglich. Sie kann sich der Gewalt nicht erwehren, mit
+                    welcher diese Größe sie zu handlen nöthigt, und nur von diesem Gefühle
+                    durchdrungen handelt sie, schon darum ohne Rüksicht auf Genuß, weil sie nie das
+                    volle Bewußtsein verliert, daß die Vorstellung jedes Unglüks <subst>
+                  <del>sie nicht zu einem</del>
+                  <add>ihr kein</add>
+               </subst> andres Betragen abnöthigen würde. Aber diese
+                    Stärke freilich gewinnt die Seele nur auf einem dem ähnlichen Wege, von dem ich
+                    im Vorigen rede. Alle Stärke – gleichsam die Materie – stammt aus der
+                    Sinnlichkeit, und wie weit entfernt von dem Stamm, ist sie doch noch immer, wenn
+                    ich so sagen darf, auf ihm ruhend. Wer nun seine Kräfte unaufhörlich zu erhöhen
+                    und durch häufigen Genuß zu verjüngen <subst>
+                  <del>strebt</del>
+                  <add>sucht</add>
+               </subst>, wer die Stärke seines Charakters oft braucht,
+                    seine Unabhängigkeit von der Sinnlichkeit zu behaupten, wer so diese
+                    Unabhängigkeit mit der höchsten Reizbarkeit zu vereinen bemüht ist, wessen <subst>
+                  <del>richtiger</del>
+                  <add>gerader</add>
+               </subst> und tiefer Sinn der Wahrheit un ermüdet
+                    nachforscht, wessen richtiges und feines Schönheitsgefühl keine reizende Gestalt
+                    unbemerkt läßt, wessen Drang das außer sich Empfundne in sich aufzunehmen, und
+                    das in sich Aufgenommne zu neuen Geburten zu befruchten, jede Schönheit in seine
+                    Individualität zu verwandeln, und, mit jeder sein ganzes Wesen gattend, neue
+                    Schönheit zu erzeugen strebt, der kann das befriedigende Bewußtsein nähren auf
+                    dem richtigen Wege zu sein, <subst>
+                  <del>seis auch im</del>
+                  <add>dem Ideal</add>
+               </subst> sich zu nahen, das selbst die kühnste Phantasie
+                    der Menschheit vorzuzeichnen wagt.</p>
+            <p>Ich habe durch dieß an und für sich selbst politischen Untersuchungen ziemlich
+                    fremdartige Gemählde zu zeigen versucht, wie die Sinnlichkeit und ihre heilsamen
+                    Folgen durch das ganze Leben, und durch alle Beschäftigungen des Menschen
+                    verflochten ist. Ihr dadurch Achtung und Freiheit zu erwerben war meine Absicht.
+                    Sie mögen über das Gelingen des Versuchs urtheilen. Vergessen darf ich indeß
+                    nicht, daß gerade sie auch die Quelle einer großen Menge physischer und
+                    moralischer Uebel ist. Selbst moralisch nur heilsam, wenn sie in richtigem
+                    Verhältnisse mit den geistigen Kräften steht, erhält sie so leicht ein
+                    schädliches Uebergewicht. Dann wird menschlicher Genuß thierische Lust, der Geschmak verschwindet, oder erhält unnatürliche Richtungen, bei
+                    welchem leztern Ausdruk ich mich jedoch nicht enthalten kann, vorzüglich in
+                    Hinsicht auf gewisse einseitige Beurtheilungen, noch zu bemerken, daß nicht
+                    unnatürlich heißen muß, was nicht gerade diesen oder jenen Zwek der Natur
+                    erfüllt, sondern was den allgemeinen Zwek derselben mit dem Menschen vereitelt.
+                    Dieser aber ist, daß seine denkende und empfindende Kraft, beide in
+                    proportionirlichen Graden der Stärke, sich unzertrennlich vereine. Es kann aber
+                    ferner ein Misverhältniß entstehen zwischen der Art, wie ein Mensch seine Kräfte
+                    ausbildet, und zwischen den Mitteln des Wirkens und Genießens, die seine Lage
+                    ihm darbietet, und dieß Misverhältniß ist eine neue Quelle von Uebeln. Nach den
+                    im vorigen ausgeführten Grundsäzen aber ist es dem Staate nicht erlaubt, positiv
+                    auf die Lage der Bürger zu wirken. Diese Lage erhält also nicht eine so
+                    bestimmte und erzwungne Form, und ihre größere Freiheit, wie daß sie in eben
+                    dieser Freiheit selbst großentheils von der Denkungs und Handlungs Art der
+                    Bürger ihre Richtung erhält, vermindert schon ihr Misverhältniß. Dennoch aber
+                    könnte die immer warlich nicht unbedeutende übrigbleibende Gefahr die Idee der
+                    Nothwendigkeit erregen, der Sittenverderbniß durch Geseze und Staatsein
+                    richtungen entgegenzukommen.</p>
+            <p>Allein wären solche Geseze und Einrichtungen auch wirksam; so würde nur gerade
+                    mit dem Grade ihrer Wirksamkeit ihre Schädlichkeit steigen. Ein Staat, in
+                    welchem die Bürger durch falsche Mittel genöthigt oder bewogen würden auch den
+                    besten Gesezen zu folgen, könnte ein ruhiger, friedliebender, wohlhabender Staat
+                    sein, allein er würde mir immer ein Haufe ernährter Sklaven, nicht eine
+                    Vereinigung freier, nur, wo sie die Gränze des Rechts übertreten, gebundener
+                    Menschen scheinen, Zwang bringt nie Tugend hervor, und schwächt immer die Kraft,
+                    und was sind Sitten ohne moralische Stärke und Tugend? Und wie groß auch das
+                    Uebel des Sittenverderbnisses sein mag, es ermangelt selbst der heilsamen Folgen
+                    nicht. Durch die Extreme der Dinge müssen die Menschen auf der Weisheit und
+                    Tugend mittlern Pfad gelangen. Extreme müssen, gleich großen in die ferne
+                    leuchtenden Massen, weit wirken, um den feinsten Adern des
+                        <del>menschlichen</del> Körpers Blut zu verschaffen, muß eine beträchtliche
+                    Menge in den großen vorhanden sein. Hier die Ordnung der <subst>
+                  <del>Dinge</del>
+                  <add>Natur</add>
+               </subst> stören wollen, heißt moralisches Uebel anrichten um
+                    physisches zu vernichten.</p>
+            <p> Wenn ich es daher nicht billige, selbst wirklichem Uebel, sobald es
+                    nur noch nicht fremdes Recht kränkt, entgegen zu arbeiten, so schließen Sie
+                    leicht, daß ich alle Bildung, <subst>
+                  <del>die</del>
+                  <add>welche</add>
+               </subst> der Staat durch Erziehung und Religion positiv
+                    geben will, misbillige. Ich verweile hiebei auch keinen Augenblik. Alles ist aus
+                    dem Vorigen klar. Die nähere Anwendung habe ich schon in dem alten Aufsaz, den
+                    Sie kennen, gemacht. Freilich mangelhaft, eben die Mängel dieses Briefes selbst
+                    zeigen Ihnen, daß jene Mängel hier nicht wieder ergänzt worden sind. Nur um der
+                    Konsequenz willen Eine Bemerkung. Alle Religion – sobald im praktischen Leben
+                    davon die Rede ist – beruht auf Empfindung. Wie das Empfindungssystem eines
+                    Menschen, so nicht bloß seine Religiosität, sondern so auch sein
+                    Religionssystem. Die Nüancen sind unendlich verschieden. Allein folgende zwei
+                    Unterschiede wirken doch mächtig. Erstlich der Unterschied der Selbstständigkeit
+                    und der hinlehnenden Liebe; zweitens des Gefühls der Kraft des Individuums, und
+                    der Schönheit der Einheit in dem Mannigfaltigen. Das Leztere ist gleichsam
+                    intellektueller. In beiden führen die beiden ersten Modifikationen allein für
+                    sich zum entschiednen Atheismus, die beiden lezten zum entschiednen Theismus. In
+                    beiden beides vereint können Atheismus und Theismus hervorbringen, und soll über
+                    Werth entschieden werden; so würde ich, da Werth der Religionssysteme immer nach
+                    dem Werth der ihnen zum Grunde liegenden intellektuellen und empfindenden Kräfte
+                    geschäzt werden kann, dem Theismus und Atheismus, wie er auf die zulezt erwähnte
+                    Weise entsteht, den Vorzug vor dem Theismus und Atheismus geben, auf die erstere
+                    Weise entstanden. Eine unpartheiische Entscheidung zwischen beiden halte ich für
+                    unmöglich. Bei diesem engen Zusammenhange des Empfindungs und Religionssystems
+                    würde daher völlige Freiheit des Erstern, und einschränkende Anordnung des
+                    Leztern wenn nicht unmöglich, doch gewiß noch mehr als bloß inkonsequent sein.
+                    Soviel hievon und nun <subst>
+                  <del>bemerke</del>
+                  <add>wiederhole</add>
+               </subst> ich bloß das mehr als Einmal gesagte, daß die
+                    Religion nur eine ohne alle Aufsicht des Staats zu lassende Gemeineinrichtung
+                    sei, und Aufsicht auf Erziehungsanstalten ganz aufhören müßte.</p>
+            <p>Lassen Sie mich jezt alles zusammennehmen, was ich über die Beantwortung der
+                    zweiten Frage gesagt habe. Der Zwek des Staats darf daher nichts anders als die
+                    Erhaltung der Sicherheit gegen auswärtige Feinde, und gegen
+                    Beeinträchtigungen der Bürger unter einander sein. In diesen Schranken muß er
+                    seine Wirksamkeit halten, und selbst in der Wahl der Mittel zu diesem Zwek
+                    beschränken ihn eben die Grundsäze, welche ihm keinen andren, als diesen Zwek
+                    erlauben. Er darf nemlich – und ich rede hier nun sehr natürlich bloß von der
+                    innern Schönheit – keine andre Mittel anwenden als Entscheidung des streitigen
+                    Rechts, Herstellung des verlezten, Bestrafung des Verlezers. Verbrechen
+                    zuvorkommen dürfte er nur, insofern hinlängliche Merkmale vorhanden wären, daß
+                    die Theilhaber sie schon beschlossen hätten.</p>
+            <p>Dem Einwurfe der Unausführbarkeit überhaupt – denn von der unter diesen oder
+                    jenen Umständen, in diesem oder jenem Lande oder Jahrhundert ist hier die Rede
+                    gar nicht – zu begegnen mag noch Folgendes dienen. 1., Der Mensch ist an sich
+                    mehr zu wohlthätigen, als eigennüzigen Handlungen geneigt. Dies zeigt auch die
+                    Geschichte der Wilden. Die häuslichen Tugenden haben so etwas Freundliches, die
+                    öffentlichen des Bürgers so etwas Großes und Hinreißendes, daß der bloß
+                    unverdorbene Mensch <subst>
+                  <del>ihnen</del>
+                  <add>ihrem Reiz</add>
+               </subst> selten widersteht. 2., Freiheit erhöht die
+                    Kraft und <subst>
+                  <del>hat</del>
+                  <add>führt</add>
+               </subst>, wie immer die größere Stärke, allemal eine Art der
+                    Liberalität mit sich. Zwang erstikt die Kräfte, und führt zu allen <subst>
+                  <del>niedrigen</del>
+                  <add>eigennüzigen</add>
+               </subst> Wünschen und allen niedrigen Kunstgriffen
+                    der Schwäche. Zwang hindert manche Vergehung, giebt aber allen eine niedrigere
+                    Gestalt. Freiheit veranlaßt manche Vergehung, giebt aber allen eine edlere
+                    Gestalt. 3., Der sich selbst überlassne Mensch kommt schwerer auf richtige
+                    Grundsäze, aber sie zeigen sich unaustilgbar in seiner Handlungsweise. Der
+                    absichtlich geleitete empfängt sie leichter, aber sie weichen auch sogar seiner
+                    doch geschwächten Energie. 4., Alle Staatseinrichtungen, indem sie ein
+                    mannigfaltiges und sehr verschiednes Interesse in Eine Einheit bringen sollen, <subst>
+                  <del type="fragment">be</del>
+                  <add>verursachen</add>
+               </subst>
+               <note type="footnote" resp="editor">Leitzmann
+                        1935b, S. 85 Anm. 4: Verbessert aus "be[wirken]".</note> vielerlei
+                    Kollisionen. Aus den Kollisionen entstehen Misverhältnisse zwischen dem
+                    Verlangen und dem Vermögen der Menschen, und aus diesen Vergehungen. Je müßiger
+                    also – wenn ich so sagen darf – der Staat, desto geringer die Anzahl dieser.
+                    Wäre es vorzüglich in gegebnen Fällen möglich, genau die Uebel aufzuzählen,
+                    welche Polizeieinrichtungen veranlassen, und welche sie verhindern,
+                    die Zahl der erstern würde allemal größer sein. 5., Wieviel strenge Aufsuchung
+                    der wirklich begangnen Verbrechen, gerechte und wohl abgemeßne aber unerlaßliche
+                    Strafe, folglich seltne Straflosigkeit vermag, ist praktisch noch nie
+                    hinreichend versucht worden.</p>
+            <p>Zur Beurtheilung der Französischen Konstitution nach dem hier Entwikkelten kehre
+                    ich mehr zurük, Sie um Verzeihung zu bitten, daß ich hierüber nichts zu sagen
+                    vermag, als in der That dieselbe wirklich vorzunehmen. Freilich scheint es mir,
+                    als wäre auf die Feststellung des Zweks, auf die Bestimmung der Grenzen, nicht
+                    einzelner Theile, sondern des Ganzen der Staatsgewalt, wenn nicht gar keine,
+                    doch zu wenig Rüksicht genommen; förmlich ist die Abschaffung des Adels, diese
+                    willkührliche Vernichtung eines Unterschiedes, den man in Ungerechtigkeit
+                    auszuarten, nicht eben ausrotten mußte, meinen Grundsäzen völlig zuwider;
+                    endlich könnte ich auch freilich noch einzelne bis jezt überdieß noch nicht
+                    völlig genehmigte Projekte, National Erziehung und dergleichen anführen. Allein
+                    über alles dieß ist meine Sachkenntniß so mangelhaft, und ich eile zum Ende. Je
+                    weniger und mehr als wenig ich indeß hier leiste, desto mehr liegt es mir ob,
+                    wenigstens den Umriß <subst>
+                  <del>jener Zeichnung</del>
+                  <add>des Bildes</add>
+               </subst>, das ich vom Staat hier entworfen habe, soviel
+                    als möglich zu vollenden. Ich muß daher noch Folgendes hinzusezen.</p>
+            <p>Auch um den eingeschränktesten Zwek zu erfüllen, muß der Staat hinlängliche
+                    Einkünfte haben. Schon meine Unwissenheit in allem was Finanzen heißt, sichert
+                    Sie hier vor einem langen Raisonnement. Nur des Zusammenhanges willen muß ich
+                    bemerken, daß auch bei Finanzeinrichtungen jene Rüksicht des Zweks der Menschen
+                    im Staat, und der daher entspringenden Beschränkung seines Zweks nicht aus der
+                    Acht gelassen werden muß. Auch der flüchtigste Blik auf die Verwebung so vieler
+                    Polizei mit Finanzeinrichtungen lehrt dieß hinlänglich. Meines Erachtens giebt
+                    es für den Staat nur dreierlei Arten der Einkünfte: 1., Einkünfte aus
+                    vorbehaltnem oder an sich gebrachtem Eigenthum, 2., aus direkten, 3., aus
+                    indirekten Abgaben. Alles Eigenthum des Staats ist schädlich. Schon oben habe
+                    ich von dem Uebergewicht geredet, das der Staat, als Staat allemal hat, und ist
+                    er Eigenthümer; so muß er in viele Privatverhältnisse nothwendig eingehn. Da
+                    also, wo das Bedürfniß, um das man eine Staatseinrichtung wünscht, gar keinen
+                    Einfluß hat, wirkt die Macht mit, die nur in Hinsicht dieses
+                    Bedürfnisses gewählt wurde. Gleichfalls schädlich sind auch die indirekten
+                    Abgaben. Die Erfahrung lehrt, wieviele Einrichtungen ihre Anordnung, und ihre
+                    Hebung voraussezt, die das vorige Raisonnement unstreitig nicht billigen kann.
+                    Es bleiben also nur die direkten übrig. Unter den möglichen Systemen direkter
+                    Abgaben ist das physiokratische unstreitig <del>eins</del> das einfachste.
+                    Allein – ein Einwurf, der vielleicht oft gemacht sein mag, wenn ich ihn auch
+                    noch nicht hörte – eines der natürlichen Produkte ist aufzuzählen vergessen
+                    worden, die Kraft des Menschen, und da sie in unsren Einrichtungen mit zur Waare
+                    wird; so muß sie auch den Abgaben mit unterworfen sein. Wenn man das System
+                    direkter Abgaben, worauf ich hier zurükkomme, und nicht mit Unrecht, das
+                    schlechteste und unschiklichste aller Finanzsysteme nennt; so muß man indeß auch
+                    nicht vergessen, daß der Staat, dem so enge Gränzen gesezt sind, keiner großen
+                    Einkünfte bedarf, und daß der Staat, der so gar kein eignes, von dem der Bürger
+                    getheiltes Interesse hat, der Hülfe freier, d.h. wohlhabender Bürger mehr
+                    versichert sein kann.</p>
+            <p>So hätte ich die Außenlinien der Gegenstände, die ich behandeln wollte,
+                    vollständig gezogen. Indeß meine ich damit nicht, daß nicht noch im Einzelnen
+                    ein größeres Detail nöthig gewesen wäre. So bei der Bestimmung der Art, wie der
+                    Staat nun für die innre Sicherheit sorgen darf, und sogar muß. Auch was ich hier
+                    nur aus dem Gesichtspunkt des Ersprießlichen und Besten betrachtete, müßte es
+                    nicht uninteressant sein, aus dem Gesichtspunkt des Rechtes zu prüfen. Beides
+                    übergehe ich hier.</p>
+            <p>Nur Eine Frage muß ich noch beantworten. Ich habe selbst gesagt, daß die
+                    Verstärkung des Privatinteresse das öffentliche schwäche, und nun ist meine
+                    einzige Absicht darauf hinausgegangen, dieß Privatinteresse nicht bloß zu
+                    verstärken, sondern auch zu vervielfachen. Wie wird daher ein solcher Staat
+                    irgend bestehen können? Allein wie ich es vervielfacht habe, so habe ich es auch
+                    mit dem öffentlichen so genau als möglich verbunden, indem ich gleichsam jenes
+                    nur auf dieß, wie es jeder Bürger – da jeder doch sicher sein will – anerkennt,
+                    gründete. So dürfte ich also doch vielleicht jene anfangs erwähnte Liebe der
+                    Konstitution hier erwarten. Allein, wenn ich auch hierauf nicht rechnen will, so
+                    wäre eine Entgegenstellung der Gewalten und dadurch hervorgebrachte Sicherheit
+                    gewiß möglich. Dann trift auch hier ein, daß der Staat, der weniger
+                    wirken soll, eine geringere Macht, und die geringere Macht eine geringere Wehr
+                    braucht. Endlich versteht es sich auch von selbst, daß so wie überhaupt manchmal
+                    Kraft oder Genuß dem Resultat geopfert werden muß, um nicht einen größern
+                    Verlust zu erhalten, dieß auch hier immer angewandt werden müßte. Wie nun aber
+                    die ganze Staatsgewalt richtig vertheilt werden kann, folglich die ganze
+                    Diskussion über die Vorzüge der Arten der Regierungsform, übergehe ich hier
+                    gleichfalls, und da vielleicht diese eigentlich die Politik ausmacht, bescheide
+                    ich mich gern hier gleichsam nur Prolegomena geliefert zu haben.</p>
+            <p>Ueberhaupt habe ich versucht <del>eine</del> für den Menschen im Staat die
+                    vortheilhafteste Lage auszusuchen. Diese schien mir nun darin zu bestehen, wenn
+                    die mannigfaltigste Individualität, die originellste Selbstständigkeit mit der
+                    gleichfalls mannigfaltigsten und innigsten Vereinung mehrerer Menschen neben
+                    einander aufgestellt würde – ein Problem, welches nur die höchste Freiheit zu
+                    lösen vermag. Die Möglichkeit einer Staatseinrichtung, die diesem Ziel so wenig
+                    als möglich Schranken sezte, darzuthun, war eigentlich der Endzwek aller dieser
+                    Bogen, und ist schon seit längerer Zeit der Endzwek alles meines Nachdenkens.
+                    Ich bin zufrieden, wenn ich bewiesen habe, daß dieser Grundsaz wenigstens bei
+                    allen Staatseinrichtungen als Ideal vorschweben muß.</p>
+            <p>Eine große Erläuterung könnten diese Ideen durch die Geschichte und Statistik –
+                    beide auf diesen Zwek gerichtet – erhalten. Ueberhaupt hat mir die Statistik oft
+                    einer Reform zu bedürfen geschienen. Statt unsichre Data der Größe, der
+                    Volkszahl, des Reichthums, der Industrie eines Volkes, aus welchen sein
+                    eigentlicher Zustand nie ganz zu beurtheilen ist, an die Hand zu geben, sollte
+                    sie <del>die</del>, von der natürlichen Beschaffenheit des Landes und der
+                    Bewohner ausgehend, das Maaß und die Art ihrer thätigen, leidenden und
+                    genießenden Kraft, und nun schrittweise die Modifikationen zu schildern suchen,
+                    welche diese Kraft theils durch die Verbindung der Nation unter sich, theils
+                    durch die Einrichtungen des Staats erhält. Denn die Staatsverfassung und der
+                    Nationalverein sollten, wie eng sie auch oft mit einander verwebt sein mögen,
+                    nie mit einander verwechselt werden. Wenn die Staatsverfassung den Bürgern, seis
+                    durch Uebermacht und Gewalt, oder Gewohnheit und Gesez, ein bestimmtes
+                    Verhältniß anweist; so giebt es außerdem noch ein andres,
+                    freiwillig von ihnen gewähltes, unendlich mannigfaltiges und oft wechselndes.
+                    Und dieß leztere, das freie Wirken der Nation untereinander, ist es eigentlich,
+                    das alle Güter bewahrt, deren Sehnsucht die Menschen in eine Gesellschaft führt.
+                    Die eigentliche Staatsverfassung ist diesem – als ihrem Zwekke – untergeordnet,
+                    und wird immer nur als ein nothwendiges Mittel, und weil sie allemal
+                    Einschränkungen der Freiheit enthält, als ein nothwendiges Uebel gewählt. Die
+                    nachtheiligen Folgen zu zeigen, welche die Verwechselung der freien Wirksamkeit
+                    der Nation mit der erzwungnen der Staatsverfassung, dem Genuß, den Kräften, und
+                    dem Charakter der Menschen gebracht hat, ist daher auch eine der vorzüglichsten
+                    Absichten dieser Blätter gewesen.</p>
+            <closer>
+               <dateline>Burg Oerner, 9. Januar, 1792.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

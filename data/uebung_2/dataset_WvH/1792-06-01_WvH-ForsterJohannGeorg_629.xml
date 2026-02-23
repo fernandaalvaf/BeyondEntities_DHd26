@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Johann Georg Forster, 01.06.1792<idno type="BBAW">629</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Ausfertigung: verschollen. – Abschrift: Ehem. Wernigerode,
+                            NL Th. Huber</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Leitzmann 1936, S. 85–93. – Mattson
+                            2015, S. 56–60 Nr. 218</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 214</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="ktmdalberg">
+                  <persName>Dalberg, Karl Theodor Maria Reichsfreiherr von</persName>
+               </person>
+               <person corresp="tforster">
+                  <persName>Forster, Therese</persName>
+               </person>
+               <person corresp="cvh1">
+                  <persName>Humboldt, Caroline von</persName>
+               </person>
+               <person corresp="cvh2">
+                  <persName>Humboldt, Caroline von, Tochter von Wilhelm von Humboldt</persName>
+               </person>
+               <person corresp="jvmueller">
+                  <persName>Müller, Johannes von</persName>
+               </person>
+               <person corresp="stsoemmerring">
+                  <persName>Soemmerring, Samuel Theodor</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1156">Humboldt, Wilhelm von (1792): Ideen über Staatsverfassung, durch
+                    die neue Französische Konstituzion veranlaßt. In: Berlinische Monatsschrift 19,
+                    Januarheft, S. 84–98 (= GS I, S. 77–85)</bibl>
+               <bibl corresp="1157">Humboldt, Wilhelm von (1792/1851): Ideen zu einem Versuch, die Gränzen der Wirksamkeit des
+                    Staats zu bestimmen, hrsg. von Eduard Cauer, Breslau: Verlag von Eduard Trewendt (= GS I, S.
+                    97–254)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Was müssen Sie von mir denken, theurer Freund, daß ich
+                        einen so lieben Brief, als Ihr lezter war, so lange unbeantwortet ließ
+                        …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1792-06-01"/>
+               <placeName key="Erfurt">Erfurt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="jgforster">Forster, Johann Georg</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">06. November 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Erfurth, den 1. Junius 1792.</dateline>
+            </opener>
+            <p>Was müssen Sie von mir denken, theurer Freund, daß ich einen so lieben gütigen
+                    Brief, als Ihr lezter war, so lange unbeantwortet ließ, und Ihnen in nun mehr
+                    als 4 Monaten kein Wort von mir sagte? Ich bin allen Entschuldigungen ein
+                    abgesagter Feind, ohne alle also lassen Sie mich Sie herzlich bitten, mir wegen
+                    dieses überlangen Stillschweigens nicht zu zürnen, und zu glauben, daß ich mich
+                    unendlich oft indeß mit Ihnen im Geiste beschäftigte, und nur der so oft gefaßte
+                    Vorsaz, Ihnen zu schreiben, immer durch tausend kleine Hindernisse vereitelt
+                    wurde.</p>
+            <p>Zuerst, mein Lieber, muß ich Ihnen eine Nachricht geben, die Ihrem
+                    freundschaftlich theilnehmenden Herzen gewiß Freude gewährt. <persName ref="cvh1">Meine Frau</persName> ist vor noch nicht 14 Tagen mit <persName ref="cvh2">einem Mädchen</persName> glüklich niedergekommen. Mutter und Kind
+                    sind vollkommen gesund. Das kleine Mädchen ist ein allerliebstes Geschöpf, so
+                    groß und stark, wie selten ein Kind von so wenig Tagen, so voll Leben und
+                    Munterkeit und mit wundergroßen, blauen Augen, die sie unaufhörlich im Kopfe
+                    herumrollt. <persName ref="cvh1">Meine Frau</persName> stillt das Kind selbst;
+                    ich, bei meiner gänzlichen Geschäftslosigkeit, bin so gut als den ganzen Tag bei
+                    ihr, und so kommt das Kind kaum eine Minute in andre Hände als die unsrigen. Nur
+                    Sie, lieber Freund, dessen eignes Herz so überaus empfänglich für diese Freuden
+                    ist, und der Sie mich genauer kennen, vermögen ganz mit mir zu empfinden, wie
+                    unendlich süß mir diese kleinen Beschäftigungen sind, und welche reiche Fülle
+                    neuer Freuden mir jezt wiederum in meiner schon beneidenswert glücklichen Lage
+                    geworden ist. Wahrlich empfinde ich dieß auch doppelt, indem ich Ihnen es sage,
+                    und ich möchte Ihnen im Voraus für das Vergnügen so herzlich danken, das mir
+                    Ihre Theilnahme gewährt. Grüßen Sie <persName ref="tforster">Ihre liebe
+                        Frau</persName> herzlich von mir, und sagen Sie ihr die häusliche
+                    Begebenheit, die mich und <persName ref="cvh1">meine Frau</persName> so froh
+                    macht. Sobald ich mehr Ruhe und Muße habe, schreib ich ihr selbst.</p>
+            <p>Die ganze Zeit, seit welcher Sie ohne Nachricht von mir sind, habe ich hier
+                    ununterbrochen zugebracht. Sogar <placeName ref="Gotha">Gotha</placeName> und
+                        <placeName ref="Weimar">Weimar</placeName>, so nah sie auch sind, habe ich
+                    nicht besucht. Indeß ist mein Aufenthalt hier auch von meinem vorigen ländlichen
+                    nicht sonderlich verschieden gewesen. Der Gesellschaften sind hier wenige, und
+                    so bin ich die meiste Zeit auf meinem Zimmer, im Kreise meiner gewöhnlichen
+                    Beschäftigungen gewesen. <persName ref="ktmdalberg">Der Koadjutor</persName> ist
+                    hier der einzige Mensch, den man interessant nennen kann, und den habe ich,
+                    soviel es überhaupt seinen Geschäften und seiner Lebensart nach möglich ist,
+                    genossen. Sein Umgang ist mir um so angenehmer gewesen, als unsre Gespräche
+                    meist wissenschaftlich, aus dem Fache der praktischen, vorzüglich politischen
+                    Philosophie, worin er unstreitig am meisten bewandert ist, hergenommen sind, und
+                    als reine auch bloß theoretische Prinzipien doch noch mehr reizen, wo ihre
+                    Anwendung so nah liegt. Ich weiß nicht, lieber Freund, ob Ihnen <bibl sameAs="1156">ein kleiner Aufsaz von mir in der Berlinischen Monatsschrift,
+                        Januar: Ideen über Staatsverfassung u.s.f.</bibl> zu Gesicht gekommen ist.
+                    Es war ein wirklicher, ohne alle Hinsicht auf den Druk geschriebner Brief, der
+                    hernach zufällig, und zum Theil dieser Zufälligkeit wegen, mit schändlichen,
+                    allen Sinn entstellenden Drukfehlern ans Licht gekommen ist. Aus diesem Aufsaz
+                    hatte <persName ref="ktmdalberg">Dalberg</persName> gesehen, daß ich mich mit
+                    Ideen dieser Art beschäftige, und wenig Tage nach meiner Ankunft hier, bat er
+                    mich, meine Ideen über die eigentlichen Grenzen der Wirksamkeit des Staats
+                    aufzusezen. Ich fühlte wohl, daß der Gegenstand zu wichtig war, um so schnell
+                    bearbeitet zu werden, als ein solcher Auftrag, wenn die Idee nicht wieder alt
+                    werden sollte, forderte. Indeß hatte ich einiges vorgearbeitet, noch mehr
+                    Materialien hatte ich im Kopf, und so fieng ich an. Unter den Händen wuchs
+                        <bibl sameAs="1157">das Werkchen</bibl>, und es ist jezt, da es seit mehreren
+                    Wochen fertig ist, ein mäßiges Bändchen geworden. Sie stimmten sonst, als wir
+                    noch von <placeName ref="Göttingen">Göttingen</placeName> aus über diese
+                    Gegenstände korrespondirten, mit meinen Ideen überein. Ich habe seitdem, so viel
+                    ich auch nachzudenken und zu forschen gesucht habe, fast keine Veranlassung
+                    gefunden, sie eigentlich abzuändern, aber ich darf behaupten, ihnen bei weitem
+                    mehr Vollständigkeit, Ordnung und Präcision gegeben zu haben. Noch jezt also,
+                    schmeichle ich mir, würden Sie im Ganzen mit meinen Behauptungen einverstanden
+                    sein. Ich habe nemlich – und ich hielt dieß der nächsten Veranlassung wegen, die
+                    mich zum Schreiben bewog, für um so nöthiger – der Sucht zu regieren
+                    entgegenzuarbeiten versucht, und überall die Grenzen der Wirksamkeit enger
+                    geschlossen. Ja ich bin soweit gegangen, sie allein auf die Beförderung der
+                    Sicherheit einzuschränken. Ich hatte die Frage, die ich beantworten sollte,
+                    völlig rein theoretisch in ihrem ganzen Umfange abgeschnitten. Ich glaubte also
+                    auch kein andres Prinzip zum Grunde meines ganzen Raisonnements legen zu dürfen,
+                    als das, welches allein auf den Menschen – auf den doch am Ende alles
+                    hinauskommt – Bezug nimmt, und zwar auf das an dem Menschen, was eigentlich
+                    seiner Natur den wahren Adel gewährt. Die höchste und proportionirlichste
+                    Ausbildung aller menschlichen Kräfte zu einem Ganzen ist daher das Ziel gewesen,
+                    das ich überall vor Augen gehabt, und der einzige Gesichtspunkt, aus dem ich die
+                    ganze Materie behandelt habe. Immer bleibt es doch wahr, daß eigentlich diese
+                    innre Kraft des Menschen es allein ist, um die es sich zu leben verlohnt, daß
+                    sie nicht nur das Prinzip, wie der Zwek aller Thätigkeit, sondern auch der
+                    einzige Stof alles wahren Genusses ist, und daß daher alle Resultate ihr allemal
+                    untergeordnet bleiben müssen. Auf der andren Seite ist es aber auch eben so
+                    wahr, daß in der Wirklichkeit und fast überall, wo auf den Menschen gewirkt
+                    wird, bei der Erziehung, bei der Gesezgebung, im Umgange, fast nur die Resultate
+                    beachtet werden, wovon sich viele Gründe aufzählen ließen, die ich nur hier, um
+                    Sie nicht zu ermüden, übergehe, und unläugbar freilich macht auch die Erhaltung
+                    der Kraft selbst große Sorgfalt auf die Resultate, als das Mittel dazu, oft
+                    nothwendig. Desto mehr also muß, dünkt mich, die Theorie das, was in der
+                    Ausübung so leicht das lezte Ziel scheint, wieder an seine rechte Stelle sezen
+                    und das wahre lezte Ziel, die innre Kraft des Menschen, in ein helles Licht zu
+                    stellen versuchen. Wenn also die Staatskunst sich meistens dahin beschränkt,
+                    volkreiche, wohlhabende, wie man zu sagen pflegt, blühende Länder
+                    hervorzubringen, so muß ihr die reine Theorie laut zurufen, daß freilich diese
+                    Dinge sehr schön und wünschenswerth sind, daß sie aber von selbst entstehn, wenn
+                    man die Kraft und Energie der Menschen, und zwar durch Freiheit, erhöht, da
+                    hingegen, wenn man sie unmittelbar hervorbringen will, gerade das leiden kann,
+                    um dessentwillen sie selbst nur wünschenswerth sind, indem wenigstens in vielen
+                    Fällen ein Land freilich schneller bevölkert, wohlhabend, ja sogar in gewissem
+                    Grade aufgeklärt werden kann, wenn die Regierung alles selbst thut, den Bürgern
+                    das von ihr anerkannte Gute aufdringt, als wenn sie dieselben den freilich
+                    langsamern aber auch sichrern Weg der eignen Ausbildung gehen läßt. Wenn die
+                    Statistik aufzählt, wieviel Menschen, welche Produkte, welche Mittel, sie zu
+                    verarbeiten, welche Wege sie auszuführen u.s.f. ein Land hat; so muß die reine
+                    Theorie sie anweisen, daß man darum nun den Menschen und seinen eigentlichen
+                    Zustand fast um noch nichts besser kennt, und daß sie also das Verhältniß aller
+                    dieser Dinge, als Mittel zu dem wahren Endzwek anzugeben hat. Gieng ich einmal
+                    von diesem Gesichtspunkte aus, so konnte ich nicht leicht auf etwas anders als
+                    auf die Nothwendigkeit der Begünstigung der höchsten Freiheit und der Entstehung
+                    der mannigfaltigsten Situationen für den Menschen kommen, und so schien mir die
+                    vortheilhafteste Lage für den Bürger im Staat die, in welcher er zwar durch so
+                    viele Bande als möglich mit seinen Mitbürgern verschlungen, aber durch so wenige
+                    als möglich von der Regierung gefesselt wäre. Denn der isolirte Mensch vermag
+                    sich eben so wenig zu bilden, als der in seiner Freiheit gewaltsam gehemmte.
+                    Dieß führte mich nun unmittelbar auf das Prinzip, daß die Wirksamkeit des Staats
+                    nie anders an die Stelle der Wirksamkeit der Bürger treten darf, als da, wo es
+                    auf die Verschaffung solcher nothwendigen Dinge ankommt, welche diese allein und
+                    durch sich sich nicht zu erwerben vermag, und als ein solches zeichnet sich,
+                    meines Bedünkens, allein die Sicherheit aus. Alles übrige schaft sich der Mensch
+                    allein, jedes Gut erwirbt er allein, jedes Uebel wehrt er ab, entweder einzeln,
+                    oder in freiwilliger Gesellschaft vereint. Nur die Erhaltung der Sicherheit, da
+                    hier aus jedem Kampf immer neue entstehn würden, fordert eine lezte
+                    widerspruchlose Macht, und da dieß der eigentliche Charakter eines Staats ist,
+                    nur diese eine Staatseinrichtung. Dehnt man die Wirksamkeit des Staats weiter
+                    aus; so schränkt man die Selbstthätigkeit auf eine nachtheilige Weise ein,
+                    bringt Einförmigkeit hervor, und schadet mit Einem Wort der innren Ausbildung
+                    des Menschen. Dieß ist ohngefähr der Gang der Ideen, den ich gewählt habe,
+                    obgleich ich in dem Vortrage selbst einer völlig verschiednen Ordnung gefolgt
+                    bin. Dann bin ich aber auch in ein größeres Detail eingegangen, und habe die
+                    Nachtheile einzeln zu schildern versucht, welche nothwendig entstehn müssen,
+                    oder wenigstens nicht leicht vermieden werden können, wenn der Staat, statt sich
+                    auf die Sicherheit zu beschränken, auch für das physische, oder gar moralische
+                    Wohl sorgen will. Bei der Sicherheit selbst habe ich mich noch auf die Mittel,
+                    sie zu befördern, ausgebreitet, alle die zu entfernen versucht, welche zu sehr
+                    auf den Charakter wirken, wie öffentliche Erziehung, Religion (wobei ich den
+                    Aufsaz, den Sie kennen, umgearbeitet gebraucht habe), Sittengeseze, und endlich
+                    die angegeben, deren Gebrauch mir unschädlich und nothwendig zugleich scheint,
+                    wobei ich denn, jedoch kurz und immer allein in Rüksicht auf den gewählten
+                    Gesichtspunkt, Polizei, Civil und Criminalgeseze durchgegangen bin. Am Schluß
+                    habe ich einiges über die Anwendung hinzugefügt und vorzüglich die Schädlichkeit
+                    nicht genug vorbereiteter Anwendungen auch richtiger Theorien zu zeigen
+                    versucht. Verzeihen Sie, mein Theurer, diese ausführliche, und dennoch so
+                    unvollständig und flüchtig hingeworfne Auseinandersezung meiner eignen Ideen.
+                    Allein der Antheil, den Sie immer an diesen Gegenständen, und an meiner
+                    Beschäftigung damit nahmen, verführte mich von Periode zu Periode.</p>
+            <p>
+               <bibl sameAs="1157">Diesen Aufsaz</bibl> nun ist <persName ref="ktmdalberg">Dalberg</persName>, nachdem er ihn für sich gelesen hatte, Abschnitt für
+                    Abschnitt mit mir durchgegangen, und wir haben Gründe und Gegengründe
+                    durchgesprochen. Seine Ideen stimmen nicht gerade mit den meinigen überein, er
+                    berechtigt vielmehr den Staat zu einer weit ausgebreitetern Wirksamkeit. Indeß
+                    will er doch, wo es nicht auf Erhaltung der Sicherheit ankommt, eigentlichen
+                    Zwang entfernen, und um auf irgend einen Gegenstand die Sorgfalt des Staates
+                    auszudehnen, den Wunsch der Nation abwarten. So schwankend auch, vorzüglich in
+                    der Ausübung, diese leztere Bestimmung werden muß, so werden Sie doch gewiß mit
+                    mir gestehn, daß diese Achtung für die wahre Souverainität in dem Munde eines
+                    künftigen Regenten in hohem Grade ehrwürdig ist, und daß die erstere
+                    Einschränkung einen großen Theil des Schadens entfernt, welchen das zu viele
+                    Regieren sonst unausbleiblich bringt.</p>
+            <p>Je länger ich überhaupt Gelegenheit habe, mit <persName ref="ktmdalberg">dem
+                        Koadjutor</persName> umzugehn, desto mehr überzeuge ich mich von der
+                    Reinheit seiner Absichten, und der Vortreflichkeit seines moralischen
+                    Charakters. In der That ist die ununterbrochne Aufmerksamkeit, die er auf diesen
+                    wendet, so charakteristisch an ihm, daß sie unter so manchen hervorstechenden
+                    Seiten, welche auch beim ersten Anblik auffallen müssen, dennoch keinem entgehn
+                    kann. Von Ihnen, lieber Freund, spricht er mir sehr oft, und immer mit einer
+                    Wärme, die mir innige Freude gewährt. Er fühlt nicht nur in ihrem ganzen Umfange
+                    die Achtung, welche Sie jedem einflößen müssen, der auch nur überhaupt mit
+                    Deutscher Literatur vertraut ist, sondern er schäzt und liebt Sie auch so sehr
+                    von den Seiten, die nur ihren Freunden erscheinen können, und die er, glaube
+                    ich, durch <persName ref="jvmueller">Müller</persName> und <persName ref="stsoemmerring">Sömmerring</persName> kennt.</p>
+            <p>Was haben Sie denn in dieser Zeit gemacht, theurer Freund, was <persName ref="tforster">ihre liebe Frau</persName>, was ihre Kinder? Wie sehr sehnte
+                    ich mich das recht bald von Ihnen zu hören. Zu bitten wage ich freilich nicht
+                    darum. Sehr schön wäre es aber doch, wenn Sie nicht Gleiches mit Gleichem
+                    vergälten. </p>
+            <closer>Leben Sie jezt recht wohl, theurer lieber Freund, erhalten Sie mir Ihre
+                    Freundschaft, und sein Sie meiner herzlichsten, wärmsten, unwandelbarsten Liebe
+                        versichert!<lb/>Ewig<lb/>
+               <signed>Ihr Humboldt.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
