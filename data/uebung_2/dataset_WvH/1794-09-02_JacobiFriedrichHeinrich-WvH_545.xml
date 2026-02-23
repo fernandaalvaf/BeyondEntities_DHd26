@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friedrich Heinrich Jacobi an Wilhelm von Humboldt, 02.09.1794<idno type="BBAW">545</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Verbleib unbekannt</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Grundlage der Edition: Jacobi 1825–1827, Bd. 2, S.
+                            173–181</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 8759</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="nboileau">
+                  <persName>Boileau, Nicolas</persName>
+               </person>
+               <person corresp="ckwdohm">
+                  <persName>Dohm, Christian Konrad Wilhelm von</persName>
+               </person>
+               <person corresp="jgfichte">
+                  <persName>Fichte, Johann Gottlieb</persName>
+               </person>
+               <person corresp="ffwfuerstenberg">
+                  <persName>Fürstenberg, Franz Friedrich Wilhelm Freiherr
+                    von</persName>
+               </person>
+               <person corresp="agallitzin">
+                  <persName>Gallitzin, Amalie Fürstin von, geb. Gräfin von
+                    Schmettau</persName>
+               </person>
+               <person corresp="jwgoethe">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </person>
+               <person corresp="cgheyne">
+                  <persName>Heyne, Christian Gottlob</persName>
+               </person>
+               <person corresp="ikant">
+                  <persName>Kant, Immanuel</persName>
+               </person>
+               <person corresp="ffenelon">
+                  <persName>Salignac de La Mothe-Fénelon, François de</persName>
+               </person>
+               <person corresp="flstolberg">
+                  <persName>Stolberg-Stolberg, Friedrich Leopold Graf zu</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1231">Fichte, Johann Gottlieb (1794): Ueber den Begriff der
+                    Wissenschaftslehre oder der sogenannten Philosophie, als Einladungsschrift zu
+                    seinen Vorlesungen über diese Wissenschaft, Weimar: Im Verlage des
+                    Industrie-Comptoirs</bibl>
+               <bibl corresp="1216">Humboldt, Wilhelm von (1794): [Rez.] Philosophie. Königsberg, b.
+                    Nicolovius: Woldemar (vom Hn. Geh. Rath Jacobi in Düsseldorf) 1794. In:
+                    Allgemeine Literaturzeitung vom Jahre 1794, Band 3, Nr. 315, Sp. 801–807; Nr.
+                    316, Sp. 809–816; Nr. 317, Sp. 817–821 (= GS I, S. 288–310)</bibl>
+               <bibl corresp="1128">Jacobi, Friedrich Heinrich (1794): Woldemar, Königsberg:
+                    Nicolovius</bibl>
+               <bibl corresp="1230">Salignac de La Mothe-Fénelon, François de (1740): Œuvres
+                    Spirituelles de feu Monseigneur François de Salignac de la Mothe-Fénelon.
+                    Nouvelle Edition, revue &amp; considerablement enrichie, Tome premier,
+                    o.O.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Wo soll ich anfangen, lieber theuerster Freund …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="fhjacobi">Jacobi, Friedrich Heinrich</persName>
+               <date type="author" when="1794-09-02"/>
+               <placeName key="Pempelfort">Pempelfort</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. März 2019</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>Pempelfort, den 2ten Sept. 1794.</dateline>
+            </opener>
+            <p>Wo soll ich anfangen, lieber theuerster Freund, Ihnen zu danken, mich zu
+                    entschuldigen, Rede und Antwort zu geben, so daß es Ihnen und mir selbst
+                    einigermaßen Genüge thue? Ihren Brief vom <date when="1794-04-26">26sten
+                        April</date>, mit den köstlichen Beilagen, erhielt ich zu <placeName ref="Münster">Münster</placeName>, wo ich seit dem Jahre 1789 nicht gewesen
+                    war, ungeachtet wiederholter Besuche, die ich unterdessen von <persName ref="ffwfuerstenberg">Fürstenberg</persName> und der <persName ref="agallitzin">Fürstin von Gallitzin</persName> erhalten hatte. Ihnen von
+                    dort aus zu antworten, war unmöglich. Gleich nach meiner Zurückkunft fingen die
+                    Kriegsunruhen von der niederländischen Seite her an. Ich war in diese Dinge auf
+                    eine mannigfaltigere Weise verwickelt, als ich Ihnen hier eröffnen kann. Den
+                        <date when="1794-06-15">15ten Junii</date> reiste ich nach <placeName ref="Aachen">Aachen</placeName>, und von diesem Tage an bin ich nicht zu
+                    Athem gekommen. Meine ohnedieß schlechte Gesundheit hat von der beständigen
+                    Anstrengung sowohl des Gemüths als des Kopfs, worin ich diese Zeit über gelebt
+                    habe, sehr gelitten. Um mich etwas zu erholen, reiste ich Freitag Nachmittag zu
+                        <persName ref="ckwdohm">Dohm</persName> nach <placeName ref="Köln">Cöln</placeName>. Gestern Abends kam ich vergnügt zurück, und siehe da, ihr
+                    liebes Paket lag auf meinem Tische. Unmöglich kann ich Ihnen meine Freude
+                    beschreiben. Ich hatte das so sehr gewünscht, daß Sie <bibl sameAs="1216">mein
+                        Recensent in der Allg. Litt. Zeitung</bibl> werden möchten, und aus Ihrem
+                    Briefe vom <date when="1794-04-26">26sten April</date> einige Hoffnung dazu
+                    geschöpft. Lebhaft genug war dennoch die Ueberraschung. Aber warum zuvor die
+                    Handschrift? Es ängstigte mich, daß ich diese vor dem Druck lesen sollte, und
+                    ich war zugleich ungeduldig, sie nicht schon gedruckt vor mir zu sehen. Daß mir
+                    diese Ungeduld durch das Lesen nicht vergangen ist, sehen Sie aus der Eile,
+                    womit ich Ihnen Ihre Handschrift zurückschicke. Ich fürchte nur, man wird zu
+                    sehr in meinem Richter den Freund erkennen. Aber auch Ihre Partheilichkeit wird
+                    mir Ehre bringen.</p>
+            <p>Was Sie über den Stein des Anstoßes sagen, an dem alle Leser, minder oder mehr,
+                    so oder anders, ein Aergerniß nehmen, war mir über alle Maßen willkommen. Wer je
+                    in seinem Leben geliebt hat, weiß, daß die erste Bedingung der Liebe
+                    Feindseligkeit gegen die thierischen Triebe ist, und ich kann dieß einmal nicht
+                    für die Täuschung eines bösen Geistes halten, der uns nur zum Besten haben will.
+                    Ich kann es also zugeben, daß man annehme, <bibl sameAs="1128">Woldemar</bibl>’s
+                    Freundschaft zu Henriette sey von Anfang an leidenschaftlicher Natur gewesen,
+                    und seine Abneigung, sich mit ihr zu verheirathen, bleibt dennoch in der Natur
+                    und deutet auf einen so schönen Grund derselben, daß es verzeihlich ist, sich
+                    hier etwas zu versteigen. Diese Materie ist so zart, daß sie sich schwer, zumal
+                    im Gange der Erzählung, ins Licht stellen ließ; doch hätte ich mehr dazu thun
+                    können und sollen, als geschehen ist.</p>
+            <p>* * *</p>
+            <p>Einen ganz ausnehmenden Gefallen haben Sie mir damit gethan, daß Sie auf die <hi rend="letterspace">doppelte</hi> Ursache der Zerrüttung Woldemar’s
+                    aufmerksam machen. Es ist mir unbegreiflich, wie fast alle Leser bei dem ersten
+                    Anlasse, dem Gelübde, hängen bleiben können, der doch ohne weitere Folgen
+                    geblieben wäre, wenn nicht der zweite, viel wichtigere, hinzu kam. Daß aber
+                    beide Ursachen zusammengenommen ohne weitere Zuthat hinreichend sind, einen
+                    Menschen Woldemarischer Art in den Zustand zu versetzen, worin ich meinen armen
+                    Sünder gerathen lasse, dafür stehe ich als Psycholog mit meinem Namen. Dieß
+                    verhindert mich aber nicht, Ihnen darin, was Sie über das Befremdende sowohl in
+                    den Charakteren als der Geschichte meiner Personen bemerken, vollkommen Recht zu
+                    geben. Ich habe diese Bemerkung selbst in einer Vorrede zu Woldemar, die nicht
+                    zu Stande gekommen ist, weil mich Dohm an ihrer Ausarbeitung fast mit Gewalt
+                    verhinderte, machen wollen. <persName ref="nboileau">Boileau</persName>’s
+                    bekannt Warnung: <hi rend="antiqua">le vrai peut quelquefois n’être pas
+                        vraisemblable</hi>!<note type="footnote" resp="editor">Boileau, Nicolas
+                        (1674): <hi rend="italic">L’Art poétique</hi>, Paris: Thierry, chant III, vers 48. [FZ]</note> scheint
+                    durchaus in diesem Werk außer Acht gelassen. Hierüber gedachte ich mich auch
+                    eben so zu entschuldigen, wie Sie mich entschuldigt haben, nämlich dadurch, daß
+                    im <bibl sameAs="1128">Woldemar</bibl> der Dichter mehr im Dienste des
+                    Philosophen, als der Philosoph im Dienste des Dichters ist, und es erlaubt seyn
+                    muß, in diesem Falle das Wahrscheinliche dem Wahren nachzusetzen. Daneben wollte
+                    ich bemerken, daß auch der Dichter und jeder Künstler das Wahrscheinliche
+                    hintansetzen muß, und nur unter dieser Bedingung diejenige Täuschung, die sein
+                    Zweck ist, zuwegebringen kann. Ja das Werk der Kunst setzt gleichsam eine
+                    vorhergegangene Verabredung mit dem, auf den es wirken soll, voraus, und das
+                    größte Genie macht oft die härtesten Bedingungen. –</p>
+            <p>In der gedachten nicht zu Stande gekommenen Vorrede sollte auch der Spruch des
+                        <persName ref="ffenelon">Fenelon</persName> am Ende, <hi rend="letterspace">aus dem <persName ref="ffenelon">Fenelon</persName>
+               </hi> erläutert und gerechtfertigt werden. Sie finden wohl
+                    in der dortigen Bibliothek oder bey einem Freunde die <sic>
+                  <bibl sameAs="1230">
+                     <hi rend="antiqua">Oeuvres</hi>
+                  </bibl>
+               </sic>
+               <bibl sameAs="1230">
+                  <hi rend="antiqua">spirituelles du Fénélon</hi>
+               </bibl>. Lesen Sie, mir zu
+                    Lieb’ und mir zu Ehren, im ersten Theile den kleinen Aufsatz <hi rend="antiqua">sur le pur amour</hi>
+               <note type="footnote" resp="editor">In der <bibl sameAs="1230">Ausgabe von 1740</bibl> auf den S. 50–83. [FZ]</note>, und sagen Sie mir nachher, ob dieser Mystiker viel
+                    von <persName ref="ikant">Kant</persName> zu lernen hatte.</p>
+            <p>Noch ein Wort zur Rechtfertigung meiner Henriette. Sie warfen Woldemar mit Grund
+                    vor, daß er ein Selbstpeiniger sey. Diesen Vorwurf verdient er in so hohem
+                    Grade, daß ich gefürchtet habe, Henriette möchte von dem Widerwillen neiden, den
+                    er erregt; man möchte die Geduld und Langmuth, die sie gegen ihn beweist, ihr
+                    nicht zu Gute halten können. Daß aber derselbe Vorwurf der Selbstpeinigung auch
+                    Henrietten gemacht werden könne, leugne ich schlechterdings. Ich leugne auch,
+                    daß sie durch Woldemar <hi rend="letterspace">umgebildet</hi> worden; ihr
+                    eigener, nicht zu verwandelnder Charakter hat sich nur an Woldemar entwickelt.
+                    Auch halte ich diese Henriette, obgleich die <hi rend="letterspace">idealisirteste</hi> Person im Roman, für die am mehrsten individualisirte,
+                    und habe hierüber das Zeugniß fast aller Leser, die sich gegen mich geäußert
+                    haben, für mich; mehrere sagten mir, es wäre ihnen beim Lesen so geworden, als
+                    müßte diese Henriette irgendwo vorhanden seyn, ob man sich gleich wieder sagen
+                    müsse, solch ein weibliches Wesen könne nicht vorhanden seyn.</p>
+            <p>Daß <sic>sie</sic> meine Allwine hervorstellten mit dem Sinn, mit dem Gefühl –
+                    dafür muß ich Sie noch besonders und eigenst an mein Herz drücken. Den mehrsten
+                    Lesern erscheint sie als eine uninteressante Nebenperson, die kaum so viel
+                    Eindruck macht, daß sie einen dauert. Doch giebt es Ausnahmen. So schrieb mir
+                        <persName ref="flstolberg">Stolberg</persName>: "für die Darstellung der
+                    holdesten Weiblichkeit im Charakter der Allwina hast Du den wärmsten Dank der
+                    spätesten Enkelinnen verdient." Ich muß aufhören, Ihnen zu danken, denn ich käme
+                    an kein Ende. Da <sic>sie</sic> sich meines <hi rend="antiqua">Enfant
+                        trouvé</hi> mit so viel herzlichem Interesse angenommen haben, so thue ich
+                    Ihnen vielleicht einen Gefallen, wenn ich Ihnen sage, welche Stellen <bibl sameAs="1128">im Buche</bibl>, wenigstens im zweiten Theile, mir die liebsten
+                    sind. Sie finden diese S. 94. – 105. – 123 – 25. – 138. – 141 und 142. – 173 –
+                    75. Worauf ich mir am meisten einbilde, ist der Auftritt S. 246 – 273,
+                    vornehmlich Woldemar’s Beichte. Das größte Verdienst aber schreibe ich mir zu
+                    wegen der Darstellung der aristotelischen Moral-Philosophie. Diese wenigen
+                    Blätter haben mich mehr Arbeit, Anstrengung und Nachdenken gekostet, als irgend
+                    etwas, was ich im philosophischen Fache geliefert habe. Es hat mich darum nicht
+                    wenig verdrossen, daß unser Freund <persName ref="cgheyne">Heyne</persName>
+                    diesen so mühsam ausgearbeiteten Auszug <hi rend="letterspace">eingerückte
+                        Stellen aus dem Aristoteles</hi> nennt.</p>
+            <p>
+               <persName ref="jgfichte">Fichte</persName>’s <bibl sameAs="1231">Programm</bibl>
+                    ist mir gleich bei seiner Erscheinung von <persName ref="jwgoethe">Göthe</persName> zugeschickt worden. Ich habe geantwortet wie folgt:
+                        "<persName ref="jgfichte">Fichte</persName>’s <bibl sameAs="1231">Schrift</bibl> habe ich gleich vorgenommen und mit Aufmerksamkeit,
+                    obgleich unter tausend Störungen gelesen. Sie hat mir Freude gemacht. <persName ref="jgfichte">Fichte</persName> scheint mehr als alle seine Vorgänger, in
+                    der Predigt des in die Welt gekommenen neuen Lichts, auch noch für das am <hi rend="letterspace">ersten</hi> Tage geschaffene Licht ein Auge – ich meine
+                    wenigstens Ein Auge – offen gehalten zu haben. – Wir müssen nun abwarten, was er
+                    weiter zu Tage bringen wird aus dem noch uneröffneten Schachte seiner drei
+                    Absoluten." Wirklich war meine Freude an <persName ref="jgfichte">Fichte</persName>’s <bibl sameAs="1231">Programm</bibl> so groß und so viel
+                    lebhafter, als ich mich gegen <persName ref="jwgoethe">Göthe</persName> ausließ,
+                    daß ich mehrere Tage mit dem Gedanken umging, an <persName ref="jgfichte">Fichte</persName> zu schreiben und ihm zu sagen, wie lieb mir seine
+                    Erscheinung wäre. – –</p>
+         </div>
+      </body>
+   </text>
+</TEI>

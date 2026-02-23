@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../WvH_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     telota:doctype="wvh_letters">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt an Ephraim Beer, vor 01.10.1787<idno type="BBAW">621</idno>
+            </title>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/135657458">Frank Zimmer</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/investigation/">Investigation</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/120492644">Jürgen Trabant</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/project-administration/">Project administration</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/supervision/">Supervision</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/1053159110">Ute Tintemann</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/writing-review-editing/">Review
+                    &amp; Editing</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6587-3353">Lou Klappenbach</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-8279-9298">Frederike Neuber</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-7447-4589">Sascha Grabsch</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+               <resp ref="https://credit.niso.org/contributor-roles/data-curation/">Data
+                    curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Elise Hanrahan</persName>
+               <resp ref="https://credit.niso.org/contributor-roles/software/">Software</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Online-Edition der sprachwissenschaftlichen Korrespondenz</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.bbaw.de">
+                    Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                </ref>
+            </publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)
+            </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness>
+                  <bibl type="orig">Grundlage der Edition: Weimar, GSA, 96/1369, Nr. 2</bibl>
+               </witness>
+               <witness>
+                  <bibl type="print">Haym 1894, S. 93–101; Mattson 2014, S. 58–63 Nr. 14</bibl>
+               </witness>
+               <witness>
+                  <bibl type="KMV"/>
+               </witness>
+               <witness>
+                  <bibl type="Mattson">Mattson 15</bibl>
+               </witness>
+            </listWit>
+            <listPerson type="mentioned">
+               <person corresp="rdescartes">
+                  <persName>Descartes, René</persName>
+               </person>
+               <person corresp="hherz">
+                  <persName>Herz, Henriette</persName>
+               </person>
+               <person corresp="mherz">
+                  <persName>Herz, Marcus</persName>
+               </person>
+               <person corresp="mmendelssohn">
+                  <persName>Mendelssohn, Moses</persName>
+               </person>
+            </listPerson>
+            <listBibl type="mentioned">
+               <bibl corresp="1134">Mendelssohn, Moses (1785): Morgenstunden oder Vorlesungen über das
+                    Daseyn Gottes, Berlin: Chr. Fr. Voß und Sohn</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <ab type="incipit">Bei Tage, sehe ich wohl, liebster Freund, find’ ich kein
+                        Stündchen Muße Ihnen zu antworten …</ab>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wvh">Humboldt, Wilhelm von</persName>
+               <date type="author" when="1787-09-30"/>
+               <placeName key="Berlin">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ebeer">Beer, Ephraim</persName>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote scribe="wvh">Eigenhändig</handNote>
+         </handNotes>
+         <langUsage n="">
+            <language ident=""/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item n="name">FZ</item>
+            <item n="date">19. September 2018</item>
+            <item n="status">in Bearbeitung</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>
+               <pb n="1*"/> Bei Tage, sehe ich wohl, liebster Freund, find’ ich kein Stündchen
+                    Muße Ihnen zu antworten; eine Arbeit, eine Beschäftigung folgt immer der andern.
+                    Es sei Ihnen also immerhin ein Theil der Nacht gewidmet. Gern möchte ich Ihnen
+                    das recht hoch anrechnen, gern es als eine recht große Aufopferung in Ihren
+                    Augen gelten lassen; aber umsonst. Ich empfinde zu sehr, daß diese Paar Stunden,
+                    die ich jetzt dem Schlaf entziehe, mir mehr Vergnügen gewähren werden, als ich
+                    alle die langen Tage der vorigen Woche hindurch genossen habe. Untersuchungen
+                    von der Art, als Ihr Aufsaz enthält, haben schon an sich selbst soviel Reiz; und
+                    sie mit Ihnen gemeinschaftlich anzustellen, dieß ist ein Vergnügen, dem in
+                    meinen Augen nur sehr wenig andre gleich kommen. Wie gut mir Ihr Aufsaz im
+                    Ganzen gefallen hat, was ich überhaupt genommen davon denke, das erfahren Sie
+                    nicht. Auch die strengste Wahrheit wird so leicht für Schmeichelei gehalten, und
+                    am leichtesten von den besten Menschen. Darum hievon kein Wort; nur noch meinen
+                    herzlichen Dank für das Vergnügen, das Sie mir verschafft haben, und die eben so
+                    herzliche Bitte, mir doch recht oft, so oft Sie können, ein Ähnliches zu
+                    verschaffen.</p>
+            <p>Ich glaube mit Ihnen, mein Bester, daß jede Möglichkeit <pb n="2*"/> von dem
+                    Wesen, in dessen Wirklichkeit sie gegründet ist, gedacht werden muß. Wie kann
+                    ich meine Hand aufheben, ohne daß die Möglichkeit dieses Handaufhebens, wie
+                    gehen, ohne daß die Möglichkeit dieses Gehens von meiner Seele vorher gedacht
+                    wird. Ich glaube daher auch, daß Ihr Beweis nicht bloß sehr scharfsinnig – denn
+                    diese Eigenschaft spricht ihm gewiß niemand ab – sondern daß, was noch mehr ist,
+                    Scharfsinn bei weitem nicht sein einziges Verdienst ist, daß sich seine
+                    Richtigkeit auf eine völlig befriedigende Art zeigen läßt. Zwar sehe ich wohl
+                    einige Einwürfe, die man ihm machen könnte, aber ich glaube auch im Stande zu
+                    sein, diese Einwürfe zu widerlegen. Wie ist es denn, könnte man einwenden, mit
+                    den unwillkürlichen, uns oft unbemerkbaren Veränderungen, die jeglichen
+                    Augenblick in unsrem Körper vorgehn? Wie kann ihre Möglichkeit schon vorher von
+                    der Seele gedacht werden, wenn ihre Wirklichkeit selbst nicht einmal von ihr
+                    empfunden wird? Allein hier ist der Ausweg leicht. Man muß das Wort: denken, wie
+                    Sie und <persName ref="mmendelssohn">Mendelssohn</persName> es hier brauchen,
+                    nicht in jenem strengen, logischen Sinne nehmen, wo man bloß deutliche
+                    Vorstellungen damit bezeichnet. Hier soll es, dünkt mich, nur soviel als
+                    vorstellen überhaupt heißen. Ob die Vorstellung dunkel sei, oder klar, oder
+                    deutlich, gilt hier gleich viel. Nun aber ist es ein in der <pb n="3*"/> neueren
+                    Seelenlehre nicht mehr unbekannter Saz, daß sich unsre Seele immerfort den
+                    ganzen Zustand ihres Körpers vorstellt, daß aber diese Vorstellungen <del type="fragment">s</del> nur selten zum Bewußtsein gelangen. Also kann sich
+                    ja die Seele auch die Möglichkeit jener unwillkürlichen Bewegungen vorher
+                    vorstellen, und doch diese Veränderungen selbst in der Folge vielleicht nicht
+                    bemerken? Einen stärkeren Einwurf könnte man von den Veränderungen hernehmen,
+                    die in den leblosen Körpern vorgehn. Diesen pflegt man gewöhnlich keine
+                    Vorstellungskräfte zuzuschreiben. Wer denkt also bei ihnen die Möglichkeit der
+                    Veränderungen? Allein auch hiegegen, sehen Sie leicht, könnte man sich mit Hülfe
+                    des <sic>Idealism</sic> oder der Monadenlehre vertheidigen. So, glaube ich
+                    daher, ist Ihr Beweis gegen alle Angriffe gesichert. Dennoch aber, gesteh’ ich
+                    Ihnen, bleiben mir noch Zweifel übrig, die ich auf keine Weise zu lösen vermag.
+                    Es scheint mir noch immer, als wäre der <persName ref="mmendelssohn">Mendelssohn</persName>sche Saz<note type="footnote" resp="editor">„Die
+                            Sphäre des Würklichen ist also enger eingeschränkt als die Sphäre des
+                            Denkbaren; alles Würkliche muß denkbar seyn, aber sehr vieles wird gedacht
+                            werden können, dem nie eine Würklichkeit zukommen wird.“ (Moses Mendelssohn
+                            [1785]: <hi rend="italic">Morgenstunden oder Vorlesungen über das Daseyn Gottes. 1. Theil</hi>,
+                            Berlin: Christian Friedrich Voß und Sohn, S. 13). [Mattson 2014, S. 432]</note> doch nicht ganz richtig, als könnte es doch
+                    noch Möglichkeiten geben, vielmehr aber noch Wirklichkeiten, die auch von keinem
+                    Wesen gedacht würden. Ich will Ihnen, wenn Sie erlauben, meine Gedanken nach der
+                    Reihe vorlegen. Ihr Urtheil darüber soll mir sagen; ob ich sie für wahr, oder
+                    für falsch halten darf. Denn noch bin ich völlig zweifelhaft.</p>
+            <p>So richtig mir auch, wie ich schon oben gesagt habe, Ihr Beweis <pb n="4*"/>
+                    dünkt, so ist es mir doch – verzeihen Sie mir, liebster Freund, vielleicht habe
+                    ich Sie nur nicht recht verstanden – aber es ist mir, sag’ ich, als wenn er doch
+                    nicht allgemein genug wäre, als wenn er den <persName ref="mmendelssohn">Mendelssohn</persName>schen Saz nicht in seiner
+                    ganzen Ausdehnung bewiese. Er erstreckt sich, soviel ich sehe, nur auf die
+                    Möglichkeit der Veränderungen, die mit schon vorhandenen wirklichen Wesen
+                    vorgehn. Nur auf diese, dünkt mich, paßt der Schluß: ihre Möglichkeit muß doch
+                    wenigstens von dem Wesen gedacht werden, in dem sie liegt. Dieß aber ist nur
+                    eine einzelne Gattung der Möglichkeiten. Es giebt noch eine unendliche Menge
+                    andrer. Ich kann mir z. B. völlig eigne, für sich bestehende, und doch bloß
+                    mögliche Wesen denken. Und wenn ich nun dieß thue, wird Ihr Beweis dann auch für
+                    diesen Fall noch gelten? Und wenn er gilt, wie werd’ ich ihn führen müssen? Wo
+                    werd’ ich das Wesen finden, in dessen Wirklichkeit diese Möglichkeiten gegründet
+                    sein, von dem sie vorher gedacht werden müssen?</p>
+            <p>Ein Beispiel wird mich verständlicher machen. Ein geflügeltes Pferd ist eine
+                    Möglichkeit. Denn ich sehe weder einen inneren, noch einen äußeren Widerspruch,
+                    der mich hinderte, die Ideen Pferd und Flügel mit einander zu verbinden. Muß nun
+                    aber auch diese Möglichkeit gedacht werden? Und wenn sie es muß, läßt sich <pb n="5*"/> diese Nothwendigkeit auf die obige Art darthun. Ich sehe hier nicht
+                    das Wesen, in welchem die Möglichkeit des geflügelten Pferdes liegen, und von
+                    dem sie folglich gedacht werden müßte. – – – .</p>
+            <p>Aber, hör’ ich Sie sagen, sollte auch die obige Beweisart nicht für diesen Fall
+                    gelten; so finden Sie ja den Beweis, den Sie suchen, im <bibl sameAs="1134">Mendelssohn</bibl> selbst.
+                    Freilich wohl, mein Bester, allein so ungern ich mich von diesem wahrhaftig
+                    großen Weltweisen entferne, so sehr ich meine Uebereinstimmung mit seinen
+                    Meinungen für den richtigen Maßstab meiner eigenen Fortschritte in der
+                    Philosophie halte; so habe ich mich dennoch nie von der Richtigkeit der Säze
+                    überzeugen können, die er in den letzten Kapiteln seiner Morgenstunden vorträgt.
+                    Sie sollen meine Gründe, oder besser meine Zweifel – denn Gründe darf ich es
+                    wohl nicht nennen – dagegen <subst>
+                  <del>hö<gap quantity="2" unit="chars"/>
+                  </del>
+                  <add>hören</add>
+               </subst>. Sehen Sie zu, was Sie damit anfangen können.</p>
+            <p>Jede Wirklichkeit, sagt <persName ref="mmendelssohn">Mendelssohn</persName>, muß,
+                    als wirklich, gedacht werden. Denn jede Wirklichkeit <hi rend="underline">kann</hi> gedacht werden. Dieß <hi rend="underline">Können</hi> ist nichts
+                    weiter, als eine Möglichkeit. Nun aber muß jede Möglichkeit gedacht werden.
+                    Folglich u.s.w.</p>
+            <p>Gegen diese Schlußfolge, dünkt mich, läßt sich nichts einwenden, sobald nur der
+                    Saz richtig bewiesen ist, daß jede Möglichkeit gedacht werden muß. Aber hier,
+                    glaub ich, liegt der Knoten: <persName ref="mmendelssohn">Mendelssohn</persName>
+                    führt seinen Beweis auf <pb n="6*"/> folgende Art. Die Möglichkeit, sagt er,
+                    kann kein objektives Prädikat sein. Denn sonst entstünde die Ungereimtheit, daß
+                    etwas zu gleicher Zeit bloß möglich, und doch auch wirklich wäre. Sie ist also
+                    nur der Gedanke, daß irgend ein Ding bei veränderter Beschaffenheit, auch anders
+                    modifizirt sein könnte; folglich nur etwas Subjektives.</p>
+            <p>Hier, dünkt mich, liegt die Idee zum Grunde, daß die Möglichkeit ein positives
+                    Prädikat ist. Nehme ich dieß an; so ist der Beweis völlig richtig. Denn alsdann
+                    muß dieß positive Prädikat entweder etwas Objektives sein, oder etwas
+                    Subjektives. Das erstere ist unmöglich; folglich ist es das letztere. Mir aber
+                    scheint, gerade umgekehrt die Möglichkeit kein positives Prädikat zu sein,
+                    sondern ein negatives. Denn was heißt es anders: ein Ding ist möglich, als: es
+                    enthält keinen Widerspruch. Die Möglichkeit an sich ist also etwas negatives,
+                    wenn gleich der Gedanke der Möglichkeit eines Dinges, als Modifikation eines
+                    denkenden Wesens, etwas positives ist. Folge ich nun dieser Idee, so heißt die
+                    Frage: Giebt es eine Möglichkeit, die von keinem Wesen gedacht wird? nicht mehr
+                    als: Liegt in irgend einer Sache kein Widerspruch, und wird das, daß kein
+                    Widerspruch darin liegt, doch von keinem Wesen gedacht? Und diese Frage kann,
+                    glaub’ ich, mit <pb n="7*"/> Recht bejaht werden. Denn, da ich einmal annehme,
+                    daß Möglichkeit nichts Positives, sondern etwas ganz negatives ist; so kann ich
+                    auf keine Weise in die Absurdität verfallen, die Möglichkeit zu einem wirklichen
+                    Prädikate zu machen; und hierin bestand doch die ganze Stärke des <persName ref="mmendelssohn">Mendelssohn</persName>schen Beweises. Wenn ich also z. B.
+                    die Möglichkeit nehme, daß ein sizender Mensch aufsteht; so ist diese
+                    Möglichkeit nichts positives, sondern besteht nur darin, daß die Organisation
+                    seines Körpers der Bewegung des Aufstehens nicht widerspricht. Fragt man sich
+                    nun, ob es nothwendig sei, daß irgend ein Wesen sich das denke, daß hierin kein
+                    Widerspruch liegt? so antworte ich: nein, und fürchte nicht in die Absurdität zu
+                    verfallen, die Möglichkeit zu einem wirklichen Prädikate zu machen, da ich mich
+                    schon erklärt habe, daß diese Möglichkeit ganz und gar nicht einmal etwas
+                    positives ist. Fragt man mich aber weiter: was ist sie denn nun aber eigentlich?
+                    etwas Objektives? oder etwas Subjektives? so antworte ich: die Möglichkeit an
+                    sich selbst kann weder eins noch das andre sein, denn an sich selbst ist sie ja
+                    ganz und gar nichts Positives. Insofern sie aber von einem denkenden Wesen
+                    vorgestellt wird, ist sie etwas Subjektives. Jedoch dieß, daß sie vorgestellt
+                    werde, ist <pb n="8*"/> nicht absolut nothwendig. Mich dünkt, unsre
+                    Einbildungskraft, und die Begierde, uns alles, auch das Abstrakteste zu
+                    versinnlichen, schadet uns hier am meisten. Wir wollen uns die Möglichkeit unter
+                    irgend einem Bilde, auf irgend eine Art sinnlich vorstellen. Nun aber können wir
+                    uns das Nichts, die bloß negative Idee: Hier liegt kein Widerspruch, ohnmöglich
+                    sinnlich vorstellen. Wir denken uns also die Möglichkeit als etwas Positives,
+                    und nun gerathen wir in Verlegenheit, wohin wir sie setzen sollen? wenn sie
+                    weder etwas Objektives sein kann, noch auch von irgend einem Wesen gedacht
+                    werden, und also auch nichts Subjektives sein soll. Und da wir uns hier nicht zu
+                    helfen wissen; so nehmen wir lieber an, daß eine von keinem Wesen gedachte
+                    Möglichkeit keine Möglichkeit ist. Darum verschwindet schon zum Theil die
+                    Schwierigkeit dieser Untersuchung, wenn man nur die Frage etwas anders faßt.
+                    Frage ich: <hi rend="underline">Giebt</hi> es eine Möglichkeit u.s.w., so
+                    verführt mich das schon zu sehr, die Möglichkeit für etwas Positives anzusehn.
+                    Frage ich hingegen: Kann es wohl zwei Ideen geben, die noch von keinem denkenden
+                    Wesen mit einander verbunden worden sind? so dünkt mich, wird sich niemand
+                    weigern, dieß zu bejahen, und thut man dies, so giebt es doch Möglichkeiten, die
+                    nicht gedacht werden. Denn die Verbindung zweier Ideen, die keinen <pb n="9*"/>
+                    Widerspruch enthalten, ist doch offenbar eine Möglichkeit. Ist es aber nicht
+                    nothwendig, daß jede Möglichkeit gedacht werde, so braucht auch nicht jede
+                    Wirklichkeit gedacht zu werden. Denn dieses wurde nur durch jenes bewiesen. Und
+                    das scheint mir nun auch noch offenbarer. Warum sollte nicht ein Wesen
+                    existieren können, ohne daß es von irgend jemand gedacht würde. Wäre denn die
+                    Existenz dieses Wesens nicht Warheit, wenn gleich niemand diese Warheit dächte?
+                        <persName ref="mmendelssohn">Mendelssohn</persName> sagt es freilich. Aber
+                    ich sehe doch den Grund, die Nothwendigkeit davon nicht ein! – – – –</p>
+            <p>Dieß ist es, was mir für jetzt über diese Stelle der <bibl sameAs="1134">Morgenstunden</bibl> einfällt.
+                    Glauben Sie nicht, daß ich es niedergeschrieben habe, weil ich es für richtig
+                    hielte. Es sind nur Zweifel, und Zweifel, die mich zwar hindern, den <persName ref="mmendelssohn">Mendelssohn</persName>ischen Saz anzunehmen, mir aber
+                    doch nicht hinreichend scheinen, ihn gänzlich zu läugnen. Das einzige, was mich
+                    tröstet, ist, daß, wie Sie Sich erinnern werden, der <persName ref="mherz">Hofrath</persName> mir auch schon einmal sagte: <persName ref="mmendelssohn">Mendelssohn</persName> hätte den Fehler begangen, die
+                    Möglichkeit für etwas positives anzusehn. Aber die Anwendung, die er hievon
+                    machte, war doch, dünkt mich, anders. Der Zustand des Zweifels, sagt <persName ref="rdescartes">Cartes</persName>, ist
+                    ein unbehaglicher Zustand. Ich befinde mich jetzt darin. Helfen Sie mir heraus,
+                    liebster Freund; Sie können es ja vielleicht. Sollte ich selbst über kurz oder
+                    lang durch eignes Nachdenken, oder durch Unterredungen mit andern <pb n="10*"/>
+                    besser über diese Materie belehrt werden; so verspreche ich Ihnen, sollen Sie es
+                    erfahren; müßte ich gleich alles das wieder zurücknehmen, was ich hier gesagt
+                    habe.</p>
+            <p>Es ist schon sehr spät, mein Bester. Sie werden doch nicht böse, wenn ich die
+                    Beantwortung der übrigen Punkte Ihres Briefes mir für ein andermal vorbehalte?
+                    Es würde mir heute in der That zu viel werden. Leben Sie also nun wohl, liebster
+                    Freund, und verzeihen Sie, ich bitte Sie recht sehr darum, alles das
+                    Unbestimmte, Halbichte und Falsche, was auf diesem Blatte stehen mag. Bitten Sie
+                    auch <persName ref="hherz">Ihre vortreffliche Freundin</persName>, dieß zu thun.
+                    Sie will sich ja einmal durch alle meine Warnungen nicht abschrecken lassen,
+                    diese Zeilen zu lesen, und in der That, wenn sie eben so streng richtet, als sie
+                    gut richten kann; so zittre ich. Bitten Sie ja für mich. Und dann schreiben Sie
+                    mir recht bald wieder, lassen Sie aber ja wieder etwas von dem Briefe
+                    abschneiden, wenn Sie auch ein wenig böse werden sollten. Ich will Sie gewiß
+                    wieder gut machen. </p>
+            <closer>Nun leben Sie wohl, und bleiben Sie mein Freund.<lb/>Ganz<lb/>der
+                        Ihrige,<lb/>
+               <signed>Wilhelm.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
