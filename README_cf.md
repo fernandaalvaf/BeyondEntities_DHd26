@@ -1,10 +1,10 @@
 # Triple-Extraktor für frühneuzeitliche Briefe
 
-KI-gestützte semantische Triple-Extraktion (Subjekt-Prädikat-Objekt) aus historischen Briefen im TEI-XML-Format.
+**Version 1.0.2.0** · KI-gestützte semantische Triple-Extraktion (Subjekt-Prädikat-Objekt) aus historischen Briefen im TEI-XML-Format.
 
 ## Features
 
-- **Multi-API-Support**: OpenAI-kompatible APIs (ChatAI) + Google Gemini
+- **Multi-API-Support**: ChatAI (AcademicCloud) + Google Gemini + OpenAI
 - **TEI-XML-Optimierung**: 72-87% Token-Ersparnis durch intelligente Metadaten-Extraktion
 - **Rekursive Verarbeitung**: Unterstützt Unterverzeichnisse mit Strukturerhalt
 - **Batch-Verarbeitung**: Skip-Funktion, Limit-Parameter, Fortsetzen unterbrochener Runs
@@ -13,10 +13,15 @@ KI-gestützte semantische Triple-Extraktion (Subjekt-Prädikat-Objekt) aus histo
 ### Feature-Details
 
 #### Multi-API-Support
-Unterstützt verschiedene LLM-APIs über ein Profil-System:
-- **OpenAI-kompatibel**: ChatAI (academiccloud.de), lokale Ollama-Instanzen
-- **Google Gemini**: Native Gemini-API mit systemInstruction-Support
-- Einfacher Wechsel via `active_profile` in config.yaml
+Unterstützt drei Anbieter über ein Profil-System in `config.yaml`:
+
+| Profil | Anbieter | Verfügbare Modelle |
+|--------|----------|--------------------|
+| `chatai` | AcademicCloud | `llama-3.3-70b-instruct`, `llama-3.1-sauerkrautlm-70b-instruct`, `mistral-large-3-675b-instruct-2512`, `qwen3-30b-a3b-instruct-2507` |
+| `gemini` | Google | `gemini-3-flash-preview`, `gemini-3.1-pro-preview`, `gemini-2.5-flash`, `gemini-2.5-flash-lite` |
+| `openai` | OpenAI | `gpt-5.2-2025-12-11`, `gpt-4o-mini` |
+
+Einfacher Wechsel via `active_profile` in config.yaml.
 
 #### TEI-XML-Optimierung
 Reduziert Token-Verbrauch durch intelligente Extraktion:
@@ -116,18 +121,32 @@ python src/analyze_themes.py --output csv/themes.csv   # Mit CSV-Export
 
 ```yaml
 api:
-  active_profile: "chatai"  # Wähle: chatai, gemini
+  active_profile: "chatai"  # Wähle: chatai, gemini, openai
   
   profiles:
     chatai:
       api_provider: "openai"
       base_url: "https://chat-ai.academiccloud.de"
+      endpoint: "/v1/chat/completions"
       model: "llama-3.3-70b-instruct"
+      # Weitere Modelle: llama-3.1-sauerkrautlm-70b-instruct,
+      #   mistral-large-3-675b-instruct-2512, qwen3-30b-a3b-instruct-2507
     gemini:
       api_provider: "gemini"
       base_url: "https://generativelanguage.googleapis.com"
+      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
       model: "gemini-2.5-flash-lite"
+      # Weitere Modelle: gemini-3-flash-preview, gemini-3.1-pro-preview, gemini-2.5-flash
+      # Achtung: endpoint und model müssen zusammen geändert werden!
+    openai:
+      api_provider: "openai"
+      base_url: "https://api.openai.com"
+      endpoint: "/v1/chat/completions"
+      model: "gpt-5.2-2025-12-11"
+      # Weitere Modelle: gpt-4o-mini
 ```
+
+**Temperatur**: Standard 0.3 (konsistent, aber leicht variabel). Einstellbar pro Profil von 0.0–2.0.
 
 ## JSON-Output-Schema
 
