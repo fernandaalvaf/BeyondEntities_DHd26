@@ -57,36 +57,71 @@ def get_database_config(config: dict[str, Any]) -> dict[str, Any]:
     return config.get('database', {})
 
 
-def get_api_config(config: dict[str, Any]) -> dict[str, Any]:
+def get_active_profiles(config: dict[str, Any]) -> dict[str, dict[str, Any]]:
     """
-    Extrahiert die API-Konfiguration.
-    Wenn 'active_profile' gesetzt ist, wird das entsprechende Profil zurückgegeben.
-    
+    Gibt alle Profile zurück, bei denen active: true gesetzt ist.
+
     Args:
         config: Vollständige Konfiguration
-        
+
     Returns:
-        API-Konfiguration (aufgelöstes Profil oder direkte Config)
-        
+        Dict von Profilname → Profilkonfiguration (nur aktive Profile)
+
     Raises:
-        ValueError: Wenn active_profile nicht in profiles existiert
+        ValueError: Wenn keine aktiven Profile gefunden werden
+    """
+    profiles = config.get('api', {}).get('profiles', {})
+    active = {
+        name: cfg
+        for name, cfg in profiles.items()
+        if cfg.get('active', True)  # Standard: true für Abwärtskompatibilität
+    }
+    if not active:
+        raise ValueError(
+            "Keine aktiven API-Profile gefunden. "
+            "Bitte mindestens ein Profil in config.yaml auf 'active: true' setzen."
+        )
+    return active
+
+
+def get_api_config(config: dict[str, Any], profile_name: str | None = None) -> dict[str, Any]:
+    """
+    Extrahiert die API-Konfiguration für ein bestimmtes Profil.
+
+    Args:
+        config: Vollständige Konfiguration
+        profile_name: Name des gewünschten Profils. Falls None, wird
+                      'active_profile' aus der Config genutzt (Legacy-Fallback).
+
+    Returns:
+        API-Konfiguration des gewählten Profils
+
+    Raises:
+        ValueError: Wenn das Profil nicht existiert oder nicht aktiv ist
     """
     api_config = config.get('api', {})
-    
-    # Prüfe ob Profile-basierte Konfiguration
-    if 'active_profile' in api_config and 'profiles' in api_config:
+    profiles = api_config.get('profiles', {})
+
+    # Profil explizit übergeben (interaktive Auswahl oder --profile Flag)
+    if profile_name:
+        if profile_name not in profiles:
+            raise ValueError(
+                f"Unbekanntes API-Profil: '{profile_name}'. "
+                f"Verfügbare Profile: {', '.join(profiles.keys())}"
+            )
+        return profiles[profile_name]
+
+    # Legacy-Fallback: active_profile in config.yaml
+    if 'active_profile' in api_config and profiles:
         active = api_config['active_profile']
-        profiles = api_config['profiles']
-        
         if active not in profiles:
             raise ValueError(
                 f"Unbekanntes API-Profil: '{active}'. "
                 f"Verfügbare Profile: {', '.join(profiles.keys())}"
             )
-        
         return profiles[active]
-    
-    # Fallback: direkte API-Konfiguration (alte Struktur)
+
+    # Letzter Fallback: direkte API-Konfiguration (alte Struktur ohne profiles)
     return api_config
 
 

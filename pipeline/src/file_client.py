@@ -389,13 +389,14 @@ class FileClient:
             
         return content
     
-    def fetch_records(self, filename: str | None = None) -> list[dict[str, Any]]:
+    def fetch_records(self, filename: str | None = None, limit: int | None = None) -> list[dict[str, Any]]:
         """
         Liest Textdateien oder XML-Dateien und gibt sie als Records zurück.
         
         Args:
             filename: Optional - Name einer spezifischen Datei (.txt oder .xml). 
                      Falls None, werden alle .txt und .xml-Dateien im Verzeichnis verarbeitet.
+            limit: Optional - Maximale Anzahl der einzulesenden Dateien.
         
         Returns:
             Liste von Dictionaries mit den Feldern:
@@ -450,6 +451,11 @@ class FileClient:
                 return records
             
             for file_path in all_files:
+                # Limit-Prüfung: nicht mehr Dateien einlesen als nötig
+                if limit and len(records) >= limit:
+                    logger.info(f"Limit von {limit} erreicht, überspringe restliche {len(all_files) - len(records)} Dateien")
+                    break
+
                 try:
                     # Bestimme Format und lese entsprechend
                     if file_path.suffix.lower() == '.xml':

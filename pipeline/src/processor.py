@@ -559,7 +559,7 @@ class Processor:
         try:
             # Hole Datensätze (aus Dateien oder Datenbank)
             if self.source_type == 'file' and hasattr(self.data_client, 'fetch_records'):
-                records = self.data_client.fetch_records(filename=self.filename)
+                records = self.data_client.fetch_records(filename=self.filename, limit=self.limit)
             else:
                 records = self.data_client.fetch_records()
                 

@@ -16,66 +16,76 @@ database:
     LIMIT 10;
 
 api:
-  active_profile: "chatai"  # Wähle: "chatai", "gemini", "openai", "anthropic", "mistral", "openrouter"
-  
+  # active_profile entfernt – Auswahl erfolgt jetzt interaktiv beim Start
+  # oder über den CLI-Flag --profile <name>
+
   profiles:
     chatai:
+      active: true
+      label: "ChatAI / AcademicCloud"
       api_provider: "openai"
       base_url: "https://chat-ai.academiccloud.de"
       endpoint: "/v1/chat/completions"
       api_key: "your-api-key-here"
-      # Verfügbare Modelle (ChatAI / AcademicCloud):
-      #   llama-3.3-70b-instruct
-      #   llama-3.1-sauerkrautlm-70b-instruct
-      #   mistral-large-3-675b-instruct-2512
-      #   qwen3-30b-a3b-instruct-2507
+      models:
+        - "llama-3.3-70b-instruct"
+        - "llama-3.1-sauerkrautlm-70b-instruct"
+        - "mistral-large-3-675b-instruct-2512"
+        - "qwen3-30b-a3b-instruct-2507"
       model: "llama-3.3-70b-instruct"
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
-      temperature: 0.3  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
-    
+      temperature: 0.3
+
     gemini:
+      active: true
+      label: "Google Gemini"
       api_provider: "gemini"
       base_url: "https://generativelanguage.googleapis.com"
-      # Verfügbare Modelle (Google Gemini) – Modell auch im endpoint anpassen:
-      #   gemini-3-flash-preview  → /v1beta/models/gemini-3-flash-preview:generateContent
-      #   gemini-3.1-pro-preview  → /v1beta/models/gemini-3.1-pro-preview:generateContent
-      #   gemini-2.5-flash        → /v1beta/models/gemini-2.5-flash:generateContent
-      #   gemini-2.5-flash-lite   → /v1beta/models/gemini-2.5-flash-lite:generateContent
+      # Hinweis: endpoint wird beim Modellwechsel automatisch angepasst
       endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
       api_key: "YOUR_GEMINI_API_KEY"
+      models:
+        - "gemini-2.5-flash-lite"
+        - "gemini-2.5-flash"
+        - "gemini-3-flash-preview"
+        - "gemini-3-pro-preview"
       model: "gemini-2.5-flash-lite"
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
-      temperature: 0.3  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
+      temperature: 0.3
 
     openai:
+      active: true
+      label: "OpenAI"
       api_provider: "openai"
       base_url: "https://api.openai.com"
       endpoint: "/v1/chat/completions"
       api_key: "your-openai-api-key-here"
-      # Verfügbare Modelle (OpenAI):
-      #   gpt-5.2-2025-12-11
-      #   gpt-4o-mini
+      models:
+        - "gpt-5.2-2025-12-11"
+        - "gpt-4o-mini"
       model: "gpt-5.2-2025-12-11"
       timeout_seconds: 60
       max_retries: 3
       retry_delay_seconds: 3
       exponential_backoff: true
-      temperature: 0.3  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
+      temperature: 0.3
 
     anthropic:
+      active: true
+      label: "Anthropic Claude"
       api_provider: "anthropic"
       base_url: "https://api.anthropic.com"
       endpoint: "/v1/messages"
       api_key: "your-anthropic-api-key-here"
-      # Verfügbare Modelle (Anthropic Claude):
-      #   claude-sonnet-4-6   (Standard, empfohlen)
-      #   claude-haiku-4-5    (schnell & günstig)
+      models:
+        - "claude-sonnet-4-6"
+        - "claude-haiku-4-5"
       model: "claude-sonnet-4-6"
       timeout_seconds: 60
       max_retries: 3
@@ -84,14 +94,16 @@ api:
       temperature: 0.3  # 0.0-1.0 bei Anthropic
 
     mistral:
+      active: false  # API-Key eintragen und auf true setzen
+      label: "Mistral AI"
       api_provider: "mistral"
       base_url: "https://api.mistral.ai"
       endpoint: "/v1/chat/completions"
       api_key: "your-mistral-api-key-here"
-      # Verfügbare Modelle (Mistral AI):
-      #   mistral-large-2512   (leistungsstärkst)
-      #   mistral-medium-2508  (ausgewogen)
-      #   mistral-small-2506   (schnell & günstig)
+      models:
+        - "mistral-large-2512"
+        - "mistral-medium-2508"
+        - "mistral-small-2506"
       model: "mistral-large-2512"
       timeout_seconds: 60
       max_retries: 3
@@ -100,18 +112,20 @@ api:
       temperature: 0.3  # 0.0-1.0
 
     openrouter:
+      active: false  # API-Key eintragen und auf true setzen
+      label: "OpenRouter (Multi-Provider)"
       api_provider: "openrouter"
       base_url: "https://openrouter.ai/api"
       endpoint: "/v1/chat/completions"
       api_key: "your-openrouter-api-key-here"
-      # Verfügbare Modelle (OpenRouter – Auswahl, https://openrouter.ai/models):
-      #   anthropic/claude-sonnet-4-6
-      #   anthropic/claude-haiku-4-5
-      #   mistralai/mistral-large-2512
-      #   mistralai/mistral-small-2506
-      #   google/gemini-2.5-flash
-      #   meta-llama/llama-3.3-70b-instruct
-      #   openai/gpt-4o-mini
+      models:
+        - "anthropic/claude-sonnet-4-6"
+        - "anthropic/claude-haiku-4-5"
+        - "mistralai/mistral-large-2512"
+        - "mistralai/mistral-small-2506"
+        - "google/gemini-2.5-flash"
+        - "meta-llama/llama-3.3-70b-instruct"
+        - "openai/gpt-4o-mini"
       model: "anthropic/claude-sonnet-4-6"
       timeout_seconds: 60
       max_retries: 3

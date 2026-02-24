@@ -3,14 +3,107 @@ Haupt-Einstiegspunkt für die Beschreibungsverarbeitung.
 """
 import argparse
 import logging
+import os
 import sys
 from pathlib import Path
 
-from config_loader import load_config, get_database_config, get_api_config, get_processing_config, get_extraction_config, get_files_config
+# Arbeitsverzeichnis auf pipeline/ setzen (Eltern-Verzeichnis von src/)
+PIPELINE_DIR = Path(__file__).resolve().parent.parent
+os.chdir(PIPELINE_DIR)
+
+from config_loader import load_config, get_database_config, get_api_config, get_active_profiles, get_processing_config, get_extraction_config, get_files_config
 from db_client import DatabaseClient
 from file_client import FileClient
 from openwebui_client import OpenWebUIClient
 from processor import Processor
+
+
+# ANSI-Farben für die interaktive Auswahl
+class C:
+    BOLD  = '\033[1m'
+    CYAN  = '\033[96m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    DIM   = '\033[2m'
+    RESET = '\033[0m'
+
+
+def interactive_select_profile(config: dict) -> tuple[str, dict]:
+    """
+    Zeigt alle aktiven API-Profile zur Auswahl an.
+
+    Returns:
+        (profile_name, profile_config)
+    """
+    active = get_active_profiles(config)
+    names  = list(active.keys())
+
+    print()
+    print(f"{C.BOLD}{C.CYAN}=== Provider-Auswahl ==={C.RESET}")
+    for i, name in enumerate(names, 1):
+        label = active[name].get('label', name)
+        model = active[name].get('model', '')
+        print(f"  {C.BOLD}{i}{C.RESET}  {C.GREEN}{label}{C.RESET}")
+        print(f"     {C.DIM}Standardmodell: {model}{C.RESET}")
+    print()
+
+    while True:
+        try:
+            raw = input(f"{C.YELLOW}Provider wählen [1–{len(names)}]: {C.RESET}").strip()
+            idx = int(raw) - 1
+            if 0 <= idx < len(names):
+                chosen = names[idx]
+                print(f"{C.GREEN}✓ Gewählt: {active[chosen].get('label', chosen)}{C.RESET}")
+                return chosen, active[chosen]
+            print(f"  Bitte eine Zahl zwischen 1 und {len(names)} eingeben.")
+        except (ValueError, EOFError):
+            print(f"  Ungültige Eingabe, bitte Zahl eingeben.")
+
+
+def interactive_select_model(profile_name: str, profile_config: dict) -> str:
+    """
+    Zeigt die verfügbaren Modelle des gewählten Profils zur Auswahl an.
+
+    Returns:
+        Gewählter Modellname
+    """
+    models  = profile_config.get('models', [])
+    default = profile_config.get('model', '')
+
+    # Fallback: nur das Default-Modell
+    if not models:
+        models = [default] if default else []
+
+    label = profile_config.get('label', profile_name)
+    print()
+    print(f"{C.BOLD}{C.CYAN}=== Modell-Auswahl ({label}) ==={C.RESET}")
+    for i, m in enumerate(models, 1):
+        marker = f" {C.DIM}(Standard){C.RESET}" if m == default else ""
+        print(f"  {C.BOLD}{i}{C.RESET}  {m}{marker}")
+    print()
+
+    while True:
+        try:
+            raw = input(
+                f"{C.YELLOW}Modell wählen [1–{len(models)}] "
+                f"(Enter = Standard '{default}'): {C.RESET}"
+            ).strip()
+            if raw == "":
+                print(f"{C.GREEN}✓ Standardmodell: {default}{C.RESET}")
+                return default
+            idx = int(raw) - 1
+            if 0 <= idx < len(models):
+                chosen = models[idx]
+                print(f"{C.GREEN}✓ Gewählt: {chosen}{C.RESET}")
+                return chosen
+            print(f"  Bitte eine Zahl zwischen 1 und {len(models)} eingeben.")
+        except (ValueError, EOFError):
+            print(f"  Ungültige Eingabe, bitte Zahl eingeben.")
+
+
+def resolve_gemini_endpoint(model: str) -> str:
+    """Leitet den Gemini-Endpoint aus dem Modellnamen ab."""
+    return f"/v1beta/models/{model}:generateContent"
 
 
 def setup_logging(log_file: str = "logs/processing.log") -> None:
@@ -92,6 +185,18 @@ def main() -> int:
         help='Pfad zur Log-Datei (Standard: logs/processing.log)'
     )
     parser.add_argument(
+        '--profile',
+        type=str,
+        default=None,
+        help='API-Profil direkt wählen (z.B. "anthropic"). Überspringt die interaktive Auswahl.'
+    )
+    parser.add_argument(
+        '--model',
+        type=str,
+        default=None,
+        help='Modell direkt wählen (z.B. "claude-haiku-4-5"). Nur wirksam zusammen mit --profile.'
+    )
+    parser.add_argument(
         '--source',
         type=str,
         choices=['file', 'db'],
@@ -150,13 +255,37 @@ def main() -> int:
         # 1. Konfiguration laden
         logger.info(f"Lade Konfiguration aus: {args.config}")
         config = load_config(args.config)
-        
-        # 2. Prompt laden
+
+        # 2. Provider & Modell bestimmen (interaktiv oder via CLI-Flags)
+        if args.profile:
+            # Nicht-interaktiver Modus: --profile (und optional --model) gesetzt
+            profile_name   = args.profile
+            api_config_raw = get_api_config(config, profile_name)
+            chosen_model   = args.model or api_config_raw.get('model', '')
+            logger.info(f"Profil (CLI): {profile_name} | Modell: {chosen_model}")
+        else:
+            # Interaktiver Modus
+            profile_name, api_config_raw = interactive_select_profile(config)
+            chosen_model = interactive_select_model(profile_name, api_config_raw)
+            logger.info(f"Profil (interaktiv): {profile_name} | Modell: {chosen_model}")
+
+        # Profil-Config kopieren und gewähltes Modell einsetzen
+        api_config = dict(api_config_raw)
+        api_config['model'] = chosen_model
+
+        # Gemini: Endpoint automatisch an Modell anpassen
+        if api_config.get('api_provider') == 'gemini':
+            api_config['endpoint'] = resolve_gemini_endpoint(chosen_model)
+            logger.info(f"Gemini-Endpoint angepasst: {api_config['endpoint']}")
+
+        print()
+
+        # 3. Prompt laden
         logger.info(f"Lade Prompt aus: {args.prompt}")
         system_prompt = load_prompt(args.prompt)
         
         # 3. Komponenten initialisieren
-        api_config = get_api_config(config)
+        # api_config ist bereits aufgelöst und enthält das gewählte Modell
         processing_config = get_processing_config(config)
         extraction_config = get_extraction_config(config)
         files_config = get_files_config(config)
