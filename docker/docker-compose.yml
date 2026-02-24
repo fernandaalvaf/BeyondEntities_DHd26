@@ -1,0 +1,33 @@
+# ============================================================
+# Triple-Extraktion Pipeline – Docker Compose
+# ============================================================
+# Starten:  docker compose -f docker/docker-compose.yml run --rm pipeline
+# Mit Flags: docker compose -f docker/docker-compose.yml run --rm pipeline --profile anthropic --model claude-haiku-4-5 --limit 5
+# ============================================================
+
+services:
+  pipeline:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: triple-pipeline
+
+    # Umgebungsvariablen aus .env laden
+    env_file:
+      - .env
+
+    volumes:
+      # Python-Quellcode (Änderungen wirken ohne Image-Rebuild)
+      - ../pipeline/src:/app/src
+      # Eigene XML-Dateien einbinden (Host → Container)
+      - ../pipeline/analyze:/app/analyze
+      # Ergebnisse auf den Host zurückschreiben
+      - ../pipeline/output_json:/app/output_json
+      - ../pipeline/csv:/app/csv
+      - ../pipeline/logs:/app/logs
+      # Eigene config.yaml einbinden (optional – alternativ ENV-Variablen nutzen)
+      - ../pipeline/config.yaml:/app/config.yaml:ro
+
+    # Interaktiver Modus (für Provider-Auswahl)
+    stdin_open: true
+    tty: true

@@ -101,6 +101,34 @@ def interactive_select_model(profile_name: str, profile_config: dict) -> str:
             print(f"  Ungültige Eingabe, bitte Zahl eingeben.")
 
 
+def interactive_select_limit() -> int | None:
+    """
+    Fragt den Nutzer nach einem optionalen Verarbeitungs-Limit.
+
+    Returns:
+        Ganzzahl oder None (= alle Dateien)
+    """
+    print()
+    print(f"{C.BOLD}{C.CYAN}=== Limit ==={C.RESET}")
+    print(f"  Wie viele Dateien sollen verarbeitet werden?")
+    print(f"  {C.DIM}(Enter = alle Dateien){C.RESET}")
+    print()
+
+    while True:
+        try:
+            raw = input(f"{C.YELLOW}Limit eingeben (oder Enter für alle): {C.RESET}").strip()
+            if raw == "":
+                print(f"{C.GREEN}✓ Keine Begrenzung – alle Dateien werden verarbeitet.{C.RESET}")
+                return None
+            val = int(raw)
+            if val > 0:
+                print(f"{C.GREEN}✓ Limit: {val} Dateien{C.RESET}")
+                return val
+            print("  Bitte eine positive Zahl eingeben.")
+        except (ValueError, EOFError):
+            print("  Ungültige Eingabe, bitte Zahl eingeben.")
+
+
 def resolve_gemini_endpoint(model: str) -> str:
     """Leitet den Gemini-Endpoint aus dem Modellnamen ab."""
     return f"/v1beta/models/{model}:generateContent"
@@ -267,7 +295,10 @@ def main() -> int:
             # Interaktiver Modus
             profile_name, api_config_raw = interactive_select_profile(config)
             chosen_model = interactive_select_model(profile_name, api_config_raw)
-            logger.info(f"Profil (interaktiv): {profile_name} | Modell: {chosen_model}")
+            # Limit nur interaktiv abfragen, wenn nicht per CLI gesetzt
+            if args.limit is None:
+                args.limit = interactive_select_limit()
+            logger.info(f"Profil (interaktiv): {profile_name} | Modell: {chosen_model} | Limit: {args.limit or 'alle'}")
 
         # Profil-Config kopieren und gewähltes Modell einsetzen
         api_config = dict(api_config_raw)

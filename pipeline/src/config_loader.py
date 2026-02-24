@@ -1,9 +1,21 @@
 """
 Konfigurations-Loader für YAML-Dateien.
 """
+import os
 import yaml
 from pathlib import Path
 from typing import Any
+
+
+# Mapping: Umgebungsvariable → (Profilname, config-Key)
+ENV_KEY_MAP: dict[str, tuple[str, str]] = {
+    "CHATAI_API_KEY":     ("chatai",     "api_key"),
+    "GEMINI_API_KEY":     ("gemini",     "api_key"),
+    "OPENAI_API_KEY":     ("openai",     "api_key"),
+    "ANTHROPIC_API_KEY":  ("anthropic",  "api_key"),
+    "MISTRAL_API_KEY":    ("mistral",    "api_key"),
+    "OPENROUTER_API_KEY": ("openrouter", "api_key"),
+}
 
 
 def load_config(path: str = "config.yaml") -> dict[str, Any]:
@@ -38,10 +50,26 @@ def load_config(path: str = "config.yaml") -> dict[str, Any]:
             if section not in config:
                 raise ValueError(f"Fehlende Sektion in Konfiguration: {section}")
                 
+        # ENV-Variablen überschreiben API-Keys (Docker / CI)
+        _apply_env_overrides(config)
+
         return config
         
     except yaml.YAMLError as e:
         raise yaml.YAMLError(f"Fehler beim Parsen der YAML-Datei: {e}")
+
+
+def _apply_env_overrides(config: dict[str, Any]) -> None:
+    """
+    Überschreibt API-Keys in der Konfiguration mit Werten aus
+    Umgebungsvariablen (z. B. aus docker/.env).
+    Nur gesetzte Variablen werden übernommen.
+    """
+    profiles = config.get('api', {}).get('profiles', {})
+    for env_var, (profile_name, key) in ENV_KEY_MAP.items():
+        value = os.environ.get(env_var)
+        if value and profile_name in profiles:
+            profiles[profile_name][key] = value
 
 
 def get_database_config(config: dict[str, Any]) -> dict[str, Any]:

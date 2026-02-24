@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Docker
+docker/.env
+
+# Outputs (werden per Volume gemountet)
+pipeline/output_json
+pipeline/csv
+pipeline/logs
+
+# Notebooks (nicht im Container benötigt)
+notebooks
+
+# Tests
+tests
+
+# Config mit echten Keys
+pipeline/config.yaml

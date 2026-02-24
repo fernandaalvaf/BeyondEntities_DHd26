@@ -450,12 +450,13 @@ class FileClient:
                 logger.warning(f"Keine .txt oder .xml-Dateien gefunden in: {self.input_dir}")
                 return records
             
-            for file_path in all_files:
-                # Limit-Prüfung: nicht mehr Dateien einlesen als nötig
-                if limit and len(records) >= limit:
-                    logger.info(f"Limit von {limit} erreicht, überspringe restliche {len(all_files) - len(records)} Dateien")
-                    break
+            # Limit bereits auf die Dateiliste anwenden – so werden keine
+            # überschüssigen Dateien geparst/optimiert
+            if limit:
+                all_files = all_files[:limit]
+                logger.info(f"Limit: verarbeite {len(all_files)} von ursprünglich {len(txt_files) + len(xml_files)} Dateien")
 
+            for file_path in all_files:
                 try:
                     # Bestimme Format und lese entsprechend
                     if file_path.suffix.lower() == '.xml':
