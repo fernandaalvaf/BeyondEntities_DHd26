@@ -16,7 +16,7 @@ database:
     LIMIT 10;
 
 api:
-  active_profile: "chatai"  # Wähle: "chatai", "gemini" oder "openai"
+  active_profile: "chatai"  # Wähle: "chatai", "gemini", "openai", "anthropic", "mistral", "openrouter"
   
   profiles:
     chatai:
@@ -67,6 +67,57 @@ api:
       retry_delay_seconds: 3
       exponential_backoff: true
       temperature: 0.3  # 0.0-2.0, niedrig = konsistent, hoch = kreativ
+
+    anthropic:
+      api_provider: "anthropic"
+      base_url: "https://api.anthropic.com"
+      endpoint: "/v1/messages"
+      api_key: "your-anthropic-api-key-here"
+      # Verfügbare Modelle (Anthropic Claude):
+      #   claude-sonnet-4-6   (Standard, empfohlen)
+      #   claude-haiku-4-5    (schnell & günstig)
+      model: "claude-sonnet-4-6"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+      exponential_backoff: true
+      temperature: 0.3  # 0.0-1.0 bei Anthropic
+
+    mistral:
+      api_provider: "mistral"
+      base_url: "https://api.mistral.ai"
+      endpoint: "/v1/chat/completions"
+      api_key: "your-mistral-api-key-here"
+      # Verfügbare Modelle (Mistral AI):
+      #   mistral-large-2512   (leistungsstärkst)
+      #   mistral-medium-2508  (ausgewogen)
+      #   mistral-small-2506   (schnell & günstig)
+      model: "mistral-large-2512"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+      exponential_backoff: true
+      temperature: 0.3  # 0.0-1.0
+
+    openrouter:
+      api_provider: "openrouter"
+      base_url: "https://openrouter.ai/api"
+      endpoint: "/v1/chat/completions"
+      api_key: "your-openrouter-api-key-here"
+      # Verfügbare Modelle (OpenRouter – Auswahl, https://openrouter.ai/models):
+      #   anthropic/claude-sonnet-4-6
+      #   anthropic/claude-haiku-4-5
+      #   mistralai/mistral-large-2512
+      #   mistralai/mistral-small-2506
+      #   google/gemini-2.5-flash
+      #   meta-llama/llama-3.3-70b-instruct
+      #   openai/gpt-4o-mini
+      model: "anthropic/claude-sonnet-4-6"
+      timeout_seconds: 60
+      max_retries: 3
+      retry_delay_seconds: 3
+      exponential_backoff: true
+      temperature: 0.3
 
 processing:
   output_dir: "output_json"

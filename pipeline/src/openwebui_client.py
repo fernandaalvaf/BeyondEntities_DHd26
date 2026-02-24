@@ -70,8 +70,11 @@ class OpenWebUIClient:
         self.api_call_counter = 0  # Zähler für API-Aufrufe
         
         # Validiere Provider
-        if self.api_provider not in ["openai", "gemini"]:
-            raise ValueError(f"Ungültiger API-Provider: {api_provider}. Erlaubt: openai, gemini")
+        if self.api_provider not in ["openai", "gemini", "anthropic", "mistral", "openrouter"]:
+            raise ValueError(
+                f"Ungültiger API-Provider: {api_provider}. "
+                f"Erlaubt: openai, gemini, anthropic, mistral, openrouter"
+            )
     
     def build_payload(
         self,
@@ -105,7 +108,9 @@ Abstraktionslevel: {granularity}/5"""
         # Provider-spezifische Payload-Generierung
         if self.api_provider == "gemini":
             return self._build_gemini_payload(user_prompt)
-        else:  # openai (default)
+        elif self.api_provider == "anthropic":
+            return self._build_anthropic_payload(user_prompt)
+        else:  # openai / mistral (OpenAI-kompatibel)
             return self._build_openai_payload(user_prompt)
     
     def _build_openai_payload(self, user_prompt: str) -> dict[str, Any]:
@@ -136,6 +141,30 @@ Abstraktionslevel: {granularity}/5"""
         
         return payload
     
+    def _build_anthropic_payload(self, user_prompt: str) -> dict[str, Any]:
+        """
+        Erstellt Payload für Anthropic Messages API.
+
+        Args:
+            user_prompt: User-Prompt-Text
+
+        Returns:
+            Anthropic-kompatible Payload
+        """
+        payload = {
+            "model": self.model,
+            "max_tokens": 8096,
+            "system": self.system_prompt,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": user_prompt
+                }
+            ],
+            "temperature": self.temperature
+        }
+        return payload
+
     def _build_gemini_payload(self, user_prompt: str) -> dict[str, Any]:
         """
         Erstellt Payload für Google Gemini API.
@@ -193,8 +222,15 @@ Abstraktionslevel: {granularity}/5"""
                         parts = candidate["content"]["parts"]
                         if len(parts) > 0 and "text" in parts[0]:
                             return parts[0]["text"]
-            
-            # Standard OpenAI-kompatibles Format
+
+            # Anthropic Messages API Format
+            if self.api_provider == "anthropic":
+                if "content" in response_data and len(response_data["content"]) > 0:
+                    block = response_data["content"][0]
+                    if block.get("type") == "text":
+                        return block["text"]
+
+            # Standard OpenAI-kompatibles Format (auch Mistral)
             if "choices" in response_data and len(response_data["choices"]) > 0:
                 choice = response_data["choices"][0]
                 if "message" in choice:
@@ -305,8 +341,19 @@ Abstraktionslevel: {granularity}/5"""
                     # Gemini: API-Key als Query-Parameter
                     if self.api_key:
                         url = f"{self.full_url}?key={self.api_key}"
+                elif self.api_provider == "anthropic":
+                    # Anthropic: x-api-key Header + anthropic-version
+                    if self.api_key:
+                        headers["x-api-key"] = self.api_key
+                    headers["anthropic-version"] = "2023-06-01"
+                elif self.api_provider == "openrouter":
+                    # OpenRouter: Bearer-Auth + empfohlene Pflicht-Header
+                    if self.api_key:
+                        headers["Authorization"] = f"Bearer {self.api_key}"
+                    headers["HTTP-Referer"] = "https://github.com/triple-colab"
+                    headers["X-Title"] = "triple-colab"
                 else:
-                    # OpenAI: API-Key als Authorization Header
+                    # OpenAI / Mistral: API-Key als Authorization Bearer Header
                     if self.api_key:
                         headers["Authorization"] = f"Bearer {self.api_key}"
                 

@@ -5,3 +5,8 @@ psycopg2-binary>=2.9.0  # Für PostgreSQL
 plotly>=5.18.0
 networkx>=3.2
 # pymysql>=1.1.0  # Optional: Für MySQL
+
+# Hinweis: Anthropic- und Mistral-APIs werden direkt über `requests` aufgerufen.
+# Optionale offizielle SDKs (nicht zwingend erforderlich):
+# anthropic>=0.30.0    # pip install anthropic
+# mistralai>=1.0.0     # pip install mistralai
