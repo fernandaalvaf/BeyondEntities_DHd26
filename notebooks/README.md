@@ -7,8 +7,12 @@ Ein [Jupyter-Notebook](https://docs.jupyter.org/en/latest/) ist ein interaktives
 Die Notebooks greifen auf externe LLM‑Provider (z.B. [Gemini](https://aistudio.google.com/) oder [ChatAI](https://chat-ai.academiccloud.de/)) zu. Dafür benötigen Sie einen persönlichen API‑Key, der in der API‑Konfiguration eingetragen wird. Ohne gültigen API‑Key funktionieren die Abfragen nicht. Bewahren Sie den Schlüssel sicher auf und teilen Sie ihn niemals öffentlich.
 
 ## Provider (Kurzüberblick)
-- **[Gemini (Google)](https://aistudio.google.com/):** Nutzung über den Google‑API‑Key; Base‑URL wird im Notebook automatisch gesetzt.
-- **[ChatAI (AcademicCloud)](https://chat-ai.academiccloud.de/):** Nutzung mit AcademicCloud‑Key; Base‑URL ist im Notebook hinterlegt.
+- **[ChatAI (AcademicCloud)](https://chat-ai.academiccloud.de/):** Nutzung mit AcademicCloud‑Key.
+- **[Gemini (Google)](https://aistudio.google.com/):** Nutzung über den Google‑API‑Key.
+- **[OpenAI](https://platform.openai.com/):** Nutzung über den OpenAI‑API‑Key.
+- **[Anthropic](https://console.anthropic.com/):** Nutzung über den Anthropic‑API‑Key.
+- **[Mistral AI](https://console.mistral.ai/):** Nutzung über den Mistral‑API‑Key.
+- **[OpenRouter](https://openrouter.ai/):** Multi-Provider‑Zugang (Claude, Gemini, Llama, GPT u. a.).
 
 Tipp: Achten Sie darauf, dass der ausgewählte Provider zum Modell passt (Provider‑Konflikt wird vom Notebook geprüft).
 

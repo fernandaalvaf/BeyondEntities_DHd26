@@ -15,8 +15,10 @@ venv/
 ENV/
 env/
 
-# Configuration (enthält API-Keys!)
-pipeline/config.yaml
+# Configuration
+# config.yaml ist jetzt OHNE Keys → darf ins Repo
+# Secrets stehen nur in .env (wird nicht committed)
+.env
 
 # Output-Verzeichnisse (werden lokal generiert)
 pipeline/output_json/*
@@ -46,7 +48,7 @@ pipeline/examples/*
 *~
 
 # Docker
-docker/.env
+# docker/.env nicht mehr nötig → .env liegt im Root
 
 # OS
 .DS_Store

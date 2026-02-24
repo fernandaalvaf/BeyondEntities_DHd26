@@ -50,21 +50,18 @@ copy_beispieldaten() {
 # --- Config prüfen ---
 check_config() {
     if [[ ! -f "${PIPELINE_DIR}/config.yaml" ]]; then
-        warn "Keine config.yaml gefunden."
-        info "Erstelle config.yaml aus Vorlage ..."
-        cp "${PIPELINE_DIR}/config.example.yaml" "${PIPELINE_DIR}/config.yaml"
-        warn "Bitte API-Keys in pipeline/config.yaml eintragen!"
-        warn "Alternativ: docker/.env verwenden (siehe docker/.env.example)"
+        error "Keine pipeline/config.yaml gefunden – bitte Repository aktualisieren (git pull)."
+        exit 1
     fi
 }
 
 # --- .env prüfen ---
 check_env() {
-    if [[ ! -f "${DOCKER_DIR}/.env" ]]; then
-        warn "Keine docker/.env gefunden – verwende nur config.yaml."
-        info "Tipp: cp docker/.env.example docker/.env und Keys eintragen."
+    if [[ ! -f "${SCRIPT_DIR}/.env" ]]; then
+        warn "Keine .env gefunden – API-Keys fehlen!"
+        info "Tipp: cp .env.example .env und Keys eintragen."
         # Leere .env anlegen, damit docker compose nicht warnt
-        touch "${DOCKER_DIR}/.env"
+        touch "${SCRIPT_DIR}/.env"
     fi
 }
 

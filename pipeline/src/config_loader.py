@@ -5,6 +5,14 @@ import os
 import yaml
 from pathlib import Path
 from typing import Any
+from dotenv import load_dotenv
+
+# .env aus Projekt-Root laden (funktioniert lokal + Docker)
+# Sucht .env im aktuellen Verzeichnis und darüber
+_env_path = Path(__file__).resolve().parent.parent.parent / '.env'
+if not _env_path.exists():
+    _env_path = Path(__file__).resolve().parent.parent / '.env'
+load_dotenv(_env_path, override=False)
 
 
 # Mapping: Umgebungsvariable → (Profilname, config-Key)
@@ -62,7 +70,7 @@ def load_config(path: str = "config.yaml") -> dict[str, Any]:
 def _apply_env_overrides(config: dict[str, Any]) -> None:
     """
     Überschreibt API-Keys in der Konfiguration mit Werten aus
-    Umgebungsvariablen (z. B. aus docker/.env).
+    Umgebungsvariablen (aus .env im Projekt-Root).
     Nur gesetzte Variablen werden übernommen.
     """
     profiles = config.get('api', {}).get('profiles', {})

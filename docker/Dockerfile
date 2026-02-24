@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY pipeline/src/          ./src/
 COPY pipeline/prompt.txt    ./prompt.txt
 COPY pipeline/tags_ignore.txt ./tags_ignore.txt
-COPY pipeline/config.example.yaml ./config.example.yaml
+COPY pipeline/config.yaml   ./config.yaml
 
 # ---------- Beispieldaten (Übung 1) ----------
 COPY data/uebung_1/dataset_JeanPaul/       ./analyze/beispieldaten/dataset_JeanPaul/

@@ -12,9 +12,9 @@ services:
       dockerfile: docker/Dockerfile
     container_name: triple-pipeline
 
-    # Umgebungsvariablen aus .env laden
+    # Umgebungsvariablen aus .env laden (Projekt-Root)
     env_file:
-      - .env
+      - ../.env
 
     volumes:
       # Python-Quellcode (Änderungen wirken ohne Image-Rebuild)
@@ -25,7 +25,7 @@ services:
       - ../pipeline/output_json:/app/output_json
       - ../pipeline/csv:/app/csv
       - ../pipeline/logs:/app/logs
-      # Eigene config.yaml einbinden (optional – alternativ ENV-Variablen nutzen)
+      # config.yaml einbinden (liegt jetzt im Repo, Keys kommen aus .env)
       - ../pipeline/config.yaml:/app/config.yaml:ro
 
     # Interaktiver Modus (für Provider-Auswahl)

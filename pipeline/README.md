@@ -4,7 +4,7 @@
 
 ## Features
 
-- **Multi-API-Support**: ChatAI (AcademicCloud) + Google Gemini + OpenAI
+- **Multi-API-Support**: ChatAI (AcademicCloud), Google Gemini, OpenAI, Anthropic, Mistral, OpenRouter
 - **TEI-XML-Optimierung**: 72-87% Token-Ersparnis durch intelligente Metadaten-Extraktion
 - **Rekursive Verarbeitung**: Unterstützt Unterverzeichnisse mit Strukturerhalt
 - **Batch-Verarbeitung**: Skip-Funktion, Limit-Parameter, Fortsetzen unterbrochener Runs
@@ -13,15 +13,18 @@
 ### Feature-Details
 
 #### Multi-API-Support
-Unterstützt drei Anbieter über ein Profil-System in `config.yaml`:
+Unterstützt sechs Anbieter über ein Profil-System in `config.yaml`:
 
 | Profil | Anbieter | Verfügbare Modelle |
 |--------|----------|--------------------|
 | `chatai` | AcademicCloud | `llama-3.3-70b-instruct`, `llama-3.1-sauerkrautlm-70b-instruct`, `mistral-large-3-675b-instruct-2512`, `qwen3-30b-a3b-instruct-2507` |
-| `gemini` | Google | `gemini-3-flash-preview`, `gemini-3.1-pro-preview`, `gemini-2.5-flash`, `gemini-2.5-flash-lite` |
+| `gemini` | Google | `gemini-3-pro-preview`, `gemini-3-flash-preview`, `gemini-2.5-flash`, `gemini-2.5-flash-lite` |
 | `openai` | OpenAI | `gpt-5.2-2025-12-11`, `gpt-4o-mini` |
+| `anthropic` | Anthropic | `claude-sonnet-4-6`, `claude-haiku-4-5` |
+| `mistral` | Mistral AI | `mistral-large-2512`, `mistral-medium-2508`, `mistral-small-2506` |
+| `openrouter` | OpenRouter | Multi-Provider: Claude, Gemini, Llama, GPT u. a. |
 
-Einfacher Wechsel via `active_profile` in config.yaml.
+Auswahl erfolgt interaktiv beim Start oder via `--profile`-Flag.
 
 #### TEI-XML-Optimierung
 Reduziert Token-Verbrauch durch intelligente Extraktion:
@@ -54,12 +57,12 @@ Verhindert Überlastung bei überlasteten APIs und Rate-Limiting.
 ## Schnellstart
 
 ```bash
-# Installation
-pip install -r requirements.txt
+# Installation (im Projekt-Root)
+pip install -r pipeline/requirements.txt
 
-# Konfiguration
-cp config.example.yaml config.yaml
-# Bearbeite config.yaml: API-Profil wählen (chatai/gemini), API-Key setzen
+# API-Keys konfigurieren (im Projekt-Root)
+cp .env.example .env
+# .env öffnen und Keys eintragen
 
 # Einzelnen Brief verarbeiten
 python src/main.py --source file --filename brief.xml --granularity 3
@@ -119,31 +122,36 @@ python src/analyze_themes.py --output csv/themes.csv   # Mit CSV-Export
 
 ## API-Profile (config.yaml)
 
+Die API-Keys stehen **nicht** in `config.yaml`, sondern in der `.env`-Datei im Projekt-Root.
+Siehe `.env.example` für die verfügbaren Variablen.
+
 ```yaml
 api:
-  active_profile: "chatai"  # Wähle: chatai, gemini, openai
-  
   profiles:
     chatai:
       api_provider: "openai"
       base_url: "https://chat-ai.academiccloud.de"
-      endpoint: "/v1/chat/completions"
       model: "llama-3.3-70b-instruct"
-      # Weitere Modelle: llama-3.1-sauerkrautlm-70b-instruct,
-      #   mistral-large-3-675b-instruct-2512, qwen3-30b-a3b-instruct-2507
     gemini:
       api_provider: "gemini"
       base_url: "https://generativelanguage.googleapis.com"
-      endpoint: "/v1beta/models/gemini-2.5-flash-lite:generateContent"
-      model: "gemini-2.5-flash-lite"
-      # Weitere Modelle: gemini-3-flash-preview, gemini-3.1-pro-preview, gemini-2.5-flash
-      # Achtung: endpoint und model müssen zusammen geändert werden!
+      model: "gemini-3-pro-preview"
     openai:
       api_provider: "openai"
       base_url: "https://api.openai.com"
-      endpoint: "/v1/chat/completions"
       model: "gpt-5.2-2025-12-11"
-      # Weitere Modelle: gpt-4o-mini
+    anthropic:
+      api_provider: "anthropic"
+      base_url: "https://api.anthropic.com"
+      model: "claude-sonnet-4-6"
+    mistral:
+      api_provider: "mistral"
+      base_url: "https://api.mistral.ai"
+      model: "mistral-large-2512"
+    openrouter:
+      api_provider: "openrouter"
+      base_url: "https://openrouter.ai/api"
+      model: "anthropic/claude-sonnet-4-6"
 ```
 
 **Temperatur**: Standard 0.3 (konsistent, aber leicht variabel). Einstellbar pro Profil von 0.0–2.0.
@@ -173,6 +181,7 @@ api:
 ## Projektstruktur
 
 ```
+pipeline/
 ├── analyze/              # Input: TEI-XML/TXT-Dateien (mit Unterverzeichnissen)
 ├── output_json/          # Output: JSON + PlantUML + HTML-Graphen
 ├── csv/                  # Exportierte CSV-Dateien
@@ -182,12 +191,15 @@ api:
 │   ├── processor.py      # Verarbeitungs-Pipeline
 │   ├── file_client.py    # TEI-XML-Parser mit Token-Optimierung
 │   ├── db_client.py      # Datenbank-Client (SQLAlchemy)
-│   ├── openwebui_client.py  # Multi-API-Client (OpenAI/Gemini)
+│   ├── openwebui_client.py  # Multi-API-Client
 │   ├── csv_exporter.py   # CSV-Export mit Label-Auflösung
-│   └── config_loader.py  # YAML-Konfiguration
-├── config.yaml           # Konfiguration (nicht im Repo)
-├── config.example.yaml   # Beispiel-Konfiguration
-└── prompt.txt            # LLM-Instruktionen
+│   ├── analyze_themes.py # Themenanalyse
+│   ├── export_csv.py     # CSV-Export-CLI
+│   └── config_loader.py  # YAML-Konfiguration + .env-Laden
+├── config.yaml           # Konfiguration (im Repo, ohne Keys)
+├── prompt.txt            # LLM-Instruktionen
+├── tags_ignore.txt       # XML-Tags, die bei Optimierung entfernt werden
+└── requirements.txt      # Python-Abhängigkeiten
 ```
 
 Vollständige Entwickler-Dokumentation: Siehe `.github/copilot-instructions.md`
