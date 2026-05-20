@@ -1,0 +1,46 @@
+# ============================================================
+# Triple-Extraktion Pipeline – Docker Compose
+# ============================================================
+# Für Docker Desktop GUI:
+#   1. Repository klonen
+#   2. .env anlegen: cp .env.example .env  (dann Keys eintragen)
+#   3. Diese Datei in Docker Desktop öffnen → "Run" klicken
+#
+# Im Terminal:
+#   docker compose run --rm pipeline
+#   docker compose run --rm pipeline --profile anthropic --model claude-haiku-4-5 --limit 5
+# ============================================================
+
+services:
+  pipeline:
+    # Fertig gebautes Image von GitHub Container Registry
+    # Wird automatisch gebaut wenn Code auf 'main' gepusht wird
+    image: ghcr.io/fernandaalvaf/triple-pipeline:latest
+
+    # Fallback: lokal bauen wenn das Image nicht verfügbar ist
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    container_name: triple-pipeline
+
+    # .env liegt im gleichen Verzeichnis wie diese Datei
+    env_file:
+      - .env
+
+    volumes:
+      # Python-Quellcode (Änderungen wirken ohne Image-Rebuild)
+      - ./pipeline/src:/app/src
+      # Eigene XML-Dateien einbinden (Host → Container)
+      - ./pipeline/analyze:/app/analyze
+      # Ergebnisse auf den Host zurückschreiben
+      - ./pipeline/output_json:/app/output_json
+      - ./pipeline/csv:/app/csv
+      - ./pipeline/logs:/app/logs
+      # config.yaml und tags_ignore.txt einbinden (Keys kommen aus .env)
+      - ./pipeline/config.yaml:/app/config.yaml:ro
+      - ./pipeline/tags_ignore.txt:/app/tags_ignore.txt:ro
+
+    # Interaktiver Modus (für Provider-Auswahl)
+    stdin_open: true
+    tty: true

@@ -82,28 +82,52 @@ Für andere Distributionen: [Docker Engine – Unterstützte Plattformen](https:
 
 ## Schnellstart
 
-### 1. Image bauen
+### Option A: Docker Desktop GUI (kein Terminal nötig)
+
+Das Image wird automatisch von GitHub gebaut und ist auf der GitHub Container Registry verfügbar.
+
+**1. Repository klonen**
 
 ```bash
-# Vom Projekt-Root aus:
-docker build -f docker/Dockerfile -t triple-pipeline .
+git clone https://github.com/fernandaalvaf/BeyondEntities_DHd26.git
+cd BeyondEntities_DHd26
 ```
 
-### 2. API-Keys eintragen
+**2. API-Keys einrichten**
 
-```bash
-cp .env.example .env
-```
+*Windows:* `setup.bat` doppelklicken  
+*macOS / Linux:* `bash setup.sh` ausführen
 
-`.env` (im Projekt-Root) öffnen und die gewünschten Keys eintragen, z. B.:
+Dann `.env` im Projektordner öffnen und den gewünschten Key eintragen, z. B.:
 
 ```env
 ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-Die Keys werden automatisch in die `config.yaml` eingesetzt – dort stehen keine Secrets mehr.
+**3. Docker Desktop öffnen → compose.yaml starten**
 
-### 3. Pipeline starten
+- Docker Desktop öffnen
+- Oben rechts: **„+  Add Stack"** oder über **File → Open a local compose file ...**
+- Die Datei **`compose.yaml`** im Projektordner auswählen
+- Auf **„Run"** klicken
+
+Docker Desktop lädt das fertige Image automatisch herunter – kein Bauen nötig.
+
+> **Hinweis:** Die `.env`-Datei muss physisch im Projektordner vorhanden sein, bevor der Container gestartet wird.
+
+---
+
+### Option B: Terminal-Schnellstart
+
+**1. Image ist bereits auf GHCR** – kein manuelles Bauen nötig:
+
+```bash
+cp .env.example .env
+# .env öffnen und API-Key eintragen
+docker compose run --rm pipeline
+```
+
+**2. Oder mit dem interaktiven Wrapper:**
 
 ```bash
 ./run.sh
@@ -113,6 +137,15 @@ Das interaktive Menü fragt nacheinander:
 - welchen **Provider** (ChatAI, Gemini, OpenAI, Anthropic, Mistral, OpenRouter)
 - welches **Modell**
 - ein optionales **Limit** (Anzahl Dateien, Enter = alle)
+
+---
+
+### Image lokal bauen (nur wenn nötig)
+
+```bash
+# Vom Projekt-Root aus:
+docker build -f docker/Dockerfile -t triple-pipeline .
+```
 
 ---
 
@@ -159,18 +192,23 @@ Kopiert die Beispiel-XMLs aus `data/uebung_1/` nach `pipeline/analyze/`.
 
 ```
 triple-colab/
+├── compose.yaml            # ← Docker Desktop öffnet diese Datei
+├── setup.sh / setup.bat    # ← .env einmalig anlegen
 ├── .env.example            # Vorlage für .env (API-Keys)
 ├── .env                    # API-Keys (nicht eingecheckt!)
+├── .github/
+│   └── workflows/
+│       └── docker-publish.yml  # Baut & pusht Image nach GHCR
 ├── docker/
-│   ├── Dockerfile          # Image-Definition
-│   └── docker-compose.yml  # Service-Konfiguration
+│   ├── Dockerfile          # Image-Definition (für lokalen Build)
+│   └── docker-compose.yml  # Alter Compose-Einstiegspunkt (veraltet)
 ├── pipeline/
 │   ├── analyze/            # Eingabe-XMLs (hier eigene Daten ablegen)
 │   ├── output_json/        # JSON-Ergebnisse
 │   ├── csv/                # CSV-Exporte
 │   ├── logs/               # Verarbeitungs-Logs
 │   └── config.yaml         # Konfiguration (ohne Keys, im Repo)
-└── run.sh                  # Wrapper-Skript
+└── run.sh                  # Interaktiver Terminal-Wrapper
 ```
 
 ---
