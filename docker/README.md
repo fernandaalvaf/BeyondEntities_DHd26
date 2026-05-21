@@ -28,7 +28,7 @@ Die Pipeline extrahiert Entitäten, Prädikate und Triples aus historischen Brie
 > - **WSL 2** (empfohlen): Terminal öffnen → `wsl` → ins Projektverzeichnis wechseln → `./run.sh`
 > - **Git Bash**: Rechtsklick im Projektordner → „Git Bash Here" → `./run.sh`
 >
-> Alternativ können die Docker-Befehle direkt in PowerShell ausgeführt werden (siehe [Ohne run.sh](#ohne-runsh)).
+> Für PowerShell/CMD ohne Bash gibt es zusätzlich `run.bat` im Projekt-Root.
 
 ### macOS
 
@@ -133,6 +133,12 @@ docker compose run --rm pipeline
 ./run.sh
 ```
 
+Windows PowerShell/CMD:
+
+```powershell
+run.bat
+```
+
 Das interaktive Menü fragt nacheinander:
 - welchen **Provider** (ChatAI, Gemini, OpenAI, Anthropic, Mistral, OpenRouter)
 - welches **Modell**
@@ -165,6 +171,12 @@ Die Ergebnisse erscheinen in `pipeline/output_json/` – gespiegelte Verzeichnis
 
 ```bash
 ./run.sh --beispieldaten
+```
+
+Windows PowerShell/CMD:
+
+```powershell
+run.bat --beispieldaten
 ```
 
 Kopiert die Beispiel-XMLs aus `data/uebung_1/` nach `pipeline/analyze/`.
@@ -224,7 +236,15 @@ triple-colab/
 
 ## Ohne run.sh
 
-Falls `run.sh` nicht verfügbar ist (z. B. PowerShell unter Windows ohne WSL), können die Docker-Befehle direkt ausgeführt werden:
+Falls `run.sh` nicht verfügbar ist (z. B. PowerShell unter Windows ohne WSL), nutze `run.bat` oder führe die Docker-Befehle direkt aus:
+
+```powershell
+run.bat
+run.bat --beispieldaten
+run.bat --profile anthropic --model claude-haiku-4-5 --limit 5
+```
+
+Direkter Docker-Weg:
 
 ```powershell
 # Image bauen (einmalig, vom Projekt-Root)

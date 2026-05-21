@@ -50,14 +50,24 @@ cd triple-colab
 cp .env.example .env
 # .env öffnen und Keys eintragen
 
-# Starten
+# Starten (Linux/macOS/WSL/Git Bash)
 ./run.sh
+```
+
+Windows PowerShell/CMD (ohne WSL/Git Bash):
+
+```powershell
+copy .env.example .env
+# .env öffnen und Keys eintragen
+
+# Starten
+run.bat
 ```
 
 ### Erste Schritte
 
 ```bash
-# Beispieldaten laden
+# Beispieldaten laden (Linux/macOS/WSL/Git Bash)
 ./run.sh --beispieldaten
 
 # Pipeline starten (interaktive Provider-/Modellauswahl)
@@ -65,6 +75,19 @@ cp .env.example .env
 
 # Oder direkt mit Parametern
 ./run.sh --profile anthropic --model claude-haiku-4-5 --limit 5
+```
+
+Windows PowerShell/CMD (ohne WSL/Git Bash):
+
+```powershell
+# Beispieldaten laden
+run.bat --beispieldaten
+
+# Pipeline starten (interaktiv)
+run.bat
+
+# Direkt mit Parametern
+run.bat --profile anthropic --model claude-haiku-4-5 --limit 5
 ```
 
 ---
@@ -101,6 +124,7 @@ triple-colab/
 ├── README.md                  # ← Du bist hier
 ├── .env.example               # Vorlage für API-Keys
 ├── run.sh                     # Wrapper-Skript (lokal + Docker)
+├── run.bat                    # Wrapper-Skript für Windows (CMD/PowerShell)
 │
 ├── pipeline/                  # Kernkomponente: Extraktions-Pipeline
 │   ├── README.md              # Technische Dokumentation
@@ -182,7 +206,7 @@ TEI-XML/TXT → Token-Optimierung → LLM-Analyse → JSON → HTML-Graph / CSV
 |---------|--------|
 | `docker: command not found` | Docker installieren – siehe [docker/README.md](docker/README.md#docker-installieren) |
 | `run.sh: Permission denied` | `chmod +x run.sh` |
-| `run.sh` startet nicht (Windows) | WSL oder Git Bash verwenden, oder Docker-Befehle direkt in PowerShell – siehe [docker/README.md](docker/README.md#ohne-runsh) |
+| `run.sh` startet nicht (Windows) | Das ist normal ohne Bash. Entweder WSL/Git Bash nutzen oder PowerShell-Befehle verwenden (`docker compose run --rm pipeline` und `Copy-Item ...`) – siehe [docker/README.md](docker/README.md#ohne-runsh) |
 | `Konfigurationsdatei nicht gefunden` | `git pull` – `config.yaml` ist jetzt im Repo |
 | API-Fehler / leere Antworten | `.env` prüfen – Key eingetragen und nicht auskommentiert? |
 | `ModuleNotFoundError: dotenv` | `pip install python-dotenv` oder Docker verwenden |
